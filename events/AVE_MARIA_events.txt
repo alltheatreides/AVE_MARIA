@@ -1,0 +1,1879 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA.1-AVE_MARIA.499                          							   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA
+
+###########################################
+# Maintenance events 1-10	              #
+###########################################
+
+# True Vassals Maintenance event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
+character_event = {
+    id = AVE_MARIA.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            limit = {
+                in_revolt = no
+            }
+            any_vassal = {
+                limit = {
+                    NOR = {
+                        #culture = greek
+                        any_liege = {
+                            AND = {
+                                primary_title = { 
+                                    OR = { 
+                                        title = e_byzantium
+                                        title = e_roman_empire
+                                    }
+                                    has_law = succ_byzantine_elective
+                                }
+                            }
+                            has_law = succ_byzantine_elective
+                        }
+                        tier = baron
+                        government = nomadic_government
+                        has_landed_title = d_mamluks
+                        has_landed_title = d_papal_guards
+                        mercenary = yes
+                    }
+                }
+                liege = {
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                set_defacto_liege = THIS
+            }
+            any_tributary = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            is_tributary = { type = true_vassal_hre }
+                            is_tributary = { type = true_vassal }
+                        }
+                    }
+                }
+                suzerain = {
+                    remove_tributary = PREV
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                liege = {
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                set_defacto_liege = THIS
+            }
+            any_tributary = {
+                limit = {
+                    is_landed = no
+                }
+                suzerain = {
+                    remove_tributary = PREV
+                }
+            }
+        }
+        any_vassal = {
+            limit = {
+                in_revolt = no
+                liege = { in_revolt = no }
+                NOR = {
+                    #culture = greek
+                    any_liege = {
+                        AND = { 
+                            primary_title = { 
+                                OR = { 
+                                    title = e_byzantium
+                                    title = e_roman_empire
+                                }
+                                has_law = succ_byzantine_elective
+                            }
+                        }
+                        has_law = succ_byzantine_elective
+                    }
+                    tier = baron
+                    government = nomadic_government
+                    has_landed_title = d_mamluks
+                    has_landed_title = d_papal_guards
+                    mercenary = yes
+                }
+            }
+            liege = {
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            set_defacto_liege = THIS
+        }
+        any_tributary = {
+            limit = {
+                NOT = {
+                    OR = {
+                        is_tributary = { type = true_vassal_hre }
+                        is_tributary = { type = true_vassal }
+                    }
+                }
+            }
+            suzerain = {
+                remove_tributary = PREV
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            liege = {
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            set_defacto_liege = THIS
+        }
+        any_tributary = {
+            limit = {
+                is_landed = no
+            }
+            suzerain = {
+                remove_tributary = PREV
+            }
+        }
+    }
+
+}
+
+# True Vassals Maintenance event - chaque année pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+character_event = {
+    id = AVE_MARIA.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            if = {
+                limit = {
+                    tier = COUNT
+                    suzerain = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = DUKE
+                    suzerain = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = KING
+                    suzerain = {
+                        OR = {
+							tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+							tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = EMPEROR
+                    suzerain = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+        }
+        if = {
+			limit = {
+				tier = COUNT
+				suzerain = {
+					OR = {
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = DUKE
+				suzerain = {
+					OR = {
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = KING
+				suzerain = {
+					OR = {
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = EMPEROR
+				suzerain = {
+					OR = {
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						tier = KING
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						tier = KING
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+    }
+}
+
+# True Vassals Maintenance event - quand un titre change de main pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+character_event = {
+	id = AVE_MARIA.3
+    hide_window = yes
+    is_triggered_only = yes
+	
+	immediate = {
+		ROOT = {
+			if = {
+                limit = {
+                    tier = COUNT
+                    suzerain = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = DUKE
+                    suzerain = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = KING
+                    suzerain = {
+                        OR = {
+                            tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = EMPEROR
+                    suzerain = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+		}
+	}
+}
+
+# Flag cleaning - à la fin de chaque guerre
+character_event = {
+    id = AVE_MARIA.4
+    hide_window = yes
+    is_triggered_only = yes
+   
+    immediate = {
+        FROM = {
+            clr_character_flag = convoqué_au_ban_offensive
+            clr_character_flag = convoqué_au_ban_defensive
+            clr_character_flag = convocation_au_ban_defensive
+            clr_character_flag = convocation_au_ban_offensif
+            clr_character_flag = join_war_motivated
+            clr_character_flag = join_war_dragging_feets
+            clr_character_flag = target_attacked_vassal
+            clr_character_flag = servitium_debitum
+            any_tributary = {
+                clr_character_flag = convoqué_au_ban_offensive
+                clr_character_flag = convoqué_au_ban_defensive
+                clr_character_flag = convocation_au_ban_defensive
+                clr_character_flag = convocation_au_ban_offensif
+                clr_character_flag = join_war_motivated
+                clr_character_flag = join_war_dragging_feets
+                clr_character_flag = target_attacked_vassal
+                clr_character_flag = servitium_debitum
+            }
+        }
+        ROOT = {
+            clr_character_flag = convoqué_au_ban_offensive
+            clr_character_flag = convoqué_au_ban_defensive
+            clr_character_flag = convocation_au_ban_defensive
+            clr_character_flag = convocation_au_ban_offensif
+            clr_character_flag = join_war_motivated
+            clr_character_flag = join_war_dragging_feets
+            clr_character_flag = target_attacked_vassal
+            clr_character_flag = servitium_debitum
+            any_tributary = {
+                clr_character_flag = convoqué_au_ban_offensive
+                clr_character_flag = convoqué_au_ban_defensive
+                clr_character_flag = convocation_au_ban_defensive
+                clr_character_flag = convocation_au_ban_offensif
+                clr_character_flag = join_war_motivated
+                clr_character_flag = join_war_dragging_feets
+                clr_character_flag = target_attacked_vassal
+                clr_character_flag = servitium_debitum
+            }
+        }
+    }
+}
+
+#Flag creation quand un titre change de main pour quantitifer les hommage lige précédents et la propensité à supporter le seigneur
+
+# Donner un flag gave_homage_to_liege à chaque tributaire au début du jeu pour éviter le spam
+character_event = {
+    id = AVE_MARIA.6
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            any_tributary = {
+                limit = {
+                    OR = {
+                        is_tributary = { type = true_vassal_hre }
+                        is_tributary = { type = true_vassal }
+                        is_tributary = { type = true_vassal_duke_of_normandy }
+                    }
+                }
+                set_character_flag = gave_homage_to_liege
+            }
+        }
+        any_tributary = {
+            limit = {
+                OR = {
+                    is_tributary = { type = true_vassal_hre }
+                    is_tributary = { type = true_vassal }
+                    is_tributary = { type = true_vassal_duke_of_normandy }
+                }
+            }
+            set_character_flag = gave_homage_to_liege
+        }
+    }
+}
+
+# En gavelkind les vassaux ont le choix de jurer fidélité à un des enfants plutot que l'héritier principal
+
+########################################################################################
+#                                         											   #
+# Feudataire-Suzerain events 10-    												   #
+#																					   #
+########################################################################################
+
+###########################################
+# Feudataire-Suzerain events 10-25        #
+# Initialisation of relationships		  #
+###########################################
+
+# Hommage-lige events - Informer le feudataire de la cérémonie lige qui aura lieu
+character_event = {
+    id = AVE_MARIA.10
+    desc = EVTDESC_AVE_MARIA_events.10
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_2
+    }
+    picture = {
+        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
+        picture = GFX_evt_ruler_homage_muslim
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.10
+        set_character_flag = will_swear_fealty
+        hidden_effect = {
+            trait = travelling
+        }
+        ai_chance = {
+            factor = 95
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+        hidden_effect = {
+            suzerain = {
+                character_event = { id = AVE_MARIA.11 days = 5 }
+            }
+        }
+    }
+
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.10
+        set_character_flag = will_not_swear_fealty
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = 25 }
+            }
+        }
+        hidden_effect = {
+            suzerain = {
+                character_event = { id = AVE_MARIA.11 days = 5 }
+            }
+        }
+    }
+
+}
+
+# Hommage-lige events - Informer le seigneur de la cérémonie lige qui aura lieu ou du refus
+character_event = {
+    id = AVE_MARIA.11
+    desc = {
+        trigger = { 
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        text = EVTDESCA_AVE_MARIA_events.11
+    }
+    desc = {
+        trigger = { 
+            FROM = { has_character_flag = will_not_swear_fealty }
+        }
+        text = EVTDESCB_AVE_MARIA_events.11
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_2
+    }
+    picture = {
+        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
+        picture = GFX_evt_ruler_homage_muslim
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.11
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        if = {
+            limit = {
+                FROM = {
+                    tier = COUNT
+                }
+            }
+            wealth = -5
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = DUKE
+                }
+            }
+            wealth = -10
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = KING
+                }
+            }
+            wealth = -20
+        }
+        hidden_effect = {
+            character_event = { id = AVE_MARIA.14 days = 5}
+            FROM = { character_event = { id = AVE_MARIA.13 days = 5} }
+        }
+        ai_chance = {
+            factor = 95
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+    }
+
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.11
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = 25 }
+            }
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = -25
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = -75
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = EMPEROR
+                }
+            }
+            prestige = -100
+        }
+        hidden_effect = {
+            FROM = { character_event = { id = AVE_MARIA.12 days = 5 } }
+        }
+    }
+
+    option = {
+        name = EVTOPTC_AVE_MARIA_events.11
+        trigger = {
+            FROM = { has_character_flag = will_not_swear_fealty }
+        }
+        opinion = {
+            modifier = opinion_refused_homage
+            who = FROM
+            years = -1
+        }
+    }
+
+}
+
+# Hommage-lige events - En cas de refus du seigneur, informer le feudataire
+character_event = {
+    id = AVE_MARIA.12
+    desc = EVTDESC_AVE_MARIA_events.12
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage
+    }
+    picture = {
+        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
+        picture = GFX_evt_ruler_homage_muslim
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.12
+        suzerain = {
+            remove_tributary = ROOT
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = -25
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = -50
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = -100
+        }
+    }
+
+}
+
+# Hommage-lige events - Cérémonie d'hommage pour le feudataire
+character_event = {
+    id = AVE_MARIA.13
+    desc = {
+        trigger = { religion_group = christian }
+        text = EVTDESC_AVE_MARIA_events_christian.13
+    }
+    desc = {
+        trigger = { religion_group = muslim }
+        text = EVTDESC_AVE_MARIA_events_muslim.13
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_3
+    }
+    picture = {
+        trigger = { religion_group = muslim }
+        picture = GFX_evt_ruler_homage_muslim
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    immediate = {
+        clr_character_flag = will_swear_fealty
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.13
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 25
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 50
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 100
+        }
+        character_event = { id = AVE_MARIA.15 days = 5 }
+        set_character_flag = gave_homage_to_liege
+    }
+
+}
+
+# Hommage-lige events - Cérémonie d'hommage pour le liege
+character_event = {
+    id = AVE_MARIA.14
+    #title = TITLE_AVE_MARIA.14
+    desc = {
+        trigger = { religion_group = christian }
+        text = EVTDESC_AVE_MARIA_events_christian.14
+    }
+    desc = {
+        trigger = { religion_group = muslim }
+        text = EVTDESC_AVE_MARIA_events_muslim.14
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_3
+    }
+    picture = {
+        trigger = { religion_group = muslim }
+        picture = GFX_evt_ruler_homage_muslim
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.14
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 5
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 40
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 75
+        }
+    }
+
+}
+
+# Hommage-lige events - Le feudataire rentre chez lui
+character_event = {
+    id = AVE_MARIA.15
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        remove_trait = travelling
+    }
+}
+
+# Vassalisation - Demande - Le suzerain envoie une demande de vassalization
+character_event = {
+    id = AVE_MARIA.16
+    desc = EVTDESC_AVE_MARIA_events.16
+    picture = GFX_evt_ruler_homage
+    is_triggered_only = yes
+    show_from_from = yes
+
+    #The target accepts the offer of vassalization and will have to swear homage
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.16
+        set_character_flag = accepted_vassalization_demand
+        event_target:target_asking_lord = {
+            make_tributary = { who = ROOT tributary_type = true_vassal }
+        }
+        character_event = { id = AVE_MARIA.13 days = 5 }
+        event_target:target_asking_lord = { character_event = { id = AVE_MARIA.14 days = 5 } }
+        event_target:target_asking_lord = { character_event = { id = AVE_MARIA.17 days = 1 } }
+        ai_chance = {
+            factor = 95
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+    }
+
+    # The target refuses
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.16
+        #Nein
+        set_character_flag = refused_vassalization_demand
+        FROM = { character_event = { id = AVE_MARIA.17 days = 1 } }
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = 25 }
+            }
+        }
+    }
+}
+
+# Vassalisation - Demande - Le suzerain reçoit la réponse
+character_event = {
+    id = AVE_MARIA.17
+    desc = {
+        trigger = { FROM = { has_character_flag = accepted_vassalization_demand } }
+        text = EVTDESCA_AVE_MARIA_events.17
+    }
+    desc = {
+        trigger = { FROM = { has_character_flag = refused_vassalization_demand } }
+        text = EVTDESCB_AVE_MARIA_events.17
+    }
+    picture = GFX_evt_ruler_homage
+    is_triggered_only = yes
+    show_from_from = yes
+
+    # Positive answer
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.17
+        trigger = {
+            FROM = { has_character_flag = accepted_vassalization_demand }
+        }
+        FROM = { clr_character_flag = accepted_vassalization_demand }
+        if = {
+            limit = {
+                FROM = {
+                    tier = COUNT
+                }
+            }
+            wealth = -5
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = DUKE
+                }
+            }
+            wealth = -10
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = KING
+                }
+            }
+            wealth = -20
+        }
+    }
+
+    #Negative Answer
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.17
+        trigger = {
+            FROM = { has_character_flag = refused_vassalization_demand }
+        }
+        FROM = { clr_character_flag = refused_vassalization_demand }
+    }
+}
+
+# Vassalisation - Offre - Le landed envoie une offre de vassalization au futur seigneur (ou pas)
+character_event = {
+    id = AVE_MARIA.18
+    desc = EVTDESC_AVE_MARIA_events.18
+    picture = GFX_evt_ruler_homage
+    is_triggered_only = yes
+    show_from_from = yes
+
+    #The lord accepts the offer of vassalization and landed will have to swear homage
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.18
+        ROOT = {
+            make_tributary = { who = event_target:target_asking_vassal tributary_type = true_vassal }
+        }
+        set_character_flag = accepted_vassalization_offer
+        character_event = { id = AVE_MARIA.14 days = 5 }
+        event_target:target_asking_vassal = {
+            character_event = { id = AVE_MARIA.19 days = 1 }
+            character_event = { id = AVE_MARIA.13 days = 5 }
+        }
+        ai_chance = {
+            factor = 95
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+    }
+
+    # The lord refuses
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.18
+        set_character_flag = refused_vassalization_offer
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = 25 }
+            }
+        }
+    }
+}
+
+# Vassalisation - Offre - Le landed reçoit la réponse
+character_event = {
+    id = AVE_MARIA.19
+    desc = {
+        trigger = { FROM = { has_character_flag = accepted_vassalization_offer } }
+        text = EVTDESCA_AVE_MARIA_events.19
+    }
+    desc = {
+        trigger = { FROM = { has_character_flag = refused_vassalization_offer } }
+        text = EVTDESCB_AVE_MARIA_events.19
+    }
+    picture = GFX_evt_ruler_homage
+    is_triggered_only = yes
+    show_from_from = yes
+
+    # Positive answer
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.19
+        trigger = {
+            FROM = { has_character_flag = accepted_vassalization_offer }
+        }
+        FROM = { clr_character_flag = accepted_vassalization_offer }
+    }
+
+    #Negative Answer
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.19
+        trigger = {
+            FROM = { has_character_flag = refused_vassalization_offer }
+        }
+        FROM = { clr_character_flag = refused_vassalization_offer }
+    }
+}
+
+
+###########################################
+# Feudataire-Suzerain events 25-60        #
+# Obligations							  #
+###########################################
+
+# Military obligations - Offensive War - Suzerain summons all vassals - Vassal choose amount of troop to send
+character_event = {
+    id = AVE_MARIA.25
+    desc = EVTDESC_AVE_MARIA_events.25
+    is_triggered_only = yes
+    border = GFX_event_normal_frame_war
+
+    trigger = {
+        has_character_flag = servitium_debitum
+    }
+
+    immediate = {
+        save_event_target_as = target_servitium_debitum
+        FROM = {
+            save_event_target_as = target_receiver_of_servitium_debitum
+        }
+    }
+
+    ##They will join the war when they like you enough
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.25
+        join_attacker_wars = FROM
+        ai_chance = {
+            factor = 9
+            modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+    }
+
+    #Customary according the the laws when they are neutral
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.6
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops_spawned
+                    }
+                }
+            }
+        }
+        any_demesne_province = {
+            any_province_holding = {
+                add_holding_modifier = {
+                    modifier = servitium_debitum
+                    years = -1
+                    stacking = yes
+                }
+            }
+        }
+        hidden_tooltip = {
+            export_to_variable = { which = servitium_debitum_troop_number value = realm_levies }
+        }
+        ai_chance = {
+            factor = 80
+        }
+    }
+
+    ##Minimum when they do not like you or are the normands
+    option = {
+        name = EVTOPTC_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.1
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops
+                    }
+                }
+            }
+        }
+        any_demesne_province = {
+            any_province_holding = {
+                add_holding_modifier = {
+                    modifier = servitium_debitum
+                    years = -1
+                    stacking = yes
+                }
+            }
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+               
+            }
+        }
+    }
+
+    ##Nothing, they are in feudal breach the motherfuckers
+    option = {
+        name = EVTOPTD_AVE_MARIA_events.25
+        set_character_flag = feudal_breach
+        ai_chance = {
+            factor = 1
+            modifier = {
+                
+            }
+        }
+    }
+}
+
+# Military obligations - Offensive War - Suzerain summons all vassals - Vassal choose who lead the troops
+
+# Military obligations - Offensive War - Destruction of the mercenary band and coming back home for the ban leader
+character_event = {
+    id = AVE_MARIA.27
+    is_triggered_only = yes
+    hide_window = yes
+
+    immediate = {
+        FROM = {
+            disband_event_forces = servitium_debitum_troops_spawned
+            any_demesne_province = {
+                any_province_holding = {
+                    remove_holding_modifier = servitium_debitum
+                }
+            }
+        }
+        ROOT = {
+            disband_event_forces = servitium_debitum_troops_spawned
+            any_demesne_province = {
+                any_province_holding = {
+                    remove_holding_modifier = servitium_debitum
+                }
+            }
+        }
+    }
+}
+
+# Military obligations - Offensive War - Suzerain summons ONE vassal from targetted decision
+character_event = {
+    id = AVE_MARIA.28
+    desc = EVTDESC_AVE_MARIA_events.25
+    is_triggered_only = yes
+    border = GFX_event_normal_frame_war
+
+    immediate = {
+        save_event_target_as = target_servitium_debitum
+    }
+
+    ##They will join the war when they like you enough
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.25
+        join_attacker_wars = event_target:target_receiver_of_servitium_debitum
+        ai_chance = {
+            factor = 9
+            modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+    }
+
+    #Customary according the the laws when they are neutral
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.8
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops_spawned
+                    }
+                }
+            }
+        }
+        any_holding = {
+            add_holding_modifier = servitium_debitum
+        }
+        hidden_tooltip = {
+            export_to_variable = { which = servitium_debitum_troop_number value = realm_levies }
+        }
+        ai_chance = {
+            factor = 80
+        }
+    }
+
+    ##Minimum when they do not like you or are the normands
+    option = {
+        name = EVTOPTC_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.1
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops
+                    }
+                }
+            }
+        }
+        any_holding = {
+            add_holding_modifier = servitium_debitum
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+               
+            }
+        }
+    }
+
+    ##Nothing, they are in feudal breach the motherfuckers
+    option = {
+        name = EVTOPTD_AVE_MARIA_events.25
+        set_character_flag = feudal_breach
+        ai_chance = {
+            factor = 1
+            modifier = {
+                
+            }
+        }
+    }
+}
+
+
+# Military obligations - Defensive War - Suzerain summons all vassals
+character_event = {
+    id = AVE_MARIA.29
+    desc = EVTDESC_AVE_MARIA.29
+    picture = GFX_evt_ruler_listening_to_supplicant
+    border = GFX_event_normal_frame_war
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        
+    }
+
+    immediate = {
+        any_tributary = {
+            limit = {
+                has_character_flag = target_attacked_vassal
+            }
+            save_event_target_as = target_attacked_vassal
+        }
+        any_tributary = {
+            limit = {
+                OR = {
+                    is_tributary = { type = true_vassal suzerain = FROM }
+                    is_tributary = { type = true_vassal_hre suzerain = FROM }
+                }
+            }
+            set_character_flag = convoqué_au_ban_defensive
+            character_event = {
+                id = AVE_MARIA.31
+                days = 5
+            }
+        }
+    }
+}
+
+# Military obligations - Defensive War - Suzerain summons ONE vassal from targetted decision
+character_event = {
+    id = AVE_MARIA.30
+    desc = EVTDESC_AVE_MARIA.30
+    hide_window = yes
+    is_triggered_only = yes
+}
+
+
+# Military obligations - Defensive War - Vassals receive summons
+character_event = {
+    id = AVE_MARIA.31
+    desc = EVTDESC_AVE_MARIA.31
+    picture = GFX_evt_battle
+    border = GFX_event_normal_frame_war
+    is_triggered_only = yes
+
+    trigger = {
+        has_character_flag = convoqué_au_ban_defensive
+    }
+
+    
+    ##They will join the war when they like you enough
+    option = {
+        name = EVTOPTA_AVE_MARIA_events.25
+        join_defender_wars = event_target:target_attacked_vassal
+        ai_chance = {
+            factor = 9
+            modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+    }
+
+    #Customary according the the laws when they are neutral
+    option = {
+        name = EVTOPTB_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.6
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops_spawned
+                    }
+                }
+            }
+        }
+        any_holding = {
+            add_holding_modifier = servitium_debitum
+        }
+        hidden_tooltip = {
+            export_to_variable = { which = servitium_debitum_troop_number value = realm_levies }
+        }
+        ai_chance = {
+            factor = 80
+        }
+    }
+
+    ##Minimum when they do not like you or are the normands
+    option = {
+        name = EVTOPTC_AVE_MARIA_events.25
+        event_target:target_receiver_of_servitium_debitum = {
+            capital_scope = {
+                event_target:target_receiver_of_servitium_debitum = {
+                    spawn_unit = {
+                        owner = event_target:target_receiver_of_servitium_debitum
+                        province = PREV
+                        home = PREV
+                        match_character = ROOT
+                        match_mult = 0.1
+                        attrition = 1.0
+                        disband_on_peace = yes
+                        earmark = servitium_debitum_troops
+                    }
+                }
+            }
+        }
+        any_holding = {
+            add_holding_modifier = servitium_debitum
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+               
+            }
+        }
+    }
+    
+    option = { #Refuse and breach vassalage contract
+        name = EVTOPTC_case1_true_vassals.2
+        set_character_flag = feudal_breach     
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 0
+                OR = {
+
+               }
+            }
+        }
+    }
+
+}
+
+# Monetary obligations - Suzerain's son armed knight - Suzerain event
+
+# Monetary obligations - Suzerain's son armed knight - Vassals event
+
+# Monetary obligations - Suzerain's son armed knight - Suzerain receive vassals response
+
+# Monetary obligations - Suzerain's daughter marrying - Suzerain event
+
+# Monetary obligations - Suzerain's daughter marrying - Vassals event
+
+# Monetary obligations - Suzerain's daughter marrying - Suzerain receive vassals response
+
+# Monetary obligations - Suzerain's ransom - Suzerain event
+
+# Monetary obligations - Suzerain's ransom - Vassals event
+
+# Monetary obligations - Suzerain's ransom - Suzerain receive vassals response
+
+# Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain event
+
+# Monetary obligations - Suzerain's crusade/pilgrimage - Vassals event
+
+# Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain receive vassals response
+
+
+###########################################
+# Kingdom Creation Events 60-80           #
+#           							  #
+###########################################
+
+# Creation - Royaume de Bretagne
+narrative_event = {
+    id = AVE_MARIA.60
+    desc = EVTDESCA_AVE_MARIA_events.60
+    is_triggered_only = yes
+
+    picture = GFX_evt_coronation
+
+    option = {
+		name = EVTOPTA_AVE_MARIA_60
+		hidden_tooltip = {
+			primary_title = {
+				d_brittany = { de_jure_liege = k_brittany }
+			}
+		}
+		k_brittany = {
+			usurp_title = ROOT
+			copy_title_laws = d_brittany
+			copy_title_history = d_brittany
+		}
+		d_brittany = {
+			destroy_landed_title = THIS
+		}
+	}
+}
+
+# Creation - Royaume d'Aquitaine
+
+# Creation - Royaume de Bavière
+
+# Creation - 
+
+
+########################################################################################
+#                                         											   #
+# Education events 80                                                                  #
+#																					   #
+########################################################################################
+
+###########################################
+# Martial Education Events                #
+# Western Europe						  #
+###########################################
+
+# Donner un trait de maitrise des armes à tous les personnages du début selon leur martial
+character_event = {
+    id = AVE_MARIA.80
+    hide_window = yes
+	is_triggered_only = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_character = {
+            if = {
+                limit = {
+                    NOT = { is_female = yes }
+                    OR = {
+                        culture_group = north_germanic
+                        culture_group = central_germanic
+                        culture_group = west_germanic
+                        culture_group = latin
+                        culture_group = iberian
+                        culture_group = celtic
+                        culture_group = finno_ugric
+                        culture_group = baltic
+                        culture_group = east_slavic
+                        culture_group = west_slavic
+                        culture_group = south_slavic
+                        culture_group = magyar
+                        culture_group = israelite
+                    }
+                }
+                if = {
+                    limit = {
+                        martial = 12
+                        NOT = { 
+                            trait = western_martial_arts_1
+                            trait = western_martial_arts_2
+                            trait = western_martial_arts_3
+                            trait = western_martial_arts_4
+                        }
+                    }
+                    add_trait = western_martial_arts_5
+                }
+                else_if = {
+                    limit = {
+                        martial >= 10
+                        martial < 12
+                        NOT = { 
+                            trait = western_martial_arts_1
+                            trait = western_martial_arts_2
+                            trait = western_martial_arts_3
+                        }
+                    }
+                    add_trait = western_martial_arts_4
+                }
+                else_if = {
+                    limit = {
+                        martial >= 8
+                        martial < 10
+                        NOT = { 
+                            trait = western_martial_arts_1
+                            trait = western_martial_arts_2
+                            trait = western_martial_arts_3
+                        }
+                    }
+                    add_trait = western_martial_arts_3
+                }
+                else_if = {
+                    limit = {
+                        martial >= 6
+                        martial < 8
+                        NOT = { 
+                            trait = western_martial_arts_1
+                            trait = western_martial_arts_2
+                        }
+                    }
+                    add_trait = western_martial_arts_2
+                }
+                else_if = {
+                    limit = {
+                        martial > 1
+                        martial <= 5
+                        NOT = { 
+                            trait = western_martial_arts_1
+                        }
+                    }
+                    add_trait = western_martial_arts_1
+                }
+            }
+            if = {
+                limit = {
+                    OR = {
+                        culture_group = byzantine
+                    }
+                    NOT = { is_female = yes }
+                }
+                if = {
+                    limit = {
+                        martial = 12
+                        NOT = { 
+                            trait = roman_martial_arts_1
+                            trait = roman_martial_arts_2
+                            trait = roman_martial_arts_3
+                            trait = roman_martial_arts_4
+                        }
+                    }
+                    add_trait = roman_martial_arts_5
+                }
+                else_if = {
+                    limit = {
+                        martial >= 10
+                        martial < 12
+                        NOT = { 
+                            trait = roman_martial_arts_1
+                            trait = roman_martial_arts_2
+                            trait = roman_martial_arts_3
+                        }
+                    }
+                    add_trait = roman_martial_arts_4
+                }
+                else_if = {
+                    limit = {
+                        martial >= 8
+                        martial < 10
+                        NOT = { 
+                            trait = roman_martial_arts_1
+                            trait = roman_martial_arts_2
+                            trait = roman_martial_arts_3
+                        }
+                    }
+                    add_trait = roman_martial_arts_3
+                }
+                else_if = {
+                    limit = {
+                        martial >= 6
+                        martial < 8
+                        NOT = { 
+                            trait = roman_martial_arts_1
+                            trait = roman_martial_arts_2
+                        }
+                    }
+                    add_trait = roman_martial_arts_2
+                }
+                else_if = {
+                    limit = {
+                        martial > 1
+                        martial <= 5
+                        NOT = { 
+                            trait = roman_martial_arts_1
+                        }
+                    }
+                    add_trait = roman_martial_arts_1
+                }
+            }
+            if = {
+                limit = {
+                    OR = {
+                        culture_group = arabic
+                        culture_group = iranian
+                        culture_group = east_african
+                        culture_group = central_african
+                        culture_group = west_african
+                    }
+                    NOT = { is_female = yes }
+                }
+                if = {
+                    limit = {
+                        martial = 12
+                        NOT = { 
+                            trait = eastern_martial_arts_1
+                            trait = eastern_martial_arts_2
+                            trait = eastern_martial_arts_3
+                            trait = eastern_martial_arts_4
+                        }
+                    }
+                    add_trait = eastern_martial_arts_5
+                }
+                else_if = {
+                    limit = {
+                        martial >= 10
+                        martial < 12
+                        NOT = { 
+                            trait = eastern_martial_arts_1
+                            trait = eastern_martial_arts_2
+                            trait = eastern_martial_arts_3
+                        }
+                    }
+                    add_trait = eastern_martial_arts_4
+                }
+                else_if = {
+                    limit = {
+                        martial >= 8
+                        martial < 10
+                        NOT = { 
+                            trait = eastern_martial_arts_1
+                            trait = eastern_martial_arts_2
+                            trait = eastern_martial_arts_3
+                        }
+                    }
+                    add_trait = eastern_martial_arts_3
+                }
+                else_if = {
+                    limit = {
+                        martial >= 6
+                        martial < 8
+                        NOT = { 
+                            trait = eastern_martial_arts_1
+                            trait = eastern_martial_arts_2
+                        }
+                    }
+                    add_trait = eastern_martial_arts_2
+                }
+                else_if = {
+                    limit = {
+                        martial > 1
+                        martial <= 5
+                        NOT = { 
+                            trait = eastern_martial_arts_1
+                        }
+                    }
+                    add_trait = eastern_martial_arts_1
+                }
+            }
+            if = {
+                limit = {
+                    OR = {
+                        culture_group = altaic
+                        culture_group = indo_aryan_group
+                        culture_group = dravidian_group
+                        culture_group = tibetan_group
+                        culture_group = chinese_group
+                    }
+                    NOT = { is_female = yes }
+                }
+                if = {
+                    limit = {
+                        martial = 12
+                        NOT = { 
+                            trait = steppe_martial_arts_1
+                            trait = steppe_martial_arts_2
+                            trait = steppe_martial_arts_3
+                            trait = steppe_martial_arts_4
+                        }
+                    }
+                    add_trait = steppe_martial_arts_5
+                }
+                else_if = {
+                    limit = {
+                        martial >= 10
+                        martial < 12
+                        NOT = { 
+                            trait = steppe_martial_arts_1
+                            trait = steppe_martial_arts_2
+                            trait = steppe_martial_arts_3
+                        }
+                    }
+                    add_trait = steppe_martial_arts_4
+                }
+                else_if = {
+                    limit = {
+                        martial >= 8
+                        martial < 10
+                        NOT = { 
+                            trait = steppe_martial_arts_1
+                            trait = steppe_martial_arts_2
+                            trait = steppe_martial_arts_3
+                        }
+                    }
+                    add_trait = steppe_martial_arts_3
+                }
+                else_if = {
+                    limit = {
+                        martial >= 6
+                        martial < 8
+                        NOT = { 
+                            trait = steppe_martial_arts_1
+                            trait = steppe_martial_arts_2
+                        }
+                    }
+                    add_trait = steppe_martial_arts_2
+                }
+                else_if = {
+                    limit = {
+                        martial > 1
+                        martial <= 5
+                        NOT = { 
+                            trait = steppe_martial_arts_1
+                        }
+                    }
+                    add_trait = steppe_martial_arts_1
+                }
+            }
+        }
+    }
+}
+
+# L'enfant apprend à monter à cheval
+
+# L'enfant apprend le métier des armes
+
+# L'enfant
+
+

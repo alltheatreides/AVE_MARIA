@@ -1,0 +1,42 @@
+##################################################
+#
+# STRATEGIC EFFECTS - A.K.A. "TRIGGERED MODIFIERS"
+#
+##################################################
+
+# Military Service
+servitium_debitum = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		
+	}
+	
+	icon = 31
+	
+	levy_size = -0.8
+	levy_reinforce_rate = -0.8
+	
+	active = no
+}
+
+# Poor comm
+far_away_province = {
+	potential = {
+		is_ruler = yes
+	}
+	
+	trigger = {
+		
+	}
+	
+	icon = 31
+	
+	levy_size = -0.9
+	levy_reinforce_rate = -0.9
+	tax_income = -0.9
+	
+	active = no
+}
