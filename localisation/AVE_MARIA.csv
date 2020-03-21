@@ -1,0 +1,424 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+TRUE_VASSAL_NAME;Vassal;Vassal;Tributstaat;;Estado tributario;;;;;;;;;x
+TRUE_VASSAL_PLURAL;Vassaux;Vassaux;Tributstaaten;;Estados tributarios;;;;;;;;;x
+SUZERAIN_DEFAULT_NAME;Suzerain;Suzerain;Suzerän;;Soberano;;;;;;;;;x
+SUZERAIN_TRUE_VASSAL_NAME;Suzerain;Souverain;Dauerhafter Suzerän;;Soberano permanente;;;;;;;;;x
+##Decisions;;;;;;;;;;;;;;x
+convocation_au_ban_offensif;Summon Our Vassals to War;Convocation Du Ban;;;;;;;;;;;;x
+convocation_au_ban_offensif_desc;It is time for us to call the ban and order our direct vassals to prepare for war. They will provide troops as per the customs of our land.;;;;;;;;;;;;;x
+convocation_au_ban_defensive;Summon Our Vassals for the Defense of the Realm;Convocation Du Ban;;;;;;;;;;;;x
+convocation_au_ban_defensive_desc;The realm is now under attack and it is time for us to call the ban and order our direct vassals to prepare for war to repel the invaders. They will provide troops as per the customs of our land.;;;;;;;;;;;;;x
+appel_au_ban;Our direct Vassals will receive a call to war;;;;;;;;;;;;;x
+conscript_merchant_ships;Conscript Merchant Ships;;;;;;;;;;;;;x
+conscript_merchant_ships_desc;Conscript Merchant Shipping;;;;;;;;;;;;;x
+true_vassals_hommage;Pledge Homage to my Suzerain;;;;;;;;;;;;;x
+homage;I will pledge my oath of homage to my suzerain as is the custom.;;;;;;;;;;;;;x
+offer_vassalage;Offer Vassalization;;;;;;;;;;;;;x
+offer_vassalage_desc;We can convince [Root.GetTitledName] to swear homage to us and enter into a liege contract.;;;;;;;;;;;;;x
+swear_fealty_true_vassal;Offer Vassalage;;;;;;;;;;;;;x
+swear_fealty_true_vassal_desc;We can offer [Root.GetTitledName] to accept our homage and enter into a liege contract with him.;;;;;;;;;;;;;x
+set_up_vassal;Give Landed Title;;;;;;;;;;;;;x
+create_kingdom_k_brittany;Claim the title of King of Brittany;;;;;;;;;;;;;x
+appel_du_ban;Call to Arms;;;;;;;;;;;;;x
+##Traits;;;;;;;;;;;;;;x
+imperial_fleet_commander;Fleet Admiral;;;;;;;;;;;;;x
+imperial_fleet_commander_desc;This character is trained in ship warfare and is less suited to leading troops on land.;;;;;;;;;;;;;x
+warveteranht;War Veteran;;;;;;;;;;;;;x
+warveteranht_desc;This character has been victorious in 3 or more major battless.;;;;;;;;;;;;;x
+warveteranht5;War Veteran;;;;;;;;;;;;x;
+warveteranht5_desc;This character has been victorious in 5 or more major battles.;;;;;;;;;;;;;x
+warveteranht10;War Veteran;;;;;;;;;;;;;x
+warveteranht10_desc;This character has been victorious in 10 or more major battles.;;;;;;;;;;;;;x
+warveteranht15;War Veteran;;;;;;;;;;;;;x
+warveteranht15_desc;This character has been victorious in 15 or more major battles.;;;;;;;;;;;;;x
+warveteranht20;War Veteran;;;;;;;;;;;;;x
+warveteranht20_desc;This character has been victorious in 20 or more major battles.;;;;;;;;;;;;;x
+warveteranht25;War Veteran;;;;;;;;;;;;;x
+warveteranht25_desc;This character has been victorious in 25 or more major battles.;;;;;;;;;;;;;x
+roman_imperial_bureaucrat_government;Theme;;;;;;;;;;;;;x
+roman_imperial_bureaucrat_government_desc;The themes or themata are the main military/administrative divisions of the Eastern Roman Empire.  The original theme system underwent significant changes and they are now more of a garrison force as the central tagmatic armies have gathered importance;;;;;;;;;;;;;x
+d_tagmata;Imperial Tagmata;;;;;;;;;;;;;x 
+d_tagmata2;Imperial Tagmata;;;;;;;;;;;;;x 
+d_imperial_fleet;Imperial Fleet;;;;;;;;;;;;;x 
+d_imperial_fleet2;Imperial Fleet;;;;;;;;;;;;;x 
+d_imperial_fleet3;Imperial Fleet;;;;;;;;;;;;;x 
+d_alexandrian_fleet;Alexandrian Fleet;;;;;;;;;;;;;x 
+d_syrian_fleet;Syrian Fleet;;;;;;;;;;;;;x 
+enlarge_tagmata;Enlarge the Tagmata;;;;;;;;;;;;;x 
+enlarge_tagmata_desc;The Imperial Tagmata have served well as the core of our army, but they are far too small to be used aggressively in battle. You could expand them if you have the necessary funds.;;;;;;;;;;;;;x 
+RETTYPE_CUL_BYZ2;Cataphract Lancer;;;;;;;;;;;;;x
+RETTYPE_GREEK_INFANTRY;Greek Heavy Infantry;;;;;;;;;;;;;x
+RETTYPE_GREEK_INFANTRY2;Greek Phalanx;;;;;;;;;;;;;x
+RETTYPE_MENAULION;Menaulion;;;;;;;;;;;;;x
+RETTYPE_AKRITOI;Akritoi;;;;;;;;;;;;;x
+abdicate_throne;Abdicate the Throne;;;;;;;;;;;;;x
+abdicate_throne_desc;As absolute monarch, you may abdicate your throne and all of your titles to your current heir, provided they are of your dynasty. Once the abdication is complete, you will continue playing as your current heir.;;;;;;;;;;;;;x
+abd_ask;Will gain all of your titles and ascend the throne;;;;;;;;;;;;;x
+ABD.001.DESC;Your liege has decided to offer you the throne as they have chosen to abdicate;;;;;;;;;;;;;x
+ABD.001.A;I accept this tremendous honour;;;;;;;;;;;;;x
+ABD.002.DESC;[From.GetTitledName] has accepted your gracious offer of abdication, and assumes your throne and all titles forthwith;;;;;;;;;;;;;x
+ABD.002.A;So be it;;;;;;;;;;;;;x
+#### BUILDINGS;;;;;;;;;;;;;;x
+tp_rome_wall_6;Aurelian Walls;Mur d'Aurélien;Aurelianische Mauer;;Murallas aurelianas;;;;;;;;;x
+tp_rome_wall_6_desc;The Aurelian Walls are a line of city walls in Rome built during the reign of the Roman Emperors Aurelian and Probus.;Le mur d'Aurélien est une enceinte fortifiée antique protégeant la ville de Rome, en Italie, construite entre 271 et 282, sous le règne des empereurs Aurélien et Probus.;Die Aurelianische Mauer ist die bedeutendste Stadtmauer von Rom, deren erste Bauphase unter Kaiser Aurelian (270–275) begonnen und unter Kaiser Probus (276–282) vollendet wurde.;;Las murallas aurelianas son una construcción militar de carácter defensivo construida en la ciudad de Roma por el emperador Aureliano.El propósito de su construcción fue defender Roma de las invasiones bárbaras, que comenzaron a partir del año 271 d. C.;;;;;;;;;x
+tp_rome_colosseum;Flavian Amphitheatre; Amphithéâtre flavien;Kolosseum;;Anfiteatro Flavio;;;;;;;;;x
+tp_rome_colosseum_desc;The Flavian Amphitheatre was the largest amphitheatre of the Roman Empire, and is considered one of the greatest works of Roman architecture and engineering.;Le Colisée, à l'origine amphithéâtre Flavien, est un immense amphithéâtre elliptique situé dans le centre de la ville de Rome,le plus grand jamais construit dans l'empire romain. ;Das Kolosseum ist das größte der im antiken Rom erbauten Amphitheater und der größte geschlossene Bau der römischen Antike.;;El Coliseo es el mayor de los incorporados en el antiguo anfiteatro de Roma y el edificio más grande de la antigua Roma.;;;;;;;;;x
+tp_memphis_necropolis;Necropolis of Memphis;Saqqarah;Sakkara;;Saqqara;;;;;;;;;x
+tp_memphis_necropolis_desc;This complex of ancient monuments includes the three pyramid complexes known as the Great Pyramids and the massive sculpture known as the Great Sphinx.;Saqqarah est une vaste nécropole de la région de Memphis.;Sakkara ist eine bedeutende altägyptische Nekropole am westlichen Nilufer.;;Saqqara es el emplazamiento de la necrópolis principal de la ciudad de Menfis, en la ribera occidental del Nilo.;;;;;;;;;x 
+tp_hag_hagiasophia;Hagia Sophia;Sainte-Sophie;Hagia Sophia;;Santa Sofía;;;;;;;;;x
+tp_hag_hagiasophia_desc;Hagia Sophia is a Greek Orthodox patriarchal basilica, it serves as an Eastern Orthodox cathedral and seat of the Patriarchate of Constantinople.;La Sainte-Sophie est une basillique patricacale othodoxe servant comme une cthedrale othordoxe Son esplanade est à la mesure de la gloire de Byzance. Souvent surnommée la Grande Église, la basilique est dédiée au Christ; Die Hagia Sophia, das letzte große Bauwerk der Spätantike, war die Hauptkirche des Byzantinischen Reiches und religiöser Mittelpunkt der Orthodoxie.;;Santa Madre Sofía o Hagia Sophia es una basílica patriarcal ortodoxa.;;;;;;;;;x 
+ca_athens_acropolis;Acropolis of Athens;Acropole d'Athènes;Akropolis;;Acrópolis de Atenas;;;;;;;;;x
+ca_athens_acropolis_desc;The Acropolis of Athens is an ancient citadel located on a high rocky outcrop above the city of Athens and containing the remains of several ancient buildings of great architectural and historic significance, the most famous being the Parthenon.;Pendant l'Antiquité, elle fait office de vaste sanctuaire pour le culte de la déesse Athéna et de nombreux autres dieux de la mythologie grecque, avec plusieurs temples dont l'Érechthéion et le temple d'Athéna Nikè.;Die Akropolis von Athen ist eine alte Burg auf einem hohen Felsen über der Stadt Athen und befindetmit den Überresten von mehreren alten Gebäuden von großem architektonischen und historischen Bedeutung, die bekanntesten sind der Parthenon.;;La Acrópolis de Atenas puede considerarse la más representativa de las acrópolis griegas. La acrópolis era, literalmente, la ciudad alta1 y estaba presente en la mayoría de las ciudades griegas, con una doble función: defensiva y como sede de los principales lugares de culto.;;;;;;;;;x
+tp_jeru_holysep;Church of the Holy Sepulchre;Église du Saint-Sépulcre;Grabeskirche;;Santo Sepulcro;;;;;;;;;x
+tp_jeru_holysep_desc;The site of the Church of the Holy Sepulchre is venerated as Golgotha, where Jesus of Nazareth was crucified, and is said also to contain the place where Jesus was buried.;Il s’agit d'un sanctuaire englobant le lieu de la crucifixion (le Golgotha) ainsi que la grotte où le corps du Christ fut déposé après sa mort.;Als Grabeskirche oder Kirche vom heiligen Grab wird die Kirche in der Altstadt Jerusalems bezeichnet, die sich an der überlieferten Stelle der Kreuzigung und des Grabes Jesu befindet. Die Grabeskirche zählt zu den größten Heiligtümern des Christentums.;;El lugar, llamado también Gólgota , es el punto exacto donde —según los Evangelios— se produjo la Crucifixión, enterramiento y Resurrección de Cristo. ;;;;;;;;;x
+tp_jeru_dome;Dome of the Rock;Dôme du Rocher;Felsendom;;Cúpula de la Roca;;;;;;;;;x
+tp_jeru_dome_desc;The Dome of the Rock is a shrine located on the Temple Mount in the Old City of Jerusalem. The site's significance stems from religious traditions regarding the rock, known as the Foundation Stone, at its heart, which bears great significance for Jews, Christians and Muslims.;Le Dôme du Rocher abrite le « Rocher de la Fondation », endroit où, selon la tradition musulmane, Mahomet serait arrivé depuis La Mecque, lors de l'Isra, ou voyage nocturne et d'où il serait monté au paradis, en chevauchant sa monture Bouraq.;Nach der islamischen Tradition soll Mohammed von diesem Felsen aus die Himmelfahrt und seine Begegnung mit den früheren Propheten des Judentums und Jesus angetreten haben.  ;;La Cúpula de la Roca o el Domo de la Roca es un monumento islámico situado en Jerusalén, en el centro del Monte del Templo. Los musulmanes creen que la roca que se encuentra en el centro de la Cúpula es el punto desde el cual Mahoma ascendió a los cielos para reunirse con Dios, acompañado por el ángel Gabriel.;;;;;;;;;x
+tp_cordoba_greatmosque;Mosque Cathedral of Cordoba;Mosquée-cathédrale de Cordoue;Mezquita-Catedral de Córdoba;;Mezquita-catedral de Córdoba;;;;;;;;;x
+tp_cordoba_greatmosque_desc;The Mosque Cathedral of Cordoba is an Islamic mosque in the city of Cordoba.;La mosquée-cathédrale de Cordoue, est un ancien temple romain qui devint église puis mosquée, et dans laquelle fut ensuite érigée une cathédrale. C'est un monument majeur de l'architecture islamique, témoin de la présence musulmane en Espagne du VIIIe au XVe siècle.;Die Moschee-Kathedrale von Cordoba ist eine islamische Moschee in der Stadt Cordoba.;;Mezquita-catedral de Córdoba, es un edificio de la ciudad de Córdoba, España. Se trata de uno de los monumentos más importantes de la arquitectura islámica en España, así como del más emblemático ejemplo de arte omeya hispanomusulmán.  Desde el siglo XIII y hasta la actualidad es un templo católico, la iglesia catedral de la diócesis de Córdoba.;;;;;;;;;x
+ca_abukir_pharos;Lighthouse of Alexandria;Phare d'Alexandrie;Pharos von Alexandria;;Faro de Alejandría;;;;;;;;;x
+ca_abukir_pharos_desc;The Lighthouse of Alexandria was a lofty tower built by the Ptolemaic Kingdom.;Le phare d'Alexandrie est considéré comme la septième des sept merveilles du monde antique ; il a servi de guide aux marins pendant près de dix-sept siècles.;Der Leuchtturm von Alexandria war nach der Überlieferung der erste Leuchtturm überhaupt und bis ins 20. Jahrhundert mit etwa 115 bis 160 Metern der höchste Leuchtturm, der je gebaut wurde.;;El Faro de Alejandría fue una torre construida en el siglo III a. C. en la isla de Faro en Alejandría. Con una altura estimada entre 115 y 150 metros. Fue una de las estructuras hechas por el hombre más altas durante muchos siglos, y fue identificada como una de las Siete maravillas del mundo por Antípatro de Sidón. ;;;;;;;;
+ca_hal_maus;Mausoleum of Halicarnassus;Mausolée d'Halicarnasse;Mausoleum von Halikarnassos;;Mausoleo de Halicarnaso;;;;;;;;;x
+ca_hal_maus_desc;The Mausoleum of Halicarnassus was a tomb built for Mausolus, a satrap in the Persian Empire, and Artemisia II of Caria, who was both his wife and his sister.;Le mausolée d'Halicarnasse est le tombeau de Mausole, satrape perse achéménide de Carie, mort en 353 av. J.-C.;Das Mausoleum von Halikarnassos war das prachtvolle Grabmal von Maussolos, einem Kleinkönig von Karien und persischen Satrapen. Das Mausoleum gehörte zu den „Sieben Weltwundern“ der Antike.;;El Mausoleo de Halicarnaso o el Sepulcro de Mausoleion fue una tumba construida entre el año 353 y el 350 a. C.1 en Halicarnaso para Mausolo, un sátrapa en el Imperio persa. ;;;;;;;;;x
+ca_offa_dyke;Offa's Dyke;Digue d'Offa;Offa’s Dyke;;Muralla de Offa;;;;;;;;;x
+ct_offa_dyke;Offa's Dyke;Digue d'Offa;Offa’s Dyke;;Muralla de Offa;;;;;;;;;x
+tp_offa_dyke;Offa's Dyke;Digue d'Offa;Offa’s Dyke;;Muralla de Offa;;;;;;;;;x
+tb_offa_dyke;Offa's Dyke;Digue d'Offa;Offa’s Dyke;;Muralla de Offa;;;;;;;;;x
+offa_dyke_desc;There was in Mercia a certain vigorous king called Offa, who terrified all the neighbouring kings and provinces around him, and who had a great dyke built between Wales and Mercia from sea to sea.;La digue d'Offa est un ensemble de constructions formant la frontière traditionnelle entre l’Angleterre et le Pays de Galles, composé principalement d’un grand mur de terre;Offa’s Dyke ist ein frühmittelalterlicher Grenzwall in Großbritannien. Die Wallanlage wurde zur Abgrenzung des angelsächsischen Königreichs Mercien zu den keltischen Fürstentümern im heutigen Wales errichtet.;;La muralla de Offa es una antigua construcción defensiva de la isla de Gran Bretaña, erigida por el rey Offa de Mercia en torno al año 777.;;;;;;;;;x
+ca_carthport_0;Ruins of the Port of Carthage;Ruines du Port de Carthage;Die Ruinen der Hafen von Karthago;;Ruinas del Puerto de Cartago;;;;;;;;;x
+ca_carthport_1;Restored Port of Carthage;Port restauré de Catharge;Hafen von Karthago;;Puerto de Cartago;;;;;;;;;x
+ca_carthport_desc;The ancient superpower of Carthage built its reputation on its mastery of the seas and the ancient Port of Carthage once held over two hundred of the most powerful warships of the time.;L'ancienne superpuissance de Carthage a construit sa reputation grace a sa maitrise des mers notamment par l'ancient Port de Carthage qui a autrefois contenu plus de 200 navires parmis les plus modernes.;Die antike Supermacht Karthago seinen Ruf auf der Beherrschung der Meere und der alte Hafen von Karthago einmal mehr als zweihundert der mächtigsten Kriegsschiffe der Zeit gehalten.;;La antigua superpotencia Cartago su reputación en el dominio de los mares y el antiguo puerto de Cartago vez tuvo más de doscientos de los más poderosos barcos de guerra de la época.;;;;;;;;;x
+tp_rome_angel;Castel Sant'Angelo;Château Saint-Ange;Engelsburg;;Castillo Sant'Angelo;;;;;;;;;x
+tp_rome_angel_desc;The Castel Sant'Angelo is a towering cylindrical building in Rome. It was initially commissioned by the Roman Emperor Hadrian as a mausoleum for himself and his family. The Castel Sant'Angelo is a refuge for the Pope in times of danger.;Le château Saint-Ange est un monument romain, situé sur la rive droite du Tibre, face au pons AElius, à Rome, non loin du Vatican.;Die Engelsburg in Rom wurde ursprünglich als Mausoleum für den römischen Kaiser Hadrian und seine Nachfolger errichtet und später von verschiedenen Päpsten zur Burg umgebaut.;;Iniciado por el emperador Adriano en el año 135 para ser su mausoleo personal y familiar, fue terminado por Antonino Pío en el 139. El monumento, levantado con piedra de travertino, estaba engalanado por una cuadriga en bronce guiada por el emperador Adriano. ;;;;;;;;;x
+tp_rome_saintpeter;St. Peter's Basilica;Basilique Saint-Pierre;Petersdom;;Basílica de San Pedro;;;;;;;;;x
+tp_rome_saintpeter_desc;St. Peter's Basilica is the burial site of its namesake Saint Peter, one of the twelve apostles of Jesus. Papal coronations are held at the basilica, and Charlemagne was crowned emperor of the Holy Roman Empire here.;La basilique Saint-Pierre, ou plus exactement Saint-Pierre du Vatican est le plus important édifice religieux du catholicisme ainsi que la tombe de St-Pierre.;Sankt Peter im Vatikan in Rom, ist die größte der Papstbasiliken in Rom, nicht aber die Kathedrale des Bischofs von Rom, dies ist die Lateranbasilika. Der Petersdom ist das Zentrum des unabhängigen Staats der Vatikanstadt und eine der sieben Pilgerkirchen in der Stadt.;;En la tradición católica, la basílica se encuentra situada sobre el lugar de entierro de san Pedro, que fue uno de los doce apóstoles de Jesús de Nazaret, primer obispo de Antioquía, primer obispo de Roma y, por lo tanto, el primero de los pontífices. ;;;;;;;;;x
+ca_con_palace;Sacred Palace;Grand Palais;Großer Palast;;Gran Palacio;;;;;;;;;x
+ca_con_palace_desc;The Sacred Palace serves as the main royal residence of the Byzantine emperors;Le Grand Palais était le plus grand ensemble architectural de Constantinople. Depuis Constantin Ier jusqu'à son apogée au Xe siècle, il s'est progressivement agrandi au gré des besoins et des goûts des différents empereurs, formant un ensemble irrégulier et quelque peu hétéroclite d'édifices, de cours, de pavillons et d'églises.;Der Große Palast in Konstantinopel war seit Theodosius II. der Sitz der byzantinischen Kaiser.;;El Gran Palacio de Constantinopla, también conocido como Palacio Sagrado, era un enorme complejo palacial bizantino. Sirvió como residencia principal de los emperadores bizantinos a partir de 330 a 1081 y fue el centro de la administración imperial aproximadamente durante 800 años.;;;;;;;;;x
+tp_rome_saintjohn;Archbasilica of St. John Lateran;Basilique Saint-Jean-de-Latran;Lateranbasilika;;Letrán;;;;;;;;;x
+tp_rome_saintjohn_desc;The Archbasilica of St. John Lateran is the cathedral church of the Diocese of Rome and the official ecclesiastical seat of the Bishop of Rome, who is the Pope.;La basilique Saint-Jean-de-Latran, connue à l'origine sous le nom de basilique du Saint-Sauveur, est l'une des quatre basiliques majeures de Rome sur la place du même nom.;Die Lateranbasilika ist die Bischofskirche von Rom und eine der vier Papstbasiliken Roms. San Giovanni im Lateran ist die eigentliche Kathedrale von Rom, weil die Kirche der Sitz des Bischofs von Rom (Papstes) ist. Das Amt des Ehrenkanonikers von San Giovanni in Laterano kommt dem Präsidenten der Französischen Republik zu.;;La Basílica de San Juan de Letrán, una de las cuatro basílicas más importantes de Roma y considerada Iglesia-madre de la Iglesia católica en el mundo entero. La basílica, el vecino Palacio de Letrán y la Escalera Santa, son territorios de Italia que administra la Santa Sede con derechos de extraterritorialidad. ;;;;;;;;;x
+tp_bag_houseofwisdom;House of Wisdom;Maison de la sagesse;Haus der Weisheit;;Casa de la sabiduría;;;;;;;;;x
+tp_bag_houseofwisdom_desc;The House of Wisdom is a library, translation institute and school. It is considered to be a major intellectual center for the Islamic world.;Les maisons de sagesse sont une association de bibliothèques, de centres de traduction et de lieux de réunion, vraisemblablement en vue de traduire les ouvrages de cosmologie, d'astrologie, de poésie et d'histoire.;Das Haus der Weisheit war eine Art Akademie, die im Jahr 825 von dem Abbasiden-Kalifen al-Ma?mun in Bagdad gegründet wurde. Als Vorbild des Hauses der Weisheit diente die wesentlich ältere Akademie von Gundischapur.;;La Casa de la sabiduría o Casa del saber fue una biblioteca y un centro de traducciones establecido durante la época del Califato Abasí, en Bagdad, Irak. ;;;;;;;;;x
+tp_dam_mosque;Great Mosque of Damascus;Grande Mosquée des Omeyyades;Umayyaden-Moschee;;Mezquita de los Omeyas;;;;;;;;;x
+tp_dam_mosque_desc;The Great Mosque of Damascus is one of the largest mosques in the world. The mosque was built on the site of a Christian basilica dedicated to John the Baptist, honored as a prophet by Christians and Muslims alike.;La Grande Mosquée des Omeyyades de Damas, construite entre 706 et 715, est un édifice religieux musulman édifié par le calife omeyyade Al Walid I??.;Die Umayyaden-Moschee ist eine Moschee in der syrischen Hauptstadt Damaskus. Sie ist eine der ältesten Moscheen der Welt und Vorbild für andere Moscheen im Baustil der Pfeilerhallenmoschee. In vorislamischer Zeit wurde sie als eine Johannes dem Täufer geweihte Kathedrale errichtet.;;La Mezquita de los Omeyas o Gran Mezquita de Damasco es la mezquita más importante en Damasco y una de las más antiguas y grandes del mundo. Está considerada como el cuarto lugar más sagrado del Islam,1 tras Masyid al-?aram (La Meca), la Masyid al-Nabawi (Medina) y la Masyid al-Aqsa (Jerusalén).;;;;;;;;;x
+tp_med_mosque;Prophet's Mosque;Masjid al-Nabawi;Prophetenmoschee;;Mezquita del Profeta;;;;;;;;;x
+tp_med_mosque_desc;The Prophet's Mosque is a mosque built by the Islamic Prophet Muhammad situated in the city of Medina. It is the second mosque built in history.;Al-Masjid Al-Nabawi ou mosquée du Prophète, à Médine en Arabie saoudite, est la deuxième mosquée la plus sainte de l'islam après Masjid al-Haram à La Mecque et avant la mosquée d'Al-Aqsa (à côté du Dôme du Rocher), à Jérusalem.;Die Prophetenmoschee in Medina ist nach der al-Haram-Moschee in Mekka die zweitheiligste Moschee im Islam. Hier befindet sich die Grabstätte Mohammeds. ;;Al-Masjid Al-Nabawi o la Mezquita del Profeta, en Medina, es la segunda mezquita más santa del islam después de Al-Haram d'Al-Masjid en La Meca; la mezquita de Al-Aqsa es la tercera más santa del islam. La mezquita original fue construida por el profeta Mahoma. En esta mezquita está enterrado Mahoma.;;;;;;;;
+tp_mec_mosque;The Grand Mosque;Masjid al-Haram;al-Haram-Moschee;;Masjid al-Haram;;;;;;;;;x
+tp_mec_mosque_desc;The Grand Mosque is the largest and oldest mosque in the world and surrounds one of Islam's holiest places, the Kaaba.;Al-Masjid Al-Nabawi à côté du Dôme du Rocher), à Jérusalem. La mosquée originale a été construite par Mahomet. Les califes suivants l'ont agrandie et amélioré sa décoration.;Die al-Haram-Moschee, heilige Moschee oder geweihte Moschee in Mekka ist die wichtigste Moschee des Islam – und zugleich die größte der Welt.;;El Masjid al-Haram, es la mezquita más importante de la ciudad de La Meca y el primer lugar santo del islam.;;;;;;;;;x
+ca_hadrianwall_0;Ruins of Hadrian's Wall;Ruines du Mur d'Hadrien;Ruinen von Hadrianswall;;Las ruinas de la muralla de Adriano;;;;;;;;;x
+tp_hadrianwall_0;Ruins of Hadrian's Wall;Ruines du Mur d'Hadrien;Ruinen von Hadrianswall;;Las ruinas de la muralla de Adriano;;;;;;;;;x
+ct_hadrianwall_0;Ruins of Hadrian's Wall;Ruines du Mur d'Hadrien;Ruinen von Hadrianswall;;Las ruinas de la muralla de Adriano;;;;;;;;;x
+ca_hadrianwall_1;Restored Hadrian's Wall;Mur d'Hadrien;Hadrianswall;;Muro de Adriano;;;;;;;;;x
+tp_hadrianwall_1;Restored Hadrian's Wall;Mur d'Hadrien;Hadrianswall;;Muro de Adriano;;;;;;;;;x
+ct_londontower1;White Tower;Tour Blanche;White Tower;;White Tower;;;;;;;;;x
+ct_londontower2;Tower of London;Tour de Londres;Tower of London;;Torre de Londres;;;;;;;;;x
+ct_londontower3;Tower of London;Tour de Londres;Tower of London;;Torre de Londres;;;;;;;;;x
+ct_londontower1_desc;The White Tower is a keep on the Tower Hill in London, located on the north bank of the river Thames. It was built as a symbol of the occupation of England. ;La Tour Blanche est une tour centrale, l'ancien donjon, de la Tour de Londres. Elle a été construite par Guillaume le Conquérant.;Der White Tower ist der Keep des Towers of London. Der ab 1078 gebaute Turm ist mit einer Fläche von 32,5 Meter × 36 Meter der größte Turm der Festung.;;La Torre Blanca es una fortaleza en la colina de la torre en Londres, situado en la orilla norte del río Támesis. Fue construido como un símbolo de la ocupación de Inglaterra.;;;;;;;;;x
+ct_londontower2_desc;The Tower of London is a significant castle on the Tower Hill in London, located on the north bank of the river Thames. ;La tour de Londres est une forteresse historique située sur la rive nord de la Tamise à Londres en Angleterre. La tour se trouve dans le district londonien de Tower Hamlets situé à l'est de la Cité de Londres dans un espace appelé Tower Hill. Sa construction commença vers la fin de l'année 1066 dans le cadre de la conquête normande de l’Angleterre.;Her Majesty’s Royal Palace and Fortress the Tower of London ist ein befestigter Gebäudekomplex entlang der Themse am südöstlichen Ende der City of London. Die Ringburg mit zwei Festungsringen diente den englischen und britischen Königen unter anderem als Residenz, Waffenkammer, Werkstatt, Lager, Zoo, Garnison, Museum, Münzprägestätte, Gefängnis, Archiv und Hinrichtungsstätte.;;La Torre de Londres, oficialmente el Palacio Real y Fortaleza de su Majestad, es un castillo histórico situado en la ribera norte del río Támesis en el centro de Londres, Inglaterra. Se encuentra dentro del distrito londinense de Tower Hamlets, separado del límite norte de la ciudad por un espacio abierto conocido como Tower Hill. Se fundó hacia finales de 1066 como parte de la conquista normanda de Inglaterra.;;;;;;;;;x
+ct_londontower3_desc;The Tower of London is a significant castle on the Tower Hill in London, located on the north bank of the river Thames. ;La tour de Londres est une forteresse historique située sur la rive nord de la Tamise à Londres en Angleterre. La tour se trouve dans le district londonien de Tower Hamlets situé à l'est de la Cité de Londres dans un espace appelé Tower Hill. Sa construction commença vers la fin de l'année 1066 dans le cadre de la conquête normande de l’Angleterre.;Her Majesty’s Royal Palace and Fortress the Tower of London ist ein befestigter Gebäudekomplex entlang der Themse am südöstlichen Ende der City of London. Die Ringburg mit zwei Festungsringen diente den englischen und britischen Königen unter anderem als Residenz, Waffenkammer, Werkstatt, Lager, Zoo, Garnison, Museum, Münzprägestätte, Gefängnis, Archiv und Hinrichtungsstätte.;;La Torre de Londres, oficialmente el Palacio Real y Fortaleza de su Majestad, es un castillo histórico situado en la ribera norte del río Támesis en el centro de Londres, Inglaterra. Se encuentra dentro del distrito londinense de Tower Hamlets, separado del límite norte de la ciudad por un espacio abierto conocido como Tower Hill. Se fundó hacia finales de 1066 como parte de la conquista normanda de Inglaterra. ;;;;;;;;;x 
+tb_hadrianwall_1;Restored Hadrian's Wall;Mur d'Hadrien Restauré;Restauriert Hadrianswall;;Restaurado el muro de Hadriano;;;;;;;;;x
+ct_hadrianwall_1;Restored Hadrian's Wall;Mur d'Hadrien Restauré;Restauriert Hadrianswall;;Restaurado el muro de Hadriano;;;;;;;;;x
+hadrianwall_desc;Hadrian's Wall was a defensive fortification in Roman Britain, begun during the rule of emperor Hadrian.;Le mur d'Hadrien est une fortification en pierre et en tourbe construite à partir de 122 après J.-C. par les Romains sur toute la largeur de l'Angleterre pour protéger le sud de l'île des attaques des tribus calédoniennes de l'actuelle Écosse.;Der Hadrianswall war ein römisches Grenzbefestigungssystem, das zwischen Newcastle und Solway Firth.;;El Muro o Muralla de Adriano es una antigua construcción defensiva de la isla de Britania, levantada entre los años 122-132 por orden del emperador romano Adriano para defender el territorio britano sometido.;;;;;;;;;x
+tp_rome_circus_0;Ruins of the Circus Maximus;Ruines du Grand Cirque;Ruinen des Circus Maximus;;Circo Máximo;;;;;;;;;x
+tp_rome_circus_1;Restored Circus Maximus;Grand Cirque;Circus Maximus;;Circo Máximo;;;;;;;;;x
+tp_rome_circus_desc;The Circus Maximus is a Roman chariot racing stadium and mass entertainment venue. it was the first and largest stadium in ancient Rome and its later Empire.;Circus Maximus signifie en latin : « le plus grand cirque ». Selon Pline, il pouvait accueillir environ 250 000 spectateurs1, et plus encore dans ses dimensions maximales, atteintes au IVe siècle, où les catalogues des Romains citent le chiffre de 385 000 spectateurs1, ce qui en fait de loin le plus grand édifice de spectacles sportifs de l'Histoire.;Der Circus Maximus war der größte Circus im antiken Rom. Er hatte eine Gesamtlänge von 600 Meters sowie eine Breite von 140 Metern. Es war damit das größte Veranstaltungsgebäude aller Zeiten. Sein Fassungsvermögen betrug im Ausbaustand zur Zeit Gaius Iulius Caesars 145.000 Plätze und soll in der Spätantike bis auf 385.000 Plätze ausgebaut worden sein.;;El Circo Máximo, (en italiano Circo Massimo; en latín Circus Maximus, «el circo más grande») creado bajo el mando del quinto rey de Roma, Lucio Tarquinio Prisco, fue un estadio para carreras de carros de la Antigua Roma. ;;;;;;;;
+ca_zeus_0;Ruined Temple of Zeus;Ruines du Temple de Zeus;Ruinen der Tempel des Zeus;; Ruinas del templo de Zeus;;;;;;;;;x
+ca_zeus_1;Restored Temple of Zeus;Temple de Zeus;Tempel des Zeus;;Templo de Zeus;;;;;;;;;x
+ca_zeus_desc;The Temple of Zeus was dedicated to the god Zeus. It housed the renowned statue of Zeus, which was one of the Seven Wonders of the Ancient World.;Le temple colossal de Zeus Olympien, de style dorique, fut érigé entre 470 et 456 av. J.-C.;Der Tempel des Zeus war dem Gott Zeus gewidmet. Es beherbergt das berühmte Statue des Zeus, das eines der Sieben Weltwunder der Antike war.;;El Templo de Zeus fue dedicado al dios Zeus. Albergaba la famosa estatua de Zeus, que era una de las Siete Maravillas del Mundo Antiguo.;;;;;;;;;x
+tp_rome_panth;Pantheon;Panthéon;Pantheon;; Panteón de Roma;;;;;;;;;x
+tp_rome_panth_desc;The Pantheon is a building in Rome, Italy, commissioned by Marcus Agrippa during the reign of Augustus. It is one of the best-preserved of all Ancient Roman buildings. The Pantheon is being used as a Roman Catholic church dedicated to St. Mary and the Martyrs.; À l’origine, le Panthéon était un temple dédié à toutes les divinités de la religion antique. Il fut converti en église chrétienne au VIIe siècle. C’est le plus grand monument romain antique qui nous soit parvenu en état pratiquement intact, du fait de son utilisation ininterrompue jusqu'à nos jours.;Das unter Kaiser Hadrian etwa 119/125 n. Chr. fertiggestellte Pantheon besaß für mehr als 1700 Jahre die größte Kuppel der Welt, gemessen am Innendurchmesser, und gilt allgemein als am besten erhaltenes Bauwerk der römischen Antike.;;El Panteón de Agripa o Panteón de Roma (en italiano: Il Pantheon) es un templo de planta circular erigido en Roma por Adriano, entre los años 118 y 125 d.C. completamente construido sobre las ruinas del templo erigido en el 27 a. C.;;;;;;;;;x
+ca_danevirke;Danevirke;Danevirke;Danewerk;;Danevirke;;;;;;;;;x
+ct_danevirke;Danevirke;Danevirke;Danewerk;;Danevirke;;;;;;;;;x
+tp_danevirke;Danevirke;Danevirke;Danewerk;;Danevirke;;;;;;;;;x
+tb_danevirke;Danevirke;Danevirke;Danewerk;;Danevirke;;;;;;;;;x
+danevirke_desc;The Danevirke is a system of Danish fortifications.;Le Danevirke est un système de fortification danois situé dans le Schleswig-Holstein. Cette importante ligne défensive d'une trentaine de kilomètres de long, construite pendant l'âge des Vikings danois, barre la péninsule du Jütland à sa base. ;Das Danewerk ist ein System von ehemaligen dänischen, militärischen Befestigungen, . Sie bestehen aus mehreren Gräben, Wällen, einem Seesperrwerk und einer Mauer und erstrecken sich 30 km lang an der sogenannten Schleswiger Landenge zwischen der Eckernförder Bucht und Hollingstedt an der Treene.;;Danevirke o Danavirki, también conocida como Dannevirke o Danewerk (literalmente «obra danesa» o «creación danesa» en idioma danés antiguo), es el nombre de una muralla defensiva que corre desde los límites occidentales de Jutlandia.;;;;;;;;;x
+ca_stonehenge;Stonehenge;Stonehenge;Stonehenge;;Stonehenge;;;;;;;;;x
+ca_stonehenge_desc;Stonehenge is a prehistoric monument in Wiltshire. It is the remains of a ring of standing stones set within earthworks.;Stonehenge, dont le nom signifie « les pierres suspendues », est un monument mégalithique composé d'un ensemble de structures circulaires concentriques, érigé entre -2800 et -1100.;Stonehenge ist ein in der Jungsteinzeit errichtetes und mindestens bis in die Bronzezeit.;;Stonehenge es un monumento megalítico, tipo crómlech, de finales del neolítico (siglo XX a. C.).;;;;;;;;;x
+ca_buddhas;Buddhas of Bamiyan;Bouddhas de Bâmiyân;Buddha-Statuen von Bamiyan;;Budas de Bamiyan;;;;;;;;;x
+ca_buddhas_desc;The Buddhas of Bamiyan are two monumental statues of standing buddha carved into the side of a cliff in the Bamwam valley.  Bamiyan was the site of several Buddhist monasteries, and a thriving center for religion, philosophy, and art.;Les Bouddhas de Bâmiyân sont trois statues monumentales en haut-relief de bouddhas debout, excavées dans la paroi d'une falaise située dans la vallée de Bâmiyân.;Die Buddha-Statuen von Bamiyan waren einst die größten stehenden Buddha-Statuen der Welt.;;Los Budas de Bamiyan fueron dos monumentales estatuas de Buda talladas a los lados de un acantilado en el valle de Bamiyan.;;;;;;;;;x
+ca_sam_mosque;Great Mosque of Samarra;Grande Mosquée de Samarra;Große Moschee von Samarra;;Gran Mezquita de Samarra;;;;;;;;;x
+ca_sam_mosque_desc;The Great Mosque of Samarra is one of the largest mosques in the world. Its minaret, the Malwiya Tower, is a vast spiralling cone with a spiral ramp.;La Grande Mosquée de Samarra, ou mosquée al-Mutawakkil est une des plus importantes œuvres architecturales de l'Islam.;Die Große Moschee von Samarra und Al-Mutawakkil Moschee ist einer der wichtigsten architektonischen Arbeiten des Islam.;;La Gran Mezquita de Samarra es una mezquita del siglo IX situada en Samarra, Iraq. Fue encargada en 848 por el califa abasí Al-Mutawakkil, quien reinó en Samarra desde 847 hasta 861.;;;;;;;;;x
+ca_newgrange;Newgrange;Newgrange;Newgrange;;Newgrange;;;;;;;;;x
+tb_newgrange;Newgrange;Newgrange;Newgrange;;Newgrange;;;;;;;;;x
+newgrange_desc;Newgrange is a prehistoric monument in Meath, Ireland. After its initial use, Newgrange was sealed, later appearing in Irish mythology and folklore.;Newgrange est l’un des plus célèbres sites archéologiques d'Irlande. C’est un tumulus de 85 mètres de diamètre à l’intérieur duquel on atteint la chambre funéraire par un long passage couvert.;Newgrange bezeichnet ein großes jungsteinzeitliches Hügelgrab in der irischen Grafschaft Meath am Fluss Boyne. Vom Typ her handelt es sich um ein Passage tomb.;;Newgrange es uno de los pasajes funerarios del complejo Brú na Bóinne en el Condado de Meath y el yacimiento arqueológico más famoso de Irlanda.;;;;;;;;;x
+ct_tower_pisa;Tower of Pisa;Tour de Pise;Schiefer Turm von Pisa;;Torre de Pisa;;;;;;;;;x
+ct_tower_pisa_desc;The Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa.;La tour de Pise, un des symboles du centre de l'Italie et emblème de la ville toscane de Pise, est le campanile de la cathédrale, situé à son chevet, sur la Piazza dei Miracoli, et dont la construction débuta en 1173.;Der Schiefe Turm von Pisa ist das wohl bekannteste geneigte Gebäude der Welt und Wahrzeichen der Stadt Pisa in Italien.;;La Torre de Pisa o Torre inclinada de Pisa es el campanario de la catedral de Pisa, en la ciudad del mismo nombre.;;;;;;;;;x
+ct_grandcanal;Grand Canal;Grand Canal;Canal Grande;;Gran Canal de Venecia;;;;;;;;;x
+ct_grandcanal_desc;The Grand Canal of Venice forms one of the major water-traffic corridors in the city. At one end, the canal leads into the lagoon and the other end leads into Saint Mark Basin; in between, it makes a large reverse-S shape through the central districts of Venice.;Le Grand Canal est le principal canal qui traverse Venise, en Italie.;Der Canal Grande im Venezianischen Canalazzo ist die knapp vier Kilometer lange, zwischen 30 und 70 Meter breite und bis zu fünf Meter tiefe Hauptwasserstraße in der Lagunenstadt Venedig.;;La ciudad de Venecia en Italia constituye la mayor zona húmeda de este país. Está regada toda ella por múltiples canales de distinta longitud y distinta anchura. El mayor de todos es el Gran Canal, que recorre Venecia trazando una S.;;;;;;;;
+ca_con_library;Imperial Library;Bibliothèque impériale de Constantinople;Kaiserliche Bibliothek von Konstantinopel;;La Biblioteca Imperial de Constantinopla;;;;;;;;;x
+ca_con_library_desc;The Imperial Library of Constantinople is one of the last of the great libraries of the ancient world. Long after the destruction of the Great Library of Alexandria, it preserved the knowledge of the ancient Greeks and Romans.;La bibliothèque impériale de Constantinople fondée au IV? siècle par l'empereur romain Constance II à Constantinople était une des plus importantes bibliothèques de l'antiquité et du Moyen Âge.;Die Kaiserliche Bibliothek von Konstantinopel war eine durch Kaiser Constantius II. In Auftrag gegebene Bibliothek in der Hauptstadt des Byzantinischen Reiches.;;La Biblioteca Imperial de Constantinopla es una de las últimas de las grandes bibliotecas del mundo antiguo. Mucho tiempo después de la destrucción de la Gran Biblioteca de Alejandría, que conserva el conocimiento de los antiguos griegos y romanos.;;;;;;;;;x
+ct_dogepalace;Doge's Palace;Palais des Doges;Dogenpalast;;Palacio Ducal de Venecia;;;;;;;;;x
+ct_dogepalace_desc;The palace was the residence of the Doge of Venice, the supreme authority of the Republic of Venice.;Le palais des Doges ou palais Ducal est un palais vénitien de styles gothique et Renaissance situé sur la place Saint-Marc.;Der Palast war Regierungs - und Verwaltungszentrum der Republik und zugleich eindrucksvolles Symbol der Größe und Macht der Seerepublik Venedig. Alle wichtigen Regierungsorgane und Gerichte hatten hier ihren Sitz.;;El Palazzo Ducale, situado en el extremo oriental de la Plaza de San Marcos, es uno de los símbolos de la gloria y el poder de Venecia.;;;;;;;;;x
+ca_palacepalermo;Royal Palace of Palermo;Palais des Normands;Palazzo Reale;;Palazzo dei Normanni;;;;;;;;;x
+ca_palacepalermo_desc;The Royal Palace of Palermo serves as the main seat of power for the rulers of Sicily.;Le palais des Normands est un édifice de Palerme, situé Piazza Independenza, qui fut tour à tour forteresse punique, fort romain, château des émirs arabes puis la résidence des rois normands au XIIe siècle.;Der Palazzo Reale, auch Palazzo dei Normanni oder Normannenpalast genannt, ist ein Schloss in Palermo. Der Palast steht an der höchsten Stelle des mittelalterlichen Stadtgebiets.;;El Palazzo dei Normanni es un palacio ubicado en Palermo, Italia, que fue sede de los reyes de Sicilia.Su construcción se inició en el siglo IX por orden del emir de Palermo y fue extendido en el siglo XII por Rogelio II y otros reyes normandos.;;;;;;;;;x
+ca_goldengate;Golden Gate;Porte dorée;Goldenes Tor von Kiew;;Puerta de Oro de Kiev;;;;;;;;;x
+ca_goldengate_desc;The Golden Gate of Kiev is a major landmark of Kiev and gateway in the city fortress;La Porte dorée de Kiev est un monument ukrainien de Kiev et une porte dans la forteresse historique de la vieille ville.;Das Goldene Tor von Kiew ist ein historisches, befestigtes Stadttor in Kiew, der Hauptstadt der Ukraine.;; La Puerta de Oro de Kiev es un hito importante de la antigua Kiev y la puerta histórica en la fortaleza antigua de la ciudad, ubicado en la capital de Ucrania.;;;;;;;;;x
+ct_stmarks;St. Mark's Basilica;Basilique Saint-Marc;Markusdom;;Basílica de San Marcos;;;;;;;;;x
+ct_stmarks_desc;The Patriarchal Cathedral Basilica of Saint Mark is the cathedral church of the Roman Catholic Archdiocese of Venice.  It is the most famous of the city's churches and one of the best known examples of Italo-Byzantine architecture. It serves as the chapel of the Doge.;La basilique Saint-Marc, à Venise, est la plus importante basilique de Venise.;Der Markusdom in Venedig war bis zu ihrem Ende 1797 das zentrale Staatsheiligtum der Republik Venedig und ist seit 1807 die Kathedrale des Patriarchen von Venedig.;;La Basílica de San Marcos es el principal templo católico de la ciudad de Venecia y la obra maestra de la influencia bizantina en el Véneto. ;;;;;;;;;x
+tp_jeru_zion;Mount Zion;Mont Sion;Berg Zion;;Monte de Sion;;;;;;;;;x
+tp_jeru_zion_desc;"Mount Zion is a hill in Jerusalem just outside the walls of the City. It was the site of the Jebusite fortress called the ""stronghold of Zion"" that was conquered by King David, becoming his palace and the City of David.";Le mont Sion est une des collines de Jérusalem, située au Sud-Ouest de la vieille ville.;Mount Zion Mount Zion is a hill or south-west of the old city walls of Jerusalem.;;Monte Sion es el nombre de una colina en Jerusalén en las afueras de la Ciudad Vieja. El término Sion se convirtió desde tiempos antiguos en un sinécdoque referida a la ciudad entera de Jerusalén y a la Tierra de Israel.;;;;;;;;;x
+tp_jeru_wall1;Western Wall;Le Mur des Lamentations;Klagemauer;;Muro de las Lamentaciones;;;;;;;;;x
+tp_jeru_wall2;Third Temple;Troisième temple;Tempel Ezechiels;;Tercer templo de Jerusalén;;;;;;;;;x
+tp_jeru_wall1_desc;The Western Wall, Wailing Wall or Kotel is located in the City of Jerusalem at the foot of the western side of the area known as the Noble Sanctuary and the Temple Mount.;est un mur de soutènement de l'esplanade du Temple de Jérusalem situé dans le quartier juif de la vieille ville de Jérusalem datant du Ier siècle av. J.-C.;Die Klagemauer in der Altstadt von Jerusalem ist eine religiöse Stätte des Judentums.;;El Muro de los Lamentos, Muro de las Lamentaciones o Kotel se encuentra en la ciudad de Jerusalén, a los pies de la parte occidental de la zona conocida como el Noble Santuario y el Monte del Templo.;;;;;;;;;x
+tp_jeru_wall2_desc;The Third Temple, or Ezekiel's Temple, is a Jewish Holy Temple architecturally described and prophesied in the Book of Ezekiel, a house of prayer for all people with a sacrificial service.;Le Troisième Temple est un projet visant à reconstruire le Temple de Jérusalem.;Der Tempel Ezechiels oder der dritte Tempel Jerusalems ist im Buch Ezechiel des Alten Testaments die Vision des Jerusalemer Tempels nach der Zerstörung des ersten Tempels durch Nebukadnezar II.;; A pesar de seguir sin construirse, la idea y el deseo de un tercer templo es sagrada para el judaísmo, sobre todo para el judaísmo ortodoxo, como un lugar de culto no realizado. ;;;;;;;;;x
+ct_bastille;Bastille Saint-Antoine;Bastille;Bastille;;Bastilla;;;;;;;;;x
+ct_bastille_desc;The Bastille Saint-Antoine is a strong fortress with eight towers that protects the strategic gateway of the Porte Saint-Antoine on the eastern edge of Paris.;Bastille Saint-Antoine, était une forteresse, destinée a protéger la porte Saint-Antoine, élevée à l'emplacement de l’actuelle place de la Bastille à Paris. Elle fut entièrement détruite après la Prise de la Bastille le 14 juillet 1789.;Die Bastille war ursprünglich eine besonders befestigte Stadttorburg im Osten von Paris, die später als Gefängnis genutzt wurde.;;La Bastilla o Bastilla de San Antonio fue una fortaleza que protegía el costado oriental de la ciudad de París. ;;;;;;;;;x
+tp_stdenis;Basilica of St. Denis;Basilique Saint-Denis;Kathedrale von Saint-Denis;;Basílica de Saint-Denis;;;;;;;;;x
+tp_stdenis_desc;The Basilica of St. Denis is a large abbey church in the city of Saint-Denis.;La basilique de Saint-Denis est une église, célèbre pour être la première à être construit dans le style gothique, tout en étant le lieu de sépulture de la plupart des rois de France.;Die Basilika von Saint-Denis ist eine Kirche, bekannt als die erste im gotischen Stil gebaut werden, als auch als Begräbnisstätte der meisten der Könige von Frankreich.;;La basílica de Saint-Denis es una iglesia, célebre por ser la primera que se erigió en el estilo Gótico, así como por ser el lugar de sepultura de la mayor parte de los reyes de Francia.;;;;;;;;;x
+ct_palaceaachen;Palace of Aachen;Palais d'Aix-la-Chapelle;Aachener Königspfalz;;Palacio de Aquisgrán;;;;;;;;;x
+ct_palaceaachen_desc;The Palace of Aachen is a group of buildings with residential, political and religious purposes chosen by Charlemagne to be the centre of power of the Carolingian Empire.;Le palais d’Aix-la-Chapelle était un ensemble de bâtiments résidentiels, politiques et religieux choisi par Charlemagne pour être le centre du pouvoir carolingien.;Die Pfalz in Aachen war der wichtigste früh- und hochmittelalterliche Herrschersitz des fränkischen bzw. dann ostfränkisch-deutschen Königreiches. Ihre Bedeutung verdankte sie vor allem dem Umstand, dass sie die Lieblingspfalz des großen fränkischen Königs Karls des Großen war.;;El Palacio de Aquisgrán era todo un conjunto de edificaciones de tipo residencial, político y religioso, que fue erigido por el emperador Carlomagno como centro del poder carolingio.;;;;;;;;;x
+ca_gibrock;Rock of Gibraltar;Rocher de Gibraltar;Fels von Gibraltar;;Peñón de Gibraltar;;;;;;;;;x
+ca_gibrock_desc;The Rock of Gibraltar is a monolithic limestone promontory located in the territory of Gibraltar, off the southwestern tip of Europe on the Iberian Peninsula. The Moorish Castle on top of the Rock is comprised of various buildings, gates, and fortified walls, with the dominant features being the Tower of Homage and the Gate House.;Le rocher de Gibraltar est un monolithe calcaire situé à Gibraltar, sur la côte méridionale de la péninsule Ibérique. Il atteint une hauteur de 426 mètres au-dessus du niveau de la mer. Dans l'Antiquité, il était considéré comme l'une des deux Colonnes d'Hercule, l'autre étant le Jbel Musa, sur la côte africaine.;Der Fels von Gibraltar ist ein monolithischer Kalksteinfels, der den größten Teil der Halbinsel Gibraltar an der Südwestspitze Europas umfasst. ;;El peñón de Gibraltar, es un islote rocoso unido a la península ibérica por un istmo de arena, cortado a su vez por un canal. Consiste en un promontorio monolítico de piedra caliza ubicado en el extremo suroeste de Europa en la península ibérica.;;;;;;;;;x
+ca_con_apostles;Church of the Holy Apostles;Église des Saints-Apôtres;Apostelkirche;;Iglesia de los Santos Apóstoles;;;;;;;;;x
+ca_con_apostles_desc;The Church of the Holy Apostles, also known as the Imperial Polyándreion, is an Orthodox church in Constantinople. It was second in size and importance only to the Hagia Sophia among the great churches of Constantinople. Most emperors and many patriarchs and bishops were buried in the church. ;L’église des Saints-Apôtres, ou Myriandrion est une église byzantine de Constantinople, aujourd'hui disparue.  Elle fut fondée par Constance II, fils de Constantin I??, dans les années 350 et bâtie à partir d'un mausolée construit par Constantin.;Die Apostelkirche , war eine christliche Kirche in Konstantinopel. Nach der Eroberung von Konstantinopel im Jahr 1453 durch die Osmanen und der Umwandlung der bisherigen Hauptkirche Hagia Sophia in eine Moschee wurde sie Kathedrale der Patriarchen von Konstantinopel.;;La iglesia de los Santos Apóstoles, fue un templo cristiano ubicado en la antigua Constantinopla, que se levantó originalmente para servir como mausoleo del emperador Constantino. ;;;;;;;;;x
+ca_alhambra1;Calat Alhambra;Alhambra;Alhambra;;Alhambra;;;;;;;;;x
+ca_alhambra2;Calat Alhambra;Alhambra;Alhambra;;Alhambra;;;;;;;;;x
+ca_alhambra3;Calat Alhambra;Alhambra;Alhambra;;Alhambra;;;;;;;;;x
+ca_alhambra1_desc;Calat Alhambra is a small red-colored fortress in Granada.;L'Alhambra est un petit complexe de fortification rouge.;Alhambra ist eine kleine rote Festung in Granada.;;Alhambra es una pequeña fortaleza de color rojo en Granada.;;;;;;;;;x
+ca_alhambra2_desc;Calat Alhambra is a red-colored renovated fortress complex in Granada.;L'Alhambra est un complexe de fortification rouge entierement rénové.;Alhambra ist ein rot gefärbten renovierten Festungsanlage in Granada.;; Alhambra es un complejo fortaleza renovada de color rojo en Granada.;;;;;;;;;x
+ca_alhambra3_desc;Calat Alhambra is a red-colored renovated fortress complex and royal palace for the Sultan of Granada.;L'Alhambra est un complexe de fortification rouge entierement rénové ainsi que la demeure royale du sultan de Greanade;Alhambra is a red-colored renovated fortress complex and royal palace for the Sultan of Granada.;; Alhambra es un complejo fortaleza renovada de color rojo y palacio real para el sultán de Granada.;;;;;;;;;x
+tp_persepolis0;Ruins of Persepolis;Ruines de Persépolis;Ruinen von Persepolis;;Las ruinas de Persépolis;;;;;;;;;x
+tp_persepolis1;Restored Persepolis;Persépolis;Persepolis;;Persepolis;;;;;;;;;x
+tp_persepolis0_desc;Persepolis, literally meaning city of Persians, was the ceremonial capital of the Achaemenid Empire. After invading Persia, Alexander the Great sent the main force of his army to Persepolis in the year 330 BC by the Royal Road. Alexander stormed the Persian Gates, then quickly captured Persepolis. After several months Alexander allowed his troops to loot Persepolis. A fire broke out in the eastern palace of Xerxes and spread to the rest of the city.;Persépolis était une capitale de l’empire perse achéménide. Sa construction commence en 521 av. J.-C. sur ordre de Darius Ier. Elle fait partie d’un vaste programme de construction monumentale visant à souligner l’unité et la diversité de l’empire perse achéménide, et à asseoir la légitimité du pouvoir royal.;Die altpersische Residenzstadt Persepolis war eine der Hauptstädte des antiken Perserreichs unter den Achämeniden und wurde 520 v. Chr. von Dareios I. im Süden des heutigen Iran in der Region Persis gegründet. Der Name „Persepolis“ stammt aus dem Griechischen und bedeutet „Stadt der Perser“.;;Persépolis fue la capital del Imperio persa durante la época aqueménida. Su construcción, comenzada por Darío I, continuó a lo largo de más de dos siglos, hasta la conquista del Imperio persa por Alejandro Magno.;;;;;;;;;x
+tp_persepolis1_desc;Persepolis, literally meaning city of Persians, was the ceremonial capital of the Achaemenid Empire. After invading Persia, Alexander the Great sent the main force of his army to Persepolis in the year 330 BC by the Royal Road. Alexander stormed the Persian Gates, then quickly captured Persepolis. After several months Alexander allowed his troops to loot Persepolis. A fire broke out in the eastern palace of Xerxes and spread to the rest of the city.;Persépolis était une capitale de l’empire perse achéménide. Sa construction commence en 521 av. J.-C. sur ordre de Darius Ier. Elle fait partie d’un vaste programme de construction monumentale visant à souligner l’unité et la diversité de l’empire perse achéménide, et à asseoir la légitimité du pouvoir royal.;Die altpersische Residenzstadt Persepolis war eine der Hauptstädte des antiken Perserreichs unter den Achämeniden und wurde 520 v. Chr. von Dareios I. im Süden des heutigen Iran in der Region Persis gegründet. Der Name „Persepolis“ stammt aus dem Griechischen und bedeutet „Stadt der Perser“.;;Persépolis fue la capital del Imperio persa durante la época aqueménida. Su construcción, comenzada por Darío I, continuó a lo largo de más de dos siglos, hasta la conquista del Imperio persa por Alejandro Magno.;;;;;;;;;x
+ct_dioclet;Diocletian's Palace;Palais de Dioclétien;Diokletianpalast;;Palacio de Diocleciano;;;;;;;;;x
+ct_dioclet_desc;Diocletian's Palace is an ancient palace built by the Roman emperor Diocletian at the turn of the fourth century AD, that forms the center of the city of Split.;Le palais de Dioclétien est la résidence impériale fortifiée construite par l'empereur Dioclétien sur la côte dalmate pour s'y retirer après son abdication volontaire en 305.;Der Diokletianpalast ist ein antiker Baukomplex, der als Alterssitz für den römischen Kaiser Diokletian diente, welcher als einziger römischer Kaiser 305 n. Chr. freiwillig aus dem Amt schied, gemeinsam mit seinem Mitkaiser Maximian. ;;El Palacio de Diocleciano es un monumento construido en la ciudad de Split, Croacia, por encargo del emperador Diocleciano entre los siglos III y IV d.C.;;;;;;;;;x
+limes_desc;The old roman Limes were lines of frontier fortifications that bounded the ancient Roman provinces.;Les Limes sont systèmes de fortifications établis au long de certaines des frontières de l'Empire romain.;Die alte römische Limes waren Linien Grenzbefestigungen an den antiken römischen Grenzen.;;Los viejos Limes romano eran líneas de fortificaciones de la frontera en las antiguas fronteras romanas.;;;;;;;;;x
+ca_lesserlimes_0;Ruins of Lesser Germanic Limes;Ruines du Limes de Germanie inférieure;Ruinen von Niedergermanischer Limes;;Las ruinas del Limes germano Inferior;;;;;;;;;x
+tp_lesserlimes_0;Ruins of Lesser Germanic Limes;Ruines du Limes de Germanie inférieure;Ruinen von Niedergermanischer Limes;;Las ruinas del Limes germano Inferior;;;;;;;;;x
+ct_lesserlimes_0;Ruins of Lesser Germanic Limes;Ruines du Limes de Germanie inférieure;Ruinen von Niedergermanischer Limes;;Las ruinas del Limes germano Inferior;;;;;;;;;x
+ca_lesserlimes_1;Lesser Germanic Limes;Limes de Germanie inférieure;Niedergermanischer Limes;;Limes germano Inferior;;;;;;;;;x
+tp_lesserlimes_1;Lesser Germanic Limes;Limes de Germanie inférieure;Niedergermanischer Limes;;Limes germano Inferior;;;;;;;;;x
+ct_lesserlimes_1;Lesser Germanic Limes;Limes de Germanie inférieure;Niedergermanischer Limes;;Limes germano Inferior;;;;;;;;;x
+ca_greaterlimes_0;Ruins of Greater Germanic Limes;Ruines du Limes de Germanie superieure;Ruinen von Obergermanischer Limes;;Las ruinas del Limes germano Superior;;;;;;;;;x
+tp_greaterlimes_0;Ruins of Greater Germanic Limes;Ruines du Limes de Germanie superieure;Ruinen von Obergermanischer Limes;;Las ruinas del Limes germano Superior;;;;;;;;;x
+ct_greaterlimes_0;Ruins of Greater Germanic Limes;Ruines du Limes de Germanie superieure;Ruinen von Obergermanischer Limes;;Las ruinas del Limes germano Superior;;;;;;;;;x
+ca_greaterlimes_1;Greater Germanic Limes;Limes de Germanie superieure;Obergermanischer Limes;;Limes germano Superior;;;;;;;;;x
+tp_greaterlimes_1;Greater Germanic Limes;Limes de Germanie superieure;Obergermanischer Limes;;Limes germano Superior;;;;;;;;;x
+ct_greaterlimes_1;Greater Germanic Limes;Limes de Germanie superieure;Obergermanischer Limes;;Limes germano Superior;;;;;;;;;x
+ca_raetianlimes_0;Ruins of Raetian Limes;Ruines du Limes de Rhétie;Ruinen von Raetischer Limes;;Las ruinas del Limes Rético;;;;;;;;;x
+tp_raetianlimes_0;Ruins of Raetian Limes;Ruines du Limes de Rhétie;Ruinen von Raetischer Limes;;Las ruinas del Limes Rético;;;;;;;;;x
+ct_raetianlimes_0;Ruins of Raetian Limes;Ruines du Limes de Rhétie;Ruinen von Raetischer Limes;;Las ruinas del Limes Rético;;;;;;;;;x
+ca_raetianlimes_1;Raetian Limes;Limes de Rhétie;Raetischer Limes;;Limes Rético;;;;;;;;;x
+tp_raetianlimes_1;Raetian Limes;Limes de Rhétie;Raetischer Limes;;Limes Rético;;;;;;;;;x
+ct_raetianlimes_1;Raetian Limes;Limes de Rhétie;Raetischer Limes;;Limes Rético;;;;;;;;;x
+ca_culture_indian_0;War Elephant Pens;Enclos pour éléphants de guerre;Gehege der Kriegselefanten;;Rediles de Elefantes de Guerra;;;;;;;;;x
+ca_culture_indian_5;War Elephant Pens;Enclos pour éléphants de guerre;Gehege der Kriegselefanten;;Rediles de Elefantes de Guerra;;;;;;;;;x
+ca_culture_germanic_0;Germanic Infantry Barracks;Caserne d'infanterie germanique;Kaserne der germanischen Infanterie;;Cuartel de Infantería Germana;;;;;;;;;x
+ca_culture_germanic_5;Germanic Infantry Barracks;Caserne d'infanterie germanique;Kaserne der germanischen Infanterie;;Cuartel de Infantería Germana;;;;;;;;;x
+ca_culture_pictish_0;Hall of War;Salle des guerriers;Kriegerhalle;;Antesala de la Guerra;;;;;;;;;x
+ca_culture_pictish_5;Hall of War;Salle des guerriers;Kriegerhalle;;Antesala de la Guerra;;;;;;;;;x
+ca_culture_suebi_0;Free Warrior Camp;Camp guerrier libre;Freischärler-Lager;;Campamento de Guerreros Libres;;;;;;;;;x
+ca_culture_suebi_5;Free Warrior Camp;Camp guerrier libre;Freischärler-Lager;;Campamento de Guerreros Libres;;;;;;;;;x
+tp_warrior_cult;Warrior Cult;Culte guerrier;Kriegerkult;;Culto guerrero;;;;;;;;;x
+ct_warrior_cult;Warrior Cult;Culte guerrier;Kriegerkult;;Culto guerrero;;;;;;;;;x
+ct_trade_post_1;Small Center of Trade;;;;Pequeño Centro de Comercio;;;;;;;;;x
+ct_trade_post_2;Center of Trade;;;;Centro de Comercio Mediano;;;;;;;;;x
+ct_trade_post_3;Large Center of Trade;;;;Gran Centro de Comercio;;;;;;;;;x
+ct_trade_post_4;Huge Center of Trade;;;;Enorme Centro de Comercio;;;;;;;;;x
+ct_trade_post_5;Gargantuan Center of Trade;;;;Gigantesco Centro de Comercio;;;;;;;;;x
+ca_culture_saxon_english_0;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_saxon_english_1;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_saxon_english_1_desc;The strong tradition of archery in England, Wales, and Cumbria produces excellent bowmen. Here they can practise with their powerful longbows.;La vieille tradition de tir à l'arc en Angleterre et au Pays de Galles produit d'excellents archers. Ils peuvent s'exercer ici avec leurs puissants arcs.;Die starke Tradition des Bogenschießens in England und Wales hat exzellente Bogenschützen hervorgebracht. Hier können sie mit ihren mächtigen Langbögen üben. ;;La fuerte tradición con la que cuenta el tiro con arco en Inglaterra y Gales produce unos arqueros excelentes. Aquí pueden entrenarse con sus poderosos arcos largos. ;;;;;;;;;x
+ca_culture_saxon_english_2;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_saxon_english_3;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_saxon_english_4;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_saxon_english_5;Longbow Range;;;;Arquería de arcos largos;;;;;;;;;x
+ca_culture_scottish_0;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_scottish_1;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_scottish_2;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_scottish_3;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_scottish_4;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_scottish_5;Schiltron Training Ground;;;;Campo de entrenamiento Schiltron;;;;;;;;;x
+ca_culture_group_baltic_0;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_baltic_1;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_baltic_2;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_baltic_3;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_baltic_4;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_baltic_5;Warrior Gathering Ground;;;;Campo de reunión de guerreros;;;;;;;;;x
+ca_culture_group_altaic_0;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_group_altaic_1;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_group_altaic_2;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_group_altaic_3;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_group_altaic_4;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_group_altaic_5;Riding Grounds;;;;Campos de monta;;;;;;;;;x
+ca_culture_frank_norman_german_0;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_frank_norman_german_1;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_frank_norman_german_2;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_frank_norman_german_3;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_frank_norman_german_4;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_frank_norman_german_5;Jousting Lists;;;;Palenques de justas;;;;;;;;;x
+ca_culture_group_iberian_0;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_group_iberian_1;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_group_iberian_2;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_group_iberian_3;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_group_iberian_4;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_group_iberian_5;Caballero Training Ground;;;;Campo de entrenamiento de Caballeros;;;;;;;;;x
+ca_culture_italian_0;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_1;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_2;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_3;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_4;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_5;Cavalleria Training Ground;;;;Campo de entrenamiento de Cavaliere;;;;;;;;;x
+ca_culture_italian_cavalry_desc;Elite Italian mounted crossbowmen (balestrieri) train here, a multifarious specialization of arms that lends itself especially well to shock and defense tactics, at considerable expense. This military tradition draws from Italian-German (Lombard) origins.;;;;Aquí se entrena la élite de ballesteros montados italianos (los balestieri), una variada especialización de armas muy eficaz en tácticas de choque y defensa, aunque cara. Esta tradición militar tiene orígenes lombardos (italogermanos).;;;;;;;;;x
+ca_culture_russian_0;Druzhina Training Ground;;;;Campo de entrenamiento Druzhina;;;;;;;;;x
+ca_culture_russian_5;Druzhina Training Ground;;;;Campo de entrenamiento Druzhina;;;;;;;;;x
+ca_culture_group_north_germanic_0;Huscarl Training Ground;;;;Campo de entrenamiento de Huscarles;;;;;;;;;x
+ca_culture_group_north_germanic_5;Huscarl Training Ground;;;;Campo de entrenamiento de Huscarles;;;;;;;;;x
+ca_culture_hungarian_0;Hussar Training Ground;;;;Campo de entrenamiento de Húsares;;;;;;;;;x
+ca_culture_hungarian_5;Hussar Training Ground;;;;Campo de entrenamiento de Húsares;;;;;;;;;x
+ca_culture_group_arabic_0;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_arabic_1;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_arabic_2;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_arabic_3;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_arabic_4;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_arabic_5;Camel Training Grounds;;;;Campo de monta de camellos;;;;;;;;;x
+ca_culture_group_byzantine_0;Cataphract Training Ground;;;;Campo de entrenamiento de catafractas;;;;;;;;;x
+ca_culture_group_byzantine_5;Cataphract Training Ground;;;;Campo de entrenamiento de catafractas;;;;;;;;;x
+ca_culture_irish_0;Gallowglass Training Ground;;;;Campo de entrenamiento Gallowglass;;;;;;;;;x
+ca_culture_irish_5;Gallowglass Training Ground;;;;Campo de entrenamiento Gallowglass;;;;;;;;;x
+ca_culture_ethiopian_0;Ethiopian Drilling Grounds;;;;Campo de milicia etíope;;;;;;;;;x
+ca_culture_ethiopian_5;Ethiopian Drilling Grounds;;;;Campo de milicia etíope;;;;;;;;;x
+ca_culture_west_african_0;Horon Warrior Lodge;;;;Alojamiento de guerreros libres;;;;;;;;;x
+ca_culture_west_african_5;Horon Warrior Lodge;;;;Alojamiento de guerreros libres;;;;;;;;;x
+ca_culture_group_south_slavic_0;Gusar Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_group_south_slavic_5;Gusar Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_0;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_1;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_2;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_3;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_4;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_5;Infantry Training Ground;;;;Campo de entrenamiento Gusar;;;;;;;;;x
+ca_culture_croatia_1_desc;The southern Slavic nations trained powerful heavy infantry.;;;;;;;;;;;;;x
+ca_culture_dutch_0;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_dutch_1;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_dutch_2;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_dutch_3;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_dutch_4;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_dutch_5;Goedendag Militia Quarters;;;;Cuarteles de la milicia Goedendag;;;;;;;;;x
+ca_culture_basque_0;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_1;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_2;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_3;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_4;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_5;Kuartela;;;;;;;;;;;;;x
+ca_culture_basque_1_desc;The Basque were renowned for their powerful heavy infantry.;;;;Los vascos eran famosos por su poderosa infantería pesada.;;;;;;;;;x
+ca_culture_jewish_0;Jewish Heavy Infantry Barracks;Caserne d’infanterie lourde juive;Übungsplatz für jüdische Schwere Infanterie;;Barracas de Infantería Pesada judia;;;;;;;;;x
+ca_culture_jewish_5;Jewish Heavy Infantry Barracks;Caserne d’infanterie lourde juive;Übungsplatz für jüdische Schwere Infanterie;;Barracas de Infantería Pesada judia;;;;;;;;;x
+ca_culture_nahuatl_0;Jaguar Warrior Lodge;Hutte de guerrier jaguar;Jaguarkriegerhütte;;Campamento de Guerreros Jaguar;;;;;;;;;x
+ca_culture_nahuatl_5;Jaguar Warrior Lodge;Hutte de guerrier jaguar;Jaguarkriegerhütte;;Campamento de Guerreros Jaguar;;;;;;;;;x
+ca_culture_nubian_0;Nubian Warrior Barracks;Caserne des guerriers nubiens;Nubische Kriegerbaracken;;Barracas de Guerreros Nubios;;;;;;;;;x
+ca_culture_nubian_5;Nubian Warrior Barracks;Caserne des guerriers nubiens;Nubische Kriegerbaracken;;Barracas de Guerreros Nubios;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_0;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_1;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_2;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_3;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_4;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_5;Jinete Riding Grounds;;;;Terrenos de equitación de jinetes;;;;;;;;;x
+ca_culture_portuguese_galician_andalusian_desc;Lightly-armored cavalry train here in the art of flanking and peppering the enemy with arrows and javelins, softening them before the heavier elements of the army charge the lines.;;;;;;;;;;;;;x
+ca_culture_group_north_african_0;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_1;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_2;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_3;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_4;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_5;Camel Riding Grounds;;;;Terrenos de equitación de camelleros;;;;;;;;;x
+ca_culture_group_north_african_1_desc;Lightly-armored camelry train here in the art of flanking and peppering the enemy with arrows and javelins..;;;;;;;;;;;;;x
+ca_culture_catalan_1;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_2;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_3;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_4;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_5;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_0;Almoghavars Conscription Camp;Grand enclos des almoghavars;Almoghavars-Übungsplatz;;Zona de entrenamiento de almogávars;;;;;;;;;x
+ca_culture_catalan_1_desc;Lightly-armored irregulars gather here in hopes of joining up with an army that can feed them more than brigandage can. Skilled with raiding the enemy with arrows and javelins, these unscrupulous ruffians can be a terror to an unsuspecting enemy.;;;;;;;;;;;;;x
+ca_culture_assyrian_1;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_2;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_3;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_4;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_5;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_0;Kashat Archery Range;;;;;;;;;;;;;x
+ca_culture_assyrian_1_desc;The Syrian tradition of training eagle-eyed archers is kept alive here, stretching back even to antiquity when these warriors served as auxiliaries in Roman legions.;;;;;;;;;;;;;x
+## Retinues;;;;;;;;;;;;;;x
+RETTYPE_CUL_KARANTANCI;Vitez;;;;;;;;;;;;;x
+RETTYPE_CUL_POMMERANIAN;Druzyna;;;;;;;;;;;;;x
+RETTYPE_CUL_CROATIAN;Uskok;;;;;;;;;;;;;x
+RETTYPE_CUL_SERBIAN;Vlastela;;;;;;;;;;;;;x
+RETTYPE_CUL_BULGARIAN;Bolqr;;;;;;;;;;;;;x
+RETTYPE_CUL_BOHEMIAN;Rytír;;;;;;;;;;;;;x
+RETTYPE_CUL_ROMANIAN;Calarasi;;;;;;;;;;;;;x
+RETTYPE_CUL_HUNG;Bandérium;;;;;;;;;;;;;x
+RETTYPE_CUL_FINNO_UGRIC;Soturi Lempo;;;;;;;;;;;;;x
+RETTYPE_CUL_BALT;Karavirs Perkons;;;;;;;;;;;;;x
+RETTYPE_CUL_NORMAN;Chevalier;;;;;;;;;;;;;x
+RETTYPE_CUL_SOUTH_SLA;Gusar;;;;Gúsar;;;;;;;;;x
+RETTYPE_CUL_SCOT;Schiltron;;;;;;;;;;;;;x
+RETTYPE_CUL_IRISH;Gallóglach;;;;;;;;;;;;;x
+RETTYPE_CUL_NORSEGAELIC;Huscarl;;;;;;;;;;;;;x
+RETTYPE_CUL_ENG;Longbowman;;;;Arco largo;;;;;;;;;x
+RETTYPE_CUL_SAXON;Þingalið;;;;;;;;;;;;;x
+RETTYPE_CUL_NORWEGIAN;Heiðþegi;;;;;;;;;;;;;x
+RETTYPE_CUL_DUTCH;Goedendag Burgerwacht;;;;;;;;;;;;;x
+RETTYPE_CUL_GERMAN;Ritter;;;;;;;;;;;;;x
+RETTYPE_CUL_RUS;Druzhýna;;;;;;;;;;;;;x
+RETTYPE_CUL_POLISH;Druzyna;;;;;;;;;;;;;x
+RETTYPE_CUL_LITHUANIAN;Perkuno Karys;;;;;;;;;;;;;x
+RETTYPE_CUL_E_AFR;Zãbãnnya;;;;;;;;;;;;;x
+RETTYPE_CUL_IRANIAN;Khwarezmiyya;;;;;;;;;;;;;x
+RETTYPE_CUL_BYZ;Kataphraktos;;;;Catafracta;;;;;;;;;x
+RETTYPE_CUL_TURKISH;Sipahi;;;;;;;;;;;;;x
+RETTYPE_CUL_ALTAIC;Kheshig;;;;;;;;;;;;;x
+RETTYPE_CUL_GEORGIAN;Mona'spa;;;;;;;;;;;;;x
+RETTYPE_CUL_ITA;Cavaliere;;;;;;;;;;;;;x
+RETTYPE_CUL_ARAB;Al-Faris;;;;;;;;;;;;;x
+RETTYPE_CUL_CATALAN;Almughavar;;;;;;;;;;;;;x
+RETTYPE_CUL_ANDALUSIAN;Zenata;;;;;;;;;;;;;x
+RETTYPE_CUL_CASTILLIAN;Caballero;;;;;;;;;;;;;x
+RETTYPE_CUL_PORTUGESE;Cavaleiro;;;;;;;;;;;;;x
+RETTYPE_CUL_FRANKISH;Chevalier;;;;;;;;;;;;;x
+RETTYPE_CUL_ARMENIAN;Naxarar;;;;;;;;;;;;;x
+RETTYPE_CUL_BASQUE;Zaldun;;;;;;;;;;;;;x
+RETTYPE_CUL_ESTONIAN;Malev;;;;;;;;;;;;;x
+RETTYPE_CUL_ROMAN;Praetorianus;;;;Pretoriano;;;;;;;;;x
+RETTYPE_CUL_AVAR;Sclavinia;;;;;;;;;;;;;x
+RETTYPE_CUL_NORSE;Heimþegi;;;;;;;;;;;;;x
+RETTYPE_CUL_VISIGOTHIC;Vesi;;;;;;;;;;;;;x
+RETTYPE_CUL_CASTILLIAN;Hidalgo;;;;;;;;;;;;;x
+RETTYPE_CUL_NORTHAFR;a-Mazigh;;;;;;;;;;;;;x
+RETTYPE_CUL_SYR;Kashat;;;;;;;;;;;;;x
+#Events;;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events.10;After the death of my [Root.GetFatherMother] It is time for me to pledge homage to my lord as my ancestor did before me.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.10;I will travel to [Suzerain.capital_scope.GetName] to give my suzerain homage !;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.10;On second thought, he is not my suzerain, I renounce him !;;;;;;;;;;;;;x
+EVTDESCA_AVE_MARIA_events.11;A messenger just arrived and informed me that [From.GetTitledName] is going to come in [Root.Capital_scope.GetName] to swear me homage.;;;;;;;;;;;;;x
+EVTDESCB_AVE_MARIA_events.11;A messenger just arrived and informed me that [From.GetTitledName] is not going to swear me homage !;;;;;;;;;;;;;
+EVTOPTA_AVE_MARIA_events.11;We must prepare for the upcoming ceremony;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.11;He is not worthy of me and I do not want any entanglement with [From.GetTitledName] !;;;;;;;;;;;;;x
+EVTOPTC_AVE_MARIA_events.11;How dare [From.GetHerHim] !;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events.12;I just received a messenger from [From.GetTitledName] that he refuses to accept my homage ! This is an outrage !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.12;But why ?;;;;;;;;;;;;;x
+TITLE_AVE_MARIA.13;T;;;;;;;;;;;;;
+EVTDESC_AVE_MARIA_events_christian.13;Today, in front of many witnesses I brought myself to my knees before [From.GetTitledName] in sign of humility and swore upon the Holy Bible my oath of fidelity while he held my hands. As [From.GetTitledName] accepted my pledge, I rose, we made the kiss of peace and I received a symbolic token of my fealty. \n I am now [From.GetTitledName]'s man !;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events_muslim.13;Today, in front of many witnesses I brought myself to my knees before [From.GetTitledName] in sign of humility and swore upon the Holy Book my oath of fidelity while he held my hands. As [From.GetTitledName] accepted my pledge, I rose, we made the kiss of peace and I received a symbolic token of my fealty. \n I am now [From.GetTitledName]'s man !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.13;A glorious ceremony !;;;;;;;;;;;;;x
+TITLE_AVE_MARIA.14;T;;;;;;;;;;;;;
+EVTDESC_AVE_MARIA_events_christian.14;Today, in front of many witnesses [FromFromFrom.GetTitleName] brought himself to his knees before me in sign of humility and swore upon the Holy Bible his oath of fidelity while I held his hands. As I accepted his pledge, he rose, we made the kiss of peace and I gave him a symbolic token of his fealty. Our contract is now engaged !;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events_muslim.14;Today, in front of many witnesses [From.GetTitleName] brought himself to his knees before me in sign of humility and swore upon the Holy Quran his oath of fidelity while I held his hands. As I accepted his pledge, he rose, we made the kiss of peace and I gave him a symbolic token of his fealty. Our contract is now engaged !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.14;My man !;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events.16;[From.GetTitledName] has sent a messenger to propose me to swear him homage and become his vassal.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.16;I will swear to him, [From.GetSheHe] is a worthy lord.;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.16;[From.GetSheHeCap] does not deserve my oath !;;;;;;;;;;;;;x
+EVTDESCA_AVE_MARIA_events.17;[From.GetTitledName] has accepted my offer and will come to swear me homage soon !;;;;;;;;;;;;;x
+EVTDESCB_AVE_MARIA_events.17;[From.GetTitledName] has refused  my offer of vassalage ! What an insult !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.17;Great, we must prepare.;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.17;Curses.;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_events.18;[From.GetTitledName] has sent a messenger to propose  swear me homage and become my vassal.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.18;Great, I accept, we must prepare;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.18;I do not need more entanglements;;;;;;;;;;;;;x
+EVTDESCA_AVE_MARIA_events.19;[From.GetTitledName] has accepted my offer of homage !;;;;;;;;;;;;;x
+EVTDESCB_AVE_MARIA_events.19;[From.GetTitledName] has refused my offer of homage !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_events.19;To the ceremony !;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_events.19;Curses.;;;;;;;;;;;;;x
+# Modifiers;;;;;;;;;;;;;;x
+opinion_refused_homage;Refused to swear homage;;;;;;;;;;;;;x
+#Titles;;;;;;;;;;;;;;x
+CONSTABLE;Constable;Connétable;;;;;;;;;;;;x
+DYNAMIC_SERVITIUM_DEBITUM;[Root.GetTitledName]'s Ban;;;;;;;;;;;;;x
+#Various;;;;;;;;;;;;;;x
+servitium_debitum_troops_spawned_ARMY;Servitium Debitum Troops;;;;;;;;;;;;;x
