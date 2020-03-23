@@ -46,22 +46,17 @@ on_new_holder_usurpation = {
 # From = Attacker, Root = Defender
 on_war_ended_victory = {
 	events = {
-		AVE_MARIA.1
-		AVE_MARIA.2
 		#Flag cleaning
 		AVE_MARIA.4
 		#Ban Troops removal
 		AVE_MARIA.27
 		
-
 	}
 }
 
 # From = Attacker, Root = Defender
 on_war_ended_whitepeace = {
 	events = {
-		AVE_MARIA.1
-		AVE_MARIA.2
 		#Flag cleaning
 		AVE_MARIA.4
 		#Ban Troops removal
@@ -72,8 +67,6 @@ on_war_ended_whitepeace = {
 # From = Attacker, Root = Defender
 on_war_ended_defeat = {
 	events = {
-		AVE_MARIA.1
-		AVE_MARIA.2
 		#Flag cleaning
 		AVE_MARIA.4
 		#Ban Troops removal
@@ -84,8 +77,6 @@ on_war_ended_defeat = {
 # From = Attacker, Root = Defender
 on_war_ended_invalid = {
 	events = {
-		AVE_MARIA.1
-		AVE_MARIA.2
 		#Flag cleaning
 		AVE_MARIA.4
 		#Ban Troops removal
