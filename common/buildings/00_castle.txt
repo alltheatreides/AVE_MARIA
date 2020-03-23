@@ -218,8 +218,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		light_infantry = 80
-		archers = 10
+		light_infantry = 20
+		archers = 5
 		ai_creation_factor = 100
 
 		extra_tech_building_start = 1.0
@@ -231,8 +231,8 @@ castle = {
 		upgrades_from = ca_militia_barracks_1
 		gold_cost = 120
 		build_time = 547
-		light_infantry = 50
-		archers = 50
+		light_infantry = 25
+		archers = 25
 		ai_creation_factor = 99
 
 		extra_tech_building_start = 2.2
@@ -244,7 +244,7 @@ castle = {
 		gold_cost = 200
 		build_time = 1095
 		light_infantry = 20
-		archers = 90
+		archers = 45
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 1.2
@@ -255,8 +255,8 @@ castle = {
 		upgrades_from = ca_militia_barracks_3
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 30
-		archers = 120
+		light_infantry = 15
+		archers = 60
 		ai_creation_factor = 98
 
 		extra_tech_building_start = 0.5
@@ -309,8 +309,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		heavy_infantry = 30
-		pikemen = 15
+		# heavy_infantry = 30
+		pikemen = 7
 		ai_creation_factor = 105
 
 		extra_tech_building_start = 1.0
@@ -322,8 +322,8 @@ castle = {
 		upgrades_from = ca_barracks_1
 		gold_cost = 120
 		build_time = 547
-		heavy_infantry = 40
-		pikemen = 15
+		# heavy_infantry = 40
+		pikemen = 7
 		ai_creation_factor = 104
 
 		extra_tech_building_start = 2.2
@@ -335,8 +335,8 @@ castle = {
 		upgrades_from = ca_barracks_2
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 45
-		pikemen = 20
+		# heavy_infantry = 45
+		pikemen = 10
 		ai_creation_factor = 103
 
 		extra_tech_building_start = 3.0
@@ -347,8 +347,8 @@ castle = {
 		upgrades_from = ca_barracks_3
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 50
-		pikemen = 25
+		# heavy_infantry = 50
+		pikemen = 12
 		ai_creation_factor = 102
 
 		extra_tech_building_start = 3.0
@@ -359,8 +359,8 @@ castle = {
 		upgrades_from = ca_barracks_4
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 60
-		pikemen = 25
+		# heavy_infantry = 60
+		pikemen = 12
 		ai_creation_factor = 101
 
 		extra_tech_building_start = 2.0
@@ -371,8 +371,8 @@ castle = {
 		upgrades_from = ca_barracks_5
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 65
-		pikemen = 30
+		# heavy_infantry = 65
+		pikemen = 12
 		ai_creation_factor = 100
 
 		extra_tech_building_start = 0.2
@@ -384,7 +384,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		light_cavalry = 35
+		knights = 17
 		ai_creation_factor = 89
 
 		extra_tech_building_start = 0.8
@@ -396,7 +396,7 @@ castle = {
 		upgrades_from = ca_stable_1
 		gold_cost = 120
 		build_time = 547
-		light_cavalry = 45
+		knights = 22
 		ai_creation_factor = 88
 
 		extra_tech_building_start = 2.2
@@ -408,7 +408,7 @@ castle = {
 		upgrades_from = ca_stable_2
 		gold_cost = 200
 		build_time = 730
-		light_cavalry = 55
+		knights = 27
 		ai_creation_factor = 87
 
 		extra_tech_building_start = 1.6
@@ -419,7 +419,7 @@ castle = {
 		upgrades_from = ca_stable_3
 		gold_cost = 300
 		build_time = 1095
-		light_cavalry = 55
+		knights = 27
 		knights = 5
 		ai_creation_factor = 86
 
@@ -431,7 +431,7 @@ castle = {
 		upgrades_from = ca_stable_4
 		gold_cost = 400
 		build_time = 2190
-		light_cavalry = 55
+		knights = 27
 		knights = 10
 		ai_creation_factor = 85
 
@@ -443,7 +443,7 @@ castle = {
 		upgrades_from = ca_stable_5
 		gold_cost = 500
 		build_time = 2190
-		light_cavalry = 55
+		knights = 27
 		knights = 20
 		ai_creation_factor = 85
 

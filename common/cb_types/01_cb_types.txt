@@ -601,7 +601,7 @@ force_vassalization = { # New2
 		FROM = {
 			show_scope_change = no
 			prestige = -100
-			set_defacto_liege = ROOT
+			make_tributary = { who = ROOT tributary_type = true_vassal }
 		}
 
 		hidden_tooltip = {
@@ -1105,7 +1105,7 @@ ducal_county_conquest = { # New4
 			}
 
 			holder_scope = {
-				set_defacto_liege = ROOT
+				make_tributary = { who = ROOT tributary_type = true_vassal }
 			}
 		}
 
@@ -1940,7 +1940,7 @@ liberate_religion = { # New6
 					type = holy_war
 					as_if_allied_to = ROOT
 				}
-				set_defacto_liege = THIS
+				make_tributary = { who = THIS tributary_type = true_vassal }
 			}
 
 			if = {
@@ -2560,10 +2560,17 @@ unjust_conquest = { # New7
 					lower_tier_than = ROOT
 				}
 			}
-
+			if = {
+				limit = { defender = { is_tributary = { type = true_vassal } } }
+				defender = { suzerain = { remove_tributary = PREV } }
+				holder_scope = {
+					show_scope_change = no
+					make_tributary = { who = ROOT tributary_type = true_vassal }
+				}
+			}
 			holder_scope = {
 				show_scope_change = no
-				set_defacto_liege = ROOT
+				make_tributary = { who = ROOT tributary_type = true_vassal }
 			}
 		}
 
@@ -3868,7 +3875,7 @@ offmap_submission = {
 							}
 						}
 					}
-					set_defacto_liege = ROOT
+					make_tributary = { who = ROOT tributary_type = true_vassal }
 
 					if = {
 						limit = {
@@ -3890,7 +3897,7 @@ offmap_submission = {
 				}
 
 				any_vassal = {
-					set_defacto_liege = ROOT
+					make_tributary = { who = ROOT tributary_type = true_vassal }
 					if = {
 						limit = { ROOT = { has_character_flag = is_rebel_general } }
 						opinion = {
@@ -3913,7 +3920,7 @@ offmap_submission = {
 					limit = {
 						lower_tier_than = EMPEROR
 					}
-					set_defacto_liege = ROOT
+					make_tributary = { who = ROOT tributary_type = true_vassal }
 					break = yes
 				}
 
@@ -4820,7 +4827,7 @@ invasion_of_china_cb = {
 				offmap_china = {
 					governor = {
 						any_vassal = {
-							set_defacto_liege = ROOT
+							make_tributary = { who = ROOT tributary_type = true_vassal }
 						}
 						any_demesne_title = {
 							limit = {
@@ -5179,14 +5186,14 @@ truebelievers_bid_for_independence = {
 					}
 					liege_before_war = {
 						any_attacker = {
-							set_defacto_liege = PREV
+							make_tributary = { who = PREV tributary_type = true_vassal }
 						}
 					}
 				}
 				else = {
 					liege = {
 						any_attacker = {
-							set_defacto_liege = PREV
+							make_tributary = { who = PREV tributary_type = true_vassal }
 						}
 					}
 				}
@@ -5200,7 +5207,7 @@ truebelievers_bid_for_independence = {
 					}
 				}
 				any_attacker = {
-					set_defacto_liege = ROOT
+					make_tributary = { who = ROOT tributary_type = true_vassal }
 					clr_character_flag = flag_truebelievers_revolter
 				}
 			}
@@ -5292,17 +5299,17 @@ truebelievers_bid_for_independence = {
 					}
 					liege_before_war = {
 						ROOT = {
-							set_defacto_liege = PREV
+							make_tributary = { who = PREV tributary_type = true_vassal }
 						}
 					}
 				}
 				else = {
 					liege = {
 						ROOT = {
-							set_defacto_liege = PREV
+							make_tributary = { who = PREV tributary_type = true_vassal }
 						}
 						any_vassal = { limit = { has_character_flag = independent_joining_flag }
-							set_defacto_liege = PREV
+							make_tributary = { who = PREV tributary_type = true_vassal }
 							clr_character_flag = independent_joining_flag
 						}
 					}
@@ -5314,7 +5321,7 @@ truebelievers_bid_for_independence = {
 					set_defacto_liege = FROM
 				}
 				any_vassal = { limit = { has_character_flag = independent_joining_flag }
-					set_defacto_liege = PREV
+					make_tributary = { who = PREV tributary_type = true_vassal }
 					clr_character_flag = independent_joining_flag
 				}
 			}
@@ -8330,7 +8337,7 @@ shepherds_crusade_invasion = {
 				type = holy_war
 			}
 			clr_character_flag = shepherds_leader
-			set_defacto_liege = ROOT
+			make_tributary = { who = ROOT tributary_type = true_vassal }
 
 			hidden_tooltip = {
 				dynasty = father_bastard
@@ -8493,11 +8500,11 @@ shepherds_crusade_invasion = {
 											}
 										}
 										owner = {
-											set_defacto_liege = PREVPREVPREV
+											make_tributary = { who = PREV tributary_type = true_vassal }PREVPREV
 										}
 									}
 								}
-								set_defacto_liege = ROOT
+								make_tributary = { who = ROOT tributary_type = true_vassal }
 							}
 						}
 					}
