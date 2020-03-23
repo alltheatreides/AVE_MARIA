@@ -271,8 +271,8 @@ city = {
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		light_infantry = 30
-		archers = 15
+		light_infantry = 60
+		archers = 30
 		ai_creation_factor = 95
 
 		extra_tech_building_start = 0.5
@@ -284,8 +284,8 @@ city = {
 		upgrades_from = ct_barracks_1
 		gold_cost = 120
 		build_time = 547
-		light_infantry = 20
-		archers = 35
+		light_infantry = 40
+		archers = 70
 		ai_creation_factor = 94
 
 		extra_tech_building_start = 1.0
@@ -297,8 +297,8 @@ city = {
 		upgrades_from = ct_barracks_2
 		gold_cost = 200
 		build_time = 730
-		light_infantry = 40
-		archers = 25
+		light_infantry = 80
+		archers = 50
 		ai_creation_factor = 93
 
 		extra_tech_building_start = 1.0
@@ -309,8 +309,8 @@ city = {
 		upgrades_from = ct_barracks_3
 		gold_cost = 300
 		build_time = 1095
-		light_infantry = 30
-		archers = 45
+		light_infantry = 60
+		archers = 90
 		ai_creation_factor = 92
 
 		extra_tech_building_start = 0.2
@@ -321,8 +321,8 @@ city = {
 		upgrades_from = ct_barracks_4
 		gold_cost = 400
 		build_time = 2190
-		light_infantry = 50
-		archers = 35
+		light_infantry = 100
+		archers = 70
 		ai_creation_factor = 91
 
 		extra_tech_building_start = 0.2
@@ -333,8 +333,8 @@ city = {
 		upgrades_from = ct_barracks_5
 		gold_cost = 500
 		build_time = 2190
-		light_infantry = 40
-		archers = 55
+		light_infantry = 80
+		archers = 110
 		ai_creation_factor = 90
 
 		extra_tech_building_start = 0.2
@@ -346,7 +346,7 @@ city = {
 		trigger = { TECH_CITY_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		pikemen = 22
+		pikemen = 45
 		ai_creation_factor = 96
 
 		extra_tech_building_start = 1.0
@@ -358,7 +358,7 @@ city = {
 		upgrades_from = ct_guard_1
 		gold_cost = 120
 		build_time = 547
-		pikemen = 27
+		pikemen = 55
 		ai_creation_factor = 95
 
 		extra_tech_building_start = 0.2
@@ -370,7 +370,7 @@ city = {
 		upgrades_from = ct_guard_2
 		gold_cost = 200
 		build_time = 730
-		pikemen = 32
+		pikemen = 65
 		ai_creation_factor = 94
 
 		extra_tech_building_start = 0.2
@@ -381,7 +381,7 @@ city = {
 		upgrades_from = ct_guard_3
 		gold_cost = 300
 		build_time = 1095
-		pikemen = 37
+		pikemen = 75
 		ai_creation_factor = 93
 
 		extra_tech_building_start = 0.2
@@ -392,7 +392,7 @@ city = {
 		upgrades_from = ct_guard_4
 		gold_cost = 400
 		build_time = 2190
-		pikemen = 42
+		pikemen = 85
 		ai_creation_factor = 92
 
 		extra_tech_building_start = 0.2
