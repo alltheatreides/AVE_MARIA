@@ -1,0 +1,121 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_prepared_campaign.1 - AVE_MARIA_prepared_campaign.499				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_prepared_campaign
+
+###########################################
+# Prepared Campaign events 1-10	          #
+###########################################
+
+# Vassals are informed of the military expedition summon
+character_event = {
+    id = AVE_MARIA_prepared_campaign.1
+	desc = EVTDESC_AVE_MARIA_prepared_campaign_events.1
+    is_triggered_only = yes
+
+    #AVE MARIA Religion Trigger
+	trigger = {
+		OR = {
+			religion = christian
+		}
+		NOT = { has_character_flag = called_vassals }
+	}
+
+    immediate = {
+        any_tributary = {
+			limit = {
+				is_tributary = { type = true_vassal }
+			}
+			character_event = { id = AVE_MARIA_prepared_campaign.2 days = 10 }
+		}
+		set_character_flag = called_vassals
+    }
+	
+	option = {
+		name = EVTOPTA_AVE_MARIA_prepared_campaign_events.1
+	}
+
+}
+
+# Vassals receive the military expedition summon from their liege
+character_event = {
+    id = AVE_MARIA_prepared_campaign.2
+    is_triggered_only = yes
+
+
+    immediate = {
+        add_character_flag = received_summon
+    }
+	
+	#Join the war with the liege
+	option = {
+		name = EVTOPTA_AVE_MARIA_prepared_campaign_events.2
+	}
+	
+	#Send some troops
+	option = {
+		name = EVTOPTB_AVE_MARIA_prepared_campaign_events.2
+		FROM = {
+			capital_scope = {
+				spawn_unit = {
+					province = PREV
+					owner = FROM
+					match_character = ROOT
+					match_mult = 0.5
+					earmark = prepared_campaign
+					attrition = 1.0
+				}
+			}
+		}
+		any_demesne_province = {
+			add_province_modifier = {
+				name = servitium_debitium
+				duration = -1
+			}
+		}
+	}
+	
+	#Send the minimum
+	option = {
+		name = EVTOPTC_AVE_MARIA_prepared_campaign_events.2
+		FROM = {
+			capital_scope = {
+				spawn_unit = {
+					province = PREV
+					owner = FROM
+					match_character = ROOT
+					match_mult = 0.1
+					earmark = prepared_campaign
+					attrition = 1.0
+				}
+			}
+		}
+		any_demesne_province = {
+			add_province_modifier = {
+				name = servitium_debitium_minimum
+				duration = -1
+			}
+		}
+	}
+	
+	#Pay - Ecuage
+	option = {
+		name = EVTOPTD_AVE_MARIA_prepared_campaign_events.2
+		trigger = {
+			has_global_flag = ecuage_started
+		}
+		
+		transfer_scaled_wealth = { to = FROM value = 0.25 }
+	}
+
+}
+
+
