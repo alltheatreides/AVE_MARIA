@@ -3,7 +3,7 @@
 # AVE MARIA events																	   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
-# ID AVE_MARIA.1-AVE_MARIA.499                          							   #
+# ID AVE_MARIA_ADMC.1 - AVE_MARIA_ADMC.499                          							   #
 #                               													   #
 ########################################################################################
 
@@ -14,8 +14,7 @@ namespace = AVE_MARIA_ADMC
 ##NOTES:
 ## Administrative Capacity is a variable tracked from the capital province scope giving a modifier to all the other possessed desmene titles of the character
 
-
-## INITIALIZE ADMINISTRATIVE CAPACITY
+## Initializes non capital provinces malus
 character_event = {
 	id = AVE_MARIA_ADMC.1
 	hide_window = yes
@@ -33,7 +32,7 @@ character_event = {
 			limit = {
 				ai = no
 			}
-			log = "1: This event is running for [Root.GetTitledName]"
+			log = "1: Provinces maluses done for [Root.GetTitledName] and all the world playable character"
 		}
 		
 		capital_scope = {
@@ -83,6 +82,7 @@ character_event = {
 	}
 }
 
+## Capital is changed and malus have to be remade
 character_event = {
 	id = AVE_MARIA_ADMC.2
 	hide_window = yes
@@ -153,5 +153,60 @@ character_event = {
 			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
 			set_province_flag = administrative_capacity_distant_province
 		}
+	}
+}
+
+## Initialization of variable Administrative Capacity
+character_event = {
+	id = AVE_MARIA_ADMC.3
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+        is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+	
+		if = {
+			limit = {
+				ai = no
+			}
+			log = "1: Administrative Capacity calculated for [Root.GetTitledName] and all the world playable character"
+		}
+		
+		set_variable = { which = administrative_capacity value = 10 }
+		
+		if = {
+			limit = {
+				higher_tier_than = duke
+			}
+			change_variable = { which = administrative_capacity value = 15 }
+		}
+		if = {
+			limit = {
+				higher_tier_than = king
+			}
+			change_variable = { which = administrative_capacity value = 20 }
+		}
+		if = {
+			limit = {
+				AND = {
+					primary_title = { 
+						OR = { 
+							title = e_byzantium
+							title = e_roman_empire
+						}
+						has_law = succ_byzantine_elective
+					}
+				}
+				has_law = succ_byzantine_elective
+			}
+			change_variable = { which = administrative_capacity value = 100 }
+		}
+		
+		
 	}
 }
