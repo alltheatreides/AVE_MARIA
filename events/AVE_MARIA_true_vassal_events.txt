@@ -3,21 +3,21 @@
 # AVE MARIA events																	   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
-# ID AVE_MARIA.1-AVE_MARIA.499                          							   #
+# ID AVE_MARIA_true_vassal.1 - AVE_MARIA_true_vassal.499                          	   #
 #                               													   #
 ########################################################################################
 
 # Written by Atreides
 
-namespace = AVE_MARIA
+namespace = AVE_MARIA_true_vassal
 
 ###########################################
 # Maintenance events 1-10	              #
 ###########################################
 
-# True Vassals Maintenance event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
+# True Vassals Start Up event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
 character_event = {
-    id = AVE_MARIA.1
+    id = AVE_MARIA_true_vassal.1
     hide_window = yes
     is_triggered_only = yes
 
@@ -148,7 +148,7 @@ character_event = {
 
 # True Vassals Maintenance event - chaque année pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
 character_event = {
-    id = AVE_MARIA.2
+    id = AVE_MARIA_true_vassal.2
     hide_window = yes
     is_triggered_only = yes
 
@@ -353,7 +353,7 @@ character_event = {
 
 # True Vassals Maintenance event - quand un titre change de main pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
 character_event = {
-	id = AVE_MARIA.3
+	id = AVE_MARIA_true_vassal.3
     hide_window = yes
     is_triggered_only = yes
 	
@@ -459,7 +459,7 @@ character_event = {
 
 # Flag cleaning - à la fin de chaque guerre
 character_event = {
-    id = AVE_MARIA.4
+    id = AVE_MARIA_true_vassal.4
     hide_window = yes
     is_triggered_only = yes
    
@@ -511,7 +511,7 @@ character_event = {
 
 # Donner un flag gave_homage_to_liege à chaque tributaire au début du jeu pour éviter le spam
 character_event = {
-    id = AVE_MARIA.6
+    id = AVE_MARIA_true_vassal.6
     is_triggered_only = yes
     hide_window = yes
 
@@ -561,8 +561,8 @@ character_event = {
 
 # Hommage-lige events - Informer le feudataire de la cérémonie lige qui aura lieu
 character_event = {
-    id = AVE_MARIA.10
-    desc = EVTDESC_AVE_MARIA_events.10
+    id = AVE_MARIA_true_vassal.10
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.10
     picture = {
         trigger = { religion_group = christian }
         picture = GFX_evt_ruler_homage_2
@@ -579,7 +579,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTA_AVE_MARIA_events.10
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.10
         set_character_flag = will_swear_fealty
         hidden_effect = {
             trait = travelling
@@ -593,13 +593,13 @@ character_event = {
         }
         hidden_effect = {
             suzerain = {
-                character_event = { id = AVE_MARIA.11 days = 5 }
+                character_event = { id = AVE_MARIA_true_vassal.11 days = 5 }
             }
         }
     }
 
     option = {
-        name = EVTOPTB_AVE_MARIA_events.10
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.10
         set_character_flag = will_not_swear_fealty
         ai_chance = {
             factor = 5
@@ -610,7 +610,7 @@ character_event = {
         }
         hidden_effect = {
             suzerain = {
-                character_event = { id = AVE_MARIA.11 days = 5 }
+                character_event = { id = AVE_MARIA_true_vassal.11 days = 5 }
             }
         }
     }
@@ -619,18 +619,18 @@ character_event = {
 
 # Hommage-lige events - Informer le seigneur de la cérémonie lige qui aura lieu ou du refus
 character_event = {
-    id = AVE_MARIA.11
+    id = AVE_MARIA_true_vassal.11
     desc = {
         trigger = { 
             FROM = { has_character_flag = will_swear_fealty }
         }
-        text = EVTDESCA_AVE_MARIA_events.11
+        text = EVTDESCA_AVE_MARIA_true_vassal_events.11
     }
     desc = {
         trigger = { 
             FROM = { has_character_flag = will_not_swear_fealty }
         }
-        text = EVTDESCB_AVE_MARIA_events.11
+        text = EVTDESCB_AVE_MARIA_true_vassal_events.11
     }
     picture = {
         trigger = { religion_group = christian }
@@ -648,7 +648,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTA_AVE_MARIA_events.11
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.11
         trigger = {
             FROM = { has_character_flag = will_swear_fealty }
         }
@@ -677,8 +677,8 @@ character_event = {
             wealth = -20
         }
         hidden_effect = {
-            character_event = { id = AVE_MARIA.14 days = 5}
-            FROM = { character_event = { id = AVE_MARIA.13 days = 5} }
+            character_event = { id = AVE_MARIA_true_vassal.14 days = 5}
+            FROM = { character_event = { id = AVE_MARIA_true_vassal.13 days = 5} }
         }
         ai_chance = {
             factor = 95
@@ -690,7 +690,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTB_AVE_MARIA_events.11
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.11
         trigger = {
             FROM = { has_character_flag = will_swear_fealty }
         }
@@ -726,12 +726,12 @@ character_event = {
             prestige = -100
         }
         hidden_effect = {
-            FROM = { character_event = { id = AVE_MARIA.12 days = 5 } }
+            FROM = { character_event = { id = AVE_MARIA_true_vassal.12 days = 5 } }
         }
     }
 
     option = {
-        name = EVTOPTC_AVE_MARIA_events.11
+        name = EVTOPTC_AVE_MARIA_true_vassal_events.11
         trigger = {
             FROM = { has_character_flag = will_not_swear_fealty }
         }
@@ -746,8 +746,8 @@ character_event = {
 
 # Hommage-lige events - En cas de refus du seigneur, informer le feudataire
 character_event = {
-    id = AVE_MARIA.12
-    desc = EVTDESC_AVE_MARIA_events.12
+    id = AVE_MARIA_true_vassal.12
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.12
     picture = {
         trigger = { religion_group = christian }
         picture = GFX_evt_ruler_homage
@@ -764,7 +764,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTA_AVE_MARIA_events.12
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.12
         suzerain = {
             remove_tributary = ROOT
         }
@@ -798,14 +798,14 @@ character_event = {
 
 # Hommage-lige events - Cérémonie d'hommage pour le feudataire
 character_event = {
-    id = AVE_MARIA.13
+    id = AVE_MARIA_true_vassal.13
     desc = {
         trigger = { religion_group = christian }
-        text = EVTDESC_AVE_MARIA_events_christian.13
+        text = EVTDESC_AVE_MARIA_true_vassal_events_christian.13
     }
     desc = {
         trigger = { religion_group = muslim }
-        text = EVTDESC_AVE_MARIA_events_muslim.13
+        text = EVTDESC_AVE_MARIA_true_vassal_events_muslim.13
     }
     picture = {
         trigger = { religion_group = christian }
@@ -827,7 +827,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTA_AVE_MARIA_events.13
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.13
         if = {
             limit = {
                 ROOT = {
@@ -852,7 +852,7 @@ character_event = {
             }
             prestige = 100
         }
-        character_event = { id = AVE_MARIA.15 days = 5 }
+        character_event = { id = AVE_MARIA_true_vassal.15 days = 5 }
         set_character_flag = gave_homage_to_liege
     }
 
@@ -860,15 +860,15 @@ character_event = {
 
 # Hommage-lige events - Cérémonie d'hommage pour le liege
 character_event = {
-    id = AVE_MARIA.14
-    #title = TITLE_AVE_MARIA.14
+    id = AVE_MARIA_true_vassal.14
+    #title = TITLE_AVE_MARIA_true_vassal.14
     desc = {
         trigger = { religion_group = christian }
-        text = EVTDESC_AVE_MARIA_events_christian.14
+        text = EVTDESC_AVE_MARIA_true_vassal_events_christian.14
     }
     desc = {
         trigger = { religion_group = muslim }
-        text = EVTDESC_AVE_MARIA_events_muslim.14
+        text = EVTDESC_AVE_MARIA_true_vassal_events_muslim.14
     }
     picture = {
         trigger = { religion_group = christian }
@@ -886,7 +886,7 @@ character_event = {
     }
 
     option = {
-        name = EVTOPTA_AVE_MARIA_events.14
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.14
         if = {
             limit = {
                 ROOT = {
@@ -917,7 +917,7 @@ character_event = {
 
 # Hommage-lige events - Le feudataire rentre chez lui
 character_event = {
-    id = AVE_MARIA.15
+    id = AVE_MARIA_true_vassal.15
     hide_window = yes
     is_triggered_only = yes
 
@@ -928,22 +928,22 @@ character_event = {
 
 # Vassalisation - Demande - Le suzerain envoie une demande de vassalization
 character_event = {
-    id = AVE_MARIA.16
-    desc = EVTDESC_AVE_MARIA_events.16
+    id = AVE_MARIA_true_vassal.16
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.16
     picture = GFX_evt_ruler_homage
     is_triggered_only = yes
     show_from_from = yes
 
     #The target accepts the offer of vassalization and will have to swear homage
     option = {
-        name = EVTOPTA_AVE_MARIA_events.16
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.16
         set_character_flag = accepted_vassalization_demand
         event_target:target_asking_lord = {
             make_tributary = { who = ROOT tributary_type = true_vassal }
         }
-        character_event = { id = AVE_MARIA.13 days = 5 }
-        event_target:target_asking_lord = { character_event = { id = AVE_MARIA.14 days = 5 } }
-        event_target:target_asking_lord = { character_event = { id = AVE_MARIA.17 days = 1 } }
+        character_event = { id = AVE_MARIA_true_vassal.13 days = 5 }
+        event_target:target_asking_lord = { character_event = { id = AVE_MARIA_true_vassal.14 days = 5 } }
+        event_target:target_asking_lord = { character_event = { id = AVE_MARIA_true_vassal.17 days = 1 } }
         ai_chance = {
             factor = 95
             modifier = {
@@ -955,10 +955,10 @@ character_event = {
 
     # The target refuses
     option = {
-        name = EVTOPTB_AVE_MARIA_events.16
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.16
         #Nein
         set_character_flag = refused_vassalization_demand
-        FROM = { character_event = { id = AVE_MARIA.17 days = 1 } }
+        FROM = { character_event = { id = AVE_MARIA_true_vassal.17 days = 1 } }
         ai_chance = {
             factor = 5
             modifier = {
@@ -971,14 +971,14 @@ character_event = {
 
 # Vassalisation - Demande - Le suzerain reçoit la réponse
 character_event = {
-    id = AVE_MARIA.17
+    id = AVE_MARIA_true_vassal.17
     desc = {
         trigger = { FROM = { has_character_flag = accepted_vassalization_demand } }
-        text = EVTDESCA_AVE_MARIA_events.17
+        text = EVTDESCA_AVE_MARIA_true_vassal_events.17
     }
     desc = {
         trigger = { FROM = { has_character_flag = refused_vassalization_demand } }
-        text = EVTDESCB_AVE_MARIA_events.17
+        text = EVTDESCB_AVE_MARIA_true_vassal_events.17
     }
     picture = GFX_evt_ruler_homage
     is_triggered_only = yes
@@ -986,7 +986,7 @@ character_event = {
 
     # Positive answer
     option = {
-        name = EVTOPTA_AVE_MARIA_events.17
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.17
         trigger = {
             FROM = { has_character_flag = accepted_vassalization_demand }
         }
@@ -1019,7 +1019,7 @@ character_event = {
 
     #Negative Answer
     option = {
-        name = EVTOPTB_AVE_MARIA_events.17
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.17
         trigger = {
             FROM = { has_character_flag = refused_vassalization_demand }
         }
@@ -1029,23 +1029,23 @@ character_event = {
 
 # Vassalisation - Offre - Le landed envoie une offre de vassalization au futur seigneur (ou pas)
 character_event = {
-    id = AVE_MARIA.18
-    desc = EVTDESC_AVE_MARIA_events.18
+    id = AVE_MARIA_true_vassal.18
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.18
     picture = GFX_evt_ruler_homage
     is_triggered_only = yes
     show_from_from = yes
 
     #The lord accepts the offer of vassalization and landed will have to swear homage
     option = {
-        name = EVTOPTA_AVE_MARIA_events.18
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.18
         ROOT = {
             make_tributary = { who = event_target:target_asking_vassal tributary_type = true_vassal }
         }
         set_character_flag = accepted_vassalization_offer
-        character_event = { id = AVE_MARIA.14 days = 5 }
+        character_event = { id = AVE_MARIA_true_vassal.14 days = 5 }
         event_target:target_asking_vassal = {
-            character_event = { id = AVE_MARIA.19 days = 1 }
-            character_event = { id = AVE_MARIA.13 days = 5 }
+            character_event = { id = AVE_MARIA_true_vassal.19 days = 1 }
+            character_event = { id = AVE_MARIA_true_vassal.13 days = 5 }
         }
         ai_chance = {
             factor = 95
@@ -1058,7 +1058,7 @@ character_event = {
 
     # The lord refuses
     option = {
-        name = EVTOPTB_AVE_MARIA_events.18
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.18
         set_character_flag = refused_vassalization_offer
         ai_chance = {
             factor = 5
@@ -1072,14 +1072,14 @@ character_event = {
 
 # Vassalisation - Offre - Le landed reçoit la réponse
 character_event = {
-    id = AVE_MARIA.19
+    id = AVE_MARIA_true_vassal.19
     desc = {
         trigger = { FROM = { has_character_flag = accepted_vassalization_offer } }
-        text = EVTDESCA_AVE_MARIA_events.19
+        text = EVTDESCA_AVE_MARIA_true_vassal_events.19
     }
     desc = {
         trigger = { FROM = { has_character_flag = refused_vassalization_offer } }
-        text = EVTDESCB_AVE_MARIA_events.19
+        text = EVTDESCB_AVE_MARIA_true_vassal_events.19
     }
     picture = GFX_evt_ruler_homage
     is_triggered_only = yes
@@ -1087,7 +1087,7 @@ character_event = {
 
     # Positive answer
     option = {
-        name = EVTOPTA_AVE_MARIA_events.19
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.19
         trigger = {
             FROM = { has_character_flag = accepted_vassalization_offer }
         }
@@ -1096,7 +1096,7 @@ character_event = {
 
     #Negative Answer
     option = {
-        name = EVTOPTB_AVE_MARIA_events.19
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.19
         trigger = {
             FROM = { has_character_flag = refused_vassalization_offer }
         }
@@ -1112,8 +1112,8 @@ character_event = {
 
 # Military obligations - Offensive War - Suzerain summons all vassals - Vassal choose amount of troop to send
 character_event = {
-    id = AVE_MARIA.25
-    desc = EVTDESC_AVE_MARIA_events.25
+    id = AVE_MARIA_true_vassal.25
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.25
     is_triggered_only = yes
     border = GFX_event_normal_frame_war
 
@@ -1130,7 +1130,7 @@ character_event = {
 
     ##They will join the war when they like you enough
     option = {
-        name = EVTOPTA_AVE_MARIA_events.25
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.25
         join_attacker_wars = FROM
         ai_chance = {
             factor = 9
@@ -1143,7 +1143,7 @@ character_event = {
 
     #Customary according the the laws when they are neutral
     option = {
-        name = EVTOPTB_AVE_MARIA_events.25
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1179,7 +1179,7 @@ character_event = {
 
     ##Minimum when they do not like you or are the normands
     option = {
-        name = EVTOPTC_AVE_MARIA_events.25
+        name = EVTOPTC_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1215,7 +1215,7 @@ character_event = {
 
     ##Nothing, they are in feudal breach the motherfuckers
     option = {
-        name = EVTOPTD_AVE_MARIA_events.25
+        name = EVTOPTD_AVE_MARIA_true_vassal_events.25
         set_character_flag = feudal_breach
         ai_chance = {
             factor = 1
@@ -1230,7 +1230,7 @@ character_event = {
 
 # Military obligations - Offensive War - Destruction of the mercenary band and coming back home for the ban leader
 character_event = {
-    id = AVE_MARIA.27
+    id = AVE_MARIA_true_vassal.27
     is_triggered_only = yes
     hide_window = yes
 
@@ -1256,8 +1256,8 @@ character_event = {
 
 # Military obligations - Offensive War - Suzerain summons ONE vassal from targetted decision
 character_event = {
-    id = AVE_MARIA.28
-    desc = EVTDESC_AVE_MARIA_events.25
+    id = AVE_MARIA_true_vassal.28
+    desc = EVTDESC_AVE_MARIA_true_vassal_events.25
     is_triggered_only = yes
     border = GFX_event_normal_frame_war
 
@@ -1267,7 +1267,7 @@ character_event = {
 
     ##They will join the war when they like you enough
     option = {
-        name = EVTOPTA_AVE_MARIA_events.25
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.25
         join_attacker_wars = event_target:target_receiver_of_servitium_debitum
         ai_chance = {
             factor = 9
@@ -1280,7 +1280,7 @@ character_event = {
 
     #Customary according the the laws when they are neutral
     option = {
-        name = EVTOPTB_AVE_MARIA_events.25
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1310,7 +1310,7 @@ character_event = {
 
     ##Minimum when they do not like you or are the normands
     option = {
-        name = EVTOPTC_AVE_MARIA_events.25
+        name = EVTOPTC_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1340,7 +1340,7 @@ character_event = {
 
     ##Nothing, they are in feudal breach the motherfuckers
     option = {
-        name = EVTOPTD_AVE_MARIA_events.25
+        name = EVTOPTD_AVE_MARIA_true_vassal_events.25
         set_character_flag = feudal_breach
         ai_chance = {
             factor = 1
@@ -1354,8 +1354,8 @@ character_event = {
 
 # Military obligations - Defensive War - Suzerain summons all vassals
 character_event = {
-    id = AVE_MARIA.29
-    desc = EVTDESC_AVE_MARIA.29
+    id = AVE_MARIA_true_vassal.29
+    desc = EVTDESC_AVE_MARIA_true_vassal.29
     picture = GFX_evt_ruler_listening_to_supplicant
     border = GFX_event_normal_frame_war
     hide_window = yes
@@ -1381,7 +1381,7 @@ character_event = {
             }
             set_character_flag = convoqué_au_ban_defensive
             character_event = {
-                id = AVE_MARIA.31
+                id = AVE_MARIA_true_vassal.31
                 days = 5
             }
         }
@@ -1390,8 +1390,8 @@ character_event = {
 
 # Military obligations - Defensive War - Suzerain summons ONE vassal from targetted decision
 character_event = {
-    id = AVE_MARIA.30
-    desc = EVTDESC_AVE_MARIA.30
+    id = AVE_MARIA_true_vassal.30
+    desc = EVTDESC_AVE_MARIA_true_vassal.30
     hide_window = yes
     is_triggered_only = yes
 }
@@ -1399,8 +1399,8 @@ character_event = {
 
 # Military obligations - Defensive War - Vassals receive summons
 character_event = {
-    id = AVE_MARIA.31
-    desc = EVTDESC_AVE_MARIA.31
+    id = AVE_MARIA_true_vassal.31
+    desc = EVTDESC_AVE_MARIA_true_vassal.31
     picture = GFX_evt_battle
     border = GFX_event_normal_frame_war
     is_triggered_only = yes
@@ -1412,7 +1412,7 @@ character_event = {
     
     ##They will join the war when they like you enough
     option = {
-        name = EVTOPTA_AVE_MARIA_events.25
+        name = EVTOPTA_AVE_MARIA_true_vassal_events.25
         join_defender_wars = event_target:target_attacked_vassal
         ai_chance = {
             factor = 9
@@ -1425,7 +1425,7 @@ character_event = {
 
     #Customary according the the laws when they are neutral
     option = {
-        name = EVTOPTB_AVE_MARIA_events.25
+        name = EVTOPTB_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1455,7 +1455,7 @@ character_event = {
 
     ##Minimum when they do not like you or are the normands
     option = {
-        name = EVTOPTC_AVE_MARIA_events.25
+        name = EVTOPTC_AVE_MARIA_true_vassal_events.25
         event_target:target_receiver_of_servitium_debitum = {
             capital_scope = {
                 event_target:target_receiver_of_servitium_debitum = {
@@ -1524,356 +1524,6 @@ character_event = {
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain receive vassals response
 
 
-###########################################
-# Kingdom Creation Events 60-80           #
-#           							  #
-###########################################
 
-# Creation - Royaume de Bretagne
-narrative_event = {
-    id = AVE_MARIA.60
-    desc = EVTDESCA_AVE_MARIA_events.60
-    is_triggered_only = yes
-
-    picture = GFX_evt_coronation
-
-    option = {
-		name = EVTOPTA_AVE_MARIA_60
-		hidden_tooltip = {
-			primary_title = {
-				d_brittany = { de_jure_liege = k_brittany }
-			}
-		}
-		k_brittany = {
-			usurp_title = ROOT
-			copy_title_laws = d_brittany
-			copy_title_history = d_brittany
-		}
-		d_brittany = {
-			destroy_landed_title = THIS
-		}
-	}
-}
-
-# Creation - Royaume d'Aquitaine
-
-# Creation - Royaume de Bavière
-
-# Creation - 
-
-
-########################################################################################
-#                                         											   #
-# Education events 80                                                                  #
-#																					   #
-########################################################################################
-
-###########################################
-# Martial Education Events                #
-# Western Europe						  #
-###########################################
-
-# Donner un trait de maitrise des armes à tous les personnages du début selon leur martial
-character_event = {
-    id = AVE_MARIA.80
-    hide_window = yes
-	is_triggered_only = yes
-
-    trigger = {
-        ai = no
-        is_multiplayer_host_character = yes
-    }
-
-    immediate = {
-        any_character = {
-            if = {
-                limit = {
-                    NOT = { is_female = yes }
-                    OR = {
-                        culture_group = north_germanic
-                        culture_group = central_germanic
-                        culture_group = west_germanic
-                        culture_group = latin
-                        culture_group = iberian
-                        culture_group = celtic
-                        culture_group = finno_ugric
-                        culture_group = baltic
-                        culture_group = east_slavic
-                        culture_group = west_slavic
-                        culture_group = south_slavic
-                        culture_group = magyar
-                        culture_group = israelite
-                    }
-                }
-                if = {
-                    limit = {
-                        martial = 12
-                        NOT = { 
-                            trait = western_martial_arts_1
-                            trait = western_martial_arts_2
-                            trait = western_martial_arts_3
-                            trait = western_martial_arts_4
-                        }
-                    }
-                    add_trait = western_martial_arts_5
-                }
-                else_if = {
-                    limit = {
-                        martial >= 10
-                        martial < 12
-                        NOT = { 
-                            trait = western_martial_arts_1
-                            trait = western_martial_arts_2
-                            trait = western_martial_arts_3
-                        }
-                    }
-                    add_trait = western_martial_arts_4
-                }
-                else_if = {
-                    limit = {
-                        martial >= 8
-                        martial < 10
-                        NOT = { 
-                            trait = western_martial_arts_1
-                            trait = western_martial_arts_2
-                            trait = western_martial_arts_3
-                        }
-                    }
-                    add_trait = western_martial_arts_3
-                }
-                else_if = {
-                    limit = {
-                        martial >= 6
-                        martial < 8
-                        NOT = { 
-                            trait = western_martial_arts_1
-                            trait = western_martial_arts_2
-                        }
-                    }
-                    add_trait = western_martial_arts_2
-                }
-                else_if = {
-                    limit = {
-                        martial > 1
-                        martial <= 5
-                        NOT = { 
-                            trait = western_martial_arts_1
-                        }
-                    }
-                    add_trait = western_martial_arts_1
-                }
-            }
-            if = {
-                limit = {
-                    OR = {
-                        culture_group = byzantine
-                    }
-                    NOT = { is_female = yes }
-                }
-                if = {
-                    limit = {
-                        martial = 12
-                        NOT = { 
-                            trait = roman_martial_arts_1
-                            trait = roman_martial_arts_2
-                            trait = roman_martial_arts_3
-                            trait = roman_martial_arts_4
-                        }
-                    }
-                    add_trait = roman_martial_arts_5
-                }
-                else_if = {
-                    limit = {
-                        martial >= 10
-                        martial < 12
-                        NOT = { 
-                            trait = roman_martial_arts_1
-                            trait = roman_martial_arts_2
-                            trait = roman_martial_arts_3
-                        }
-                    }
-                    add_trait = roman_martial_arts_4
-                }
-                else_if = {
-                    limit = {
-                        martial >= 8
-                        martial < 10
-                        NOT = { 
-                            trait = roman_martial_arts_1
-                            trait = roman_martial_arts_2
-                            trait = roman_martial_arts_3
-                        }
-                    }
-                    add_trait = roman_martial_arts_3
-                }
-                else_if = {
-                    limit = {
-                        martial >= 6
-                        martial < 8
-                        NOT = { 
-                            trait = roman_martial_arts_1
-                            trait = roman_martial_arts_2
-                        }
-                    }
-                    add_trait = roman_martial_arts_2
-                }
-                else_if = {
-                    limit = {
-                        martial > 1
-                        martial <= 5
-                        NOT = { 
-                            trait = roman_martial_arts_1
-                        }
-                    }
-                    add_trait = roman_martial_arts_1
-                }
-            }
-            if = {
-                limit = {
-                    OR = {
-                        culture_group = arabic
-                        culture_group = iranian
-                        culture_group = east_african
-                        culture_group = central_african
-                        culture_group = west_african
-                    }
-                    NOT = { is_female = yes }
-                }
-                if = {
-                    limit = {
-                        martial = 12
-                        NOT = { 
-                            trait = eastern_martial_arts_1
-                            trait = eastern_martial_arts_2
-                            trait = eastern_martial_arts_3
-                            trait = eastern_martial_arts_4
-                        }
-                    }
-                    add_trait = eastern_martial_arts_5
-                }
-                else_if = {
-                    limit = {
-                        martial >= 10
-                        martial < 12
-                        NOT = { 
-                            trait = eastern_martial_arts_1
-                            trait = eastern_martial_arts_2
-                            trait = eastern_martial_arts_3
-                        }
-                    }
-                    add_trait = eastern_martial_arts_4
-                }
-                else_if = {
-                    limit = {
-                        martial >= 8
-                        martial < 10
-                        NOT = { 
-                            trait = eastern_martial_arts_1
-                            trait = eastern_martial_arts_2
-                            trait = eastern_martial_arts_3
-                        }
-                    }
-                    add_trait = eastern_martial_arts_3
-                }
-                else_if = {
-                    limit = {
-                        martial >= 6
-                        martial < 8
-                        NOT = { 
-                            trait = eastern_martial_arts_1
-                            trait = eastern_martial_arts_2
-                        }
-                    }
-                    add_trait = eastern_martial_arts_2
-                }
-                else_if = {
-                    limit = {
-                        martial > 1
-                        martial <= 5
-                        NOT = { 
-                            trait = eastern_martial_arts_1
-                        }
-                    }
-                    add_trait = eastern_martial_arts_1
-                }
-            }
-            if = {
-                limit = {
-                    OR = {
-                        culture_group = altaic
-                        culture_group = indo_aryan_group
-                        culture_group = dravidian_group
-                        culture_group = tibetan_group
-                        culture_group = chinese_group
-                    }
-                    NOT = { is_female = yes }
-                }
-                if = {
-                    limit = {
-                        martial = 12
-                        NOT = { 
-                            trait = steppe_martial_arts_1
-                            trait = steppe_martial_arts_2
-                            trait = steppe_martial_arts_3
-                            trait = steppe_martial_arts_4
-                        }
-                    }
-                    add_trait = steppe_martial_arts_5
-                }
-                else_if = {
-                    limit = {
-                        martial >= 10
-                        martial < 12
-                        NOT = { 
-                            trait = steppe_martial_arts_1
-                            trait = steppe_martial_arts_2
-                            trait = steppe_martial_arts_3
-                        }
-                    }
-                    add_trait = steppe_martial_arts_4
-                }
-                else_if = {
-                    limit = {
-                        martial >= 8
-                        martial < 10
-                        NOT = { 
-                            trait = steppe_martial_arts_1
-                            trait = steppe_martial_arts_2
-                            trait = steppe_martial_arts_3
-                        }
-                    }
-                    add_trait = steppe_martial_arts_3
-                }
-                else_if = {
-                    limit = {
-                        martial >= 6
-                        martial < 8
-                        NOT = { 
-                            trait = steppe_martial_arts_1
-                            trait = steppe_martial_arts_2
-                        }
-                    }
-                    add_trait = steppe_martial_arts_2
-                }
-                else_if = {
-                    limit = {
-                        martial > 1
-                        martial <= 5
-                        NOT = { 
-                            trait = steppe_martial_arts_1
-                        }
-                    }
-                    add_trait = steppe_martial_arts_1
-                }
-            }
-        }
-    }
-}
-
-# L'enfant apprend à monter à cheval
-
-# L'enfant apprend le métier des armes
-
-# L'enfant
 
 

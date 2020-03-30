@@ -1,45 +1,45 @@
 on_startup = {
 	events = {		
 		# Cleaning of Vanilla Vassals
-		AVE_MARIA.1
+		AVE_MARIA_true_vassal.1
 		# Avoiding spam with vassals homage
-		AVE_MARIA.6
+		AVE_MARIA_true_vassal.6
 	}
 }
 on_yearly_pulse = {
 	events = {
 		# Cleaning of Vanilla Vassals
-		AVE_MARIA.1
+		# AVE_MARIA_true_vassal.1
 		# Making sure you are not a vassal of someone lower_tier
-		AVE_MARIA.2
+		AVE_MARIA_true_vassal.2
 	}
 }
 
 # ROOT is the creating character, FROM is the title
 on_create_title = {
 	events = {
-		AVE_MARIA.3
+		AVE_MARIA_true_vassal.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder ={
 	events = {
-		AVE_MARIA.3
+		AVE_MARIA_true_vassal.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
-		AVE_MARIA.3
+		AVE_MARIA_true_vassal.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_usurpation = {
 	events = {
-		AVE_MARIA.3
+		AVE_MARIA_true_vassal.3
 	}
 }
 
@@ -47,9 +47,9 @@ on_new_holder_usurpation = {
 on_war_ended_victory = {
 	events = {
 		#Flag cleaning
-		AVE_MARIA.4
+		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
-		AVE_MARIA.27
+		AVE_MARIA_true_vassal.27
 		
 	}
 }
@@ -58,9 +58,9 @@ on_war_ended_victory = {
 on_war_ended_whitepeace = {
 	events = {
 		#Flag cleaning
-		AVE_MARIA.4
+		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
-		AVE_MARIA.27
+		AVE_MARIA_true_vassal.27
 	}
 }
 
@@ -68,9 +68,9 @@ on_war_ended_whitepeace = {
 on_war_ended_defeat = {
 	events = {
 		#Flag cleaning
-		AVE_MARIA.4
+		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
-		AVE_MARIA.27
+		AVE_MARIA_true_vassal.27
 	}
 }
 
@@ -78,9 +78,9 @@ on_war_ended_defeat = {
 on_war_ended_invalid = {
 	events = {
 		#Flag cleaning
-		AVE_MARIA.4
+		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
-		AVE_MARIA.27
+		AVE_MARIA_true_vassal.27
 	}
 }
 
