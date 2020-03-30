@@ -1,0 +1,157 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA.1-AVE_MARIA.499                          							   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_ADMC
+
+##NOTES:
+## Administrative Capacity is a variable tracked from the capital province scope giving a modifier to all the other possessed desmene titles of the character
+
+
+## INITIALIZE ADMINISTRATIVE CAPACITY
+character_event = {
+	id = AVE_MARIA_ADMC.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+        is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+	
+		if = {
+			limit = {
+				ai = no
+			}
+			log = "1: This event is running for [Root.GetTitledName]"
+		}
+		
+		capital_scope = {
+			set_province_flag = administrative_capacity_capital
+			any_neighbor_province = {
+				limit = {
+					controlled_by = ROOT
+				}
+				set_province_flag = administrative_capacity_adjacent_capital
+			}
+		}
+		any_demesne_province = {
+			limit = {
+				NOT = { 
+					has_province_flag = administrative_capacity_adjacent_capital
+					has_province_flag = administrative_capacity_capital
+				}
+				controlled_by = ROOT
+			}
+			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+			set_province_flag = administrative_capacity_distant_province
+		}
+		
+		## Generates starting Administrative Capacity for Duke, King, Emperor, and independent ruler
+		any_playable_ruler = {
+			capital_scope = {
+				set_province_flag = administrative_capacity_capital
+				any_neighbor_province = {
+					limit = {
+						controlled_by = PREVPREV
+					}
+					set_province_flag = administrative_capacity_adjacent_capital
+				}
+			}
+			any_demesne_province = {
+				limit = {
+					NOT = { 
+						has_province_flag = administrative_capacity_adjacent_capital
+						has_province_flag = administrative_capacity_capital
+					}
+					controlled_by = PREV
+				}
+				add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+				set_province_flag = administrative_capacity_distant_province
+			}
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_ADMC.2
+	hide_window = yes
+		
+	trigger = {
+		has_moved_capital = yes
+	}
+	
+	immediate = {
+		#Remise des compteurs à zéro
+		#Nettoyage des flags et modifier de la nouvelle capitale
+		any_demesne_province = {
+			limit = {
+				OR = {
+					has_province_flag = administrative_capacity_distant_province
+					has_province_flag = administrative_capacity_adjacent_capital
+				}
+				is_capital = yes
+				controlled_by = ROOT
+			}
+			clr_province_flag = administrative_capacity_distant_province
+			clr_province_flag = administrative_capacity_adjacent_capital
+			remove_province_modifier = administrative_capacity_distance_province
+		}
+		#Nettoyage des flags et modifier des provinces distantes
+		any_demesne_province = {
+			limit = {
+				has_province_flag = administrative_capacity_distant_province
+				controlled_by = ROOT
+			}
+			clr_province_flag = administrative_capacity_distant_province
+			remove_province_modifier = administrative_capacity_distance_province
+		}
+		#Nettoyage des flags des provinces adjacentes
+		any_demesne_province = {
+			limit = {
+				has_province_flag = administrative_capacity_adjacent_capital
+				controlled_by = ROOT
+			}
+			clr_province_flag = administrative_capacity_adjacent_capital
+		}
+		#Nettoyage des flags de l'ancienne capitale
+		any_demesne_province = {
+			limit = {
+				has_province_flag = administrative_capacity_capital
+				controlled_by = ROOT
+			}
+			clr_province_flag = administrative_capacity_capital
+		}
+		#Mise en place de la nouvelle structure à partir de la nouvelle capitale
+		capital_scope = {
+			set_province_flag = administrative_capacity_capital
+			any_neighbor_province = {
+				limit = {
+					controlled_by = ROOT
+				}
+				set_province_flag = administrative_capacity_adjacent_capital
+			}
+		}
+		any_demesne_province = {
+			limit = {
+				NOT = { 
+					has_province_flag = administrative_capacity_adjacent_capital
+					has_province_flag = administrative_capacity_capital
+				}
+				controlled_by = ROOT
+			}
+			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+			set_province_flag = administrative_capacity_distant_province
+		}
+	}
+}

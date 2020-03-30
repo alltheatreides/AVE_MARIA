@@ -1,0 +1,454 @@
+namespace = CS
+
+## How does the AI operate?
+## Ambitious rulers try to 
+## Normal rulers try to increase it slightly
+## Content rulers 
+
+
+## Ambitious vassals try to reach near lieges level
+## Content dont care
+
+
+## 200 for 1 magnificent. 120 for grand. 60 for splendid. 32 for standard. 16 for acceptable. 8 for shabby. 4 for abysmal
+## monthly wealth 15. 0.9 magnificent
+## monthly wealth 12 = 0.75 magnificent
+## monthly wealth 10 = 0.6 magnificent
+## 7.5 0.45 mag
+## 5. 0.3
+## 3 0.18
+## 15 0.09
+## 1 0.06
+## 0.5 0.03
+
+## So how does the AI choose what to do?
+## It sets a target. Where does it want to be and how badly?
+## Factors: Monthly income, tier, realm size, AMBITION, CONTENTMENT
+## Use this to calculate where the AI wants to be
+## Check where the AI is.
+## Choose the appropriate one 
+
+
+character_event = {
+	id = CS.13000
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		higher_real_tier_than = COUNT
+		ai = yes
+	}
+	immediate = {
+
+		capital_scope = {
+			set_variable = { which = court_splendor_change value = 0}
+		}
+		## DECIDE WHERE THE AI WANTS TO be
+
+		set_variable = { which = target_court_splendor value = 15 }
+
+		if = { 
+			limit = {
+				yearly_income = 800
+			}
+			change_variable = { which = target_court_splendor value = 48 }	
+		}
+		else_if = {
+			limit = {
+				yearly_income = 700
+			}
+			change_variable = { which = target_court_splendor value = 42 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 600
+			}
+			change_variable = { which = target_court_splendor value = 36 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 500
+			}
+			change_variable = { which = target_court_splendor value = 32 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 400
+			}
+			change_variable = { which = target_court_splendor value = 27 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 300
+			}
+			change_variable = { which = target_court_splendor value = 21 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 200
+			}
+			change_variable = { which = target_court_splendor value = 15 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 100
+			}
+			change_variable = { which = target_court_splendor value = 9 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 50
+			}
+			change_variable = { which = target_court_splendor value = 6 }
+		}
+		else_if = {
+			limit = {
+				yearly_income = 25
+			}
+			change_variable = { which = target_court_splendor value = 3 }
+		}
+		else = {
+
+		}
+
+		if = {
+			limit = {
+				wealth = 500
+			}
+			multiply_variable = { which = target_court_splendor value = 1.2 }
+		}
+		else_if = {
+			limit = {
+				wealth = 50
+			}
+
+		}
+		else = {
+			multiply_variable = { which = target_court_splendor value = 0.7 }
+		}
+
+		if = {
+			limit = {
+				has_character_modifier = small_loan
+			}
+			multiply_variable = { which = target_court_splendor value = 0.8 }
+		}
+		if = {
+			limit = {
+				has_character_modifier = medium_loan
+			}
+			multiply_variable = { which = target_court_splendor value = 0.7 }
+		}
+		if = {
+			limit = {
+				has_character_modifier = large_loan
+			}
+			multiply_variable = { which = target_court_splendor value = 0.6 }
+		}
+
+		if = {
+			limit = {
+				tier = EMPEROR
+			}
+			change_variable = { which = target_court_splendor value = 40 }
+		}
+		else_if = {
+			limit = {
+				tier = KING
+			}
+			change_variable = { which = target_court_splendor value = 24 }
+		}
+		else_if = {
+			limit = {
+				tier = DUKE
+			}
+			change_variable = { which = target_court_splendor value = 12 }
+		}
+		else = {
+
+		}
+
+		if = {
+			limit = {
+				TECH_MAJESTY = 7
+			}
+			multiply_variable = { which = target_court_splendor value = 1.5 }
+		}
+		else_if = {
+			limit = {
+				TECH_MAJESTY = 6
+			}
+			multiply_variable = { which = target_court_splendor value = 1.4 }
+		}
+		else_if = {
+			limit = {
+				TECH_MAJESTY = 5
+			}
+			multiply_variable = { which = target_court_splendor value = 1.3 }
+		}
+		else_if = {
+			limit = {
+				TECH_MAJESTY = 4
+			}
+			multiply_variable = { which = target_court_splendor value = 1.2 }
+		}
+		else_if = {
+			limit = {
+				TECH_MAJESTY = 3
+			}
+			multiply_variable = { which = target_court_splendor value = 1.1 }
+		}
+		else = {
+
+		}
+
+		if = {
+			limit = {
+				realm_size = 500
+			}
+			change_variable = { which = target_court_splendor value = 20 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 400
+			}
+			change_variable = { which = target_court_splendor value = 16 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 300
+			}
+			change_variable = { which = target_court_splendor value = 12 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 200
+			}
+			change_variable = { which = target_court_splendor value = 9 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 150
+			}
+			change_variable = { which = target_court_splendor value = 7 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 100
+			}
+			change_variable = { which = target_court_splendor value = 5 }
+		}
+		else_if = {
+			limit = {
+				realm_size = 50
+			}
+			change_variable = { which = target_court_splendor value = 3 }
+		}
+		else = {
+
+		}
+
+		if = {
+			limit = {
+				independent = yes
+			}
+			change_variable = { which = target_court_splendor value = 7 }
+		}
+
+		if = {
+			limit = {
+				has_law = crown_authority_4
+			}
+			multiply_variable = { which = target_court_splendor value = 1.25 }
+		}
+		else_if = {
+			limit = {
+				has_law = crown_authority_3
+			}
+			change_variable = { which = target_court_splendor value = 1.15 }
+		}
+		else_if = {
+			limit = {
+				has_law = crown_authority_2
+			}
+			change_variable = { which = target_court_splendor value = 1.07 }
+		}
+		else_if = {
+			limit = {
+				has_law = crown_authority_2
+			}
+		}
+		else = {
+			change_variable = { which = target_court_splendor value = 0.93 }
+		}
+
+		if = {
+			limit = {
+				AND = {
+					independent = no
+					trait = ambitious
+				}
+				
+			}
+			multiply_variable = { which = target_court_splendor value = 1.25 }
+		}
+		if = {
+			limit = {
+					trait = ambitious
+			}
+			multiply_variable = { which = target_court_splendor value = 1.25 }
+		}
+		if = {
+			limit = {
+					trait = content
+			}
+			multiply_variable = { which = target_court_splendor value = 0.75 }
+		}
+
+		if = {
+			limit = {
+				war = yes
+			}
+			multiply_variable = { which = target_court_splendor value = 0 }
+		}
+
+		## ASSIGN MODIFIER
+		if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 125 }
+			}
+				add_character_modifier = { name = expenditure_ai_75 duration = 90 }
+				capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.45 }
+				}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 100 }
+			}
+			add_character_modifier = { name = expenditure_ai_5 duration = 90 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.30 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 80 }
+			}
+			add_character_modifier = { name = expenditure_ai_3 duration = 90 }
+			add_character_modifier = { name = testing_this_is_stupid duration = -1 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.18 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 55 }
+			}
+			set_character_flag = UGHISTHISWORKING4
+			add_character_modifier = { name = expenditure_ai_1_5 duration = 90 }
+			add_character_modifier = { name = testing_this_is_stupid duration = -1 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.09 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 35 }
+			}
+			add_character_modifier = { name = expenditure_ai_07 duration = 90 }
+			add_character_modifier = { name = testing_this_is_stupid duration = -1 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.04 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 20 }
+			}
+			add_character_modifier = { name = expenditure_ai_033 duration = 90 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.02 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				check_variable = { which = target_court_splendor value = 5 }
+			}
+			add_character_modifier = { name = expenditure_ai_02 duration = 90 }
+			capital_scope = {
+					change_variable = { which = court_splendor_change value = 0.01 }
+			}
+		}
+
+		else = {
+
+		}
+
+
+		if = {
+			limit = {
+				has_character_modifier = grand_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 1.67}
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = splendid_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 3.33 }
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = standard_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 6.25 }
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = acceptable_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 12.5 }
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = shabby_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 25 }
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_character_modifier = shabby_court
+			}
+			capital_scope = {
+				multiply_variable = { which = court_splendor_change value = 50 }
+			}
+		}
+
+		else = {
+
+		}
+
+		capital_scope = {
+			change_variable = { which = court_splendor which = court_splendor_change }
+		}
+
+	}
+}

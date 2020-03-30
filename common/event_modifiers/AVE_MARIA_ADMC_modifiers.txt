@@ -1,0 +1,358 @@
+## ADMINISTRATIVE CAPACITY MODIFIERS
+
+administrative_capacity_roman = {
+	monthly_character_prestige = 1
+	vassal_opinion = 6
+	diplomacy = 3
+	icon = 7
+}
+
+grand_court = {
+	monthly_character_prestige = 0.75
+	vassal_opinion = 4
+	diplomacy = 2
+	icon = 7
+}
+splendid_court = {
+	monthly_character_prestige = 0.5
+	vassal_opinion = 2
+	diplomacy = 1
+	icon = 7
+}
+standard_court = {
+	monthly_character_prestige = 0.25
+	icon = 7
+}
+acceptable_court = {
+	monthly_character_prestige = 0.1
+	icon = 7
+}
+shabby_court = {
+	diplomacy = -1
+	vassal_opinion = -2
+	icon = 7
+}
+administrative_capacity_limited = {
+	icon = 31
+	levy_size = -0.50
+	garrison_size = -0.25
+	levy_reinforce_rate = -0.5
+	local_tax_modifier = -0.5
+}
+
+administrative_capacity_distance_province = {
+	icon = 31
+	levy_size = -0.99
+	garrison_size = -0.5
+	levy_reinforce_rate = -0.90
+	local_tax_modifier = -0.99
+}
+
+
+## Decadence
+
+decadence7 = {
+	culture_flex = -0.40
+	religion_flex = -0.40
+	learning = 2
+	land_morale = -0.15
+	icon = 26
+}
+
+decadence6 = {
+	culture_flex = -0.25
+	religion_flex = -0.25
+	learning = 1
+	land_morale = -0.075
+	icon = 26
+}
+decadence5 = {
+	culture_flex = -0.12
+	religion_flex = -0.12
+	icon = 26
+}
+decadence4 = {
+	culture_flex = -0.05
+	religion_flex = -0.05
+	icon = 26
+}
+decadence3 = {
+	culture_flex = 0.05
+	religion_flex = 0.10
+	land_morale = 0.05
+	icon = 8
+}
+decadence2 = {
+	culture_flex = 0.10
+	religion_flex = 0.20
+	land_morale = 0.15
+	icon = 8
+}
+decadence1 = {
+	culture_flex = 0.15
+	religion_flex = 0.30
+	land_morale = 0.25
+	icon = 8
+}
+
+## Autonomy Adjustment
+
+autonomy_adjustment_600 = {
+	monthly_character_wealth = -4
+	icon = 24
+}
+autonomy_adjustment_300 = {
+	monthly_character_wealth = -30
+	icon = 24
+}
+autonomy_adjustment_250 = {
+	monthly_character_wealth = -25
+	icon = 24
+}
+autonomy_adjustment_200 = {
+	monthly_character_wealth = -20
+	icon = 24
+}
+autonomy_adjustment_170 = {
+	monthly_character_wealth = -17
+	icon = 24
+}
+autonomy_adjustment_150 = {
+	monthly_character_wealth = -15
+	icon = 24
+}
+autonomy_adjustment_130 = {
+	monthly_character_wealth = -13
+	icon = 24
+}
+autonomy_adjustment_100 = {
+	monthly_character_wealth = -10
+	icon = 24
+}
+autonomy_adjustment_9 = {
+	monthly_character_wealth = -9
+	icon = 24
+}
+autonomy_adjustment_8 = {
+	monthly_character_wealth = -8
+	icon = 24
+}
+autonomy_adjustment_7 = {
+	monthly_character_wealth = -7
+	icon = 24
+}
+autonomy_adjustment_6 = {
+	monthly_character_wealth = -6
+	icon = 24
+}
+autonomy_adjustment_5 = {
+	monthly_character_wealth = -5
+	icon = 24
+}
+autonomy_adjustment_45 = {
+	monthly_character_wealth = -4.5
+	icon = 24
+}
+autonomy_adjustment_4 = {
+	monthly_character_wealth = -4
+	icon = 24
+}
+autonomy_adjustment_35 = {
+	monthly_character_wealth = -3.5
+	icon = 24
+}
+autonomy_adjustment_3 = {
+	monthly_character_wealth = -3
+	icon = 24
+}
+autonomy_adjustment_275 = {
+	monthly_character_wealth = -2.75
+	icon = 24
+}
+autonomy_adjustment_25 = {
+	monthly_character_wealth = -2.5
+	icon = 24
+}
+autonomy_adjustment_225 = {
+	monthly_character_wealth = -2.25
+	icon = 24
+}
+autonomy_adjustment_2 = {
+	monthly_character_wealth = -2
+	icon = 24
+}
+autonomy_adjustment_175 = {
+	monthly_character_wealth = -1.75
+	icon = 24
+}
+autonomy_adjustment_15 = {
+	monthly_character_wealth = -1.5
+	icon = 24
+}
+autonomy_adjustment_125 = {
+	monthly_character_wealth = -1.25
+	icon = 24
+}
+autonomy_adjustment_1 = {
+	monthly_character_wealth = -1
+	icon = 24
+}
+autonomy_adjustment_08 = {
+	monthly_character_wealth = -0.8
+	icon = 24
+}
+autonomy_adjustment_06 = {
+	monthly_character_wealth = -0.6
+	icon = 24
+}
+autonomy_adjustment_04 = {
+	monthly_character_wealth = -0.4
+	icon = 24
+}
+autonomy_adjustment_02 = {
+	monthly_character_wealth = -0.2
+	icon = 24
+}
+
+## Just for display
+
+full_autonomy = {
+	icon = 11
+}
+high_autonomy = {
+	icon = 11
+}
+medium_autonomy = {
+	icon = 11
+}
+low_autonomy = {
+	icon = 11
+}
+
+## AI expenditure
+
+expenditure_ai_02 = {
+	monthly_character_wealth = -0.2
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_033 = {
+	monthly_character_wealth = -0.33
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_07 = {
+	monthly_character_wealth = -0.7
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_1_5 = {
+	monthly_character_wealth = -1.5
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_3 = {
+	monthly_character_wealth = -3
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_5 = {
+	monthly_character_wealth = -5
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_75 = {
+	monthly_character_wealth = -7.5
+	is_visible = { emf_hidden = yes }
+}
+expenditure_ai_10 = {
+	monthly_character_wealth = -10
+	is_visible = { emf_hidden = yes }
+}
+
+## No levies
+
+no_levies = {
+	global_levy_size = -1.0
+	levy_size = -1.0
+	levy_reinforce_rate = -20.0
+	icon = 24
+}
+
+rapidly_recover_levies = {
+	levy_reinforce_rate = 10
+	icon = 8
+}
+
+## Maintenance
+
+administrative_capacity_roman_maintenance = {
+	monthly_character_wealth = -5
+	icon = 24
+}
+grand_court_maintenance = {
+	monthly_character_wealth = -3.5
+	icon = 24
+}
+splendid_court_maintenance = {
+	monthly_character_wealth = -2
+	icon = 24
+}
+standard_court_maintenance = {
+	monthly_character_wealth = -1
+	icon = 24
+}
+acceptable_court_maintenance = {
+	monthly_character_wealth = -0.4
+	icon = 24
+}
+shabby_court_maintenance = {
+	monthly_character_wealth = -0.2
+	icon = 24
+}
+
+
+recent_investment = {
+	emf_hidden = yes
+}
+
+vassal_autonomy_50 = {
+	castle_vassal_max_levy = -0.5
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_45 = {
+	castle_vassal_max_levy = -0.45
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_40 = {
+	castle_vassal_max_levy = -0.4
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_35 = {
+	castle_vassal_max_levy = -0.35
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_30 = {
+	castle_vassal_max_levy = -0.3
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_25 = {
+	castle_vassal_max_levy = -0.25
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_20 = {
+	castle_vassal_max_levy = -0.2
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_15 = {
+	castle_vassal_max_levy = -0.15
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_10 = {
+	castle_vassal_max_levy = -0.1
+	is_visible = { emf_hidden = yes }
+}
+vassal_autonomy_05 = {
+	castle_vassal_max_levy = -0.05
+	is_visible = { emf_hidden = yes }
+}
+
+decay_event_active = {
+	is_visible = { emf_hidden = yes }
+}
+
+

@@ -1,0 +1,772 @@
+calculate_distance_modifier = {
+	FROM = {
+		capital_scope = {
+			ROOT = {
+				capital_scope = {
+					if = {
+						limit = {
+							distance = { who = PREVPREV value = 1000 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 2.5}
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 750 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 2 }
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 600 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 1.75 }
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 500 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 1.55 }
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 400 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 1.4 }
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 300 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 1.3 }
+						}
+					}
+					else_if = {
+						limit = {
+							distance = { who = PREVPREV value = 200 }
+						}
+						ROOT = { 
+							set_variable = { which = distance_modifier value = 1.2 }
+						}
+					}
+					else = {
+						set_variable = { which = distance_modifier value = 1 }
+					}
+				}
+			}
+		}
+	}
+}
+
+assign_income_modifier = {
+	remove_character_modifier = autonomy_adjustment_600
+	remove_character_modifier = autonomy_adjustment_300
+	remove_character_modifier = autonomy_adjustment_250
+	remove_character_modifier = autonomy_adjustment_200
+	remove_character_modifier = autonomy_adjustment_170
+	remove_character_modifier = autonomy_adjustment_150
+	remove_character_modifier = autonomy_adjustment_130
+	remove_character_modifier = autonomy_adjustment_100
+	remove_character_modifier = autonomy_adjustment_9
+	remove_character_modifier = autonomy_adjustment_8
+	remove_character_modifier = autonomy_adjustment_7
+	remove_character_modifier = autonomy_adjustment_6
+	remove_character_modifier = autonomy_adjustment_5
+	remove_character_modifier = autonomy_adjustment_4
+	remove_character_modifier = autonomy_adjustment_45
+	remove_character_modifier = autonomy_adjustment_3
+	remove_character_modifier = autonomy_adjustment_35
+	remove_character_modifier = autonomy_adjustment_275
+	remove_character_modifier = autonomy_adjustment_25
+	remove_character_modifier = autonomy_adjustment_225
+	remove_character_modifier = autonomy_adjustment_2
+	remove_character_modifier = autonomy_adjustment_175
+	remove_character_modifier = autonomy_adjustment_15
+	remove_character_modifier = autonomy_adjustment_125
+	remove_character_modifier = autonomy_adjustment_1
+	remove_character_modifier = autonomy_adjustment_08
+	remove_character_modifier = autonomy_adjustment_06
+	remove_character_modifier = autonomy_adjustment_04
+	remove_character_modifier = autonomy_adjustment_02
+
+	if = {
+		limit = {
+			check_variable = { which = income_temp value = 60 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_600 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 30 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_300 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 25 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_250 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 20 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_200 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 17 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_170 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 15 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_150 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 13 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_130 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 10 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_100 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 9 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_9 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 8 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_8 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 7 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_7 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 6 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_6 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 5 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_5 duration = 90 }
+	}
+
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 4.5 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_45 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 4 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_4 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 3.5 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_35 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 3 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_3 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 2.75 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_275 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 2.5 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_25 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 2.25 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_225 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 2 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_2 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 1.75 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_175 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 1.5 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_15 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 1.25 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_125 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 1 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_1 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 0.8 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_08 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 0.6 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_06 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 0.4 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_04 duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = income_temp value = 0.2 }
+		}
+		add_character_modifier = { name = autonomy_adjustment_02 duration = 90 }
+	}
+	else = {
+
+	}
+
+}
+
+## MAXIMUM AUTONOMY:
+## 0.9 0.9 1 = 2.8 + 1 = 3.8 
+## Distance modifier = 2.5 
+## 9.5
+calculate_autonomy_modifier = {
+	if = {
+		limit = {
+			check_variable = { which = autonomy value = 8 } ## Practically autonomous
+		}
+		set_variable = { which = autonomy_modifier value = 0.7 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 7 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.5 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 6 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.4 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 5.5 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.36 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 5 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.32 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 4.5 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.28 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 4 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.25 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 3.75 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.225 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 3.5 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.2 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 3.25 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.175 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 3 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.15 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 2.75 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.125 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 2.5 }
+		}
+		set_variable = { which = autonomy_modifier value = 0.1 }
+	}
+	else = {
+		
+	}
+}
+
+remove_court_modifier = {
+	remove_character_modifier = magnificent_court
+	remove_character_modifier = grand_court
+	remove_character_modifier = splendid_court
+	remove_character_modifier = standard_court
+	remove_character_modifier = acceptable_court
+	remove_character_modifier = shabby_court
+	remove_character_modifier = abysmal_court
+	remove_character_modifier = magnificent_court_maintenance
+	remove_character_modifier = grand_court_maintenance
+	remove_character_modifier = splendid_court_maintenance
+	remove_character_modifier = standard_court_maintenance
+	remove_character_modifier = acceptable_court_maintenance
+	remove_character_modifier = shabby_court_maintenance
+	remove_character_modifier = abysmal_court_maintenance
+	
+}
+
+add_autonomy_to_disp = {
+	remove_character_modifier = full_autonomy
+	remove_character_modifier = high_autonomy
+	remove_character_modifier = medium_autonomy
+	remove_character_modifier = low_autonomy
+
+	if = {
+		limit = {
+			check_variable = { which = autonomy value = 8 }
+		}
+		add_character_modifier = { name = full_autonomy duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 5.5 }
+		}
+		add_character_modifier = { name = high_autonomy duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 4 }
+		}
+		add_character_modifier = { name = medium_autonomy duration = 90 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = autonomy value = 2.5 }
+		}
+		add_character_modifier = { name = low_autonomy duration = 90 }
+	}
+}
+
+## OPINION
+
+determine_opinion_modifier = {
+	if = {
+		limit = {
+			opinion = { who = FROM value = 90 }
+		}
+		set_variable = { which = opinion_temp value = 0.90 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 80 }
+		}
+		set_variable = { which = opinion_temp value = 0.80 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 70 }
+		}
+		set_variable = { which = opinion_temp value = 0.70 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 60 }
+		}
+		set_variable = { which = opinion_temp value = 0.60 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 50 }
+		}
+		set_variable = { which = opinion_temp value = 0.50 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 40 }
+		}
+		set_variable = { which = opinion_temp value = 0.40 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 30 }
+		}
+		set_variable = { which = opinion_temp value = 0.30 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 20 }
+		}
+		set_variable = { which = opinion_temp value = 0.20 }
+	}
+	else_if = {
+		limit = {
+			opinion = { who = FROM value = 10 }
+		}
+		set_variable = { which = opinion_temp value = 0.10 }
+	}
+	else = {
+		set_variable = { which = opinion_temp value = 0 }
+	}
+}
+
+determine_min_levy = {
+	## BASED ON... CROWN LAWS? I THINK
+	## START AT 0.33
+
+	set_variable = { which = min_levy value = 0.33 }
+
+	## ADD DYNLEVY ADJUSTMENT LATER
+
+	if = {
+		limit = {
+			has_law = crown_authority_1
+		}
+		change_variable = { which = min_levy value = 0.15 }
+	}
+	if = {
+		limit = {
+			has_law = crown_authority_2
+		}
+		change_variable = { which = min_levy value = 0.30 }
+	}
+	if = {
+		limit = {
+			has_law = crown_authority_3
+		}
+		change_variable = { which = min_levy value = 0.45 }
+	}
+	if = {
+		limit = {
+			has_law = crown_authority_4
+		}
+		change_variable = { which = min_levy value = 0.60 }
+	}
+
+	if = {
+		limit = {
+			realm_size = 400
+		}
+		multiply_variable = { which = min_levy value = 0.50 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 300
+		}
+		multiply_variable = { which = min_levy value = 0.60 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 200
+		}
+		multiply_variable = { which = min_levy value = 0.70 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 130
+		}
+		multiply_variable = { which = min_levy value = 0.80 }
+	}
+	else = {
+
+	}
+
+
+}
+
+determine_max_levy = {
+	## BASED ON... CROWN LAWS? I THINK
+	## START AT 0.33
+
+	set_variable = { which = max_levy value = 1.0 }
+
+	## ADD DYNLEVY ADJUSTMENT LATER
+
+	if = {
+		limit = {
+			has_law = iqta_slider_0
+		}
+		change_variable = { which = max_levy value = 0.1 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_slider_1
+		}
+		change_variable = { which = max_levy value = 0.05 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_slider_3
+		}
+		change_variable = { which = max_levy value = -0.05 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_slider_4
+		}
+		change_variable = { which = max_levy value = -0.1 }
+	}
+
+	if = {
+		limit = {
+			has_law = iqta_obligations_0
+		}
+		change_variable = { which = max_levy value = -0.1 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_obligations_1
+		}
+		change_variable = { which = max_levy value = -0.025 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_obligations_2
+		}
+		change_variable = { which = max_levy value = 0.050 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_obligations_3
+		}
+		change_variable = { which = max_levy value = 0.125 }
+	}
+	if = {
+		limit = {
+			has_law = iqta_obligations_4
+		}
+		change_variable = { which = max_levy value = 0.20 }
+	}
+
+	if = {
+		limit = {
+			has_law = feudal_slider_0
+		}
+		change_variable = { which = max_levy value = 0.1 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_slider_1
+		}
+		change_variable = { which = max_levy value = 0.05 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_slider_3
+		}
+		change_variable = { which = max_levy value = -0.05 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_slider_4
+		}
+		change_variable = { which = max_levy value = -0.1 }
+	}
+
+	if = {
+		limit = {
+			has_law = feudal_obligations_0
+		}
+		change_variable = { which = max_levy value = -0.1 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_obligations_1
+		}
+		change_variable = { which = max_levy value = -0.025 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_obligations_2
+		}
+		change_variable = { which = max_levy value = 0.050 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_obligations_3
+		}
+		change_variable = { which = max_levy value = 0.125 }
+	}
+	if = {
+		limit = {
+			has_law = feudal_obligations_4
+		}
+		change_variable = { which = max_levy value = 0.20 }
+	}
+
+	if = {
+		limit = {
+			realm_size = 400
+		}
+		multiply_variable = { which = max_levy value = 0.50 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 300
+		}
+		multiply_variable = { which = max_levy value = 0.60 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 200
+		}
+		multiply_variable = { which = max_levy value = 0.70 }
+	}
+	else_if = {
+		limit = {
+			realm_size = 130
+		}
+		multiply_variable = { which = max_levy value = 0.80 }
+	}
+	else = {
+
+	}
+	
+}
+
+change_laws_minmaxlevy = {
+	remove_character_modifier = vassal_autonomy_50
+	remove_character_modifier = vassal_autonomy_45
+	remove_character_modifier = vassal_autonomy_40
+	remove_character_modifier = vassal_autonomy_35
+	remove_character_modifier = vassal_autonomy_30
+	remove_character_modifier = vassal_autonomy_25
+	remove_character_modifier = vassal_autonomy_20
+	remove_character_modifier = vassal_autonomy_15
+	remove_character_modifier = vassal_autonomy_10
+	remove_character_modifier = vassal_autonomy_05
+	if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.50}
+		}
+		add_character_modifier = { name = vassal_autonomy_50 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.45}
+		}
+		add_character_modifier = { name = vassal_autonomy_45 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.40}
+		}
+		add_character_modifier = { name = vassal_autonomy_40 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.35 }
+		}
+		add_character_modifier = { name = vassal_autonomy_35 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.30}
+		}
+		add_character_modifier = { name = vassal_autonomy_30 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.25}
+		}
+		add_character_modifier = { name = vassal_autonomy_25 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.2}
+		}
+		add_character_modifier = { name = vassal_autonomy_20 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.15}
+		}
+		add_character_modifier = { name = vassal_autonomy_15 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.10}
+		}
+		add_character_modifier = { name = vassal_autonomy_10 duration = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = vassal_levies1 value = 0.05}
+		}
+		add_character_modifier = { name = vassal_autonomy_05 duration = -1 }
+	}
+	else = {
+
+	}
+
+}
