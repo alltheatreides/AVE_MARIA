@@ -1,0 +1,114 @@
+#For tributary types with breaks_at_suzerain_death = yes add the type to JD.60015 for the notification event
+
+true_vassal = {
+	tributary_name = TRUE_VASSAL_NAME
+	tributary_plural = TRUE_VASSAL_PLURAL
+	suzerain_name = SUZERAIN_TRUE_VASSAL_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_can_be_called = yes
+	suzerain_must_defend = yes
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = yes
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = no
+	breaks_on_realm_change = no
+	icon = 10
+	cbs_against_suzerain = {
+		free_true_vassal_cb
+	}
+	income_tribute_percentage = {
+		value = 0
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0.1
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+true_vassal_hre = {
+	tributary_name = TRUE_VASSAL_NAME
+	tributary_plural = TRUE_VASSAL_PLURAL
+	suzerain_name = SUZERAIN_TRUE_VASSAL_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = yes
+	tributaries_can_infight = yes
+	suzerain_can_join_infighting = yes
+	tributary_can_be_summoned = no
+	tributary_must_defend = no
+	tributaries_can_unite = no
+	breaks_on_realm_change = no
+	icon = 10
+	cbs_against_suzerain = {
+		free_true_vassal_cb
+	}
+	income_tribute_percentage = {
+		value = 0.01
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0.1
+	}
+	prestige_to_tributary = {
+		value = 0.05
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
+
+true_vassal_duke_of_normandy = {
+	tributary_name = TRUE_VASSAL_NAME
+	tributary_plural = TRUE_VASSAL_PLURAL
+	suzerain_name = SUZERAIN_TRUE_VASSAL_NAME
+	tribute_name = TRIBUTARY_DEFAULT_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_must_defend = no
+	tributaries_can_infight = yes
+	suzerain_can_be_called = no
+	suzerain_can_join_infighting = yes
+	tributary_can_be_summoned = yes
+	tributary_must_defend = no
+	tributaries_can_unite = no
+	breaks_on_realm_change = no
+	icon = 10
+	cbs_against_suzerain = {
+		free_true_vassal_cb
+	}
+	income_tribute_percentage = {
+		value = 0
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0.1
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
