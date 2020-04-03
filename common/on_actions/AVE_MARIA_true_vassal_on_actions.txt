@@ -1,0 +1,104 @@
+on_startup = {
+	events = {		
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal.1
+		# Avoiding spam with vassals homage
+		AVE_MARIA_true_vassal.6
+	}
+}
+on_yearly_pulse = {
+	events = {
+		# Cleaning of Vanilla Vassals
+		# AVE_MARIA_true_vassal.1
+		# Making sure you are not a vassal of someone lower_tier
+		AVE_MARIA_true_vassal.2
+	}
+}
+
+# ROOT is the creating character, FROM is the title
+on_create_title = {
+	events = {
+		AVE_MARIA_true_vassal.3
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder ={
+	events = {
+		AVE_MARIA_true_vassal.3
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+		AVE_MARIA_true_vassal.3
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		AVE_MARIA_true_vassal.3
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_ended_victory = {
+	events = {
+		#Flag cleaning
+		AVE_MARIA_true_vassal.4
+		#Ban Troops removal
+		AVE_MARIA_true_vassal.27
+		
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_ended_whitepeace = {
+	events = {
+		#Flag cleaning
+		AVE_MARIA_true_vassal.4
+		#Ban Troops removal
+		AVE_MARIA_true_vassal.27
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_ended_defeat = {
+	events = {
+		#Flag cleaning
+		AVE_MARIA_true_vassal.4
+		#Ban Troops removal
+		AVE_MARIA_true_vassal.27
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_ended_invalid = {
+	events = {
+		#Flag cleaning
+		AVE_MARIA_true_vassal.4
+		#Ban Troops removal
+		AVE_MARIA_true_vassal.27
+	}
+}
+
+on_adulthood = {
+	events = {
+
+	}
+}
+
+# any leader in battle on winning side is ROOT - opponent army leader is FROM
+on_major_battle_won = {
+	events = {
+		#th_event.1
+	}
+}
+
+on_major_battle_won_leader = {
+	events = {
+		#th_event.1
+	}
+}
