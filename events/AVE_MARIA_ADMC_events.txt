@@ -399,9 +399,9 @@ long_character_event = {
 	#Investement
 	option = {
 		name = EVTOPTA_AVE_MARIA_ADMC_events.4
-		treasury = -50
+		treasury = -100
 		change_variable = { which = administrative_capacity value = 1 }
-		# add_character_modifier = { name = recent_investment duration = 60 }
+		add_character_modifier = { name = recent_investment duration = 60 }
 		hidden_effect = {
 			character_event = { id = AVE_MARIA_ADMC.5 }
 		}
@@ -473,6 +473,72 @@ character_event = {
 			add_character_modifier = { name = administrative_capacity_roman duration = -1 }
 			add_character_modifier = { name = administrative_capacity_roman_maintenance duration = -1 }
 		}
+	}	
+}
+
+## Inheritance of administrative capacity
+character_event = {
+	id = AVE_MARIA_ADMC.6
+	is_triggered_only = yes
+	
+	hide_window = yes
+	
+	trigger = {
+		any_title = {
+			limit = {
+				any_previous_holder = {
+					check_variable = { which = administrative_capacity value > 1 }
+				}
+			}
+		}
 	}
 	
+	immediate = {
+		if = {
+			limit = {
+				any_title = {
+					limit = {
+						any_previous_holder = {
+							is_variable_equal = { which = administrative_capacity value = 5 }
+						}
+					}
+				}
+			}
+			set_variable = { which = administrative_capacity value = 5 }
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				any_title = {
+					limit = {
+						any_previous_holder = {
+							is_variable_equal = { which = administrative_capacity value = 10 }
+						}
+					}
+				}
+			}
+			set_variable = { which = administrative_capacity value = 10 }
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				any_title = {
+					limit = {
+						any_previous_holder = {
+							is_variable_equal = { which = administrative_capacity value = 15 }
+						}
+					}
+				}
+			}
+			set_variable = { which = administrative_capacity value = 15 }
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+		}
+		
+	}
 }

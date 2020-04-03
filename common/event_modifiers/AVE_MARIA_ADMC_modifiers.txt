@@ -87,3 +87,8 @@ administrative_capacity_very_low_maintenance = {
 	monthly_character_wealth = -0.1
 	icon = 24
 }
+
+## Hidden
+recent_investment = {
+	is_hidden = yes
+}

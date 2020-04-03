@@ -59,6 +59,7 @@ NDefines.NMilitary.MERCENARY_HIRE_DISTANCE_THRESHOLD = 400
 NDefines.NMilitary.OUTSIDE_LIEGE_LEVY_MULT = -1
 NDefines.NMilitary.CAPITAL_KINGDOM_LIEGE_LEVY_MULT = -1
 NDefines.NMilitary.CAPITAL_EMPIRE_LIEGE_LEVY_MULT = -1
+NDefines.NMilitary.BATTLE_WARSCORE_WORTH = 150
 
 -- Economy
 NDefines.NEconomy.DOGE_SUCC_RANDOM_FACTOR = 0									-- 500 The random Respect factor on actual Doge succession.

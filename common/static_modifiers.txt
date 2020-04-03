@@ -455,7 +455,7 @@ static_intrigue_mod = {
 }
 
 static_stewardship_mod = {
-	global_tax_modifier = 0.02
+	global_tax_modifier = 0
 }
 
 static_martial_mod = {
@@ -744,17 +744,17 @@ tribal_wrong_culture_modifier = {
 
 # Applied to your holdings in your capital province if you're independent
 capital_county_independent_holder = {
-	levy_size = 0.25
+	# levy_size = 0.25
 }
 
 # Applied to your holdings in your capital province if you're a count and a vassal
 capital_county_vassal_count = {
-	levy_size = 0.25
+	# levy_size = 0.25
 }
 
 # Applied to your holdings in your capital province if you're above count level and a vassal
 capital_county_vassal = {
-	levy_size = 0.25
+	# levy_size = 0.25
 }
 
 # Applied to your holdings in the dejure duchy your capital is in if you're independent
@@ -767,23 +767,23 @@ capital_duchy_vassal = {
 
 # Applied to your holdings in the dejure kingdom your capital is in
 capital_kingdom = {
-	levy_size = -0.9
-	levy_reinforce_rate = -0.15
-	local_tax_modifier = -0.9
+	# levy_size = -0.9
+	# levy_reinforce_rate = -0.15
+	# local_tax_modifier = -0.9
 }
 
 # Applied to your holdings in the dejure empire your capital is in
 capital_empire = {
-	levy_size = -0.9
-	garrison_size = -0.2
-	levy_reinforce_rate = -0.3
-	local_tax_modifier = -0.9
+	# levy_size = -0.9
+	# garrison_size = -0.2
+	# levy_reinforce_rate = -0.3
+	# local_tax_modifier = -0.9
 }
 
 # Applied to your holdings not in the dejure empire your capital is in
 outside_capital_empire = {
-	levy_size = -0.9
-	garrison_size = -0.2
-	levy_reinforce_rate = -0.3
-	local_tax_modifier = -0.9
+	# levy_size = -0.9
+	# garrison_size = -0.2
+	# levy_reinforce_rate = -0.3
+	# local_tax_modifier = -0.9
 }
