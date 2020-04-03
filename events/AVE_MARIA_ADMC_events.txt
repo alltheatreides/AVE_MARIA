@@ -3,7 +3,7 @@
 # AVE MARIA events																	   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
-# ID AVE_MARIA_ADMC.1 - AVE_MARIA_ADMC.499                          							   #
+# ID AVE_MARIA_ADMC.1 - AVE_MARIA_ADMC.499                          				   #
 #                               													   #
 ########################################################################################
 
@@ -177,20 +177,33 @@ character_event = {
 			log = "1: Administrative Capacity calculated for [Root.GetTitledName] and all the world playable character"
 		}
 		
-		set_variable = { which = administrative_capacity value = 10 }
 		
+		#Setting up of administrative_capacity for ROOT
+		#Basic one province control for everyone
+		if = {
+			NOT = {
+				OR = {
+					higher_tier_than = king
+					higher_tier_than = duke
+				}			
+			}
+			set_variable = { which = administrative_capacity value = 1 }
+		}
+		
+		#Kings have more revenue and usually more administrative_capacity ; might add more conditions from geography and/or government systems (nomads should not have high admc)
 		if = {
 			limit = {
 				higher_tier_than = duke
 			}
-			change_variable = { which = administrative_capacity value = 15 }
+			set_variable = { which = administrative_capacity value = 2 }
 		}
 		if = {
 			limit = {
 				higher_tier_than = king
 			}
-			change_variable = { which = administrative_capacity value = 20 }
+			set_variable = { which = administrative_capacity value = 15 }
 		}
+		#Roman have a "real" administration
 		if = {
 			limit = {
 				AND = {
@@ -207,6 +220,259 @@ character_event = {
 			change_variable = { which = administrative_capacity value = 100 }
 		}
 		
+		#Assign modifiers according to administrative capacity
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 1 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_very_low duration = -1 }
+			add_character_modifier = { name = administrative_capacity_very_low_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 2 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_low duration = -1 }
+			add_character_modifier = { name = administrative_capacity_low_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 5 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 10 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 15 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_high duration = -1 }
+			add_character_modifier = { name = administrative_capacity_high_maintenance duration = -1 }
+		}	
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 25 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_very_high duration = -1 }
+			add_character_modifier = { name = administrative_capacity_very_high_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 100 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_roman duration = -1 }
+			add_character_modifier = { name = administrative_capacity_roman_maintenance duration = -1 }
+		}
 		
+		#Setting up of administrative_capacity for all rulers 
+		any_character = {
+			limit = {
+				is_landed = yes
+			}
+			#Basic one province control for everyone
+			if = {
+				NOT = {
+					OR = {
+						higher_tier_than = king
+						higher_tier_than = duke
+					}			
+				}
+				set_variable = { which = administrative_capacity value = 2 }
+			}
+			
+			#Kings have more revenue and usually more administrative_capacity ; might add more conditions from geography and/or government systems (nomads should not have high admc)
+			if = {
+				limit = {
+					higher_tier_than = duke
+				}
+				set_variable = { which = administrative_capacity value = 5 }
+			}
+			if = {
+				limit = {
+					higher_tier_than = king
+				}
+				set_variable = { which = administrative_capacity value = 15 }
+			}
+			#Roman have a "real" administration
+			if = {
+				limit = {
+					AND = {
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
+						}
+					}
+					has_law = succ_byzantine_elective
+				}
+				change_variable = { which = administrative_capacity value = 100 }
+			}
+			
+			#Assign modifiers according to administrative capacity
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 1 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_very_low duration = -1 }
+				add_character_modifier = { name = administrative_capacity_very_low_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 2 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_low duration = -1 }
+				add_character_modifier = { name = administrative_capacity_low_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 5 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+				add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 10 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_average duration = -1 }
+				add_character_modifier = { name = administrative_capacity_average_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 15 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_high duration = -1 }
+				add_character_modifier = { name = administrative_capacity_high_maintenance duration = -1 }
+			}	
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 25 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_very_high duration = -1 }
+				add_character_modifier = { name = administrative_capacity_very_high_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					check_variable = { which = administrative_capacity value = 100 }
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_roman duration = -1 }
+				add_character_modifier = { name = administrative_capacity_roman_maintenance duration = -1 }
+			}
+		}
 	}
+}
+
+## Investement in Administrative Capacity
+long_character_event = {
+	id = AVE_MARIA_ADMC.4
+	picture = GFX_evt_battle
+	is_triggered_only = yes
+	
+	
+	desc = {
+		text = EVTDESC_AVE_MARIA_ADMC_events.4
+	}
+	
+	#Investement
+	option = {
+		name = EVTOPTA_AVE_MARIA_ADMC_events.4
+		treasury = -50
+		change_variable = { which = administrative_capacity value = 1 }
+		# add_character_modifier = { name = recent_investment duration = 60 }
+		hidden_effect = {
+			character_event = { id = AVE_MARIA_ADMC.5 }
+		}
+	}
+	
+	#I changed my mind
+	option = {
+		name = EVTOPTB_AVE_MARIA_ADMC_events.4
+	}
+}
+
+## Administrative capacity variable check and appropriate modifiers
+character_event = {
+	id = AVE_MARIA_ADMC.5
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		higher_tier_than = baron
+		check_variable = { which = administrative_capacity value > 1 }
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 2 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_low duration = -1 }
+			add_character_modifier = { name = administrative_capacity_low_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 5 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 10 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_average duration = -1 }
+			add_character_modifier = { name = administrative_capacity_average_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 15 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_high duration = -1 }
+			add_character_modifier = { name = administrative_capacity_high_maintenance duration = -1 }
+		}	
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 25 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_very_high duration = -1 }
+			add_character_modifier = { name = administrative_capacity_very_high_maintenance duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = administrative_capacity value = 100 }
+			}
+			remove_administrative_capacity_modifier = yes
+			add_character_modifier = { name = administrative_capacity_roman duration = -1 }
+			add_character_modifier = { name = administrative_capacity_roman_maintenance duration = -1 }
+		}
+	}
+	
 }

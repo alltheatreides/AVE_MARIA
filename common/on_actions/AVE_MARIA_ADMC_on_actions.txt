@@ -12,5 +12,12 @@
 on_startup = {
 	events = {
 		AVE_MARIA_ADMC.1
+		AVE_MARIA_ADMC.3
+	}
+}
+
+on_bi_yearly_pulse = {
+	events = {
+		AVE_MARIA_ADMC.5
 	}
 }

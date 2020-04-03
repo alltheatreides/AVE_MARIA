@@ -1,173 +1,28 @@
 decisions = {
-   invest_in_court = {
-      ai = no
-
-      potential = {
-         NOT = { has_character_modifier = recent_investment }
-         OR = {
-            has_character_modifier = magnificent_court
-            has_character_modifier = grand_court
-            has_character_modifier = splendid_court
-            has_character_modifier = standard_court
-            has_character_modifier = acceptable_court
-            has_character_modifier = shabby_court
-            has_character_modifier = abysmal_court
-         }
-      }
-
-      allow = {
-      }
-
-      effect = {
-         treasury = -1
-         character_event = { id = CS.10100 }
-      }
-   }
-
-   ask_autonomous_levies = {
-
-      potential = {
-         war = yes
-         independent = yes
-         NOT = { has_character_flag = called_levies }
-         any_vassal = {
-            ai = yes
-            check_variable = { which = autonomy value = 4 }
-         }
-      }
-
-      allow = {
-         war = yes
-      }
-
-      ai_will_do = {
-          #Factors for an AI character to take the decision (1 = 100% chance)
-            factor = 0.3
-            modifier = {
-               factor = 2
-               any_war = { war_score = -25 }
-            }
-            modifier = {
-               factor = 4
-               any_war = { war_score = -50 }
-            }
-         }
-
-         effect = {
-            set_character_flag = called_levies
-
-            any_vassal = {
-               if = {
-                  limit = {
-                     ai = yes
-                     check_variable = {which = autonomy value = 4}
-                     NOT = { has_character_modifier = accepted_request }
-                  }
-                  random = {
-                     chance = 100
-                     modifier = {
-                        factor = 0.15
-                        check_variable = { which = autonomy value = 8}
-                     }
-                     modifier = {
-                        factor = 0.20
-                        check_variable = { which = autonomy value = 7}
-                        NOT = { check_variable = { which = autonomy value = 8} }
-                     }
-                     modifier = {
-                        factor = 0.25
-                        check_variable = { which = autonomy value = 6}
-                        NOT = { check_variable = { which = autonomy value = 7} }
-                     }
-                     modifier = {
-                        factor = 0.3
-                        check_variable = { which = autonomy value = 5}
-                        NOT = { check_variable = { which = autonomy value = 6} }
-                     }
-                     modifier = {
-                        factor = 0.36
-                        check_variable = { which = autonomy value = 4}
-                        NOT = { check_variable = { which = autonomy value = 5} }
-                     }
-                     modifier = {
-                        factor = 1.2
-                        PREV = { ai = yes }
-                     }
-                      modifier = {
-                        factor = 1.2
-                        PREV = { is_nomadic = yes }
-                     }
-                     modifier = {
-                        factor = 3
-                        opinion = { who = PREV value = 95 }
-                     }
-                     modifier = {
-                        factor = 2.4
-                        opinion = { who = PREV value = 75 }
-                     }
-                     modifier = {
-                        factor = 1.8
-                        opinion = { who = PREV value = 50 }
-                     }
-                     modifier = {
-                        factor = 1.4
-                        opinion = { who = PREV value = 25 }
-                     }
-                     modifier = {
-                        factor = 1.2
-                        opinion = { who = PREV value = 0 }
-                     }
-                     modifier = {
-                        factor = 1.5
-                        ROOT = { is_primary_war_defender = yes }
-                     }
-                     modifier = {
-                        factor = 1.5
-                        ROOT = { any_war = { war_score = -50 } }
-                     }
-                     modifier = {
-                        factor = 0.75
-                        trait = arbitrary
-                     }
-                     modifier = {
-                        factor = 0.75
-                        trait = craven
-                        ROOT = { any_war = { war_score = -25 } }
-                     }
-                     modifier = {
-                        factor = 0.75
-                        trait = craven
-                        ROOT = { any_war = { war_score = -25 } }
-                     }
-                     modifier = {
-                        factor = 1.5
-                        trait = diligent
-                     }
-                     modifier = {
-                        factor = 10
-                        ROOT = { any_war = { using_cb = crusade} }
-                     }
-
-                     character_event = { id = CS.15200 days = 7 random = 14}
-                     set_character_flag = accepted_request
-                     set_character_flag = debugging1
-                  }
-               if = {
-                  limit = {
-                     NOT = { has_character_flag = accepted_request} 
-                  }
-                   set_character_flag = debugging2
-                  character_event = { id = CS.15300 days = 7 random = 14}
-               }
-               if = {
-                  limit = {
-                     ai = no
-                  }
-                  character_event = { id = CS.15201 days = 7 random = 14}
-               }
-               }
-               set_character_flag = debugging3
-            }
-         }
-   }
-} 
+	invest_in_administrative_capacity = {
+		ai = no
+		
+		potential = {
+			NOT = {
+				has_character_modifier = recent_investment
+			}
+			OR = {
+				has_character_modifier = administrative_capacity_roman
+				has_character_modifier = administrative_capacity_very_high
+				has_character_modifier = administrative_capacity_high
+				has_character_modifier = administrative_capacity_average
+				has_character_modifier = administrative_capacity_below_average
+				has_character_modifier = administrative_capacity_low
+				has_character_modifier = administrative_capacity_very_low
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			character_event = { id = AVE_MARIA_ADMC.4 }
+		}
+	}
+}
