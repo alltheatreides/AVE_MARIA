@@ -1,0 +1,23 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Triggers																	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+#Character triggers
+has_moved_capital = {
+	any_demesne_province = {
+		OR = {
+			has_province_flag = administrative_capacity_distant_province
+			has_province_flag = administrative_capacity_adjacent_capital
+		}		
+		is_capital = yes
+		controlled_by = ROOT
+	}
+}
+

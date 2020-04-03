@@ -1,0 +1,9 @@
+-- Diplomacy
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_DUKE_MULT = 1
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_KING_MULT = 1
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_EMPEROR_MULT = 1
+NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 1
+NDefines.NDiplomacy.DEMESNE_MAX_SIZE_STEWARDSHIP_MULT = 0
+
+-- Economy
+NDefines.NDiplomacy.OVER_MAX_DEMESNE_TAX_PENALTY = 0

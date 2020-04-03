@@ -1,0 +1,28 @@
+decisions = {
+	invest_in_administrative_capacity = {
+		ai = no
+		
+		potential = {
+			NOT = {
+				has_character_modifier = recent_investment
+			}
+			OR = {
+				has_character_modifier = administrative_capacity_roman
+				has_character_modifier = administrative_capacity_very_high
+				has_character_modifier = administrative_capacity_high
+				has_character_modifier = administrative_capacity_average
+				has_character_modifier = administrative_capacity_below_average
+				has_character_modifier = administrative_capacity_low
+				has_character_modifier = administrative_capacity_very_low
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			character_event = { id = AVE_MARIA_ADMC.4 }
+		}
+	}
+}

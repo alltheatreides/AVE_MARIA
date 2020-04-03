@@ -1,0 +1,23 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# On Actions																		   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_startup = {
+	events = {
+		AVE_MARIA_ADMC.1
+		AVE_MARIA_ADMC.3
+	}
+}
+
+on_bi_yearly_pulse = {
+	events = {
+		AVE_MARIA_ADMC.5
+	}
+}

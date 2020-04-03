@@ -1,0 +1,27 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Effects																	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+remove_administrative_capacity_modifier = {
+	remove_character_modifier = administrative_capacity_roman
+	remove_character_modifier = administrative_capacity_very_high
+	remove_character_modifier = administrative_capacity_high
+	remove_character_modifier = administrative_capacity_average
+	remove_character_modifier = administrative_capacity_below_average
+	remove_character_modifier = administrative_capacity_low
+	remove_character_modifier = administrative_capacity_very_low
+	remove_character_modifier = administrative_capacity_roman_maintenance
+	remove_character_modifier = administrative_capacity_very_high_maintenance
+	remove_character_modifier = administrative_capacity_high_maintenance
+	remove_character_modifier = administrative_capacity_average_maintenance
+	remove_character_modifier = administrative_capacity_below_average_maintenance
+	remove_character_modifier = administrative_capacity_low_maintenance
+	remove_character_modifier = administrative_capacity_very_low_maintenance
+}

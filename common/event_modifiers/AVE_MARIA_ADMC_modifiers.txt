@@ -1,0 +1,89 @@
+## ADMINISTRATIVE CAPACITY MODIFIERS
+
+administrative_capacity_roman = {
+	demesne_size = 100
+	monthly_character_prestige = 1
+	vassal_opinion = 6
+	diplomacy = 3
+	icon = 7
+}
+
+administrative_capacity_very_high = {
+	demesne_size = 25
+	monthly_character_prestige = 0.75
+	vassal_opinion = 4
+	diplomacy = 2
+	icon = 7
+}
+administrative_capacity_high = {
+	demesne_size = 15
+	monthly_character_prestige = 0.5
+	vassal_opinion = 2
+	diplomacy = 1
+	icon = 7
+}
+administrative_capacity_average = {
+	demesne_size = 10
+	monthly_character_prestige = 0.25
+	icon = 7
+}
+administrative_capacity_below_average = {
+	demesne_size = 5
+	monthly_character_prestige = 0.1
+	icon = 7
+}
+administrative_capacity_low = {
+	demesne_size = 2
+	icon = 7
+}
+
+administrative_capacity_very_low = {
+	demesne_size = 1
+	icon = 7
+}
+administrative_capacity_limited = {
+	icon = 31
+	levy_size = -0.50
+	garrison_size = -0.25
+	levy_reinforce_rate = -0.5
+	local_tax_modifier = -0.5
+}
+
+administrative_capacity_distance_province = {
+	icon = 31
+	levy_size = -0.99
+	garrison_size = -0.5
+	levy_reinforce_rate = -0.90
+	local_tax_modifier = -0.99
+}
+
+
+## ADMC Maintenance
+administrative_capacity_roman_maintenance = {
+	monthly_character_wealth = -5
+	icon = 24
+}
+administrative_capacity_very_high_maintenance = {
+	monthly_character_wealth = -3.5
+	icon = 24
+}
+administrative_capacity_high_maintenance = {
+	monthly_character_wealth = -2
+	icon = 24
+}
+administrative_capacity_average_maintenance = {
+	monthly_character_wealth = -1
+	icon = 24
+}
+administrative_capacity_below_average_maintenance = {
+	monthly_character_wealth = -0.4
+	icon = 24
+}
+administrative_capacity_low_maintenance = {
+	monthly_character_wealth = -0.2
+	icon = 24
+}
+administrative_capacity_very_low_maintenance = {
+	monthly_character_wealth = -0.1
+	icon = 24
+}
