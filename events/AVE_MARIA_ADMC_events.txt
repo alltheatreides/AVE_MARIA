@@ -35,6 +35,10 @@ character_event = {
 			log = "1: Provinces maluses done for [Root.GetTitledName] and all the world playable character"
 		}
 		
+		any_demesne_province = {
+			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+		}
+		
 		capital_scope = {
 			set_province_flag = administrative_capacity_capital
 			any_neighbor_province = {
@@ -51,6 +55,13 @@ character_event = {
 					has_province_flag = administrative_capacity_capital
 				}
 				controlled_by = ROOT
+			}
+			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+			set_province_flag = administrative_capacity_distant_province
+		}
+		any_demesne_province = {
+			limit = {
+				NOT = { can_land_path_to = { target = capital distance < 1000 } }
 			}
 			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
 			set_province_flag = administrative_capacity_distant_province
@@ -476,7 +487,7 @@ character_event = {
 	}	
 }
 
-## Inheritance of administrative capacity
+## Inheritance of administrative capacity on ruler death
 character_event = {
 	id = AVE_MARIA_ADMC.6
 	is_triggered_only = yes
@@ -484,61 +495,63 @@ character_event = {
 	hide_window = yes
 	
 	trigger = {
-		any_title = {
-			limit = {
-				any_previous_holder = {
-					check_variable = { which = administrative_capacity value > 1 }
-				}
-			}
-		}
+		check_variable = { which = administrative_capacity value > 1 }
 	}
 	
+	#give administrative capacity to heir
 	immediate = {
-		if = {
-			limit = {
-				any_title = {
-					limit = {
-						any_previous_holder = {
-							is_variable_equal = { which = administrative_capacity value = 5 }
-						}
-					}
+		set_variable = { which = global_administrative_capacity_transmission which = administrative_capacity }
+		current_heir = {
+			set_variable = { which = administrative_capacity which = global_administrative_capacity_transmission }
+			if = {
+				limit = {
+					has_administrative_capacity_between_2_and_5 = yes
 				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_low duration = -1 }
+				add_character_modifier = { name = administrative_capacity_low_maintenance duration = -1 }
 			}
-			set_variable = { which = administrative_capacity value = 5 }
-			remove_administrative_capacity_modifier = yes
-			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
-			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
-		}
-		if = {
-			limit = {
-				any_title = {
-					limit = {
-						any_previous_holder = {
-							is_variable_equal = { which = administrative_capacity value = 10 }
-						}
-					}
+			if = {
+				limit = {
+					has_administrative_capacity_between_5_and_10 = yes
 				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
+				add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
 			}
-			set_variable = { which = administrative_capacity value = 10 }
-			remove_administrative_capacity_modifier = yes
-			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
-			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
-		}
-		if = {
-			limit = {
-				any_title = {
-					limit = {
-						any_previous_holder = {
-							is_variable_equal = { which = administrative_capacity value = 15 }
-						}
-					}
+			if = {
+				limit = {
+					has_administrative_capacity_between_10_and_15 = yes
 				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_average duration = -1 }
+				add_character_modifier = { name = administrative_capacity_average_maintenance duration = -1 }
 			}
-			set_variable = { which = administrative_capacity value = 15 }
-			remove_administrative_capacity_modifier = yes
-			add_character_modifier = { name = administrative_capacity_below_average duration = -1 }
-			add_character_modifier = { name = administrative_capacity_below_average_maintenance duration = -1 }
+			if = {
+				limit = {
+					has_administrative_capacity_between_15_and_20 = yes
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_high duration = -1 }
+				add_character_modifier = { name = administrative_capacity_high_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					has_administrative_capacity_between_20_and_25 = yes
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_very_high duration = -1 }
+				add_character_modifier = { name = administrative_capacity_very_high_maintenance duration = -1 }
+			}
+			if = {
+				limit = {
+					has_administrative_capacity_between_25_and_100 = yes
+				}
+				remove_administrative_capacity_modifier = yes
+				add_character_modifier = { name = administrative_capacity_very_high duration = -1 }
+				add_character_modifier = { name = administrative_capacity_very_high_maintenance duration = -1 }
+			}
 		}
-		
+		set_variable = { which = global_administrative_capacity_transmission value = 0 }
 	}
 }

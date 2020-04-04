@@ -25,3 +25,10 @@ remove_administrative_capacity_modifier = {
 	remove_character_modifier = administrative_capacity_low_maintenance
 	remove_character_modifier = administrative_capacity_very_low_maintenance
 }
+
+clear_administrative_capacity_distance_province_flag_and_modifiers = {
+	clr_province_flag = administrative_capacity_capital
+	clr_province_flag = administrative_capacity_adjacent_capital
+	clr_province_flag = administrative_capacity_distant_province
+	remove_province_modifier = administrative_capacity_distance_province
+}

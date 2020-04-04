@@ -21,3 +21,52 @@ has_moved_capital = {
 	}
 }
 
+has_administrative_capacity_between_2_and_5 = {
+	OR = {
+		check_variable = { which = administrative_capacity value = 2 }
+		AND = {
+			check_variable = { which = administrative_capacity value > 2 }
+			check_variable = { which = administrative_capacity value < 5 }
+		}
+	}	
+}
+
+has_administrative_capacity_between_5_and_10 = {
+	OR = {
+		check_variable = { which = administrative_capacity value = 5 }
+		AND = {
+			check_variable = { which = administrative_capacity value > 5 }
+			check_variable = { which = administrative_capacity value < 10 }
+		}
+	}
+}
+
+has_administrative_capacity_between_10_and_15 = {
+	OR = {
+		check_variable = { which = administrative_capacity value = 10 }
+		AND = {
+			check_variable = { which = administrative_capacity value > 10 }
+			check_variable = { which = administrative_capacity value < 15 }
+		}
+	}
+}
+
+has_administrative_capacity_between_15_and_25 = {
+	OR = {
+		check_variable = { which = administrative_capacity value = 15 }
+		AND = {
+			check_variable = { which = administrative_capacity value > 15 }
+			check_variable = { which = administrative_capacity value < 20 }
+		}
+	}
+}
+
+has_administrative_capacity_between_25_and_100 = {
+	OR = {
+		check_variable = { which = administrative_capacity value = 25 }
+		AND = {
+			check_variable = { which = administrative_capacity value > 25 }
+			check_variable = { which = administrative_capacity value < 100 }
+		}
+	}
+}

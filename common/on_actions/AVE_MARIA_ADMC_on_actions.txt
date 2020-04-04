@@ -21,3 +21,9 @@ on_bi_yearly_pulse = {
 		AVE_MARIA_ADMC.5
 	}
 }
+
+on_death = {
+	events = {
+		AVE_MARIA_ADMC.6
+	}
+}
