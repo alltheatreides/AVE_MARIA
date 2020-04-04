@@ -15,7 +15,7 @@ namespace = AVE_MARIA_true_vassal
 # Maintenance events 1-10	              #
 ###########################################
 
-# True Vassals Start Up event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
+# True Vassal Start Up event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
 character_event = {
     id = AVE_MARIA_true_vassal.1
     hide_window = yes
@@ -63,6 +63,7 @@ character_event = {
                 limit = {
                     NOT = {
                         OR = {
+							is_tributary = { type = default }
                             is_tributary = { type = true_vassal_hre }
                             is_tributary = { type = true_vassal }
                         }
@@ -146,7 +147,7 @@ character_event = {
 
 }
 
-# True Vassals Maintenance event - chaque année pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+# True Vassal Maintenance event - chaque année pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
 character_event = {
     id = AVE_MARIA_true_vassal.2
     hide_window = yes
@@ -351,7 +352,7 @@ character_event = {
     }
 }
 
-# True Vassals Maintenance event - quand un titre change de main pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+# True Vassal Maintenance event - quand un titre change de main pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
 character_event = {
 	id = AVE_MARIA_true_vassal.3
     hide_window = yes
@@ -548,571 +549,14 @@ character_event = {
 
 # En gavelkind les vassaux ont le choix de jurer fidélité à un des enfants plutot que l'héritier principal
 
-########################################################################################
-#                                         											   #
-# Feudataire-Suzerain events 10-    												   #
-#																					   #
-########################################################################################
-
 ###########################################
-# Feudataire-Suzerain events 10-25        #
-# Initialisation of relationships		  #
-###########################################
-
-# Hommage-lige events - Informer le feudataire de la cérémonie lige qui aura lieu
-character_event = {
-    id = AVE_MARIA_true_vassal.10
-    desc = EVTDESC_AVE_MARIA_true_vassal_events.10
-    picture = {
-        trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_2
-    }
-    picture = {
-        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
-        picture = GFX_evt_ruler_homage_muslim
-    }
-    border = GFX_event_normal_frame_diplomacy
-    is_triggered_only = yes
-
-    trigger = {
-
-    }
-
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.10
-        set_character_flag = will_swear_fealty
-        hidden_effect = {
-            trait = travelling
-        }
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = -50 }
-            }
-        }
-        hidden_effect = {
-            suzerain = {
-                character_event = { id = AVE_MARIA_true_vassal.11 days = 5 }
-            }
-        }
-    }
-
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.10
-        set_character_flag = will_not_swear_fealty
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = 25 }
-            }
-        }
-        hidden_effect = {
-            suzerain = {
-                character_event = { id = AVE_MARIA_true_vassal.11 days = 5 }
-            }
-        }
-    }
-
-}
-
-# Hommage-lige events - Informer le seigneur de la cérémonie lige qui aura lieu ou du refus
-character_event = {
-    id = AVE_MARIA_true_vassal.11
-    desc = {
-        trigger = { 
-            FROM = { has_character_flag = will_swear_fealty }
-        }
-        text = EVTDESCA_AVE_MARIA_true_vassal_events.11
-    }
-    desc = {
-        trigger = { 
-            FROM = { has_character_flag = will_not_swear_fealty }
-        }
-        text = EVTDESCB_AVE_MARIA_true_vassal_events.11
-    }
-    picture = {
-        trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_2
-    }
-    picture = {
-        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
-        picture = GFX_evt_ruler_homage_muslim
-    }
-    border = GFX_event_normal_frame_diplomacy
-    is_triggered_only = yes
-
-    trigger = {
-
-    }
-
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.11
-        trigger = {
-            FROM = { has_character_flag = will_swear_fealty }
-        }
-        if = {
-            limit = {
-                FROM = {
-                    tier = COUNT
-                }
-            }
-            wealth = -5
-        }
-         if = {
-            limit = {
-                FROM = {
-                    tier = DUKE
-                }
-            }
-            wealth = -10
-        }
-         if = {
-            limit = {
-                FROM = {
-                    tier = KING
-                }
-            }
-            wealth = -20
-        }
-        hidden_effect = {
-            character_event = { id = AVE_MARIA_true_vassal.14 days = 5}
-            FROM = { character_event = { id = AVE_MARIA_true_vassal.13 days = 5} }
-        }
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = -50 }
-            }
-        }
-    }
-
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.11
-        trigger = {
-            FROM = { has_character_flag = will_swear_fealty }
-        }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = 25 }
-            }
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = DUKE
-                }
-            }
-            prestige = -25
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = KING
-                }
-            }
-            prestige = -75
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = EMPEROR
-                }
-            }
-            prestige = -100
-        }
-        hidden_effect = {
-            FROM = { character_event = { id = AVE_MARIA_true_vassal.12 days = 5 } }
-        }
-    }
-
-    option = {
-        name = EVTOPTC_AVE_MARIA_true_vassal_events.11
-        trigger = {
-            FROM = { has_character_flag = will_not_swear_fealty }
-        }
-        opinion = {
-            modifier = opinion_refused_homage
-            who = FROM
-            years = -1
-        }
-    }
-
-}
-
-# Hommage-lige events - En cas de refus du seigneur, informer le feudataire
-character_event = {
-    id = AVE_MARIA_true_vassal.12
-    desc = EVTDESC_AVE_MARIA_true_vassal_events.12
-    picture = {
-        trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage
-    }
-    picture = {
-        trigger = { OR = { religion_group = muslim religion_group = indian_group } }
-        picture = GFX_evt_ruler_homage_muslim
-    }
-    border = GFX_event_normal_frame_diplomacy
-    is_triggered_only = yes
-
-    trigger = {
-
-    }
-
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.12
-        suzerain = {
-            remove_tributary = ROOT
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = COUNT
-                }
-            }
-            prestige = -25
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = DUKE
-                }
-            }
-            prestige = -50
-        }
-        if = {
-            limit = {
-                ROOT = {
-                    tier = KING
-                }
-            }
-            prestige = -100
-        }
-    }
-
-}
-
-# Hommage-lige events - Cérémonie d'hommage pour le feudataire
-character_event = {
-    id = AVE_MARIA_true_vassal.13
-    desc = {
-        trigger = { religion_group = christian }
-        text = EVTDESC_AVE_MARIA_true_vassal_events_christian.13
-    }
-    desc = {
-        trigger = { religion_group = muslim }
-        text = EVTDESC_AVE_MARIA_true_vassal_events_muslim.13
-    }
-    picture = {
-        trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_3
-    }
-    picture = {
-        trigger = { religion_group = muslim }
-        picture = GFX_evt_ruler_homage_muslim
-    }
-    border = GFX_event_normal_frame_diplomacy
-    is_triggered_only = yes
-
-    trigger = {
-
-    }
-
-    immediate = {
-        clr_character_flag = will_swear_fealty
-    }
-
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.13
-        if = {
-            limit = {
-                ROOT = {
-                    tier = COUNT
-                }
-            }
-            prestige = 25
-        }
-         if = {
-            limit = {
-                ROOT = {
-                    tier = DUKE
-                }
-            }
-            prestige = 50
-        }
-         if = {
-            limit = {
-                ROOT = {
-                    tier = KING
-                }
-            }
-            prestige = 100
-        }
-        character_event = { id = AVE_MARIA_true_vassal.15 days = 5 }
-        set_character_flag = gave_homage_to_liege
-    }
-
-}
-
-# Hommage-lige events - Cérémonie d'hommage pour le liege
-character_event = {
-    id = AVE_MARIA_true_vassal.14
-    #title = TITLE_AVE_MARIA_true_vassal.14
-    desc = {
-        trigger = { religion_group = christian }
-        text = EVTDESC_AVE_MARIA_true_vassal_events_christian.14
-    }
-    desc = {
-        trigger = { religion_group = muslim }
-        text = EVTDESC_AVE_MARIA_true_vassal_events_muslim.14
-    }
-    picture = {
-        trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_3
-    }
-    picture = {
-        trigger = { religion_group = muslim }
-        picture = GFX_evt_ruler_homage_muslim
-    }
-    border = GFX_event_normal_frame_diplomacy
-    is_triggered_only = yes
-
-    trigger = {
-
-    }
-
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.14
-        if = {
-            limit = {
-                ROOT = {
-                    tier = COUNT
-                }
-            }
-            prestige = 5
-        }
-         if = {
-            limit = {
-                ROOT = {
-                    tier = DUKE
-                }
-            }
-            prestige = 40
-        }
-         if = {
-            limit = {
-                ROOT = {
-                    tier = KING
-                }
-            }
-            prestige = 75
-        }
-    }
-
-}
-
-# Hommage-lige events - Le feudataire rentre chez lui
-character_event = {
-    id = AVE_MARIA_true_vassal.15
-    hide_window = yes
-    is_triggered_only = yes
-
-    immediate = {
-        remove_trait = travelling
-    }
-}
-
-# Vassalisation - Demande - Le suzerain envoie une demande de vassalization
-character_event = {
-    id = AVE_MARIA_true_vassal.16
-    desc = EVTDESC_AVE_MARIA_true_vassal_events.16
-    picture = GFX_evt_ruler_homage
-    is_triggered_only = yes
-    show_from_from = yes
-
-    #The target accepts the offer of vassalization and will have to swear homage
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.16
-        set_character_flag = accepted_vassalization_demand
-        event_target:target_asking_lord = {
-            make_tributary = { who = ROOT tributary_type = true_vassal }
-        }
-        character_event = { id = AVE_MARIA_true_vassal.13 days = 5 }
-        event_target:target_asking_lord = { character_event = { id = AVE_MARIA_true_vassal.14 days = 5 } }
-        event_target:target_asking_lord = { character_event = { id = AVE_MARIA_true_vassal.17 days = 1 } }
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = -50 }
-            }
-        }
-    }
-
-    # The target refuses
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.16
-        #Nein
-        set_character_flag = refused_vassalization_demand
-        FROM = { character_event = { id = AVE_MARIA_true_vassal.17 days = 1 } }
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = 25 }
-            }
-        }
-    }
-}
-
-# Vassalisation - Demande - Le suzerain reçoit la réponse
-character_event = {
-    id = AVE_MARIA_true_vassal.17
-    desc = {
-        trigger = { FROM = { has_character_flag = accepted_vassalization_demand } }
-        text = EVTDESCA_AVE_MARIA_true_vassal_events.17
-    }
-    desc = {
-        trigger = { FROM = { has_character_flag = refused_vassalization_demand } }
-        text = EVTDESCB_AVE_MARIA_true_vassal_events.17
-    }
-    picture = GFX_evt_ruler_homage
-    is_triggered_only = yes
-    show_from_from = yes
-
-    # Positive answer
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.17
-        trigger = {
-            FROM = { has_character_flag = accepted_vassalization_demand }
-        }
-        FROM = { clr_character_flag = accepted_vassalization_demand }
-        if = {
-            limit = {
-                FROM = {
-                    tier = COUNT
-                }
-            }
-            wealth = -5
-        }
-         if = {
-            limit = {
-                FROM = {
-                    tier = DUKE
-                }
-            }
-            wealth = -10
-        }
-         if = {
-            limit = {
-                FROM = {
-                    tier = KING
-                }
-            }
-            wealth = -20
-        }
-    }
-
-    #Negative Answer
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.17
-        trigger = {
-            FROM = { has_character_flag = refused_vassalization_demand }
-        }
-        FROM = { clr_character_flag = refused_vassalization_demand }
-    }
-}
-
-# Vassalisation - Offre - Le landed envoie une offre de vassalization au futur seigneur (ou pas)
-character_event = {
-    id = AVE_MARIA_true_vassal.18
-    desc = EVTDESC_AVE_MARIA_true_vassal_events.18
-    picture = GFX_evt_ruler_homage
-    is_triggered_only = yes
-    show_from_from = yes
-
-    #The lord accepts the offer of vassalization and landed will have to swear homage
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.18
-        ROOT = {
-            make_tributary = { who = event_target:target_asking_vassal tributary_type = true_vassal }
-        }
-        set_character_flag = accepted_vassalization_offer
-        character_event = { id = AVE_MARIA_true_vassal.14 days = 5 }
-        event_target:target_asking_vassal = {
-            character_event = { id = AVE_MARIA_true_vassal.19 days = 1 }
-            character_event = { id = AVE_MARIA_true_vassal.13 days = 5 }
-        }
-        ai_chance = {
-            factor = 95
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = -50 }
-            }
-        }
-    }
-
-    # The lord refuses
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.18
-        set_character_flag = refused_vassalization_offer
-        ai_chance = {
-            factor = 5
-            modifier = {
-                factor = 0
-                opinion = { who = ROOT value = 25 }
-            }
-        }
-    }
-}
-
-# Vassalisation - Offre - Le landed reçoit la réponse
-character_event = {
-    id = AVE_MARIA_true_vassal.19
-    desc = {
-        trigger = { FROM = { has_character_flag = accepted_vassalization_offer } }
-        text = EVTDESCA_AVE_MARIA_true_vassal_events.19
-    }
-    desc = {
-        trigger = { FROM = { has_character_flag = refused_vassalization_offer } }
-        text = EVTDESCB_AVE_MARIA_true_vassal_events.19
-    }
-    picture = GFX_evt_ruler_homage
-    is_triggered_only = yes
-    show_from_from = yes
-
-    # Positive answer
-    option = {
-        name = EVTOPTA_AVE_MARIA_true_vassal_events.19
-        trigger = {
-            FROM = { has_character_flag = accepted_vassalization_offer }
-        }
-        FROM = { clr_character_flag = accepted_vassalization_offer }
-    }
-
-    #Negative Answer
-    option = {
-        name = EVTOPTB_AVE_MARIA_true_vassal_events.19
-        trigger = {
-            FROM = { has_character_flag = refused_vassalization_offer }
-        }
-        FROM = { clr_character_flag = refused_vassalization_offer }
-    }
-}
-
-
-###########################################
-# Feudataire-Suzerain events 25-60        #
+# Feudataire-Suzerain events              #
 # Obligations							  #
 ###########################################
 
 # Military obligations - Offensive War - Suzerain summons all vassals - Vassal choose amount of troop to send
 character_event = {
-    id = AVE_MARIA_true_vassal.25
+    id = AVE_MARIA_true_vassal.7
     desc = EVTDESC_AVE_MARIA_true_vassal_events.25
     is_triggered_only = yes
     border = GFX_event_normal_frame_war
@@ -1163,7 +607,7 @@ character_event = {
         any_demesne_province = {
             any_province_holding = {
                 add_holding_modifier = {
-                    modifier = servitium_debitum
+                    modifier = true_vassal_servitium_debitum_malus
                     years = -1
                     stacking = yes
                 }
@@ -1199,7 +643,7 @@ character_event = {
         any_demesne_province = {
             any_province_holding = {
                 add_holding_modifier = {
-                    modifier = servitium_debitum
+                    modifier = true_vassal_servitium_debitum_malus
                     years = -1
                     stacking = yes
                 }
@@ -1239,7 +683,7 @@ character_event = {
             disband_event_forces = servitium_debitum_troops_spawned
             any_demesne_province = {
                 any_province_holding = {
-                    remove_holding_modifier = servitium_debitum
+                    remove_holding_modifier = true_vassal_servitium_debitum_malus
                 }
             }
         }
@@ -1247,7 +691,7 @@ character_event = {
             disband_event_forces = servitium_debitum_troops_spawned
             any_demesne_province = {
                 any_province_holding = {
-                    remove_holding_modifier = servitium_debitum
+                    remove_holding_modifier = true_vassal_servitium_debitum_malus
                 }
             }
         }
@@ -1443,7 +887,7 @@ character_event = {
             }
         }
         any_holding = {
-            add_holding_modifier = servitium_debitum
+            add_holding_modifier = true_vassal_servitium_debitum_malus
         }
         hidden_tooltip = {
             export_to_variable = { which = servitium_debitum_troop_number value = realm_levies }
@@ -1473,7 +917,7 @@ character_event = {
             }
         }
         any_holding = {
-            add_holding_modifier = servitium_debitum
+            add_holding_modifier = true_vassal_servitium_debitum_malus
         }
         ai_chance = {
             factor = 10

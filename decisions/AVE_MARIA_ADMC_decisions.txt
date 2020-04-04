@@ -1,3 +1,14 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA decisions																   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ADMC Decisions							                          				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
 decisions = {
 	invest_in_administrative_capacity = {
 		ai = no
@@ -5,6 +16,15 @@ decisions = {
 		potential = {
 			NOT = {
 				has_character_modifier = recent_investment
+				AND = {
+					primary_title = {
+						OR = { 
+							title = e_byzantium
+							title = e_roman_empire
+						}
+						has_law = succ_byzantine_elective
+					}
+				}
 			}
 			OR = {
 				has_character_modifier = administrative_capacity_roman

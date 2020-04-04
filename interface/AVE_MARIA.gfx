@@ -121,13 +121,13 @@ spriteTypes = {
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_convocation_au_ban_offensif"
-		texturefile = "gfx\\interface\\decisions\\decision_icon_convocation_ban.tga"
+		name = "GFX_true_vassal_convocation_au_ban_offensif"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_decision_convocation_du_ban.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_convocation_au_ban_defensive"
-		texturefile = "gfx\\interface\\decisions\\decision_icon_convocation_ban.tga"
+		name = "GFX_true_vassal_convocation_au_ban_defensive"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_decision_convocation_du_ban.tga"
 	}
 	
 	spriteType = {
@@ -157,7 +157,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_invest_in_administrative_capacity"
-		texturefile = "gfx\\interface\\decisions\\decision_invest_in_administrative_capacity.tga"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_decision_invest_in_administrative_capacity.tga"
 	}
 
 }

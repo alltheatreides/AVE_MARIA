@@ -1,3 +1,14 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA on_actions																   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# 											                          				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
 on_startup = {
 	events = {		
 		# Cleaning of Vanilla Vassals
@@ -46,6 +57,7 @@ on_new_holder_usurpation = {
 # From = Attacker, Root = Defender
 on_war_ended_victory = {
 	events = {
+		AVE_MARIA_true_vassal.1
 		#Flag cleaning
 		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
@@ -57,6 +69,7 @@ on_war_ended_victory = {
 # From = Attacker, Root = Defender
 on_war_ended_whitepeace = {
 	events = {
+		AVE_MARIA_true_vassal.1
 		#Flag cleaning
 		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
@@ -67,6 +80,7 @@ on_war_ended_whitepeace = {
 # From = Attacker, Root = Defender
 on_war_ended_defeat = {
 	events = {
+		AVE_MARIA_true_vassal.1
 		#Flag cleaning
 		AVE_MARIA_true_vassal.4
 		#Ban Troops removal
@@ -77,6 +91,7 @@ on_war_ended_defeat = {
 # From = Attacker, Root = Defender
 on_war_ended_invalid = {
 	events = {
+		AVE_MARIA_true_vassal.1
 		#Flag cleaning
 		AVE_MARIA_true_vassal.4
 		#Ban Troops removal

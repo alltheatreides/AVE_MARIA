@@ -35,19 +35,36 @@ character_event = {
 			log = "1: Provinces maluses done for [Root.GetTitledName] and all the world playable character"
 		}
 		
+		## Generates the Administrative Capacity Distance maluses for ROOT
+		#clean any previous things
 		any_demesne_province = {
 			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
 		}
 		
+		#Designate the capital for calculation and adjacent provinces to the capital
 		capital_scope = {
 			set_province_flag = administrative_capacity_capital
+			any_province_holding = {
+				limit = {
+					controlled_by = ROOT
+				}
+				set_title_flag = administrative_capacity_capital
+			}
 			any_neighbor_province = {
 				limit = {
 					controlled_by = ROOT
 				}
 				set_province_flag = administrative_capacity_adjacent_capital
+				any_province_holding = {
+					limit = {
+						controlled_by = ROOT
+					}
+					set_title_flag = administrative_capacity_adjacent_capital
+				}
 			}
 		}
+		
+		# All the non adjacent capital province get a malus
 		any_demesne_province = {
 			limit = {
 				NOT = { 
@@ -56,28 +73,65 @@ character_event = {
 				}
 				controlled_by = ROOT
 			}
-			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+			any_province_holding = {
+				limit = {
+					NOT = { 
+						has_title_flag = administrative_capacity_adjacent_capital
+						has_title_flag = administrative_capacity_capital
+					}
+					controlled_by = ROOT
+				}
+				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+				set_title_flag = administrative_capacity_distant_province
+			}
 			set_province_flag = administrative_capacity_distant_province
 		}
+		#Overseas province too
 		any_demesne_province = {
 			limit = {
 				NOT = { can_land_path_to = { target = capital distance < 1000 } }
 			}
-			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
 			set_province_flag = administrative_capacity_distant_province
+			any_province_holding = {
+				limit = {
+					controlled_by = ROOT
+				}
+				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+			}
 		}
 		
-		## Generates starting Administrative Capacity for Duke, King, Emperor, and independent ruler
+		## Generates starting Administrative Capacity distance for Duke, King, Emperor, and independent ruler
 		any_playable_ruler = {
+		
+			#clean any previous things
+			any_demesne_province = {
+				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+			}
+			
+			#Designate the capital for calculation and adjacent provinces to the capital
 			capital_scope = {
 				set_province_flag = administrative_capacity_capital
+				any_province_holding = {
+					limit = {
+						controlled_by = PREVPREV
+					}
+					set_title_flag = administrative_capacity_capital
+				}
 				any_neighbor_province = {
 					limit = {
 						controlled_by = PREVPREV
 					}
 					set_province_flag = administrative_capacity_adjacent_capital
+					any_province_holding = {
+						limit = {
+							controlled_by = PREVPREVPREV
+						}
+						set_title_flag = administrative_capacity_adjacent_capital
+					}
 				}
 			}
+			
+			# All the non adjacent capital province get a malus
 			any_demesne_province = {
 				limit = {
 					NOT = { 
@@ -86,9 +140,32 @@ character_event = {
 					}
 					controlled_by = PREV
 				}
-				add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+				any_province_holding = {
+					limit = {
+						NOT = { 
+							has_title_flag = administrative_capacity_adjacent_capital
+							has_title_flag = administrative_capacity_capital
+						}
+						controlled_by = PREVPREV
+					}
+					add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+					set_title_flag = administrative_capacity_distant_province
+				}
 				set_province_flag = administrative_capacity_distant_province
 			}
+			any_demesne_province = {
+				limit = {
+					NOT = { can_land_path_to = { target = capital distance < 1000 } }
+				}
+				set_province_flag = administrative_capacity_distant_province
+				any_province_holding = {
+					limit = {
+						controlled_by = PREVPREV
+					}
+					add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+				}
+			}
+			
 		}
 	}
 }
@@ -144,15 +221,39 @@ character_event = {
 			clr_province_flag = administrative_capacity_capital
 		}
 		#Mise en place de la nouvelle structure à partir de la nouvelle capitale
+		#clean any previous things
+		clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+		any_demesne_province = {
+			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+		}
+		any_title = {
+			limit = { controlled_by = ROOT }
+			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+		}
+		
+		#Designate the capital for calculation and adjacent provinces to the capital
 		capital_scope = {
 			set_province_flag = administrative_capacity_capital
+			any_province_holding = {
+				limit = {
+					controlled_by = ROOT
+				}
+				set_title_flag = administrative_capacity_capital
+			}
 			any_neighbor_province = {
 				limit = {
 					controlled_by = ROOT
 				}
 				set_province_flag = administrative_capacity_adjacent_capital
+				any_province_holding = {
+					limit = {
+						controlled_by = ROOT
+					}
+					set_title_flag = administrative_capacity_adjacent_capital
+				}
 			}
-		}
+		}		
+		# All the non adjacent capital province get a malus
 		any_demesne_province = {
 			limit = {
 				NOT = { 
@@ -161,8 +262,31 @@ character_event = {
 				}
 				controlled_by = ROOT
 			}
-			add_province_modifier = { name = administrative_capacity_distance_province duration = -1 }
+			any_province_holding = {
+				limit = {
+					NOT = { 
+						has_title_flag = administrative_capacity_adjacent_capital
+						has_title_flag = administrative_capacity_capital
+					}
+					controlled_by = ROOT
+				}
+				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+				set_title_flag = administrative_capacity_distant_province
+			}
 			set_province_flag = administrative_capacity_distant_province
+		}
+		#Overseas province too
+		any_demesne_province = {
+			limit = {
+				NOT = { can_land_path_to = { target = capital distance < 1000 } }
+			}
+			set_province_flag = administrative_capacity_distant_province
+			any_province_holding = {
+				limit = {
+					controlled_by = ROOT
+				}
+				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+			}
 		}
 	}
 }

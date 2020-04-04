@@ -1,0 +1,259 @@
+# Title decisions are possible vs _all_ titles and are shown in the Title Diplomacy View, not the Intrigue View. The taker is in the FROM scope.
+#
+# filter = [capital/primary_title/owned/vassal_owned/sub_realm_owned/realm_owned/dynasty_owned/all]
+# ai_target_filter = [capital/primary_title/owned/vassal_owned/sub_realm_owned/realm_owned/dynasty_owned/all] (which titles for which the AI evaluates the decision.)
+#	owned: all titles owned by the AI
+#	vassal_owned: all titles owned by direct vassal rulers of the AI's employer
+#	sub_realm_owned: all titles below the AI's employer
+#	realm_owned: all titles in the same top realm as the AI
+#	dynasty_owned: all titles owned by members of the same dynasty
+#	all: all titles (Avoid if possible. VERY CPU-HEAVY!)
+#	
+
+# Targetted decisions are possible vs _all_ other characters and shown are in the Diplomacy View, not the Intrigue View. The taker is in the FROM scope.
+#
+# filter = [self/court/home_court/vassals/sub_realm/realm/dynasty/all] ('self' MUST be set for decisions targetting only the taker, the other filter types can be set to lessen CPU load)
+# ai_target_filter = [self/court/home_court/vassals/sub_realm/realm/dynasty/all] (which characters for which the AI evaluates the decision.)
+#	court: all characters in the AI's host court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	home_court: all characters in the AI's home court, including prisoners, and characters currently away (wards, prisoners, etc)
+#	vassals: direct vassal rulers of the AI's employer
+#	sub_realm: all characters below the AI's employer
+#	realm: all characters in the same top realm as the AI
+#	dynasty: all members of the same dynasty
+#	rivals: your rivals plus any character you have an opinion modifier with 'crime = yes' set (the same set of characters the 'is_foe' trigger evaluates)
+#	all: all living characters (Avoid if possible. VERY CPU-HEAVY!)
+#
+
+########################################################################################
+#                                         											   #
+# AVE MARIA decisions																   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# True Vassal decisions						                        				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+decisions = {
+
+	# True Vassals decisions
+	true_vassal_convocation_au_ban_offensif = {
+		only_independent = yes
+		is_high_prio = yes
+
+		potential = {
+			is_playable = yes
+			NOR = {
+				is_nomadic = yes
+				is_tribal = yes
+				culture = greek
+				any_liege = {
+					AND = { 
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
+						}
+					}
+				}
+			}
+			OR = {
+				tier = king
+				tier = duke
+				tier = emperor
+			}
+			war = yes
+			is_primary_war_attacker = yes
+		}
+
+		allow = {
+			is_primary_war_attacker = yes
+			war = yes
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			prestige = 10
+			NOT = { 
+				has_character_flag = convocation_au_ban_offensif
+			}
+		}
+
+		effect = {
+			set_character_flag = convocation_au_ban_offensif
+			any_tributary = {
+				if = {
+					limit = {
+						OR = {
+							is_tributary = { type = true_vassal suzerain = ROOT }
+							#is_tributary = { type = true_vassal_hre suzerain = ROOT }
+						}
+					}
+					set_character_flag = servitium_debitum
+					character_event = {
+						id = AVE_MARIA_true_vassal.7
+						days = 5
+					}
+				}
+			}
+			save_event_target_as = target_receiver_of_servitium_debitum
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	true_vassal_convocation_au_ban_defensive = {
+		only_independent = yes
+		is_high_prio = yes
+
+		potential = {
+			is_playable = yes
+			NOR = {
+				is_nomadic = yes
+				is_tribal = yes
+				culture = greek
+				any_liege = {
+					AND = { 
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
+						}
+					}
+				}
+			}
+			OR = {
+				tier = king
+				tier = duke
+				tier = emperor
+			}
+			war = yes
+			OR = {
+				is_primary_war_defender = yes
+				any_tributary = {
+					is_primary_war_defender = yes
+					NOT = { war_with = ROOT }
+					any_current_enemy = {
+						NOT = {
+							is_tributary = { type = true_vassal suzerain = ROOT }
+						}
+					}
+				}
+			}
+		}
+
+		allow = {
+			OR = {
+				is_primary_war_defender = yes
+				any_tributary = {
+					is_primary_war_defender = yes
+					NOT = { war_with = ROOT }
+					any_current_enemy = {
+						NOT = {
+							is_tributary = { type = true_vassal suzerain = ROOT }
+						}
+					}
+				}
+			}
+			war = yes
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			prestige = 10
+			NOT = { 
+				has_character_flag = convocation_au_ban_defensive
+			}
+		}
+
+		effect = {
+			set_character_flag = convocation_au_ban_defensive
+			if = {
+				limit = {
+					NOT = {
+						is_primary_war_defender = yes
+					}
+				}
+				any_tributary = {
+					limit = {
+						is_primary_war_defender = yes
+						NOT = { war_with = ROOT }
+						any_current_enemy = {
+							NOT = {
+								is_tributary = { type = true_vassal suzerain = ROOT }
+							}
+						}
+					}
+					set_character_flag = target_attacked_vassal
+				}
+				character_event = { id = true_vassals.16 days = 1 tooltip = "appel_au_ban"}
+			}
+			else_if = {
+				limit = {
+					is_primary_war_defender = yes
+				}
+				any_tributary = {
+					limit = {
+						 OR = {
+							is_tributary = { type = true_vassal suzerain = FROM }
+							is_tributary = { type = true_vassal_hre suzerain = FROM }
+						}
+					}
+					join_defender_wars = ROOT
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	true_vassals_hommage = {
+		only_independent = yes
+		is_high_prio = yes
+		only_playable = yes
+
+		potential = {
+			is_tributary = yes
+			NOT = { has_character_flag = gave_homage_to_liege }
+			NOT = { has_trait = travelling }
+			age = 12
+			NOT = { mercenary = yes }
+		}
+
+		allow = {
+			NOT = { has_character_flag = gave_homage_to_liege }
+			NOT = { is_inaccessible_trigger = yes }
+			suzerain = {
+				NOT = { is_inaccessible_trigger = yes }
+			}
+		}
+
+		effect = {
+			suzerain = {
+				location = {
+					save_event_target_as = target_liege_location
+				}
+			}
+			# move_character = event_target:target_liege_location
+			set_character_flag = do_not_disturb
+			#add_trait = travelling
+			#information event
+			character_event = {
+				id = AVE_MARIA.10
+				days = 1
+				tooltip = "homage"
+			}			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+}
