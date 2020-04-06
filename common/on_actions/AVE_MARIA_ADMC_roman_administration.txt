@@ -1,0 +1,16 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration On Actions													   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_startup = {
+	events = {
+		AVE_MARIA_roman_administration.2
+	}
+}

@@ -1,0 +1,59 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration Scripted Effects												   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+roman_administration_create_regular_cavalry_tagma = {
+	save_event_target_as = target_tagma_commander
+	capital_scope = {
+		event_target:target_tagma_commander = {
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 1000 1000 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = yes # Troops disappear when the owner is no longer at war
+			}
+		}
+		
+	}
+}
+
+roman_administration_create_varangian_tagma = {
+	save_event_target_as = target_tagma_commander
+	capital_scope = {
+		event_target:target_tagma_commander = {
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				troops = {
+					heavy_infantry = { 4500 4500 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = yes # Troops disappear when the owner is no longer at war
+			}
+		}
+		
+	}
+}

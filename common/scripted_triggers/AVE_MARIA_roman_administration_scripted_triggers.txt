@@ -1,0 +1,41 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration Scripted Triggers											   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+#Title triggers
+roman_adminisration_tagma_title_held_trigger = {
+	OR = {
+		title = d_scholae_palatinae
+		title = d_excubitor
+		title = d_vigla
+		title = d_hikanatoi
+		title = d_varangian_guard
+		# title = 
+		# title = 
+		# title = 
+	}
+}
+
+roman_adminisration_theme_title_held_trigger = {
+	OR = {
+		title = k_megas_domestikos
+		title = k_megas_droungarios
+		title = d_nikaea_theme
+		title = d_samos_theme
+		title = d_cibyrrhaeot_theme
+		title = d_anatolia_theme
+		title = d_thracesia_theme
+		title = d_charsianon_theme
+		title = d_cappadocia_theme
+		title = d_bucellarian_theme
+		title = d_armenia_minor_theme
+		title = d_cyprus_theme
+	}
+}

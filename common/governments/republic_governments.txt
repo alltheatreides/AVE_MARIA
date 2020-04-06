@@ -24,6 +24,12 @@ republic_governments = {
 		}
 		accepts_liege_governments = { # Accepts other republics
 			republic_government
+			nomadic_government
+			feudal_government
+			merchant_republic_government
+			tribal_government
+			muslim_government
+			theocracy_government
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government

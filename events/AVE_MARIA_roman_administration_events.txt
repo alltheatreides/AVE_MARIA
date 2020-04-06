@@ -1,0 +1,115 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_roman_administration.1 - AVE_MARIA_roman_administration.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_roman_administration
+
+##NOTES:
+## QOL event in order not to change every single history file
+## Give all titles to the roman emperor and afterwards jobs and some baronies to some great families
+character_event = {
+	id = AVE_MARIA_roman_administration.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = {
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+	}
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				NOT = {
+					roman_adminisration_theme_title_held_trigger = yes
+					controlled_by = ROOT
+					tier = baron
+					title = k_orthodox
+					title = d_varangian_guard
+					title = d_sholae_palatinae
+				}
+			}
+			gain_title = ROOT
+		}
+	}
+}
+
+## Create the tagma armies
+character_event = {
+	id = AVE_MARIA_roman_administration.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	is_save_game = no
+	
+	trigger = {
+		primary_title = {
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+	}
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				title = d_scholae_palatinae
+			}
+			holder_scope = {
+				save_event_target_as = target_tagma_commander
+				roman_administration_create_regular_cavalry_tagma = yes
+			}
+		}
+		any_title_under = {
+			limit = {
+				title = d_excubitor
+			}
+			holder_scope = {
+				save_event_target_as = target_tagma_commander
+				roman_administration_create_regular_cavalry_tagma = yes
+			}
+		}
+		any_title_under = {
+			limit = {
+				title = d_vigla
+			}
+			holder_scope = {
+				save_event_target_as = target_tagma_commander
+				roman_administration_create_regular_cavalry_tagma = yes
+			}
+		}
+		any_title_under = {
+			limit = {
+				title = d_hikanatoi
+			}
+			holder_scope = {
+				save_event_target_as = target_tagma_commander
+				roman_administration_create_regular_cavalry_tagma = yes
+			}
+		}
+		any_title_under = {
+			limit = {
+				title = d_varangian_guard
+			}
+			holder_scope = {
+				save_event_target_as = target_tagma_commander
+				roman_administration_create_varangian_tagma = yes
+			}
+		}
+	}
+}
