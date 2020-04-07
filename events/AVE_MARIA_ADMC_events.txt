@@ -39,6 +39,12 @@ character_event = {
 		#clean any previous things
 		any_demesne_province = {
 			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+			any_province_holding = {
+				limit = {
+					controlled_by = ROOT
+				}
+				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+			}
 		}
 		
 		#Designate the capital for calculation and adjacent provinces to the capital
@@ -89,7 +95,11 @@ character_event = {
 		#Overseas province too
 		any_demesne_province = {
 			limit = {
-				NOT = { can_land_path_to = { target = capital distance < 1000 } }
+				NOT = { 
+					can_land_path_to = { target = capital distance < 1 }
+					has_province_flag = administrative_capacity_adjacent_capital
+					has_province_flag = administrative_capacity_capital
+				}
 			}
 			set_province_flag = administrative_capacity_distant_province
 			any_province_holding = {
@@ -106,6 +116,12 @@ character_event = {
 			#clean any previous things
 			any_demesne_province = {
 				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+				any_province_holding = {
+					limit = {
+						controlled_by = PREVPREV
+					}
+					clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+				}
 			}
 			
 			#Designate the capital for calculation and adjacent provinces to the capital
@@ -124,7 +140,7 @@ character_event = {
 					set_province_flag = administrative_capacity_adjacent_capital
 					any_province_holding = {
 						limit = {
-							controlled_by = PREVPREVPREV
+							controlled_by = PREVPREV
 						}
 						set_title_flag = administrative_capacity_adjacent_capital
 					}
@@ -153,9 +169,14 @@ character_event = {
 				}
 				set_province_flag = administrative_capacity_distant_province
 			}
+			#Overseas province too
 			any_demesne_province = {
 				limit = {
-					NOT = { can_land_path_to = { target = capital distance < 1000 } }
+					NOT = { 
+						can_land_path_to = { target = capital distance < 1 }
+						has_province_flag = administrative_capacity_adjacent_capital
+						has_province_flag = administrative_capacity_capital
+					}
 				}
 				set_province_flag = administrative_capacity_distant_province
 				any_province_holding = {
@@ -278,7 +299,11 @@ character_event = {
 		#Overseas province too
 		any_demesne_province = {
 			limit = {
-				NOT = { can_land_path_to = { target = capital distance < 1000 } }
+				NOT = { 
+					can_land_path_to = { target = capital distance < 1 }
+					has_province_flag = administrative_capacity_adjacent_capital
+					has_province_flag = administrative_capacity_capital
+				}
 			}
 			set_province_flag = administrative_capacity_distant_province
 			any_province_holding = {
@@ -602,7 +627,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				check_variable = { which = administrative_capacity value = 100 }
+				check_variable = { which = administrative_capacity value >= 100 }
 			}
 			remove_administrative_capacity_modifier = yes
 			add_character_modifier = { name = administrative_capacity_roman duration = -1 }
