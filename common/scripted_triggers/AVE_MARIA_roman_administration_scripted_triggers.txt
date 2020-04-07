@@ -17,25 +17,66 @@ roman_adminisration_tagma_title_held_trigger = {
 		title = d_vigla
 		title = d_hikanatoi
 		title = d_varangian_guard
-		# title = 
-		# title = 
-		# title = 
 	}
 }
 
+
 roman_adminisration_theme_title_held_trigger = {
 	OR = {
+		#High offices
 		title = k_megas_domestikos
+		title = k_domestikos_ton_scholon_west
 		title = k_megas_droungarios
-		title = d_nikaea_theme
-		title = d_samos_theme
-		title = d_cibyrrhaeot_theme
+		title = k_sakellarios
+		title = k_logothetetes_tou_dromou
+		title = k_eparch_of_constantinople
+		title = k_quaestor
+		#Theme
+		title = d_optimatoi_theme
 		title = d_anatolia_theme
-		title = d_thracesia_theme
-		title = d_charsianon_theme
-		title = d_cappadocia_theme
 		title = d_bucellarian_theme
+		title = d_charsianon_theme
+		title = d_cibyrrhaeot_theme
 		title = d_armenia_minor_theme
+		title = d_paphlagonia_theme
+		title = d_samos_theme
+		title = d_thracesia_theme
+		title = d_armenia_theme
+		title = d_coloneia_theme
+		title = d_edessa_theme
+		title = d_mesopotamia_theme
+		title = d_karvuna_theme
+		title = d_turnovo_theme
+		title = d_vidin_theme
+		title = d_strymon_theme
+		title = d_abkhazia_theme
+		title = d_kaketi_theme
+		title = d_kartli_theme
+		title = d_tao_theme
+		title = d_achaia_theme
+		title = d_adrianopolis_theme
+		title = d_aegean_islands_theme
+		title = d_athens_theme
 		title = d_cyprus_theme
+		title = d_dyrrachion_theme
+		title = d_epirus_theme
+		title = d_cephalonia_theme
+		title = d_ohrid_theme
+		title = d_dyrrachion_theme
+		title = d_krete_theme
+		title = d_nikaea_theme
+		title = d_thessalonika_theme
+		title = d_thrace_theme
+		title = d_dioclea_theme
+		title = d_rashka_theme
+		title = d_ragusa_theme
+		title = d_apulia_theme
+		title = d_benevento_theme
+		title = d_calabria_theme
+		title = d_capua_theme
+		title = d_salerno_theme
+		title = d_sicily_theme
+		title = d_armeniacon_theme
+		title = d_trebizond_theme
 	}
 }

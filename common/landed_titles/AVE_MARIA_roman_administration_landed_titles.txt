@@ -21,6 +21,8 @@ c_doukas_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_komnenos_family = {
@@ -30,6 +32,8 @@ c_komnenos_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_diogenes_family = {
@@ -39,6 +43,8 @@ c_diogenes_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_phokas_family = {
@@ -48,6 +54,8 @@ c_phokas_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_taronites_family = {
@@ -57,6 +65,8 @@ c_taronites_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_argyros_family = {
@@ -66,6 +76,8 @@ c_argyros_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_monomachos_family = {
@@ -75,6 +87,8 @@ c_monomachos_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_palaiologos_family = {
@@ -84,6 +98,8 @@ c_palaiologos_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 c_burtzes_family = {
@@ -93,161 +109,25 @@ c_burtzes_family = {
 	title = "Eugeneios"
 	landless = yes
 	can_be_usurped = no
+	duchy_revokation = no
+	can_be_claimed = no
 }
 
 
 ###########################################
 # Military Offices			              #
 ###########################################
-## Make the difference between domestikos ton scholon of the east and the west ? Nah too complicated ? Might split it later
+## Tagma Troops
+#Domestikos of the East, later called megas domestikos under Alexios
 k_megas_domestikos = {
 	graphical_culture = byzantinegfx
 	capital = 496
 	culture = greek
-	title = "Megas Domestikos"
+	title = "Domestikos Tes Anatoles"
 	landless = yes
 	can_be_usurped = no
 	
-	## THEMES
-	## Themes from the vanilla ANATOLIA kingdom
-	d_nikaea_theme = {
-		#Vanilla copy&paste
-		color = { 202 101 167 }
-		color2 = { 255 255 20 }
-		capital = 750 # Nikaea
-		turkish = "Iznik"
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_samos_theme = {
-		#Vanilla copy&paste
-		color = { 115 55 100 }
-		color2 = { 255 255 20 }
-
-		capital = 486 # Samos
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_cibyrrhaeot_theme = {
-		#Vanilla copy&paste
-		color = { 108 29 80 }
-		color2 = { 255 255 20 }
-
-		capital = 755 # Attaleia
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_anatolia_theme = {
-		#Vanilla copy&paste
-		color = { 174 23 122 }
-		color2 = { 255 255 20 }
-
-		capital = 759 # Ikonion
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_thracesia_theme = {
-		#Vanilla copy&paste
-		color = { 154 43 116 }
-		color2 = { 255 255 20 }
-
-		capital = 748 # Laodikeia
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_charsianon_theme = {
-		#Vanilla copy&paste
-		color = { 237 58 198 }
-		color2 = { 255 255 20 }
-
-		capital = 737 # Kaisereia
-
-		roman = "Galatia"
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_cappadocia_theme = {
-		#Vanilla copy&paste
-		color = { 160 20 130 }
-		color2 = { 255 255 20 }
-
-		capital = 760
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_bucellarian_theme = {
-		#Vanilla copy&paste
-		color = { 234 157 207 }
-		color2 = { 255 255 20 }
-
-		capital = 753
-
-		greek = "Boukellarion"
-		turkish = "Ankara"
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_armenia_minor_theme = {
-		#Vanilla copy&paste
-		color = { 214 140 190 }
-		color2 = { 255 255 255 }
-
-		capital = 761 # Tarsos
-
-		armenian = "Armenia Minor"
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	d_cyprus_theme = {
-		#Vanilla copy&paste
-		color = { 239 109 163 }
-		color2 = { 255 255 20 }
-
-		capital = 757 # Famagusta
-		
-		#fixed AVE MARIA modification
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no		
-	}
-	
-	## Themes from the vanilla TREBIZOND kingdom
-	d_strategos = {
-		graphical_culture = byzantinegfx
-		capital = 496
-		culture = greek
-		title = "Strategos"
-		landless = yes
-		can_be_usurped = no
-	}
-
+	## TAGMA
 	#Tagma regiment Domestic of the Scholai Palatinae heavy cavalry nah they should be directly under the emperor ?
 	d_scholae_palatinae = {
 		color = { 178 34 34 }
@@ -269,7 +149,7 @@ k_megas_domestikos = {
 		landless = yes
 		
 		# Cannot be held as a secondary title
-		primary = yes
+		# primary = yes
 
 	}
 
@@ -344,7 +224,388 @@ k_megas_domestikos = {
 		# Cannot be held as a secondary title
 		primary = yes
 	}
-		
+
+}
+# Domestikos of the west - Less important than the east
+k_domestikos_ton_scholon_west = {
+	graphical_culture = byzantinegfx
+	capital = 496
+	culture = greek
+	title = "Domestikos Tes Dyseos"
+	landless = yes
+	can_be_usurped = no
+}
+
+## THEMES - Understood here as the military organizations
+# Themes from the vanilla TREBIZOND kingdom
+d_trebizond_theme = {
+	#Vanilla copy&paste
+	color = { 125 160 30 }
+	color2 = { 255 255 255 }
+
+	capital = 678 # Trepezous
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_armeniacon_theme = {
+	#Vanilla copy&paste
+	color = { 125 190 75 }
+	color2 = { 255 255 20 }
+
+	capital = 738 # Amisos
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_paphlagonia_theme = {
+	#Vanilla copy&paste
+	color = { 230 180 98 }
+	color2 = { 255 255 20 }
+
+	capital = 751 # Paphlagonia
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla THRACE kingdom
+d_optimatoi_theme = {
+	#Vanilla copy&paste
+	color = { 225 90 190 }
+	color2 = { 255 255 20 }
+
+	capital = 741 # Nikomedia
+
+	turkish = "Izmit"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_abydos_theme = {
+	#Vanilla copy&paste
+	color = { 210 140 170 }
+	color2 = { 255 255 20 }
+
+	capital = 744 # Abydos
+
+	turkish = "Balakhisar"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_thrace_theme = {
+	#Vanilla copy&paste
+	color = { 172 76 139 }
+	color2 = { 255 255 20 }
+
+	capital = 496 # Byzantion
+
+	roman = "Thracia"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_adrianopolis_theme = {
+	#Vanilla copy&paste
+	color = { 213 74 165 }
+	color2 = { 255 255 20 }
+
+	capital = 494 # Adrianopolis
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla BYZANTIUM kingdom - tssk tssk
+d_thessalonika_theme = {
+	#Vanilla copy&paste
+	color = { 189 19 130 }
+	color2 = { 255 255 20 }
+
+	capital = 490 # Thessalonike
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_athens_theme = {
+	#Vanilla copy&paste
+	color = { 206 66 158 }
+	color2 = { 255 255 20 }
+
+	capital = 475 # Thebes
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_achaia_theme = {
+	#Vanilla copy&paste
+	color = { 190 29 134 }
+	color2 = { 255 255 20 }
+
+	capital = 481 # Korinthos
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_krete_theme = {
+	#Vanilla copy&paste
+	color = { 205 110 35 }
+	color2 = { 255 255 20 }
+
+	capital = 480 # Chandax
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla EPIRUS kingdom
+d_dyrrachion_theme = {
+	#Vanilla copy&paste
+	color = { 137 27 99 }
+	color2 = { 255 255 20 }
+
+	capital = 470 # Dyrrachion
+
+	arberian = "Arbanon"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_cephalonia_theme = {
+	#Vanilla copy&paste
+	color = { 222 155 155 }
+	color2 = { 255 255 20 }
+
+	capital = 474
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla ANATOLIA kingdom
+d_nikaea_theme = {
+	#Vanilla copy&paste
+	color = { 202 101 167 }
+	color2 = { 255 255 20 }
+	capital = 750 # Nikaea
+	turkish = "Iznik"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_samos_theme = {
+	#Vanilla copy&paste
+	color = { 115 55 100 }
+	color2 = { 255 255 20 }
+
+	capital = 486 # Samos
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_cibyrrhaeot_theme = {
+	#Vanilla copy&paste
+	color = { 108 29 80 }
+	color2 = { 255 255 20 }
+
+	capital = 755 # Attaleia
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_anatolia_theme = {
+	#Vanilla copy&paste
+	color = { 174 23 122 }
+	color2 = { 255 255 20 }
+
+	capital = 759 # Ikonion
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_thracesia_theme = {
+	#Vanilla copy&paste
+	color = { 154 43 116 }
+	color2 = { 255 255 20 }
+
+	capital = 748 # Laodikeia
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_charsianon_theme = {
+	#Vanilla copy&paste
+	color = { 237 58 198 }
+	color2 = { 255 255 20 }
+
+	capital = 737 # Kaisereia
+
+	roman = "Galatia"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_cappadocia_theme = {
+	#Vanilla copy&paste
+	color = { 160 20 130 }
+	color2 = { 255 255 20 }
+
+	capital = 760
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_bucellarian_theme = {
+	#Vanilla copy&paste
+	color = { 234 157 207 }
+	color2 = { 255 255 20 }
+
+	capital = 753
+
+	greek = "Boukellarion"
+	turkish = "Ankara"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_armenia_minor_theme = {
+	#Vanilla copy&paste
+	color = { 214 140 190 }
+	color2 = { 255 255 255 }
+
+	capital = 761 # Tarsos
+
+	armenian = "Armenia Minor"
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_cyprus_theme = {
+	#Vanilla copy&paste
+	color = { 239 109 163 }
+	color2 = { 255 255 20 }
+
+	capital = 757 # Famagusta
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla ARMENIA kingdom
+d_armenia_theme = {
+	#Vanilla copy&paste
+	color = { 154 77 36 }
+	color2 = { 255 255 255 }
+
+	capital = 682 # Vaspurakan
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_mesopotamia_theme = {
+	#Vanilla copy&paste
+	color = { 155 88 20 }
+	color2 = { 255 255 255 }
+
+	capital = 702 # Mesopotamia
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_edessa_theme = {
+	#Vanilla copy&paste
+	color = { 182 110 45 }
+	color2 = { 255 255 255 }
+
+	capital = 699 # Edessa
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_coloneia_theme = {
+	#Vanilla copy&paste
+	color = { 195 125 55 }
+	color2 = { 255 255 255 }
+
+	capital = 706 # Koloneia
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+# Themes from the vanilla BULGARIA kingdom
+d_turnovo_theme = {
+	#Vanilla copy&paste
+	color = { 197 39 154 }
+	color2 = { 255 255 255 }
+
+	capital = 499 # Tyrnovo
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
+}
+d_karvuna_theme = {
+	#Vanilla copy&paste
+	color = { 227 79 190 }
+	color2 = { 255 255 255 }
+
+	capital = 509 # Karvuna
+	
+	#fixed AVE MARIA modification
+	title = "Strategos"
+	landless = yes
+	can_be_usurped = no		
 }
 
 #Varangian Guard
@@ -386,22 +647,66 @@ k_megas_droungarios = {
 ###########################################
 # Civilian Offices			              #
 ###########################################
-## 
-
-d_protasekretis = {
+## State Finance
+#General Fiscal Supervisor has all the vanilla ducal themes holders under him representing the civilian administration
+k_sakellarios = {
 	graphical_culture = byzantinegfx
 	capital = 496
 	culture = greek
-	title = "Protasekretis"
+	title = "Sakellarios"
 	landless = yes
 	can_be_usurped = no
+	
+	# State Treasury
+
+	
+	# Pronotaroi - Military Finance department
+	
+	
+	# Orphanotrophos
 }
 
-d_megas_logothetes = {
+## Diplomacy and Postal Service - I guess would be mystikos as he handles intelligence and foreign shit and all
+k_logothetetes_tou_dromou = {
 	graphical_culture = byzantinegfx
 	capital = 496
 	culture = greek
-	title = "Megas logothetes"
+	title = "Logothetes"
 	landless = yes
 	can_be_usurped = no
+	
+	
+}
+
+## Constantinople Prefect
+k_eparch_of_constantinople = {
+	graphical_culture = byzantinegfx
+	capital = 496
+	culture = greek
+	title = "Eparch"
+	landless = yes
+	can_be_usurped = no
+	
+	# Prisons
+	# Walls ?
+	# Demes of the blue and red
+}
+
+## Justice
+k_quaestor = {
+	graphical_culture = byzantinegfx
+	capital = 496
+	culture = greek
+	title = "Quaestor"
+	landless = yes
+	can_be_usurped = no
+	
+	d_judge = {
+		graphical_culture = byzantinegfx
+		capital = 496
+		culture = greek
+		title = "Kritai"
+		landless = yes
+		can_be_usurped = no
+	}
 }
