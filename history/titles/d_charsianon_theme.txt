@@ -3,7 +3,7 @@
 	law = succ_byzantine_elective
 }
 767.1.1={
-	holder=145823
+	holder = 145823
 }
 845.1.1 = {
 	holder = 145144
@@ -16,19 +16,19 @@
 }
 1067.1.1=
 {
-	holder=20536
+	holder = 20536
 }
 1071.8.26=
 {
 	liege=0
 	vice_royalty = no
-	holder=34220
+	holder = 34220
 }
 1074.1.1=
 {
 	liege="e_byzantium"
-	vice_royalty = yes
-	holder=1742
+	# vice_royalty = yes
+	holder = 1742
 }
 1077.1.1=
 {
@@ -38,5 +38,5 @@
 1336.1.1=
 {
 	liege=k_eretnid
-	holder=71864
+	holder = 71864
 }

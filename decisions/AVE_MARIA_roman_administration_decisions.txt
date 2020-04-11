@@ -55,10 +55,13 @@ decisions = {
 			
 		}
 		effect = {
-			any_realm_character = {
+			any_realm_lord = {
 				limit = {
-					any_demesne_title = {
-						roman_adminisration_tagma_title_held_trigger = yes
+					AND = {
+						# is_landed = yes
+						any_demesne_title = {
+							roman_adminisration_tagma_title_held_trigger = yes
+						}
 					}
 				}
 				join_attacker_wars = ROOT

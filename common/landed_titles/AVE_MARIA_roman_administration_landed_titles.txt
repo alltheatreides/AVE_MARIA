@@ -657,6 +657,9 @@ k_sakellarios = {
 	landless = yes
 	can_be_usurped = no
 	
+	# Kephale as the heads of the provinces ?
+	
+	
 	# State Treasury
 
 	
@@ -701,6 +704,7 @@ k_quaestor = {
 	landless = yes
 	can_be_usurped = no
 	
+	#Kritai
 	d_judge = {
 		graphical_culture = byzantinegfx
 		capital = 496
