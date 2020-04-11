@@ -68,6 +68,9 @@ decisions = {
 				join_defender_wars = ROOT
 			}
 		}
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 }
@@ -130,6 +133,7 @@ targetted_decisions = {
 		}
 		
 		ai_will_do = {
+			factor = 0
 			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
 		}
 		ai_acceptance = {
