@@ -49,4 +49,100 @@ france
 30/03/20
 - Faire en sorte que les capétiens fassent élire leurs fils roi de leur vivant par les grands du royaume
 - Mettre en place la commise: répudiation du fief par le seigneur quand le vassal manque à ses devoirs (doit d'abord comparaitre etcc)
-- Myriades de petits conflits sur les chateaux locaux entre petits seigneurs à représenter
+- Myriades de petits conflits sur les chateaux locaux entre petits seigneurs à représenter ?
+- Faire en sorte de passer une loi pour les arrière vassaux et le roi à la capétienne
+- Retirer les pénalités d'opinion pour domaine trop grand ainsi que sous sous
+- Changer les lois comme quoi on peut toujours révoquer les titres puisque c'est le fief
+- Remove most of the vanilla buildable great works and replace them with cathedrals
+- Confirmation du système suivant: les vassaux vanilla sont évincés, ils sont remplacés par des tributaires. Les possessions des seigneurs sont limités par leur
+capacité administrative, plus d'administration, cad des prévots, baillis/sénéchaux et donc plus de possessions possibles. Les possessions distantes ne rapportent rien
+et les paysans se plaignent quand il n'y a pas de justice seigneuriale et quand le joueur est en overcapacity. 
+- Si le jouer en excès de territoire distribue des terres et donc donne des fiefs à des nouveaux vassaux, distinguer par des flag, cette propritété révocable et
+susceptible au commise.
+- Ajouter les arbalétriers aux types d'unité ?
+- Simuler les batailles navales ?
+
+31/03/20
+- Retirer ou nuancer le malus d'impots pour les vassaux au niveau baron quand ils n'aiment pas leur seigneur
+uses_bride_price = yes
+" Ce risque peut s’avérer d’autant plus gênant que par son statut de fiction, le récit contrefactuel s’adresse à un public dont les repères historiques sont fragiles, et donc la capacité à prendre un recul critique par rapport à ce type de littérature limitée."
+- Gameplay empire byzantin/romain: l'empereur possède tout, a une administration et des familles nobles ayant des titres ducaux titulaires qui jonglent dans les fonctions administrative et militaire dans l'empire
+elles possèdent des terres au nivea baronnie.
+
+03/04/20
+- A la succession faire hériter l'admin capacity -> installer les variables de capacité administrative dans les titres
+- Remettre en place le système de service militaire
+- Récuper le système de magnate lords et de certains buildings provinciaux comme les carrières, mine etcc, sans prendre tout le tralala sur le commerce.
+- Raffiner l'admc pour que plus on en a, moins le malus de distance est élevé.
+
+04/04/20
+- pour l'empire, faire en sorte que l'aristocratie terrienne méprise les riches marchands qui achètent les dignités sénatoriales et les concurrencent dans l'état et faire en sorte qu'alexios stoppe tout.
+- Bon l'administrative capacity s'hérite bien, tout va bien, par contre pret probleme quand plusieurs personnes meurent à la fois, à voir.
+- Essayer de foutre l'admc non pas sur les province mais sur les holdings --> Yay it works
+- changer les guerres saintes pour que seuls les zélés y participent
+- réparer les buildings encore
+- Quand tu usurpe un trone, cad que tu a un claim sur le titre, faire en sorte que les anciens tributaires jurent allégeance au nouveau possesseur du titre
+- Retirer tous les event négatifs sur l'income négative - OK
+- Ajouter AVE_MARIA_true_vassal.1 à la décision de donner les titres du domaine quand y'en a trop - normalement OK
+- Voler le titre de sa femme seulement si: un héritier male et la femme plus en age e procréer
+- Faire un tooltip pour l'investieement en ADMC et le cout en or
+- L'histoire au début en 1066 c'est n'imps déjà, leeds devrait être au De Lacy, mais ne l'est pas, le seul perso de lacy est un mec à la cour d'un autre à suffolk...
+- Retirer les opinion modifiers : "désire le duché gnagna"
+- le Harrying of the North n'existe même pas lmao
+- Les dominicains à virer
+- Ajouter l'aide aux vassaux
+
+05/04/20
+- Faire une série d'event bien séparés selon les saisons.
+- Ajouter les fichiers de COA pour les nouveaux titres sinon totu bug
+- reprendre la modif du fichier admc dans master
+- Refaire l'admc selon la distance dans le code, à imaginer la distance en pixel. faut faire des test en reloadant les event je suppose
+- Pour l'administration romaine, il va falloir modifier les fichiers vanilla sur l'empire (e_byzantium) et tous les titres en dessous
+- L'administration militaire sera les titres vanilla
+- Faire des ambitions spéciales aux culture/à l'empire
+- Serve first in the tagma and then be appointed for the themes
+- Pour simuler la fin des mandats administratifs ou militaire, simplement utiliser la fonction abdicate et faire des poids et mesure pour la nomination des
+héritiers suivants selon qu'ils ont déjà un poste.
+
+06/04/20
+- Purger les modifiers de mainteance si on n'a pas de titre- genre sur on_new_title_holder ou usurped
+- Le domestic of the school > assimilé au megas domestikos
+- Changer les règles pour les élections des militaires par rapport aux civils
+- Virer les opinion modifier des puissants vassaux et titre d'électeurs possédés
+- Donner un bonus au skirmish aux heavy cav byzantines puisqu'ils utilisent des arcs
+- Empecher les administration romaines de changer les lois en primogeniture
+- Faire un event pour arrêter la guerre de l'attaquant rapidement si les troupes s'en vont ? Et donner un CB au défenser genre "vengeance"
+- Faire une targeted decision de l'empereur et autre pour du népotisme et le contrer? Ou bien faire ça à travers des complots.
+- Faire une targeted decision: mobiliser les armées ?
+- Faire un nom spécial pour éviter le "vestigial empire" du gouvernement des tagma
+- Changer les lois des tagma aussi
+- Le basileus repart toujours à 2 de admc bizarre et à voir
+- Pour hexaco: pour donner des traits corrects, faire un event au début, tous les fonctionnaires leur donner des traits appropriés pour les romains
+- Faire des fichiers excels pour les familles byzantine ?
+- Ajouter de la distance de recrutement aux companiess mercenaires....
+- Donner des petites troupes au megas domestikos et le faire rejoindre les guerres pour qu'il puisse diriger les troupes
+- Remettre les varègue en mercenaires directement aux ordres de l'empereur ? Pour que l'empereur puisse diriger des troupes ?
+
+07/04/20
+- Pour le népotisme ou juste envoyer un de ses proches dans une administration, utiliser une target decision tierce.
+- Pour les romains, il faut faire toute l'histoire e tla situation initiale, ugh
+- Renommer les comtes et ducs des titres romain vanilla
+- Pour l'empire romain, changer les royaumes vanilla en leur emtant un trigger de culture
+- Retirer ce putaind 'event de juifs
+
+10/04/20
+- Faire la distinction dans l'empire romain dans les batiments entre le système de grand propriétaire avec des manoirs et les communes paysannes.
+- Il faut d'abord appeler le megas domestikos avant d'appeler les tagma ? comme ils sont vassaux du domestikos sinon ca annule leur inmplication
+- Uuuurgh, ce putain de fichier historique rend dingue: créer des perso fictifs pour que chaque province ait un personnage différent et non agglomération
+- Changer la loi des titres de l'empire par event ?
+- Ok: pour distribuer les titres, il faut d'abord donner tous les titrres à l'empereur, ensuite, créer les courtiers, les flager, ensuite utiliser
+random_give_title (en gros) et ensuite répéter ça autant de fois qu'il faut jusqu'il n'y ait plus de titre à donner....
+- Pour les tagma, donner les troupes à l'empereur, ca marche pas du tout sinon pour les batailles. Faire en sorte dans les event que ce soit toujours les chefs
+des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments espacés
+- Faire un event pour reformer la tagma quand elle est à 0
+
+11/04/20
+- Ne pas mettre l'admc aux barons
+- Retirer le flag aux nouveaux theme older
+- Ce putain de cauchemar de fichiers historiques: pas d'espace, de la tabulation de merde, un enfer
+- Faut vraiment mettre en place le changement de titre quand tu déclare la guerre en claim et s'assurer que tu ne passe pas en vassal vanilla
