@@ -143,6 +143,38 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 
 11/04/20
 - Ne pas mettre l'admc aux barons
-- Retirer le flag aux nouveaux theme older
+- Retirer le flag aux nouveaux theme holder
 - Ce putain de cauchemar de fichiers historiques: pas d'espace, de la tabulation de merde, un enfer
 - Faut vraiment mettre en place le changement de titre quand tu déclare la guerre en claim et s'assurer que tu ne passe pas en vassal vanilla
+
+12/04/20
+- I guess I will start to write in english, sigh
+- Make special succession laws for bureaucratic government with roman rules and trigger with specific traits (strategos job should go to someone with high martial for instance) also nepotism should play a big part
+- Add to the Fernando the Great sons claims on their other titles (counties and baronies), probably best in an event. Or just make special events when you usurp the titles of your brothers to see if they recant and accept your rule, would be better I guess.
+- Enfer, when you press some claim on some title you end up vanilla vassalizing people and it drives me nut as it does not trigger properly the clearing of vanilla vassals.
+- Should probably use on_actions->on_new_holder->on_success_posttitle et mettre la commande de make_tributary dedans
+
+13/04/20
+- God fucking dammit, VICTORY finally found how to make proper relationship post war on a claim (eg: Fernando sons wars for the throne). So when you declare war on a claim, the target is properly true_vassaled
+- Remains the issue of true_vassals of the newly true_vassal. They should transfer. Either automatically transfer them or have them an event ?
+- In order to better represent the men sent to the lord due to military obligations use an export to variable and holding_total_levy modifier 
+- Fucking paradox and their crappy event system. Gotta reorder and clean up the true vassal event files, the game does not read event from number 4 and above anymore
+- New true vassal architecture in different files: maintenance events only (startup and yearly maintenance of true vassal status only) ; military obligations only ; financial obligations only ; homage ceremony
+- Add an opinion modifier when you side against your vassals in some wars
+- Remove those stupid reconquista wars by some lowborn shit, if any reconquista should happen it should be from the nobles.
+- Add events of powergrabbing nobles when regency is too long
+- Pour le settlement overhaul, y'a moy de changer le visuel graphique selon la culture, ex: norsegfx dans le fichier culture fait référence dans province.gfx à une fichier particulier
+
+14/04/20
+- Listened to a french medieval podcast by medieval doctors (the academic sort): add a targeted decision to negotiate some military obligations with the vassal (increase them/decrease)
+- Add a targeted decision to create alliance and some basic negotiations, like "we will share the land" (donc rajouter des targeted title decisions pour montrer son intérêt à l'iA, et si on en a trop, on est un greedy motherfucker)
+- Rébellions des fils contre le père devrait être régulière ?
+- Redo the distance ADMC to better calculate pixels
+- Make in a on_startup event the duke of normandy as a french vassal
+- For the gregorian reform, make sure it is a good big series of event and that the pope ask people to abide and alternative is war. Pope convoke a council, ask a king to come, king may refuse, he is then excommuncated.
+- Make the french king coronation special, with Reims and all that
+- One vassal call to arms targeted decisions works now. Add a localization key for the regiments of service troops sent so you can recognize the troops
+- Decision for the commise of the fied, the vassal is convoked to a tribunal and has a chance to recant
+- Make cathedrals as great works
+- Be careful not to erase vanilla tributary states
+- Introduce a weight in for the powerful vassals in the french realm

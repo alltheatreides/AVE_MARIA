@@ -92,7 +92,7 @@ decisions = {
 					}
 					set_character_flag = servitium_debitum
 					character_event = {
-						id = AVE_MARIA_true_vassal.7
+						id = AVE_MARIA_true_vassal_obligations.1
 						days = 5
 					}
 				}
@@ -189,7 +189,7 @@ decisions = {
 					}
 					set_character_flag = target_attacked_vassal
 				}
-				character_event = { id = true_vassals.16 days = 1 tooltip = "appel_au_ban"}
+				character_event = { id = AVE_MARIA_true_vassal_obligations.4 days = 1 tooltip = "appel_au_ban"}
 			}
 			else_if = {
 				limit = {
@@ -223,13 +223,22 @@ decisions = {
 			NOT = { has_trait = travelling }
 			age = 12
 			NOT = { mercenary = yes }
+			culture_check_for_frankish_style_feudalism = yes
 		}
 
 		allow = {
 			NOT = { has_character_flag = gave_homage_to_liege }
+			NOT = { has_trait = travelling }
 			NOT = { is_inaccessible_trigger = yes }
 			suzerain = {
-				NOT = { is_inaccessible_trigger = yes }
+				NOT = { 
+					is_inaccessible_trigger = yes
+					OR = {
+						has_character_flag = true_vassal_luxurious_homage_ceremony
+						has_character_flag = true_vassal_normal_homage_ceremony
+						has_character_flag = true_vassal_sober_homage_ceremony
+					}
+				}
 			}
 		}
 
@@ -239,21 +248,82 @@ decisions = {
 					save_event_target_as = target_liege_location
 				}
 			}
-			# move_character = event_target:target_liege_location
 			set_character_flag = do_not_disturb
-			#add_trait = travelling
+			add_trait = travelling
 			#information event
 			character_event = {
-				id = AVE_MARIA.10
-				days = 1
+				id = AVE_MARIA_true_vassal_hommage.2
+				# days = 1
 				tooltip = "homage"
 			}			
 		}
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
 		}
 
 	}
 
+}
+
+targetted_decisions = {
+	true_vassal_targeted_decision_convocation_au_ban_offensif = {
+		only_independent = yes
+		is_high_prio = yes
+
+		from_potential = {
+			NOR = {
+				is_nomadic = yes
+				primary_title = {
+					OR = { 
+						title = e_byzantium
+						title = e_roman_empire
+					}
+					has_law = succ_byzantine_elective
+				}
+			}
+			OR = {
+				tier = king
+				tier = duke
+				tier = emperor
+			}
+			war = yes
+			is_primary_war_attacker = yes
+		}
+
+		potential = {
+			is_tributary = { type = true_vassal suzerain = FROM }
+			NOT = {
+				tier = baron
+				is_landed = no
+				has_character_flag = servitium_debitum
+			}
+			# lower_real_tier_than = FROM
+		}
+
+		allow = {
+			NOT = { is_inaccessible_trigger = yes }
+		}
+
+		effect = {
+			FROM = {
+				set_character_flag = true_vassal_suzerain_calls
+			}
+			ROOT = {
+				set_character_flag = servitium_debitum
+				character_event = { 
+					id = AVE_MARIA_true_vassal_obligations.3
+					days = 5 
+				} 
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

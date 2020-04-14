@@ -1,0 +1,74 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Triggers																	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+#Character triggers
+culture_check_for_frankish_style_feudalism = {
+
+	OR = {
+		culture_group = norse
+		culture_group = swedish
+		culture_group = norwegian
+		culture_group = danish
+		culture_group = german
+		culture_group = lombard
+		culture_group = old_frankish
+		culture_group = suebi
+		culture_group = english
+		culture_group = saxon
+		culture_group = old_saxon
+		culture_group = frisian
+		culture_group = dutch
+		culture_group = frankish
+		culture_group = norman
+		culture_group = italian
+		culture_group = occitan
+		culture_group = dalmatian
+		culture_group = outremer
+		culture_group = sardinian
+		culture_group = basque
+		culture_group = castillan
+		culture_group = catalan
+		culture_group = portuguese
+		culture_group = visigothic
+		culture_group = irish
+		culture_group = scottish
+		culture_group = pictish
+		culture_group = welsh
+		culture_group = breton
+		culture_group = finnish
+		culture_group = lappish
+		culture_group = ugricbaltic
+		culture_group = komi
+		culture_group = khanty
+		culture_group = samoyed
+		culture_group = mordvin
+		culture_group = meshchera
+		culture_group = lettigallish
+		culture_group = lithuanian
+		culture_group = prussian
+		culture_group = russian
+		culture_group = ilmenian
+		culture_group = severian
+		culture_group = volhynian
+		culture_group = pommeranian
+		culture_group = bohemian
+		culture_group = polish
+		culture_group = slovieni
+		culture_group = croatian
+		culture_group = serbian
+		culture_group = romanian
+		culture_group = bulgarian
+		culture_group = bosnian
+		culture_group = carantanian
+		culture_group = hungarian
+	}
+	
+}

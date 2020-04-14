@@ -112,7 +112,7 @@ claim = {
 			}
 		}
 	}
-
+	
 	on_success_title = {
 		hidden_tooltip = {
 			ROOT = {
@@ -161,7 +161,47 @@ claim = {
 			}
 		}
 	}
-
+	
+	#AVE MARIA - TRUE VASSAL - Making sure that you true vassal properly the previous title holder if he was de jure and transfer his vassals to you, might add an event later or a flag to change the text of needed homage
+	on_success_posttitle = {
+		if = {
+			limit = {
+				ROOT = {
+					de_jure_vassal_or_below = FROM
+				}
+			}
+			ROOT = {
+				make_tributary = {
+					who = FROM
+					tributary_type = true_vassal
+				}
+			}
+			FROM = {
+				set_defacto_liege = THIS
+			}
+			FROM = {
+				any_tributary = {
+					limit = {
+						ROOT = {
+							de_jure_vassal_or_below = PREV
+						}
+					}
+					suzerain = {
+						remove_tributary = PREV
+					}
+					ROOT = {
+						make_tributary = {
+							who = PREV
+							tributary_type = true_vassal
+						}
+					}
+					set_character_flag = vassal_to_transfer
+				}
+			}
+			
+		}
+	}
+	
 	on_fail_title = {
 		ROOT = {
 			show_scope_change = no

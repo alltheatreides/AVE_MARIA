@@ -12,56 +12,65 @@
 on_startup = {
 	events = {		
 		# Cleaning of Vanilla Vassals
-		AVE_MARIA_true_vassal.1
-		# Avoiding spam with vassals homage
-		AVE_MARIA_true_vassal.6
+		AVE_MARIA_true_vassal_maintenance.1
+		
+		# Avoiding spam with vassals homage		
+		AVE_MARIA_true_vassal_hommage.1
 	}
 }
 on_yearly_pulse = {
 	events = {
 		# Cleaning of Vanilla Vassals
-		AVE_MARIA_true_vassal.1
+		AVE_MARIA_true_vassal_maintenance.1
+		
 		# Making sure you are not a vassal of someone lower_tier
-		AVE_MARIA_true_vassal.2
+		AVE_MARIA_true_vassal_maintenance.2
 	}
 }
 
 # ROOT is the creating character, FROM is the title
 on_create_title = {
 	events = {
-		AVE_MARIA_true_vassal.3
+		# Making sure you are not a vassal of someone lower_tier
+		AVE_MARIA_true_vassal_maintenance.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder ={
 	events = {
-		AVE_MARIA_true_vassal.3
+		# Making sure you are not a vassal of someone lower_tier
+		AVE_MARIA_true_vassal_maintenance.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
-		AVE_MARIA_true_vassal.3
+		# Making sure you are not a vassal of someone lower_tier
+		AVE_MARIA_true_vassal_maintenance.3
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_usurpation = {
 	events = {
-		AVE_MARIA_true_vassal.3
+		# Making sure you are not a vassal of someone lower_tier
+		AVE_MARIA_true_vassal_maintenance.3
 	}
 }
 
 # From = Attacker, Root = Defender
 on_war_ended_victory = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
+		
 		#Flag cleaning
-		AVE_MARIA_true_vassal.4
+		AVE_MARIA_true_vassal_maintenance.4
+		
 		#Ban Troops removal
-		AVE_MARIA_true_vassal.27
+		AVE_MARIA_true_vassal_obligations.2
 		
 	}
 }
@@ -69,56 +78,69 @@ on_war_ended_victory = {
 # From = Attacker, Root = Defender
 on_war_ended_whitepeace = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
+		
 		#Flag cleaning
-		AVE_MARIA_true_vassal.4
+		AVE_MARIA_true_vassal_maintenance.4
+		
 		#Ban Troops removal
-		AVE_MARIA_true_vassal.27
+		AVE_MARIA_true_vassal_obligations.2
 	}
 }
 
 # From = Attacker, Root = Defender
 on_war_ended_defeat = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
+		
 		#Flag cleaning
-		AVE_MARIA_true_vassal.4
+		AVE_MARIA_true_vassal_maintenance.4
+		
 		#Ban Troops removal
-		AVE_MARIA_true_vassal.27
+		AVE_MARIA_true_vassal_obligations.2
 	}
 }
 
 # From = Attacker, Root = Defender
 on_war_ended_invalid = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
+		
 		#Flag cleaning
-		AVE_MARIA_true_vassal.4
+		AVE_MARIA_true_vassal_maintenance.4
+		
 		#Ban Troops removal
-		AVE_MARIA_true_vassal.27
+		AVE_MARIA_true_vassal_obligations.2
 	}
 }
 
 OFFER_VASSALIZATION_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
 	}
 }
 
 OFFER_VASSALIZATION_INTERACTION_DECLINE_EVENT = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
 	}
 }
 
 GRANT_LANDED_TITLE_INTERACTION_ACCEPT_EVENT = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
 	}
 }
 
 GRANT_LANDED_TITLE_INTERACTION_DECLINE_EVENT = {
 	events = {
-		AVE_MARIA_true_vassal.1
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
 	}
 }

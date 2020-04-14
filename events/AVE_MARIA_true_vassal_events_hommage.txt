@@ -1,0 +1,499 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_true_vassal_hommage.1 - AVE_MARIA_true_vassal_hommage.499               #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_true_vassal_hommage
+
+###########################################
+# Hommage events 1-10	              	  #
+###########################################
+
+# Donner un flag gave_homage_to_liege à chaque tributaire au début du jeu pour éviter le spam
+character_event = {
+    id = AVE_MARIA_true_vassal_hommage.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+		is_save_game = no
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            any_tributary = {
+                limit = {
+                    OR = {
+                        is_tributary = { type = true_vassal_hre }
+                        is_tributary = { type = true_vassal }
+                        is_tributary = { type = true_vassal_duke_of_normandy }
+                    }
+                }
+                set_character_flag = gave_homage_to_liege
+            }
+        }
+        any_tributary = {
+            limit = {
+                OR = {
+                    is_tributary = { type = true_vassal_hre }
+                    is_tributary = { type = true_vassal }
+                    is_tributary = { type = true_vassal_duke_of_normandy }
+                }
+            }
+            set_character_flag = gave_homage_to_liege
+        }
+    }
+}
+
+# Hommage-lige events - Inform the vassal of his decision and allow human player to back down
+character_event = {
+    id = AVE_MARIA_true_vassal_hommage.2
+    desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.2
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_2
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+	
+	# Go swear fealty to your suzerain
+    option = {
+        name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.2
+        set_character_flag = will_swear_fealty
+        hidden_effect = {
+            trait = travelling
+        }
+        ai_chance = {
+            factor = 1
+        }
+        hidden_effect = {
+            suzerain = {
+                character_event = { id = AVE_MARIA_true_vassal_hommage.3 days = 5 }
+            }
+        }
+    }
+	
+	# Misclick / later option for humans
+    option = {
+        name = EVTOPTB_AVE_MARIA_true_vassal_hommage_events.2
+		hidden_effect = {
+            remove_trait = travelling
+        }
+        ai_chance = {
+            factor = 0
+        }
+    }
+
+}
+
+# Hommage-lige events - inform the lord of the vassal decision to come swear fealty
+character_event = {
+    id = AVE_MARIA_true_vassal_hommage.3
+    desc = {
+        trigger = { 
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        text = EVTDESCA_AVE_MARIA_true_vassal_hommage_events.3
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_2
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+	
+	# Suzerain will receive the fealty and richly entertain the vassal
+    option = {
+        name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.3
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        if = {
+            limit = {
+                FROM = {
+                    tier = COUNT
+                }
+            }
+            wealth = -20
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = DUKE
+                }
+            }
+            wealth = -40
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = KING
+                }
+            }
+            wealth = -80
+        }
+        hidden_effect = {
+			set_character_flag = true_vassal_luxurious_homage_ceremony
+            narrative_event = { id = AVE_MARIA_true_vassal_hommage.6 days = 5 }
+            FROMFROM = { narrative_event = { id = AVE_MARIA_true_vassal_hommage.5 days = 5 } }
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 50 }
+            }
+        }
+    }
+	
+	# Suzerain will receive the fealty and normally entertain the vassal
+    option = {
+        name = EVTOPTB_AVE_MARIA_true_vassal_hommage_events.3
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        if = {
+            limit = {
+                FROM = {
+                    tier = COUNT
+                }
+            }
+            wealth = -5
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = DUKE
+                }
+            }
+            wealth = -10
+        }
+         if = {
+            limit = {
+                FROM = {
+                    tier = KING
+                }
+            }
+            wealth = -20
+        }
+        hidden_effect = {
+			set_character_flag = true_vassal_normal_homage_ceremony
+            narrative_event = { id = AVE_MARIA_true_vassal_hommage.5 days = 5 }
+            FROM = { narrative_event = { id = AVE_MARIA_true_vassal_hommage.6 days = 5 } }
+        }
+        ai_chance = {
+            factor = 80
+            modifier = {
+                factor = 0
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+    }
+	
+	# Suzerain will receive the fealty and soberly entertain the vassal
+    option = {
+        name = EVTOPTC_AVE_MARIA_true_vassal_hommage_events.3
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        hidden_effect = {
+			set_character_flag = true_vassal_sober_homage_ceremony
+            narrative_event = { id = AVE_MARIA_true_vassal_hommage.6 days = 5 }
+            FROM = { narrative_event = { id = AVE_MARIA_true_vassal_hommage.5 days = 5 } }
+        }
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 10
+                opinion = { who = ROOT value = -50 }
+            }
+        }
+    }
+	
+	# Refuse fealty - AI will never do it, maybe leave it for humans
+    option = {
+        name = EVTOPTD_AVE_MARIA_true_vassal_hommage_events.3
+        trigger = {
+            FROM = { has_character_flag = will_swear_fealty }
+        }
+        ai_chance = {
+            factor = 0
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = -50
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = -150
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = EMPEROR
+                }
+            }
+            prestige = -200
+        }
+        hidden_effect = {
+            FROM = { character_event = { id = AVE_MARIA_true_vassal_hommage.4 days = 5 } }
+        }
+    }
+
+}
+
+# Hommage-lige events - If the human suzerain decides not to accept the oath, the vassal is informed
+character_event = {
+    id = AVE_MARIA_true_vassal_hommage.4
+    desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.4
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage
+    }
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.4
+        suzerain = {
+            remove_tributary = ROOT
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = -25
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = -50
+        }
+        if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = -100
+        }
+    }
+
+}
+
+# Hommage-lige events - Cérémonie d'hommage pour le feudataire
+narrative_event = {
+    id = AVE_MARIA_true_vassal_hommage.5
+    desc = {
+        trigger = { religion_group = christian }
+        text = EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.5
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_3
+    }
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    immediate = {
+        clr_character_flag = will_swear_fealty
+    }
+	
+	# Give proper opinion malus for type of homage ceremony
+    option = {
+        name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.5
+		trigger = {
+			suzerain = { has_character_flag = true_vassal_luxurious_homage_ceremony }
+		}
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 25
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 50
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 100
+        }
+		opinion = { modifier = opinion_true_vassal_luxurious_homage_ceremony who = suzerain years = 5 }
+        remove_trait = travelling
+        set_character_flag = gave_homage_to_liege
+    }
+	
+	# Give proper opinion malus for type of homage ceremony
+	option = {
+        name = EVTOPTB_AVE_MARIA_true_vassal_hommage_events.5
+		trigger = {
+			suzerain = { has_character_flag = true_vassal_normal_homage_ceremony }
+		}
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 25
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 50
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 100
+        }
+		opinion = { modifier = opinion_true_vassal_normal_homage_ceremony who = suzerain years = 5 }
+        remove_trait = travelling
+        set_character_flag = gave_homage_to_liege
+    }
+	
+	# Give proper opinion malus for type of homage ceremony
+	option = {
+        name = EVTOPTC_AVE_MARIA_true_vassal_hommage_events.5
+		trigger = {
+			suzerain = { has_character_flag = true_vassal_sober_homage_ceremony }
+		}
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 25
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 50
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 100
+        }
+		opinion = { modifier = opinion_true_vassal_sober_homage_ceremony who = suzerain years = 5 }
+        remove_trait = travelling
+        set_character_flag = gave_homage_to_liege
+    }
+
+}
+
+# Hommage-lige events - Cérémonie d'hommage pour le liege
+narrative_event = {
+    id = AVE_MARIA_true_vassal_hommage.6
+    #title = TITLE_AVE_MARIA_true_vassal_hommage.6
+    desc = {
+        trigger = { religion_group = christian }
+        text = EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.6
+    }
+    picture = {
+        trigger = { religion_group = christian }
+        picture = GFX_evt_ruler_homage_3
+    }
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.6
+        if = {
+            limit = {
+                ROOT = {
+                    tier = COUNT
+                }
+            }
+            prestige = 5
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = DUKE
+                }
+            }
+            prestige = 40
+        }
+         if = {
+            limit = {
+                ROOT = {
+                    tier = KING
+                }
+            }
+            prestige = 75
+        }
+		hidden_effect = {
+			clr_character_flag = true_vassal_luxurious_homage_ceremony
+			clr_character_flag = true_vassal_normal_homage_ceremony
+			clr_character_flag = true_vassal_sober_homage_ceremony
+		}
+		
+    }
+
+}
+
+
