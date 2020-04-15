@@ -1,120 +1,124 @@
-713.1.1={
-	liege=k_italy
+# -*- ck2.history.titles -*-
+
+713.1.1 = {
+	liege = k_italy
+	holder = 190278 # Walperto
 }
-713.1.1={
-	holder = 190278 #Walperto
+754.1.1 = {
+	holder = 190279 # Alperto
 }
-754.1.1={
-	holder = 190279 #Alperto
+773.1.1 = {
+	holder = 190280 # Tachiperto
 }
-773.1.1={
-	holder = 190280 #Tachiperto
+846.1.1 = {
+	liege = d_toscana
+	holder = 168364 # placeholder
 }
-846.1.1={
-	liege="d_toscana"
+895.1.1 = {
+	holder = 167902 # Adalberto count of Lucca
 }
-846.1.1={
-	holder = 168364
+915.9.10 = {
+	holder = 167905 # Guido Markgrave of Tuscany
 }
-936.1.1 = {
-	holder = 260624
+920.1.1={
+	holder=180000 # Ghisolfo della Gherardesca 
 }
-1060.1.1={
-	holder = 180023 #Tedice III della Gheradesca
-	liege=d_pisa
+958.1.1 = {
+	holder = 180171 #Rodolfo della Gherardesca count of Pisa
 }
-1078.1.1=
-{
-	holder = 180203 #Gerardo Visconti
+#Maratime republic
+1005.1.1 = {
+	liege = d_pisa
+	holder = 180022 # Tedice II della Gherardesca
 }
-1084.1.1=
-{
-	holder = 167486 #Ugo Caetani
+1040.1.1 = {
+	holder = 167485 # Giovanni Caetani
 }
-1100.1.1=
-{
-	holder = 167508 #Antonio Alliata
+1050.1.1 = {
+	holder = 180023 # Tedice III della Gherardesca
 }
-1115.1.1=
-{
-	holder = 167407 #Leonardo I d'Appiano
+1078.1.1 = {
+	holder = 180203 # Gerardo Visconti
 }
-1140.1.1=
-{
-	holder = 180025 #Tedice V della Gheradesca
+1084.1.1 = {
+	holder = 167486 # Ugo Caetani
 }
-1157.1.1=
-{
-	holder = 71168 #Alberto Visconti
+1100.1.1 = {
+	holder = 167508 # Antonio Alliata
 }
-1174.1.1=
-{
-	holder = 167443 #Gregorio Caetani
+1115.1.1 = {
+	holder = 167407 # Leonardo I d'Appiano
 }
-1190.1.1=
-{
-	holder = 167512 #Dazio Alliata
+1140.1.1 = {
+	holder = 180025 # Tedice V della Gheradesca
 }
-1215.1.1=
-{
-	holder = 167410 #Jacopo II d'Appiano
+1157.1.1 = {
+	holder = 71168 # Alberto Visconti
 }
-1220.1.1=
-{
-	holder = 180026 #Tedice VI della Gherardesca
+1174.1.1 = {
+	holder = 167443 # Gregorio Caetani
 }
-1222.1.1=
-{
-	holder = 71166 #Ubaldo Visconti
+1190.1.1 = {
+	holder = 167512 # Dazio Alliata
 }
-1230.1.1=
-{
-	holder = 167453 #Mattia Caetani
+1215.1.1 = {
+	holder = 167410 # Jacopo II d'Appiano
 }
-1260.1.1=
-{
-	holder = 167514 #Fillipo Alliata
+1220.1.1 = {
+	holder = 180095 # Uguccionello della Gherardesca
 }
-1270.1.1=
-{
-	holder = 167401 #Jacopo III d'Appiano
+1222.1.1 = {
+	holder = 71166 # Ubaldo Visconti
 }
-1285.1.1={
+1230.1.1 = {
+	holder = 167453 # Mattia Caetani
+}
+1260.1.1 = {
+	holder = 167514 # Fillipo Alliata
+}
+1270.1.1 = {
+	holder = 167401 # Jacopo III d'Appiano
+}
+#Battle of Meloria end of maratime republic
+1285.1.1 = {
 	holder = 73454
 }
-1288.1.1={
+1288.1.1 = {
 	holder = 73463
 }
-1288.7.1={
+1288.7.1 = {
 	holder = 73464
 }
-1289.1.1={
+1289.1.1 = {
 	holder = 73599
 }
-1294.1.1={
+1294.1.1 = {
 	holder = 73465
 }
-1312.1.1={
+1311.1.6 = {
+    liege=k_italy
+}
+1312.1.1 = {
 	holder = 462611
 }
-1313.1.1={
+1313.1.1 = {
 	holder = 73425
 }
-1316.1.1={
-	holder = 180083
+1313.8.24 = {
+	liege=0
 }
-1320.1.1={
-	holder = 180090
+1316.1.1 = {
+	holder = 73452
 }
-1325.1.1={
+1325.1.1 = {
 	holder = 462740
 }
-1328.4.1={
-	holder = 73426
+1327.5.31 = {
+    liege=k_italy
 }
-1328.9.1={
+1328.4.1 = {
 	holder = 462740
 }
-1329.1.1={
-	holder = 180085
+1329.1.1 = {
+	holder = 463450
 }

@@ -1,60 +1,98 @@
-758.1.1={
-	liege=k_italy
+# -*- ck2.history.titles -*-
+#Castelli di Narni
+788.1.1 = {
+        liege=k_italy
+	holder = 1062219 #Lupone I
 }
-758.1.1={
-	holder = 190328 #Peter
+795.1.1 = {
+	holder = 1062220 #Spetone II
 }
-846.1.1={
-	liege="d_toscana"
+824.1.1 = {
+	holder = 1062223 #Giseppe
 }
-867.1.1={
-	holder = 7913
+831.1.1 = {
+	holder = 1062224 #Raniero I
 }
-936.1.1 = {
-	liege="k_papal_state"
-	holder = 7919
+849.1.1 = {
+	holder = 1062226 #Berardo
 }
-1066.1.1=
-{
-holder = 20330
+872.1.1 = {
+	holder = 1062227 #Lupone II
 }
-1095.1.1=
-{
-holder = 70839
+893.1.1 = {
+	holder = 1062228 #Arnolfo I
 }
-1110.1.1=
-{
-holder = 70840
+935.1.1 = {
+	holder = 1062233#Pietro I
 }
-1159.5.27=
-{
-holder = 70842
+962.2.2 = {
+    liege=e_hre
 }
-1172.1.1=
-{
-holder = 70843
+966.1.1 = {
+	holder = 1062238#Marone I
 }
-1207.1.1=
-{
-holder = 70845
+#Signori di Vico(Castelli di Vico)
+1002.1.1 = {
+	holder = 1062241#Pietro II
 }
-1232.4.12=
-{
-holder = 70846
+#to Alberto's branch
+1045.1.1 = {
+	holder = 1062254 #Alberto I
 }
-1246.10.13=
-{
-holder = 70850
+1065.1.1 = {
+	holder = 1062262 # Pietro(IV/V)
 }
-1246.11.15=
-{
-holder = 70855
+1080.1.1 = {
+	liege = k_papal_state
 }
-1319.1.1=
-{
-holder = 70862
+1089.1.1 = {
+	holder = 1062263 # Uguccione I
 }
-1327.1.1=
-{
-holder = 70864
+1099.1.1 = {
+	holder = 1062273 # Pietro (VI/IV)
+}
+1122.1.1 = {
+	holder = 1062264 # Pietro VII
+}
+1135.1.1 = {
+	holder = 1062265 # Giovanni I
+}
+1139.1.1 = {
+	holder = 1062274 # Angelo
+}
+1148.1.1 = {
+	holder = 1062267 # Giovanni II
+}
+1159.1.1 = {
+	holder = 1062266 # Pietro VIII
+}
+1187.1.1 = {
+	holder = 1062286 # Pietro
+}
+1198.1.1 = {
+	holder = 1062288 # Giovanni
+}
+1220.1.1 = {
+	holder = 1062287 # Gottifredo
+}
+1228.1.1 = {
+	holder = 1062289 # Pietro
+}
+1267.1.1 = {
+	holder = 1062293 # Manfredo
+}
+1318.1.1 = {
+	holder = 1062296 # Giovanni
+}
+1366.4.1 = {
+	holder = 1062300 # Giovanni
+}
+1368.1.1 = {
+	holder = 1062303 # Francesco
+}
+1387.5.8 = {
+	holder = 1062304 # Giacomo
+}
+1435.8.1 = {
+	holder = 0 
 }

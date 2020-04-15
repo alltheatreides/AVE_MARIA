@@ -1,0 +1,96 @@
+# -*- ck2.history.titles -*-
+
+# CJL78 - Dukes of Naples
+850.1.1 = {
+	holder = 163090 # Sergios I of Napoli
+}
+865.1.1 = {
+	holder = 1167301 # Sergios II of Napoli
+}
+867.1.1 = { #started minting coins with Basil's effigy again
+	set_tribute_suzerain = {
+		who = e_byzantium
+		percentage = 0.4
+	}
+}
+878.1.1 = {
+	holder = 163088 # Athanasios I of Napoli
+}
+898.1.1 = {
+	holder = 163087 # Gregorios IV of Napoli
+}
+915.1.1 = {
+	holder = 163086 # Ioannes II of Napoli
+}
+919.1.1 = {
+	holder = 163085 # Marinos I of Napoli
+}
+928.1.1 = {
+	holder = 163084 # Ioannes III of Napoli
+}
+929.1.1 = { #John III tries to throw of the yoke of the Emperor
+	clear_tribute_suzerain = e_byzantium
+}
+929.8.1 = { #forced to return to the Imperial fold
+	set_tribute_suzerain = {
+		who = e_byzantium
+		percentage = 0.4
+	}
+}
+955.1.1 = { #John III tries to throw of the yoke of the Emperor again
+	clear_tribute_suzerain = e_byzantium
+}
+955.6.1 = { #forced to return to the Imperial fold, after an imperial army landed in the harbour and pillaged the city
+	set_tribute_suzerain = {
+		who = e_byzantium
+		percentage = 0.4
+	}
+}
+962.1.1 = { #John III tries to throw of the yoke of the Emperor, yet again
+	clear_tribute_suzerain = e_byzantium
+}
+969.1.1 = {
+	holder = 163083 # Marinos II of Napoli
+}
+970.1.1 = { #returned to the Imperial fold, during the Imperial-German conflict in Southern Italy
+	set_tribute_suzerain = {
+		who = e_byzantium
+		percentage = 0.4
+	}
+}
+992.1.1 = {
+	holder = 163082 # Sergios III of Napoli
+}
+997.1.1 = {
+	holder = 163081 # Ioannes IV of Napoli
+}
+1002.1.1 = {
+	holder = 163080 # Sergios IV of Napoli
+}
+1033.1.1 = { # The Imperial position in Italy starts to unravel and Naples is left to itself
+	clear_tribute_suzerain = e_byzantium
+}
+1036.1.1 = {
+	holder = 30820 # Ioannes V of Napoli
+}
+1053.4.1 = {
+	holder = 20498 # Sergios V of Napoli
+}
+1075.11.1 = {
+	holder = 20531 # Sergios VI of Napoli
+}
+1107.9.1 = {
+	holder = 30822 # Ioannes VI of Napoli
+}
+1123.4.1 = {
+	holder = 30824 # Sergios VII of Napoli
+}
+1130.12.25 = {
+	liege = k_sicily
+}
+1137.1.1 = {
+	holder = 127085 # Alphonse I de Hauteville
+}
+1144.2.26 = {
+	holder = 0
+}

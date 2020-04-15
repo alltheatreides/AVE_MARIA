@@ -1,0 +1,28 @@
+# -*- ck2.history.titles -*-
+
+732.1.1 = { holder = 0 }
+
+1057.1.1= { holder=11000 } #Ludwig #Scarponnois count of Montbeliard and ferrette
+1073.1.1= { holder = 20250 } #Thierry #the 1st Scarponnois
+1103.1.2= { holder = 7656 } #Friedrich 1st de ferrette
+
+1125.1.12 = { liege="e_hre" } #maybe earlier
+
+1160.8.19={ holder = 7658 } #Ludwig I died at 3rd crusade
+1180.1.1={ holder = 34321 } #Ulrich I
+#1194.1.1= { holder = 34325 } #Ludwig II seemingly co-count with is older brother Ulrich I
+1198.9.27= { holder = 7659 } #Friedrich II
+
+1234.1.1= { holder = 7661 } #Ulrich II
+
+#1268.10.29={
+#	liege="e_hre"
+#}
+
+1271.1.1={liege="c_basel"} #county is sold to c_basel and becomes a fief of c_basel. county is demoted to b_level.
+1275.2.1={ holder = 462307 } #Theobald 
+1310.1.1={ holder = 462034 } #Ulrich 3rd of ferrette 
+1324.11.3= { holder = 0 }
+#Habsburg Sundgau+Ferrette
+#1324.11.3= { liege = d_osterreich }
+#1324.11.3= { holder=462020 } #Albrecht von Habsburg the wise married to 462033 Jeanne de Ferrete daughter of Ulrich the 3rd

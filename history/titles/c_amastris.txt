@@ -1,84 +1,109 @@
-330.1.1={
-	liege="d_paphlagonia"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_paphlagonia
 }
-757.1.1={
-	holder = 145840
-}
-835.1.1={
-	holder = 145164
+865.1.1 = {
+	holder = 1768
 }
 936.1.1 = {
-	holder = 250806
+	liege = d_armeniacon
 }
-1060.1.1=
-{
-	holder = 20537
+936.1.1 = {
+	holder = 41318 #  placeholder, Leo Phokas the Younger functions as a lieutenant for his father as well
 }
-#Seljuks
-1077.1.1=
-{
-	holder = 20537
+955.1.1 = {
+	liege = d_paphlagonia
 }
-1086.1.1=
-{
-	holder = 41701
+955.1.1 = {
+	holder = 1712 # Nikephoros Phokas, promoted to the post of Domestic of the School in 955. Set up his base at Kaisareia from where he launched most of his campaigns
 }
-#Byzantium
-1097.6.19=
-{
-	holder = 20537
+989.1.1 = {
+	holder = 1750
 }
-1100.1.1=
-{
-	holder = 20530
+1020.1.1 = {
+	holder = 1500389
 }
-1107.1.1=
-{
-	holder = 20532
+1030.1.1 = {
+	holder = 1730
 }
-1123.1.1=
-{
+1057.8.31 = {
+	holder = 1752
+}
+1063.1.1 = {
+	holder = 1758
+}
+1073.1.1 = {
+	liege = d_armeniacon
+	holder = 34220
+}
+1075.1.1 = {
+	liege = e_byzantium
+	holder = 1232152
+}
+1076.1.1 = {
+	liege = d_armeniacon
+	holder = 1232643
+}
+1097.7.19 = {
+	liege = e_byzantium
 	holder = 34290
 }
-1150.1.1=
-{
+1130.1.1 = {
+	holder = 34340
+}
+1156.1.1 = {
 	holder = 232551
 }
-1185.1.1=
-{
-	holder = 34297
+1169.1.1 = {
+	holder = 1232243
 }
-1204.5.16=
-{
-	liege="e_nicaea"
-	holder = 215675
+1176.1.1 = {
+	holder = 215504
 }
-1224.1.2=
-{
-	holder = 215672
+1185.1.1 = {
+	holder = 1232253
 }
-1257.1.2=
-{
-	holder = 125739
+1204.4.1 = {
+	liege = k_trebizond
+	holder = 215520
 }
-1260.1.1=
-{
+1209.1.1 = {
+	holder = 215519
+}
+1214.1.1 = {
+	liege = k_nikaea
+	holder = 215674
+}
+1221.11.1 = {
+	holder = 125741
+}
+1254.11.4 = {
+	holder = 125742
+}
+1258.8.16 = {
+	holder = 125743
+}
+1260.1.1 = {
 	holder = 465527
 }
-1261.7.25={
-	liege = "e_byzantium"
+1261.7.25 = {
+	liege = e_byzantium
 }
-1282.2.12=
-{
-	holder = 465600
+1280.1.1 = {
+	liege = d_armeniacon
+	holder = 71857
 }
-1306.1.6=
-{
-	holder = 465601
+1297.1.1 = {
+	holder = 71858
 }
-#Ottomans
-1321.1.1=
-{
-	liege="d_paphlagonia"
-	holder = 476500
+1301.1.1 = {
+	holder = 71859
+}
+1308.1.1 = {
+	de_jure_liege = d_candar
+}
+1322.1.1 = {
+	liege = d_candar
+	holder = 476350
 }

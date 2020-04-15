@@ -1,109 +1,89 @@
-691.1.1={
-	liege="k_khazaria"
-	holder = 74007
+# -*- ck2.history.titles -*-
+
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
 }
-715.1.1={
-	holder = 74008
+830.1.1 = {
+	holder = 1231706
 }
-731.1.1={
-	holder = 74009
+# Qara-Bay
+864.1.1 = {
+	liege = d_qara_bay
+	holder = 1231784 # fictional father of Kajdan, chief of Qara-Bay at the time of the 893 expulsion
 }
-749.1.1={
-	holder = 74012
+# Pechengs expulsed by Khazars.
+895.1.1 = {
+	liege = k_khazaria
+	holder = 1233421
 }
-#761.1.1={
-#	holder = 146204
-#}
-763.1.1={
-	holder = 146203
+930.1.1 = {
+	holder = 1233423
 }
-793.1.1={
-	holder = 74018
+# Sarkel destroyed, goes to oghuz turks.
+966.1.1 = {
+	liege = k_uzes
+	holder = 1231869
 }
-802.1.1={
-	holder = 74019
+1010.1.1 = {
+	holder = 1231871
 }
-818.1.1={
-	holder = 74020
+1035.1.1 = {
+	holder = 1231873
 }
-829.1.1={
-	holder = 74021
+1044.1.1 = {
+	holder = 1232013
 }
-831.1.1={
-	holder = 74022
+# Cumans arrive
+# Yimek
+1060.1.1 = {
+	liege = d_yimek
+	holder = 1233015
 }
-833.1.1={
-	liege=d_sarkel
+1065.1.1 = {
+	holder = 1233017 # Esen
 }
-847.1.1={
-	holder = 74023
+1082.1.1 = {
+	holder = 1233019 # Aepa
 }
-852.1.1={
-	holder = 74024
+1117.1.1 = {
+	holder = 1233021
 }
-864.1.1={
-	holder = 180226
-	liege = d_pereyaslavl
+1140.1.1 = {
+	holder = 1233024 # Amurat
 }
-889.1.1={
-	holder = 74026
+1165.1.1 = {
+	holder = 1233026
 }
-936.1.1 = {
-	holder = 260703
-	liege = d_sarkel
+1205.1.1 = {
+	holder = 1233028
 }
-969.1.1={
-	liege=0
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1030.1.1={
-liege="d_sarkel"
-holder = 90142
+1255.1.2 = {
+	holder = 125505
 }
-1060.1.1=
-{
-holder = 806
+1256.1.2 = {
+	holder = 125506
 }
-1110.1.1=
-{
-holder = 90143
+1257.1.2 = {
+	holder = 125504
 }
-1120.1.1=
-{
-holder = 125401
+1266.1.2 = {
+	holder = 125508
 }
-1146.1.1=
-{
-holder = 125402
+1280.1.2 = {
+	holder = 125509
 }
-1183.1.1=
-{
-holder = 228030
+1287.1.2 = {
+	holder = 125511
 }
-1203.1.1=
-{
-holder = 125403
+1291.1.2 = {
+	holder = 125512
 }
-1223.1.1=
-{
-holder = 125404
-}
-1238.1.1=
-{
-holder = 34851
-}
-1262.1.13=
-{
-holder = 34903
-}
-1280.1.1=
-{
-holder = 34904
-}
-1285.1.1=
-{
-holder = 34906
-}
-1305.1.1=
-{
-holder = 34908
+1312.1.2 = {
+	holder = 480000
 }

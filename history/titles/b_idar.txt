@@ -1,14 +1,16 @@
-800.1.1={
-	holder =  191922 # Hunas
-	liege=d_maru
+# -*- ck2.history.titles -*-
+
+800.1.1 = {
+	liege = d_maru
+	holder = 191922 # Hunas
 }
-840.1.1={
-	holder = 188242 #Jajjapa
+840.1.1 = {
+	holder = 188242 # Jajjapa
 }
-880.1.1={
-	holder = 191923 #Hunas
+880.1.1 = {
+	holder = 191923 # Hunas
 }
-948.1.1={
+948.1.1 = {
+	liege = c_mohadavasaka
 	holder = 0
-	liege=c_mohadavasaka
 }

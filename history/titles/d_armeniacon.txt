@@ -1,90 +1,98 @@
-330.1.1={
-	liege = "e_byzantium"
-	# vice_royalty = yes
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = e_byzantium
+	vice_royalty = yes
 }
-763.1.1={
-	holder = 145847
-}
-860.1.1={
+860.1.1 = {
 	holder = 145171
 }
-936.1.1 ={
-	holder = 41317
+936.1.1 = {
+	holder = 41317 # Bardas Phokas the Elder. Appears in 941 as the Strategos of Armeniakon, making him placeholder of Armeniakon a little early
 }
-1059.12.25=
-{
-	# holder = 1752
+950.1.1 = {
+	holder = 1714 # Ioannes Tzimiskes, made Strategos of Armeniakon around his 25th birthday. Demoted around 963-964, giving him the impetus to betray Nikephoros Phokas
 }
-1067.7.12=
-{
-	holder = 1756
+989.1.1 = {
+	holder = 1500481 # Ioannes Chaldos, Doux of Armeniakon, was later re-assigned to Thessalonika
 }
-1071.4.17=
-{
-	holder = 1758
+995.1.1 = {
+	holder = 145176 # Romanos Kourkouas, placeholder leader of Armeniakon. Protospatharios
 }
-#To Seljuks
-1077.1.1=
-{
-	liege="k_rum"
+1015.1.1 = {
+	holder = 1232448
+}
+1032.1.1 = {
+	holder = 1232293
+}
+1054.1.1 = {
+	holder = 1227439
+}
+1065.1.1 = {
+	holder = 1232159
+}
+1073.1.1 = {
+	liege = k_anatolia
+	holder = 34220
 	vice_royalty = no
-	holder = 3046
 }
-1086.1.1=
-{
-	holder = 41701
+1076.1.1 = {
+	liege = k_persia
+	holder = 41704
 }
-1097.6.19=
-{
-	liege="e_byzantium"
-	# vice_royalty = yes
-	holder = 34338
+1077.1.1 = {
+	liege = k_rum
 }
-1147.1.1=
-{
-	holder = 34340
+1086.1.1 = {
+	liege = 0
 }
-1156.1.1=
-{
-	holder = 34342
+1104.1.1 = {
+	holder = 34197
 }
-1193.1.1=
-{
-	holder = 215037
+1134.1.1 = {
+	holder = 34198
 }
-1204.4.1=
-{
-	liege="k_trebizond"
-	vice_royalty = no
+1142.1.1 = {
+	holder = 34207
+}
+1142.5.1 = {
+	holder = 34199
+}
+1164.1.1 = {
+	holder = 34201
+}
+1166.1.1 = {
+	holder = 34204
+}
+1166.4.1 = {
+	holder = 34215
+}
+1172.1.1 = {
+	holder = 34207
+}
+1174.1.1 = {
+	holder = 0
+}
+1204.4.1 = {
+	liege = k_trebizond
 	holder = 215519
 }
-1211.1.1=
-{
-	liege="k_rum" 
-	holder = 71860
+1211.1.1 = {
+	holder = 0
 }
-1227.1.1=
-{
-	holder = 71861
+1277.8.2 = {
+	liege = k_rum
+	holder = 71857
 }
-1248.1.1=
-{
-	holder = 71862
+1297.1.1 = {
+	holder = 71858
 }
-1280.1.1=
-{
-	holder = 71863
+1299.1.1 = {
+	liege = 0
 }
-1307.1.1=
-{
-	liege=0
-} 
-1309.1.1=
-{
-	liege="k_candar"
-	holder = 476350
+1301.1.1 = {
+	holder = 71859
 }
-1314.1.1=
-{
-	holder = 476351
+1322.1.1 = {
+	holder = 0
 }

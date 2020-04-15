@@ -1,51 +1,110 @@
-750.1.1={
-	liege="d_damascus"
+# -*- ck2.history.titles -*-
+
+750.1.1 = {
+	liege = d_damascus
 	holder = 146061
 }
-754.1.1={
+754.1.1 = {
 	holder = 146126
 }
-762.1.1={
+762.1.1 = {
 	holder = 146064
 }
-769.1.1={
+769.1.1 = {
 	holder = 146065
 }
-866.1.1={
-	holder = 33920
+855.1.1 = {
+	holder = 1230178
+}
+870.1.1 = {
+	holder = 0
+}
+931.1.1 = {
+	holder = 260819
+}
+935.1.1={
+	holder = 260838 # Abu'l-Fath al-Fadl al-Furat
 }
 936.1.1 = {
-	holder = 260839
+	liege = k_egypt
+	holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
 }
-1066.1.1=
-{
-holder = 20675
+941.1.1 = {
+	holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
 }
-1089.1.1=
-{
-holder = 93377
+992.1.1 = {
+	liege = d_jerusalem
+	holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
 }
-1120.1.1=
-{
-holder = 93378
+1013.1.1 = {
+	holder = 1500003
 }
-1160.1.1=
-{
-holder = 93379
+1022.1.1 = {
+	liege = d_jordan
 }
-1200.1.1=
-{
-holder = 93380
+1029.1.1 = {
+	holder = 1600006
 }
-1240.1.1=
-{
-holder = 93381
+1041.1.1 = {
+	holder = 1500003
 }
-1280.1.1=
-{
-holder = 93382
+1044.1.1 = {
+	holder = 1500006
 }
-1320.1.1=
-{
-holder = 93383
+1079.1.1 = {
+	holder = 1500008
+}
+1104.1.1 = {
+	holder = 1500010
+}
+1127.1.1 = {
+	holder = 1500015
+}
+1166.1.1 = {
+	holder = 1500018
+}
+1187.10.2 = {
+	liege = d_amiralarab
+}
+1224.1.1 = {
+	holder = 1500019
+}
+1232.1.1 = {
+	holder = 1500020
+}
+1238.1.1 = {
+	holder = 1500026
+}
+1240.1.1 = {
+	holder = 1500027
+}
+1260.1.1 = {
+	holder = 1500028
+}
+1284.1.1 = {
+	holder = 1500029
+}
+1293.1.1 = {
+	holder = 1500042
+}
+1295.1.1 = {
+	holder = 1500029
+}
+1312.1.1 = {
+	holder = 1500031
+}
+1317.1.1 = {
+	holder = 1500029
+}
+1320.1.1 = {
+	holder = 1500042
+}
+1322.1.1 = {
+	holder = 1500031
+}
+1330.1.1 = {
+	holder = 1500029
+}
+1335.1.1 = {
+	holder = 1500032
 }

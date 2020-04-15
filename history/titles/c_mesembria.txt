@@ -1,113 +1,178 @@
-330.1.1={
-	liege="d_karvuna"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_karvuna
 }
-681.1.1={
-	liege="e_byzantium"
+681.1.1 = {
+	liege = e_byzantium
 }
-705.1.1={
-	liege="d_karvuna"
+705.1.1 = {
+	liege = d_karvuna
 	holder = 145936
 }
-721.1.1={
+721.1.1 = {
 	holder = 145937
 }
-738.1.1={
+738.1.1 = {
 	holder = 145938
 }
-760.1.1={
+760.1.1 = {
 	holder = 145939
 }
-766.1.1={
+766.1.1 = {
 	holder = 145956
 }
-767.1.1={
+767.1.1 = {
 	holder = 159123
 }
-836.1.1={
+836.1.1 = {
 	holder = 70384
 }
-852.1.1={
-	holder = 70382 #Boris
+852.1.1 = {
+	holder = 70382 # Boris
 }
-867.1.1={
-	holder = 168291
+867.1.1 = {
+	holder = 1501221 # Stazis the Ichirgu-boil
 }
-936.1.1 = {
-	holder = 260670
+927.5.27 = {
+	holder = 260670 # Bajan
 }
-1060.1.1=
-{
-holder = 20511
+962.1.1 = {
+	liege = k_bulgaria
+	holder = 714 # Petar I
 }
-1107.10.1=
-{
-holder = 41301
+969.1.30 = {
+	holder = 716 # Boris II
 }
-1110.1.1=
-{
-holder = 34404
+970.1.1 = {
+	liege = e_byzantium
+	holder = 1714
 }
-1115.1.1=
-{
-holder = 34383
+976.1.10 = {
+	holder = 1716
 }
-1151.1.1=
-{
-holder = 34405
+993.1.1 = {
+	liege = d_adrianopolis
+	holder = 1234556 # Theodorokanos
 }
-1176.9.17=
-{
-holder = 34407
+1002.1.1 = {
+	holder = 1500407 # Konstantinos Petros
 }
-1180.1.1=
-{
-holder = 34409
+1023.1.1 = {
+	holder = 41310
 }
-1185.1.1=
-{
-holder = 217500 #Ivan I
+1027.1.1 = {
+	holder = 159276
 }
-1196.1.1=
-{
-holder = 217502 #Kaloyan
+1043.1.1 = {
+	holder = 1232289
 }
-1207.10.1=
-{
-holder = 31160 #Ivan II
+1050.1.1 = {
+	holder = 1232151
 }
-1218.1.2=
-{
-holder = 31169 #Aleksandr
+1052.1.1 = {
+	holder = 1740
 }
-1240.1.1=
-{
-holder = 31170 #Koloman
+1059.1.1 = {
+	holder = 1232332
 }
-1257.1.1=
-{
-holder = 31185 #Micho
+1061.1.1 = {
+	holder = 20511
 }
-1260.1.1=
-{
-holder = 465551 #Micho
+1081.1.1 = {
+	holder = 1232600
 }
-1279.1.1=
-{
-holder = 31192 #Ivaljo
+1086.1.1 = {
+	holder = 1232182
 }
-1280.1.1=
-{
-holder = 467530 #Georgi I
+1090.1.1 = {
+	holder = 20511
 }
-1292.1.1=
-{
-holder = 31193 #Todor I
+1093.1.1 = {
+	holder = 1231757
 }
-1306.1.1=
-{
-holder = 31195 #Georgi II
+1097.1.1 = {
+	holder = 1232219
 }
-1322.8.1=
-{
-holder = 467521 #Ivan Stefan
+1104.1.1 = {
+	holder = 232531
+}
+1118.8.15 = {
+	holder = 34587
+}
+1122.1.1 = {
+	holder = 232507
+}
+1140.1.1 = {
+	holder = 34445
+}
+1143.1.1 = {
+	holder = 34587
+}
+1164.1.1 = {
+	holder = 215037
+}
+1184.1.1 = {
+	holder = 215060
+}
+1187.1.1 = {
+	holder = 1232252
+}
+1190.1.1 = {
+	liege = k_bulgaria
+	holder = 217500 # Ivan I
+}
+1196.1.1 = {
+	holder = 217502 # Kaloyan
+}
+1207.10.1 = {
+	holder = 217505 # Boril
+}
+1218.1.2 = {
+	holder = 31160 # Ivan II
+}
+1241.6.24 = {
+	holder = 31165 # Koloman I
+}
+1246.8.1 = {
+	holder = 31166 # Mihail I
+}
+1256.1.1 = {
+	holder = 31170 # Koloman II
+}
+1257.1.1 = {
+	holder = 31185 # Micho
+}
+1258.1.1 = {
+	holder = 31187 # Konstandin
+}
+1277.9.1 = {
+	holder = 465551 # Ivan III
+}
+1279.1.1 = {
+	holder = 31192 # Ivaljo
+}
+1280.1.1 = {
+	holder = 467530 # Georgi I
+}
+1292.1.1 = {
+	holder = 467540 # Smiletz
+}
+1298.1.2 = {
+	holder = 125519 # Chaka
+}
+1299.1.2 = {
+	holder = 31193 # Todor
+}
+1322.1.1 = {
+	holder = 31195 # Georgi II
+}
+1322.8.1 = {
+	holder = 467520 # Mihail II
+}
+1330.7.28 = {
+	holder = 467521 # Ivan Stefan
+}
+1331.3.1 = {
+	holder = 467500 # Ivan Aleksandr
 }

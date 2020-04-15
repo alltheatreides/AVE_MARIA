@@ -1,125 +1,119 @@
-710.1.1={
-	liege=d_samarkand
-}
+# -*- ck2.history.titles -*-
 
-769.1.1={
-	holder = 188603
+864.1.1 = {
+	liege = d_soghd
+	holder = 163099
 }
-
-819.1.1={
-	holder = 188638 # Nuh Samanid
+892.1.1 = {
+	holder = 163157
 }
-841.1.1={
-	holder = 163154 # Ahmad Samanid
+907.1.1 = {
+	holder = 1230610
 }
-864.1.1={
-	holder = 163099 # Nasr
+914.1.1 = {
+	holder = 1230611
 }
-936.1.1 = {
-	holder = 261045
+943.6.4 = {
+	holder = 1230615
 }
-1052.1.1={
+954.8.8 = {
+	holder = 1230616
+}
+961.1.1 = {
+	holder = 1230617
+}
+976.6.13 = {
+	holder = 1230619
+}
+990.1.1 = {
+	liege = d_merv
+	holder = 1600023 # Bektuzun
+}
+999.6.1 = {
+	liege = k_mavarannahr
+}
+# Karakhanids
+999.10.23 = {
+	liege = d_soghd
+	holder = 1230264
+}
+1012.1.2 = {
+	holder = 3010
+}
+1020.1.2 = {
+	liege = d_soghd
+}
+1034.1.2 = {
+	holder = 3012
+}
+1040.1.1 = {
 	holder = 3014
 }
-1068.1.1=
-{
+1068.1.1 = {
 	holder = 3016
 }
-1080.1.1=
-{
-	holder = 3018
-}
-1081.1.1=
-{
-	holder = 3020
-}
-1089.1.1=
-{
-	holder = 3022
-}
-1095.1.1=
-{
-	holder = 3024
-}
-1097.1.1=
-{
-	holder = 144110
-}
-1097.6.1=
-{
+1080.1.1 = {
 	holder = 144108
 }
-1099.1.1=
-{
-	holder = 144109
+1089.1.1 = {
+	liege = e_persia
+	holder = 1229915
 }
-1102.1.1=
-{
-	holder = 144111
-}
-1129.1.1=
-{
-	holder = 144112
-}
-1129.6.1=
-{
-	holder = 144113
-}
-1130.1.1={
-	holder = 144116
-}
-1132.1.1=
-{
+1099.1.2 = {
+	liege = d_soghd
 	holder = 144117
 }
-1132.6.1=
-{
+1130.1.1 = {
+	holder = 1230271
+}
+1132.1.1 = {
+	holder = 144117
+}
+1132.6.1 = {
 	holder = 144118
 }
-1141.1.1=
-{
+1141.1.1 = {
 	holder = 144119
 }
-1156.1.1=
-{
-	holder = 144120
+1156.1.1 = {
+	holder = 1230272
 }
-1161.1.1=
-{
-	holder = 144121
+1158.1.1 = {
+	holder = 1230273 # Ma'súd b.Hasan
 }
-1178.1.1=
-{
-	holder = 144122
+1171.1.1 = {
+	holder = 1230277 # Ibrahím b. Husayn - 63-79 Ferghana
 }
-1204.1.1=
-{
-	holder = 93051
+1195.1.1 = {
+	holder = 1230280 # 'Uthmán' b. Ibrahím
 }
-1212.1.1=
-{
-	holder = 93053
+1212.1.1 = {
+	liege = k_khwarezmia
+	holder = 93052
 }
-1220.2.1=
-{
-	liege="e_mongol_empire"
+1221.1.1 = {
+	liege = e_mongol_empire
 	holder = 125501
 }
-1221.1.1={
+1227.12.2 = {
+	liege = d_soghd
 	holder = 248165
 }
-1228.1.1={
-	liege=e_chagatai
-}
-1240.1.1={
+1238.1.1 = {
 	holder = 248166
 }
+1251.1.1={
+	holder = 248182
+}
 1290.1.1={
-	holder = 248167
+	holder = 248184
 }
-1298.1.1={
-	holder = 248168
+1305.1.1={
+	holder = 248186
 }
-1303.1.1={
-	holder = 248169
+1308.1.1={
+	liege = e_chagatai
+}
+1330.1.1={
+	holder = 248188
 }

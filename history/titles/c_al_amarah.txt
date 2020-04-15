@@ -1,120 +1,168 @@
-661.2.28={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 188630 # Khazim b Khuzaymah (fictitious assignment)
+# Tahirid governors
+820.1.1 = {
+	liege = d_baghdad
+	holder = 188686
 }
-
-866.1.1={
-	liege="d_tigris"
+822.10.10 = {
+	holder = 1230526
 }
-866.1.1={
-	holder = 34015
+849.10.10 = {
+	holder = 1230509
 }
-869.1.1={
-	liege = 0
+850.10.10 = {
+	holder = 1230528
+}
+851.10.10 = {
+	holder = 163160
+}
+#867.11.11 = {
+#	holder = 163160
+#}
+869.7.7 = {
+	holder = 163161
+}
+879.7.7 = {
+	holder = 163160
+}
+884.7.7 = {
+	holder = 163100
+}
+890.7.7 = {
+	holder = 163160
+}
+892.10.1 = {
+	holder = 34018
+}
+902.1.1 = {
+	holder = 34019
+}
+908.1.1 = {
+	holder = 34021
+}
+932.1.1 = {
+	holder = 34020
+}
+934.1.1 = {
+	holder = 34022
 }
 936.1.1 = {
-	holder = 261006
+	liege = d_samarra
+	holder = 261009 #Ibn-Muqla, Vizier of the Caliphate before Ibn-Raiq's takeover in November
+}
+936.4.1 = {
+	holder = 1234891 #Abd Allah ibn al-Jarrah
+}
+936.7.1 = {
+	holder = 1900821 #Sulayman ibn al-Jarrah
+}
+945.1.1 = {
 	liege = d_baghdad
+	holder = 1231064
 }
-1066.1.1=
-{
-	liege="d_basra"
+967.4.8 = {
+	holder = 1231067
 }
-1066.1.1=
-{
-	holder = 93319
+978.1.1 = {
+	holder = 1231065
 }
-1072.1.1=
-{
-	holder = 93320
+983.3.3 = {
+	holder = 1231070
 }
-1074.1.1=
-{
-	holder = 93321
+987.1.1 = {
+	holder = 1231071
 }
-1093.1.1=
-{
-	holder = 93322
+989.6.9 = {
+	holder = 1231072
 }
-1102.1.1=
-{
-	holder = 93323
+1012.12.22 = {
+	holder = 1231074
 }
-1105.1.1=
-{
-	holder = 93324
+1021.1.1 = {
+	holder = 1231076
 }
-1130.1.1=
-{
-	holder = 93325
+1025.5.5 = {
+	holder = 1231074
 }
-1135.1.1=
-{
-	holder = 93323
+1044.3.3 = {
+	holder = 1231078
 }
-1142.1.1=
-{
-	holder = 93326
+1048.10.10 = {
+	holder = 1231079
 }
-1152.1.1=
-{
-	holder = 93327
+1050.1.1 = {
+	liege = k_mesopotamia
 }
-1157.5.8=
-{
+1055.12.18 = {
+	liege = e_persia
+	holder = 1231100
+}
+1097.1.1 = {
+	liege = e_persia
+	holder = 144013
+}
+1104.12.22 = {
+	holder = 144014
+}
+1118.4.18 = {
+	holder = 144043
+}
+1131.1.1 = {
+	holder = 144048
+}
+1132.1.1 = {
+	holder = 144050
+}
+1134.11.1 = {
+	holder = 144049
+}
+1148.1.1 = {
+	liege = d_baghdad
 	holder = 144062
 }
-1160.1.1=
-{
+1160.1.1 = {
 	holder = 144063
 }
-1170.1.1=
-{
+1170.1.1 = {
 	holder = 144064
 }
-1180.1.1=
-{
+1180.1.1 = {
 	holder = 227000
 }
-1220.1.1 = {
-	holder = 93334
-}
-1225.1.1=
-{
+1225.1.1 = {
 	holder = 34027
 }
-1226.1.1=
-{
+1226.1.1 = {
 	holder = 34028
 }
-1242.1.1=
-{
+1242.1.1 = {
 	holder = 34029
 }
-1258.2.20=
-{
-	holder = 93328
+1258.2.20 = {
+	holder = 217307
 }
-1262.1.1=
-{
-	holder = 93329
+1262.1.1 = {
+	holder = 1230398 # Ala al-Din Ata-Malik Juvayni
 }
-1283.1.1=
-{
+1283.3.5 = {
+	holder = 1230399
+}
+1286.7.16 = {
 	holder = 125522
 }
-1295.8.2=
-{
+1289.1.1={
+	holder = 248132 # brother of Sa'ad al-Dawla
+}
+1292.1.1 = {
+	holder = 125522
+}
+1295.10.4 = {
 	holder = 93330
 }
-1317.1.1=
-{
+1317.1.1 = {
 	holder = 93307
 }
-1330.1.1=
-{
+1330.1.1 = {
 	holder = 478040
 }

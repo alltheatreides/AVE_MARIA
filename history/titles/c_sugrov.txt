@@ -1,89 +1,109 @@
-764.1.1={
-	liege = "k_magyar"
-	holder = 146228
+# -*- ck2.history.titles -*-
+
+#769.1.1 = {
+#	liege = k_magyar
+#	holder = 159138
+#}
+#825.1.1 = {
+#	holder = 1233320
+#}
+845.1.1 = {
+	liege = k_magyar
+	holder = 159137
 }
-810.1.1={
-	holder = 146229
+# Yazi-Qapan
+893.1.1 = {
+	liege = d_yazi_qapan
+	holder = 1231820 # Yazi, chief of Yazi-Qapan at the time of the 893 expulsion
 }
-833.1.1={
-	liege=d_sarkel
-	holder = 74022
+932.1.1 = {
+	liege = d_boru_tolmach
+	holder = 1231802
 }
-847.1.1={
-	holder = 74023
+965.1.1 = {
+	holder = 1231804
 }
-852.1.1={
-	holder = 74024
+# Suru-Külbej. Sarkel falls and Boru-Tolmach migrates to their propper location.
+966.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231768
 }
-864.1.1={
-	holder = 180226
+970.1.1 = {
+	holder = 1231769
 }
-867.1.1={
-	holder = 256057
-	liege = d_novgorod_seversk
+989.1.1 = {
+	holder = 1231771
 }
-889.1.1={
-	holder = 74026
+1015.1.1 = {
+	holder = 1231774
 }
-899.1.1={
-	holder = 146187
+1017.1.1 = {
+	holder = 1231776 # Bilter
 }
-936.1.1 = {
-	holder = 260703
-	liege = d_sarkel
+1034.1.1 = {
+	holder = 1231778 # Tiraq
 }
-969.1.1={
-	liege=0
+#1040.1.1 = {
+#	liege = d_suru_kulbej
+#}
+# Oghuz takes over
+1044.1.1 = {
+	liege = d_tekule
+	holder = 1231951
 }
-1060.1.1=
-{
-liege="d_sarkel"
+# Cumans arrive
+# Burçali
+1060.1.1 = {
+	liege = d_burchali
+	holder = 1233152
 }
-1060.1.1=
-{
-holder = 806
+1083.1.1 = {
+	holder = 1233154
 }
-1110.1.1=
-{
-holder = 90143
+1096.1.1 = {
+	holder = 1233156 # Kitanopa
 }
-1120.1.1=
-{
-holder = 125401
+1103.4.1 = {
+	holder = 1233158
 }
-1146.1.1=
-{
-holder = 125402
+1163.1.1 = {
+	holder = 1233160
 }
-1183.1.1=
-{
-holder = 228030
+1183.1.1 = {
+	holder = 1233162 # Kopti
 }
-1203.1.1=
-{
-holder = 125403
+1218.1.1 = {
+	holder = 1233164
 }
-1223.1.1=
-{
-holder = 125404
+1230.1.1 = {
+	holder = 1233166
 }
-1238.1.1=
-{
-holder = 34851
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1262.1.13=
-{
-holder = 34903
+1255.1.2 = {
+	holder = 125505
 }
-1280.1.1=
-{
-holder = 34904
+1256.1.2 = {
+	holder = 125506
 }
-1285.1.1=
-{
-holder = 34906
+1257.1.2 = {
+	holder = 125504
 }
-1305.1.1=
-{
-holder = 34909
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
 }

@@ -1,34 +1,58 @@
-752.1.1={
-	holder = 256056
+# -*- ck2.history.titles -*-
+
+# Fictional Qangar Khans.
+20.1.1 = {
 	historical_nomad = yes
-	set_tribute_suzerain = {
-		who = k_khazaria
-		type = nomadic
-	}
 }
-860.1.1={
-	holder = 180174
+730.1.1 = {
+	holder = 1231700
 }
-936.1.1 = {
-	clear_tribute_suzerain = k_khazaria
-	holder = 260694
+750.1.1 = {
+	holder = 1231702
 }
-1058.1.1=
-{
-	holder = 20635
+790.1.1 = {
+	holder = 1231704
 }
-1091.1.1=
-{
-	holder = 34808
+830.1.1 = {
+	holder = 1231706
 }
-1110.1.1=
-{
-	holder = 34809
+870.1.1 = {
+	holder = 1231740 # Qorqutay, cheif of Qabuqsin-Yula at the time of expulsion from Yaik.
 }
-1145.1.1=
-{
-	holder = 34810
+#893.1.1 = {
+#	holder = 0 # Defeated by Oghuz and Khazars.There were no khans, but only princes at the time of expulsion.
+#}
+914.1.1 = {
+	holder = 1231742
 }
-1171.1.1 = {
-	holder = 0
+940.1.1 = {
+	holder = 1231744
+}
+942.1.1 = {
+	holder = 1231745
+}
+956.1.1 = {
+	holder = 1231747 # Kurya/Küre
+}
+1000.1.1 = {
+	holder = 1231749
+}
+1035.1.1 = {
+	holder = 1231751
+}
+# The east united under Tiraq.
+1040.1.1 = {
+	holder = 1231778 # Tiraq
+}
+1069.1.1 = {
+	holder = 1231756 # Tzegul
+}
+1087.6.1 = {
+	holder = 1231780 # Tatus/Tatos/Tatrys
+}
+1091.4.29 = {
+	holder = 1231834 # Osul
+}
+1094.1.1 = {
+	holder = 0 # North Danubian Pechenegs subdued
 }

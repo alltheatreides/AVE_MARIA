@@ -1,119 +1,163 @@
-760.1.1={
-	holder = 200230 # Abd al-Malik Djazairid
-	liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+756.3.16 = {
+	liege = d_cordoba
+	holder = 73679
 }
-781.1.1={
-	holder = 200232 # Ya'qub Djazairid
+788.10.7 = {
+	holder = 73680
 }
-816.1.1={
-	holder = 73681 # al-Hakam I Umayyad
+796.6.12 = {
+	holder = 73681
 }
-822.5.21={
-	holder = 73682 # Abd al-Rahman II Umayyad
+822.5.21 = {
+	holder = 73682
 }
-848.1.1={
-	holder = 73943 # Nayih Nayihid
+#Maysara, governor of Jaen in 825
+852.9.22 = {
+	holder = 73683
 }
-889.1.1={
-	holder = 73947 # Hafs Nayihid
+867.1.1 = {
+	holder = 1235143
 }
-925.1.1={
-	holder = 3200 # Abd al-Rahman III Umayyad
+886.1.1 = {
+	holder = 73684
 }
-961.10.15={
-	holder = 3202 # al-Hakam II Umayyad
+888.6.24 = {
+	holder = 73685
 }
-976.10.16={
-	holder = 3204 # Hisham II Umayyad
+912.10.15 = {
+	holder = 3200
 }
-1009.2.15={
-	holder = 73671 # Muhammad II Umayyad
+961.10.15 = {
+	holder = 3202
 }
-1009.11.1={
-	holder = 73675 # Suleyman Umayyad
+976.10.16 = {
+	holder = 3204
 }
-1010.5.10={
-	holder = 73671 # Muhammad II Umayyad
+1009.2.15 = {
+	holder = 73671
 }
-1010.7.23={
-	holder = 3204 # Hisham II Umayyad
+1009.11.1 = {
+	holder = 73675
 }
-1012.1.1={
+1010.5.10 = {
+	holder = 73671
+}
+1010.7.23 = {
+	holder = 3204
+}
+1012.1.1 = {
+	liege = d_granada
 	holder = 45014 # Zawi Zirid
-	liege=d_granada
 }
-1019.1.1={
+1019.1.1 = {
 	holder = 45015 # Habud Zirid
 }
-1038.1.1={
+1038.1.1 = {
 	holder = 45016 # Badis Zirid
 }
-1073.1.1={
-	holder = 32952 # Abdallah Zirid
+1070.1.1 = {
+	liege = d_sevilla
+	holder = 3214
 }
-1090.1.1={
-	holder = 224017 # Ya'qub Malaqid
-	liege=k_mauretania
+1081.1.1 = {
+	liege = d_cordoba
+	holder = 73214
 }
-1118.1.1={
-	holder = 73261 # Ibrahim Hishamid
+1091.1.1 = {
+	holder = 155080
 }
-1144.1.1={
-	holder = 73259 # Ya'far Adhavid
+1102.10.1 = {
+	holder = 464010
 }
-1145.1.1={
-	liege=d_granada
+1115.1.1 = {
+	holder = 1600591 # Abu Bakr b. Yahya b. Tashfin
 }
-1145.7.1={
-	holder = 73181 # Ahmad Hudid
+1119.1.1 = {
+	holder = 224025
 }
-1146.1.1={
-	holder = 73259 # Ya'far Adhavid
-	liege=k_mauretania
+1122.1.1 = {
+	holder = 32967 # Tamim b. Yusuf b. Tashfin
 }
-1147.1.1={
-	holder = 73241 # Muhammad Mardanishid
-	liege=d_murcia
+1127.1.1 = { #?
+	holder = 224025
 }
-1172.1.1={
-	holder = 224015 # Ya'qub Bilalid
-	liege=k_mauretania
+1132.1.1 = {
+	holder = 32971
 }
-1178.1.1={
-	holder = 224016 # Abd al-Malik Gharnatid
+1138.1.1 = {
+	holder = 224025 #?
 }
-1200.1.1={
-	holder = 73617 # Tariq Sebatid
+1145.1.1 = {
+	holder = 155072 # Yahya Massufid
 }
-1228.1.1={
-	holder = 73625 # Muhammad Hudid
-	liege=d_murcia
+1148.1.1 = {
+	liege = 0
 }
-1232.1.1={
+1149.1.1 = {
+	liege = d_cordoba
+	holder = 224001
+}
+1158.1.1 = {
+	liege = 0
+	holder = 1235101 #Ibrahim b. Hamushk
+}
+1169.1.1 = { #Ibrahim b. Hamushk hands in Jaen to the Almohads
+	liege = d_cordoba
+	holder = 155086 # Abu Sa'id 'Uthman b. Abd al-Mu'min ca. 1167
+}
+1173.1.1 = {
+	holder = 1230051 #?
+}
+1183.1.1 = {
+	holder = 1230057 # Abu Yahya b. Abu Ya'qub Yusuf
+}
+1188.1.1 = {
+	holder = 1230028 # Abu Yusuf Ya'qub b. Abi Hafs by 1189
+}
+1191.1.1 = {
+	holder = 73615
+}
+1208.1.1 = {
+	holder = 73616
+}
+1213.1.1 = {
+	holder = 32985 # Abu 'l-Ala/Ula b. Abu Yusuf Ya'qub ca. 1213
+}
+1223.1.1 = {
+	holder = 32985 # Idris (future al-Ma'mun) during Abd al-Wahid's reign
+}
+1224.3.1 = {
+	holder = 1230017 # Abu Muhammad Abd Allah al-Bayasi
+}
+1226.6.1 = {
+	holder = 1230019 # Abu 'l-Rabi
+}
+1229.1.1 = {
+	liege = d_murcia
+	holder = 73625
+}
+1232.1.1 = {
+	liege = 0
 	holder = 73651 # Muhmmad I Nasrid
 }
-1237.1.1={
-	liege=d_granada
+1237.1.1 = {
+	liege = d_granada
 }
-1246.1.1={
-	liege = "d_knights_calatrava"
-	holder = 73160 # Fernando Ordóñez
+1246.1.1 = {
+	liege = d_cordoba
+	holder = 457620
 }
-1254.1.1={
-	holder = 73161 # Pedro Yáñez
+1252.5.30 = {
+	holder = 457540
 }
-1267.1.1={
-	holder = 72690 # Juan González de Aza
+1284.4.4 = {
+	holder = 457530
 }
-1285.1.1={
-	holder = 73085 # Rodrigo Ponce de León
+1295.4.25 = {
+	holder = 457520
 }
-1295.1.1={
-	holder = 73162 # Diego López de Santsoles
-}
-1296.1.1={
-	holder = 73163 # García López de Padilla
-}
-1322.1.1={
-	holder = 457015 # Juan Núñez de Prado
+1312.9.7 = {
+	holder = 457500
 }

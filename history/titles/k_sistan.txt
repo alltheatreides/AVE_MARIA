@@ -1,0 +1,65 @@
+# -*- ck2.history.titles -*-
+
+#861.1.1 = {
+#	holder = 163101
+#}
+879.6.5 = {
+	holder = 163164
+}
+901.1.1 = {
+	holder = 0
+	de_jure_liege = e_null
+}
+# Ghaznavids
+#1059.1.1 = {
+#	holder = 144133 # Ibrahim
+#}
+#1099.1.1 = {
+#	holder = 144134 # Masud II
+#}
+#1115.1.1 = {
+#	holder = 144135 # Shirzad
+#}
+#1115.6.1 = {
+#	holder = 144136 # Arlsan Shah
+#}
+#1118.1.1 = {
+#	holder = 144137 # Bahram Shah
+#	set_tribute_suzerain = { # Ghaznavid vassalage under Seljuks
+#		who = e_persia
+#		type = permanent
+#	}
+#}
+#1152.1.1 = {
+#	holder = 144138 # Khusraw Shah
+#}
+#1153.1.1 = {
+#	clear_tribute_suzerain = e_persia
+#	holder = 0
+#}
+# Ghurids
+1183.1.1 = {
+	holder = 144141
+}
+1186.1.1 = {
+	liege = e_rajastan
+}
+1203.1.1 = {
+	holder = 1230332
+}
+1206.3.15 = {
+	liege = 0
+	holder = 144143
+}
+1212.1.1 = {
+	holder = 93144
+}
+1213.1.1 = {
+	holder = 93145
+}
+1214.1.1 = {
+	holder = 1230332
+}
+1215.1.1 = {
+	holder = 0
+}

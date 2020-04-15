@@ -1,94 +1,73 @@
-750.1.1={
-	liege=d_kabul
-	holder = 188565 # Surendravirkramaditya Nandin of Kabul Shahi
-}
+# -*- ck2.history.titles -*-
 
-866.1.1={
-	holder = 175060 # Kallar Shahi
+867.1.1 = {
+	liege = d_kabul
+	holder = 175060
 }
-936.1.1 = {
-	liege=d_gandhara
-	holder = 261033
+895.1.1 = {
+	holder = 1231300
 }
-961.1.1={
-	liege=d_kabul
-	holder = 170303 #Took Ghazna from Lawiks
+900.1.1 = {
+	holder = 1240015
 }
-975.1.1={
-	holder = 170304
+921.1.1 = {
+	holder = 1240016
 }
-977.1.1 = {
-	holder = 144123
+962.9.1 = {
+	liege = d_zabulistan
+	holder = 170303 # Took Ghazna from Lawiks
 }
-997.1.1={
-	holder = 144124
+970.1.1 = {
+	holder = 1230379
 }
-998.1.1={
-	holder = 144125
+1014.1.1 = {
+	holder = 1230380
 }
-1030.1.1={
-	holder = 144126
+1032.2.1 = {
+	holder = 1230350
 }
-1031.1.1={
-	holder = 144127
+1040.1.1 = {
+	liege = d_balkh
 }
-1041.1.1={
-	holder = 144128
+1041.3.1 = {
+	liege = d_zabulistan
 }
-1050.1.1={
-	holder = 144129
+1043.1.1 = {
+	holder = 1230351
 }
-1050.6.1={
-	holder = 144130
+1115.1.1 = {
+	holder = 1230352
 }
-1050.9.1={
-	holder = 144131
+1136.1.1 = {
+	holder = 1230353
 }
-1053.1.1={
-	holder = 144132
+1163.1.1 = {
+	liege = d_ghuzz
+	holder = 1230154
 }
-1059.1.1={
-	holder = 144133
-}
-1099.1.1={
-	holder = 144134
-}
-1115.1.1={
-	holder = 144135
-}
-1115.6.1={
-	holder = 144136
-}
-1118.1.1={
-	holder = 144137
-}
-1152.1.1={
-	holder = 144138
-}
-1160.1.1={
-	holder = 144139
-}
-1173.1.1={
+1173.1.1 = {
+	liege = d_zabulistan
 	holder = 144142
 }
-1206.3.15={
+1206.3.15 = {
 	holder = 170302
 }
-1216.2.15={
-	holder = 93052
-	liege=k_persia
+1215.1.1 = {
+	holder = 93053
+	#liege = k_persia
 }
-1220.1.1 = {
-	holder = 194302
+1222.1.1 = {
+	liege = e_mongol_empire
+	holder = 125501
 }
-1221.1.1={
-	holder = 93053 # flees to Ghazna and forms a new army
+1227.12.2 = {
+	holder = 172005
+}
+1231.1.1 = {
 	liege = d_kabul
-}
-1222.1.1={
 	holder = 248193
 }
-1253.1.1={
+1241.12.22={
 	holder = 248194
 }
 1263.1.1={
@@ -97,12 +76,6 @@
 1280.1.1={
 	holder = 248196
 }
-1298.1.1={
+1300.1.1={
 	holder = 248191 # Somewhere around this time Qutlugh-Khoja moved here
-}
-1314.1.1={
-	holder = 248199 # Ilkhanate conquers area, installs Yasaur
-}
-1320.1.1={
-	holder = 248191 # Kebek takes back control of the area
 }

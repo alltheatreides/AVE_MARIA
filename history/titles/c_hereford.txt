@@ -1,124 +1,138 @@
-#Ergyng
-420.1.1={
-	holder = 252285 # Amlawdd Wledig
+# -*- ck2.history.titles -*-
+
+# Hwicce
+779.1.1 = {
+	liege = d_hereford
+	holder = 1226312 # Ingel Ealdorman of Hwicce 779ish-793
 }
-474.1.1={
-	holder = 252286 # Gwrfoddw Hen
+793.1.1 = {
+	holder = 1226313 # Æthelmund Ealdorman 793ish-802
 }
-480.1.1={
-	holder = 159828 # Glywys
+802.1.1 = {
+	holder = 1226315 # 1226391  Ealdorman 802-805ish
 }
-498.1.1={
-	holder = 159829 # Dyfwn
+805.1.5 = {
+	holder = 1226398 # Coenwulf king of Mercia 796(december)-821, makes himself Eladorman.
 }
-508.1.1={
-	holder = 159824 # Meurig ap Caradog of Gwent
+821.1.1 = {
+	holder = 1226392 # Ceolwulf I king of Mercia 821-823
 }
-550.1.1={
-	holder = 159825 # Erbic ap Meurig
+#823.10.18 = {
+#	holder = 1226396 # Beornwulf king of Mercia 823-826
+#}
+826.1.1 = {
+	holder = 1226397 # Ludeca king of Mercia 826-827
 }
-570.1.1={
-	holder = 159830 # Erb ap Erbic
+827.1.1 = {
+	holder = 1226398 # Wiglaf king of Mercia 827-829 and 830-839
 }
-590.1.1={
-	holder = 159961 # Pebiau Clafrog
+839.1.1 = {
+	holder = 1226200 # Wigmund king of Mercia 839-840, was Principes of Hwicces.
 }
-610.1.1={
-	holder = 159962 # Cynfyn ap Pebiau
+840.1.1 = {
+	holder = 1226201 # Wigstan king of Mercia 840
 }
-615.1.1={
-	holder = 252283 # Gwrfoddw
+840.6.1 = {
+	holder = 0
 }
-619.1.1={
-	holder = 159963 # Gwrgant Fawr
+851.1.1 = {
+	holder = 1226333 # Æthelred lord of the Mercians 883-911
 }
-650.1.1={
-	liege=d_gwent
-	holder = 159833 # Meurig ap Tewdrig of Gwent
+879.1.1 = {
+	liege = 0
 }
-665.1.1={
-	holder = 159835 # Arthwys
+883.1.1 = {
+	liege = d_somerset
 }
-680.1.1={
-	holder = 159116 # Morgan
+911.1.1 = {
+	holder = 252377 # Æthelfled I lady of the Mercians 911-918
 }
-710.1.1={
-	holder = 159115 # Ithel
+918.6.12 = {
+	holder = 252380 # Ælfwynn lady of the Mercians 12th june 918 - december 918
 }
-740.1.1={
-	liege=d_gwent
-	holder = 159113 # Brochfael
+918.12.1 = {
+	holder = 33350 # Æthelstan Ealdorman of Mercia 918-924(and 16 days as king of Mercia)
 }
-852.1.1={
-	de_jure_liege = d_hereford
+927.7.12 = {
+	liege = k_england
+}
+#4 extra years added as a placeholder
+936.1.1 = {
+	holder = 1226356 # Ealhhelm Ealdorman of south west Mercia 940-955
+}
+955.1.5 = {
+	holder = 1226389 # Eadric Ealdorman of Magonsæte ?-1010
+}
+1004.10.22 = {
+	liege = k_england
+}
+1007.1.1 = {
 	liege = d_hereford
 }
-852.1.1={
-	holder = 163102
+1010.10.18 = {
+	holder = 1226316 # Leofwine Ealdorman of Hwicce 997-1023
 }
-936.1.1 = {
-	holder = 260528
+1023.1.1 = {
+	holder = 5640 # Leofric earl of Mercia 1017-1057
 }
-1052.1.1={
-	holder = 40418
+1043.1.1 = {
+	holder = 128 # Swegen, Earl of Hereford (Not Mercia), english history hates the de jure system
+	liege = k_england
 }
-1057.1.1={
-	liege="d_lancaster"
+1051.9.1 = {
+	holder = 1226321 # Odda of Deerhurst
 }
-1057.1.5={
-	holder = 5644 #Eadwin
+#1051.9.1 = {
+#	holder = 5640 # Leofric earl of Mercia 1017-1057
+#}
+1058.1.1 = {
+	holder = 122 #Harold Godwinson
 }
-1066.10.14={
-	liege="k_england"
+1066.10.14 = {
+	holder = 6806 # William de Crepon
 }
-1066.10.14={
-	holder = 6806 #William de Crepon
+1071.2.22 = {
+	holder = 6807 # Roger de Crepon
 }
-1071.2.22={
-	holder = 6807 #Roger de Crepon
+1074.1.1 = {
+	holder = 110637 # Raoul de Tosny, Baron of Clifford
 }
-1074.1.1={
-	holder = 140 #William the Conqueror
+1102.3.24 = {
+	holder = 1230877 # Richard FitzPons. At an unknown date before 1127, the Barony of Clifford passed to Richard FitzPons. Giving him the Barony early.
 }
-1087.9.9={
-	holder = 146 #William II Rufus
+1129.1.1 = {
+	holder = 1230878 # Walter Clifford, son of Richard FitzPons, Baron of Clifford
 }
-1100.8.3={
-	holder = 202992 #Henry I
+1141.1.1 = {
+	holder = 204622 # Miles of Gloucester
 }
-1135.12.2={
-	holder = 205851 #Stephen
+1143.12.23 = {
+	holder = 7461 # Roger of Gloucester
 }
-1141.1.1={
-	holder = 204622 #Miles of Gloucester
+1155.9.22 = {
+	holder = 204500 # Henry II
 }
-1143.12.23={
-	holder = 7461 #Roger of Gloucester
+1189.7.6 = {
+	holder = 204510 # Richard I Lionheart
 }
-1155.9.22={
-	holder = 204500 #Henry II
+1199.4.6 = {
+	holder = 204514 # John
 }
-1189.7.6={
-	holder = 204510 #Richard I Lionheart
+1199.6.1 = {
+	holder = 204600 # Henry de Bohun
 }
-1199.4.6={
-	holder = 204514 #John
+1220.6.1 = {
+	holder = 7462 # Humphrey de Bohun
 }
-1199.6.1={
-	holder = 204600 #Henry de Bohun
+1275.9.24 = {
+	holder = 7463 # Humphrey de Bohun
 }
-1220.6.1={
-	holder = 7462 #Humphrey de Bohun
+1298.12.31 = {
+	holder = 454561 # Humphrey de Bohun
 }
-1275.9.24={
-	holder = 7463 #Humphrey de Bohun
+1321.11.6 = {
+	holder = 7464 # John of Bohun
 }
-1298.12.31={
-	holder = 454561 #Humphrey de Bohun
-}
-1321.11.6={
-	holder = 7464 #John of Bohun
-}
-1335.1.20={
-	holder = 454560 #Humphrey de Bohun
+1335.1.20 = {
+	holder = 454560 # Humphrey de Bohun
 }

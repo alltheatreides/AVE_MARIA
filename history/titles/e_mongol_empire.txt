@@ -1,22 +1,25 @@
-20.1.1={
-	active = no
+# -*- ck2.history.titles -*-
+
+20.1.1 = {
 	historical_nomad = yes
+	active = no
 }
 1066.1.1 = {
 	law = agnatic_succession
 	law = succ_ultimogeniture
 }
-1206.1.1 = {
-	holder = 125501
+1217.1.1 = {
 	active = yes
-	set_global_flag = mongol_horde_rumors
-	set_global_flag = golden_horde_arrival
-	set_global_flag = il_khanate_arrival
+	holder = 125501
 	set_global_flag = mongol_empire_arrival
+}
+1221.1.1 = {
 	set_global_flag = mongol_horde_united
 }
-1227.12.2=
-{
+1227.12.2 = {
+	holder = 172005
+}
+1234.2.10 = {
 	holder = 0
 	active = no
 }

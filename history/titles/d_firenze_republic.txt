@@ -1,0 +1,256 @@
+# -*- ck2.history.titles -*-
+
+#Florentine republic
+1167.9.12 = { #Death of Welf VII
+	law = succ_feudal_elective
+    liege=e_hre
+	holder = 1065421 # Truffetto dei Fifanti, consul of Firenze 1172
+}
+1170.1.1 = {
+	holder = 1065434 # Ormanno Caponsacchi, consul of firenze 1172
+}
+1172.8.26 = {
+    liege= k_italy
+}	
+1173.1.1 = {
+	holder = 1065397 # Amideus Amidei, consul of Firenze 1174
+}
+1174.1.1 = {
+	holder = 1065422 # Oderico dei Fifanti, consul of Firenze 1174
+}
+1175.1.1 = {
+	holder = 1065087 # Guido Borgognone di Capria(Alberti), consul of Firenze 1174
+}
+1176.1.1 = {
+	holder = 1065435 # Berlengario Caponsacchi, consul of Firenze 1176
+}
+1177.1.1 = {
+	holder = 1065249 # Schiatta Uberti, leader of the ghibelines of Firenze 1177
+}
+1180.1.1 = {
+	holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+}
+1181.1.1 = {
+	holder = 1065399 # Bongianni Amidei, son of Amideus  consul of Firenze 1182
+}
+1183.1.1 = {
+	holder = 1065411 # Donato Donati, consul of Firenze 1174 and 1183
+}
+1184.1.1 = {
+	holder = 1065251 # Giovanni Uberti, consul of Firenze 1184
+}
+1186.1.1 = {
+	holder = 1065423 # Ugolino dei Fifanti, consul of Firenze 1186
+}
+1187.1.1 = {
+	holder = 1065431 # Caponsacco Caponsacchi, consul of Firenze 1187
+}
+1189.1.1 = {
+	holder = 1065252 # Tignosino Uberti, consul of Firenze 1189
+}
+1191.1.1 = {
+	holder = 1065253 # Schiatta II Uberti, consul of Frienze 1191 and 1197
+}
+1192.1.1 = {
+	holder = 1065424 # Chianni dei Fifanti, consul of Firenze 1192
+}
+1193.1.1 = {
+	holder = 1065436 # Gherardo Caponsacchi, podesta of Firenze 1193, consul of Firenze 1196, Camerlingo of Firenze 1224
+}
+1194.1.1 = {
+	holder = 1065443 # Catalano della Tosa, consul of Firenze 1194
+}
+1195.1.1 = {
+	holder = 1065250 # Uberto Uberti, consul of Firenze in 1180 and 1194
+}
+1196.1.1 = {
+	holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+}
+1197.1.1 = {
+	holder = 1065280 # Uguccione Gherardini, consul of Firenze 1197 and 1198
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}
+1199.1.1 = {
+	holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+}
+1200.1.1 = {
+	holder = 1065348 # Paganello di Montemagno(Fraolmi), podesta of firenze 1200-1201
+}
+1202.1.1 = {
+	holder = 1065254 # Ranieri Uberti, consul of Firenze 1202
+}
+1203.1.1 = {
+	holder = 1065412 # Vinciguerra Donati, consul of Firenze 1204
+}
+1204.1.1 = {
+	holder = 1065255 # Guido Uberti, consul of Frienze 1204
+}
+1205.1.1 = {
+	holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Firenze 1205, 1212 and 1249
+}
+1213.1.1 = {
+	holder = 1062428 # Uguccio di Pietroleoni podesta of Firenze 1213
+}
+1218.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1218
+}
+1219.1.1 = {
+	holder = 1064818 # Alberto da Mandello, podesta of Firenze 1219
+}
+1222.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1230	
+}
+1236.1.1 = {
+	holder = 1062129 # Bernardo Rossi podesta of Firenze 1236
+}
+1237.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello, podesta of Firenze 1237
+}
+1239.1.1 = {
+	holder = 1062093 # Guido da Sesso podesta of Firenze 1239
+}
+1241.1.1 = {
+	holder = 1064657 # Goffredo di Langosco(Lomello), imperial vicar of firenze 1241 and 1242
+}
+1243.1.1 = {
+	holder = 1062142 # Ugolino Rossi, podesta of Firenze 1243
+}
+1244.1.1 = {
+	holder = 1062129 # Bernardino Rossi, podesta of Firenze 1244
+}
+1245.1.1 = {
+	holder = 1065257 # Manente/Farinata Uberti, leader of the ghibelines of Firenze 1239-1250
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1248.1.1 = {
+    liege=k_tuscan_league # Friedrich von Antiochia expelled from Firenze
+}
+1248.1.1 = {
+	holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+}
+1250.12.13 = {
+    liege=0
+}
+1255.1.1 = {
+	holder = 70754 # Alamanno della Torre, podesta of Firenze 1255-56
+}
+1256.6.1 = {
+	holder = 1065243 # Tegghiao Boundelmonti, consiglieri of Firenze 1256
+}
+1257.1.1 = {
+	holder = 1062029 # Matteo III da Correggio, podesta of Firenze 1257
+}
+# Danese Crivelli, podesta of Firenze 1259
+1260.1.1 = {
+	holder = 1062120 # Jacopino II Rangoni consul of Firenze 1260
+}
+1261.1.1 = {
+	holder = 1091018 # Guido-Novello di Modigaliana(Guidi), imperial vicar of Firenze 1260-62
+}
+1263.1.1 = {
+	holder = 1061151 # Napoleone degli Alberti, podesta of Firenze 1266
+}
+1267.1.1 = {
+	holder = 73595 # Malatesta da Verucchio podesta of Firenze 1268
+}
+1269.1.1 = {
+	holder = 144183 # Guy de Montfort, podesta of Firenze 1270
+}
+1274.1.1 = {
+	holder = 1061419 # Guido III M.S.M/Guido di Valiano di Montemigiano, podesta of Firenze 1275
+}
+#Corrado da Palazzo, podesta of Firenze 1276
+1277.1.1 = {
+	holder = 1064460 # Teseo/Tedisio di Sanvitale, guelph vicar/podesta of Firenze 1278
+}
+1280.1.1 = {
+	holder = 1065245 # Albizzone Boundelmonti, consul of Firenze 1278
+}
+1281.1.1 = {
+	holder = 1064831 # Matteo/Maffeo Maggi, podesta of Firenze 1281
+}
+1282.1.1 = {
+	holder = 1064832 # Bartolommeo Maggi, podesta of Firenze 1284
+}
+1286.1.1 = {
+	holder = 1061965 # Matteo da Fogliano, podesta of Frienze 1286
+}
+1289.1.1 = {
+	holder = 1062847 # Rofus/Rosso Gabrielli, podesta of Firenze 1290
+}
+1291.1.1 = {
+	holder = 1065078 # Amerigo di Porciano(Guidi), podesta of Firenze 1291?
+}
+1293.1.1 = {
+	holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+}
+1294.1.1 = {
+	holder = 1065140 # Lamberto degli Abati(Ubertini) di Gaville, podesta of Firenze 1294?
+}
+1295.1.1 = {
+	holder = 1065417 # Corso Donati, leader of the black gulphs of Firenze 1293-1306
+}
+1297.1.1 = {
+	holder = 1062849 # Cante Gabrielli, podesta of Firenze 1298 and 1300-1302
+}
+1303.1.1 = {
+	holder = 1065395 # Fulcieri Calboli, podesta of Firenze 1303, captiano generale of Firenze 1312
+}
+1304.1.1 = {
+	holder = 1091036 # Ruggieri di Dovadola(Guidi), podesta of Firenze 1304
+}
+1304.9.1 = {
+	holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+}
+1305.9.1 = {
+	holder = 1062857 # Bino Gabrielli, podesta of Firenze 1305 and 1306
+}
+1308.1.1 = {
+	holder = 1065393 # Pietro della Branca, podesta of Firenze 1308 and 1331
+}
+1309.1.1 = {
+	holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+}
+1311.1.1 = {
+	holder = 1061546 # Gentile da Varano, podesta of Firenze 1312
+}
+1311.1.6 = {
+    liege=k_tuscan_league
+}
+1312.6.1 = {
+	holder = 1061971 # Guido da Fogliano, podesta of Firenze from mid 1312
+}
+1313.8.24 = {
+	liege=0
+}
+1314.1.1 = {
+	holder = 1065455 # Averardo II de Bicci(Medici), Gonfaloniere of Firenze 1309,  capitano of the gulphs of Toscana and Romagana in 1314
+}
+1315.1.1 = {
+	holder = 1065070 # Guido di Battifolle(Guidi), imperial vicar of Firenze 1316.
+}
+1317.1.1 = {
+	holder = 1061976 # Guido Savino da Fogliano, podesta of Firenze in 1317-19
+}
+1319.1.1 = {
+	holder = 1065073 # Simone di Battifolle(Guidi), capitano generale of Firenze 1319
+}
+1322.1.1 = {
+	holder = 1062856 # Filippo Gabrielli, podesta of Firenze 1322
+}
+1323.1.1 = {
+	holder = 1065392 # Manno della Branca, podesta of Firenze 1304 and late 1323
+}
+1327.5.31 = {
+    liege=k_tuscan_league
+}
+1332.1.1 = {
+	holder = 1062855 # Jacopo Gabrielli, podesta of Firenze 1332
+}
+1350.1.1 = {
+	holder = 1062133 # Andreasio Rossi, podesta of Firenze 1350
+}

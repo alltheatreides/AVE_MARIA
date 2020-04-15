@@ -1,132 +1,91 @@
-769.1.1={
-	holder = 200020 # Suleyman Umayyad
-	liege=d_toledo
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+	holder = 73813
 }
-800.1.1={
-	holder = 73681 # al-Hakam I Umayyad
-	liege=k_andalusia
+866.1.1 = {
+	holder = 1235509 #fictional
 }
-822.5.21={
-	holder = 73682 # Abd al-Rahman II Umayyad
+#873 - Toledo submits to Cordoba
+903.1.1 = {
+	liege = d_toledo
+	holder = 73824
 }
-852.9.22={
-	holder = 73683 # Muhammad I Umayyad
+906.1.1 = {
+	holder = 73823
 }
-866.1.1={
-	holder = 73931 # Yusuf Qutamid
-	liege=d_toledo
+933.1.1 = {
+	holder = 1235123 # Ahmad b. Ya´la, Andalusian Mawali
 }
-903.1.1={
-	holder = 73824 # Mutarrif Qasid
-	liege=d_toledo
+956.1.1 = {
+	holder = 1235087 # Ghalib b. Abd al-Rahman al-Siqlabi
 }
-906.1.1={
-	holder = 73823 # Muhammad Qasid
+970.1.1 = {
+	holder = 1235142
 }
-907.1.1={
-	holder = 73685 # Abdallah Umayyad
-	liege=k_andalusia
+981.7.10 = {
+	holder = 3206 # Almanzor
 }
-912.10.15={
-	holder = 3200 # Abd al-Rahman III Umayyad
+1002.8.10 = {
+	holder = 1235054 # Abd-al-Malik al-Muzaffar, Almanzor's son and chosen successor
 }
-936.1.1 = {
-	holder = 3202
+1008.10.20 = {
+	holder = 73226 # Abd-ar-Rahman Sanchuelo, Succeeded his brother. His death started the ball rolling towards disaster for Andalus
 }
-937.1.1 = {
-	holder = 3200
+1009.3.3 = {
+	holder = 1235094 # Wadih al-Siqlabi
 }
-961.10.15={
-	holder = 3202 # al-Hakam II Umayyad
+1011.11.1 = {
+	holder = 1235026
 }
-976.10.16={
-	holder = 3204 # Hisham II Umayyad
+1027.1.1 = {
+	holder = 3922
 }
-1009.2.15={
-	holder = 73671 # Muhammad II Umayyad
+1043.1.1 = {
+	holder = 3924
 }
-1009.11.1={
-	holder = 73675 # Suleyman Umayyad
+1075.1.1 = {
+	holder = 3926
 }
-1010.5.10={
-	holder = 73671 # Muhammad II Umayyad
+1080.1.1 = {
+	holder = 3902
 }
-1010.7.23={
-	holder = 3204 # Hisham II Umayyad
+1081.1.1 = {
+	holder = 3926
 }
-1013.4.19={
-	holder = 73675 # Suleyman Umayyad
+1085.5.25 = {
+	holder = 108500
 }
-1016.7.1={
-	holder = 73687 # Ali Hammudid
+1109.6.30 = {
+	holder = 207660
 }
-1018.3.22={
-	holder = 73678 # Abd al-Rahman IV Umayyad
+1126.3.8 = {
+	holder = 207500
 }
-1018.6.1={
-	holder = 73689 # al-Qasim Hammudid
+1157.8.21 = {
+	holder = 207520
 }
-1021.1.1={
-	holder = 73690 # Yahya Hammudid
+1158.8.31 = {
+	holder = 207510
 }
-1023.2.1={
-	holder = 73689 # al-Qasim Hammudid
+1214.10.8 = {
+	holder = 70230
 }
-1023.12.2={
-	holder = 73672 # Abd al-Rahman V Umayyad
+1217.6.6 = {
+	holder = 457651
 }
-1024.1.1={
-	holder = 3922 # Isma'il Dhunnunid
-	liege=d_toledo
+1217.8.31 = {
+	holder = 457620
 }
-1043.1.1={
-	holder = 3924 # Yahya I Dhunnunid
+1252.5.30 = {
+	holder = 457540
 }
-1075.1.1={
-	holder = 3926 # Yahya II Dhunnunid
+1284.4.4 = {
+	holder = 457530
 }
-1080.1.1={
-	holder = 3902 # Muhammad Aftasid
-	liege=d_badajoz
+1295.4.25 = {
+	holder = 457520
 }
-1081.1.1={
-	holder = 3926 # Yahya II Dhunnunid
-	liege=d_toledo
-}
-1085.5.25={
-	holder = 108500 # Alfonso VI de Borgoï¿½a
-	liege=k_castille
-}
-1109.6.30={
-	holder = 207660 # Urraca Alfï¿½nsez de Borgoï¿½a
-}
-1126.3.8={
-	holder = 207500 # Alfonso VII de Borgoï¿½a
-}
-1157.8.21={
-	holder = 207520 # Sancho III de Borgoï¿½a
-}
-1158.8.31={
-	holder = 207510 # Alfonso VIII de Borgoï¿½a
-}
-1214.10.8={
-	holder = 70230 # Enrique I de Borgoï¿½a
-}
-1217.6.6={
-	holder = 457651 # Berenguela Alfï¿½nsez de Borgoï¿½a
-}
-1217.8.31={
-	holder = 457620 # Fernando III de Borgoï¿½a
-}
-1252.5.30={
-	holder = 457540 # Alfonso X de Borgoï¿½a
-}
-1284.4.4={
-	holder = 457530 # Sancho IV de Borgoï¿½a
-}
-1295.4.25={
-	holder = 457520 # Fernando IV de Borgoï¿½a
-}
-1312.9.7={
-	holder = 457500 # Alfonso XI de Borgoï¿½a
+1312.9.7 = {
+	holder = 457500
 }

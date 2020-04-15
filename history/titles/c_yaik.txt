@@ -1,68 +1,75 @@
-768.1.1={
-	liege = d_bashkirs
-	holder = 258087
-}
+# -*- ck2.history.titles -*-
 
-850.1.1={
-	liege="k_cuman"
-	holder = 180262
+825.1.1 = {
+	historical_nomad = yes
+	liege = k_pechenegs
+	holder = 1231704
 }
-936.1.1 = {
-	holder = 260701
-	liege = d_aqtobe
+830.1.1 = {
+	holder = 1231706
 }
-1066.1.1 = {
-	liege="d_sibir"
-	holder = 161730
+# Bula-Chopan
+#864.1.1 = {
+#	liege = d_bula_chopan
+#	holder = 1231839 # fictional father of Bota, cheif of Bula-Chopan at the time of expulsion from Yaik.
+#}
+# Pechengs expulsed by Oghuz and Khazars.
+# Uzlar
+893.1.1 = {
+	liege = k_uzes
+	holder = 1231862 # father of Etrek
 }
-1110.1.1=
-{
-holder = 161731
+910.1.1 = {
+	holder = 1231864 # Etrek
 }
-1140.1.1=
-{
-holder = 161732
+940.1.1 = {
+	holder = 1231867
 }
-1170.1.1=
-{
-holder = 161733
+955.1.1 = {
+	holder = 1231993
 }
-1200.1.1=
-{
-holder = 161734
+988.1.1 = {
+	holder = 1231994
 }
-1220.1.1=
-{
-holder = 161735
+# Cumans arrive
+1030.1.1 = {
+	liege = d_yimek
+	holder = 1233015
 }
-
-
-1227.1.1=
-{
-holder = 34912
-liege=e_golden_horde
+1060.1.1 = {
+	liege = d_ay_opa
+	holder = 1233047
 }
-1251.1.1=
-{
-holder = 34919
+1065.1.1 = {
+	holder = 1233049 # Kunui
 }
-1280.1.1=
-{
-holder = 34913
+1110.1.1 = {
+	holder = 1233051
 }
-1301.1.1=
-{
-holder = 34914
+1145.1.1 = {
+	holder = 1233053
 }
-1309.1.1=
-{
-holder = 34915
+1184.1.1 = {
+	holder = 1233055
 }
-1315.1.1=
-{
-holder = 34916
+1210.1.1 = {
+	holder = 1233057
 }
-1320.1.1=
-{
-holder = 34917
+1236.9.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+# Mongols put down revolt
+1241.12.11 = {
+	liege = d_yaik
+	holder = 34911
+}
+1260.1.1 = {
+	holder = 34904
+}
+1285.1.1 = {
+	holder = 125548
+}
+1310.1.1 = {
+	holder = 125549
 }

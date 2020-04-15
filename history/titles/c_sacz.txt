@@ -1,96 +1,97 @@
-750.1.1 = {
-	holder = 194089
-	liege = d_lesser_poland
-}
-799.1.1 = {
-	holder = 194090
-}
-822.1.1={
+# -*- ck2.history.titles -*-
+
+820.1.1 = {
+	liege = d_lendians
 	holder = 82258
 }
-860.1.1={
+860.1.1 = {
 	holder = 82262
 }
-922.1.1={
+932.1.1 = {
+	liege = d_lesser_poland
+	holder = 1601304 # Placeholder Vistulian
+}
+956.1.1 = {
+	liege = d_bohemia
 	holder = 82263
 }
-936.1.1={
-	liege = 0
-	set_tribute_suzerain = {
-		who = d_bohemia
-		type = permanent
-	}
-}
-970.1.2={
-	clear_tribute_suzerain = d_bohemia
-	liege="d_bohemia"
-}
-977.1.2={
+977.1.2 = {
+	liege = d_lendians
 	holder = 82264
 }
-999.7.1={
-	liege="k_poland"
+990.1.1 = {
+	liege = k_poland
+	holder = 756
 }
-1033.1.1={
-	holder = 82265
+999.7.1 = {
+	liege = d_lesser_poland
 }
-1061.1.1={
-	holder = 96098
+1025.6.17 = {
+	holder = 758
 }
-1071.8.22={
-	holder = 20388
+1031.1.1 = {
+	holder = 766
 }
-1079.5.11={
-	holder = 96099
+1032.1.1 = {
+	holder = 758
 }
-1101.1.1={
-	holder = 96100
+1034.5.11 = {
+	holder = 760
 }
-1103.1.1={
-	holder = 96101
+1058.11.28 = {
+	holder = 762
 }
-1109.1.1={
-	holder = 96102
+1079.1.1 = {
+	holder = 764
 }
-1118.3.5={
-	holder = 96103
+1102.6.4 = {
+	holder = 221515
 }
-1142.1.19={
-	holder = 96104
+1138.10.28 = {
+	holder = 221531
 }
-1143.5.11={
-	holder = 96105
+1146.5.1 = {
+	holder = 125973
 }
-1166.10.18={
-	holder = 96106
+1173.4.3 = {
+	holder = 221560
 }
-1185.1.1={
+1177.1.1 = {
+	holder = 221520
+}
+1191.1.1 = {
+	holder = 221560
+}
+1191.7.1 = {
+	holder = 221520
+}
+1194.5.5 = {
 	holder = 96107
 }
-1207.9.11={
+1207.9.11 = {
 	holder = 96108
 }
-1223.3.8={
+1223.3.8 = {
 	holder = 96109
 }
-1229.7.21={
+1229.7.21 = {
 	holder = 96110
 }
-1242.3.15={
+1242.3.15 = {
 	holder = 96111
 }
-1266.9.20={
+1266.9.20 = {
 	holder = 96112
 }
-1292.1.1={
+1292.1.1 = {
 	holder = 96113
 }
-1294.1.1={
+1294.1.1 = {
 	holder = 96114
 }
-1320.2.7={
+1320.2.7 = {
 	holder = 96115
 }
-1326.1.1={
+1326.1.1 = {
 	holder = 96116
 }

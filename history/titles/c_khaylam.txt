@@ -1,121 +1,161 @@
-718.1.1={
-	liege=d_ferghana
-	holder = 248312 
-}
-751.1.1={
-	holder = 248313 
-}
-769.1.1={
-	holder = 188640 # Salim of Ferghana (fictitious holding assignment)
-}
-782.1.1={
-	holder = 248314
-}
+# -*- ck2.history.titles -*-
 
-819.1.1={
-	holder = 163154 # Ahmad Samanid
+864.1.1 = {
+	liege = d_ferghana
+	holder = 1230682
 }
-864.1.1={
-	holder = 163099 # Nasr Samanid
-	liege=k_khiva
+888.1.1 = {
+	liege = d_soghd
+	holder = 1230683
 }
-936.1.1 = {
-	holder = 261068
+892.1.1 = {
+	holder = 163157
 }
-1052.1.1={
-	holder = 3014
+915.1.1 = {
+	holder = 1230684
 }
-1068.1.1={
+924.1.1 = {
+	liege = d_ferghana
+	holder = 1231633 # Malik b. S.k.r.tegin
+}
+954.1.1 = { #?
+	holder = 1600035 # Bakr b. Malik al-Farghani, who had a fief in Nasrabad before becoming the governor of Khorasan between 955-956 or 955-957
+}
+956.1.1 = {
+	liege = d_nishapur
+}
+957.1.1 = {
+	liege = d_soghd
+	holder = 1230616
+}
+961.1.1 = {
+	holder = 1230617
+}
+976.6.13 = {
+	holder = 1230619
+}
+# Karakhanids
+#992.1.1 = {
+#	liege = k_turkestan_east
+#	holder = 1230266
+#}
+# Samanids again
+#992.8.8 = {
+#	liege = d_soghd
+#	holder = 1230619
+#}
+# Karakhanids
+996.1.2 = {
+	holder = 1230264
+}
+1012.1.2 = {
+	holder = 3002
+}
+1017.1.2 = {
+	holder = 1231628 # Ahmad b. Muhammad b. Arslan Khan Ali, coins from 1018-1020
+}
+1025.1.2 = {
+	holder = 1230268
+}
+1026.1.2 = {
+	holder = 3008 # Yusuf Kadir Khan
+}
+1032.1.2 = {
+	holder = 3012
+}
+1042.1.2 = {
+	liege = d_shash
+	holder = 144103
+}
+1048.1.2 = {
+	liege = d_ferghana
+	#holder = 144103
+}
+1058.4.1 = {
+	holder = 144104
+}
+1062.1.1 = {
 	holder = 3016
 }
-1080.1.1=
-{
-	holder = 3018
+1074.1.1 = {
+	holder = 144106
 }
-1081.1.1=
-{
+1075.1.1 = {
+	holder = 144107
+}
+1076.1.1 = {
+	holder = 1230283
+}
+1080.1.1 = {
 	holder = 3020
 }
-1089.1.1=
-{
-	holder = 3022
-}
-1095.1.1=
-{
-	holder = 3024
-}
-1097.1.1=
-{
+1086.1.1 = {
 	holder = 144110
 }
-1097.6.1=
-{
-	holder = 144108
-}
-1099.1.1=
-{
-	holder = 144109
-}
-1102.1.1=
-{
+1095.1.1 = {
 	holder = 144111
 }
-1129.1.1=
-{
-	holder = 144112
-}
-1129.6.1=
-{
-	holder = 144113
-}
-1130.1.1={
-	holder = 144116
-}
-1132.1.1={
+1102.1.1 = {
 	holder = 144117
 }
-1132.6.1={
-	holder = 144118
+1130.1.1 = {
+	holder = 144119
 }
-1137.1.1={
-	liege=d_samarkand # Kara Khitan conquest
-	holder = 188905 # YelÃ¼-Dashi
+1140.1.1 = {
+	holder = 1230274 # Husayn b. Hasan
 }
-1143.1.1={
-	holder = 188907 # YelÃ¼-Yilie
+1156.1.1 = {
+	holder = 1230276 # Mahmúd b. Husayn
 }
-1163.1.1={
-	holder = 188908 # Pusuwan
+1163.1.1 = {
+	holder = 1230277 # Ibrahím b. Husayn
 }
-1177.1.1={
-	holder = 188912 # YelÃ¼-Zhilugu
+1179.1.1 = {
+	holder = 1230278 # Ahmad b. Ibrahím
 }
-1211.1.1={
-	holder = 188914 # Kuchlug (de facto)
+1211.1.1 = {
+	holder = 1230279 # Mahmúd b. Ahmad
 }
-1218.1.1={ 
-	liege=d_khiva # back to Khwarezm?
-	holder = 93053 
+1231.1.1 = {
+	holder = 1230281
 }
-1220.2.1={
-	liege="e_mongol_empire"
-	holder = 125501
-}
-1221.1.1={
-	holder = 248165
-}
-1228.1.1={
-	liege=e_chagatai
-}
-1240.1.1={
+1266.1.1 = {
 	holder = 248166
 }
-1290.1.1={
-	holder = 248167
+1289.11.1 = {
+	holder = 1231200
 }
-1298.1.1={
-	holder = 248168
+1298.1.1 = {
+	holder = 1231201
 }
-1303.1.1={
-	holder = 248169
+1303.1.1 = {
+	holder = 1231202
+}
+1308.1.1 = {
+	liege = e_chagatai
+	holder = 93078
+}
+1309.1.1 = {
+	holder = 93079
+}
+1310.1.1 = {
+	holder = 93080
+}
+1318.1.1 = {
+	holder = 93079
+}
+1326.1.1 = {
+	holder = 93081
+}
+1329.1.1 = {
+	holder = 93082
+}
+1330.1.1 = {
+	holder = 93083
+}
+1334.1.1 = {
+	holder = 93084
+}
+1335.1.1 = {
+	holder = 93086
 }

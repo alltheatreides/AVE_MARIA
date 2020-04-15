@@ -1,83 +1,83 @@
-760.1.1={
-	holder = 200031 # Musa Musavid
-	liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+867.1.1 = {
+	liege = d_porto
+	holder = 142006
 }
-790.1.1={
-	holder = 73680 # Hisham I Umayyad
+873.1.1 = {
+	holder = 142005 # Lucídio Vimaranes
 }
-796.6.12={
-	holder = 73681 # al-Hakam Umayyad
+910.12.20 = {
+	liege = k_spanish_galicia
 }
-822.5.21={
-	holder = 73682 # Abd ar-Rahman II Umayyad
+922.1.1 = {
+	holder = 73865 # Diogo de Guimaraez
 }
-852.9.22={
-	holder = 73683 # Muhammad I Ummayyad
+924.1.1 = {
+	holder = 70249 # Mendo I Betótez
 }
-867.1.1={
-	holder = 142006 # Vimara Peres Vimaranes
-	liege=d_porto
+950.7.24 = {
+	holder = 109620 # Gonçalo Mendez Betótez
 }
-873.1.1={
-	holder = 142005 # Lucidio Vimaranes
+997.1.1 = {
+	holder = 109622 # Mendo II Betótez
 }
-922.1.1={
-	holder = 142004 # Alvito Lucides Vimaranes
-}
-967.1.1={
-	holder = 109600 # Nuno Alvites Vimaranes I
-}
-987.1.1={
+1008.10.11 = {
 	holder = 109601 # Alvito Nunes Vimaranes
 }
-1015.1.1={
-	holder = 109603 # Nuno Alvites Vimaranes II
+1015.1.1 = {
+	holder = 109603 # Nuno I Vimaranes
 }
-1028.1.1={
-	holder = 142587 # Mendo Alï¿½o de Braganï¿½a
+1028.1.1 = {
+	holder = 109604 # Mendo II Vimaranes
 }
-1050.1.1={
-	holder = 142140 # Fernï¿½o Mendes de Braganï¿½a
+1050.1.1 = {
+	holder = 109607 # Nuno II Vimaranes
 }
-1071.1.18={
-	liege=k_spanish_galicia
+1066.1.1 = {
+	#holder = 109628
+	holder = 142140 # Fernão Mendes de Antas
 }
-1097.4.9={
-	liege=d_porto
+1070.1.1 = {
+	liege = k_spanish_galicia
+	#holder = 142141 # Mem Fernandes Antas
 }
-1100.1.1={
-	holder = 142141 # Mem Fernandes de Braganï¿½a
+1097.4.9 = {
+	liege = d_porto
 }
-1139.7.29={
-	liege=k_portugal
+1100.1.1 = {
+	holder = 142141
 }
-1147.1.1={
-	holder = 142021 # Fernï¿½o Mendes de Braganï¿½a
+1139.7.29 = {
+	liege = k_portugal
 }
-1160.1.1={
-	holder = 142012 # Pedro Fernandes de Braganï¿½a
+1147.1.1 = {
+	holder = 142021 # Fernão Mendes de Bragança
 }
-1190.1.1={
-	holder = 142013 # Garcia Pires de Braganï¿½a I
+1160.1.1 = {
+	holder = 142012 # Pedro Fernandes de Bragança
 }
-1195.1.1={
-	holder = 142441 # Pero Garcia de Braganï¿½a
+1190.1.1 = {
+	holder = 142013 # Garcia Pires de Bragança
 }
-1225.1.1={
-	holder = 142448 # Garcia Pires de Braganï¿½a II
+1195.1.1 = {
+	holder = 142441
 }
-1246.1.1={
-	holder = 142457 # Gonï¿½alo Nunes de Braganï¿½a
+1225.1.1 = {
+	holder = 142448
 }
-1260.1.1={
-	holder = 209532 # Nuno Pires de Chacim
+1246.1.1 = {
+	holder = 142457
 }
-1284.1.1={
-	holder = 142367 # Heitor Nunes de Chacim
+1260.1.1 = {
+	holder = 209532
 }
-1304.1.1={
-	holder = 459512 # Afonso Dinises de Albuquerque
+1284.1.1 = {
+	holder = 142367
 }
-1329.1.1={
-	holder = 459514 # Joï¿½o Afonses de Albuquerque
+1304.1.1 = {
+	holder = 459512
+}
+1329.1.1 = {
+	holder = 459514
 }

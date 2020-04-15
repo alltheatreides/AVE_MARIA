@@ -1,65 +1,71 @@
-768.1.1={
-	holder = 188789
-}
+# -*- ck2.history.titles -*-
 
-850.1.1={
-	liege = d_bashkirs
-	holder = 258088
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
 }
-936.1.1 = {
-	holder = 260701
-	liege = d_aqtobe
+830.1.1 = {
+	holder = 1231706
 }
-1066.1.1 = {
-	liege=d_yaik
+# Qabuqsin-Yula
+870.1.1 = {
+	liege = d_qabuqsin_yula
+	holder = 1231740 # Qorqutay, cheif of Qabuqsin-Yula at the time of expulsion from Yaik.
 }
-1066.1.1=
-{
-holder = 34963
+# Pechengs expulsed by Oghuz and Khazars.
+# Uzlar
+893.1.1 = {
+	holder = 1231862 # Qataghan
 }
-1095.1.1=
-{
-holder = 34964
+910.1.1 = {
+	holder = 1231864 # Etrek
 }
-1130.1.1=
-{
-holder = 34965
+940.1.1 = {
+	holder = 1231867
 }
-1160.1.1=
-{
-holder = 34966
+950.1.1 = {
+	holder = 1231947
 }
-1190.1.1=
-{
-holder = 34967
+989.1.1 = {
+	holder = 1231949
 }
-1220.1.1 = {
-	holder = 125403
+1024.1.1 = {
+	holder = 1231951
 }
-1221.1.1=
-{
-holder = 34852
+# Cumans arrive
+1030.1.1 = {
+	liege = d_ay_opa
+	holder = 1233047
 }
-1225.1.1=
-{
-holder = 125502
+1065.1.1 = {
+	holder = 1233049 # Kunui
 }
-1227.1.2=
-{
-holder = 34911
+1110.1.1 = {
+	holder = 1233051
 }
-1260.1.1=
-{
-holder = 34905
+1145.1.1 = {
+	holder = 1233053
 }
-1300.1.1=
-{
-holder = 34968
+1184.1.1 = {
+	holder = 1233055
 }
-1320.1.1=
-{
-holder = 34969
+1210.1.1 = {
+	holder = 1233057
 }
-
-
-
+1236.9.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1241.12.11 = {
+	liege = d_yaik
+	holder = 34911
+}
+1260.1.1 = {
+	holder = 34904
+}
+1285.1.1 = {
+	holder = 125548
+}
+1310.1.1 = {
+	holder = 125549
+}

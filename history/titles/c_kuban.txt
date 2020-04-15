@@ -1,115 +1,87 @@
-654.1.1={
-	liege="d_azov"
-	holder = 74004
+# -*- ck2.history.titles -*-
+
+# Papagi tribe
+856.1.1 = {
+	liege = d_zichia
+	holder = 1233447
 }
-662.1.1= {
-	holder = 74005
+896.1.1 = {
+	holder = 1233448
 }
-704.1.1= {
-	holder = 146195
+923.1.1 = {
+	holder = 1233449
 }
-743.1.1={
-	holder = 146196
+951.1.1 = {
+	holder = 1233450
 }
-#754.1.1={
-#	holder = 146197
-#}
-797.1.1={
-	holder = 146198
+# Sarkel falls, Boru-Tolmach take over.
+966.1.1 = {
+	liege = d_qabuqsin_yula
 }
-800.1.1={
-	holder = 146199
+985.1.1 = {
+	holder = 1233451
 }
-805.1.1={
-	holder = 74013
+1013.1.1 = {
+	holder = 1233452
 }
-810.1.1={
-	holder = 74014
+1040.1.1 = {
+	liege = d_boru_tolmach
 }
-825.1.1={
-	holder = 74015
+# Oghuz takes over
+1044.1.1 = {
+	liege = k_uzes
+	holder = 1231873
 }
-830.1.1={
-	holder = 74016
+# Cumans arrive
+# Qongurogli
+1050.1.1 = {
+	liege = d_qongurogli
+	holder = 1233183
 }
-861.1.1={
-	holder = 74017
+1081.1.1 = {
+	holder = 1233185
 }
-864.1.1={
-	holder = 74025
+1092.1.1 = {
+	holder = 1233187 # Kuman
 }
-886.1.1={
-	holder = 74025
+1103.4.1 = {
+	holder = 1233189
 }
-888.1.1={
-	holder = 74026
+1155.1.1 = {
+	holder = 1233191
 }
-899.1.1={
-	holder = 146187
+1180.1.1 = {
+	holder = 1233193 # Eldechyuk
 }
-916.1.1={
-	holder = 146188
+1219.1.1 = {
+	holder = 1233195
 }
-920.1.1={
-	holder = 146189
-}
-928.1.1={
-	holder = 146190
-}
-936.1.1 = {
-	holder = 260702
+# Mongols put down revolt
+1239.1.1 = {
 	liege = d_azov
+	holder = 125503
 }
-945.1.1={
-	holder = 146191
+1255.1.2 = {
+	holder = 125505
 }
-969.1.1={
-	holder = 146193
+1256.1.2 = {
+	holder = 125506
 }
-993.1.1={
-	holder = 146194
+1257.1.2 = {
+	holder = 125504
 }
-1016.1.1 = {
-	liege=0
-	holder = 0
-}	
-1066.1.1 = {
-	liege="d_azov"
-	holder = 20655
+1266.1.2 = {
+	holder = 125508
 }
-1089.1.1=
-{
-holder = 228059
+1280.1.2 = {
+	holder = 125509
 }
-1110.1.1=
-{
-holder = 479240
+1287.1.2 = {
+	holder = 125511
 }
-1150.1.1=
-{
-holder = 34882
+1291.1.2 = {
+	holder = 125512
 }
-1180.1.1=
-{
-holder = 34883
-}
-1210.1.1=
-{
-holder = 34884
-}
-1238.1.1=
-{
-holder = 34899
-}
-1270.1.1=
-{
-holder = 34900
-}
-1300.1.1=
-{
-holder = 34901
-}
-1310.1.1=
-{
-holder = 34902
+1312.1.2 = {
+	holder = 480000
 }

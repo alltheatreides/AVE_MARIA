@@ -1,71 +1,82 @@
-767.1.1={
-	holder = 145810
-	liege="d_peloponnese"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_achaia
 }
-804.1.1 = {
-	liege = "0"
+860.1.1 = {
+	holder = 1232903
 }
-843.1.1=
-{
-	liege="d_achaia"
+929.1.1 = {
+	holder = 1500510 # Leon Agelastos, Protospatharios in the Peloponnesos before 923. Returning him as a placeholder
 }
-866.1.1={
-	holder = 145184
+952.1.1 = {
+	holder = 1500509 # Krenites Chaldos/Arotras
 }
-936.1.1 = {
-	holder = 260794
+990.1.1 = {
+	holder = 1500451 # Basil Apokaukos
 }
-1060.1.1={
+1008.1.1 = {
+	holder = 1500320
+}
+1021.1.1 = {
+	holder = 1232498
+}
+1030.1.1 = {
+	holder = 1232300
+}
+1050.1.1 = {
+	holder = 1232304
+}
+1060.1.1 = {
 	holder = 34606
 }
-1095.1.1={
+1095.1.1 = {
 	holder = 34607
 }
-1110.1.1={
+1110.1.1 = {
 	holder = 34608
 }
-1135.1.1={
+1135.1.1 = {
 	holder = 34609
 }
-1195.1.1={
-	holder = 34611
+1194.1.1 = {
+	holder = 34413
 }
-1204.8.1={
-	liege="k_venice"
+1203.6.1 = {
+	liege = 0
 }
-1204.8.1={
-	holder = 213601 #Enrico Dandolo
+1205.3.1 = {
+	liege = d_achaia
+	holder = 31334 # Guillaume I
 }
-1205.6.21={
-	holder = 32120 #Pietro Ziani
+1210.1.1 = {
+	holder = 31336 # Geoffroy I
 }
-1229.3.13={
-	holder = 32124 #Iacopo Tiepolo
+1218.9.1 = {
+	holder = 31337 # Geoffroy II
 }
-1249.7.19={
-	holder = 32125 #Marino Morosini
+1246.5.7 = {
+	holder = 31338 # Guillaume II
 }
-1253.1.1={
-	holder = 32126 #Reniero Zeno
+1278.5.1 = {
+	holder = 455406 # Charles I d'Anjou
 }
-1268.7.7={
-	holder = 32127 #Lorenzo Tiepolo
+1285.1.7 = {
+	holder = 461710 # Charles II d'Anjou
 }
-1275.8.15={
-	holder = 32128 #Iacopo Contarini
+1289.1.1 = {
+	holder = 31103 # Floris I d'Avesnes
 }
-1280.3.6={
-	holder = 32129 #Giovanni Dandalo
+1297.1.23 = {
+	holder = 31341 # Isabelle I
 }
-1289.11.2={
-	holder = 32130 #Pietro Gradenigo
+1311.8.13 = {
+	liege = k_venice
+	holder = 32131 # Marino Zorzi
 }
-1311.8.13={
-	holder = 32131 #Marino Zorzi
+1312.7.3 = {
+	holder = 32132 # Giovannia Soranza
 }
-1312.7.3={
-	holder = 32132 #Giovannia Soranza
-}
-1328.12.31={
-	holder = 463600 #Francesco Dandalo
+1328.12.31 = {
+	holder = 463600 # Francesco Dandalo
 }

@@ -1,109 +1,166 @@
-769.1.1={
-	holder = 73680 # Hisham I Umayyad
-	liege=d_sevilla
+# -*- ck2.history.titles -*-
+
+852.9.22 = {
+	liege = k_andalusia
+	holder = 73683
 }
-796.6.12={
-	holder = 73681 # al-Hakam I Umayyad
-	liege=k_andalusia
+914.1.1 = {
+	liege = 0
+	holder = 1235146 # Muhammad b. Ibrahim b. al-Hajjaj
 }
-822.5.21={
-	holder = 73682 # Abd al-Rahman II Umayyad
+914.2.1 = {
+	liege = k_andalusia
+	holder = 1235128 # Said b. al-Mundhir Umayyad, Vizier; appointed governor of the Carmona fortress in 914
 }
-850.1.1={
-	holder = 73941 # Attab Nasrid
-	liege=k_andalusia
-}
-910.1.1={
-	holder = 73685 # Abdallah Umayyad
-}
-912.10.15={
+938.1.1 = {
 	holder = 3200 # Abd al-Rahman III Umayyad
 }
-936.1.1 = {
-	holder = 73954 # Muhammad Zuhrid
-	liege = d_sevilla
-}
-937.1.1 = {
-	holder = 3200
-	liege = k_andalusia
-}
-961.10.15={
+961.10.15 = {
 	holder = 3202 # al-Hakam II Umayyad
 }
-976.10.16={
+976.10.16 = {
 	holder = 3204 # Hisham II Umayyad
 }
-1009.2.15={
+1009.2.15 = {
 	holder = 73671 # Muhammad II Umayyad
 }
-1009.11.1={
+1009.11.1 = {
 	holder = 73675 # Suleyman Umayyad
 }
-1010.5.10={
+1010.5.10 = {
 	holder = 73671 # Muhammad II Umayyad
 }
-1010.7.23={
+1010.7.23 = {
 	holder = 3204 # Hisham II Umayyad
 }
-1012.1.1={
-	holder = 73219 # Muhammad Jizrunid I
+1013.1.1 = {
+	holder = 1235029
 }
-1030.1.1={
-	holder = 73220 # Abdun Jizrunid
+1023.1.1 = {
+	holder = 1235017
 }
-1031.1.1={
-	liege=0
+1031.11.30 = {
+	liege = 0
 }
-1053.1.1={
-	holder = 73221 # Muhammad Jizrunid II
+1043.1.1 = {
+	holder = 1235018
 }
-1069.1.1={
-	holder = 3212 # Abbad Abbadid
-	liege=d_sevilla
+1052.1.1 = {
+	holder = 1235019
 }
-1069.1.15={
-	holder = 3214 # Muhammad II Abbadid
+1067.1.1 = {
+	liege = d_sevilla
+	holder = 3212
 }
-1085.1.1={
-	holder = 73218 # Isma'il Abbadid
+1069.1.15 = {
+	holder = 3214
 }
-1091.1.1={
-	holder = 73222 # Sir Abu-Bakrid
-	liege=k_mauretania
+1085.1.1 = {
+	holder = 73218
 }
-1114.1.1={
-	holder = 73206 # Ali Yusufid
+1091.1.1 = {
+	#liege = k_maghreb
+	holder = 155036
 }
-1136.1.1={
-	holder = 73224 # Ayyub Yaafarid
+1114.1.1 = {
+	holder = 73206
 }
-1148.1.1={
-	holder = 224020 # Muhammad Ishbiliyid
+1121.1.1 = {
+	holder = 32967 # Tamim b. Yusuf b. Tashfin
 }
-1190.1.1={
-	holder = 73611 # Yahya Utmanid
+1122.1.1 = {
+	holder = 73206
 }
-1212.1.1={
-	holder = 73612 # Umar Utmanid
+1136.1.1 = {
+	holder = 73224
 }
-1228.1.1={
-	holder = 73625 # Muhammad Hudid
-	liege=d_murcia
+1144.1.1 = { #before 1146
+	liege = d_sevilla
+	holder = 155072
 }
-1238.1.1={
-	holder = 73640 # Umar Qadirid
-	liege=0
+1147.4.1 = {
+	holder = 1600568 #Barraz b. Muhammad (Ishaq?) al-Masufi
 }
-1264.1.1={
-	holder = 73131 # Nu�o Guill�n de Guzm�n
-	liege=k_castille
+1148.1.1 = {
+	holder = 224000 # Abu Ya'qub Yusuf b. Abd al-Ma'mun
 }
-1280.1.1={
-	holder = 73133 # �lvar N��ez de Guzm�n
+1150.1.1 = {
+	holder = 1230050 # brothers of Ibn Tumart governed Seville before 1154
 }
-1300.1.1={
-	holder = 73134 # Pedro �lvarez de Guzm�n
+1154.1.1 = {
+	holder = 224000 # Abu Ya'qub Yusuf b. Abd al-Ma'mun, ca. 1154
 }
-1335.1.1={
-	holder = 73140 # �lvar P�rez de Guzm�n
+1160.1.1 = {
+	liege = 0
+	holder = 1235101
+}
+1162.1.1 = {
+	liege = d_sevilla
+	holder = 224000
+}
+1163.1.1 = {
+	holder = 224020
+}
+1166.9.1 = {
+	holder = 1230062 # Abu Ibrahim Isma'il b. Abd al-Ma'mun
+}
+1172.1.1 = {
+	holder = 224000 # Abu Ya'qub Yusuf makes Seville his second capital
+}
+1176.1.1 = {
+	holder = 1230063 # Abu Ali al-Husayn b. Abd al-Mu'min, 1176-?
+}
+1183.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1186.1.1 = { #?
+	holder = 224020
+}
+1188.1.1 = {
+	holder = 1230028 # Abu Yusuf Ya'qub b. Abi Hafs by 1189
+}
+1190.1.1 = {
+	holder = 1230057 #Abu Yahya b. Abu Ya'qub Yusuf 1191-1195
+}
+1195.7.18 = { #?
+	holder = 73611
+}
+1203.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1208.1.1 = {
+	holder = 1230068 # Abu Ishaq Ibrahim b. Abu Yusuf Ya'qub
+}
+1211.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1215.1.1 = {
+	holder = 1230031 # Abu 'l-Ala b. Yusuf, sometime before 1221
+}
+1221.1.1 = {
+	holder = 1230017 # Abu Muhammad Abd Allah al-Bayasi, appointed governor of Seville at some point during al-Mustansir's reign
+}
+1224.3.1 = {
+	holder = 32985 # Idris (future al-Ma'mun), appointed governor of Seville by his brother Abd al-Rahman (al-Adil)
+}
+1229.1.1 = {
+	liege = d_murcia
+	holder = 73625
+}
+1238.1.1 = {
+	liege = 0
+	holder = 73640
+}
+1264.1.1 = {
+	liege = d_sevilla
+	holder = 73131
+}
+1280.1.1 = {
+	holder = 73133
+}
+1300.1.1 = {
+	holder = 73134
+}
+1335.1.1 = {
+	holder = 73140
 }

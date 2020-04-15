@@ -1,95 +1,110 @@
-687.1.1={
+# -*- ck2.history.titles -*-
+
+687.1.1 = {
 	holder = 131720
 }
-714.1.17={
+714.1.17 = {
 	holder = 144988
 }
-762.1.1={
-	liege="k_france"
+762.1.1 = {
+	liege = k_france
 	holder = 144987
 }
-786.1.1={
+786.1.1 = {
 	holder = 144986
 }
-796.1.1={
+796.1.1 = {
 	holder = 144985
 }
-827.1.1={
+827.1.1 = {
 	holder = 144984
 }
-879.1.1={
+879.1.1 = {
 	holder = 144981
 }
-893.1.28={
+893.1.28 = {
 	holder = 144980
 }
-915.1.1={	
-	holder = 40398 # Raoul I
+# Rollonids
+911.1.1 = {
+	liege = d_normandy
+	holder = 242 # Rollon
 }
-926.1.1={	
-	holder = 40399 # Raoul II
+932.1.1 = {
+	holder = 244 # Guillaume I Longue Épée
 }
-943.1.1={	
-	holder = 40400 # Gautier I
+942.12.17 = {
+	holder = 246 # Richard I
 }
-992.1.1={
-	holder = 40402 # Gautier II
+996.11.20 = {
+	holder = 248 # Richard II
 }
-1024.1.1={
-	holder = 40416 # Dreux
+1026.8.28 = {
+	holder = 250 # Richard III
 }
-1035.7.2 = {
-	holder = 40404 # Gautier III
+1027.2.3 = {
+	holder = 252 # Robert le Magnifique
 }
-1063.1.1={
-	holder = 40406 # Raoul
+1035.7.3 = {
+	holder = 140 # Guillaume II le Conquérant
 }
-1074.1.1={
-	holder = 90150 #Simon
+1087.9.9 = {
+	holder = 142 # Robert Courteheuse
 }
-
-1077.1.1={
-	holder = 214 #Philippe I
+1106.1.1 = {
+	holder = 202992 # Henri I Beauclerc
 }
-1092.1.1={
-	holder = 205502 #Louis VI le Gros
+# House of Anjou
+1135.12.2 = {
+	holder = 205851 # Étienne de Blois
 }
-1137.8.1={
-	holder = 205500 #Louis VII le Jeune
+# Plantagenêts
+1144.1.1 = {
+	holder = 204506 # Geoffroy Plantagenêt
 }
-1180.9.18={
-	holder = 205506 # Philippe II Auguste
+1151.7.9 = {
+	holder = 204500 # Henri II Plantagenêt
 }
-1219.5.1={
-	holder = 138000 #Alice d'Eu
+1189.7.6 = {
+	holder = 204510 # Richard I Cœur-de-Lion
 }
-1223.7.14={
-	holder = 455402 #Louis VIII le Lion
+1199.4.6 = {
+	holder = 204514 # Jean I Sans Terre
 }
-1226.11.8={
-	holder = 455404 #Louis IX (saint Louis)
+# Direct Capetians
+1204.1.1 = {
+	holder = 205506 # Philippe I Auguste
 }
-1270.8.25={
-	holder = 455528 # Philippe III le Hardi
+1223.7.14 = {
+	holder = 455402 # Louis I le Lion
 }
-1285.10.5={
-	holder = 455526 # Philippe IV le Bel
+1226.11.8 = {
+	holder = 455404 # Louis II (saint Louis)
 }
-1314.11.29={
-	holder = 455836 # Louis V le Hutin
+1270.8.25 = {
+	holder = 455528 # Philippe II le Hardi
 }
-1316.6.5={ #in fact 1316.11.5 as a posthumus heir, but ck2 can't handle interregnum
-	holder =  70137 # Jean Ier le Posthume
+1285.10.5 = {
+	holder = 455526 # Philippe III le Bel
 }
-1316.11.19={ #corrected from 1316.6.5
-	holder =  455509 # Philippe V le Long, son of 455526.
+1314.11.29 = {
+	holder = 455836 # Louis III le Hutin
 }
-1322.1.3={
-	holder = 455414 # Charles IV le Bel
+# in fact 1316.11.5 as a posthumus heir, but ck2 can't handle interregnum
+1316.6.5 = {
+	holder = 70137 # Jean II le Posthume
 }
-
-#House of Valois
-
-1328.2.1={
-	holder = 455500 # Philippe VI
+# corrected from 1316.6.5
+1316.11.19 = {
+	holder = 455509 # Philippe IV le Long, son of 455526.
+}
+1322.1.3 = {
+	holder = 455414 # Charles I le Bel
+}
+# House of Valois
+1328.2.1 = {
+	holder = 455500 # Philippe V
+}
+1332.1.1 = {
+	holder = 455502 # Jean III
 }

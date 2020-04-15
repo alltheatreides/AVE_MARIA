@@ -1,66 +1,125 @@
-644.1.1={
-	liege=d_fars
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 188730
+846.10.10 = {
+	liege = d_fars
+	holder = 1230527
 }
-
-862.1.1={
-	liege="d_khorasan"
+851.5.5 = {
+	holder = 1230530
 }
-862.1.1={
+851.10.10 = {
 	holder = 163162
 }
-936.1.1 = {
-	holder = 261131
+863.1.1 = {
+	holder = 1230528
 }
-1051.1.1={
-	holder = 248555 # Kakuyids granted this land
+864.1.1 = {
+	holder = 1230666
 }
-1063.9.4={
-	liege="d_esfahan"
+865.1.1 = {
+	liege = d_kerman
+	holder = 1236289
 }
-1072.11.1={
-	holder = 248557
+934.1.1 = { #?
+	liege = d_fars
+	holder = 1231062
 }
-1095.11.1={
-	holder = 248558
+949.12.12 = {
+	liege = d_jebal
+	holder = 1231063
 }
-1141.1.1={
-	holder = 248561 # Kakuyid dynasty dies out
+976.9.9 = {
+	holder = 1231068
 }
-1188.1.1={
-	holder = 248562 # Langar deposes his brother
+984.1.1 = {
+	holder = 1231066
 }
-1207.1.1={
-	holder = 248563
+997.10.10 = {
+	holder = 1231108
 }
-1219.1.1={
-	holder = 248564
+# Kakuyids
+1029.1.1 = { #ca. 1030
+	holder = 1231052
 }
-1229.1.1={
-	holder = 248566
+1042.1.1 = {
+	holder = 1231053
 }
-1241.1.1={
-	holder = 248567
+1060.1.1 = {
+	liege = k_persia
 }
-1252.1.1={
-	holder = 248568
+1064.1.1 = {
+	holder = 1231056
 }
-1272.1.1={
-	holder = 248569
+1095.1.1 = {
+	holder = 1231057
 }
-1275.1.1={
-	holder = 248570
+1141.1.1 = {
+	holder = 1235905 #Kakuyid Ala al-Dawla Ali dies without a male heir
 }
-1297.1.1={
-	holder = 125529 # mongol occupation
+1157.5.8 = {
+	liege = 0
 }
-1315.1.1={
-	holder = 248571 # Hajji returns to Yadz
+#1176 - Sam b. Langar appointed atabeg of Yazd
+1194.1.1 = {
+	holder = 1235906
 }
-1319.1.1={
-	liege="d_kerman"
-	holder = 478022 # Atabegs overthrown
+1207.1.1 = {
+	holder = 1235907
+}
+1213.1.1 = {
+	liege = k_khwarezmia # ?
+}
+1219.1.1 = {
+	holder = 1235957
+}
+1221.1.1 = {
+	liege = 0
+}
+1223.1.1 = {
+	liege = k_khwarezmia
+	holder = 1235908
+}
+1228.1.1 = {
+	liege = 0
+}
+1229.1.1 = {
+	holder = 1235909
+}
+1241.1.1 = {
+	holder = 1235910
+}
+1247.1.1 = { #some time during Salgur's reign
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1252.1.1 = {
+	holder = 1235911
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1260.1.1 = {
+	de_jure_liege = d_jebal
+}
+1272.1.1 = {
+	holder = 1235912
+}
+1275.1.1 = {
+	holder = 1235913
+}
+1297.1.1 = {
+	holder = 125524
+}
+1304.5.11 = {
+	holder = 478007
+}
+1315.1.1 = {
+	holder = 1235914
+}
+1319.1.1 = {
+	liege = d_kerman
+	holder = 478022
 }

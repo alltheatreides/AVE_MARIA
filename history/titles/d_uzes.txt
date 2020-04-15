@@ -1,0 +1,23 @@
+# -*- ck2.history.titles -*-
+
+1060.1.1 = {
+	historical_nomad = yes
+	set_tribute_suzerain = {
+		who = k_qipchaq
+		type = nomadic
+	} 
+	holder = 1232022
+}
+1080.1.1 = {
+	holder = 1232027
+}
+1120.1.1 = {
+	holder = 1232028
+}
+1137.1.1 = {
+	holder = 1232029
+}
+1160.1.1 = {
+	clear_tribute_suzerain = k_qipchaq
+	holder = 0
+}

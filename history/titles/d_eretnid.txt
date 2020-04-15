@@ -1,0 +1,13 @@
+# -*- ck2.history.titles -*-
+
+1335.1.1 = {
+	liege = e_il-khanate
+	holder = 71864
+}
+1336.7.24 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_il-khanate
+		type = permanent
+	}
+}

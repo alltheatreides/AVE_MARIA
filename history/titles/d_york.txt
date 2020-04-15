@@ -1,118 +1,110 @@
-42.1.1={
-	holder = 252146 #Cartimandua
+# -*- ck2.history.titles -*-
+
+383.1.1 = {
+	holder = 159038 # Coel Hen
 }
-69.1.1={
-	holder = 252147 #Venutius
+420.1.1 = {
+	holder = 159037 # Ceneu ap Coel
 }
-#Ebrauc
-383.1.1={
-	holder = 159038 #Coel Hen
+460.1.1 = {
+	holder = 1228310 # Mor ap Ceneu (last king of Northern Britain)
 }
-420.1.1={
-	holder = 159037 #Ceneu ap Coel
+490.1.1 = {
+	holder = 1228311 # Einion ap Mor
 }
-450.1.1={
-	holder = 252217 #Mor ap Ceneu
+505.1.1 = {
+	holder = 1228312 # Eliffer ap Einion
 }
-470.1.1={
-	holder = 252218 #Einion ap Ceneu
+559.1.1 = {
+	holder = 205193 # Aella, first king of Deira
 }
-505.1.1={
-	holder = 252219 #Eliffer Gosgorddfawr
+589.1.1 = {
+	holder = 205197 # Athelric succeeds
 }
-560.1.1={
-	holder = 252224 #Peredyr Arueu Dur
+604.1.1 = {
+	holder = 205209 # Athelfrith of Bernicia appears to have seized Deira
 }
-580.1.1={
-	holder = 252225 #Gwrgi ap Eliffer
+616.1.1 = {
+	holder = 205198 # Saint Eadwine youngest son of Aella returns from exile and takes power with the held of Raedwald of East Anglia
 }
-580.6.1={
-	holder = 252226 #Gwrgant Gwron
+633.10.12 = {
+	holder = 205195 # Osric, nephew of Eadwine
 }
-#Kingdom of Deira
-580.10.1={
-	holder = 205193 # ∆lla
+634.1.1 = {
+	holder = 205212 # Saint Oswald
 }
-588.1.1={
-	holder = 205197 # ∆thelric
+642.8.5 = {
+	holder = 205213 # Oswig
 }
-604.1.1={
-	holder = 205209 # ∆thelfrith
+644.1.1 = {
+	holder = 205196 # Oswine made king of Deira
 }
-616.1.1={
-	holder = 205198 # Eadwine
+651.5.1 = {
+	holder = 1226228 # Athelwald, defeated by Oswig and became a hermit (apparently)
 }
-633.10.12={
-	holder = 205195 # Osric
+655.1.1 = {
+	holder = 205213 # Oswig
 }
-634.1.1={
-	holder = 205212 # Oswald
+656.1.1 = {
+	holder = 1226229 # Ealhfrith, sub king under his father Oswig
 }
-642.8.5={
-	holder = 205213 # Oswiu
+664.1.1 = {
+	holder = 205213 # Oswig
 }
-644.1.1={
-	holder = 205196 # Oswine
+670.2.15 = {
+	holder = 1226230 # Elfwine, sub king under his brother Ecgfrith
 }
-651.1.1={
-	holder = 252174 # Œthelwald
+679.1.1 = {
+	de_jure_liege = k_northumberland
+	holder = 0 # absorbed into Northumbria
 }
-655.1.1={
-	holder = 205213 # Oswiu
-}
-670.2.15={
-	holder = 0
-}
-866.11.1={
-	holder = 163112 # Halfdan Ragnarsson, first "king" of Jorvik
+866.11.1 = {
+	holder = 163112 # Halfdan Ragnarsson, first "king" of Jorvik, actually only ruled from 876
 }
 875.1.1 = {
 	holder = 0
 }
-
-1055.1.1={
-	liege="k_england"
-	holder = 124 #Tostig Godwinson
+941.1.1 = {
+	holder = 5790 #Amlaib Cuaran
 }
-
-1066.1.1=
-{
-	holder = 5660 # Morcar of Hwicce
+944.1.1 = {
+	holder = 0 #English take Northumbria
 }
-1070.1.1={
-	holder = 140 # William the Conqueror
+949.1.1 = {
+	holder = 5790 #Amlaib Cuaran returns
 }
-1087.9.9={
-	holder = 146
+952.1.1 = {
+	holder = 102507 # Eric Bloodaxe
 }
-1100.8.3= {
-	holder = 202992
-} 
-1135.12.2={
-	holder = 205851
+954.1.1 = {
+	de_jure_liege = k_england
+	liege = k_england
+	holder = 260539 # Oswulf I, High Reeve of Bamburgh
 }
-1154.10.25={
-	holder = 204500
+963.1.1 = {
+	holder = 1226249 # Oslac (there is records of him witnessing charters as early as 963)
 }
-1189.7.6={
-	holder = 204510
+975.1.1 = {
+	holder = 0 # Oslac exiled
 }
-1199.1.1 = {
-	holder = 204694
+979.1.1 = {
+	holder = 1226248 # Thored
 }
-1216.10.28={
-	holder = 454522
+994.1.1 = {
+	holder = 1226209 # Alfhelm, brother of Wulfric Spot
 }
-1272.11.16={
-	holder = 454520
+1006.1.1 = {
+	holder = 188 # Uhtred the Bold
 }
-1307.7.8={
-	holder = 454510 #Edward II of England
+1016.1.1 = {
+	holder = 0
 }
-1327.2.1={
-	holder = 454500
+1017.1.1 = {
+	holder = 1228057 # Eric of Hlathir
 }
-
-
-
-
+1023.1.1 = {
+	holder = 196 # Sigeweard Grossus
+}
+1041.1.1 = {
+	holder = 0
+}

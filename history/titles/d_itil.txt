@@ -1,117 +1,93 @@
-654.1.1={
-	liege="k_khazaria"
+# -*- ck2.history.titles -*-
+
+654.1.1 = {
+	liege = k_khazaria
 	holder = 74004
 }
-682.1.1={
+682.1.1 = {
 	holder = 74007
 }
-715.1.1={
+715.1.1 = {
 	holder = 74008
 }
-731.1.1={
+731.1.1 = {
 	holder = 74009
 }
-749.1.1={
+749.1.1 = {
 	holder = 74012
 }
-788.1.1={
-	holder = 74018
+810.1.1 = {
+	holder = 74018 # "King" of Khazaria under the Kaghan; Possibly converted to Judaism ca. 805
 }
-802.1.1={
+836.1.1 = {
+	holder = 146186
+}
+846.1.1 = {
 	holder = 74019
 }
-818.1.1={
+874.1.1 = {
 	holder = 74020
 }
-822.1.1={
+878.1.1 = {
+	holder = 74021
+}
+886.1.1 = {
+	holder = 74022
+}
+889.1.1 = {
+	holder = 74023
+}
+897.1.1 = {
+	holder = 74024
+}
+902.1.1 = {
+	holder = 74025
+}
+904.1.1 = {
+	holder = 74026
+}
+911.1.1 = {
+	holder = 146187
+}
+916.1.1 = {
+	holder = 146188
+}
+920.1.1 = {
+	holder = 146189
+}
+928.1.1 = {
+	holder = 146190
+}
+945.1.1 = {
+	holder = 146191
+}
+# Sarkel falls, Bula-Chopan settles.
+966.1.1 = {
+	liege = 0
+	holder = 1233295 # Barjik Kuma, placeholder
+}
+997.1.1 = {
+	holder = 1233296 # Kamaj Kuma, placeholder
+}
+# Oghuz takes over Itil
+1001.1.1 = {
+	liege = 0
 	holder = 0
 }
-
-#Pechenegs
-860.1.1 = {
+1239.1.1 = {
+	liege = e_golden_horde
 	historical_nomad = yes
-	law = succ_gavelkind
-	holder = 180174
-	liege = 0
+	holder = 125503
 }
-
-
-#
-
-1066.1.1=
-{
-#historical_nomad = no
-#liege="k_cuman"
-set_tribute_suzerain = { who = k_cuman type = nomadic }
-holder = 20663
+1241.12.11 = {
+	holder = 125534
 }
-1089.1.1=
-{
-clear_tribute_suzerain = k_cuman
-liege="k_cuman"
-holder = 806
+1275.1.2 = {
+	holder = 125540
 }
-1110.1.1=
-{
-holder = 90143
+1304.1.2 = {
+	holder = 125541
 }
-1120.1.1=
-{
-holder = 125401
-}
-1146.1.1=
-{
-holder = 125402
-}
-1183.1.1=
-{
-holder = 228030
-}
-1203.1.1=
-{
-holder = 125403
-}
-1223.1.1=
-{
-holder = 125404
-}
-1227.1.1=
-{
-holder = 125501
-}
-1227.12.2=
-{
-holder = 125503
-}
-1255.1.2=
-{
-holder = 125505
-}
-1256.1.2=
-{
-holder = 125506
-}
-1257.1.2=
-{
-holder = 125504
-}
-1266.1.2=
-{
-holder = 125508
-}
-1280.1.2=
-{
-holder = 125509
-}
-1287.1.2=
-{
-holder = 125511
-}
-1291.1.2=
-{
-holder = 125512
-}
-1312.1.2=
-{
-holder = 480000
+1327.1.2 = {
+	holder = 125546
 }

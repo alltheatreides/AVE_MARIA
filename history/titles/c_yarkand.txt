@@ -1,96 +1,6 @@
-#Khotan Kings
-100.1.1 = {
-	liege = d_khotan
-	holder = 166632
-}
-130.1.1 = {
-	holder = 166633
-}
-132.1.1 = {
-	holder = 166634
-}
-151.1.1 = {
-	holder = 166635
-}
-182.1.1 = {
-	holder = 166636
-}
-188.1.1 = {
-	holder = 166637
-}
-208.1.1 = {
-	holder = 166638
-}
-243.1.1 = {
-	holder = 166639
-}
-251.1.1 = {
-	holder = 166640
-}
-279.1.1 = {
-	holder = 166641
-}
-306.1.1 = {
-	holder = 166642
-}
-336.1.1 = {
-	holder = 166643
-}
-373.1.1 = {
-	holder = 166644
-}
-397.1.1 = {
-	holder = 166645
-}
-436.1.1 = {
-	holder = 166646
-}
-451.1.1 = {
-	holder = 166647
-}
-496.1.1 = {
-	holder = 166648
-}
-512.1.1 = {
-	holder = 166649
-}
-531.1.1 = {
-	holder = 166650
-}
-578.1.1 = {
-	holder = 166651
-}
-596.1.1 = {
-	holder = 166652
-}
-612.1.1 = {
-	holder = 166653
-}
-628.1.1 = {
-	holder = 166654
-}
-649.1.1 = {
-	holder = 166655
-}
-662.1.1 = {
-	holder = 166656
-}#
-673.1.1 = {
-	holder = 166657
-}
-680.1.1 = {
-	holder = 166658
-}#Regent of Khotan
-692.1.1 = {
-	holder = 166659
-}
-719.1.1 = {
-	holder = 166660
-}
-725.1.1 = {
-	holder = 166661
-}
-736.1.1 = {
+# -*- ck2.history.titles -*-
+
+742.1.1 = {
 	holder = 166696
 }
 763.1.1 = {
@@ -102,9 +12,6 @@
 849.1.1 = {
 	holder = 166700
 }
-902.1.1 = {
-	holder = 166685
-}
 912.1.1 = {
 	holder = 166686
 }
@@ -115,46 +22,97 @@
 	holder = 166688
 }
 982.1.1 = {
+	holder = 166702
+}
+999.1.1 = {
 	holder = 166689
 }
-#Karakhanids
-1006.1.1 = {
-	holder = 217206
-	liege = d_zhetysu
+1000.1.1 = { #unclear timeline; Karakhanids "converted" Yarkand Islam by force soon following the death of Ali Arslan
+	holder = 3002
 }
-1015.5.9 = {
-	holder = 217207
+# Karakhanids
+1012.1.1 = { #?
+	liege = d_kashgar
+	holder = 3008 # Yusuf Kadir Khan
 }
-1054.2.27 = {
-	holder = 217208
+1032.1.2 = {
+	holder = 144102
 }
-1096.3.27 = {
-	holder = 217210
+1057.1.1 = {
+	holder = 144103
 }
-1121.1.1 = {
-	holder = 260092
+1058.4.1 = {
+	holder = 144104
 }
-1153.1.1 = {
-	holder = 260093
+1062.1.1 = {
+	holder = 144105
 }
+1074.1.1 = {
+	holder = 144106
+}
+1075.1.1 = {
+	holder = 144107
+}
+1076.1.1 = {
+	holder = 1230283
+}
+1102.1.1 = {
+	holder = 144114
+}
+1128.1.1 = {
+	holder = 144115 # lives up to 1156
+}
+1137.1.1 = {
+	liege = d_kashgar
+}
+1156.1.1 = {
+	holder = 188855
+}
+1188.1.1 = {
+	holder = 188856
+}
+1205.1.1 = {
+	holder = 188857
+}
+1211.1.1 = {
+	liege = e_khitan
+	holder = 188914
+}
+# Mongol conquest
 1218.1.1 = {
 	liege = e_mongol_empire
-	holder = 248230
+	holder = 125501
 }
-1228.1.1 = {
-	liege = k_mongolia
+1227.12.2 = {
+	liege = k_turkestan_east
+	holder = 93062
+}
+1234.2.10 = {
+	liege = e_chagatai
+}
+1242.1.1 = {
+	holder = 93064
+}
+1246.1.1 = {
+	holder = 93065
+}
+1248.4.20 = {
+	holder=248230
 }
 1250.1.1 = {
 	holder = 248231
 }
-1260.1.1 = {
-	liege=d_kashgar
+1267.1.1 = {
+	liege = k_turkestan_east
 }
 1287.1.1 = {
 	holder = 248232
 }
 1300.1.1 = {
 	holder = 248233
+}
+1306.1.1 = {
+	liege = e_chagatai
 }
 1320.1.1 = {
 	holder = 248234

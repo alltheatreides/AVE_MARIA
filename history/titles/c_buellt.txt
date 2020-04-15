@@ -1,0 +1,110 @@
+# -*- ck2.history.titles -*-
+
+# Vanilla 15/08/2013 county Powys
+844.1.1 = {
+	liege = 0
+	holder = 1228347 # Arwystli
+}
+878.1.1 = {
+	liege = d_gwynedd
+	holder = 159805 # Merfyn ap Rhodri
+}
+910.1.1 = {
+	holder = 252352 # Llywelyn ap Merfyn
+}
+942.1.1 = {
+	holder = 81823 # Hywel Dda
+}
+950.1.1 = {
+	holder = 81822 # Owain ap Hywel
+}
+980.1.1 = {
+	liege = 0
+	holder = 131701 # Elystan Glodrydd
+}
+1010.1.1 = {
+	holder = 184126 # Cadwgon ap Elystan
+}
+1050.1.1 = {
+	holder = 1228325 # Llewelyn ap Cadwgon
+}
+1055.1.1 = {
+	liege = d_gwynedd
+}
+1063.1.1 = {
+    liege = d_powys
+    holder = 138476 # Trahaearn ap Caradog
+}
+1081.1.1 = {
+    liege = 0
+    holder = 131702 # Madog ap Idnerth
+}
+1096.1.1 = {
+    liege = k_england
+}
+1096.1.1 = {
+    holder = 1230893 # Philip, 2nd Baron of Bramber
+}
+1134.1.1 = {
+    holder = 204000 # William II de Braose
+}
+1180.1.1 = {
+    holder = 204004 # William III de Braose
+}
+1211.1.1 = {
+    holder = 204514 # Land seized by the Crown
+}
+1215.5.1 = {
+    holder = 204009 # Giles de Braose
+}
+1215.12.1 = {
+    liege = d_gwynedd
+}
+1215.12.1 = {
+    holder = 204011 # Reginald de Braose
+}
+1217.6.24 = {
+    liege = k_england
+}
+1227.5.5 = {
+    holder = 161620 # William V de Braose
+}
+1230.5.2 = {
+    liege = d_gwynedd
+}
+1230.5.2 = {
+    holder = 138486 # David of Gwynedd, the husband of Isabel de Braose
+}
+1246.1.1 = {
+    liege = k_england # Death of David of Gwynedd
+}
+1246.1.1 = {
+    holder = 161622 # Lordship of Builth reverted to the Crown then placed under the Mortimer custody
+}
+1260.1.1 = {
+    liege = d_gwynedd
+}
+1260.1.1 = {
+    holder = 420001 # Gwerthrynion seized by Llywelyn in 1257, Builth in 1260
+}
+1277.9.29 = {
+    liege = k_england # Treaty of Aberconwy
+}
+1277.9.29 = {
+    holder = 454520 # Occupied by Edward I
+}
+1307.7.7 = {
+    holder = 454510 # Edward II of England
+}
+1317.9.5 = {
+    holder = 454561 # Humphrey de Bohun
+}
+1321.11.6 = {
+    holder = 454510 # Land seized by the Crown
+}
+1329.9.2 = {
+    holder = 161640 # Roger de Mortimer
+}
+1330.11.29 = {
+    holder = 454500 # Edward III
+}

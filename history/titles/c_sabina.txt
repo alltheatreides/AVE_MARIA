@@ -1,0 +1,74 @@
+# -*- ck2.history.titles -*-
+#Ottaviani, conti di Rieti
+867.1.1 = {
+        liege=k_italy
+	holder = 1062358 # Giuseppe
+}
+#Conti di Sabina
+915.1.1 = {
+	holder = 1062573 # Ingelbert
+}
+921.1.1 = {
+	holder = 1062574 # Ingebald
+}
+940.1.1 = {
+	holder = 1062343 # Leone
+}
+962.1.1 = {
+	holder = 1062344 # Raniero
+}
+962.2.2 = {
+    liege=e_hre
+}
+#Cencii/Crescenzi Stephani/Stefaniati
+964.1.1 = {
+	holder = 1062348 # Benedetto 
+}
+987.10.23 = {
+	holder = 1062349 # Benedetto II
+}
+#Ottaviani, Regulus di Palombara, conti di Rieti e Sabina.
+1012.7.1 = {
+	liege = k_papal_state
+	holder = 1062364 # Ottaviano
+}
+1024.7.1 = {
+	holder = 1062369 # Oddone
+}
+1044.1.1 = {
+	holder = 1062370 # Ioannes II
+}
+1080.1.1 = {
+	holder = 1062378 # Oddone III
+}
+1115.1.1 = {
+	holder = 1062379 # Ottaviano
+}
+1136.1.1 = {
+	holder = 1062380 # Oddone
+}
+1155.1.1 = {
+	holder = 1062382 # Ottaviano
+}
+1178.1.1 = {
+	holder = 1062383 # Oddone
+}
+1215.1.1 = {
+	holder = 1062384 # Giovanni
+}
+# To the Orsini in 1235
+1235.4.12 = {
+	holder = 70846
+}
+1246.10.13 = {
+	holder = 70850
+}
+1246.11.15 = {
+	holder = 70855
+}
+1319.1.1 = {
+	holder = 70862
+}
+1327.1.1 = {
+	holder = 70864
+}

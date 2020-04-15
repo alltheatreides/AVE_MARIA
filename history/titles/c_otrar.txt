@@ -1,121 +1,184 @@
-762.1.1={
-	liege=d_turkestan
-	holder = 188767
-}
+# -*- ck2.history.titles -*-
 
-850.1.1={
-	liege=d_syr_darya
-	holder = 74029
+855.1.1 = {
+	liege = d_soghd
+	holder = 1230665
 }
-936.1.1 = {
-	holder = 261070
-	liege = d_kazakh
+878.1.1 = { # Ya'qub b. Ahmad drops the name of his brother Nasr from his coins
+	liege = 0
 }
-1052.1.1=
-{
-	liege="d_khiva"
-	holder = 3014
+890.1.1 = {
+	liege = d_soghd
+	holder = 163157
 }
-1068.1.1=
-{
-	holder = 3016
+910.1.1 = {
+	holder = 1600045 # Hosayn b. Mut by 910
 }
-1080.1.1=
-{
-	holder = 3018
+915.1.1 = {
+	holder = 1600046 # Ahmad b. Mut by 920
 }
-1081.1.1=
-{
-	holder = 3020
+921.1.1 = {
+	holder = 1600047 # Muhammad b. Husayn b. Mut before 922
 }
-1089.1.1=
-{
-	holder = 3022
+922.1.1 = {
+	holder = 1600042 # Mansur b. Qaratigin Isfijabi, whose family had some territorial base in Isfijab
 }
-1095.1.1=
-{
-	holder = 3024
+952.1.1 = {
+	holder = 1600043 # Ahmad b. Mansur b. Qaratigin Isfijabi, possibly had some territorial base in Isfijab
 }
-1097.1.1=
-{
-	holder = 144110
+975.1.1 = {
+	holder = 1600038 # Husayn b. Mut Isfijabi, up to the mid-990s according to numismatic evidence
 }
-1097.6.1=
-{
-	holder = 144108
+995.1.2 = {
+	holder = 1600039 # Abu Mansur Muhammad b. Husayn Isfijabi, 995-1010 according to numismatic evidence
 }
-1099.1.1=
-{
-	holder = 144109
+997.1.1 = {
+	liege = 0
 }
-1102.1.1=
-{
+998.1.1 = {
+	liege = k_turkestan_east
+}
+1013.1.1 = {
+	liege = d_ustrushana
+	holder = 1230265 # Muhammad b. Ali
+}
+1017.1.2 = {
+	liege = k_turkestan_east
+	holder = 3004 #?
+}
+1025.1.2 = {
+	holder = 1230268
+}
+1026.1.2 = {
+	holder = 3008 # Yusuf Kadir Khan
+}
+1032.1.2 = {
+	liege = d_shash
+	holder = 144103
+}
+1046.1.1 = {
+	holder = 1230288 # Husayn b. Muhammad b. Yusuf Kadir coins ca. 1048, reportedly for 33 years
+}
+1048.1.2 = {
+	liege = d_ferghana
+}
+1057.1.1 = {
+	liege = k_turkestan_east
+	#holder = 3022
+}
+1079.1.1 = {
+	holder = 1231631
+}
+1080.1.1 = {
+	liege = k_mavarannahr
+	#holder = 3018
+}
+#1086.1.1 = {
+#	holder = 3020
+#}
+#1095.1.1 = {
+#	holder = 144110
+#}
+1105.1.1 = { #was 1102
 	holder = 144111
 }
-1129.1.1=
-{
-	holder = 144112
+1130.1.1 = {
+	holder = 1230271
 }
-1129.6.1=
-{
-	holder = 144113
+# submission to Khitan
+1134.1.1 = {
+	liege = e_khitan
+	holder = 188905
 }
-1130.1.1={
-	holder = 144116
+1144.6.6 = {
+	holder = 188907
 }
-1132.1.1=
-{
-	holder = 144117
+#1151.6.6 = {
+#	holder = 188907
+#}
+1163.6.6 = {
+	holder = 188908
 }
-1132.6.1=
-{
-	holder = 144118
+1177.6.6 = {
+	holder = 1231500
 }
-1141.1.1=
-{
-	holder = 144119
+1177.11.11 = {
+	holder = 188912
 }
-1156.1.1=
-{
-	holder = 144120
+1180.1.1 = {
+	holder = 1231619
 }
-1161.1.1=
-{
-	holder = 144121
+#1211.1.1 = {
+#	holder = 188914
+#}
+1212.1.1 = {
+	liege = k_khwarezmia
+	holder = 1233224
 }
-1178.1.1=
-{
-	holder = 144122
-}
-1204.1.1=
-{
-	holder = 93051
-}
-1212.1.1=
-{
-	holder = 93053
-}
-1221.1.1=
-{
-
+1219.6.6 = {
+	liege = e_mongol_empire
 	holder = 125501
 }
-
-1227.12.2={
-
-	holder = 93062
+1227.12.2 = {
+	holder = 172005
 }
-1228.1.1={
-	liege=e_chagatai
-	holder = 248171
+1234.2.10 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1259.1.1={
-	holder = 248172
+1241.12.11 = {
+	liege = d_dasht-i-qipchaq
+	holder = 34912
 }
-1280.1.1=
-{
-	holder = 248174
+1251.1.1 = {
+	holder = 34919
 }
-1310.1.1={
-	holder = 248176
+1265.1.1 = {
+	liege = e_chagatai
+	holder = 93068
+}
+1266.1.1 = {
+	holder = 93066
+}
+1266.9.1 = {
+	holder = 93070
+}
+1271.1.1 = {
+	holder = 93072
+}
+1272.1.1 = {
+	holder = 93074
+}
+1282.1.1 = {
+	holder = 93075
+}
+1307.1.1 = {
+	holder = 93076
+}
+1308.1.1 = {
+	holder = 93078
+}
+1309.1.1 = {
+	holder = 93079
+}
+1310.1.1 = {
+	holder = 93080
+}
+1318.1.1 = {
+	holder = 93079
+}
+1326.1.1 = {
+	holder = 93081
+}
+1329.1.1 = {
+	holder = 93082
+}
+1330.1.1 = {
+	holder = 93083
+}
+1334.1.1 = {
+	holder = 93084
+}
+1335.1.1 = {
+	holder = 93086
 }

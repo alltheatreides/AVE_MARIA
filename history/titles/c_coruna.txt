@@ -1,102 +1,85 @@
-769.1.1={
+# -*- ck2.history.titles -*-
+
+769.1.1 = {
+	liege = k_asturias
 	holder = 70118 # Silo, King of Asturias
-	liege=k_asturias
 }
-783.1.1={
+783.1.1 = {
 	holder = 70006 # Alfonso II de Asturias
 }
-842.3.20={
+842.3.20 = {
 	holder = 70015 # Ramiro I de Cantabria
 }
-850.2.1={
-	holder = 70017 # Ordoï¿½o I de Cantabria
+850.2.1 = {
+	holder = 70017 # Ordoño I de Cantabria
 }
-866.5.27={
+866.5.27 = {
 	holder = 70019 # Alfonso III de Cantabria
 }
-900.1.1={
-	holder = 70021 # Ordoï¿½o II de Leï¿½n
-	liege=d_galicia
+900.1.1 = {
+	liege = d_galicia
+	holder = 70021 # Ordoño II de León
 }
-910.12.25={
-	liege=k_spanish_galicia
+910.12.25 = {
+	liege = k_spanish_galicia
 }
-924.1.1={
-	holder = 70030 # Fruela II de Cantabria
-	liege=d_galicia
+920.1.1 = {
+	holder = 1235114 # Hermenegildo Alvitez, Count of Presaras
 }
-925.7.1={
-	holder = 70023 # Alfonso IV de Leï¿½n
+924.1.1 = {
+	liege = d_galicia
 }
-929.6.10={
-	liege=k_spanish_galicia
+929.6.10 = {
+	liege = k_spanish_galicia
 }
-931.6.1={
-	holder = 70024 # Ramiro II de Leï¿½n
+966.1.1 = {
+	holder = 108610 # Ramiro III de León
 }
-936.1.1 = {
-	holder = 260603
+980.1.1 = {
+	holder = 1235036 # Rodrigo de Traba
 }
-951.1.5={
-	holder = 108600 # Ordoï¿½o III de Leï¿½n
+1019.1.1 = {
+	holder = 1235035 # Froilaz de Traba
 }
-956.11.13={
-	holder = 70026 # Sancho I de Leï¿½n
+1028.1.1 = {
+	holder = 1235034 # Bermudo de Traba
 }
-958.1.1={
-	holder = 70029 # Ordoï¿½o IV de Leï¿½n
+1060.1.1 = {
+	holder = 72777 # Fruela de Traba
 }
-960.1.1={
-	holder = 70026 # Sancho I de Leï¿½n
+1091.11.27 = {
+	holder = 71366 # Pedro de Traba
 }
-966.1.1={
-	holder = 108610 # Ramiro III de Leï¿½n
+1092.5.1 = {
+	liege = d_galicia
 }
-984.1.1={
-	holder = 108590 # Bermudo II de Leï¿½n
+1126.3.8 = {
+	liege = k_leon
 }
-999.9.1={
-	holder = 108570 # Alfonso V de Leï¿½n
+1126.5.3 = {
+	holder = 72788 # Bermudo de Traba
 }
-1028.8.7={
-	holder = 70075 # Bermudo III de Leï¿½n
+1132.1.1 = {
+	holder = 208550 # Fernan de Traba
 }
-1037.9.4={
-	holder = 107510 # Fernando I Jimena
+1154.12.1 = {
+	holder = 72879 # Gonzalo de Traba
 }
-1065.12.27={
-	holder = 109500 # Garcï¿½a II Jimena
+1160.11.19 = {
+	holder = 72881 # Fernan de Traba
 }
-1072.2.13={
-	holder = 71368 # Fernando de Castro
+1165.12.26 = {
+	holder = 72882 # Gomez de Traba
 }
-1092.5.1={
-	liege=d_galicia
+1209.5.5 = {
+	holder = 72889 # Rodrigo de Traba
 }
-1126.3.8={
-	liege=k_leon
+1247.4.19 = {
+	holder = 72408 # Esteban Fernández de Castro
 }
-1143.1.1={
-	holder = 71370 # Gutierre Fernï¿½ndez de Castro
+1288.1.1 = {
+	holder = 457674 # Fernán Estévez de Castro
 }
-1166.1.1={
-	holder = 71393 # ï¿½lvaro Rodrï¿½guez de Castro
-}
-1187.11.3={
-	holder = 71394 # Fernando ï¿½lvarez de Castro
-}
-1195.9.1={
-	holder = 71395 # Sancho ï¿½lvarez de Castro
-}
-1196.1.1={
-	holder = 72407 # Fernando Gutiï¿½rrez de Castro
-}
-1240.1.1={
-	holder = 72408 # Esteban Fernï¿½ndez de Castro
-}
-1288.1.1={
-	holder = 457674 # Fernï¿½n Estï¿½vez de Castro
-}
-1316.2.18={
-	holder = 457670 # Pedro Fernï¿½ndez de Castro
+1316.2.18 = {
+	holder = 457670 # Pedro Fernández de Castro
 }

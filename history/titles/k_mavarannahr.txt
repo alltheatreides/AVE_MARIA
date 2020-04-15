@@ -1,0 +1,156 @@
+# -*- ck2.history.titles -*-
+
+875.1.1 = {
+	holder = 163099
+}
+892.1.1 = {
+	holder = 163157
+}
+907.1.1 = {
+	holder = 1230610
+}
+914.1.1 = {
+	holder = 1230611
+}
+943.6.4 = {
+	holder = 1230615
+}
+954.8.8 = {
+	holder = 1230616
+}
+961.1.1 = {
+	holder = 1230617
+}
+976.6.13 = {
+	holder = 1230619
+}
+997.7.23 = {
+	holder = 1230620
+}
+999.2.2 = {
+	holder = 1230621
+}
+# Karakhanids
+999.10.23 = {
+	holder = 3002
+}
+1017.1.2 = {
+	holder = 3004
+}
+1025.1.2 = {
+	holder = 1230268
+}
+1026.1.2 = {
+	holder = 3008 # Yusuf Kadir Khan
+}
+1032.1.2 = {
+	holder = 3010
+}
+1034.1.2 = {
+	holder = 144102
+}
+1040.1.1 = {
+	capital = 903 # Samarkand
+}
+1042.1.2 = {
+	holder = 3014
+}
+1043.1.1 = {
+	set_tribute_suzerain = {
+		who = k_kafarestan
+		percentage = 0.4
+	}
+}
+1050.1.1 = {
+	clear_tribute_suzerain = k_kafarestan
+}
+#1052.1.2 = {
+#	holder = 3014
+#}
+1068.1.1 = {
+	holder = 3016
+}
+1080.1.1 = {
+	holder = 3018
+}
+1086.1.1 = {
+	holder = 3020
+}
+1089.1.1 = {
+	holder = 1231611
+	set_tribute_suzerain = {
+		who = e_persia
+		percentage = 0.4
+	}
+}
+1090.1.1 = {
+	holder = 1231612
+}
+1092.1.1 = {
+	holder = 3020
+}
+1092.11.1 = {
+	clear_tribute_suzerain = e_persia
+}
+1095.1.1 = {
+	holder = 1231613
+}
+1097.1.1 = {
+	holder = 144110
+}
+1097.6.1 = {
+	holder = 1231614
+}
+1099.1.1 = {
+	holder = 144109
+}
+1102.6.6 = {
+	holder = 144111
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+1130.1.1 = {
+	holder = 1230271
+	clear_tribute_suzerain = e_persia
+}
+1132.1.1 = {
+	holder = 144117
+}
+1132.6.1 = {
+	holder = 144118
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+1141.1.1 = {
+	clear_tribute_suzerain = e_persia
+	liege = e_khitan
+	holder = 144119
+}
+# title passes to Ferghana branch
+1156.1.1 = {
+	holder = 1230272 # Ali b.Hasan
+}
+1158.1.1 = {
+	holder = 1230273 # Ma'súd b.Hasan
+}
+1171.1.1 = {
+	holder = 1230277 # Ibrahím b. Husayn - 63-79 Ferghana
+}
+1195.1.1 = {
+	holder = 1230280 # 'Uthmán' b. Ibrahím
+}
+1210.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = k_khwarezmia
+		percentage = 0.4
+	}
+}
+1212.1.1 = {
+	holder = 0
+	clear_tribute_suzerain = k_khwarezmia
+}

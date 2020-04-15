@@ -1,117 +1,122 @@
-691.1.1={
-	liege="k_khazaria"
+# -*- ck2.history.titles -*-
+
+691.1.1 = {
+	liege = k_khazaria
 	holder = 74007
 }
-715.1.1={
+715.1.1 = {
 	holder = 74008
 }
-731.1.1={
+731.1.1 = {
 	holder = 74009
 }
-749.1.1={
+749.1.1 = {
 	holder = 74012
 }
-763.1.1={
-	holder = 146203
+#Major Volga Bulgar population
+865.1.1 = {
+	holder = 1233391
 }
-796.1.1={
-	holder = 74018
+#Oghuz garrison at some point after the Volga Bulgars
+930.1.1 = {
+	holder = 1232030
 }
-802.1.1={
-	holder = 74019
+953.1.1 = {
+	holder = 1232031
 }
-818.1.1={
-	holder = 74020
+
+# Suru-Külbej
+966.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231768
 }
-829.1.1={
-	holder = 74021
+970.1.1 = {
+	holder = 1231769
 }
-831.1.1={
-	holder = 74022
+989.1.1 = {
+	holder = 1231771
 }
-847.1.1={
-	holder = 74023
+# Bula-Chopan pushed west by the Oghuz.
+1001.1.1 = {
+	liege = d_bula_chopan
+	holder = 1231848
 }
-852.1.1={
-	holder = 74024
+1006.1.1 = {
+	holder = 1231850
 }
-864.1.1={
-	holder = 74025
+1027.1.1 = {
+	holder = 1231852
 }
-889.1.1={
-	holder = 74026
+#1040.1.1 = {
+#	liege = d_bula_chopan
+#}
+# Oghuz takes over
+1044.1.1 = {
+	liege = d_tekule
+	holder = 1231951
 }
-899.1.1={
-	holder = 146187
+# Cumans arrive
+# Toqsoba
+1060.1.1 = {
+	liege = d_toqsoba
+	holder = 1229732
 }
-916.1.1={
-	holder = 146188
+1065.1.1 = {
+	holder = 1229733 # Sharukan
 }
-920.1.1={
-	holder = 146189
+1107.1.1 = {
+	holder = 1233001 # Sugr
 }
-928.1.1={
-	holder = 146190
+# Monomakh rises to the Kievan throne
+#1113.4.16 = { #?
+#	liege = k_ruthenia
+#}
+1116.1.1 = {
+	holder = 1229736 # Sirçan remains behind, while Ötrök leaves for Georgia
 }
-936.1.1 = {
-	liege = d_sarkel
-	holder = 260703
+1125.5.19 = {
+	liege = d_toqsoba
+	# Monomakh dies Ötrök returns
+	holder = 1229735 # Ötrök
 }
-945.1.1={
-	holder = 146191
+1140.1.1 = {
+	holder = 1229736 # Sirçan
 }
-969.1.1={
-	liege=0
+1159.1.1 = {
+	holder = 1229737 # Künçek
 }
-1030.1.1={
-liege="d_sarkel"
-holder = 90142
+1203.1.1 = {
+	holder = 1229739 # Yugri
 }
-1060.1.1=
-{
-holder = 806
+1223.5.31 = {
+	holder = 1233212 # Akkabul
 }
-1110.1.1=
-{
-holder = 90143
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1120.1.1=
-{
-holder = 125401
+1255.1.2 = {
+	holder = 125505
 }
-1146.1.1=
-{
-holder = 125402
+1256.1.2 = {
+	holder = 125506
 }
-1183.1.1=
-{
-holder = 228030
+1257.1.2 = {
+	holder = 125504
 }
-1203.1.1=
-{
-holder = 125403
+1266.1.2 = {
+	holder = 125508
 }
-1223.1.1=
-{
-holder = 125404
+1280.1.2 = {
+	holder = 125509
 }
-1238.1.1=
-{
-holder = 34851
+1287.1.2 = {
+	holder = 125511
 }
-1262.1.13=
-{
-holder = 34903
+1291.1.2 = {
+	holder = 125512
 }
-1280.1.1=
-{
-holder = 34904
-}
-1285.1.1=
-{
-holder = 34906
-}
-1305.1.1=
-{
-holder = 480000
+1312.1.2 = {
+	holder = 480000
 }

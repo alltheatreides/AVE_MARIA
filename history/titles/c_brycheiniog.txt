@@ -1,151 +1,163 @@
-#Brycheiniog
-420.1.1={
-	holder = 159320 # Anlach mac Cormac
+# -*- ck2.history.titles -*-
+
+# Vanilla 15/08/2013 county Dyfed
+360.1.1 = {
+	holder = 159807 # Macsen Wledig
+	law = agnatic_succession
+	law = succ_gavelkind
 }
-450.1.1={
-	holder = 159323 # Brychen Brycheiniog
+380.1.1 = {
+    holder = 159808 #Annwn Dynod
 }
-490.1.1={
-	holder = 159325 # Rhain Dremrudd
+428.1.1 = {
+    holder = 159816 #Ednyfed ap Annwn
 }
-510.1.1={
-	holder = 159326 # Rhigeneu ap Rhain
+431.1.1 = {
+    holder = 159817 #Glotguin ap Ednyfed
 }
-540.1.1={
-	holder = 159327 # Llywarch ap Rhigeneu
+451.1.1 = {
+    holder = 159818 #Clotri
 }
-580.1.1={
-	holder = 159328 # Idwallon ap Llywarch
+471.1.1 = {
+    holder = 159819 #Maelgwn
 }
-620.1.1={
-	holder = 159329 # Rhiwallon ap Idwallon
+475.1.1 = {
+    holder = 159322 #Aircol Lawhir
 }
-640.1.1={
-	holder = 159330 # Ceindrych ferch Rhiwallon
+495.1.1 = {
+    holder = 159324 #Gwerthefyr
 }
-650.1.1={
-	holder = 159344 #Cloten
+540.1.1 = {
+    holder = 159340 #Cyngar
 }
-670.1.1={
-	holder = 159345 #Cathen
+570.1.1 = {
+    holder = 159341 #Pedr
 }
-690.1.1={
-	holder = 159346 #Cadwgan Tredylig
+595.1.1 = {
+    holder = 159342 #Arthwyr
 }
-710.1.1={
-	holder = 159347 #Rhain
+620.1.1 = {
+    holder = 159343 #Nowy Hen
 }
-715.1.1={
-	holder = 159358 #Awst ap Cadwgan
+650.1.1 = {
+    holder = 159344 #Cloten
 }
-730.1.1={
-	holder = 159360 #Tewdwr ap Rhain
+670.1.1 = {
+    holder = 159345 #Cathen
 }
-734.1.1={
-	holder = 252370 #Naufedd Hen ap Rhain
+690.1.1 = {
+    holder = 159346 #Cadwgan Tredylig
 }
-735.1.1={
-	holder = 252371 #Elisedd ap Rhain
+710.1.1 = {
+    holder = 159347 #Rhain
 }
-736.1.1={
-	holder = 159359 #Elwystyl ap Awst
+730.1.1 = {
+    holder = 159360 #Tewdwr ap Rhain
 }
-737.1.1={
-	holder = 159360 #Tewdwr ap Rhain
+750.1.1 = {
+    holder = 159363 #Nowy ap Tewdwr
 }
-750.1.1={
-	holder = 159363 #Nowy Hen ap Tewdwr
+770.1.1 = {
+    holder = 159364 #Gruffydd ap Nowy
 }
-770.1.1={
-	holder = 159364 #Gruffydd ap Nowy Hen
+800.1.1 = {
+    holder = 159365 #Tewdwr ap Gruffydd
 }
-800.1.1={
-	holder = 159365 #Tewdwr ap Gruffydd
+840.1.1 = {
+    holder = 159366 #Elisedd ap Tewdwr
 }
-840.1.1={
-	holder = 159366 #Elisedd ap Tewdwr
+885.1.1 = {
+    holder = 159367 #Gruffydd ap Elisedd
 }
-885.1.1={
-	liege=d_hampshire
-	holder = 252372 #Tewdwr ap Elisedd
-}#Submitted to Wessex
-910.1.1={
-	holder = 159367 #Gruffydd ap Elisedd
+920.1.1 = {
+    holder = 159368 #Tewdwr ap Gruffydd
 }
-916.1.1={
-	liege=d_hereford
-	holder = 252377 #Æthelflaed, Lady of the Mercians
-}#Sacked by Mercia
-917.1.1={
-	holder = 159367 #Gruffydd ap Elisedd
+940.1.1 = {
+    holder = 159369 #Gwylog ap Tewdwr
 }
-920.1.1={
-	liege=d_deheubarth
-	holder = 159368 #Tewdwr Brycheiniog ap Gruffydd
-}#Submitted to Deheubarth
-940.1.1={
-	holder = 159369 #Gwylog ap Tewdwr
+970.1.1 = {
+    holder = 159370 #Elisedd ap Gwylog
 }
-970.1.1={
-	holder = 159370 #Elisedd ap Gwylog
+1000.1.1 = {
+    holder = 159371 #Gruffydd ap Elisedd
 }
-1000.1.1={
-	holder = 159371 #Gruffydd ap Elisedd
+1045.1.1 = {
+    liege = d_deheubarth
+	law = agnatic_succession
+	law = succ_elective_gavelkind	
 }
-1045.1.1={
-	holder = 159372 #Selyf ap Gruffydd
+1045.1.1 = {
+    holder = 159312 #Maenyrch ap Dryffryn
 }
-1050.1.1={
-	holder = 159312 #Maenyrch ap Dryffryn
+1060.1.1 = {
+    holder = 131704 #Bleddyn ap Maenyrch
 }
-1060.1.1={
-	holder = 131704 #Bleddyn ap Maenyrch
+1088.1.1 = {
+    liege = k_england
 }
-1070.1.1={
-	holder = 252373 #Rhiwallon ap Maenyrch
+1088.1.1 = {
+    holder = 1230874 #Bernard de Neufmarche
 }
-1075.1.1={
-	holder = 252374 #Madog ap Rhiwallon
+1125.1.1 = {
+    holder = 204622 #Milo of Gloucester, the husband of Sibyl de Neufmarche
 }
-1080.1.1={
-	holder = 252375 #Einion ap Madog
+1143.12.23 = {
+    holder = 7461 # Roger of Gloucester
 }
-1088.1.1={
-	holder = 252375 #Trahaearn Fawr ap Einion
+1155.9.22 = {
+    holder = 204623 # Bertha of Gloucester
 }
-1090.1.1={
-	liege=k_england
+1157.1.19 = {
+    holder = 204000 # William de Braose
 }
-1090.1.1={
-	holder = 252381 #Bernard de Neufmarché
+1180.1.1 = {
+    holder = 204004 # William de Braose
 }
-1125.1.1={
-	holder = 204622 #Miles of Gloucester
+1211.1.1 = {
+    holder = 204514 # Land seized by the Crown
 }
-1143.12.23={
-	holder = 7461 #Roger of Gloucester
+1215.5.1 = {
+    holder = 204009 # Giles de Braose
 }
-1155.9.22={
-	holder = 204620 #Humphrey de Bohun
+1215.12.1 = {
+    liege = d_gwynedd
 }
-1170.1.1={
-	holder = 204610 #Humphrey de Bohun
+1215.12.1 = {
+    holder = 204011 # Reginald de Braose
 }
-1182.1.22={
-	holder = 204600 #Henry de Bohun
+1217.6.24 = {
+    liege = k_england
 }
-1220.6.1={
-	holder = 7462 #Humphrey de Bohun
+1227.5.5 = {
+    holder = 161620 # William V de Braose
 }
-1275.9.24={
-	holder = 7463 #Humphrey de Bohun
+1230.5.2 = {
+    holder = 161623 # Eleanor de Braose
 }
-1298.12.31={
-	holder = 454561 #Humphrey de Bohun
+1241.1.1 = {
+    holder = 129055 # Humphrey de Bohun, the husband of Eleanor de Braose
 }
-1321.11.6={
-	holder = 7464 #John of Bohun
+1262.1.1 = {
+    liege = d_gwynedd
 }
-1335.1.20={
-	holder = 454560 #Humphrey de Bohun
+1262.11.1 = {
+    holder = 420001 # Brecon seized by Llywelyn in 1262
+}
+1277.9.29 = {
+    liege = k_england # Treaty of Aberconwy
+}
+1277.9.29 = {
+    holder = 7463 # Humphrey de Bohun
+}
+1298.12.31 = {
+    holder = 454561 # Humphrey de Bohun
+}
+1321.11.6 = {
+    holder = 161668 # Land seized by the Crown, Hugh Despenser the Younger assigned as keeper
+}
+1326.11.24 = {
+    holder = 7464 # The Despensers are executed
+}
+1335.1.20 = {
+    holder = 454560 # Humphrey de Bohun
 }

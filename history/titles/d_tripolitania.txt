@@ -1,150 +1,118 @@
-768.1.1={
-	holder = 210031
-}
-850.1.1={	
+# -*- ck2.history.titles -*-
+
+935.1.1 = {
 	liege = k_africa
-	holder = 273136
+	holder = 1300152
 }
-866.1.1 = {
-	holder = 273137
+955.1.1 = {
+	holder = 1300150
 }
-903.1.1 = {
-	liege = 0
-	set_tribute_suzerain = { who = k_africa type = permanent }
-	holder = 273139
+960.1.1 = {
+	holder = 32903
 }
-940.1.1 = {
-	holder = 273140
+979.1.1 = {
+	liege = k_africa
+	holder = 1600567 #Tamsulat bin Bakkar
+}
+996.1.1 = {
+	holder = 1600560 #placeholder between the request for a new Amir was sent to Barjawan and the arrival of Yanis in 998
+}
+998.1.1 = {
+	liege = e_egypt
+	holder = 1900818 # Yanis al-Siqilli
 }
 1001.1.1 = {
-	clear_tribute_suzerain = k_africa
 	holder = 155123
 }
-1009.1.1=
-{
-holder = 155124
+1009.1.1 = {
+	holder = 155124
 }
-1012.1.1=
-{
-holder = 155125
+1010.1.1 = {
+	liege = k_africa
+	holder = 1300113 #Muhammad b. al-Hasan
 }
-1022.1.1=
-{
-holder = 155126
+1021.1.1 = { #?
+	holder = 1300114 #'Abd Allah b. al-Hasan
 }
-1028.1.1=
-{
-holder = 155127
+1022.1.1 = {
+	liege = e_egypt
 }
-1038.1.1=
-{
-holder = 155128
+#Sometime after 1023, 'Abd Allah b. al-Hasan cedes Tripoli to the banu Khazrun
+1026.1.1 = { #recognized as governor of Tripolitania by the Fatimid caliph
+	#liege = e_egypt
+	holder = 155126
 }
-1052.1.1=
-{
-holder = 155184
+1028.1.1 = {
+	holder = 155127
 }
-1066.1.1=
-{
-holder = 155185
+1038.1.1 = {
+	holder = 155128
 }
-1087.1.1=
-{
-holder = 155186
+1039.1.1 = {
+	holder = 155130
 }
-1108.1.1=
-{
-holder = 155187
+1051.1.1 = {
+	liege = k_africa
 }
-1129.1.1=
-{
-holder = 155188
+1052.1.1 = {
+	#historical_nomad = yes
+	liege = 0
+	holder = 0
 }
-1146.1.1=
-{
-liege="k_sicily"
+1146.1.1 = {
+	#historical_nomad = no
+	liege = k_sicily
+	holder = 155136
 }
-1146.1.1=
-{
-holder = 155136
+1158.1.1 = {
+	liege = 0
 }
-1160.1.22=
-{
-liege="k_mauretania"
+1160.1.22 = {
+	liege = k_maghreb
+	#holder = 33013
 }
-1160.1.22=
-{
-holder = 33013
+1172.1.1 = {
+	liege = k_egypt
+	holder = 155113
 }
-1172.1.1=
-{
-liege="k_egypt"
+1192.1.1 = {
+	liege = 0
 }
-1172.1.1=
-{
-holder = 155113
+1195.1.1 = {
+	holder = 32977
 }
-1187.10.15=
-{
-liege="k_mauretania"
+1210.1.1 = {
+	liege = k_maghreb
+	holder = 33016
 }
-1192.1.1=
-{
-liege=0
+1223.1.1 = {
+	holder = 33018
 }
-1195.1.1=
-{
-holder = 32977
+1229.1.1 = {
+	liege = k_africa
 }
-1210.1.1=
-{
-liege="k_mauretania"
+1251.1.1 = {
+	holder = 33040
 }
-1210.1.1=
-{
-holder = 33016
+1270.1.1 = {
+	holder = 33041
 }
-1223.1.1=
-{
-holder = 33018
+1290.1.1 = { #placeholder
+	holder = 33032
 }
-1229.1.1=
-{
-liege="k_africa"
+1309.1.1 = {
+	holder = 33042
 }
-1251.1.1=
-{
-holder = 33040
+1311.1.1 = {
+	holder = 1228894 # Ibn Abi 'Umran (Hafsid), appointed governor of Tripoli during Ibn al-Lihyani's reign
 }
-1270.1.1=
-{
-holder = 33041
+1324.1.1 = { #Revolt in Tripoli, Ibn Abi 'Umran kicked out
+	liege = 0
+	holder = 155237
 }
-1290.1.1=
-{
-holder = 33030
+1327.1.1 = {
+	holder = 155238
 }
-1300.1.1=
-{
-holder = 33032
-}
-1318.1.1=
-{
-holder = 33034
-}
-1324.1.1=
-{
-liege=0
-}
-1324.1.1=
-{
-holder = 155237
-}
-1327.1.1=
-{
-holder = 155238
-}
-1348.1.1=
-{
-holder = 155239
+1348.1.1 = {
+	holder = 155239
 }

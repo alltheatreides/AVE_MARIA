@@ -1,0 +1,120 @@
+# -*- ck2.history.titles -*-
+
+#Dativi, signori di castello cesubo
+830.1.1 = {
+		liege=d_spoleto
+	holder = 1063130 # Gregorio
+}
+854.1.1 = {
+	holder = 1063131 # Giovanni
+}
+910.1.1 = {
+	holder = 1063132 # Dativo
+}
+930.1.1 = {
+	holder = 1063133 # Andrea
+}
+#Cavalconti da Bertinoro. Conti di Bertinoro.
+975.1.1 = {
+		liege=k_italy
+	holder = 1063140 # Lamberto
+}
+1011.1.1 = {
+	holder = 1063141 # Ugo
+}
+1024.7.3 = {
+	liege=e_hre
+}
+1026.3.31 = {
+	liege = k_italy
+}
+1039.6.4 = {
+	liege=e_hre
+}
+1046.12.25 = {
+	liege=k_italy
+}
+1056.10.5 = {
+	liege=e_hre
+}
+1059.1.1 = {
+	holder = 1063142 # Gerardo
+}
+1068.1.1 = {
+	holder = 1063144 # Uberto
+}
+1080.1.1 = {
+	liege=k_italy
+}
+1102.1.1 = {
+	holder = 1063147 # Cavalconte
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1131.1.1 = {
+	holder = 1063148 # Ranieri
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1143.1.1 = {
+	holder = 1063149 # Cavalconte
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1171.1.1 = {
+	holder = 1063150 # Ranieri II
+}
+1172.8.26 = {
+	liege= k_lombard_league # joins the lombard league 1172-1173
+}
+#Degli Onesti di Bertinoro
+1177.1.1 = {
+	holder = 1063035 # Giovanni
+}
+1183.6.25 = {
+	liege=k_italy # peace of Konstanz
+}
+1187.1.1 = {
+	liege=d_ravenna
+}
+1190.1.1 = {
+	holder = 1063036 # Guido
+}
+1249.1.1 = {
+	holder = 1063037 # Salomone
+}
+#Should go to the republic of Forli
+1257.1.1 = {
+	liege = 0
+	holder = 1063301 # Teobaldo Ordelaffi
+}
+1295.1.1 = {
+	holder = 1063302 # Scarpetta Ordelffai signore di Forlí 1295-1315
+}
+1306.1.1 = {
+	holder = 1063303 # Pino Ordelffai signore di Forlí 1306-1310
+}
+1310.1.1 = {
+	holder = 1063302 # Scarpetta Ordelffai signore di Forlí 1295-1306 and 1310-1315
+}
+1311.1.6 = {
+	liege=k_italy
+}
+1313.8.24 = {
+	liege=0
+}
+1315.1.1 = {
+	holder = 1063304 # Francesco I  Ordelffai signore di Forlí 1315-1331
+}
+1327.5.31 = {
+	liege=k_italy
+}
+1331.1.1 = {
+	holder = 1063306 # Francesco II  Ordelffai signore di Forlí 1331-1359
+}

@@ -1,60 +1,26 @@
-700.1.1 = {
-	de_jure_liege = k_saxony
-	liege = k_saxony
-}
-761.1.1={
-	holder = 190474 #Hesso
-}
-782.1.1={
-	holder = 0
-	liege = 0
-	de_jure_liege = k_denmark
-}
-1129.7.1=
-{
-liege="k_denmark"
-#law = agnatic_succession
-#law = succ_primogeniture
-}
-1129.7.1=
-{
-holder = 201513 #Knud Lavard
-}
-1131.1.13=
-{
-holder = 0
-}
-1131.1.13=
-{
-liege=0
-}
+# -*- ck2.history.titles -*-
 
-1202.1.1=
-{
-liege="k_denmark"
+1110.1.1 = {
+	liege = e_hre
+	holder = 31750 # Adolf I von Schauenburg, first Count of Holstein
+	#law = agnatic_succession
+	#law = succ_primogeniture	
 }
-1202.1.1=
-{
-holder = 31795 #Albrecht Askanien
+1130.11.13 = {
+	holder = 212362 # Adolf II von Schauenburg, second Count of Holstein
 }
-1227.7.22=
-{
-	liege="e_hre"
-	de_jure_liege = k_germany
+1164.7.6 = {
+	holder = 212360 # Adolf III von Schauenburg, third Count of Holstein
 }
-1227.7.22=
-{
-holder = 31752 #Adolf IV
+1203.1.1 = {
+	liege = k_denmark
+	holder = 31795 # Albrecht von Weimar-Orlamünde, the son of Princess Sophia of Denmark and thereby the nephew of both King Canute and King Valdemar the Victorious. Was granted the domains of the defeated Schauenbergers after they were expelled back to Schauenburg in 1203, despite the fact that he was a vassal of the HRE as well
 }
-1261.7.8=
-{
-holder = 451975 #Gerhard I
+#Peace treaty after the battle of Mölln
+1225.11.17 = {
+    liege=e_hre
+	holder = 31752 # Adolf IV von Schauenburg, fourth Count of Holstein. Was restored to his father's lands in Holstein following the Battle of Bornhöved
 }
-1290.12.21=
-{
-holder = 451945 #Heinrich I
-}
-1304.8.5=
-{
-holder = 451940 #Gerhard II
+1261.7.8 = {
+	holder = 0 #Holstein was broken up into 2 parts, and later into 2/3 more parts
 }

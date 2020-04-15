@@ -1,0 +1,27 @@
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+	holder = 1144508
+}
+886.1.1 = {
+	holder = 0
+}
+974.1.1 = {
+	holder = 1236351
+}
+1000.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ghana
+		type = permanent
+	}
+}
+1011.1.1 = {
+	holder = 1236352
+}
+1040.1.1 = {
+	holder = 1236353
+}
+1055.1.1 = {
+	clear_tribute_suzerain = k_ghana
+	holder = 0
+}

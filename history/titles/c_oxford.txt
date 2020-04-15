@@ -1,87 +1,99 @@
-#Celemion
-490.1.1={
-	holder = 252261 # Einion
-}
-552.1.1={
-	holder = 252262
-}
-580.1.1={
-	holder = 252263
-}
-#Celemion conquered by Wessex
-610.1.1={
-	liege="d_hereford"
-	holder = 205146 # Ceolwulf
-}
-611.1.1={
-	holder = 205147 # Cynegils
-}
+# -*- ck2.history.titles -*-
 
-745.1.1={
-	liege="d_hereford"
-	holder = 205104
+852.1.1 = {
+	liege = d_hereford
+	holder = 163102
 }
-767.1.1={
-	holder = 205105
+874.1.1 = {
+	liege = d_somerset
+	holder = 0
 }
-865.1.1={
-	liege="k_england"
-	holder = 33358 
+927.7.12 = {
+	liege = k_england
 }
+#4 extra years added as a placeholder
 936.1.1 = {
-	holder = 33350
+	holder = 1226363 # Æthelstan Rota, ealdorman in southern Mercia(mainly Buckinghamshire and Oxfordshire) 940-970
 }
-1066.1.5=
-{
-holder = 122 # Harold Godwinson
+957.1.1 = {
+	liege = d_hereford
 }
-1066.10.14=
-{
-holder = 140 #William the Conqueror
+970.10.18 = {
+	liege = k_england
+	holder = 98 # Edgar the Peaceful
 }
-1087.9.9=
-{
-holder = 146 #William II Rufus
+975.7.9 = {
+	holder = 99 # Edward the Martyr
 }
-1093.1.1=
-{
-holder = 32143 #Walter I Giffard, earl of Buckinghamshire
+978.3.19 = {
+	holder = 106 # Aethelraed the Unready
 }
-1102.7.15=
-{
-holder = 161452 #Walter II Giffard, earl of Buckinghamshire
+1013.12.25 = {
+	holder = 101505 # Svend Tveskägg
 }
-#Earls of Oxford
-1141.7.1=
-{
-holder = 204550 #Aubrey de Vere
+1014.2.3 = {
+	holder = 106 # Aethelraed the Unready
 }
-1194.12.1=
-{
-holder = 204555 #Aubrey de Vere
+1016.4.24 = {
+	holder = 108 # Edmund Ironside
 }
-1214.10.1=
-{
-holder = 204551 #Robert de Vere
+1016.11.30 = {
+	holder = 101510 # Knud the Great
 }
-1221.10.1=
-{
-holder = 129044 #Hugh de Vere
+1035.11.13 = {
+	holder = 101513 # Harold Harefoot
 }
-1263.12.1=
-{
-holder = 454583 #Robert de Vere
+1040.3.17 = {
+	holder = 101511 # Harthacnut
 }
-1296.1.1=
-{
-holder = 129047 #Robert de Vere
+1042.6.9 = {
+	holder = 114 # King Edward
 }
-1331.4.17=
-{
-holder = 454586 #John de Vere
+1043.1.1 = {
+	holder = 128 # Swegen, Earl of Hereford (Not Mercia)
+	liege = k_england
 }
-
-1337.1.1=
-{
-holder = 454586
+1051.9.1 = {
+	holder = 114 # King Edward
+}
+1066.1.5 = {
+	liege = d_norfolk
+	holder = 112 # Eadgar the Atheling made Earl of Oxford to compensate for not being elected king
+}
+1066.10.14 = {
+	liege = k_england #Eadgar confirmed as Earl by William 
+}
+1068.1.1 = {
+	holder = 1227358 # Edwin, Highsheriff of Oxford 1068-1071, Eadgar has run off.
+}
+1071.1.1 = {
+	holder = 1227351 # Robert d'Oilly Highsheriff of Oxford 1071-? and lord of Oxford castle
+}
+1092.9.1 = {
+	holder = 1227352 # Nigel d'Oilly
+}
+1126.1.1 = {
+	holder = 1227354 # Robert d'Oilly lord of Oxford castle 1126-1142ish
+}
+# Earls of Oxford
+1141.7.1 = {
+	holder = 204550 # Aubrey de Vere
+}
+1194.12.1 = {
+	holder = 204555 # Aubrey de Vere
+}
+1214.10.1 = {
+	holder = 204551 # Robert de Vere
+}
+1221.1.1 = {
+	holder = 129044 # Hugh de Vere
+}
+1263.12.1 = {
+	holder = 454583 # Robert de Vere
+}
+1296.1.1 = {
+	holder = 129047 # Robert de Vere
+}
+1331.4.17 = {
+	holder = 454586 # John de Vere
 }

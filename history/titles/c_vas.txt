@@ -1,15 +1,17 @@
-731.1.1={
-	liege="d_esztergom"
+# -*- ck2.history.titles -*-
+
+731.1.1 = {
+	liege = d_esztergom
 	holder = 146137
 }
-749.1.1={
+749.1.1 = {
 	holder = 146139
 }
-780.1.1={
+780.1.1 = {
 	holder = 146140
 }
-804.1.1={
-	liege="d_pecs"
+804.1.1 = {
+	liege = d_pecs
 }
 814.1.1 = {
 	holder = 146141
@@ -17,68 +19,84 @@
 829.1.1 = {
 	holder = 146142
 }
-835.1.1={
-	holder = 90107 #Louis II the German
+835.1.1 = {
+	holder = 90107 # Louis II the German
 }
-839.1.1={
+839.1.1 = {
 	holder = 187011
 }
-861.1.1={
+861.1.1 = {
 	holder = 187012
 }
-876.1.1={
+876.1.1 = {
 	holder = 0
 }
-936.1.1 = {
-	liege = d_pecs
-	holder = 261321
+907.7.4 = {
+	liege = k_hungary
+	holder = 70370 # Bogát the Horka
 }
-1066.1.1=
-{
-	liege="k_hungary"
+935.1.1 = {
+	holder = 261320 # Kál the Horka
+}
+947.1.1 = {
+	holder = 261321 # Bulcsu the Horka
+}
+955.8.15 = {
+	holder = 1233343 # Zerind, father of Koppany
+}
+971.1.1 = {
+	holder = 1233344 # Koppany
+}
+# The Rebellion of Koppany fails and his realm is taken over by the King
+998.1.1 = {
+	liege = k_hungary
+	holder = 482
+}
+1012.1.1 = {
+	holder = 4408
+}
+1024.1.1 = {
+	holder = 4409
+}
+1053.1.1 = {
 	holder = 1621
 }
-1080.1.1=
-{
+1060.1.1 = {
+	holder = 20360
+}
+1066.1.1 = {
+	holder = 1621
+}
+1080.1.1 = {
 	holder = 4412
 }
-1095.1.1=
-{
+1095.1.1 = {
 	holder = 93624
 }
-1110.1.1=
-{
+1110.1.1 = {
 	holder = 93625
 }
-1135.1.1=
-{
+1135.1.1 = {
 	holder = 93627
 }
-1170.1.1=
-{
+1170.1.1 = {
 	holder = 219009
 }
-1200.1.1=
-{
+1200.1.1 = {
 	holder = 470090
 }
-1230.1.1=
-{
+1230.1.1 = {
 	holder = 470091
 }
-1272.1.2=
-{
+1272.1.2 = {
 	holder = 470117
 }
-1299.1.1=
-{
-liege="d_pecs"
+1299.1.1 = {
+	liege = d_pecs
 }
-1305.1.2=
-{
+1305.1.2 = {
 	holder = 470118
 }
-1330.1.1=
-{
+1330.1.1 = {
 	holder = 470122
 }

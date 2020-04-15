@@ -1,84 +1,77 @@
-761.1.1 = {
-	liege = d_holstein
+# -*- ck2.history.titles -*-
+
+740.1.1 = {
+	liege = d_saxony
+	holder = 190455 # Theoderic
 }
-761.1.1={
-	holder = 190474 #Hesso
+781.1.1 = {
+	holder = 167763 # Billung I Billunger
 }
-782.1.1={
-	holder = 0
+810.1.1 = {
+	holder = 167768 # Amelung Billunger
+}	
+850.1.1 = {
+	holder = 167769 # Wichmann I Billunger
 }
-860.1.1={
-	liege="d_slesvig"
+855.11.10 = {
+	holder = 167770
 }
-860.1.1={
-	holder = 163113
+885.1.1 = {
+	holder = 106516 # Billung II Billunger
 }
 936.1.1 = {
-	holder = 260572
-	liege = k_germany
+	holder = 1410 # Hermann Billunger # put in control of the North-elbian/Northalbingian territories of Saxony aka. Holstein as Princeps Militiae. Later developed into a Margraviate including Mecklenburg-Vorpommern to the East
 }
-1066.1.1 = {
-	holder = 101517
-	liege = d_slesvig
+973.1.28 = {
+	holder = 33242 # Liudger Billunger, graf of Westfalengau 
 }
-1080.4.17=
-{
-holder = 101521
+1011.2.26 = {
+	holder = 1603099 # Hermann Billunger, graf of?
 }
-1099.1.1=
-{
-holder = 101525
+1038.1.1 = {
+	holder = 1603100 # Rikquur von Heeslingen
 }
-1100.1.1=
-{
-holder = 101521
+#Inheritance dispute settled
+1059.1.1 = {
+	holder = 0
+	liege = d_bremen
 }
-
-1103.7.10=
-{
-holder = 201513
+1065.1.1 = {
+	holder = 1603104 # Ammo Ammoniden, voigt for the archbishop.
 }
-
-1106.1.1=
-{
-liege="d_saxony"
+1127.1.1 = {
+	holder = 0 # Ammo dies. Archbishop reclaims the feif.
 }
-1106.1.1=
-{
-holder = 31750 #Adolf I
+1156.1.1 = {
+	liege = d_saxony
+	holder = 1603130 #Reinhold von Dithmarschen, graf von Dithmarschen 1156-1164 
 }
-1130.11.13=
-{
-holder = 212362 #Adolf II
+#Feif reclaimed by the Duke
+1164.11.1 = {
+	holder = 212600
 }
-1164.7.6=
-{
-holder = 212360 #Adolf III
+1180.9.16 = {
+	liege = d_holstein
+	holder = 212360 # Adolf III von Schauenburg, third Count of Holstein
 }
-1180.9.16=
-{
-	liege="e_hre"
+#Slesvig/Danish takeover
+1201.1.1 = {
+    liege=d_slesvig
+	holder = 1603131 #Schackward graf von dithmarschen 1201-?.
 }
-1202.1.1=
-{
-liege="d_holstein"
+1203.1.1 = {
+	liege=d_holstein
 }
-1225.1.3=
-{
-holder = 31752 #Adolf IV
+#Reventlow, vogte of Dithmarschen
+1218.1.1 = {
+	holder = 1603110 # Hartvig I
 }
-1261.7.8=
-{
-holder = 451975 #Gerhard I
+1222.1.1 = {
+	holder = 1603111 # Gotskalk I Reventlow, vogt of Dithmarschen 1223-?
 }
-1290.12.21=
-{
-holder = 451972 #Gerhard II
+1248.1.1 = {
+	holder = 1603112 # Iven I
 }
-1312.10.28={
-	holder = 451973
-}
-1323.1.2=
-{
-holder = 451970 #Gerhard III
+1295.1.1 = {
+	holder = 1603117 # Hartvig III
 }

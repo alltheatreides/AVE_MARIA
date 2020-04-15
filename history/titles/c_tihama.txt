@@ -1,65 +1,86 @@
-767.1.1={
-	liege="d_medina"
-	holder = 188621
-}
+# -*- ck2.history.titles -*-
 
-830.1.1={
-	holder = 33932
+# c_tihama
+630.1.1 = {
+	liege = d_zabid
 }
-936.1.1 = {
-	holder = 260973
+818.1.1 = {
+	holder = 188736 # Muhammad Ziyadid
 }
-1061.1.1={
-	holder = 34046 # Hussayn - not actually the Emir of Mecca (it was Abul-Hashim ibn Muhammed )
+859.1.1 = {
+	holder = 188737 # Ibrahim
 }
-1094.1.1={
-	holder = 34047 # Issa - not actually the Emir of Mecca (it was Ibn Abul-Hashim Al-Thalab )
+902.1.1 = {
+	holder = 188738 # Ziyad
 }
-1101.1.1={
-	holder = 34048 # Abd al-Karim - probably not Emir of Mecca
+904.1.1 = {
+	holder = 188739 # Ishaq
 }
-1130.1.1={
-	holder = 34049 # Muta'in - probably not Emir of Mecca
+981.1.1 = {
+	holder = 188740 # Abdallah
 }
-1150.1.1={
-	holder = 34050 # Idris - probably not Emir of Mecca
+989.1.1 = {
+	holder = 1900841 # al-Husayn bin Salamah. Ziyadi Ghulam
 }
-1201.1.1={
-	holder = 34051 # Qatada - Emir of Mecca
+1012.1.1 = {
+	holder = 1236044 # Najah (Najahid)
 }
-1220.1.1={
-	holder = 34052
+1018.1.1 = {
+	liege = 0
 }
-1232.1.1={
-	holder = 34053
+1022.2.7 = {
+	liege = d_zabid
 }
-1239.1.1={
-	holder = 34054
+1060.1.1 = {
+	liege = d_sanaa
+	holder = 45035 # Ali (Sulayhid)
 }
-1240.1.1={
-	holder = 34053
+1063.1.1 = {
+	holder = 1236092 # Hamza (Banu Sulayman)
 }
-1241.1.1={
-	holder = 34055
+1077.1.1 = {
+	holder = 1236136 # Yahya (Banu Sulayman)
 }
-1245.1.1={
-	holder = 34053
+1089.1.1 = {
+	liege = d_zabid
 }
-1254.1.1={
-	holder = 34057
+1117.1.1 = {
+	holder = 1236137 # Ghanim (Banu Sulayman)
 }
-1255.1.1={
-	holder = 34058
+1134.1.1 = {
+	holder = 1236138 # Wahhas (Banu Sulayman)
 }
-1270.1.1={
-	holder = 34056
+1164.1.1 = {
+	holder = 1236139 # Qasim (Banu Sulayman)
 }
-1301.1.1={
-	holder = 34060
+1174.1.1 = {
+	liege = d_sanaa
+	holder = 32914 # Turanshah (Ayyubid)
 }
-1302.1.1={
-	holder = 34062
+1178.1.1 = {
+	holder = 32916 # Toghtekin (Ayyubid)
 }
-1314.1.1={
-	holder = 34060
+1197.1.1 = {
+	holder = 144092 # Al-Mu'izz (Ayyubid)
+}
+1202.1.1 = {
+	holder = 144093
+}
+1214.1.1 = {
+	holder = 32929
+}
+1229.1.1 = {
+	holder = 144094
+}
+1249.1.1 = {
+	holder = 144095
+}
+1295.1.1 = {
+	holder = 144096
+}
+1296.1.1 = {
+	holder = 144097
+}
+1322.1.1 = {
+	holder = 144098
 }

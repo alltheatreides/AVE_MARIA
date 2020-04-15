@@ -1,151 +1,117 @@
-733.1.1={
-	liege="d_galilee"
-	holder = 146027
+# -*- ck2.history.titles -*-
+
+733.1.1 = {
+	liege = d_galilee
+#	holder = 146027
 }
-767.1.1={
-	holder = 146026
-}
-800.1.1={
-	holder = 146025
-}
-825.1.1={
+#767.1.1 = {
+#	holder = 146026
+#}
+#800.1.1 = {
+#	holder = 146025
+#}
+825.1.1 = {
 	holder = 155148
 }
-852.3.1={
+852.3.1 = {
 	holder = 155149
 }
-866.1.1={
-	liege = "d_oultrejourdain"
-	holder = 163135
+865.1.1 = {
+	liege = d_damascus
+	holder = 1234865
 }
-877.1.1={
-	liege = 0
+870.1.1 = {
+	holder = 1230178
+}
+878.1.1 = {
+	holder = 0
+}
+931.1.1 = {
+	holder = 260819
+}
+935.1.1={
+	holder = 260838 # Abu'l-Fath al-Fadl al-Furat
 }
 936.1.1 = {
-	holder = 260841
-	liege = d_damascus
+	liege = k_egypt
+	holder = 261327 # Muhammad al-Ikhshid leaves for Egypt while his brother Ubaydh Allah remains in Syria
 }
-1066.1.1=
-{
-	holder = 20768
+941.1.1 = {
+	holder = 261328 # al-Hasan b. Ubaydh Allah b. Tughj
 }
-1067.1.1=
-{
-	holder = 93430
+992.1.1 = {
+	liege = d_jerusalem
+	holder = 1500002 # Mufarrij ibn Daghfal returned to Palestine and resumed his tribe's dominant position upon the death of Ibn Killis
 }
-1069.1.1=
-{
-	holder = 93431
+1013.1.1 = {
+	holder = 1500003
 }
-1071.1.1=
-{
-	holder = 93432
+1022.1.1 = {
+	liege = d_jordan
 }
-1076.1.1=
-{
-	holder = 93433
+1029.1.1 = {
+	holder = 1600006
 }
-#Seljuk
-1079.1.1=
-{
-	holder = 3044
+1041.1.1 = {
+	holder = 1500003
 }
-
-1095.1.1=
-{
-	holder = 144023
+1044.1.1 = {
+	holder = 1500006
 }
-1104.6.1=
-{
-	holder = 144024
+1079.1.1 = {
+	holder = 1500008
 }
-#Burid
-1105.1.1=
-{
-	holder = 93435
+1104.1.1 = {
+	holder = 1500010
 }
-1128.2.12=
-{
-	holder = 93436
+1127.1.1 = {
+	holder = 1500015
 }
-1132.6.6=
-{
-	holder = 93437
+1166.1.1 = {
+	holder = 1500018
 }
-1135.1.1=
-{
-	holder = 93438
+1187.10.2 = {
+	liege = d_amiralarab
 }
-1139.1.1=
-{
-	holder = 93439
+1224.1.1 = {
+	holder = 1500019
 }
-1140.1.1=
-{
-	holder = 93440
+1232.1.1 = {
+	holder = 1500020
 }
-#Zengid
-1154.4.8=
-{
-	holder = 144031
+1238.1.1 = {
+	holder = 1500026
 }
-1174.4.15=
-{
-	holder = 144033
+1240.1.1 = {
+	holder = 1500027
 }
-#Ayyubid
-1175.1.1=
-{
-	holder = 226000
+1260.1.1 = {
+	holder = 1500028
 }
-1186.1.1=
-{
-	holder = 226051
+1284.1.1 = {
+	holder = 1500029
 }
-1196.1.1=
-{
-	holder = 226052
+1293.1.1 = {
+	holder = 1500042
 }
-1218.1.1=
-{
-	holder = 144077
+1295.1.1 = {
+	holder = 1500029
 }
-1227.1.1=
-{
-	holder = 144078
+1312.1.1 = {
+	holder = 1500031
 }
-1229.1.1=
-{
-	holder = 144079
+1317.1.1 = {
+	holder = 1500029
 }
-1237.8.27=
-{
-	holder = 144080
+1320.1.1 = {
+	holder = 1500042
 }
-1245.1.1=
-{
-	holder = 144082
+1322.1.1 = {
+	holder = 1500031
 }
-1260.1.1=
-{
-	holder = 34990
+1330.1.1 = {
+	holder = 1500029
 }
-1280.1.1=
-{
-	holder = 32939
+1335.1.1 = {
+	holder = 1500032
 }
-1296.1.1=
-{
-	holder = 34991
-}
-1297.1.1=
-{
-	holder = 34992
-}
-1312.1.1=
-{
-	holder = 34993
-}
-
-
-

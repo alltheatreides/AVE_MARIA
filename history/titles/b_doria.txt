@@ -1,30 +1,38 @@
-1000.1.1={
+# -*- ck2.history.titles -*-
+
+#1000.1.1 = {
+#	holder = 91409 # Arduino di Narbona
+#}
+#1065.1.1 = {
+#	holder = 20314 # Manfredo I Doria
+#}
+1035.1.1 = {
 	holding_dynasty = 13041 # Doria - makes this a FAMILY_PALACE type Holding
-	liege="d_genoa"
-	holder = 91409 # Arduino di Narbona 
+	liege = d_genoa
+	holder = 91410 # Ansaldo Doria
 }
-1065.1.1={
+1066.1.1 = {
 	holder = 20314 # Manfredo I Doria
 }
-1090.1.1={
+1090.1.1 = {
 	holder = 91411 # Martino Doria
 }
-1110.1.1={
+1110.1.1 = {
 	holder = 91412 # Genualdo Doria
 }
-1120.1.1={
+1120.1.1 = {
 	holder = 91413 # Ansaldo Doria
 }
 1170.1.1 = {
 	holder = 91414 # Enrico Doria
 }
-1190.1.1={
+1190.1.1 = {
 	holder = 91417 # Niccolo Doria
 }
-1230.1.1={
+1230.1.1 = {
 	holder = 71150 # Emanuele Doria
 }
-1260.1.1 = {
+1259.1.1 = {
 	holder = 91430 # Ingo Doria
 }
 1270.1.1 = {
@@ -39,9 +47,12 @@
 1295.1.1 = {
 	holder = 71158 # Corrado Doria, capitaneum Januae
 }
-1318.7.27 = {
-	holder = 0
-}
+#1318.7.27 = {
+#	holder = 0
+#}
 1334.1.1 = {
 	holder = 71158 # Corrado Doria, capitaneum Januae (again)
+}
+1338.1.1 = {
+	holder = 0
 }

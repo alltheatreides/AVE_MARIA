@@ -1,94 +1,121 @@
-691.1.1= {
-	liege="d_crimea"
+# -*- ck2.history.titles -*-
+
+691.1.1 = {
+	liege = d_crimea
 	holder = 74005
 }
-709.1.1= {
+709.1.1 = {
 	holder = 74006
 }
-745.1.1={
+745.1.1 = {
 	holder = 74011
 }
-761.1.1={
-	holder = 146204
+764.1.1 = {
+	holder = 145786
 }
-#764.1.1={
-#	holder = 145786
-#}
-812.1.1={
+812.1.1 = {
 	holder = 74014
 }
-825.1.1={
+825.1.1 = {
 	holder = 74015
 }
-830.1.1={
+830.1.1 = {
 	holder = 74016
 }
-833.1.1={
-	liege = "k_magyar"
-	holder = 146230
+833.1.1 = {
+	liege = k_magyar
+	holder = 1233320
 }
-845.1.1={
-	holder = 159137
+845.1.1 = {
+	holder = 1062701
 }
-859.1.1={
-	holder = 6847
+# Yawdi-Ertim
+893.1.1 = {
+	liege = d_yawdi_ertim
+	holder = 1231708 # Bayca
 }
-861.1.1={
-	holder = 74017
+# Küerchi-Chur
+895.1.1 = {
+	liege = d_kuerchi_chur
+	holder = 1231725 # Kügel
+}
+910.1.1 = {
+	holder = 1231727
+}
+940.1.1 = {
+	holder = 1231730
+}
+969.1.1 = {
+	holder = 1231732
+}
+980.1.1 = {
+	holder = 1231734 # Küchük
+}
+1030.1.1 = {
+	holder = 1231736
+}
+# Kegen migrates
+# Suru-Külbej
+1044.1.1 = {
+	holder = 1231778 # Tiraq
+}
+# Tiraq migrates
+# Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege = k_uzes
+	holder = 1231998
+}
+1050.1.1 = {
+	holder = 1231889
+}
+# Cumans arrive.
+# Urus-oba
+1060.1.1 = {
+	liege = d_urusoba
+	holder = 1233125 # Urusoba
+}
+1103.4.1 = {
+	holder = 1233127
+}
+1130.1.1 = {
+	holder = 1233129
+}
+1158.1.1 = {
+	holder = 1233131 # Koldeci
+}
+1198.1.1 = {
+	holder = 1233133 # Koban
+}
+1223.1.1 = {
+	holder = 1233135
+}
+1230.1.1 = {
+	holder = 1233137
+}
+# Terteroba migrate to Hungary after defeat
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1265.1.1 = {
 	liege = d_crimea
+	holder = 125535
 }
-896.1.1={
-	liege = 0
+1289.1.2 = {
+	holder = 125536
 }
-936.1.1 = {
-	holder = 260703
-	liege = d_sarkel
+1294.1.2 = {
+	holder = 125537
 }
-1066.1.1=
-{
-#liege="d_crimea"
-liege=k_cuman
-}
-1066.1.1=
-{
-holder = 34854
-}
-1089.1.1=
-{
-holder = 228034
-}
-1110.1.1=
-{
-holder = 479060
-}
-1150.1.1=
-{
-holder = 34856
-}
-1180.1.1=
-{
-holder = 34857
-}
-1210.1.1=
-{
-holder = 34858
-}
-1238.1.1=
-{
-holder = 34866
-}
-1239.10.15={
-liege="e_golden_horde"
-}
-1270.1.1=
-{
-holder = 34867
-}
-1300.1.1=
-{
-holder = 34868
-}
-1315.1.1=
-{
-holder = 34869
+1321.1.2 = {
+	holder = 125544
 }

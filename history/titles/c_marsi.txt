@@ -1,0 +1,89 @@
+# -*- ck2.history.titles -*-
+#Conti dei Marsi 843-926. Who wasn not related to the later family. 
+#Ildeberto, appointed as conte dei Marsi in 843, died early 860.
+#Gerardo, attested as conte dei marsi in 860. held it at least until 871.(was Ludwig II siezed it that year)
+#Guido(Guido II di Spoleto, who also became king of Italy), appointed as conte dei marsi in 876. attested as conte dei marsi in 881 again. was raised to ducca di Spoleto in 883.
+#Alberico II(7919), di spoleto. he was appointed visconte di Gualdeperto with jurisdiction of Marsi in 910
+#Gottfredo Ottaviani(1062359), conti di Rieti, son of a Giuseppe di Palombara. became conte di marsi after Alberico(when?).
+834.1.1 = {
+	liege = d_spoleto
+	holder = 71906
+}
+836.12.30 = {
+	holder = 71905
+}
+860.1.1 = {
+	holder = 71908
+}
+880.7.8 = {
+	holder = 71909
+}
+883.1.1 = {
+	holder = 71903
+}
+894.12.12 = {
+	holder = 71904
+}
+898.10.15 = {
+	holder = 71911
+}
+899.1.1 = {
+	holder = 7918
+}
+922.1.1 = {
+	holder = 7919
+}
+#############
+#Dei Marsi
+926.1.1 = {
+	holder = 1061756 # Berardo
+}
+965.1.1 = {
+	holder = 1061752 # Rainaldo
+}
+984.1.1 = {
+	holder = 1061556 # Oderisio
+}
+1012.3.1 = {
+	holder = 1061552 # Berardo
+}
+1045.1.1 = {
+	holder = 1061569 # Berardo
+}
+1110.1.1 = {
+	holder = 1061818 # Crescenzio
+}
+#Di Celano
+1143.1.1 = {
+	liege = d_apulia
+	holder = 1061820 # Rainaldo
+}
+1167.1.1 = {
+	holder = 1061823 # Berardo
+}
+1172.1.1 = {
+	holder = 1061824 # Pietro
+}
+1212.8.1 = {
+    #in opposition to the crown
+	holder = 1061832 # Tommaso
+}
+1223.4.25 = {
+    #liege=k_sicily
+	holder = 1061833 # Riccardo
+}
+1238.1.1 = {
+	holder = 1061832 # Tommaso
+}
+1251.1.1 = {
+	holder = 1061836 # Ruggero
+}
+1282.1.1 = {
+	holder = 1061838 # Pietro
+}
+1330.1.1 = {
+	holder = 1061839 # Ruggero
+}
+1358.1.1 = {
+	holder = 1061840 # Pietro
+}

@@ -1,101 +1,134 @@
-661.2.28={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-764.1.1={
-	holder = 188604 # Ma'n bin Za'idah al-Shaybani
+861.1.1 = {
+	holder = 163101
 }
-769.6.1={
+879.6.5 = {
+	liege = k_sistan
+	holder = 163164
+}
+901.1.1 = {
+	liege = 0
+	holder = 1235974
+}
+909.1.1 = {
+	holder = 1235976
+}
+910.1.1 = {
+	holder = 1235977
+}
+911.1.1 = {
+	holder = 1235978
+}
+912.1.1 = { #Samanid Mansur b. Ishaq
 	holder = 0
 }
-
-1066.1.1 = {
-	liege="k_persia"
-	holder = 93269
+#913 Simjur Davati, Samanid governor
+923.1.1 = {
+	holder = 1230510
 }
-1073.1.1=
-{
-	holder = 93270
+963.1.1 = {
+	holder = 1230511
 }
-1088.1.1=
-{
-	holder = 93271
+1003.1.1 = {
+	liege = k_kafarestan
+	holder = 1600011
 }
-1090.1.1=
-{
-	holder = 93272
+1022.1.1 = {
+	holder = 1600012
 }
-1103.1.1=
-{
-	holder = 93273
+1027.8.15 = {
+	holder = 1230371
 }
-1157.5.8=
-{
-	liege=0
-} 
-1164.1.1=
-{
-	holder = 93274
+1030.1.1 = {
+	holder = 1230512
 }
-1167.1.1=
-{
-	holder = 93275
+1040.11.1 = {
+	liege = k_khorasan
+	holder = 1229901 # Seljuk Músá Yabghu
 }
-1168.1.1=
-{
-	holder = 93276
+1051.1.1 = {
+	liege = k_kafarestan
+	holder = 1230216 # Ghaznavid slave general Toghril
 }
-1194.3.1=
-{
-	liege="k_persia"
-} 
-1215.1.1=
-{
-	holder = 93277
+1053.1.1 = {
+	holder = 144132 # Farrukhzad
 }
-1221.1.1=
-{
-	liege="e_mongol_empire"
-	holder = 93278
+1056.1.1 = { #Chagri Beg sends his son Yaquti
+	liege = k_khorasan
+	holder = 93160 # Yaquti b.Chaghri Beg
 }
-1222.1.1=
-{
-	holder = 93279
+1058.1.1 = { #year unknown; Tughril Beg intervenes
+	holder = 1229901
 }
-1222.7.1=
-{
-	holder = 93280
+1064.1.1 = { #Musa Yabghu gets crushed by Alp Arslan
+	holder = 1230512
 }
-1223.1.1=
-{
-	holder = 93281
+1073.1.1 = {
+	holder = 1230514
 }
-1225.1.1=
-{
-	holder = 93282
+1087.1.1 = {
+	holder = 1230516
 }
-1226.1.1=
-{
+1089.1.1 = {
+	holder = 1230593
+}
+1106.1.1 = {
+	holder = 1230515
+}
+1156.1.1 = {
+	liege = 0
+}
+1164.1.1 = {
+	holder = 1230594
+}
+1169.1.1 = {
+	holder = 1230596
+}
+1173.1.1 = {
+	liege = k_kafarestan
+}
+1183.1.1 = {
+	liege = k_sistan
+}
+1207.1.1 = {
+	liege = k_khwarezmia
+}
+1213.1.1 = {
+	holder = 1230597
+}
+1221.1.1 = {
+	holder = 1230598
+}
+1222.1.1 = {
+	liege = 0
+	holder = 1235900
+}
+1225.1.1 = {
+	holder = 1235901
+}
+1235.1.1 = {
+	holder = 0
+}
+1236.1.1 = {
+	liege = e_china_west_governor
 	holder = 93285
 }
-1227.12.2={
-	liege="e_il-khanate"
-}
-1255.1.1=
-{
-
+1255.1.1 = {
 	holder = 93154
 }
-1261.1.1=
-{
-
+1259.8.11 = {
+	liege = e_il-khanate
+}
+1261.1.1 = {
 	holder = 93287
 }
-1318.1.1=
-{
+1318.1.1 = {
 	holder = 93288
 }
-1331.1.1=
-{
+1331.1.1 = {
 	holder = 93290
+}
+1336.4.10 = {
+	liege = 0
 }

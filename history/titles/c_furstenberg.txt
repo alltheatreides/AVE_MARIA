@@ -1,118 +1,99 @@
-693.1.1={
-	holder = 190335 #Gotfrid
+# -*- ck2.history.titles -*-
+
+693.1.1 = {
+	holder = 190335 # Gotfrid
 }
-709.1.1={
-	holder = 190230 #Lantfrid
+709.1.1 = {
+	holder = 190230 # Lantfrid
 }
-730.1.1={
-	holder = 190232 #Theobald
+730.1.1 = {
+	holder = 190232 # Theobald
 }
-745.1.1={
-	holder = 190231 #Lantfrid II
+745.1.1 = {
+	holder = 190231 # Lantfrid II
 }
-751.1.1={
+751.1.1 = {
 	liege = k_lotharingia
-	holder = 190234 #Hnabi
+	holder = 190234 # Hnabi
 }
-788.1.1={
-	holder = 190238 #Erbio
+788.1.1 = {
+	holder = 190238 # Erbio
 }
-794.1.1={
-	holder = 190239 #Udo
+794.1.1 = {
+	holder = 190239 # Udo
 }
-810.1.1={
+810.1.1 = {
 	holder = 0
 }
-865.1.1={
-	liege=d_swabia
+865.1.1 = {
+	liege = d_swabia
 	holder = 90105 # Charles the Fat
 }
-876.8.28={
-	liege=k_germany
+876.1.29 = {
+	liege = k_germany
 	holder = 7991
 }
-936.1.1 = {
-	holder = 7962
+915.1.1 = {
 	liege = d_swabia
 }
-1066.1.1=
-{
-liege=d_swabia
+926.4.29 = {
+	holder = 7957 # Burchard Hunfridinger, Count of Thurgau and Zürichgau, later Duke of Swabia
 }
-1066.1.1=
-{
-	holder = 1388
+955.1.1 = {
+	holder = 1604008 # Manegold von Zürichgau
 }
-1079.1.1=
-{
-	holder = 7054 #Friedrich I von Hohenstaufen
+991.1.1 = {
+	holder = 1236700 # Eberhard von Nellenburg
 }
-1105.7.21=
-{
-	holder = 212495 #Friedrich II von Hohenstaufen
+997.8.20 = {
+	holder = 1384
 }
-1147.1.22=
-{
-	holder = 212501 #Friedrich III von Hohenstaufen
+1003.5.30 = {
+	holder = 7944
 }
-1152.2.15=
-{
-	holder = 7904 #Friedrich IV von Hohenstaufen
+1008.1.1 = {
+	holder = 167878
 }
-1167.1.1=
-{
-	holder = 7905 #Friedrich V von Hohenstaufen
+1024.1.1 = {
+	holder = 1610
 }
-1170.1.1=
-{
-	holder = 212500 #Friedrich VI von Hohenstaufen
+1061.1.1 = {
+	liege = d_carinthia
+	holder = 10087
 }
-1191.1.20=
-{
-	holder = 212505 #Konrad II von Hohenstaufen
+1077.1.1 = {
+	liege = d_swabia
 }
-1196.8.15=
-{
-	holder = 212506 #Phillip I von Hohenstaufen
+1078.11.5 = {
+	holder = 20245
 }
-1208.6.21=
-{
-	holder = 212607 #Otto IV Welf
+1111.4.11 = {
+	holder = 213146
 }
-1212.1.1=
-{
-	holder = 212513 #Friedrich VII von Hohenstaufen
+1152.1.2 = {
+	holder = 213141
 }
-1216.1.1=
-{
-	holder = 30759 #Heinrich VII von Hohenstaufen
+1186.1.5 = {
+	holder = 213140
 }
-1235.1.1=
-{
-	holder = 30760 #Konrad III von Hohenstaufen
+1210.2.18 = {
+	holder = 7645
 }
-1254.5.21=
-{
-	holder = 30785 #Konrad IV von Hohenstaufen
+1230.1.20 = {
+	holder = 462320
 }
-1268.10.29=
-{
-	liege="e_hre"
-}
-1268.10.29=
-{
+1237.1.1 = {
 	holder = 462334
 }
-1284.1.6=
-{
+1268.10.29 = {
+	liege = e_hre
+}
+1284.1.6 = {
 	holder = 462335
 }
-1296.1.1=
-{
-	holder = 33322
-}
-1307.1.1=
-{
+1296.1.1 = {
 	holder = 462337
 }
-
+1337.12.14 = {
+	holder = 462338
+}

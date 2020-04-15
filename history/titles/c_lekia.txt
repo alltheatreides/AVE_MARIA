@@ -1,0 +1,88 @@
+# -*- ck2.history.titles -*-
+
+737.1.1 = {
+	liege = d_derbent
+	holder = 1233455 # Khashram al-Sulami
+}
+762.1.1 = {
+	liege = d_itil
+	holder = 146196 # Samsam
+}
+774.1.1 = {
+	liege = d_derbent
+	holder = 1233456
+}
+820.1.1 = {
+	holder = 1233457
+}
+840.1.1 = {
+	holder = 1233458
+}
+870.1.1 = {
+	holder = 1233459
+}
+930.1.1 = {
+	holder = 1233460 # Ahmad ibn Munabbih
+}
+960.1.1 = {
+	holder = 1233461
+}
+1000.1.1 = {
+	holder = 1233462
+}
+1030.1.1 = {
+	holder = 1233463
+}
+# Fariburz annex the Lakhz.
+1063.2.20 = {
+	liege = d_shirvan
+	holder = 20734
+}
+1096.1.1 = {
+	holder = 146104
+}
+1106.1.1 = {
+	holder = 144567
+}
+1120.1.1 = {
+	holder = 232753
+}
+1160.1.1 = {
+	holder = 146105
+}
+1160.6.1 = {
+	holder = 144568
+}
+1197.1.1 = {
+	holder = 146113
+}
+1200.1.1 = {
+	holder = 146114
+}
+#1204.1.1 = {
+#	holder = 144569
+#}
+1204.8.1 = {
+	holder = 144571
+}
+1243.1.1 = {
+	holder = 144572
+}
+1260.1.1 = {
+	holder = 144573
+}
+# Shamkhalate
+1270.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = nomadic
+	}
+	holder = 1233444 # Badr I
+}
+1294.1.1 = {
+	clear_tribute_suzerain = e_golden_horde
+}
+1304.1.1 = {
+	holder = 1233445 # Akhsuvar
+}

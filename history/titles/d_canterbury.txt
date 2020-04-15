@@ -1,83 +1,72 @@
-35.1.1={
-	holder = 252138 # Adminius
+# -*- ck2.history.titles -*-
+
+440.1.1 = {
+	holder = 205026
 }
-425.1.1={
-	holder = 252163 # Gwyrangon
+460.1.1 = {
+	holder = 205027
 }
-455.1.1={
-	holder = 205026 # Hengist
+500.1.1 = {
+	holder = 205028
 }
-460.1.1={
-	holder = 205027 # Horsa
+516.1.1 = {
+	holder = 205029
 }
-500.1.1={
-	holder = 205028 # Oisc
+540.1.1 = {
+	holder = 205030
 }
-516.1.1={
-	holder = 205029 # Octa
+590.1.1 = {
+	holder = 205031
 }
-540.1.1={
-	holder = 205030 # Eormenric
+616.2.24 = {
+	holder = 205032
 }
-590.1.1={
-	holder = 205031 # Æthelberht I
+640.1.20 = {
+	holder = 205033
 }
-616.2.24={
-	holder = 205032 # Eadbald
+664.1.1 = {
+	holder = 205035
 }
-640.1.28 = {
-	holder = 205036 # Eorcenberht
+664.7.1 = {
+	holder = 205039
 }
-664.7.1={
-	holder = 205039 # Ecgberht I
+725.1.1 = {
+	holder = 205045
 }
-673.1.1={
-	holder = 205040 # Hlothere
+762.1.1 = {
+	holder = 205047
 }
-685.1.1={
-	holder = 205041 # Eadric
+763.1.1 = {
+	holder = 205048
 }
-686.8.1={
-	holder = 205160 # Mul of Kent
+765.1.1 = {
+	holder = 205049
 }
-687.1.1={ #693.1.1={
-	holder = 205043 # Wihtraed
+796.1.1 = {
+	holder = 205050
 }
-725.1.1={
-	holder = 205045 # Eadberht I
-}
-748.1.1={
-	holder = 205044 # Aethelberht II
-}
-762.1.1={
-	holder = 205047 # Eardwulf
-}
-763.1.1={
-	holder = 205048 # Eadberht II
-}
-765.1.1={
-	holder = 205049 # Ecgberht II
-	set_tribute_suzerain = { who = d_hereford percentage = 0.40 }
-}
-796.1.1={
-	holder = 205050 # Eadberht III
-}
-798.1.1={
+798.1.1 = {
 	holder = 0
-	clear_tribute_suzerain = d_hereford
+}
+860.1.1 = {
+	de_jure_liege = k_wessex
+}
+927.7.12 = {
+	de_jure_liege = k_england
 }
 936.1.1 = {
 	liege = k_england
-	holder = 260530
+	holder = 260530 # Æthelwald of Mercia, son of Æthelfrith
 }
-1066.1.1 = {
-	liege="k_england"
+950.1.1 = {
+	holder = 0
+}
+1053.4.15 = {
+	holder = 130 # Leofwine Godwinsson
+	liege = k_england
 	#law = agnatic_succession
 	#law = succ_primogeniture
 }
-1066.1.1 = {
-	holder = 130 #Leofwine Godwinsson
-}
-1066.10.14={
+1066.10.14 = {
 	holder = 0
 }

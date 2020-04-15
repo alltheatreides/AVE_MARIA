@@ -1,0 +1,125 @@
+# -*- ck2.history.titles -*-
+
+864.1.1 = {
+	liege = d_tunis
+	holder = 163096
+}
+909.1.1 = {
+	holder = 32900
+}
+934.1.1 = {
+	holder = 32901
+}
+946.5.17 = {
+	holder = 32902
+}
+953.3.19 = {
+	holder = 32903
+}
+973.1.1 = {
+	holder = 20932
+}
+984.1.1 = {
+	holder = 20933
+}
+995.1.1 = {
+	holder = 20934
+}
+1016.1.1 = {
+	holder = 20935
+}
+1030.1.1 = {
+	liege = d_tunis
+	holder = 1144551
+}
+1050.6.6 = {
+	holder = 1144550
+}
+1053.1.1 = {
+	liege = 0
+}
+1057.1.1 = {
+	set_tribute_suzerain = {
+		who = d_hilal
+		percentage = 0.4
+	}
+}
+1073.6.6 = {
+	holder = 1228878
+}
+1090.1.1 = {
+	clear_tribute_suzerain = d_hilal
+}
+1101.1.1 = {
+	holder = 1236383
+}
+1149.1.1 = {
+	holder = 1236384
+}
+1159.1.1 = {
+	liege = k_maghreb
+}
+1180.1.1 = {
+	liege = 0
+}
+1186.1.1 = {
+	liege = d_mallorca
+	holder = 32976
+}
+1187.10.15 = {
+	liege = d_tunis
+	holder = 1230028 # Abu Yusuf b. Abi Hafs, before 1187
+}
+1188.1.1 = {
+	holder = 1230029 # Abu Zayd b. Abi Hafs
+}
+1195.1.1 = { # at some point between 1188 and 1200
+	holder = 1230030 # Abu Sa'id b. Abi Hafs
+}
+1198.1.1 = {
+	liege = d_tripolitania
+	holder = 32977
+}
+1207.1.1 = {
+	liege = d_tunis
+	holder = 33014 # Abu Muhammad b. Abu Hafs (Hafsid)
+}
+1221.1.1 = {
+	holder = 1230031 # Abu 'l-Ala b. Yusuf
+}
+1224.1.1 = {
+	holder = 1230035 # Abu Zayd b. Abu 'l-Ala
+}
+1226.1.1 = {
+	holder = 1230036 # Abu Ibrahim b. Abu Muhammad b. Abu Hafs (Hafsid), deputy of his brother Abd Allah
+}
+1228.1.1 = {
+	holder = 33021 # Abu Zakariyya b. Abu Muhammad b. Abu Hafs (Hafsid)
+}
+1250.1.1 = {
+	holder = 33024
+}
+1276.1.1 = {
+	holder = 33026
+}
+1279.1.1 = {
+	holder = 33025
+}
+1284.1.1 = {
+	holder = 33017
+}
+1295.1.1 = { #Qafsa independent under Banu 'l-Abid ca. 1300
+	liege = 0
+	holder = 1300134
+}
+1305.1.1 = { #Banu al-Rind in Qafsa, Banu Yamlul in Tuzar, and Banu Khalaf in Nafta by 1317
+	holder = 1300139
+}
+1333.1.1 = {# Yahya b. Muhammad b. Abd al-Jalil (?) b. Abid al-Sheridi (?) takes over Qafsa
+	holder = 1300141
+}
+1335.1.1 = { #Hafsid Abu Yahya Abu Bakr besieges Qafsa and makes his son Abu 'l-Abbas governor; Yahya b. Muhammad exiled
+	liege = d_tunis
+	holder = 1228892
+}
+#Ahmad b. 'Umar b. al-'Abid ca. 1350

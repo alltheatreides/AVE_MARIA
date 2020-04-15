@@ -1,40 +1,48 @@
-769.1.1 = {
-	holder = 260281
+# -*- ck2.history.titles -*-
+
+857.1.1 = {
+	liege = d_toimians
+	holder = 1233800
 }
-867.1.1 = {
-	holder = 260282
+893.1.1 = {
+	holder = 1233801
 }
-936.1.1 = {
-	holder = 260780
+934.1.1 = {
+	holder = 1233802
 }
-1066.1.1 = {
-	holder = 260283
+971.1.1 = {
+	holder = 1233803
 }
-1099.1.1 = {
-	holder = 260284
+1013.1.1 = {
+	holder = 1233804
 }
-1108.1.1 = {
-	set_tribute_suzerain = {
-		who = k_rus
-		type = permanent 
-	}
+1051.1.1 = {
+	holder = 1233805
 }
-1118.1.1 = {
-	clear_tribute_suzerain = k_rus
-	liege="d_novgorod"
+1098.1.1 = {
+	holder = 1233806
 }
-1136.1.2 = {
-	liege = d_hlynov
+1136.1.1 = {
+	holder = 1233807
 }
-1159.1.1 = {
-	holder = 260285
+1169.1.1 = {
+	holder = 1233808
 }
-1225.1.1 = {
-	holder = 260286
+1210.1.1 = {
+	holder = 1233809
 }
-1287.1.1 = {
-	holder = 260287
+1238.1.1 = {
+	holder = 1233810
 }
-1320.1.1 = {
-	holder = 260288
+1268.1.1 = {
+	holder = 1233811
+}
+1306.1.1 = {
+	holder = 1233812
+}
+1333.1.1 = {
+	holder = 1233813
+}
+1378.1.1 = {
+	holder = 0
 }

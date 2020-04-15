@@ -1,0 +1,106 @@
+# -*- ck2.history.titles -*-
+
+824.1.1 = {
+	liege = d_toscana
+}
+846.1.1 = {
+	liege = d_toscana
+	holder = 168364 # placeholder
+}
+# Della Gherardesca
+920.1.1={
+	holder=180000 # Ghisolfo 
+}
+#Volterra branch (mainline), conti di Volterra
+958.1.1={
+	holder=180001 # Gerardo I
+}
+990.1.1={
+	holder=180002 # Gerardo II
+}
+1005.1.1={
+	holder=180003 # Tedice I
+}
+#Biserno branch, conti di Biserno
+1015.1.1={
+	holder=180142 # Gerardo III
+}
+1055.1.1={
+	holder=180143 # Gerardo IV
+}
+1070.1.1={
+	holder=180144 # Gerardo V
+}
+1101.1.1={
+	holder=180145 # Ildebrando
+}
+1141.1.1={
+	holder=180146 # Ildebrando II
+}
+1167.1.1={
+	holder=180147 # Tedice
+}
+1197.9.28 = {
+    liege=0
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}
+1206.1.1={
+	holder=180148 # Inghiramo
+}
+1237.1.1={
+	holder=180149 # Guglielmo
+}
+1243.1.1={
+	holder=180150 # Iacopo
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1248.1.1 = {
+    liege=k_tuscan_league # Friedrich von Antiochia expelled from Firenze
+}
+1250.12.13 = {
+    liege=0
+}
+1260.1.1={
+	holder=1061001 # Bonaccorso
+}
+1262.1.1={
+	holder=1061002 # Giovanni
+}
+1269.1.1={
+	holder=1061003 # Boccio
+}
+1300.1.1={
+	holder=1061010 # Inghiramo II
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.1.1={
+	holder=1061011 #  Boccio II
+}
+1313.8.24 = {
+	liege=0
+}
+#Castruccio
+1316.11.4 = { 
+    liege=d_lucca_republic
+}
+1327.11.17 = {
+	liege=d_lucca # Castruccio raised to duke of Lucca
+}
+1328.1.1={
+	holder=1061012 #  Nicola (Paffo)
+}
+1329.5.10 = {   
+    liege=d_firenze_republic
+}
+1355.1.1={
+	holder=1061017 # Roberto (Tino)
+}
+1370.1.1={
+	holder=0
+}

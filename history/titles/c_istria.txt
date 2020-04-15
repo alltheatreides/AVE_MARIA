@@ -1,125 +1,135 @@
-569.1.1={
-	liege=k_italy
+# -*- ck2.history.titles -*-
+
+569.1.1 = {
+	liege = k_italy
+	holder = 190126 # Gisulf I
 }
-569.1.1={
-	holder = 190126 #Gisulf I
+591.1.1 = {
+	holder = 190128 # Gisulf II
 }
-591.1.1={
-	holder = 190128 #Gisulf II
+610.1.1 = {
+	holder = 190244 # Taso
 }
-610.1.1={
-	holder = 190244 #Taso
+625.1.1 = {
+	holder = 190246 # Grasulf
 }
-625.1.1={
-	holder = 190246 #Grasulf
+641.1.1 = {
+	holder = 190247 # Ago
 }
-641.1.1={
-	holder = 190247 #Ago
+663.1.1 = {
+	holder = 190248 # Lupus
 }
-663.1.1={
-	holder = 190248 #Lupus
+666.1.1 = {
+	holder = 190249 # Arnefrit
 }
-666.1.1={
-	holder = 190249 #Arnefrit
+666.6.1 = {
+	holder = 190250 # Wechtar
 }
-666.6.1={
-	holder = 190250 #Wechtar
+678.1.1 = {
+	holder = 190251 # Landar
 }
-678.1.1={
-	holder = 190251 #Landar
+690.1.1 = {
+	holder = 190252 # Rodoald
 }
-690.1.1={
-	holder = 190252 #Rodoald
+694.1.1 = {
+	holder = 190255 # Ansfrid
 }
-694.1.1={
-	holder = 190255 #Ansfrid
+694.6.1 = {
+	holder = 190254 # Ado
 }
-694.6.1={
-	holder = 190254 #Ado
+695.1.1 = {
+	holder = 190256 # Ferdulf
 }
-695.1.1={
-	holder = 190256 #Ferdulf
+705.1.1 = {
+	holder = 190257 # Corvulus
 }
-705.1.1={
-	holder = 190257 #Corvulus
+705.6.1 = {
+	holder = 190342 # Pemmo
 }
-705.6.1={
-	holder = 190342 #Pemmo
+739.1.1 = {
+	holder = 190343 # Ratchis
 }
-739.1.1={
-	holder = 190343 #Ratchis
+744.1.1 = {
+	holder = 190331 # Aistulf
 }
-744.1.1={
-	holder = 190331 #Aistulf
+749.1.1 = {
+	holder = 190260 # Anselm
 }
-749.1.1={
-	holder = 190260 #Anselm
+751.1.1 = {
+	holder = 190262 # Peter
 }
-751.1.1={
-	holder = 190262 #Peter
-}
-863.1.1={
-	liege = "d_friuli"
-}
-863.1.1={
+863.1.1 = {
+	liege = d_verona
 	holder = 163057
 }
-936.1.1 = {
-	holder = 260632
-	liege = d_susa
+919.1.1 = {
+	liege = d_bavaria
+	holder = 168200
 }
-1012.1.1=
-{
-	liege="d_carinthia"
+959.1.1 = {
+	holder = 168201
 }
-1012.1.1={
+969.1.1 = {
+	holder = 168204
+}
+976.1.1 = {
+	liege = d_carinthia
+}
+995.1.1 = {
+	liege = d_aquileia
+	holder = 1228530
+}
+1012.1.1 = {
+	liege = d_carinthia
 	holder = 7310
 }
-1044.1.1={
+1040.1.1 = {
+	liege = d_krain
+}
+1044.1.1 = {
 	holder = 1616
 }
-1070.3.6={
+1070.3.6 = {
 	holder = 7300
 }
-1098.1.1={
+1098.1.1 = {
 	holder = 7400
 }
-1107.1.1={
+1107.1.1 = {
 	holder = 212997
 }
-1123.1.1=
-{
+1124.1.1 = {
 	holder = 212996
 }
-1167.5.12=
-{
-	liege="k_venice"
+1173.1.28 = {
+	holder = 212930
 }
-1167.5.12=
-{
-holder = 32119 #Sebastiano Ziani
+1188.11.14 = {
+	liege = d_merania
+	holder = 212932
 }
-1178.4.13=
-{
-	holder = 93616
+1204.8.12 = {
+	holder = 144249
 }
-1220.1.1=
-{
-	holder = 93617
+1228.7.18 = {
+	holder = 212945
 }
-1240.1.1=
-{
-	holder = 93619
+1234.1.1 = {
+	holder = 7684
 }
-1285.1.1=
-{
-	holder = 93620
+1248.1.1 = {
+	liege = d_carinthia
+	holder = 7633
 }
-1290.1.1=
-{
-	holder = 93621
+1258.7.22 = {
+	holder = 462711
 }
-1305.1.1=
-{
-	holder = 93623
+1295.10.1 = {
+	holder = 7634
+}
+1304.9.7 = {
+	holder = 7635
+}
+1323.4.24 = {
+	holder = 33496
 }

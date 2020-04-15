@@ -1,88 +1,90 @@
-#county of Mortain
-740.1.1 = {
-	liege="k_france"
-	holder = 91474 #Wildo, historical placeholder
+# -*- ck2.history.titles -*-
+
+# county of Mortain
+853.1.1 = {
+	liege = d_anjou
+	holder = 6440 # Robert le fort
+	law = succ_primogeniture
+	law = cognatic_succession
 }
-853.1.1={
-	liege="d_anjou"
-	holder = 6440 #Robert le fort
-	law=succ_primogeniture
-	law=cognatic_succession
-}
-#866.7.2={
+#866.7.2 = {
 #	holder = 168041
 #}
-867.1.1={
-	liege="d_brittany"
+867.1.1 = {
+	liege = d_brittany
 	holder = 163105 # Solomon of Brittany takes it
 }
 936.1.1 = {
-	holder = 260556
 	liege = d_normandy
+	holder = 1230928 # Anslec de Bricquebec
 }
-1056.1.1={
-	holder = 150 #Robert de Conteville
+942.12.17 = {
+	holder = 246 # Richard I
 }
-
-1090.12.9 = {
-	holder = 158 #Guillaume de Mortain
+996.11.20 = {
+	holder = 1230872
 }
-1106.1.1={
-	holder = 91197 #Robert II le Vieux
+1015.1.1 = {
+	holder = 1230873
 }
-
-1112.1.1={
-	holder = 205851 #�tienne de Blois
+1026.1.1 = {
+	holder = 1227441 # Guillaume Guerlenc
 }
-
-1142.1.1={
-	holder = 204506 #Geoffroy Plantagen�t
+# Viscounty of Avranches
+# House of Goz
+1045.1.1 = {
+	holder = 41250 # Richard I Goz
 }
-
-1151.9.7={
-	 holder = 7474 #Guillaume de Boulogne
+1078.1.1 = {
+	holder = 41251 # Hugues le Loup
 }
-1159.11.1={
-	holder = 204500 #Henri II Plantagen�t
+1101.1.1 = {
+	holder = 82085 # Richard II Goz
 }
-1189.1.1={
-	holder = 204514 #Jean I Sans Terre
+# House of Bayeux
+1120.1.1 = {
+	holder = 204687 # Ranulph de Gernon
 }
-
-1204.1.1={
+1153.1.1 = {
+	holder = 204685 # Hugues de Kevelic
+}
+1181.6.30 = {
+	holder = 204680 # Ranulph de Blondeville
+}
+1204.1.1 = {
 	holder = 205506 # Philippe I Auguste
 }
-
-1209.1.1={
-	holder = 91194 #Renaud de Dammartin
+1209.1.1 = {
+	holder = 91194 # Renaud de Dammartin
 }
-
-1212.1.1={
-	liege = d_normandy
-	holder = 91030 #Philippe Hurepel
+1212.1.1 = {
+	holder = 91030 # Philippe Hurepel
 }
-
-1234.1.18={
-	holder = 91196 #Aubry de Dammartin
+1232.10.26 = {
+	holder = 455404
 }
-
-1240.1.1={
-	holder = 91195 #Jeanne de Dammartin
+1270.8.25 = {
+	holder = 455528
 }
-
-1252.1.14={
-	holder = 455404 #Louis IX (saint Louis)
+1285.10.5 = {
+	holder = 455526
 }
-1270.8.25={
-	holder = 455528 # Philippe II le Hardi
+1314.11.29 = {
+	holder = 455836
 }
-1285.10.5={
-	holder = 455526 # Philippe III le Bel
+1316.6.5 = {
+	holder = 70137
 }
-1298.1.1={
-	holder = 455811 #Louis de France
+1316.11.19 = {
+	holder = 455509
 }
-1319.5.19={
-	liege="k_navarra"
-	holder = 455810 #Philippe d'�vreux
+1322.1.3 = {
+	holder = 455414
+}
+1328.2.1 = {
+	holder = 455500
+}
+1336.3.14 = {
+	liege = k_navarra
+	holder = 0
 }

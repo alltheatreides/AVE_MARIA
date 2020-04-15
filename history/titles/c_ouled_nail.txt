@@ -1,83 +1,106 @@
-768.1.1={
-	holder = 210029
-}
-784.1.1={
-	holder = 210030
-}
-823.1.1={
-	liege="d_alger"
-}
-823.1.1={
+# -*- ck2.history.titles -*-
+
+823.1.1 = {
+	liege = d_alger
 	holder = 163097
 }
-877.1.1={
-	liege="d_kabylia"
-}
-936.1.1 = {
-	holder = 260855
-	liege = d_tahert
-}
-1066.1.1 = {
+877.1.1 = {
 	liege = d_kabylia
-	holder = 155173
 }
-1080.1.1=
-{
-holder = 155174
+909.1.1 = {
+	liege = k_africa
+	holder = 32900
 }
-1088.1.1=
-{
-liege=0
+934.1.1 = {
+	holder = 32901
 }
-1095.1.1=
-{
-holder = 155175
+946.5.17 = {
+	holder = 32902
 }
-1110.1.1=
-{
-holder = 155176
+953.3.19 = {
+	holder = 32903
 }
-1125.1.1=
-{
-holder = 155177
+971.1.1 = {
+	holder = 32903
 }
-1152.1.1=
-{
-liege="k_mauretania"
+973.1.1 = {
+	holder = 20932
 }
-1152.1.1=
-{
-holder = 155104
+984.1.1 = {
+	holder = 20933
 }
-1182.1.1=
-{
-holder = 155105
+990.1.1 = {
+	liege = d_zab
+	holder = 155122
 }
-1210.1.1=
-{
-holder = 155170
+992.1.1 = {
+	holder = 155123
 }
-1242.1.1=
-{
-liege="d_tlemcen"
+1001.1.1 = {
+	liege = d_kabylia
+	holder = 20936 # Hammad was already set to administer the Western part of the Zirid realm before he declared independence in 1014. According to what i could find, he was given the west immediately upon the death of his father
 }
-1253.1.1=
-{
-liege=0
+1028.1.1 = {
+	holder = 45018
 }
-1253.1.1=
-{
-holder = 155171
+1054.1.1 = {
+	holder = 45021
 }
-1281.1.1=
-{
-holder = 155106
+1055.1.1 = {
+	holder = 45023
 }
-1290.1.1=
-{
-liege="d_tlemcen"
+1057.1.1 = {
+	#historical_nomad = yes
+	liege = d_zab
+	holder = 1229650
+	#set_tribute_suzerain = {
+	#	who = d_kabylia
+	#	type = permanent
+	#}
 }
-1310.1.1=
-{
-holder = 155107
+1059.1.1 = {
+	holder = 1229651
 }
+1088.1.1 = {
+	holder = 155175
+	#clear_tribute_suzerain = d_kabylia
+}
+1110.1.1 = {
+	holder = 155176
+}
+1125.1.1 = {
+	holder = 155177
+}
+1152.1.1 = {
+	liege = k_maghreb
+	holder = 155104
+}
+1182.1.1 = {
+	holder = 155105
+}
+1210.1.1 = {
+	holder = 155170
+}
+1242.1.1 = {
+	liege = k_africa
+}
+1253.1.1 = {
+	liege = 0
+	holder = 155171
+}
+1281.1.1 = {
+	holder = 155106
+}
+1290.1.1 = {
+	liege = d_tlemcen
+}
+1304.1.1 = {
+	liege = 0
+}
+1310.1.1 = {
+	holder = 155107
+}
+1311.1.1 = {
+	liege = d_tlemcen
+}
+

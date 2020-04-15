@@ -1,97 +1,120 @@
-330.1.1={
-	liege="d_achaia"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_achaia
 }
-736.1.1={
-	holder = 145807
+865.1.1 = {
+	holder = 1770
 }
-775.1.1={
-	holder = 145808
+923.6.1 = {
+	holder = 260793 # Bardas Platypodes, placeholder Strategos of Pelopponessos in 936
 }
-865.1.1={
-	holder = 145182
+952.1.1 = {
+	holder = 1500509 # Krenites Chaldos/Arotras
 }
-936.1.1 = {
-	holder = 260793
+990.1.1 = {
+	holder = 1500451 # Basil Apokaukos
 }
-1060.1.1={
-	holder = 20505
+1008.1.1 = {
+	holder = 1500320
 }
-1075.1.1={
-	holder = 70426
+1021.1.1 = {
+	holder = 1232498
 }
-1100.1.1={
+1030.1.1 = {
+	holder = 34464
+}
+1050.1.1 = {
+	holder = 1232304
+}
+1060.1.1 = {
+	holder = 1232194
+}
+1077.1.1 = {
+	holder = 34428
+}
+1079.1.1 = {
+	holder = 70427
+}
+1092.1.1 = {
+	holder = 1781
+}
+1105.1.1 = {
 	holder = 70420
 }
-1111.1.1={
-	holder = 1742
+1107.2.1 = {
+	holder = 1232222
 }
-1118.8.15={
-	holder = 223023
+1113.1.1 = {
+	holder = 34348
 }
-1143.4.8={
-	holder = 215530
+1118.1.1 = {
+	holder = 232512
 }
-1180.9.24={
-	holder = 215531
+1149.1.1 = {
+	holder = 34382
 }
-1183.9.24={
-	holder = 215529
+1161.3.30 = {
+	holder = 232515
 }
-1185.9.12={
-	holder = 215500
+1182.1.1 = {
+	holder = 34297
 }
-1187.1.1={
+1187.1.1 = {
 	holder = 215012
 }
-1198.1.1={
+1198.1.1 = {
 	holder = 232502
 }
-1204.8.1={
-	holder = 31334 #Guillaume I
+1203.6.1 = {
+	liege = d_athens
 }
-1210.1.1={
-	holder = 31336 #Geoffory I 
+1205.3.1 = {
+	liege = d_achaia
+	holder = 31334 # Guillaume I
 }
-1218.9.1={
-	holder = 31337 #Geoffory II
+1210.1.1 = {
+	holder = 31336 # Geoffroy I
 }
-1246.5.6={
-	holder = 31338 #Guillaume II
+1218.9.1 = {
+	holder = 31337 # Geoffroy II
 }
-1278.1.14={
-	holder = 455406 #Charles I d'Anjou
+1246.5.7 = {
+	holder = 31338 # Guillaume II
 }
-1285.1.7={
-	holder = 461710 #Charles II d'Anjou
+1278.5.1 = {
+	holder = 455406 # Charles I d'Anjou
 }
-1289.1.1={
-	holder = 31103 #Floris I d'Avesnes
+1285.1.7 = {
+	holder = 461710 # Charles II d'Anjou
 }
-1297.1.23={
-	holder = 31341 #Isabelle I
+1289.1.1 = {
+	holder = 31103 # Floris I d'Avesnes
 }
-1301.1.1={
-	holder = 462691 #Phillipe I
+1297.1.23 = {
+	holder = 31341 # Isabelle I
 }
-1307.1.1={
-	holder = 461712 #Phillipe II
+1301.1.1 = {
+	holder = 462691 # Phillipe I
 }
-1313.1.1={
-	holder = 31344 #Louis I
+1307.1.1 = {
+	holder = 461712 # Phillipe II
 }
-1316.8.2={
-	holder = 31343 #Mathilda
+1313.1.1 = {
+	holder = 31344 # Louis I
 }
-1318.1.1={
-	holder = 455910 #Eudes
+1316.8.2 = {
+	holder = 31343 # Mathilda
 }
-1320.1.1={
-	holder = 455650 #Louis II
+1318.1.1 = {
+	holder = 455910 # Eudes
 }
-1322.1.1={
-	holder = 461721 #Jean I
+1320.1.1 = {
+	holder = 455650 # Louis II
 }
-1332.1.1={
-	holder = 461718 #Robert I
+1322.1.1 = {
+	holder = 461721 # Jean I
 }
-
+1332.1.1 = {
+	holder = 461718 # Robert I
+}

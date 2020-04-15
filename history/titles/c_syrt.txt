@@ -1,81 +1,89 @@
-760.1.1={
-	liege=d_bulgar
-	holder = 159132
-}
+# -*- ck2.history.titles -*-
 
-865.1.2={
-	#holder = 159128
-	holder = 6857
+760.1.1 = {
+	liege = d_bulgar
+	holder = 188858
 }
-936.1.1 = {
-	holder = 260706
+865.1.2 = {
+	holder = 159128
 }
-1066.1.1 = {
-	liege = d_mordvins
-holder = 20923
+875.1.2 = {
+	holder = 160175 # Batir
 }
-1118.1.2=
-{
-holder = 125605
+895.1.2 = {
+	holder = 125600 # Almis Djafar
 }
-1135.1.2=
-{
-holder = 125606
+925.1.2 = {
+	holder = 125601 # Hasan
 }
-1164.1.2=
-{
-holder = 125607
+930.1.2 = {
+	holder = 125602 # Mikail Yalkau
 }
-1185.1.2=
-{
-holder = 125608
+932.1.1 = {
+	liege = k_volga_bulgaria
 }
-1187.1.1=
-{
-holder = 229007
+943.1.2 = {
+	holder = 41417 # Mohammed
 }
-1200.1.1=
-{
-holder = 217340
+976.1.2 = {
+	holder = 125603 # Talib Mumin
 }
-1236.1.2=
-{
-liege="e_golden_horde"
-holder = 125505
+980.1.2 = {
+	holder = 41418 # Timar Mumin Badjanak
 }
-#1255.1.2=
-#{
-#holder = 125505
-#}
-1256.1.2=
-{
-holder = 125506
+1004.1.2 = {
+	holder = 3500 # Masgut
 }
-1257.1.2=
-{
-holder = 125504
+1006.1.2 = {
+	holder = 125604 # Ibrahim
 }
-1266.1.2=
-{
-holder = 125508
+1025.1.2 = {
+	holder = 41419 # Ashraf Baluq
 }
-1280.1.2=
-{
-holder = 125509
+1025.7.2 = {
+	holder = 3502 # Azgar
 }
-1287.1.2=
-{
-holder = 125511
+1028.1.2 = {
+	holder = 41419 # Ashraf Baluq
 }
-1291.1.2=
-{
-holder = 125512
+1061.1.2 = {
+	holder = 3504 # Akhad Moskha
 }
-1312.1.2=
-{
-holder = 480000
+1071.1.2 = {
+	holder = 41420
 }
-1337.1.1=
-{
-holder = 480010
+1118.1.2 = {
+	holder = 125605
+}
+1135.1.2 = {
+	holder = 125606
+}
+1164.1.2 = {
+	holder = 125607
+}
+1185.1.2 = {
+	holder = 125608
+}
+1187.1.1 = {
+	holder = 229010
+}
+1200.1.1 = {
+	holder = 125608
+}
+1236.9.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1241.12.11 = {
+	liege = d_yaik
+	holder = 34911
+}
+1260.1.1 = {
+	holder = 34904
+}
+1285.1.1 = {
+	holder = 125548
+}
+1310.1.1 = {
+	holder = 125549
 }

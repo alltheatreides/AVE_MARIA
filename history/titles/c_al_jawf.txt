@@ -1,67 +1,63 @@
-627.1.1={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-765.1.1={
-	holder = 188613
-	liege=d_damascus
+# c_jawf/fayd
+866.1.1 = {
+	holder = 1500080
 }
-
-830.1.1={
-	liege="d_medina"
+898.1.1 = {
+	holder = 1500079
 }
-830.1.1={
-	holder = 33932
+#937.1.1 = {
+#	set_tribute_suzerain = {
+#		who = d_amman
+#		type = permanent
+#	}
+#}
+937.1.1 = {
+	holder = 1500078
 }
-936.1.1 = {
-	holder = 260956
-	liege = d_arabia_petrae
+974.1.1 = {
+	holder = 1500077
 }
-1066.1.1 = {
-liege="d_nefoud"
-holder = 20795
+995.1.1 = {
+	holder = 1500051
 }
-1089.1.1=
-{
-holder = 34570
+1022.1.1 = {
+	holder = 1236231
 }
-1110.1.1=
-{
-holder = 34544
+1044.1.1 = {
+	holder = 1236175
 }
-1140.1.1=
-{
-holder = 34546
+1051.1.1 = {
+	clear_tribute_suzerain = d_amman
 }
-1150.1.1=
-{
-holder = 34547
+1089.1.1 = {
+	holder = 1236176
 }
-1190.1.1=
-{
-holder = 34548
+1114.1.1 = {
+	holder = 1236177
 }
-1205.1.1=
-{
-holder = 34549
+1140.1.1 = {
+	holder = 1236178
 }
-1230.1.1=
-{
-holder = 34550
+1173.1.1 = {
+	holder = 1236199
 }
-1255.1.1=
-{
-holder = 34551
+1211.1.1 = {
+	holder = 1236204
 }
-1270.1.1=
-{
-holder = 34552
+1245.1.1 = {
+	holder = 1236209
 }
-1300.1.1=
-{
-holder = 34553
+1277.1.1 = {
+	holder = 1236214
 }
-1315.1.1=
-{
-holder = 34554
+1280.1.1 = {
+	holder = 1236218
+}
+1312.1.1 = {
+	holder = 1236219
+}
+1320.1.1 = {
+	liege = d_nefoud
 }

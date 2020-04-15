@@ -1,71 +1,91 @@
-330.1.1={
-	liege="e_byzantium"
-	# vice_royalty = yes
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = e_byzantium
+	vice_royalty = yes
 }
-769.1.1={
-	holder = 145801
-}
-865.1.1={
-	holder = 145181
+865.1.1 = {
+	holder = 1232108
 }
 936.1.1 = {
-	holder = 260796
+	holder = 1500520 # Malakenos, Strategos of Longobardia and all-round Naval Commander in the West around 952. Placeholder in Cephalonia in 936
 }
-1066.1.1 = {
-	# holder = 90092
+955.1.1 = {
+	holder = 1500505 # Niketas Abalantes, Patrikios, leading an expedition to Sicily in the 960'ies. Making him a placeholder of the westward facing Naval themes as setup for this situation
 }
-1098.1.1={
-	holder = 232512
+991.1.1 = {
+	holder = 1232299 # A Theodotos, mentioned as Imperial Protospatharios and Strategos of Kephallenia around the year 1000. Made Theodotos Skleros a placeholder for the Theodotos without a last name
 }
-1120.1.1={
-	holder = 232529
+1018.1.1 = {
+	holder = 1232340
 }
-1135.1.1={
-	holder = 232530
+1033.1.1 = {
+	holder = 1232325
 }
-1154.1.1={
-	holder = 215014
+1048.1.1 = {
+	holder = 1232324
 }
-1185.9.12={
-	liege="k_sicily"
-	holder = 211531 #Margitone di Brindisi
+1060.1.1 = {
+	holder = 1232152
+}
+1075.1.1 = {
+	holder = 90092
+}
+1077.1.1 = {
+	holder = 1232152
+}
+1077.9.1 = {
+	holder = 20502
 	vice_royalty = no
 }
-#counts of Cephalonia
-1197.1.1={
-	liege="k_venice"
+1078.6.1 = {
+	holder = 41308
 }
-1197.1.1={
-	holder = 31433 #Matteo I Orsini
+1079.1.1 = {
+	holder = 1232152
+	vice_royalty = yes
 }
-1205.1.1={
-	liege="d_achaia"
+1088.1.1 = {
+	holder = 1167123
 }
-1238.1.1={
-	holder = 31434 #Matteo II Orsini
+1102.1.1 = {
+	holder = 232512
 }
-1262.1.1={
-	holder = 31435 #Riccardo Orsini
+1149.1.1 = {
+	holder = 215035
 }
-1303.4.7={
-	holder = 31436 #Giovanni I Orsini
+1185.9.12 = {
+	holder = 215508
 }
-1317.1.1={
-	holder = 31440 #Nicolo Orsini
+1200.1.1 = {
+	holder = 215513
 }
-1318.1.1={
-	holder = 31441 #Giovanni II Orsini
+1203.1.2 = {
+	holder = 215514
 }
-#To kingdom of Naples
-1325.1.1={
-	liege="d_calabria"
+1204.5.16 = {
+	liege = 0
+	holder = 215517
+	vice_royalty = no
 }
-1325.1.1={
-	holder = 461721 #Jean d'Anjou
+1215.1.1 = {
+	holder = 215514
 }
-1330.1.1={
-	holder = 32541 #Guglielmo Tocco
+1230.4.1 = {
+	holder = 125715
 }
-1335.9.22={
-	holder = 32543 #Leonardo Tocco
+1268.1.1 = {
+	holder = 125726
+}
+1297.1.1 = {
+	holder = 125728
+}
+1318.1.1 = {
+	holder = 31440 # Nicolo Orsini
+}
+1323.1.1 = {
+	holder = 31441 # Giovanni II Orsini
+}
+1335.1.1 = {
+	holder = 31443 # Nikephoros Orsini
 }

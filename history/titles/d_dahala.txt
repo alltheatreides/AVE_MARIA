@@ -1,6 +1,5 @@
 675.1.1={
 	holder = 191317 #Vamaraja Cedi
-	liege = d_dahala
 }
 700.1.1={
 	holder = 191318 #? Cedi
@@ -65,6 +64,7 @@
 1188.1.1= {
 	holder = 190214 #Vijayasimha Cedi
 }
-1203.1.1={
+1203.1.1={ #was 1211; becomes landless on the SWMH map in 1203
 	holder = 0
+	liege = 0
 }

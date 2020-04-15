@@ -1,42 +1,71 @@
-330.1.1={
-	liege = "e_byzantium"
-	# vice_royalty = yes
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = e_byzantium
+	vice_royalty = yes
 }
-767.1.1={
-	holder = 145823
-}
-845.1.1={
+845.1.1 = {
 	holder = 145144
 }
 936.1.1 = {
-	holder = 145160
+	holder = 145161 # Romanos Argyros, married into the Imperial family, held high court-office. Placeholder of Charsianon
 }
-1066.1.1 = {
-	# holder = 20534
+955.1.1 = {
+	holder = 1232456 # Eustathios Maleinos
 }
-1067.1.1=
-{
-	holder = 20536
+999.1.1 = {
+	holder = 1500485 # Leon, Strategos of Charsianon around year 1000
 }
-1071.8.26=
-{
-	liege=0
-	vice_royalty = no
-	holder = 34220
+1018.1.1 = {
+	holder = 1500338
 }
-1074.1.1=
-{
-	liege="e_byzantium"
-	# vice_royalty = yes
-	holder = 1742
+1034.1.1 = {
+	holder = 1500318
 }
-1077.1.1=
-{
+1041.1.1 = {
+	holder = 1232292
+}
+1045.1.1 = {
+	holder = 41522
+}
+1074.1.1 = {
+	liege = 0
 	holder = 0
 	vice_royalty = no
 }
-1336.1.1=
-{
-	liege=k_eretnid
+1174.1.1 = {
+	liege = k_rum
+	holder = 225000
+}
+1192.1.1 = {
+	holder = 225002
+}
+1196.1.1 = {
+	holder = 225004
+}
+1204.1.1 = {
+	holder = 34187
+}
+1205.1.1 = {
+	holder = 225002
+}
+1211.1.1 = {
+	holder = 71860
+}
+1214.1.1 = {
+	liege = 0
+	holder = 0
+}
+1307.1.1 = {
+	liege = e_il-khanate
+	holder = 478002
+}
+1319.1.1 = {
+	holder = 478001
+}
+1327.1.1 = {
 	holder = 71864
+}
+1335.1.1 = {
+	holder = 0
 }

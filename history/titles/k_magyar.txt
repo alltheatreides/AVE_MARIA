@@ -1,24 +1,17 @@
-20.1.1 = {
-	historical_nomad = yes
+# -*- ck2.history.titles -*-
+
+769.1.1 = {
+	holder = 159138
 }
-764.1.1={
-	holder = 146214
+825.1.1 = {
+	holder = 1233320
 }
-803.1.1={
-	holder = 146229
-}
-826.1.1={
-	holder = 146230
-}
-845.1.1={
+845.1.1 = {
 	holder = 159137
 }
-895.1.1={
+895.1.1 = {
 	holder = 159136
 }
-907.1.1 = {
+907.7.4 = {
 	holder = 0
-	effect = {
-		activate_title = { title = k_magyar status = no }
-	}
 }

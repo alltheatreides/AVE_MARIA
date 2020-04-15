@@ -1,141 +1,125 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-654.1.1= {
-	liege=d_itil
+# -*- ck2.history.titles -*-
+
+654.1.1 = {
+	liege = d_itil
 	holder = 74004
 }
-682.1.1={
+682.1.1 = {
 	holder = 74007
 }
-715.1.1={
+715.1.1 = {
 	holder = 74008
 }
-731.1.1={
+731.1.1 = {
 	holder = 74009
 }
-749.1.1={
+749.1.1 = {
 	holder = 74012
 }
-788.1.1={
-	holder = 74018
+810.1.1 = {
+	holder = 74018 # "King" of Khazaria under the Kaghan; Possibly converted to Judaism ca. 805
 }
-802.1.1={
+836.1.1 = {
+	holder = 146186
+}
+846.1.1 = {
 	holder = 74019
 }
-818.1.1={
+874.1.1 = {
 	holder = 74020
 }
-822.1.1= {
-	liege=k_khazaria
-}
-829.1.1={
+878.1.1 = {
 	holder = 74021
 }
-831.1.1={
+886.1.1 = {
 	holder = 74022
 }
-847.1.1={
+889.1.1 = {
 	holder = 74023
 }
-852.1.1={
+897.1.1 = {
 	holder = 74024
 }
-864.1.1={
+902.1.1 = {
 	holder = 74025
 }
-867.1.1 = {
-	holder = 256058
-	#liege = d_mordvins
+904.1.1 = {
+	holder = 74026
 }
-916.1.1={
+911.1.1 = {
+	holder = 146187
+}
+916.1.1 = {
 	holder = 146188
 }
-920.1.1={
+920.1.1 = {
 	holder = 146189
 }
-928.1.1={
+928.1.1 = {
 	holder = 146190
 }
-945.1.1={
+945.1.1 = {
 	holder = 146191
 }
-969.1.1={
-	liege=0
-	holder = 0
+#969.1.1 = { #Svyatoslav of Kiev sacks Itil
+#	liege = 0
+#	holder = 0
+#}
+966.1.1 = {
+	liege = d_itil
+	holder = 1233295 # Barjik Kuma, placeholder
 }
-1066.1.1 = {
-	holder = 20663
+997.1.1 = {
+	holder = 1233296 # Kamaj Kuma, placeholder
 }
-1089.1.1={
-	liege=k_cuman
-	#liege=d_itil
-	holder = 806
+# Oghuz takes over
+1001.1.1 = {
+	liege = k_uzes
+	holder = 1231994
 }
-1110.1.1=
-{
-	holder = 90143
+1032.1.1 = {
+	holder = 1231995
 }
-1120.1.1=
-{
-	holder = 125401
+# Cumans arrive
+# Ölberli
+1050.1.1 = {
+	liege = d_olberlig
+	holder = 1229750 #was 20663, Isaac Doganin
 }
-1146.1.1=
-{
-	holder = 125402
+1080.1.1 = {
+	holder = 1229751 # Bönek I
 }
-1183.1.1=
-{
-	holder = 228030
+1112.1.1 = {
+	holder = 1229752 # Sevenç
 }
-1203.1.1=
-{
-	holder = 125403
+1151.1.1 = {
+	holder = 1233002 # Bönek II
 }
-1220.1.1 = {
-	holder = 34958
+1167.1.1 = {
+	holder = 1233003
 }
-1223.1.1=
-{
-	holder = 125404
+1195.1.1 = {
+	holder = 1233004
 }
-1227.1.1=
-{
-	holder = 125501
+1210.1.1 = {
+	holder = 1233005 # Bachman
 }
-1227.12.2=
-{
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
 	holder = 125503
 }
-1255.1.2=
-{
-	holder = 125505
+1241.12.11 = {
+	liege = d_ustyurt
+	holder = 125534
 }
-1256.1.2=
-{
-	holder = 125506
+1275.1.2 = {
+	holder = 125540
 }
-1257.1.2=
-{
-	holder = 125504
+1304.1.2 = {
+	holder = 125541
 }
-1266.1.2=
-{
-	holder = 125508
-}
-1280.1.2=
-{
-	holder = 125509
-}
-1287.1.2=
-{
-	holder = 125511
-}
-1291.1.2=
-{
-	holder = 125512
-}
-1312.1.2=
-{
-	holder = 480000
+1327.1.2 = {
+	liege = d_itil
+	holder = 125546
 }

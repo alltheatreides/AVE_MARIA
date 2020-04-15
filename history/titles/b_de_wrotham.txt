@@ -1,0 +1,19 @@
+#Cinque Ports family
+1191.1.1 = {
+	holding_dynasty = 1000100174 # de Wrotham - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066980 # #Godwin de Wrotham
+}
+1194.1.1 = {
+	holder = 1066981 #Richard de Wrotham
+}
+1205.1.1 = {
+	holder = 1066983 #William de Wrotham
+}
+1218.2.1 = {
+	holder = 1066982 #Richard II de Wrotham
+}
+1255.1.1 = {
+	holder = 0
+	liege=0
+}

@@ -1,161 +1,155 @@
-646.1.1={
-	liege="d_armenia"
-	holder = 145996
-}
-653.1.1={
-	holder = 70454
-}
-654.1.1={
-	holder = 145996
-}
-655.1.1={
-	holder = 159871
-}
-661.1.1={
-	holder = 70452
-}
-684.1.1={
-	holder = 70448
-}
-690.1.1={
-	holder = 159571
-}
-693.8.29={
-	holder = 70447
-}
-726.1.1={
-	holder = 41500
-}
-745.1.1={
-	holder = 70451
-}
-746.1.1={
-	holder = 41500
-}
-749.1.1={
-	holder = 70451
-}
-750.1.1={
-	holder = 70450
-}
-754.1.1={
-	holder = 145998
-}
-761.1.1={
-	holder = 41501
-}
-767.1.1={
-	liege="k_armenia"
-	holder = 146024
-}
-769.1.1={
-	holder = 146036
-}
-770.1.1={
-	holder = 188575
-}
-774.1.1={
-	holder = 146016
-}
-778.1.1={
-	holder = 146053
-}
-785.1.1={
-	liege="d_armenia"
-	holder = 41502
-}
-826.1.1={
-	holder = 41530
-}
-851.1.1={
-	holder = 41504
-}
-862.1.1={
+# -*- ck2.history.titles -*-
+
+862.1.1 = {
+	liege = k_bagratid_grand_principality
 	holder = 41505
 }
-890.1.1={
-	holder = 41506
+889.1.1 = {
+	liege = d_azerbaijan
+	holder = 1230590
 }
-912.1.1={
-	holder = 41507
+901.1.1 = {
+	holder = 1230591
 }
-928.1.1=
-{
-holder = 41508
+928.1.1 = {
+	holder = 1230592
 }
-951.1.1={
-	holder = 41509
+929.1.1 = {
+	liege = 0
+	holder = 1231417
 }
-977.1.1={
-	holder = 41510
+938.1.1 = {
+	liege = d_azerbaijan
 }
-990.1.1={
-	holder = 41519
+941.1.1 = { #945 according to numismatic evidence
+	holder = 180766
 }
-1020.1.1={
-	holder = 41520
+949.1.1 = {
+	holder = 1231417
 }
-1041.1.1={
-	holder = 41521
+953.1.1 = {
+	holder = 180766
 }
-1066.1.1=
-{
-	liege=0
-	holder = 41600
+957.1.1 = {
+	holder = 1231122
 }
-1067.1.1=
-{
+961.1.1 = {
+	holder = 1231084
+}
+965.1.1 = {
+	holder = 1231122
+}
+966.1.1 = {
+	holder = 1231123
+}
+967.1.1 = {
+	holder = 1231122
+}
+979.1.1 = { #Ibrahim b. Marzuban's rule disintegrates shortly before his death
+	liege = 0
+	holder = 1231077
+}
+988.1.1 = {
+	holder = 159151
+}
+1001.1.1 = {
+	holder = 159152
+}
+1019.1.1 = {
+	holder = 159153
+}
+1022.1.1 = {
+	liege = d_albania
+	holder = 41600 #Shavur, governor of Dwin/Dabil before 1050
+}
+1067.1.1 = {
 	holder = 41601
 }
-1073.1.1=
-{
+1073.1.1 = {
 	holder = 41602
 }
-1075.1.1=
-{
-	liege="k_persia"
+1075.1.1 = {
+	liege = d_armenia
 	holder = 41603
 }
-1118.1.1=
-{
+1118.1.1 = {
 	holder = 41604
 }
-
-1124.1.1=
-{
-	liege = "k_georgia"
+1124.1.1 = {
+	holder = 93521
 }
-1124.1.1={
-	holder = 216517
+1131.1.1 = {
+	holder = 1231410
 }
-1125.1.24={
-	holder = 216516
+1148.1.1 = {
+	holder = 1231411
 }
-1154.1.1={
-	holder = 144010
+1155.1.1 = {
+	holder = 1231412
 }
-1155.1.1={
-	holder = 216516
+1164.1.1 = {
+	holder = 1231413
 }
-1156.1.1={
-	holder = 216515
+1174.1.1 = {
+	liege = d_azerbaijan
+	holder = 1234277
 }
-1184.4.6={
-	holder = 232758
+1185.1.1 = {
+	holder = 1234276
 }
-1187.1.2={
+1200.1.1 = {
+	liege = d_armenia
 	holder = 232759
 }
-1223.1.1={
+1225.1.1 = {
 	holder = 159206
 }
-1247.1.1={
-	liege="e_il-khanate"
-	holder = 159214
+1234.1.1 = {
+	liege = d_azerbaijan
+	holder = 93253
 }
-1260.1.1={
-	holder = 159217
+1242.1.1 = {
+	holder = 93254
 }
-1310.1.11={
-	holder = 248136
+1246.1.1 = {
+	holder = 93255
+}
+1252.1.1 = {
+	holder = 93254
+}
+1259.1.1 = {
+	holder = 478011
+}
+1265.2.8 = {
+	holder = 478010
+}
+1282.1.1 = {
+	holder = 125523
+}
+1284.1.1 = {
+	holder = 478008
+}
+1291.1.1 = {
+	holder = 125525
+}
+1295.1.1 = {
+	holder = 125522
+}
+1295.10.4 = {
+	holder = 125524
+}
+1304.5.11 = {
+	holder = 478007
+}
+1316.12.16 = {
+	holder = 478006
+}
+1335.12.1 = {
+	holder = 125528
+}
+1336.4.10 = {
+	holder = 478000
+}
+1336.7.24 = {
+	holder = 478030
 }

@@ -1,111 +1,122 @@
-763.1.1={
-	holder = 190502 #Burgundio
+# -*- ck2.history.titles -*-
+
+763.1.1 = {
+	liege = d_gascogne
+	holder = 190502 # Burgundio
 }
-763.1.1={
-	liege=d_gascogne
+801.1.1 = {
+	holder = 190503 # Liuthard
 }
-801.1.1={
-	holder = 190503 #Liuthard
-}
-864.1.1={
-	liege="d_gascogne"
+864.1.1 = {
 	holder = 168144
 }
-893.1.1={
+893.1.1 = {
 	holder = 7563
 }
 920.1.1 = {
-	holder =  7562
+	holder = 7562
 }
-955.1.1={
+955.1.1 = {
 	holder = 163061
 }
 961.1.1 = {
-	holder = 127049 #Guillaume-Sanche de Gascogne
+	holder = 127049 # Guillaume-Sanche de Gascogne
 }
-1061.11.17=
-{
-liege="d_aquitaine"
+996.12.23 = {
+	holder = 127050 # Bernard-Guillaume de Gascogne
 }
-1061.11.17={
-	holder = 138313 #Bishop Guillaume I
+1009.12.25 = {
+	holder = 127051 # Sanche-Guillaume de Gascogne
 }
-1069.1.1={
-	holder = 138314 #Bishop Arnaud III
+1032.10.4 = {
+	holder = 127055 # Bérenger d'Angoulême
 }
-1069.12.1={
-	holder = 138315 #Bishop Elie I
+1036.1.1 = {
+	holder = 228 # Eudes d'Aquitaine
 }
-1076.1.1={
-	holder = 138316 #Bishop Donat I
+1039.3.10 = {
+	holder = 40012 # Bernard d'Armagnac
 }
-1083.1.1={
-	holder = 138317 #Bishop Simon II
+1061.11.17 = {
+	liege = d_aquitaine
+	holder = 138313 # Bishop Guillaume I
 }
-1101.4.18={
-	holder = 138318 #Bishop Gï¿½raud I
+1069.1.1 = {
+	holder = 138314 # Bishop Arnaud III
 }
-1103.1.1={
-	holder = 138319 #Bishop Isarad
+1069.12.1 = {
+	holder = 138315 # Bishop Elie I
 }
-1105.1.1={
-	holder = 138320 #Bishop Gausbert
+1076.1.1 = {
+	holder = 138316 # Bishop Donat I
 }
-1115.1.1={
-	holder = 138321 #Bishop Aldebert
+1083.1.1 = {
+	holder = 138317 # Bishop Simon II
 }
-1118.1.1={
-	holder = 138322 #Bishop Raymond Bernard du Fossat
+1101.4.18 = {
+	holder = 138318 # Bishop Géraud I
 }
-1149.3.7={
-	holder = 138323 #Bishop Elie II de Castillon
+1103.1.1 = {
+	holder = 138319 # Bishop Isarad
 }
-1180.1.1={
-	holder = 138324 #Bishop Pierre I
+1105.1.1 = {
+	holder = 138320 # Bishop Gausbert
 }
-1182.1.1={
-	holder = 138325 #Bishop Betrand I de Bï¿½ceyras
+1115.1.1 = {
+	holder = 138321 # Bishop Aldebert
 }
-1208.5.1={
-	holder = 138326 #Bishop Arnaud IV de Rovinha
+1118.1.1 = {
+	holder = 138322 # Bishop Raymond Bernard du Fossat
 }
-1228.8.18={
-	holder = 138327 #Bishop Arnaud V
+1149.3.7 = {
+	holder = 138323 # Bishop Elie II de Castillon
 }
-1231.1.1={
-	holder = 138328 #Bishop Gï¿½raud II
+1180.1.1 = {
+	holder = 138324 # Bishop Pierre I
 }
-1232.7.4={
-	holder = 138329 #Bishop Raoul de Peyrines
+1182.1.1 = {
+	holder = 138325 # Bishop Betrand I de Béceyras
 }
-1235.1.1={
-	holder = 138332 #Bishop Arnaud VI de Galard
+1208.5.1 = {
+	holder = 138326 # Bishop Arnaud IV de Rovinha
 }
-1245.9.12={
-	holder = 138333 #Pierre II de Reims
+1228.8.18 = {
+	holder = 138327 # Bishop Arnaud V
 }
-1247.1.29={
-	holder = 138334 #Guillaume II d'Agen
+1231.1.1 = {
+	holder = 138328 # Bishop Géraud II
 }
-1262.12.1={
-	holder = 138335 #Guillaume III
+1232.7.4 = {
+	holder = 138329 # Bishop Raoul de Peyrines
 }
-1264.1.1={
-	holder = 138336 #Pierre III Jerlandi
+1235.1.1 = {
+	holder = 138332 # Bishop Arnaud VI de Galard
 }
-1271.7.28={
-	holder = 138337 #Arnaud VII de Got
+1245.9.12 = {
+	holder = 138333 # Pierre II de Reims
 }
-1282.2.20={
-	holder = 138338 #Jean I Jerlandi
+1247.1.29 = {
+	holder = 138334 # Guillaume II d'Agen
 }
-1291.9.20={
-	holder = 138339 #Bertrand II de Got
+1262.12.1 = {
+	holder = 138335 # Guillaume III
 }
-1306.1.1={
-	holder = 138340 #Bernard II de Fargis
+1264.1.1 = {
+	holder = 138336 # Pierre III Jerlandi
 }
-#vacancy 1306-1313?
-1311.5.15={
-	holder = 138341 #Amanieu de Fargis
+1271.7.28 = {
+	holder = 138337 # Arnaud VII de Got
+}
+1282.2.20 = {
+	holder = 138338 # Jean I Jerlandi
+}
+1291.9.20 = {
+	holder = 138339 # Bertrand II de Got
+}
+1306.1.1 = {
+	holder = 138340 # Bernard II de Fargis
+}
+# vacancy 1306-1313?
+1311.5.15 = {
+	holder = 138341 # Amanieu de Fargis
 }

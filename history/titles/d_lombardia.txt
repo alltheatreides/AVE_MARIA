@@ -1,83 +1,68 @@
-860.1.1={
-	liege = "k_italy"
+# -*- ck2.history.titles -*-
+
+840.1.1 = {
+	liege = k_italy
+	holder = 1065741 # Leone di Milano, conte di Milano 842
 }
-860.1.1={
-	holder = 163068 
+844.1.1 = {
+	holder = 1065744 # Giovanni di Milano, conte di Milano 844
 }
-936.1.1 = {
-	holder = 261385
+848.1.1 = {
+	holder = 1065745 # Alberico di Milano, in control of Milano 848, conte di Milano 880
 }
-961.1.1={
-	holder = 70632
-	law = succ_primogeniture
-	law = agnatic_succession
+887.1.1 = {
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
 }
-996.1.1={
-	holder = 70633
-}
-998.1.1={
-	holder = 70629
-}
-1013.1.1={
-	holder = 70628
-}
-1014.1.1={
-	liege=k_germany
-}
-1024.7.13={
-	liege = e_hre
-}
-1029.1.1={
-	holder = 1118
-}
-1097.4.13={
-	holder = 20299
-}
-1128.12.15={
-	holder = 223597
-}
-1193.12.25={
+896.12.1 = {
 	holder = 0
 }
-1220.1.1 = {
-	holder = 70752 # della Torre
+936.1.1 = {
+	law = succ_primogeniture
+	law = agnatic_succession
+	holder = 261385 # Adalberto I di Obertenghi "the Margrave"
 }
-1240.1.1={
-	holder = 70753
-	liege=0
-	law = succ_feudal_elective
+951.1.1 = {
+	holder = 70630 # Oberto I di Obertenghi
 }
-1247.1.1={
-	holder = 70762
+975.1.1 = {
+	holder = 70632 # Oberto II di Obertenghi
 }
-1257.1.1={
-	holder = 70765
+996.1.1 = {
+	holder = 70631 # Adalberto II di Obertenghi
 }
-1259.1.1={
-	holder = 70744
+998.1.1 = {
+	holder = 70629 # Oberto di Obertenghi
 }
-1264.1.1={
-	holder = 70766
+1013.1.1 = {
+	holder = 70628 # Alberto Azzo di Este
 }
-1265.1.1={
-	holder = 70755
+1014.1.1 = {
+	liege = k_germany
 }
-1277.1.1={
-	holder = 70770
+1024.7.3 = {
+	liege = e_hre
 }
-1295.8.1={
-	holder = 463145
+1029.1.1 = {
+	holder = 1118 # Alberto Azzo II di Este
 }
-1302.1.1={
-	holder = 70759
+1032.1.1 = {
+    liege=0
+	holder = 0
 }
-1311.8.1={
+1311.8.1 = {
+    liege=k_italy
 	holder = 463145
 	law = succ_primogeniture
 }
-1322.6.28={
+1313.8.24 = {
+	liege=0
+}
+1322.6.28 = {
 	holder = 463141
 }
-1327.7.5={
+1327.5.31 = {
+    liege=k_italy
+}
+1327.7.5 = {
 	holder = 463140
 }

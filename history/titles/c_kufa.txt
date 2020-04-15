@@ -1,106 +1,115 @@
-765.1.1={
-	liege=e_arabia
+# -*- ck2.history.titles -*-
+
+765.1.1 = {
+	liege = e_arabia
 	holder = 188609 # Muhammad b Sulayman b Ali
 }
-
-866.1.1={
-	liege=d_basra
-	holder = 34017
+866.1.1 = {
+	liege = d_kufa
+	holder = 163162
+}
+867.11.11 = {
+	liege = 0
+	holder = 0
 }
 936.1.1 = {
-	holder = 261010
+	liege = e_arabia
+	holder = 261006 # Muhammad b. Ra'iq
 }
-1066.1.1 = {
-	holder = 93319
+942.1.1 = {
+	holder = 261007 #Bajkam al-Makani
 }
-1072.1.1=
-{
-	holder = 93320
+945.1.1 = {
+	liege = d_tigris
+	holder = 1231064
 }
-1074.1.1=
-{
-	holder = 93321
+960.1.1 = {
+	holder = 159481 #Mazyad (or Ali b. Mazyad) receives Sura sometime between 956 and 963
 }
-1093.1.1=
-{
-	holder = 93322
+967.4.8 = {
+	holder = 1231067
 }
-1102.1.1=
-{
-	holder = 93323
+973.1.1 = {
+	holder = 159482
 }
-1105.1.1=
-{
-	holder = 93324
+990.1.1 = {
+	holder = 1231072
 }
-1130.1.1=
-{
-	holder = 93325
+996.1.1 = { #Kufa ceded to the Uqaylid Muqallad as iqta
+	liege = d_diyareast
+	holder = 159392
 }
-1135.1.1=
-{
-	holder = 93323
+#1000 #Uqalyids drive out the Khafaja from Kufa
+1001.1.1 = {
+	liege = d_tigris
+	holder = 159482 #?
 }
-1142.1.1=
-{
-	holder = 93326
+1007.1.1 = { #Ali b. Mazyad receives al-Jami'ayn on the Euphrates from the Buyids
+	liege = d_kufa
+	#holder = 159482
 }
-1152.1.1=
-{
-	holder = 93327
+1017.1.1 = {
+	holder = 159483
 }
-1157.5.8=
-{
-	holder = 144062
+1037.1.1 = {
+	liege = d_kufa
 }
-1160.1.1=
-{
+1082.1.1 = {
+	holder = 159484
+}
+1086.1.1 = {
+	holder = 159485
+}
+1108.1.1 = {
+	holder = 159486
+}
+1135.1.1 = {
+	holder = 159487
+}
+1138.1.1 = {
+	holder = 159488
+}
+1145.1.1 = {
+	holder = 159489
+}
+1150.1.1 = {
+	holder = 1234864
+}
+# Arghush, Emir of the Pilgrimage, 1161
+1163.1.1 = {
+	liege = d_baghdad
 	holder = 144063
 }
-1170.1.1=
-{
+1170.1.1 = {
 	holder = 144064
 }
-1180.1.1=
-{
+1180.1.1 = {
 	holder = 227000
 }
-1220.1.1 = {
+1225.1.1 = {
 	holder = 34027
 }
-1225.1.1=
-{
-	holder = 34027
-}
-1226.1.1=
-{
+1226.1.1 = {
 	holder = 34028
 }
-1242.1.1=
-{
+1242.1.1 = {
 	holder = 34029
 }
-1258.2.20=
-{
-	holder = 93328
+1258.2.20 = {
+	holder = 217307
 }
-1262.1.1=
-{
-	holder = 93329
+1265.1.1 = {
+	holder = 217308
 }
-1283.1.1=
-{
+1284.1.1 = {
 	holder = 125522
 }
-1295.8.2=
-{
+1295.10.4 = {
 	holder = 93330
 }
-1317.1.1=
-{
+1317.1.1 = {
 	holder = 93307
 }
-1330.1.1=
-{
+1330.1.1 = {
 	holder = 478040
 }

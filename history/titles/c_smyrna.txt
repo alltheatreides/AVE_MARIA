@@ -1,55 +1,91 @@
-330.1.1={
-	liege="d_samos"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_samos
 }
-762.1.1={
-	holder = 145832
-}
-855.1.1={
-	holder = 145195
+865.1.1 = {
+	holder = 1232128
 }
 936.1.1 = {
-	holder = 260813
+	holder = 145154 # Pantherios (Skleros), Strategos of Thrakesion
 }
-1060.1.1={
+950.1.1 = {
+	holder = 1500506 # Nikephoros Pastilas, Strategos of Thrakesion, died on Crete during the invasion of the island
+}
+977.1.1 = {
+	holder = 1500489
+}
+1006.1.1 = {
+	holder = 1500490
+}
+1018.1.1 = {
+	holder = 1501217
+}
+1025.1.1 = {
+	holder = 1500359
+}
+1030.1.1 = {
+	holder = 1232337
+}
+1038.1.1 = {
+	holder = 1232353
+}
+1040.1.1 = {
+	holder = 1232309
+}
+1046.1.1 = {
+	holder = 1232308
+}
+1057.1.1 = {
 	holder = 42003
 }
-1070.1.1={
-	holder = 20518
-}
-1081.1.1={
+1078.3.31 = {
 	holder = 34262
 }
-1092.1.1={
+1092.1.1 = {
 	holder = 34264
 }
-1095.1.1={
-	holder = 20518
+1098.1.1 = {
+	holder = 1232216
 }
-1108.1.1={
+1099.1.1 = {
+	holder = 1232217
+}
+1108.1.1 = {
+	holder = 1232218
+}
+1116.1.1 = {
 	holder = 215509
 }
-1166.1.16={
-	holder = 215526
+1166.1.16 = {
+	holder = 34411
 }
-1180.1.2={
-	holder = 34276
+1176.1.1 = {
+	holder = 125753
 }
-1199.1.1={
-	holder = 34277
+1182.1.1 = {
+	holder = 1232248
 }
-1202.1.1={
+1186.1.1 = {
+	holder = 215517
+}
+1203.1.1 = {
+	holder = 215038
+}
+1218.1.1 = {
 	holder = 215000
 }
-1261.1.1={
+1261.1.1 = {
 	holder = 34283
 }
-1279.1.1={
+1279.1.1 = {
 	holder = 34286
 }
-#To Saruhan
-1308.1.1={
-	holder = 71871
+1308.1.1 = {
+	liege = e_byzantium
 }
-1310.1.1={
+1313.1.1 = {
+	de_jure_liege = d_saruhan
+	liege = d_saruhan
 	holder = 71870
 }

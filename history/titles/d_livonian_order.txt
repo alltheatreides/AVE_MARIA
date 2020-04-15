@@ -1,30 +1,9 @@
-20.1.1={
-	active=no
-	law = revoke_title_law_2
-	law = ze_administration_laws_1
-	law = law_voting_power_0
-	law = war_voting_power_0
-	law = revoke_title_voting_power_0
-	law = imprison_voting_power_0
-	law = grant_title_voting_power_0
-	law = banish_voting_power_0
-	law = execution_voting_power_0
-	law = succession_voting_power_0	
-	law = centralization_3
-}
+# -*- ck2.history.titles -*-
 
-1202.1.1=
-{
-active = yes
-holder = 30443 #Vinno von Rohrbach
+# Permanently inactive (there exists no vanilla code to activate it-- done by title history alone) because of overlap with
+# preexisting d_livonian_brothers_of_the_sword. Until we decide what to do with the overlap (e.g., simple retag the latter as
+# the former and adjust formation events), it'll remain this way.
+20.1.1 = {
+	holder = 0
+	active = no
 }
-
-1209.1.1=
-{
-holder = 30444 #Volkwin von Naumburg
-}
-1236.9.22=
-{
-active = no
-holder = 0
-} 

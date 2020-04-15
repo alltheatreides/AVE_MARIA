@@ -1,77 +1,77 @@
-#Kingdom of Qocho
-856.1.1 = {
-	holder = 166775
+# -*- ck2.history.titles -*-
+
+920.1.1 = {
+	holder = 1229802
 }
-873.1.1 = {
-	holder = 166776
+940.1.1 = {
+	holder = 1229803
 }
-896.1.1 = {
-	holder = 166777
+948.1.1 = {
+	holder = 1229804
 }
-916.1.1 = {
-	holder = 166778
+985.1.1 = {
+	holder = 1229809
 }
-957.1.1 = {
-	holder = 166779
-}
-988.1.1 = {
-	holder = 166780
+1006.1.1 = {
+	de_jure_liege = k_turkestan_east
 }
 1010.1.1 = {
-	holder = 166781
+	holder = 1229810
 }
-1054.1.1 = {
-	holder = 166782
+1050.1.1 = {
+	holder = 1229811
 }
-1064.1.1 = {
-	holder = 166783
+1092.1.1 = {
+	holder = 1229805
 }
-1080.1.1 = {
-	holder = 166784
-}
-1105.1.1 = {
-	holder = 166785
+1130.1.1 = {
+	holder = 1229806
 }
 1132.1.1 = {
-	holder = 166786
+	liege = e_khitan # actually 1126, but the Khitans are not on the map at this point
 }
-1132.1.1 = {
-	holder = 166786
+1150.1.1 = {
+	holder = 1229812
 }
-1137.1.1 = {
-	set_tribute_suzerain = { who = k_khiva type = permanent } # effectively vassalised by Kara-Khitai
+1208.1.1 = {
+	holder = 1229807
 }
-1165.1.1 = {
-	holder = 166787
+1210.1.1 = {
+	liege = 0
 }
-1189.1.1 = {
-	holder = 166788
+1217.1.1 = {
+	liege = e_mongol_empire # actually 1211, but the Mongols are not on the map at this point
 }
-1206.1.1 = {
-	holder = 166789
+1234.2.10 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
 }
-1209.1.1 = {
-	liege = k_mongolia
-	clear_tribute_suzerain = k_khiva # Kara-Khitai power wanes"
+1235.1.1 = {
+	holder = 1229814
 }
-1249.1.1 = {
-	holder = 166790
+1246.1.1 = {
+	holder = 1229815
 }
-1264.1.1 = {
-	holder = 166791
+1253.1.1 = {
+	holder = 1229816
+}
+1257.1.1 = {
+	holder = 1229817
+}
+1266.1.1 = {
+	holder = 1229818
 }
 1280.1.1 = {
-	holder = 248079 # Mongol military colony under Chinese general Chi Kung-Chih established
-}
-1286.1.1 = {
-	holder = 166791 # Chi Kung-Chih captured
-}
-1297.1.1 = {
-	holder = 166792
+	holder = 1229819
 }
 1318.1.1 = {
-	holder = 166793
+	holder = 1229820
 }
-1327.1.1 = {
-	holder = 166794
+1330.1.1 = {
+	holder = 1229821
+}
+1332.1.1 = {
+	holder = 1229822
 }

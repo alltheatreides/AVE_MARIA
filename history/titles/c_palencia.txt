@@ -1,113 +1,82 @@
-754.1.1={
-	holder = 70003 # Alfonso I de Cantabria
-	liege=k_asturias
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+	liege = d_castilla
+	holder = 73763
 }
-757.1.1={
-	holder = 70004 # Fruela I de Asturias
+873.10.3 = {
+	holder = 73765
 }
-768.1.1={
-	holder = 70012 # Aurelio Froilaz de Cantabria
+#910.1.1 = {
+#	holder = 73768
+#}
+912.1.1 = {
+	holder = 73769
 }
-773.1.1={
-	holder = 70118 # Silo, King of Asturias
+930.1.1 = {
+	holder = 107680
 }
-783.1.1={
-	holder = 70116 # Mauregato Alfï¿½nsez de Cantabria
+970.6.1 = {
+	holder = 107670
 }
-788.1.1={
-	holder = 70013 # Bermudo I de Cantabria
+995.1.1 = {
+	holder = 107660
 }
-791.1.1={
-	holder = 70006 # Alfonso II de Asturias
+999.9.1 = {
+	liege = k_leon
+	holder = 108570 # Alfonso V de León
 }
-842.3.20={
-	holder = 70015 # Ramiro I de Cantabria
+1028.8.7 = {
+	holder = 70075 # Bermudo III de León
 }
-850.2.1={
-	holder = 70017 # Ordoï¿½o I de Cantabria
+1037.9.4 = {
+	holder = 107510
 }
-866.5.27={
-	holder = 70019 # Alfonso III de Cantabria
+######
+1065.12.27 = {
+	holder = 107640
+	law = true_cognatic_succession
 }
-900.1.1={
-	holder = 70020 # Garcï¿½a I de Leï¿½n
-	liege=d_leon
+1072.10.7 = {
+	liege = k_castille
 }
-910.12.20={
-	liege=k_leon
+1093.12.8 = {
+	holder = 107644
 }
-914.1.19={
-	holder = 70021 # Ordoï¿½o II de Leï¿½n
+1148.4.23 = {
+	holder = 71390
 }
-924.1.1={
-	holder = 70030 # Fruela II de Cantabria
+1153.7.23 = {
+	holder = 71397
+	law = cognatic_succession
 }
-925.7.1={
-	holder = 70023 # Alfonso IV de Leï¿½n
+1185.8.16 = {
+	holder = 71399
 }
-931.6.1={
-	holder = 70024 # Ramiro II de Leï¿½n
+1214.8.18 = {
+	holder = 72389
 }
-951.1.5={
-	holder = 108600 # Ordoï¿½o III de Leï¿½n
+1230.1.1 = {
+	holder = 72390
 }
-956.11.13={
-	holder = 70026 # Sancho I de Leï¿½n
+1243.2.10 = {
+	holder = 72211
 }
-958.1.1={
-	holder = 70029 # Ordoï¿½o IV de Leï¿½n
+1259.1.1 = {
+	holder = 72214
 }
-960.1.1={
-	holder = 70026 # Sancho I de Leï¿½n
+1280.1.1 = {
+	holder = 72215
 }
-966.1.1={
-	holder = 108610 # Ramiro III de Leï¿½n
+1287.1.1 = {
+	holder = 72333
 }
-984.1.1={
-	holder = 108590 # Bermudo II de Leï¿½n
+1296.1.1 = {
+	holder = 72449
 }
-999.9.1={
-	holder = 108570 # Alfonso V de Leï¿½n
+1312.1.1 = {
+	holder = 457531
 }
-1028.8.7={
-	holder = 70075 # Bermudo III de Leï¿½n
-}
-1037.9.4={
-	holder = 107510 # Fernando I Jimena
-}
-1065.12.27={
-	holder = 108500 # Alfonso VI Jimena
-}
-1072.1.12={
-	holder = 107500 # Sancho II Jimena
-}
-1072.10.7={
-	holder = 108500 # Alfonso VI Jimena
-}
-1109.6.30={
-	holder = 207660 # Urraca Jimena
-}
-1126.3.8={
-	holder = 207500 # Alfonso VII de Borgoï¿½a
-}
-1157.8.21={
-	holder = 208500 # Fernando II de Borgoï¿½a
-}
-1188.1.1={
-	holder = 457650 # Alfonso IX de Borgoï¿½a
-}
-1230.9.24={
-	holder = 457620 # Fernando III de Borgoï¿½a
-}
-1252.5.30={
-	holder = 457540 # Alfonso X de Borgoï¿½a
-}
-1284.4.4={
-	holder = 457530 # Sancho IV de Borgoï¿½a
-}
-1295.4.25={
-	holder = 457520 # Fernando IV de Borgoï¿½a
-}
-1312.9.7={
-	holder = 457500 # Alfonso XI de Borgoï¿½a
+1319.7.25 = {
+	holder = 457532
 }

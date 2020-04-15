@@ -1,80 +1,92 @@
-764.1.1={
-	liege=d_carinthia
+# -*- ck2.history.titles -*-
+
+764.1.1 = {
+	liege = k_bavaria
+	holder = 190568 # Grgur
 }
-769.1.1={
-	holder = 260385 # Prince Valhun of Carantania
+863.1.1 = {
+	de_jure_liege = d_krain
+	liege = d_verona
+	holder = 168302
 }
-863.1.1={
-	liege = "d_friuli"
-}
-863.1.1={
-	holder = 260393
-}
-890.1.1={
+890.1.1 = {
 	holder = 168193
 }
-919.1.1={
+919.1.1 = {
+	liege = d_bavaria
 	holder = 168200
-	liege="d_carinthia"
 }
-959.1.1={
+959.1.1 = {
 	holder = 168201
 }
-969.1.1={
+969.1.1 = {
 	holder = 168204
 }
-1029.3.11={
-	holder = 168206
+976.1.1 = {
+	liege = d_carinthia
 }
-
-1045.3.27={
+995.1.1 = {
+	liege = d_aquileia
+	holder = 1228530
+}
+1012.1.1 = {
+	liege = d_carinthia
+	holder = 7310
+}
+1040.1.1 = {
+	liege = d_krain
+}
+1045.3.27 = {
 	holder = 1616
 }
-1070.3.6={
+1070.3.6 = {
 	holder = 7300
 }
-1098.1.1={
+1098.1.1 = {
 	holder = 7400
 }
-1107.1.1={
+1107.1.1 = {
 	holder = 212997
 }
-1124.1.1={
+1124.1.1 = {
 	holder = 212996
 }
-1173.1.28={
+1173.1.28 = {
 	holder = 212930
 }
-1188.11.14={
+1188.11.14 = {
+	de_jure_liege = d_carinthia
+	liege = d_merania
 	holder = 212932
 }
-1204.8.12={
+1204.8.12 = {
 	holder = 144249
 }
-1228.7.18={
+1228.7.18 = {
 	holder = 212945
 }
-1234.1.1={
-	holder = 7517
+1234.1.1 = {
+	holder = 7684
 }
-1256.1.4={
+1248.1.1 = {
+	liege = d_carinthia
 	holder = 7519
 }
-1269.10.27={
+1269.10.27 = {
 	holder = 96001
 }
-1278.8.26={
+1278.8.26 = {
 	holder = 462021
 }
-1286.1.1={
+1286.1.1 = {
 	holder = 462711
 }
-1295.10.1={
+1295.10.1 = {
 	holder = 7634
 }
-1304.9.7={
+1304.9.7 = {
 	holder = 7635
 }
-1323.4.24={
+1323.4.24 = {
 	holder = 33496
 }

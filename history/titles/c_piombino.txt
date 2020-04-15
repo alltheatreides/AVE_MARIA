@@ -1,88 +1,95 @@
-768.1.1={
-	liege=k_italy
+# -*- ck2.history.titles -*-
+
+#  Aldobrandeschi di Roselle e Sovanna
+800.1.1 = {
+	liege = d_toscana
+	holder = 1061356 # Ilprando
 }
-768.1.1={
-	holder = 190329 #Faroald
+803.1.1 = {
+	holder = 1061357 # Aliperto
 }
-846.1.1={
-	liege="d_toscana"
+838.1.1 = {
+	holder = 1061358 # Ildebrando I
 }
-846.1.1={
-	holder = 163070
+852.1.1 = {
+	holder = 1061359 # Eriprando/Ildebrando II
 }
-936.1.1 = {
-	holder = 260626
+900.1.1 = {
+	holder = 1061360 # Ildebrando III
 }
-1060.1.1={
-	holder = 20323
-	liege=d_pisa
+939.1.1 = {
+	holder = 1061361 # Gherardo
 }
-1085.1.1={
-	holder = 73442
+966.1.1 = {
+	holder = 1061363 # Rodolfo
 }
-1100.1.1={
-	holder = 73443
+988.1.1 = {
+	holder = 1061365 # Ildebrando IV
 }
-1122.1.1={
-	holder = 73444
+1034.1.1 = {
+	holder = 1061368 # Ildebrando V
 }
-1149.1.1={
-	holder = 73445
+1077.1.1 = {
+	holder = 1061370 # Ranieri Malabranca
 }
-1169.1.1={
-	holder = 213018
+1106.1.1 = {
+	holder = 1061371 # Malagagla
 }
-1188.1.1={
-	holder = 73446
+1121.7.1 = {
+	holder = 1061373 # Uguccione II
 }
-1207.1.1={
-	holder = 73447
+1152.1.1 = {
+	holder = 1061374 # Ildebrandino VII "Novello"
 }
-1221.1.1={
-	holder = 73448
+1185.1.1 = {
+	holder = 1061375 # Ildebrandino VIII
 }
-1234.1.1={
-	holder = 73449
+1197.9.28 = {
+    liege=0
 }
-1258.1.1={
-	holder = 73450
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}	
+1210.1.1 = {
+	holder = 1061376 # Ildebrandino IX
 }
-1285.1.1={
-	holder = 73454
+# Aldobrandeschi di Santa Fiora
+1237.7.28 = {
+	holder = 1061377 # Bonifazio
 }
-1288.1.1={
-	holder = 73463
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
 }
-1288.7.1={
-	holder = 73464
+1250.1.1 = {
+	holder = 1061378 # Ildebrandino X
 }
-1289.1.1={
-	holder = 73599
+1250.12.13 = {
+    liege=0
 }
-1294.1.1={
-	holder = 73465
+1272.12.11 = {
+	holder = 1061387 # Guido
 }
-1312.1.1={
-	holder = 462611
+1303.1.1 = {
+	holder = 1061380 # Ildebrandino XII "il giovane"
 }
-1313.1.1={
-	holder = 73425
+1311.1.6 = {
+    liege=k_italy
 }
-1316.1.1={
-	holder = 180083
+1313.8.24 = {
+	liege=0
 }
-1320.1.1={
-	holder = 180090
+1327.5.31 = {
+    liege=k_italy
 }
-1325.1.1={
-	holder = 462740
+1330.1.1 = {
+	holder = 1061382 # Enrico
 }
-1328.4.1={
-	holder = 73426
+1360.1.1 = {
+	holder = 1061385 # Ildebrandino XIII
 }
-1328.9.1={
-	holder = 462740
+1366.1.1 = {
+	holder = 1061386 # Guido
 }
-1329.1.1={
-	holder = 180085
+1438.1.1 = {
+	holder = 1061389 # Cecília
 }

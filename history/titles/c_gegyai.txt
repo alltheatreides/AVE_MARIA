@@ -10,10 +10,10 @@
 625.1.1={
 	liege="e_tibet"
 }
-765.1.1={
-	holder = 12201
-	liege="d_ngari"
-}
+#765.1.1={
+#	holder=12201
+#	liege="d_ngari"
+#}
 842.1.1={
 	holder = 247131
 	liege="k_guge"
@@ -29,9 +29,6 @@
 }
 930.1.1={
 	holder = 247136
-}
-936.1.1 = {
-	holder = 261088
 }
 971.1.1={
 	holder = 247137

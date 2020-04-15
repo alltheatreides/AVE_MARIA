@@ -1,97 +1,69 @@
-#County of Burgundy
+# -*- ck2.history.titles -*-
 
-#Royal Domain
-769.1.1 = {
-	holder = 144999
-}
-855.8.23={
-	liege = "k_burgundy"
+# County of Burgundy
+# Royal Domain
+855.9.20 = {
+	liege = k_burgundy
 	holder = 91383
 }
-859.1.1=
-{
+859.1.1 = {
 	holder = 91384
 }
-880.1.1={
+880.1.1 = {
 	holder = 90105
 }
-888.1.14={
+888.1.13 = {
 	holder = 7984
 }
-911.10.25={
+911.10.25 = {
 	holder = 1144
 }
-936.1.1 = {
-	holder = 30245
+# County of Burgundy
+915.1.1 = {
+	holder = 1226553 # Alberic/Aubry de Macon, Count of Macon and Besancon
 }
-937.12.1={
-	holder = 1146
+943.1.1 = {
+	holder = 1226554 # Lietald de Macon, Count of Macon and Besancon
 }
-#House of Ivrée
-986.1.1 = {
-	liege="d_burgundy"
-	holder = 272 #Otte-Guillaume
+966.1.1 = {
+	holder = 1226555 # Alberic/Aubry de Macon, Count of Macon and Besancon
 }
-1026.1.1={
-	liege="e_hre"
-	holder = 276 #Renaud I de Bourgogne
-}
-1057.1.1={
-	holder = 280 #Guillaume I de Bourgogne
-}
-1087.1.1={
-	holder = 290 #Renaud II de Bourgogne
-}
-1097.1.1 = {
-	holder = 205706 #Étienne I de Bourgogne
-}
-1102.1.1={
-	holder = 232556 #Renaud III de Bourgogne
-}
-1148.1.1 = {
-	holder = 205599 #Béatrice I de Bourgogne
-}
-
-#House of Hohenstaufen
-1184.1.1={
-	holder = 212501 #Frédéric I Barberousse
-}
-1190.6.2={
-	holder = 212511 #Othon I de Hohenstaufen
-}
-1200.1.13={
-	holder = 30772 #Jeanne I de Bourgogne
-}
-1205.1.1= {
-	holder =  7652 #Béatrice II de Bourgogne
-}
-1220.1.1 = {
+# House of Ivr�e
+982.1.1 = {
 	liege = d_upper_burgundy
+	holder = 272 # Otte-Guillaume
 }
-
-#House of Andechs
-1231.1.1= {
-	holder =  7684 #Othon III de Bourgogne
+#Viscomte de Vesoul, Maison de Faucogney
+1019.1.1 = {
+	holder = 1066500 # Gislebert I de Faucogney
 }
-1248.1.1={
-	holder = 7653 #Adélaïde I de Bourgogne
-	liege = e_hre
+1066.1.1 = {
+	holder = 1066501 # Gislebert II de Faucogney
 }
-
-#House of Ivrée
-1279.1.1={
-	holder = 455739 #Othon IV de Bourgogne
+1110.1.1 = {
+	holder = 1066503 # Hugues I de Faucogney
 }
-1303.1.1={
-	holder = 91146 #Robert de Bourgogne
+1152.1.1 = {
+	holder = 1066506 # Gislebert III de Faucogney
 }
-1315.1.1={
-	liege="k_france"
-	holder = 455741 #Jeanne de Bourgogne
+1190.1.1 = {
+	holder = 1066510 # Aym�/Aymon/Amon II de Faucogney
 }
-
-#Direct Capetians
-1330.1.1={
-	liege="d_burgundy"
-	holder = 455913 #Jeanne III de Bourgogne
+1230.1.1 = {
+	holder = 1066513 # Aym�/Aymon/Amon III de Faucogney
+}
+1263.1.1 = {
+	holder = 1066520 # Jean I de Faucogney
+}
+1285.1.1 = {
+	holder = 1066526 # Aym�/Aymon/Amon IV de Faucogney
+}
+1305.1.1 = {
+	holder = 1066529 # Jean II de Faucogney
+}
+1334.1.1 = {
+	holder = 455413 # Jean III de Faucogney
+}
+1351.1.1 = {
+	holder = 1066533 # Henri I de Faucogney
 }

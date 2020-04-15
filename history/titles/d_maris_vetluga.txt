@@ -1,0 +1,76 @@
+# -*- ck2.history.titles -*-
+
+# Vetluga Mari aka Hill Mari
+860.1.1 = {
+	holder = 1227630
+}
+890.1.1 = {
+	holder = 1227631
+}
+915.1.1 = {
+	holder = 1227633
+}
+932.1.1 = { # Volga Bulgaria extracted tribute from the Mari
+	set_tribute_suzerain = {
+		who = k_volga_bulgaria
+		percentage = 0.4
+	}
+}
+945.1.1 = {
+	holder = 1227634
+}
+980.1.1 = {
+	holder = 1227635
+}
+1010.1.1 = {
+	holder = 1227636
+}
+1060.1.1 = {
+	holder = 1227637
+}
+1110.1.1 = {
+	holder = 1227638
+}
+1140.1.1 = {
+	holder = 1227639
+}
+1164.1.1 = {
+	clear_tribute_suzerain = k_volga_bulgaria
+	set_tribute_suzerain = { # V-B tries to establish a trade link to Novgorod to by pass Suzdal.
+		who = k_volga_bulgaria
+		type = permanent
+	}
+}
+1180.1.1 = {
+	holder = 1227640
+}
+1190.1.1 = {
+	holder = 1227641
+}
+1210.1.1 = {
+	holder = 1227642
+}
+1236.9.1 = {
+	clear_tribute_suzerain = k_volga_bulgaria # Fall of V-B
+}
+1238.10.1 = {
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = nomadic
+	}
+}
+1245.1.1 = {
+	holder = 1227643 # Kai
+}
+1280.1.1 = {
+	holder = 1227644 # Bai
+}
+1310.1.1 = {
+	holder = 1227645
+}
+1345.1.1 = {
+	holder = 1227646
+}
+1390.1.1 = {
+	holder = 0
+}

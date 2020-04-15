@@ -1,0 +1,120 @@
+# -*- ck2.history.titles -*-
+#Conti dei Marsi 843-926. Who wasn not related to the later family. 
+#Ildeberto, appointed as conte dei Marsi in 843, died early 860.
+#Gerardo, attested as conte dei marsi in 860. held it at least until 871.(was Ludwig II siezed it that year)
+#Guido(Guido II di Spoleto, who also became king of Italy), appointed as conte dei marsi in 876. attested as conte dei marsi in 881 again. was raised to ducca di Spoleto in 883.
+#Alberico II(7919), di spoleto. he was appointed visconte di Gualdeperto with jurisdiction of Marsi in 910
+#Gottfredo Ottaviani(1062359), conti di Rieti, son of a Giuseppe di Palombara. became conte di marsi after Alberico(when?).
+834.1.1 = {
+	liege = d_spoleto
+	holder = 71906
+}
+836.12.30 = {
+	holder = 71905
+}
+860.1.1 = {
+	holder = 71908
+}
+880.7.8 = {
+	holder = 71909
+}
+883.1.1 = {
+	holder = 71903
+}
+894.12.12 = {
+	holder = 71904
+}
+898.10.15 = {
+	holder = 71911
+}
+899.1.1 = {
+	holder = 7918
+}
+922.1.1 = {
+	holder = 7919
+}
+#di chieti
+926.1.1 = {
+	holder = 1061730 # Atto I
+}
+930.1.1 = {
+	holder = 1061731 # Attone II
+}
+967.1.1 = {
+	holder = 1061732 # Attone III
+}
+985.1.1 = {
+	holder = 1061733 # Transmundo I
+}
+993.1.1 = {
+	holder = 1061734 # Attone IV
+}
+1009.1.1 = {
+	holder = 1061736 # Transmundo II
+}
+1017.1.1 = {
+	holder = 1061739 # Ugo same as "di Amezone"? 1061501
+}
+1036.1.1 = {
+	holder = 1061737 # Attone V
+}
+1042.1.1 = {
+	holder = 1061741 # Attone VI
+}
+1059.1.1 = {
+	holder = 1061742 # Transmundo III
+}
+#d'Maumouzet
+1087.1.1 = {
+	liege = d_apulia
+	holder = 1061746 # Huges 
+}
+#Tancred
+1097.1.1 = {
+	holder = 1061750 # Guiallaume di Tascione
+}
+#d'Maumouzet
+1118.1.1 = {
+	holder = 1061748 # Richard
+}
+1133.1.1 = {
+	holder = 1061749 # Robert
+}
+# Robert  fell out with the king ca 1136 and his lands were confiscated
+#di Tarsia
+1136.1.1 = {
+	holder = 1063935 #Bohemond di Tarsia, also conte di Manoppello since 1140. attested 1156 lands in manoppello confiscated same year
+}
+#di Pagliara/Paleria
+1157.1.1 = {
+	holder = 1061808 # Gualteri
+}
+#di Tarsia
+1158.1.1 = {
+	holder = 1063937 #Bohemond II. conte di manopello ca 1157-1169. the county was grapped from him by the king in 1169.
+}
+1169.1.1 = {
+	holder = 1063939 # Pietro di Manopello conte di Manopello 1169-1171, son in law of previous
+}
+#di Pagliara/Paleria
+1171.1.1 = {
+	holder = 1061809 # Oderisio
+}
+1195.1.1 = {
+	holder = 1061810 # Manerio
+}
+1207.1.1 = {
+	holder = 1061811 # Gentile
+}
+1219.1.1 = {
+	holder = 1061814 # Guglielmo
+}
+1235.1.1 = {
+	holder = 1061815 # Gualteri
+}
+1266.1.1 = {
+	holder = 1061816 # Tomasia
+}
+1320.1.1 = {
+	holder = 1061817 # Maria
+}

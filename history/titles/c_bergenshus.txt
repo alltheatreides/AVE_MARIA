@@ -1,91 +1,97 @@
+# -*- ck2.history.titles -*-
+
 764.1.1 = {
 	holder = 194012
 }
 770.1.1 = {
 	holder = 0
 }
-867.1.1={
+867.1.1 = {
 	holder = 186013
 }
-936.1.1 = {
+872.1.1 = {
 	liege = k_norway
-	holder = 144001
+	holder = 144000 # Harald Fairhair
 }
-1066.1.1=
-{
-	holder = 102563
+931.1.1 = {
+	holder = 102507 # Eric Bloodaxe
 }
-1081.1.1={
-	holder = 102564
+934.1.1 = {
+	holder = 144001 # Haakon the Good
 }
-1105.1.2={
-	holder = 222598 # Olaf Magnusson
+961.1.1 = {
+	holder = 102508 # Harald Greycloak
 }
-1115.12.22={
-	holder = 222597 # ï¿½ystein Magnusson
+970.1.1 = {
+	holder = 1290038 # Thorolv Skjalg Ogmundsson, Lord of Hordaland
 }
-1123.8.29={
-	holder = 222595 # Sigurd Magnusson
+970.1.1 = {
+	liege = d_trondelag
 }
-1130.3.26={
-	holder = 222599 # Magnus Sigurdsson - The Blind
+979.1.1 = {
+	holder = 102565 # Erling Skjalgsson, Lord of Hordaland
 }
-1135.1.7={
-	holder = 202510 # Harald Gille
+995.1.1 = {
+	liege = k_norway
 }
-1136.12.14={
-	holder = 202501 # Sigurd Munn, son of Harald Gille, actually co-regent with 202514 and 202512
+996.1.1 = {
+	liege = d_vestlandet
 }
-1155.6.10={
-	holder = 202514 # ï¿½ystein, son of Harald Gille
+1018.1.1 = {
+	holder = 1290079 # Aslak Fitjaskalle, Lord of Hordaland
 }
-1157.8.21={
-	holder = 202512 # Inge Krokrygg, son of Harald Gille
+1028.1.22 = {
+	liege = k_norway
 }
-1161.1.5={
-	holder = 202507 # Hï¿½kon Herdebrei, son of Sigurd Munn
+1029.1.1 = {
+	holder = 1290073 # Erlend of Gjerde, Lord of Gjerde
 }
-1162.7.7={
+1030.7.29 = {
+	holder = 1290074 # Svein Erlendsson of Gjerde, Lord of Gjerde
+}
+1051.1.1 = {
+	holder = 183910 # Svein Sveinsson of Stødle, Lord of Stødle
+}
+1098.1.1 = {
+	holder = 183911 # Kyrpinga-Orm Sveinsson, Lord of Stødle and important Lendmann for Hordaland
+}
+1140.1.1 = {
+	holder = 202050 # Erling "Skakke" Ormsson, Lord of Stødle and Lendmann in Hordaland. Very Important noble
+}
+1179.6.18 = {
 	holder = 202051 # Magnus Erlingsson
 }
-1184.6.15={
+1184.6.15 = {
 	holder = 202500 # Sverre Sigurdsson
 }
-1202.3.9=
-{
-	holder = 202502 # Hï¿½kon Sverreson
+1202.3.9 = {
+	holder = 202502 # Håkon Sverreson
 }
-1204.1.1={
+1204.1.1 = {
 	holder = 202508 # Guttorm Sigurdsson
 }
-1204.8.11={
-	holder = 202032 # Inge Bï¿½rdsson
+1204.8.11 = {
+	holder = 202032 # Inge Bårdsson
 }
-1217.4.23=
-{
-	holder = 202509 # Hï¿½kon Hï¿½konsson
+1217.4.23 = {
+	holder = 202509 # Håkon Håkonsson
 }
 1220.1.1 = {
 	holder = 194314
 }
-1263.12.15=
-{
-	holder = 6905 # Magnus Lagabï¿½ter
+1263.12.15 = {
+	holder = 6905 # Magnus Lagaböter
 }
-1280.5.9=
-{
-	holder = 6906 # Erik 'Prï¿½sthatare' Magnusson
+1280.5.9 = {
+	holder = 6906 # Erik 'Prästhatare' Magnusson
 }
-1299.7.15={
-	holder = 452510 # Hï¿½kon Magnusson
+1299.7.15 = {
+	holder = 452510 # Håkon Magnusson
 }
-1319.5.8={
-	holder = 450500 # Magnus Eriksson (Bjï¿½lbo)
+1319.5.8 = {
+	holder = 450500 # Magnus Eriksson (Bjälbo)
 }
-1337.1.1={
-	liege = "d_trondelag"
-}
-1337.1.1=
-{
+1337.1.1 = {
+	liege = d_trondelag
 	holder = 450780
 }

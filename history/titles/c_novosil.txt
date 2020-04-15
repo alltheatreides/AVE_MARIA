@@ -1,125 +1,98 @@
-750.1.1 = {
-	holder = 256053
-	liege = d_novosil
+# -*- ck2.history.titles -*-
+
+865.1.1 = {
+	liege = d_vyatichi
+	holder = 6850
 }
-799.1.1 = {
-	holder = 194143
+890.1.1 = {
+	holder = 160060
 }
-822.1.1 = {
-	holder = 194144
+905.1.1 = {
+	holder = 1601022
 }
-865.1.1={
-	holder = 159721
-	liege = 0
-	set_tribute_suzerain = { who = k_khazaria type = nomadic }
+940.1.1 = {
+	holder = 1601023
 }
-936.1.1 = {
-	clear_tribute_suzerain = k_khazaria
-	holder = 260748
-	liege = d_novosil
+987.1.2 = {
+	liege = d_ryazan
+	holder = 612
 }
-1024.1.2=
-{
-	liege="d_novgorod-seversk"
+1010.1.2 = {
+	holder = 625
 }
-1024.1.2={
-holder = 618
+1015.9.9 = {
+	holder = 610
 }
-1036.1.2=
-{
-holder = 612
+1016.1.2 = {
+	holder = 612
+}
+1024.1.2 = {
+	holder = 618
+}
+1036.1.2 = {
+	holder = 612
 }
 1054.2.20 = {
-	holder = 256122
+	holder = 628
 }
-1089.1.1 = {
-	holder = 256123
+1073.1.2 = {
+	holder = 630
 }
-1095.1.2=
-{
-holder = 125032
+1077.1.2 = {
+	holder = 662
 }
-1097.1.2=
-{
-holder = 660
+1096.1.2 = {
+	holder = 222757
 }
-1115.8.1=
-{
-holder = 222602
+1129.1.2 = {
+	holder = 222744
 }
-1127.1.2=
-{
-holder = 125045
+1143.1.2 = {
+	holder = 222757
 }
-1139.3.4=
-{
-holder = 125069
+1145.1.2 = {
+	holder = 222744
 }
-1146.8.1=
-{
-holder = 222632
+1153.1.2 = {
+	holder = 222742
 }
-1157.5.15=
-{
-holder = 222650
+1177.6.30 = {
+	holder = 222745
 }
-1164.2.15=
-{
-holder = 125070
+1180.1.2 = {
+	holder = 222740
 }
-1180.1.18=
-{
-holder = 222630
+1185.1.2 = {
+	holder = 222748
 }
-1198.1.2=
-{
-holder = 222635
+1207.1.2 = {
+	holder = 222754
 }
-1208.1.2=
-{
-holder = 125072
+1217.7.20 = {
+	holder = 222753
 }
-1235.1.2=
-{
-holder = 222654
+1237.12.27 = {
+	holder = 125085
 }
-1241.1.2=
-{
-holder = 98015
+1252.1.2 = {
+	holder = 125086
 }
-1243.1.2=
-{
-holder = 222654
+1258.1.2 = {
+	holder = 125087
 }
-1246.9.20=
-{
-holder = 125059
+1270.7.19 = {
+	holder = 125089
 }
-1289.1.2=
-{
-holder = 125060
+1294.1.2 = {
+	holder = 125090
 }
-1290.1.2=
-{
-holder = 125061
+1301.1.2 = {
+	liege = d_moskva
+	holder = 472843
 }
-1308.1.2=
-{
-holder = 472506
+1303.3.4 = {
+	holder = 472848
 }
-1309.1.2=
-{
-holder = 472511
-}
-1310.1.2=
-{
-holder = 472506
-}
-1314.1.2=
-{
-holder = 472507
-}
-1330.1.2=
-{
-holder = 472510
+1325.11.21 = {
+	holder = 472840
 }

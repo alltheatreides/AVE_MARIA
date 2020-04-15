@@ -1,134 +1,76 @@
-756.3.16={
-	holder = 73679 # Abd al-Rahman I Umayyad
-	liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+	holder = 73838
 }
-788.10.7={
-	holder = 73680 # Hisham I Umayyad
+# Banu Salim removed from the Middle March in 920
+933.1.1 = {
+	liege = d_toledo
+	holder = 1235122 # Qand al-Siqlabi, Persian Ghulam
 }
-796.6.12={
-	holder = 200020 # Abd-al-Rahman, changed for demesne limit reasons
+957.1.1 = {
+	holder = 1235087 # Ghalib b. Abd al-Rahman al-Siqlabi
 }
-822.5.21={
-	holder = 73682 # Abd al-Rahman II Umayyad
+981.7.10 = {
+	holder = 3206 # Almanzor
 }
-850.1.1={
-	holder = 73938 # Ibrahum Burrunid
-	liege=d_toledo
+991.1.1 = {
+	holder = 1235054 # Abd-al-Malik al-Muzaffar, Almanzor's son and chosen successor. Almanzor already had him lined up as successor when he made him Hajib in 991
 }
-870.1.1={
-	holder = 73929 # Muhammad Qutamid
-	liege=k_andalusia
+1008.10.20 = {
+	holder = 73226 # Abd-ar-Rahman Sanchuelo, Succeeded his brother. His death started the ball rolling towards disaster for Andalus
 }
-888.1.1={
-	holder = 73933 # Yahya Qutamid
+1009.3.3 = {
+	holder = 1235094 # Wadih al-Siqlabi
 }
-906.1.1={
-	holder = 73823 # Muhammad Qasid
-	liege=d_toledo
+1011.11.1 = {
+	holder = 1235026
 }
-907.1.1={
-	holder = 73685 # Abdallah Umayyad
-	liege=k_andalusia
+1027.1.1 = {
+	holder = 3922
 }
-912.10.15={
-	holder = 3200 # Abd al-Rahman III Umayyad
+1043.1.1 = {
+	holder = 3924
 }
-936.1.1 = {
-	holder = 260608
+1075.1.1 = {
+	holder = 3926
 }
-961.10.15={
-	holder = 3202 # al-Hakam II Umayyad
+1080.1.1 = {
+	liege = 0
+	holder = 1235520 # 'Azzun b. Ghalbun, before El Cid's conquest of Valencia
 }
-976.10.16={
-	holder = 3204 # Hisham II Umayyad
+1085.5.25 = { #Likely under suzerainty of Castille before Molina de Aragon was taken over by Alfonso I
+	set_tribute_suzerain = {
+		who = k_castille
+		percentage = 0.4
+	}
 }
-1009.2.15={
-	holder = 73671 # Muhammad II Umayyad
+1129.1.1 = {
+	clear_tribute_suzerain = k_castille
+	liege = d_toledo
+	holder = 207539
 }
-1009.11.1={
-	holder = 73675 # Suleyman Umayyad
+1130.10.16 = {
+	holder = 207541
 }
-1010.5.10={
-	holder = 73671 # Muhammad II Umayyad
+1164.7.9 = {
+	holder = 207540
 }
-1010.7.23={
-	holder = 3204 # Hisham II Umayyad
+1202.1.1 = {
+	holder = 207544
 }
-1013.4.19={
-	holder = 73675 # Suleyman Umayyad
+1238.4.6 = {
+	holder = 71427
 }
-1016.7.1={
-	holder = 73687 # Ali Hammudid
+1244.9.1 = {
+	holder = 457660
 }
-1018.3.22={
-	holder = 73678 # Abd al-Rahman IV Umayyad
+1272.1.6 = {
+	holder = 71429
 }
-1018.6.1={
-	holder = 73689 # al-Qasim Hammudid
+1292.12.5 = {
+	holder = 457666
 }
-1021.1.1={
-	holder = 73690 # Yahya Hammudid
-}
-1023.2.1={
-	holder = 73689 # al-Qasim Hammudid
-}
-1023.12.2={
-	holder = 73672 # Abd al-Rahman V Umayyad
-}
-1024.1.1={
-	holder = 3922 # Isma'il Dhunnunid
-	liege=d_toledo
-}
-1043.1.1={
-	holder = 3924 # Yahya I Dhunnunid
-}
-1075.1.1={
-	holder = 3926 # Yahya II Dhunnunid
-}
-1080.1.1={
-	holder = 3902 # Muhammad Aftasid
-	liege=d_badajoz
-}
-1081.1.1={
-	holder = 3926 # Yahya II Dhunnunid
-	liege=d_toledo
-}
-1085.5.25={
-	holder = 108500 # Alfonso VI Jimena
-	liege=k_castille
-}
-1097.1.1={
-	holder = 464010 # Muhammad Qaturbid
-	liege=k_mauretania
-}
-1119.1.1={
-	holder = 224023 # Ibrahim Umarid
-}
-1129.1.1={
-	holder = 207539 # Pedro Gonz�lez de Lara
-	liege=k_castille
-}
-1130.10.16={
-	holder = 207541 # Manrique P�rez de Lara
-}
-1164.7.9={
-	holder = 207540 # Pedro Manrique de Lara
-}
-1202.1.1={
-	holder = 207544 # Gonzalo P�rez de Lara
-}
-1238.4.6={
-	holder = 71427 # Mafalda Gonz�lez de lara
-}
-1244.9.1={
-	holder = 457660 # Alfonso Alf�nsez de Molina
-}
-1272.1.6={
-	holder = 71429 # Blanca Alf�nsez de Molina
-}
-1292.12.5={
-	holder = 457666 # Mar�a Alf�nsez de Molina, Queen of Castille
-}
-1321.1.1={
-	holder = 457500 # Alfonso XI de Borgo�a
+1321.1.1 = {
+	holder = 457500
 }

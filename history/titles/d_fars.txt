@@ -1,89 +1,212 @@
-661.2.28={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-769.1.1={
+769.1.1 = {
 	holder = 188607
 }
-780.1.1={
+800.1.1 = {
 	holder = 0
-} 
-936.1.1 = {
-	holder = 261012
+}
+# Tahirids
+846.10.10 = {
+	liege = e_arabia
+	holder = 1230527
+}
+851.5.5 = {
+	holder = 1230530
+}
+851.10.10 = {
+	holder = 163162
+}
+864.1.1 = {
+	holder = 1230666
+}
+867.1.1={
 	liege = 0
 }
-1066.1.1 = {
-	liege="k_persia"
+868.1.1 = {
+	liege = e_arabia
+}
+934.1.1 = {
+	liege = 0
+	holder = 1231062
+}
+949.12.12 = { #Azud al-Dawla Panna Khosrow named governor by Imad al-Dawla Ali before his death
+	liege = k_mesopotamia
+	holder = 1231065
+}
+967.4.8 = { #acted independently of both his father and Izz al-Dawla Bakhtiyar repeatedly, at one point even usurpring Amir al-Umara (which he rescinded only at his father's reprimand)
+	liege = 0
+}
+976.9.9 = {
+	liege = k_persia
+}
+983.3.3 = {
+	holder = 1231071
+}
+989.6.9 = {
+	holder = 1231070
+}
+998.12.1 = {
+	holder = 1231072
+}
+1012.12.22 = {
+	holder = 1231073
+}
+1024.12.12 = {
+	holder = 1231078
+}
+1027.6.1 = {
+	liege = 0
+}
+1037.1.1 = {
+	liege = k_persia
+}
+1048.10.10 = {
+	holder = 1231083
+}
+1050.1.1 = {
+	liege = k_mesopotamia
+}
+1054.2.1 = { #Pulad Sutun places Tughril Beg's name, followed by al-Rahim al-Malik's in khutba
+	liege = k_persia
+	holder = 1231080
+}
+1055.10.1 = { #Khosrow Shah aids Pulad Sutun on condition that they would both obey al-Malik al-Rahim
+	liege = k_mesopotamia
+}
+1055.12.18 = {
+	liege = k_persia
+}
+1062.1.1 = {
+	liege = 0
 	holder = 3854
 }
-1069.1.1={
-	holder = 93229
+#1063.1.1 = { #attacked by Qawurd b. Chaghri Beg, but granted governorship of Fars by Alp Arslan
+#	liege = e_persia
+#	holder = 3040
+#}
+1072.6.1 = {
+	liege = e_persia
+	holder = 3042
 }
-1080.1.1=
-{
-	holder = 93230
+1073.4.17 = {
+	holder = 1230198
 }
-1110.1.1=
-{
-	holder = 93231
+#1073.4.17 = {
+#	liege = e_persia
+#	holder = 144026
+#}
+#1085.1.1 = {
+#	holder = 144027
+#}
+#1094.1.1 = {
+#	#capital = 644
+#	holder = 93230 # Öner - Seljuk ghulam appointed by Terken Khatun
+#}
+#1103.1.1 = {
+#	holder = 93231
+#}
+1074.1.1 = {
+	holder = 1229912
 }
-
-1157.5.8=
-{
+1078.1.1 = {
+	holder = 144027
+}
+1089.1.1 = {
+	holder = 93404
+}
+1104.1.1 = { #technically 1104-1106, 1109-1117
+	holder = 93404
+}
+1117.7.1 = {
+	holder = 1229913
+}
+1118.4.18 = {
+	liege = k_persia
+}
+1132.7.1 = {
+	holder = 1229914
+}
+1138.1.1 = {
+	holder = 1229951
+}
+1139.1.1 = {
+	holder = 1229916
+}
+1148.1.1 = {
+	liege = e_persia
+	holder = 93242
+}
+1156.1.1 = {
 	liege = 0
 }
-1157.5.8=
-{
-	holder = 144054
-} 
-1159.1.1=
-{
-	holder = 144055
+1161.1.1 = {
+	holder = 93243
 }
-1175.12.31=
-{
-	holder = 144056
+1175.1.1 = {
+	holder = 93244
 }
-1194.3.1=
-{
-	holder = 93233
+1198.1.1 = {
+	holder = 93246
 }
-1203.1.1=
-{
-	liege="k_persia"
+1216.1.1 = {
+	liege = k_khwarezmia
 }
-1221.1.1=
-{
-	liege="e_mongol_empire"
+1221.1.1 = {
+	liege = 0
 }
-1227.1.1=
-{
-	holder = 93234
+1223.1.1 = {
+	liege = k_khwarezmia
 }
-1227.12.2={
-	liege="e_il-khanate"
+1226.1.1 = {
+	holder = 93247
 }
-1260.1.1=
-{
-	holder = 93235
+1228.1.1 = {
+	liege = 0
 }
-1261.1.1=
-{
-	holder = 93236
+1257.1.1 = { #some time during Abu Bakr's reign
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
 }
-1264.1.1=
-{
-	holder = 93237
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
 }
-1266.1.1=
-{
-	holder = 93238
+1260.1.1 = {
+	holder = 93248
 }
-1289.1.1=
-{
-	holder = 93239
+1260.6.1 = {
+	holder = 93249
 }
-1314.1.1=
-{
-	holder = 93240
+1262.1.1 = {
+	holder = 93250
+}
+1263.1.1 = {
+	holder = 93251
+}
+1264.1.1 = {
+	holder = 93252
+}
+1284.10.1 = { #Bugha imprisons Abish Khatun, the last Salghurid ruler of Fars
+	holder = 217309
+}
+1289.1.1 = {
+	holder = 248134 #brother of Sa'ad al-Dawla
+}
+1292.1.1 = {
+	holder = 125522
+}
+1295.1.1 = {
+	holder = 125529
+}
+1315.1.1 = {
+	holder = 478012
+}
+1335.1.1 = {
+	holder = 478015
+}
+1336.4.10 = {
+	liege = 0
 }

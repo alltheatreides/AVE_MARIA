@@ -1,3 +1,5 @@
+# -*- ck2.history.titles -*-
+
 # Rollonids
 
 #commented so Caen stay an independant city.
@@ -7,7 +9,7 @@
 # 	holder = 242 #Rollon
 # }
 # 932.1.1={
-# 	holder = 244 #Guillaume I Longue ï¿½pï¿½e
+# 	holder = 244 #Guillaume I Longue Épée
 # }
 # 942.12.17={
 # 	holder = 246 #Richard I
@@ -22,28 +24,28 @@
 # 	holder = 252 #Robert le Magnifique
 # }
 # 1035.7.3={
-# 	holder = 140 #Guillaume II le Conquï¿½rant
+# 	holder=140 #Guillaume II le Conquérant
 # }
 # 1087.9.9={
 # 	holder = 142 #Robert Courteheuse
 # }
 # 1106.1.1={
-# 	holder = 202992 #Henri I Beauclerc
+# 	holder=202992 #Henri I Beauclerc
 # }
 #House of Anjou
 # 1135.12.2={
-# 	holder = 205851 #ï¿½tienne de Blois
+# 	holder = 205851 #Étienne de Blois
 # }
 
-# Plantagenï¿½ts
+# Plantagenêts
 # 1144.1.1={
-# 	holder = 204506 #Geoffroy Plantagenï¿½t
+# 	holder = 204506 #Geoffroy Plantagenêt
 # }
 # 1151.7.9={
-# 	holder = 204500 #Henri II Plantagenï¿½t
+# 	holder=204500 #Henri II Plantagenêt
 # }
 # 1189.7.6={
-# 	holder = 204510 #Richard I Cï¿½ur-de-Lion
+# 	holder = 204510 #Richard I Cœur-de-Lion
 # }
 # 1199.4.6={
 # 	holder = 204514 #Jean I Sans Terre
@@ -51,7 +53,7 @@
 
 # Direct Capetians
 # 1204.5.21={
-# 	holder = 205506 # Philippe I Auguste
+# 	holder=205506 # Philippe I Auguste
 # }
 # 1223.7.14={
 # 	holder = 455402 #Louis I le Lion
@@ -69,10 +71,10 @@
 # 	holder = 455836 # Louis III le Hutin
 # }
 # 1316.6.5={ #in fact 1316.11.5 as a posthumus heir, but ck2 can't handle interregnum
-# 	holder =  70137 # Jean II le Posthume
+# 	holder= 70137 # Jean II le Posthume
 # }
 # 1316.11.19={ #corrected from 1316.6.5
-# 	holder =  455509 # Philippe IV le Long, son of 455526.
+# 	holder= 455509 # Philippe IV le Long, son of 455526.
 # }
 # 1322.1.3={
 # 	holder = 455414 # Charles I le Bel
@@ -80,7 +82,7 @@
 
 # House of Valois
 # 1328.2.1={
-# 	holder = 455500 # Philippe V
+# 	holder=455500 # Philippe V
 # }
 
 # 1332.1.1={

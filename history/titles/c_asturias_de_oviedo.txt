@@ -1,118 +1,64 @@
-718.1.1={
-	holder = 70000 # Pelayo Fafilaz de Asturias
-	liege=k_asturias
+# -*- ck2.history.titles -*-
+
+866.5.27 = {
+	liege = k_asturias
+	holder = 70019
 }
-737.1.1={
-	holder = 70115 # Favila Pï¿½ez de Asturias
+931.6.1 = {
+	liege = k_leon
+	holder = 70024 # Ramiro II de León
 }
-739.6.15={
-	holder = 70003 # Alfonso I de Cantabria
+951.1.5 = {
+	holder = 108600 # Ordoño III de León
 }
-757.1.1={
-	holder = 70004 # Fruela I de Asturias
+956.11.13 = {
+	holder = 70026 # Sancho I de León
 }
-768.1.1={
-	holder = 70012 # Aurelio Froilaz de Cantabria
+958.1.1 = {
+	holder = 70029 # Ordoño IV de León
 }
-773.1.1={
-	holder = 70118 # Silo, King of Asturias
+960.1.1 = {
+	holder = 70026 # Sancho I de León
 }
-783.1.1={
-	holder = 70116 # Mauregato Alfï¿½nsez de Cantabria
+966.1.1 = {
+	holder = 108610 # Ramiro III de León
 }
-788.1.1={
-	holder = 70013 # Bermudo I de Cantabria
+984.1.1 = {
+	holder = 108590 # Bermudo II de León
 }
-791.1.1={
-	holder = 70006 # Alfonso II de Asturias
+999.9.1 = {
+	holder = 108570 # Alfonso V de León
 }
-842.3.20={
-	holder = 70015 # Ramiro I de Cantabria
+1010.1.1 = {
+	holder = 70092
 }
-850.2.1={
-	holder = 70017 # Ordoï¿½o I de Cantabria
+1036.1.1 = {
+	holder = 108510
 }
-866.5.27={
-	holder = 70019 # Alfonso III de Cantabria
+1046.1.1 = {
+	holder = 108512
 }
-900.1.1={
-	holder = 70030 # Fruela II de Cantabria
-	liege=d_asturias
+1085.1.1 = {
+	holder = 108514
 }
-910.12.22={
-	liege=k_asturias
+1108.5.1 = {
+	holder = 72701
 }
-924.1.1={
-	liege=k_leon
+1137.1.1 = {
+	holder = 72731
 }
-925.7.1={
-	holder = 70064 # Alfonso Froilaz de Cantabria
-	liege=d_asturias
+1186.1.1 = {
+	holder = 72758
 }
-926.1.1={
-	holder = 70023 # Alfonso IV de Leï¿½n
-	liege=k_leon
+1218.1.1 = {
+	holder = 72760
 }
-931.6.1={
-	holder = 70024 # Ramiro II de Leï¿½n
+1286.10.25 = {
+	holder = 72769
 }
-936.1.1 = {
-	holder = 70029 # Ordoï¿½o IV de Leï¿½n
+1300.1.1 = {
+	holder = 72773
 }
-951.1.5={
-	holder = 108600 # Ordoï¿½o III de Leï¿½n
-}
-956.11.13={
-	holder = 70026 # Sancho I de Leï¿½n
-}
-958.1.1={
-	holder = 70029 # Ordoï¿½o IV de Leï¿½n
-}
-960.1.1={
-	holder = 70026 # Sancho I de Leï¿½n
-}
-966.1.1={
-	holder = 108610 # Ramiro III de Leï¿½n
-}
-984.1.1={
-	holder = 108590 # Bermudo II de Leï¿½n
-}
-999.9.1={
-	holder = 108570 # Alfonso V de Leï¿½n
-}
-1028.8.7={
-	holder = 70075 # Bermudo III de Leï¿½n
-}
-1037.9.4={
-	holder = 107510 # Fernando I Jimena
-}
-1054.1.1={
-	holder = 108510 # Diego Fernï¿½ndez de Oviedo I
-}
-1077.1.1={
-	holder = 108512 # Rodrigo Dï¿½az de Oviedo
-}
-1085.1.1={
-	holder = 108514 # Fernando Dï¿½az de Oviedo
-}
-1108.5.1={
-	holder = 72701 # Diego Fernï¿½ndez de Oviedo II
-}
-1137.1.1={
-	holder = 72731 # Diego Pï¿½rez de las Asturias
-}
-1186.1.1={
-	holder = 72758 # ï¿½lvaro Dï¿½az de las Asturias
-}
-1218.1.1={
-	holder = 72760 # Pedro ï¿½lvarez de las Asturias
-}
-1286.10.25={
-	holder = 72769 # Pedro Pï¿½rez de las Asturias
-}
-1300.1.1={
-	holder = 72773 # Rodrigo Pï¿½rez de las Asturias
-}
-1334.1.1={
-	holder = 457510 # Enrique de Trastï¿½mara
+1334.1.1 = {
+	holder = 457510
 }

@@ -1,70 +1,56 @@
-765.1.1={
-	liege=e_arabia
-	holder = 188609 # Muhammad b Sulayman b Ali
-}
+# -*- ck2.history.titles -*-
 
-866.1.1={
-	liege="d_basra"
+866.1.1 = {
+	holder = 1500080
 }
-866.1.1={
-	holder = 34017
+898.1.1 = {
+	holder = 1500079
 }
-936.1.1 = {
-	holder = 261010
+#937.1.1 = {
+#	set_tribute_suzerain = {
+#		who = d_amman
+#		type = permanent
+#	}
+#}
+937.1.1 = {
+	holder = 1500078
 }
-1066.1.1=
-{
-liege="d_amman"
+974.1.1 = {
+	holder = 1500077
 }
-1066.1.1=
-{
-holder = 20900
+995.1.1 = {
+	holder = 1500051
 }
-1126.1.1={
-	holder = 144146
+1022.1.1 = {
+	holder = 1236231
 }
-1139.1.1={
-	holder = 144147
+1044.1.1 = {
+	holder = 1236175
 }
-1149.1.1={
-	holder = 144148
+1051.1.1 = {
+	clear_tribute_suzerain = d_amman
 }
-1151.1.1={
-	holder = 144149
+1089.1.1 = {
+	holder = 1236176
 }
-1152.1.1={
-	holder = 144150
+1114.1.1 = {
+	holder = 1236177
 }
-1161.1.1={
-	holder = 144152
+1140.1.1 = {
+	holder = 1236178
 }
-1180.1.1={
-	holder = 144154
+1173.1.1 = {
+	holder = 1236199
 }
-1209.1.1={
-	holder = 34471
+1211.1.1 = {
+	holder = 1236204
 }
-1219.1.1={
-	holder = 34473
+1245.1.1 = {
+	holder = 1236209
 }
-1220.1.1={
-	holder = 34474
+1277.1.1 = {
+	holder = 1236214
 }
-1229.1.1={
-	holder = 34476
-}
-1236.1.1={
-	holder = 34477
-}
-1253.1.1={
-	holder = 34479
-}
-1270.1.1={
-	holder = 34481
-}
-1292.1.1={
-	holder = 34482
-}
-1310.1.1={
-	holder = 34483
+1305.1.1 = {
+	holder = 1236220
 }

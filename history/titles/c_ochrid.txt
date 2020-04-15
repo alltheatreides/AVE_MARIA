@@ -1,100 +1,183 @@
-640.1.1=
-{
-liege="d_ohrid"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_dyrrachion
 }
-748.1.1={
-	holder = 146011
+640.1.1 = {
+	liege = d_rashka
 }
-787.1.1={
-	holder = 146012
+# since 843.1.1 d_dyrrachion is under k_bulgaria
+843.1.1 = {
+	liege = d_dyrrachion
 }
-806.1.1={
-	holder = 146013
+852.1.1 = {
+	holder = 70382 # Boris
 }
-852.1.1={
-	holder = 70382 #Boris
+860.1.1 = {
+	holder = 70383 # Vladimir the Crown-Prince
 }
-860.1.1=
-{
-holder = 168078
+927.5.27 = {
+	liege = k_bulgaria
+	holder = 260678 # Jerolim Ohrid, placeholder for Ohrid
 }
-936.1.1 = {
-	holder = 260678
+949.1.1 = {
+	holder = 70381 # Nicholas Komitopoulos
+}
+976.1.1 = {
+	liege = d_ohrid
+	holder = 728 # Samuil	
+}
+991.4.1 = {
+	liege = k_bulgaria
+}
+1018.8.1 = {
+	liege = d_ohrid
+	holder = 1500400 # David Arianites Strategos Autokrator of Bulgaria 1018-1022(25)
+}
+1022.1.1 = {
+	holder = 20525 # Konstantions Diogenes Strategos of Bulgaria 1022-1032
+}
+1029.1.1 = {
+	holder = 1500401
+}
+1040.1.1 = {
+	liege = k_bulgaria
+	holder = 732
+}
+1041.6.1 = {
+	liege = d_ohrid
+	holder = 1500401
+}
+1042.1.1 = {
+	holder = 1500305
+}
+1049.1.1 = {
+	holder = 1232307 # Lykaon
+}
+1052.1.1 = {
+	holder = 1232306 # Proteuon
+}
+1055.1.11 = {
+	holder = 1232305 # Drimys
+}
+1059.1.1 = {
+	holder = 1734 # Romanos Diogenes # exarchos of Sofia(before being emperor)
+}
+1065.1.1 = {
+	holder = 34464 # Nikephoros Karantenos Doux of Skopje ?-1073
 }
 1066.1.1 = {
+	holder = 1232171
+}
+1072.2.1 = {
+	liege = k_bulgaria
+	holder = 20493
+}
+1073.1.1 = {
+	liege = d_ohrid
+	holder = 70416 # Damian Dalassenos Doux of Skopje 1073-?
+}
+1082.4.1 = {
+	liege = d_apulia
+	holder = 1140 # Bohemond de Hauteville
+}
+1083.11.1 = {
+	liege = d_ohrid
+	holder = 1231757
+}
+1084.1.1 = {
+	holder = 42017
+}
+1107.1.1 = {
+	holder = 20511
+}
+1110.1.1 = {
+	holder = 215528
+}
+1130.1.1 = {
+	holder = 223022
+}
+1143.4.8 = {
+	holder = 231057
+}
+1154.1.1 = {
+	holder = 34405
+}
+1173.1.1 = {
+	holder = 215060
+}
+1184.1.1 = {
+	holder = 34412
+}
+1186.1.1 = {
+	holder = 34589
+}
+1193.1.1 = {
 	liege = e_byzantium
-	# holder = 20484
 }
-1078.1.1=
-{
-holder = 20481
+1201.1.1 = {
+	holder = 34590
 }
-1107.1.1=
-{
-holder = 42014
+1204.5.16 = {
+	liege = k_bulgaria
+	holder = 217502
 }
-1108.1.1=
-{
-holder = 34441
+1207.10.1 = {
+	holder = 217505
 }
-1143.1.1=
-{
-holder = 34442
+1217.1.1 = {
+	liege = k_epirus
+	holder = 215514
 }
-1168.1.1=
-{
-holder = 34281
+1230.1.1 = {
+	liege = k_bulgaria
+	holder = 31160
 }
-1203.1.1=
-{
-holder = 34282
+1241.6.24 = {
+	holder = 31165 # Koloman I
 }
-1204.5.16=
-{
-liege="d_epirus" 
-holder = 215517
+1246.8.1 = {
+	liege = k_epirus
+	holder = 125715
 }
-1215.1.1=
-{
-holder = 215514
+1253.1.1 = {
+	liege = d_adrianopolis
+	holder = 1232255
 }
-1230.1.1=
-{
-liege="k_bulgaria"
+1260.1.1 = {
+	holder = 1232283
 }
-1230.1.1=
-{
-holder = 31160 #Ivan II
+1282.1.1 = {
+	holder = 1232284
 }
-1241.6.24=
-{
-holder = 31165 #Koloman I
+1295.1.1 = {
+	holder = 1500463 # Nikephoros Choumnos
 }
-1246.8.1=
-{
-liege="k_serbia"
+1304.1.1 = {
+	holder = 34457 # Ioannes, son of Andronikos II
 }
-1246.8.1=
-{
-holder = 34088
+1307.1.1 = {
+	holder = 1500463 # Nikephoros Choumnos
 }
-1276.1.1=
-{
-holder = 34117
+1310.1.1 = {
+	holder = 1500461 # Syrgiannes Palaiologos
 }
-1282.1.1=
-{
-holder = 468505
+1314.1.1 = {
+	holder = 1500472 # Michael Monomachos
 }
-1321.10.29=
-{
-holder = 34122
+1320.1.1 = {
+	holder = 34454 # Konstantinos, son of Andronikos II
 }
-1322.6.1=
-{
-holder = 468510
+1322.1.1 = {
+	holder = 34458 # Demetrios, son of Andronikos II
 }
-1331.11.3=
-{
-holder = 468500
+1326.1.1 = {
+	holder = 1500465 # George Choumnos
+}
+1328.5.24 = {
+	holder = 1500461 # Syrgiannes Palaiologos
+}
+1333.1.1 = {
+	liege = k_serbia
+	holder = 468500
 }

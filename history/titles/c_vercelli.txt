@@ -1,0 +1,132 @@
+# -*- ck2.history.titles -*-
+
+#di Ivrea
+825.1.1 = {
+	liege = k_italy
+}
+840.1.1 = {
+	liege = d_lombardia
+	holder = 1065741 # Leone di Milano, conte di Milano 842
+}
+844.1.1 = {
+	holder = 1065744 # Giovanni di Milano, conte di Milano 844
+}
+848.1.1 = {
+	holder = 1065745 # Alberico di Milano, in control of Milano 848, conte di Milano 880
+}
+887.1.1 = {
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+}
+891.1.1 = {
+	liege = d_ivrea
+	holder = 167925 # Ansacrio di Ivrea
+}
+902.1.1 = {
+	holder = 1106 # Adalberto di Ivrea
+}
+930.1.1 = {
+	holder = 1108 # Berengario di Ivrea
+}
+950.1.1 = {
+	holder = 1064800 # Guido di Ivrea
+}
+965.6.25 = {
+	holder = 1110 # Adalberto II di Ivrea
+}
+972.1.2 = {
+	holder = 1064801 # Corrado di Ivrea
+}
+996.1.1 = {
+	holder = 71902 # Arduino of Ivrea
+}
+### Ardunici
+1015.12.15 = {
+	liege = e_hre
+	holder = 10081 # Udalrico Manfredo II
+}
+1034.10.29 = {
+	liege = k_italy
+	holder = 1064736 # Guido
+}
+1039.6.4 = {
+	liege = e_hre
+}
+#da Romagano, marchesi di Romagano
+1045.1.1 = {
+	holder = 1064713 # Olrico
+}
+1046.12.25 = {
+	liege = k_italy
+}
+1056.10.5 = {
+	liege = e_hre
+}
+1080.1.1 = {
+	liege = k_italy
+}
+1090.1.1 = {
+	holder = 1064714 # Manfredo I
+}
+#Carignano branch
+1115.1.1 = {
+	holder = 1064730 # Guido I
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1125.5.23 = {
+	liege = k_italy
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1154.12.1 = {
+	liege = k_italy
+}
+1164.1.1 = {
+	holder = 1064732 # Manfredo II
+}
+1167.4.7 = {
+	liege = k_lombard_league
+}
+1210.1.1 = {
+	holder = 1064733 # Guglielmo
+}
+# Vercelli commune
+1240.1.1 = { 
+	liege = d_vercelli_republic
+	holder = 1064480 #Egidolo della Gente, podesta of vercelli 1240
+}
+1249.1.1 = {
+	holder = 1226789 #Enrico di Spavara, podesta of vercelli 1249
+}
+1250.1.1 = {
+	holder = 1064657 #Goffredo di Langosco podesta of vercelli 1250
+}
+1257.1.1 = {
+	holder = 1064745 #Alberto Turixella, podesta of vercelli 1257-59
+}
+1270.1.1 = {
+	holder = 1064746 # Guglielmo Turixella 
+}
+1285.1.1 = {
+	holder = 1064748 # Riccardo Tizzoni, capitano of the Guelphs of Vercelli
+}
+1301.1.1 = {
+	holder = 1064786 # Ranierio Avogadro bishop and capitano del popoli of vercelli 1301
+}
+1303.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1307.1.1 = {
+	holder = 1064663 #Filippone di Langosco, podesta of Vercelli 1307-1308
+}
+1308.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1325.1.1 = {
+	holder = 1064781 # Giovanni Avogadro podesta di Vercelli ca 1334
+}
+1334.1.1 = {
+	liege = d_lombardia
+}

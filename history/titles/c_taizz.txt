@@ -1,89 +1,92 @@
+# -*- ck2.history.titles -*-
+
 # c_taizz
-630.1.1={
-	liege="d_sanaa"
+630.1.1 = {
+	liege = d_sanaa
 }
-
-768.1.1={
-	holder = 188742
-}
-
-818.1.1={
-	liege=0
+818.1.1 = {
 	holder = 188736 # Muhammad Ziyadid
 }
-859.1.1={
-	holder = 188737 # Ibrahim
+847.1.1 = {
+	holder = 188735 # Yu'fir Yufirid
 }
-896.1.1={
-	holder = 188738 # Ziyad
+872.1.1 = {
+	holder = 1236023 # Muhammad Yufirid
 }
-911.1.1={
-	holder = 188739 # Ishaq
+892.1.1 = {
+	holder = 1236026 # Ibrahim Yufirid
 }
-981.1.1={
-	holder = 188740 # Abdallah
+898.1.1 = {
+	holder = 1236027 # As'ad Yufirid
 }
-1012.1.1={
-	holder = 188741 # Ibrahim
+944.1.1 = {
+	holder = 1236028 # Muhammad Yufirid
 }
-1018.1.1={
+956.1.1 = {
+	holder = 1236039 # Abdallah Yufirid
+}
+997.1.1 = {
+	holder = 1900841 # al-Husayn bin Salamah. Ziyadi Ghulam
+}
+1012.1.1 = {
+	holder = 188741 # Ibrahim Ziyadid
+}
+1018.1.1 = {
+	holder = 1236044 # Najah (Najahid)
+}
+1047.1.1 = {
+	holder = 45035 # Ali (Sulayhid)
+}
+1067.9.25 = {
+	holder = 45036 # Ahmad
+}
+1086.1.1 = {
+	holder = 1236034 # Arwa
+}
+1138.1.1 = {
+	holder = 1236060 # Hatim Qubaybid
+}
+1139.1.1 = {
+	holder = 1236062 # Hatim Hatimid
+}
+1161.1.1 = {
+	holder = 1236063 # Ali Hatimid
+}
+1164.1.1 = {
+	liege = d_zabid
+	holder = 1236066 # Abd-al-Nabi
+}
+1172.1.1 = {
 	liege = d_sanaa
+	holder = 1236063 # Ali Hatimid
 }
-1063.1.1 = {
-holder = 45035 # Ali Sulayhid
+1174.1.1 = {
+	holder = 32914 # Turanshah (Ayyubid)
 }
-1067.5.9 = {
-holder = 45036 # Al-Mukarram Sulayhid
+1178.1.1 = {
+	holder = 32916 # Toghtekin (Ayyubid)
 }
-1074.4.10 = {
-holder = 220820 # Arwa Sulayhid - al-Sayyida
+1197.1.1 = {
+	holder = 144092 # Al-Mu'izz (Ayyubid)
 }
-1138.3.12 = {
-holder = 220857 #Yemen was split between local rulers after Arwa until the Ayyubid conquest
-}
-1143.5.12 = {
-holder = 220862
-}
-1159.9.21 = {
-	holder = 220863
-}
-1163.10.5 = {
-	holder = 220864
-}
-1164.1.17 = {
-	holder = 220865
-}
-1164.6.1 = {
-	holder = 220864
-}
-1173.1.1 = { # Ayyubid conquest by Turanshah brother of Saladin
-	liege = d_sanaa
-	holder = 32914
-}
-1176.1.1={
-	holder = 32916
-}
-1197.1.1={
-	holder = 144092
-}
-1202.1.1={
+1202.1.1 = {
 	holder = 144093
 }
-1203.1.1={
+1214.1.1 = {
 	holder = 32929
 }
-1229.1.1={
+1229.1.1 = {
 	holder = 144094
 }
-1250.1.1={
+1249.1.1 = {
 	holder = 144095
 }
-1295.1.1={
+1295.1.1 = {
 	holder = 144096
 }
-1296.1.1={
+1296.1.1 = {
 	holder = 144097
 }
-1322.1.1={
+1322.1.1 = {
 	holder = 144098
-}	
+}

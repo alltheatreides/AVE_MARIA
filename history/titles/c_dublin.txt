@@ -1,137 +1,142 @@
-763.1.1=
-{
-	holder = 160247
-}
-855.1.1={
-	liege="d_western_isles"
+# -*- ck2.history.titles -*-
+
+855.1.1 = {
+	liege = d_western_isles
 	holder = 168330
 }
-873.1.1={
-	holder = 6814 # Barid
+921.1.1 = {
+	holder = 214901 # Gofraid ua Imair
 }
-881.1.1={
-	holder = 40609 # Sigfrith
+934.1.1 = {
+	holder = 214904 # Amlaib mac Gofraid
 }
-888.1.1={
-	holder = 40608 # Sigtryyg
+939.1.1 = {
+	holder = 214903 # Blácaire mac Gofraid
 }
-900.1.1={
-	holder = 214906 # ï¿½mar ua ï¿½mair
+945.1.1 = {
+	holder = 5790 # Amlaib Cuaran
 }
-
-# Irish control 902 to 917
-
-917.1.1={
-	liege = 0
-	holder = 5789 # Sihtric ua ï¿½mair 
+947.1.1 = {
+	holder = 214903 # Blácaire mac Gofraid
 }
-921.1.1={
-	holder = 214901 # Gofraid ua ï¿½mair
-}
-934.1.1={
-	liege = d_western_isles
-	holder = 214904 # Olaf Guthfrithson
-}
-941.1.1={
-	holder = 214903 # Blï¿½caire mac Gofrith
-}
-945.1.1={
-	holder = 5790 # Olaf Cuaran
-}
-947.1.1={
-	holder = 214903 # Blï¿½caire mac Gofrith
-}
-948.1.1={
+948.1.1 = {
 	holder = 214900 # Gofraid mac Sitriuc
 }
-951.1.1={
-	holder = 5790 # Olaf Cuaran
+951.1.1 = {
+	holder = 5790 # Olafr Cuaran aka Amlaib Cuaran
 }
-980.1.1={
-	liege=0
-	holder = 131521 # Glï¿½niairn
+980.1.1 = {
+	holder = 131521 # Glúniairn
 }
-989.1.1={
-	holder = 1025 #Sihtric
+989.1.1 = {
+	holder = 1025 # Sihtric
 }
-1036.1.1={
-	holder = 214914
+# Brian and Mael Sechnaill reaches a compromise on their struggle, giving Brian control over Leinster
+996.1.1 = {
+	set_tribute_suzerain = {
+		who = d_munster
+		type = permanent
+	}
 }
-1038.1.1={
-	holder = 5792
+#Leinster and Dublin rebels
+998.1.1 = {
+	clear_tribute_suzerain = d_munster
 }
-1046.1.1={
-	holder = 214914
+# Battle of Glenmama, Leinster attempt to overthrow Brian Boru as their overlord fails
+1000.1.1 = {
+	set_tribute_suzerain = {
+		who = d_munster
+		type = permanent
+	}
 }
-1052.7.1={
-	holder = 924
+1002.1.1 = {
+	clear_tribute_suzerain = d_munster
 }
-1070.7.1={
-	holder =83190 #Domnall son of Murchad of Leinster
+# Brian supplants Mael Sechnaill as High King. Circumstances so unsure that it is basically up to guesswork as how it went down. Meath and Connacht entered similar relationships as Leinster under Brian
+1002.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ireland_titular
+		type = permanent
+	}
 }
-1072.2.7={
-	holder = 906 #Toirrdelbach Ua Briain of Munster
+# Brian Boru dies at Clontarf
+1014.4.23 = {
+	clear_tribute_suzerain = k_ireland_titular
 }
-1086.7.14={
-	holder = 920 #Donnchad son of Domnall Remar
+1037.1.1 = {
+	holder = 1237000 #Echmarcach
+	liege = d_galloway
 }
-1089.7.1={
-	holder = 923 #ï¿½nna son of Diarmait
+1039.1.1 = {
+	holder = 1237008 #Imar mac Arailt
+	liege = d_western_isles
 }
-1092.7.1={
-	holder = 5788 #Gofraid Meranach king of Mann
+1047.1.1 = {
+	holder = 1237000 #Echmarcach
+	liege = d_galloway
 }
-1094.7.1={
-	holder = 83250 #Domnall Ua Briain son of High King Muirchertach 
+1052.7.1 = {
+	liege = d_leinster
+	holder = 924 # Murchad, son of Diarmait of Leinster
 }
-1118.7.1={
-	holder = 83192 #ï¿½nna son of Donnchad 
+1070.7.1 = {
+	holder = 922 # Diarmait mac Máel na mBó
 }
-1126.7.1={
-	holder = 83240 #Thorkil
+1072.2.7 = {
+	holder = 906 # Toirrdelbach Ua Briain of Munster
 }
-1141.7.1={
-	holder = 83247 #Ragnall son of Thorkil
+1086.7.14 = {
+	holder = 920 # Donnchad son of Domnall Remar
 }
-1146.7.1={
-	holder = 83247 #Ottar son of Ottar
+1089.7.1 = {
+	holder = 923 # Énna son of Diarmait
 }
-1148.7.1={
-	holder = 83242 #Brï¿½ï¿½ir son of Thorkil
+1092.7.1 = {
+	holder = 5788 # Gofraid Meranach king of Mann
 }
-1160.7.1={
-	holder = 83243 #Ascall son of Ragnall
+1094.7.1 = {
+	holder = 83250 # Domnall Ua Briain son of High King Muirchertach
 }
-1166.7.1={
-	liege="d_leinster"
+1118.7.1 = {
+	holder = 83192 # Énna son of Donnchad
 }
-1166.7.1={
-	holder = 83243 #Ascall son of Ragnall
+1126.7.1 = {
+	holder = 83240 # Thorkil
 }
-1170.7.1={
-	holder = 214550 #Diarmait of Leinster
+1141.7.1 = {
+	holder = 83241 # Ragnall son of Thorkil
 }
-1171.5.1={
-	holder = 214553 #wife of Richard de Clare
+1146.7.1 = {
+	holder = 83247 # Ottar son of Ottar
 }
-1185.1.1={
-	liege="d_meath" #Representing lordship of Ireland
+1148.7.1 = {
+	holder = 83242 # Bróðir son of Thorkil
 }
-1185.1.1={
-	holder = 204514 #John of England
+1160.7.1 = {
+	holder = 83243 # Ascall son of Ragnall
 }
-1216.10.28={
-	holder = 454522 #Henry III of England
+1170.7.1 = {
+	holder = 214550 # Diarmait of Leinster
 }
-1254.1.1={
-	holder = 454520 #Edward I of England
+1171.5.1 = {
+	holder = 214553 # wife of Richard de Clare
 }
-1307.1.2={
-	holder = 454510 #Edward II of England
+1172.1.1 = {
+	holder = 204500 # Henry II, Dublin made a Royal City
 }
-1327.2.1={
-	holder = 454500 #Edward III of England
+1185.1.1 = {
+	liege = d_meath # Representing lordship of Ireland
+	holder = 204514 # John of England
 }
-1336.12.01={
-	holder = 454122
+1216.10.28 = {
+	holder = 454522 # Henry III of England
+}
+1254.1.1 = {
+	holder = 454520 # Edward I of England
+}
+1307.1.2 = {
+	holder = 454510 # Edward II of England
+}
+1327.2.1 = {
+	holder = 454500 # Edward III of England
 }

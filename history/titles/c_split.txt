@@ -1,74 +1,72 @@
-536.7.1={
-	liege="d_croatia"
-}
-760.1.1={
-	holder = 145850
-	liege = d_ragusa
-}
-857.1.1={
-	holder = 145199
-}
-936.1.1 = {
-	holder = 261332
-}
-1066.1.1 = {
+# -*- ck2.history.titles -*-
+
+842.1.20 = {
 	liege = d_croatia
-	holder = 8622
+	holder = 167855
 }
-1075.1.1={
-	holder = 8628
+933.1.1 = {
+	liege = k_croatia
+	holder = 8607
 }
-1089.1.1={
-	holder = 8626
+949.1.1 = {
+	liege = d_croatia
+	holder = 1229238 # Pribina ban of Croatia 949-969
 }
-1090.1.1={
-	holder = 475
+969.1.1 = {
+	holder = 1229237 # Godimir ban of Croatia 969-995
 }
-1091.1.1={
-	holder = 474
+995.1.1 = {
+	holder = 1229236 # Gvarda ban of Croatia 995-1000
 }
-1093.1.1={
-	holder = 20381
+1000.1.1 = {
+	holder = 1229234 # Bozetjeh ban of Croatia 1000-1035
 }
-1097.1.1={
-	holder = 480
+1035.1.1 = {
+	holder = 1229232 # Stjepan Praska ban of Croatia 1035-1058
 }
-1100.1.1={
-	holder = 32593
+# Snacic
+1055.1.1 = {
+	holder = 1229202 # Marjan Slavac(IV), Knez of Sidraškog, Ban of Neretva(Omis/Imotska).
 }
-1102.1.1={
-	holder = 32594
+1080.1.1 = {
+	holder = 20381 # Petar Snacic, Knez of Knin, Cetina and Neretva?, Ban of Dalmatia 1089-1092, King of Croatia 1092-1097. (son of previous)
 }
-1164.1.1={
-	holder = 219999
+1097.1.1 = {
+	holder = 1229218 # Petar Snacic II(made up, son of previous)
 }
-1165.1.1={
-	holder = 219500
+1150.1.1 = {
+	holder = 1229216 # Saracena Snacic, Knez of Sidraškog(son of previous)
 }
-1172.3.4={
+1165.1.1 = {
+	liege = d_dalmatia
+	holder = 1232198
+}
+1179.1.1 = {
 	holder = 125709
 }
-
-# Subic dynasty
-1183.9.24={
-	holder = 32596
+1183.9.24 = {
+	liege = k_hungary
+	holder = 1229217 # Domald Snacic, # Knez of Sidraškog, Sibenik and Cetina. (son of previous).
 }
-1224.1.1={
-	holder = 32604
+# Too Nelipic(branch of former)
+1243.1.1 = {
+	holder = 1229219 # Nelipac Nelipici I, Knez of Cetina. (Son of previous( probably))
 }
-1235.1.1={
-	holder = 32608
+1270.1.1 = {
+	holder = 1229220 # Izan I, Knez of Cetina. Zupan of Drežnik breifly. (Son of previous)
 }
-1300.1.1={
-	holder = 32619
+1327.1.1 = {
+	holder = 1229221 # Nelipac Nelipici II, Knez of Cetina. Zupan of Drežnik breifly. Took control of Knin 1322-1344(During his revolt agianst Hungary). (Son of previous)
 }
-1304.1.1={
-	holder = 470002
+1344.1.1 = {
+	holder = 1229225 # Ivan II, Knez of Cetina, Vrbas(1360-1362) and Hum (1372-1379).  (Son of previous)
 }
-1327.1.1={
-	liege="k_venice"
+1379.1.1 = {
+	holder = 1229226 # Ivan Nelipici III Knez of Cetina, Omis(1416-1434) and Zadar?.  (Son of previous)
 }
-1330.1.1={
-	holder = 470004
+1434.1.1 = {
+	holder = 1229227 # Katarinu daughter of Ivan III, held Cetina 1434-1436.
 }
-
+1436.1.1 = {
+	holder = 0 # confiscated by the crown.
+}

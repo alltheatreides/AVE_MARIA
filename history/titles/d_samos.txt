@@ -1,86 +1,102 @@
-330.1.1={
-	liege = "e_byzantium"
-	# vice_royalty = yes
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = e_byzantium
+	vice_royalty = yes
 }
-750.1.1={
-	holder = 145830
-}
-792.1.1={
-	holder = 145831
-}
-847.1.1={
-	holder = 145194
+865.1.1 = {
+	holder = 1232128
 }
 936.1.1 = {
-	holder = 260813
+	holder = 145154 # Pantherios (Skleros), Strategos of Thrakesion
 }
-1060.1.1 = {
-	# holder = 42003
+950.1.1 = {
+	holder = 1500506 # Nikephoros Pastilas, Strategos of Thrakesion, died on Crete during the invasion of the island
 }
-1070.1.1=
-{
-holder = 20518
+977.1.1 = {
+	holder = 1500489
 }
-1081.1.1=
-{
-liege="k_rum"
-vice_royalty = no
-holder = 34262
+1006.1.1 = {
+	holder = 1500490
 }
-1092.1.1=
-{
-holder = 34264
+1018.1.1 = {
+	holder = 1501217
 }
-1095.1.1=
-{
-liege="e_byzantium"
-# vice_royalty = yes
-holder = 20518
+1025.1.1 = {
+	holder = 1500359
 }
-1108.1.1=
-{
-holder = 215509
+1030.1.1 = {
+	holder = 1232337
 }
-1166.1.16=
-{
-holder = 215526
+1038.1.1 = {
+	holder = 1232353
 }
-1180.1.2=
-{
-holder = 34276
+1040.1.1 = {
+	holder = 1232309
 }
-1199.1.1=
-{
-holder = 34277
+1046.1.1 = {
+	holder = 1232308
 }
-1202.1.1=
-{
-holder = 215000
+1057.1.1 = {
+	holder = 42003
 }
-1204.5.16 = {
-	liege = "e_nicaea"
+1078.3.31 = {
+	holder = 34262
+}
+1081.1.1 = {
+	liege = k_rum
 	vice_royalty = no
 }
-1261.1.1=
-{
-holder = 34283
+1092.1.1 = {
+	holder = 34264
 }
-1261.7.25={
-	liege = "e_byzantium"
-	# vice_royalty = yes
+1098.1.1 = {
+	liege = e_byzantium
+	holder = 1232216
+	vice_royalty = yes
 }
-1279.1.1=
-{
-holder = 34286
+1099.1.1 = {
+	holder = 1232217
 }
-1308.1.1=
-{
-liege="k_saruhan"
-vice_royalty = no
-holder = 71871
+1108.1.1 = {
+	holder = 1232218
 }
-1310.1.1=
-{
-holder = 71870
+1116.1.1 = {
+	holder = 215509
 }
-
+1166.1.16 = {
+	holder = 34411
+}
+1176.1.1 = {
+	holder = 125753
+}
+1182.1.1 = {
+	holder = 1232248
+}
+1186.1.1 = {
+	holder = 215517
+}
+1203.1.1 = {
+	holder = 215038
+}
+1204.5.16 = {
+	liege = k_nikaea
+	vice_royalty = no
+}
+1218.1.1 = {
+	holder = 215000
+}
+1261.1.1 = {
+	holder = 34283
+}
+1261.7.25 = {
+	liege = e_byzantium
+	vice_royalty = yes
+}
+1279.1.1 = {
+	holder = 34286
+}
+1308.1.1 = {
+	holder = 0
+	vice_royalty = no
+}

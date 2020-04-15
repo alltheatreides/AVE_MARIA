@@ -1,63 +1,61 @@
-760.1.1={
-	liege="d_moray"
+# -*- ck2.history.titles -*-
+
+760.1.1 = {
+	liege = d_moray
 	holder = 166617
 }
-858.1.1={
-	liege="d_moray"
-}
-858.1.1={
+858.1.1 = {
 	holder = 183521
 }
 936.1.1 = {
-	holder = 102507
-	liege = "d_orkney"
+	holder = 974
 }
-1005.7.1={
-	liege = d_moray
-	holder = 5998 #Findlï¿½ech mac Ruaidri
+977.1.1 = {
+	holder = 5999 # Ruaidri, listed as Mormaer of Moray by Medlands
 }
-1020.7.1={
-	holder = 83587 #Mï¿½el Coluim mac Maï¿½l Brigte
+998.1.1 = {
+	holder = 5998 # Findláech mac Ruaidri
 }
-1029.7.1={
-	holder = 6002 #Gille-Comgï¿½in mac Maï¿½l-Brigte
+1020.7.1 = {
+	holder = 83587 # Máel Coluim mac Maíl Brigte
 }
-1032.7.1={
-	holder = 5996 #Mac Bethad mac Findlaï¿½ch
+1029.7.1 = {
+	holder = 6002 # Gille-Comgáin mac Maíl-Brigte
 }
-1040.1.1={
-	holder = 6006 #Lulach mac Gille-Comgï¿½in
+1032.7.1 = {
+	holder = 5996 # Mac Bethad mac Findlaích
 }
-1058.1.2={
-	holder = 6008 #Mï¿½el-Snechtai mac Lulaigh
+1040.1.1 = {
+	holder = 6006 # Lulach mac Gille-Comgáin
 }
-1085.1.1={
-	holder = 6014 #Mï¿½el-Coluim mac ingine Lulaigh
+1058.1.2 = {
+	holder = 6008 # Máel-Snechtai mac Lulaigh
 }
-1116.7.1={
-	holder = 83588 #ï¿½ed of the Macheths
+1085.1.1 = {
+	holder = 6014 # Máel-Coluim mac ingine Lulaigh
 }
-1129.7.1={
-	liege="k_scotland"
+1116.7.1 = {
+	holder = 83588 # Áed of the Macheths
 }
-1129.7.1={
-	holder = 83589 #Mï¿½el-Coluim Macheth
+1129.7.1 = {
+	liege = k_scotland
+	holder = 83589 # Máel-Coluim Macheth
 }
-1168.10.23={
-	holder = 220038 #daughter of Mï¿½ï¿½l-Coluim Macheth, wife of Harald of Orkney
+1168.10.23 = {
+	holder = 220038 # daughter of Máél-Coluim Macheth, wife of Harald of Orkney
 }
-1215.7.1={
-	holder = 83593 #Ferchar mac in tSagairt
+1215.7.1 = {
+	holder = 83593 # Ferchar mac in tSagairt
 }
-1251.7.1={
+1251.7.1 = {
 	holder = 7297
 }
-1274.5.1={
+1274.5.1 = {
 	holder = 7298
 }
-1323.1.28={
+1323.1.28 = {
 	holder = 453052
 }
-1333.7.19={
+1333.7.19 = {
 	holder = 453003
 }

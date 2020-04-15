@@ -33,10 +33,10 @@
 	holder = 191623 #Karka Rashtrakuta, grant by Dantidurga
 }
 800.1.1={
-	holder = 74416#Govinda III, back to main branch
+	holder=74416#Govinda III, back to main branch
 }
 807.1.1={
-	holder = 74430 #Indra Rashtrakuta (Start of Lata branch)
+	holder=74430 #Indra Rashtrakuta (Start of Lata branch)
 }
 818.1.1={
 	holder = 74431
@@ -64,6 +64,7 @@
 }
 #Ruler Placeholder until something better#
 946.1.1={
+	liege = d_dadhipadra
 	holder = 188180
 }
 948.1.1={
@@ -141,12 +142,12 @@
 1316.4.1={
 	holder = 170248
 }
-1318.1.1={
-	holder = 170250
-}
-1318.6.1={
-	holder = 170248
-}
+#1318.1.1 = {
+#	holder = 170250 # Mahmud
+#}
+#1318.6.1 = {
+#	holder = 170248 # Mubarak
+#}
 1320.6.1={
 	holder = 170251
 }

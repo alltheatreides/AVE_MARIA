@@ -1,106 +1,123 @@
-762.1.1={
-	liege=d_benevento
+# -*- ck2.history.titles -*-
+
+762.1.1 = {
+	liege = d_benevento
+	holder = 190310 # Paldo
 }
-762.1.1={
-	holder = 190310 #Paldo
+807.1.1 = {
+	holder = 190311 # Stefano
 }
-807.1.1={
-	holder = 190311 #Stefano
-}
-857.1.1={
-	liege=d_apulia
+857.1.1 = {
+	liege = d_apulia
 	holder = 163094
 }
 936.1.1 = {
-	holder = 200308
+	holder = 260636 # Anastasios, Strategos of Langoubardia
 }
-1042.1.1={
-	liege=d_apulia
-	holder = 1122 #William I de Hauteville
+938.1.1 = {
+	holder = 1500515 # Basil Kladon, Strategos of Langoubardia from 938
 }
-1046.1.1={
-	holder = 1124 #Drogo I de Hauteville
+955.1.1 = {
+	holder = 145162 # Marianos Argyros
 }
-1051.8.10={
-	holder = 1126 #Humphrey I de Hauteville
+963.8.16 = {
+	holder = 1500499 # Nikephoros Hexakionites
 }
-1057.1.1={
-	holder = 1128 #Robert I de Hauteville
+970.1.1 = {
+	holder = 1500500 # Michael Abidelas
 }
-1085.7.17={
-	holder = 1142 #Roger I de Hauteville
+982.1.1 = {
+	holder = 1500501 # Kalokyros Delphinas
 }
-1111.2.11={
-	holder = 127083 #William II de Hauteville
+988.1.1 = {
+	holder = 1500477
 }
-1127.7.25={
-	holder = 211502 #Roger II de Hauteville
+998.1.1 = {
+	holder = 1232166
 }
-1134.1.1={
-	holder = 211507 #Roger III de Hauteville
+1006.1.1 = {
+	holder = 1500409
 }
-1148.5.12={
-	holder = 211501 #William III de Hauteville
+1008.1.1 = {
+	holder = 145177
 }
-1154.1.1={
-	holder = 127071 #Roger IV de Hauteville
+1010.1.1 = { # Melus conquers much of the interior
+	liege = 0
+	holder = 1167124	
 }
-1161.1.1={
-	holder = 211501
+1011.6.11 = { # Bari is retaken and Melus flees to Salerno
+	liege = d_apulia
+	holder = 1500374
 }
-1161.5.7={
-	liege=k_sicily
+1017.1.1 = { # Short-lived reconquest by Melus, thanks to Norman Mercenaries
+	liege = 0
+	holder = 1167124
 }
-1166.5.7={
-	holder = 211500 #William IV
+1018.8.1 = {
+	liege = d_apulia
+	holder = 1232334
 }
-1183.1.1={
-	holder = 127092 #Bohemond I de Hauteville
-	liege=d_apulia
+1029.1.1 = {
+	holder = 1232153
 }
-1187.1.1={
-	holder = 211509
+1033.1.1 = {
+	holder = 1232340
 }
-1189.1.1={
-	holder = 211511 #Roger V de Hauteville
+1039.1.1 = {
+	holder = 20504
 }
-1193.12.24={
-	holder = 211509
-	liege=k_sicily
+1041.1.1 = {
+	holder = 1232335
 }
-1194.2.20={
-	holder = 211512
+1042.1.1 = {
+	liege = d_norman_apulia
+	holder = 1122 # William I de Hauteville
 }
-1194.10.1={
-	holder = 212507
+1046.1.1 = {
+	holder = 1124 # Drogo I de Hauteville
 }
-1197.9.28={
-	holder = 212513
+1051.8.10 = {
+	holder = 1126 # Humphrey I de Hauteville
 }
-1220.1.1={
-	holder = 211514
+1057.1.1 = {
+	holder = 1128 # Robert I de Hauteville
 }
-1240.1.1 = {
-	holder = 73360
+1059.1.1 = {
+	liege = d_apulia
 }
-1250.12.13={
-	holder = 30760
+1085.7.17 = {
+	holder = 1142 # Roger I de Hauteville
 }
-1254.5.21={
-	holder = 30785
+1111.2.11 = {
+	holder = 127083 # William II de Hauteville
 }
-1258.1.1={
+1127.7.25 = {
+	holder = 211502 # Roger II de Hauteville
+}
+1134.1.1 = {
+	holder = 211507 # Roger III de Hauteville
+}
+1143.1.1 = {
+	holder = 1227487
+}
+1163.1.1 = {
+	holder = 1227479
+}
+1189.1.1 = {
+	holder = 1227481
+}
+1214.1.1 = {
+	holder = 70996
+}
+1234.1.1 = {
 	holder = 7636
 }
-1266.2.26={
-	holder = 455406
+1266.2.26 = {
+	holder = 1063610
 }
-1285.1.7={
-	holder = 461710
+1276.1.1 = {
+	holder = 1063611
 }
-1302.8.31={
-	liege=k_naples
-}
-1309.5.5={
-	holder = 461700
+1309.1.1 = {
+	holder = 1227489
 }

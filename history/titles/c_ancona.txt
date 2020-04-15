@@ -1,80 +1,116 @@
-741.1.1={
-	liege=d_spoleto
+# -*- ck2.history.titles -*-
+
+834.1.1 = {
+	liege = d_spoleto
+	holder = 71906
 }
-741.1.1={
-	holder = 190283 #Tachiperto
+836.12.30 = {
+	holder = 71905
 }
-760.1.1={
-	holder = 190284 #Lupo
+860.1.1 = {
+	holder = 71908
 }
-834.1.1=
-{
-liege="d_spoleto"
-holder = 71906
+871.1.1 = {
+	holder = 167882 # Suppone II Supponidi
 }
-836.12.30=
-{
-holder = 71905
+874.1.1 = {
+	holder = 71908 # Lamberto I Guideschi
 }
-860.1.1=
-{
-holder = 71908
+880.7.8 = {
+	holder = 71909 # Guido III Guideschi
+}
+883.1.1 = {
+	holder = 71903 # Guido II Guideschi
+}
+894.12.12 = {
+	holder = 71904 # Lamberto II Guideschi
+}
+898.10.15 = {
+	holder = 71911 # Guido IV Guideschi
+}
+899.1.1 = {
+	holder = 7918 # Alberico I di Spoleto
+}
+922.1.1 = {
+	holder = 7919
+}
+924.1.1 = {
+	holder = 167930
 }
 936.1.1 = {
-	holder = 260618
+	holder = 167930 # Anscar d'Ivrea, Duke of Spoleto 936-940
 }
-1066.1.1 = {
-	holder = 73492
-	liege="e_hre"
+943.1.1 = {
+	holder = 7924
 }
-1079.1.1={
-	holder = 73493
+946.1.1 = {
+	holder = 167981 # Bonifazio Hucbaldi, Duke of Spoleto 946-953
 }
-1095.1.1={
-	holder = 30657
-	liege=d_ancona
+953.12.1 = {
+	holder = 167982 # Teobaldo Hucbaldi, Duke of Spoleto 953-959
 }
-1119.1.1={
-	holder = 7656
+959.1.1 = {
+	holder = 1061733 # Transmundo of Chieti, Duke of Spoleto 959-967 and 982-989
 }
-1137.1.1={
-	holder = 73494
-	liege=k_papal_state
+967.1.1 = {
+	holder = 73327 # Pandulf Ironhead, Duke of Spoleto 967-981
 }
-1149.1.1={
-	holder = 73495
+981.3.1 = {
+	holder = 73326 # Landulf, Duke of Spoleto 981-982
+}
+982.7.13 = {
+	holder = 1061733 # Transmundo of Chieti, Duke of Spoleto 982-989
+}
+989.1.1 = {
+	holder = 7925 #Uc/Ugo of Tuscany, Duke of Spoleto and Tuscany
+}
+999.1.1 = {
+	liege = e_hre
+	holder = 167987
+}
+1000.1.1 = {
 	liege = d_ancona
+	holder = 1061502
 }
-1155.1.1={
-	holder = 73496
+1028.1.1 = {
+	holder = 1061503
 }
-1170.1.1={
-	holder = 73497
+1057.1.1 = {
+	holder = 1061517
 }
-1177.1.1={
-	holder = 213025
+1095.1.1 = {
+	holder = 1233600
 }
-1199.1.1={
-	holder = 73498
+1104.1.1 = {
+	holder = 1232344
 }
-1212.1.1={
-	holder = 73499
+1119.1.1 = {
+	holder = 1232345
 }
-1221.1.1={
-	holder = 73500
+1161.1.1 = {
+	holder = 1232346
 }
-1245.1.1={
-	holder = 73501
+1178.1.1 = {
+	holder = 1233602
 }
-1263.1.1={
-	holder = 73502
+1180.1.1 = {
+	holder = 1061533
 }
-1289.1.1={
-	holder = 73503
+1219.1.1 = {
+	holder = 1061510
 }
-1315.1.1={
-	holder = 73504
+1221.1.1 = {
+	holder = 1061511
 }
-1336.1.1={
-	holder = 463470
+1264.1.1 = {
+	holder = 1233606
+}
+1297.1.1 = {
+	holder = 1061525
+}
+1315.1.1 = {
+	holder = 1061542
+}
+1344.1.1 = {
+	holder = 0
 }

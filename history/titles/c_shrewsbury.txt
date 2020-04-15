@@ -1,136 +1,82 @@
-#Powys
-351.1.1={
-	liege = d_powys
-	holder = 159056 # Gwrtheyrn of Powys
+# -*- ck2.history.titles -*-
+
+835.1.1 = {
+	liege = d_hereford
+	holder = 1226332 # Coelwulf, old king of Mercia, led Saxon Mercia against Danish Mercia after the Great Heathen army from this region
 }
-430.1.1={
-	holder = 159057 # Cadeyrn Fendigaid
-}
-447.1.1={
-	holder = 159058 # Cadell Ddyrnllwg
-}
-460.1.1={
-	holder = 159060 # Rhyddfedd Frych
-}
-480.1.1={
-	holder = 159077 # Cyngen Glodrydd
-}
-500.1.1={
-	holder = 159089 # Pasgen ap Cyngen
-}
-530.1.1={
-	holder = 159090 # Morgan ap Pasgen
-}
-540.1.1={
-	holder = 159078 # Brochfael Ysgrithog
-}
-#Pengwern
-570.1.1={
-	holder = 252268 # Mawn ap Brochfael
-}
-584.1.1={
-	holder = 252269 # Iago ap Brochfael
-}
-612.1.1={
-	holder = 252277 # Morfael ap Glast
-}
-613.1.1={
-	holder = 252279 # Cyndrwyn Fawr
-}
-620.1.1={
-	holder = 252280 # Custennin
-}
-621.1.1={
-	holder = 252281 # Cynddylan ap Cyndrwyn
-}
-656.1.1={
-	holder = 252282 # Caranfael ap Cynddylan
-}
-#Powys
-656.6.1={
-	holder = 159082 # Beli ap Manwgan
-}
-695.1.1={
-	holder = 159083 # Gwylog ap Beli 
-}
-725.1.1={
-	holder = 159084 # Elisedd ap Gwylog
-}
-755.1.1={
-	holder = 159085 # Brochfael ap Elisedd
-}
-773.1.1={
-	holder = 159086 # Cadell ap Elisedd
-}
-808.1.1={
-	holder = 159087 # Cyngen ap Cadell
-}
-852.1.1={
-	de_jure_liege = d_hereford
-	liege = "d_hereford"
-}
-852.1.1={
-	holder = 163102
+870.1.1 = {
+	holder = 0
 }
 936.1.1 = {
-	holder = 260528
+	liege = k_england
+	holder = 260528 # Ælfstan, ealdorman of Mercia, son of Æthelfrith of Mercia
 }
-1066.1.1 = {
-	liege="d_lancaster"
+957.1.1 = {
+	liege = d_hereford
+	holder = 1226357 # Ælfhere ealdorman of Mercia 957-983
 }
-1066.1.1 = {
-	holder = 90027
+983.1.1 = {
+	holder = 1226360 # Ælfric Cild ealdorman of Mercia 983-985
 }
-1066.10.14={
-	liege="k_england"
+985.1.1 = {
+	holder = 161275 # Æthelric, father of Eadric Streona. The family is said to have been based in Shropshire. No recorded office held, but the family should be playable regardless
 }
-1066.10.14={
-	holder = 140 #William the Conqueror
+1004.10.22 = {
+	liege = k_england
 }
-1071.10.1={
-	holder = 152 #Roger de Montgomerie
+1007.1.1 = {
+	liege = d_hereford
+	holder = 161276 # Eadric Streona earldorman of Mercia 1007-1017
 }
-1094.1.1={
-	holder = 41032 #Hugh de Montgomerie
+1017.12.25 = {
+	holder = 1226316 # Leofwine earl of Hwicce until his death. Speculated to have been appointed to the Earldom of Mercia upon the murder of Eadric in 1017. Could account for the timelapse between Eadrics death and the first recorded mention of Leofric as Earl of Mercia
 }
-1098.1.1={
-	holder = 41004 #Robert de Montgomerie
+1023.1.1 = {
+	holder = 5640 # Leofric earl of Mercia 1023-1057
 }
-1102.1.1={
-	holder = 202992 #Henry I
-} 
-1135.12.2=
-{
-	holder = 161610 #Hugh Mortimer
+1057.10.30 = {
+	holder = 5642 # Ælfgar earl of Mercia 1057-1062
 }
-1180.2.1=
-{
-	holder = 161611 #Roger Mortimer
+1062.1.1 = {
+	holder = 5644 # Eadwin earl of Mercia 1062-1071
 }
-1214.7.8=
-{
-	holder = 161614 #Ralph Mortimer
+1071.1.1 = {
+	liege = k_england
+	holder = 140 # William the Conqueror
 }
-1246.8.6=
-{
-	holder = 161616 #Roger Mortimer
+1071.10.1 = {
+	holder = 152 # Roger de Montgomerie
 }
-1282.10.5=
-{
-	holder = 161629 #Edmund Mortimer
+1094.1.1 = {
+	holder = 41032 # Hugh de Montgomerie
 }
-1304.7.17=
-{
-	holder = 161640 #Roger Mortimer
+1098.1.1 = {
+	holder = 41004 # Robert de Montgomerie
 }
-1307.7.8={
-	holder = 454510 #Edward II of England
+1102.1.1 = {
+	holder = 202992 # Henry I
 }
-1330.11.29 =
-
-{
-	holder = 454500 #Edward III
+1135.12.1 = {
+	holder = 161610 # Hugh Mortimer
 }
-1336.12.01={
-	holder = 454560
+1180.2.1 = {
+	holder = 161611 # Roger Mortimer
+}
+1214.7.8 = {
+	holder = 161614 # Ralph Mortimer
+}
+1246.8.6 = {
+	holder = 161616 # Roger Mortimer
+}
+1282.10.5 = {
+	holder = 161629 # Edmund Mortimer
+}
+1304.7.17 = {
+	holder = 161640 # Roger Mortimer
+}
+1307.7.8 = {
+	holder = 454510 # Edward II of England
+}
+1327.9.21 = {
+	holder = 454500 # Edward III
 }

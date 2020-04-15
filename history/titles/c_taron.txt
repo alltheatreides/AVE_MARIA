@@ -1,93 +1,113 @@
-646.1.1={
-	liege="d_armenia"
+# -*- ck2.history.titles -*-
+
+826.1.1 = {
+	liege = d_taron
+	holder = 41530
 }
-646.1.1={
-	holder = 159570
+851.1.1 = {
+	holder = 41505
 }
-650.8.29={
-	holder = 159571
+857.1.1 = {
+	holder = 1232543
 }
-693.8.29={
-	holder = 159572
+878.1.1 = {
+	holder = 1232544
 }
-710.1.1={
-	holder = 159573
+895.1.1 = {
+	holder = 1232545
 }
-750.1.1={
-	holder = 145998
-} # Duke of Armenia and "Lord of Taron"
-761.1.1={
-	holder = 159574
+897.1.1 = {
+	holder = 1232546
 }
-780.1.1={
-	holder = 159575
+898.1.1 = {
+	holder = 41532
 }
-820.1.1={
-	holder = 159576
+923.1.1 = {
+	holder = 41533
 }
-850.1.1={
-	holder = 159577
-}
-936.1.1 = {
-	holder = 260988
+966.1.1 = {
 	liege = e_byzantium
+	holder = 1712
 }
-968.1.1={
-	liege="d_mesopotamia"
+969.12.10 = {
+	holder = 1714
 }
-1060.1.1=
-{
-	holder = 85001
+974.1.11 = {
+	holder = 1232572
 }
-1067.1.1=
-{
-	holder = 724
+1008.1.1 = {
+	holder = 1232573
 }
-1071.8.26=
-{
-	holder = 144065
+1018.1.1 = {
+	liege = d_mesopotamia
 }
-1091.1.1=
-{
-	holder = 144067
+1035.1.1 = {
+	liege = d_taron
 }
-1103.1.1=
-{
-	holder = 144070
+1045.1.1 = {
+	holder = 1232574
 }
-1144.1.1=
-{
-	holder = 144071
+1071.8.26 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = d_taron
+		type = permanent
+	}
 }
-1166.1.1=
-{
-	holder = 144072
+1072.3.3 = {
+	holder = 1232575
 }
-1183.1.1=
-{
-	liege="d_edessa"
+1107.1.1 = {
+	holder = 1232577
 }
-1183.1.1=
-{
-	holder = 226052
+1144.1.1 = {
+	holder = 1232579
 }
-1196.1.1=
-{
-	holder = 32918
+1165.1.1 = {
+	clear_tribute_suzerain = d_taron
+	liege = d_taron
+	holder = 93413
 }
-1216.10.8=
-{
-	holder = 32920
+1185.1.1 = {
+	holder = 1232634
 }
-1250.1.1=
-{
+1193.1.1 = {
+	holder = 1232635
+}
+1198.1.1 = {
+	holder = 1232636
+}
+1198.10.1 = {
+	holder = 1232637
+}
+1206.1.1 = {
+	holder = 1232638
+}
+1207.8.1 = {
+	liege = d_amida
+	holder = 34243
+}
+1232.1.1 = {
+	holder = 34247
+}
+1234.1.1 = {
+	holder = 32925
+}
+1239.1.1 = {
+	holder = 32927
+}
+1249.1.1 = {
 	holder = 93422
 }
-1283.1.1=
-{
+1283.1.1 = {
 	holder = 93423
 }
-1320.1.1=
-{
+1320.1.1 = {
 	holder = 93424
+}
+1331.1.1 = {
+	holder = 217219
+}
+1336.7.24 = {
+	holder = 217218
 }

@@ -1,0 +1,154 @@
+# -*- ck2.history.titles -*-
+
+#Commune founded
+1093.1.1 = {
+	law = succ_feudal_elective
+	liege = k_italy
+	holder = 1167022 # Gisalberto IV Gisalbertini, conte di Bergamo e Camisano
+}
+1106.1.1 = {
+	holder = 1064844  # Nantelmo I Gisalbertini
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1120.1.1 = {
+	holder = 1064857 # Manfredo I(III counting Maginfredo) Gisalbertini
+}
+1125.5.23 = {
+	liege = k_italy
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1145.1.1 = {
+	holder = 1064859 # Guglielmo III Gisalbertini, consul of Cremona 1151
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1155.1.1 = {
+	holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+}
+1166.1.1 = {
+	holder = 1167045 # Gilberto Gisalbertini consul of Cremona
+}
+1167.4.7 = {
+	liege = k_lombard_league
+	holder = 1064892 #Egidio da Dovara consul of Cremona 1169 and rector of the league
+}
+#14th of december 1168 a cremonese consul named "Albertonus" served the league's as cheif mediator of a dispute between Reggio commune,the city of Cavraigo, communes of Modena and Parma
+1172.8.26 = {
+	liege = k_italy # switches sides to imperial party
+	holder = 1167045 # Gilberto Gisalbertini consul of Cremona
+}
+1175.1.1 = {
+	liege = k_lombard_league
+	holder = 1064893 #Anselmo da Dovara consul of Cremona 1175
+}
+1176.12.1 = {
+	liege = k_italy # swear aligiance to the emperor again during 1176, Babarossa confirm his protection of the city in december 1176
+}
+1186.1.1 = {
+	holder = 1167044 # Gerardo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1188
+}
+1190.1.1 = {
+	holder = 1064861 # Alberico Gisalbertini, podesta of Cremona 1190
+}
+1194.1.1 = {
+	holder = 1064860 # Lantelmo Gisalbertini consul of Cremona and Crema 1151 and 1157, podesta of Cremona 1194
+}
+1196.1.1 = {
+	holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+}
+1197.9.28 = {
+	liege = e_hre
+}
+1198.1.1 = {
+	holder = 1064861 # Alberico Gisalbertini
+}
+1201.1.1 = {
+	holder = 1064996  # Lanfranco II Suardi, Podesta of Cremona 1201.
+}
+1205.1.1 = {
+	holder = 1064862 # Alberto IV Gisalbertini, conte di Camisano
+}
+1208.1.1 = {
+	holder = 1064896 # Issaco da Dovara consul of Cremona 1196 and 1209, podesta of Cremona 1217
+}
+1209.1.1 = {
+	liege = k_italy
+}
+1210.1.1 = {
+	holder = 1062009 # Matteo II da Correggio, podesta of Cremona 1210
+}
+1212.12.5 = {
+	liege = e_hre
+}
+1213.1.1 = {
+	holder = 1062128 # Orlando Rossi podesta of cremona 1213
+}
+1218.1.1 = {
+	holder = 1064436 # Gherardo IV da Cornazzano, podesta of Cremona 1218
+}
+1220.12.9 = {
+	liege = k_lombard_league
+	holder = 1064897 # Girardo da Dovara consul of Cremona(when?)
+}
+1223.1.1 = {
+	liege = k_italy
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1224.1.1 = {
+	holder = 1062140 # Orlando Rossi podesta of Cremona 1224
+}
+1225.1.1 = {
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1228.1.1 = {
+	holder = 1064480 # Egidio/Egidiolo da Panna, podesta cremona 1228-1229
+}
+1230.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Cremona 1230
+}
+1231.1.1 = {
+	holder = 1061797 # Cavalcabo/Carlo Cavalcabo I, marquis of Viadana, signore of Cremona 1223-1232
+}
+1232.1.1 = {
+	holder = 1061798 # Corrado Cavalcabo, marquis di Viadana and consul of Cremona
+}
+1237.1.1 = {
+	holder = 1062142 # Ugolino Rossi podesta of Cremona 1237 
+} 
+1237.11.28 = {
+	liege = 0
+	holder =0
+}
+#1064437 # Manfredo da Cornazzano, podesta of Cremona 1244
+1266.1.1 = {
+	holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+}
+1272.1.1 = {
+	holder = 1062029 # Matteo III da Correggio, podesta of Cremona 1272 
+}
+1273.1.1 = {
+	holder = 1061618 # Buoso da Dovara, signore of Cremona 1266-1276
+}
+1276.1.1 = {
+	holder = 1061615 # Cavalcabo/Carlo Cavalcabo II, marquis of Viadana, consul of Cremona 1278, signore of Cremona 1282-1306, 1303-1305 also signore of Parma
+}
+1306.1.1 = {
+	holder = 1061616 # Guglielmo Cavalcabo, signore di Cremona 1306-1310
+}
+1310.1.1 = {
+	holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+}
+1314.1.1 = {
+	holder = 1062032 # Giberto III da Corregio  capitano generale of Parma and Cremona 1314.
+}
+1315.1.1 = {
+	holder = 1061617 # Giacomo Cavalcabo, signore di Cremona 1310-1320
+}
+1320.1.1 = {
+	holder = 0
+}

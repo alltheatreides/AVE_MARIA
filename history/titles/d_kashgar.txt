@@ -1,30 +1,57 @@
-728.1.1 = {
-	holder = 166690 # Chinese recognition
+# -*- ck2.history.titles -*-
+
+1006.1.1 = {
+	de_jure_liege = k_turkestan_east
 }
-760.1.1 = {
-	holder = 166691
+1012.1.1 = { #?
+	liege = k_turkestan_east
+	holder = 3008
 }
-798.1.1 = {
-	liege = e_tibet # conquered by Tibet around this time
-	holder = 166693
+1032.1.2 = {
+	holder = 144102
 }
-846.1.1 = {
-	holder = 166694
+1057.1.1 = {
+	holder = 144103
+}
+1058.4.1 = {
+	holder = 144104
+}
+1062.1.1 = {
+	holder = 144105
+}
+1074.1.1 = {
+	holder = 144106
+}
+1075.1.1 = {
+	holder = 144107
+}
+1076.1.1 = {
+	holder = 1230283
+}
+1102.1.1 = {
+	holder = 144114
+}
+1128.1.1 = {
+	holder = 144115 # lives up to 1156
+}
+1156.1.1 = {
+	holder = 188855
+}
+1188.1.1 = {
+	holder = 188856
+}
+1205.1.1 = { #actually held as hostage in the Kara Khitai court up til 1211
+	holder = 188857
+}
+1210.1.1 = {
 	liege = 0
 }
-1260.1.1 = {
-	liege=k_mongolia
-	holder = 217305
+1211.1.1 = {
+	liege = e_khitan
+	holder = 188914
 }
-1264.8.21 = {
-	holder = 248231 # Dughlats
-}
-1277.1.1 = {
-	holder = 217306 # this way Kaidus daughter can be played
-}
-1306.7.15 = {
-	holder = 248233 # Dughlats take over again
-}
-1320.1.1 = {
-	holder = 248234
+# Mongol conquest
+1218.1.1 = {
+	liege = 0
+	holder = 0
 }

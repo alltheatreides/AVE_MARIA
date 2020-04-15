@@ -1,88 +1,80 @@
-764.1.1 = {
-	holder = 280020
+# -*- ck2.history.titles -*-
+
+840.1.1 = {
+	liege = d_more
+	holder = 1228009 # Nøkkve king of Raumdal
 }
-867.1.1={
-	holder = 280021
+877.1.1 = {
+	liege = d_ostlandet
+	holder = 0 # goes to the Mørejarls after the first battle of Solskjell
 }
-892.1.1 = {
-	holder = 186007
+936.1.1 = {
+	liege = k_norway
+	holder = 1290123 # Arnvid, placeholder
+}
+962.1.1 = {
+	holder = 1290122 # Arnmod Jarl
+}
+970.1.1 = {
+	liege = d_trondelag
+}
+986.1.1 = {
+	holder = 102548 # Arne of the Arnungas (Eagle Younglings), father of Thorberg Giske
+}
+995.1.1 = {
 	liege = k_norway
 }
-1047.1.1={
-	holder = 102531 # Harald Hardrï¿½de
+1000.1.1 = {
+	liege = d_more
 }
-1066.9.26={
-	holder = 102532 # Magnus Haraldson
+1015.1.1 = {
+	liege = k_norway
 }
-1069.4.28={
-	holder = 102534 # Olof Haraldson
+1024.1.2 = {
+	holder = 102550 # Thorberg Giske
 }
-1093.1.1={
-	holder = 102577 # Hï¿½kon Magnuson
+1028.1.22 = {
+	holder = 1228066 # Öysteinn Giske
 }
-1094.6.6={
-	holder = 202511 # Magnus Barfot
+1066.9.26 = {
+	holder = 102553 # Skofte Giske
 }
-1103.1.25={
-	holder = 222598 # Olaf Magnusson
+1095.1.1 = {
+	holder = 1290132 # Jon Smørbalte # placeholder in Romsdal (The Giske and Blindheim family can't both own Sunnmøre)
 }
-1115.12.22={
-	holder = 222597 # ï¿½ystein Magnusson
+1124.1.1 = {
+	holder = 1290129 # Hallkjell Huk # placeholder in Romsdal (The Giske and Blindheim family can't both own Sunnmøre)
 }
-1123.8.29={
-	holder = 222595 # Sigurd Magnusson
+1158.1.1 = {
+	holder = 1290131 # Simon Skalp # placeholder in Romsdal (The Giske and Blindheim family can't both own Sunnmøre)
 }
-1130.3.26={
-	holder = 222599 # Magnus Sigurdsson - The Blind
+1161.2.4 = {
+	holder = 1290130 # Jon Hallkjellson # placeholder in Romsdal (The Giske and Blindheim family can't both own Sunnmøre)
 }
-1135.1.7={
-	holder = 202510 # Harald Gille
+1178.1.1 = {
+	holder = 1290134 # Ragnvaldr Jonsson # placeholder in Romsdal (The Giske and Blindheim family can't both own Sunnmøre)
 }
-1136.12.14={
-	holder = 202501 # Sigurd Munn, son of Harald Gille, actually co-regent with 202514 and 202512
+1184.6.15 = {
+	holder = 1228068 # Nikolas Pålsson Kuvung of Giske
 }
-1155.6.10={
-	holder = 202514 # ï¿½ystein, son of Harald Gille
+1217.1.1 = {
+	holder = 1290057 # Pål Nikolasson Flida of Giske
 }
-1157.8.21={
-	holder = 202512 # Inge Krokrygg, son of Harald Gille
+1223.1.1 = {
+	holder = 1290058 # Peter Pålsson of Giske
 }
-1161.1.5={
-	holder = 202507 # Hï¿½kon Herdebrei, son of Sigurd Munn
+1254.1.1 = {
+	holder = 1290059 # Nikolas Petersson of Giske
 }
-1162.7.7={
-	holder = 202051 # Magnus Erlingsson
+1264.8.1 = {
+	holder = 1290056 # Bjarne Erlingsson
 }
-1184.6.15={
-	holder = 202500 # Sverre Sigurdsson
+1313.7.7 = {
+	holder = 452510 # Håkon Magnusson
 }
-1202.3.9={
-	holder = 202502 # Hï¿½kon Sverreson
+1319.5.8 = {
+	holder = 450500 # Magnus Eriksson (Bjälbo)
 }
-1204.1.1={
-	holder = 202508 # Guttorm Sigurdsson
-}
-1204.8.11={
-	holder = 202032 # Inge Bï¿½rdsson
-}
-1217.4.23={
-	holder = 202034
-}
-1240.5.24={
-holder = 202035
-}
-1270.1.1={
-holder = 6905
-}
-1280.5.9={
-holder = 6906
-}
-1299.7.15={
-holder = 452510 # Hï¿½kon Magnusson
-}
-1319.5.8={
-	holder = 450500 # Magnus Eriksson (Bjï¿½lbo)
-}
-1337.1.1={
+1337.1.1 = {
 	holder = 450790
 }

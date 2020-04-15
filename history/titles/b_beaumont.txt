@@ -1,37 +1,42 @@
+# -*- ck2.history.titles -*-
+
 # Beaumont Castle in Maine
-741.1.1={
-	liege="c_maine"
-	holder = 91505 #Hervï¿½, son of Rothgar, historical placeholder
+741.1.1 = {
+	holder = 91505 # Hervé, son of Rothgar, historical placeholder
 }
 810.1.1 = {
 	holder = 0
 }
-#Rollonids
-911.1.1={
-	holder = 242 #Rollon
+# Rollonids
+911.1.1 = {
+	holder = 242 # Rollon
 }
-932.1.1={
-	holder = 244 #Guillaume I Longue ï¿½pï¿½e
+932.1.1 = {
+	holder = 244 # Guillaume I Longue Épée
 }
-942.12.17={
-	holder = 246 #Richard I
+936.1.1 = {
+	holder = 260555 # Bernard the Dane
 }
-996.11.20={
-	holder = 248 #Richard II
+951.1.1 = {
+	holder = 260556 # Torf le Riche
 }
-1026.8.28={
-	holder = 250 #Richard III
+973.1.1 = {
+	holder = 246 # Richard I
 }
-1027.2.3={
-	holder = 252 #Robert le Magnifique
+996.11.20 = {
+	holder = 248 # Richard II
 }
-1035.7.3={
-	holder = 140 #Guillaume II le Conquï¿½rant
+1026.8.28 = {
+	holder = 250 # Richard III
 }
-
-1063.1.1={
-	liege="d_normandy"
-	holder = 142 #Robert I Courteheuse
-	law=succ_primogeniture
-	law=cognatic_succession
+1027.2.3 = {
+	holder = 252 # Robert le Magnifique
+}
+1035.7.3 = {
+	liege = d_normandy
+	holder = 140 # Guillaume II le Conquérant
+}
+1087.9.9 = {
+	liege = c_maine
+	holder = 0
 }

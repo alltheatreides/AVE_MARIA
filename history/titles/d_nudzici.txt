@@ -1,0 +1,16 @@
+# -*- ck2.history.titles -*-
+
+932.1.1 = {
+	set_tribute_suzerain = {
+		who = d_saxon_ostmark
+		percentage = 0.4
+	}
+	holder = 1227094
+}
+952.1.1 = {
+	holder = 1227095
+}
+961.7.29 = {
+	clear_tribute_suzerain = d_saxon_ostmark
+	holder = 0
+}

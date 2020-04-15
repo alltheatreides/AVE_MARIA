@@ -1,115 +1,140 @@
-750.1.1={
-	liege=d_jibal
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 188725
+768.1.1 = {
+	holder = 180750 # Justan I
 }
-
-867.1.1={
-	liege="d_mazandaran"
-	holder = 248694
+805.1.1 = {
+	holder = 180751 # Marzoban Justanid
 }
-936.1.11={
-	holder = 1059706
+835.1.1 = {
+	holder = 180752 # Justan II
 }
-960.1.11={
-	holder = 1059707
+856.1.1 = {
+	holder = 41605 # Wahsudan Justanid
 }
-1000.1.11={
-	holder = 1059708
+865.1.1 = {
+	liege = d_tabarestan
+	holder = 180755 # Justan III
 }
-1020.1.11={
-	holder = 1059709
+900.1.1 = {
+	liege = 0
 }
-1050.1.11={
-	holder = 1059710
+916.1.1 = {
+	holder = 180758 # Khosrow Firuz Justanid
 }
-1066.1.1=
-{
-	liege="d_kermanshah"
+920.1.1 = {
+	holder = 180759 # Mahdi Justanid
 }
-1066.1.1=
-{
-	holder = 93197
+#928-931 Asfar ibn Shiruya
+931.1.1 = {
+	holder = 180760 # Justan IV
 }
-1102.1.1=
-{
-	holder = 20691
+940.1.1 = {
+	holder = 180761 # Manadhar Justanid
 }
-1107.1.1=
-{
-	holder = 144057
+970.1.1 = {
+	holder = 180762 # Khosrow Justanid
 }
-1116.1.1=
-{
-	holder = 93198
+975.1.1 = {
+	liege = k_mesopotamia #marriage with and support for Azod al-Dawla
 }
-1148.1.1=
-{
-	holder = 93209
+983.3.3 = {
+	liege = d_rayy
 }
-1174.1.1=
-{
-	holder = 93211
+997.1.1 = {
+	#liege = 0
+	holder = 1231086
 }
-1184.1.1=
-{
-	holder = 93212
+1029.1.1 = { #Ibrahim b. Marzuban repels Ghaznavid invasion
+	liege = 0
 }
-1224.1.1=
-{
-	holder = 93213
+# /vanilla->SWMH
+1030.1.1 = {
+	liege = d_rayy
+	holder = 1230328
 }
-1225.1.1=
-{
-	holder = 93214
+1037.1.1 = {
+	liege = 0
 }
-1227.1.1=
-{
-	holder = 93215
+1043.1.1 = {
+	liege = k_khorasan
 }
-1242.1.1=
-{
-	holder = 93217
+1055.12.18 = {
+	liege = e_persia
 }
-1243.1.1=
-{
-	holder = 93218
+1060.4.4 = {
+	holder = 1230327
 }
-1259.1.1=
-{
-	holder = 93219
+1090.1.1 = { #was 1092.4.4
+	liege = d_hashshashin
+	holder = 144225
 }
-1262.1.1=
-{
-	holder = 93220
+1124.6.12 = {
+	holder = 144226
 }
-1278.1.1=
-{
-	holder = 93221
+1138.1.1 = {
+	holder = 144227
 }
-1293.1.1=
-{
-	holder = 93222
+1162.1.1 = {
+	holder = 1231089
 }
-1294.1.1=
-{
-	holder = 93223
+1166.1.1 = {
+	holder = 144228
 }
-1295.1.1=
-{
-	holder = 93224
+1210.1.1 = {
+	holder = 144229
 }
-1296.1.1=
-{
-	holder = 93225
+1221.1.1 = {
+	holder = 144230
 }
-1316.1.1=
-{
-	holder = 93226
+1255.1.1 = {
+	holder = 144231
 }
-1316.7.1=
-{
-	holder = 93227
+1256.1.1 = {
+	liege = d_azerbaijan
+	holder = 93254
+}
+1259.1.1 = {
+	holder = 478011
+}
+1259.8.11 = {
+	liege = e_il-khanate
+}
+1265.2.8 = {
+	holder = 478010
+}
+1282.1.1 = {
+	holder = 125523
+}
+1284.1.1 = {
+	holder = 478008
+}
+1291.1.1 = {
+	holder = 125525
+}
+1295.1.1 = {
+	holder = 125522
+}
+1295.10.4 = {
+	holder = 125524
+}
+1304.5.11 = {
+	holder = 478007
+}
+1316.12.16 = {
+	holder = 478006
+}
+1335.12.1 = {
+	liege = e_il-khanate
+	holder = 125528
+}
+1336.4.10 = {
+	holder = 478000
+}
+1336.7.24 = {
+	holder = 478030
+}
+1337.1.1 = {
+	liege = k_daylam
+	holder = 93193
 }

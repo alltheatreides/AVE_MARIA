@@ -1,0 +1,22 @@
+# -*- ck2.history.titles -*-
+
+840.1.1 = {
+	de_jure_liege = k_lotharingia
+}
+959.1.1 = {
+	de_jure_liege = k_upper_lorraine
+}
+1066.1.1 = {
+	liege = e_hre
+	#law = cognatic_succession
+	#law = succ_primogeniture
+}
+#1190.9.24 = {
+#	de_jure_liege = k_lotharingia
+#}
+1354.3.13 = {
+	holder = 462605 # Wenceslaus
+}
+1383.12.7 = {
+	holder = 462606 # Wenceslas
+}

@@ -1,134 +1,199 @@
-765.1.1={
-	liege=d_mosul
-	holder = 188643 # Khalid Barmakid
+# -*- ck2.history.titles -*-
+
+# Bagdad
+750.1.1 = {
+	liege = d_sunni
+	holder = 34001
 }
-#Bagdad
+754.1.1 = {
+	holder = 34002
+}
+775.1.1 = {
+	holder = 34003
+}
+785.1.1 = {
+	holder = 34004
+}
+786.1.1 = {
+	holder = 34005
+}
+809.1.1 = {
+	holder = 34006
+}
+813.1.1 = {
+	holder = 34007
+}
+833.8.9 = {
+	holder = 34008
+}
+842.1.5 = {
+	holder = 34009
+}
+847.1.1 = {
+	holder = 34010
+}
+861.12.1 = {
+	holder = 34012
+}
+862.6.7 = {
+	holder = 34013
+}
 866.1.1 = {
 	holder = 34014
-	liege="d_baghdad"
 }
-869.1.1=
-{
-holder = 34015
+869.1.1 = {
+	holder = 34015
 }
-870.6.1=
-{
-holder = 34016
+870.6.1 = {
+	holder = 34016
 }
-892.10.1=
-{
-holder = 34018
+892.10.1 = {
+	holder = 34018
 }
-902.1.1=
-{
-holder = 34019
+902.1.1 = {
+	holder = 34019
 }
-908.1.1=
-{
-holder = 34021
+908.1.1 = {
+	holder = 34021
 }
-932.1.1=
-{
-holder = 34020
+932.1.1 = {
+	holder = 34020
 }
-934.1.1=
-{
-holder = 34022
+934.1.1 = {
+	holder = 34022
 }
 936.1.1 = {
-	holder = 261009
+	liege = e_arabia
+	holder = 260838 # Abu'l-Fath al-Fadl al-Furat
 }
-940.1.1 = {
-	holder = 34023
+939.1.1 = {
+	liege = d_sunni
+	holder = 261008
 }
-944.1.1=
-{
-holder = 34024
+945.1.1 = {
+	liege = d_baghdad
+	holder = 1231064
 }
-946.1.1=
-{
-holder = 34025
+967.4.8 = {
+	holder = 1231067
 }
-974.1.1=
-{
-holder = 3080
+978.1.1 = {
+	holder = 1231065
 }
-991.1.1=
-{
-holder = 3082
+983.3.3 = {
+	holder = 1231070
 }
-1031.1.1=
-{
-holder = 3084
+987.1.1 = {
+	holder = 1231071
 }
-
-1075.1.1=
-{
-holder = 3086
+989.6.9 = {
+	holder = 1231072
 }
-1094.1.1=
-{
-holder = 3088
+1012.12.22 = {
+	holder = 1231074
 }
-1118.1.1=
-{
-holder = 144060
+1021.1.1 = {
+	holder = 1231076
 }
-1135.1.1=
-{
-holder = 144061
+1025.5.5 = {
+	holder = 1231074
 }
-1136.1.1=
-{
-holder = 144062
+1044.3.3 = {
+	holder = 1231078
 }
-1160.1.1=
-{
-holder = 144063
+1048.10.10 = {
+	holder = 1231079
 }
-1170.1.1=
-{
-holder = 144064
+1054.1.1 = {
+	liege = d_samarra
+	holder = 1229942
 }
-1180.1.1=
-{
-holder = 227000
+1060.1.1 = {
+	liege = d_diyareast
+	holder = 3820
 }
-1225.1.1=
-{
-holder = 34027
+1061.1.1 = {
+	holder = 3822
 }
-1226.1.1=
-{
-holder = 34028
+1085.1.1 = {
+	holder = 144016
 }
-1242.1.1=
-{
-holder = 34029
+#June-July 1086: Kamal al-Mulk al-Dihistani takes over Anbar from the Uqyalids
+1093.1.1 = {
+	holder = 144017
 }
-1258.2.20={
-	holder = 93328
-	liege="d_basra"
+1096.1.1 = {
+	liege = d_samarra
+	holder = 1600066 # Ay-Tegin Jub
 }
-1259.8.11={
-	holder = 93329
-	liege="d_baghdad"
+1100.1.1 = {
+	holder = 144066
 }
-1283.1.1={
-	holder = 248137
+1102.12.27 = {
+	holder = 1600067 # Gumushtegin al-Qaysari, appointed shihna by Berkyaruq
 }
-1291.1.1={
-	holder = 125525
+1104.1.1 = {
+	holder = 93408
 }
-1295.8.2=
-{
+1108.1.1 = {
+	holder = 93323
+}
+1118.4.18 = {
+	holder = 93408
+}
+1124.1.1 = {
+	holder = 1600056
+}
+1126.5.1 = {
+	holder = 144029
+}
+1127.10.1= {
+	holder = 93323
+}
+1134.1.1 = {
+	holder = 93325
+}
+1137.1.1 = {
+	holder = 93323
+}
+1138.1.1 = { #Caliph al-Muqtafi kicks out Seljuk shina of Baghdad
+	liege = d_sunni
+	holder = 144062
+}
+1160.1.1 = {
+	holder = 144063
+}
+1170.1.1 = {
+	holder = 144064
+}
+1180.1.1 = {
+	holder = 227000
+}
+1225.1.1 = {
+	holder = 34027
+}
+1226.1.1 = {
+	holder = 34028
+}
+1242.1.1 = {
+	holder = 34029
+}
+1258.2.20 = {
+	liege = d_baghdad
+	holder = 217307
+}
+1265.1.1 = {
+	holder = 217308
+}
+1284.1.1 = {
+	holder = 125522
+}
+1295.10.4 = {
 	holder = 93330
 }
-1317.1.1=
-{
+1317.1.1 = {
 	holder = 93307
 }
-1330.1.1=
-{
+1330.1.1 = {
 	holder = 478040
 }

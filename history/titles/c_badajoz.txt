@@ -1,112 +1,85 @@
-769.1.1 = {
-	holder = 200216 # Yahya Fezzi
-	liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+867.1.1 = {
+	liege = k_andalusia
+	holder = 73952
 }
-800.1.1={
-	holder = 73681 # al-Hakam I Umayyad
+870.1.1 = {
+	holder = 73957
 }
-822.5.21={
-	holder = 73682 # Abd al-Rahman II Umayyad
+912.1.1 = {
+	holder = 73959
 }
-843.1.1={
-	holder = 73956 # Marwan Marwanid
-	liege=d_badajoz
+932.1.1 = {
+	liege = d_badajoz
+	holder = 1235124 # Abd-al-Malik b. Al-Asi, Cousin of the Emir and Governor of Merida
 }
-867.1.1={
-	holder = 73957 # Abd al-Rahman Marwanid
-}
-912.1.1={
-	holder = 73959 # Zaid Marwanid
-}
-928.1.1={
-	holder = 3200 # Abd al-Rahman III Umayyad
-	liege=k_andalusia
-}
-961.10.15={
+961.10.15 = {
+	liege = k_andalusia
 	holder = 3202 # al-Hakam II Umayyad
 }
-976.10.16={
+976.10.16 = {
 	holder = 3204 # Hisham II Umayyad
 }
-1009.2.15={
-	holder = 73671 # Muhammad II Umayyad
+986.1.1 = {
+	liege = d_badajoz
+	holder = 1235022 # Sabur # Apparently Governor of the Lower March before becoming independent. Was one of the younger Siqlabis that rose to fill the vacuum left by Almanzor's purge of the older Siqlabis
 }
-1009.11.1={
-	holder = 73675 # Suleyman Umayyad
+1022.4.8 = {
+	holder = 45007
 }
-1010.5.10={
-	holder = 73671 # Muhammad II Umayyad
+1045.1.1 = {
+	holder = 3900
 }
-1010.7.23={
-	holder = 3204 # Hisham II Umayyad
+1067.1.1 = {
+	holder = 3901
 }
-1013.4.19={
-	holder = 73675 # Suleyman Umayyad
+1072.1.1 = { # approximated date from Encyclopaedia of Islam, 3rd ed.
+	holder = 3902
 }
-1016.7.1={
-	holder = 73687 # Ali Hammudid
+1094.1.1 = {
+	holder = 73205
 }
-1018.3.22={
-	holder = 73678 # Abd al-Rahman IV Umayyad
+1116.1.1 = {
+	holder = 73207
 }
-1018.6.1={
-	holder = 73689 # al-Qasim Hammudid
+1142.1.1 = {
+	holder = 73208
 }
-1021.1.1={
-	holder = 73690 # Yahya Hammudid
+1145.1.1 = { #Sidray b. Wazir conquers Badajoz
+	liege = d_beja
+	holder = 73203
 }
-1022.1.1={
-	holder = 45007 # Abdallah Aftasid
-	liege=d_badajoz
+1145.5.1 = {
+	liege = 0 # Sidray b. Wazir secedes from Ibn Qasi's movement
 }
-1045.1.1={
-	holder = 3900 # Abu Bakr Aftasid
+1147.9.1 = {
+	liege = k_maghreb
+	holder = 1235529 # 'Amir b. Muhib by 1149
 }
-1067.1.1={
-	holder = 3901 # Yahya Aftasid
+1155.1.1 = { #?
+	liege = d_badajoz
+	holder = 224022
 }
-1079.1.1={
-	holder = 3902 # Muhammad Aftasid
+1169.1.1 = {
+	holder = 224010
 }
-1094.1.1={
-	holder = 73205 # Yusuf Yusufid
-	liege=k_mauretania
+1188.1.1 = {
+	holder = 73613
 }
-1116.1.1={
-	holder = 73207 # Isma'il Ismailid
+1205.1.1 = {
+	holder = 73614
 }
-1142.1.1={
-	holder = 73203 # Siddray Wazirid
-	liege=d_beja
+1230.3.19 = {
+	#liege = d_badajoz
+	holder = 457650
 }
-1146.1.1={
-	holder = 224008 # Muhammad Hayyid
-	liege=d_badajoz
+1230.9.24 = {
+	holder = 457620
 }
-1150.1.1={
-	holder = 224022 # Muhammad Ishaqid
-	liege=k_mauretania
+1252.5.30 = {
+	holder = 457540
 }
-1169.1.1={
-	holder = 224010 # Abd al-Aziz Mansurid
-}
-1188.1.1={
-	holder = 73613 # Abd al-Rahman Sebtaid
-}
-1205.1.1={
-	holder = 73614 # Rashid Sebtaid
-}
-1230.3.19={
-	holder = 457650 # Alfonso IX de Borgo�a
-	liege=k_leon
-}
-1230.9.24={
-	holder = 457620 # Fernando II de Borgo�a
-}
-1252.5.30={
-	holder = 457540 # Alfonso X de Borgo�a
-}
-1284.4.4={
-	holder = 457630 # Juan Manuel de Villena
-	liege=d_murcia
+1284.4.4 = {
+	holder = 457630
 }

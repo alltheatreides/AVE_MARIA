@@ -1,138 +1,127 @@
-685.1.1={
-	liege="k_hungary"
+# -*- ck2.history.titles -*-
+
+685.1.1 = {
+	liege = k_hungary
 	holder = 146143
 }
-725.1.1={
+725.1.1 = {
 	holder = 146144
 }
-736.1.1={
+736.1.1 = {
 	holder = 146145
 }
-750.1.1={
+750.1.1 = {
 	holder = 146146
 }
-762.1.1={
+762.1.1 = {
 	holder = 146147
 }
-771.1.1={
+771.1.1 = {
 	holder = 146148
 }
-795.1.1={
+795.1.1 = {
 	holder = 146150
 }
-800.1.1={
+800.1.1 = {
 	holder = 146151
 }
-804.1.1={
-	liege="k_bulgaria"
+804.1.1 = {
+	liege = k_bulgaria
 }
-812.1.1={
+812.1.1 = {
 	holder = 146152
 }
-852.1.1={
+852.1.1 = {
 	holder = 168069
 }
-895.1.1={
-	liege="k_magyar"
+895.1.1 = {
+	liege = k_magyar
+	holder = 159141 # Teteny, tribal chief in Magyar Confederation
 }
-936.1.1 = {
+907.7.4 = {
 	liege = k_hungary
-	holder = 260660
 }
-940.1.1=
-{
-holder = 70370
+915.1.1 = {
+	holder = 70370 # Bogat the Horka, son of Teteny and father of Zombor (mistakenly believed to have a brother Gyula)
 }
-958.1.1=
-{
-holder = 70371
+#The Gyulas of Transylvania seems to have been a part of the Magyar confederation before Lechfeld, made them a tributary
+935.1.1 = {
+	set_tribute_suzerain = {
+		who = k_hungary
+		type = permanent
+	}
+	liege = 0
+	holder = 70372 # Zombor, the Gyula of Transylvania
 }
-986.1.1=
-{
-holder = 70373
+955.8.15 = {
+	clear_tribute_suzerain = k_hungary
 }
-1000.12.25={
-	liege="k_hungary"
+976.1.1 = {
+	holder = 70373 # Prokuj Gyula, the Gyula of Transylvania
 }
-1003.1.1=
-{
-holder = 482
+1003.1.1 = {
+	liege = k_hungary
+	holder = 482
 }
-1038.8.15=
-{
-holder = 20371
+1038.8.15 = {
+	holder = 497
 }
-1046.1.1=
-{
-holder = 485
+1040.1.1 = {
+	holder = 20365
 }
-1047.1.1=
-{
-holder = 470
+1063.12.1 = {
+	holder = 474
 }
-1063.12.1=
-{
-holder = 474
+1095.7.29 = {
+	holder = 480
 }
-1066.1.1=
-{
-liege="k_hungary"
-#law = agnatic_succession
-#law = succ_seniority
+1116.2.3 = {
+	holder = 231065
 }
-1095.7.29={
-holder = 480
+1131.4.2 = {
+	holder = 219530
 }
-1116.2.3={
-holder = 231065
+1141.2.13 = {
+	holder = 219510
 }
-1131.4.2={
-holder = 219530
+1162.5.31 = {
+	holder = 219511
 }
-1141.2.13={
-holder = 219510
+1162.7.15 = {
+	holder = 98000
 }
-1162.5.31={
-holder = 219511
+1163.1.14 = {
+	holder = 98001
 }
-1162.7.15={
-holder = 98000
+1163.6.19 = {
+	holder = 219511
 }
-1163.1.14={
-holder = 98001
+1172.3.4 = {
+	holder = 219500
 }
-1163.6.19={
-holder = 219511
+1196.4.23 = {
+	holder = 93751
 }
-1172.3.4={
-holder = 219500
+1226.1.1 = {
+	holder = 93753
 }
-1196.4.23=
-{
-holder = 93751
+1233.1.1 = {
+	holder = 93752
 }
-1226.1.1=
-{
-holder = 93753
+1241.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = nomadic
+	}
 }
-1233.1.1=
-{
-holder = 93752
+1276.1.1 = {
+	holder = 93754
 }
-1241.1.1=
-{
-liege="e_golden_horde"
+1288.1.1 = {
+	clear_tribute_suzerain = e_golden_horde
 }
-1276.1.1=
-{
-holder = 93754
-}
-1288.1.1=
-{
-liege=0
-}
-1315.1.1=
-{
-liege="k_hungary"
-holder = 470040
+1315.1.1 = {
+	liege = k_hungary
+	holder = 470040
 }

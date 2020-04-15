@@ -1,103 +1,172 @@
-750.1.1={
-	liege=d_jibal
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 188729
+# Dulafids or Ejlids
+840.10.10 = {
+	liege = d_jebal
+	holder = 163098
 }
-
-862.1.1={
-	liege="d_khorasan"
-	holder = 163162
+864.1.1 = {
+	liege = d_ahwaz
+	holder = 1234931
+}
+867.10.29 = {
+	liege = d_jebal
+	holder = 163098
+}
+870.10.10 = {
+	holder = 163152
+}
+894.10.10 = {
+	holder = 1230543
+}
+896.10.10 = {
+	holder = 1230541
+}
+#912.1.1 = {
+#	holder = 1231138
+#}
+#916.1.1 = {
+#	holder = 1230541
+#}
+931.1.1 = {
+	liege = d_tabarestan
+	holder = 166989
+}
+935.1.19 = {
+	holder = 166990
 }
 936.1.1 = {
-	holder = 261013
-	liege = d_jibal
+	liege = d_fars
+	holder = 1231063
 }
-1063.9.4=
-{
-	liege="d_esfahan"
+943.1.1 = {
+	liege = d_jebal
 }
-1063.9.4=
-{
+976.9.9 = {
+	holder = 1231068
+}
+984.1.1 = {
+	holder = 1231066
+}
+997.10.10 = {
+	holder = 1231108
+}
+1003.1.1 = { #according to the Isfahani historian Maffaroqi
+	holder = 1231052
+}
+1023.1.1 = { #Kakuyid Ala al-Dawla takes over Hamadan
+	liege = 0
+}
+1029.1.1 = {
+	liege = d_jebal
+}
+1042.1.1 = {
+	holder = 1231053
+}
+1050.1.1 = {
+	holder = 3038
+}
+1063.9.4 = {
 	holder = 3040
 }
-1072.11.1=
-{
+1066.1.1 = {
 	holder = 3042
 }
-1092.11.1=
-{
+#1072.11.1 = {
+#	holder = 3042
+#}
+1092.11.1 = {
 	holder = 144012
 }
-1094.1.1=
-{
+1094.11.11 = {
 	holder = 144013
 }
-1105.3.1=
-{
+1104.12.22 = {
 	holder = 144014
 }
-1118.4.18=
-{
-	holder = 144015
+1118.4.18 = {
+	holder = 144043
 }
-1157.5.8=
-{
+1131.1.1 = {
+	holder = 144048
+}
+1132.1.1 = {
+	holder = 144050
+}
+1134.11.1 = {
+	holder = 144049
+}
+1152.10.2 = {
+	holder = 144053
+}
+1153.1.1 = {
 	holder = 144054
-} 
-1159.1.1=
-{
+}
+1159.1.1 = {
+	holder = 93126
+}
+1161.1.1 = {
 	holder = 144055
 }
-1175.12.31=
-{
+1175.12.31 = {
 	holder = 144056
 }
-1194.3.1=
-{
-	
-	holder = 230000
+1194.3.1 = {
+	holder = 1230190
 }
-1200.1.1=
-{
-	holder = 93052
+1195.1.1 = {
+	holder = 93296
 }
-1221.1.1=
-{
-
+1210.1.1 = {
+	liege = d_rayy
+	holder = 1230172
+}
+1221.1.1 = {
+	holder = 93054
+}
+1223.1.1 = {
+	liege = d_jebal
+	holder = 93053
+}
+1231.1.1 = {
+	liege = d_rayy
 	holder = 93253
 }
-1241.1.1=
-{
-	holder = 93254
+1236.1.1 = {
+	liege = d_jebal
+	holder = 1229824 # Korguz
 }
-1248.1.1=
-{
-	holder = 93255
+1242.1.1 = {
+	holder = 217220 # Arghun Aqa
 }
-1252.1.1=
-{
-	holder = 93254
+1256.1.1 = {
+	holder = 478011
 }
-1256.1.1=
-{
-	holder = 125521
+1265.2.8 = {
+	holder = 478010
 }
-1270.2.1=
-{
+1282.1.1 = {
+	holder = 125523
+}
+1284.1.1 = {
+	holder = 478008
+}
+1291.1.1 = {
+	holder = 125525
+}
+1295.1.1 = {
 	holder = 125522
 }
-
-1295.1.1=
-{
-	holder = 125529
+1295.10.4 = {
+	holder = 125524
 }
-1315.1.1=
-{
-	holder = 478012
+1304.5.11 = {
+	holder = 478007
 }
-1335.1.1=
-{
+1316.12.16 = {
+	holder = 478006
+}
+1335.12.1 = {
+	liege = d_fars
 	holder = 478015
 }

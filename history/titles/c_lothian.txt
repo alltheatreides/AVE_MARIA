@@ -1,103 +1,69 @@
-270.1.1={
-	liege="d_lothian"
-	holder = 159007 #Tegid
-}
-300.1.1={
-	holder = 159008 #Padarn Beisrudd
-}
-340.1.1={
-	holder = 159009 #Edern
-}
-390.1.2={
-	holder = 159038 #Coel Hen
-}
-490.1.1={
-	holder = 252242 #Gwalchmai/Gawain
-}
-510.1.1={
-	holder = 252238 #Bran Hen
-}
-540.1.1={
-	holder = 252239 #Morgan Bulc
-}
-560.1.1={
-	holder = 252243 #Coledauc
-}
-580.1.1={
-	holder = 252244 #Cynan
-}
-590.1.1={
-	holder = 252245 #Morcant
-}
-595.1.1={
-	holder = 252246 #Mynyddog Mwynfawr
-}
-597.1.1={
-	holder = 252249 #Gwawrddur
-}
+# -*- ck2.history.titles -*-
 
-
-765.1.1={
-	liege="d_northumberland"
+765.1.1 = {
+	liege = d_northumberland
 	holder = 205250
 }
-862.1.1={
+862.1.1 = {
 	holder = 163103
 }
 936.1.1 = {
-	holder = 260542
+	liege = k_england
+	holder = 260539 # Oswulf
 }
-1066.1.1 = {
-	liege="d_lothian"
+963.1.1 = {
+	holder = 1226247 # Eadwulf Evil-Child
 }
-1066.1.1 = {
-	holder = 85018
+973.1.1 = {
+	liege = k_scotland
+	holder = 166621
 }
-1070.1.1={
-	liege="k_scotland"
+977.1.1 = {
+	holder = 976
 }
-1070.1.1={
-	holder = 984
+995.1.1 = {
+	holder = 6032
 }
-1093.1.1={
-	holder =  986
+997.1.1 = {
+	holder = 6004
 }
-1094.5.1={
-	holder = 988
+1005.1.1 = {
+	holder = 980
 }
-1094.11.12={
-	holder = 986
+1034.1.1 = {
+	holder = 982
 }
-1097.1.1={
-	holder = 202968
+1040.1.1 = {
+	holder = 5996 # MacBeth
 }
-1107.1.8={
-	holder = 232678
+1057.1.1 = {
+	holder = 6006 # Luilach the Fool
 }
-1124.4.1={
-	holder = 202998
+1058.1.1 = {
+	holder = 984 # Malcolm Canmore
 }
-1153.5.24={
-	holder = 203000
+1072.1.1 = {
+	liege = d_lothian
+	holder = 203019
 }
-1165.5.24={
-	holder = 202999
+1138.1.1 = {
+	holder = 203018
 }
-1214.12.4={
-	holder = 6900
+1166.1.1 = {
+	holder = 203017
 }
-1249.7.6={
-	holder = 6902
+1182.1.1 = {
+	holder = 203014
 }
-1286.3.19={
-	holder = 6907
+1232.1.1 = {
+	holder = 203016
 }
-1290.9.1={
-	holder = 230524
+1249.1.1 = {
+	holder = 7616
 }
-1296.1.1={
-	holder = 453501
+1289.8.24 = {
+	holder = 453063
 }
-1329.6.7={
-	holder = 453500
+1308.10.10 = {
+	holder = 453014
 }

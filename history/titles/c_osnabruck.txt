@@ -1,118 +1,79 @@
-741.1.1={
-	liege = d_angria
+# -*- ck2.history.titles -*-
+
+741.1.1 = {
+	liege = d_brunswick
+#	holder = 190462 # Billung
 }
-741.1.1={
-	holder = 190462 #Billung
-}
-782.1.1={
-	holder = 0
-}
-844.1.1={
-	liege="d_saxony"
+#782.1.1 = {
+#	holder = 0
+#}
+844.1.1 = {
+	liege = d_saxony
 	holder = 7959
 }
-860.1.1={
+860.1.1 = {
 	holder = 167784
 }
-936.1.1 = {
-	holder = 260574
+918.1.1 = {
+	holder = 260574 # Dodo
 }
-1057.1.1=
-{
-holder = 20224 #Benno von Osnabruck
+949.6.14 = {
+	holder = 1603268 # Drogo
 }
-1067.12.3=
-{
-holder = 30335 #Benno von L�hningen
+967.5.10 = {
+	holder = 1603267 # Ludolf
 }
-1088.7.27=
-{
-holder = 30336 #Markward von Corvey
+978.3.31 = {
+	holder = 1603258 # Dodo
 }
-1093.1.1=
-{
-holder = 30337 #Wicho von Osnabruck
+996.4.12 = {
+	holder = 1603259 # Günther
 }
-
-1101.4.21=
-{
-holder = 30338 #Johann von Osnabruck
+998.11.27 = {
+	holder = 1603260 # Wodilulf
 }
-
-1110.7.13=
-{
-holder = 30339 #Gottschalk von Diepholz
+1003.2.17 = {
+	holder = 1236974
 }
-
-1119.1.11=
-{
-holder = 30340 #Diethard von Osnabruck
+1022.6.18 = {
+	holder = 1236973
 }
-1137.1.1=
-{
-holder = 30341 #Udo von Steinfurt
+1027.12.10 = {
+	holder = 1236972
 }
-1141.6.28=
-{
-holder = 30342 #Philipp von Katzenelnbogen
+1036.12.10 = {
+	holder = 1236956
 }
-
-1173.6.15=
-{
-holder = 231042 #Arnold von Berg
+1055.1.1 = {
+	holder = 1603007 # Hermann I von Calvelage/Kalvelage
 }
-1180.9.16=
-{
-	liege="e_hre"
+1115.1.1 = {
+	holder = 1603008 # Hermann I von Ravensberg
 }
-1190.12.15=
-{
-holder = 30070 #Gerhard von Oldenburg
+1144.1.1 = {
+	holder = 1603009 # Otto I von Ravensberg
 }
-1216.1.1=
-{
-holder = 30348 #Adolf von Tecklenburg
+1171.1.1 = {
+	holder = 1603010 # Heinrich I von Ravensberg
 }
-1220.1.1 = {
-	liege = d_brunswick
+1178.1.1 = {
+	holder = 1603011 # Hermann II von Ravensberg
 }
-1224.6.30=
-{
-holder = 30353 #Engelbert von Isenburg
+1180.9.16 = {
+	liege = e_hre
 }
-1235.1.1=
-{
-	liege="d_brunswick"
+1221.4.22 = {
+	holder = 1603012 # Otto II von Ravensberg
 }
-
-1250.1.1=
-{
-holder = 30355 #Bruno von Isenburg
+1244.4.1 = {
+	holder = 1603013 # Ludwig I von Ravensberg
 }
-1258.12.20=
-
-{
-holder = 30356 #Baldewin von R�ssel
+1249.1.15 = {
+	holder = 1603018 # Otto III von Ravensberg
 }
-1264.1.1=
-
-{
-holder = 30357 #Widukind von Waldeck
+1305.3.25 = {
+	holder = 1603022 # Otto IV von Ravensberg
 }
-1269.11.18=
-{
-holder = 30358 #Konrad von Rietberg
-}
-1297.4.16=
-{
-holder = 30361 #Ludwig von Ravensberg
-}
-1308.1.1=
-{
-holder = 30362 #Engelbert von Weyhe
-}
-1320.1.1=
-
-{
-holder = 462004 #Gottfried von Arnsberg
+1328.1.1 = {
+	holder = 1603023 # Bernhard I von Ravensberg
 }

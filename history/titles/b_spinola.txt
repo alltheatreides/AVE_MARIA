@@ -1,12 +1,14 @@
-950.1.1={
-	holding_dynasty = 50 # Spinola - makes this a FAMILY_PALACE type Holding
-	liege="d_genoa"
-	holder = 91338 # Ido di Manesseno di Genova
-}
-990.1.1 = {
-	holder = 91339 # Manesseno
-}
+# -*- ck2.history.titles -*-
+
+#950.1.1 = {
+#	holder = 91338 # Ido di Manesseno di Genova
+#}
+#990.1.1 = {
+#	holder = 91339 # Manesseno
+#}
 1030.1.1 = {
+	holding_dynasty = 50 # Faliero - makes this a FAMILY_PALACE type Holding
+	liege = d_genoa
 	holder = 91340 # Oberto di Manesseno di Genova
 }
 1070.1.1 = {
@@ -49,7 +51,7 @@
 	holder = 91351 # Oberto
 }
 1271.1.1 = {
-	holder = 91350 #Oberto III Spinola, consul of Genoa
+	holder = 91350 # Oberto III Spinola, consul of Genoa
 }
 1285.1.1 = {
 	holder = 463550 # Obizzo Spinola di Lucoli, doge of Genoa
@@ -57,15 +59,12 @@
 1315.1.1 = {
 	holder = 91353 # Corrado
 }
-1318.7.27 = {
-	holder = 0
+1320.1.1 = {
+	holder = 73430 # Gherardo
 }
-#1320.1.1 = {
-#	holder = 73430 # Gherardo
-#}
-#1331.1.1 = {
-#	holder = 91356 # Lucchesio
-#}
-1334.1.1 = {
+1331.1.1 = {
 	holder = 91356 # Lucchesio
+}
+1338.1.1 = {
+	holder = 0
 }

@@ -1,89 +1,82 @@
-630.1.1={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 188748 # Yazid, brother-in-law of al-Mansur Abbasid (actually ruled in the 770s)
-	liege = 0 # De facto
-}
-780.1.1={
-	holder = 0
-}
-
-847.1.1={
-	liege=0
+847.1.1 = {
 	holder = 188735 # Yu'fir Yufirid
 }
-
-# Yufirids should continue ruling until 997 with a brief Rassid rule from 905-916
-
-881.1.1={
-holder = 159399 # Rassid
+872.1.1 = {
+	holder = 1236023 # Muhammad Yufirid
 }
-911.1.1={
-holder = 159400
+892.1.1 = {
+	holder = 1236026 # Ibrahim Yufirid
 }
-922.1.1={
-holder = 159401
+898.1.1 = {
+	holder = 1236027 # As'ad Yufirid
 }
-934.1.1 = {
-	holder = 159402
+944.1.1 = {
+	holder = 1236028 # Muhammad Yufirid
 }
-937.1.1 = {
-	holder = 159403
+956.1.1 = {
+	holder = 1236039 # Abdallah Yufirid
 }
-968.1.1={
-holder = 159405
+997.1.1 = {
+	holder = 0
 }
-998.1.1={
-holder = 159409
+1012.1.1 = {
+	holder = 188741 # Ibrahim
 }
-1010.1.1={
-holder = 159410
+1018.1.1 = {
+	holder = 1236044 # Najah (Najahid)
 }
-1063.1.1 = {
-holder = 45035 # Ali Sulayhid
+1047.1.1 = {
+	holder = 45035 # Ali (Sulayhid)
 }
-1067.5.9 = {
-holder = 45036 # Al-Mukarram Sulayhid
+1060.1.1 = {
+	liege = k_yemen
 }
-1074.4.10 = {
-holder = 220820 # Arwa Sulayhid - al-Sayyida
+1067.9.25 = {
+	holder = 45036 # Ahmad
 }
-1138.3.12 = {
-holder = 0 #Yemen was split between local rulers after Arwa until the Ayyubid conquest
+1086.1.1 = {
+	holder = 1236034 # Arwa
 }
-1173.1.1={
-	holder = 32914
-	liege = "k_egypt"
+1138.1.1 = {
+	holder = 1236060 # Hatim Qubaybid
 }
-1176.1.1={
-	holder = 32916
+1139.1.1 = {
+	holder = 1236062 # Hatim Hatimid
 }
-1197.1.1={
-	holder = 144092
+1161.1.1 = {
+	holder = 1236063 # Ali Hatimid
 }
-1202.1.1={
+1174.1.1 = {
+	liege = k_egypt
+	holder = 32914 # Turanshah (Ayyubid)
+}
+1178.1.1 = {
+	holder = 32916 # Toghtekin (Ayyubid)
+}
+1197.1.1 = {
+	holder = 144092 # Al-Mu'izz (Ayyubid)
+}
+1202.1.1 = {
 	holder = 144093
 }
-1203.1.1={
+1214.1.1 = {
 	holder = 32929
 }
-1229.1.1={
-	liege = 0
-}
-1229.1.1={
+1229.1.1 = {
+	liege = k_yemen
 	holder = 144094
 }
-1250.1.1={
+1249.1.1 = {
 	holder = 144095
 }
-1295.1.1={
+1295.1.1 = {
 	holder = 144096
 }
-1296.1.1={
+1296.1.1 = {
 	holder = 144097
 }
-1322.1.1={
+1322.1.1 = {
 	holder = 144098
 }

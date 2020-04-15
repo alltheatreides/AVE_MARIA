@@ -1,0 +1,19 @@
+#Cinque Ports family
+1298.1.1 = {
+	holding_dynasty = 1000100180 # de Cobham, Kent branch - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1067037 # John de Cobham
+}
+1300.3.30 = {
+	holder = 1067038 #Henry II de Cobham
+}
+1339.1.1 = {
+	holder = 1067039 #John II de Cobham
+}
+1355.1.1 = {
+	holder = 1067040 #John III de Cobham
+}
+1370.1.1 = {
+	holder = 0
+	liege=0
+}

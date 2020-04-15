@@ -1,151 +1,181 @@
-760.1.1={
-    holder = 200230 # Abd al-Malik Djazairid
-    liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+850.9.22 = {
+	liege = k_andalusia
+	holder = 73928 # al-Hakam Umayyad # Rayyu was one of the areas held by the sons of the Umayyad amir in mid-9th century
 }
-781.1.1={
-    holder = 200232 # Ya'qub Djazairid
+881.1.1 = {
+	holder = 73805
 }
-816.1.1={
-    holder = 73681 # al-Hakam Umayyad
+910.1.1 = {
+	holder = 73685 # Abdallah Umayyad
 }
-822.5.21={
-    holder = 73682 # Abd al-Rahman II Umayyad
+912.10.15 = {
+	holder = 3200 # Abd al-Rahman III Umayyad
 }
-850.9.22={
-    holder = 73802 # Ya'far Hafsunid
+961.10.15 = {
+	holder = 3202 # al-Hakam II Umayyad
 }
-870.1.1={
-    holder = 73805 # Umar Hafsunid
+976.10.16 = {
+	holder = 3204 # Hisham II Umayyad
 }
-925.1.1={
-    holder = 3200 # Abd al-Rahman III Umayyad
+1009.2.15 = {
+	holder = 73671 # Muhammad II Umayyad
 }
-961.10.15={
-    holder = 3202 # al-Hakam II Umayyad
+1009.11.1 = {
+	holder = 73675 # Suleyman Umayyad
 }
-976.10.16={
-    holder = 3204 # Hisham II Umayyad
+1010.5.10 = {
+	holder = 73671 # Muhammad II Umayyad
 }
-1009.2.15={
-    holder = 73671 # Muhammad II Umayyad
+1010.7.23 = {
+	holder = 3204 # Hisham II Umayyad
 }
-1009.11.1={
-    holder = 73675 # Suleyman Umayyad
+1013.4.19 = {
+	holder = 73675 # Suleyman Umayyad
 }
-1010.5.10={
-    holder = 73671 # Muhammad II Umayyad
+1016.7.1 = {
+	holder = 73689 # al-Qasim Hammudid
 }
-1010.7.23={
-    holder = 3204 # Hisham II Umayyad
+1021.1.1 = {
+	liege = d_tangiers
+	holder = 73690 # Yahya Hammudid
 }
-1013.4.19={
-    holder = 73675 # Suleyman Umayyad
+1035.1.1 = {
+	liege = 0
+	holder = 159497 # Idris b. Ali b. Hammud
 }
-1016.7.1={
-    holder = 73687 # Ali Hammudid
+1057.1.1 = {
+	liege = d_granada
+	holder = 45016
 }
-1018.3.22={
-    holder = 73678 # Abd al-Rahman IV Umayyad
+1073.1.1 = {
+	liege = 0
+	holder = 32951
 }
-1018.6.1={
-    holder = 73689 # al-Qasim Hammudid
+1090.1.1 = {
+	liege = d_granada
+	holder = 155036 # Syr b. Abu Bakr
 }
-1021.1.1={
-    holder = 73690 # Yahya Hammudid
+1095.1.1 = {
+	holder = 1600583 # Ali b. al-Hajj
 }
-1023.2.1={
-    holder = 73689 # al-Qasim Hammudid
+1104.1.1 = {
+	holder = 155075 # Muhammad b. al-Hajj
 }
-1023.12.2={
-    holder = 73672 # Abd al-Rahman V Umayyad
+1106.1.1 = {
+	holder = 1600584 # Abu Abdallah Muhammad b. Ibrahim al-Lamtuni
 }
-1024.1.17={
-    holder = 73668 # Muhammad III Umayyad
+1107.1.1 = {
+	holder = 32967 # Tamim b. Yusuf b. Tashfin
 }
-1025.9.1={
-    holder = 73690 # Yahya Hammudid
+1110.1.1 = { #?
+	holder = 155080 # Mazdali b. Tilankan
 }
-1027.6.1={
-    liege=0
+1115.1.1 = {
+	holder = 155081 # Abd Allah b. Mazdali
 }
-1035.1.1={
-    holder = 159497 # Idris b. Ali Hammudid
+1118.1.1 = { # sometime before 1121
+	holder = 32967 # Tamim b. Yusuf b. Tashfin
 }
-1039.1.1={
-    holder = 159496 # Yahya b. Idris Hammudid I
+#1121.1.1 = {
+#	holder = 73261
+#}
+#1124.1.1 = { # sometime before 1125
+#	holder = 32967 # Tamim b. Yusuf b. Tashfin
+#}
+1126.1.1 = {
+	holder = 1600592 # Inalu, grandson of Yusuf b. Tashfin
 }
-1040.5.2={
-    holder = 159495 # Hasan Hammudid
+1128.5.1 = {
+	holder = 1600593 # Umar b. Ali b. Yusuf b. Tashfin, governor for 4 months
 }
-1042.5.12={
-    holder = 159498 # Idris b. Yahya Hammudid I
+1128.9.1 = {
+	holder = 32971
 }
-1047.1.1={
-    holder = 159499 # Muhammad b. Idris Hammudid
+1132.1.1 = {
+	holder = 1600595 # Abu Muhammad al-Zubayr b. Umar al-Lamtuni
 }
-1053.1.1={
-    holder = 200233 # Idris b. Yahya Hammudid II
+1144.1.1 = {
+	holder = 1600597 # Ali b. Abi Bakr
 }
-1053.6.1={
-    holder = 159498 # Idris b. Yahya Hammudid I
+1144.1.1 = {
+	liege = 0
+	holder = 73260
 }
-1054.1.1={
-    holder = 200234 # Muhammad Hammudid
+1153.1.1 = {
+	liege = d_sevilla
+	holder = 224020
 }
-1055.1.1={
-    holder = 159500 # Yahya b. Idris Hammudid II
+1154.1.1 = {
+	liege = d_tangiers
+	holder = 155086 # Abd al-Mu'min entrusts Malaga and Algeciras to Abu Sa'id 'Uthman
 }
-1057.1.1={
-    holder = 45016 # Badis Zirid
-    liege=d_granada
+1157.1.1 = {
+	liege = d_granada
 }
-1073.1.1={
-    holder = 32951 # Tamim Zirid
-    liege=0
+1167.1.1 = {
+	holder = 1230067 # Abu Abd Allah b. Isma'il b. Tijit, unclear whether he remained governor until his death
 }
-1090.1.1={
-    holder = 224017 # Ya'qub Malaqid
-    liege=k_mauretania
+1173.1.1 = {
+	holder = 155086 #Abu Sa'id 'Uthman b. Abd al-Mu'min
 }
-1118.1.1={
-    holder = 73261 # Ibrahim Hishamid
+1178.1.1 = {
+	holder = 224016
 }
-1144.1.1={
-    holder = 73260 # Abd al-Hakam Hassunid
+1183.1.1 = {
+	holder = 1230056 # Abu Zayd al-Hardani b. Abu Ya'qub Yusuf
 }
-1145.1.1={
-    liege=0
+1200.1.1 = { #?
+	holder = 32988 # Abu Ibrahim b. Abu Ya'qub Yusuf, governor of Granada during al-Nasir's reign
 }
-1153.1.1={
-    holder = 224015 # Ya'qub Bilalid
-    liege=k_mauretania
+1202.1.1 = {
+	holder = 32982 # Abd al-Wahid b. Abu Ya'qub Yusuf
 }
-1178.1.1={
-    holder = 224016 # Abd al-Malik Gharnatid
+1203.1.1 = { #?
+	holder = 32988 # Abu Ibrahim b. Abu Ya'qub Yusuf, governor of Granada during al-Nasir's reign
 }
-1200.1.1={
-    holder = 73617 # Tariq Sebtaid
+1211.1.1 = {
+	holder = 1230072 # Abu Abd Allah b. Abu Yahya b. Abu Hafs
 }
-1228.1.1={
-    holder = 73636 # Zannun Zannunid
-    liege=0
+1213.1.1 = {
+	holder = 32992 # Abu Musa b. al-Mansur ca. 1213
 }
-1238.1.1={
-    holder = 73651 # Muhammad I Nasrid
-    liege=d_granada
+1223.1.1 = {
+	holder = 1230018 # Abu 'l-Hasan b. al-Mansur during Abd al-Wahid's reign
 }
-1273.1.1={
-    holder = 73654 # Isma'il b. Nasr Nasrid
+1228.1.1 = {
+	liege = 0
+	holder = 73636
 }
-1274.1.1={
-    holder = 73642 # Faraj Nasrid
+1229.1.1 = {
+	liege = d_granada
 }
-1300.1.1={
-    holder = 73641 # Isma'il b. Faraj Nasrid
+1237.1.1 = {
+	liege = 0
 }
-1325.1.1={
-    holder = 487001 # Muhammad IV Nasrid
+1238.1.1 = {
+	liege = d_granada
+	holder = 1235512 # Banu Ashqilula
 }
-1333.1.1={
-    holder = 487000 # Yusuf Nasrid
+1270.1.1 = {
+	holder = 1235513 # Banu Ashqilula
+}
+1278.1.1 = { # Banu Ashqilula hand over Malaga to a Marinid governor
+	liege = k_maghreb
+}
+1279.1.1 = { # Marinids retreat and allow the Nasrids to take over
+	liege = d_granada
+}
+1289.1.1 = {
+	holder = 73642
+}
+1315.1.1 = {
+	holder = 73641
+}
+1325.1.1 = {
+	holder = 487001
+}
+1333.1.1 = {
+	holder = 487000
 }

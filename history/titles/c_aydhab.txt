@@ -1,65 +1,65 @@
-641.1.1={ # Baqt signed
-	set_tribute_suzerain = {
-		who = e_arabia
-		type = permanent
-	}
+# -*- ck2.history.titles -*-
+
+830.1.1 = {
+	liege = d_naqis
 }
-760.1.1=
-{
-liege=0
-holder = 145959
+835.1.1 = {
+	holder = 1228760
 }
-833.1.1={
-	clear_tribute_suzerain = e_arabia
+850.1.1 = {
+	holder = 1228761
 }
-861.1.1={
-holder = 145726
+876.1.1 = {
+	holder = 1228764
 }
-867.1.1={ # Egypt independent reduced Baqt payed there.
-	set_tribute_suzerain = {
-		who = k_egypt
-		type = permanent
-	}
+895.1.1 = {
+	holder = 1228762
+}
+926.1.1 = {
+	holder = 1228763
 }
 936.1.1 = {
-	holder = 260880
+	holder = 1228767 #Ishaq b. Bishar, the first chief of the Ra'bia-Hadariba confederacy (ca. 943)
 }
-1063.1.1=
-{
-holder = 145727
+958.1.1 = {
+	holder = 1231674
 }
-1114.1.1=
-{
-holder = 145728
+976.1.1 = { #? Abu Yazid b. Ishaq is invited to al-'Allaqi
+	holder = 1236252
 }
-1135.1.1=
-{
-holder = 145729
+1000.1.1 = {
+	holder = 1236250
 }
-1173.1.1=
-{
-holder = 145730
+1042.1.1 = {
+	holder = 1300202
 }
-1226.1.1=
-{
-holder = 145731
+1055.1.1 = {
+	holder = 1236249
 }
-1251.1.1={
-	clear_tribute_suzerain = k_egypt # relations break down
+1077.1.1 = {
+	holder = 1236248
 }
-1254.1.1={
-holder = 145732
+1110.1.1 = {
+	holder = 1236247
 }
-1270.1.1=
-{
-liege="k_egypt"
-holder = 145733
+1158.1.1 = {
+	holder = 1236246
 }
-1289.1.1=
-{
-holder = 145734
+1174.5.1 = {
+	holder = 1228766
 }
-1316.1.1=
-{
-holder = 145735
+1208.1.1 = {
+	holder = 1228773
+}
+1230.1.1 = {
+	holder = 1228774
+}
+1260.1.1 = {
+	holder = 1228775
+}
+1300.1.1 = {
+	holder = 1228776
+}
+1325.1.1 = {
+	holder = 1228777
 }

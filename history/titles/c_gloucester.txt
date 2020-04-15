@@ -1,151 +1,149 @@
-300.1.1={
-	liege=d_gloucester
-	holder = 159944 #Gloyw
-}
-321.1.1={
-	holder = 159945 # Gwydolin ap Gloyw
-}
-351.1.1={
-	holder = 159946 # Gwydol ap Gwydolin
-}
-365.1.1={
-	holder = 159947 # Pasgen ap Gwydol
-}
-391.1.1={
-	holder = 159948 # Cadeyrn ap Pasgen
-}
-410.1.1={
-	holder = 252302 # 
-}
-418.1.1={
-	holder = 252303 # 
-}
-446.1.1={
-	holder = 252304 # Emrys Wledig
-}
-482.1.1={
-	holder = 252318 # 
-}
-510.1.1={
-	holder = 252319 # 
-}
-530.1.1={
-	holder = 252320 # Aurelius Caninus
-}
-550.1.1={
-	holder = 252321 # 
-}
-565.1.1={
-	liege=0
-	holder = 252322 # Cynfael
-}
+# -*- ck2.history.titles -*-
 
-650.1.1={
-	holder = 205115 # Eanfrith
-	liege=d_gloucester
+# Hwicce
+779.1.1 = {
+	liege = d_hereford
+	holder = 1226312 # Ingel Ealdorman of Hwicce 779ish-793
 }
-674.1.1={
-	holder = 205114 # Eanhere
+793.1.1 = {
+	holder = 1226313 # Æthelmund Ealdorman 793ish-802
 }
-675.1.1={
-	holder = 205117 # Osric
+802.1.1 = {
+	holder = 1226315 # 1226391  Ealdorman 802-805ish
 }
-679.1.1={
-	holder = 205118 # Oshere
+805.1.5 = {
+	holder = 1226398 # Coenwulf king of Mercia 796(december)-821, makes himself Eladorman.
 }
-704.1.1={
-	holder = 205120 # Aethelheard
+821.1.1 = {
+	holder = 1226392 # Ceolwulf I king of Mercia 821-823
 }
-710.1.1={
-	holder = 205122 # Aethelric
+#823.10.18 = {
+#	holder = 1226396 # Beornwulf king of Mercia 823-826
+#}
+826.1.1 = {
+	holder = 1226397 # Ludeca king of Mercia 826-827
 }
-730.1.1={
-	holder = 205123 # Osred
+827.1.1 = {
+	holder = 1226398 # Wiglaf king of Mercia 827-829 and 830-839
 }
-740.1.1={
-	holder = 205127 # Eanberht
+839.1.1 = {
+	holder = 1226200 # Wigmund king of Mercia 839-840, was Principes of Hwicces.
 }
-759.1.1={
-	holder = 205128 # Uhtred
+840.1.1 = {
+	holder = 1226201 # Wigstan king of Mercia 840
 }
-777.1.1={
-	holder = 205129 # Ealdred
+840.6.1 = {
+	holder = 0
 }
-780.1.1={
-	liege=d_hereford
-	holder = 205125 # Aethelmund
+851.1.1 = {
+	holder = 1226333 # Æthelred lord of the Mercians 883-911
 }
-802.1.1={
-	holder = 205126 # Aethelric
+879.1.1 = {
+	liege = 0
 }
-
-865.1.1={
-	liege="k_england"
-	holder = 33358 
+883.1.1 = {
+	liege = d_somerset
 }
+911.1.1 = {
+	holder = 252377 # Æthelfled I lady of the Mercians 911-918
+}
+918.6.12 = {
+	holder = 252380 # Ælfwynn lady of the Mercians 12th june 918 - december 918
+}
+918.12.1 = {
+	holder = 33350 # Æthelstan Ealdorman of Mercia 918-924(and 16 days as king of Mercia)
+}
+927.7.12 = {
+	liege = k_england
+}
+#4 extra years added as a placeholder
 936.1.1 = {
-	holder = 260534
+	holder = 1226356 # Ealhhelm Ealdorman of south west Mercia 940-955
 }
-1066.1.1 = {
-	liege="d_lancaster"
+955.1.5 = {
+	holder = 33350 # Æthelstan
 }
-1066.1.5={
-	holder = 5644 #Eadwin
+957.1.1 = {
+	liege = d_hereford
 }
-1066.10.14={
-	liege="k_england"
+993.1.1 = {
+	holder = 1226316 # Leofwine Ealdorman of Hwicce 994-1028 (Giving him Hwicce in 993, to make Mercia somewhat more exciting)
 }
-1066.10.14={
-	holder = 6806 #William de Crepon
+1004.10.22 = {
+	liege = k_england
 }
-1071.2.22={
-	holder = 6807 #Roger de Crepon
+1007.1.1 = {
+	liege = d_hereford
 }
-1074.1.1={
-	holder = 140 #William the Conqueror
+1018.1.1 = {
+	liege = k_england
+	holder = 1228167 # Eilafr, brother of Ulf the Earl. Was initially given Gloucester to govern, returned to Denmark in 1025
 }
-1087.9.9={
-	holder = 146 #William II Rufus
+1025.1.1 = {
+	liege = d_hereford
+	holder = 5640 # Leofric earl of Mercia 1023-1057
 }
-1090.1.1={
-	liege=k_england
+1043.1.1 = {
+	holder = 128 # Swegen, Earl of Hereford (Not Mercia)
+	liege = k_england
 }
-1090.1.1={
-	holder = 138455 #Robert Fitzhamon
+1051.9.1 = {
+	holder = 1226321 # Odda of Deerhurst
 }
-1107.3.1={
-	holder = 138457 #Mabel Fitzhamon
-} 
-1112.1.1={
-	holder = 203036 #Robert FitzHenry
+1056.8.31 = {
+	holder = 5640 # Leofric earl of Mercia 1017-1057
 }
-1147.1.11={
-	holder = 204670 #William FitzRobert
+1057.10.30 = {
+	holder = 122
 }
-1183.1.13={
-	holder = 204665 #Isabelle
+1066.10.14 = {
+	holder = 6806 # William de Crepon
 }
-1217.10.14={
-	holder = 204801 #Gilbert de Clare
+1071.2.22 = {
+	holder = 6807 # Roger de Crepon
 }
-1230.10.25={
-	holder = 454048 #Richard de Clare
+1074.1.1 = {
+	holder = 1230921 # Roger de Pitres or de Gloucester. Sheriff of Gloucestershire and Constable of Gloucester Castle. 1071-1082
 }
-1262.7.14={
-	holder = 454606 #Gilbert de Clare
+1082.1.1 = {
+	holder = 1230921 # Durand de Pitres or de Gloucester. Sheriff of Gloucestershire and Constable of Gloucester Castle. 1082-1096
 }
-1295.1.25={
-	holder = 454605 #Joan of Acre
+1089.1.1 = {
+	holder = 138455 # Robert Fitzhamon. 1st Baron of Gloucester
 }
-1307.4.23={
-	holder = 454049 #Gilbert de Clare
+1107.3.1 = {
+	holder = 138457 # Mabel Fitzhamon
 }
-1314.1.25={
-	holder = 454510 #Edward II
+1112.1.1 = {
+	holder = 203036 # Robert FitzHenry
 }
-1327.1.25={
-	holder = 454500 #Edward III
+1147.1.11 = {
+	holder = 204670 # William FitzRobert
 }
-1337.1.1={
-	holder = 454610 #Hugh d'Audley
+1183.1.13 = {
+	holder = 204665 # Isabelle
+}
+1217.10.14 = {
+	holder = 204801 # Gilbert de Clare
+}
+1230.10.25 = {
+	holder = 454048 # Richard de Clare
+}
+1262.7.14 = {
+	holder = 454606 # Gilbert de Clare
+}
+1295.1.25 = {
+	holder = 454605 # Joan of Acre
+}
+1307.4.23 = {
+	holder = 454049 # Gilbert de Clare
+}
+1314.1.25 = {
+	holder = 454510 # Edward II
+}
+1327.1.25 = {
+	holder = 454500 # Edward III
+}
+1337.1.1 = {
+	holder = 454610 # Hugh d'Audley
 }

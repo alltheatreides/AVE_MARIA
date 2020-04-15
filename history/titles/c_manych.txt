@@ -1,88 +1,104 @@
-654.1.1={
-	liege="d_alania"
+# -*- ck2.history.titles -*-
+
+654.1.1 = {
+	liege = d_itil
 	holder = 74004
 }
-682.1.1={
+682.1.1 = {
 	holder = 74007
 }
-715.1.1={
+715.1.1 = {
 	holder = 74008
 }
-731.1.1={
+731.1.1 = {
 	holder = 74009
 }
-741.1.1={
-	holder = 146205
+749.1.1 = {
+	holder = 74012
 }
-#766.1.1={
-#	holder = 146208
+#Volga Bulgar garrison
+865.1.1 = {
+	holder = 1233392
+}
+930.1.1 = {
+	holder = 1233383
+}
+950.1.1 = {
+	holder = 1233384
+}
+
+# Sarkel falls, Boru-Tolmach settles.
+966.1.1 = {
+	liege = d_boru_tolmach
+	holder = 1231806
+}
+998.1.1 = {
+	holder = 1231808
+}
+1015.1.1 = {
+	holder = 1231810
+}
+1022.1.1 = {
+	holder = 1231812
+}
+#1040.1.1 = {
+#	liege = d_boru_tolmach
 #}
-813.1.1={
-	holder = 146209
+# Oghuz takes over
+1044.1.1 = {
+	liege = k_uzes
+	holder = 1231873
 }
-864.1.1={
-	holder = 74025
-	liege = k_khazaria
+# Cumans arrive
+# Targil
+1050.1.1 = {
+	liege = d_targil
+	holder = 1233217
 }
-928.1.1={
-	holder = 146190
+1060.1.1 = {
+	holder = 1233060
 }
-936.1.1 = {
-	holder = 260704
-	liege = d_caspian_steppe
+1100.1.1 = {
+	holder = 1233062
 }
-969.1.1={
-	holder = 146193
+1142.1.1 = {
+	holder = 1233064
 }
-993.1.1={
-	holder = 146194
+1174.1.1 = {
+	holder = 1233066
 }
-1016.1.1={
-	liege=0
-	holder = 0
+1202.1.1 = {
+	holder = 1233068
 }
-1066.1.1=
-{
-liege="d_alania"
-holder = 20662
+1221.1.1 = {
+	holder = 1233070
 }
-1068.1.1=
-{
-holder = 41594
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1100.1.1=
-{
-holder = 41550
+1255.1.2 = {
+	holder = 125505
 }
-1102.1.1=
-{
-holder = 93035
+1256.1.2 = {
+	holder = 125506
 }
-1148.1.1=
-{
-holder = 228060
+1257.1.2 = {
+	holder = 125504
 }
-1178.1.1=
-{
-holder = 466516
+1266.1.2 = {
+	holder = 125508
 }
-1189.1.1=
-{
-holder = 93036
+1280.1.2 = {
+	holder = 125509
 }
-1222.1.1=
-{
-holder = 93037
+1287.1.2 = {
+	holder = 125511
 }
-1265.1.1=
-{
-holder = 93038
+1291.1.2 = {
+	holder = 125512
 }
-1280.1.1=
-{
-holder = 93039
-}
-1313.1.1=
-{
-holder = 93047
+1312.1.2 = {
+	holder = 480000
 }

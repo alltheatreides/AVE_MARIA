@@ -1,78 +1,89 @@
-383.1.1={
-	liege = "d_york"
-	holder = 159038 #Coel Hen
-}
-460.1.1={
-	holder = 159037 #Ceneu ap Coel
-}
-450.1.1={
-	holder = 252217 #Mor ap Ceneu
-}
-470.1.1={
-	holder = 252218 #Einion ap Ceneu
-}
-#Guendoleu
-505.1.1={
-	liege = 0
-	holder = 252220 #Ceidio ap Einion
-}
-555.1.1={
-	holder = 252221 #Guenddolau ap Ceidio
-}
-573.1.1={
-	holder = 252222 #Llew ap Cynfarch
-}
-616.1.1={
-	holder = 252223 #Arawn ap Cynfarch
-}
-#Northumberland
+# -*- ck2.history.titles -*-
+
 765.1.1 = {
-	holder = 205250
 	liege = d_northumberland
+	holder = 205050
 }
-862.1.1={
+862.1.1 = {
 	holder = 163103
 }
 936.1.1 = {
-	holder = 260542
+	liege = k_england
+	holder = 260539
+}
+963.1.1 = {
+	holder = 1226247 # Eadwulf Evil-Child
+}
+973.1.1 = {
+	holder = 166621
+	liege = k_scotland
+}
+977.1.1 = {
+	holder = 976
+}
+995.1.1 = {
+	holder = 6032
+}
+997.1.1 = {
+	holder = 6004
+}
+1005.1.1 = {
+	holder = 980
+}
+1034.1.1 = {
+	holder = 982
+}
+1040.1.1 = {
+	holder = 5996 # MacBeth
+}
+1057.1.1 = {
+	holder = 6006 # Luilach the Fool
+}
+1058.1.1 = {
+	holder = 984 # Malcolm Canmore
 }
 1066.1.1 = {
-	liege="d_lothian"
-}
-1066.1.1=
-{
 	holder = 82001
 }
-1087.1.1={
+1072.1.1 = {
+	liege = d_lothian
+}
+1087.1.1 = {
 	holder = 963
 }
-1099.5.1={
+1099.5.1 = {
 	holder = 202998
 }
-1153.5.24={
+1120.1.1 = {
+	holder = 1909004 # Gospatric the Sheriff
+}
+1135.1.1 = {
+	holder = 202998
+}
+1153.5.24 = {
 	holder = 203000
 }
-1165.5.24={
+1165.12.9 = {
 	holder = 202999
 }
-1174.1.1={
+1174.1.1 = {
 	holder = 7291
 }
-1214.1.1={
+1214.1.1 = {
 	holder = 7290
 }
-1240.1.1={
+1240.1.1 = {
 	holder = 7289
 }
-1274.1.1={
+1274.1.1 = {
 	holder = 453600
 }
-1298.1.1={
+1298.1.1 = {
 	holder = 453603
 }
-1330.8.25={
+1330.8.25 = {
 	holder = 453605
 }
-1333.1.1={
+1333.1.1 = {
 	holder = 453607
 }

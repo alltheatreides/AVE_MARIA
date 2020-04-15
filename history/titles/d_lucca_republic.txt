@@ -1,0 +1,234 @@
+# -*- ck2.history.titles -*-
+
+# NN Tucci pretore di Lucca 1148, first use of the title.
+# Ranieri della Faggiuola?(seems peculiar to put it mildly, family isn't attested before early 13th century afaik), pretore di Lucca 1156-1162
+1160.1.1 = {
+	law = succ_feudal_elective
+    liege=e_hre
+	holder = 1065368 # Porco/Porcello Poggi(Fraolmi)
+}
+1163.1.1 = {
+	holder = 1065323 # Bernardino da Bozzano(Fraolmi), pretore di Lucca 1163-1169
+}
+1169.1.1 = {
+	holder = 1065321 # Gualterotto Castagnacci, pretore di Lucca 1169-1183
+}
+1172.8.26 = {
+    liege= k_italy
+}
+1184.1.1 = {
+	holder = 1065348 # Paganello da Pocari(Fraolmi), pretore di lucca 1187-1188
+}
+1195.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1197.9.28 = {
+    liege=0
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}	
+1200.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1202.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1203.1.1 = {    
+	holder = 1065326 # Aldobrandino da Malpigli, podesta of Lucca 1203 and 1206
+}
+1207.1.1 = {    
+	holder = 1065310 # Guido da Pirovano, podesta of Lucca ?-1209
+}
+1209.1.1 = { 
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1213.1.1 = {    
+	holder = 1065255 # Guido degli Uberti, podesta of Lucca 1199 and 1202, pretore di Lucca 1213
+}
+1214.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1215.1.1 = {    
+	holder = 1065087 # Guido Borgognone di Caparia(Alberti) grande di Lucca (sounds like he came just after Inghiramo)
+}
+1219.1.1 = {    
+	holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Lucca 1219-1220
+}
+1221.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1222.1.1 = {    
+	holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+}
+1226.1.1 = {    
+	holder = 1065346 # Inghiramo/Inghirame di Pocari(Fraolmi), podesta of Lucca 1200, imperial vicar 1209-1211 and 1214, capitano generale of Lucca 1221 and podsta again 1226
+}
+1227.1.1 = {    
+	holder = 1065324 # Oddo degli Oddi, podesta of Lucca 1227
+}
+1228.1.1 = {    
+	holder = 1065315 # Parenzo Romano(Parenzi), pretore di Lucca 1222 and 1228
+}
+1233.1.1 = {    
+	holder = 1065316 # Bernardo Romano(Parenzi), consul of Lucca 1233.
+}
+1235.1.1 = {    
+	holder = 1065092 # Arrigo di Capraia(Alberti), consul of Lucca 1235
+}
+1239.1.1 = {    
+	holder = 1064437 # Manfredo Da Cornazzano, podesta of Lucca 1239-1240
+}
+1240.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1243.1.1 = {    
+	holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+}
+1244.1.1 = {    
+	holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1246.1.1 = {    
+	holder = 1065330 # Borgognone Bonfigliastri, pretore of Lucca 1246-1249
+}
+1250.1.1 = {  
+    liege=k_tuscan_league
+	holder = 1065329 # Tomasso Maltanotte , pretore of Lucca 1243 and 1250
+}
+1250.12.13 = {
+    liege=0
+}
+1251.1.1 = {    
+	holder = 1065337 # Matteo di Gazzuolo, pretore di Lucca 1251
+}
+1253.1.1 = {    
+	holder = 1065318 # Filippo Romano(Parenzi), pretore di Lucca 1253
+}
+1255.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1256.1.1 = {    
+	holder = 1061196 # Ruggero II di Castracane(Antelminelli), consul of Lucca
+}
+1257.1.1 = {    
+	holder = 1065322 # Guiscardo Pietrasanta, pretore di Lucca 1240, 1242, 1255 and 1257
+}
+1260.1.1 = {    
+	holder = 1062012 # Guido III da Corregio, podesta of Lucca 1260
+}
+1263.1.1 = {    
+	holder = 1065320 # Filippo Asinelli, pretore di Lucca 1263
+}
+1265.1.1 = {    
+	holder = 1065311 # Gozello di Gazzuolo, pretore di Lucca 1265
+}
+1270.1.1 = {    
+	holder = 73583 # Taddeo di Montefeltro podesta of Lucca 1270
+}
+1272.1.1 = {
+#	liege = k_sicliy
+	holder = 73519 # Luchetto Gattilusio
+}
+1278.1.1 = {
+#	liege = e_hre
+	holder = 1061198 # Francesco Antelminelli
+}
+1279.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1282.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1286.1.1 = {
+	holder = 1065177 # Nicolò Malatovi guelph capitano del popolo of Lucca 1286
+}
+1287.1.1 = {
+	holder = 1065391 # Corrado I della Branca capitano del popolo of Lucca 1286
+}
+1288.1.1 = {
+	holder = 1064650 # Guicciardo/Guizardi di Mede(Lomello), podesta of Lucca 1288
+}
+1290.1.1 = {
+	holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+}
+1292.1.1 = {
+	holder = 1065325 # Guglielmo Olodini, podesta of Lucca 1292
+}
+1293.1.1 = {
+	holder = 1062144 # Guglielmo Rossi, podesta of Lucca 1290 and 1293
+}
+1295.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1298.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1302.1.1 = {
+	holder = 1062132 # Ugolino Rossi, podesta of Lucca 1282, 1295 and 1302
+}
+1303.1.1 = {
+	holder = 1065392 # Manno I della Branca capitano del popolo of Lucca 1303
+}
+1305.1.1 = {
+	holder = 1061199 # Gerio III di Castracane (Antelminelli)
+}
+1306.1.1 = {
+	holder = 1065393 # Pietro I della Branca capitano del popolo of Lucca 1306
+}
+1308.1.1 = {
+	holder = 1061184 # Bonturo Dati, consul of Lucca 1308 and 1314(indirectly held sway ower the republic in the entire period)
+}
+1311.1.1 = {
+	holder = 1062863 # Guidiccione Gabrielli podsta of Lucca 1311
+}
+1313.1.1 = {
+	holder = 1061342 # Nello da Pietra(Pannocchieschi), podesta of Lucca 1313
+}
+1314.1.1 = {
+	holder = 1065333 # Francesco della Faggiuola, podesta of Lucca 1314-1316(under his father who ruled from Pisa)
+}
+1316.11.4 = { 
+	holder = 1061200 # Castruccio Castracani Antelminelli
+}
+1327.11.17 = {
+	liege=0
+	holder=0
+}
+#1064446 # Giacomo Da Cornazzano, podesta of Lucca 1317
+#1065069 # Ricciado di Modigiliana(Guidi) podesta of Lucca 1326
+1329.5.10 = {   
+    liege=k_papal_state
+	holder = 73430 #Gherardino Spinola
+}
+1330.5.1 = {   
+	holder = 1062854 # Cante Gabrielli, podesta of Lucca 1330
+}
+1330.12.28 = {   
+	holder = 1065327 # Antonio Camilla podesta of Lucca from the 28th of december 1330
+}
+1331.1.1 = {
+	liege = k_italy
+	holder = 1061206 # Francesco Antelminelli
+}
+1333.10.1 = {
+	holder = 1062148 # Pietro Rossi, imperial vicar of Lucca 1333. Joint rule with brothers but he was the main one in Lucca.
+}
+#Della Scala claims Lucca in November 1335. Arrigo reinstated.
+1335.11.1 = {
+	liege = 0
+	holder = 0
+}
+#Arrigo makes an alliance with Milano to reduce reliance on Verona.
+1337.1.1 = {
+    liege=k_italy
+	holder = 1061201 # Enrico II/Arrigo Antelminelli, Duca di Lucca 1328.9.3 - 1329.5.10, pretore di Lucca 1335-1338(initially under della Scala)
+}
+1338.1.1 = {
+	holder = 1065331 # Francesco Gangalandi, pretore di Lucca 1338-1341
+}
+1342.1.1 = {
+	holder = 1065313 # Chiolo di Gazzuolo, pretore di Lucca 1342
+}

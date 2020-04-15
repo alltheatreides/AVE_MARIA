@@ -1,66 +1,102 @@
-750.1.1 = {
-	holder = 194152
-	liege = d_mordvins
+# -*- ck2.history.titles -*-
+
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
 }
-799.1.1 = {
-	holder = 194153
+830.1.1 = {
+	holder = 1231706
 }
-822.1.1 = {
-	holder = 194154
+# Suru-Külbej
+864.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231760
 }
-860.1.1={
-	holder = 258084
-	liege = d_burtas
+# Pechengs expulsed by Khazars.
+893.1.1 = {
+	liege = 0
+	holder = 0
 }
-936.1.1 = {
-	holder = 260703
-	liege = d_sarkel
+916.1.1 = {
+	liege = k_khazaria
+	holder = 146188
 }
-1060.1.1=
-{
-holder = 806
+920.1.1 = {
+	holder = 146189
 }
-1110.1.1=
-{
-holder = 90143
+928.1.1 = {
+	holder = 146190
 }
-1120.1.1=
-{
-holder = 125401
+945.1.1 = {
+	holder = 146191
 }
-1146.1.1=
-{
-holder = 125402
+# Sarkel destroyed, goes to oghuz turks.
+966.1.1 = {
+	liege = k_uzes
+	holder = 1231869
 }
-1183.1.1=
-{
-holder = 228030
+1010.1.1 = {
+	holder = 1231871
 }
-1203.1.1=
-{
-holder = 125403
+1035.1.1 = {
+	holder = 1231873
 }
-1223.1.1=
-{
-holder = 125404
+# Cumans consolidation complete, push westwards intensifies.
+# Terteroba
+1050.1.1 = {
+	liege = d_terteroba
+	holder = 1233087 # Sokal
 }
-1238.1.1=
-{
-holder = 34851
+1065.1.1 = {
+	holder = 1233089 # Togortac/TUgorkhan
 }
-1262.1.13=
-{
-holder = 34903
+1096.7.19 = {
+	holder = 1233093 # Osaluka-Khan/Asalup/Asaduk
 }
-1280.1.1=
-{
-holder = 34904
+1120.1.1 = {
+	holder = 1233095
 }
-1285.1.1=
-{
-holder = 34906
+1140.1.1 = {
+	holder = 1233097
 }
-1305.1.1=
-{
-holder = 34910
+1170.1.1 = {
+	holder = 1233099
+}
+1175.1.1 = {
+	holder = 1233101 # Gza/Kzak
+}
+1190.1.1 = {
+	holder = 1233103 # Roman
+}
+1220.1.1 = {
+	holder = 1233105 # Köten/Kotian/Kuthen/Johan
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
 }

@@ -1,173 +1,220 @@
-565.1.1={
-	holder = 190124 #Alboin
+# -*- ck2.history.titles -*-
+
+565.1.1 = {
+	holder = 190124 # Alboin
 }
-572.1.1={
-	holder = 190168 #Cleph
+572.1.1 = {
+	holder = 190168 # Cleph
 }
-574.1.1={
-	holder = 190169 #Authari
+574.1.1 = {
+	holder = 190169 # Authari
 }
-590.1.1={
-	holder = 190170 #Agilulf
+590.1.1 = {
+	holder = 190170 # Agilulf
 }
-616.1.1={
-	holder = 190173 #Adaloald
+616.1.1 = {
+	holder = 190173 # Adaloald
 }
-626.1.1={
-	holder = 190174 #Arioald
+626.1.1 = {
+	holder = 190174 # Arioald
 }
-636.1.1={
-	holder = 190176 #Rothari
+636.1.1 = {
+	holder = 190176 # Rothari
 }
-652.1.1={
-	holder = 190177 #Rodoald
+652.1.1 = {
+	holder = 190177 # Rodoald
 }
-653.1.1={
-	holder = 190181 #Aripert I
+653.1.1 = {
+	holder = 190181 # Aripert I
 }
-661.1.1={
-	holder = 190182 #Godepert
+661.1.1 = {
+	holder = 190182 # Godepert
 }
-662.1.1={
-	holder = 190185 #Pectarit
+662.1.1 = {
+	holder = 190185 # Pectarit
 }
-662.6.1={
-	holder = 190133 #Grimoald
+662.6.1 = {
+	holder = 190133 # Grimoald
 }
-671.1.1={
-	holder = 190136 #Garibald
+671.1.1 = {
+	holder = 190136 # Garibald
 }
-671.6.1={
-	holder = 190185 #Pectarit
+671.6.1 = {
+	holder = 190185 # Pectarit
 }
-688.1.1={
-	holder = 190188 #Cunipert
+688.1.1 = {
+	holder = 190188 # Cunipert
 }
-689.1.1={
-	holder = 190354 #Alahis
+689.1.1 = {
+	holder = 190354 # Alahis
 }
-689.6.1={
-	holder = 190188 #Cunipert
+689.6.1 = {
+	holder = 190188 # Cunipert
 }
-700.1.1={
-	holder = 190189 #Liutpert
+700.1.1 = {
+	holder = 190189 # Liutpert
 }
-701.1.1={
-	holder = 190183 #Raginpert
+701.1.1 = {
+	holder = 190183 # Raginpert
 }
-701.6.1={
-	holder = 190189 #Liutpert
+701.6.1 = {
+	holder = 190189 # Liutpert
 }
-702.1.1={
-	holder = 190184 #Aripert II
+702.1.1 = {
+	holder = 190184 # Aripert II
 }
-712.1.1={
-	holder = 190193 #Ansprand
+712.1.1 = {
+	holder = 190193 # Ansprand
 }
-712.6.1={
-	holder = 190196 #Liutprand
+712.6.1 = {
+	holder = 190196 # Liutprand
 }
-744.1.1={
-	holder = 190198 #Hildeprand
+744.1.1 = {
+	holder = 190198 # Hildeprand
 }
-744.6.1={
-	holder = 190343 #Rathchis
+744.6.1 = {
+	holder = 190343 # Rathchis
 }
-749.1.1={
-	holder = 190331 #Aistulf
+749.1.1 = {
+	holder = 190331 # Aistulf
 }
-756.1.1={
-	holder = 190347 #Desiderius
+756.1.1 = {
+	holder = 190347 # Desiderius
 }
-855.9.20={
-	liege="k_italy"
+855.9.20 = {
+	liege = k_italy
+	holder = 30228 # Louis II
 }
-855.9.20={
-	holder = 30228 #Louis II
-}
-880.1.1=
-{
+887.1.1 = {
 	liege=d_lombardia
-	holder = 167912
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
 }
-895.1.1=
-{
-	holder = 167913
+896.12.1 = {
+	holder = 1065655 # Manfredo IV aka Manfredo Mosezzo, Manfredenghi
 }
-904.5.12=
-{
-	holder = 167915
+914.1.1 = {
+	holder = 1065657 # Manfredo V Manfredenghi, conte di Lomello 914-963
 }
-936.1.1 = {
-	holder = 7923
+962.1.1 = {
+	holder = 1065659 # Egelrico Manfredenghi, conte di Verona 955-961, conte del Sacro palazzo 962-?
+}
+#Bernardo, conte del Palazzo 985-999
+#### Di Lomello, Conti Palatini del Sacro Palazzo
+989.1.1 = {
+	holder = 1064635 # Cuniberto
+}
+1005.1.1 = {
+	holder = 1064636 # Ottone
+}
+1024.1.1 = {
+	liege = e_hre
+}
+1026.3.31 = {
 	liege = k_italy
 }
-945.3.29=
-{
-	holder = 167916
-	liege = d_lombardia
+1039.6.4 = {
+	liege=e_hre
 }
-955.8.6=
-{
-	holder = 167917
+1040.1.1 = {
+	holder = 1064640 # Tadone
 }
-965.1.1={
-	holder = 70630
+1046.12.25 = {
+	liege=k_italy
 }
-975.1.1={
-	holder = 70629
+1056.10.5 = {
+	liege=e_hre
 }
-1013.1.1={
-	holder = 70628
+1060.1.1 = {
+	holder = 1064641 # Cadone
 }
-1029.1.1={
-	holder = 1118
+1080.1.1 = {
+	liege=k_italy
 }
-1097.4.13={
-	holder = 20298
+1105.1.1 = {
+	holder = 1226784 # Guido
 }
-1101.11.9={
-	holder = 20299
+1115.7.24 = {
+	liege = e_hre
 }
-1128.12.15={
-	holder = 70642
+1125.5.23 = {
+	liege=k_italy
 }
-1172.1.1={
-	liege="e_hre"
-	holder = 212501 #Friedrich I von Hohenstaufen
+1137.12.4 = {
+	liege = e_hre
 }
-1187.1.1={
-	holder = 212507
+#Beccaria
+1140.1.1 = {
+	liege=d_pavia_republic
+	holder = 1064616 # Pagano imperial vicar of Pavia
 }
-1197.9.28 = {
-	holder = 212506 #Philip I von Hohenstaufen
+1146.1.1 = {
+	holder = 1064617 # Ettore, imperial vicar of Pavia 1159.
 }
-
-1208.6.21= {
-	holder = 212607 #Otto IV Welf
+#Di Lomello, Sparvara branch
+1164.2.19 = {
+	holder = 1226786 # Goffredo I
 }
-1212.7.5 = {
-	holder = 70752 # della Torre
+1205.1.1 = {
+	holder = 1226787 # Guglielmo
 }
-1240.1.1={
-	liege="d_lombardia"
-	holder = 70771
+1210.1.1 = {
+	holder = 1064896 #Isacco da Dovara podesta of Pavia 1210
 }
-1258.1.1={
-	holder = 70765
+1211.1.1 = {
+	holder = 1226787 # Guglielmo
 }
-1259.1.1={
-	holder = 70744
+1220.5.11 = {
+	holder = 1226788 # #Guiffredo/Guisinous/Goffredo II
 }
-1264.1.1={
-	holder = 70776
+1243.1.1 = {
+	holder = 1226789 # Enrico I
 }
-1276.1.1={
-	holder = 463145
+1250.1.1 = {
+	holder = 1226790 # Enrico II
 }
-1322.6.28={
-	holder = 463141
+#Beccaria
+1254.1.1 = {
+	holder = 1064618 # Murro, podesta of Pavia.
 }
-1328.8.6={
-	holder = 463140
+1259.1.1 = {
+	holder = 1064619 # Giovannone/Ammazzarono Tesauro aka Zanone, Capitano di Popoli of Pavia.
+}
+1275.1.1 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1284.1.1 = {
+	holder = 1064658 # Riccardo/Rizzardo I
+}
+1288.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+#Beccaria
+1289.1.1 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1301.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+1307.1.1 = {
+	holder = 1064664 # Riccardino/Riccardo II
+}
+1308.1.1 = {
+	holder = 1064663 # Filippone/Filippo
+}
+1314.1.1 = {
+	holder = 1064653 # Guido/Guidacio
+}
+#Beccaria
+1315.10.6 = {
+	holder = 1064621 # Manfredo, podesta of Pavia 1282, 1289, 1300 and 1315-1322
+}
+#Di Lomello, Langosco branch
+1322.1.1 = {
+	holder = 1064654 # Riccardino/Riccardo  III
+}
+#Beccaria
+1330.1.1 = {
+	holder = 1064624 # Musso, podesta of Pavia.
 }

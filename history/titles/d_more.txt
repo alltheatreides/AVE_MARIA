@@ -1,0 +1,24 @@
+# -*- ck2.history.titles -*-
+
+800.1.1 = {
+	holder = 1228005 # Ivar Halvdansson mørekonge
+}
+825.1.1 = {
+	holder = 1228006 # Øystein Ivarsson mørekonge
+}
+858.1.1 = {
+	holder = 1228007 # Hundtjov Mørekonge
+}
+877.1.1 = {
+	holder = 0 # goes to the Mørejarls after the first battle of Solskjell
+}
+1000.1.1 = {
+	set_tribute_suzerain = {
+		who = k_sweden
+	}
+	holder = 102514 # Svein Haakonsson of Lade. Was awarded Ranrike, Jämtland and Møre in the settlement following the Battle of Svolder
+}
+1015.1.1 = {
+	clear_tribute_suzerain = k_norway
+	holder = 0
+}

@@ -1,115 +1,91 @@
-654.1.1= {
-	liege=d_itil
-	holder = 74004
+# -*- ck2.history.titles -*-
+
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
 }
-672.1.1={
-	holder = 74007
+830.1.1 = {
+	holder = 1231706
 }
-699.1.1={
-	holder = 74008
-}
-#720.1.1={
-#	holder = 74010
+# Küerchi-Chur
+#864.1.1 = {
+#	liege = d_kuerchi_chur
+#	holder = 1231859 # fictional father of Kügel, cheif of Küerchi-Chur at the time of expulsion from Yaik.
 #}
-749.1.1= {
-	holder = 74012
+# Suru-Külbej
+864.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231760
 }
-771.1.1={
-	holder = 74018
+# Pechengs expulsed by Khazars.
+895.1.1 = {
+	liege = k_khazaria
+	holder = 1233421
 }
-788.1.1={
-	holder = 74019
+930.1.1 = {
+	holder = 1233423
 }
-802.1.1={
-	holder = 74020
+# Sarkel destroyed, goes to oghuz turks.
+966.1.1 = {
+	liege = k_uzes
+	holder = 1231869
 }
-818.1.1={
-	holder = 74023
+1010.1.1 = {
+	holder = 1231871
 }
-822.1.1={
-	liege=d_itil
-	holder = 0
+1035.1.1 = {
+	holder = 1231873
 }
-860.1.1=
-{
-holder = 180174
+# Cumans arrive
+# Yimek
+1060.1.1 = {
+	liege = d_yimek
+	holder = 1233015
 }
-936.1.1 = {
-	holder = 260706
-	liege = d_bulgar
+1065.1.1 = {
+	holder = 1233017 # Esen
 }
-1066.1.1=
-{
-#liege="d_itil"
-liege = k_cuman
-holder = 806
+1082.1.1 = {
+	holder = 1233019 # Aepa
 }
-1110.1.1=
-{
-holder = 90143
+1117.1.1 = {
+	holder = 1233021
 }
-1120.1.1=
-{
-holder = 125401
+1140.1.1 = {
+	holder = 1233024 # Amurat
 }
-1146.1.1=
-{
-holder = 125402
+1165.1.1 = {
+	holder = 1233026
 }
-1183.1.1=
-{
-holder = 228030
+1205.1.1 = {
+	holder = 1233028
 }
-1203.1.1=
-{
-holder = 125403
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
 }
-1220.1.1 = {
-	holder = 34949
+1255.1.2 = {
+	holder = 125505
 }
-1223.1.1=
-{
-holder = 125404
+1256.1.2 = {
+	holder = 125506
 }
-1227.1.1=
-{
-holder = 125501
+1257.1.2 = {
+	holder = 125504
 }
-1227.12.2=
-{
-holder = 125503
+1266.1.2 = {
+	holder = 125508
 }
-1255.1.2=
-{
-holder = 125505
+1280.1.2 = {
+	holder = 125509
 }
-1256.1.2=
-{
-holder = 125506
+1287.1.2 = {
+	holder = 125511
 }
-1257.1.2=
-{
-holder = 125504
+1291.1.2 = {
+	holder = 125512
 }
-1266.1.2=
-{
-holder = 125508
+1312.1.2 = {
+	holder = 480000
 }
-1280.1.2=
-{
-holder = 125509
-}
-1287.1.2=
-{
-holder = 125511
-}
-1291.1.2=
-{
-holder = 125512
-}
-1312.1.2=
-{
-holder = 480000
-}
-
-

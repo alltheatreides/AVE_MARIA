@@ -1,75 +1,117 @@
-536.1.1={
-	liege=d_sicily
-}
-764.1.1={
-	holder = 145857
-}
-827.7.15={
-	liege=k_africa
-}
-864.1.1={
-	holder = 6885
-}
-936.1.1 = {
-	holder = 260639
+# -*- ck2.history.titles -*-
+
+536.1.1 = {
 	liege = d_sicily
 }
-1040.1.1={
+764.1.1 = {
+	holder = 145857
+}
+827.7.15 = {
+	liege = k_africa
+}
+862.1.1 = {
+	holder = 6885
+}
+869.1.1 = {
+	holder = 1300156
+}
+909.1.1 = {
 	liege = 0
+}
+917.1.1 = {
+	liege = d_sicily
+	holder = 260852 # Salim bin As'ad bin Rashid, wali of Sicily
+}
+948.1.1 = {
+	holder = 159183
+}
+954.1.1 = {
+	holder = 159184
+}
+969.1.1 = {
+	holder = 159185
+}
+982.1.1 = {
+	holder = 159186
+}
+983.1.1 = {
+	holder = 159188
+}
+986.1.1 = {
+	holder = 159189
+}
+990.1.1 = {
+	holder = 159190
+}
+998.1.1 = {
+	holder = 159191
+}
+1019.1.1 = {
+	holder = 159192
+}
+1036.1.1 = {
+	holder = 1228258
+}
+1040.1.1 = {
 	holder = 73312
 }
-1067.1.1={
-	holder = 20832
-	liege=d_tunis
+1044.1.1 = {
+	liege = 0
 }
-1068.1.1={
-	holder = 73313
-	liege=d_kabylia
+1065.1.1 = {
+	liege = d_sicily
+	holder = 1600578
 }
-1087.1.1={
+1069.1.1 = {
+	liege = 0
+	holder = 20831
+}
+1072.1.1 = {
+	holder = 1900507
+}
+1087.1.1 = {
+	liege = d_sicily
 	holder = 1132
-	liege=d_sicily
 }
-1101.6.22={
-	holder = 127065
+1089.1.1 = {
+	holder = 70978
 }
-1125.1.1={
-	holder = 211502
+1137.1.1 = {
+	holder = 70982
 }
-1130.12.25={
-	liege=k_sicily
+1156.9.1 = {
+	holder = 70983
 }
-1154.2.26={
-	holder = 211516
+1193.1.1 = {
+	holder = 1230866
 }
-1202.1.1={
-	holder = 211518
+1200.1.1 = {
+	holder = 1230869
 }
-1232.1.1={
-	holder = 212513
+1219.1.1 = {
+	holder = 1063915 # Bernardo d'Ocrea, signore di Paterno e conte di Butera 1219-1252 
 }
-1250.12.13={
-	holder = 30760
+1252.1.1 = {
+	holder = 1063916 # Gualtieri d'Ocrea, conte di Butera 1252-?
 }
-1254.5.21={
-	holder = 30785
+1255.1.1 = {
+	holder = 1063917 # Raimondo d'Ocrea, conte di Butera ?-1258 
 }
-1258.1.1={
-	holder = 7636
+1258.1.1 = {
+	holder = 70997 # Galvano Lancia, conte di Butera 1258-1268 
 }
-1266.2.26={
+#To the crown
+1268.1.1 = {
 	holder = 455406
 }
-1282.3.30={
-	holder = 460590
-	liege=k_trinacria
+1282.3.30 = {
+	holder = 1063912 #Palmieri Abbate, conte di Butera 1282-1296/1300 
 }
-1285.11.11={
-	holder = 460560
-}
-1291.6.18={
+#To the crown again
+1300.1.1 = {
 	holder = 461500
 }
-1320.1.1={
-	holder = 461502
+#d'Alagon
+1320.1.1 = {
+	holder = 71736
 }

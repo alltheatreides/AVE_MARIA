@@ -1,52 +1,83 @@
-760.1.1={
-	liege=k_lotharingia
-}
-760.1.1={
-	holder = 190562 #Hugh I
-}
-798.1.1={
-	holder = 190563 #Hugh II
-}
-855.1.1={ #duchy of Transjura/kingdom of Upper-Burgundy
-	liege = "k_burgundy"
+# -*- ck2.history.titles -*-
+
+# duchy of Transjura/kingdom of Upper-Burgundy
+855.1.1 = {
+	liege = k_burgundy
 	holder = 7977
 }
-
-864.1.1={
+864.1.1 = {
 	holder = 144998
 }
-866.1.1={
+866.1.1 = {
 	holder = 7989
 }
-876.1.1={
+876.1.1 = {
 	holder = 7984
 }
-911.10.25=
-{
-holder = 1144
+911.10.25 = {
+	holder = 1144
 }
-937.12.1=
-{
-holder = 1146
+937.12.1 = {
+	holder = 1146
 }
-993.10.19=
-{
-holder = 1148
+# House of Ivrée
+982.1.1 = {
+	holder = 272 # Otte-Guillaume
 }
-1032.9.5=
-{
-holder = 0
+1026.1.1 = {
+	holder = 276 # Renaud I de Bourgogne
 }
-1220.1.1 = {
+1032.9.5 = {
 	liege = e_hre
-	holder = 32768
 }
-1241.1.1 = {
-	holder = 32769
+1057.1.1 = {
+	holder = 280 # Guillaume I de Bourgogne
+	law = succ_seniority
 }
-1257.3.14 = {
-	holder = 0
+1087.1.1 = {
+	holder = 290 # Renaud II de Bourgogne
 }
-1291.7.15={
-	de_jure_liege = k_switzerland
+1097.1.1 = {
+	holder = 205706 # Étienne I de Bourgogne
+}
+1102.1.1 = {
+	holder = 232556 # Renaud III de Bourgogne
+}
+1148.1.1 = {
+	holder = 205599 # Béatrice I de Bourgogne
+}
+# House of Hohenstaufen
+1184.1.1 = {
+	holder = 212501 # Frédéric I Barberousse
+}
+1190.6.10 = {
+	holder = 212511 # Othon I de Hohenstaufen
+}
+1200.1.13 = {
+	holder = 30772 # Jeanne I de Bourgogne
+}
+1205.1.1 = {
+	holder = 7652 # Béatrice II de Bourgogne
+}
+# House of Andechs
+1231.1.1 = {
+	holder = 7684 # Othon III de Bourgogne
+}
+1248.1.1 = {
+	holder = 7653 # Adélaïde I de Bourgogne
+}
+# House of Ivrée
+1279.1.1 = {
+	holder = 455739 # Othon IV de Bourgogne
+}
+1303.1.1 = {
+	holder = 91146 # Robert de Bourgogne
+}
+1315.1.1 = {
+	liege = k_france
+	holder = 455741 # Jeanne de Bourgogne
+}
+# Direct Capetians
+1330.1.1 = {
+	holder = 455910 # Eudes IV
 }

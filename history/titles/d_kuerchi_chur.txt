@@ -1,0 +1,42 @@
+# -*- ck2.history.titles -*-
+
+# Küerchi-Chur
+20.1.1 = {
+	historical_nomad = yes
+}
+#864.1.1 = {
+#	liege = k_pechenegs
+#	holder = 1231859
+#}
+886.1.1 = {
+	liege = k_pechenegs
+	holder = 1231725 # Kügel, cheif of Küerchi-Chur at the time of expulsion from Yaik.
+}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+910.1.1 = {
+	holder = 1231727
+}
+940.1.1 = {
+	holder = 1231730
+}
+969.1.1 = {
+	holder = 1231732
+}
+980.1.1 = {
+	holder = 1231734 # Küchük
+}
+1030.1.1 = {
+	holder = 1231736
+}
+1040.1.1 = {
+	liege = k_pechenegs
+}
+1059.1.1 = {
+	holder = 1231738
+}
+# Consolidation after cuman subjugation.
+1094.1.1 = {
+	holder = 0
+}

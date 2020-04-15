@@ -1,6 +1,8 @@
+# -*- ck2.history.titles -*-
+
 750.1.1 = {
-	holder = 194128
 	liege = d_beloozero
+	holder = 194128
 }
 799.1.1 = {
 	holder = 194129
@@ -8,97 +10,86 @@
 822.1.1 = {
 	holder = 194130
 }
-860.1.1={
-	holder = 6828
+860.1.1 = {
+	liege = d_novgorod
+	holder = 6829
 }
-912.1.2={
+912.1.2 = {
 	holder = 600
 }
-936.1.1 = {
-	holder = 260730
-}
 945.1.2 = {
-	liege="d_kiev"
-}
-945.1.2={
+	liege = d_kiev
 	holder = 602
 }
-972.1.2={
+972.1.2 = {
 	holder = 604
 }
-978.1.2={
+978.1.2 = {
 	holder = 608
 }
 988.1.2 = {
-	liege="d_novgorod"
-}
-988.1.2={
+	liege = d_novgorod
 	holder = 622
 }
-1010.1.2={
+1010.1.2 = {
 	holder = 612
 }
-1036.1.2={
+1036.1.2 = {
 	holder = 634
 }
-1052.10.4={
+1052.10.4 = {
 	holder = 626
 }
 1054.2.20 = {
-	liege="d_pereyaslavl"
-}
-1054.2.20={
-	holder = 256098
+	#liege = d_pereyaslavl
+	liege = 0
+	holder = 630
 }
 1069.1.2 = {
-	liege="d_novgorod"
+	liege = d_novgorod
+	holder = 654
 }
 1078.5.30 = {
-	liege="d_pereyaslavl"
+	liege = d_pereyaslavl
+	holder = 630
 }
 1087.1.2 = {
-	liege="d_novgorod"
-}
-1087.1.2={
+	liege = d_novgorod
 	holder = 652
 }
-1088.1.2={
+1088.1.2 = {
 	holder = 222574
 }
-1095.1.2={
+1095.1.2 = {
 	holder = 656
 }
-1096.1.2={
+1096.1.2 = {
 	holder = 222574
 }
 1097.1.2 = {
-	liege="d_rostov"
-}
-1097.1.2 = {
+	liege = d_rostov
 	holder = 125101
 }
-1113.4.16={
+1113.4.16 = {
 	holder = 222672
 }
-1157.5.15={
+1157.5.15 = {
 	holder = 222676
 }
-1174.6.29={
+1174.6.29 = {
 	holder = 222722
 }
-1176.6.20={
+1176.6.20 = {
 	holder = 222670
 }
-1212.4.15={
+1212.4.15 = {
 	holder = 222686
 }
-1216.1.2={
+1216.1.2 = {
 	holder = 125170
 }
 1238.3.4 = {
-	liege="d_beloozero"
-}
-1238.3.4 = {
+	liege = d_beloozero
 	holder = 472824
 }
 1278.12.13 = {

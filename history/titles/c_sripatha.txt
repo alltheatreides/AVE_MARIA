@@ -1,88 +1,94 @@
-720.1.1={
-	holder = 191013	#Matsyas
+# -*- ck2.history.titles -*-
+
+720.1.1 = {
 	liege = k_kosala
+	holder = 191013 # Matsyas
 }
-760.1.1={
-	holder = 191014	#Matsyas
+760.1.1 = {
+	holder = 191014 # Matsyas
 }
-790.1.1={
-	liege = k_bengal
+810.1.1 = {
+	holder = 188148 # Mahisarama
 }
-810.1.1={
-	holder = 188148 #Mahisarama
+825.1.1 = {
+	holder = 188149 # Chandamahasena
 }
-825.1.1={
-	holder = 188149 #Chandamahasena
-}
-845.1.1={
+845.1.1 = {
 	liege = d_kanyakubja
 }
-860.1.1={
-	holder = 191936 #Narapala Jadon
+860.1.1 = {
+	holder = 191936 # Narapala Jadon
 }
-880.1.1={
-	holder = 191937 #Sangramapala
+880.1.1 = {
+	holder = 191937 # Sangramapala
 }
-900.1.1={
-	holder = 191946 #Kunthapala
+900.1.1 = {
+	holder = 191946 # Kunthapala
 }
-920.1.1={
-	holder = 191938 #Bhaumapala
+920.1.1 = {
+	holder = 191938 # Bhaumapala
 }
-940.1.1={
-	holder = 191939 #Sukhapala
+940.1.1 = {
+	holder = 191939 # Sukhapala
 }
-960.1.1={
-	holder = 191940 #Pukhapala
+960.1.1 = {
+	holder = 191940 # Pukhapala
 }
-980.1.1={
-	holder = 191941 #Viramapala
+980.1.1 = {
+	holder = 191941 # Viramapala
 }
-1000.1.1={
-	holder = 191942 #Jaitapala
+1000.1.1 = {
+	holder = 191942 # Jaitapala
 }
-1040.1.1={
+1015.1.1 = {
 	liege = d_jejakabhukti
 }
-1043.1.1={
-	holder = 191689 #Vijayapala
+1043.1.1 = {
+	holder = 191689 # Vijayapala
 }
-1058.1.1={
-	holder = 191690 #Timanpal
+1058.1.1 = {
+	holder = 191690 # Timanpal
 }
-1080.1.1={
-	holder = 191691 #Ksitipala
+1080.1.1 = {
+	holder = 191691 # Ksitipala
 }
-1120.1.1={
-	holder = 191943 #Dharmapala
+1120.1.1 = {
+	holder = 191943 # Dharmapala
 }
-1155.1.1={
+1155.1.1 = {
 	liege = d_ajmer
 }
-1160.1.1={
-	holder = 191692 #Ajayapala
+1160.1.1 = {
+	holder = 191692 # Ajayapala
 }
-1192.1.1={
-	holder = 191873 #Baha al-Din Toghril - Muslim governor	
+1192.1.1 = {
 	liege = k_delhi
+	holder = 191873 # Baha al-Din Toghril - Muslim governor of Bayana appointed in 1196
 }
-1206.3.15={
-	liege=e_rajastan
-	holder = 191822 #Arsalan Khan
+1202.1.1 = { #Toghril gives up Bayana to his brother-in-law Arsalan Khan, pressured by Aibak
+	holder = 191822 # Arsalan Khan
 }
-1220.1.1={
-	holder = 191694 #Haripal
+1210.1.1 = {
+	holder = 170190 # Aibak
 }
-1250.1.1={
-	holder = 191695 #Sohanpal
+1210.11.4 = {
+	holder = 170191 # Aram
 }
-1270.1.1={
-	holder = 191696 #Anangapal
+1211.6.1 = {
+	holder = 170193 # Iltutmish
 }
-1300.1.1={
-	holder = 191697 #Prithvipal
+1220.1.1 = {
+	holder = 191694 # Haripal
 }
-1320.1.1={
-	holder = 191944 #Rajapala
+1250.1.1 = {
+	holder = 191695 # Sohanpal
 }
-
+1270.1.1 = {
+	holder = 191696 # Anangapal
+}
+1300.1.1 = {
+	holder = 191697 # Prithvipal
+}
+1320.1.1 = {
+	holder = 191944 # Rajapala
+}

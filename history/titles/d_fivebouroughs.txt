@@ -1,0 +1,34 @@
+# -*- ck2.history.titles -*-
+
+100.1.1 = {
+	de_jure_liege = k_mercia
+}
+865.1.1 = {
+	effect = { set_title_flag = emf_lodbrok_invasion_of_mercia }
+}
+867.3.21 = {
+	effect = { clr_title_flag = emf_lodbrok_invasion_of_mercia }
+}
+927.7.12 = {
+	de_jure_liege = k_england
+}
+954.1.1 = {
+	liege = k_england
+	#law = agnatic_succession
+	#law = succ_primogeniture
+}
+1017.12.25 = {
+	holder = 102518 # Haakon Eiriksson of the Lade Family. Was driven to England, where he was made an Earl like his father
+}
+1028.1.1 = {
+	holder = 0
+}
+1038.1.1 = {
+	holder = 1226266 # Earl Thuri
+}
+1041.1.1 = {
+	holder = 161425 # Earl Beorn
+}
+1049.1.1 = {
+	holder = 0
+}

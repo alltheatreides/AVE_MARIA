@@ -1,61 +1,83 @@
-769.1.1={
-	liege = "d_moldau"
-	holder = 256042
-}
-840.1.1 = {
-	holder = 256043
-}
-936.1.1 = {
-	liege = d_wild_fields
-	holder = 260695
-}
-1066.1.1=
-{
-	liege=d_moldau
-}
-1066.1.1=
-{
-	holder = 20640
-}
-1091.1.1=
-{
-	holder = 34814
-}
-1115.1.1=
-{
-	holder = 34815
-}
-1150.1.1=
-{
-	holder = 34816
-}
-1171.1.1=
-{
-	liege="d_moldau"
-	holder = 34826
-}
-1190.1.1=
-{
-	holder = 34827
-}
-1225.1.1=
-{
-	holder = 34828
-}
-1238.1.1=
-{
-	holder = 34835
-}
-1260.1.1=
-{
-	holder = 34836
-}
-1300.1.1=
-{
-	holder = 34837
-}
-1330.1.1=
-{
-	holder = 34838
-}
+# -*- ck2.history.titles -*-
 
+# Ponyzzia/Podolia/Aq-Su
+850.1.1 = {
+	liege = d_ulichs
+	holder = 1226958
+}
+892.1.1 = {
+	holder = 1226959
+}
+951.1.1 = {
+	holder = 1226960
+}
+972.1.1 = {
+	holder = 1226972
+}
+999.1.1 = {
+	holder = 1226973
+}
+1045.1.1 = {
+	holder = 1226974
+}
+1055.1.1 = { # The Uzes besiege Kiev
+	liege = k_uzes
+	holder = 1231873
+}
+# Cumans arrive, Black hats formed
+1060.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = d_kiev
+		type = permanent
+	}
+	holder = 1231903
+}
+1090.1.1 = {
+	holder = 1231905
+}
+1107.1.1 = {
+	holder = 1231907 # Mnuz
+}
+1140.1.1 = { #Black hats vassalage
+	clear_tribute_suzerain = d_kiev
+	liege = d_kiev
+}
+1146.1.1 = {
+	holder = 1231909 # Karakoz
+}
+1185.1.1 = {
+	holder = 1231911
+}
+1196.1.1 = {
+	holder = 1231913
+}
+1226.1.1 = {
+	holder = 1231915
+}
+1240.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1265.1.1 = {
+	liege = d_crimea
+	holder = 125535
+}
+1289.1.2 = {
+	holder = 125536
+}
+1294.1.2 = {
+	holder = 125537
+}
+1321.1.2 = {
+	holder = 125544
+}

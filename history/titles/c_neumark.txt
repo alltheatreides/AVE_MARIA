@@ -1,98 +1,66 @@
-750.1.1 = {
-	holder = 194071
-	liege = d_pommerania
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+        liege=d_lutici
+	holder = 1227071
 }
-799.1.1 = {
-	holder = 194072
+893.1.1 = {
+	holder = 1227072
 }
-822.1.1 = {
-	holder = 194073
+934.1.1 = {
+	holder = 1227073
 }
-867.1.1={
-holder = 168588
-}
+#The western bank of the Oder is subjugated by the Germans, the Sprevanis joins the Pommeranians instead
 936.1.1 = {
-	holder = 260570
-	liege = d_pommerania
+	liege=d_pommeranians
 }
-1066.1.1=
-{
-holder = 30522 #Siemomysl 
+973.1.1 = {
+	holder = 1227074
 }
-1068.1.1=
-{
-holder = 30523 #Swantibor
+#The western bank of the Oder regains its independence in the Great Slav Rising of 983
+983.1.1 = {
+	liege = d_lutici
 }
-1092.1.1=
-{
-holder = 30524 #Gwienomir
+1002.1.1 = {
+	holder = 1227075
 }
-
-1106.1.1=
-{
-holder = 221703 #Swietopelk I
+1046.1.1 = {
+	holder = 1227076
 }
-1122.1.1=
-{
-holder = 221718 #Ratibor I
+1078.1.1 = {
+	holder = 1227077
 }
-1156.5.7=
-{
-holder = 221723 #Swietopelk II
+1103.1.1 = {
+	holder = 1227078
 }
-1175.1.20=
-{
-holder = 221719 #Wratislaw I
+1133.1.1 = {
+	holder = 1227079
 }
-1182.1.1=
-{
-holder = 221720 #Bogislaw
+1147.1.1 = {
+	holder = 1227080
 }
-1224.1.1=
-{
-holder = 221721 #Ratibor II
+1150.1.1 = {
+	liege = d_sprevani
 }
-
-
-1228.1.1=
-{
-liege="d_pomeralia"
-} 
-1228.1.1=
-{
-holder = 30452 #Wartislaw I
+1174.1.1 = {
+        liege=e_hre
+	holder = 212030
 }
-1233.5.4=
-{
-holder = 30451 #Swietopelk II
+1184.7.8 = {
+	holder = 212037
 }
-1266.1.10=
-{
-holder = 30453 #Sambor II
+1205.7.4 = {
+	holder = 212032
 }
-1270.1.1=
-{
-holder = 30459 #Wartislaw II
+1220.2.25 = {
+	holder = 7688
 }
-1271.1.1=
-{
-holder = 30458 #Mszczuj II
+1267.2.2 = {
+	holder = 7558
 }
-
-1294.12.25=
-{
-holder = 30538  #Swenzo
+1318.2.14 = {
+	holder = 7560
 }
-
-1308.1.1=
-{
-holder = 30540  #Piotr
-}
-1308.11.13=
-{
-liege="d_pommerania"
-}
-1327.1.1=
-{
-holder = 30541 #Jasko
+1320.8.20 = {
+	holder = 462731
 }

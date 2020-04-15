@@ -1,100 +1,61 @@
-632.1.1={
-	liege="d_bessarabia"
-	holder = 159117
+# -*- ck2.history.titles -*-
+
+865.1.1 = {
+	liege = d_bolohoveni
+	holder = 1233253
 }
-665.1.1={
-	holder = 159127
+900.1.1 = {
+	holder = 1233254
 }
-680.1.1={
-	holder = 159118
+940.1.1 = {
+	holder = 1233255
 }
-700.1.1={
-	holder = 159120
+970.1.1 = {
+	holder = 1233256
 }
-721.1.1={
-	holder = 145953
+990.1.1 = {
+	holder = 1233257
 }
-755.1.1={
-	holder = 145954
+1020.1.1 = {
+	holder = 1233258
 }
-765.1.1={
-	holder = 159121
+# Cumans arrive, Black hats formed
+1060.1.1 = {
+	holder = 1233259 # Ioan
 }
-768.1.1={
-	holder = 159122
+1100.1.1 = {
+	holder = 1233260
 }
-777.1.1={
-	holder = 145955
+1120.1.1 = {
+	holder = 1233261
 }
-852.1.1={
-	liege = "d_transylvania"
+1150.1.1 = {
+	holder = 1233262
 }
-852.1.1={
-	holder = 168069
+1170.1.1 = {
+	holder = 1233263
 }
-867.1.1={
-	holder = 168287
+1210.1.1 = {
+	holder = 1233264
 }
-936.1.1 = {
+1230.1.1 = {
+	holder = 1233265
+}
+#############
+1241.12.11 = {
 	liege = d_moldau
-	holder = 260693
-}
-1066.1.1=
-{
-	liege=k_pechenegs
-	holder = 256066
-	historical_nomad = yes
-}
-1091.1.1=
-{
-	holder = 34811
-}
-1115.1.1=
-{
-	holder = 34812
-}
-1150.1.1=
-{
-	holder = 34813
-}
-1171.1.1=
-{
-	liege="d_moldau"
-	holder = 34826
-	historical_nomad = no
-}
-1187.1.1=
-{
-	holder = 228030
-}
-1203.1.1=
-{
-	holder = 34827
-}
-1225.1.1=
-{
-	holder = 34828
-}
-1238.1.1=
-{
-	liege="e_golden_horde"
 	holder = 125516
 }
-1265.1.2=
-{
+1260.1.2 = {
 	holder = 125517
 }
-1270.1.2=
-{
+1270.1.2 = {
 	holder = 125518
 }
-1299.1.2=
-{	
+1299.1.2 = {
 	holder = 34830
 }
-1320.1.1=
-{
-	liege="d_wallachia"
+1320.1.1 = {
+	liege = d_wallachia
 	holder = 475550
 }
-

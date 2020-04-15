@@ -1,0 +1,19 @@
+#Cinque Ports family
+1230.1.1 = {
+	holding_dynasty = 1000100175 # de Northwode - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066992 #Stephen de Northwode
+}
+1231.4.1 = {
+	holder = 1066993 #Roger de Northwode
+}
+1286.11.9 = {
+	holder = 1066994 #John I de Northwode
+}
+1319.5.26 = {
+	holder = 1066996 #Roger II de Northwode
+}
+1361.11.5 = {
+	holder = 0
+	liege=0
+}

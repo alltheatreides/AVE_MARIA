@@ -1,68 +1,91 @@
-758.1.1={
-	holder = 205265
+# -*- ck2.history.titles -*-
+
+865.1.1 = {
+	liege = d_somerset
+	holder = 7627 # Alfred the Great
 }
-865.1.1={
-	liege="k_england"
-	holder = 33358 
+# Treaty of Alfred and Guthrum
+879.1.1 = {
+	liege = d_norfolk
+	holder = 168650 # Gorm/Guttorm/Guthrum/Athelstan King of Eastanglia
+}
+890.12.1 = {
+	holder = 1144470 # Eiríkr/Eohric King of Eastanglia(or just a jarl?)
+}
+927.7.12 = {
+	liege = k_england
 }
 936.1.1 = {
-	holder = 260527
 	liege = d_norfolk
+	holder = 1226375 # Ælfgar # Earldorman of Essex ?-950ish
 }
-1066.1.1 = {
-	liege="d_norfolk"
+951.1.1 = {
+	liege = k_england
+	holder = 1226351 # Æthelwald, Ealdorman of Essex (950ish?-962)
 }
-1066.1.5={
-	holder = 132 #Gyrth Godwinsson
+962.1.1 = {
+	liege = d_essex
+	holder = 1226367 # Byrhtnoth, Earldorman of Essex ?-991.
 }
-1066.10.14={
-	liege="k_england"
+991.8.10 = {
+	liege = k_england
+	holder = 1226379 # Leofsige Earldorman of Eastanglea 993-1002
 }
-1066.10.14=
-{
-	holder = 129048 #Geoffrey de Mandeville
+1002.1.1 = {
+	holder = 1226380 # Ulfcytel" "Warleader" and "Dux" of eastanglia 1002-1016
 }
-1104.1.1=
-{
-	holder = 129049 #William de Mandeville
+1018.1.1 = {
+	liege = k_england
+	holder = 1228059 #Tovi the proud
 }
-1116.1.1=
-{
-	holder = 204745 #Geoffrey de Mandeville
+1045.1.1 = {
+	holder = 1226250 #Athelstan son of Tovi
 }
-1144.10.1={
-	holder = 129050 #Geoffrey de Mandeville
+1066.1.5 = {
+	holder = 130 # Leofwine Godwinsson
 }
-1166.1.1={
-	holder = 204740 #William de Mandeville
+1066.10.14 = {
+	holder = 129048 # Geoffrey de Mandeville
 }
-1189.11.14={
-	holder = 204510 #Richard I Lionheart
+1104.1.1 = {
+	holder = 129049 # William de Mandeville
 }
-1199.4.6={
-	holder = 129051 #Geoffrey FitzPeter
+1116.1.1 = {
+	holder = 204745 # Geoffrey de Mandeville
 }
-1213.10.14={
-	holder = 129052 #"Geoffrey FitzGeoffrey"
+1144.10.1 = {
+	holder = 129050 # Geoffrey de Mandeville
 }
-1216.2.23={
-	holder = 129053 #"William FitzGeoffrey"
+1166.1.1 = {
+	holder = 204740 # William de Mandeville
 }
-1227.1.1={
-	holder = 454522 #Henry III
+1189.11.14 = {
+	holder = 204510 # Richard I Lionheart
 }
-1239.1.1={
-	holder = 7462 #Humphrey de Bohun
+1199.4.6 = {
+	holder = 129051 # Geoffrey FitzPeter
 }
-1275.9.24={
-	holder = 7463 #Humphrey de Bohun
+1213.10.14 = {
+	holder = 129052 # "Geoffrey FitzGeoffrey"
 }
-1298.12.31={
-	holder = 454561 #Humphrey de Bohun
+1216.2.23 = {
+	holder = 129053 # "William FitzGeoffrey"
 }
-1321.11.6={
-	holder = 7464 #John of Bohun
+1227.1.1 = {
+	holder = 454522 # Henry III
 }
-1335.1.20={
-	holder = 454560 #Humphrey de Bohun
+1239.1.1 = {
+	holder = 7462 # Humphrey de Bohun
+}
+1275.9.24 = {
+	holder = 7463 # Humphrey de Bohun
+}
+1298.12.31 = {
+	holder = 454561 # Humphrey de Bohun
+}
+1321.11.6 = {
+	holder = 7464 # John of Bohun
+}
+1335.1.20 = {
+	holder = 454560 # Humphrey de Bohun
 }

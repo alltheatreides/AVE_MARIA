@@ -1,0 +1,55 @@
+# -*- ck2.history.titles -*-
+
+# Bryansk / Severians
+760.1.1 = {
+	holder = 194142
+}
+799.1.1 = {
+	holder = 194143
+}
+822.1.1 = {
+	holder = 194144
+}
+865.1.1 = {
+	holder = 159721
+}
+#Oleg of Novgorod forced the Severians to pay tribute as well
+885.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ruthenia
+		type = permanent
+	}
+}
+900.1.1 = {
+	holder = 6860
+}
+902.1.1 = {
+	holder = 160089
+}
+910.1.1 = {
+	holder = 1601003
+}
+951.1.1 = {
+	holder = 1601005	
+}
+990.1.1 = {
+	holder = 1601007
+}
+1018.1.2 = {
+	clear_tribute_suzerain = k_ruthenia
+	set_tribute_suzerain = {
+		who = d_kiev
+		type = permanent
+	}
+}
+1019.1.2 = {
+	clear_tribute_suzerain = d_kiev
+	set_tribute_suzerain = {
+		who = k_ruthenia
+		type = permanent
+	}
+}
+1024.1.2 = {
+	holder = 0
+	clear_tribute_suzerain = k_ruthenia
+}

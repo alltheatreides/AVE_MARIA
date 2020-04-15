@@ -1,70 +1,75 @@
-752.1.1={
-	liege=k_pechenegs
-	holder = 258090
-}
+# -*- ck2.history.titles -*-
 
-860.1.1 = {
-	liege=d_turkestan
-	holder = 258089
+803.1.1 = {
+	historical_nomad = yes
+	#liege = d_khwarazm
+	#holder = 1231215
 }
-936.1.1 = {
-	liege = d_dihistan
-	holder = 261027
+855.1.1 = { #In reailty, the Oghuz arrived in the mid-10th century
+	liege = d_oghuz
+	holder = 1600050 # Yazir tribe
 }
-1066.1.1=
-{
-	liege=d_syr_darya
-	holder = 258092
+885.1.1 = {
+	holder = 1600051
 }
-1077.1.1=
-{
-	liege="d_turkestan"
+915.1.1 = {
+	holder = 1600052
 }
-1085.1.1=
-{
-	holder = 93088
+948.1.1 = {
+	holder = 1600053
 }
-1097.1.1=
-{
-	holder = 144099
+979.1.1 = {
+	holder = 1600054
 }
-1127.1.1=
-{
-	holder = 144100
+1006.1.1 = {
+	holder = 1600055
 }
-1156.1.1=
-{
-	holder = 144101
-} 
-1172.3.1=
-{
-	holder = 230000
+1035.1.1 = {
+	holder = 1231991 # Salur/Salghur became the most numerous tribe of Mangyshalk during the times of Yabghu Ali or Shah Malik according to oral traditions
 }
-1200.1.1=
-{
-	holder = 93052
+1042.1.1 = {
+	liege = d_ustyurt
+	holder = 1232032
 }
-1207.1.1=
-{
-	holder = 93053
+1067.1.1 = {
+	holder = 1232033
 }
-1221.1.1=
-{
-	liege="e_mongol_empire"
+1099.1.1 = {
+	holder = 1232034
 }
-1221.1.1=
-{
-	holder = 93100
+1125.1.1 = {
+	holder = 1232035
 }
-1227.12.2={
-	liege="e_golden_horde"
+1161.1.1 = {
+	holder = 1232036
 }
-1260.1.1=
-{
-	holder = 93101
+1189.1.1 = {
+	holder = 1232037
 }
-1300.1.1=
-{
-	holder = 93102
+1217.1.1 = {
+	holder = 1232038
 }
-
+1223.1.1 = {
+	liege = e_mongol_empire
+	holder = 125501
+}
+1227.12.2 = {
+	liege = k_turkestan_west
+	holder = 125503
+}
+1234.2.10 = {
+	liege = e_golden_horde
+}
+1241.12.11 = {
+	liege = d_ustyurt
+	holder = 125534
+}
+1275.1.2 = {
+	holder = 125540
+}
+1304.1.2 = {
+	holder = 125541
+}
+1327.1.2 = {
+	holder = 125538
+}

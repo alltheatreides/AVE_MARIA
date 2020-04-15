@@ -1,92 +1,87 @@
-539.1.1={
-	liege="d_rashka"
-}
-768.1.1={
-	holder = 167859
-}
-850.1.1={
+# -*- ck2.history.titles -*-
+
+850.1.1 = {
+	liege = d_rashka
 	holder = 163116
 }
-917.1.1={
+891.1.1 = {
+	holder = 167869
+}
+892.1.1 = {
+	holder = 167876
+}
+917.1.1 = {
 	holder = 167873
 }
-921.1.1={
+921.1.1 = {
 	holder = 167870
 }
-924.1.1={
+924.1.1 = {
 	holder = 167875
 }
-1060.1.1=
-{
-holder = 20491
+960.1.1 = {
+	holder = 0
 }
-1066.1.1=
-{
-liege="d_dioclea"
+976.1.1 = {
+	liege = d_dioclea
+	holder = 20496 # Petrislav aka. Peter of Diokleia, placeholder ruler under the unknown period of Byzantine rule over Serbia after the demise of the Catepanate of Ras and before the Bulgarian takeover of Serbia in 998
 }
-1082.1.1=
-{
-holder = 20493
+998.1.1 = {
+	holder = 40530 # Jovan Vladimir, initially a Byzzie ally, had his principality conquered by the Bulgarians in 1010. Was eventually killed by Tsar Ivan Vladislav despite a pledge of safe conduct, was succeeded by his uncle Dragimir
 }
-1083.1.1=
-{
-liege="d_rashka"
+1016.5.22 = {
+	holder = 20494 # Dragimir, uncle of Jovan Vladimir
 }
-1083.1.1=
-{
-holder = 20538
+1018.1.1 = {
+	liege = d_syrmia
+	holder = 1229402 # Ljutovid of Zahumlje, ruler of the interior
 }
-1112.1.1=
-{
-holder = 218510
+1028.1.1 = {
+	liege = d_hum
 }
-1145.1.1=
-{
-holder = 34070
+1043.1.1 = {
+	liege = d_croatia
+	holder = 8620
 }
-1162.1.1=
-{
-holder = 34072
+1058.1.1 = {
+	holder = 8622
 }
-1163.1.1=
-{
-holder = 34071
+1060.1.1 = {
+	liege = d_bosnia
+	holder = 1229231 # mysterious ban of Bosnia
 }
-1166.1.1=
-{
-holder = 34074
+1097.1.1 = {
+	liege = k_croatia
+	holder = 93556
 }
-1196.1.1=
-{
-holder = 34077
+1130.1.1 = {
+	holder = 93557
 }
-1198.1.1=
-{
-holder = 34079
+1150.1.1 = {
+	holder = 93558
 }
-1225.1.1=
-{
-holder = 34078
+1165.1.1 = {
+	liege = d_bosnia
+	holder = 219500
 }
-1239.1.1=
-{
-holder = 34103
+1172.3.4 = {
+	holder = 218800
 }
-1243.1.1={
-	holder = 34088
+1204.1.1 = {
+	holder = 218801
 }
-1276.1.1={
-	holder = 34117
+1232.1.1 = {
+	holder = 34145
 }
-1282.1.1={
-	holder = 468505
+1249.3.1 = {
+	holder = 34148
 }
-1321.10.29={
-	holder = 34122
+1287.1.1 = {
+	holder = 34149
 }
-1322.6.1={
-	holder = 468510
+1295.1.1 = {
+	holder = 468810
 }
-1331.11.3={
-	holder = 468500
+1314.1.13 = {
+	holder = 468800
 }

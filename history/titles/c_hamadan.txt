@@ -1,123 +1,175 @@
-750.1.1={
-	liege=d_jibal
-}
+# -*- ck2.history.titles -*-
 
-768.1.1={
-	holder = 34003 # al-Mahdi Abbasid (fictitious assignment)
-}
-
-840.1.1={
+# Dulafids or Ejlids
+840.10.10 = {
+	liege = d_jebal
 	holder = 163098
 }
-936.1.1 = {
-	holder = 261013
+867.1.1 = { #Punitive expedition against the Dulafids/Ejlids
+	liege = 0
 }
-1063.9.4={
+870.10.10 = {
+	liege = d_jebal
+	holder = 163152
+}
+894.10.10 = {
+	holder = 1230543
+}
+896.10.10 = {
+	holder = 1230541
+}
+931.1.1 = {
+	liege = d_tabarestan
+	holder = 166989
+}
+935.1.19 = {
+	holder = 1231167 #Lashkari b. Mardi, based somewhere in Jebal
+}
+939.1.1 = {
+	holder = 166990
+}
+943.1.1 = {
+	liege = d_jebal
+	holder = 1231063
+}
+976.9.9 = {
+	liege = k_persia
+	holder = 1231066 # Fakhr al-Dawla Ali, named governor before his father's death
+}
+977.1.1 = { #Fakhr al-Dawla sides with Izz al-Dawla against Azod al-Dawla
+	liege = 0
+}
+980.9.1 = {
+	liege = d_jebal
+	holder = 1231068 # Fakhr al-Dawla Ali expelled by Azod al-Dawla
+}
+984.1.1 = {
+	holder = 1231066 # Fakhr al-Dawla Ali
+}
+997.10.10 = {
+	holder = 1231081
+}
+1021.1.1 = {
+	holder = 1231082
+}
+1023.1.1 = { #Kakuyid Ala al-Dawla takes over Hamadan
+	liege = 0
+	holder = 1231052
+}
+1029.1.1 = {
+	liege = d_jebal
+}
+1042.1.1 = {
+	holder = 1231054
+}
+1047.1.1 = {
+	liege = k_khorasan
+	holder = 3038
+}
+1050.1.1 = {
+	holder = 1229902
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1059.1.2 = {
+	holder = 3038
+}
+1063.9.4 = {
+	liege = d_jebal
 	holder = 3040
 }
-1072.11.1=
-{
-	holder = 3042
+# Hashimid governors (ra'is)
+1065.11.1 = {
+	holder = 1230550
 }
-1092.11.1=
-{
-	holder = 144012
+1108.10.10 = {
+	holder = 1600060 # Bursuq b. Bursuq, appointed governor between 1105 and 1111
 }
-1094.1.1=
-{
-	holder = 144013
+1116.1.1 = {
+	holder = 1230551
 }
-1105.3.1=
-{
-	holder = 144014
-}
-1118.4.18=
-{
-	holder = 144043
-}
-1131.1.1=
-{
-	holder = 144048
-}
-1132.1.1=
-{
+1129.1.1 = {
+	liege = d_jebal
 	holder = 144050
 }
-1133.1.1=
-{
+1137.1.1 = {
 	holder = 144049
 }
-1152.10.2=
-{
+1152.10.2 = {
 	holder = 144053
 }
-1153.1.1=
-{
+1153.1.1 = {
 	holder = 144054
-} 
-1159.1.1=
-{
+}
+1159.1.1 = {
+	holder = 93126
+}
+1161.1.1 = {
 	holder = 144055
 }
-1175.12.31=
-{
+1175.12.31 = {
 	holder = 144056
 }
-1194.3.1=
-{
-	
-	holder = 230000
+1194.3.1 = { #technically given control in 1186
+	holder = 93297
 }
-1200.1.1=
-{
-	holder = 93052
+1218.1.1 = {
+	liege = d_jebal
+	holder = 1230172
 }
-1210.1.1=
-{
+1221.1.1 = {
 	holder = 93054
 }
-1221.1.1=
-{
-
-	holder = 125520
+1223.1.1 = {
+	holder = 93053
 }
-1232.1.1={
+1231.1.1 = {
+	liege = d_jebal
+	holder = 93253
+}
+1236.1.1 = {
+	holder = 1229824 # Korguz
+}
+1242.1.1 = {
+	holder = 217220 # Arghun Aqa
+}
+1256.1.1 = {
 	holder = 478011
 }
-1265.2.8={
+1259.8.11 = {
+	liege = e_il-khanate
+}
+1265.2.8 = {
 	holder = 478010
 }
-1282.1.1={
+1282.1.1 = {
 	holder = 125523
 }
-1284.1.1={
+1284.1.1 = {
 	holder = 478008
 }
-1291.1.1={
+1291.1.1 = {
 	holder = 125525
 }
-1295.1.1={
+1295.1.1 = {
 	holder = 125522
 }
-1295.8.1={
+1295.10.4 = {
 	holder = 125524
 }
-1304.5.11={
+1304.5.11 = {
 	holder = 478007
 }
-1316.12.16={
+1316.12.16 = {
 	holder = 478006
-}	
-1335.12.1={
+}
+1335.12.1 = {
 	holder = 125528
 }
-1336.4.10=
-{
+1336.4.10 = {
 	holder = 478000
 }
-1336.7.24=
-{
-	holder = 34433
+1336.7.24 = {
+	holder = 478030
 }
-
-

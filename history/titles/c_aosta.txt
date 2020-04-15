@@ -1,55 +1,78 @@
-756.1.1={
-	liege=d_susa
+# -*- ck2.history.titles -*-
+
+855.1.1 = {
+	liege = d_upper_burgundy
+	holder = 7977
 }
-756.1.1={
-	holder = 218000
+864.1.1 = {
+	holder = 144998
 }
-860.1.1={
-	liege="k_italy"
+866.1.1 = {
+	holder = 7989
 }
-860.1.1={
-	holder = 218001 
+876.1.1 = {
+	holder = 7984
 }
-936.1.1 = {
-	holder = 260599
+937.1.1 = {
 	liege = k_burgundy
 }
-1032.9.5={
-	liege = "e_hre"
+994.1.1 = {
+	holder = 1190000
 }
-1046.1.1={
-	liege="d_savoie"
-	holder = 218002
+1026.1.16 = {
+	holder = 1176
 }
-1093.1.1={
-	holder = 218009
+1032.9.5 = {
+	liege = e_hre
 }
-1130.1.1={
-	holder = 218004
+1033.1.1 = {
+	liege = d_savoie
 }
-1189.1.1={
-	holder = 218005
+1051.7.1 = {
+	holder = 1178
 }
-1229.3.1={
-	holder = 70897
+1051.12.18 = {
+	holder = 1180
 }
-1253.7.13={
-	holder = 70902
+1060.3.1 = {
+	holder = 1182
 }
-1259.2.7={
+1078.8.9 = {
+	holder = 1184
 }
-1263.3.13={
-	holder = 70909
+1080.1.26 = {
+	holder = 213119
 }
-1268.5.14={
+#Challant, visconti di Aosta
+1090.1.1 = {
+	holder = 1091116
+}
+1130.1.2 = {
+	holder = 1091117
+}
+1170.1.2 = {
+	holder = 1091118
+}
+1210.1.2 = {
+	holder = 1091119
+}
+1240.1.2 = {
+	holder = 1091120
+}
+1270.1.2 = {
+	holder = 1091121
+}
+# Here end the Challant family rule as counts of Aosta, the title revert back to the Ducky of Savoy
+# Don't know where to find the character of ducky of Savoy, so all this dates and holders must be controlled
+1285.1.2 = {
 	holder = 70913
 }
-1285.8.16={
+1285.8.16 = {
 	holder = 462150
 }
-1323.10.16={
+1323.10.16 = {
 	holder = 462153
 }
-1329.11.4={
+1329.11.4 = {
 	holder = 462154
 }

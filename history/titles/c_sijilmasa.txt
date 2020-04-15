@@ -1,147 +1,157 @@
-767.1.1={
-	holder = 210033
+# -*- ck2.history.titles -*-
+
+740.1.1 = {
+	holder = 1236322
 }
-788.1.1={
-	liege="k_mauretania"
+784.1.1 = {
+	holder = 1236465
 }
-788.1.1={
-	holder = 159501
+790.1.1 = {
+	holder = 1228834
 }
-791.12.16={
-	holder = 159502
+823.1.1 = {
+	holder = 1228835
 }
-828.1.1={
-	holder = 159503
+867.11.11 = {
+	holder = 1228838
 }
-836.1.1={
-	holder = 159504
+867.12.12 = {
+	holder = 1228839
 }
-848.1.1={
-	holder = 159505
+877.1.1 = {
+	holder = 1228840
 }
-864.1.1={
-	holder = 159506
+883.1.1 = {
+	holder = 1228841
 }
-866.1.1={
-	liege="d_fes"
+909.1.1 = {
+	holder = 1236466
 }
-866.1.1={
-	holder = 159508
-}
-936.1.1 = {
-	holder = 260864
+933.1.1 = {
 	liege = d_sijilmasa
+	holder = 1236471
 }
-1051.1.1=
-{
-liege="k_mauretania"
+942.1.1 = {
+	holder = 1236472
 }
-1051.1.1=
-{
-holder = 32964
+942.3.1 = {
+	holder = 1236467
 }
-1055.1.1=
-{
-holder = 32958
+958.1.1 = {
+	holder = 1236472
 }
-1057.1.1=
-{
-holder = 3853
+963.1.1 = {
+	holder = 1236473
 }
-1066.1.1 = {
-	holder = 273109
+977.1.1 = {
+	#liege = d_sijilmasa
+	holder = 1236308
 }
-1076.1.1=
-{
-holder = 32965
+979.1.1 = {
+	holder = 1236309
 }
-1106.1.1=
-{
-holder = 32969
+997.1.1 = {
+	holder = 1236311
 }
-1143.1.1=
-{
-holder = 32971
+999.1.1 = {
+	holder = 1236309
 }
-1145.1.1=
-{
-holder = 32972
+1020.1.1 = {
+	holder = 1236312
 }
-1146.1.1=
-{
-holder = 32970
+1054.1.1 = {
+	liege = k_mauretania
+	holder = 32958
 }
-1147.1.1=
-{
-holder = 32978
+1057.1.1 = {
+	holder = 32965 # Abu Bakr appoints Yusuf b. Tashfin as garrison commander of Sijilmasa for a brief period
 }
-1163.1.1=
-{
-holder = 224000
+1061.1.1 = {
+	holder = 1228877
 }
-1184.7.29=
-{
-holder = 32980
+1069.1.1 = { #coins struck in Ibrahim b. Abu Bark's name, 1069-1073
+	liege = d_sijilmasa
+	holder = 3855
 }
-1199.1.23=
-{
-holder = 224005
+1076.1.1 = {
+	holder = 1600581 # Da'ud b. Aisha
 }
-1213.1.1=
-{
-liege = d_fes
-holder = 32983
+1106.1.1 = {
+	liege = k_maghreb
+	holder = 32969
 }
-1224.1.1=
-{
-liege = k_mauretania
-holder = 32982
+1143.1.1 = {
+	liege = 0
+	holder = 32978
 }
-1225.1.1=
-{
-holder = 32983
+1145.1.1 = {
+	liege = d_tlemcen
 }
-1227.1.1=
-{
-holder = 32984
+1147.4.1 = {
+	liege = k_maghreb
 }
-1229.1.1=
-{
-holder = 32985
+1163.1.1 = {
+	holder = 224000
 }
-1233.1.1=
-{
-holder = 32986
+1184.7.29 = {
+	holder = 32980
 }
-1242.1.1=
-{
-holder = 32987
+1199.1.23 = {
+	holder = 224005
 }
-1248.1.1=
-{
-holder = 32989
+1208.1.1 = {
+	liege = d_sijilmasa
+	holder = 1230072 # Abu Abd Allah b. Abu Yahya b. Abu Hafs before 1211
 }
-1262.1.1=
-{
-liege="d_marrakech"
+1211.1.1 = {
+	liege = k_maghreb
+	holder = 224005
 }
-1262.1.1=
-{
-holder = 32990
+1213.1.1 = {
+	liege = d_sijilmasa
+	holder = 32982 # Abd al-Wahid b. Abu Ya'qub Yusuf before 1221
 }
-1269.1.1=
-{
-holder = 32998
+1221.1.1 = {
+	liege = k_maghreb
+	holder = 32981
 }
-1286.3.20=
-{
-holder = 32999
+1224.1.1 = {
+	holder = 32982
 }
-1300.1.1=
-{
-holder = 33002
+1224.9.1 = {
+	holder = 32983
 }
-1331.8.1=
-{
-holder = 33006
+1227.1.1 = {
+	liege = d_marrakech
+	holder = 32984
+}
+#1229.1.1 = {
+#	holder = 32985
+#}
+1236.1.1 = {
+	liege = k_maghreb
+	holder = 32986
+}
+1242.1.1 = {
+	holder = 32987
+}
+1248.1.1 = {
+	holder = 32989
+}
+1263.1.1 = {
+	liege = d_tlemcen
+	holder = 33045
+}
+1274.1.1 = {
+	liege = d_marrakech
+	holder = 32998
+}
+1286.3.20 = {
+	holder = 32999
+}
+1300.1.1 = {
+	holder = 33002
+}
+1331.8.1 = {
+	holder = 33006
 }

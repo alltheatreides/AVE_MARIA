@@ -1,54 +1,77 @@
-661.2.28={
-	liege=e_arabia
-}
+# -*- ck2.history.titles -*-
 
-765.1.1={
-	holder = 188653 # Shu'ayb ibn Khazim (fictitious holding assignment)
+750.1.1 = {
+	liege = d_tigris
 }
-
-866.1.1={
-	liege="d_tigris"
+866.1.1 = {
+	liege = d_kufa
+	holder = 1230768
 }
-866.1.1={
-	holder = 34015
-}
-869.1.1={
+869.1.1 = {
 	liege = 0
 }
 936.1.1 = {
-	holder = 261007
-	liege = d_baghdad
+	liege = d_tigris
+	holder = 261006 #?
 }
-1066.1.1=
-{
-liege="d_baghdad"
-holder = 20671
+944.6.1 = {
+	liege = d_tigris
+	holder = 1231064
 }
-1089.1.1=
-{
-holder = 93331
+967.4.8 = {
+	holder = 1231067
 }
-1120.1.1=
-{
-holder = 93332
+978.1.1 = {
+	holder = 1231065
 }
-1160.1.1=
-{
-holder = 93333
+983.1.1 = {
+	holder = 1229600
 }
-1200.1.1=
-{
-holder = 93334
+1008.1.1 = {
+	holder = 1229601
 }
-1240.1.1=
-{
-holder = 93335
+1018.1.1 = {
+	holder = 1229603
 }
-1280.1.1=
-{
-holder = 93336
+1034.1.1 = {
+	holder = 1500127
 }
-1320.1.1=
-{
-holder = 93337
+1055.1.1 = {
+	holder = 1500128
+}
+1055.12.18 = {
+	liege = k_persia
+}
+1066.1.1 = {
+	liege = e_persia
+}
+1083.1.1 = {
+	holder = 1236183
+}
+1121.1.1 = {
+	holder = 1236184
+}
+1145.1.1 = {
+	liege = d_tigris
+}
+1155.1.1 = {
+	holder = 1236185
+}
+1184.1.1 = {
+	holder = 1236186
+}
+1207.1.1 = {
+	holder = 1236187
+}
+1242.1.1 = {
+	holder = 1236188
+}
+1265.1.1 = {
+	holder = 1236189
+}
+1290.1.1 = {
+	holder = 1500116
+}
+1315.1.1 = {
+	holder = 1500117
 }

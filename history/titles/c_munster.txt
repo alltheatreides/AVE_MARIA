@@ -1,123 +1,100 @@
-761.1.1={
-	liege=d_munster_germany
+# -*- ck2.history.titles -*-
+
+761.1.1 = {
+	liege = d_saxony
+	holder = 190472 # Unwan
 }
-761.1.1={
-	holder = 190472 #Unwan
-}
-782.1.1={
+782.1.1 = {
 	holder = 0
 }
-800.1.1={
-	liege=0
+800.1.1 = {
+	liege = 0
 }
-842.1.1={
-	liege="d_saxony"
+842.1.1 = {
+	liege = d_saxony
 	holder = 163054
 }
-936.1.1 = {
-	holder = 260591
+922.1.1 = {
+	holder = 1603270
 }
-1063.1.1=
-{
-holder = 20218 #Friedrich Wettin
+941.1.1 = {
+	holder = 1603269
 }
-
-1084.4.18=
-{
-holder = 30314 #Erpho von Mï¿½nster
+969.1.1 = {
+	holder = 1603257
 }
-
-1097.11.9=
-{
-holder = 30315 #Burchard von Holte
+993.5.14 = {
+	holder = 1603254
 }
-
-
-1118.3.19=
-{
-holder = 30221 #Diederik van Zutphen
+1011.11.19 = {
+	holder = 1236971
 }
-
-1127.2.28=
-
-{
-holder = 30316 #Ekbert von Braunschweig
+1022.1.23 = {
+	holder = 1236970
 }
-
-1132.1.9=
-{
-holder = 30317 #Werner von Steutzlingen
+1032.11.27 = {
+	holder = 1236955
 }
-
-
-1151.12.1=
-{
-holder = 30318 #Friedrich von Are
+1042.1.1 = {
+	holder = 1236954
 }
-1168.1.1=
-{
-holder = 30319 #Ludwig von Wippra
+1063.1.1 = {
+	holder = 20218 # Friedrich Wettin
 }
-1173.1.1=
-{
-holder = 231041 #Hermann von Katzenelnbogen
+1084.4.18 = {
+	holder = 30314 # Erpho von Münster
 }
-1180.9.16=
-{
-	liege="e_hre"
+1097.11.9 = {
+	holder = 30315 # Burchard von Holte
 }
-1203.6.9=
-{
-holder = 30072 #Otto von Oldenburg
+1118.3.19 = {
+	holder = 30221 # Diederik van Zutphen
 }
-
-1218.3.12=
-{
-holder = 30320 #Dietrich von Isenberg
+1127.2.28 = {
+	holder = 30316 # Ekbert von Braunschweig
 }
-1220.1.1 = {
-	liege = d_koln
+1132.1.9 = {
+	holder = 30317 # Werner von Steutzlingen
 }
-1226.1.1=
-{
-holder = 30321 #Ludolf von Holte
+1151.12.1 = {
+	holder = 30318 # Friedrich von Are
 }
-1235.1.1=
-{
-	liege="d_brunswick"
+1168.1.1 = {
+	holder = 30319 # Ludwig von Wippra
 }
-
-1247.1.1=
-{
-holder = 30322 #Otto von der Lippe
+1173.1.1 = {
+	holder = 231041 # Hermann von Katzenelnbogen
 }
-
-
-1259.6.21=
-{
-holder = 30326 #Wilhelm von Holte
+1180.9.16 = {
+	liege = e_hre
 }
-
-1260.1.1=
-{
-holder = 30330 #Gerhard von der Mark
+1203.6.9 = {
+	holder = 30072 # Otto von Oldenburg
 }
-
-1272.8.11=
-{
-holder = 30332 #Everhard von Diest
+1218.3.12 = {
+	holder = 30320 # Dietrich von Isenberg
 }
-1301.4.5=
-{
-holder = 30333 #Otto von Rietberg
+1226.1.1 = {
+	holder = 30321 # Ludolf von Holte
 }
-
-1308.10.16=
-{
-holder = 30334 #Konrad von Berg
+1247.1.1 = {
+	holder = 30322 # Otto von der Lippe
 }
-1313.5.25=
-
-{
-holder = 462003 #Ludwig von Hessen
+1259.6.21 = {
+	holder = 30326 # Wilhelm von Holte
+}
+1260.1.1 = {
+	holder = 30330 # Gerhard von der Mark
+}
+1272.8.11 = {
+	holder = 30332 # Everhard von Diest
+}
+1301.4.5 = {
+	holder = 30333 # Otto von Rietberg
+}
+1308.10.16 = {
+	holder = 30334 # Konrad von Berg
+}
+1313.5.25 = {
+	holder = 462003 # Ludwig von Hessen
 }

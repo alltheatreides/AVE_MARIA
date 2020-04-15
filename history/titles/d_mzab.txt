@@ -1,0 +1,48 @@
+# -*- ck2.history.titles -*-
+
+840.1.1 = {
+	liege = k_tiaret
+	holder = 1228238
+}
+871.1.1 = {
+	holder = 1236368
+}
+909.1.1 = {
+	liege = 0
+}
+920.1.1 = {
+	holder = 1236369
+}
+958.1.1 = {
+	holder = 1236370
+}
+986.1.1 = {
+	holder = 1236371
+}
+1022.1.1 = {
+	holder = 1236372
+}
+1049.1.1 = {
+	holder = 1236373
+}
+1064.1.1 = { #during an-Naser Hammadid's reign
+	set_tribute_suzerain = {
+		who = d_kabylia
+		percentage = 0.4
+	}
+}
+1081.1.1 = {
+	holder = 1236374
+}
+1087.1.1 = {
+	clear_tribute_suzerain = d_kabylia
+}
+1124.1.1 = {
+	holder = 1236375
+}
+1158.1.1 = {
+	holder = 1236377
+}
+#1189.1.1 = {
+#	holder = 0
+#}

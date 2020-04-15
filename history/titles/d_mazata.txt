@@ -1,0 +1,40 @@
+# -*- ck2.history.titles -*-
+
+846.1.1 = {
+	#historical_nomad = yes
+	holder = 1228229
+}
+878.1.1 = {
+	holder = 1228230
+}
+900.1.1 = {
+	holder = 1228845
+}
+930.1.1 = {
+	set_tribute_suzerain = {
+		who = k_africa
+		type = permanent
+	}
+}
+949.1.1 = {
+	holder = 1228846
+}
+969.7.1 = {
+	clear_tribute_suzerain = k_africa
+	set_tribute_suzerain = {
+		who = e_egypt
+		type = permanent
+	}
+}
+977.1.1 = {
+	holder = 1228847
+}
+1012.1.1 = {
+	holder = 1228848
+}
+1045.1.1 = {
+	clear_tribute_suzerain = e_egypt
+}
+1052.1.1 = {
+	holder = 0
+}

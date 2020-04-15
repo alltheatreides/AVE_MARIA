@@ -1,147 +1,101 @@
-766.1.1={
-	holder = 200214 # Abd al-Karim Karimid
-	liege=k_andalusia
+# -*- ck2.history.titles -*-
+
+845.1.1 = {
+	liege = k_andalusia
+	holder = 73964
 }
-784.1.1={
-	holder = 200035 # Abdallah Aslamid
-	liege=d_beja
+852.1.1 = {
+	holder = 73965
 }
-789.1.1={
-	holder = 200034 # Jalid Aslamid
+932.1.1 = {
+	liege = d_badajoz
+	holder = 1235124 # Abd-al-Malik b. Al-Asi, Cousin of the Emir and Governor of Merida
 }
-820.1.1={
-	holder = 200033 # Hashim Aslamid
-}
-840.1.1={
-	holder = 73968 # Abd al-Aziz Aslamid
-}
-845.1.1={
-	holder = 73964 # Zuhayr Balawid
-	liege=d_badajoz
-}
-852.1.1={
-	holder = 73965 # Kinana Balawid
-}
-909.1.1={
-	holder = 73966 # Salama Balawid
-}
-915.1.1={
-	holder = 3200 # Abd al-Rahman III Umayyad
-	liege=k_andalusia
-}
-936.1.1 = {
-	holder = 260606
-}
-961.10.15={
+961.10.15 = {
+	liege = k_andalusia
 	holder = 3202 # al-Hakam II Umayyad
 }
-976.10.16={
+976.10.16 = {
 	holder = 3204 # Hisham II Umayyad
 }
-1009.2.15={
-	holder = 73671 # Muhammad II Umayyad
+986.1.1 = {
+	liege = d_badajoz
+	holder = 1235022 # Sabur # Apparently Governor of the Lower March before becoming independent. Was one of the younger Siqlabis that rose to fill the vacuum left by Almanzor's purge of the older Siqlabis
 }
-1009.11.1={
-	holder = 73675 # Suleyman Umayyad
+1022.4.8 = {
+	holder = 45007
 }
-1010.5.10={
-	holder = 73671 # Muhammad II Umayyad
+1045.1.1 = {
+	holder = 3900
 }
-1010.7.23={
-	holder = 3204 # Hisham II Umayyad
+1063.1.1 = {
+	holder = 3902
 }
-1013.4.19={
-	holder = 73675 # Suleyman Umayyad
+1082.1.1 = {
+	holder = 73196
 }
-1016.7.1={
-	holder = 73687 # Ali Hammudid
+1094.1.1 = {
+	liege = k_maghreb
 }
-1018.3.22={
-	holder = 73678 # Abd al-Rahman IV Umayyad
+1117.1.1 = {
+	liege = k_mauretania
+	holder = 73202
 }
-1018.6.1={
-	holder = 73689 # al-Qasim Hammudid
+1140.1.1 = {
+	holder = 73203 # Sidray b. Wazir
 }
-1021.1.1={
-	holder = 73690 # Yahya Hammudid
+1144.1.1 = {
+	liege = 0
 }
-1022.1.1={
-	holder = 200220 # Abd al-Aziz Saqlabid
-	liege=0
+1144.9.1 = {
+	liege = d_beja
 }
-1030.1.1={
-	holder = 200221 # Abd al-Malik Saqlabid
+1145.5.1 = {
+	liege = 0 # Sidray b. Wazir secedes from Ibn Qasi's movement
 }
-1034.1.1={
-	holder = 45007 # Abdallah Aftasid
-	liege=d_badajoz
+1147.9.1 = {
+	liege = k_maghreb
 }
-1045.1.1={
-	holder = 3900 # Abu Bakr Aftasid
+1150.1.1 = {
+	holder = 224011
 }
-1063.1.1={
-	holder = 3902 # Muhammad Aftasid
+1166.1.1 = {
+	liege = k_portugal
+	holder = 142475
 }
-1082.1.1={
-	holder = 73196 # Umar Aftasid
+1200.1.1 = {
+	holder = 142478
 }
-1094.1.1={
-	liege=0
+1230.1.1 = {
+	holder = 142479
 }
-1117.1.1={
-	holder = 73202 # Wazir Wazirid
-	liege=k_mauretania
+1240.1.1 = {
+	holder = 142492
 }
-1140.1.1={
-	holder = 73203 # Siddray Wazirid
+1275.1.1 = {
+	holder = 142493
 }
-1142.1.1={
-	liege=d_beja
+1276.1.1 = {
+	holder = 143069
 }
-1147.10.25={
-	liege=0
+1296.1.1 = {
+	holder = 142498
 }
-1150.1.1={
-	holder = 224011 # Yazid Yazidid
-	liege=k_mauretania
+1300.1.1 = {
+	holder = 142499
 }
-1166.1.1={
-	holder = 142475 # Pedro Paes da Maia
-	liege=k_portugal
+1301.1.1 = {
+	holder = 142502
 }
-1200.1.1={
-	holder = 142478 # Jo�o Peres da Maia
+1321.1.1 = {
+	holder = 142503
 }
-1230.1.1={
-	holder = 142479 # Martim Peres da Maia
+1322.1.1 = {
+	holder = 142504
 }
-1240.1.1={
-	holder = 142492 # Martim Martimes da Maia
+1323.1.1 = {
+	holder = 142505
 }
-1275.1.1={
-	holder = 142493 # Jo�o Martimes da Maia
-}
-1276.1.1={
-	holder = 143069 # Martim Jes da Maia
-}
-1296.1.1={
-	holder = 142498 # Gomes Fernandes da Maia
-}
-1300.1.1={
-	holder = 142499 # Monio Fernandes da Maia
-}
-1301.1.1={
-	holder = 142502 # Estev�o Monis da Maia
-}
-1321.1.1={
-	holder = 142503 # Gon�alo Monis da Maia
-}
-1322.1.1={
-	holder = 142504 # Martim Monis da Maia
-}
-1323.1.1={
-	holder = 142505 # Rui Monis da Maia
-}
-1324.1.1={
-	holder = 142507 # Paio Ruis da Maia
+1324.1.1 = {
+	holder = 142507
 }

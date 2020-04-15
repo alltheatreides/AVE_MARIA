@@ -1,0 +1,118 @@
+# -*- ck2.history.titles -*-
+
+858.1.1 = {
+	liege = e_arabia
+	holder = 146077
+}
+881.1.1 = {
+	liege = 0
+}
+983.1.1 = {
+	holder = 159143
+}
+990.1.1 = {
+	holder = 159145
+}
+997.1.1 = {
+	holder = 159146
+}
+1011.1.1 = {
+	holder = 159147
+}
+1057.1.1 = {
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+1061.1.1 = {
+	holder = 20738
+}
+1079.1.1 = {
+	clear_tribute_suzerain = e_persia
+	liege = e_persia
+	holder = 93419
+}
+1084.1.1 = {
+	holder = 1234943
+}
+1090.1.1 = {
+	holder = 1234944
+}
+1091.1.1 = {
+	holder = 1234945
+}
+1094.1.1 = {
+	liege = k_syria
+}
+1095.1.1 = {
+	liege = e_persia
+}
+1097.1.1 = {
+	holder = 144067
+}
+1098.1.1 = {
+	liege = 0
+}
+1104.1.1 = {
+	holder = 144066
+}
+1122.1.1 = {
+	holder = 34249
+}
+1125.1.1 = {
+	holder = 34250
+}
+1176.1.1 = {
+	holder = 34251
+}
+1183.1.1 = {
+	holder = 144072
+}
+1185.1.1 = {
+	liege = k_egypt
+	holder = 225010
+}
+1202.1.1 = {
+	holder = 34242
+}
+1222.1.1 = {
+	holder = 34243
+}
+1232.1.1 = {
+	holder = 32925
+}
+1239.1.1 = {
+	holder = 32927
+}
+1249.1.1 = {
+	holder = 93422
+}
+1250.5.1 = {
+	liege = 0
+}
+1258.1.1 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1283.1.1 = {
+	holder = 93423
+}
+1320.1.1 = {
+	holder = 93424
+}
+1331.1.1 = {
+	holder = 217219
+}
+1336.4.10 = {
+	liege = e_il-khanate
+}
+1336.7.24 = {
+	holder = 217218
+}

@@ -1,138 +1,131 @@
-768.1.1={
-	holder = 273107
+# -*- ck2.history.titles -*-
+
+#851.1.1 = {
+#	liege = d_lamta
+#	holder = 1228215
+#}
+866.2.2 = {
+	liege = d_gazzula
+	holder = 1228218
 }
-812.1.1={
-	holder = 273106
+904.1.1 = {
+	holder = 1236324
 }
-850.1.1={
-	set_tribute_suzerain = {
-		who = k_mauretania
-		type = permanent
-	}
-	holder = 273097
+925.1.1 = {
+	holder = 1236325
 }
-882.1.1={
-	holder = 273080
+955.1.1 = {
+	holder = 1236326
 }
-901.1.1={
-	holder = 273089
+977.1.1 = {
+	liege = d_sijilmasa
+	holder = 1236308
 }
-926.1.1={
-	clear_tribute_suzerain = k_mauretania
-	set_tribute_suzerain = {
-		who = d_adrar
-		type = permanent
-	}
-	holder = 273090
+979.1.1 = {
+	holder = 1236309
 }
-964.1.1={
-	holder = 273091
+997.1.1 = {
+	holder = 1236311
 }
-981.1.1 = {
-	holder = 273092
+999.1.1 = {
+	holder = 1236309
 }
-1002.1.1 = {
-	holder = 273093
+1020.1.1 = {
+	holder = 1236312
 }
-1036.1.1 = {
-	holder = 273094
+1053.1.1 = {
+	liege = k_mauretania
+	holder = 32958
 }
-1051.1.1 = {
-	clear_tribute_suzerain = d_adrar
-	liege="k_mauretania"
+1057.1.1 = {
+	holder = 1228877
 }
-1075.1.1 = {
-	holder = 3853
+1069.1.1 = { #coins struck in Ibrahim b. Abu Bakr's name, 1069-1073
+	liege = d_sijilmasa
+	holder = 3855
 }
-1087.1.1=
-{
-holder = 3855
+1071.1.1 = { #?
+	holder = 1228877
 }
-1107.1.1=
-{
-holder = 32969
+1076.1.1 = {
+	holder = 1600581
 }
-1143.1.1=
-{
-holder = 32971
+#######
+1106.1.1 = {
+	liege = d_gazzula
+	holder = 1236342
 }
-1145.1.1=
-{
-holder = 32972
+1129.1.1 = {
+	holder = 1236343
 }
-1146.1.1=
-{
-holder = 32970
+1141.1.1 = {
+	liege = 0
+	holder = 32978
 }
-1147.1.1=
-{
-holder = 32978
+1147.4.1 = {
+	liege = k_maghreb
 }
-1163.1.1=
-{
-holder = 224000
+1163.1.1 = {
+	holder = 224000
 }
-1184.7.29=
-{
-holder = 32980
+1184.7.29 = {
+	holder = 32980
 }
-1199.1.23=
-{
-holder = 224005
+1199.1.23 = {
+	holder = 224005
 }
-1213.1.1=
-{
-holder = 32984
+1208.1.1 = {
+	liege = d_sijilmasa
+	holder = 1230072 # Abu Abd Allah b. Abu Yahya b. Abu Hafs before 1211
 }
-1224.1.1=
-{
-holder = 32982
+1211.1.1 = {
+	liege = k_maghreb
+	holder = 224005
 }
-1225.1.1=
-{
-holder = 32983
+1213.1.1 = {
+	liege = d_sijilmasa
+	holder = 32982 # Abd al-Wahid b. Abu Ya'qub Yusuf before 1221
 }
-1227.1.1=
-{
-holder = 32984
+1221.1.1 = {
+	liege = k_maghreb
+	holder = 32981
 }
-1229.1.1=
-{
-holder = 32985
+1224.1.1 = {
+	holder = 32982
 }
-1233.1.1=
-{
-holder = 32986
+1224.9.1 = {
+	holder = 32983
 }
-1242.1.1=
-{
-holder = 32987
+1227.1.1 = {
+	liege = d_marrakech
+	holder = 32984
 }
-1248.1.1=
-{
-holder = 32989
+#1229.1.1 = {
+#	holder = 32985
+#}
+1236.1.1 = {
+	liege = k_maghreb
+	holder = 32986
 }
-1266.1.1=
-{
-holder = 32990
+1242.1.1 = {
+	holder = 32987
 }
-1269.1.1=
-{
-liege="d_marrakech"
+1248.1.1 = {
+	holder = 32989
 }
-1269.1.1=
-{
-holder = 32998
+1266.1.1 = {
+	holder = 32990
 }
-1286.3.20=
-{
-holder = 32999
+1269.1.1 = {
+	liege = d_marrakech
+	holder = 32998
 }
-1300.1.1=
-{
-holder = 33002
+1286.3.20 = {
+	holder = 32999
 }
-1331.8.1=
-{
-holder = 33006
+1300.1.1 = {
+	holder = 33002
+}
+1331.8.1 = {
+	holder = 33006
 }

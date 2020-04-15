@@ -1,0 +1,63 @@
+# -*- ck2.history.titles -*-
+
+
+1055.12.18 = {
+	liege = e_persia
+	holder = 1231099
+}
+1094.1.1 = {
+	liege = 0
+	holder = 0
+}
+1224.1.1 = {
+	holder = 1235937
+}
+1236.1.1 = {
+	holder = 1235938
+}
+1238.1.1 = {
+	holder = 1235939
+}
+1241.1.1 = {
+	holder = 1235940
+}
+1242.1.1 = {
+	holder = 1235941
+}
+1257.1.1 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1260.1.1 = {
+	holder = 1235943
+}
+1279.1.1 = {
+	holder = 1235944
+}
+1293.1.1 = {
+	holder = 1235946
+}
+1294.1.1 = {
+	holder = 1235948
+}
+1296.1.1 = {
+	holder = 1235949
+}
+1316.1.1 = {
+	holder = 1235953
+}
+1317.1.1 = {
+	holder = 1235954
+}
+1330.1.1 = {
+	holder = 1235955
+}
+1336.4.10 = {
+	liege = 0
+}

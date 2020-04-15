@@ -1,78 +1,87 @@
-700.1.1={
-	liege = d_kipchak
-}
+# -*- ck2.history.titles -*-
 
-762.1.1={
-	holder = 188762
+500.1.1 = {
+	historical_nomad = yes
 }
-
-850.1.1=
-{
-liege="k_cuman"
-holder = 34870
+810.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
 }
-936.1.1 = {
-	holder = 261071
-	liege = d_turgay
+830.1.1 = {
+	holder = 1231706
 }
-1066.1.1 = {
-	liege=d_yaik
-	holder = 34963
+833.1.1 = {
+	liege = d_oghuz
+	holder = 1600001
 }
-1067.1.1=
-{
-liege="d_sibir"
+855.1.1 = {
+	holder = 1600002
 }
-1067.1.1=
-{
-holder = 161730
+885.1.1 = {
+	holder = 1600003
 }
-1110.1.1=
-{
-holder = 161731
+911.1.1 = {
+	holder = 1231985
 }
-1140.1.1=
-{
-holder = 161732
+960.1.1 = {
+	holder = 1231987
 }
-1170.1.1=
-{
-holder = 161733
+999.1.1 = {
+	holder = 1231989
 }
-1200.1.1=
-{
-holder = 161734
+1015.1.1 = {
+	historical_nomad = no
 }
-1220.1.1=
-{
-holder = 161735
+1026.1.1 = {
+	holder = 1231991
 }
-1227.1.1=
-{
-holder = 34912
-liege=e_golden_horde
+# Cumans consolidation complete, push westwards intensifies.
+1030.1.1 = {
+	liege = d_baruq
+	holder = 1233245
 }
-1251.1.1=
-{
-holder = 34919
+1055.1.1 = {
+	holder = 1233246
 }
-1280.1.1=
-{
-holder = 34913
+1084.1.1 = {
+	holder = 1233247
 }
-1301.1.1=
-{
-holder = 34914
+1112.1.1 = {
+	holder = 1233248
 }
-1309.1.1=
-{
-holder = 34915
+1133.1.1 = {
+	holder = 1233249
 }
-1315.1.1=
-{
-holder = 34916
+1159.1.1 = {
+	holder = 1229702
 }
-1320.1.1=
-{
-holder = 34917
+1188.1.1 = {
+	holder = 1229703
+}
+1210.1.1 = {
+	holder = 1229704
+}
+1223.1.1 = {
+	liege = e_mongol_empire
+	holder = 125501
+}
+1227.12.2 = {
+	liege = k_turkestan_west
+	holder = 125503
+}
+1234.2.10 = {
+	liege = e_golden_horde
+}
+1241.12.11 = {
+	liege = d_yaik
+	holder = 34911
+}
+1260.1.1 = {
+	holder = 34904
+}
+1285.1.1 = {
+	holder = 125548
+}
+1310.1.1 = {
+	holder = 125549
 }

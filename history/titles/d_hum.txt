@@ -1,0 +1,41 @@
+# -*- ck2.history.titles -*-
+
+1000.1.1 = {
+	holder = 20494 # Dragimir, uncle of Jovan Vladimir. Prince of Travunja and Zachlumia
+}
+1018.1.1 = {
+	holder = 0
+}
+1028.1.1 = {
+	set_tribute_suzerain = {
+		who = e_byzantium
+		type = permanent
+	}
+	holder = 1229402 # Ljutovid of Zahumlje, ruler of the interior
+}
+1043.1.1 = {
+	clear_tribute_suzerain = e_byzantium
+	holder = 0 # Rashka taken and Byzantium driven off for good
+}
+1186.1.1 = {
+	liege = k_serbia
+	holder = 34075
+}
+1192.1.1 = {
+	holder = 34077
+}
+1198.1.1 = {
+	holder = 34079
+}
+1216.1.1 = {
+	holder = 34080
+}
+1250.1.1 = {
+	holder = 34083
+}
+1254.5.22 = {
+	holder = 0
+}
+1322.1.1 = {
+	holder = 1229404
+}

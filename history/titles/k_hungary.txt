@@ -1,6 +1,9 @@
+# -*- ck2.history.titles -*-
+
 580.1.1 = {
-	name = AVAR_KHAGANATE
-	adjective = AVAR_KHAGANATE_ADJ
+	# doesn't work with titles having dynamic names
+	# name = AVAR_KHAGANATE
+	# adjective = AVAR_KHAGANATE_ADJ
 	effect = { set_coa = k_avaria }
 }
 685.1.1 = {
@@ -57,10 +60,10 @@
 	holder = 146140
 }
 797.1.1 = {
-	name = KINGDOM_PANNONIA
-	adjective = KINGDOM_PANNONIA_ADJ
-	effect = { reset_coa = THIS }
 	set_global_flag = avar_khaganate_renamed
+	#name = KINGDOM_PANNONIA
+	#adjective = KINGDOM_PANNONIA_ADJ
+	effect = { reset_coa = THIS }
 }
 814.1.1 = {
 	holder = 146141
@@ -71,107 +74,115 @@
 835.1.1 = {
 	holder = 0
 }
-895.1.1 = {
-	reset_name = yes
-	reset_adjective = yes
-}
-907.1.1={
-	effect = { insert_title_history = k_magyar }
+#895.1.1 = {
+#	reset_name = yes
+#	reset_adjective = yes
+#}
+907.7.4 = { # Date when the owner of k_magyar historically controls the territory required to use create_hungary
 	holder = 159135
+	effect = { insert_title_history = k_magyar }
 }
-955.1.1={
+947.1.1 = {
+	holder = 261315
+}
+955.8.15 = {
 	holder = 460
 }
-972.1.1={
+972.1.1 = {
 	holder = 464
+	law = tribal_organization_1
 }
-997.2.1={
+982.1.1 = {
+	law = tribal_organization_2
+}
+992.1.1 = {
+	law = tribal_organization_3
+}
+997.2.1 = {
 	holder = 482
 }
 1000.12.25 = {
-	holder = 482
 	#law = agnatic_succession
 	#law = succ_seniority
 }
-#1038.1.1={
-#holder = 497
-#}
-1041.1.1={
-holder = 20371
+1038.8.15 = {
+	holder = 497
 }
-1044.7.1={
-holder = 497
+1041.1.1 = {
+	holder = 20371
 }
-1046.1.1={
-holder = 468
+1044.7.1 = {
+	holder = 497
 }
-1060.10.1={
-holder = 470
+1046.1.1 = {
+	holder = 468
 }
-1063.12.1={
-holder = 476
+1060.10.1 = {
+	holder = 470
 }
-1074.1.1={
-holder = 472
+1063.12.1 = {
+	holder = 476
 }
-1077.4.25={
-holder = 474
+1074.1.1 = {
+	holder = 472
 }
-1095.7.29={
-holder = 480
+1077.4.25 = {
+	holder = 474
 }
-1116.2.3={
-holder = 231065
+1095.7.29 = {
+	holder = 480
 }
-1131.4.2={
-holder = 219530
+1116.2.3 = {
+	holder = 231065
 }
-1141.2.13={
-holder = 219510
+1131.4.2 = {
+	holder = 219530
 }
-1162.5.31={
-holder = 219511
+1141.2.13 = {
+	holder = 219510
 }
-1162.7.15={
-holder = 98000
+1162.5.31 = {
+	holder = 219511
 }
-1163.1.14={
-holder = 98001
+1162.7.15 = {
+	holder = 98000
 }
-1163.6.19={
-holder = 219511
+1163.1.14 = {
+	holder = 98001
 }
-1172.3.4={
-holder = 219500
+1163.6.19 = {
+	holder = 219511
 }
-1196.4.23={
-holder = 219501
+1172.3.4 = {
+	holder = 219500
 }
-1204.11.30={
-holder = 98002
+1196.4.23 = {
+	holder = 219501
 }
-1205.5.7={
-holder = 219502
+1204.11.30 = {
+	holder = 98002
 }
-1235.9.21={
-holder = 98003
+1205.5.7 = {
+	holder = 219502
 }
-1270.5.3={
-holder = 98004
+1235.9.21 = {
+	holder = 98003
 }
-1272.8.6={
-holder = 98005
+1270.5.3 = {
+	holder = 98004
 }
-1290.7.10={
-holder = 98007
+1272.8.6 = {
+	holder = 98005
 }
-1301.1.14=
-{
-holder = 96003
+1290.7.10 = {
+	holder = 98007
 }
-1305.12.6={
-holder = 98009
+1301.1.14 = {
+    holder = 96003 
 }
-1307.10.10={
-holder = 469500
+1305.12.6 = {
+	holder = 98009
+}
+1307.10.10 = {
+	holder = 469500
 }

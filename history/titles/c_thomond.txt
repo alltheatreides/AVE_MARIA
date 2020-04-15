@@ -1,265 +1,148 @@
-370.1.1=
-{
-holder = 83607 #Conall Corc
-}
-420.1.1=
-{
-holder = 83608 #Nad Froich
-}
-450.1.1=
-{
-holder = 83735 #Ailill son of Nad Froich
-}
-490.1.1=
-{
-holder = 83736 #Crimthann son of Ailill
-}
-492.1.1=
-{
-holder = 83610 #Eochaid son of ï¿½engus son of Nad Froich
-}
-520.1.1=
-{
-holder = 83737 #ï¿½ndae son of Crimthann
-}
-551.1.1=
-{
-holder = 83616 #Crimthann grandson of Eochaid
-}
-562.1.1=
-{
-holder = 83765 #Coirpre Cromm son of Crimthann
-}
-580.1.1=
-{
-holder = 83738 #Amalgaid son of ï¿½ndae
-}
+# -*- ck2.history.titles -*-
 
-590.1.1=
-{
-holder = 83739 #Garbï¿½n son of ï¿½ndae
+370.1.1 = {
+	holder = 83607 # Conall Corc
 }
-594.1.1=
-{
-holder = 83767 #Feidlimid son of Coirpre Cromm
+420.1.1 = {
+	holder = 83693 # Mac Cass son of Conall
 }
-617.1.1=
-{
-holder = 83768 #Cathal son of ï¿½ed Fland
+460.1.1 = {
+	holder = 83694 # Echu son of Mac Cass
 }
-628.1.1=
-{
-holder = 83740 #Cï¿½ï¿½n son of Amalgaid
+500.1.1 = {
+	holder = 83695 # Crimthann son of Echu
 }
-641.1.1=
-{
-holder = 83769 #Cathal Cï¿½-Cen-Mï¿½thair son of Cathal son of ï¿½ed Fland
+550.1.1 = {
+	holder = 83696 # Lóégaire son of Crimthann
 }
-679.1.1=
-{
-holder = 83770 #Finguine son of Cathal Cï¿½-Cen-Mï¿½thair
+557.1.1 = {
+	holder = 83697 # Áed Ualgarb son of Crimthann
 }
-696.1.1=
-{
-holder = 83771 #Ailill son of Cathal Cï¿½-Cen-Mï¿½thair
+560.1.1 = {
+	holder = 83698 # Tigernach son of Áed Ualgarb
 }
-701.1.1=
-{
-holder = 83743 #Eterscï¿½l son of Mï¿½el-Umai
+580.1.1 = {
+	holder = 83699 # Feidlimid son of Tigernach
 }
-721.1.1=
-{
-holder = 83744 #Cathussach son of Eterscï¿½l
+593.1.1 = {
+	holder = 83713 # Áed Osraige son of Lóegaire
 }
-733.1.1=
-{
-holder = 83772 #Cathal son of Finguine
+597.1.1 = {
+	holder = 83700 # Cenn-Fáelad son of Feidlimid
 }
-742.1.1=
-{
-holder = 83748 #Cathussach
+624.1.1 = {
+	holder = 83701 # Fergus son of Cenn-Fáelad
 }
-769.1.1=
-{
-holder = 83789 #Mï¿½el-Dï¿½in
+654.1.1 = {
+	holder = 83702 # Bécc son of Fergus
 }
-786.1.1=
-{
-holder = 83746 #ï¿½lchobar son of Dub-Indrecht
+661.1.1 = {
+	holder = 83717 # Dond Sláine Brecc son of Dúngal
 }
-793.1.1=
-{
-holder = 83773 #Artrï¿½ son of Cathal
+676.1.1 = {
+	holder = 83718 # Éladach son of Dond Sláine
 }
-821.1.1=
-{
-holder = 83793 #ï¿½lchobar son of Cinï¿½ed
+732.1.1 = {
+	holder = 83719 # Fergal son of Éladach
 }
-851.1.1=
-{
-holder = 83774 #Tuathal son of Artrï¿½
+779.1.1 = {
+	holder = 83705 # Connath son of Artgal
 }
-859.1.1=
-{
-holder = 83763 #Cenn-Fï¿½elad Ua Mugthigirn son of Murchad
+810.1.1 = {
+	holder = 83723 # Éladach son of Dúnlaing
 }
-872.1.1=
-{
-holder = 83672 #Dï¿½nchad son of Dub-dï¿½-Bairenn
+828.1.1 = {
+	holder = 83706 # Ailill Broga son of Connath
 }
-888.1.1=
-{
-holder = 83659 #Dub-Lachtna son of Mï¿½el-Gualae
+849.1.1 = {
+	liege = d_munster
+	holder = 83729 # Ánilte son of Dúnlaing
 }
-895.1.1=
-{
-holder = 83675 #Finguine Cenn nGï¿½cï¿½n son of Lï¿½egaire
+861.1.1 = {
+	holder = 83707 # Cú-Chongelt son of Ailill Broga
 }
-902.1.1=
-{
-holder = 83692 #Lorcï¿½n son Condlï¿½gan
+870.1.1 = {
+	holder = 83732 # Óengus son of Flaithnia
 }
-922.1.1=
-{
-holder = 83666 #Cellachï¿½n Caisil son of Buadachï¿½n
+936.1.1 = {
+	holder = 83710 # Spelán son of Cathnia
 }
-930.1.1=
-{
-holder = 83330 #Cennï¿½tig of Dï¿½l Cais
-liege = d_munster
+944.1.1 = {
+	holder = 83733 # Dub-dá-Bairenn son of Óengus
 }
-951.7.1=
-{
-holder = 83332 #Mathgamain mac Cennï¿½tig
-liege = 0
+959.1.1 = {
+	holder = 166120 # Máel-Muad mac Brain
 }
-976.7.1=
-{
-holder = 900 #Brian Bï¿½ruma mac Cennï¿½tig
+978.1.1 = {
+	holder = 166121 # Cían mac Máel-Muad
 }
-978.7.1=
-{
-liege="d_munster"
+1030.1.1 = {
+	holder = 83251 # Carthach progenitor of the MacCarthy kindred
 }
-1014.4.23=
-{
-holder = 83647 #Dï¿½ngal son of Mï¿½el-Fothardaig
+1045.7.1 = {
+	holder = 83252 # Muiredach son of Carthach
 }
-1024.7.1=
-{
-holder = 902 #Donnchad mac Briain
+1092.7.1 = {
+	holder = 83254 # Tadg son of Muiredach
 }
-1063.7.1=
-{
-holder = 83355 #Murchad son of Donnchad
+1124.7.1 = {
+	holder = 83255 # Cormac son of Muiredach
 }
-1068.7.1=
-{
-holder = 906 #High-King Toirrdelbach mac Taidg
+1138.7.1 = {
+	holder = 83256 # Donnchad son of Muiredach
 }
-1086.7.14=
-{
-holder = 912 #Tadg mac Toirrdelbaig
+1143.7.1 = {
+	holder = 214610 # Diarmait son of Cormac
 }
-1086.8.1=
-{
-holder = 913 #Diarmait mac Toirrdelbaig
+1172.1.1 = {
+	liege = k_england
 }
-1086.12.1=
-{
-holder = 907 #High-King Muirchertach mac Toirdelbaig
+1175.7.1 = {
+	holder = 83271 # Cormac Liathánach son of Diarmait
 }
-1114.7.1=
-{
-holder = 913 #Diarmait mac Toirrdelbaig
+1176.7.1 = {
+	holder = 214600 # Domnall Mór na Corra son of Diarmait
 }
-1115.7.1=
-{
-holder = 907 #High-King Muirchertach mac Toirdelbaig
+1185.1.1 = {
+	liege = d_meath
 }
-1116.7.1=
-{
-holder = 913 #Diarmait mac Toirrdelbaig
+1206.7.1 = {
+	holder = 214609 # Fingen son of Diarmait
 }
-1118.7.1=
-{
-	liege=0
+1207.7.1 = {
+	holder = 214601 # Diarmait Dúna Droignéin son of Domnall Mór
 }
-1118.7.1=
-{
-holder = 83357 #Brian son of Murchad
+1211.7.1 = {
+	holder = 83267 # Cormac Óc Liathánach son of Cormac Liathánach
 }
-1118.12.1=
-{
-holder = 214590 #Toirrdellbach mac Diarmata
+1244.7.1 = {
+	holder = 214602 # Corman Finn son of Domnall Mór
 }
-1152.7.1=
-{
-holder = 83334 #Tadg Glï¿½e mac Diarmata
+1247.7.1 = {
+	holder = 83272 # Domnall Got Cairprech son of Domnall Mór
 }
-1154.7.1=
-{
-holder = 214590 #Toirrdellbach mac Diarmata
+1252.7.1 = {
+	holder = 83273 # Fingen of Rinrone son of Domnall Got Cairprech
 }
-1167.7.1=
-{
-holder = 83336 #Muirchertach son of Toirrdellbach mac Diarmata
+1261.7.1 = {
+	holder = 83274 # Cormac of Mangerton son of Domnall Got Cairprech
 }
-1168.7.1=
-{
-holder = 214580 #Domnall Mï¿½r son of Toirrdellbach mac Diarmata
+1262.7.1 = {
+	holder = 83279 # Domnall Ruad son of Cormac Finn
 }
-1172.1.1={
-	liege="k_england"
+1302.7.1 = {
+	holder = 83285 # Domnall Óc son of Domnall Ruad
 }
-1185.1.1={
-	liege="d_meath"
+1306.7.1 = {
+	holder = 83280 # Donnchad Carrthainn son of Cormac Finn
 }
-1194.7.1=
-{
-holder = 214582 #Conchobar Ruad mac Domnaill Mï¿½ï¿½r
+1310.7.1 = {
+	liege = 0
+	holder = 83287 # Diarmait Óc of Tralee son of Domnall Óc
 }
-1203.7.1=
-{
-holder = 214583 #Donnchad Caiprech mac Domnaill Mï¿½ï¿½r
+1325.7.1 = {
+	holder = 83288 # Cormac son of  Domnall Óc
 }
-1242.7.1=
-{
-holder = 83340 #Conchobar na Siudaine
-}
-1268.5.22=
-{
-holder = 83343 #Brian Ruad
-}
-1277.5.11=
-{
-holder = 83344 #Donnchad mac Briain Ruaid
-}
-1284.7.1=
-{
-holder = 454140 #Toirrdelbach son of Tadg of Cï¿½enluisce
-}
-1306.8.1=
-{
-holder = 83351 #Donnchad son of Toirrdelbach
-}
-1311.7.1=
-{
-holder = 83347 #Diarmait Clï¿½irech mac Donnchada
-}
-1311.7.1=
-{
-	liege=0
-}
-1313.7.1=
-{
-holder = 83348 #Donnchad mac Domnaill
-}
-1316.7.1=
-{
-holder = 454205 #Muirchertach son of Toirrdelbach
-}
-1343.7.1=
-{
-holder = 83349 #Brian Bï¿½n mac Domnaill
+1359.7.1 = {
+	holder = 83289 # Domnall Óc son of Cormac
 }

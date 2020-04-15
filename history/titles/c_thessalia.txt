@@ -1,88 +1,122 @@
-751.1.1={
-	holder = 145816
-	liege = "d_thessalia"
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_neopatras
 }
-789.1.1={
-	liege = "0"
-}
-843.1.1=
-{
-	liege="d_epirus"
-}
-865.1.1={
-	holder = 145186
+865.1.1 = {
+	holder = 1232115
 }
 936.1.1 = {
-	liege = d_athens
-	holder = 260681
+	liege = d_thessalonika
+	holder = 1232286 # Unnamed Katakalon Strategoi of Thessalonica
 }
-1060.1.1={
-	liege="d_athens"
+991.1.1 = {
+	holder = 41534 # Grigor/Gregorios Taronites, Doux of Thessalonica
+}
+995.1.1 = {
+	holder = 1500481 # Ioannes Chaldos, Doux of Thessalonica, replaced Grigor/Gregorios Taronites when he was killed in battle
+}
+995.6.1 = {
+	holder = 1500449 # Nikephoros Ouranos, Doux of Thessalonica, replaced Ioannes Chaldos when he was captured in battle
+}
+998.7.19 = {
+	holder = 1500400 # David Arianites, Doux of Thessalonica, when Nikephoros Ouranos was transferred to Antioch
+}
+1014.1.1 = {
+	holder = 1232361 # Theophylaktos Botaneiates, Doux of Thessalonica 1014
+}
+1014.8.1 = {
+	holder = 1500400 # David Arianites Strategos Autokrator of Bulgaria 1018-1022(25)
+}
+1018.1.1 = {
+	liege = d_neopatras
+	holder = 1232486
+}
+1037.1.1 = {
+	holder = 1232914
+}
+1040.1.1 = {
+	liege = k_bulgaria
+	holder = 732
+}
+1041.6.1 = {
+	liege = d_neopatras
+	holder = 1232914
+}
+1049.1.1 = {
+	holder = 1232161
+}
+1068.1.1 = {
+	holder = 1232177
+}
+1075.1.1 = {
 	holder = 41308
 }
-1079.1.1={
+1079.1.1 = {
 	holder = 1742
 }
-1118.8.15={
-	holder = 223023
+1081.4.1 = {
+	holder = 1232197
 }
-1143.4.8={
-	holder = 215530
+1107.1.1 = {
+	holder = 34338
 }
-1180.9.24={
-	holder = 215531
+1124.1.1 = {
+	holder = 223024
 }
-1183.9.24={
-	holder = 215529
+1142.1.1 = {
+	holder = 1232260
 }
-1185.9.12={
-	holder = 215503
+1146.1.1 = {
+	holder = 1232264
 }
-1187.1.1={
-	holder = 215016
+1156.1.1 = {
+	holder = 34281
 }
-1200.1.1={
-	holder = 215503
+1176.1.1 = {
+	holder = 215508
 }
-1204.8.1={
-	holder = 31499 #Uberto di Briandate
+1186.1.1 = {
+	holder = 1232256
 }
-1209.1.2={
-	holder = 205528 #Eustache van Vlaanderen
+1200.1.1 = {
+	holder = 1232236
 }
-1215.1.1={
-	liege="d_epirus"
-	holder = 215514
+1202.1.1 = {
+	holder = 215028
 }
-1224.1.1={
-	liege="d_thessalonika"
+1204.8.1 = {
+	liege = k_thrace
+	holder = 31499 # Uberto di Briandate
 }
-1230.3.9={
-	holder = 215516
+1209.1.2 = {
+	holder = 205528 # Eustache van Vlaanderen
 }
-1237.1.1={
-	holder = 125711
+1212.1.1 = {
+	liege = d_neopatras
+	holder = 1232277
 }
-1239.1.1={
-	holder = 215516
-}
-1241.1.1={
-	liege="d_epirus"
+1239.1.1 = {
 	holder = 125715
 }
-1268.1.1={
+1268.1.1 = {
 	holder = 125734
 }
-1289.1.1={
+1289.1.1 = {
 	holder = 125735
 }
-1303.1.1={
+1303.1.1 = {
 	holder = 125736
 }
-1318.1.1={
-	liege="d_thessalonika"
-	holder = 465210
+1318.1.1 = {
+	liege = e_byzantium
+	holder = 1232280
 }
-1320.1.1={
-	holder = 465212
+1333.1.1 = {
+	liege = k_epirus
+	holder = 31441
+}
+1335.1.1 = {
+	liege = e_byzantium
+	holder = 1500472 # Michael Monomachos leads the Imperial forces in re-asserting Central control over Thessaly upon the death of Stephen Gabrielopoulos
 }

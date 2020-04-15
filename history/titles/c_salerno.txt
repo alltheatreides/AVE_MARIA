@@ -1,127 +1,112 @@
-763.1.1={
-	liege=d_benevento
+# -*- ck2.history.titles -*-
+
+763.1.1 = {
+	liege = d_benevento
+	holder = 190289 # Daufer
 }
-763.1.1={
-	holder = 190289 #Daufer
+818.1.1 = {
+	holder = 190290 # Rotfit
 }
-818.1.1={
-	holder = 190290 #Rotfit
+836.1.1 = {
+	holder = 190291 # Adelchis
 }
-836.1.1={
-	holder = 190291 #Adelchis
+839.1.1 = {
+	liege = d_salerno
+	holder = 190163 # Siconulf
 }
-839.1.1={
-	liege=d_salerno
-	holder = 190163 #Siconulf
+851.1.1 = {
+	holder = 190164 # Sico
 }
-851.1.1={
-	holder = 190164 #Sico
-}
-853.2.1={
+853.2.1 = {
 	holder = 145211
 }
-853.12.1={
+853.12.1 = {
 	holder = 145212
 }
-861.8.1={
-	holder = 163091
+861.8.1 = {
+	holder = 163091 # Guaifer I Dauferidi of Salerno
 }
-880.1.1={
-	holder = 145215
+880.1.1 = {
+	holder = 145215 # Guaimar I Dauferidi of Salerno
 }
-901.2.1={
-	holder = 200298
+901.1.1 = {
+	holder = 200298 # Guaimar II Dauferidi of Salerno
 }
-946.1.1={
-	holder = 200299
+946.6.4 = {
+	holder = 200299 # Gisulf I Dauferidi of Salerno
 }
-973.1.1={
-	holder = 200388
+977.11.1 = {
+	holder = 73327 # Pandulf Ironhead of Capua, Benevento and Salerno. Make sure to Bookmark this start in the future
 }
-973.5.1={
-	holder = 200299
+981.3.1 = {
+	holder = 168440 # Mansone I of Amalfi, with his son as a junior-associated ruler of Salerno. But lets put Salerno in the hands of the true power
 }
-977.11.1={
-	holder = 73327
+983.1.1 = {
+	holder = 1227544
 }
-981.4.1={
-	holder = 168440
-}
-983.1.1={
-	holder = 168448
-}
-999.10.1={
+999.10.1 = {
 	holder = 30857
 }
-1027.2.1={
+1027.2.1 = {
 	holder = 1116
 }
-1052.6.3={
+1052.6.3 = {
 	holder = 73355
 }
-1052.8.1={
+1052.8.1 = {
 	holder = 1119
 }
-1076.12.13={
-	holder = 1128 #Robert Guiscard
-	liege=d_apulia
+1076.12.13 = {
+	holder = 1128 # Robert Guiscard
 }
-1085.7.17={
-	holder = 41732 #Guy de Hauteville, duke of Amalfi
+1085.7.17 = {
+	holder = 41732 # Guy de Hauteville, duke of Amalfi
 }
-1099.1.1={
-	holder = 30881 #William de Hauteville
+1099.1.1 = {
+	holder = 30881 # William de Hauteville
 }
-1128.1.1={
-	holder = 30879 #Nicolas de Hauteville
+1128.1.1 = {
+	holder = 30879 # Nicolas de Hauteville
 }
-1141.1.1={
-	holder = 30880 #William de Hauteville
+1141.1.1 = {
+	holder = 30880 # William de Hauteville
 }
-1160.1.1={
-	holder = 211501 #William de Hauteville
-	liege=k_sicily
+1160.1.1 = {
+	holder = 211501 # William de Hauteville
 }
-1166.5.7={
+1166.5.7 = {
 	holder = 211500
 }
-1189.11.11={
+1189.11.11 = {
 	holder = 211509
 }
-1194.2.20={
+1194.2.20 = {
 	holder = 211512
 }
-1194.10.1={
+1194.10.1 = {
 	holder = 212507
 }
-1197.9.28={
+1197.9.28 = {
 	holder = 212513
 }
-1220.1.1={
-	holder = 211514
+1220.1.1 = {
+	holder = 32550
 }
 1240.1.1 = {
 	holder = 32545
 }
-1250.12.13={
+1250.12.13 = {
 	holder = 30760
 }
-1254.5.21={
-	holder = 30785
+1254.5.21 = {
+	holder = 70997 # Galvano Lancia, conte di Butera e Principato, principe di Salerno
 }
-1258.1.1={
-	holder = 7636
-}
-1266.2.26={
+1266.2.26 = {
 	holder = 455406
 }
-1285.1.7={
+1285.1.7 = {
 	holder = 461710
 }
-1302.8.31={
-	liege=k_naples
-}
-1309.5.5={
+1309.5.5 = {
 	holder = 461700
-	liege=d_calabria
 }

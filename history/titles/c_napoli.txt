@@ -1,174 +1,85 @@
-536.1.1={
-	liege=e_byzantium
+# -*- ck2.history.titles -*-
+
+# CJL78 - Dukes of Naples
+850.1.1 = {
+	holder = 163090 # Sergios I of Napoli
 }
-661.1.1={
-	holder = 145865
+865.1.1 = {
+	holder = 1167301 # Sergios II of Napoli
 }
-666.1.1={
-	holder = 145866
+878.1.1 = {
+	holder = 163088 # Athanasios I of Napoli
 }
-670.1.1={
-	holder = 145867
+898.1.1 = {
+	holder = 163087 # Gregorios IV of Napoli
 }
-673.1.1={
-	holder = 145868
+915.1.1 = {
+	holder = 163086 # Ioannes II of Napoli
 }
-677.1.1={
-	holder = 145869
+919.1.1 = {
+	holder = 163085 # Marinos I of Napoli
 }
-684.1.1={
-	holder = 145870
+928.1.1 = {
+	holder = 163084 # Ioannes III of Napoli
 }
-687.1.1={
-	holder = 145871
+969.1.1 = {
+	holder = 163083 # Marinos II of Napoli
 }
-696.1.1={
-	holder = 145872
+992.1.1 = {
+	holder = 163082 # Sergios III of Napoli
 }
-706.1.1={
-	holder = 145873
+997.1.1 = {
+	holder = 163081 # Ioannes IV of Napoli
 }
-711.9.1={
-	holder = 145874
+1002.1.1 = {
+	holder = 163080 # Sergios IV of Napoli
 }
-719.1.1={
-	holder = 145875
+1036.1.1 = {
+	holder = 30820 # Ioannes V of Napoli
 }
-729.1.1={
-	holder = 145876
+1053.4.1 = {
+	holder = 20498 # Sergios V of Napoli
 }
-739.1.1={
-	holder = 145877
+1075.11.1 = {
+	holder = 20531 # Sergios VI of Napoli
 }
-755.1.1={
-	holder = 145878
+1107.9.1 = {
+	holder = 30822 # Ioannes VI of Napoli
 }
-767.1.1={
-	holder = 145879
+1123.4.1 = {
+	holder = 30824 # Sergios VII of Napoli
 }
-794.1.1={
-	holder = 145880
+1130.12.25 = {
+	liege = k_sicily
 }
-801.1.1={
-	holder = 145881
+#Conti di Accera
+1137.1.1 = {
+	holder = 1230859 # Ruggero di Medania/Ariano, conte di Accera e Bounalbergo
 }
-818.1.1={
-	holder = 145882
+1147.1.1 = {
+	holder = 1063649 # Maione da Bari, Admiral/Emir of Sicily, conte di Accera ca 1155-1160
 }
-821.1.1={
-	holder = 145883
+1160.11.10 = {
+	holder = 1227537 # Riccardo di Aquino, conte di Accera ?-1196
 }
-821.8.1={
-	holder = 145884
+1196.1.1 = {
+	holder = 73469 # Diepold von Schweinpeunt
 }
-832.6.1={
-	holder = 145885
+1221.1.1 = {
+	holder = 1167122 # Tommasso I di Aquino, conte di Accera 1220-1251
 }
-834.1.1={
-	holder = 145886
+1251.2.27 = {
+	holder = 1227505 # Tommasso II di Aquino, conte di Accera 1251-1273
 }
-834.9.1={
-	holder = 145887
+1273.3.15 = {
+	holder = 1227507 # Adenolfo IV di Aquino, conte di Accera 1273-1293
 }
-840.3.1={
-	liege=0
-	holder = 163090
+1282.8.30 = {
+	liege = k_naples
 }
-864.1.1={
-	holder = 145201
+1293.11.22 = {
+	holder = 461712 # Phillip I d'Anjou
 }
-870.3.1={
-	holder = 163089
-}
-878.1.1={
-	holder = 163088
-}
-898.1.1={
-	holder = 163087
-}
-915.1.1={
-	holder = 163086
-	liege=e_byzantium
-}
-919.1.1={
-	holder = 163085
-}
-928.1.1={
-	holder = 163084
-}
-968.1.1={
-	holder = 163083
-}
-992.1.1={
-	holder = 163082
-}
-997.1.1={
-	holder = 163081
-}
-1002.1.1={
-	holder = 163080
-}
-1036.1.1={
-	holder = 30820
-	liege = 0
-}
-1053.1.1={
-	holder = 20498 #Sergios V of Napoli
-}
-1075.11.1={
-	holder = 20531 #Sergios VI of Napoli
-}
-1107.9.1={
-	holder = 30822 #Ioannes VI of Napoli
-}
-1123.4.1={
-	holder = 30824 #Sergios VII of Napoli
-}
-1130.12.25={
-	liege=k_sicily
-}
-1139.4.1={
-	holder = 211502 #Roger I
-}
-1154.2.26={
-	holder = 211501 #William I
-}
-1166.5.7={
-	holder = 211500 #William II
-}
-1189.11.11={
-	holder = 211509 #Tancred di Lecce
-}
-1194.2.20={
-	holder = 211512 #William III di Lecce
-}
-1194.10.1={
-	holder = 212507 #Heinrich VI
-}
-1197.9.28={
-	holder = 212513 #Friedrich II
-}
-1240.1.1 ={
-	holder = 7636
-}
-1250.12.13={
-	holder = 30760 #Konrad Hohenstaufen
-}
-1254.5.21={
-	holder = 30785 #Konradin Hohenstaufen
-}
-1258.1.1={
-	holder = 7636 #Manfred Hohenstaufen
-}
-1266.2.26={
-	holder = 455406 #Charles I d'Anjou
-}
-1285.1.7={
-	holder = 461710 #Charles II
-}
-1302.8.31={
-	liege=k_naples
-}
-1309.5.5={
-	holder = 461700 #Robert I
+1332.12.26 = {
+	holder = 461720 # Phillip II d'Anjou
 }

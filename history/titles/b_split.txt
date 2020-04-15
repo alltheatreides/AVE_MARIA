@@ -1,16 +1,11 @@
-1050.1.1={
-	liege="k_venice" # Subjugated by Doge Pietro Orseolo II
-	holder = 182000 # House Ziani
+# -*- ck2.history.titles -*-
+
+864.1.1 = {
+	liege = d_dalmatia
+	holder = 1233578
 }
-1069.1.1 = {
+888.1.1 = {
+	#liege = d_croatia
+	liege = c_split
 	holder = 0
-	liege="c_split" # To Croatia under Petar Krešimir IV 
-}
-1075.1.1={
-	liege="k_venice" # Venice back in control
-	holder = 182000 # House Ziani
-}
-1105.1.1={
-	holder = 0
-	liege="c_split" # Croatia/Hungary under Coloman
 }

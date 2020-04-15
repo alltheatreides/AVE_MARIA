@@ -1,85 +1,73 @@
-745.1.1={
-	holder = 200061 # Obeko de �lava
-	liege=k_asturias
+# -*- ck2.history.titles -*-
+
+866.5.27 = {
+	liege = k_asturias
+	holder = 73751
 }
-770.1.1={
-	holder = 70006 # Alfonso II de Asturias
+916.1.1 = {
+	holder = 73897
 }
-842.3.20={
-	holder = 70015 # Ramiro I de Cantabria
+931.1.1 = {
+	liege = k_leon
+	holder = 107680 # Fernán González de Lara
 }
-850.2.1={
-	holder = 70017 # Ordo�o I de Cantabria
+944.1.1 = {
+	holder = 1065305 # Ansur Fernández Ansúrez
 }
-866.5.27={
-	holder = 200161 # Vela Ximenez Vela
-	liege=d_castilla
+945.1.1 = {
+#	liege = 0 #Might in reality have been quite autonomous, but still retained a vassal relationship with Leon
+	holder = 107680 # Fernán González de Lara
 }
-885.1.1={
-	liege=k_asturias
+970.6.1 = {
+	holder = 107670 # García Fernández de Lara
 }
-897.1.1={
-	holder = 200071 # Gonzalo T�llez
+995.1.1 = {
+	holder = 107660 # Sancho García de Lara
 }
-905.1.1={
-	holder = 70122 # Antso I Ximena
+1010.1.1 = {
 	liege = k_navarra
+	holder = 107530
+	law = succ_primogeniture
 }
-925.12.11={
-	holder = 70123 # Gartzia III Ximena
+1040.1.1 = {
+	holder = 107520
 }
-970.2.22={
-	holder = 70124 # Antso II Ximena
+1077.1.1 = {
+	holder = 107523
 }
-994.12.1={
-	holder = 106040 # Gartzia IV Ximena
+1094.1.1 = {
+	holder = 207600
 }
-999.12.8={
-	holder = 106030 # Antso III Ximena
+1124.1.1 = {
+	holder = 207570
 }
-1035.10.18={
-	holder = 106010 # Gartzia V Ximena
+1170.5.6 = {
+	holder = 207560
 }
-1040.1.1={
-	holder = 107520 # I�igo L�pez de Haro
-	liege=k_castille
+1214.9.16 = {
+	holder = 71963
 }
-1077.1.1={
-	holder = 107523 # Lope ��iguez de Haro
+1236.10.18 = {
+	holder = 71969
 }
-1094.1.1={
-	holder = 207600 # Diego L�pez de Haro I
+1254.10.4 = {
+	holder = 72027
 }
-1124.1.1={
-	holder = 207570 # Lope D�az de Haro I
+1288.7.1 = {
+	holder = 72028
 }
-1170.5.6={
-	holder = 207560 # Diego L�pez de Haro II
+1292.1.1 = {
+	holder = 72029
 }
-1214.9.16={
-	holder = 71963 # Lope D�az de Haro II
+1310.1.1 = {
+	holder = 71506
 }
-1236.10.18={
-	holder = 71969 # Diego L�pez de Haro III
+1310.2.1 = {
+	holder = 457561
 }
-1254.10.4={
-	holder = 72027 # Lope D�az de Haro III
+1319.6.25 = {
+	holder = 457611
 }
-1288.7.1={
-	holder = 72028 # Diego L�pez de Haro IV
-}
-1292.1.1={
-	holder = 72029 # Diego L�pez de Haro V
-}
-1310.1.1={
-	holder = 71506 # Mar�a D�az de Haro I
-}
-1310.2.1={
-	holder = 457561 # Juan Alf�nsez de Borgo�a
-}
-1319.6.25={
-	holder = 457611 # Juan D�az de Haro
-}
-1326.12.2={
-	holder = 457610 # Mar�a II D�az de Haro
+1326.12.2 = {
+	holder = 457610
 }

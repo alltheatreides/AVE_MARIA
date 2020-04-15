@@ -1,104 +1,102 @@
-522.1.1={
-	liege="d_kartli"
+# -*- ck2.history.titles -*-
+
+839.1.1 = {
+	liege = d_kakheti
+	holder = 1234261
 }
-522.1.1={
-	holder = 159775
+861.1.1 = {
+	holder = 1234264
 }
-535.1.1={
-	holder = 159776
+881.1.1 = {
+	holder = 1234265
 }
-590.1.1={
-	holder = 159781
+893.1.1 = {
+	holder = 1234266
 }
-630.1.1={
-	holder = 159782
+918.1.1 = {
+	holder = 1234267
 }
-650.1.1={
-	holder = 159783
+929.1.1 = {
+	holder = 1234268
 }
-684.1.1={
-	holder = 159784
+976.1.1 = {
+	holder = 1234269
 }
-690.1.1={
-	holder = 159785
+1010.1.1 = {
+	holder = 1234270
 }
-748.1.1={
-	holder = 159786
+1010.6.1 = {
+	liege = k_georgia
+	holder = 41547
 }
-786.1.1={
-	holder = 41540
+1014.1.1 = {
+	liege = d_kakheti
+	holder = 1234270
 }
-826.1.29={
-	holder = 41541
+1029.1.1 = {
+	liege = k_georgia
+	holder = 9952
 }
-936.1.1 = {
-	holder = 260987
-	liege = 0
-}
-1029.1.1={
-	liege = "0"
+1039.1.1 = {
+	liege = d_kakheti
 	holder = 41514
 }
-1059.1.1={
+1058.1.1 = {
 	holder = 41515
 }
-1084.1.1={
+1084.1.1 = {
 	holder = 41516
 }
-1102.1.1={
+1102.1.1 = {
 	holder = 144565
 }
-1105.1.1={
-	liege="k_georgia"
+1105.1.1 = {
+	liege = k_georgia
+	holder = 216517
 }
-1105.1.1={
-	holder = 41550
+1125.1.24 = {
+	holder = 216516
 }
-1122.1.1=
-{
-	holder = 216524
+1154.1.1 = {
+	holder = 144010
 }
-1180.1.1={
-	holder = 466516
+1155.1.1 = {
+	holder = 216516
 }
-1184.4.6={
+1156.1.1 = {
+	holder = 216515
+}
+1184.4.6 = {
 	holder = 466517
 }
-1212.1.8={
+1212.1.8 = {
 	holder = 466515
 }
-1223.1.1={
+1223.1.1 = {
 	holder = 466518
 }
-1245.1.1={
-	holder = 466519
+1230.1.1 = {
+	holder = 1234363 # Egarslan Bakurtsikheli
 }
-1259.1.1={
+1259.1.1 = {
+	liege = k_iberia
 	holder = 466514
 }
-1270.1.1={
+1270.1.1 = {
 	holder = 466501
 }
-1289.3.12={
+1289.3.12 = {
 	holder = 144009
 }
-1292.1.1={
+1292.1.1 = {
 	holder = 466511
 }
-1299.1.1={
- holder = 466500
-}
-1302.1.1={
- holder = 145081
-}
-1308.1.1={
- holder = 466511
-}
-1311.1.1={	
+1311.1.1 = {
 	holder = 466512
 }
-1313.1.1={
+1313.1.1 = {
 	holder = 466500
 }
-
-
+1330.1.1 = {
+	liege = k_georgia # Imereti conquered by George V of Kartli-Kakheti, re-establishing a unified Georgian Kingdom
+}

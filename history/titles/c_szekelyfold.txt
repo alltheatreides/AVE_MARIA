@@ -1,102 +1,114 @@
-685.1.1={
-	liege = "d_transylvania"
+# -*- ck2.history.titles -*-
+
+685.1.1 = {
+	liege = d_transylvania
 	holder = 146143
 }
-708.1.1={
+708.1.1 = {
 	holder = 146144
 }
-725.1.1={
+725.1.1 = {
 	holder = 146146
 }
-750.1.1={
+750.1.1 = {
 	holder = 146148
 }
-795.1.1={
+795.1.1 = {
 	holder = 146150
 }
-800.1.1={
+800.1.1 = {
 	holder = 146151
 }
-804.1.1={
+804.1.1 = {
 	holder = 146152
 }
-863.1.1={
+863.1.1 = {
 	holder = 168283
 }
-936.1.1 = {
-	holder = 260660
+895.1.1 = {
+	holder = 159141 # Teteny, tribal chief in Magyar Confederation
 }
-1063.12.1=
-{
-holder = 474
+915.1.1 = {
+	holder = 70370 # Bogat the Horka, son of Teteny and father of Zombor (mistakenly believed to have a brother Gyula)
 }
-1095.7.29={
-holder = 480
+#The Gyulas of Transylvania seems to have been a part of the Magyar confederation before Lechfeld, made them a tributary
+935.1.1 = {
+	liege = d_transylvania
+	holder = 70372 # Zombor, the Gyula of Transylvania
 }
-1116.2.3={
-holder = 231065
+976.1.1 = {
+	holder = 70373 # Prokuj Gyula, the Gyula of Transylvania
 }
-1131.4.2={
-holder = 219530
+999.1.1 = {
+	holder = 146215 # Bonyha, Prokuj Gyula's son, who remained a landholder even after Prokuj was deposed
 }
-1141.2.13={
-holder = 219510
+1034.1.1 = {
+	liege = k_hungary
+	holder = 482	
 }
-1162.5.31={
-holder = 219511
+1038.8.15 = {
+	holder = 497
 }
-1162.7.15={
-holder = 98000
+1040.1.1 = {
+	liege = d_transylvania
+	holder = 20365
 }
-1163.1.14={
-holder = 98001
+1063.12.1 = {
+	holder = 474
 }
-1163.6.19={
-holder = 219511
+1095.7.29 = {
+	holder = 480
 }
-1172.3.4={
-holder = 219500
+1116.2.3 = {
+	holder = 231065
 }
-1196.4.23={
-holder = 219501
+1131.4.2 = {
+	holder = 219530
 }
-1204.11.30={
-holder = 98002
+1141.2.13 = {
+	holder = 219510
 }
-1205.5.7={
-holder = 219502
+1162.5.31 = {
+	holder = 219511
 }
-
-1211.1.1=
-{
-liege="d_teutonic_order"
+1162.7.15 = {
+	holder = 98000
 }
-1211.1.1=
-{
-holder = 30403 #Herman von Salza
+1163.1.14 = {
+	holder = 98001
 }
-1224.12.31=
-{
-liege="d_transylvania"
+1163.6.19 = {
+	holder = 219511
 }
-1224.12.31=
-{
-holder = 93639
+1172.3.4 = {
+	holder = 219500
 }
-1250.1.1=
-{
-holder = 93640
+1196.4.23 = {
+	holder = 219501
 }
-1291.1.1=
-{
-holder = 93641
+1204.11.30 = {
+	holder = 98002
 }
-1310.1.1=
-{
-holder = 470200
+1205.5.7 = {
+	holder = 219502
 }
-1320.1.1=
-{
-holder = 470202
+1211.1.1 = {
+	liege = d_teutonic_order
+	holder = 30403 # Herman von Salza
 }
-
+1224.12.31 = {
+	liege = d_transylvania
+	holder = 93639
+}
+1250.1.1 = {
+	holder = 93640
+}
+1291.1.1 = {
+	holder = 93641
+}
+1310.1.1 = {
+	holder = 470200
+}
+1320.1.1 = {
+	holder = 470202
+}
