@@ -135,7 +135,7 @@ character_event = {
         name = EVTOPTD_AVE_MARIA_true_vassal_obligations_events.1
         set_character_flag = feudal_breach
 		any_demesne_title = {
-			add_claim = event_target:target_receiver_of_servitium_debitum
+			add_weak_claim = event_target:target_receiver_of_servitium_debitum
 		}
         ai_chance = {
             factor = 1
@@ -504,22 +504,570 @@ character_event = {
 }
 
 # Monetary obligations - Suzerain's son armed knight - Suzerain event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.7
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.7
+    picture = GFX_evt_ave_maria_true_vassal_obligation
+    is_triggered_only = yes
+
+    trigger = {
+        any_child = {
+			limit = {
+				is_female = no
+				age = 14
+			}
+		}
+    }
+	
+	#Yes, ask everyone
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.7
+		hidden_effect = {
+			any_tributary  = {
+				limit = { 
+					is_tributary = { type = true_vassal suzerain = ROOT }
+				}
+				narrative_event = {
+					id = AVE_MARIA_true_vassal_obligations.8
+					days = 5
+					random = 5
+				}
+			}
+		}
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	#Human player option - On second thought no
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.7
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's son armed knight - Vassals event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.8
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.8
+    picture = GFX_evt_ave_maria_true_vassal_obligation
+    is_triggered_only = yes
+	
+	trigger = {
+        
+    }
+	
+	#Lavish donation
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.8
+		wealth = -20
+		set_character_flag = true_vassal_obligations_son_knight_lavish_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.9
+			}
+		}
+		ai_chance = {
+            factor = 15
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+		
+	}
+	
+	#Normal donation
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.8
+		wealth = -10
+		set_character_flag = true_vassal_obligations_son_knight_normal_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.9
+			}
+		}
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	#Sober donation
+	option = {
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.8
+		wealth = -5
+		set_character_flag = true_vassal_obligations_son_knight_sober_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.9
+			}
+		}
+		ai_chance = {
+            factor = 5
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = -25 }
+            }
+        }
+	}
+	
+	#Nothing donation
+	option = {
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.8
+		set_character_flag = true_vassal_obligations_son_knight_nothing_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.9
+			}
+		}
+		ai_chance = {
+            factor = 1
+			modifier = {
+                factor = 100
+                opinion = { who = ROOT value = -75 }
+            }
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's son armed knight - Suzerain receive vassals response
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.9
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.9
+    picture = GFX_evt_ave_maria_true_vassal_obligation
+    is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_son_knight_lavish_donation }
+		}
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.9
+		wealth = 20
+		opinion = { modifier = opinion_true_vassal_obligations_son_knight_lavish_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_son_knight_normal_donation }
+		}
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.9
+		wealth = 10
+		opinion = { modifier = opinion_true_vassal_obligations_son_knight_normal_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_son_knight_sober_donation }
+		}
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.9
+		wealth = 5
+		opinion = { modifier = opinion_true_vassal_obligations_son_knight_sober_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_son_knight_nothing_donation }
+		}
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.9
+		opinion = { modifier = opinion_true_vassal_obligations_son_knight_nothing_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+}
 
-# Monetary obligations - Suzerain's daughter marrying - Suzerain event
+# Monetary obligations - Suzerain's first daughter marrying - Suzerain event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.10
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.10
+    picture = GFX_evt_marriage
+    is_triggered_only = yes
 
-# Monetary obligations - Suzerain's daughter marrying - Vassals event
+    trigger = {
+        any_child = {
+			limit = {
+				is_female = yes
+				age = 14
+			}
+		}
+    }
+	
+	#Yes, ask everyone
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.10
+		hidden_effect = {
+			any_tributary  = {
+				limit = { 
+					is_tributary = { type = true_vassal suzerain = ROOT }
+				}
+				narrative_event = {
+					id = AVE_MARIA_true_vassal_obligations.11
+					days = 5
+					random = 5
+				}
+			}
+		}
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	#Human player option - On second thought no
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.10
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
 
-# Monetary obligations - Suzerain's daughter marrying - Suzerain receive vassals response
+# Monetary obligations - Suzerain's first daughter marrying - Vassals event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.11
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.11
+    picture = GFX_evt_marriage
+    is_triggered_only = yes
+	
+	trigger = {
+        
+    }
+	
+	#Lavish donation
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.11
+		wealth = -20
+		set_character_flag = true_vassal_obligations_daughter_marriage_lavish_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.12
+			}
+		}
+		ai_chance = {
+            factor = 15
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+		
+	}
+	
+	#Normal donation
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.11
+		wealth = -10
+		set_character_flag = true_vassal_obligations_daughter_marriage_normal_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.12
+			}
+		}
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	#Sober donation
+	option = {
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.11
+		wealth = -5
+		set_character_flag = true_vassal_obligations_daughter_marriage_sober_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.12
+			}
+		}
+		ai_chance = {
+            factor = 5
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = -25 }
+            }
+        }
+	}
+	
+	#Nothing donation
+	option = {
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.11
+		set_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.12
+			}
+		}
+		ai_chance = {
+            factor = 1
+			modifier = {
+                factor = 100
+                opinion = { who = ROOT value = -75 }
+            }
+        }
+	}
+}
+
+# Monetary obligations - Suzerain's first daughter marrying - Suzerain receive vassals response
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.12
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.12
+    picture = GFX_evt_marriage
+    is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_daughter_marriage_lavish_donation }
+		}
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.12
+		wealth = 20
+		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_lavish_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_daughter_marriage_normal_donation }
+		}
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.12
+		wealth = 10
+		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_normal_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_daughter_marriage_sober_donation }
+		}
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.12
+		wealth = 5
+		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_sober_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation }
+		}
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.12
+		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_nothing_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+}
 
 # Monetary obligations - Suzerain's ransom - Suzerain event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.13
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.13
+    picture = GFX_evt_emissary
+    is_triggered_only = yes
+
+    trigger = {
+        prisoner = yes
+    }
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	#Yes, ask everyone
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.13
+		hidden_effect = {
+			any_tributary  = {
+				limit = { 
+					is_tributary = { type = true_vassal suzerain = ROOT }
+				}
+				narrative_event = {
+					id = AVE_MARIA_true_vassal_obligations.14
+					days = 5
+					random = 5
+				}
+			}
+		}
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	#Human player option - On second thought no
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.13
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's ransom - Vassals event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.14
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.14
+    picture = GFX_evt_emissary
+    is_triggered_only = yes
+	
+	trigger = {
+        
+    }
+	
+	#Lavish donation
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.14
+		wealth = -20
+		set_character_flag = true_vassal_obligations_suzerain_ransom_lavish_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.15
+			}
+		}
+		ai_chance = {
+            factor = 15
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+		
+	}
+	
+	#Normal donation
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.11
+		wealth = -10
+		set_character_flag = true_vassal_obligations_suzerain_ransom_normal_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.15
+			}
+		}
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	#Sober donation
+	option = {
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.11
+		wealth = -5
+		set_character_flag = true_vassal_obligations_suzerain_ransom_sober_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.15
+			}
+		}
+		ai_chance = {
+            factor = 5
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = -25 }
+            }
+        }
+	}
+	
+	#Nothing donation
+	option = {
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.11
+		set_character_flag = true_vassal_obligations_suzerain_ransom_nothing_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.15
+			}
+		}
+		ai_chance = {
+            factor = 1
+			modifier = {
+                factor = 100
+                opinion = { who = ROOT value = -75 }
+            }
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's ransom - Suzerain receive vassals response
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.15
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.15
+    picture = GFX_evt_emissary
+    is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_ransom_lavish_donation }
+		}
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.15
+		wealth = 20
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_lavish_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_ransom_normal_donation }
+		}
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.15
+		wealth = 10
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_normal_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_ransom_sober_donation }
+		}
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.15
+		wealth = 5
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_sober_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_ransom_nothing_donation }
+		}
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.15
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_nothing_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+}
 
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain event
 

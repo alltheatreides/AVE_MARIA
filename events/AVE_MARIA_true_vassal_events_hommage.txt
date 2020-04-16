@@ -59,7 +59,7 @@ character_event = {
     desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.2
     picture = {
         trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_2
+        picture = GFX_evt_ave_maria_true_vassal_homage
     }
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
@@ -109,7 +109,7 @@ character_event = {
     }
     picture = {
         trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_2
+        picture = GFX_evt_ave_maria_true_vassal_homage
     }
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
@@ -272,7 +272,7 @@ character_event = {
     desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.4
     picture = {
         trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage
+        picture = GFX_evt_ave_maria_true_vassal_homage
     }
     border = GFX_event_normal_frame_diplomacy
     is_triggered_only = yes
@@ -323,7 +323,7 @@ narrative_event = {
     }
     picture = {
         trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_3
+        picture = GFX_evt_ave_maria_true_vassal_homage
     }
     is_triggered_only = yes
 
@@ -452,7 +452,7 @@ narrative_event = {
     }
     picture = {
         trigger = { religion_group = christian }
-        picture = GFX_evt_ruler_homage_3
+        picture = GFX_evt_ave_maria_true_vassal_homage
     }
     is_triggered_only = yes
 
@@ -496,4 +496,6 @@ narrative_event = {
 
 }
 
+# Random Events during the ceremony - vassal eyes catch a women eye he is attracted to , daughter ? wife ? any female character currently at the court of the lord
 
+# Random Events during the ceremony - 

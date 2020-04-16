@@ -9,11 +9,11 @@ feudal_governments = {
 		}
 		vassal_call_to_arms = {
 			nomadic_government
-			feudal_government
+			# feudal_government
 			# republic_government
 			# merchant_republic_government
 			tribal_government
-			muslim_government
+			# muslim_government
 			# theocracy_government
 		}
 		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture

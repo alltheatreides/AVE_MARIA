@@ -9,6 +9,8 @@
 
 # Written by Atreides
 
+
+#Homage Ceremony opinion modifiers
 opinion_true_vassal_luxurious_homage_ceremony = {
 	opinion = 10
 }
@@ -19,4 +21,56 @@ opinion_true_vassal_normal_homage_ceremony = {
 
 opinion_true_vassal_sober_homage_ceremony = {
 	opinion = -10
+}
+
+
+#Aide aux quatre cas - son is knighted opinion modifiers
+opinion_true_vassal_obligations_son_knight_lavish_donation = {
+	opinion = 10
+}
+
+opinion_true_vassal_obligations_son_knight_normal_donation = {
+	opinion = 5
+}
+
+opinion_true_vassal_obligations_son_knight_sober_donation = {
+	opinion = -10
+}
+
+opinion_true_vassal_obligations_son_knight_nothing_donation = {
+	opinion = -20
+}
+
+#Aide aux quatre cas - daughter is marriable opinion modifiers
+opinion_true_vassal_obligations_daughter_marriage_lavish_donation = {
+	opinion = 10
+}
+
+opinion_true_vassal_obligations_daughter_marriage_normal_donation = {
+	opinion = 5
+}
+
+opinion_true_vassal_obligations_daughter_marriage_sober_donation = {
+	opinion = -10
+}
+
+opinion_true_vassal_obligations_daughter_marriage_nothing_donation = {
+	opinion = -20
+}
+
+#Aide aux quatre cas - suzerain is ransomed opinion modifiers
+opinion_true_vassal_obligations_suzerain_ransom_lavish_donation = {
+	opinion = 10
+}
+
+opinion_true_vassal_obligations_suzerain_ransom_normal_donation = {
+	opinion = 5
+}
+
+opinion_true_vassal_obligations_suzerain_ransom_sober_donation = {
+	opinion = -10
+}
+
+opinion_true_vassal_obligations_suzerain_ransom_nothing_donation = {
+	opinion = -20
 }

@@ -28,6 +28,13 @@ on_yearly_pulse = {
 	}
 }
 
+# Aide aux quatre cas
+on_adulthood = {
+	events = {
+		AVE_MARIA_true_vassal_obligations.7
+	}
+}
+
 # ROOT is the creating character, FROM is the title
 on_create_title = {
 	events = {

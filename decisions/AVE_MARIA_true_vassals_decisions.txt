@@ -212,7 +212,7 @@ decisions = {
 		}
 	}
 
-	true_vassals_hommage = {
+	true_vassal_hommage = {
 		only_independent = yes
 		is_high_prio = yes
 		only_playable = yes
@@ -267,7 +267,50 @@ decisions = {
 		}
 
 	}
+	
+	# true_vassal_commise_du_fief = {
+		# only_independent = yes
+		# is_high_prio = yes
+		# only_playable = yes
 
+		# potential = {
+			# is_playable = yes
+			# NOR = {
+				# is_nomadic = yes
+				# is_tribal = yes
+				# culture = greek
+				# any_liege = {
+					# AND = { 
+						# primary_title = { 
+							# OR = { 
+								# title = e_byzantium
+								# title = e_roman_empire
+							# }
+							# has_law = succ_byzantine_elective
+						# }
+					# }
+				# }
+			# }
+			# any_tributary = {
+				# limit = {
+					# has_character_flag = feudal_breach
+				# }
+			# }
+		# }
+		
+		# allow = {
+			# NOT = { is_inaccessible_trigger = yes }
+		# }
+		
+		# effect = {
+			# narrative_event = {
+				# id = AVE_MARIA_true_vassal_obligations.7
+			# }
+		# }
+		
+		
+	# }
+	
 }
 
 targetted_decisions = {
