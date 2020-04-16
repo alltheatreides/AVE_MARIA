@@ -1,0 +1,89 @@
+# -*- ck2.history.titles -*-
+
+863.1.1 = {
+	liege = k_magyar
+	holder = 1233323
+}
+# Yawdi-Ertim
+895.1.1 = {
+	liege = d_yawdi_ertim
+	holder = 1231708 # Bayca
+}
+905.1.1 = {
+	holder = 1231711
+}
+910.1.1 = {
+	holder = 1231712
+}
+940.1.1 = {
+	holder = 1231714
+}
+960.1.1 = {
+	holder = 1231716
+}
+980.1.1 = {
+	holder = 1231718 # Metigay
+}
+1010.1.1 = {
+	holder = 1231720
+}
+1036.1.1 = {
+	holder = 1231722
+}
+# 1044 Kegen migrates and Tiraq follows after
+# Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege = k_uzes
+	holder = 1231995
+}
+# Cumans arrive.
+# Urus-oba
+1060.1.1 = {
+	liege = d_urusoba
+	holder = 1233125 # Urusoba
+}
+1103.4.1 = {
+	holder = 1233127
+}
+1130.1.1 = {
+	holder = 1233129
+}
+1158.1.1 = {
+	holder = 1233131 # Koldeci
+}
+1198.1.1 = {
+	holder = 1233133 # Koban
+}
+1223.1.1 = {
+	holder = 1233135
+}
+1230.1.1 = {
+	holder = 1233137
+}
+# Terteroba migrate to Hungary after defeat
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1265.1.1 = {
+	liege = d_crimea
+	holder = 125535
+}
+1289.1.2 = {
+	holder = 125536
+}
+1294.1.2 = {
+	holder = 125537
+}
+1321.1.2 = {
+	holder = 125544
+}

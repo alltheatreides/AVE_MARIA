@@ -1,0 +1,21 @@
+# -*- ck2.history.titles -*-
+
+#Incorporated into the Billungmark as a tributary
+936.1.1 = {
+	set_tribute_suzerain = {
+		who = d_billungmark
+		percentage = 0.4
+	}
+	holder = 1226911
+}
+945.1.1 = {
+	holder = 1226912
+}
+975.1.1 = {
+	holder = 1226913
+}
+#Regained their independence in the Great Slav Rising of 983
+983.1.1 = {
+	clear_tribute_suzerain = d_billungmark
+	holder = 0
+}

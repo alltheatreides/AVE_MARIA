@@ -1,0 +1,130 @@
+#EVENTS
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_true_vassal_homage"
+		texturefile = "gfx\\event_pictures\ave_maria_true_vassal_event_picture_homage.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ave_maria_true_vassal_obligation"
+		texturefile = "gfx\\event_pictures\ave_maria_true_vassal_event_picture_obligation.dds"
+		allwaystransparent = yes
+	}
+		
+	spriteType = {
+		name = "GFX_evt_convocation_du_ban"
+		texturefile = "gfx\\event_pictures\ave_maria_convocation_du_ban.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_tournament_jousting"
+		texturefile = "gfx\\event_pictures\ave_maria_tournament_jousting.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_wife_sewing_battle_scene"
+		texturefile = "gfx\\event_pictures\ave_maria_wife_sewing_battle_scene.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_peaceful_castle_music_listening"
+		texturefile = "gfx\\event_pictures\ave_maria_peaceful_castle_music_listening.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_child_and_tutor"
+		texturefile = "gfx\\event_pictures\ave_maria_child_and_tutor.tga"
+		allwaystransparent = yes
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_evt_guard_dog"
+		texturefile = "gfx\\event_pictures\ave_maria_guard_dog.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_after_the_battle_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_after_the_battle_christian.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_religious_prayer_couple_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_religious_prayer_couple_christian.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_knight_and_lady_outremer_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_knight_and_lady_outremer_christian.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_boyhood_mother_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_boyhood_mother_christian.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_old_man_prayer_muslim"
+		texturefile = "gfx\\event_pictures\ave_maria_old_man_prayer_muslim.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_children_education_public"
+		texturefile = "gfx\\event_pictures\ave_maria_children_education_public.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_christian_charity_woman"
+		texturefile = "gfx\\event_pictures\ave_maria_christian_charity_woman.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_maternity_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_maternity_christian.tga"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_love_affair_christian"
+		texturefile = "gfx\\event_pictures\ave_maria_love_affair_christian.tga"
+		allwaystransparent = yes
+	}
+}
+
+
+#DECISIONS
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_true_vassal_convocation_au_ban_offensif"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_icon_convocation_du_ban.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_true_vassal_convocation_au_ban_defensive"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_icon_convocation_du_ban.tga"
+	}
+		
+	spriteType = {
+		name = "GFX_true_vassals_hommage"
+		texturefile = "gfx\\interface\\decisions\\ave_marie_true_vassal_decision_icon_true_vassal_homage.tga"
+	}
+	
+
+}
+
+

@@ -1,0 +1,10 @@
+#Cinque Ports family
+1263.4.1 = {
+	holding_dynasty = 1000100176 # de Pencester - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1067000 # Stephen de Pencester
+}
+1298.1.1 = {
+	holder = 0
+	liege=0
+}

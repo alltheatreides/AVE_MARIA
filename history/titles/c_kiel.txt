@@ -1,0 +1,87 @@
+# -*- ck2.history.titles -*-
+
+854.1.1 = {
+	liege=d_oborites
+	holder = 1227049
+}
+888.1.1 = {
+	holder = 1227050
+}
+931.1.1 = {
+	holder = 1227051
+}
+936.1.1 = {
+	liege = d_wagrians
+}
+955.1.1 = {
+	holder = 1227008 # Selibur
+}
+983.1.1 = {
+	liege = d_oborites
+}
+1010.1.1 = {
+	holder = 1227009
+}
+1040.1.1 = {
+	holder = 1227010
+}
+1065.1.1 = {
+	holder = 20584 # Kruto Wizlawid
+}
+1093.1.1 = {
+	holder = 1227011 # Mordbeil
+}
+1110.1.1 = {
+	holder = 30507 # Przybyslaw Nakonid aka Pribislaw of Alt-lubeck/Wagrians
+}
+1139.1.1 = {
+	liege=0
+	holder = 30482 # Race Wizlawid
+}
+1147.1.1 = {
+	liege=d_oborites
+}
+1150.1.1 = {
+	holder = 1227012 #Roschel Wizlawid son of previous
+}
+1156.1.1 = {
+	holder = 1227013 #Pribislav Wizlawid brother of previous.
+}
+#Battle of Preetz
+1173.1.1 = {
+	liege = d_saxony
+	holder = 1603105 # Marcrad II Ammoniden Overbode of Nordalbingen
+}
+#to Slesvig
+1181.1.1 = {
+	liege=d_slesvig
+	#holder = 1603105 # Marcrad II Ammoniden Overbode of Nordalbingen, exiled to Slesvig in 1181.
+}
+1190.1.1 = {
+	holder = 201501
+}
+1203.1.1 = {
+	liege = d_holstein
+	holder = 1603135 # Timmo II von Segeberg, Overbode and voigt of Segeberg under Valdemar and Albrecht von Weimar-Orlamünde
+}
+#Battle of Mölln
+1225.1.1 = {
+	holder = 1603170 # Gottschalk von Segeberg, Overbode of Holstein and Wagrien 1225-1248
+}
+1248.1.1 = {
+	holder = 1603172 # Hartvig von Segeberg, Daipfer of Holstein 1247-1254, 1254-? Overbode of Holstein and Wagrien 
+}
+#partition of the county
+1261.7.8 = {
+	liege = e_hre
+	holder = 31753 # Johann I von Schauenburg, first Count of Holstein-Kiel. His brother Gerhard inherited the other part of Holstein, Holstein-Itzehoe
+}
+1263.4.20 = {
+	holder = 31754 # Adolf V von Schauenburg the Pommeranian, second count of Holstein-Kiel and later of Holstein-Segeburg as his brother was given parts of his domain. Had no sons so his brother inherited his lands in 1308
+}
+1308.1.1 = {
+	holder = 31755 # Johann II von Schauenburg the One-Eyed, the third count of Holstein-Kiel. Was deposed in 1316
+}
+1316.1.1 = {
+	holder = 451960 # Johann III von Schauenburg, count of Holstein-Plön. Inherited both Holstein-Kiel and Holstein-Segeburg after Johann II was deposed
+}

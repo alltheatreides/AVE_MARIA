@@ -1,0 +1,151 @@
+# -*- ck2.history.titles -*-
+
+#Under Ravenna
+#Duci Traversara
+480.1.1 = {
+	holder = 1063415 # Teodoro
+}
+505.1.1 = {
+	holder = 1063419 # Stefano
+}
+515.1.1 = {
+	holder = 1063421 # Pirro
+}
+531.1.1 = {
+	holder = 1063423 # Bucello
+}
+542.1.1 = {
+	holder = 1063424 # Isnardo
+}
+610.1.1 = {
+	holder = 1063428 # Theodoro II
+}
+675.1.1 = {
+	holder = 1063431 # Paolo I
+}
+750.1.1 = {
+	holder = 1063433 # Andrea
+}
+755.1.1 = {
+	holder = 1063434 # Girogio
+}
+820.1.1 = {
+	holder = 1063438 # Agipato
+}
+866.1.1 = {
+	liege=d_ravenna
+}
+898.1.1 = {
+	holder = 1063440 # Paolo II
+}
+947.1.1 = {
+	holder = 1063441 # Pietro I
+}
+1000.1.1 = {
+	holder = 1063443 # Teodoro III
+}
+1017.1.1 = {
+	holder = 1063450 # Rustico
+}
+1050.1.1 = {
+	holder = 1063447 # Guido
+}
+1080.1.1 = {
+	holder = 1063453 # Guglielmo I
+}
+#Rimini commune
+1110.1.1 = {
+	liege=k_italy
+	holder = 1063360 # Rizardus/Riccardo Parcitadi
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1125.1.1 = {
+	holder = 1065042 # Giovanni I Malatesta
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1133.1.1 = {
+	holder = 1063360 # Rizardus/Riccardo Parcitadi
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1140.1.1 = {
+	holder = 1065042 # Giovanni I Malatesta
+}
+1145.1.1 = {
+	holder = 1063361 # Paracaria/Pacitade I Parcitadi
+}
+1150.1.1 = {
+	holder = 1063381# Malatesta II Malatesta
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1158.1.1 = {
+	holder = 1063362 # #Ugolino/Uguccione/Uguizon Parcitadi
+}
+1165.1.1 = {
+	holder = 1063382 # Malatesta Minore 
+}
+1172.1.1 = {
+	holder = 1063363 # Pacitade II Parcitadi
+}
+1172.8.26 = {
+	liege= k_lombard_league # joins the lombard league 1172-1173
+}
+#
+1179.1.1 = {
+	holder = 1063458 # Pietro II Traversari conte di Rimini.
+}
+1183.1.1 = {
+	holder = 1063459 # Guglielmo II Traversari conte di Rimini
+}
+1183.6.25 = {
+	liege=k_italy # peace of Konstanz
+}
+1187.1.1 = {
+	liege=d_ravenna
+}
+#
+1223.1.1 = {
+	holder = 1063369 # Ugolino Parcitadi visconte di Rimini
+}
+1245.1.1 = {
+	holder = 1063373 # Parcitade IV Parcitadi
+}
+1248.1.1 = {
+	liege = k_papal_state
+	holder = 73595 # Malatesta da verucchio
+}
+1276.1.1 = {
+	holder = 1063386 # Giovanni Malatesta
+}
+1278.1.1 = {
+	holder = 1063374 # Montagna Parcitadi
+}
+1282.1.1 = {
+	holder = 73595 # Malatesta da verucchio
+}
+1288.1.1 = {
+	holder = 1063374 # Montagna Parcitadi
+}
+1290.1.1 = {
+		liege=0
+	holder = 73595 # Malatesta da verucchio
+}
+1312.1.1 = {
+	holder = 73586 # Malatestino Malatesta
+}
+1317.1.1 = {
+	holder = 73597 # Pandolfo Malatesta
+}
+1326.4.10 = {
+	holder = 73591 # Ferrantino Malatesta
+}
+1353.1.1 = {
+	holder = 73600 # Malatesta Malatesta
+}

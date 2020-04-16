@@ -1,0 +1,87 @@
+# -*- ck2.history.titles -*-
+
+711.1.1 = {
+	liege = e_arabia
+}
+# 711-747: Umayyad governors
+# 747-768: Abbasid governors
+768.1.1 = {
+	liege = 0 # De facto
+	holder = 188533 # Hisham ibn 'Amr al-Taghlibi
+	set_tribute_suzerain = {
+		who = e_arabia
+		type = permanent
+	}
+}
+# 768-854: Abbasid governors
+854.1.1 = {
+	clear_tribute_suzerain = e_arabia
+#	holder = 175050 # Umar I Habbari
+}
+#884.1.1={
+#	holder =  1240053 # Abdullah
+#}
+#913.1.1={
+#	holder =  1240054 # Umar II
+#}
+#943.1.1={
+#	holder =  1240055 # Muhammad
+#}
+#973.1.1= {
+#	holder =  1240056 # Ali
+#}
+#987.1.1= {
+#	holder =  1240057 # Yahya-Manbi
+#}
+#1011.1.1 = {
+#	holder = 188349 # Khafif I
+#}
+#1026.1.1 = {
+#	holder = 0
+#}
+1051.1.1 = {
+	holder = 1240050 # b. Rajpal
+}
+1054.1.1 = {
+	holder = 188351 # Bhoongar I
+}
+1068.1.1 = {
+	holder = 188352 # Doda I
+}
+1089.1.1 = {
+#	holder = 188353 # Zainab Tari - regent for Sanghar for 3 years
+#}
+#1097.1.1 = {
+	holder = 188354 # Sanghar
+}
+1107.1.1 = {
+	holder = 188357 # Khafif II
+}
+1142.1.1 = {
+	holder = 188358 # Umar I
+}
+1162.1.1 = {
+	holder = 188359 # Doda II
+}
+1182.1.1 = {
+	holder = 144141 # Ghiyath Ghurid
+}
+1186.1.1 = {
+	liege = e_rajastan
+	holder = 144142 # Mu'izz
+}
+1206.3.15 = {
+	holder = 170300
+	capital = 1613 # Uch
+}
+1210.11.4 = {
+	liege = 0 #Qabacha declares himself sultan after the death of Aibak
+}
+1216.2.15 = {
+	liege = e_rajastan
+}
+1228.5.30 = {
+	liege = 0
+	holder = 0
+	capital = 1600 # Debul
+}

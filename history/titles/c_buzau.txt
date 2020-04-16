@@ -1,0 +1,96 @@
+# -*- ck2.history.titles -*-
+
+852.1.1 = {
+	liege = k_bulgaria
+	holder = 70382 # Boris
+}
+860.1.1 = {
+	liege = d_wallachia
+	holder = 168066
+}
+# Yazi-Qapan
+895.1.1 = {
+	liege = d_yazi_qapan
+	holder = 1231820 # Yazi
+}
+902.1.1 = {
+	holder = 1231822
+}
+943.1.1 = {
+	holder = 1231824
+}
+968.1.1 = {
+	holder = 1231826
+}
+990.1.1 = {
+	holder = 1231828
+}
+1018.1.1 = {
+	holder = 1231830
+}
+#1040.1.1 = {
+#	liege = d_yazi_qapan
+#}
+# Tiraq goes west
+# Küerchi-Chur
+1044.1.1 = {
+	liege = d_kuerchi_chur
+	holder = 1231736
+}
+1059.1.1 = {
+	holder = 1231738
+}
+# Consolidation after cuman subjugation of the northdanubian area.
+# Yazi Qapan
+1094.1.1 = {
+	liege = d_yazi_qapan
+	holder = 1231836
+}
+# last byzzie invasion fails
+# Cumans take over in person
+# last byzzie invasion fails
+# Cumans take over in person
+# Burçali
+1123.1.1 = {
+	liege = d_burchali
+	holder = 1233158
+}
+1163.1.1 = {
+	holder = 1233160
+}
+1183.1.1 = {
+	holder = 1233162 # Kopti
+}
+1218.1.1 = {
+	holder = 1233164
+}
+1230.1.1 = {
+	holder = 1233166
+}
+# Burçali migrate to Hungary after defeat
+1238.1.1 = {
+	liege = k_bulgaria
+	holder = 34825
+}
+# Mongols
+1241.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = nomadic
+	}
+	holder = 1233250 # Olaha
+}
+# to Bulgaria
+1299.1.2 = {
+	clear_tribute_suzerain = e_golden_horde
+	liege = d_wallachia
+	holder = 125519 # Chaka
+}
+# to Hungary
+1300.1.2 = {
+	holder = 475560 # Tihomir
+}
+1310.1.1 = {
+	holder = 475550 # Basarab
+}

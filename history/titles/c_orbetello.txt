@@ -1,0 +1,86 @@
+# -*- ck2.history.titles -*-
+
+#  Aldobrandeschi di Roselle e Sovanna
+800.1.1 = {
+	liege = d_toscana
+	holder = 1061356 # Ilprando
+}
+803.1.1 = {
+	holder = 1061357 # Aliperto
+}
+838.1.1 = {
+	holder = 1061358 # Ildebrando I
+}
+852.1.1 = {
+	holder = 1061359 # Eriprando/Ildebrando II
+}
+900.1.1 = {
+	holder = 1061360 # Ildebrando III
+}
+939.1.1 = {
+	holder = 1061361 # Gherardo
+}
+966.1.1 = {
+	holder = 1061363 # Rodolfo
+}
+988.1.1 = {
+	holder = 1061365 # Ildebrando IV
+}
+1034.1.1 = {
+	holder = 1061368 # Ildebrando V
+}
+1077.1.1 = {
+	holder = 1061370 # Ranieri Malabranca
+}
+1106.1.1 = {
+	holder = 1061371 # Malagagla
+}
+1121.7.1 = {
+	holder = 1061373 # Uguccione II
+}
+1152.1.1 = {
+	holder = 1061374 # Ildebrandino VII "Novello"
+}
+1185.1.1 = {
+	holder = 1061375 # Ildebrandino VIII
+}
+1197.9.28 = {
+    liege=0
+}
+1197.11.11 = {
+    liege=k_tuscan_league # League of San Genesio
+}	
+1210.1.1 = {
+	holder = 1061376 # Ildebrandino IX
+}
+#Aldobrandeschi di Pitgliano
+1237.7.28 = {
+	holder = 1061390 # Guglielmo "il Gran Tosco"
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1250.12.13 = {
+    liege=0
+}
+1256.1.1 = {
+	holder = 1061391 #Ildebrandino XI "il Rosso"
+}
+1284.5.1 = {
+	holder = 1061393 # Marghertia
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.1.1 = {
+	holder = 70863 # Anastasia di Monfort, gonna hand it directly to her husband Romano Orsini.
+}
+1313.2.1 = {
+	holder = 70862 # Romano Orsini
+}
+1313.8.24 = {
+	liege=0
+}
+1327.5.31 = {
+    liege=k_italy
+}

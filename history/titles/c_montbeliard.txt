@@ -1,0 +1,73 @@
+# -*- ck2.history.titles -*-
+
+#vanilla // together with the county of Burgundy
+# County of Burgundy
+# Royal Domain
+855.9.20 = {
+	liege = k_burgundy
+	holder = 91383
+}
+859.1.1 = {
+	holder = 91384
+}
+880.1.1 = {
+	holder = 90105
+}
+888.1.13 = {
+	holder = 7984
+}
+911.10.25 = {
+	holder = 1144
+}
+# County of Burgundy
+915.1.1 = {
+	holder = 1226553 # Alberic/Aubry de Macon, Count of Macon and Besancon
+}
+943.1.1 = {
+	holder = 1226554 # Lietald de Macon, Count of Macon and Besancon
+}
+966.1.1 = {
+	holder = 1226555 # Alberic/Aubry de Macon, Count of Macon and Besancon
+}
+# House of Ivrée
+982.1.1 = {
+	liege = d_upper_burgundy
+	holder = 272 # Otte-Guillaume
+}
+1026.1.1 = {
+	holder = 276 # Renaud I de Bourgogne
+}
+
+#SWMH
+#creation of the county
+1042.1.1={ liege = e_hre }
+1042.1.1= { holder=11000 } #Ludwig #Scarponnois count of Montbeliard and ferrette #changed date from 1150 in vanilla
+
+1073.1.1=
+{
+	holder=20250 #Scarponnois
+}
+1103.1.2=
+{
+	holder=34302 #Scarponnois
+}
+
+1150.1.1 = { holder = 161765 } #Amedee II de Montfaucon
+1195.5.1 = { holder = 161767 } #Richard III de Montfaucon
+
+1227.6.17=
+{
+	holder=161768 #Thierry III de Montbeliard (de Montfaucon) did not hold b_montfaucon
+}
+1282.1.1=
+{
+	holder=7654 #Renaud d IVREE Bourgogne
+}
+1322.8.9=
+{
+	holder=161776 #IVREE - under regency of his uncle Hugues de Bourgogne
+}
+1339.1.1 = { holder = 161774 } #Henri de Montfaucon
+1367.12.5 = { holder = 161775 } #Etienne de Montfaucon
+#1367.12.5 = { holder = not coded } #Etienne de Montfaucon+Henriette d'Orbe-Montfaucon
+#1397.11.2 = #end of male line

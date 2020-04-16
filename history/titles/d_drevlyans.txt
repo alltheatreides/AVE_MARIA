@@ -1,0 +1,22 @@
+# -*- ck2.history.titles -*-
+
+850.1.1 = {
+	holder = 1226950
+}
+880.1.1 = {
+	holder = 1226951
+}
+# Oleg subjugated the Drevlyans and turned them into a tributary tribe
+883.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ruthenia
+		type = permanent
+	}
+}
+933.1.1 = {
+	holder = 1226952
+}
+946.1.1 = {
+	clear_tribute_suzerain = k_ruthenia
+	holder = 0
+}

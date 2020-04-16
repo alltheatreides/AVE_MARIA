@@ -1,0 +1,558 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_true_vassal_maintenance.1 - AVE_MARIA_true_vassal_maintenance.499                          	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_true_vassal_maintenance
+
+###########################################
+# Maintenance events 1-10	              #
+###########################################
+
+# True Vassal Start Up event - chaque année pour s'assurer que rien ne reste des vassaux vanilla sauf pour les romains
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            limit = {
+                in_revolt = no
+            }
+            any_vassal = {
+                limit = {
+                    NOR = {
+                        #culture = greek
+                        any_liege = {
+                            AND = {
+                                primary_title = { 
+                                    OR = { 
+                                        title = e_byzantium
+                                        title = e_roman_empire
+                                    }
+                                    has_law = succ_byzantine_elective
+                                }
+                            }
+                            has_law = succ_byzantine_elective
+                        }
+                        tier = baron
+                        government = nomadic_government
+                        has_landed_title = d_mamluks
+                        has_landed_title = d_papal_guards
+                        mercenary = yes
+                    }
+                }
+                liege = {
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                set_defacto_liege = THIS
+            }
+            any_tributary = {
+                limit = {
+                    NOT = {
+                        OR = {
+							is_tributary = { type = default }
+                            is_tributary = { type = true_vassal_hre }
+                            is_tributary = { type = true_vassal }
+                        }
+                    }
+                }
+                suzerain = {
+                    remove_tributary = PREV
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                liege = {
+                    make_tributary = { who = PREV tributary_type = true_vassal }
+                }
+                set_defacto_liege = THIS
+            }
+            any_tributary = {
+                limit = {
+                    is_landed = no
+                }
+                suzerain = {
+                    remove_tributary = PREV
+                }
+            }
+        }
+        any_vassal = {
+            limit = {
+                in_revolt = no
+                liege = { in_revolt = no }
+                NOR = {
+                    #culture = greek
+                    any_liege = {
+                        AND = { 
+                            primary_title = { 
+                                OR = { 
+                                    title = e_byzantium
+                                    title = e_roman_empire
+                                }
+                                has_law = succ_byzantine_elective
+                            }
+                        }
+                        has_law = succ_byzantine_elective
+                    }
+                    tier = baron
+                    government = nomadic_government
+                    has_landed_title = d_mamluks
+                    has_landed_title = d_papal_guards
+                    mercenary = yes
+                }
+            }
+            liege = {
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            set_defacto_liege = THIS
+        }
+        any_tributary = {
+            limit = {
+                NOT = {
+                    OR = {
+                        is_tributary = { type = true_vassal_hre }
+                        is_tributary = { type = true_vassal }
+                    }
+                }
+            }
+            suzerain = {
+                remove_tributary = PREV
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            liege = {
+                make_tributary = { who = PREV tributary_type = true_vassal }
+            }
+            set_defacto_liege = THIS
+        }
+        any_tributary = {
+            limit = {
+                is_landed = no
+            }
+            suzerain = {
+                remove_tributary = PREV
+            }
+        }
+    }
+
+}
+
+# True Vassal Maintenance event - chaque année pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            if = {
+                limit = {
+                    tier = COUNT
+                    suzerain = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = DUKE
+                    suzerain = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = KING
+                    suzerain = {
+                        OR = {
+							tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+							tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = EMPEROR
+                    suzerain = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                       OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+        }
+        if = {
+			limit = {
+				tier = COUNT
+				suzerain = {
+					OR = {
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = DUKE
+				suzerain = {
+					OR = {
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = KING
+				suzerain = {
+					OR = {
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = KING
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+		if = {
+			limit = {
+				tier = EMPEROR
+				suzerain = {
+					OR = {
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						tier = KING
+						is_landed = no
+					}
+				}
+			}
+			suzerain = {
+				limit = {
+				   OR = {
+						tier = DUKE
+						tier = COUNT
+						tier = baron
+						tier = KING
+						is_landed = no
+					}
+				}
+				remove_tributary = PREV
+			}         
+		}
+    }
+}
+
+# True Vassal Maintenance event - quand un titre change de main pour s'assurer que l'on n'est pas vassal de quelqu'un en dessous
+character_event = {
+	id = AVE_MARIA_true_vassal_maintenance.3
+    hide_window = yes
+    is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					liege = ROOT
+				}
+			}
+			FROMFROM = {
+				liege = {
+                    make_tributary = { who = ROOT tributary_type = true_vassal }
+                }
+			}
+		}
+		ROOT = {
+			if = {
+                limit = {
+                    tier = COUNT
+                    suzerain = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = DUKE
+                    suzerain = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = KING
+                    suzerain = {
+                        OR = {
+                            tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+            if = {
+                limit = {
+                    tier = EMPEROR
+                    suzerain = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                }
+                suzerain = {
+                    limit = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }         
+            }
+		}
+	}
+}
+
+# Flag cleaning - à la fin de chaque guerre
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.4
+    hide_window = yes
+    is_triggered_only = yes
+   
+    immediate = {
+        FROM = {
+            clr_character_flag = convoqué_au_ban_offensive
+            clr_character_flag = convoqué_au_ban_defensive
+            clr_character_flag = convocation_au_ban_defensive
+            clr_character_flag = convocation_au_ban_offensif
+            clr_character_flag = join_war_motivated
+            clr_character_flag = join_war_dragging_feets
+            clr_character_flag = target_attacked_vassal
+            clr_character_flag = servitium_debitum
+            any_tributary = {
+                clr_character_flag = convoqué_au_ban_offensive
+                clr_character_flag = convoqué_au_ban_defensive
+                clr_character_flag = convocation_au_ban_defensive
+                clr_character_flag = convocation_au_ban_offensif
+                clr_character_flag = join_war_motivated
+                clr_character_flag = join_war_dragging_feets
+                clr_character_flag = target_attacked_vassal
+                clr_character_flag = servitium_debitum
+            }
+        }
+        ROOT = {
+            clr_character_flag = convoqué_au_ban_offensive
+            clr_character_flag = convoqué_au_ban_defensive
+            clr_character_flag = convocation_au_ban_defensive
+            clr_character_flag = convocation_au_ban_offensif
+            clr_character_flag = join_war_motivated
+            clr_character_flag = join_war_dragging_feets
+            clr_character_flag = target_attacked_vassal
+            clr_character_flag = servitium_debitum
+            any_tributary = {
+                clr_character_flag = convoqué_au_ban_offensive
+                clr_character_flag = convoqué_au_ban_defensive
+                clr_character_flag = convocation_au_ban_defensive
+                clr_character_flag = convocation_au_ban_offensif
+                clr_character_flag = join_war_motivated
+                clr_character_flag = join_war_dragging_feets
+                clr_character_flag = target_attacked_vassal
+                clr_character_flag = servitium_debitum
+            }
+        }
+    }
+}
+
+# Donner un flag gave_homage_to_liege à chaque tributaire au début du jeu pour éviter le spam
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.5
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        ai = no
+        is_multiplayer_host_character = yes
+    }
+
+    immediate = {
+        any_playable_ruler = {
+            any_tributary = {
+                limit = {
+                    OR = {
+                        is_tributary = { type = true_vassal_hre }
+                        is_tributary = { type = true_vassal }
+                        is_tributary = { type = true_vassal_duke_of_normandy }
+                    }
+                }
+                set_character_flag = gave_homage_to_liege
+            }
+        }
+        any_tributary = {
+            limit = {
+                OR = {
+                    is_tributary = { type = true_vassal_hre }
+                    is_tributary = { type = true_vassal }
+                    is_tributary = { type = true_vassal_duke_of_normandy }
+                }
+            }
+            set_character_flag = gave_homage_to_liege
+        }
+    }
+}

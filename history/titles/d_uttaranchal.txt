@@ -1,0 +1,88 @@
+600.1.1={
+	liege="k_guge"
+}
+#Katyuri Dynasty
+620.1.1 = {
+	holder=247478 #Vashudeva
+}
+625.1.1={
+	liege="e_tibet"
+}#Zhangzhung conquered by Tibet
+658.1.1 = {
+	holder=247479 #Ashokdeva
+}
+684.1.1 = {
+	holder=247480 #Rawatdeva
+}
+716.1.1 = {
+	holder=247481 #Basudeva
+}
+776.1.1 = {
+	holder=247482 #Brahmadeva
+}
+842.1.1 = {
+	liege=0
+}#Fall of Tibetan Empire
+850.1.1 = {
+	holder=247483 #Basantadeva
+}
+870.1.1 = {
+	holder=247484 #Kharparadeva
+}
+880.1.1 = {
+	holder=247485 #Kalyanaraja
+}
+890.1.1 = {
+	holder=247486 #Tribhuvanarajadeva
+}
+900.1.1 = {
+	holder=247487 #Nimbartadeva
+}
+915.1.1 = {
+	holder=247488 #Ishtaganadeva
+}
+930.1.1 = {
+	holder=247489 #Lalitansuradeva
+}
+955.1.1 = {
+	holder=247490 #Bhudeva
+}
+970.1.1 = {
+	holder=247491 #Salonaditya
+}
+985.1.1 = {
+	holder=247492 #Ichchhatadeva
+}
+1000.1.1 = {
+	holder=247493 #Deshtadeva
+}
+1011.1.1={ #Nagarkot occupied by Mahmud Ghazni
+	set_tribute_suzerain = {
+		who = k_kafarestan
+		percentage = 0.4
+	}
+}
+1015.1.1 = {
+	holder=247494 #Padmatadeva
+}
+1043.1.1={
+	clear_tribute_suzerain = k_kafarestan
+}
+1045.1.1 = {
+	holder=247495 #Subhikshrajyadeva
+}
+1060.1.1 = {
+	holder=247496 #Narsinghdeva
+}
+1061.1.1 = {
+	holder=247497 #Pritamdeva
+}
+1062.1.1 = {
+	holder=247498 #Dhamdeva
+}
+1064.1.1 = {
+	holder=247499 #Biradeva
+}
+1065.1.1 = {
+	holder = 0
+}

@@ -1,0 +1,57 @@
+# -*- ck2.history.titles -*-
+
+1006.1.1 = {
+	de_jure_liege = k_turkestan_east
+}
+1012.1.1 = { #?
+	liege = k_turkestan_east
+	holder = 3008
+}
+1032.1.2 = {
+	holder = 144102
+}
+1057.1.1 = {
+	holder = 144103
+}
+1058.4.1 = {
+	holder = 144104
+}
+1062.1.1 = {
+	holder = 144105
+}
+1074.1.1 = {
+	holder = 144106
+}
+1075.1.1 = {
+	holder = 144107
+}
+1076.1.1 = {
+	holder = 1230283
+}
+1102.1.1 = {
+	holder = 144114
+}
+1128.1.1 = {
+	holder = 144115 # lives up to 1156
+}
+1156.1.1 = {
+	holder = 188855
+}
+1188.1.1 = {
+	holder = 188856
+}
+1205.1.1 = { #actually held as hostage in the Kara Khitai court up til 1211
+	holder = 188857
+}
+1210.1.1 = {
+	liege = 0
+}
+1211.1.1 = {
+	liege = e_khitan
+	holder = 188914
+}
+# Mongol conquest
+1218.1.1 = {
+	liege = 0
+	holder = 0
+}

@@ -1,0 +1,39 @@
+# -*- ck2.history.titles -*-
+
+# Boru-Tolmach
+20.1.1 = {
+	historical_nomad = yes
+}
+864.1.1 = {
+	liege = k_pechenegs
+	holder = 1231800 # Sagay, chief of Boru-Tolmach at the time of the 893 expulsion
+}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+932.1.1 = {
+	holder = 1231802
+}
+965.1.1 = {
+	holder = 1231804
+}
+966.1.1 = {
+	holder = 1231806
+}
+998.1.1 = {
+	holder = 1231808
+}
+1015.1.1 = {
+	holder = 1231810
+}
+1022.1.1 = {
+	holder = 1231812
+}
+#1040.1.1 = {
+#	holder = 1231812
+#	liege = k_pechenegs
+#}
+# Tiraq's invasion of the byzzies fail.
+1048.1.1 = {
+	holder = 0
+}

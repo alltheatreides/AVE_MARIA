@@ -1,0 +1,124 @@
+# -*- ck2.history.titles -*-
+
+716.1.1 = {
+	liege = d_crimea
+	holder = 74006
+}
+745.1.1 = {
+	holder = 74011
+}
+777.1.1 = {
+	holder = 74013
+}
+810.1.1 = {
+	holder = 74014
+}
+825.1.1 = {
+	holder = 74015
+}
+830.1.1 = {
+	holder = 74016
+}
+833.1.1 = {
+	liege = k_khazaria
+}
+####
+861.1.1 = {
+	historical_nomad = yes
+	holder = 1233287
+}
+#900.1.1 = {
+#	holder = 1233288
+#}
+#930.1.1 = {
+#	holder = 1233289
+#}
+#####
+# Qabuqsin-Yula
+893.1.1 = {
+	historical_nomad = no
+	liege = d_qabuqsin_yula
+	holder = 1231740 # Qorqutay
+}
+914.1.1 = {
+	holder = 1231742
+}
+940.1.1 = {
+	holder = 1231744
+}
+942.1.1 = {
+	holder = 1231745
+}
+956.1.1 = {
+	holder = 1231747 # Kurya/Küre
+}
+1000.1.1 = {
+	holder = 1231749
+}
+1035.1.1 = {
+	holder = 1231751 # Kegen
+}
+# Kegen migrates.
+# Bula-Chopan
+1044.1.1 = {
+	holder = 1231852
+}
+# Tiraq migrates, Oghuz takes over.
+1046.1.1 = {
+	liege = k_uzes
+	holder = 1231873
+}
+# Cumans arrive.
+# Çortan
+1060.1.1 = {
+	liege = d_chortan
+	holder = 1233198
+}
+1093.1.1 = {
+	holder = 1233200 # Girgen/Aepa
+}
+1140.1.1 = {
+	holder = 1233202
+}
+1163.1.1 = {
+	holder = 1233204
+}
+1179.1.1 = {
+	holder = 1233206
+}
+1210.1.1 = {
+	holder = 1233208
+}
+# Çortan migrate to Hungary after defeat
+# Urusoba
+1238.1.1 = {
+	liege = d_urusoba
+	holder = 1233137
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1265.1.1 = {
+	liege = d_crimea
+	holder = 125535
+}
+1289.1.2 = {
+	holder = 125536
+}
+1294.1.2 = {
+	holder = 125537
+}
+1321.1.2 = {
+	holder = 125544
+}

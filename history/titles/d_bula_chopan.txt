@@ -1,0 +1,44 @@
+# -*- ck2.history.titles -*-
+
+# Bula-Chopan
+20.1.1 = {
+	historical_nomad = yes
+}
+#864.1.1 = {
+#	liege = k_pechenegs
+#	holder = 1231839 # fictional father of Bota, chief of Bula-Chopan at the time of expulsion from Yaik.
+#}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+893.1.1 = {
+	liege = k_pechenegs
+	holder = 1231840 # Bota, chief of Bula-Chopan at the time of expulsion from Yaik.
+}
+911.1.1 = {
+	holder = 1231842
+}
+932.1.1 = {
+	holder = 1231844
+}
+956.1.1 = {
+	holder = 1231846
+}
+993.1.1 = {
+	holder = 1231848
+}
+1006.1.1 = {
+	holder = 1231850
+}
+1027.1.1 = {
+	holder = 1231852
+}
+#1040.1.1 = {
+#	holder = 1231852
+#	liege = k_pechenegs
+#}
+# Tiraq's invasion of the byzzies fail.
+1048.1.1 = {
+	liege = 0
+	holder = 0
+}

@@ -1,0 +1,68 @@
+# -*- ck2.history.titles -*-
+
+835.1.1 = {
+	liege = d_warmians
+	holder = 1235166
+}
+870.1.1 = {
+	holder = 1235167
+}
+914.1.1 = {
+	holder = 1235168
+}
+957.1.1 = {
+	holder = 1235169
+}
+1005.1.1 = {
+	holder = 1235170
+}
+1040.1.1 = {
+	holder = 1235171
+}
+1078.1.1 = {
+	holder = 1235172
+}
+1113.1.1 = {
+	holder = 1235173
+}
+1151.1.1 = {
+	holder = 1235174
+}
+1189.1.1 = {
+	holder = 1235175
+}
+# Gobotiniai
+1211.1.1 = {
+	holder = 1235176 # Pyopso
+}
+1239.1.1 = {
+	holder = 1235177 # Probawo
+}
+# Honedas
+1242.6.1 = {
+	liege = d_teutonic_order
+	holder = 1235181 # Codruno is Honedas I
+}
+1244.1.1 = {
+	holder = 1235182 # Pommada is Honedas I
+}
+1258.1.1 = {
+	holder = 1235183 # Codruno is Honedas II
+}
+# 2nd prussian revolt. Gobotiniai back in power.
+1260.9.20 = {
+	#liege = d_prussia # Under Erkus's leadership.
+	liege = d_pruthenians
+	holder = 1235178 # Glappe/Glappo
+}
+# Glappo slain, revolt dies out in Warmia. Back to Honedas.
+1273.12.1 = {
+	liege = d_teutonic_order
+	holder = 1235184 # Pommada is Honedas II
+}
+1290.1.1 = {
+	holder = 1235185 # Labilo
+}
+1340.1.1 = {
+	holder = 0
+}

@@ -1,0 +1,46 @@
+# -*- ck2.history.titles -*-
+
+888.1.1 = {
+	liege = k_iberia
+	holder = 70461
+}
+891.1.1 = {
+	holder = 160034
+}
+896.1.1 = {
+	holder = 160035
+}
+918.1.1 = {
+	holder = 1232616
+}
+941.1.1 = {
+	holder = 161201
+}
+945.1.1 = {
+	holder = 161202
+}
+961.1.1 = {
+	holder = 161203
+}
+# David of Tao is granted the Byzantine areas of Theodosiopolis, Phasiane, Hark, Mardali etc. for his entire lifetime and was rewarded with the title of Kouropalates, for his help in beating down the revolt of Bardas Skleros
+979.3.24 = {
+	liege = 0
+}
+# Forced to submit to a more firm relationship with the Empire and to sign off his Southern areas to the Empire as punishment for backing Bardas Phokas
+990.1.1 = {
+	set_tribute_suzerain = {
+		who = e_byzantium
+		type = permanent
+	}
+}
+1000.1.1 = {
+	clear_tribute_suzerain = e_byzantium
+	holder = 0
+}
+1064.1.1 = {
+	liege = e_byzantium
+	holder = 1232600
+}
+1071.8.26 = {
+	holder = 0
+}

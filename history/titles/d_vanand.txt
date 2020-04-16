@@ -1,0 +1,28 @@
+# -*- ck2.history.titles -*-
+
+962.1.1 = {
+	liege = k_armenia
+	holder = 41524
+}
+984.1.1 = {
+	holder = 159286
+}
+1029.1.1 = {
+	liege = 0
+	holder = 159287
+	set_tribute_suzerain = {
+		who = k_armenia
+		type = permanent
+	}
+}
+1045.1.1 = {
+	clear_tribute_suzerain = k_armenia
+	set_tribute_suzerain = {
+		who = e_byzantium
+		type = permanent
+	}
+}
+1066.1.1 = {
+	clear_tribute_suzerain = e_byzantium
+	holder = 0
+}

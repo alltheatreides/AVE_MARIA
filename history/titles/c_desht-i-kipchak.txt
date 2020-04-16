@@ -1,0 +1,89 @@
+# -*- ck2.history.titles -*-
+
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
+}
+830.1.1 = {
+	holder = 1231706
+}
+# Qara-Bay
+864.1.1 = {
+	liege = d_qara_bay
+	holder = 1231784 # fictional father of Kajdan, chief of Qara-Bay at the time of the 893 expulsion
+}
+# Pechengs expulsed by Khazars.
+895.1.1 = {
+	liege = k_khazaria
+	holder = 1233421
+}
+930.1.1 = {
+	holder = 1233423
+}
+# Sarkel destroyed, goes to oghuz turks.
+966.1.1 = {
+	liege = k_uzes
+	holder = 1231869
+}
+1010.1.1 = {
+	holder = 1231871
+}
+1035.1.1 = {
+	holder = 1231873
+}
+1044.1.1 = {
+	holder = 1232013
+}
+# Cumans arrive
+# Yimek
+1060.1.1 = {
+	liege = d_yimek
+	holder = 1233015
+}
+1065.1.1 = {
+	holder = 1233017 # Esen
+}
+1082.1.1 = {
+	holder = 1233019 # Aepa
+}
+1117.1.1 = {
+	holder = 1233021
+}
+1140.1.1 = {
+	holder = 1233024 # Amurat
+}
+1165.1.1 = {
+	holder = 1233026
+}
+1205.1.1 = {
+	holder = 1233028
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
+}

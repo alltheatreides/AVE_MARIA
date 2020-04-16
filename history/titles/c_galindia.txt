@@ -1,0 +1,78 @@
+# -*- ck2.history.titles -*-
+
+# Galindians
+800.1.1 = {
+	liege = d_goliadj
+	holder = 1235151
+}
+837.1.1 = {
+	holder = 1235260
+}
+865.1.1 = {
+	holder = 1235153
+}
+897.1.1 = {
+	holder = 1235154
+}
+938.1.1 = {
+	holder = 1235155
+}
+961.1.1 = {
+	holder = 1235156
+}
+993.1.1 = {
+	holder = 1235157
+}
+1008.1.1 = {
+	holder = 1235158
+}
+# Polish and/or Danish raids forces the Galindians to migrate early 11th century. Land left mostly depopuated, the warlike Sasnians takeover.
+# Sasnians
+1040.1.1 = {
+	liege = d_sasnians
+	holder = 1235206
+}
+1072.1.1 = {
+	holder = 1235207
+}
+1109.1.1 = {
+	holder = 1235208
+}
+1153.1.1 = {
+	holder = 1235209
+}
+1182.1.1 = {
+	holder = 1235210
+}
+1199.1.1 = {
+	holder = 1235211
+}
+1214.1.1 = {
+	holder = 1235212
+}
+# Mazovians devestate the Sasnians. Sudovians extend their influence over Galindia.
+1220.1.1 = {
+	liege = d_yatviags
+	holder = 82288
+}
+1235.1.1 = {
+	holder = 82289
+}
+1256.1.1 = {
+	holder = 82290
+}
+# Herkus Monte needs a province from where to lead the uprising.............
+1260.9.20 = {
+	liege = d_pruthenians
+	holder = 1235214 # Erkus Mants
+}
+# Herkus Monte slain, back under Sudovians
+1273.6.1 = {
+	liege = d_yatviags
+	holder = 0
+}
+# Sudovians defeated.
+# The Sudovians who have sworn fealty to the order is resettled(some also went to eastern Sambia)
+1284.1.1 = {
+	liege = d_teutonic_order
+}

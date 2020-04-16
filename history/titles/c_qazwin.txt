@@ -1,0 +1,140 @@
+# -*- ck2.history.titles -*-
+
+768.1.1 = {
+	holder = 180750 # Justan I
+}
+805.1.1 = {
+	holder = 180751 # Marzoban Justanid
+}
+835.1.1 = {
+	holder = 180752 # Justan II
+}
+856.1.1 = {
+	holder = 41605 # Wahsudan Justanid
+}
+865.1.1 = {
+	liege = d_tabarestan
+	holder = 180755 # Justan III
+}
+900.1.1 = {
+	liege = 0
+}
+916.1.1 = {
+	holder = 180758 # Khosrow Firuz Justanid
+}
+920.1.1 = {
+	holder = 180759 # Mahdi Justanid
+}
+#928-931 Asfar ibn Shiruya
+931.1.1 = {
+	holder = 180760 # Justan IV
+}
+940.1.1 = {
+	holder = 180761 # Manadhar Justanid
+}
+970.1.1 = {
+	holder = 180762 # Khosrow Justanid
+}
+975.1.1 = {
+	liege = k_mesopotamia #marriage with and support for Azod al-Dawla
+}
+983.3.3 = {
+	liege = d_rayy
+}
+997.1.1 = {
+	#liege = 0
+	holder = 1231086
+}
+1029.1.1 = { #Ibrahim b. Marzuban repels Ghaznavid invasion
+	liege = 0
+}
+# /vanilla->SWMH
+1030.1.1 = {
+	liege = d_rayy
+	holder = 1230328
+}
+1037.1.1 = {
+	liege = 0
+}
+1043.1.1 = {
+	liege = k_khorasan
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1060.4.4 = {
+	holder = 1230327
+}
+1090.1.1 = { #was 1092.4.4
+	liege = d_hashshashin
+	holder = 144225
+}
+1124.6.12 = {
+	holder = 144226
+}
+1138.1.1 = {
+	holder = 144227
+}
+1162.1.1 = {
+	holder = 1231089
+}
+1166.1.1 = {
+	holder = 144228
+}
+1210.1.1 = {
+	holder = 144229
+}
+1221.1.1 = {
+	holder = 144230
+}
+1255.1.1 = {
+	holder = 144231
+}
+1256.1.1 = {
+	liege = d_azerbaijan
+	holder = 93254
+}
+1259.1.1 = {
+	holder = 478011
+}
+1259.8.11 = {
+	liege = e_il-khanate
+}
+1265.2.8 = {
+	holder = 478010
+}
+1282.1.1 = {
+	holder = 125523
+}
+1284.1.1 = {
+	holder = 478008
+}
+1291.1.1 = {
+	holder = 125525
+}
+1295.1.1 = {
+	holder = 125522
+}
+1295.10.4 = {
+	holder = 125524
+}
+1304.5.11 = {
+	holder = 478007
+}
+1316.12.16 = {
+	holder = 478006
+}
+1335.12.1 = {
+	liege = e_il-khanate
+	holder = 125528
+}
+1336.4.10 = {
+	holder = 478000
+}
+1336.7.24 = {
+	holder = 478030
+}
+1337.1.1 = {
+	liege = k_daylam
+	holder = 93193
+}

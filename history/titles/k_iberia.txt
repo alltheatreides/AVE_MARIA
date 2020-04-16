@@ -1,0 +1,56 @@
+# -*- ck2.history.titles -*-
+
+888.1.1 = {
+	holder = 70461
+}
+923.1.1 = {
+	holder = 161200
+}
+937.1.1 = {
+	holder = 41544
+}
+958.1.1 = {
+	holder = 41545
+}
+994.1.1 = {
+	holder = 41546
+}
+1008.1.1 = {
+	holder = 0
+}
+# The Mongols deliberately sets up two Kings of Georgia, with the King of Kartli-Kakheti being nominally superior, but in reality they were both equals
+1259.1.1 = {
+	holder = 466514
+		set_tribute_suzerain = {
+		who = e_il-khanate
+		type = permanent
+	}	
+}
+1270.1.1 = {
+	holder = 466501
+}
+1289.3.12 = {
+	holder = 144009
+}
+1292.1.1 = {
+	holder = 466511
+}
+1299.1.1 = {
+	holder = 466500
+}
+1302.1.1 = {
+	holder = 145081
+}
+1308.1.1 = {
+	holder = 466511
+}
+1311.1.1 = {
+	holder = 466512
+}
+1313.1.1 = {
+	holder = 466500
+}
+1330.1.1 = {
+	holder = 0 # Imereti conquered by George V of Kartli-Kakheti, re-establishing a unified Georgian Kingdom
+	clear_tribute_suzerain = e_il-khanate	
+}

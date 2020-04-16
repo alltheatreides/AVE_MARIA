@@ -1,0 +1,196 @@
+# -*- ck2.history.titles -*-
+
+360.1.1 = {
+    holder = 159807 # Macsen Wledig
+}
+380.1.1 = {
+    holder = 159808 # Annwn Dynod
+}
+428.1.1 = {
+    holder = 159816 # Ednyfed ap Annwn
+}
+431.1.1 = {
+    holder = 159817 # Glotguin ap Ednyfed
+}
+451.1.1 = {
+    holder = 159818 # Clotri
+}
+471.1.1 = {
+    holder = 159321 # Triffin
+}
+475.1.1 = {
+    holder = 159322 # Aircol Lawhir
+}
+495.1.1 = {
+    holder = 159324 # Gwerthefyr
+}
+540.1.1 = {
+    holder = 159340 # Cyngar
+}
+570.1.1 = {
+    holder = 159341 # Pedr
+}
+595.1.1 = {
+    holder = 159342 # Arthwyr
+}
+620.1.1 = {
+    holder = 159343 # Nowy Hen
+}
+650.1.1 = {
+    holder = 159344 # Cloten
+}
+670.1.1 = {
+    holder = 159345 # Cathen
+}
+690.1.1 = {
+    holder = 159346 # Cadwgan Tredylig
+}
+710.1.1 = {
+    holder = 159347 # Rhain
+}
+730.1.1 = {
+    holder = 159349 # Maredudd ap Tewdos
+}
+797.1.1 = {
+    holder = 159356 # Rhain ap Maredudd
+}
+808.1.1 = {
+    holder = 159350 # Owain ap Maredudd
+}
+811.1.1 = {
+    holder = 159353 # Hyfaidd ap Bledrig
+}
+890.1.1 = {
+    holder = 159361 # Rhodri ap Hyfaidd
+}
+893.1.1 = {
+    holder = 159354 # Llywarch ap Hyfaidd
+}
+904.1.1 = {
+    holder = 81823 # Hywel Dda
+}
+909.1.1 = {
+    liege = d_deheubarth
+	law = agnatic_succession
+	law = succ_elective_gavelkind	
+}
+950.1.1 = {
+	holder = 81822 #Owain ap Hywel
+}
+986.1.1 = {
+	holder = 81821 #Maredudd ap Owain
+}
+999.1.1 = {
+	holder = 159001 #Cynan ap Hywel (Gwynedd)
+}
+1005.1.1 = {
+	holder = 138492 #Edwin ap Einion
+}
+1018.1.1 = {
+    holder = 1228334 # Rhain the Irish
+}
+1022.1.1 = {
+	holder = 40500 #Llywelyn ap Seisyll
+}
+1023.1.1 = {
+	holder = 81863 #Rhydderch ap Iestyn
+}
+1033.1.1 = {
+	holder = 1228318 #Hywel ap Edwin
+}
+1044.1.1 = {
+	holder = 81862 # Gruffydd ap Rhydderch
+}
+1055.1.1 = {
+	holder = 40502 #Gruffydd ap Llywelyn King of Wales
+}
+1064.1.1 = {
+    holder = 81816 # Rhys ap Tewdwr
+}
+1093.4.1 = {
+    liege = k_england
+}
+1093.4.1 = {
+    holder = 152 # Roger de Montgomery
+}
+1094.1.1 = {
+    liege = d_powys
+}
+1094.1.1 = {
+    holder = 6378 # The Welsh revolt of 1094, Ceredigion seized by Cadwgan ap Bleddyn
+}
+1110.1.1 = {
+    liege = k_england
+}
+1110.1.1 = {
+    holder = 204792 # Ceredigion granted to Gilbert de Clare
+}
+1114.1.7 = {
+    holder = 204794 # Richard de Clare
+}
+1136.4.15 = {
+    liege = d_gwynedd
+}
+1136.4.15 = {
+    holder = 81031 # The Welsh revolt of 1136, entire Ceredigion in the Welsh hands except Cardigan Castle
+}
+1137.1.1 = {
+    holder = 138470 # Cadwaladr ap Gruffydd
+}
+1143.1.1 = {
+    holder = 214716 # Cadwaladr expelled from Ceredigion
+}
+1153.1.1 = {
+    liege = d_deheubarth
+}
+1153.1.1 = {
+    holder = 81814 # Hywel expelled from Ceredigion
+}
+1157.1.1 = {
+    holder = 214800 # Rhys ap Gruffyd
+}
+1158.1.1 = {
+    liege = k_england
+}
+1158.1.1 = {
+    holder = 204795 # Ceredigion surrendered to Roger de Clare
+}
+1164.1.1 = {
+    liege = d_deheubarth
+}
+1164.1.1 = {
+    holder = 214800 # The Welsh revolt of 1163, entire Ceredigion in the Welsh hands except Cardigan Castle, again
+}
+1197.4.28 = {
+    liege = d_gwynedd
+}
+1197.4.28 = {
+    holder = 332039 # Maelgwn ap Rhys
+}
+1231.1.1 = {
+    holder = 1228328 # Maelgwn Fychan
+}
+1246.4.1 = {
+    holder = 1228331 # Maelgwn Fychan expelled from Ceredigion
+}
+1265.1.1 = {
+    holder = 1228332 # Owain ap Maredudd
+}
+1275.1.1 = {
+    holder = 1228333 # Llywelyn ap Owain
+}
+1277.9.29 = {
+    liege = k_england # Treaty of Aberconwy
+}
+1277.9.29 = {
+    holder = 454520 # Edward I Longshanks
+}
+1307.7.7 = {
+    holder = 454510 # Edward II of England
+}
+1327.2.1 = {
+    holder = 454500 # Edward III
+}
+1337.1.1 = {
+    holder = 454501
+}

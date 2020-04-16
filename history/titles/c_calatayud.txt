@@ -1,0 +1,103 @@
+# -*- ck2.history.titles -*-
+
+852.1.1 = {
+	liege = d_zaragoza
+	holder = 73812
+}
+862.9.26 = { #or 874-875; choosing the earlier date for now
+	liege = 0
+	set_tribute_suzerain = {
+		who = k_andalusia
+		percentage = 0.4
+	}
+	holder = 73839 # Abd al-Rahman b. Abd al-Aziz al-Tujibi
+}
+883.1.1 = {
+	holder = 73841
+}
+888.1.1 = {
+	clear_tribute_suzerain = k_andalusia
+	liege = d_zaragoza
+}
+925.1.1 = {
+	holder = 73842
+}
+930.1.1 = {
+	holder = 73843
+}
+950.1.1 = {
+	holder = 73845
+}
+975.1.1 = {
+	holder = 73846
+}
+989.1.1 = {
+	holder = 73847
+}
+1013.1.1 = {
+	holder = 73184
+}
+1023.1.1 = {
+	holder = 73185 # Yahya II Tuyyibid
+}
+1036.1.1 = {
+	holder = 73186 # Mundir II Tuyyibid
+}
+1038.1.1 = {
+	holder = 73187
+}
+1039.1.1 = {
+	holder = 3933
+}
+1046.1.1 = {
+	holder = 73192
+}
+1048.1.1 = {
+	holder = 3934
+}
+1082.1.1 = {
+	holder = 3935
+}
+1085.1.1 = {
+	holder = 45005
+}
+1110.1.1 = {
+	holder = 73180
+}
+1110.5.31 = {
+	liege = 0
+}
+1122.1.1 = { #Fall of Calatayud (1121) and Daroca (1122)
+	liege = k_aragon
+	holder = 70232 # Alfonso I Jimena
+}
+1139.1.1 = {
+	holder = 70233
+}
+1157.8.16 = {
+	holder = 210507
+}
+1174.10.16 = {
+	holder = 210500
+}
+1195.4.25 = {
+	holder = 210501
+}
+1213.9.14 = {
+	holder = 460600
+}
+1276.7.27 = {
+	holder = 460590
+}
+1284.1.1 = {
+	holder = 71744
+}
+1327.1.1 = {
+	holder = 460560
+}
+1327.11.5 = {
+	holder = 460510
+}
+1336.1.24 = {
+	holder = 460500
+}

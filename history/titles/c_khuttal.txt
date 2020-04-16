@@ -1,0 +1,126 @@
+# -*- ck2.history.titles -*-
+
+# Banijurids
+818.1.1 = {
+	holder = 1230631
+}
+857.1.1 = {
+	liege = d_balkh
+	holder = 1230633
+}
+873.1.1 = {
+	holder = 1230635
+}
+890.1.1 = { #before 891
+	holder = 1230663
+}
+908.1.1 = {
+	holder = 1230648
+}
+928.1.1 = {
+	holder = 1230649
+}
+946.1.1 = {
+	holder = 1230637
+}
+985.1.1 = {
+	holder = 1230650
+}
+995.1.1 = {
+	holder = 1230651
+}
+999.1.2 = {
+	liege = 0
+}
+1015.1.1 = { #by 1031
+	liege = k_kafarestan
+	holder = 1230681
+}
+1039.1.1 = {
+	holder = 1230652
+}
+1045.1.1 = { #between 1043 and 1049
+	liege = d_soghd
+}
+1049.1.1 = {
+	liege = d_balkh
+}
+1051.1.1 = {
+	holder = 1230653
+}
+# Seljuks
+1063.1.1 = {
+	holder = 1230654
+}
+1066.1.1 = {
+	liege = d_khottal
+}
+1073.1.1 = {
+	liege = d_balkh
+}
+1084.1.1 = {
+	liege = d_khottal
+}
+1085.1.1 = {
+	holder = 1230655
+}
+1098.1.1 = {
+	liege = d_balkh
+}
+1101.1.1 = {
+	holder = 1230646
+}
+1135.1.1 = {
+	holder = 1230638
+}
+1153.1.1 = {
+	liege = d_ghuzz
+}
+1158.1.1 = {
+	#historical_nomad = yes
+	holder = 1230670
+}
+#1160.1.2 = {
+#	liege = d_qarluq
+#	holder = 1230296
+#}
+1164.1.1 = {
+	#historical_nomad = no
+	liege = k_mavarannahr
+}
+1175.1.1 = {
+	liege = d_balkh
+}
+1178.1.1 = {
+	holder = 1230671
+}
+1209.1.1 = {
+	holder = 1230672
+}
+1212.1.1 = {
+	liege = k_khwarezmia
+}
+1221.1.1 = {
+	liege = e_mongol_empire
+}
+1234.2.10 = {
+	liege = e_china_west_governor
+}
+1244.1.1 = {
+	holder = 1230673
+}
+1259.8.11 = {
+	liege = e_il-khanate #?
+}
+1271.1.1 = {
+	holder = 1230674
+}
+1300.1.1 = {
+	liege = e_chagatai #?
+}
+1302.1.1 = {
+	holder = 1230675
+}
+1311.1.1 = {
+	holder = 1230676
+}

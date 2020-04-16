@@ -1,0 +1,109 @@
+# -*- ck2.history.titles -*-
+
+# Táhirids
+821.1.1 = {
+	holder = 188686
+}
+822.10.10 = {
+	holder = 188689
+}
+828.10.10 = {
+	holder = 163158
+}
+845.1.1 = {
+	holder = 163159
+}
+862.1.1 = {
+	holder = 163100
+}
+# Samanids
+900.1.1 = {
+	holder = 163157
+}
+907.1.1 = {
+	holder = 1230610
+}
+914.1.1 = {
+	holder = 1230611
+}
+943.6.4 = {
+	holder = 1230615
+}
+954.8.8 = {
+	holder = 1230616
+}
+961.1.1 = {
+	holder = 1230617
+}
+976.6.13 = {
+	holder = 1230619
+}
+997.7.23 = {
+	holder = 1230620
+}
+999.2.2 = {
+	holder = 1230621
+}
+999.10.23 = {
+	holder = 0
+}
+# Ghaznavids
+999.11.1 = { #Caliphal recognition
+	holder = 144125 # Mahmud
+	law = centralization_1
+}
+1030.1.1 = {
+	holder = 144126 # Muhammad
+}
+1031.1.1 = {
+	holder = 144127 # Musud
+}
+# Seljuks
+1040.5.30 = {
+	holder = 3038
+	law = centralization_0
+}
+1055.12.18 = {
+	liege = e_persia
+	#holder = 3036
+	law = crown_authority_1
+}
+1063.9.4 = {
+	holder = 3040
+}
+#1066.1.1 = {
+#	holder = 3042
+#}
+1072.11.1 = {
+	holder = 3042
+}
+1092.11.1 = {
+	holder = 144012
+}
+1094.11.11 = {
+	holder = 144013
+}
+1097.1.1 = {
+	holder = 144015
+}
+1154.1.1 = {
+	holder = 144118 #chosen among Seljuk troops in Khorasan
+}
+1157.5.8 = {
+	liege = 0
+	holder = 0 # End of the Seljuk Turks
+}
+# Ghurids
+1192.1.1 = {
+	holder = 144141
+}
+# Khwarezmians
+1194.3.1 = {
+	holder = 230000
+}
+1200.1.1 = {
+	holder = 93052
+}
+1221.1.1 = {
+	holder = 0
+}

@@ -1,0 +1,9 @@
+# -*- ck2.history.titles -*-
+
+830.1.1 = {
+	de_jure_liege = e_wendish_empire
+}
+962.1.1 = {
+	# Paradox history script bugs -> can't use de_jure_liege = 0
+	de_jure_liege = e_null
+}

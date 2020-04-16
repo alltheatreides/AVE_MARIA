@@ -1,0 +1,23 @@
+# -*- ck2.history.titles -*-
+
+758.1.1 = {
+	de_jure_liege = k_mercia
+	holder = 205265
+}
+825.1.1 = {
+	holder = 0
+}
+927.7.12 = {
+	de_jure_liege = k_england
+}
+1066.1.1 = {
+	liege = k_england
+	#law = succ_primogeniture
+	#law = agnatic_succession
+}
+1066.1.5 = {
+	holder = 122 # Harold Godwinson
+}
+1066.10.14 = {
+	holder = 0
+}

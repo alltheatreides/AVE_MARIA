@@ -1,0 +1,68 @@
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+#       liege=d_nudzici
+        liege=d_sorbs
+	holder = 1227093
+}
+903.1.1 = {
+	holder = 1227094
+}
+932.1.1 = {
+	liege = d_nudzici
+}
+952.1.1 = {
+	holder = 1227095
+}
+#Geronen
+961.7.29 = {
+	liege = d_saxon_ostmark
+	holder = 168568
+}
+# Wettin family
+965.5.20 = {
+	liege = d_meissen
+	holder = 33573 # Dietrich von Wettin, earliest certain ancestor of the Wettin family.
+}
+976.1.1 = {
+	holder = 33574 # Dedo von Wettin, count of Wettin
+}
+993.3.13 = {
+	liege = d_lausitz
+}
+1005.1.1 = {
+	liege = e_hre
+}
+1009.11.13 = {
+	holder = 11021 # Dietrich von Wettin, Count of Wettin, Count of Schwabengau from 1015, Count of Eilenburg and Brehna from 1017, Count of Hassegau, and the first Markgrave of Lausitz from the Wettin family from 1032
+}
+1031.1.1 = {
+	liege = d_lausitz
+}
+1037.5.1 = {
+	holder = 33370 # Gero von Wettin, Count of Brehna after the death of his father
+}
+1062.1.1 = {
+	holder = 7662 # Thimo von Wettin, Count of Wettin, brother of Gero von Wettin
+}
+# Ballenstedt/Askanien family
+1100.1.1 = {
+	holder = 20270 # Otto "the Rich" von Ballenstedt, Count of Ballenstedt
+}
+1123.9.2 = {
+	holder = 212908 # Albrecht "the Bear" von Ballenstedt, first Margrave of Brandenburg and the point where Wittenberg for sure had drifted under Brandenburg rather than Meissen and the Wettiner in the south
+}
+1170.11.18 = {
+	liege = d_saxony
+	holder = 212905 # Bernhard von Ballenstedt, Count of Askanien and Ballenstedt and Duke of Saxony after the deposition of Henry the Lion of the Welf family
+}
+1212.2.2 = {
+	holder = 462114 # Albrecht von Ballenstedt, Count of Askanien, Duke of Sachsen-Wittenberg, Engern and Westfalen
+}
+1260.10.7 = {
+	liege = d_saxewittenberg
+	holder = 462101 # Albrecht von Ballenstedt, Duke of Sachsen-Wittenberg
+}
+1298.5.24 = {
+	holder = 462100 # Rudolf von Ballenstedt, Duke of Sachsen-Wittenberg
+}

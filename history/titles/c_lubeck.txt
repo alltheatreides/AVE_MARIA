@@ -1,0 +1,136 @@
+# -*- ck2.history.titles -*-
+
+770.1.1 = {
+        liege=d_oborites
+	holder = 1227052 #Witzlaus/Witzan
+}
+795.1.1 = {
+	holder = 1227053 # Thrasco
+}
+810.1.1 = {
+	holder = 1227054 # Slavomir
+}
+819.1.1 = {
+	holder = 1227055 # Ceadrag
+} 
+838.10.1 = { 
+	holder = 1227056 # Goztomuizli
+}
+844.8.1 = {
+	holder = 1227057 # Tabomuizli
+}
+915.1.1 = {
+	holder = 1227058
+}
+932.1.1 = {
+	holder = 1227059 # Stoignew
+}
+955.10.16 = {
+	holder = 161118 # Nakon Nakonid
+}
+966.1.1 = {
+	holder = 161119 # Mistivoj Nakonid
+}
+995.1.1 = {
+	holder = 161121 # Mscislaw Nakonid
+}
+1005.1.1 = {
+	holder = 8411 # Pribigniew Nakonid
+}
+1028.1.1 = {
+	holder = 20586 # Gryn Wizlawid
+}
+1043.1.1 = {
+	holder = 8410 # Gottschalk Nakonid
+}
+1066.6.7 = {
+	holder = 1227043 # Blus
+}
+1067.6.1 = {
+	holder = 20584 # Kruto Wizlawid
+}
+1093.1.1 = {
+	holder = 8402 # Henrik Nakonid
+}
+1127.6.7 = {
+	holder = 30509 # Kanut Nakonid
+}
+1128.1.1 = {
+	holder = 30508 # Swietopelk Nakonid
+}
+1129.1.1 = {
+	holder = 30512 # Swineke Nakonid
+}
+1129.7.1 = {
+        #liege=d_oborites
+	holder = 30507 # Pribislaw of Alt-Lubeck
+}
+1143.1.1 = {
+	liege = d_holstein
+	holder = 1603105 # Marcrad I Ammoniden Overbode of Nordalbingen
+}
+#Marcrad II sides with Heinrich the Lion over his dispute with Adolf III
+1170.1.1 = {
+	liege = d_saxony
+	holder = 1603105 # Marcrad II Ammoniden Overbode of Nordalbingen
+}
+# Marcrad II driven off by Adolf III
+1181.1.1 = {
+	liege = d_holstein
+	holder = 212360 # Adolf III von Schauenburg, third Count of Holstein
+}
+#Lübeck submit to Danish rule after the defeat of Adolf III.
+1203.1.1 = {
+	holder = 1603108 # Hugo von Hildesheim(von Werder), Vogt and biggest magante during the pre Hanse area. Also son in law of Marcrad II.
+}
+#Lübeck revolts from Danish rule in 1225, following Valdemar's capture in 1223
+#Peace treaty after the battle of Mölln
+1225.11.17 = {
+	holder = 31752 # Adolf IV von Schauenburg, fourth Count of Holstein
+}
+#Lübeck sack the count's castle(the later Borgkloster) to halt his influence from strangling the chance of a republic.
+1226.6.1 = {
+    liege=e_hre
+	holder = 1603108 # Hugo von Hildesheim
+}
+#Lübeck gains imperial intermediacy, Hansa established
+1227.1.1 = {
+	liege = k_hansa
+	holder = 167102 # Gottschalk von Bardewik
+}
+1238.1.1 = {
+	holder = 167219 # Heinrich Vorrade
+}
+1263.1.1 = {
+	holder = 167254 # Heinrich von Wittenborg
+}
+1275.1.1 = {
+	holder = 167103 # Johann von Bardewik
+}
+1287.1.1 = {
+	holder = 167220 # Dietrich Vorrade
+}
+1291.1.1 = {
+	holder = 167237 # Alexander Lüneburg
+}
+1303.1.1 = {
+	holder = 167104 # Albrecht von Bardewik
+}
+1307.1.1 = {
+	holder = 167222 # Markward Vorrade
+}
+1310.1.1 = {
+	holder = 167168 # Bruno Warendorp
+}
+1318.1.1 = {
+	holder = 167256 # Heinrich von Wittenborg
+}
+1321.1.1 = {
+	holder = 167168 # Bruno Warendorp
+}
+1325.1.1 = {
+	holder = 167169 # Hermann Warendorp
+}
+1328.1.1 = {
+	holder = 167168 # Bruno Warendorp
+}

@@ -1,0 +1,170 @@
+# -*- ck2.history.titles -*-
+
+864.1.1 = {
+	liege = k_africa
+	holder = 163096
+}
+909.1.1 = {
+	holder = 32900
+}
+934.1.1 = {
+	holder = 32901
+}
+946.5.17 = {
+	holder = 32902
+}
+953.3.19 = {
+	holder = 32903
+}
+972.1.1 = {
+	liege = d_tunis
+}
+973.1.1 = {
+	holder = 1300125
+}
+985.1.1 = {
+	holder = 20933
+}
+995.1.1 = {
+	holder = 20934
+}
+1016.1.1 = {
+	holder = 20935
+}
+1062.1.1 = { #Abd al-Haqq b. Abd al-'Aziz b. Khurasan appointed governor of Tunis by the Hammadid al-Nasir
+	liege = 0
+	set_tribute_suzerain = {
+		who = d_kabylia
+		percentage = 0.4
+	}
+	holder = 155048
+}
+1066.11.1 = { #Zirids attack Tunis and submit the city after a year-long siege
+	clear_tribute_suzerain = d_kabylia
+	set_tribute_suzerain = {
+		who = d_tunis
+		percentage = 0.4
+	}
+}
+1090.1.1 = { #?
+	clear_tribute_suzerain = d_tunis
+}
+1095.1.1 = {
+	holder = 155049
+}
+1098.1.1 = { #Zirids attack Tunis again
+	set_tribute_suzerain = {
+		who = d_tunis
+		percentage = 0.4
+	}
+}
+1105.9.17 = {
+	holder = 155050
+}
+1107.3.8 = {
+	clear_tribute_suzerain = d_tunis
+	holder = 155051
+}
+1117.1.1 = { #Zirids attack Tunis again
+	set_tribute_suzerain = {
+		who = d_tunis
+		percentage = 0.4
+	}
+}
+1120.1.1 = {
+	clear_tribute_suzerain = d_tunis
+	set_tribute_suzerain = {
+		who = d_kabylia
+		percentage = 0.4
+	}
+}
+1128.1.1 = {
+	clear_tribute_suzerain = d_kabylia
+	liege = d_kabylia
+	holder = 1600599
+}
+1137.1.1 = { #?
+	holder = 1600600
+}
+1143.1.1 = { #?
+	holder = 1600602
+}
+1145.1.1 = { #?
+	holder = 1600601
+}
+1148.1.1 = {
+	liege = 0
+	holder = 155052
+}
+1148.8.1 = {
+	holder = 155054
+}
+1159.2.1 = {
+	holder = 155055
+}
+1159.7.1 = {
+	liege = d_tunis
+	holder = 1230027
+}
+1176.1.1 = {
+	holder = 1230026 # Abu Musa Isa b. Abd al-Mu'min, before 1184
+}
+1186.1.1 = {
+	holder = 1230028 # Abu Yusuf b. Abi Hafs, before 1187
+}
+1188.1.1 = {
+	holder = 1230029 # Abu Zayd b. Abi Hafs
+}
+1195.1.1 = { # at some point between 1188 and 1200
+	holder = 1230030 # Abu Sa'id b. Abi Hafs
+}
+1203.12.15 = {
+	liege = d_tripolitania
+	holder = 32977
+}
+1207.1.1 = {
+	liege = d_tunis
+	holder = 33014 # Abu Muhammad b. Abu Hafs (Hafsid)
+}
+1221.1.1 = {
+	holder = 1230031 # Abu 'l-Ala b. Yusuf
+}
+1224.1.1 = {
+	holder = 1230035 # Abu Zayd b. Abu 'l-Ala
+}
+1226.1.1 = {
+	holder = 33020 # Abdallah b. Abu Muhammad b. Abu Hafs (Hafsid)
+}
+1228.1.1 = {
+	holder = 33021 # Abu Zakariyya b. Abu Muhammad b. Abu Hafs (Hafsid)
+}
+1250.1.1 = {
+	holder = 33024
+}
+1276.1.1 = {
+	holder = 33026
+}
+1279.1.1 = {
+	holder = 33025
+}
+1284.1.1 = {
+	holder = 33017
+}
+1295.1.1 = {
+	holder = 33027
+}
+1309.1.1 = {
+	holder = 33028
+}
+1309.1.18 = {
+	holder = 33031
+}
+1311.1.1 = {
+	holder = 33042
+}
+1317.4.1 = {
+	holder = 33043
+}
+1318.1.1 = {
+	holder = 33032
+}

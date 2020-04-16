@@ -1,0 +1,9 @@
+# -*- ck2.history.titles -*-
+
+# Permanently inactive (there exists no vanilla code to activate it-- done by title history alone) because of overlap with
+# preexisting d_livonian_brothers_of_the_sword. Until we decide what to do with the overlap (e.g., simple retag the latter as
+# the former and adjust formation events), it'll remain this way.
+20.1.1 = {
+	holder = 0
+	active = no
+}

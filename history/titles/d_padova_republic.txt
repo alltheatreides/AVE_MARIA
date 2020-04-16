@@ -1,0 +1,86 @@
+# -*- ck2.history.titles -*-
+
+1153.1.1 = {
+	law = succ_feudal_elective
+    liege=e_hre
+	holder = 1226722
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+liege=k_lombard_league 
+}
+1180.1.1 = {
+	holder = 1226724
+}
+1220.12.9 = {
+    liege=k_italy # sided with the emperor unlike his grandfather
+}
+1231.1.1 = {
+liege=k_lombard_league# was breifly part of the league 1231-1232 but never came to good terms with the commune. Firm HRE supporter again in a jiffy.
+}
+1232.1.1 = {
+    liege=k_italy
+}
+1234.1.1 = {
+	holder = 1226726 
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.12.13 = {
+    liege=0
+}
+1255.1.1 = {
+	holder = 1226731
+}
+1266.1.1 = {
+	holder = 1226733
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1312.1.1 = {
+	holder = 1226734
+}
+1313.8.24 = {
+	liege=0
+}
+1318.1.1 = {
+	holder = 70809 # Iacopo VIII Carraresi, signore/principe di Padova 1318-1324
+}
+1324.11.23={
+	holder = 70811 # Marsilio IX Carraresi, signore/principe di Padova 1324-1328 and 1337-1338
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1328.1.1 = {
+	holder = 73429 # Marsiglio Rossi, podesta of Padua 1328
+}
+#Bernardo Onari(gulph from Verona), podesta of Padova 1329
+#Bailardin Nogarola(also a guleph from Verona), podesta of Padova 1330-1336
+1328.9.1 = {
+	liege = 0
+	holder = 0
+}
+1337.1.1 = {
+	liege = k_italy
+	holder = 70811 # Marsilio IX Carraresi, signore/principe di Padova 1324-1328 and 1337-1338
+}
+1338.3.21={
+	holder = 1226879 # Ubertino VIII Carraresi aka Ubertino Novello, signore/principe di Padova 1318-1324
+}
+1345.3.27={
+	holder = 1226871 # Marsilio X/Marsilietto di Papafava, signore di Padova 26. of march - 5. of may 1345
+}
+1345.5.6={
+	holder = 1226885 # Iacopo X Carraresi, signore di Padova 1345-1350
+}
+1350.12.19={
+	holder = 1226882 # Iacopino XI Carraresi, signore di Padova 1350-55 as co ruler with his nephew Francesco.
+}
+1355.6.1={
+	holder = 412074 # Francesco VI Carraresi, signore di Padova 1350-55 as co ruler, 1355-1388 as sole ruler
+}

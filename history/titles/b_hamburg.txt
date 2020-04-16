@@ -1,0 +1,11 @@
+# -*- ck2.history.titles -*-
+845.1.1 = {
+	liege = d_bremen # suzerainity of the city to the Archbishops
+}
+1059.1.1 = {
+	liege = c_hamburg # inheritance dispute settled with the Archbishop, counts of Hamburg established.
+}
+# Treaty between the free cities of Lübeck and Hamburg - seed of the Hansa
+1241.1.1 = {
+	liege = c_lubeck
+}

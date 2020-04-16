@@ -1,0 +1,144 @@
+# -*- ck2.history.titles -*-
+
+# Eastanglia
+571.1.1 = {
+	holder = 205001 # Wuffa
+}
+578.1.1 = {
+	holder = 205002 # Tytila
+}
+616.1.1 = {
+	holder = 205003 # Rædwald
+}
+627.1.1 = {
+	holder = 205004 # Eorpwald
+}
+630.1.1 = {
+	holder = 205005 # Sigeberht, abdicated
+}
+634.1.1 = {
+	holder = 205010 # Æthelric/Ecgric joint king with Sigeberht
+}
+641.1.1 = {
+	holder = 205007 # Anna
+}
+653.1.1 = {
+	holder = 205008 # Æthelhere, killed in battle
+}
+655.11.15 = {
+	holder = 205009 # Æthelwald, brother of Anna famed king
+}
+663.1.1 = {
+	holder = 205011 # Ealdwulf
+}
+713.1.1 = {
+	holder = 205012 # Ælfwald
+}
+749.1.1 = {
+	holder = 205013 # Beonna, seems to have been Mercian plant
+}
+760.1.1 = {
+	holder = 205014 # Athelbert I, appears to have been sub-king under Beonna
+}
+761.1.1 = {
+	holder = 205015 # Æthelræd
+}
+779.1.1 = {
+	holder = 205016 # Athelberht II
+}
+794.5.20 = {
+	holder = 205072 # Offa of Mercia takes direct control
+}
+796.7.29 = {
+	holder = 1226225 # Eadwald somehow takes power after Offa's death
+}
+798.1.1 = {
+	holder = 1226391 # Coenwulf king of Mercia reinstates Mercian rule.
+}
+821.1.1 = {
+	holder = 1226392 # Ceolwulf I king of Mercia
+}
+#823.10.18 = {
+#	holder = 1226396 # Beornwulf king of Mercia
+#}
+827.1.1 = {
+	de_jure_liege = k_east_anglia
+	holder = 0 # Æthelstan king of Eastanglia holds the kingdom, no need for this ducal title anymore
+}
+865.1.1 = {
+	effect = { set_title_flag = emf_lodbrok_invasion_of_east_anglia }
+}
+867.3.21 = {
+	effect = { clr_title_flag = emf_lodbrok_invasion_of_east_anglia }
+}
+869.11.20 = {
+	holder = 1226344 # Oswald co King of Eastanglia
+}
+874.1.1 = {
+	holder = 1226345 # Æthelred co King of Eastanglia
+}
+879.1.1 = {
+	holder = 168650 # Gorm/Guthrum/Athelstan King of Eastanglia
+}
+890.12.1 = {
+	holder = 1144470 # Eiríkr/Eohric King of Eastanglia
+}
+902.12.13 = {
+	holder = 101549 # Knud/Hardeknud son of Sigurd Wormeye, possibly adopted son of Gorm/Guthrum/Athelstan. Maybe king of Eastanglia(no records of the king of the period).
+}
+917.1.1 = {
+	holder = 0 # Submits to Westsaxon overlordship
+}
+927.7.12 = {
+	de_jure_liege = k_england
+}
+928.1.1 = {
+	liege = k_england
+	holder = 101500 # Guthrum dux/Gudrum/Gorm "the old"/Gorm "Engelskmand"(Gorm "Englishman"), Son of Knud/Hardeknud, father of Harald Bluetooh. Earldorman, later king of Denmark.
+}
+# 934-935 Guthrum/Gudrum/Gorm leaves for Denmark.
+935.1.1 = {
+	holder = 260527 # Æthelstan Halfking, Earldorman of Eastanglia 933ish -957# Alternative theory is that his father Æthelrfrith of Mercia might also have recived eastanglea around and then passed it on to his son after his death.
+}
+957.1.1 = {
+	holder = 1226351 # Æthelwald, Earldorman of Eastanglia 957-962
+}
+962.1.1 = {
+	holder = 1226352 # Probable earldorman of Wessex 962-983.
+}
+992.1.1 = {
+	holder = 1226379 # Leofsige Earldorman of Eastanglea 993-1002
+}
+1002.1.1 = {
+	holder = 1226380 # Ulfcytel" "Warleader" and "Dux" of eastanglia 1002-1016
+}
+1016.10.18 = {
+	holder = 168641 # Thorkill the Tall Earl of East anglea 1017-1021
+}
+1021.1.1 = {
+	holder = 1144477 # Asgot/Osgod Clapa biggest influence in Eastaglia 1026ish-1045(no Earldorman for the period).
+}
+1046.4.15 = {
+	holder = 122 # Harold Godwinson earl of East Anglia. 1045-1051
+}
+1051.1.1 = {
+	holder = 5642 # Ælfgar earl of East Anglia. 1051-1052
+}
+1052.1.1 = {
+	holder = 122 # Harold Godwinson earl of East Anglia. 1052-1053
+}
+1053.1.1 = {
+	holder = 5642 # Ælfgar earl of East Anglia. 1051-1052
+}
+1057.1.1 = {
+	holder = 132 # Gyrth Godwinsson, earl of East Anglia. 1057-1066
+}
+1066.10.14 = {
+	holder = 5650 # Radulf 'Stalre'
+}
+1068.1.1 = {
+	holder = 5652 # Radulf 'de Guader'
+}
+1074.1.1 = {
+	holder = 0
+}

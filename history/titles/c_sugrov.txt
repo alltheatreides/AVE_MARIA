@@ -1,0 +1,109 @@
+# -*- ck2.history.titles -*-
+
+#769.1.1 = {
+#	liege = k_magyar
+#	holder = 159138
+#}
+#825.1.1 = {
+#	holder = 1233320
+#}
+845.1.1 = {
+	liege = k_magyar
+	holder = 159137
+}
+# Yazi-Qapan
+893.1.1 = {
+	liege = d_yazi_qapan
+	holder = 1231820 # Yazi, chief of Yazi-Qapan at the time of the 893 expulsion
+}
+932.1.1 = {
+	liege = d_boru_tolmach
+	holder = 1231802
+}
+965.1.1 = {
+	holder = 1231804
+}
+# Suru-Külbej. Sarkel falls and Boru-Tolmach migrates to their propper location.
+966.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231768
+}
+970.1.1 = {
+	holder = 1231769
+}
+989.1.1 = {
+	holder = 1231771
+}
+1015.1.1 = {
+	holder = 1231774
+}
+1017.1.1 = {
+	holder = 1231776 # Bilter
+}
+1034.1.1 = {
+	holder = 1231778 # Tiraq
+}
+#1040.1.1 = {
+#	liege = d_suru_kulbej
+#}
+# Oghuz takes over
+1044.1.1 = {
+	liege = d_tekule
+	holder = 1231951
+}
+# Cumans arrive
+# Burçali
+1060.1.1 = {
+	liege = d_burchali
+	holder = 1233152
+}
+1083.1.1 = {
+	holder = 1233154
+}
+1096.1.1 = {
+	holder = 1233156 # Kitanopa
+}
+1103.4.1 = {
+	holder = 1233158
+}
+1163.1.1 = {
+	holder = 1233160
+}
+1183.1.1 = {
+	holder = 1233162 # Kopti
+}
+1218.1.1 = {
+	holder = 1233164
+}
+1230.1.1 = {
+	holder = 1233166
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
+}

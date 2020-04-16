@@ -1,0 +1,53 @@
+# -*- ck2.history.titles -*-
+# Della Gherardesca
+#Castagneto branch, first branch to actively participate in Pisan politics, conti di Castagneto
+#180006 # Guido I
+#180022 # Tedice II
+#180023 # Tedice III, first one in political office.
+#180024 # Tedice IV
+#180025 # Tedice V
+#180094 # Tancredi 
+#180115 # Alberto I
+#180095 # Uguccionello 
+1005.1.1 = {
+	holding_dynasty = 13031 # della Gherardesca - makes this a FAMILY_PALACE type Holding
+	liege = d_pisa
+	holder = 180022 # Tedice II
+}
+1050.1.1 = {
+	holder = 180023 # Tedice III
+}
+1078.1.1 = {
+	holder = 180024 # Tedice IV
+}
+1110.1.1 = {
+	holder = 180025 # Tedice V
+}
+1157.1.1 = {
+	holder = 180094 # Tancredi
+}
+1178.1.1 = {
+	holder = 180115 # Alberto I
+}
+1198.1.1 = {
+	holder = 180095 # Uguccionello 
+}
+1230.1.1 = {
+	holder = 1061019 # Uguccionello II
+}
+1245.1.1 = {
+	holder = 1061024 # Tancredi II
+}
+1255.1.1 = {
+	holder = 180097 # Alberto
+}
+1259.1.1 = {
+	holder = 180098 # Lupo
+}
+1270.1.1 = {
+	holder = 180099 # Bartolomeo
+}
+1285.1.1 = {
+        liege=0
+	holder = 0
+}

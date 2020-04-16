@@ -1,0 +1,50 @@
+# -*- ck2.history.titles -*-
+
+1042.1.1 = {
+	historical_nomad = yes
+	holder = 1232032
+}
+1067.1.1 = {
+	holder = 1232033
+}
+1099.1.1 = {
+	holder = 1232034
+}
+1125.1.1 = {
+	holder = 1232035
+}
+1125.1.1 = {
+	set_tribute_suzerain = {
+		who = d_khwarazm
+		percentage = 0.4
+	}
+}
+1157.5.9 = {
+	clear_tribute_suzerain = d_khwarazm
+}
+1161.1.1 = {
+	holder = 1232036
+}
+1189.1.1 = {
+	holder = 1232037
+}
+1217.1.1 = {
+	holder = 1232038
+}
+# Cuman revolt put down
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1241.12.11 = {
+	holder = 125534
+}
+1275.1.2 = {
+	holder = 125540
+}
+1304.1.2 = {
+	holder = 125541
+}
+1327.1.2 = {
+	holder = 125542
+}

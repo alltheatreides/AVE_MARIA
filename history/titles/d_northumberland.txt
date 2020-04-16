@@ -1,0 +1,184 @@
+# -*- ck2.history.titles -*-
+
+383.1.1 = {
+	holder = 159038 # Coel Hen
+}
+420.1.1 = {
+	holder = 1228313 # Garbanion, younger son of Coel Hen
+}
+445.1.1 = {
+	holder = 1228314 # Dyfnwal
+}
+475.1.1 = {
+	holder = 1228316 # Bran ap Dyfnwal
+}
+531.1.1 = {
+	holder = 1228315 # Cuncar ap Dyfnwal
+}
+545.1.1 = {
+	holder = 1228317 # Morgan Bulc ap Cuncar
+}
+547.1.1 = {
+	de_jure_liege = k_northumberland
+	holder = 205202 # Ida
+}
+559.1.1 = {
+	holder = 205203 # Glappa
+}
+560.1.1 = {
+	holder = 205204 # Adda
+}
+568.1.1 = {
+	holder = 205205 # Athelric
+}
+572.1.1 = {
+	holder = 205206 # Theodric
+}
+579.1.1 = {
+	holder = 205207 # Frithuwald
+}
+585.1.1 = {
+	holder = 205208 # Hussa
+}
+593.1.1 = {
+	holder = 205209
+}
+616.1.1 = {
+	holder = 205198 # Saint Eadwine youngest son of Aella returns from exile and takes power with the held of Raedwald of East Anglia
+}
+633.10.12 = {
+	holder = 205211 # Eanfrith son of Athelfrith
+}
+634.1.1 = {
+	holder = 205212 # Saint Oswald
+}
+642.8.5 = {
+	holder = 205213 # Oswig
+}
+670.2.15 = {
+	holder = 1226231 # Ecgfrith
+}
+685.5.20 = {
+	holder = 1226232 # Ealdfrith, bastard son of Oswig
+}
+704.12.14 = {
+	holder = 205240 # Eadwulf usurps throne
+}
+705.3.1 = {
+	holder = 1226233 # Osred son of Ealdfrith
+}
+716.1.1 = {
+	holder = 205221 # Coenred usurps throne
+}
+718.1.1 = {
+	holder = 1226234 # Osric, brother of Osred
+}
+729.5.9 = {
+	holder = 205222 # Coelwulf, brother of Coenred, adopted by Osric
+}
+731.1.1 = {
+	holder = 0 # Coelwulf briefly deposed
+}
+731.6.1 = {
+	holder = 205222 # Coelwulf restored
+}
+737.1.1 = {
+	holder = 205224 # Eadberht king after Coelwulf abdicates
+}
+758.1.1 = {
+	holder = 205225 # Oswulf
+}
+759.7.24 = {
+	holder = 205243 # Athelwald Moll
+}
+765.1.1 = {
+	holder = 205237 # Ealhred
+}
+774.1.1 = {
+	holder = 205244 # Athelred son of Athelwald
+}
+779.1.1 = {
+	holder = 194104 # Alfwald
+}
+788.9.23 = {
+	holder = 205238 # Osred son of Ealhred
+}
+790.1.1 = {
+	holder = 205244 # Athelred son of Athelwald restored
+}
+796.4.18 = {
+	holder = 205228 # Osbald, seizes power for 27 days as Northumbria dissolves into anarchy
+}
+796.5.14 = {
+	holder = 1226236 # Eardwulf takes power unrelated to previous kings
+}
+806.1.1 = {
+	holder = 1226238 # Alfwald seizes power
+}
+808.1.1 = {
+	holder = 1226236 # Eardwulf restored
+}
+810.1.1 = {
+	holder = 1226237 # Eanred son of Eardwulf
+}
+841.1.1 = {
+	holder = 1226239 # Athelred son of Eanred
+}
+858.1.1 = {
+	holder = 1226240 # Raedwulf seizes throne
+}
+858.6.1 = {
+	holder = 1226239 # Athelred son of Eanred
+}
+860.1.1 = {
+	holder = 1226241 # Osberht deposes Athelred
+}
+862.1.1 = {
+	holder = 163103 # Aella deposes Osberht
+}
+865.1.1 = {
+	effect = { set_title_flag = emf_lodbrok_invasion_of_northumberland }
+}
+867.3.21 = {
+	effect = { clr_title_flag = emf_lodbrok_invasion_of_northumberland }
+}
+867.3.21 = {
+	holder = 163121 # Ecgberht made puppet king by the Danes
+}
+872.1.1 = {
+	holder = 163122 # Ecgberht expelled and Ricsige made king
+}
+876.1.1 = {
+	holder = 0 # Kingdom of Northumbria taken by Danish Jorvik
+}
+954.1.1 = {
+	de_jure_liege = k_england
+	liege = k_england
+	#law = agnatic_succession
+	#law = succ_primogeniture
+}
+1041.1.1 = {
+	holder = 196 # Sigeweard Grossus
+}
+1055.1.1 = {
+	holder = 124 # Tostig Godwinson
+}
+1066.1.1 = {
+	holder = 5660 # Morcar of Hwicce
+}
+1067.2.1 = {
+	holder = 1226244 # Copsige
+}
+1067.3.12 = {
+	holder = 191 # Oswulf of Bamburgh murders Copsige
+}
+1069.1.1 = {
+	holder = 85018 # Gospatric of Northumbria/Bernicia. Controlled large areas on both sides of the border
+}
+1072.1.1 = {
+	holder = 198 # Waltheof
+}
+1076.1.1 = {
+	liege = 0
+	holder = 0
+}

@@ -1,0 +1,163 @@
+# -*- ck2.history.titles -*-
+
+# Vanilla 15/08/2013 county Dyfed
+360.1.1 = {
+	holder = 159807 # Macsen Wledig
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+380.1.1 = {
+    holder = 159808 #Annwn Dynod
+}
+428.1.1 = {
+    holder = 159816 #Ednyfed ap Annwn
+}
+431.1.1 = {
+    holder = 159817 #Glotguin ap Ednyfed
+}
+451.1.1 = {
+    holder = 159818 #Clotri
+}
+471.1.1 = {
+    holder = 159819 #Maelgwn
+}
+475.1.1 = {
+    holder = 159322 #Aircol Lawhir
+}
+495.1.1 = {
+    holder = 159324 #Gwerthefyr
+}
+540.1.1 = {
+    holder = 159340 #Cyngar
+}
+570.1.1 = {
+    holder = 159341 #Pedr
+}
+595.1.1 = {
+    holder = 159342 #Arthwyr
+}
+620.1.1 = {
+    holder = 159343 #Nowy Hen
+}
+650.1.1 = {
+    holder = 159344 #Cloten
+}
+670.1.1 = {
+    holder = 159345 #Cathen
+}
+690.1.1 = {
+    holder = 159346 #Cadwgan Tredylig
+}
+710.1.1 = {
+    holder = 159347 #Rhain
+}
+730.1.1 = {
+    holder = 159360 #Tewdwr ap Rhain
+}
+750.1.1 = {
+    holder = 159363 #Nowy ap Tewdwr
+}
+770.1.1 = {
+    holder = 159364 #Gruffydd ap Nowy
+}
+800.1.1 = {
+    holder = 159365 #Tewdwr ap Gruffydd
+}
+840.1.1 = {
+    holder = 159366 #Elisedd ap Tewdwr
+}
+885.1.1 = {
+    holder = 159367 #Gruffydd ap Elisedd
+}
+920.1.1 = {
+    holder = 159368 #Tewdwr ap Gruffydd
+}
+940.1.1 = {
+    holder = 159369 #Gwylog ap Tewdwr
+}
+970.1.1 = {
+    holder = 159370 #Elisedd ap Gwylog
+}
+1000.1.1 = {
+    holder = 159371 #Gruffydd ap Elisedd
+}
+1045.1.1 = {
+    liege = d_deheubarth
+	law = agnatic_succession
+	law = succ_elective_gavelkind	
+}
+1045.1.1 = {
+    holder = 159312 #Maenyrch ap Dryffryn
+}
+1060.1.1 = {
+    holder = 131704 #Bleddyn ap Maenyrch
+}
+1088.1.1 = {
+    liege = k_england
+}
+1088.1.1 = {
+    holder = 1230874 #Bernard de Neufmarche
+}
+1125.1.1 = {
+    holder = 204622 #Milo of Gloucester, the husband of Sibyl de Neufmarche
+}
+1143.12.23 = {
+    holder = 7461 # Roger of Gloucester
+}
+1155.9.22 = {
+    holder = 204623 # Bertha of Gloucester
+}
+1157.1.19 = {
+    holder = 204000 # William de Braose
+}
+1180.1.1 = {
+    holder = 204004 # William de Braose
+}
+1211.1.1 = {
+    holder = 204514 # Land seized by the Crown
+}
+1215.5.1 = {
+    holder = 204009 # Giles de Braose
+}
+1215.12.1 = {
+    liege = d_gwynedd
+}
+1215.12.1 = {
+    holder = 204011 # Reginald de Braose
+}
+1217.6.24 = {
+    liege = k_england
+}
+1227.5.5 = {
+    holder = 161620 # William V de Braose
+}
+1230.5.2 = {
+    holder = 161623 # Eleanor de Braose
+}
+1241.1.1 = {
+    holder = 129055 # Humphrey de Bohun, the husband of Eleanor de Braose
+}
+1262.1.1 = {
+    liege = d_gwynedd
+}
+1262.11.1 = {
+    holder = 420001 # Brecon seized by Llywelyn in 1262
+}
+1277.9.29 = {
+    liege = k_england # Treaty of Aberconwy
+}
+1277.9.29 = {
+    holder = 7463 # Humphrey de Bohun
+}
+1298.12.31 = {
+    holder = 454561 # Humphrey de Bohun
+}
+1321.11.6 = {
+    holder = 161668 # Land seized by the Crown, Hugh Despenser the Younger assigned as keeper
+}
+1326.11.24 = {
+    holder = 7464 # The Despensers are executed
+}
+1335.1.20 = {
+    holder = 454560 # Humphrey de Bohun
+}

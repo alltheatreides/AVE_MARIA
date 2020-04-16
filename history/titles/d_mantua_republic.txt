@@ -1,0 +1,49 @@
+# -*- ck2.history.titles -*-
+
+1167.4.7 = {
+	law = succ_feudal_elective
+	liege = k_lombard_league
+	holder = 1062150 # Otolino Bonalcosi
+}
+1199.1.1 = {
+	holder = 1062151 # Gandolfo Bonlacosi consul of Mantova 1200
+}
+# Ludovico I Sambonifacio, rector/capitano of Mantova 1220
+1215.1.1 = {
+	holder = 1062152 # Martino Bonlacosi imperial rector of Mantova 1233
+}
+1233.4.7 = {
+	liege = k_italy
+}
+1249.5.26 = {
+    liege = e_hre
+}
+1250.12.13 = {
+    liege = 0
+}
+#Alberto Scalieri, podesta of Mantova 1272 and 1274- october 1277
+1255.1.1 = {
+	holder = 1062153 # Pinamonte Bonlacosi capitano del popolo of Mantova 1276-1291
+}
+1293.1.1 = {
+	holder = 1062154 #Bardellone Bonlacosi Capitano del popolo of Mantova 1291-1299
+}
+1300.1.1 = {
+	holder = 1062157 #Guido detto Botesella Bonlacosi Capitano del popolo of Mantova 2nd of july 1299-1309
+}
+1309.1.24 = {
+	holder = 1062166 # Rinaldo detto Passerino Bonalcosi, Capitano del popolo of Mantova 1309-1311. signore di Mantova. Imperial vicar of Mantova 1311-,  signore di Modena 1312-1326
+}
+1311.1.6 = {
+    liege = k_italy
+}
+1313.8.24 = {
+	liege = 0
+}
+1327.5.31 = {
+    liege = k_italy
+}
+#To gonzaga
+1328.1.1 = {
+	holder = 413024 
+}

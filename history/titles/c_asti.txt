@@ -1,0 +1,125 @@
+# -*- ck2.history.titles -*-
+#Asti
+757.1.1 = {
+	liege = k_italy
+	holder = 190324 # Paldo
+}
+860.1.1 = {
+	holder = 163069
+}
+915.1.1 = {
+	liege = d_ivrea
+	holder = 1226558 #Guillaume, father of Aleramo
+}
+#Placeholder extension of Aleramo back to his fathers death
+933.1.1 = {
+	holder = 7727
+}
+951.1.1 = {
+	liege = k_italy
+}
+###First stone solid mention of the Aleramicci March
+#961.1.1 = {
+#	liege = k_germany
+#	holder = 7727
+#}
+962.1.1 = {
+	liege = e_hre
+}
+991.1.1 = {
+	holder = 7729
+}
+1024.7.3 = {
+	liege = e_hre
+}
+1026.3.31 = {
+    liege = k_italy
+}
+1039.6.4 = {
+    liege=e_hre
+}
+1040.10.20 = {
+	holder = 7730
+}
+1046.12.25 = {
+   liege=k_italy
+}
+1056.10.5 = {
+	liege=e_hre
+}
+1080.1.1 = {
+   liege=k_italy
+}
+1084.1.1 = {
+	holder = 71253
+}
+1101.12.28 = {
+	holder = 71257
+}
+1111.1.1 = {
+    liege=d_monferrato
+	holder = 232559
+}
+1137.1.1 = {
+	holder = 213520
+}
+#Asti commune
+1140.1.1 = {
+    liege=d_asti_republic
+	holder = 1064874 # Ottone da Roero
+}
+1145.1.1 = {
+	holder = 1064864 # Ruffino da Solaro
+}
+#back to Monferrato
+1154.12.1 = {
+    liege=d_monferrato
+	holder = 213520 # Sacked by Monferrato and Babarossa
+}
+#Commune pops up again
+1164.1.1 = {
+    liege=d_asti_republic
+	holder = 1064865 # Aurcio da Solaro
+}
+1168.1.1 = {
+	holder = 1064875 # Berado da Roero
+}
+1170.1.1 = {
+	holder = 1064866 # Oberto da Solaro
+}
+1198.1.1 = {
+	holder = 1064867 # Alberto da Solaro
+}
+1202.1.1 = {
+	holder = 1064868 # Manfredo da Solaro, consul of Asti 1202
+}
+1210.1.1 = {
+	holder = 1064876 # Manfredo da Roero
+}
+1217.1.1 = {
+	holder = 1064878 # Guglielmo da Roero, sindacus of Asti 1217-1224
+}
+1231.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Asti 1231
+}
+1232.1.1 = {
+	holder = 1064869 # Chiavaro da Solaro
+}
+1260.1.1 = {
+	holder = 1064870 # Bernardo da Solaro
+}
+1278.1.1 = {
+	holder = 1064871 # Emanuele da Solaro, signore/capitano del popoli of Asti 1278-1303
+}
+1303.1.1 = {
+	holder = 1064891 # Guglielmo Turco
+}
+1309.1.1 = {
+	holder = 1064884 # Percivalle da Roero
+}
+1323.1.1 = {
+	holder = 1064884 # Guglielmo da Roero
+}
+1329.1.1 = {
+	holder = 1064889 # Manfredo/Manfredin da Roero, rettore of Asti 1335 and 1342
+}

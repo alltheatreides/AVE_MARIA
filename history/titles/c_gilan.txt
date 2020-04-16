@@ -1,0 +1,110 @@
+# -*- ck2.history.titles -*-
+
+867.1.1 = {
+	holder = 1231129
+}
+894.1.1 = {
+	holder = 1231131
+}
+921.1.1 = {
+	holder = 1231132
+}
+921.3.1 = {
+	holder = 1231133
+}
+960.1.1 = {
+	holder = 180761 # Manadhar Justanid
+}
+970.1.1 = {
+	holder = 180762 # Khosrow Justanid
+}
+975.1.1 = {
+	liege = k_mesopotamia #marriage with and support for Azod al-Dawla
+}
+983.3.3 = {
+	liege = d_rayy
+}
+1006.1.1 = {
+	holder = 1231092
+}
+1022.1.1 = {
+	holder = 1231093
+}
+1029.1.1 = {
+	liege = 0
+}
+1043.1.1 = {
+	liege = k_khorasan
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1062.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+1065.1.1 = {
+	holder = 1231168
+}
+1085.1.1 = {
+	holder = 1231169
+}
+1094.1.1 = {
+	clear_tribute_suzerain = e_persia
+}
+1116.1.1 = {
+	holder = 1231170
+}
+1145.1.1 = {
+	holder = 1231171
+}
+1179.1.1 = {
+	holder = 1231172
+}
+1215.1.1 = {
+	holder = 1231173
+}
+1220.1.1 = { #Bisotun takes over Gilan some time during his reign, 1214-1223
+	holder = 93184
+}
+1223.1.1=
+{
+	holder=93185
+}
+1231.1.1 = {
+	liege = d_rayy
+}
+1236.1.1=
+{
+	liege = e_china_west_governor
+}
+1243.1.1=
+{
+	holder=93186
+}
+1243.9.1=
+{
+	holder=93187
+}
+1253.1.1 = { #Shahragim loses Gilan some time during his reign, 1243-1272
+	liege = 0
+	holder = 1231174 #Nasirvandid Jamal al-Din Sa'luk b. Sa'luk in Hulegu's time
+}
+1268.1.1 = {
+	holder = 1231175
+}
+1298.1.1 = {
+	holder = 1231176
+}
+1307.1.1 = { #Oljeitu extracts tribute from the Nasirvandid Naw-Padishah, granting him suzerainty over other princes of Gilan
+	set_tribute_suzerain = {
+		who = e_il-khanate
+		percentage = 0.4
+	}
+}
+1320.1.1 = {
+	holder = 1231177
+}

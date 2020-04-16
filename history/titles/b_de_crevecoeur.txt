@@ -1,0 +1,25 @@
+#Cinque Ports family
+1066.10.14 = {
+	holding_dynasty = 1000100171 # de Crevecour - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066933 #Hugh de Crevecoeur
+}
+1099.1.1 = {
+	holder = 1066934 #Hamon de Crevecoeur
+}
+1117.1.1 = {
+	holder = 1066935 #Robert de Crevecoeur
+}
+1155.1.1 = {
+	holder = 1066939 #Daniel de Crevecoeur
+}
+1177.1.1 = {
+	holder = 1066940 #Robert II de Crevecoeur
+}
+1215.1.1 = {
+	holder = 1066941 #Hamon II de Crevecoeur
+}
+1263.4.1 = {
+	holder = 0
+	liege=0
+}

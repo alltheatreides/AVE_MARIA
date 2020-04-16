@@ -1,0 +1,65 @@
+# -*- ck2.history.titles -*-
+
+864.1.1 = {
+	liege = k_khorasan
+	holder = 163161
+}
+935.1.19 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = k_mavarannahr
+		percentage = 0.4
+	}
+	holder = 261026 #Makan b. Kaki, governor for the Samanids and allied with Vushmgir
+}
+940.1.1 = {
+	clear_tribute_suzerain = k_mavarannahr
+}
+940.12.1 = {
+	holder = 0
+}
+997.1.1 = { #Qabus returns to Gurgan
+	holder = 166993
+}
+1012.6.11 = {
+	liege = k_kafarestan
+	holder = 166994
+}
+1029.1.2 = {
+	holder = 1231165
+}
+1037.1.1 = {
+	liege = 0
+}
+1042.1.1 = {
+	liege = k_khorasan
+	holder= 166995
+}
+1050.1.1 = {
+	holder = 20703
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1057.1.1 = {
+	liege = 0
+	holder = 0
+}
+#1110.1.1 = {
+#	liege = k_khorasan
+#	holder = 93126
+#}
+#1152.1.1 = {
+#	holder = 93127
+#}
+1153.1.1 = {
+	liege = k_khorasan
+	holder = 1230171
+}
+1156.1.1 = {
+	liege = 0
+}
+1165.1.1 = {
+	liege = 0
+	holder = 0
+}
