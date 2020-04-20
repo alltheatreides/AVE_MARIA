@@ -74,3 +74,20 @@ opinion_true_vassal_obligations_suzerain_ransom_sober_donation = {
 opinion_true_vassal_obligations_suzerain_ransom_nothing_donation = {
 	opinion = -20
 }
+
+#Aide aux quatre cas - suzerain is crusading opinion modifiers
+opinion_true_vassal_obligations_suzerain_crusade_lavish_donation = {
+	opinion = 10
+}
+
+opinion_true_vassal_obligations_suzerain_crusade_normal_donation = {
+	opinion = 5
+}
+
+opinion_true_vassal_obligations_suzerain_crusade_sober_donation = {
+	opinion = -10
+}
+
+opinion_true_vassal_obligations_suzerain_crusade_nothing_donation = {
+	opinion = -20
+}

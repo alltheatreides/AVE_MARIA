@@ -42,7 +42,7 @@ character_event = {
             factor = 9
             modifier = {
                 factor = 10
-                opinion = { who = ROOT value = 75 }
+                opinion = { who = ROOT value = 50 }
             }
         }
     }
@@ -83,7 +83,7 @@ character_event = {
         }
     }
 
-    ##Minimum when they do not like you or are the normands
+    ##Minimum when they do not like you or are the normands / powerful enough to get away with it
     option = {
         name = EVTOPTC_AVE_MARIA_true_vassal_obligations_events.1
         event_target:target_receiver_of_servitium_debitum = {
@@ -113,6 +113,13 @@ character_event = {
         }
         ai_chance = {
             factor = 10
+			modifier = {
+				factor = 100
+				relative_power_including_allies_attacker = {
+					who = suzerain
+					power = 1
+				}				
+            }
             modifier = {
 				factor = 100
 				AND = {
@@ -649,6 +656,9 @@ narrative_event = {
 		}
 		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.9
 		wealth = 20
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_son_knight_lavish_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_son_knight_lavish_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -661,6 +671,9 @@ narrative_event = {
 		}
 		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.9
 		wealth = 10
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_son_knight_normal_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_son_knight_normal_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -673,6 +686,9 @@ narrative_event = {
 		}
 		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.9
 		wealth = 5
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_son_knight_sober_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_son_knight_sober_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -684,6 +700,9 @@ narrative_event = {
 			FROM = { has_character_flag = true_vassal_obligations_son_knight_nothing_donation }
 		}
 		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.9
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_son_knight_nothing_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_son_knight_nothing_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -838,6 +857,9 @@ narrative_event = {
 		}
 		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.12
 		wealth = 20
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_daughter_marriage_lavish_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_lavish_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -850,6 +872,9 @@ narrative_event = {
 		}
 		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.12
 		wealth = 10
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_daughter_marriage_normal_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_normal_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -862,6 +887,9 @@ narrative_event = {
 		}
 		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.12
 		wealth = 5
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_daughter_marriage_sober_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_sober_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -873,6 +901,9 @@ narrative_event = {
 			FROM = { has_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation }
 		}
 		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.12
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_daughter_marriage_nothing_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -1026,6 +1057,9 @@ narrative_event = {
 		}
 		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.15
 		wealth = 20
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_ransom_lavish_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_lavish_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -1038,6 +1072,9 @@ narrative_event = {
 		}
 		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.15
 		wealth = 10
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_ransom_normal_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_normal_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -1050,6 +1087,9 @@ narrative_event = {
 		}
 		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.15
 		wealth = 5
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_ransom_sober_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_sober_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -1061,6 +1101,9 @@ narrative_event = {
 			FROM = { has_character_flag = true_vassal_obligations_suzerain_ransom_nothing_donation }
 		}
 		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.15
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_ransom_nothing_donation }
+		}
 		opinion = { modifier = opinion_true_vassal_obligations_suzerain_ransom_nothing_donation who = FROM years = 5 }
 		ai_chance = {
             factor = 1
@@ -1070,12 +1113,200 @@ narrative_event = {
 }
 
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.16
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.16
+    picture = GFX_evt_marriage
+    is_triggered_only = yes
+
+    trigger = {
+        check_if_crusader_trigger = yes
+    }
+	
+	#Yes, ask everyone
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.16
+		hidden_effect = {
+			any_tributary  = {
+				limit = { 
+					is_tributary = { type = true_vassal suzerain = ROOT }
+				}
+				narrative_event = {
+					id = AVE_MARIA_true_vassal_obligations.17
+					days = 5
+					random = 5
+				}
+			}
+		}
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	#Human player option - On second thought no
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.16
+		ai_chance = {
+            factor = 0
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's crusade/pilgrimage - Vassals event
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.17
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.17
+    picture = GFX_evt_marriage
+    is_triggered_only = yes
+	
+	trigger = {
+        
+    }
+	
+	#Lavish donation
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.17
+		wealth = -20
+		set_character_flag = true_vassal_obligations_daughter_marriage_lavish_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.18
+			}
+		}
+		ai_chance = {
+            factor = 15
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = 75 }
+            }
+        }
+		
+	}
+	
+	#Normal donation
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.17
+		wealth = -10
+		set_character_flag = true_vassal_obligations_daughter_marriage_normal_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.18
+			}
+		}
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	#Sober donation
+	option = {
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.17
+		wealth = -5
+		set_character_flag = true_vassal_obligations_daughter_marriage_sober_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.18
+			}
+		}
+		ai_chance = {
+            factor = 5
+			modifier = {
+                factor = 10
+                opinion = { who = ROOT value = -25 }
+            }
+        }
+	}
+	
+	#Nothing donation
+	option = {
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.17
+		set_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation
+		suzerain = {
+			narrative_event = {
+				id = AVE_MARIA_true_vassal_obligations.18
+			}
+		}
+		ai_chance = {
+            factor = 1
+			modifier = {
+                factor = 100
+                opinion = { who = ROOT value = -75 }
+            }
+        }
+	}
+}
 
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain receive vassals response
-
-
+narrative_event = {
+	id = AVE_MARIA_true_vassal_obligations.18
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.18
+    picture = GFX_evt_emissary
+    is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_crusade_lavish_donation }
+		}
+		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.18
+		wealth = 20
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_crusade_lavish_donation }
+		}
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_crusade_lavish_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_crusade_normal_donation }
+		}
+		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.18
+		wealth = 10
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_crusade_normal_donation }
+		}
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_crusade_normal_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_crusade_sober_donation }
+		}
+		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.18
+		wealth = 5
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_crusade_sober_donation }
+		}
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_crusade_sober_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+	option = {
+		trigger = {
+			FROM = { has_character_flag = true_vassal_obligations_suzerain_crusade_nothing_donation }
+		}
+		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.18
+		hidden_effect = {
+			FROM = { clr_character_flag = true_vassal_obligations_suzerain_crusade_nothing_donation }
+		}
+		opinion = { modifier = opinion_true_vassal_obligations_suzerain_crusade_nothing_donation who = FROM years = 5 }
+		ai_chance = {
+            factor = 1
+        }
+	}
+	
+}
 
 
 
