@@ -252,7 +252,7 @@ decisions = {
 			add_trait = travelling
 			#information event
 			character_event = {
-				id = AVE_MARIA_true_vassal_hommage.2
+				id = AVE_MARIA_true_vassal_justice.2
 				# days = 1
 				tooltip = "homage"
 			}			
@@ -268,52 +268,10 @@ decisions = {
 
 	}
 	
-	# true_vassal_commise_du_fief = {
-		# only_independent = yes
-		# is_high_prio = yes
-		# only_playable = yes
-
-		# potential = {
-			# is_playable = yes
-			# NOR = {
-				# is_nomadic = yes
-				# is_tribal = yes
-				# culture = greek
-				# any_liege = {
-					# AND = { 
-						# primary_title = { 
-							# OR = { 
-								# title = e_byzantium
-								# title = e_roman_empire
-							# }
-							# has_law = succ_byzantine_elective
-						# }
-					# }
-				# }
-			# }
-			# any_tributary = {
-				# limit = {
-					# has_character_flag = feudal_breach
-				# }
-			# }
-		# }
-		
-		# allow = {
-			# NOT = { is_inaccessible_trigger = yes }
-		# }
-		
-		# effect = {
-			# narrative_event = {
-				# id = AVE_MARIA_true_vassal_obligations.7
-			# }
-		# }
-		
-		
-	# }
-	
 }
 
 targetted_decisions = {
+
 	true_vassal_targeted_decision_convocation_au_ban_offensif = {
 		only_independent = yes
 		is_high_prio = yes
@@ -369,4 +327,60 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
+	
+	true_vassal_commise_du_fief = {
+		only_independent = yes
+		is_high_prio = yes
+
+		from_potential = {
+			is_playable = yes
+			NOR = {
+				is_nomadic = yes
+				is_tribal = yes
+				culture = greek
+				any_liege = {
+					AND = { 
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
+						}
+					}
+				}
+			}
+			any_tributary = {
+				limit = {
+					has_character_flag = feudal_breach
+				}
+			}
+		}
+		
+		potential = {
+			is_tributary = { type = true_vassal suzerain = FROM }
+			has_character_flag = feudal_breach
+		}
+		
+		allow = {
+			NOT = { is_inaccessible_trigger = yes }
+			NOT = {
+				tier = baron
+				is_landed = no
+				has_character_flag = feudal_breach
+			}
+		}
+		
+		effect = {
+			ROOT = {
+				letter_event = { id = AVE_MARIA_true_vassal_justice.12 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+	}
+	
 }

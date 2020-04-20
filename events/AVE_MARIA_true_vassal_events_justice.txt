@@ -1,0 +1,676 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_true_vassal_justice.1 - AVE_MARIA_true_vassal_justice.499               #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_true_vassal_justice
+
+###########################################
+# Justice events 		              	  #
+###########################################
+
+# Every year, the royal tribunal is organized and aristocrats can registrer grievances - Suzerain event
+character_event = {
+    id = AVE_MARIA_true_vassal_justice.1
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.1
+    is_triggered_only = yes
+	
+	trigger = {
+		any_tributary = {
+			OR = {
+				is_tributary = { type = true_vassal_hre }
+				is_tributary = { type = true_vassal }
+				is_tributary = { type = true_vassal_duke_of_normandy }
+			}
+		}
+		culture_check_for_frankish_style_feudalism = yes		
+		month = 8
+	}
+	
+    immediate = {
+        
+    }
+	
+	#Yes organize
+	option = {
+        name = EVTOPT_A_AVE_MARIA_true_vassal_justice.1
+		hidden_effect = {
+			any_tributary = {
+				OR = {
+					is_tributary = { type = true_vassal_hre }
+					is_tributary = { type = true_vassal }
+					is_tributary = { type = true_vassal_duke_of_normandy }
+				}
+				character_event = { id = AVE_MARIA_true_vassal_justice.2 }
+			}
+			set_character_flag = true_vassal_preparing_royal_plaid
+			set_character_flag = do_not_disturb
+			character_event = { id = AVE_MARIA_true_vassal_justice.11 months = 3 }
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	#Let human player choose
+	option = {
+        name = EVTOPT_B_AVE_MARIA_true_vassal_justice.1
+        ai_chance = {
+            factor = 0
+        }
+    }
+	
+}
+
+# Every year, the royal tribunal is organized and aristocrats can registrer grievances - Vassal event
+character_event = {
+    id = AVE_MARIA_true_vassal_justice.2
+	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.2
+    is_triggered_only = yes
+ 
+	trigger = {
+		
+	}
+	
+	immediate = {
+	
+	}
+		
+	#Come
+	option = {
+        name = EVTOPT_A_AVE_MARIA_true_vassal_justice.1
+		trigger = {
+			NOT = { has_character_flag = do_not_disturb }
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				is_rival = FROM
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0.1
+				NOT = { opinion = { who = FROM value = -25 } }
+			}
+			modifier = {
+				factor = 5
+				is_tributary = { type = true_vassal suzerain = FROM }
+			}
+			modifier = {
+				factor = 0.1
+				relative_power_including_allies_attacker = {
+					who = suzerain
+					power = 1
+				}
+			}
+		}
+		hidden_tooltip = { FROM = { letter_event = { id = AVE_MARIA_true_vassal_justice.3 days = 7 } } }
+		set_character_flag = do_not_disturb
+		set_character_flag = true_vassal_attending_royal_plaid
+        ai_chance = {
+            factor = 90
+        }
+    }
+	
+	#Not come
+	option = {
+        name = EVTOPT_B_AVE_MARIA_true_vassal_justice.1
+        ai_chance = {
+            factor = 10
+			modifier = {
+				factor = 0
+				relative_power_including_allies_attacker = {
+					who = suzerain
+					power = 0.5
+				}
+			}
+			modifier = {
+				factor = 10
+				FROM = { prestige < 100 }
+			}
+			modifier = {
+				factor = 0
+				has_character_flag = feudal_breach
+			}
+			# modifier = {
+				# factor = 10
+				# relative_power_including_allies_attacker = {
+					# who = suzerain
+					# power = 1
+				# }
+			# }
+        }
+    }
+}
+
+# Suzerain receives positive answer to plaid invitation
+letter_event = {
+	id = AVE_MARIA_true_vassal_justice.3
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.3
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.3
+	}
+}
+
+# Suzerain receives negative answer to plaid invitation
+letter_event = {
+	id = AVE_MARIA_true_vassal_justice.4
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.4
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.4
+		trigger = {
+			FROM = {
+				NOT = { has_character_flag = feudal_breach }
+			}
+		}
+		prestige = -10
+		if = {
+			limit = {
+				FROM = {
+					is_tributary = { type = true_vassal suzerain = ROOT }
+					relative_power_including_allies_attacker = {
+						who = suzerain
+						power = 1
+					}
+				}
+			}
+			prestige -50			
+		}
+	}
+	
+	#Maybe do a judging in absence during th eplaid ?
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.4
+		trigger = {
+			FROM = {
+				has_character_flag = feudal_breach
+			}
+		}
+		character_event = {
+			id = AVE_MARIA_true_vassal_justice.9
+			days = 5
+		}
+	}
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Liege event
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.5
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.5
+    is_triggered_only = yes
+	
+	#Offer a chance to defend himself
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.5
+		any_tributary = {
+			limit = {
+				has_character_flag = {
+					AND = {
+						feudal_breach
+						true_vassal_attending_royal_plaid
+					}
+				}
+			}
+			character_event = { id = AVE_MARIA_true_vassal_justice.6 }
+		}
+	}
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal event
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.6
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.6
+    is_triggered_only = yes
+	
+	# Argue your case
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.6
+		random_list = {
+			#It works!
+			50 = {
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = faithful
+						trait = honest
+						trait = sincere
+					}
+				}
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = outgoing
+						trait = lively
+						trait = sociable
+					}
+				}
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = patient
+						trait = tolerant
+						trait = agreeable
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = law_intermediate_knowledge
+						trait = law_advanced_knowledge
+						trait = law_expert
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = theology_christian_intermediate_knowledge
+						trait = theology_christian_advanced_knowledge
+						trait = theology_christian_expert
+					}
+				}
+				modifier = {
+					factor = 2
+					has_character_flag = true_vassal_royal_plaid_convinced_someone_important
+				}
+				modifier = {
+					factor = 1.5
+					has_character_flag = true_vassal_royal_plaid_bribed_someone_important
+				}
+				FROM = { 
+					letter_event = { id = AVE_MARIA_true_vassal_justice.7 }
+				}
+				clr_character_flag = feudal_breach
+				clr_character_flag = do_not_disturb
+				clr_character_flag = true_vassal_attending_royal_plaid
+			}
+			#It does not work!
+			50 = {
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = inconstant
+						trait = deceitful
+						trait = hypocritical
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = irresponsible
+						trait = lazy
+						trait = reckless
+					}
+				}
+				modifier = {
+					factor = 1.5
+					has_character_flag = true_vassal_royal_plaid_bribing_denounced
+				}
+				FROM = {
+					character_event = { id = AVE_MARIA_true_vassal_justice.8 } 
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = faithful
+					trait = honest
+					trait = sincere
+				}
+			}
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = outgoing
+					trait = lively
+					trait = sociable
+				}
+			}
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = patient
+					trait = tolerant
+					trait = agreeable
+				}
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = law_intermediate_knowledge
+					trait = law_advanced_knowledge
+					trait = law_expert
+				}
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = theology_christian_intermediate_knowledge
+					trait = theology_christian_advanced_knowledge
+					trait = theology_christian_expert
+				}
+			}
+			modifier = {
+				factor = 2
+				has_character_flag = true_vassal_royal_plaid_convinced_someone_important
+			}
+			modifier = {
+				factor = 1.5
+				has_character_flag = true_vassal_royal_plaid_bribed_someone_important
+			}
+		}
+	}
+	
+	# Propose to pay a fine instead
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.6
+		random_list = {
+			#It works
+			50 = {
+				modifier = {
+					factor = 2
+					FROM = {
+						trait = greedy
+					}
+				}
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = faithful
+						trait = honest
+						trait = sincere
+					}
+				}
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = outgoing
+						trait = lively
+						trait = sociable
+					}
+				}
+				modifier = {
+					factor = 1.1
+					OR = {
+						trait = patient
+						trait = tolerant
+						trait = agreeable
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = law_intermediate_knowledge
+						trait = law_advanced_knowledge
+						trait = law_expert
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = theology_christian_intermediate_knowledge
+						trait = theology_christian_advanced_knowledge
+						trait = theology_christian_expert
+					}
+				}
+				FROM = {
+					letter_event = { id = AVE_MARIA_true_vassal_justice.10 }
+				}
+			}
+			50 = {
+				modifier = {
+					factor = 2
+					FROM = {
+						wealth < 0
+					}
+				}
+				modifier = {
+					factor = 1.5
+					FROM = {
+						wealth < 50
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = inconstant
+						trait = deceitful
+						trait = hypocritical
+					}
+				}
+				modifier = {
+					factor = 1.2
+					OR = {
+						trait = irresponsible
+						trait = lazy
+						trait = reckless
+					}
+				}
+				FROM = { 
+					letter_event = { id = AVE_MARIA_true_vassal_justice.8 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 80
+			modifier = {
+				factor = 2
+				FROM = {
+					trait = greedy
+				}
+			}
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = faithful
+					trait = honest
+					trait = sincere
+				}
+			}
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = outgoing
+					trait = lively
+					trait = sociable
+				}
+			}
+			modifier = {
+				factor = 1.1
+				OR = {
+					trait = patient
+					trait = tolerant
+					trait = agreeable
+				}
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = law_intermediate_knowledge
+					trait = law_advanced_knowledge
+					trait = law_expert
+				}
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = theology_christian_intermediate_knowledge
+					trait = theology_christian_advanced_knowledge
+					trait = theology_christian_expert
+				}
+			}
+		}
+	}
+	
+	#Lunatic option ? Assault liege
+	option = {
+		name = EVTOPT_C_AVE_MARIA_true_vassal_justice.6
+		trigger = {
+			trait = lunatic
+		}
+		FROM = { 
+			character_event = { id = AVE_MARIA_true_vassal_justice.8 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal successfuly defends himself - Liege notified
+letter_event = {
+	id = AVE_MARIA_true_vassal_justice.7
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.7
+
+	is_triggered_only = yes
+	
+	option = {
+		EVTOPT_A_AVE_MARIA_true_vassal_justice.7
+	}
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal unsuccessfuly defends himself - Liege notified
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.8
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.8
+
+	is_triggered_only = yes
+	
+	#Revoke the fief immediatly - send ultimatum
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.8
+		FROM = {
+			character_event = { id = AVE_MARIA_true_vassal_justice.9 }
+		}
+	}
+	
+	#Revoke the fief later
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.8
+		FROM = {
+			any_demesne_title = {
+				add_claim = ROOT
+			}
+		}
+	}
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal ultimatum 
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.9
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.9
+
+	is_triggered_only = yes
+	
+	#Accept
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.9
+		FROM = {
+			any_demesne_title = {
+				any_de_jure_vassal_title = {
+					limit = {
+						controlled_by = ROOT
+					}
+					gain_title = FROM
+				}
+			}
+		}
+	}
+	
+	#Refuse
+	option = {
+		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.9
+		FROM = {
+			any_demesne_title = {
+				any_de_jure_vassal_title = {
+					limit = {
+						controlled_by = ROOT
+					}
+					add_claim = FROM
+					FROM = {
+						war = {
+							target = ROOT
+							casus_belli = claim_all
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+# Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal successfuly argues for a fine 
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.10
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.10
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.10
+		FROM = {
+			wealth = -50
+		}
+		wealth = 50
+	}
+	
+}
+
+# Royal plaid is over
+character_event = {
+	id = AVE_MARIA_true_vassal_justice.11
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.11
+    is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = true_vassal_preparing_royal_plaid
+		clr_character_flag = do_not_disturb
+		any_tributary = {
+			limit = {
+				has_character_flag = true_vassal_attending_royal_plaid
+			}
+			clr_character_flag = true_vassal_attending_royal_plaid
+			clr_character_flag = do_not_disturb
+		}
+	}
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.11
+		
+	}
+}
+
+# Vassal is notified that his feudal breach will be judged in the next plaid
+letter_event = {
+	id = AVE_MARIA_true_vassal_justice.12
+	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.12
+
+	is_triggered_only = yes
+	
+	option = {
+		EVTOPT_A_AVE_MARIA_true_vassal_justice.12
+	}
+}
+
+#If he is a powerful vassal and decides not to come, notify the liege?
