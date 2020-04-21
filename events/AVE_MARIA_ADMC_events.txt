@@ -341,11 +341,13 @@ character_event = {
 		#Setting up of administrative_capacity for ROOT
 		#Basic one province control for everyone
 		if = {
-			NOT = {
-				OR = {
-					higher_tier_than = king
-					higher_tier_than = duke
-				}			
+			limit = {
+				NOT = {
+					OR = {
+						higher_tier_than = king
+						higher_tier_than = duke
+					}			
+				}
 			}
 			set_variable = { which = administrative_capacity value = 1 }
 		}
@@ -445,11 +447,13 @@ character_event = {
 			}
 			#Basic one province control for everyone
 			if = {
-				NOT = {
-					OR = {
-						higher_tier_than = king
-						higher_tier_than = duke
-					}			
+				limit = {
+					NOT = {
+						OR = {
+							higher_tier_than = king
+							higher_tier_than = duke
+						}			
+					}
 				}
 				set_variable = { which = administrative_capacity value = 2 }
 			}

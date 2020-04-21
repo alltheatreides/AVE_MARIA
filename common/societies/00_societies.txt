@@ -19,6 +19,9 @@ monastic_order_benedictine = {
 	can_join_society = {
 		# True vassal mod
 		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -370,6 +373,9 @@ monastic_order_dominican = {
 	can_join_society = {
 		# True vassal mod
 		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -686,6 +692,9 @@ monastic_order_orthodox = {
 	can_join_society = {
 		# True vassal mod
 		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -1035,6 +1044,9 @@ monastic_order_nestorian = {
 	can_join_society = {
 		# True vassal mod
 		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -1369,6 +1381,9 @@ monastic_order_monophysite = {
 	can_join_society = {
 		# True vassal mod
 		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes

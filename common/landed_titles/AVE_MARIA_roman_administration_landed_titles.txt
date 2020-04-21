@@ -23,6 +23,7 @@ c_doukas_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_komnenos_family = {
@@ -34,6 +35,7 @@ c_komnenos_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_diogenes_family = {
@@ -45,6 +47,7 @@ c_diogenes_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_phokas_family = {
@@ -56,6 +59,7 @@ c_phokas_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_taronites_family = {
@@ -67,6 +71,7 @@ c_taronites_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_argyros_family = {
@@ -78,6 +83,7 @@ c_argyros_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_monomachos_family = {
@@ -89,6 +95,7 @@ c_monomachos_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_palaiologos_family = {
@@ -100,6 +107,7 @@ c_palaiologos_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 c_burtzes_family = {
@@ -111,6 +119,7 @@ c_burtzes_family = {
 	can_be_usurped = no
 	duchy_revokation = no
 	can_be_claimed = no
+	assimilate = no
 }
 
 
@@ -126,10 +135,12 @@ k_megas_domestikos = {
 	title = "Domestikos Tes Anatoles"
 	landless = yes
 	can_be_usurped = no
+	assimilate = no
 	
 	## TAGMA
 	#Tagma regiment Domestic of the Scholai Palatinae heavy cavalry nah they should be directly under the emperor ?
 	d_scholae_palatinae = {
+		assimilate = no
 		color = { 178 34 34 }
 		color2 = { 255 215 0 }
 		
@@ -155,6 +166,7 @@ k_megas_domestikos = {
 
 	## Excubitor
 	d_excubitor = {
+		assimilate = no
 		color = { 178 34 34 }
 		color2 = { 255 215 0 }
 		
@@ -179,6 +191,7 @@ k_megas_domestikos = {
 
 	## Vigla
 	d_vigla = {
+		assimilate = no
 		color = { 178 34 34 }
 		color2 = { 255 215 0 }
 		
@@ -203,6 +216,7 @@ k_megas_domestikos = {
 
 	## Hikanatoi
 	d_hikanatoi = {
+		assimilate = no
 		color = { 178 34 34 }
 		color2 = { 255 215 0 }
 		
@@ -228,6 +242,7 @@ k_megas_domestikos = {
 }
 # Domestikos of the west - Less important than the east
 k_domestikos_ton_scholon_west = {
+	assimilate = no
 	graphical_culture = byzantinegfx
 	capital = 496
 	culture = greek
@@ -246,6 +261,7 @@ d_trebizond_theme = {
 	capital = 678 # Trepezous
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -258,6 +274,7 @@ d_armeniacon_theme = {
 	capital = 738 # Amisos
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -270,6 +287,7 @@ d_paphlagonia_theme = {
 	capital = 751 # Paphlagonia
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -285,6 +303,7 @@ d_optimatoi_theme = {
 	turkish = "Izmit"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -299,6 +318,7 @@ d_abydos_theme = {
 	turkish = "Balakhisar"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -313,6 +333,7 @@ d_thrace_theme = {
 	roman = "Thracia"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -325,6 +346,7 @@ d_adrianopolis_theme = {
 	capital = 494 # Adrianopolis
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -338,6 +360,7 @@ d_thessalonika_theme = {
 	capital = 490 # Thessalonike
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -350,6 +373,7 @@ d_athens_theme = {
 	capital = 475 # Thebes
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -362,6 +386,7 @@ d_achaia_theme = {
 	capital = 481 # Korinthos
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -374,6 +399,7 @@ d_krete_theme = {
 	capital = 480 # Chandax
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -389,6 +415,7 @@ d_dyrrachion_theme = {
 	arberian = "Arbanon"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -401,6 +428,7 @@ d_cephalonia_theme = {
 	capital = 474
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -414,6 +442,7 @@ d_nikaea_theme = {
 	turkish = "Iznik"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -426,6 +455,7 @@ d_samos_theme = {
 	capital = 486 # Samos
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -438,6 +468,7 @@ d_cibyrrhaeot_theme = {
 	capital = 755 # Attaleia
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -450,6 +481,7 @@ d_anatolia_theme = {
 	capital = 759 # Ikonion
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -462,6 +494,7 @@ d_thracesia_theme = {
 	capital = 748 # Laodikeia
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -476,6 +509,7 @@ d_charsianon_theme = {
 	roman = "Galatia"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -488,6 +522,7 @@ d_cappadocia_theme = {
 	capital = 760
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -503,6 +538,7 @@ d_bucellarian_theme = {
 	turkish = "Ankara"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -517,6 +553,7 @@ d_armenia_minor_theme = {
 	armenian = "Armenia Minor"
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -529,6 +566,7 @@ d_cyprus_theme = {
 	capital = 757 # Famagusta
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -542,6 +580,7 @@ d_armenia_theme = {
 	capital = 682 # Vaspurakan
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -554,6 +593,7 @@ d_mesopotamia_theme = {
 	capital = 702 # Mesopotamia
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -566,6 +606,7 @@ d_edessa_theme = {
 	capital = 699 # Edessa
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -578,6 +619,7 @@ d_coloneia_theme = {
 	capital = 706 # Koloneia
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -591,6 +633,7 @@ d_turnovo_theme = {
 	capital = 499 # Tyrnovo
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -603,6 +646,7 @@ d_karvuna_theme = {
 	capital = 509 # Karvuna
 	
 	#fixed AVE MARIA modification
+	assimilate = no
 	title = "Strategos"
 	landless = yes
 	can_be_usurped = no		
@@ -642,6 +686,7 @@ k_megas_droungarios = {
 	title = "Megas Droungarios"
 	landless = yes
 	can_be_usurped = no
+	assimilate = no
 }
 
 ###########################################
@@ -656,6 +701,7 @@ k_sakellarios = {
 	title = "Sakellarios"
 	landless = yes
 	can_be_usurped = no
+	assimilate = no
 	
 	# Kephale as the heads of the provinces ?
 	
@@ -677,7 +723,7 @@ k_logothetetes_tou_dromou = {
 	title = "Logothetes"
 	landless = yes
 	can_be_usurped = no
-	
+	assimilate = no
 	
 }
 
@@ -689,7 +735,7 @@ k_eparch_of_constantinople = {
 	title = "Eparch"
 	landless = yes
 	can_be_usurped = no
-	
+	assimilate = no
 	# Prisons
 	# Walls ?
 	# Demes of the blue and red
@@ -703,7 +749,7 @@ k_quaestor = {
 	title = "Quaestor"
 	landless = yes
 	can_be_usurped = no
-	
+	assimilate = no
 	#Kritai
 	d_judge = {
 		graphical_culture = byzantinegfx
@@ -712,5 +758,6 @@ k_quaestor = {
 		title = "Kritai"
 		landless = yes
 		can_be_usurped = no
+		assimilate = no
 	}
 }

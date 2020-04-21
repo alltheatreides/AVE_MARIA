@@ -33,10 +33,10 @@ character_event = {
 				lower_tier_than = EMPEROR
 				# primary_title = { has_law = investiture_law_1 }
 			} 
-			any_independent_ruler = {
+			any_tributary = {
 				OR = {
-					primary_title = c_reims
-					primary_title = d_archreims
+					has_landed_title = c_reims
+					has_landed_title = d_archreims
 				}
 				is_theocracy = yes 
 				religion = ROOT
@@ -56,8 +56,8 @@ character_event = {
 		any_independent_ruler = { 
 			limit = {
 				OR = {
-					primary_title = c_reims
-					primary_title = d_archreims
+					title = c_reims
+					title = d_archreims
 				}
 				is_theocracy = yes 
 				religion = ROOT
