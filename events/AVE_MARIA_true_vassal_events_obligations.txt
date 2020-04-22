@@ -220,7 +220,7 @@ character_event = {
     border = GFX_event_normal_frame_war
 
 	trigger = {
-		suzerain = {
+		FROM = {
 			has_character_flag = true_vassal_suzerain_calls
 		}
 	}

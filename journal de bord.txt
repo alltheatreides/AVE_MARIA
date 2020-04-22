@@ -209,5 +209,25 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 
 21/04/20
 - To improve combat chances outcome during battlefield fights remember to se scripted score values et good_soldier_outcome_score pour les combats Holy Fury
-- Replace the stupid equation between Martial (understoof as abilidty to organize and direct armies) with PERSONAL FIGHTING CAPABILITIES in aforementioned files
+- Replace the stupid equation between Martial (understoof as abilidty to organize and direct armies) with PERSONAL FIGHTING CAPABILITIES in aforementioned files OK
 - Certaines sources médiévales montrent que les rapports entre communautés rurales et acteurs seigneuriaux étaient organisés par un droit coutumier visant à la fois à clarifier la part de chacun mais aussi à assurer la reproduction des ressources naturelles malgré leur exploitation.
+- Add knighting mechanics cf all the thousands of mods already done that.
+- Ajouter des société/ordre monastiques mineurs en société ?
+- Make sure that vassale relationship is properly title maintained when third party claimant is installed on the throne - OK
+- Make sure that when usurping title people who swore allegiance also swear to you (decision - event to all that had previous guy as suzerain and ultimatum)
+- If religion is different weight chance of changing allegiance when title change hands
+- Rétablir une option give title pour les indé?
+- Vassal relationship post claim should be ok for "claim", gotta port them to claim_all and other_claim. OK
+- Ajouter des events pour le connétable liés aux écuries.
+- Structure pour les event en cas de succession et guerre entre les frères titrés: on_father_death ; if héritier is not liked by brothers ; then plot rebellion activeted ; targeted decision open for the holder towards suzerain tributaries to convince them ; promise support in war when it is declared (modifier donc l'event de troupes true vassal et le weighting pour déclarer la guerre du claim dans les CB)
+- Les grands princes notamment d'aquitaine en france ne devraient pas forcément participer aux évènements de la monarchie française (sacre/couronnement et grands evènements liturgiques
+- Event pour célébrer Noel, Paques Pentecote.
+- Ajouter une clause quand on déclare la guerre à un de ses vassaux true vassal et gagne de rétablir la relation après la guerre
+- Pour le texte des events "qui fait mieux, vaut mieux" dans les résultats martiaux
+
+22/04/20
+- other_claim_all makes me crazy. Not being able to make a casus belli that is declared over all the third party claimant claimed titles on the target...
+- Bon abandon pour le moment, trop chiant, fonctionne pas, n'apparait même pas dans la liste des CB
+- Attention, en third party claimant qui usurpe des terres au pif (genre third party landless a un claim sur le duché que je presse, il devient mon vassal vanilla -> résolu
+- Vérifier la propension à l'IA à nommer des fils aux rang de l'église et l'augmenter si possible
+ 

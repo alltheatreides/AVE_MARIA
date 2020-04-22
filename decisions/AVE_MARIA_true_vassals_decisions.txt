@@ -38,7 +38,7 @@
 decisions = {
 
 	# True Vassals decisions
-	true_vassal_convocation_au_ban_offensif = {
+	decision_true_vassal_convocation_au_ban_offensif = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -105,7 +105,7 @@ decisions = {
 		}
 	}
 
-	true_vassal_convocation_au_ban_defensive = {
+	decision_true_vassal_convocation_au_ban_defensive = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -212,7 +212,7 @@ decisions = {
 		}
 	}
 
-	true_vassal_hommage = {
+	decision_true_vassal_hommage = {
 		only_independent = yes
 		is_high_prio = yes
 		only_playable = yes
@@ -328,7 +328,7 @@ targetted_decisions = {
 		}
 	}
 	
-	true_vassal_commise_du_fief = {
+	decision_true_vassal_commise_du_fief = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -383,7 +383,7 @@ targetted_decisions = {
 		
 	}
 	
-	true_vassal_swear_fealty = {
+	decision_true_vassal_swear_fealty = {
 		only_independent = yes
 
 		from_potential = {

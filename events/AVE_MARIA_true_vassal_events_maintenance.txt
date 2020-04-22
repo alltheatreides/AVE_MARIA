@@ -34,7 +34,7 @@ character_event = {
             any_vassal = {
                 limit = {
                     NOR = {
-                        #culture = greek
+                        is_theocracy = yes
                         any_liege = {
                             AND = {
                                 primary_title = { 
@@ -92,7 +92,7 @@ character_event = {
                 in_revolt = no
                 liege = { in_revolt = no }
                 NOR = {
-                    #culture = greek
+                    is_theocracy = yes
                     any_liege = {
                         AND = { 
                             primary_title = { 
@@ -171,13 +171,15 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                       OR = {
-                            tier = baron
-                            is_landed = no
+                    if = {
+                        limit = {
+                            OR = {
+                                tier = baron
+                                is_landed = no
+                            }
                         }
+                        remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
             if = {
@@ -192,14 +194,16 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                       OR = {
-                            tier = COUNT
-                            tier = baron
-                            is_landed = no
-                        }
+                    if = {
+                        limit = {
+                            OR = {
+                                 tier = COUNT
+                                 tier = baron
+                                 is_landed = no
+                             }
+                         }
+                         remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
             if = {
@@ -216,16 +220,18 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                       OR = {
-							tier = KING
-                            tier = DUKE
-                            tier = COUNT
-                            tier = baron
-                            is_landed = no
-                        }
+                    if = {
+                        limit = {
+                            OR = {
+                                 tier = KING
+                                 tier = DUKE
+                                 tier = COUNT
+                                 tier = baron
+                                 is_landed = no
+                             }
+                         }
+                         remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
             if = {
@@ -242,16 +248,18 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                       OR = {
-                            tier = DUKE
-                            tier = COUNT
-                            tier = baron
-                            tier = KING
-                            is_landed = no
-                        }
+                    if = {
+                        limit = {
+                            OR = {
+                                 tier = DUKE
+                                 tier = COUNT
+                                 tier = baron
+                                 tier = KING
+                                 is_landed = no
+                             }
+                         }
+                         remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
         }
@@ -266,13 +274,15 @@ character_event = {
 				}
 			}
 			suzerain = {
-				limit = {
-				   OR = {
-						tier = baron
-						is_landed = no
-					}
-				}
-				remove_tributary = PREV
+                if = {
+                    limit = {
+                        OR = {
+                             tier = baron
+                             is_landed = no
+                         }
+                     }
+                     remove_tributary = PREV
+                }
 			}         
 		}
 		if = {
@@ -287,14 +297,16 @@ character_event = {
 				}
 			}
 			suzerain = {
-				limit = {
-				   OR = {
-						tier = COUNT
-						tier = baron
-						is_landed = no
-					}
-				}
-				remove_tributary = PREV
+                if = {
+                    limit = {
+                        OR = {
+                             tier = COUNT
+                             tier = baron
+                             is_landed = no
+                         }
+                     }
+                     remove_tributary = PREV
+                }
 			}         
 		}
 		if = {
@@ -311,16 +323,18 @@ character_event = {
 				}
 			}
 			suzerain = {
-				limit = {
-				   OR = {
-						tier = KING
-						tier = DUKE
-						tier = COUNT
-						tier = baron
-						is_landed = no
-					}
-				}
-				remove_tributary = PREV
+                if = {
+                    limit = {
+                        OR = {
+                             tier = KING
+                             tier = DUKE
+                             tier = COUNT
+                             tier = baron
+                             is_landed = no
+                         }
+                     }
+                     remove_tributary = PREV
+                }
 			}         
 		}
 		if = {
@@ -337,16 +351,18 @@ character_event = {
 				}
 			}
 			suzerain = {
-				limit = {
-				   OR = {
-						tier = DUKE
-						tier = COUNT
-						tier = baron
-						tier = KING
-						is_landed = no
-					}
-				}
-				remove_tributary = PREV
+                if = {
+                    limit = {
+                        OR = {
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            tier = KING
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
+                }
 			}         
 		}
     }
@@ -362,7 +378,7 @@ character_event = {
 		if = {
 			limit = {
 				FROMFROM = {
-					liege = ROOT
+					is_liege_of = ROOT
 				}
 			}
 			FROMFROM = {
@@ -383,13 +399,15 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                        OR = {
-                            tier = baron
-                            is_landed = no
+                    if = {
+                        limit = {
+                            OR = {
+                                tier = baron
+                                is_landed = no
+                            }
                         }
+                        remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
             if = {
@@ -404,14 +422,16 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                        OR = {
-                            tier = COUNT
-                            tier = baron
-                            is_landed = no
+                    if = {
+                        limit = {
+                            OR = {
+                                tier = COUNT
+                                tier = baron
+                                is_landed = no
+                            }
                         }
+                        remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
             if = {
@@ -428,17 +448,19 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                        OR = {
-                            tier = KING
-                            tier = DUKE
-                            tier = COUNT
-                            tier = baron
-                            is_landed = no
+                    if = {
+                        limit = {
+                            OR = {
+                                tier = KING
+                                tier = DUKE
+                                tier = COUNT
+                                tier = baron
+                                is_landed = no
+                            }
                         }
+                        remove_tributary = PREV
                     }
-                    remove_tributary = PREV
-                }         
+                }
             }
             if = {
                 limit = {
@@ -454,16 +476,18 @@ character_event = {
                     }
                 }
                 suzerain = {
-                    limit = {
-                        OR = {
-                            tier = DUKE
-                            tier = COUNT
-                            tier = baron
-                            tier = KING
-                            is_landed = no
+                    if = {
+                        limit = {
+                            OR = {
+                                tier = DUKE
+                                tier = COUNT
+                                tier = baron
+                                tier = KING
+                                is_landed = no
+                            }
                         }
+                        remove_tributary = PREV
                     }
-                    remove_tributary = PREV
                 }         
             }
 		}
@@ -478,41 +502,30 @@ character_event = {
    
     immediate = {
         FROM = {
-            clr_character_flag = convoqué_au_ban_offensive
+            
             clr_character_flag = convoqué_au_ban_defensive
             clr_character_flag = convocation_au_ban_defensive
             clr_character_flag = convocation_au_ban_offensif
-            clr_character_flag = join_war_motivated
-            clr_character_flag = join_war_dragging_feets
             clr_character_flag = target_attacked_vassal
             clr_character_flag = servitium_debitum
             any_tributary = {
-                clr_character_flag = convoqué_au_ban_offensive
                 clr_character_flag = convoqué_au_ban_defensive
                 clr_character_flag = convocation_au_ban_defensive
                 clr_character_flag = convocation_au_ban_offensif
-                clr_character_flag = join_war_motivated
-                clr_character_flag = join_war_dragging_feets
                 clr_character_flag = target_attacked_vassal
                 clr_character_flag = servitium_debitum
             }
         }
         ROOT = {
-            clr_character_flag = convoqué_au_ban_offensive
             clr_character_flag = convoqué_au_ban_defensive
             clr_character_flag = convocation_au_ban_defensive
-            clr_character_flag = convocation_au_ban_offensif
-            clr_character_flag = join_war_motivated
-            clr_character_flag = join_war_dragging_feets
+            clr_character_flag = convocation_au_ban_offensif           
             clr_character_flag = target_attacked_vassal
             clr_character_flag = servitium_debitum
             any_tributary = {
-                clr_character_flag = convoqué_au_ban_offensive
                 clr_character_flag = convoqué_au_ban_defensive
                 clr_character_flag = convocation_au_ban_defensive
                 clr_character_flag = convocation_au_ban_offensif
-                clr_character_flag = join_war_motivated
-                clr_character_flag = join_war_dragging_feets
                 clr_character_flag = target_attacked_vassal
                 clr_character_flag = servitium_debitum
             }
@@ -529,6 +542,7 @@ character_event = {
     trigger = {
         ai = no
         is_multiplayer_host_character = yes
+        is_save_game = no
     }
 
     immediate = {
@@ -553,6 +567,81 @@ character_event = {
                 }
             }
             set_character_flag = gave_homage_to_liege
+        }
+    }
+}
+
+# When usurping a title, vassals are sent an offer to swear a new allegiance and break previous oath
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.6
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        
+    }
+
+    immediate = {
+        FROMFROM = {
+            any_tributary = {
+                limit = {
+                    de_jure_liege_or_above = ROOT
+                }
+                character_event = { id = AVE_MARIA_true_vassal_maintenance.7 }
+            }
+            save_event_target_as = target_true_vassal_old_liege
+        }
+        ROOT = {
+            save_event_target_as = target_true_vassal_new_liege
+        }
+
+    }
+}
+
+# Message to vassals about liege change
+character_event = {
+    id = AVE_MARIA_true_vassal_maintenance.7
+    desc = EVTDESC_AVE_MARIA_true_vassal_maintenance.7
+    is_triggered_only = yes
+
+    #Swear fealty to new holder
+    option = {
+        name = EVTOPT_A_AVE_MARIA_true_vassal_maintenance.7
+        suzerain = {
+            remove_tributary = ROOT
+        }
+        event_target:target_true_vassal_new_liege = { make_tributary = { who = ROOT tributary_type = true_vassal } }
+        # Inform the liege through a new event
+        ai_chance = {
+            factor = 85
+        }
+    }
+
+    #Ignore fealty to new holder
+    option = {
+        name = EVTOPT_B_AVE_MARIA_true_vassal_maintenance.7
+        ai_chance = {
+            factor = 10
+        }
+    }
+
+    #Why not both ?
+    option = {
+        name = EVTOPT_A_AVE_MARIA_true_vassal_maintenance.7
+        event_target:target_true_vassal_new_liege = { make_tributary = { who = ROOT tributary_type = true_vassal } }
+        ai_chance = {
+            factor = 85
+        }
+    }
+
+    #None, fuck them, i'm independent
+    option = {
+        name = EVTOPT_C_AVE_MARIA_true_vassal_maintenance.7
+        suzerain = {
+            remove_tributary = ROOT
+        }
+        ai_chance = {
+            factor = 5
         }
     }
 }
