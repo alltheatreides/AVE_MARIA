@@ -13661,6 +13661,15 @@ dejure_county_claim = {
 				}
 			}
 		}
+		NOT = {
+			FROM = {
+				suzerain = {
+					any_tributary = {
+						character = ROOT
+					}
+				}
+			}
+		}
 	}
 
 	can_use_title = {

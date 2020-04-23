@@ -230,4 +230,16 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 - Bon abandon pour le moment, trop chiant, fonctionne pas, n'apparait même pas dans la liste des CB
 - Attention, en third party claimant qui usurpe des terres au pif (genre third party landless a un claim sur le duché que je presse, il devient mon vassal vanilla -> résolu
 - Vérifier la propension à l'IA à nommer des fils aux rang de l'église et l'augmenter si possible
- 
+- Rebuilt the ADMC modifiers to be calculated from pixel distance from capital - need to polish it with overseas province and their mixup with land province (if sea connected is also land connected, should use sea connection in priority)
+- Need to put back some negative events regarding high distance province if not properly cared (legal cases not properly care, local administrator not there, reduced cash money 
+- Need to solve the Roman empire vassal/tributary issue
+
+25/04/20
+- Mettre une clause dans les claim si l'attacker et le third party claimant nouvellement installé sont de même niveaux ? Ou bien un event si il sont de même niveau ?
+- Réduire à donf le monétaire avec la distance, mais moins les hommes.
+- Title decisions pour réduire les garnisons et réduire les couts
+- Bon le système d'ADMC sur la distance fonctionne
+- Résolu les théocracies vassales, les souverains controlent les sièges épiscopaux.
+- Faire en sorte de ne pas pouvoir changer en imperial elective si on est le HRE
+- Revoir les de jure war pour les vassaux, pas pouvoir déclarer quand le suzerain est le même. OK done
+- Ajouter toutes les cultures svhm au culture check pour la decisiond 'hommage

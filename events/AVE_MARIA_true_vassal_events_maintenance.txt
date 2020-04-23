@@ -3,7 +3,7 @@
 # AVE MARIA events																	   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
-# ID AVE_MARIA_true_vassal_maintenance.1 - AVE_MARIA_true_vassal_maintenance.499                          	   #
+# ID AVE_MARIA_true_vassal_maintenance.1 - AVE_MARIA_true_vassal_maintenance.499       #
 #                               													   #
 ########################################################################################
 
@@ -27,14 +27,19 @@ character_event = {
     }
 
     immediate = {
+		#FOR everyone else
         any_playable_ruler = {
             limit = {
                 in_revolt = no
             }
+			# set_character_flag = true_vassal_lord
             any_vassal = {
                 limit = {
                     NOR = {
-                        is_theocracy = yes
+						AND = {
+							is_theocracy = yes
+							NOT = { tier = baron }
+						}
                         any_liege = {
                             AND = {
                                 primary_title = { 
@@ -87,12 +92,18 @@ character_event = {
                 }
             }
         }
-        any_vassal = {
+        
+		#FOR ROOT
+		# set_character_flag = true_vassal_lord
+		any_vassal = {
             limit = {
                 in_revolt = no
                 liege = { in_revolt = no }
                 NOR = {
-                    is_theocracy = yes
+                    AND = {
+						is_theocracy = yes
+						NOT = { tier = baron }
+					}
                     any_liege = {
                         AND = { 
                             primary_title = { 

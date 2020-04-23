@@ -1,5 +1,6 @@
 ## ADMINISTRATIVE CAPACITY MODIFIERS
 
+#ADMC
 administrative_capacity_roman = {
 	demesne_size = 100
 	vassal_limit = 100
@@ -8,7 +9,6 @@ administrative_capacity_roman = {
 	diplomacy = 3
 	icon = 7
 }
-
 administrative_capacity_very_high = {
 	demesne_size = 25
 	monthly_character_prestige = 0.75
@@ -37,7 +37,6 @@ administrative_capacity_low = {
 	demesne_size = 2
 	icon = 7
 }
-
 administrative_capacity_very_low = {
 	demesne_size = 1
 	icon = 7
@@ -50,11 +49,45 @@ administrative_capacity_limited = {
 	local_tax_modifier = -0.5
 }
 
-administrative_capacity_distance_province = {
+
+## Physical Distance
+administrative_capacity_distance_one_horse_day_travel_from_capital = {
+	# icon = 31
+	# levy_size = -0.2
+	# garrison_size = -0.5
+	# levy_reinforce_rate = -0.90
+	# local_tax_modifier = -0.99
+}
+
+administrative_capacity_distance_two_horse_day_travel_from_capital = {
+	icon = 31
+	levy_size = -0.25
+	# garrison_size = -0.5
+	levy_reinforce_rate = -0.25
+	local_tax_modifier = -0.50
+}
+
+administrative_capacity_distance_three_horse_day_travel_from_capital = {
+	icon = 31
+	levy_size = -0.3
+	# garrison_size = -0.5
+	levy_reinforce_rate = -0.45
+	local_tax_modifier = -0.75
+}
+
+administrative_capacity_distance_four_horse_day_travel_from_capital = {
+	icon = 31
+	levy_size = -0.45
+	# garrison_size = -0.5
+	levy_reinforce_rate = -0.65
+	local_tax_modifier = -0.95
+}
+
+administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital = {
 	icon = 31
 	levy_size = -0.99
-	garrison_size = -0.5
-	levy_reinforce_rate = -0.90
+	# garrison_size = -0.25
+	levy_reinforce_rate = -0.85
 	local_tax_modifier = -0.99
 }
 
