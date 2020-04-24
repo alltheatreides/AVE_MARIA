@@ -70,3 +70,14 @@ has_administrative_capacity_between_25_and_100 = {
 		}
 	}
 }
+
+#Title
+has_administrative_capacity_horse_distance_calculated = {
+	OR = {
+		has_title_flag = administrative_capacity_distance_one_horse_day_travel_from_capital
+		has_title_flag = administrative_capacity_distance_two_horse_day_travel_from_capital
+		has_title_flag = administrative_capacity_distance_three_horse_day_travel_from_capital
+		has_title_flag = administrative_capacity_distance_four_horse_day_travel_from_capital
+		has_title_flag = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital
+	}
+}

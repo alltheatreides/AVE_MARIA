@@ -42,16 +42,18 @@ character_event = {
         name = EVTOPT_A_AVE_MARIA_true_vassal_justice.1
 		hidden_effect = {
 			any_tributary = {
-				OR = {
-					is_tributary = { type = true_vassal_hre }
-					is_tributary = { type = true_vassal }
-					is_tributary = { type = true_vassal_duke_of_normandy }
+				limit = {
+					OR = {
+						is_tributary = { type = true_vassal_hre }
+						is_tributary = { type = true_vassal }
+						is_tributary = { type = true_vassal_duke_of_normandy }
+					}
 				}
 				character_event = { id = AVE_MARIA_true_vassal_justice.2 }
 			}
 			set_character_flag = true_vassal_preparing_royal_plaid
 			set_character_flag = do_not_disturb
-			character_event = { id = AVE_MARIA_true_vassal_justice.11 months = 3 }
+			character_event = { id = AVE_MARIA_true_vassal_justice.11 days = 90 }
 		}
         ai_chance = {
             factor = 1
@@ -190,7 +192,7 @@ letter_event = {
 					}
 				}
 			}
-			prestige -50			
+			prestige = -50			
 		}
 	}
 	
@@ -220,11 +222,9 @@ character_event = {
 		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.5
 		any_tributary = {
 			limit = {
-				has_character_flag = {
-					AND = {
-						feudal_breach
-						true_vassal_attending_royal_plaid
-					}
+				OR = {
+					has_character_flag = feudal_breach
+					has_character_flag = true_vassal_attending_royal_plaid
 				}
 			}
 			character_event = { id = AVE_MARIA_true_vassal_justice.6 }
@@ -241,92 +241,103 @@ character_event = {
 	# Argue your case
 	option = {
 		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.6
-		random_list = {
-			#It works!
-			50 = {
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = faithful
-						trait = honest
-						trait = sincere
+		hidden_tooltip = {
+			random_list = {
+				#It works!
+				50 = {
+					modifier = {
+						factor = 1.2
+						diplomacy = 13
 					}
-				}
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = outgoing
-						trait = lively
-						trait = sociable
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = faithful
+							trait = honest
+							trait = sincere
+						}
 					}
-				}
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = patient
-						trait = tolerant
-						trait = agreeable
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = outgoing
+							trait = lively
+							trait = sociable
+						}
 					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = law_intermediate_knowledge
-						trait = law_advanced_knowledge
-						trait = law_expert
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = patient
+							trait = tolerant
+							trait = agreeable
+						}
 					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = theology_christian_intermediate_knowledge
-						trait = theology_christian_advanced_knowledge
-						trait = theology_christian_expert
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = law_intermediate_knowledge
+							trait = law_advanced_knowledge
+							trait = law_expert
+						}
 					}
-				}
-				modifier = {
-					factor = 2
-					has_character_flag = true_vassal_royal_plaid_convinced_someone_important
-				}
-				modifier = {
-					factor = 1.5
-					has_character_flag = true_vassal_royal_plaid_bribed_someone_important
-				}
-				FROM = { 
-					letter_event = { id = AVE_MARIA_true_vassal_justice.7 }
-				}
-				clr_character_flag = feudal_breach
-				clr_character_flag = do_not_disturb
-				clr_character_flag = true_vassal_attending_royal_plaid
-			}
-			#It does not work!
-			50 = {
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = inconstant
-						trait = deceitful
-						trait = hypocritical
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = theology_christian_intermediate_knowledge
+							trait = theology_christian_advanced_knowledge
+							trait = theology_christian_expert
+						}
 					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = irresponsible
-						trait = lazy
-						trait = reckless
+					modifier = {
+						factor = 2
+						has_character_flag = true_vassal_royal_plaid_convinced_someone_important
 					}
+					modifier = {
+						factor = 1.5
+						has_character_flag = true_vassal_royal_plaid_bribed_someone_important
+					}
+					FROM = {
+						letter_event = { id = AVE_MARIA_true_vassal_justice.7 }
+					}
+					clr_character_flag = feudal_breach
+					clr_character_flag = do_not_disturb
+					clr_character_flag = true_vassal_attending_royal_plaid
 				}
-				modifier = {
-					factor = 1.5
-					has_character_flag = true_vassal_royal_plaid_bribing_denounced
-				}
-				FROM = {
-					character_event = { id = AVE_MARIA_true_vassal_justice.8 } 
+				
+				#It does not work!
+				50 = {
+					modifier = {
+						factor = 1.2
+						diplomacy < 13
+					}
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = inconstant
+							trait = deceitful
+							trait = hypocritical
+						}
+					}
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = irresponsible
+							trait = lazy
+							trait = reckless
+						}
+					}
+					modifier = {
+						factor = 1.5
+						has_character_flag = true_vassal_royal_plaid_bribing_denounced
+					}
+					FROM = {
+						character_event = { id = AVE_MARIA_true_vassal_justice.8 } 
+					}
 				}
 			}
 		}
-		ai_will_do = {
+		ai_chance = {
 			factor = 20
 			modifier = {
 				factor = 1.1
@@ -382,94 +393,106 @@ character_event = {
 	# Propose to pay a fine instead
 	option = {
 		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.6
-		random_list = {
-			#It works
-			50 = {
-				modifier = {
-					factor = 2
+		hidden_tooltip = {
+			random_list = {
+				#It works
+				50 = {
+					modifier = {
+						factor = 1.2
+						diplomacy = 13
+					}
+					modifier = {
+						factor = 2
+						FROM = {
+							trait = greedy
+						}
+					}
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = faithful
+							trait = honest
+							trait = sincere
+						}
+					}
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = outgoing
+							trait = lively
+							trait = sociable
+						}
+					}
+					modifier = {
+						factor = 1.1
+						OR = {
+							trait = patient
+							trait = tolerant
+							trait = agreeable
+						}
+					}
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = law_intermediate_knowledge
+							trait = law_advanced_knowledge
+							trait = law_expert
+						}
+					}
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = theology_christian_intermediate_knowledge
+							trait = theology_christian_advanced_knowledge
+							trait = theology_christian_expert
+						}
+					}
 					FROM = {
-						trait = greedy
+						letter_event = { id = AVE_MARIA_true_vassal_justice.10 }
 					}
 				}
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = faithful
-						trait = honest
-						trait = sincere
+				#It does not work
+				50 = {
+					modifier = {
+						factor = 1.2
+						diplomacy < 13
 					}
-				}
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = outgoing
-						trait = lively
-						trait = sociable
+					modifier = {
+						factor = 2
+						FROM = {
+							wealth < 0
+						}
 					}
-				}
-				modifier = {
-					factor = 1.1
-					OR = {
-						trait = patient
-						trait = tolerant
-						trait = agreeable
+					modifier = {
+						factor = 1.5
+						FROM = {
+							wealth < 50
+						}
 					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = law_intermediate_knowledge
-						trait = law_advanced_knowledge
-						trait = law_expert
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = inconstant
+							trait = deceitful
+							trait = hypocritical
+						}
 					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = theology_christian_intermediate_knowledge
-						trait = theology_christian_advanced_knowledge
-						trait = theology_christian_expert
+					modifier = {
+						factor = 1.2
+						OR = {
+							trait = irresponsible
+							trait = lazy
+							trait = reckless
+						}
 					}
-				}
-				FROM = {
-					letter_event = { id = AVE_MARIA_true_vassal_justice.10 }
-				}
-			}
-			50 = {
-				modifier = {
-					factor = 2
-					FROM = {
-						wealth < 0
+					FROM = { 
+						letter_event = { id = AVE_MARIA_true_vassal_justice.8 }
 					}
-				}
-				modifier = {
-					factor = 1.5
-					FROM = {
-						wealth < 50
-					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = inconstant
-						trait = deceitful
-						trait = hypocritical
-					}
-				}
-				modifier = {
-					factor = 1.2
-					OR = {
-						trait = irresponsible
-						trait = lazy
-						trait = reckless
-					}
-				}
-				FROM = { 
-					letter_event = { id = AVE_MARIA_true_vassal_justice.8 }
 				}
 			}
 		}
-		ai_will_do = {
+		
+		ai_chance = {
 			factor = 80
 			modifier = {
 				factor = 2
@@ -544,7 +567,7 @@ letter_event = {
 	is_triggered_only = yes
 	
 	option = {
-		EVTOPT_A_AVE_MARIA_true_vassal_justice.7
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.7
 	}
 }
 
@@ -586,7 +609,7 @@ character_event = {
 		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.9
 		FROM = {
 			any_demesne_title = {
-				any_de_jure_vassal_title = {
+				any_direct_de_jure_vassal_title = {
 					limit = {
 						controlled_by = ROOT
 					}
@@ -601,7 +624,7 @@ character_event = {
 		name = EVTOPT_B_AVE_MARIA_true_vassal_justice.9
 		FROM = {
 			any_demesne_title = {
-				any_de_jure_vassal_title = {
+				any_direct_de_jure_vassal_title = {
 					limit = {
 						controlled_by = ROOT
 					}
@@ -610,7 +633,6 @@ character_event = {
 						war = {
 							target = ROOT
 							casus_belli = claim_all
-							thirdparty_title = PREV
 						}
 					}
 				}
@@ -669,7 +691,7 @@ letter_event = {
 	is_triggered_only = yes
 	
 	option = {
-		EVTOPT_A_AVE_MARIA_true_vassal_justice.12
+		name = EVTOPT_A_AVE_MARIA_true_vassal_justice.12
 	}
 }
 

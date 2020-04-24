@@ -73,7 +73,7 @@ character_event = {
         name = EVTOPTA_AVE_MARIA_true_vassal_hommage_events.2
         set_character_flag = will_swear_fealty
         hidden_effect = {
-            trait = travelling
+            add_trait = travelling
         }
         ai_chance = {
             factor = 1

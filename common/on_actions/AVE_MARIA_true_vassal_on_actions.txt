@@ -48,6 +48,9 @@ on_new_holder ={
 	events = {
 		# Making sure you are not a vassal of someone lower_tier
 		AVE_MARIA_true_vassal_maintenance.3
+
+		#Transfer or vassals
+		# AVE_MARIA_true_vassal_maintenance.6
 	}
 }
 

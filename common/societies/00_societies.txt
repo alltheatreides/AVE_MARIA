@@ -18,14 +18,9 @@ monastic_order_benedictine = {
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-			is_feudal = no
-			if = {
-				limit = {
-					is_feudal = yes
-				}
-				is_landed = no
-			}
+		is_landed = no
+		NOT = {
+			has_landed_title = yes
 		}
 		hidden_trigger = {
 			NAND = {
@@ -370,20 +365,16 @@ monastic_order_dominican = {
 	}
 	
 	active = {
+		year = 1216
 		has_dlc = "Mystics"
 	}
 	indestructible = yes
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-			is_feudal = no
-			if = {
-				limit = {
-					is_feudal = yes
-				}
-				is_landed = no
-			}
+		is_landed = no
+		NOT = {
+			has_landed_title = yes
 		}
 		hidden_trigger = {
 			NAND = {
@@ -700,15 +691,10 @@ monastic_order_orthodox = {
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -1057,15 +1043,10 @@ monastic_order_nestorian = {
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -1399,15 +1380,10 @@ monastic_order_monophysite = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
+		NOT = {
+			has_landed_title = yes
+		}
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -2825,15 +2801,7 @@ hermetics = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -3146,15 +3114,7 @@ the_assassins = {
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NAND = {
 				ai = yes
@@ -3562,15 +3522,7 @@ the_satanists = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -3942,15 +3894,7 @@ the_trollcrafters = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -4307,15 +4251,7 @@ the_cult_of_kali = {
 
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -4658,15 +4594,7 @@ the_cold_ones = {
 		
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -5016,15 +4944,7 @@ the_plaguebringers = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -5370,15 +5290,7 @@ the_vodouns = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NOT = {
 				has_game_rule = {
@@ -5725,15 +5637,7 @@ the_bacchants = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		has_global_flag = flag_restored_bacchants
 		hidden_trigger = {
 			NOT = {
@@ -6096,15 +6000,7 @@ secret_religious_society_template = {
 	
 	can_join_society = {
 		# True vassal mod
-		OR = {
-				is_feudal = no
-				if = {
-					limit = {
-						is_feudal = yes
-					}
-					is_landed = no
-				}
-			}
+		is_landed = no
 		hidden_trigger = {
 			NAND = {
 				ai = yes

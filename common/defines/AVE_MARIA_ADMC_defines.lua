@@ -4,6 +4,7 @@ NDefines.NDiplomacy.DEMESNE_MAX_SIZE_KING_MULT = 2
 NDefines.NDiplomacy.DEMESNE_MAX_SIZE_EMPEROR_MULT = 2
 NDefines.NDiplomacy.DEMESNE_BASE_MAX_SIZE = 10
 NDefines.NDiplomacy.DEMESNE_MAX_SIZE_STEWARDSHIP_MULT = 0
+NDefines.NDiplomacy.VASSAL_BASE_LIMIT = 10
 NDefines.NDiplomacy.VASSAL_LIMIT_EMPEROR_MULT = 40
 
 -- Economy

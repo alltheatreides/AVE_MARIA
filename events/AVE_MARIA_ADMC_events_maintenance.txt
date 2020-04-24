@@ -9,14 +9,14 @@
 
 # Written by Atreides
 
-namespace = AVE_MARIA_ADMC
+namespace = AVE_MARIA_ADMC_maintenance
 
 ##NOTES:
 ## Administrative Capacity is a variable tracked from the capital province scope giving a modifier to all the other possessed desmene titles of the character
 
 ## Initializes non capital provinces malus
 character_event = {
-	id = AVE_MARIA_ADMC.1
+	id = AVE_MARIA_ADMC_maintenance.1
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -37,163 +37,209 @@ character_event = {
 		
 		## Generates the Administrative Capacity Distance maluses for ROOT
 		#clean any previous things
-		any_demesne_province = {
-			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
-			any_province_holding = {
-				limit = {
-					controlled_by = ROOT
+		any_demesne_title = {
+			limit = {
+				OR = {
+					tier = count
+					tier = baron
 				}
-				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
 			}
-		}
-		
-		#Designate the capital for calculation and adjacent provinces to the capital
+			clear_administrative_capacity_distance_holding_flag_and_modifiers = yes
+		}		
+		#Generates title flags and related modifiers corresponding to pixel distance from capital
+		#Designate the capital for calculation
 		capital_scope = {
-			set_province_flag = administrative_capacity_capital
+			save_event_target_as = target_administrative_capacity_capital
 			any_province_holding = {
 				limit = {
 					controlled_by = ROOT
 				}
 				set_title_flag = administrative_capacity_capital
 			}
-			any_neighbor_province = {
-				limit = {
-					controlled_by = ROOT
+		}		
+		#Calculate distance of other possessions
+		#Horse day travels are not theoretical maximums from frantic messengers but more like representing convoys mixing up carts and all
+		any_demesne_title = {
+			limit = {
+				OR = {
+					tier = count
+					tier = baron
 				}
-				set_province_flag = administrative_capacity_adjacent_capital
-				any_province_holding = {
+				NOT = { has_administrative_capacity_horse_distance_calculated = yes }
+			}
+			location = {
+				if = {
 					limit = {
-						controlled_by = ROOT
+						distance = { where = event_target:target_administrative_capacity_capital distance < 50 }
 					}
-					set_title_flag = administrative_capacity_adjacent_capital
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_one_horse_day_travel_from_capital
+					}
+				}
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 50 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 100 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_two_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_two_horse_day_travel_from_capital years = -1 }
+					}
+				}
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 100 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 150 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_three_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_three_horse_day_travel_from_capital years = -1 }
+					}
+				}
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 150 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 200 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_four_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_four_horse_day_travel_from_capital years = -1 }
+					}
+				}
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 200 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital years = -1 }
+					}
 				}
 			}
 		}
 		
-		# All the non adjacent capital province get a malus
-		any_demesne_province = {
-			limit = {
-				NOT = { 
-					has_province_flag = administrative_capacity_adjacent_capital
-					has_province_flag = administrative_capacity_capital
-				}
-				controlled_by = ROOT
-			}
-			any_province_holding = {
-				limit = {
-					NOT = { 
-						has_title_flag = administrative_capacity_adjacent_capital
-						has_title_flag = administrative_capacity_capital
-					}
-					controlled_by = ROOT
-				}
-				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
-				set_title_flag = administrative_capacity_distant_province
-			}
-			set_province_flag = administrative_capacity_distant_province
-		}
-		#Overseas province too
-		any_demesne_province = {
-			limit = {
-				NOT = { 
-					can_land_path_to = { target = capital distance < 1 }
-					has_province_flag = administrative_capacity_adjacent_capital
-					has_province_flag = administrative_capacity_capital
-				}
-			}
-			set_province_flag = administrative_capacity_distant_province
-			any_province_holding = {
-				limit = {
-					controlled_by = ROOT
-				}
-				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
-			}
-		}
-		
-		## Generates starting Administrative Capacity distance for Duke, King, Emperor, and independent ruler
+		## Generates starting Administrative Capacity distance for all other independent ruler
 		any_playable_ruler = {
 		
 			#clean any previous things
-			any_demesne_province = {
-				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
-				any_province_holding = {
-					limit = {
-						controlled_by = PREVPREV
+			any_demesne_title = {
+				limit = {
+					OR = {
+						tier = count
+						tier = baron
 					}
-					clear_administrative_capacity_distance_province_flag_and_modifiers = yes
 				}
-			}
-			
-			#Designate the capital for calculation and adjacent provinces to the capital
+				clear_administrative_capacity_distance_province_flag_and_modifiers = yes
+			}		
+			#Generates title flags and related modifiers corresponding to pixel distance from capital
+			#Designate the capital for calculation
 			capital_scope = {
-				set_province_flag = administrative_capacity_capital
+				save_event_target_as = target_administrative_capacity_capital
 				any_province_holding = {
 					limit = {
 						controlled_by = PREVPREV
 					}
 					set_title_flag = administrative_capacity_capital
 				}
-				any_neighbor_province = {
-					limit = {
-						controlled_by = PREVPREV
+			}		
+			#Calculate distance of other possessions
+			#Horse day travels are not theoretical maximums from frantic messengers but more like representing convoys mixing up carts and all
+			any_demesne_title = {
+				limit = {
+					OR = {
+						tier = count
+						tier = baron
 					}
-					set_province_flag = administrative_capacity_adjacent_capital
-					any_province_holding = {
+					NOT = { has_administrative_capacity_horse_distance_calculated = yes }
+				}
+				location = {
+					if = {
 						limit = {
-							controlled_by = PREVPREV
+							distance = { where = event_target:target_administrative_capacity_capital distance < 50 }
 						}
-						set_title_flag = administrative_capacity_adjacent_capital
-					}
-				}
-			}
-			
-			# All the non adjacent capital province get a malus
-			any_demesne_province = {
-				limit = {
-					NOT = { 
-						has_province_flag = administrative_capacity_adjacent_capital
-						has_province_flag = administrative_capacity_capital
-					}
-					controlled_by = PREV
-				}
-				any_province_holding = {
-					limit = {
-						NOT = { 
-							has_title_flag = administrative_capacity_adjacent_capital
-							has_title_flag = administrative_capacity_capital
+						any_province_holding = {
+							limit = {
+								controlled_by = PREVPREV
+							}
+							set_title_flag = administrative_capacity_distance_one_horse_day_travel_from_capital
 						}
-						controlled_by = PREVPREV
 					}
-					add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
-					set_title_flag = administrative_capacity_distant_province
-				}
-				set_province_flag = administrative_capacity_distant_province
-			}
-			#Overseas province too
-			any_demesne_province = {
-				limit = {
-					NOT = { 
-						can_land_path_to = { target = capital distance < 1 }
-						has_province_flag = administrative_capacity_adjacent_capital
-						has_province_flag = administrative_capacity_capital
+					if = {
+						limit = {
+							distance = { where = event_target:target_administrative_capacity_capital distance >= 50 }
+							distance = { where = event_target:target_administrative_capacity_capital distance < 100 }
+						}
+						any_province_holding = {
+							limit = {
+								controlled_by = PREVPREV
+							}
+							set_title_flag = administrative_capacity_distance_two_horse_day_travel_from_capital
+							add_holding_modifier = { modifier = administrative_capacity_distance_two_horse_day_travel_from_capital years = -1 }
+						}
+					}
+					if = {
+						limit = {
+							distance = { where = event_target:target_administrative_capacity_capital distance >= 100 }
+							distance = { where = event_target:target_administrative_capacity_capital distance < 150 }
+						}
+						any_province_holding = {
+							limit = {
+								controlled_by = PREVPREV
+							}
+							set_title_flag = administrative_capacity_distance_three_horse_day_travel_from_capital
+							add_holding_modifier = { modifier = administrative_capacity_distance_three_horse_day_travel_from_capital years = -1 }
+						}
+					}
+					if = {
+						limit = {
+							distance = { where = event_target:target_administrative_capacity_capital distance >= 150 }
+							distance = { where = event_target:target_administrative_capacity_capital distance < 200 }
+						}
+						any_province_holding = {
+							limit = {
+								controlled_by = PREVPREV
+							}
+							set_title_flag = administrative_capacity_distance_four_horse_day_travel_from_capital
+							add_holding_modifier = { modifier = administrative_capacity_distance_four_horse_day_travel_from_capital years = -1 }
+						}
+					}
+					if = {
+						limit = {
+							distance = { where = event_target:target_administrative_capacity_capital distance >= 200 }
+						}
+						any_province_holding = {
+							limit = {
+								controlled_by = PREVPREV
+							}
+							set_title_flag = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital
+							add_holding_modifier = { modifier = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital years = -1 }
+						}
 					}
 				}
-				set_province_flag = administrative_capacity_distant_province
-				any_province_holding = {
-					limit = {
-						controlled_by = PREVPREV
-					}
-					add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
-				}
-			}
-			
+			}			
 		}
+	
 	}
 }
 
 ## Capital is changed and malus have to be remade
 character_event = {
-	id = AVE_MARIA_ADMC.2
+	id = AVE_MARIA_ADMC_maintenance.2
 	hide_window = yes
 		
 	trigger = {
@@ -202,115 +248,101 @@ character_event = {
 	
 	immediate = {
 		#Remise des compteurs à zéro
-		#Nettoyage des flags et modifier de la nouvelle capitale
-		any_demesne_province = {
+		## Generates the Administrative Capacity Distance maluses for ROOT
+		#clean any previous things
+		any_demesne_title = {
 			limit = {
 				OR = {
-					has_province_flag = administrative_capacity_distant_province
-					has_province_flag = administrative_capacity_adjacent_capital
+					tier = count
+					tier = baron
 				}
-				is_capital = yes
-				controlled_by = ROOT
 			}
-			clr_province_flag = administrative_capacity_distant_province
-			clr_province_flag = administrative_capacity_adjacent_capital
-			remove_province_modifier = administrative_capacity_distance_province
-		}
-		#Nettoyage des flags et modifier des provinces distantes
-		any_demesne_province = {
-			limit = {
-				has_province_flag = administrative_capacity_distant_province
-				controlled_by = ROOT
-			}
-			clr_province_flag = administrative_capacity_distant_province
-			remove_province_modifier = administrative_capacity_distance_province
-		}
-		#Nettoyage des flags des provinces adjacentes
-		any_demesne_province = {
-			limit = {
-				has_province_flag = administrative_capacity_adjacent_capital
-				controlled_by = ROOT
-			}
-			clr_province_flag = administrative_capacity_adjacent_capital
-		}
-		#Nettoyage des flags de l'ancienne capitale
-		any_demesne_province = {
-			limit = {
-				has_province_flag = administrative_capacity_capital
-				controlled_by = ROOT
-			}
-			clr_province_flag = administrative_capacity_capital
-		}
-		#Mise en place de la nouvelle structure à partir de la nouvelle capitale
-		#clean any previous things
-		clear_administrative_capacity_distance_province_flag_and_modifiers = yes
-		any_demesne_province = {
-			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
-		}
-		any_title = {
-			limit = { controlled_by = ROOT }
-			clear_administrative_capacity_distance_province_flag_and_modifiers = yes
-		}
-		
-		#Designate the capital for calculation and adjacent provinces to the capital
+			clear_administrative_capacity_distance_holding_flag_and_modifiers = yes
+		}		
+		#Generates title flags and related modifiers corresponding to pixel distance from capital
+		#Designate the capital for calculation
 		capital_scope = {
-			set_province_flag = administrative_capacity_capital
+			save_event_target_as = target_administrative_capacity_capital
 			any_province_holding = {
 				limit = {
 					controlled_by = ROOT
 				}
 				set_title_flag = administrative_capacity_capital
 			}
-			any_neighbor_province = {
-				limit = {
-					controlled_by = ROOT
-				}
-				set_province_flag = administrative_capacity_adjacent_capital
-				any_province_holding = {
-					limit = {
-						controlled_by = ROOT
-					}
-					set_title_flag = administrative_capacity_adjacent_capital
-				}
-			}
 		}		
-		# All the non adjacent capital province get a malus
-		any_demesne_province = {
+		#Calculate distance of other possessions
+		#Horse day travels are not theoretical maximums from frantic messengers but more like representing convoys mixing up carts and all
+		any_demesne_title = {
 			limit = {
-				NOT = { 
-					has_province_flag = administrative_capacity_adjacent_capital
-					has_province_flag = administrative_capacity_capital
+				OR = {
+					tier = count
+					tier = baron
 				}
-				controlled_by = ROOT
+				NOT = { has_administrative_capacity_horse_distance_calculated = yes }
 			}
-			any_province_holding = {
-				limit = {
-					NOT = { 
-						has_title_flag = administrative_capacity_adjacent_capital
-						has_title_flag = administrative_capacity_capital
+			location = {
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance < 50 }
 					}
-					controlled_by = ROOT
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_one_horse_day_travel_from_capital
+					}
 				}
-				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
-				set_title_flag = administrative_capacity_distant_province
-			}
-			set_province_flag = administrative_capacity_distant_province
-		}
-		#Overseas province too
-		any_demesne_province = {
-			limit = {
-				NOT = { 
-					can_land_path_to = { target = capital distance < 1 }
-					has_province_flag = administrative_capacity_adjacent_capital
-					has_province_flag = administrative_capacity_capital
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 50 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 100 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_two_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_two_horse_day_travel_from_capital years = -1 }
+					}
 				}
-			}
-			set_province_flag = administrative_capacity_distant_province
-			any_province_holding = {
-				limit = {
-					controlled_by = ROOT
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 100 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 150 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_three_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_three_horse_day_travel_from_capital years = -1 }
+					}
 				}
-				add_holding_modifier = { modifier = administrative_capacity_distance_province years = -1 }
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 150 }
+						distance = { where = event_target:target_administrative_capacity_capital distance < 200 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_four_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_four_horse_day_travel_from_capital years = -1 }
+					}
+				}
+				if = {
+					limit = {
+						distance = { where = event_target:target_administrative_capacity_capital distance >= 200 }
+					}
+					any_province_holding = {
+						limit = {
+							controlled_by = ROOT
+						}
+						set_title_flag = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital
+						add_holding_modifier = { modifier = administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital years = -1 }
+					}
+				}
 			}
 		}
 	}
@@ -318,7 +350,7 @@ character_event = {
 
 ## Initialization of variable Administrative Capacity
 character_event = {
-	id = AVE_MARIA_ADMC.3
+	id = AVE_MARIA_ADMC_maintenance.3
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -341,11 +373,13 @@ character_event = {
 		#Setting up of administrative_capacity for ROOT
 		#Basic one province control for everyone
 		if = {
-			NOT = {
-				OR = {
-					higher_tier_than = king
-					higher_tier_than = duke
-				}			
+			limit = {
+				NOT = {
+					OR = {
+						higher_tier_than = king
+						higher_tier_than = duke
+					}			
+				}
 			}
 			set_variable = { which = administrative_capacity value = 1 }
 		}
@@ -445,11 +479,13 @@ character_event = {
 			}
 			#Basic one province control for everyone
 			if = {
-				NOT = {
-					OR = {
-						higher_tier_than = king
-						higher_tier_than = duke
-					}			
+				limit = {
+					NOT = {
+						OR = {
+							higher_tier_than = king
+							higher_tier_than = duke
+						}			
+					}
 				}
 				set_variable = { which = administrative_capacity value = 2 }
 			}
@@ -547,35 +583,35 @@ character_event = {
 
 ## Investement in Administrative Capacity
 long_character_event = {
-	id = AVE_MARIA_ADMC.4
+	id = AVE_MARIA_ADMC_maintenance.4
 	picture = GFX_evt_battle
 	is_triggered_only = yes
 	
 	
 	desc = {
-		text = EVTDESC_AVE_MARIA_ADMC_events.4
+		text = EVTDESC_AVE_MARIA_ADMC_maintenance_events.4
 	}
 	
 	#Investement
 	option = {
-		name = EVTOPTA_AVE_MARIA_ADMC_events.4
+		name = EVTOPTA_AVE_MARIA_ADMC_maintenance_events.4
 		treasury = -100
 		change_variable = { which = administrative_capacity value = 1 }
 		add_character_modifier = { name = recent_investment duration = 60 }
 		hidden_effect = {
-			character_event = { id = AVE_MARIA_ADMC.5 }
+			character_event = { id = AVE_MARIA_ADMC_maintenance.5 }
 		}
 	}
 	
 	#I changed my mind
 	option = {
-		name = EVTOPTB_AVE_MARIA_ADMC_events.4
+		name = EVTOPTB_AVE_MARIA_ADMC_maintenance_events.4
 	}
 }
 
 ## Administrative capacity variable check and appropriate modifiers
 character_event = {
-	id = AVE_MARIA_ADMC.5
+	id = AVE_MARIA_ADMC_maintenance.5
 	is_triggered_only = yes
 	hide_window = yes
 	
@@ -638,7 +674,7 @@ character_event = {
 
 ## Inheritance of administrative capacity on ruler death
 character_event = {
-	id = AVE_MARIA_ADMC.6
+	id = AVE_MARIA_ADMC_maintenance.6
 	is_triggered_only = yes
 	
 	hide_window = yes

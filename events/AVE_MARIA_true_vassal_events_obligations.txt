@@ -127,7 +127,7 @@ character_event = {
 						title = d_normandy 
 					}
 					event_target:target_receiver_of_servitium_debitum = {
-						primary_title { 
+						primary_title = { 
 							title = k_france 
 						}
 					}
@@ -153,7 +153,7 @@ character_event = {
 						title = k_england
 					}
 					event_target:target_receiver_of_servitium_debitum = {
-						primary_title { 
+						primary_title = { 
 							title = k_france 
 						}
 					}
@@ -220,7 +220,7 @@ character_event = {
     border = GFX_event_normal_frame_war
 
 	trigger = {
-		suzerain = {
+		FROM = {
 			has_character_flag = true_vassal_suzerain_calls
 		}
 	}
@@ -231,9 +231,9 @@ character_event = {
 				limit = {
 					has_character_flag = true_vassal_suzerain_calls
 				}
+				save_event_target_as = target_receiver_of_servitium_debitum
+				clr_character_flag = true_vassal_suzerain_calls
 			}
-			save_event_target_as = target_receiver_of_servitium_debitum
-			clr_character_flag = true_vassal_suzerain_calls
 		}
     }
 
@@ -325,7 +325,7 @@ character_event = {
 						title = d_normandy 
 					}
 					event_target:target_receiver_of_servitium_debitum = {
-						primary_title { 
+						primary_title =  { 
 							title = k_france 
 						}
 					}
@@ -351,7 +351,7 @@ character_event = {
 						title = k_england
 					}
 					event_target:target_receiver_of_servitium_debitum = {
-						primary_title { 
+						primary_title = { 
 							title = k_france 
 						}
 					}
@@ -389,9 +389,9 @@ character_event = {
                     is_tributary = { type = true_vassal_hre suzerain = FROM }
                 }
             }
-            set_character_flag = convoquÃ©_au_ban_defensive
+            set_character_flag = convoqué_au_ban_defensive
             character_event = {
-                id = AVE_MARIA_true_vassal_obligations.31
+                id = AVE_MARIA_true_vassal_obligations.6
                 days = 5
             }
         }
@@ -415,7 +415,7 @@ character_event = {
     is_triggered_only = yes
 
     trigger = {
-        has_character_flag = convoquÃ©_au_ban_defensive
+        has_character_flag = convoqué_au_ban_defensive
     }
 
     
@@ -452,8 +452,14 @@ character_event = {
                 }
             }
         }
-        any_holding = {
-            add_holding_modifier = true_vassal_servitium_debitum_malus
+		any_demesne_province = {
+            any_province_holding = {
+                add_holding_modifier = {
+                    modifier = true_vassal_servitium_debitum_malus
+                    years = -1
+                    stacking = yes
+                }
+            }
         }
         hidden_tooltip = {
             export_to_variable = { which = servitium_debitum_troop_number value = realm_levies }
@@ -483,14 +489,17 @@ character_event = {
                 }
             }
         }
-        any_holding = {
-            add_holding_modifier = true_vassal_servitium_debitum_malus
+        any_demesne_province = {
+            any_province_holding = {
+                add_holding_modifier = {
+                    modifier = true_vassal_servitium_debitum_malus
+                    years = -1
+                    stacking = yes
+                }
+            }
         }
         ai_chance = {
             factor = 10
-            modifier = {
-               
-            }
         }
     }
     
@@ -519,10 +528,8 @@ narrative_event = {
 
     trigger = {
         any_child = {
-			limit = {
-				is_female = no
-				age = 14
-			}
+			is_female = no
+			age = 14
 		}
     }
 	
@@ -720,10 +727,8 @@ narrative_event = {
 
     trigger = {
         any_child = {
-			limit = {
-				is_female = yes
-				age = 14
-			}
+			is_female = yes
+			age = 14
 		}
     }
 	
@@ -922,11 +927,7 @@ narrative_event = {
     trigger = {
         prisoner = yes
     }
-	
-	mean_time_to_happen = {
-		days = 10
-	}
-	
+		
 	#Yes, ask everyone
 	option = {
 		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.13
@@ -1167,7 +1168,7 @@ narrative_event = {
 	option = {
 		name = EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.17
 		wealth = -20
-		set_character_flag = true_vassal_obligations_daughter_marriage_lavish_donation
+		set_character_flag = true_vassal_obligations_suzerain_crusade_lavish_donation
 		suzerain = {
 			narrative_event = {
 				id = AVE_MARIA_true_vassal_obligations.18
@@ -1187,7 +1188,7 @@ narrative_event = {
 	option = {
 		name = EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.17
 		wealth = -10
-		set_character_flag = true_vassal_obligations_daughter_marriage_normal_donation
+		set_character_flag = true_vassal_obligations_suzerain_crusade_normal_donation
 		suzerain = {
 			narrative_event = {
 				id = AVE_MARIA_true_vassal_obligations.18
@@ -1202,7 +1203,7 @@ narrative_event = {
 	option = {
 		name = EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.17
 		wealth = -5
-		set_character_flag = true_vassal_obligations_daughter_marriage_sober_donation
+		set_character_flag = true_vassal_obligations_suzerain_crusade_sober_donation
 		suzerain = {
 			narrative_event = {
 				id = AVE_MARIA_true_vassal_obligations.18
@@ -1220,7 +1221,7 @@ narrative_event = {
 	#Nothing donation
 	option = {
 		name = EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.17
-		set_character_flag = true_vassal_obligations_daughter_marriage_nothing_donation
+		set_character_flag = true_vassal_obligations_suzerain_crusade_nothing_donation
 		suzerain = {
 			narrative_event = {
 				id = AVE_MARIA_true_vassal_obligations.18

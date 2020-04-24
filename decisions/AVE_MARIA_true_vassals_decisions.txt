@@ -38,7 +38,7 @@
 decisions = {
 
 	# True Vassals decisions
-	true_vassal_convocation_au_ban_offensif = {
+	decision_true_vassal_convocation_au_ban_offensif = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -105,7 +105,7 @@ decisions = {
 		}
 	}
 
-	true_vassal_convocation_au_ban_defensive = {
+	decision_true_vassal_convocation_au_ban_defensive = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -212,7 +212,7 @@ decisions = {
 		}
 	}
 
-	true_vassal_hommage = {
+	decision_true_vassal_hommage = {
 		only_independent = yes
 		is_high_prio = yes
 		only_playable = yes
@@ -220,7 +220,7 @@ decisions = {
 		potential = {
 			is_tributary = yes
 			NOT = { has_character_flag = gave_homage_to_liege }
-			NOT = { has_trait = travelling }
+			NOT = { trait = travelling }
 			age = 12
 			NOT = { mercenary = yes }
 			culture_check_for_frankish_style_feudalism = yes
@@ -228,7 +228,7 @@ decisions = {
 
 		allow = {
 			NOT = { has_character_flag = gave_homage_to_liege }
-			NOT = { has_trait = travelling }
+			NOT = { trait = travelling }
 			NOT = { is_inaccessible_trigger = yes }
 			suzerain = {
 				NOT = { 
@@ -252,7 +252,7 @@ decisions = {
 			add_trait = travelling
 			#information event
 			character_event = {
-				id = AVE_MARIA_true_vassal_justice.2
+				id = AVE_MARIA_true_vassal_hommage.2
 				# days = 1
 				tooltip = "homage"
 			}			
@@ -328,7 +328,7 @@ targetted_decisions = {
 		}
 	}
 	
-	true_vassal_commise_du_fief = {
+	decision_true_vassal_commise_du_fief = {
 		only_independent = yes
 		is_high_prio = yes
 
@@ -383,4 +383,43 @@ targetted_decisions = {
 		
 	}
 	
+	decision_true_vassal_swear_fealty = {
+		only_independent = yes
+
+		from_potential = {
+			independent = yes
+			NOT = {
+				tier = baron
+			}
+		}
+
+		potential = {
+			independent = yes
+			is_landed = yes
+			higher_tier_than = FROM
+			NOR = {
+				is_nomadic = yes
+				primary_title = { 
+					OR = { 
+						title = e_byzantium
+						title = e_roman_empire
+					}
+					has_law = succ_byzantine_elective
+				}
+			}
+		}
+
+		allow = {
+			ROOT = {
+				opinion = { who = FROM value = 25 }
+			}
+			NOT = { is_inaccessible_trigger = yes }
+		}
+
+		effect = {
+			FROM = {
+				make_tributary = { who = ROOT tributary_type = true_vassal }
+			}
+		}
+	}
 }
