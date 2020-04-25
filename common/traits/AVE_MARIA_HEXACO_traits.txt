@@ -26,1337 +26,2816 @@
 #################################################################
 # PERSONALITY   												#
 #################################################################
-
-faithful = { 
-	personality = yes
-	opposites =  {
-		hypocritical deceitful inconstant greedy pretentious 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = -2
-	
-	learning = 0
-}
-honest = { 
-	personality = yes
-	opposites =  {
-		hypocritical deceitful inconstant greedy pretentious 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = -2
-	
-	learning = 0
-}
-sincere = { 
-	personality = yes
-	opposites =  {
-		hypocritical deceitful inconstant greedy pretentious 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = -1
-	
-	learning = 0
-}
-generous = { 
-	personality = yes
-	opposites =  {
-		hypocritical deceitful inconstant greedy pretentious 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = -1
-	
-	learning = 0
-}
-humble = { 
-	personality = yes
-	opposites =  {
-		hypocritical deceitful inconstant greedy pretentious 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = -1
-	
-	learning = 0
-}
-pretentious = { 
-	personality = yes
-	opposites =  {
-		humble generous sincere honest faithful 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 1
-	
-	learning = 0
-}
-greedy = { 
-	personality = yes
-	opposites =  {
-		humble generous sincere honest faithful 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 1
-	
-	learning = 0
-}
-inconstant = { 
-	personality = yes
-	opposites =  {
-		humble generous sincere honest faithful 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 1
-	
-	learning = 0
-}
-deceitful = { 
-	personality = yes
-	opposites =  {
-		humble generous sincere honest faithful 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 2
-	
-	learning = 0
-}
-hypocritical = { 
-	personality = yes
-	opposites =  {
-		humble generous sincere honest faithful 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 2
-	
-	learning = 0
-}
-craven = { 
-	personality = yes
-	opposites =  {
-		brave tough independent self-assured stable 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -5
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-sentimental = { 
-	personality = yes
-	opposites =  {
-		brave tough independent self-assured stable 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -4
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-fearful = { 
-	personality = yes
-	opposites =  {
-		brave tough independent self-assured stable 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -3
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-anxious = { 
-	personality = yes
-	opposites =  {
-		brave tough independent self-assured stable 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -2
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-vulnerable  = { 
-	personality = yes
-	opposites =  {
-		brave tough independent self-assured stable 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -1
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-stable = { 
-	personality = yes
-	opposites =  {
-		vulnerable  anxious fearful sentimental craven 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 1
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-selfassured = { 
-	personality = yes
-	opposites =  {
-		vulnerable  anxious fearful sentimental craven 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 2
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-independent = { 
-	personality = yes
-	opposites =  {
-		vulnerable  anxious fearful sentimental craven 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 3
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-tough = { 
-	personality = yes
-	opposites =  {
-		vulnerable  anxious fearful sentimental craven 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 4
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-brave = { 
-	personality = yes
-	opposites =  {
-		vulnerable  anxious fearful sentimental craven 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 5
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-outgoing = { 
-	personality = yes
-	opposites =  {
-		reserved quiet introverted withdrawn passive 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-lively = { 
-	personality = yes
-	opposites =  {
-		reserved quiet introverted withdrawn passive 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-sociable = { 
-	personality = yes
-	opposites =  {
-		reserved quiet introverted withdrawn passive 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-talkative = { 
-	personality = yes
-	opposites =  {
-		reserved quiet introverted withdrawn passive 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-cheerful = { 
-	personality = yes
-	opposites =  {
-		reserved quiet introverted withdrawn passive 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-passive = { 
-	personality = yes
-	opposites =  {
-		cheerful talkative sociable lively outgoing 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-withdrawn = { 
-	personality = yes
-	opposites =  {
-		cheerful talkative sociable lively outgoing 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-introverted = { 
-	personality = yes
-	opposites =  {
-		cheerful talkative sociable lively outgoing 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 1
-}
-quiet = { 
-	personality = yes
-	opposites =  {
-		cheerful talkative sociable lively outgoing 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 2
-}
-reserved = { 
-	personality = yes
-	opposites =  {
-		cheerful talkative sociable lively outgoing 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 2
-}
-patient = { 
-	personality = yes
-	opposites =  {
-		wroth intolerant stubborn quarrelsome  ill-tempered 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-tolerant = { 
-	personality = yes
-	opposites =  {
-		wroth intolerant stubborn quarrelsome  ill-tempered 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-agreeable = { 
-	personality = yes
-	opposites =  {
-		wroth intolerant stubborn quarrelsome  ill-tempered 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-mild = { 
-	personality = yes
-	opposites =  {
-		wroth intolerant stubborn quarrelsome  ill-tempered 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-gentle = { 
-	personality = yes
-	opposites =  {
-		wroth intolerant stubborn quarrelsome  ill-tempered 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-illtempered = { 
-	personality = yes
-	opposites =  {
-		gentle mild agreeable tolerant patient 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -1
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-quarrelsome = { 
-	personality = yes
-	opposites =  {
-		gentle mild agreeable tolerant patient 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -2
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-stubborn = { 
-	personality = yes
-	opposites =  {
-		gentle mild agreeable tolerant patient 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -3
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-intolerant = { 
-	personality = yes
-	opposites =  {
-		gentle mild agreeable tolerant patient 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -4
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-wroth = { 
-	personality = yes
-	opposites =  {
-		gentle mild agreeable tolerant patient 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = -5
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 0
-}
-organized = { 
-	personality = yes
-	opposites =  {
-		irresponsible lazy reckless negligent sloppy 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 2
-	
-	stewardship = 5
-	
-	intrigue = 0
-	
-	learning = 0
-}
-diligent = { 
-	personality = yes
-	opposites =  {
-		irresponsible lazy reckless negligent sloppy 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 2
-	
-	stewardship = 4
-	
-	intrigue = 0
-	
-	learning = 0
-}
-careful = { 
-	personality = yes
-	opposites =  {
-		irresponsible lazy reckless negligent sloppy 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
+#Honesty-Humility
+faithful = {						
+	personality = yes					
+	opposites = {					
+		pretentious				
+		greedy				
+		inconstant				
+		deceitful				
+		hypocritical				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+			}			
+		}				
+	}					
+	diplomacy = 5					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -2					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 5					
+	vassal_opinion = 5					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+honest = {						
+	personality = yes					
+	opposites = {					
+		pretentious				
+		greedy				
+		inconstant				
+		deceitful				
+		hypocritical			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+			}			
+		}				
+	}					
+	diplomacy = 4					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -2					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 4					
+	vassal_opinion = 4					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+sincere = {						
+	personality = yes					
+	opposites = {					
+		pretentious				
+		greedy				
+		inconstant				
+		deceitful				
+		hypocritical				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+			}			
+		}				
+	}					
+	diplomacy = 3					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -1					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 3					
+	vassal_opinion = 3					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+generous = {						
+	personality = yes					
+	opposites = {					
+		pretentious				
+		greedy				
+		inconstant				
+		deceitful				
+		hypocritical		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+			}			
+		}				
+	}					
+	diplomacy = 2					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -1					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 2					
+	vassal_opinion = 2					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+humble = {						
+	personality = yes					
+	opposites = {					
+		pretentious				
+		greedy				
+		inconstant				
+		deceitful				
+		hypocritical				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+			}			
+		}				
+	}					
+	diplomacy = 1					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -1					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 1					
+	vassal_opinion = 1					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+pretentious = {						
+	personality = yes					
+	opposites = {					
+		faithful				
+		honest				
+		sincere				
+		generous				
+		humble				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+			}			
+		}				
+	}					
+	diplomacy = -1					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 1					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = -1					
+	vassal_opinion = -1					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+greedy = {						
+	personality = yes					
+	opposites = {					
+		faithful				
+		honest				
+		sincere				
+		generous				
+		humble		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = inconstant		
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+			}			
+		}				
+	}					
+	diplomacy = -2					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 2					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = -2					
+	vassal_opinion = -2					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+inconstant = {						
+	personality = yes					
+	opposites = {					
+		faithful				
+		honest				
+		sincere				
+		generous				
+		humble				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = deceitful		
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+			}			
+		}				
+	}					
+	diplomacy = -3					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 2					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = -3					
+	vassal_opinion = -3					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+deceitful = {						
+	personality = yes					
+	opposites = {					
+		faithful				
+		honest				
+		sincere				
+		generous				
+		humble				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = hypocritical		
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+			}			
+		}				
+	}					
+	diplomacy = -4					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 4					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = -4					
+	vassal_opinion = -4					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+hypocritical = {						
+	personality = yes					
+	opposites = {					
+		faithful				
+		honest				
+		sincere				
+		generous				
+		humble			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = faithful		
+				trait = honest		
+				trait = sincere		
+				trait = generous		
+				trait = humble		
+				trait = pretentious		
+				trait = greedy		
+				trait = inconstant		
+				trait = deceitful		
+			}			
+		}				
+	}					
+	diplomacy = -5					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 5					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = -5					
+	vassal_opinion = -5					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+#Emotionality
+craven = {						
+	personality = yes					
+	opposites = {					
+		stable				
+		selfassured				
+		independent				
+		tough				
+		brave				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable	
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = -5					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = yes					
+						
+	church_opinion = 0					
+	vassal_opinion = -5					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+sentimental = {						
+	personality = yes					
+	opposites = {					
+		stable				
+		selfassured				
+		independent				
+		tough				
+		brave			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = -2					
+	stewardship = 0					
+	intrigue = -2					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = -4					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+fearful = {						
+	personality = yes					
+	opposites = {					
+		stable				
+		selfassured				
+		independent				
+		tough				
+		brave				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = anxious		
+				trait = vulnerable	
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = -3					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = -3					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+anxious = {						
+	personality = yes					
+	opposites = {					
+		stable				
+		selfassured				
+		independent				
+		tough				
+		brave		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = vulnerable	
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = -2					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = -2					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+vulnerable = {
+	personality = yes					
+	opposites = {					
+		stable				
+		selfassured				
+		independent				
+		tough				
+		brave		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = -1					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = -1					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+stable = {						
+	personality = yes					
+	opposites = {					
+		craven				
+		sentimental				
+		fearful				
+		anxious
+		vulnerable			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable	
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 1					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 1					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+selfassured = {						
+	personality = yes					
+	opposites = {					
+		craven				
+		sentimental				
+		fearful				
+		anxious				
+		vulnerable		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = independent		
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable	
+				trait = stable		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 2					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 2					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+independent = {						
+	personality = yes					
+	opposites = {					
+		craven				
+		sentimental				
+		fearful				
+		anxious				
+		vulnerable			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = tough		
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable
+				trait = stable		
+				trait = selfassured		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 3					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 3					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+tough = {						
+	personality = yes					
+	opposites = {					
+		craven				
+		sentimental				
+		fearful				
+		anxious				
+		vulnerable		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = brave		
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable	
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 4					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 4					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+brave = {						
+	personality = yes					
+	opposites = {					
+		craven				
+		sentimental				
+		fearful				
+		anxious				
+		vulnerable			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = craven		
+				trait = sentimental		
+				trait = fearful		
+				trait = anxious		
+				trait = vulnerable	
+				trait = stable		
+				trait = selfassured		
+				trait = independent		
+				trait = tough		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 5					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = yes					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 5					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+#eXtraversion
+outgoing = {						
+	personality = yes					
+	opposites = {					
+		passive				
+		withdrawn				
+		introverted				
+		quiet				
+		reserved				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+			}			
+		}				
+	}					
+	diplomacy = 5					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+lively = {						
+	personality = yes					
+	opposites = {					
+		passive				
+		withdrawn				
+		introverted				
+		quiet				
+		reserved			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+			}			
+		}				
+	}					
+	diplomacy = 4					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+sociable = {						
+	personality = yes					
+	opposites = {					
+		passive				
+		withdrawn				
+		introverted				
+		quiet				
+		reserved			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+			}			
+		}				
+	}					
+	diplomacy = 3					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+talkative = {						
+	personality = yes					
+	opposites = {					
+		passive				
+		withdrawn				
+		introverted				
+		quiet				
+		reserved				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+			}			
+		}				
+	}					
+	diplomacy = 2					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+cheerful = {						
+	personality = yes					
+	opposites = {					
+		passive				
+		withdrawn				
+		introverted				
+		quiet				
+		reserved		
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+			}			
+		}				
+	}					
+	diplomacy = 1					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+passive = {						
+	personality = yes					
+	opposites = {					
+		outgoing				
+		lively				
+		sociable				
+		talkative				
+		cheerful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+			}			
+		}				
+	}					
+	diplomacy = -1					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+withdrawn = {						
+	personality = yes					
+	opposites = {					
+		outgoing				
+		lively				
+		sociable				
+		talkative				
+		cheerful			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = introverted		
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+			}			
+		}				
+	}					
+	diplomacy = -2					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = 0					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+introverted = {						
+	personality = yes					
+	opposites = {					
+		outgoing				
+		lively				
+		sociable				
+		talkative				
+		cheerful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = quiet		
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+			}			
+		}				
+	}					
+	diplomacy = -3					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 1					
+	learning = 1					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+quiet = {						
+	personality = yes					
+	opposites = {					
+		outgoing				
+		lively				
+		sociable				
+		talkative				
+		cheerful			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = reserved		
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+			}			
+		}				
+	}					
+	diplomacy = -4					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 2					
+	learning = 2					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+reserved = {						
+	personality = yes					
+	opposites = {					
+		outgoing				
+		lively				
+		sociable				
+		talkative				
+		cheerful			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = outgoing		
+				trait = lively		
+				trait = sociable		
+				trait = talkative		
+				trait = cheerful		
+				trait = passive		
+				trait = withdrawn		
+				trait = introverted		
+				trait = quiet		
+			}			
+		}				
+	}					
+	diplomacy = -5					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 2					
+	learning = 2					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+#Agreeableness
+patient = {					
+	personality = yes				
+	opposites = {				
+		illtempered			
+		quarrelsome			
+		stubborn			
+		intolerant			
+		wroth			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+			}		
+		}			
+	}				
+	diplomacy = 5				
+	martial = 1				
+	stewardship = 1				
+	intrigue = 1				
+	learning = 1				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 5				
+	vassal_opinion = 5				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+tolerant = {					
+	personality = yes				
+	opposites = {				
+		illtempered			
+		quarrelsome			
+		stubborn			
+		intolerant			
+		wroth		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+			}		
+		}			
+	}				
+	diplomacy = 4				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 0				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 4				
+	vassal_opinion = 4				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+agreeable = {					
+	personality = yes				
+	opposites = {				
+		illtempered			
+		quarrelsome			
+		stubborn			
+		intolerant			
+		wroth			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+			}		
+		}			
+	}				
+	diplomacy = 3				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 0				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 3				
+	vassal_opinion = 3				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+mild = {					
+	personality = yes				
+	opposites = {				
+		illtempered			
+		quarrelsome			
+		stubborn			
+		intolerant			
+		wroth		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+			}		
+		}			
+	}				
+	diplomacy = 2				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 0				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 2				
+	vassal_opinion = 2				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+gentle = {					
+	personality = yes				
+	opposites = {				
+		illtempered			
+		quarrelsome			
+		stubborn			
+		intolerant			
+		wroth			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+			}		
+		}			
+	}				
+	diplomacy = 1				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 0				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 1				
+	vassal_opinion = 1				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+illtempered = {					
+	personality = yes				
+	opposites = {				
+		patient			
+		tolerant			
+		agreeable			
+		mild			
+		gentle			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+			}		
+		}			
+	}				
+	diplomacy = -1				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 2				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -1				
+	vassal_opinion = -1				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+quarrelsome = {					
+	personality = yes				
+	opposites = {				
+		patient			
+		tolerant			
+		agreeable			
+		mild			
+		gentle			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = stubborn	
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+			}		
+		}			
+	}				
+	diplomacy = -2				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 1				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -2				
+	vassal_opinion = -2				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+stubborn = {					
+	personality = yes				
+	opposites = {				
+		patient			
+		tolerant			
+		agreeable			
+		mild			
+		gentle		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = intolerant	
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+			}		
+		}			
+	}				
+	diplomacy = -3				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 1				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -3				
+	vassal_opinion = -3				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+intolerant = {					
+	personality = yes				
+	opposites = {				
+		patient			
+		tolerant			
+		agreeable			
+		mild			
+		gentle			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = wroth	
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+			}		
+		}			
+	}				
+	diplomacy = -4				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 1				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -4				
+	vassal_opinion = -4				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+wroth = {					
+	personality = yes				
+	opposites = {				
+		patient			
+		tolerant			
+		agreeable			
+		mild			
+		gentle			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = patient	
+				trait = tolerant	
+				trait = agreeable	
+				trait = mild	
+				trait = gentle	
+				trait = illtempered	
+				trait = quarrelsome	
+				trait = stubborn	
+				trait = intolerant	
+			}		
+		}			
+	}				
+	diplomacy = -5				
+	martial = 0				
+	stewardship = 0				
+	intrigue = 0				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -5				
+	vassal_opinion = -5				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+# Conscientiousness 
+organized = {					
+	personality = yes				
+	opposites = {				
+		sloppy			
+		negligent			
+		reckless			
+		lazy			
+		irresponsible			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 2				
+	stewardship = 5				
+	intrigue = 2				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 5				
+	vassal_opinion = 5				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+diligent = {					
+	personality = yes				
+	opposites = {				
+		sloppy			
+		negligent			
+		reckless			
+		lazy			
+		irresponsible				
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 2				
+	stewardship = 4				
+	intrigue = 2				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 4				
+	vassal_opinion = 4				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+careful = {					
+	personality = yes				
+	opposites = {				
+		sloppy			
+		negligent			
+		reckless			
+		lazy			
+		irresponsible			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 0				
 	stewardship = 3
-	
-	intrigue = 0
-	
-	learning = 0
-}
-thorough = { 
-	personality = yes
-	opposites =  {
-		irresponsible lazy reckless negligent sloppy 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 1
-	
-	stewardship = 2
-	
-	intrigue = 0
-	
-	learning = 0
-}
-precise = { 
-	personality = yes
-	opposites =  {
-		irresponsible lazy reckless negligent sloppy 
-	}
-	
-	virtue = yes
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 1
-	
-	stewardship = 1
-	
-	intrigue = 0
-	
-	learning = 0
-}
-sloppy = { 
-	personality = yes
-	opposites =  {
-		precise thorough careful diligent organized 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -1
-	
-	stewardship = -1
-	
-	intrigue = 0
-	
-	learning = 0
-}
-negligent = { 
-	personality = yes
-	opposites =  {
-		precise thorough careful diligent organized 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -1
-	
-	stewardship = -2
-	
-	intrigue = 0
-	
-	learning = 0
-}
-reckless = { 
-	personality = yes
-	opposites =  {
-		precise thorough careful diligent organized 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = -3
-	
-	intrigue = 0
-	
-	learning = 0
-}
-lazy = { 
-	personality = yes
-	opposites =  {
-		precise thorough careful diligent organized 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -2
-	
-	stewardship = -4
-	
-	intrigue = 0
-	
-	learning = 0
-}
-irresponsible = { 
-	personality = yes
-	opposites =  {
-		precise thorough careful diligent organized 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = -2
-	
-	stewardship = -5
-	
-	intrigue = 0
-	
-	learning = 0
-}
-intellectual = { 
-	personality = yes
-	opposites =  {
-		simple uninspired conventional unimaginative shallow 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 2
-	
-	intrigue = 0
-	
-	learning = 5
-}
-creative = { 
-	personality = yes
-	opposites =  {
-		simple uninspired conventional unimaginative shallow 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 2
-	
-	intrigue = 0
-	
-	learning = 4
-}
-unconventional = { 
-	personality = yes
-	opposites =  {
-		simple uninspired conventional unimaginative shallow 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 3
-}
-innovative = { 
-	personality = yes
-	opposites =  {
-		simple uninspired conventional unimaginative shallow 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 1
-	
-	intrigue = 0
-	
-	learning = 2
-}
-thoughtful = { 
-	personality = yes
-	opposites =  {
-		simple uninspired conventional unimaginative shallow 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = 1
-}
-shallow = { 
-	personality = yes
-	opposites =  {
-		thoughtful innovative unconventional creative intellectual 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = -1
-}
-unimaginative = { 
-	personality = yes
-	opposites =  {
-		thoughtful innovative unconventional creative intellectual 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = -1
-	
-	intrigue = 0
-	
-	learning = -2
-}
-conventional = { 
-	personality = yes
-	opposites =  {
-		thoughtful innovative unconventional creative intellectual 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = 0
-	
-	intrigue = 0
-	
-	learning = -3
-}
-uninspired = { 
-	personality = yes
-	opposites =  {
-		thoughtful innovative unconventional creative intellectual 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = -2
-	
-	intrigue = 0
-	
-	learning = -4
-}
-simple = { 
-	personality = yes
-	opposites =  {
-		thoughtful innovative unconventional creative intellectual 
-	}
-	
-	virtue = no
-	
-	vice = no
-	
-	diplomacy = 0
-	
-	martial = 0
-	
-	stewardship = -2
-	
-	intrigue = 0
-	
-	learning = -5
-}
+	intrigue = 2				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 3				
+	vassal_opinion = 3				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+thorough = {					
+	personality = yes				
+	opposites = {				
+		sloppy			
+		negligent			
+		reckless			
+		lazy			
+		irresponsible		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 1				
+	stewardship = 2				
+	intrigue = 1				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 2				
+	vassal_opinion = 2				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+precise = {					
+	personality = yes				
+	opposites = {				
+		sloppy			
+		negligent			
+		reckless			
+		lazy			
+		irresponsible			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 1				
+	stewardship = 1				
+	intrigue = 1				
+	learning = 0				
+					
+	virtue = yes				
+	vice = no				
+					
+	church_opinion = 1				
+	vassal_opinion = 1				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+sloppy = {					
+	personality = yes				
+	opposites = {				
+		organized			
+		diligent			
+		careful			
+		thorough			
+		precise			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = -1				
+	stewardship = -1				
+	intrigue = -1				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -1				
+	vassal_opinion = -1				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+negligent = {					
+	personality = yes				
+	opposites = {				
+		organized			
+		diligent			
+		careful			
+		thorough			
+		precise		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = reckless	
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = -1				
+	stewardship = -2				
+	intrigue = -2				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -2				
+	vassal_opinion = -2				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+reckless = {					
+	personality = yes				
+	opposites = {				
+		organized			
+		diligent			
+		careful			
+		thorough			
+		precise			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = lazy	
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = 0				
+	stewardship = -3			
+	intrigue = -3				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -3				
+	vassal_opinion = -3				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+lazy = {					
+	personality = yes				
+	opposites = {				
+		organized			
+		diligent			
+		careful			
+		thorough			
+		precise			
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = irresponsible	
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = -2				
+	stewardship = -4				
+	intrigue = -4				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -4				
+	vassal_opinion = -4				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+irresponsible = {					
+	personality = yes				
+	opposites = {				
+		organized			
+		diligent			
+		careful			
+		thorough			
+		precise		
+	}				
+	potential = {				
+		NOT = {			
+			OR = {		
+				trait = organized	
+				trait = diligent	
+				trait = careful	
+				trait = thorough	
+				trait = precise	
+				trait = sloppy	
+				trait = negligent	
+				trait = reckless	
+				trait = lazy	
+			}		
+		}			
+	}				
+	diplomacy = 0				
+	martial = -2				
+	stewardship = -5				
+	intrigue = -5				
+	learning = 0				
+					
+	virtue = no				
+	vice = yes				
+					
+	church_opinion = -5				
+	vassal_opinion = -5				
+					
+	same_opinion = 5				
+	opposite_opinion = -5				
+}					
+# Openness to Experience
+intellectual = {						
+	personality = yes					
+	opposites = {					
+		shallow				
+		unimaginative				
+		conventional				
+		uninspired				
+		simple				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 2					
+	intrigue = 2					
+	learning = 5					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+creative = {						
+	personality = yes					
+	opposites = {					
+		shallow				
+		unimaginative				
+		conventional				
+		uninspired				
+		simple			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 2					
+	intrigue = 2					
+	learning = 4					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+unconventional = {						
+	personality = yes					
+	opposites = {					
+		shallow				
+		unimaginative				
+		conventional				
+		uninspired				
+		simple				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 2					
+	learning = 3					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+innovative = {						
+	personality = yes					
+	opposites = {					
+		shallow				
+		unimaginative				
+		conventional				
+		uninspired				
+		simple			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 1					
+	intrigue = 1					
+	learning = 2					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+thoughtful = {						
+	personality = yes					
+	opposites = {					
+		shallow				
+		unimaginative				
+		conventional				
+		uninspired				
+		simple			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 1					
+	learning = 1					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+shallow = {						
+	personality = yes					
+	opposites = {					
+		intellectual				
+		creative				
+		unconventional				
+		innovative				
+		thoughtful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 0					
+	intrigue = 0					
+	learning = -1					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+unimaginative = {						
+	personality = yes					
+	opposites = {					
+		intellectual				
+		creative				
+		unconventional				
+		innovative				
+		thoughtful			
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = conventional		
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = -1					
+	intrigue = -1					
+	learning = -2					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+conventional = {						
+	personality = yes					
+	opposites = {					
+		intellectual				
+		creative				
+		unconventional				
+		innovative				
+		thoughtful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = uninspired		
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = 0					
+	intrigue = -1					
+	learning = -3					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+uninspired = {						
+	personality = yes					
+	opposites = {					
+		intellectual				
+		creative				
+		unconventional				
+		innovative				
+		thoughtful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = simple		
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = -2					
+	intrigue = -2					
+	learning = -4					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+simple = {						
+	personality = yes					
+	opposites = {					
+		intellectual				
+		creative				
+		unconventional				
+		innovative				
+		thoughtful				
+	}					
+	potential = {					
+		NOT = {				
+			OR = {			
+				trait = intellectual		
+				trait = creative		
+				trait = unconventional		
+				trait = innovative		
+				trait = thoughtful		
+				trait = shallow		
+				trait = unimaginative		
+				trait = conventional		
+				trait = uninspired		
+			}			
+		}				
+	}					
+	diplomacy = 0					
+	martial = 0					
+	stewardship = -2					
+	intrigue = -2					
+	learning = -5					
+						
+	virtue = no					
+	vice = no					
+						
+	church_opinion = 0					
+	vassal_opinion = 0					
+						
+	same_opinion = 5					
+	opposite_opinion = -5					
+}						
+
 
 #################################################################
 # EDUCATION		   												#
 #################################################################
-
 # Martial Prowess
-martial_arts_western_1 = {				
+martial_arts_western_1 = {
+	potential = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = central_germanic
+			culture_group = west_germanic
+			culture_group = iberian
+			culture_group = celtic
+			culture_group = finno_ugric
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = magyar
+			culture_group = baltic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 5			
 	health = 0.5			
 }				
-martial_arts_western_2 = {				
+martial_arts_western_2 = {		
+	potential = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = central_germanic
+			culture_group = west_germanic
+			culture_group = iberian
+			culture_group = celtic
+			culture_group = finno_ugric
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = magyar
+			culture_group = baltic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 10			
 	health = 0.5			
 }				
-martial_arts_western_3 = {				
+martial_arts_western_3 = {		
+	potential = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = central_germanic
+			culture_group = west_germanic
+			culture_group = iberian
+			culture_group = celtic
+			culture_group = finno_ugric
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = magyar
+			culture_group = baltic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 15			
 	health = 0.5			
 }				
 martial_arts_western_4 = {				
+	potential = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = central_germanic
+			culture_group = west_germanic
+			culture_group = iberian
+			culture_group = celtic
+			culture_group = finno_ugric
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = magyar
+			culture_group = baltic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 20			
 	health = 0.5			
 }				
 martial_arts_western_5 = {				
+	potential = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = central_germanic
+			culture_group = west_germanic
+			culture_group = iberian
+			culture_group = celtic
+			culture_group = finno_ugric
+			culture_group = east_slavic
+			culture_group = west_slavic
+			culture_group = south_slavic
+			culture_group = magyar
+			culture_group = baltic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 25			
 	health = 0.5			
 }				
 martial_arts_roman_1 = {				
+	potential = {
+		OR = {
+			culture_group = byzantine
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 5			
 	health = 0.5			
 }				
 martial_arts_roman_2 = {				
+	potential = {
+		OR = {
+			culture_group = byzantine
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 10			
 	health = 0.5			
 }				
 martial_arts_roman_3 = {				
+	potential = {
+		OR = {
+			culture_group = byzantine
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 15			
 	health = 0.5			
 }				
 martial_arts_roman_4 = {				
+	potential = {
+		OR = {
+			culture_group = byzantine
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 20			
 	health = 0.5			
 }				
 martial_arts_roman_5 = {				
+	potential = {
+		OR = {
+			culture_group = byzantine
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 25			
 	health = 0.5			
 }				
 martial_arts_eastern_1 = {				
+	potential = {
+		OR = {
+			culture_group = iranian
+			culture_group = arabic
+			culture_group = east_african
+			culture_group = central_african
+			culture_group = west_african
+			culture_group = mesoamerican
+			culture_group = israelite
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			culture_group = tibetan_group
+			culture_group = chinese_group
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 5			
 	health = 0.5			
 }				
 martial_arts_eastern_2 = {				
+	potential = {
+		OR = {
+			culture_group = iranian
+			culture_group = arabic
+			culture_group = east_african
+			culture_group = central_african
+			culture_group = west_african
+			culture_group = mesoamerican
+			culture_group = israelite
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			culture_group = tibetan_group
+			culture_group = chinese_group
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 10			
 	health = 0.5			
 }				
 martial_arts_eastern_3 = {				
+	potential = {
+		OR = {
+			culture_group = iranian
+			culture_group = arabic
+			culture_group = east_african
+			culture_group = central_african
+			culture_group = west_african
+			culture_group = mesoamerican
+			culture_group = israelite
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			culture_group = tibetan_group
+			culture_group = chinese_group
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 15			
 	health = 0.5			
 }				
 martial_arts_eastern_4 = {				
+	potential = {
+		OR = {
+			culture_group = iranian
+			culture_group = arabic
+			culture_group = east_african
+			culture_group = central_african
+			culture_group = west_african
+			culture_group = mesoamerican
+			culture_group = israelite
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			culture_group = tibetan_group
+			culture_group = chinese_group
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 20			
 	health = 0.5			
 }				
 martial_arts_eastern_5 = {				
+	potential = {
+		OR = {
+			culture_group = iranian
+			culture_group = arabic
+			culture_group = east_african
+			culture_group = central_african
+			culture_group = west_african
+			culture_group = mesoamerican
+			culture_group = israelite
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+			culture_group = tibetan_group
+			culture_group = chinese_group
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 25			
 	health = 0.5			
 }				
 martial_arts_steppe_1 = {				
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 5			
 	health = 0.5			
 }				
 martial_arts_steppe_2 = {				
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 10			
 	health = 0.5			
 }				
 martial_arts_steppe_3 = {				
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 15			
 	health = 0.5			
 }				
 martial_arts_steppe_4 = {				
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 20			
 	health = 0.5			
 }				
 martial_arts_steppe_5 = {				
+	potential = {
+		OR = {
+			culture_group = altaic
+		}
+	}
 	education = yes			
 	attribute = martial			
 	combat_rating = 25			
 	health = 0.5			
 }				
 
+#Knight
+knight = {
+	monthly_character_prestige = 0.1
+	sex_appeal_opinion = 5
+	command_modifier = {
+		cavalry = 0.1
+	}
+}
+# squire = {
+	# monthly_character_prestige = 0.01
+	# same_opinion = 5
+# }
+
+#War veteran
+war_veteran_1 = {					
+	leader = yes				
+	random = no				
+	potential = {				
+		age = 14			
+		NOT = {			
+			OR = {		
+				trait = war_veteran_2	
+				trait = war_veteran_3	
+				trait = war_veteran_4	
+				trait = war_veteran_5	
+			}		
+		}			
+	}				
+	martial = 1
+	combat_rating = 5
+	general_opinion = 2				
+	command_modifier = {				
+		morale_defence = 0.02			
+		morale_offence = 0.02			
+		damage = 0.00			
+		defence = 0.00			
+	}				
+}					
+war_veteran_2 = {					
+	leader = yes				
+	random = no				
+	potential = {				
+		age = 14			
+		NOT = {			
+			OR = {		
+				trait = war_veteran_3	
+				trait = war_veteran_4	
+				trait = war_veteran_5	
+				trait = war_veteran_1	
+			}		
+		}			
+	}				
+	martial = 3			
+	combat_rating = 7
+	general_opinion = 3				
+	command_modifier = {				
+		morale_defence = 0.03			
+		morale_offence = 0.03			
+		damage = 0.01			
+		defence = 0.01			
+	}				
+}					
+war_veteran_3 = {					
+	leader = yes				
+	random = no				
+	potential = {				
+		age = 14			
+		NOT = {			
+			OR = {		
+				trait = war_veteran_4	
+				trait = war_veteran_5	
+				trait = war_veteran_1	
+				trait = war_veteran_2	
+			}		
+		}			
+	}				
+	martial = 5				
+	combat_rating = 10
+	general_opinion = 4				
+	command_modifier = {				
+		morale_defence = 0.04			
+		morale_offence = 0.04			
+		damage = 0.02			
+		defence = 0.02			
+	}				
+}					
+war_veteran_4 = {					
+	leader = yes				
+	random = no				
+	potential = {				
+		age = 14			
+		NOT = {			
+			OR = {		
+				trait = war_veteran_5	
+				trait = war_veteran_1	
+				trait = war_veteran_2	
+				trait = war_veteran_3	
+			}		
+		}			
+	}				
+	martial = 7				
+	combat_rating = 13
+	general_opinion = 5				
+	command_modifier = {				
+		morale_defence = 0.05			
+		morale_offence = 0.05			
+		damage = 0.03			
+		defence = 0.03			
+	}				
+}					
+war_veteran_5 = {					
+	leader = yes				
+	random = no				
+	potential = {				
+		age = 14			
+		NOT = {			
+			OR = {		
+				trait = war_veteran_1	
+				trait = war_veteran_2	
+				trait = war_veteran_3	
+				trait = war_veteran_4	
+			}		
+		}			
+	}				
+	martial = 9				
+	combat_rating = 15
+	general_opinion = 6				
+	command_modifier = {				
+		morale_defence = 0.03			
+		morale_offence = 0.03			
+		damage = 0.04			
+		defence = 0.04			
+	}				
+}
 
 # Riding skills
-riding_basic_knowledge = {					
+riding_1 = {					
 	education = yes				
 	potential = {				
 		age = 6			
@@ -1372,61 +2851,61 @@ riding_basic_knowledge = {
 	sex_appeal_opinion = -5				
 	vassal_opinion = -2				
 }					
-riding_limited_experience = {					
+riding_2 = {					
 	education = yes				
 	potential = {				
 		age = 6			
 		NOT = {			
 			OR = {		
-				trait = riding_basic_knowledge	
-				trait = riding_intermediate_knowledge	
-				trait = riding_advanced_knowledge	
-				trait = riding_expert	
+				trait = riding_1	
+				trait = riding_3	
+				trait = riding_4	
+				trait = riding_5	
 			}		
 		}			
 	}				
 	sex_appeal_opinion = -2				
 	vassal_opinion = -1				
 }					
-riding_intermediate_knowledge = {					
+riding_3 = {					
 	education = yes				
 	potential = {				
 		age = 6			
 		NOT = {			
 			OR = {		
-				trait = riding_limited_experience	
-				trait = riding_basic_knowledge	
-				trait = riding_advanced_knowledge	
-				trait = riding_expert	
+				trait = riding_2	
+				trait = riding_1	
+				trait = riding_4	
+				trait = riding_5	
 			}		
 		}			
 	}							
 }					
-riding_advanced_knowledge = {					
+riding_4 = {					
 	education = yes				
 	potential = {				
 		age = 6			
 		NOT = {			
 			OR = {		
-				trait = riding_limited_experience	
-				trait = riding_intermediate_knowledge	
-				trait = riding_basic_knowledge	
-				trait = riding_expert	
+				trait = riding_2	
+				trait = riding_3	
+				trait = riding_1	
+				trait = riding_5	
 			}		
 		}			
 	}				
 	sex_appeal_opinion = 5			
 }					
-riding_expert = {					
+riding_5 = {					
 	education = yes				
 	potential = {				
 		age = 6			
 		NOT = {			
 			OR = {		
-				trait = riding_limited_experience	
-				trait = riding_intermediate_knowledge	
-				trait = riding_advanced_knowledge	
-				trait = riding_basic_knowledge	
+				trait = riding_2	
+				trait = riding_3	
+				trait = riding_4	
+				trait = riding_1	
 			}		
 		}			
 	}				
@@ -1440,82 +2919,162 @@ riding_expert = {
 }					
 
 # Etiquette
+etiquette_1 = {				
+	education = yes			
+	potential = {			
+		age = 5		
+		NOT = {		
+			OR = {	
+				trait = etiquette_2
+				trait = etiquette_3
+				trait = etiquette_4
+				trait = etiquette_5
+			}	
+		}		
+	}			
+	diplomacy = 1			
+				
+}				
+etiquette_2 = {				
+	education = yes			
+	potential = {			
+		age = 5		
+		NOT = {		
+			OR = {	
+				trait = etiquette_3
+				trait = etiquette_4
+				trait = etiquette_5
+				trait = etiquette_1
+			}	
+		}		
+	}			
+	diplomacy = 3			
+				
+}				
+etiquette_3 = {				
+	education = yes			
+	potential = {			
+		age = 5		
+		NOT = {		
+			OR = {	
+				trait = etiquette_4
+				trait = etiquette_5
+				trait = etiquette_1
+				trait = etiquette_2
+			}	
+		}		
+	}			
+	diplomacy = 5			
+				
+}				
+etiquette_4 = {				
+	education = yes			
+	potential = {			
+		age = 5		
+		NOT = {		
+			OR = {	
+				trait = etiquette_5
+				trait = etiquette_1
+				trait = etiquette_2
+				trait = etiquette_3
+			}	
+		}		
+	}			
+	diplomacy = 7			
+				
+}				
+etiquette_5 = {				
+	education = yes			
+	potential = {			
+		age = 5		
+		NOT = {		
+			OR = {	
+				trait = etiquette_1
+				trait = etiquette_2
+				trait = etiquette_3
+				trait = etiquette_4
+			}	
+		}		
+	}			
+	diplomacy = 9			
+				
+}				
 
 # Written Skills
-read_write_basic_knowledge = {					
+read_write_1 = {					
 	education = yes				
 	potential = {				
 		age = 5			
 		NOT = {			
 			OR = {		
-				trait = read_write_limited_experience	
-				trait = read_write_intermediate_knowledge	
-				trait = read_write_advanced_knowledge	
-				trait = read_write_expert	
+				trait = read_write_2	
+				trait = read_write_3	
+				trait = read_write_4	
+				trait = read_write_5	
 			}		
 		}			
 	}				
 	learning = 1				
 	general_opinion = 1				
 }					
-read_write_limited_experience = {					
+read_write_2 = {					
 	education = yes				
 	potential = {				
 		age = 5			
 		NOT = {			
 			OR = {		
-				trait = read_write_intermediate_knowledge	
-				trait = read_write_advanced_knowledge	
-				trait = read_write_expert	
-				trait = read_write_basic_knowledge	
+				trait = read_write_3	
+				trait = read_write_4	
+				trait = read_write_5	
+				trait = read_write_1	
 			}		
 		}			
 	}				
 	learning = 2				
 	general_opinion = 1				
 }					
-read_write_intermediate_knowledge = {					
+read_write_3 = {					
 	education = yes				
 	potential = {				
 		age = 5			
 		NOT = {			
 			OR = {		
-				trait = read_write_advanced_knowledge	
-				trait = read_write_expert	
-				trait = read_write_basic_knowledge	
-				trait = read_write_limited_experience	
+				trait = read_write_4	
+				trait = read_write_5	
+				trait = read_write_1	
+				trait = read_write_2	
 			}		
 		}			
 	}				
 	learning = 3				
 	general_opinion = 1				
 }					
-read_write_advanced_knowledge = {					
+read_write_4 = {					
 	education = yes				
 	potential = {				
 		age = 5			
 		NOT = {			
 			OR = {		
-				trait = read_write_expert	
-				trait = read_write_basic_knowledge	
-				trait = read_write_limited_experience	
-				trait = read_write_intermediate_knowledge	
+				trait = read_write_5	
+				trait = read_write_1	
+				trait = read_write_2	
+				trait = read_write_3	
 			}		
 		}			
 	}				
 	learning = 4				
 	general_opinion = 1				
 }					
-read_write_expert = {					
+read_write_5 = {					
 	education = yes				
 	potential = {				
 		age = 5			
 		NOT = {			
 			OR = {		
-				trait = read_write_basic_knowledge	
-				trait = read_write_limited_experience	
-				trait = read_write_intermediate_knowledge	
-				trait = read_write_advanced_knowledge	
+				trait = read_write_1	
+				trait = read_write_2	
+				trait = read_write_3	
+				trait = read_write_4	
 			}		
 		}			
 	}				
@@ -1524,80 +3083,80 @@ read_write_expert = {
 }					
 
 # Mathematics
-mathematics_basic_knowledge = {						
+mathematics_1 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = mathematics_limited_experience		
-				trait = mathematics_intermediate_knowledge		
-				trait = mathematics_advanced_knowledge		
-				trait = mathematics_expert		
+				trait = mathematics_2		
+				trait = mathematics_3		
+				trait = mathematics_4		
+				trait = mathematics_5		
 			}			
 		}				
 	}					
 	stewardship = 1					
 						
 }						
-mathematics_limited_experience = {						
+mathematics_2 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = mathematics_intermediate_knowledge		
-				trait = mathematics_advanced_knowledge		
-				trait = mathematics_expert		
-				trait = mathematics_basic_knowledge		
+				trait = mathematics_3		
+				trait = mathematics_4		
+				trait = mathematics_5		
+				trait = mathematics_1		
 			}			
 		}				
 	}					
 	stewardship = 2					
 						
 }						
-mathematics_intermediate_knowledge = {						
+mathematics_3 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = mathematics_advanced_knowledge		
-				trait = mathematics_expert		
-				trait = mathematics_basic_knowledge		
-				trait = mathematics_limited_experience		
+				trait = mathematics_4		
+				trait = mathematics_5		
+				trait = mathematics_1		
+				trait = mathematics_2		
 			}			
 		}				
 	}					
 	stewardship = 3					
 						
 }						
-mathematics_advanced_knowledge = {						
+mathematics_4 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = mathematics_expert		
-				trait = mathematics_basic_knowledge		
-				trait = mathematics_limited_experience		
-				trait = mathematics_intermediate_knowledge		
+				trait = mathematics_5		
+				trait = mathematics_1		
+				trait = mathematics_2		
+				trait = mathematics_3		
 			}			
 		}				
 	}					
 	stewardship = 4					
 						
 }						
-mathematics_expert = {						
+mathematics_5 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = mathematics_basic_knowledge		
-				trait = mathematics_limited_experience		
-				trait = mathematics_intermediate_knowledge		
-				trait = mathematics_advanced_knowledge		
+				trait = mathematics_1		
+				trait = mathematics_2		
+				trait = mathematics_3		
+				trait = mathematics_4		
 			}			
 		}				
 	}					
@@ -1606,80 +3165,80 @@ mathematics_expert = {
 }						
 
 # Philosophy
-philosophy_basic_knowledge = {							
+philosophy_1 = {							
 	education = yes						
 	potential = {						
 		age = 5					
 		NOT = {					
 			OR = {				
-				trait = philosophy_limited_experience			
-				trait = philosophy_intermediate_knowledge			
-				trait = philosophy_advanced_knowledge			
-				trait = philosophy_expert			
+				trait = philosophy_2			
+				trait = philosophy_3			
+				trait = philosophy_4			
+				trait = philosophy_5			
 			}				
 		}					
 	}						
 	learning = 1						
 							
 }							
-philosophy_limited_experience = {							
+philosophy_2 = {							
 	education = yes						
 	potential = {						
 		age = 5					
 		NOT = {					
 			OR = {				
-				trait = philosophy_intermediate_knowledge			
-				trait = philosophy_advanced_knowledge			
-				trait = philosophy_expert			
-				trait = philosophy_basic_knowledge			
+				trait = philosophy_3			
+				trait = philosophy_4			
+				trait = philosophy_5			
+				trait = philosophy_1			
 			}				
 		}					
 	}						
 	learning = 2						
 							
 }							
-philosophy_intermediate_knowledge = {							
+philosophy_3 = {							
 	education = yes						
 	potential = {						
 		age = 5					
 		NOT = {					
 			OR = {				
-				trait = philosophy_advanced_knowledge			
-				trait = philosophy_expert			
-				trait = philosophy_basic_knowledge			
-				trait = philosophy_limited_experience			
+				trait = philosophy_4			
+				trait = philosophy_5			
+				trait = philosophy_1			
+				trait = philosophy_2			
 			}				
 		}					
 	}						
 	learning = 3						
 	byzantine_opinion = 3						
 }							
-philosophy_advanced_knowledge = {							
+philosophy_4 = {							
 	education = yes						
 	potential = {						
 		age = 5					
 		NOT = {					
 			OR = {				
-				trait = philosophy_expert			
-				trait = philosophy_basic_knowledge			
-				trait = philosophy_limited_experience			
-				trait = philosophy_intermediate_knowledge			
+				trait = philosophy_5			
+				trait = philosophy_1			
+				trait = philosophy_2			
+				trait = philosophy_3			
 			}				
 		}					
 	}						
 	learning = 4						
 	byzantine_opinion = 5						
 }							
-philosophy_expert = {							
+philosophy_5 = {							
 	education = yes						
 	potential = {						
 		age = 5					
 		NOT = {					
 			OR = {				
-				trait = philosophy_basic_knowledge			
-				trait = philosophy_limited_experience			
-				trait = philosophy_intermediate_knowledge			
-				trait = philosophy_advanced_knowledge			
+				trait = philosophy_1			
+				trait = philosophy_2			
+				trait = philosophy_3			
+				trait = philosophy_4			
 			}				
 		}					
 	}						
@@ -1688,80 +3247,80 @@ philosophy_expert = {
 }							
 
 # Law
-law_basic_knowledge = {						
+law_1 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = law_limited_experience		
-				trait = law_intermediate_knowledge		
-				trait = law_advanced_knowledge		
-				trait = law_expert		
+				trait = law_2		
+				trait = law_3		
+				trait = law_4		
+				trait = law_5		
 			}			
 		}				
 	}					
 	diplomacy = 0.5					
 						
 }						
-law_limited_experience = {						
+law_2 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = law_intermediate_knowledge		
-				trait = law_advanced_knowledge		
-				trait = law_expert		
-				trait = law_basic_knowledge		
+				trait = law_3		
+				trait = law_4		
+				trait = law_5		
+				trait = law_1		
 			}			
 		}				
 	}					
 	diplomacy = 1				
 						
 }						
-law_intermediate_knowledge = {						
+law_3 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = law_advanced_knowledge		
-				trait = law_expert		
-				trait = law_basic_knowledge		
-				trait = law_limited_experience		
+				trait = law_4		
+				trait = law_5		
+				trait = law_1		
+				trait = law_2		
 			}			
 		}				
 	}					
 	diplomacy = 1.5					
 	byzantine_opinion = 3					
 }						
-law_advanced_knowledge = {						
+law_4 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = law_expert		
-				trait = law_basic_knowledge		
-				trait = law_limited_experience		
-				trait = law_intermediate_knowledge		
+				trait = law_5		
+				trait = law_1		
+				trait = law_2		
+				trait = law_3		
 			}			
 		}				
 	}					
 	diplomacy = 2					
 	byzantine_opinion = 5					
 }						
-law_expert = {						
+law_5 = {						
 	education = yes					
 	potential = {					
 		age = 5				
 		NOT = {				
 			OR = {			
-				trait = law_basic_knowledge		
-				trait = law_limited_experience		
-				trait = law_intermediate_knowledge		
-				trait = law_advanced_knowledge		
+				trait = law_1		
+				trait = law_2		
+				trait = law_3		
+				trait = law_4		
 			}			
 		}				
 	}					
@@ -1770,3 +3329,83 @@ law_expert = {
 }						
 
 # Theology
+theology_1 = {						
+	education = yes					
+	potential = {					
+		age = 5				
+		NOT = {				
+			OR = {			
+				trait = theology_2		
+				trait = theology_3		
+				trait = theology_4		
+				trait = theology_5		
+			}			
+		}				
+	}					
+	diplomacy = 0.5					
+	learning = 1					
+}						
+theology_2 = {						
+	education = yes					
+	potential = {					
+		age = 5				
+		NOT = {				
+			OR = {			
+				trait = theology_3		
+				trait = theology_4		
+				trait = theology_5		
+				trait = theology_1		
+			}			
+		}				
+	}					
+	diplomacy = 1				
+	learning = 2					
+}						
+theology_3 = {						
+	education = yes					
+	potential = {					
+		age = 5				
+		NOT = {				
+			OR = {			
+				trait = theology_4		
+				trait = theology_5		
+				trait = theology_1		
+				trait = theology_2		
+			}			
+		}				
+	}					
+	diplomacy = 1.5					
+	learning = 3					
+}						
+theology_4 = {						
+	education = yes					
+	potential = {					
+		age = 5				
+		NOT = {				
+			OR = {			
+				trait = theology_5		
+				trait = theology_1		
+				trait = theology_2		
+				trait = theology_3		
+			}			
+		}				
+	}					
+	diplomacy = 2				
+	learning = 4					
+}						
+theology_5 = {						
+	education = yes					
+	potential = {					
+		age = 5				
+		NOT = {				
+			OR = {			
+				trait = theology_1		
+				trait = theology_2		
+				trait = theology_3		
+				trait = theology_4		
+			}			
+		}				
+	}					
+	diplomacy = 2.5				
+	learning = 5					
+}						

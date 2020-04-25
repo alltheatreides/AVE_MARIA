@@ -1,0 +1,44 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# On Actions																		   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_birth = {
+	events = {
+		AVE_MARIA_hexaco_childhood.1
+	}
+}
+
+on_yearly_childhood_pulse = {
+	events = {
+	
+	}
+	
+	random_events = {
+	
+	}
+}
+
+on_adolescence = {
+	events = {
+	
+	}
+	random_events = {
+	
+	}
+}
+
+on_adulthood = {
+	events = {
+	
+	}
+	random_events = {
+	
+	}
+}

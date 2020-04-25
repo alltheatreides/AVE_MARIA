@@ -113,8 +113,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
 	spriteType = {						
-		name = "GFX_trait_vulnerable "					
-		texturefile = gfx/traits/e_5_vulnerable _trait.tga					
+		name = "GFX_trait_vulnerable"					
+		texturefile = gfx/traits/e_5_vulnerable_trait.tga					
 		noOfFrames = 1					
 		norefcount = yes					
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
@@ -577,111 +577,231 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
 	
+	#Knight
+	spriteType = {				
+		name = "GFX_trait_knight"			
+		texturefile = gfx/traits/knight.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}
+	
+	#War Veteran
+	spriteType = {		
+		name = "GFX_trait_war_veteran_1"	
+		texturefile = gfx/traits/war_veteran_1.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_war_veteran_2"	
+		texturefile = gfx/traits/war_veteran_2.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_war_veteran_3"	
+		texturefile = gfx/traits/war_veteran_3.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_war_veteran_4"	
+		texturefile = gfx/traits/war_veteran_4.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_war_veteran_5"	
+		texturefile = gfx/traits/war_veteran_5.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	
 	# Riding skills	
 	spriteType = {				
-		name = "GFX_trait_riding_basic_knowledge"			
+		name = "GFX_trait_riding_1"			
 		texturefile = gfx/traits/riding_1.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_riding_limited_experience"			
+		name = "GFX_trait_riding_2"			
 		texturefile = gfx/traits/riding_2.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_riding_intermediate_knowledge"			
+		name = "GFX_trait_riding_3"			
 		texturefile = gfx/traits/riding_3.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_riding_advanced_knowledge"			
+		name = "GFX_trait_riding_4"			
 		texturefile = gfx/traits/riding_4.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_riding_expert"			
+		name = "GFX_trait_riding_5"			
 		texturefile = gfx/traits/riding_5.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	
+	# Etiquette
+	spriteType = {				
+		name = "GFX_trait_etiquette_1"			
+		texturefile = gfx/traits/etiquette_1.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}				
+	spriteType = {				
+		name = "GFX_trait_etiquette_2"			
+		texturefile = gfx/traits/etiquette_2.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}				
+	spriteType = {				
+		name = "GFX_trait_etiquette_3"			
+		texturefile = gfx/traits/etiquette_3.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}				
+	spriteType = {				
+		name = "GFX_trait_etiquette_4"			
+		texturefile = gfx/traits/etiquette_4.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}				
+	spriteType = {				
+		name = "GFX_trait_etiquette_5"			
+		texturefile = gfx/traits/etiquette_5.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}				
+
 	# Written Skills
 	spriteType = {				
-		name = "GFX_trait_read_write_basic_knowledge"			
+		name = "GFX_trait_read_write_1"			
 		texturefile = gfx/traits/read_write_1.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_read_write_limited_experience"			
+		name = "GFX_trait_read_write_2"			
 		texturefile = gfx/traits/read_write_2.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_read_write_intermediate_knowledge"			
+		name = "GFX_trait_read_write_3"			
 		texturefile = gfx/traits/read_write_3.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_read_write_advanced_knowledge"			
+		name = "GFX_trait_read_write_4"			
 		texturefile = gfx/traits/read_write_4.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_read_write_expert"			
+		name = "GFX_trait_read_write_5"			
 		texturefile = gfx/traits/read_write_5.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}
 	
+	#Mathematics
+	spriteType = {		
+		name = "GFX_trait_mathematics_1"	
+		texturefile = gfx/traits/mathematics_1.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_mathematics_2"	
+		texturefile = gfx/traits/mathematics_2.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_mathematics_3"	
+		texturefile = gfx/traits/mathematics_3.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_mathematics_4"	
+		texturefile = gfx/traits/mathematics_4.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+	spriteType = {		
+		name = "GFX_trait_mathematics_5"	
+		texturefile = gfx/traits/mathematics_5.tga	
+		noOfFrames = 1	
+		norefcount = yes	
+		effectFile = "gfx/FX/buttonstate_linear.lua"	
+	}		
+
 	# Philosophy
 	spriteType = {				
-		name = "GFX_trait_philosophy_basic_knowledge"			
+		name = "GFX_trait_philosophy_1"			
 		texturefile = gfx/traits/philosophy_1.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_philosophy_limited_experience"			
+		name = "GFX_trait_philosophy_2"			
 		texturefile = gfx/traits/philosophy_2.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_philosophy_intermediate_knowledge"			
+		name = "GFX_trait_philosophy_3"			
 		texturefile = gfx/traits/philosophy_3.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_philosophy_advanced_knowledge"			
+		name = "GFX_trait_philosophy_4"			
 		texturefile = gfx/traits/philosophy_4.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_philosophy_expert"			
+		name = "GFX_trait_philosophy_5"			
 		texturefile = gfx/traits/philosophy_5.tga			
 		noOfFrames = 1			
 		norefcount = yes			
@@ -690,35 +810,35 @@ spriteTypes = {
 	
 	# Law
 	spriteType = {				
-		name = "GFX_trait_law_basic_knowledge"			
+		name = "GFX_trait_law_1"			
 		texturefile = gfx/traits/law_1.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_law_limited_experience"			
+		name = "GFX_trait_law_2"			
 		texturefile = gfx/traits/law_2.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_law_intermediate_knowledge"			
+		name = "GFX_trait_law_3"			
 		texturefile = gfx/traits/law_3.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_law_advanced_knowledge"			
+		name = "GFX_trait_law_4"			
 		texturefile = gfx/traits/law_4.tga			
 		noOfFrames = 1			
 		norefcount = yes			
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	spriteType = {				
-		name = "GFX_trait_law_expert"			
+		name = "GFX_trait_law_5"			
 		texturefile = gfx/traits/law_5.tga			
 		noOfFrames = 1			
 		norefcount = yes			
@@ -726,41 +846,217 @@ spriteTypes = {
 	}	
 	
 	# Theology
-	spriteType = {				
-		name = "GFX_trait_theology_basic_knowledge"			
-		texturefile = gfx/traits/theology_1.tga			
-		noOfFrames = 1			
-		norefcount = yes			
-		effectFile = "gfx/FX/buttonstate_linear.lua"			
-	}				
-	spriteType = {				
-		name = "GFX_trait_theology_limited_experience"			
-		texturefile = gfx/traits/theology_2.tga			
-		noOfFrames = 1			
-		norefcount = yes			
-		effectFile = "gfx/FX/buttonstate_linear.lua"			
-	}				
-	spriteType = {				
-		name = "GFX_trait_theology_intermediate_knowledge"			
-		texturefile = gfx/traits/theology_3.tga			
-		noOfFrames = 1			
-		norefcount = yes			
-		effectFile = "gfx/FX/buttonstate_linear.lua"			
-	}				
-	spriteType = {				
-		name = "GFX_trait_theology_advanced_knowledge"			
-		texturefile = gfx/traits/theology_4.tga			
-		noOfFrames = 1			
-		norefcount = yes			
-		effectFile = "gfx/FX/buttonstate_linear.lua"			
-	}				
-	spriteType = {				
-		name = "GFX_trait_theology_expert"			
-		texturefile = gfx/traits/theology_5.tga			
-		noOfFrames = 1			
-		norefcount = yes			
-		effectFile = "gfx/FX/buttonstate_linear.lua"			
-	}				
+	spriteType = {						
+		name = "GFX_trait_theology_1"					
+		texturefile = gfx/traits/theology_christian_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_2"					
+		texturefile = gfx/traits/theology_christian_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_3"					
+		texturefile = gfx/traits/theology_christian_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_4"					
+		texturefile = gfx/traits/theology_christian_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_5"					
+		texturefile = gfx/traits/theology_christian_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_indian_group_1"					
+		texturefile = gfx/traits/theology_indian_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_indian_group_2"					
+		texturefile = gfx/traits/theology_indian_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_indian_group_3"					
+		texturefile = gfx/traits/theology_indian_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_indian_group_4"					
+		texturefile = gfx/traits/theology_indian_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_indian_group_5"					
+		texturefile = gfx/traits/theology_indian_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_pagan_group_1"					
+		texturefile = gfx/traits/theology_pagan_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_pagan_group_2"					
+		texturefile = gfx/traits/theology_pagan_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_pagan_group_3"					
+		texturefile = gfx/traits/theology_pagan_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_pagan_group_4"					
+		texturefile = gfx/traits/theology_pagan_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_pagan_group_5"					
+		texturefile = gfx/traits/theology_pagan_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_zoroastrian_group_1"					
+		texturefile = gfx/traits/theology_zoroastrian_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_zoroastrian_group_2"					
+		texturefile = gfx/traits/theology_zoroastrian_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_zoroastrian_group_3"					
+		texturefile = gfx/traits/theology_zoroastrian_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_zoroastrian_group_4"					
+		texturefile = gfx/traits/theology_zoroastrian_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_zoroastrian_group_5"					
+		texturefile = gfx/traits/theology_zoroastrian_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_jewish_group_1"					
+		texturefile = gfx/traits/theology_jewish_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_jewish_group_2"					
+		texturefile = gfx/traits/theology_jewish_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_jewish_group_3"					
+		texturefile = gfx/traits/theology_jewish_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_jewish_group_4"					
+		texturefile = gfx/traits/theology_jewish_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_jewish_group_5"					
+		texturefile = gfx/traits/theology_jewish_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_muslim_1"					
+		texturefile = gfx/traits/theology_muslim_1.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_muslim_2"					
+		texturefile = gfx/traits/theology_muslim_2.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_muslim_3"					
+		texturefile = gfx/traits/theology_muslim_3.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_muslim_4"					
+		texturefile = gfx/traits/theology_muslim_4.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+	spriteType = {						
+		name = "GFX_trait_theology_muslim_5"					
+		texturefile = gfx/traits/theology_muslim_5.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}						
+
 
 
 }
