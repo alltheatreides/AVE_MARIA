@@ -9,6 +9,12 @@
 
 # Written by Atreides
 
+on_startup = {
+	events = {
+		AVE_MARIA_hexaco_maintenance.1
+	}
+}
+
 on_birth = {
 	events = {
 		AVE_MARIA_hexaco_childhood.1

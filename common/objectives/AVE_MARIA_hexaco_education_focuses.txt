@@ -1,0 +1,503 @@
+# Supported types: character
+#
+# Note: if 'chance' evaluates to 0, an AI character will also abandon the focus
+#
+
+########################################################################################
+#                                         											   #
+# AVE MARIA focuses																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# HEXACO focuses - childhood and education		                       				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+#################
+# CHILDHOOD		#
+#################
+focus_ch_honesty_humility = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		faithful
+		honest
+		sincere
+		generous
+		humble
+		pretentious
+		greedy
+		inconstant
+		deceitful
+		hypocritical
+	}
+}
+focus_ch_emotionality = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		craven
+		sentimental
+		fearful
+		anxious
+		vulnerable
+		stable
+		selfassured
+		independent
+		tough
+		brave
+	}
+}
+focus_ch_extraversion = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		outgoing
+		lively
+		sociable
+		talkative
+		cheerful
+		passive
+		withdrawn
+		introverted
+		quiet
+		reserved
+	}
+}
+focus_ch_agreeableness = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		patient
+		tolerant
+		agreeable
+		mild
+		gentle
+		illtempered
+		quarrelsome
+		stubborn
+		intolerant
+		wroth
+	}
+}
+focus_ch_conscientiousness = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		organized
+		diligent
+		careful
+		thorough
+		precise
+		sloppy
+		negligent
+		reckless
+		lazy
+		irresponsible
+	}
+} 
+focus_ch_openness_to_experience = {
+	type = character
+	potential = {
+		NOT = { age = 7 }
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		age = 7
+	}
+	
+	abort_effect = {
+	}
+	
+	potential_traits = {
+		intellectual
+		creative
+		unconventional
+		innovative
+		thoughtful
+		shallow
+		unimaginative
+		conventional
+		uninspired
+		simple
+	}
+}
+
+#################
+# EDUCATION		#
+#################
+focus_ed_etiquette = {
+	type = character
+		
+	potential = {
+		age = 7
+		is_adult = no
+	}
+	
+	allow = {
+		is_female = no
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		is_adult = yes
+	}
+	
+	abort_effect = {
+	}
+	
+	# MODIFIERS
+	diplomacy = 1
+	
+	good_traits = {
+		organized
+		diligent
+		careful
+		thorough
+		precise
+		
+		outgoing
+		lively
+		sociable
+		talkative
+		cheerful
+	}
+	
+	bad_traits = {
+		passive
+		withdrawn
+		introverted
+		quiet
+		reserved
+		
+		illtempered
+		quarrelsome
+		stubborn
+		intolerant
+		wroth
+	}
+}
+
+focus_ed_martial_arts = {
+	type = character
+		
+	potential = {
+		age = 7
+		is_adult = no
+	}
+	
+	allow = {
+		is_female = no
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		is_adult = yes
+	}
+	
+	abort_effect = {
+	}
+	
+	# MODIFIERS
+	combat_rating = 2
+	
+	good_traits = {
+		stable
+		selfassured
+		independent
+		tough
+		brave
+		
+		organized
+		diligent
+		careful
+		thorough
+		precise
+
+	}
+	
+	bad_traits = {
+		craven
+		sentimental
+		fearful
+		anxious
+		vulnerable
+		
+		sloppy
+		negligent
+		reckless
+		lazy
+		irresponsible
+	}
+}
+
+focus_ed_knowledge = {
+	type = character
+		
+	potential = {
+		age = 7
+		is_adult = no
+	}
+	
+	allow = {
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		is_adult = yes
+	}
+	
+	abort_effect = {
+	}
+	
+	# MODIFIERS
+	learning = 1
+	
+	good_traits = {
+		intellectual
+		creative
+		unconventional
+		innovative
+		thoughtful
+	}
+	
+	bad_traits = {
+		shallow
+		unimaginative
+		conventional
+		uninspired
+		simple
+	}
+}
+
+focus_ed_theology = {
+	type = character
+		
+	potential = {
+		age = 7
+		is_adult = no
+	}
+	
+	allow = {
+		has_character_flag = child_oblat
+	}
+	
+	# AI Pick chance
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 10
+			is_theocracy = yes
+		}
+	}
+	
+	# Focuses have no success conditions
+	success = {
+		always = no
+	}
+	
+	abort = {
+		is_adult = yes
+	}
+	
+	abort_effect = {
+	}
+	
+	# MODIFIERS
+	learning = 1
+	
+	good_traits = {
+		intellectual
+		creative
+		unconventional
+		innovative
+		thoughtful
+		
+		faithful
+		honest
+		sincere
+		generous
+		humble
+
+	}
+	
+	bad_traits = {
+		shallow
+		unimaginative
+		conventional
+		uninspired
+		simple
+
+		pretentious
+		greedy
+		inconstant
+		deceitful
+		hypocritical
+	}
+}
+

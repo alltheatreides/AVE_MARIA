@@ -191,7 +191,6 @@ focus_ch_thrift = {
 	}
 }
 
-#Western Boy clerical education
 focus_ch_faith = {
 	type = character
 	
@@ -251,7 +250,6 @@ focus_ch_faith = {
 	}
 }
 
-# Western Boy martial education
 focus_ch_struggle = {
 	type = character
 	
@@ -308,7 +306,6 @@ focus_ch_struggle = {
 	}
 }
 
-#Girl education
 focus_ch_heritage = {
 	type = character
 	
@@ -341,3 +338,5 @@ focus_ch_heritage = {
 	
 
 }
+
+

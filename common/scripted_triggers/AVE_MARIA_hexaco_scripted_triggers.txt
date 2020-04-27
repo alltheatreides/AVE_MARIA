@@ -1,0 +1,91 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Triggers																	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+# Character
+has_hexaco_personality_trait = {
+	OR = {
+		trait = faithful
+		trait = honest
+		trait = sincere
+		trait = generous
+		trait = humble
+		trait = pretentious
+		trait = greedy
+		trait = inconstant
+		trait = deceitful
+		trait = hypocritical
+		trait = craven
+		trait = sentimental
+		trait = fearful
+		trait = anxious
+		trait = vulnerable 
+		trait = stable
+		trait = selfassured
+		trait = independent
+		trait = tough
+		trait = brave
+		trait = outgoing
+		trait = lively
+		trait = sociable
+		trait = talkative
+		trait = cheerful
+		trait = passive
+		trait = withdrawn
+		trait = introverted
+		trait = quiet
+		trait = reserved
+		trait = patient
+		trait = tolerant
+		trait = agreeable
+		trait = mild
+		trait = gentle
+		trait = illtempered
+		trait = quarrelsome
+		trait = stubborn
+		trait = intolerant
+		trait = wroth
+		trait = organized
+		trait = diligent
+		trait = careful
+		trait = thorough
+		trait = precise
+		trait = sloppy
+		trait = negligent
+		trait = reckless
+		trait = lazy
+		trait = irresponsible
+		trait = intellectual
+		trait = creative
+		trait = unconventional
+		trait = innovative
+		trait = thoughtful
+		trait = shallow
+		trait = unimaginative
+		trait = conventional
+		trait = uninspired
+		trait = simple
+	}
+}
+
+has_hexaco_education_trait = {
+	OR = {
+		trait = etiquette_1
+		trait = etiquette_2
+		trait = etiquette_3
+		trait = etiquette_4
+		trait = etiquette_5
+		trait = theology_1
+		trait = theology_2
+		trait = theology_3
+		trait = theology_4
+		trait = theology_5
+	}
+}

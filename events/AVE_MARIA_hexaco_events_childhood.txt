@@ -1,0 +1,8152 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# HEXACO childhood events for everyone			                       				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_hexaco_childhood
+
+##NOTES:
+## Events are tiered between 2-7 years old and 7-12 years old
+
+#############################################
+# Birth										#
+#############################################
+## At birth the child inherit father or mother's HEXACO traits with level above or below
+character_event = {		
+	id = AVE_MARIA_hexaco_childhood.1	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Zeus"
+	}
+		
+	immediate = {
+		#faithful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = faithful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						5 = {		
+							add_trait = generous
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = faithful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						5 = {		
+							add_trait = generous
+						}		
+					}			
+				}				
+			}					
+		}						
+		#honest						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = honest
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						5 = {		
+							add_trait = humble
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = honest
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						5 = {		
+							add_trait = humble
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sincere						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sincere
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						5 = {		
+							add_trait = pretentious
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sincere
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						5 = {		
+							add_trait = pretentious
+						}		
+					}			
+				}				
+			}					
+		}						
+		#generous						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = generous
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						5 = {		
+							add_trait = greedy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = generous
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						5 = {		
+							add_trait = greedy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#humble						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = humble
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						5 = {		
+							add_trait = inconstant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = humble
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						5 = {		
+							add_trait = inconstant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#pretentious						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = pretentious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						5 = {		
+							add_trait = deceitful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = pretentious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						5 = {		
+							add_trait = deceitful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#greedy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = greedy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						5 = {		
+							add_trait = hypocritical
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = greedy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						5 = {		
+							add_trait = hypocritical
+						}		
+					}			
+				}				
+			}					
+		}						
+		#inconstant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = inconstant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						5 = {		
+							add_trait = craven
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = inconstant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						5 = {		
+							add_trait = craven
+						}		
+					}			
+				}				
+			}					
+		}						
+		#deceitful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = deceitful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						5 = {		
+							add_trait = sentimental
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = deceitful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						5 = {		
+							add_trait = sentimental
+						}		
+					}			
+				}				
+			}					
+		}						
+		#hypocritical						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = hypocritical
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						5 = {		
+							add_trait = fearful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = hypocritical
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						5 = {		
+							add_trait = fearful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#craven						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = craven
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						5 = {		
+							add_trait = anxious
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = craven
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						5 = {		
+							add_trait = anxious
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sentimental						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sentimental
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						5 = {		
+							add_trait = vulnerable 
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sentimental
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						5 = {		
+							add_trait = vulnerable 
+						}		
+					}			
+				}				
+			}					
+		}						
+		#fearful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = fearful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						5 = {		
+							add_trait = stable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = fearful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						5 = {		
+							add_trait = stable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#anxious						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = anxious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						5 = {		
+							add_trait = selfassured
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = anxious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						5 = {		
+							add_trait = selfassured
+						}		
+					}			
+				}				
+			}					
+		}						
+		#vulnerable 						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = vulnerable 
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						5 = {		
+							add_trait = independent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = vulnerable 
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						5 = {		
+							add_trait = independent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#stable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = stable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						5 = {		
+							add_trait = tough
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = stable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						5 = {		
+							add_trait = tough
+						}		
+					}			
+				}				
+			}					
+		}						
+		#selfassured						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = selfassured
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						5 = {		
+							add_trait = brave
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = selfassured
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						5 = {		
+							add_trait = brave
+						}		
+					}			
+				}				
+			}					
+		}						
+		#independent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = independent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						5 = {		
+							add_trait = outgoing
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = independent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						5 = {		
+							add_trait = outgoing
+						}		
+					}			
+				}				
+			}					
+		}						
+		#tough						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = tough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						5 = {		
+							add_trait = lively
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = tough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						5 = {		
+							add_trait = lively
+						}		
+					}			
+				}				
+			}					
+		}						
+		#brave						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = brave
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						5 = {		
+							add_trait = sociable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = brave
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						5 = {		
+							add_trait = sociable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#outgoing						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = outgoing
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						5 = {		
+							add_trait = talkative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = outgoing
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						5 = {		
+							add_trait = talkative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#lively						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = lively
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						5 = {		
+							add_trait = cheerful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = lively
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						5 = {		
+							add_trait = cheerful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sociable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sociable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						5 = {		
+							add_trait = passive
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sociable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						5 = {		
+							add_trait = passive
+						}		
+					}			
+				}				
+			}					
+		}						
+		#talkative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = talkative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						5 = {		
+							add_trait = withdrawn
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = talkative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						5 = {		
+							add_trait = withdrawn
+						}		
+					}			
+				}				
+			}					
+		}						
+		#cheerful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = cheerful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						5 = {		
+							add_trait = introverted
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = cheerful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						5 = {		
+							add_trait = introverted
+						}		
+					}			
+				}				
+			}					
+		}						
+		#passive						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = passive
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						5 = {		
+							add_trait = quiet
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = passive
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						5 = {		
+							add_trait = quiet
+						}		
+					}			
+				}				
+			}					
+		}						
+		#withdrawn						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = withdrawn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						5 = {		
+							add_trait = reserved
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = withdrawn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						5 = {		
+							add_trait = reserved
+						}		
+					}			
+				}				
+			}					
+		}						
+		#introverted						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = introverted
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						5 = {		
+							add_trait = patient
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = introverted
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						5 = {		
+							add_trait = patient
+						}		
+					}			
+				}				
+			}					
+		}						
+		#quiet						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = quiet
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						5 = {		
+							add_trait = tolerant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = quiet
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						5 = {		
+							add_trait = tolerant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#reserved						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = reserved
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						5 = {		
+							add_trait = agreeable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = reserved
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						5 = {		
+							add_trait = agreeable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#patient						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = patient
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						5 = {		
+							add_trait = mild
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = patient
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						5 = {		
+							add_trait = mild
+						}		
+					}			
+				}				
+			}					
+		}						
+		#tolerant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = tolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						5 = {		
+							add_trait = gentle
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = tolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						5 = {		
+							add_trait = gentle
+						}		
+					}			
+				}				
+			}					
+		}						
+		#agreeable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = agreeable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						5 = {		
+							add_trait = illtempered
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = agreeable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						5 = {		
+							add_trait = illtempered
+						}		
+					}			
+				}				
+			}					
+		}						
+		#mild						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = mild
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						5 = {		
+							add_trait = quarrelsome
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = mild
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						5 = {		
+							add_trait = quarrelsome
+						}		
+					}			
+				}				
+			}					
+		}						
+		#gentle						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = gentle
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						5 = {		
+							add_trait = stubborn
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = gentle
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						5 = {		
+							add_trait = stubborn
+						}		
+					}			
+				}				
+			}					
+		}						
+		#illtempered						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = illtempered
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						5 = {		
+							add_trait = intolerant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = illtempered
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						5 = {		
+							add_trait = intolerant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#quarrelsome						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = quarrelsome
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						5 = {		
+							add_trait = wroth
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = quarrelsome
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						5 = {		
+							add_trait = wroth
+						}		
+					}			
+				}				
+			}					
+		}						
+		#stubborn						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = stubborn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						5 = {		
+							add_trait = organized
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = stubborn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						5 = {		
+							add_trait = organized
+						}		
+					}			
+				}				
+			}					
+		}						
+		#intolerant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = intolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						5 = {		
+							add_trait = diligent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = intolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						5 = {		
+							add_trait = diligent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#wroth						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = wroth
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						5 = {		
+							add_trait = careful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = wroth
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						5 = {		
+							add_trait = careful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#organized						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = organized
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						5 = {		
+							add_trait = thorough
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = organized
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						5 = {		
+							add_trait = thorough
+						}		
+					}			
+				}				
+			}					
+		}						
+		#diligent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = diligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						5 = {		
+							add_trait = precise
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = diligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						5 = {		
+							add_trait = precise
+						}		
+					}			
+				}				
+			}					
+		}						
+		#careful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = careful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						5 = {		
+							add_trait = sloppy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = careful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						5 = {		
+							add_trait = sloppy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#thorough						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = thorough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						5 = {		
+							add_trait = negligent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = thorough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						5 = {		
+							add_trait = negligent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#precise						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = precise
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						5 = {		
+							add_trait = reckless
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = precise
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						5 = {		
+							add_trait = reckless
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sloppy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sloppy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						5 = {		
+							add_trait = lazy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sloppy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						5 = {		
+							add_trait = lazy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#negligent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = negligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						5 = {		
+							add_trait = irresponsible
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = negligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						5 = {		
+							add_trait = irresponsible
+						}		
+					}			
+				}				
+			}					
+		}						
+		#reckless						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = reckless
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						5 = {		
+							add_trait = intellectual
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = reckless
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						5 = {		
+							add_trait = intellectual
+						}		
+					}			
+				}				
+			}					
+		}						
+		#lazy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = lazy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						5 = {		
+							add_trait = creative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = lazy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						5 = {		
+							add_trait = creative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#irresponsible						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = irresponsible
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						5 = {		
+							add_trait = unconventional
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = irresponsible
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						5 = {		
+							add_trait = unconventional
+						}		
+					}			
+				}				
+			}					
+		}						
+		#intellectual						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = intellectual
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						5 = {		
+							add_trait = innovative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = intellectual
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						5 = {		
+							add_trait = innovative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#creative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = creative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						5 = {		
+							add_trait = thoughtful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = creative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						5 = {		
+							add_trait = thoughtful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#unconventional						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = unconventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						5 = {		
+							add_trait = shallow
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = unconventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						5 = {		
+							add_trait = shallow
+						}		
+					}			
+				}				
+			}					
+		}						
+		#innovative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = innovative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						5 = {		
+							add_trait = unimaginative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = innovative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						5 = {		
+							add_trait = unimaginative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#thoughtful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = thoughtful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						5 = {		
+							add_trait = conventional
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = thoughtful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						5 = {		
+							add_trait = conventional
+						}		
+					}			
+				}				
+			}					
+		}						
+		#shallow						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = shallow
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						5 = {		
+							add_trait = uninspired
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = shallow
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						5 = {		
+							add_trait = uninspired
+						}		
+					}			
+				}				
+			}					
+		}						
+		#unimaginative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = unimaginative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = unimaginative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+		}						
+		#conventional						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = conventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = faithful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = conventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = faithful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#uninspired						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = uninspired
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						5 = {		
+							add_trait = honest
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = uninspired
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						5 = {		
+							add_trait = honest
+						}		
+					}			
+				}				
+			}					
+		}						
+		#simple						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = simple
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						5 = {		
+							add_trait = sincere
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = simple
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						5 = {		
+							add_trait = sincere
+						}		
+					}			
+				}				
+			}					
+		}						
+		#faithful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = faithful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						5 = {		
+							add_trait = generous
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = faithful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						5 = {		
+							add_trait = generous
+						}		
+					}			
+				}				
+			}					
+		}						
+		#honest						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = honest
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						5 = {		
+							add_trait = humble
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = honest
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						5 = {		
+							add_trait = humble
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sincere						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sincere
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						5 = {		
+							add_trait = pretentious
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sincere
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = faithful
+						}		
+						30 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						5 = {		
+							add_trait = pretentious
+						}		
+					}			
+				}				
+			}					
+		}						
+		#generous						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = generous
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						5 = {		
+							add_trait = greedy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = generous
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = faithful
+						}		
+						10 = {		
+							add_trait = honest
+						}		
+						30 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						5 = {		
+							add_trait = greedy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#humble						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = humble
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						5 = {		
+							add_trait = inconstant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = humble
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = honest
+						}		
+						10 = {		
+							add_trait = sincere
+						}		
+						30 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						5 = {		
+							add_trait = inconstant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#pretentious						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = pretentious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						5 = {		
+							add_trait = deceitful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = pretentious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sincere
+						}		
+						10 = {		
+							add_trait = generous
+						}		
+						30 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						5 = {		
+							add_trait = deceitful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#greedy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = greedy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						5 = {		
+							add_trait = hypocritical
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = greedy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = generous
+						}		
+						10 = {		
+							add_trait = humble
+						}		
+						30 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						5 = {		
+							add_trait = hypocritical
+						}		
+					}			
+				}				
+			}					
+		}						
+		#inconstant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = inconstant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						5 = {		
+							add_trait = craven
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = inconstant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = humble
+						}		
+						10 = {		
+							add_trait = pretentious
+						}		
+						30 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						5 = {		
+							add_trait = craven
+						}		
+					}			
+				}				
+			}					
+		}						
+		#deceitful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = deceitful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						5 = {		
+							add_trait = sentimental
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = deceitful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = pretentious
+						}		
+						10 = {		
+							add_trait = greedy
+						}		
+						30 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						5 = {		
+							add_trait = sentimental
+						}		
+					}			
+				}				
+			}					
+		}						
+		#hypocritical						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = hypocritical
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						5 = {		
+							add_trait = fearful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = hypocritical
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = greedy
+						}		
+						10 = {		
+							add_trait = inconstant
+						}		
+						30 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						5 = {		
+							add_trait = fearful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#craven						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = craven
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						5 = {		
+							add_trait = anxious
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = craven
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = inconstant
+						}		
+						10 = {		
+							add_trait = deceitful
+						}		
+						30 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						5 = {		
+							add_trait = anxious
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sentimental						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sentimental
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						5 = {		
+							add_trait = vulnerable 
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sentimental
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = deceitful
+						}		
+						10 = {		
+							add_trait = hypocritical
+						}		
+						30 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						5 = {		
+							add_trait = vulnerable 
+						}		
+					}			
+				}				
+			}					
+		}						
+		#fearful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = fearful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						5 = {		
+							add_trait = stable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = fearful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = hypocritical
+						}		
+						10 = {		
+							add_trait = craven
+						}		
+						30 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						5 = {		
+							add_trait = stable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#anxious						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = anxious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						5 = {		
+							add_trait = selfassured
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = anxious
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = craven
+						}		
+						10 = {		
+							add_trait = sentimental
+						}		
+						30 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						5 = {		
+							add_trait = selfassured
+						}		
+					}			
+				}				
+			}					
+		}						
+		#vulnerable 						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = vulnerable 
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						5 = {		
+							add_trait = independent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = vulnerable 
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sentimental
+						}		
+						10 = {		
+							add_trait = fearful
+						}		
+						30 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						5 = {		
+							add_trait = independent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#stable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = stable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						5 = {		
+							add_trait = tough
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = stable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = fearful
+						}		
+						10 = {		
+							add_trait = anxious
+						}		
+						30 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						5 = {		
+							add_trait = tough
+						}		
+					}			
+				}				
+			}					
+		}						
+		#selfassured						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = selfassured
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						5 = {		
+							add_trait = brave
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = selfassured
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = anxious
+						}		
+						10 = {		
+							add_trait = vulnerable 
+						}		
+						30 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						5 = {		
+							add_trait = brave
+						}		
+					}			
+				}				
+			}					
+		}						
+		#independent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = independent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						5 = {		
+							add_trait = outgoing
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = independent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = vulnerable 
+						}		
+						10 = {		
+							add_trait = stable
+						}		
+						30 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						5 = {		
+							add_trait = outgoing
+						}		
+					}			
+				}				
+			}					
+		}						
+		#tough						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = tough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						5 = {		
+							add_trait = lively
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = tough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stable
+						}		
+						10 = {		
+							add_trait = selfassured
+						}		
+						30 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						5 = {		
+							add_trait = lively
+						}		
+					}			
+				}				
+			}					
+		}						
+		#brave						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = brave
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						5 = {		
+							add_trait = sociable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = brave
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = selfassured
+						}		
+						10 = {		
+							add_trait = independent
+						}		
+						30 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						5 = {		
+							add_trait = sociable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#outgoing						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = outgoing
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						5 = {		
+							add_trait = talkative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = outgoing
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = independent
+						}		
+						10 = {		
+							add_trait = tough
+						}		
+						30 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						5 = {		
+							add_trait = talkative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#lively						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = lively
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						5 = {		
+							add_trait = cheerful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = lively
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tough
+						}		
+						10 = {		
+							add_trait = brave
+						}		
+						30 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						5 = {		
+							add_trait = cheerful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sociable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sociable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						5 = {		
+							add_trait = passive
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sociable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = brave
+						}		
+						10 = {		
+							add_trait = outgoing
+						}		
+						30 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						5 = {		
+							add_trait = passive
+						}		
+					}			
+				}				
+			}					
+		}						
+		#talkative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = talkative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						5 = {		
+							add_trait = withdrawn
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = talkative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = outgoing
+						}		
+						10 = {		
+							add_trait = lively
+						}		
+						30 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						5 = {		
+							add_trait = withdrawn
+						}		
+					}			
+				}				
+			}					
+		}						
+		#cheerful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = cheerful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						5 = {		
+							add_trait = introverted
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = cheerful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lively
+						}		
+						10 = {		
+							add_trait = sociable
+						}		
+						30 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						5 = {		
+							add_trait = introverted
+						}		
+					}			
+				}				
+			}					
+		}						
+		#passive						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = passive
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						5 = {		
+							add_trait = quiet
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = passive
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sociable
+						}		
+						10 = {		
+							add_trait = talkative
+						}		
+						30 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						5 = {		
+							add_trait = quiet
+						}		
+					}			
+				}				
+			}					
+		}						
+		#withdrawn						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = withdrawn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						5 = {		
+							add_trait = reserved
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = withdrawn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = talkative
+						}		
+						10 = {		
+							add_trait = cheerful
+						}		
+						30 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						5 = {		
+							add_trait = reserved
+						}		
+					}			
+				}				
+			}					
+		}						
+		#introverted						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = introverted
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						5 = {		
+							add_trait = patient
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = introverted
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = cheerful
+						}		
+						10 = {		
+							add_trait = passive
+						}		
+						30 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						5 = {		
+							add_trait = patient
+						}		
+					}			
+				}				
+			}					
+		}						
+		#quiet						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = quiet
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						5 = {		
+							add_trait = tolerant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = quiet
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = passive
+						}		
+						10 = {		
+							add_trait = withdrawn
+						}		
+						30 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						5 = {		
+							add_trait = tolerant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#reserved						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = reserved
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						5 = {		
+							add_trait = agreeable
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = reserved
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = withdrawn
+						}		
+						10 = {		
+							add_trait = introverted
+						}		
+						30 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						5 = {		
+							add_trait = agreeable
+						}		
+					}			
+				}				
+			}					
+		}						
+		#patient						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = patient
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						5 = {		
+							add_trait = mild
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = patient
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = introverted
+						}		
+						10 = {		
+							add_trait = quiet
+						}		
+						30 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						5 = {		
+							add_trait = mild
+						}		
+					}			
+				}				
+			}					
+		}						
+		#tolerant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = tolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						5 = {		
+							add_trait = gentle
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = tolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quiet
+						}		
+						10 = {		
+							add_trait = reserved
+						}		
+						30 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						5 = {		
+							add_trait = gentle
+						}		
+					}			
+				}				
+			}					
+		}						
+		#agreeable						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = agreeable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						5 = {		
+							add_trait = illtempered
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = agreeable
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reserved
+						}		
+						10 = {		
+							add_trait = patient
+						}		
+						30 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						5 = {		
+							add_trait = illtempered
+						}		
+					}			
+				}				
+			}					
+		}						
+		#mild						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = mild
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						5 = {		
+							add_trait = quarrelsome
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = mild
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = patient
+						}		
+						10 = {		
+							add_trait = tolerant
+						}		
+						30 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						5 = {		
+							add_trait = quarrelsome
+						}		
+					}			
+				}				
+			}					
+		}						
+		#gentle						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = gentle
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						5 = {		
+							add_trait = stubborn
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = gentle
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = tolerant
+						}		
+						10 = {		
+							add_trait = agreeable
+						}		
+						30 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						5 = {		
+							add_trait = stubborn
+						}		
+					}			
+				}				
+			}					
+		}						
+		#illtempered						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = illtempered
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						5 = {		
+							add_trait = intolerant
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = illtempered
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = agreeable
+						}		
+						10 = {		
+							add_trait = mild
+						}		
+						30 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						5 = {		
+							add_trait = intolerant
+						}		
+					}			
+				}				
+			}					
+		}						
+		#quarrelsome						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = quarrelsome
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						5 = {		
+							add_trait = wroth
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = quarrelsome
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = mild
+						}		
+						10 = {		
+							add_trait = gentle
+						}		
+						30 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						5 = {		
+							add_trait = wroth
+						}		
+					}			
+				}				
+			}					
+		}						
+		#stubborn						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = stubborn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						5 = {		
+							add_trait = organized
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = stubborn
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = gentle
+						}		
+						10 = {		
+							add_trait = illtempered
+						}		
+						30 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						5 = {		
+							add_trait = organized
+						}		
+					}			
+				}				
+			}					
+		}						
+		#intolerant						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = intolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						5 = {		
+							add_trait = diligent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = intolerant
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = illtempered
+						}		
+						10 = {		
+							add_trait = quarrelsome
+						}		
+						30 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						5 = {		
+							add_trait = diligent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#wroth						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = wroth
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						5 = {		
+							add_trait = careful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = wroth
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = quarrelsome
+						}		
+						10 = {		
+							add_trait = stubborn
+						}		
+						30 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						5 = {		
+							add_trait = careful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#organized						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = organized
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						5 = {		
+							add_trait = thorough
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = organized
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = stubborn
+						}		
+						10 = {		
+							add_trait = intolerant
+						}		
+						30 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						5 = {		
+							add_trait = thorough
+						}		
+					}			
+				}				
+			}					
+		}						
+		#diligent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = diligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						5 = {		
+							add_trait = precise
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = diligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intolerant
+						}		
+						10 = {		
+							add_trait = wroth
+						}		
+						30 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						5 = {		
+							add_trait = precise
+						}		
+					}			
+				}				
+			}					
+		}						
+		#careful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = careful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						5 = {		
+							add_trait = sloppy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = careful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = wroth
+						}		
+						10 = {		
+							add_trait = organized
+						}		
+						30 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						5 = {		
+							add_trait = sloppy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#thorough						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = thorough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						5 = {		
+							add_trait = negligent
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = thorough
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = organized
+						}		
+						10 = {		
+							add_trait = diligent
+						}		
+						30 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						5 = {		
+							add_trait = negligent
+						}		
+					}			
+				}				
+			}					
+		}						
+		#precise						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = precise
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						5 = {		
+							add_trait = reckless
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = precise
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = diligent
+						}		
+						10 = {		
+							add_trait = careful
+						}		
+						30 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						5 = {		
+							add_trait = reckless
+						}		
+					}			
+				}				
+			}					
+		}						
+		#sloppy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = sloppy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						5 = {		
+							add_trait = lazy
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = sloppy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = careful
+						}		
+						10 = {		
+							add_trait = thorough
+						}		
+						30 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						5 = {		
+							add_trait = lazy
+						}		
+					}			
+				}				
+			}					
+		}						
+		#negligent						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = negligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						5 = {		
+							add_trait = irresponsible
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = negligent
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thorough
+						}		
+						10 = {		
+							add_trait = precise
+						}		
+						30 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						5 = {		
+							add_trait = irresponsible
+						}		
+					}			
+				}				
+			}					
+		}						
+		#reckless						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = reckless
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						5 = {		
+							add_trait = intellectual
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = reckless
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = precise
+						}		
+						10 = {		
+							add_trait = sloppy
+						}		
+						30 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						5 = {		
+							add_trait = intellectual
+						}		
+					}			
+				}				
+			}					
+		}						
+		#lazy						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = lazy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						5 = {		
+							add_trait = creative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = lazy
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = sloppy
+						}		
+						10 = {		
+							add_trait = negligent
+						}		
+						30 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						5 = {		
+							add_trait = creative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#irresponsible						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = irresponsible
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						5 = {		
+							add_trait = unconventional
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = irresponsible
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = negligent
+						}		
+						10 = {		
+							add_trait = reckless
+						}		
+						30 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						5 = {		
+							add_trait = unconventional
+						}		
+					}			
+				}				
+			}					
+		}						
+		#intellectual						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = intellectual
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						5 = {		
+							add_trait = innovative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = intellectual
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = reckless
+						}		
+						10 = {		
+							add_trait = lazy
+						}		
+						30 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						5 = {		
+							add_trait = innovative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#creative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = creative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						5 = {		
+							add_trait = thoughtful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = creative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = lazy
+						}		
+						10 = {		
+							add_trait = irresponsible
+						}		
+						30 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						5 = {		
+							add_trait = thoughtful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#unconventional						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = unconventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						5 = {		
+							add_trait = shallow
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = unconventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = irresponsible
+						}		
+						10 = {		
+							add_trait = intellectual
+						}		
+						30 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						5 = {		
+							add_trait = shallow
+						}		
+					}			
+				}				
+			}					
+		}						
+		#innovative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = innovative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						5 = {		
+							add_trait = unimaginative
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = innovative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = intellectual
+						}		
+						10 = {		
+							add_trait = creative
+						}		
+						30 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						5 = {		
+							add_trait = unimaginative
+						}		
+					}			
+				}				
+			}					
+		}						
+		#thoughtful						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = thoughtful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						5 = {		
+							add_trait = conventional
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = thoughtful
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = creative
+						}		
+						10 = {		
+							add_trait = unconventional
+						}		
+						30 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						5 = {		
+							add_trait = conventional
+						}		
+					}			
+				}				
+			}					
+		}						
+		#shallow						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = shallow
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						5 = {		
+							add_trait = uninspired
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = shallow
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unconventional
+						}		
+						10 = {		
+							add_trait = innovative
+						}		
+						30 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						5 = {		
+							add_trait = uninspired
+						}		
+					}			
+				}				
+			}					
+		}						
+		#unimaginative						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = unimaginative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = unimaginative
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = innovative
+						}		
+						10 = {		
+							add_trait = thoughtful
+						}		
+						30 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+		}						
+		#conventional						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = conventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = faithful
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = conventional
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = thoughtful
+						}		
+						10 = {		
+							add_trait = shallow
+						}		
+						30 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = faithful
+						}		
+					}			
+				}				
+			}					
+		}						
+		#uninspired						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = uninspired
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = uninspired
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = shallow
+						}		
+						10 = {		
+							add_trait = unimaginative
+						}		
+						30 = {		
+							add_trait = conventional
+						}		
+						10 = {		
+							add_trait = uninspired
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+		}
+		#simple						
+		random_list = {						
+			50 = { 					
+				if = {				
+					limit = {			
+						mother_even_if_dead = {		
+							trait = simple
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+			50 = { 					
+				if = {				
+					limit = {			
+						father_even_if_dead = {		
+							trait = 0
+						}		
+					}			
+					random_list = {			
+						5 = {		
+							add_trait = unimaginative
+						}		
+						10 = {		
+							add_trait = conventional
+						}		
+						30 = {		
+							add_trait = uninspired
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						30 = {		
+							add_trait = simple
+						}		
+						10 = {		
+							add_trait = simple
+						}		
+						5 = {		
+							add_trait = simple
+						}		
+					}			
+				}				
+			}					
+		}
+	}
+	
+}
+
+#############################################
+# Petite enfance 2-7 years old				#
+#############################################
+
+## Baptism
+
+## Church view on child on all four being closer to animal
+
+## First words
+# Papa first words
+# Mama first words
+# Nurse name as first
+# If bastard, name the hidden father first and suspicion is arousen
+
+## Words repetition
+# Babe repeats words of the Pater Noster - pious child
+# Sober child, does not gabble often
+
+## Child plays
+# Offer a new gift to your child
+# Someone offers a new gift to the child
+# Child just has a lot of imaginary friends - chance to develop positive Openness to Experience ranking the higher if not a lot of toys
+# Imaginary friends squashed by tutor
+# Child has a lot of toys and has a chance to order them - chance to develop positive/negative Conscientiousness ranking
+# Tutor trips on child toy and opens up venues for ordering the cleaning of his toys.
+# Follow up - Tutor encourages the cleaning of child toys/space - chance to develop positive Conscientiousness ranking
+# Share toys with other child ? - chance to develop positive/negative Extraversion ranking depending on choice
+
+## Animistic behavior
+# Where does the sun go ? - chance to develop positive Openness to Experience ranking
+# Monster under the bed ? 
+
+## Emotions
+# Affection for mother child prefers mother
+# Affection for father child prefers father
+# Affection for nurse child prefers nurse
+# Nurse affection continuation - get rid of the nurse
+# Antipathy for someone at court
+# Antipathy for other child of the same age or near it at court
+# Antipathy for father
+# Antipathy for father follow up father patches things up
+# Antipathy for mother
+# Antipathy for mother follow up mother patches things up
+
+## Obeying
+# Child refuses to obey and observe rules
+# Tutor decides to physically punish the child - chance to develop positive/negative Emotionality trait - antipathy for tutor
+# Child lies to the tutor
+# Follow up from Child lies - Physical punition from the tutor - chance to develop positive/negative Emotionality trait - chance to develop negative Honesty-Humility ranking
+# Follow up from Child lies - Verbal punition from the tutor - chance to develop positive/negative Emotionality trait - chance to develop negative Honesty-Humility ranking
+
+## Gifted child
+# Encourages the child by exercises
+
+## Middle Age related events
+# Child blasphemes name of God - don't hit the child - hit the child - Chance to get bad opinion from the court priest
+
+# Religious education - Pater Noster, le Credo et l’Ave Maria learing from Mother
+
+# Grammarian basic reading and writing learning 5-6 years old
+
+#############################################
+# Grande enfance 7-12 years old				#
+#############################################
+
+## Socialisation
+# Conflict with another ward that are older - pranks
+# Conflict with another ward that are older - pranks - Child decides to protect comrade
+# Conflict with another group of wards and physical confrontation
+# Opportunity to bully younger child/play prank - accept - stop - chance to develop positive/negative Honesty-Humility ranking
+# Game between children and someone cheats - chance to develop positive/negative Honesty-Humility ranking
+# New child arrives at court opportunity to play with him - chance to develop positive/negative Extraversion ranking
+
+## Learning related
+# Tutor yells on child (if negative Agreeableness ) because he made a mistake - chance to develop negative Emotionality trait - slower learning
+# Patient tutor makes child learn better - faster learning - chance to develop positive Emotionality trait
+# Child reads/is told about a great Saint"s epic story - chance to develop positive Emotionality trait
+# Child reads/is told about a great hero epic story - chance to develop positive Emotionality trait

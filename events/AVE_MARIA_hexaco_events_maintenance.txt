@@ -1,0 +1,3990 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# HEXACO childhood events for everyone			                       				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_hexaco_maintenance
+
+##NOTES:
+## 
+
+#############################################
+# Maintenance								#
+#############################################
+## At start give all characters HEXACO traits
+character_event = {		
+	id = AVE_MARIA_hexaco_maintenance.1	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		has_dlc = "Zeus"
+		is_save_game = no
+	}
+		
+	immediate = {
+		#Making sure everyone gets the new traits
+		random_list = {
+			# Honesty-Humility				
+			#faithful					
+			16 = { 					
+				add_trait = faithful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#honest					
+			16 = { 					
+				add_trait = honest				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#sincere					
+			16 = { 					
+				add_trait = sincere				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#generous					
+			16 = { 					
+				add_trait = generous				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#humble					
+			16 = { 					
+				add_trait = humble				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#pretentious					
+			16 = { 					
+				add_trait = pretentious				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#greedy					
+			16 = { 					
+				add_trait = greedy				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#inconstant					
+			16 = { 					
+				add_trait = inconstant				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#deceitful					
+			16 = { 					
+				add_trait = deceitful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Honesty-Humility				
+			#hypocritical					
+			16 = { 					
+				add_trait = hypocritical				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = faithful		
+						trait = honest		
+						trait = sincere		
+						trait = generous		
+						trait = humble		
+						trait = pretentious		
+						trait = greedy		
+						trait = inconstant		
+						trait = deceitful		
+						trait = hypocritical		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#craven					
+			16 = { 					
+				add_trait = craven				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#sentimental					
+			16 = { 					
+				add_trait = sentimental				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#fearful					
+			16 = { 					
+				add_trait = fearful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#anxious					
+			16 = { 					
+				add_trait = anxious				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#vulnerable					
+			16 = { 					
+				add_trait = vulnerable				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#stable					
+			16 = { 					
+				add_trait = stable				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#selfassured					
+			16 = { 					
+				add_trait = selfassured				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#independent					
+			16 = { 					
+				add_trait = independent				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#tough					
+			16 = { 					
+				add_trait = tough				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Emotionality				
+			#brave					
+			16 = { 					
+				add_trait = brave				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = craven		
+						trait = sentimental		
+						trait = fearful		
+						trait = anxious		
+						trait = vulnerable		
+						trait = stable		
+						trait = selfassured		
+						trait = independent		
+						trait = tough		
+						trait = brave		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#outgoing					
+			16 = { 					
+				add_trait = outgoing				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#lively					
+			16 = { 					
+				add_trait = lively				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#sociable					
+			16 = { 					
+				add_trait = sociable				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#talkative					
+			16 = { 					
+				add_trait = talkative				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#cheerful					
+			16 = { 					
+				add_trait = cheerful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#passive					
+			16 = { 					
+				add_trait = passive				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#withdrawn					
+			16 = { 					
+				add_trait = withdrawn				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#introverted					
+			16 = { 					
+				add_trait = introverted				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#quiet					
+			16 = { 					
+				add_trait = quiet				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Extraversion				
+			#reserved					
+			16 = { 					
+				add_trait = reserved				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = outgoing		
+						trait = lively		
+						trait = sociable		
+						trait = talkative		
+						trait = cheerful		
+						trait = passive		
+						trait = withdrawn		
+						trait = introverted		
+						trait = quiet		
+						trait = reserved		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#patient					
+			16 = { 					
+				add_trait = patient				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#tolerant					
+			16 = { 					
+				add_trait = tolerant				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#agreeable					
+			16 = { 					
+				add_trait = agreeable				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#mild					
+			16 = { 					
+				add_trait = mild				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#gentle					
+			16 = { 					
+				add_trait = gentle				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#illtempered					
+			16 = { 					
+				add_trait = illtempered				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#quarrelsome					
+			16 = { 					
+				add_trait = quarrelsome				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#stubborn					
+			16 = { 					
+				add_trait = stubborn				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#intolerant					
+			16 = { 					
+				add_trait = intolerant				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Agreeableness				
+			#wroth					
+			16 = { 					
+				add_trait = wroth				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = patient		
+						trait = tolerant		
+						trait = agreeable		
+						trait = mild		
+						trait = gentle		
+						trait = illtempered		
+						trait = quarrelsome		
+						trait = stubborn		
+						trait = intolerant		
+						trait = wroth		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#organized					
+			16 = { 					
+				add_trait = organized				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#diligent					
+			16 = { 					
+				add_trait = diligent				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#careful					
+			16 = { 					
+				add_trait = careful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#thorough					
+			16 = { 					
+				add_trait = thorough				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#precise					
+			16 = { 					
+				add_trait = precise				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#sloppy					
+			16 = { 					
+				add_trait = sloppy				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#negligent					
+			16 = { 					
+				add_trait = negligent				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#reckless					
+			16 = { 					
+				add_trait = reckless				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#lazy					
+			16 = { 					
+				add_trait = lazy				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Conscientiousness				
+			#irresponsible					
+			16 = { 					
+				add_trait = irresponsible				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = organized		
+						trait = diligent		
+						trait = careful		
+						trait = thorough		
+						trait = precise		
+						trait = sloppy		
+						trait = negligent		
+						trait = reckless		
+						trait = lazy		
+						trait = irresponsible		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#intellectual					
+			16 = { 					
+				add_trait = intellectual				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#creative					
+			16 = { 					
+				add_trait = creative				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#unconventional					
+			16 = { 					
+				add_trait = unconventional				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#innovative					
+			16 = { 					
+				add_trait = innovative				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#thoughtful					
+			16 = { 					
+				add_trait = thoughtful				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#shallow					
+			16 = { 					
+				add_trait = shallow				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#unimaginative					
+			16 = { 					
+				add_trait = unimaginative				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#conventional					
+			16 = { 					
+				add_trait = conventional				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#uninspired					
+			16 = { 					
+				add_trait = uninspired				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+			# Openness to Experience				
+			#simple					
+			16 = { 					
+				add_trait = simple				
+				modifier = {				
+					factor = 0			
+					OR = {			
+						trait = intellectual		
+						trait = creative		
+						trait = unconventional		
+						trait = innovative		
+						trait = thoughtful		
+						trait = shallow		
+						trait = unimaginative		
+						trait = conventional		
+						trait = uninspired		
+						trait = simple		
+					}			
+				}				
+			}					
+
+		}
+		
+		any_character = {
+			remove_vanilla_education_trait = yes
+			remove_vanilla_childhood_trait = yes
+			# Add HEXACO traits
+			random_list = {
+				# Honesty-Humility				
+				#faithful					
+				16 = { 					
+					add_trait = faithful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#honest					
+				16 = { 					
+					add_trait = honest				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#sincere					
+				16 = { 					
+					add_trait = sincere				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#generous					
+				16 = { 					
+					add_trait = generous				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#humble					
+				16 = { 					
+					add_trait = humble				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#pretentious					
+				16 = { 					
+					add_trait = pretentious				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#greedy					
+				16 = { 					
+					add_trait = greedy				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#inconstant					
+				16 = { 					
+					add_trait = inconstant				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#deceitful					
+				16 = { 					
+					add_trait = deceitful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Honesty-Humility				
+				#hypocritical					
+				16 = { 					
+					add_trait = hypocritical				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = faithful		
+							trait = honest		
+							trait = sincere		
+							trait = generous		
+							trait = humble		
+							trait = pretentious		
+							trait = greedy		
+							trait = inconstant		
+							trait = deceitful		
+							trait = hypocritical		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#craven					
+				16 = { 					
+					add_trait = craven				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#sentimental					
+				16 = { 					
+					add_trait = sentimental				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#fearful					
+				16 = { 					
+					add_trait = fearful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#anxious					
+				16 = { 					
+					add_trait = anxious				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#vulnerable 					
+				16 = { 					
+					add_trait = vulnerable				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#stable					
+				16 = { 					
+					add_trait = stable				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#selfassured					
+				16 = { 					
+					add_trait = selfassured				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#independent					
+				16 = { 					
+					add_trait = independent				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#tough					
+				16 = { 					
+					add_trait = tough				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Emotionality				
+				#brave					
+				16 = { 					
+					add_trait = brave				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = craven		
+							trait = sentimental		
+							trait = fearful		
+							trait = anxious		
+							trait = vulnerable		
+							trait = stable		
+							trait = selfassured		
+							trait = independent		
+							trait = tough		
+							trait = brave		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#outgoing					
+				16 = { 					
+					add_trait = outgoing				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#lively					
+				16 = { 					
+					add_trait = lively				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#sociable					
+				16 = { 					
+					add_trait = sociable				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#talkative					
+				16 = { 					
+					add_trait = talkative				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#cheerful					
+				16 = { 					
+					add_trait = cheerful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#passive					
+				16 = { 					
+					add_trait = passive				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#withdrawn					
+				16 = { 					
+					add_trait = withdrawn				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#introverted					
+				16 = { 					
+					add_trait = introverted				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#quiet					
+				16 = { 					
+					add_trait = quiet				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Extraversion				
+				#reserved					
+				16 = { 					
+					add_trait = reserved				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = outgoing		
+							trait = lively		
+							trait = sociable		
+							trait = talkative		
+							trait = cheerful		
+							trait = passive		
+							trait = withdrawn		
+							trait = introverted		
+							trait = quiet		
+							trait = reserved		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#patient					
+				16 = { 					
+					add_trait = patient				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#tolerant					
+				16 = { 					
+					add_trait = tolerant				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#agreeable					
+				16 = { 					
+					add_trait = agreeable				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#mild					
+				16 = { 					
+					add_trait = mild				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#gentle					
+				16 = { 					
+					add_trait = gentle				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#illtempered					
+				16 = { 					
+					add_trait = illtempered				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#quarrelsome					
+				16 = { 					
+					add_trait = quarrelsome				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#stubborn					
+				16 = { 					
+					add_trait = stubborn				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#intolerant					
+				16 = { 					
+					add_trait = intolerant				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Agreeableness				
+				#wroth					
+				16 = { 					
+					add_trait = wroth				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = patient		
+							trait = tolerant		
+							trait = agreeable		
+							trait = mild		
+							trait = gentle		
+							trait = illtempered		
+							trait = quarrelsome		
+							trait = stubborn		
+							trait = intolerant		
+							trait = wroth		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#organized					
+				16 = { 					
+					add_trait = organized				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#diligent					
+				16 = { 					
+					add_trait = diligent				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#careful					
+				16 = { 					
+					add_trait = careful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#thorough					
+				16 = { 					
+					add_trait = thorough				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#precise					
+				16 = { 					
+					add_trait = precise				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#sloppy					
+				16 = { 					
+					add_trait = sloppy				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#negligent					
+				16 = { 					
+					add_trait = negligent				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#reckless					
+				16 = { 					
+					add_trait = reckless				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#lazy					
+				16 = { 					
+					add_trait = lazy				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Conscientiousness				
+				#irresponsible					
+				16 = { 					
+					add_trait = irresponsible				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = organized		
+							trait = diligent		
+							trait = careful		
+							trait = thorough		
+							trait = precise		
+							trait = sloppy		
+							trait = negligent		
+							trait = reckless		
+							trait = lazy		
+							trait = irresponsible		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#intellectual					
+				16 = { 					
+					add_trait = intellectual				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#creative					
+				16 = { 					
+					add_trait = creative				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#unconventional					
+				16 = { 					
+					add_trait = unconventional				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#innovative					
+				16 = { 					
+					add_trait = innovative				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#thoughtful					
+				16 = { 					
+					add_trait = thoughtful				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#shallow					
+				16 = { 					
+					add_trait = shallow				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#unimaginative					
+				16 = { 					
+					add_trait = unimaginative				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#conventional					
+				16 = { 					
+					add_trait = conventional				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#uninspired					
+				16 = { 					
+					add_trait = uninspired				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+				# Openness to Experience				
+				#simple					
+				16 = { 					
+					add_trait = simple				
+					modifier = {				
+						factor = 0			
+						OR = {			
+							trait = intellectual		
+							trait = creative		
+							trait = unconventional		
+							trait = innovative		
+							trait = thoughtful		
+							trait = shallow		
+							trait = unimaginative		
+							trait = conventional		
+							trait = uninspired		
+							trait = simple		
+						}			
+					}				
+				}					
+
+			}
+			# Add Noble education - Etiquette
+			if = {
+				limit = {
+					is_landed = yes
+					NOR = {
+						trait = etiquette_1
+						trait = etiquette_2
+						trait = etiquette_3
+						trait = etiquette_4
+						trait = etiquette_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = etiquette_1	
+					}		
+					20 = { 		
+						add_trait = etiquette_2	
+					}		
+					20 = { 		
+						add_trait = etiquette_3	
+					}		
+					20 = { 		
+						add_trait = etiquette_4	
+					}		
+					20 = { 		
+						add_trait = etiquette_5	
+					}		
+				}
+			}
+			# Add Noble education - Riding
+			if = {
+				limit = {
+					is_landed = yes
+					is_female = no
+					NOR = {
+						trait = riding_1
+						trait = riding_2
+						trait = riding_3
+						trait = riding_4
+						trait = riding_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = riding_1	
+					}		
+					20 = { 		
+						add_trait = riding_2	
+					}		
+					20 = { 		
+						add_trait = riding_3	
+					}		
+					20 = { 		
+						add_trait = riding_4	
+					}		
+					20 = { 		
+						add_trait = riding_5
+						modifier = {
+							factor = 2
+							culture_group = altaic
+						}
+					}		
+				}
+			}
+			# Add Theology education for religious
+			if = {
+				limit = {
+					is_priest = yes
+					NOR = {
+						trait = theology_1
+						trait = theology_2
+						trait = theology_3
+						trait = theology_4
+						trait = theology_5
+						trait = read_write_1
+						trait = read_write_2
+						trait = read_write_3
+						trait = read_write_4
+						trait = read_write_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = theology_1	
+					}		
+					20 = { 		
+						add_trait = theology_2	
+					}		
+					20 = { 		
+						add_trait = theology_3	
+					}		
+					20 = { 		
+						add_trait = theology_4	
+					}		
+					20 = { 		
+						add_trait = theology_5	
+					}		
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = read_write_1	
+					}		
+					20 = { 		
+						add_trait = read_write_2	
+					}		
+					20 = { 		
+						add_trait = read_write_3	
+					}		
+					20 = { 		
+						add_trait = read_write_4	
+					}		
+					20 = { 		
+						add_trait = read_write_5	
+					}		
+				}
+			}
+			# Add Roman education
+			if = {
+				limit = {
+					OR = {
+						primary_title = {
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
+						}
+						any_liege = {
+							primary_title = {
+								OR = { 
+									title = e_byzantium
+									title = e_roman_empire
+								}
+								has_law = succ_byzantine_elective
+							}
+						}
+					}
+					NOR = {
+						trait = law_1
+						trait = law_2
+						trait = law_3
+						trait = law_4
+						trait = law_5
+						trait = philosophy_1
+						trait = philosophy_2
+						trait = philosophy_3
+						trait = philosophy_4
+						trait = philosophy_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = law_1	
+					}		
+					20 = { 		
+						add_trait = law_2	
+					}		
+					20 = { 		
+						add_trait = law_3	
+					}		
+					20 = { 		
+						add_trait = law_4	
+					}		
+					20 = { 		
+						add_trait = law_5	
+					}		
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = philosophy_1	
+					}		
+					20 = { 		
+						add_trait = philosophy_2	
+					}		
+					20 = { 		
+						add_trait = philosophy_3	
+					}		
+					20 = { 		
+						add_trait = philosophy_4	
+					}		
+					20 = { 		
+						add_trait = philosophy_5	
+					}		
+				}
+			}
+			# Add Martial education by culture
+			if = {
+				limit = {
+					is_female = no
+					OR = {
+						culture_group = north_germanic
+						culture_group = central_germanic
+						culture_group = west_germanic
+						culture_group = latin
+						culture_group = iberian
+						culture_group = celtic
+						culture_group = finno_ugric
+						culture_group = east_slavic
+						culture_group = west_slavic
+						culture_group = south_slavic
+						culture_group = magyar
+						culture_group = baltic
+					}
+					NOR = {
+						trait = martial_arts_western_1
+						trait = martial_arts_western_2
+						trait = martial_arts_western_3
+						trait = martial_arts_western_4
+						trait = martial_arts_western_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = martial_arts_western_1	
+					}		
+					20 = { 		
+						add_trait = martial_arts_western_2	
+					}		
+					20 = { 		
+						add_trait = martial_arts_western_3	
+					}		
+					20 = { 		
+						add_trait = martial_arts_western_4	
+					}		
+					20 = { 		
+						add_trait = martial_arts_western_5	
+					}		
+				}
+			}
+			# Add Martial education by culture
+			if = {
+				limit = {
+					is_female = no
+					culture_group = byzantine
+					NOR = {
+						trait = martial_arts_roman_1
+						trait = martial_arts_roman_2
+						trait = martial_arts_roman_3
+						trait = martial_arts_roman_4
+						trait = martial_arts_roman_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = martial_arts_roman_1	
+					}		
+					20 = { 		
+						add_trait = martial_arts_roman_2	
+					}		
+					20 = { 		
+						add_trait = martial_arts_roman_3	
+					}		
+					20 = { 		
+						add_trait = martial_arts_roman_4	
+					}		
+					20 = { 		
+						add_trait = martial_arts_roman_5	
+					}		
+				}
+			}
+			# Add Martial education by culture
+			if = {
+				limit = {
+					is_female = no
+					OR = {
+						culture_group = iranian
+						culture_group = arabic
+						culture_group = east_african
+						culture_group = central_african
+						culture_group = west_african
+						culture_group = mesoamerican
+						culture_group = israelite
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						culture_group = tibetan_group
+						culture_group = chinese_group
+					}
+					NOR = {
+						trait = martial_arts_eastern_1
+						trait = martial_arts_eastern_2
+						trait = martial_arts_eastern_3
+						trait = martial_arts_eastern_4
+						trait = martial_arts_eastern_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = martial_arts_eastern_1	
+					}		
+					20 = { 		
+						add_trait = martial_arts_eastern_2	
+					}		
+					20 = { 		
+						add_trait = martial_arts_eastern_3	
+					}		
+					20 = { 		
+						add_trait = martial_arts_eastern_4	
+					}		
+					20 = { 		
+						add_trait = martial_arts_eastern_5	
+					}		
+				}
+			}
+			# Add Martial education by culture
+			if = {
+				limit = {
+					culture_group = altaic
+					NOR = {
+						trait = martial_arts_steppe_1
+						trait = martial_arts_steppe_2
+						trait = martial_arts_steppe_3
+						trait = martial_arts_steppe_4
+						trait = martial_arts_steppe_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = martial_arts_steppe_1	
+					}		
+					20 = { 		
+						add_trait = martial_arts_steppe_2	
+					}		
+					20 = { 		
+						add_trait = martial_arts_steppe_3	
+					}		
+					20 = { 		
+						add_trait = martial_arts_steppe_4	
+					}		
+					20 = { 		
+						add_trait = martial_arts_steppe_5	
+					}		
+				}
+			}
+			
+			#Making sure everyone gets the new traits
+			any_child = {
+				random_list = {
+					# Honesty-Humility				
+					#faithful					
+					16 = { 					
+						add_trait = faithful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#honest					
+					16 = { 					
+						add_trait = honest				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#sincere					
+					16 = { 					
+						add_trait = sincere				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#generous					
+					16 = { 					
+						add_trait = generous				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#humble					
+					16 = { 					
+						add_trait = humble				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#pretentious					
+					16 = { 					
+						add_trait = pretentious				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#greedy					
+					16 = { 					
+						add_trait = greedy				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#inconstant					
+					16 = { 					
+						add_trait = inconstant				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#deceitful					
+					16 = { 					
+						add_trait = deceitful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Honesty-Humility				
+					#hypocritical					
+					16 = { 					
+						add_trait = hypocritical				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = faithful		
+								trait = honest		
+								trait = sincere		
+								trait = generous		
+								trait = humble		
+								trait = pretentious		
+								trait = greedy		
+								trait = inconstant		
+								trait = deceitful		
+								trait = hypocritical		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#craven					
+					16 = { 					
+						add_trait = craven				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#sentimental					
+					16 = { 					
+						add_trait = sentimental				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#fearful					
+					16 = { 					
+						add_trait = fearful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#anxious					
+					16 = { 					
+						add_trait = anxious				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#vulnerableÂ 					
+					16 = { 					
+						add_trait = vulnerable				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#stable					
+					16 = { 					
+						add_trait = stable				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#selfassured					
+					16 = { 					
+						add_trait = selfassured				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#independent					
+					16 = { 					
+						add_trait = independent				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#tough					
+					16 = { 					
+						add_trait = tough				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Emotionality				
+					#brave					
+					16 = { 					
+						add_trait = brave				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = craven		
+								trait = sentimental		
+								trait = fearful		
+								trait = anxious		
+								trait = vulnerable		
+								trait = stable		
+								trait = selfassured		
+								trait = independent		
+								trait = tough		
+								trait = brave		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#outgoing					
+					16 = { 					
+						add_trait = outgoing				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#lively					
+					16 = { 					
+						add_trait = lively				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#sociable					
+					16 = { 					
+						add_trait = sociable				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#talkative					
+					16 = { 					
+						add_trait = talkative				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#cheerful					
+					16 = { 					
+						add_trait = cheerful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#passive					
+					16 = { 					
+						add_trait = passive				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#withdrawn					
+					16 = { 					
+						add_trait = withdrawn				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#introverted					
+					16 = { 					
+						add_trait = introverted				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#quiet					
+					16 = { 					
+						add_trait = quiet				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Extraversion				
+					#reserved					
+					16 = { 					
+						add_trait = reserved				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = outgoing		
+								trait = lively		
+								trait = sociable		
+								trait = talkative		
+								trait = cheerful		
+								trait = passive		
+								trait = withdrawn		
+								trait = introverted		
+								trait = quiet		
+								trait = reserved		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#patient					
+					16 = { 					
+						add_trait = patient				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#tolerant					
+					16 = { 					
+						add_trait = tolerant				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#agreeable					
+					16 = { 					
+						add_trait = agreeable				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#mild					
+					16 = { 					
+						add_trait = mild				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#gentle					
+					16 = { 					
+						add_trait = gentle				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#illtempered					
+					16 = { 					
+						add_trait = illtempered				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#quarrelsome					
+					16 = { 					
+						add_trait = quarrelsome				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#stubborn					
+					16 = { 					
+						add_trait = stubborn				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#intolerant					
+					16 = { 					
+						add_trait = intolerant				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Agreeableness				
+					#wroth					
+					16 = { 					
+						add_trait = wroth				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = patient		
+								trait = tolerant		
+								trait = agreeable		
+								trait = mild		
+								trait = gentle		
+								trait = illtempered		
+								trait = quarrelsome		
+								trait = stubborn		
+								trait = intolerant		
+								trait = wroth		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#organized					
+					16 = { 					
+						add_trait = organized				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#diligent					
+					16 = { 					
+						add_trait = diligent				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#careful					
+					16 = { 					
+						add_trait = careful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#thorough					
+					16 = { 					
+						add_trait = thorough				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#precise					
+					16 = { 					
+						add_trait = precise				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#sloppy					
+					16 = { 					
+						add_trait = sloppy				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#negligent					
+					16 = { 					
+						add_trait = negligent				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#reckless					
+					16 = { 					
+						add_trait = reckless				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#lazy					
+					16 = { 					
+						add_trait = lazy				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Conscientiousness				
+					#irresponsible					
+					16 = { 					
+						add_trait = irresponsible				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = organized		
+								trait = diligent		
+								trait = careful		
+								trait = thorough		
+								trait = precise		
+								trait = sloppy		
+								trait = negligent		
+								trait = reckless		
+								trait = lazy		
+								trait = irresponsible		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#intellectual					
+					16 = { 					
+						add_trait = intellectual				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#creative					
+					16 = { 					
+						add_trait = creative				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#unconventional					
+					16 = { 					
+						add_trait = unconventional				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#innovative					
+					16 = { 					
+						add_trait = innovative				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#thoughtful					
+					16 = { 					
+						add_trait = thoughtful				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#shallow					
+					16 = { 					
+						add_trait = shallow				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#unimaginative					
+					16 = { 					
+						add_trait = unimaginative				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#conventional					
+					16 = { 					
+						add_trait = conventional				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#uninspired					
+					16 = { 					
+						add_trait = uninspired				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+					# Openness to Experience				
+					#simple					
+					16 = { 					
+						add_trait = simple				
+						modifier = {				
+							factor = 0			
+							OR = {			
+								trait = intellectual		
+								trait = creative		
+								trait = unconventional		
+								trait = innovative		
+								trait = thoughtful		
+								trait = shallow		
+								trait = unimaginative		
+								trait = conventional		
+								trait = uninspired		
+								trait = simple		
+							}			
+						}				
+					}					
+
+				}
+				
+			}
+		}
+		
+	}
+}
