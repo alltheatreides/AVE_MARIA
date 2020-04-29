@@ -1277,6 +1277,7 @@ can_be_marshal_trigger = {
 				trait = kshatriya
 			}
 			is_adult = yes
+			is_priest = no
 		}
 		has_character_flag = special_marshal
 	}

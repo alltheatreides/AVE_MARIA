@@ -11,11 +11,8 @@
 
 #Character triggers
 has_moved_capital = {
-	any_demesne_province = {
-		OR = {
-			has_province_flag = administrative_capacity_distant_province
-			has_province_flag = administrative_capacity_adjacent_capital
-		}		
+	any_demesne_title = {
+		has_administrative_capacity_horse_distance_calculated = yes	
 		is_capital = yes
 		controlled_by = ROOT
 	}

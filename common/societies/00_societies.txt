@@ -316,6 +316,11 @@ monastic_order_benedictine = {
 	
 	startup_populate = {
 	    trigger = {
+			# True vassal mod
+			is_landed = no
+			NOT = {
+				has_landed_title = yes
+			}
 			OR = {
 				is_feudal = no
 				if = {
@@ -636,6 +641,11 @@ monastic_order_dominican = {
 	
 	startup_populate = {
 	    trigger = {
+			# True vassal mod
+			is_landed = no
+			NOT = {
+				has_landed_title = yes
+			}
 			OR = {
 				is_feudal = no
 				if = {

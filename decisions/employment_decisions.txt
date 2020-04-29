@@ -100,6 +100,9 @@ decisions = {
 				remove_trait = theologian
 				remove_trait = scholar
 				
+				add_hexaco_trait = yes
+				add_trait = theology_3
+				
 				random_list = { # Flavor Randomization
 					35 = {  } # Nothing
 					15 = { change_learning = 2 }
@@ -222,6 +225,8 @@ decisions = {
 				remove_trait = theologian
 				remove_trait = scholar
 				
+				add_hexaco_trait = yes
+				
 				random_list = { # Flavor Randomization
 					35 = { 
 						# Nothing
@@ -337,6 +342,42 @@ decisions = {
 				remove_trait = seductress
 				remove_trait = theologian
 				remove_trait = scholar
+				
+				add_hexaco_trait = yes
+				random_list = {
+					16 = {
+						add_trait = read_write_1
+					}
+					16 = {
+						add_trait = read_write_2
+					}
+					16 = {
+						add_trait = read_write_3
+					}
+					16 = {
+						add_trait = read_write_4
+					}
+					16 = {
+						add_trait = read_write_5
+					}
+				}
+				random_list = {
+					16 = {
+						add_trait = mathematics_1
+					}
+					16 = {
+						add_trait = mathematics_2
+					}
+					16 = {
+						add_trait = mathematics_3
+					}
+					16 = {
+						add_trait = mathematics_4
+					}
+					16 = {
+						add_trait = mathematics_5
+					}
+				}
 				
 				random_list = { # Flavor Randomization
 					35 = { 
@@ -463,6 +504,42 @@ decisions = {
 				remove_trait = theologian
 				remove_trait = scholar
 				
+				add_hexaco_trait = yes
+				random_list = {
+					16 = {
+						add_trait = read_write_1
+					}
+					16 = {
+						add_trait = read_write_2
+					}
+					16 = {
+						add_trait = read_write_3
+					}
+					16 = {
+						add_trait = read_write_4
+					}
+					16 = {
+						add_trait = read_write_5
+					}
+				}
+				random_list = {
+					16 = {
+						add_trait = mathematics_1
+					}
+					16 = {
+						add_trait = mathematics_2
+					}
+					16 = {
+						add_trait = mathematics_3
+					}
+					16 = {
+						add_trait = mathematics_4
+					}
+					16 = {
+						add_trait = mathematics_5
+					}
+				}
+				
 				random_list = { # Flavor Randomization
 					35 = { 
 						# Nothing
@@ -567,6 +644,8 @@ decisions = {
 				remove_trait = slow
 				remove_trait = imbecile
 				remove_trait = dull
+				
+				add_hexaco_trait = yes
 				
 				hidden_tooltip = {
 					if = {

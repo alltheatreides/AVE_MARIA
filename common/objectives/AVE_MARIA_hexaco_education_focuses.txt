@@ -20,7 +20,8 @@
 focus_ch_honesty_humility = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {
@@ -60,7 +61,8 @@ focus_ch_honesty_humility = {
 focus_ch_emotionality = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {
@@ -100,7 +102,8 @@ focus_ch_emotionality = {
 focus_ch_extraversion = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {
@@ -140,7 +143,8 @@ focus_ch_extraversion = {
 focus_ch_agreeableness = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {
@@ -180,7 +184,8 @@ focus_ch_agreeableness = {
 focus_ch_conscientiousness = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {
@@ -220,7 +225,8 @@ focus_ch_conscientiousness = {
 focus_ch_openness_to_experience = {
 	type = character
 	potential = {
-		NOT = { age = 10 }
+		age >= 6
+		age < 10
 	}
 	
 	allow = {

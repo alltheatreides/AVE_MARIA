@@ -190,7 +190,112 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 16/04/20
 - Pour la légitimité autant utiliser le système vanilla de prestige
 - A lot of troops with SWMH, maybe need to reduce troop number again with increased provinces
-- add theology knowledge trait ?
-- Augmenter la quantité de base de domaine controllable, puisque les event qui les font prendre leur indépendance si trop loins seront intorduits
-- Thanks to excel, a lot of tedious work on HEXACO traits allevied, yay (thanks that guy who did that mod for March of the eagles and praised be his excel template
-- Redo the hexaco traits exclusions (like not another trait from the same category
+
+17/04/20
+- Plaids généraux: Chaque fois le deuxième lundi qui suit les fêtes de l'Épiphanie (6 janvier), des Pâques closes (la Quasimodo) et de la Saint-Rémy (1er octobre), précise la coutume d'Olne de 1570 
+
+20/04/20
+- Ah love it when events just decide not to work
+- Thank god fot VSCODE plugin for the errors, it is a godsend, was tired this morning and dit shit in true vassal justice events before I corrected it thanks to VS code.
+- Réduire la léthalité stupide du combat... et les animaux dans le combat
+- Voir quand les vassaux déclarent une guerre de jure, ils devraient récupérer le vassal
+- Retirer l'event de Jeanne, et le mettre en sorte que ce soit quand la monarchie française est en danger
+- Ajouter une title targetted decision qui fait office de chancellier en mode claim ?
+- Faire un claim_all pour les third_party claimant ?
+- Ajouter une targetted decision pour faire copain copain et alliance
+- Probablement augmenter le warscore, les guerres sont trop longues
+- Mettre un cout fou sur la création de royaume- > les mettre en décision
+- Le cancer..le cancer...
+
+21/04/20
+- To improve combat chances outcome during battlefield fights remember to se scripted score values et good_soldier_outcome_score pour les combats Holy Fury
+- Replace the stupid equation between Martial (understoof as abilidty to organize and direct armies) with PERSONAL FIGHTING CAPABILITIES in aforementioned files OK
+- Certaines sources médiévales montrent que les rapports entre communautés rurales et acteurs seigneuriaux étaient organisés par un droit coutumier visant à la fois à clarifier la part de chacun mais aussi à assurer la reproduction des ressources naturelles malgré leur exploitation.
+- Add knighting mechanics cf all the thousands of mods already done that.
+- Ajouter des société/ordre monastiques mineurs en société ?
+- Make sure that vassale relationship is properly title maintained when third party claimant is installed on the throne - OK
+- Make sure that when usurping title people who swore allegiance also swear to you (decision - event to all that had previous guy as suzerain and ultimatum)
+- If religion is different weight chance of changing allegiance when title change hands
+- Rétablir une option give title pour les indé?
+- Vassal relationship post claim should be ok for "claim", gotta port them to claim_all and other_claim. OK
+- Ajouter des events pour le connétable liés aux écuries.
+- Structure pour les event en cas de succession et guerre entre les frères titrés: on_father_death ; if héritier is not liked by brothers ; then plot rebellion activeted ; targeted decision open for the holder towards suzerain tributaries to convince them ; promise support in war when it is declared (modifier donc l'event de troupes true vassal et le weighting pour déclarer la guerre du claim dans les CB)
+- Les grands princes notamment d'aquitaine en france ne devraient pas forcément participer aux évènements de la monarchie française (sacre/couronnement et grands evènements liturgiques
+- Event pour célébrer Noel, Paques Pentecote.
+- Ajouter une clause quand on déclare la guerre à un de ses vassaux true vassal et gagne de rétablir la relation après la guerre
+- Pour le texte des events "qui fait mieux, vaut mieux" dans les résultats martiaux
+
+22/04/20
+- other_claim_all makes me crazy. Not being able to make a casus belli that is declared over all the third party claimant claimed titles on the target...
+- Bon abandon pour le moment, trop chiant, fonctionne pas, n'apparait même pas dans la liste des CB
+- Attention, en third party claimant qui usurpe des terres au pif (genre third party landless a un claim sur le duché que je presse, il devient mon vassal vanilla -> résolu
+- Vérifier la propension à l'IA à nommer des fils aux rang de l'église et l'augmenter si possible
+- Rebuilt the ADMC modifiers to be calculated from pixel distance from capital - need to polish it with overseas province and their mixup with land province (if sea connected is also land connected, should use sea connection in priority)
+- Need to put back some negative events regarding high distance province if not properly cared (legal cases not properly care, local administrator not there, reduced cash money 
+- Need to solve the Roman empire vassal/tributary issue
+
+23/04/20
+- Mettre une clause dans les claim si l'attacker et le third party claimant nouvellement installé sont de même niveaux ? Ou bien un event si il sont de même niveau ?
+- Réduire à donf le monétaire avec la distance, mais moins les hommes.
+- Title decisions pour réduire les garnisons et réduire les couts
+- Bon le système d'ADMC sur la distance fonctionne
+- Résolu les théocracies vassales, les souverains controlent les sièges épiscopaux.
+- Faire en sorte de ne pas pouvoir changer en imperial elective si on est le HRE
+- Revoir les de jure war pour les vassaux, pas pouvoir déclarer quand le suzerain est le même. OK done
+- Ajouter toutes les cultures svhm au culture check pour la decisiond 'hommage
+
+24/04/20
+- Attention à 'ADMC maintenance et le changement de nom du fichier/namespace
+- Ajouter un CB, guerre épiscopale ? pour prendre le controle de l'évéché  en tant que vassal 
+- Pour rajouter des advisor, il faut les rajouter dans minor_title et mettre l'entrée is_voter = yes
+- Les culture group dans les traits martiaux 
+- Ptet réduire le martial des traits de personnalité et nest les stats de martial par un trait vétéran etcc
+- Faire gaffe à l'event qui retire des traits quand tu en a trop 
+- Retirer la Personal cobmat ability des armes
+- Event pour un unworthy knight si il a le trait knight dans la force de l'age et un combat rating médiocre
+- Refaire la décision pour le couronnement royal français à reims
+- Retoucher le nouveau casus belli dejure pour tout le duché
+- Faire un trait abdiqué
+- Changer le nom du fichier roman administration on action (il y a admc dedans)
+
+26/04/20
+- Changer la chance d'hriter des traits sans recourir par un 50/50 entre le père et la mère mais plutot sur chaque trait un 50/50 d'hériter du père ou de la mère
+
+27/04/20
+- Bon il y a l'air que il va falloir réutiliser les focus enfants vanilla et les utiliser comme support pour HEXACO. OR NOT, it is working fine
+- Purge and/or change all the personality traits vanilla events to be more gradual instead of black&white
+- For the education focuses, for now some focuses are forbidden to female but will later change it so it takes into account the gamerules of gender equality
+- Make sure that Phillipe I capet has decent traits & same for other child kings
+
+28/04/20
+- Grille pour les distances en chevaux: un jour = 13kmh à cheval
+- For godparents later do something to prevent them from marrying the child or making it scandalous
+- Va falloir changer tous les scripted triggers pour prendre les nouveaux traits...
+- For now godparents can only be in the same realm as the father, maybe change that later
+- Refaire la fin de l'éducation à l'age adulte
+- Make an event to create some monk/clergy at every christian court
+- Retirer les opinions pour controle de territoires de jure
+- Revoir les scripted effect quand ils spawn des character aussi
+- Changer les courts chaplain pour ne pas que ce soit des grands de l'église ?
+- S'assurer que les physiciens ont tous les traits
+- Tous les putains d'event qui créent des character (WOL genre chasse et la femme)
+
+29/04/20
+- Physician new_character and hexaco ok
+- Employment decision ok
+- Revoir tous les traits qui influentn sur l'xp gain dans les education
+- wtf ca déconne grave avec la religion sunni
+- Bouger le trait du cheval, pour qu'il soit en dernier ?
+- Faire en sorte que quand tu devienne adulte tu aie quand même le minimum de chaque education
+- Retirer les flag de developpement si on en a déjà et les faire tenir compte dans le MTTH
+- Rajouter les traits de chaque niveau dans les conditions du scripted effect
+- Les guerres sont longues comme pas possible, faire des events pour les sieges c'est pas possible...
+- En cas de guerre d'excommunication, exclure le ban défensif
+
+30/04/20
+- A faire: revoir le mtth des events d'adolescence
+- faire les events de jeunesse same process
+- Représenter le small scale warfare: chevauchée, petit nombre de chevalier par des mini events
+- Certains malus servitium debitum ne sont pas bien retirés
+- Check les paysans qui spawnent sans trait scripted effect...
+- Pareil pour les nouveaux persos des évéchés

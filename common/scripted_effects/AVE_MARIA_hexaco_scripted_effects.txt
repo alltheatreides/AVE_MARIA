@@ -356,3 +356,515 @@ add_hexaco_trait = {
 	}						
 
 }
+
+add_hexaco_trait_martial_arts_1 = {
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = finno_ugric
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = magyar
+				culture_group = baltic
+			}		
+		}			
+		add_trait = martial_arts_western_1		
+	}
+	if = {				
+		limit = {			
+			culture_group = byzantine		
+		}			
+		add_trait = martial_arts_roman_1
+	}
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = iranian
+				culture_group = arabic
+				culture_group = east_african
+				culture_group = central_african
+				culture_group = west_african
+				culture_group = mesoamerican
+				culture_group = israelite
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}		
+		}			
+		add_trait = martial_arts_eastern_1		
+	}				
+	if = {				
+		limit = {			
+			culture_group = altaic	
+		}			
+		add_trait = martial_arts_steppe_1		
+	}	
+}
+add_hexaco_trait_martial_arts_2 = {
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = finno_ugric
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = magyar
+				culture_group = baltic
+			}		
+		}			
+		add_trait = martial_arts_western_2
+	}
+	if = {				
+		limit = {			
+			culture_group = byzantine		
+		}			
+		add_trait = martial_arts_roman_2
+	}
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = iranian
+				culture_group = arabic
+				culture_group = east_african
+				culture_group = central_african
+				culture_group = west_african
+				culture_group = mesoamerican
+				culture_group = israelite
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}		
+		}			
+		add_trait = martial_arts_eastern_2		
+	}				
+	if = {				
+		limit = {			
+			culture_group = altaic	
+		}			
+		add_trait = martial_arts_steppe_2		
+	}	
+}
+add_hexaco_trait_martial_arts_3 = {
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = finno_ugric
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = magyar
+				culture_group = baltic
+			}		
+		}			
+		add_trait = martial_arts_western_3		
+	}
+	if = {				
+		limit = {			
+			culture_group = byzantine		
+		}			
+		add_trait = martial_arts_roman_3
+	}
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = iranian
+				culture_group = arabic
+				culture_group = east_african
+				culture_group = central_african
+				culture_group = west_african
+				culture_group = mesoamerican
+				culture_group = israelite
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}		
+		}			
+		add_trait = martial_arts_eastern_3		
+	}				
+	if = {				
+		limit = {			
+			culture_group = altaic	
+		}			
+		add_trait = martial_arts_steppe_3		
+	}	
+}
+add_hexaco_trait_martial_arts_4 = {
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = finno_ugric
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = magyar
+				culture_group = baltic
+			}		
+		}			
+		add_trait = martial_arts_western_4
+	}
+	if = {				
+		limit = {			
+			culture_group = byzantine		
+		}			
+		add_trait = martial_arts_roman_4
+	}
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = iranian
+				culture_group = arabic
+				culture_group = east_african
+				culture_group = central_african
+				culture_group = west_african
+				culture_group = mesoamerican
+				culture_group = israelite
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}		
+		}			
+		add_trait = martial_arts_eastern_4		
+	}				
+	if = {				
+		limit = {			
+			culture_group = altaic	
+		}			
+		add_trait = martial_arts_steppe_4		
+	}	
+}
+add_hexaco_trait_martial_arts_5 = {
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = north_germanic
+				culture_group = central_germanic
+				culture_group = west_germanic
+				culture_group = latin
+				culture_group = iberian
+				culture_group = celtic
+				culture_group = finno_ugric
+				culture_group = east_slavic
+				culture_group = west_slavic
+				culture_group = south_slavic
+				culture_group = magyar
+				culture_group = baltic
+			}		
+		}			
+		add_trait = martial_arts_western_5
+	}
+	if = {				
+		limit = {			
+			culture_group = byzantine		
+		}			
+		add_trait = martial_arts_roman_5
+	}
+	if = {				
+		limit = {			
+			OR = {
+				culture_group = iranian
+				culture_group = arabic
+				culture_group = east_african
+				culture_group = central_african
+				culture_group = west_african
+				culture_group = mesoamerican
+				culture_group = israelite
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}		
+		}			
+		add_trait = martial_arts_eastern_5	
+	}				
+	if = {				
+		limit = {			
+			culture_group = altaic	
+		}			
+		add_trait = martial_arts_steppe_5	
+	}	
+}
+
+hexaco_lvl_up = {
+	# Level 3			
+	if = {				
+		limit = {			
+			hexaco_martial_arts_xp_3_level_up = yes
+			NOT = { 
+				has_martial_arts_lvl_1_trait_trigger = yes 
+			}
+		}			
+		add_hexaco_trait_martial_arts_1 = yes			
+	}				
+	if = {				
+		limit = {			
+			hexaco_riding_xp_3_level_up = yes		
+		}			
+		add_trait = riding_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_etiquette_xp_3_level_up = yes		
+		}			
+		add_trait = etiquette_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_read_write_xp_3_level_up = yes		
+		}			
+		add_trait = read_write_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_mathematics_xp_3_level_up = yes		
+		}			
+		add_trait = mathematics_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_philosophy_xp_3_level_up = yes		
+		}			
+		add_trait = philosophy_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_law_xp_3_level_up = yes		
+		}			
+		add_trait = law_1			
+	}				
+	if = {				
+		limit = {			
+			hexaco_theology_xp_3_level_up = yes		
+		}			
+		add_trait = theology_1			
+	}				
+	# Level 7			
+	if = {				
+		limit = {			
+			hexaco_martial_arts_xp_7_level_up = yes		
+			NOT = { has_martial_arts_lvl_2_trait_trigger = yes }
+		}			
+		add_hexaco_trait_martial_arts_2 = yes			
+	}				
+	if = {				
+		limit = {			
+			hexaco_riding_xp_7_level_up = yes		
+		}			
+		add_trait = riding_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_etiquette_xp_7_level_up = yes		
+		}			
+		add_trait = etiquette_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_read_write_xp_7_level_up = yes		
+		}			
+		add_trait = read_write_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_mathematics_xp_7_level_up = yes		
+		}			
+		add_trait = mathematics_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_philosophy_xp_7_level_up = yes		
+		}			
+		add_trait = philosophy_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_law_xp_7_level_up = yes		
+		}			
+		add_trait = law_2			
+	}				
+	if = {				
+		limit = {			
+			hexaco_theology_xp_7_level_up = yes		
+		}			
+		add_trait = theology_2			
+	}				
+	# Level 12			
+	if = {				
+		limit = {			
+			hexaco_martial_arts_xp_12_level_up = yes	
+			NOT = { has_martial_arts_lvl_3_trait_trigger = yes }
+		}			
+		add_hexaco_trait_martial_arts_3 = yes			
+	}				
+	if = {				
+		limit = {			
+			hexaco_riding_xp_12_level_up = yes		
+		}			
+		add_trait = riding_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_etiquette_xp_12_level_up = yes		
+		}			
+		add_trait = etiquette_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_read_write_xp_12_level_up = yes		
+		}			
+		add_trait = read_write_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_mathematics_xp_12_level_up = yes		
+		}			
+		add_trait = mathematics_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_philosophy_xp_12_level_up = yes		
+		}			
+		add_trait = philosophy_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_law_xp_12_level_up = yes		
+		}			
+		add_trait = law_3			
+	}				
+	if = {				
+		limit = {			
+			hexaco_theology_xp_12_level_up = yes		
+		}			
+		add_trait = theology_3			
+	}				
+	# Level 18			
+	if = {				
+		limit = {			
+			hexaco_martial_arts_xp_18_level_up = yes
+			NOT = { has_martial_arts_lvl_4_trait_trigger = yes }
+		}			
+		add_hexaco_trait_martial_arts_4 = yes			
+	}				
+	if = {				
+		limit = {			
+			hexaco_riding_xp_18_level_up = yes		
+		}			
+		add_trait = riding_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_etiquette_xp_18_level_up = yes		
+		}			
+		add_trait = etiquette_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_read_write_xp_18_level_up = yes		
+		}			
+		add_trait = read_write_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_mathematics_xp_18_level_up = yes		
+		}			
+		add_trait = mathematics_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_philosophy_xp_18_level_up = yes		
+		}			
+		add_trait = philosophy_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_law_xp_18_level_up = yes		
+		}			
+		add_trait = law_4			
+	}				
+	if = {				
+		limit = {			
+			hexaco_theology_xp_18_level_up = yes		
+		}			
+		add_trait = theology_4			
+	}				
+	# Level 25			
+	if = {				
+		limit = {			
+			hexaco_martial_arts_xp_25_level_up = yes
+			NOT = { has_martial_arts_lvl_5_trait_trigger = yes }
+		}			
+		add_hexaco_trait_martial_arts_5 = yes			
+	}				
+	if = {				
+		limit = {			
+			hexaco_riding_xp_25_level_up = yes		
+		}			
+		add_trait = riding_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_etiquette_xp_25_level_up = yes		
+		}			
+		add_trait = etiquette_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_read_write_xp_25_level_up = yes		
+		}			
+		add_trait = read_write_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_mathematics_xp_25_level_up = yes		
+		}			
+		add_trait = mathematics_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_philosophy_xp_25_level_up = yes		
+		}			
+		add_trait = philosophy_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_law_xp_25_level_up = yes		
+		}			
+		add_trait = law_5			
+	}				
+	if = {				
+		limit = {			
+			hexaco_theology_xp_25_level_up = yes		
+		}			
+		add_trait = theology_5			
+	}				
+
+}

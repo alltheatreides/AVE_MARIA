@@ -15930,6 +15930,8 @@ spawn_good_commander_effect = {
 		remove_trait = martial_arts_eastern_4
 		remove_trait = martial_arts_eastern_5
 		
+		add_trait = war_veteran_1
+		
 		if = {				
 			limit = {			
 				OR = {
@@ -16149,7 +16151,15 @@ spawn_great_commander_effect = {
 		remove_trait = skilled_tactician
 		remove_trait = brilliant_strategist
 		
+		remove_trait = craven		
+		random_list = {
+			10 = { add_trait = selfassured }
+			25 = { add_trait = independent }
+			50 = { add_trait = tough }
+			10 = { add_trait = brave }
+		}
 		add_hexaco_trait = yes
+		
 		remove_trait = martial_arts_western_1
 		remove_trait = martial_arts_western_2
 		remove_trait = martial_arts_western_3
@@ -16166,8 +16176,12 @@ spawn_great_commander_effect = {
 		remove_trait = martial_arts_eastern_4
 		remove_trait = martial_arts_eastern_5
 		
-		if = {				
-			limit = {			
+		add_trait = war_veteran_2
+		
+		
+		
+		if = { 			
+			limit = { 		
 				OR = {
 					culture_group = north_germanic
 					culture_group = central_germanic
@@ -16183,28 +16197,28 @@ spawn_great_commander_effect = {
 					culture_group = baltic
 				}		
 			}			
-			random_list = {			
-				5 = {	add_trait = martial_arts_western_1	}
-				10 = {	add_trait = martial_arts_western_2	}
-				25 = {	add_trait = martial_arts_western_3	}
-				50 = {	add_trait = martial_arts_western_4	}
-				10 = {	add_trait = martial_arts_western_5	}
+			random_list = { 		
+				5 = { add_trait = martial_arts_western_1	}
+				10 = { add_trait = martial_arts_western_2	}
+				25 = { add_trait = martial_arts_western_3	}
+				50 = { add_trait = martial_arts_western_4	}
+				10 = { add_trait = martial_arts_western_5	}
 			}			
 		}
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				culture_group = byzantine		
 			}			
-			random_list = {			
-				5 = {	add_trait = martial_arts_roman_1	}
-				10 = {	add_trait = martial_arts_roman_2	}
-				25 = {	add_trait = martial_arts_roman_3	}
-				50 = {	add_trait = martial_arts_roman_4	}
-				10 = {	add_trait = martial_arts_roman_5	}
+			random_list = { 		
+				5 = { add_trait = martial_arts_roman_1	}
+				10 = { add_trait = martial_arts_roman_2	}
+				25 = { add_trait = martial_arts_roman_3	}
+				50 = { add_trait = martial_arts_roman_4	}
+				10 = { add_trait = martial_arts_roman_5	}
 			}
 		}
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				OR = {
 					culture_group = iranian
 					culture_group = arabic
@@ -16219,24 +16233,24 @@ spawn_great_commander_effect = {
 					culture_group = chinese_group
 				}		
 			}			
-			random_list = {			
-				5 = {	add_trait = martial_arts_eastern_1	}
-				10 = {	add_trait = martial_arts_eastern_2	}
-				25 = {	add_trait = martial_arts_eastern_3	}
-				50 = {	add_trait = martial_arts_eastern_4	}
-				10 = {	add_trait = martial_arts_eastern_5	}
+			random_list = { 		
+				5 = { add_trait = martial_arts_eastern_1	}
+				10 = { add_trait = martial_arts_eastern_2	}
+				25 = { add_trait = martial_arts_eastern_3	}
+				50 = { add_trait = martial_arts_eastern_4	}
+				10 = { add_trait = martial_arts_eastern_5	}
 			}			
 		}				
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				culture_group = altaic	
 			}			
-			random_list = {			
-				5 = {	add_trait = martial_arts_steppe_1	}
-				10 = {	add_trait = martial_arts_steppe_2	}
-				25 = {	add_trait = martial_arts_steppe_3	}
-				50 = {	add_trait = martial_arts_steppe_4	}
-				10 = {	add_trait = martial_arts_steppe_5	}
+			random_list = { 		
+				5 = { add_trait = martial_arts_steppe_1	}
+				10 = { add_trait = martial_arts_steppe_2	}
+				25 = { add_trait = martial_arts_steppe_3	}
+				50 = { add_trait = martial_arts_steppe_4	}
+				10 = { add_trait = martial_arts_steppe_5	}
 			}			
 		}		
 		
@@ -16422,7 +16436,15 @@ spawn_fantastic_commander_effect = {
 		remove_trait = skilled_tactician
 		remove_trait = brilliant_strategist
 		
+		remove_trait = craven		
+		random_list = {
+			10 = { add_trait = selfassured }
+			25 = { add_trait = independent }
+			50 = { add_trait = tough }
+			10 = { add_trait = brave }
+		}
 		add_hexaco_trait = yes
+		
 		remove_trait = martial_arts_western_1
 		remove_trait = martial_arts_western_2
 		remove_trait = martial_arts_western_3
@@ -16440,8 +16462,8 @@ spawn_fantastic_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_5
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				OR = {
 					culture_group = north_germanic
 					culture_group = central_germanic
@@ -16457,28 +16479,28 @@ spawn_fantastic_commander_effect = {
 					culture_group = baltic
 				}		
 			}			
-			random_list = {			
-				0 = {	add_trait = martial_arts_western_1	}
-				5 = {	add_trait = martial_arts_western_2	}
-				20 = {	add_trait = martial_arts_western_3	}
-				50 = {	add_trait = martial_arts_western_4	}
-				25 = {	add_trait = martial_arts_western_5	}
+			random_list = { 		
+				0 = { add_trait = martial_arts_western_1	}
+				5 = { add_trait = martial_arts_western_2	}
+				20 = { add_trait = martial_arts_western_3	}
+				50 = { add_trait = martial_arts_western_4	}
+				25 = { add_trait = martial_arts_western_5	}
 			}			
 		}
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				culture_group = byzantine		
 			}			
-			random_list = {			
-				0 = {	add_trait = martial_arts_roman_1	}
-				5 = {	add_trait = martial_arts_roman_2	}
-				20 = {	add_trait = martial_arts_roman_3	}
-				50 = {	add_trait = martial_arts_roman_4	}
-				25 = {	add_trait = martial_arts_roman_5	}
+			random_list = { 		
+				0 = { add_trait = martial_arts_roman_1	}
+				5 = { add_trait = martial_arts_roman_2	}
+				20 = { add_trait = martial_arts_roman_3	}
+				50 = { add_trait = martial_arts_roman_4	}
+				25 = { add_trait = martial_arts_roman_5	}
 			}
 		}
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				OR = {
 					culture_group = iranian
 					culture_group = arabic
@@ -16493,24 +16515,24 @@ spawn_fantastic_commander_effect = {
 					culture_group = chinese_group
 				}		
 			}			
-			random_list = {			
-				0 = {	add_trait = martial_arts_eastern_1	}
-				5 = {	add_trait = martial_arts_eastern_2	}
-				20 = {	add_trait = martial_arts_eastern_3	}
-				50 = {	add_trait = martial_arts_eastern_4	}
-				25 = {	add_trait = martial_arts_eastern_5	}
+			random_list = { 		
+				0 = { add_trait = martial_arts_eastern_1	}
+				5 = { add_trait = martial_arts_eastern_2	}
+				20 = { add_trait = martial_arts_eastern_3	}
+				50 = { add_trait = martial_arts_eastern_4	}
+				25 = { add_trait = martial_arts_eastern_5	}
 			}			
 		}				
-		if = {				
-			limit = {			
+		if = { 			
+			limit = { 		
 				culture_group = altaic	
 			}			
-			random_list = {			
-				0 = {	add_trait = martial_arts_steppe_1	}
-				5 = {	add_trait = martial_arts_steppe_2	}
-				20 = {	add_trait = martial_arts_steppe_3	}
-				50 = {	add_trait = martial_arts_steppe_4	}
-				25 = {	add_trait = martial_arts_steppe_5	}
+			random_list = { 		
+				0 = { add_trait = martial_arts_steppe_1	}
+				5 = { add_trait = martial_arts_steppe_2	}
+				20 = { add_trait = martial_arts_steppe_3	}
+				50 = { add_trait = martial_arts_steppe_4	}
+				25 = { add_trait = martial_arts_steppe_5	}
 			}			
 		}	
 		
@@ -16812,7 +16834,16 @@ spawn_fantastic_diplomat_effect = {
 		remove_trait = underhanded_rogue
 		remove_trait = charismatic_negotiator
 		
-		add_trait = grey_eminence
+		#AVE MARIA HEXACO
+		add_hexaco_trait = yes
+		remove_trait = etiquette_1
+		remove_trait = etiquette_2
+		remove_trait = etiquette_3
+		remove_trait = etiquette_4
+		add_trait = etiquette_5
+		
+		# add_trait = grey_eminence
+		
 
 		random_list = {
 			27 = {
@@ -16938,7 +16969,16 @@ spawn_fantastic_scholar_effect = {
 		remove_trait = martial_cleric
 		remove_trait = scholarly_theologian
 		
-		add_trait = mastermind_theologian
+		# add_trait = mastermind_theologian
+		
+		#AVE MARIA HEXACO
+		add_hexaco_trait = yes
+		remove_trait = theology_1
+		remove_trait = theology_2
+		remove_trait = theology_3
+		remove_trait = theology_4
+		add_trait = theology_5
+
 
 		random_list = {
 			27 = {
@@ -17090,18 +17130,26 @@ spawn_elder_effect = {
 		remove_trait = scholarly_theologian
 		remove_trait = mastermind_theologian
 		
+		#AVE MARIA HEXACO
+		add_hexaco_trait = yes
+		remove_trait = theology_1
+		remove_trait = theology_2
+		remove_trait = theology_3
+		remove_trait = theology_4
+		remove_trait = theology_5
+		
 		add_character_modifier = { name = elder_long_life_modifier years = 100 }
 		give_nickname = nick_the_elder 
 
 		random_list = {
 			50 = {
-				add_trait = martial_cleric
+				add_trait = theology_3
 			}
 			25 = {
-				add_trait = scholarly_theologian
+				add_trait = theology_4
 			}
 			10 = {
-				add_trait = mastermind_theologian
+				add_trait = theology_5
 			}
 		}
 		random_list = {
@@ -17639,7 +17687,7 @@ destroy_random_herb_or_animal_part_ingredients_effect = {
 				destroy_random_animal_part_ingredient_effect = yes
 			}
 			50 = {
-				trigger = {								
+				trigger = { 							
 					any_artifact = {
 						count = 2
 						is_ingredient_animal_part_trigger = yes
@@ -18372,7 +18420,7 @@ china_war_spawn_troops_effect = {
 				value = 1
 			}
 		}
-		change_variable = {	
+		change_variable = { 
 			which = china_war_troop_quantity
 			value = -1
 		}
@@ -18594,7 +18642,7 @@ china_war_spawn_troops_no_disband_effect = {
 				value = 1
 			}
 		}
-		change_variable = {	
+		change_variable = { 
 			which = china_war_troop_quantity
 			value = -1
 		}
@@ -25652,7 +25700,7 @@ spawn_debutante_effect = {
 			age = 17
 		}
 	}
-	new_character = {	
+	new_character = { 
 		hidden_tooltip = {
 			if = {
 				limit = {

@@ -794,7 +794,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 					}			
 				}				
@@ -826,7 +826,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 					}			
 				}				
@@ -858,7 +858,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						5 = {		
 							add_trait = stable
@@ -890,7 +890,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						5 = {		
 							add_trait = stable
@@ -922,7 +922,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -954,7 +954,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -972,7 +972,7 @@ character_event = {
 				if = {				
 					limit = {			
 						mother_even_if_dead = {		
-							trait = vulnerable 
+							trait = vulnerable
 						}		
 					}			
 					random_list = {			
@@ -986,7 +986,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -1004,7 +1004,7 @@ character_event = {
 				if = {				
 					limit = {			
 						father_even_if_dead = {		
-							trait = vulnerable 
+							trait = vulnerable
 						}		
 					}			
 					random_list = {			
@@ -1018,7 +1018,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -1050,7 +1050,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -1082,7 +1082,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -1114,7 +1114,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -1146,7 +1146,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -1178,7 +1178,7 @@ character_event = {
 					}			
 					random_list = {			
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -1210,7 +1210,7 @@ character_event = {
 					}			
 					random_list = {			
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -4814,7 +4814,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 					}			
 				}				
@@ -4846,7 +4846,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 					}			
 				}				
@@ -4878,7 +4878,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						5 = {		
 							add_trait = stable
@@ -4910,7 +4910,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						5 = {		
 							add_trait = stable
@@ -4942,7 +4942,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -4974,7 +4974,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -4992,7 +4992,7 @@ character_event = {
 				if = {				
 					limit = {			
 						mother_even_if_dead = {		
-							trait = vulnerable 
+							trait = vulnerable
 						}		
 					}			
 					random_list = {			
@@ -5006,7 +5006,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -5024,7 +5024,7 @@ character_event = {
 				if = {				
 					limit = {			
 						father_even_if_dead = {		
-							trait = vulnerable 
+							trait = vulnerable
 						}		
 					}			
 					random_list = {			
@@ -5038,7 +5038,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -5070,7 +5070,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -5102,7 +5102,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						30 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -5134,7 +5134,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -5166,7 +5166,7 @@ character_event = {
 							add_trait = anxious
 						}		
 						10 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						30 = {		
 							add_trait = stable
@@ -5198,7 +5198,7 @@ character_event = {
 					}			
 					random_list = {			
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -5230,7 +5230,7 @@ character_event = {
 					}			
 					random_list = {			
 						5 = {		
-							add_trait = vulnerable 
+							add_trait = vulnerable
 						}		
 						10 = {		
 							add_trait = stable
@@ -8039,7 +8039,7 @@ character_event = {
 				if = {				
 					limit = {			
 						father_even_if_dead = {		
-							trait = 0
+							trait = simple
 						}		
 					}			
 					random_list = {			

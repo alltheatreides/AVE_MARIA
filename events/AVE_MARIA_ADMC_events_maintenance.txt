@@ -65,7 +65,10 @@ character_event = {
 					tier = count
 					tier = baron
 				}
-				NOT = { has_administrative_capacity_horse_distance_calculated = yes }
+				NOT = { 
+					has_administrative_capacity_horse_distance_calculated = yes 
+					is_capital = yes
+				}
 			}
 			location = {
 				if = {

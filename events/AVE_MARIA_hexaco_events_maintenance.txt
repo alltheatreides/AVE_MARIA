@@ -2507,6 +2507,140 @@ character_event = {
 					}		
 				}
 			}
+			# Add Noble education - read write
+			if = {
+				limit = {
+					is_landed = yes
+					is_female = no
+					NOR = {
+						trait = read_write_1
+						trait = read_write_2
+						trait = read_write_3
+						trait = read_write_4
+						trait = read_write_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = read_write_1
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = read_write_2
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = read_write_3
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = read_write_4
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = read_write_5
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+				}
+			}
+			# Add Noble education - theology
+			if = {
+				limit = {
+					is_landed = yes
+					is_female = no
+					is_priest = no
+					NOR = {
+						trait = theology_1
+						trait = theology_2
+						trait = theology_3
+						trait = theology_4
+						trait = theology_5
+					}
+				}
+				random_list = {		
+					90 = { 		
+						add_trait = theology_1
+					}		
+					4 = { 		
+						add_trait = theology_2
+					}		
+					3 = { 		
+						add_trait = theology_3
+					}		
+					2 = { 		
+						add_trait = theology_4
+					}		
+					1 = { 		
+						add_trait = theology_5
+					}		
+				}
+			}
+			# Add Noble education - Maths
+			if = {
+				limit = {
+					is_landed = yes
+					is_female = no
+					NOR = {
+						trait = mathematics_1
+						trait = mathematics_2
+						trait = mathematics_3
+						trait = mathematics_4
+						trait = mathematics_5
+					}
+				}
+				random_list = {		
+					20 = { 		
+						add_trait = mathematics_1
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = mathematics_2
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = mathematics_3
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = mathematics_4
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+					20 = { 		
+						add_trait = mathematics_5
+						modifier = {
+							factor = 0
+							culture_group = altaic
+						}
+					}		
+				}
+			}
 			# Add Theology education for religious
 			if = {
 				limit = {

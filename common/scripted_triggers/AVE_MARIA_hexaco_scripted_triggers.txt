@@ -26,7 +26,7 @@ has_hexaco_personality_trait = {
 		trait = sentimental
 		trait = fearful
 		trait = anxious
-		trait = vulnerable 
+		trait = vulnerable
 		trait = stable
 		trait = selfassured
 		trait = independent
@@ -89,3 +89,443 @@ has_hexaco_education_trait = {
 		trait = theology_5
 	}
 }
+
+has_martial_arts_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_1
+		trait = martial_arts_western_2
+		trait = martial_arts_western_3
+		trait = martial_arts_western_4
+		trait = martial_arts_western_5
+		trait = martial_arts_roman_1
+		trait = martial_arts_roman_2
+		trait = martial_arts_roman_3
+		trait = martial_arts_roman_4
+		trait = martial_arts_roman_5
+		trait = martial_arts_eastern_1
+		trait = martial_arts_eastern_2
+		trait = martial_arts_eastern_3
+		trait = martial_arts_eastern_4
+		trait = martial_arts_eastern_5
+		trait = martial_arts_steppe_1
+		trait = martial_arts_steppe_2
+		trait = martial_arts_steppe_3
+		trait = martial_arts_steppe_4
+		trait = martial_arts_steppe_5
+
+	}
+}
+
+has_martial_arts_lvl_1_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_1
+		trait = martial_arts_roman_1
+		trait = martial_arts_eastern_1
+		trait = martial_arts_steppe_1
+	}
+}
+has_martial_arts_lvl_2_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_2
+		trait = martial_arts_roman_2
+		trait = martial_arts_eastern_2
+		trait = martial_arts_steppe_2
+	}
+}
+has_martial_arts_lvl_3_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_3
+		trait = martial_arts_roman_3
+		trait = martial_arts_eastern_3
+		trait = martial_arts_steppe_3
+	}
+}
+has_martial_arts_lvl_4_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_4
+		trait = martial_arts_roman_4
+		trait = martial_arts_eastern_4
+		trait = martial_arts_steppe_4
+	}
+}
+has_martial_arts_lvl_5_trait_trigger = {
+	OR = {
+		trait = martial_arts_western_5
+		trait = martial_arts_roman_5
+		trait = martial_arts_eastern_5
+		trait = martial_arts_steppe_5
+	}
+}
+
+
+hexaco_martial_arts_xp_3_level_up = {
+	AND = {
+		check_variable = { which = hexaco_learning_martial_arts_xp value >= 3 }
+		check_variable = { which = hexaco_learning_martial_arts_xp value < 7 }
+		NOT = { has_martial_arts_lvl_1_trait_trigger = yes }
+	}
+}
+hexaco_martial_arts_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_martial_arts_xp value >= 7 }
+			check_variable = { which = hexaco_learning_martial_arts_xp value < 12 }
+			NOT = { has_martial_arts_lvl_2_trait_trigger = yes }
+		}
+	}
+}
+hexaco_martial_arts_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_martial_arts_xp value >= 12 }
+			check_variable = { which = hexaco_learning_martial_arts_xp value < 18 }
+			NOT = { has_martial_arts_lvl_3_trait_trigger = yes }
+		}
+	}
+}
+hexaco_martial_arts_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_martial_arts_xp value >= 18 }
+			check_variable = { which = hexaco_learning_martial_arts_xp value < 25 }
+			NOT = { has_martial_arts_lvl_4_trait_trigger = yes }
+		}
+	}
+}
+hexaco_martial_arts_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_martial_arts_xp value >= 25 }
+			check_variable = { which = hexaco_learning_martial_arts_xp value < 50 }
+			NOT = { has_martial_arts_lvl_5_trait_trigger = yes }
+		}
+	}
+}
+
+hexaco_riding_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_riding_xp value >= 3 }
+			check_variable = { which = hexaco_learning_riding_xp value < 7 }
+			NOT = { trait = riding_1 }
+		}
+	}
+}
+hexaco_riding_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_riding_xp value >= 7 }
+			check_variable = { which = hexaco_learning_riding_xp value < 12 }
+			NOT = { trait = riding_2 }
+		}
+	}
+}
+hexaco_riding_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_riding_xp value >= 12 }
+			check_variable = { which = hexaco_learning_riding_xp value < 18 }
+			NOT = { trait = riding_3 }
+		}
+	}
+}
+hexaco_riding_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_riding_xp value >= 18 }
+			check_variable = { which = hexaco_learning_riding_xp value < 25 }
+			NOT = { trait = riding_4 }
+		}
+	}
+}
+hexaco_riding_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_riding_xp value >= 25 }
+			check_variable = { which = hexaco_learning_riding_xp value < 50 }
+			NOT = { trait = riding_5 }
+		}
+	}
+}
+
+hexaco_etiquette_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_etiquette_xp value >= 3 }
+			check_variable = { which = hexaco_learning_etiquette_xp value < 7 }
+			NOT = { trait = etiquette_1 }
+		}
+	}
+}
+hexaco_etiquette_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_etiquette_xp value >= 7 }
+			check_variable = { which = hexaco_learning_etiquette_xp value < 12 }
+			NOT = { trait = etiquette_2 }
+		}
+	}
+}
+hexaco_etiquette_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_etiquette_xp value >= 12 }
+			check_variable = { which = hexaco_learning_etiquette_xp value < 18 }
+			NOT = { trait = etiquette_3 }
+		}
+	}
+}
+hexaco_etiquette_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_etiquette_xp value >= 18 }
+			check_variable = { which = hexaco_learning_etiquette_xp value < 25 }
+			NOT = { trait = etiquette_4 }
+		}
+	}
+}
+hexaco_etiquette_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_etiquette_xp value >= 25 }
+			check_variable = { which = hexaco_learning_etiquette_xp value < 50 }
+			NOT = { trait = etiquette_5 }
+		}
+	}
+}
+
+hexaco_read_write_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_read_write_xp value >= 3 }
+			check_variable = { which = hexaco_learning_read_write_xp value < 7 }
+			NOT = { trait = read_write_1 }
+		}
+	}
+}
+hexaco_read_write_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_read_write_xp value >= 7 }
+			check_variable = { which = hexaco_learning_read_write_xp value < 12 }
+			NOT = { trait = read_write_2 }
+		}
+	}
+}
+hexaco_read_write_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_read_write_xp value >= 12 }
+			check_variable = { which = hexaco_learning_read_write_xp value < 18 }
+			NOT = { trait = read_write_3 }
+		}
+	}
+}
+hexaco_read_write_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_read_write_xp value >= 18 }
+			check_variable = { which = hexaco_learning_read_write_xp value < 25 }
+			NOT = { trait = read_write_4 }
+		}
+	}
+}
+hexaco_read_write_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_read_write_xp value >= 25 }
+			check_variable = { which = hexaco_learning_read_write_xp value < 50 }
+			NOT = { trait = read_write_5 }
+		}
+	}
+}
+
+hexaco_mathematics_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_mathematics_xp value >= 3 }
+			check_variable = { which = hexaco_learning_mathematics_xp value < 7 }
+			NOT = { trait = mathematics_1 }
+		}
+	}
+}
+hexaco_mathematics_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_mathematics_xp value >= 7 }
+			check_variable = { which = hexaco_learning_mathematics_xp value < 12 }
+			NOT = { trait = mathematics_2 }
+		}
+	}
+}
+hexaco_mathematics_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_mathematics_xp value >= 12 }
+			check_variable = { which = hexaco_learning_mathematics_xp value < 18 }
+			NOT = { trait = mathematics_3 }
+		}
+	}
+}
+hexaco_mathematics_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_mathematics_xp value >= 18 }
+			check_variable = { which = hexaco_learning_mathematics_xp value < 25 }
+			NOT = { trait = mathematics_4 }
+		}
+	}
+}
+hexaco_mathematics_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_mathematics_xp value >= 25 }
+			check_variable = { which = hexaco_learning_mathematics_xp value < 50 }
+			NOT = { trait = mathematics_5 }
+		}
+	}
+}
+
+hexaco_philosophy_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_philosophy_xp value >= 3 }
+			check_variable = { which = hexaco_learning_philosophy_xp value < 7 }
+			NOT = { trait = philosophy_1 }
+		}
+	}
+}
+hexaco_philosophy_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_philosophy_xp value >= 7 }
+			check_variable = { which = hexaco_learning_philosophy_xp value < 12 }
+			NOT = { trait = philosophy_2 }
+		}
+	}
+}
+hexaco_philosophy_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_philosophy_xp value >= 12 }
+			check_variable = { which = hexaco_learning_philosophy_xp value < 18 }
+			NOT = { trait = philosophy_3 }
+		}
+	}
+}
+hexaco_philosophy_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_philosophy_xp value >= 18 }
+			check_variable = { which = hexaco_learning_philosophy_xp value < 25 }
+			NOT = { trait = philosophy_4 }
+		}
+	}
+}
+hexaco_philosophy_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_philosophy_xp value >= 25 }
+			check_variable = { which = hexaco_learning_philosophy_xp value < 50 }
+			NOT = { trait = philosophy_5 }
+		}
+	}
+}
+
+hexaco_law_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_law_xp value >= 3 }
+			check_variable = { which = hexaco_learning_law_xp value < 7 }
+			NOT = { trait = law_1 }
+		}
+	}
+}
+hexaco_law_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_law_xp value >= 7 }
+			check_variable = { which = hexaco_learning_law_xp value < 12 }
+			NOT = { trait = law_2 }
+		}
+	}
+}
+hexaco_law_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_law_xp value >= 12 }
+			check_variable = { which = hexaco_learning_law_xp value < 18 }
+			NOT = { trait = law_3 }
+		}
+	}
+}
+hexaco_law_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_law_xp value >= 18 }
+			check_variable = { which = hexaco_learning_law_xp value < 25 }
+			NOT = { trait = law_4 }
+		}
+	}
+}
+hexaco_law_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_law_xp value >= 25 }
+			check_variable = { which = hexaco_learning_law_xp value < 50 }
+			NOT = { trait = law_5 }
+		}
+	}
+}
+
+hexaco_theology_xp_3_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_theology_xp value >= 3 }
+			check_variable = { which = hexaco_learning_theology_xp value < 7 }
+			NOT = { trait = theology_1 }
+		}
+	}
+}
+hexaco_theology_xp_7_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_theology_xp value >= 7 }
+			check_variable = { which = hexaco_learning_theology_xp value < 12 }
+			NOT = { trait = theology_2 }
+		}
+	}
+}
+hexaco_theology_xp_12_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_theology_xp value >= 12 }
+			check_variable = { which = hexaco_learning_theology_xp value < 18 }
+			NOT = { trait = theology_3 }
+		}
+	}
+}
+hexaco_theology_xp_18_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_theology_xp value >= 18 }
+			check_variable = { which = hexaco_learning_theology_xp value < 25 }
+			NOT = { trait = theology_4 }
+		}
+	}
+}
+hexaco_theology_xp_25_level_up = {
+	OR = {
+		AND = {
+			check_variable = { which = hexaco_learning_theology_xp value >= 25 }
+			check_variable = { which = hexaco_learning_theology_xp value < 50 }
+			NOT = { trait = theology_5 }
+		}
+	}
+}
+
+
+
+
+
+

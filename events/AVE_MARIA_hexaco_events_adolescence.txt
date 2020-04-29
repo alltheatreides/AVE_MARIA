@@ -12,8 +12,10 @@
 namespace = AVE_MARIA_hexaco_adolescence
 
 ##NOTES:
-## During various adolescence focus, child learns the education traits
-# Adolescent gains experience points (XP) through events to gain a level up in their etiquette education trait. First tier is three XP points and each add one
+## During adolescence focuses, adolescent learns the education traits
+# Adolescent gains experience points (XP) through events to gain a level up in their education traits. First tier is three XP points and each tier adds an additional XP level
+# Refer to the related  scripted effects and triggers for details
+
 
 # Set up XP variable for adolescent when he comes of age
 character_event = {
@@ -41,159 +43,4334 @@ character_event = {
 }
 
 #############################################
-# Etiquette									#
+# Martial Arts 2-8							#
+#############################################	
+
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.2				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.2				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.2			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.3				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.3				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.3			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.4				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.4				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.4			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.5				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.5				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.5			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.6				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.6				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.6			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Martial Arts Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.7				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.7				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.7			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+				modifier = { # Physical modifier
+					factor = 1.5
+					trait = strong
+				}
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.8 } }		
+		}			
+		ai_chance  = {			
+			factor = 1		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.8				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.8				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { NOT = { is_inaccessible_trigger = yes } }				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.8			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.8			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius }		
+			OR = {
+				has_martial_arts_lvl_4_trait_trigger = yes
+				has_martial_arts_lvl_5_trait_trigger = yes	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Riding 9-15								#
+############################################# 	
+	
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.9				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.9				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.9			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.10				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.4				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.10			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.11				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.11				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.11			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.12				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.12				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.12			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.13				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.13				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.13			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Riding Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.14				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.14				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.14			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 3
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_riding_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.15 } }		
+		}			
+		ai_chance  = {			
+			factor = 2		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.15				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.15				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { NOT = { is_inaccessible_trigger = yes } }				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.15			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.15			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius }		
+			OR = {		
+				trait = riding_4	
+				trait = riding_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_riding_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Etiquette	16-22							#
 #############################################
 #Random events
 # Etiquette improvement - table manners
-character_event = {
-	id = AVE_MARIA_hexaco_adolescence.1	
-	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.1
-	picture = GFX_evt_child_talking
-	is_triggered_only = yes
-	
-	only_capable = yes
-	
-	trigger = {
-		has_dlc = "Zeus"
-		NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement }
-		NOT = { has_character_modifier = the_oubliette }
-		NOT = { has_character_modifier = the_dungeon }
-		NOT = { is_inaccessible_trigger = yes }
-		NOT = {
-			OR = {
-				trait = etiquette_1
-				trait = etiquette_2
-				trait = etiquette_3
-				trait = etiquette_4
-				trait = etiquette_5
-			}
-		}
-	}
-	
-	immediate = {
-		set_variable = { which = hexaco_learning_etiquette_xp value = 0 }
-	}
-	
-	option = {
-		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.1
-		# random_list = {
-			# 60 = { # Normal progress
-				# add_trait = etiquette_1
-				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal
-				# modifier = {
-					# factor = 1.05
-					# trait = shallow
-				# }
-				# modifier = {
-					# factor = 1.1
-					# trait = unimaginative
-				# }
-				# modifier = {
-					# factor = 1.2
-					# trait = conventional
-				# }
-				# modifier = {
-					# factor = 1.3
-					# trait = uninspired
-				# }
-				# modifier = {
-					# factor = 1.5
-					# trait = simple
-				# }
-			# }
-			# 35 = { # Gifted progress
-				# add_trait = etiquette_2
-				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster
-				# modifier = {
-					# factor = 1.05
-					# trait = thoughtful
-				# }
-				# modifier = {
-					# factor = 1.1
-					# trait = innovative
-				# }
-				# modifier = {
-					# factor = 1.2
-					# trait = unconventional
-				# }
-				# modifier = {
-					# factor = 1.3
-					# trait = creative
-				# }
-				# modifier = {
-					# factor = 1.5
-					# trait = intellectual
-				# }
-			# }
-			# 5 = { # Crazy progress
-				# add_trait = etiquette_3
-				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius
-				# modifier = {
-					# factor = 2
-					# trait = quick
-				# }
-				# modifier = {
-					# factor = 5
-					# trait = genius
-				# }
-			# }
-		# }
-		# hidden_tooltip = {
-			# educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.2 } }
-		# }
-		ai_chance  = {
-			factor = 1
-		}
-	}	
-	
-}
-
-# Tutor reacts
-character_event = {
-	id = AVE_MARIA_hexaco_adolescence.2
-	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.2
-	picture = GFX_evt_child_talking
-	
-	is_triggered_only = yes
-	
-	only_capable = yes
-	prisoner = no
-	
-	option = { #Good Anakin, good
-		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.2
-		trigger = {
-			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius }
-			OR = {
-				trait = etiquette_4
-				trait = etiquette_5
-			}
-		}
-		hidden_tooltip = {
-			set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_good_progress
-		}
-	}
-	
-	option = { #Good job kid
-		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.2
-		trigger = {
-			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius } }
-		}
-		hidden_tooltip = {
-			set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_normal_progress
-		}
-	}
-}
-
 # Etiquette improvement - hunting precedence
-
-# Tutor reacts
-
-# Etiquette improvement - hunting precedence
-
 # Etiquette improvement - no slouching
-
 # Etiquette improvement - table manners precedence
-
 # Etiquette improvement - women sewing
-
 # Etiquette improvement - proper talking to the domestics
+
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.16				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.16				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.16			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.17				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.5				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.17			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.18				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.18				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.18			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.19				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.19				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.19			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.20				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.20				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.20			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Etiquette Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.21				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.21				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.21			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 4
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.22 } }		
+		}			
+		ai_chance  = {			
+			factor = 3		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.22				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.22				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { NOT = { is_inaccessible_trigger = yes } }				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.22			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.22			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius }		
+			OR = {		
+				trait = etiquette_4	
+				trait = etiquette_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Mathematics 23-29							#
+#############################################
+
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.23				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.23				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.23			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.24				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.6				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.24			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.25				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.25				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.25			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.26				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.26				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.26			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.27				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.27				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.27			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Mathematics Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.28				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.28				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.28			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 5
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.29 } }		
+		}			
+		ai_chance  = {			
+			factor = 4		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.29				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.29				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { NOT = { is_inaccessible_trigger = yes } }				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.29			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.29			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius }		
+			OR = {		
+				trait = mathematics_4	
+				trait = mathematics_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Philosophy 30-36							#
+#############################################
+	
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.30				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.30				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {		
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.30			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.31				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.7				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {	
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.31			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.32				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.32				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {	
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.32			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.33				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.33				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.33			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.34				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.34				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.34			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Philosophy Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.35				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.35				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.35			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 6
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.36 } }		
+		}			
+		ai_chance  = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.36				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.36				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { 
+		NOT = { is_inaccessible_trigger = yes }
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_ancient_philosophy
+		}
+	}				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.36			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.36			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius }		
+			OR = {		
+				trait = philosophy_4	
+				trait = philosophy_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Law 37-43									#
+#############################################	
+
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.37				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.37				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {			
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.37			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.38				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.8				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {	
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.38			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.39				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.39				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {			
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.39			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.40				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.40				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {		
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.40			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.41				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.41				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {	
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.41			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Law Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.42				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.42				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {			
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.42			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_law_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 7
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_law_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.43 } }		
+		}			
+		ai_chance  = {			
+			factor = 6		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.43				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.43				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { 
+		NOT = { is_inaccessible_trigger = yes } 
+		OR = {
+			culture_group = byzantine
+			has_global_flag = university_roman_law
+		}
+	}				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.43			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.43			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius }		
+			OR = {		
+				trait = law_4	
+				trait = law_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_law_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
+
+#############################################
+# Theology 44-50							#
+#############################################
+
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.44				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.44				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.44			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.45				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.9				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.45			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.46				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.46				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.46			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.47				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.47				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.47			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.48				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.48				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.48			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Theology Random Improvement				
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.49				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.49				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+	}				
+	option = {				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.49			
+		random_list = {			
+			60 = { # Normal progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal	
+				modifier = {	
+					factor = 1.05
+					trait = shallow
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = unimaginative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = conventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = uninspired
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = simple
+				}	
+			}		
+			35 = { # Gifted progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 2 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster	
+				modifier = {	
+					factor = 1.05
+					trait = thoughtful
+				}	
+				modifier = {	
+					factor = 1.1
+					trait = innovative
+				}	
+				modifier = {	
+					factor = 1.2
+					trait = unconventional
+				}	
+				modifier = {	
+					factor = 1.3
+					trait = creative
+				}	
+				modifier = {	
+					factor = 1.5
+					trait = intellectual
+				}	
+				modifier = {	
+					factor = 8
+					trait = quick
+				}	
+			}		
+			5 = { # Crazy progress		
+				change_variable = { which = hexaco_learning_theology_xp value = 3 }	
+				hexaco_lvl_up = yes	
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius	
+				modifier = {	
+					factor = 2
+					trait = quick
+				}	
+				modifier = {	
+					factor = 5
+					trait = genius
+				}	
+			}		
+		}			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.50 } }		
+		}			
+		ai_chance  = {			
+			factor = 7		
+		}			
+	}				
+}					
+# Tutor reacts					
+character_event = {					
+	id = AVE_MARIA_hexaco_adolescence.50				
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.50				
+	picture = GFX_evt_child_talking				
+					
+	is_triggered_only = yes				
+	trigger = { NOT = { is_inaccessible_trigger = yes } }				
+	only_capable = yes				
+	prisoner = no				
+					
+	option = { #Good job kid				
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.50			
+		trigger = {			
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius } }		
+		}			
+		hidden_tooltip = {			
+			set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_making_normal_progress		
+		}			
+	}				
+					
+	option = { #Good Anakin, good				
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.50			
+		trigger = {			
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius }		
+			OR = {		
+				trait = theology_4	
+				trait = theology_5	
+			}		
+		}			
+		hidden_tooltip = {			
+			FROM = {		
+				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_making_good_progress	
+				change_variable = { which = hexaco_learning_theology_xp value = 1 }	
+				hexaco_lvl_up = yes	
+			}		
+		}			
+	}				
+}					
