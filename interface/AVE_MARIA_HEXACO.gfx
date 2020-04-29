@@ -9,11 +9,10 @@
 
 # Written by Atreides
 
-#HEXACO Traits
-
+#HEXACO GFX
 spriteTypes = {
 	
-	#Personality
+	#Personality traits
 	spriteType = {						
 		name = "GFX_trait_faithful"					
 		texturefile = gfx/traits/h_1_faithful_trait.tga					
@@ -435,7 +434,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
 	
-	#Martial Prowess
+	#Martial Prowess traits
 	spriteType = {						
 		name = "GFX_trait_martial_arts_western_1"					
 		texturefile = gfx/traits/martial_arts_western_1.tga					
@@ -577,7 +576,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
 	
-	#Knight
+	#Knight traits
 	spriteType = {				
 		name = "GFX_trait_knight"			
 		texturefile = gfx/traits/knight.tga			
@@ -586,7 +585,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}
 	
-	#War Veteran
+	#War Veteran traits
 	spriteType = {		
 		name = "GFX_trait_war_veteran_1"	
 		texturefile = gfx/traits/war_veteran_1.tga	
@@ -623,7 +622,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"	
 	}		
 	
-	# Riding skills	
+	# Riding skills	traits
 	spriteType = {				
 		name = "GFX_trait_riding_1"			
 		texturefile = gfx/traits/riding_1.tga			
@@ -660,7 +659,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 	
-	# Etiquette
+	# Etiquette traits
 	spriteType = {				
 		name = "GFX_trait_etiquette_1"			
 		texturefile = gfx/traits/etiquette_1.tga			
@@ -697,7 +696,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}				
 
-	# Written Skills
+	# Written Skills traits
 	spriteType = {				
 		name = "GFX_trait_read_write_1"			
 		texturefile = gfx/traits/read_write_1.tga			
@@ -734,7 +733,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}
 	
-	#Mathematics
+	#Mathematics traits
 	spriteType = {		
 		name = "GFX_trait_mathematics_1"	
 		texturefile = gfx/traits/mathematics_1.tga	
@@ -771,7 +770,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"	
 	}		
 
-	# Philosophy
+	# Philosophy traits
 	spriteType = {				
 		name = "GFX_trait_philosophy_1"			
 		texturefile = gfx/traits/philosophy_1.tga			
@@ -808,7 +807,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}		
 	
-	# Law
+	# Law traits
 	spriteType = {				
 		name = "GFX_trait_law_1"			
 		texturefile = gfx/traits/law_1.tga			
@@ -845,7 +844,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"			
 	}	
 	
-	# Theology
+	# Theology traits
 	spriteType = {						
 		name = "GFX_trait_theology_1"					
 		texturefile = gfx/traits/theology_christian_1.tga					
@@ -1057,6 +1056,11 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
 
-
+	# EVENTS
+	spriteType = {
+		name = "GFX_evt_ave_maria_hexaco_baptism"
+		texturefile = "gfx\\event_pictures\ave_maria_hexaco_event_picture_baptism.dds"
+		allwaystransparent = yes
+	}
 
 }

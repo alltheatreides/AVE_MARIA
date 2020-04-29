@@ -1,36 +1,21 @@
 ########################################################################################
 #                                         											   #
-# AVE MARIA 																		   #
+# AVE MARIA																			   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
-# On Actions																		   #
+# Opinion Modifiers										                          	   #
 #                               													   #
 ########################################################################################
 
 # Written by Atreides
 
-on_startup = {
 
-	events = {
-		AVE_MARIA_ADMC_maintenance.1
-		AVE_MARIA_ADMC_maintenance.3
-	}
+#Refused godparenthood
+opinion_hexaco_refused_godparenthood = {
+	opinion = -10
 }
 
-on_bi_yearly_pulse = {
-	events = {
-		AVE_MARIA_ADMC_maintenance.5
-	}
-}
-
-on_yearly_pulse = {
-	events = {
-		AVE_MARIA_ADMC_maintenance.1
-	}
-}
-
-on_death = {
-	events = {
-		AVE_MARIA_ADMC_maintenance.6
-	}
+#Accepted godparenthood
+opinion_hexaco_accepted_godparenthood = {
+	opinion = 10
 }

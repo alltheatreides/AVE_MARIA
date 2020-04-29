@@ -436,22 +436,22 @@ character_event = {
 			name = defied_church
 			duration = 24
 		}
-		if = {
-			limit = { NOT = { trait = greedy } }
-			add_trait = greedy
-		}
-		if = {
-			limit = { NOT = { trait = cynical } }
-			random = {
-				chance = 30
-				add_trait = cynical
-				hidden_tooltip = {
-					character_event = {
-						id = 38258 #Notify Cynical
-					}
-				}
-			}
-		}
+		# if = {
+			# limit = { NOT = { trait = greedy } }
+			# add_trait = greedy
+		# }
+		# if = {
+			# limit = { NOT = { trait = cynical } }
+			# random = {
+				# chance = 30
+				# add_trait = cynical
+				# hidden_tooltip = {
+					# character_event = {
+						# id = 38258 #Notify Cynical
+					# }
+				# }
+			# }
+		# }
 	}
 }
 

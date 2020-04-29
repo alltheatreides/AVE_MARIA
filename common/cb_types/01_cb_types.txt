@@ -39,11 +39,8 @@ dejure_duchy_claim = { # New1
 		}
 		FROM = {
 			suzerain = {
-				NOT = { tier = KING }
 				NOT = {
-					suzerain = {
-						character = ROOT
-					}
+					character = ROOT
 				}
 			}
 		}

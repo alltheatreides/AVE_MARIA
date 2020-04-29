@@ -20,7 +20,7 @@
 focus_ch_honesty_humility = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -38,7 +38,7 @@ focus_ch_honesty_humility = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -60,7 +60,7 @@ focus_ch_honesty_humility = {
 focus_ch_emotionality = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -78,7 +78,7 @@ focus_ch_emotionality = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -100,7 +100,7 @@ focus_ch_emotionality = {
 focus_ch_extraversion = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -118,7 +118,7 @@ focus_ch_extraversion = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -140,7 +140,7 @@ focus_ch_extraversion = {
 focus_ch_agreeableness = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -158,7 +158,7 @@ focus_ch_agreeableness = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -180,7 +180,7 @@ focus_ch_agreeableness = {
 focus_ch_conscientiousness = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -198,7 +198,7 @@ focus_ch_conscientiousness = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -220,7 +220,7 @@ focus_ch_conscientiousness = {
 focus_ch_openness_to_experience = {
 	type = character
 	potential = {
-		NOT = { age = 7 }
+		NOT = { age = 10 }
 	}
 	
 	allow = {
@@ -238,7 +238,7 @@ focus_ch_openness_to_experience = {
 	}
 	
 	abort = {
-		age = 7
+		age = 10
 	}
 	
 	abort_effect = {
@@ -265,12 +265,12 @@ focus_ed_etiquette = {
 	type = character
 		
 	potential = {
-		age = 7
+		age = 10
 		is_adult = no
 	}
 	
 	allow = {
-		is_female = no
+		# is_female = no
 	}
 	
 	# AI Pick chance
@@ -327,7 +327,7 @@ focus_ed_martial_arts = {
 	type = character
 		
 	potential = {
-		age = 7
+		age = 10
 		is_adult = no
 	}
 	
@@ -390,7 +390,7 @@ focus_ed_knowledge = {
 	type = character
 		
 	potential = {
-		age = 7
+		age = 10
 		is_adult = no
 	}
 	
@@ -439,7 +439,7 @@ focus_ed_theology = {
 	type = character
 		
 	potential = {
-		age = 7
+		age = 10
 		is_adult = no
 	}
 	

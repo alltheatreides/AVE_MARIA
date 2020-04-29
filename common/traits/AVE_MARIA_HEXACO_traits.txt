@@ -2900,7 +2900,6 @@ read_write_1 = {
 		}			
 	}				
 	learning = 1				
-	general_opinion = 1				
 }					
 read_write_2 = {					
 	education = yes				
@@ -2916,7 +2915,6 @@ read_write_2 = {
 		}			
 	}				
 	learning = 2				
-	general_opinion = 1				
 }					
 read_write_3 = {					
 	education = yes				
@@ -2932,7 +2930,6 @@ read_write_3 = {
 		}			
 	}				
 	learning = 3				
-	general_opinion = 1				
 }					
 read_write_4 = {					
 	education = yes				
@@ -2948,7 +2945,6 @@ read_write_4 = {
 		}			
 	}				
 	learning = 4				
-	general_opinion = 1				
 }					
 read_write_5 = {					
 	education = yes				
@@ -2964,7 +2960,6 @@ read_write_5 = {
 		}			
 	}				
 	learning = 5				
-	general_opinion = 1				
 }					
 
 # Mathematics
@@ -3030,7 +3025,13 @@ mathematics_4 = {
 		}				
 	}					
 	stewardship = 4					
-						
+	
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID					
 }						
 mathematics_5 = {						
 	education = yes					
@@ -3046,7 +3047,13 @@ mathematics_5 = {
 		}				
 	}					
 	stewardship = 5					
-						
+	
+	male_compliment_adj = COMPL_THRIFTY
+	female_compliment_adj = COMPL_THRIFTY
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_MISERLY
+	female_insult_adj = INSULT_MISERLY
+	child_insult_adj = INSULT_STUPID					
 }						
 
 # Philosophy
@@ -3244,7 +3251,11 @@ theology_2 = {
 		}				
 	}					
 	diplomacy = 1				
-	learning = 2					
+	learning = 2
+	
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
 }						
 theology_3 = {						
 	education = yes					
@@ -3260,7 +3271,12 @@ theology_3 = {
 		}				
 	}					
 	diplomacy = 1.5					
-	learning = 3					
+	learning = 3	
+	ai_zeal = 10
+
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
 }						
 theology_4 = {						
 	education = yes					
@@ -3276,7 +3292,16 @@ theology_4 = {
 		}				
 	}					
 	diplomacy = 2				
-	learning = 4					
+	learning = 4
+	ai_zeal = 20
+
+
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID	
 }						
 theology_5 = {						
 	education = yes					
@@ -3292,7 +3317,14 @@ theology_5 = {
 		}				
 	}					
 	diplomacy = 2.5				
-	learning = 5					
+	learning = 5
+	ai_zeal = 30
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult_adj = INSULT_DRIVELING
+	female_insult_adj = INSULT_DRIVELING
+	child_insult_adj = INSULT_STUPID
 }						
 
 

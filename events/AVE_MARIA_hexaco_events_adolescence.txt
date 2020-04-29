@@ -1,0 +1,199 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# HEXACO adolescence events for everyone		                       				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_hexaco_adolescence
+
+##NOTES:
+## During various adolescence focus, child learns the education traits
+# Adolescent gains experience points (XP) through events to gain a level up in their etiquette education trait. First tier is three XP points and each add one
+
+# Set up XP variable for adolescent when he comes of age
+character_event = {
+	id = AVE_MARIA_hexaco_adolescence.1	
+	is_triggered_only = yes
+	hide_window = yes
+	only_capable = yes
+	
+	trigger = {
+		has_dlc = "Zeus"
+		NOT = { has_character_modifier = the_oubliette }
+		NOT = { has_character_modifier = the_dungeon }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	immediate = {
+		set_variable = { which = hexaco_learning_martial_arts_xp value = 0 }
+		set_variable = { which = hexaco_learning_riding_xp value = 0 }
+		set_variable = { which = hexaco_learning_etiquette_xp value = 0 }
+		set_variable = { which = hexaco_learning_mathematics_xp value = 0 }
+		set_variable = { which = hexaco_learning_philosophy_xp value = 0 }
+		set_variable = { which = hexaco_learning_law_xp value = 0 }
+		set_variable = { which = hexaco_learning_theology_xp value = 0 }
+	}
+}
+
+#############################################
+# Etiquette									#
+#############################################
+#Random events
+# Etiquette improvement - table manners
+character_event = {
+	id = AVE_MARIA_hexaco_adolescence.1	
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.1
+	picture = GFX_evt_child_talking
+	is_triggered_only = yes
+	
+	only_capable = yes
+	
+	trigger = {
+		has_dlc = "Zeus"
+		NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement }
+		NOT = { has_character_modifier = the_oubliette }
+		NOT = { has_character_modifier = the_dungeon }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = {
+			OR = {
+				trait = etiquette_1
+				trait = etiquette_2
+				trait = etiquette_3
+				trait = etiquette_4
+				trait = etiquette_5
+			}
+		}
+	}
+	
+	immediate = {
+		set_variable = { which = hexaco_learning_etiquette_xp value = 0 }
+	}
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.1
+		# random_list = {
+			# 60 = { # Normal progress
+				# add_trait = etiquette_1
+				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal
+				# modifier = {
+					# factor = 1.05
+					# trait = shallow
+				# }
+				# modifier = {
+					# factor = 1.1
+					# trait = unimaginative
+				# }
+				# modifier = {
+					# factor = 1.2
+					# trait = conventional
+				# }
+				# modifier = {
+					# factor = 1.3
+					# trait = uninspired
+				# }
+				# modifier = {
+					# factor = 1.5
+					# trait = simple
+				# }
+			# }
+			# 35 = { # Gifted progress
+				# add_trait = etiquette_2
+				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster
+				# modifier = {
+					# factor = 1.05
+					# trait = thoughtful
+				# }
+				# modifier = {
+					# factor = 1.1
+					# trait = innovative
+				# }
+				# modifier = {
+					# factor = 1.2
+					# trait = unconventional
+				# }
+				# modifier = {
+					# factor = 1.3
+					# trait = creative
+				# }
+				# modifier = {
+					# factor = 1.5
+					# trait = intellectual
+				# }
+			# }
+			# 5 = { # Crazy progress
+				# add_trait = etiquette_3
+				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius
+				# modifier = {
+					# factor = 2
+					# trait = quick
+				# }
+				# modifier = {
+					# factor = 5
+					# trait = genius
+				# }
+			# }
+		# }
+		# hidden_tooltip = {
+			# educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.2 } }
+		# }
+		ai_chance  = {
+			factor = 1
+		}
+	}	
+	
+}
+
+# Tutor reacts
+character_event = {
+	id = AVE_MARIA_hexaco_adolescence.2
+	desc = EVTDESC_AVE_MARIA_hexaco_adolescence.2
+	picture = GFX_evt_child_talking
+	
+	is_triggered_only = yes
+	
+	only_capable = yes
+	prisoner = no
+	
+	option = { #Good Anakin, good
+		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.2
+		trigger = {
+			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius }
+			OR = {
+				trait = etiquette_4
+				trait = etiquette_5
+			}
+		}
+		hidden_tooltip = {
+			set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_good_progress
+		}
+	}
+	
+	option = { #Good job kid
+		name = EVTOPT_B_AVE_MARIA_hexaco_adolescence.2
+		trigger = {
+			FROM  = { NOT = { has_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius } }
+		}
+		hidden_tooltip = {
+			set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_normal_progress
+		}
+	}
+}
+
+# Etiquette improvement - hunting precedence
+
+# Tutor reacts
+
+# Etiquette improvement - hunting precedence
+
+# Etiquette improvement - no slouching
+
+# Etiquette improvement - table manners precedence
+
+# Etiquette improvement - women sewing
+
+# Etiquette improvement - proper talking to the domestics

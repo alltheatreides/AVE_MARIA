@@ -47,3 +47,312 @@ remove_vanilla_childhood_trait = {
 	remove_trait = timid
 }
 
+add_hexaco_trait = {
+	# Honesty-Humility					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = faithful		
+					trait = honest		
+					trait = sincere		
+					trait = generous		
+					trait = humble		
+					trait = pretentious		
+					trait = greedy		
+					trait = inconstant		
+					trait = deceitful		
+					trait = hypocritical		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = faithful			
+			}				
+			10 = { 				
+				add_trait = honest			
+			}				
+			10 = { 				
+				add_trait = sincere			
+			}				
+			10 = { 				
+				add_trait = generous			
+			}				
+			10 = { 				
+				add_trait = humble			
+			}				
+			10 = { 				
+				add_trait = pretentious			
+			}				
+			10 = { 				
+				add_trait = greedy			
+			}				
+			10 = { 				
+				add_trait = inconstant			
+			}				
+			10 = { 				
+				add_trait = deceitful			
+			}				
+			10 = { 				
+				add_trait = hypocritical			
+			}				
+		}					
+	}						
+	# Emotionality					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = craven		
+					trait = sentimental		
+					trait = fearful		
+					trait = anxious		
+					trait = vulnerable		
+					trait = stable		
+					trait = selfassured		
+					trait = independent		
+					trait = tough		
+					trait = brave		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = craven			
+			}				
+			10 = { 				
+				add_trait = sentimental			
+			}				
+			10 = { 				
+				add_trait = fearful			
+			}				
+			10 = { 				
+				add_trait = anxious			
+			}				
+			10 = { 				
+				add_trait = vulnerable			
+			}				
+			10 = { 				
+				add_trait = stable			
+			}				
+			10 = { 				
+				add_trait = selfassured			
+			}				
+			10 = { 				
+				add_trait = independent			
+			}				
+			10 = { 				
+				add_trait = tough			
+			}				
+			10 = { 				
+				add_trait = brave			
+			}				
+		}					
+	}						
+	# Extraversion					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = outgoing		
+					trait = lively		
+					trait = sociable		
+					trait = talkative		
+					trait = cheerful		
+					trait = passive		
+					trait = withdrawn		
+					trait = introverted		
+					trait = quiet		
+					trait = reserved		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = outgoing			
+			}				
+			10 = { 				
+				add_trait = lively			
+			}				
+			10 = { 				
+				add_trait = sociable			
+			}				
+			10 = { 				
+				add_trait = talkative			
+			}				
+			10 = { 				
+				add_trait = cheerful			
+			}				
+			10 = { 				
+				add_trait = passive			
+			}				
+			10 = { 				
+				add_trait = withdrawn			
+			}				
+			10 = { 				
+				add_trait = introverted			
+			}				
+			10 = { 				
+				add_trait = quiet			
+			}				
+			10 = { 				
+				add_trait = reserved			
+			}				
+		}					
+	}						
+	# Agreeableness					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = patient		
+					trait = tolerant		
+					trait = agreeable		
+					trait = mild		
+					trait = gentle		
+					trait = illtempered		
+					trait = quarrelsome		
+					trait = stubborn		
+					trait = intolerant		
+					trait = wroth		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = patient			
+			}				
+			10 = { 				
+				add_trait = tolerant			
+			}				
+			10 = { 				
+				add_trait = agreeable			
+			}				
+			10 = { 				
+				add_trait = mild			
+			}				
+			10 = { 				
+				add_trait = gentle			
+			}				
+			10 = { 				
+				add_trait = illtempered			
+			}				
+			10 = { 				
+				add_trait = quarrelsome			
+			}				
+			10 = { 				
+				add_trait = stubborn			
+			}				
+			10 = { 				
+				add_trait = intolerant			
+			}				
+			10 = { 				
+				add_trait = wroth			
+			}				
+		}					
+	}						
+	# Conscientiousness					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = organized		
+					trait = diligent		
+					trait = careful		
+					trait = thorough		
+					trait = precise		
+					trait = sloppy		
+					trait = negligent		
+					trait = reckless		
+					trait = lazy		
+					trait = irresponsible		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = organized			
+			}				
+			10 = { 				
+				add_trait = diligent			
+			}				
+			10 = { 				
+				add_trait = careful			
+			}				
+			10 = { 				
+				add_trait = thorough			
+			}				
+			10 = { 				
+				add_trait = precise			
+			}				
+			10 = { 				
+				add_trait = sloppy			
+			}				
+			10 = { 				
+				add_trait = negligent			
+			}				
+			10 = { 				
+				add_trait = reckless			
+			}				
+			10 = { 				
+				add_trait = lazy			
+			}				
+			10 = { 				
+				add_trait = irresponsible			
+			}				
+		}					
+	}						
+	# Openness to Experience					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = intellectual		
+					trait = creative		
+					trait = unconventional		
+					trait = innovative		
+					trait = thoughtful		
+					trait = shallow		
+					trait = unimaginative		
+					trait = conventional		
+					trait = uninspired		
+					trait = simple		
+				}			
+			}				
+		}					
+		random_list = {					
+			10 = { 				
+				add_trait = intellectual			
+			}				
+			10 = { 				
+				add_trait = creative			
+			}				
+			10 = { 				
+				add_trait = unconventional			
+			}				
+			10 = { 				
+				add_trait = innovative			
+			}				
+			10 = { 				
+				add_trait = thoughtful			
+			}				
+			10 = { 				
+				add_trait = shallow			
+			}				
+			10 = { 				
+				add_trait = unimaginative			
+			}				
+			10 = { 				
+				add_trait = conventional			
+			}				
+			10 = { 				
+				add_trait = uninspired			
+			}				
+			10 = { 				
+				add_trait = simple			
+			}				
+		}					
+	}						
+
+}
