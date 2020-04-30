@@ -15,7 +15,7 @@ namespace = AVE_MARIA_hexaco_war_veterancy
 ## cf on_actions 
 
 
-# Count the number of battles and increased veterancy
+# Count the number of battles and increases veterancy
 character_event = {
 	id = AVE_MARIA_hexaco_war_veterancy.1	
 	is_triggered_only = yes
@@ -27,200 +27,341 @@ character_event = {
 	}
 	
 	immediate = {
-		
-		# Set up
+		#25 battles
 		if = {
 			limit = {
-				check_variable = { which = hexaco_battle_count value < 0 }
+				has_character_flag = battles_won_24
 			}
-			set_variable = { which = hexaco_battle_count value = 0 }
-		}
-		
-		# First experience with war
-		if = {
-			limit = {
-				is_variable_equal = { which = hexaco_battle_count value = 0 }
-			}
-			change_variable = { which = hexaco_battle_count value = 1 }
-			add_trait = war_veteran_1
-		}
-
-		# 2 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 1 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 3 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 2 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 4 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 3 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 5 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 4 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }		
-			remove_trait = war_veteran_1
-			add_trait = war_veteran_2
-		}							
-		# 6 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 5 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 7 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 6 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 8 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 7 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 9 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 8 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 10 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 9 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }		
-			add_trait = war_veteran_3
-			remove_trait = war_veteran_2
-		}							
-		# 11 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 10 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 12 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 11 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 13 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 12 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 14 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 13 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 15 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 14 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 16 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 15 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 17 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 16 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 18 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 17 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 19 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 18 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 20 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 19 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }	
-			add_trait = war_veteran_4
-			remove_trait = war_veteran_3
-		}							
-		# 21 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 20 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 22 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 21 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 23 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 22 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 24 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 23 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }						
-		}							
-		# 25 battles						
-		if = {							
-			limit = {						
-				is_variable_equal = { which = hexaco_battle_count value = 24 }					
-			}						
-			change_variable = { which = hexaco_battle_count value = 1 }
+			set_character_flag = battles_won_25
+			clr_character_flag = battles_won_24
 			add_trait = war_veteran_5
 			remove_trait = war_veteran_4
-		}							
+		}
+		
+		##24 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_23
+			}
+			set_character_flag = battles_won_24
+			clr_character_flag = battles_won_23
 
+		}
+		
+		##23 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_22
+			}
+			set_character_flag = battles_won_23
+			clr_character_flag = battles_won_22
+
+		}
+		
+		##22 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_21
+			}
+			set_character_flag = battles_won_22
+			clr_character_flag = battles_won_21
+
+		}
+		
+		##21 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_20
+			}
+			set_character_flag = battles_won_21
+			clr_character_flag = battles_won_20
+			
+		}
+		
+		##20 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_19
+			}
+			set_character_flag = battles_won_20
+			clr_character_flag = battles_won_19
+			add_trait = war_veteran_4
+			remove_trait = war_veteran_3
+		}	
+		
+		##19 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_18
+			}
+			set_character_flag = battles_won_19
+			clr_character_flag = battles_won_18
+
+		}
+		
+		##18 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_17
+			}
+			set_character_flag = battles_won_18
+			clr_character_flag = battles_won_17
+
+		}
+		
+		##17 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_16
+			}
+			set_character_flag = battles_won_17
+			clr_character_flag = battles_won_16
+
+		}
+		
+		##16 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_15
+			}
+			set_character_flag = battles_won_16
+			clr_character_flag = battles_won_15
+
+		}
+		
+		##15 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_14
+			}
+			set_character_flag = battles_won_15
+			clr_character_flag = battles_won_14
+			add_trait = war_veteran_3
+			remove_trait = war_veteran_2
+		}	
+		
+		
+		##14 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_13
+			}
+			set_character_flag = battles_won_14
+			clr_character_flag = battles_won_13
+
+		}	
+		
+		##13 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_12
+			}
+			set_character_flag = battles_won_13
+			clr_character_flag = battles_won_12
+
+		}	
+		
+		##12 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_11
+			}
+			set_character_flag = battles_won_12
+			clr_character_flag = battles_won_11
+
+		}	
+		
+		##11 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_10
+			}
+			set_character_flag = battles_won_11
+			clr_character_flag = battles_won_10
+
+		}	
+		
+		##10 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_9
+			}
+			set_character_flag = battles_won_10
+			clr_character_flag = battles_won_9
+			add_trait = war_veteran_2
+			remove_trait = war_veteran_1
+		}	
+		
+		##9 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_8
+			}
+			set_character_flag = battles_won_9
+			clr_character_flag = battles_won_8
+
+		}	
+		
+		##8 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_7
+			}
+			set_character_flag = battles_won_8
+			clr_character_flag = battles_won_7
+
+		}	
+		
+		##7 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_6
+			}
+			set_character_flag = battles_won_7
+			clr_character_flag = battles_won_6
+
+		}	
+		
+		##6 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_5
+			}
+			set_character_flag = battles_won_6 
+			clr_character_flag = battles_won_5
+
+		}	
+
+		##5 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_4
+			}
+			set_character_flag = battles_won_5
+			clr_character_flag = battles_won_4
+			add_trait = war_veteran_1
+			remove_trait = war_veteran_1
+			remove_trait = war_veteran_2
+		}		
+		
+		##4 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_3
+			}
+			set_character_flag = battles_won_4 
+			clr_character_flag = battles_won_3
+			
+		}
+		
+		
+		##3 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_2
+			}
+			set_character_flag = battles_won_3 
+			clr_character_flag = battles_won_2
+			add_trait = war_veteran_1
+		}
+		
+		##2 battles
+		if = {
+			limit = {
+				has_character_flag = battles_won_1
+			} 
+			
+			set_character_flag = battles_won_2 
+			clr_character_flag = battles_won_1
+			
+		}
+		
+		##first major battle
+		if = {
+			limit = {
+				NOR = {
+					has_character_flag = battles_won_1
+					has_character_flag = battles_won_2
+					has_character_flag = battles_won_3
+					has_character_flag = battles_won_4
+					has_character_flag = battles_won_5
+					has_character_flag = battles_won_6
+					has_character_flag = battles_won_7
+					has_character_flag = battles_won_8
+					has_character_flag = battles_won_9
+					has_character_flag = battles_won_10
+					has_character_flag = battles_won_11
+					has_character_flag = battles_won_12
+					has_character_flag = battles_won_13
+					has_character_flag = battles_won_14
+					has_character_flag = battles_won_15
+					has_character_flag = battles_won_16
+					has_character_flag = battles_won_17
+					has_character_flag = battles_won_18
+					has_character_flag = battles_won_19
+					has_character_flag = battles_won_20
+					has_character_flag = battles_won_21
+					has_character_flag = battles_won_22
+					has_character_flag = battles_won_23
+					has_character_flag = battles_won_24
+					has_character_flag = battles_won_25
+				}
+			}
+			
+			set_character_flag = battles_won_1
+		}
 	}
 }
+
+# Clean if not proper trait
+character_event = {
+	id = AVE_MARIA_hexaco_war_veterancy.2	
+	hide_window = yes
+	
+	trigger = {
+		is_alive = yes
+		OR = {
+			trait = war_veteran_1
+			trait = war_veteran_2
+			trait = war_veteran_3
+			trait = war_veteran_4
+			trait = war_veteran_5
+		}
+		NOR = {
+			has_character_flag = battles_won_1
+			has_character_flag = battles_won_2
+			has_character_flag = battles_won_3
+			has_character_flag = battles_won_4
+			has_character_flag = battles_won_5
+			has_character_flag = battles_won_6
+			has_character_flag = battles_won_7
+			has_character_flag = battles_won_8
+			has_character_flag = battles_won_9
+			has_character_flag = battles_won_10
+			has_character_flag = battles_won_11
+			has_character_flag = battles_won_12
+			has_character_flag = battles_won_13
+			has_character_flag = battles_won_14
+			has_character_flag = battles_won_15
+			has_character_flag = battles_won_16
+			has_character_flag = battles_won_17
+			has_character_flag = battles_won_18
+			has_character_flag = battles_won_19
+			has_character_flag = battles_won_20
+			has_character_flag = battles_won_21
+			has_character_flag = battles_won_22
+			has_character_flag = battles_won_23
+			has_character_flag = battles_won_24
+			has_character_flag = battles_won_25
+		}		
+	}
+	
+	immediate = {
+		remove_trait = war_veteran_1
+		remove_trait = war_veteran_2
+		remove_trait = war_veteran_3
+		remove_trait = war_veteran_4
+		remove_trait = war_veteran_5
+	}
+	
+}	

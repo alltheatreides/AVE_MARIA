@@ -15931,6 +15931,7 @@ spawn_good_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_1
+		add_trait = riding_3
 		
 		if = {				
 			limit = {			
@@ -16177,7 +16178,7 @@ spawn_great_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_2
-		
+		add_trait = riding_4
 		
 		
 		if = { 			
@@ -16462,6 +16463,8 @@ spawn_fantastic_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_5
+		add_trait = riding_5
+		
 		if = { 			
 			limit = { 		
 				OR = {
@@ -18122,6 +18125,7 @@ china_spawn_commander_effect = {
 	}
 	new_character = {
 		unsafe_give_minor_title = title_commander
+		add_hexaco_trait = yes
 		
 		set_variable = {
 			which = china_war_minimum_commander_martial
@@ -25741,6 +25745,7 @@ spawn_debutante_effect = {
 			}
 		}
 		set_character_flag = debutante
+		add_hexaco_trait = yes
 		save_event_target_as = invited_character
 	}
 }

@@ -50,62 +50,7 @@ on_adolescence = {
 		AVE_MARIA_hexaco_adolescence.1	
 	}
 	random_events = {
-		#Martial Arts
-		2 = AVE_MARIA_hexaco_adolescence.2
-		2 = AVE_MARIA_hexaco_adolescence.3
-		2 = AVE_MARIA_hexaco_adolescence.4
-		2 = AVE_MARIA_hexaco_adolescence.5
-		2 = AVE_MARIA_hexaco_adolescence.6
-		2 = AVE_MARIA_hexaco_adolescence.7
-		2 = AVE_MARIA_hexaco_adolescence.8
-		# Riding
-		2 = AVE_MARIA_hexaco_adolescence.9
-		2 = AVE_MARIA_hexaco_adolescence.10
-		2 = AVE_MARIA_hexaco_adolescence.11
-		2 = AVE_MARIA_hexaco_adolescence.12
-		2 = AVE_MARIA_hexaco_adolescence.13
-		2 = AVE_MARIA_hexaco_adolescence.14
-		2 = AVE_MARIA_hexaco_adolescence.15
-		# Etiquette
-		2 = AVE_MARIA_hexaco_adolescence.16
-		2 = AVE_MARIA_hexaco_adolescence.17
-		2 = AVE_MARIA_hexaco_adolescence.18
-		2 = AVE_MARIA_hexaco_adolescence.19
-		2 = AVE_MARIA_hexaco_adolescence.20
-		2 = AVE_MARIA_hexaco_adolescence.21
-		2 = AVE_MARIA_hexaco_adolescence.22
-		# Mathematics
-		2 = AVE_MARIA_hexaco_adolescence.23
-		2 = AVE_MARIA_hexaco_adolescence.24
-		2 = AVE_MARIA_hexaco_adolescence.25
-		2 = AVE_MARIA_hexaco_adolescence.26
-		2 = AVE_MARIA_hexaco_adolescence.27
-		2 = AVE_MARIA_hexaco_adolescence.28
-		2 = AVE_MARIA_hexaco_adolescence.29
-		# Philosophy
-		2 = AVE_MARIA_hexaco_adolescence.30
-		2 = AVE_MARIA_hexaco_adolescence.31
-		2 = AVE_MARIA_hexaco_adolescence.32
-		2 = AVE_MARIA_hexaco_adolescence.33
-		2 = AVE_MARIA_hexaco_adolescence.34
-		2 = AVE_MARIA_hexaco_adolescence.35
-		2 = AVE_MARIA_hexaco_adolescence.36
-		# Law
-		2 = AVE_MARIA_hexaco_adolescence.37
-		2 = AVE_MARIA_hexaco_adolescence.38
-		2 = AVE_MARIA_hexaco_adolescence.39
-		2 = AVE_MARIA_hexaco_adolescence.40
-		2 = AVE_MARIA_hexaco_adolescence.41
-		2 = AVE_MARIA_hexaco_adolescence.42
-		2 = AVE_MARIA_hexaco_adolescence.43
-		# Theology
-		2 = AVE_MARIA_hexaco_adolescence.44
-		2 = AVE_MARIA_hexaco_adolescence.45
-		2 = AVE_MARIA_hexaco_adolescence.46
-		2 = AVE_MARIA_hexaco_adolescence.47
-		2 = AVE_MARIA_hexaco_adolescence.48
-		2 = AVE_MARIA_hexaco_adolescence.49
-		2 = AVE_MARIA_hexaco_adolescence.50
+		AVE_MARIA_hexaco_adolescence.59
 	}
 }
 
@@ -113,6 +58,8 @@ on_adulthood = {
 	events = {
 		#Making sure you get all of the HEXACO traits
 		AVE_MARIA_hexaco_maintenance.2
+		# Making sure you get at least the basics of the HEXACO education traits
+		AVE_MARIA_hexaco_adolescence.51
 		#Adulthood ceremony
 	}
 	# random_events = {

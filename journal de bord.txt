@@ -299,3 +299,15 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 - Certains malus servitium debitum ne sont pas bien retirés
 - Check les paysans qui spawnent sans trait scripted effect...
 - Pareil pour les nouveaux persos des évéchés
+- rajouter les archevechés en duché titulaires
+- Pour le controle partagée des terres: utiliser des batiments qui réduisent l'impot taxé par le seigneur
+- Dans la maintenance, ajouter les hexaco variable pour tous
+- Mettre un mtth positif sur les education quand le tuteur est bon
+- Exclure les moines de certains métiers (connétable) OK
+- Rajouter des évènements d'improvement MTTH sur les focus adultes
+- Prendre en compte l'opinion des vassaux en cas de guerre par rapport à l'attaquant
+- Revoir les events de sow dissent du chancelier
+- Pour le mtth des events adolescence: calculer combien de temps entre 10 et age adulte et diviser pour avoir un gain qui donne environ le niveau 3 d'education
+- augmenter les chances selon les traits et l'educator
+- Utiliser un event avec un mtth de tous les xx mois (6 ?) pour appeler les autres event de learning, parce que sinon ca ralentit tout
+- Probablement retirer les combat rating des lignées, c'est con

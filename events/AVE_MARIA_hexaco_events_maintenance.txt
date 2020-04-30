@@ -3221,6 +3221,19 @@ character_event = {
 
 		}
 		
+		any_character = {
+			limit = {
+				age >= 10
+				is_adult = no
+			}
+			set_variable = { which = hexaco_learning_martial_arts_xp value = 0 }
+			set_variable = { which = hexaco_learning_riding_xp value = 0 }
+			set_variable = { which = hexaco_learning_etiquette_xp value = 0 }
+			set_variable = { which = hexaco_learning_mathematics_xp value = 0 }
+			set_variable = { which = hexaco_learning_philosophy_xp value = 0 }
+			set_variable = { which = hexaco_learning_law_xp value = 0 }
+			set_variable = { which = hexaco_learning_theology_xp value = 0 }
+		}
 	}
 }
 

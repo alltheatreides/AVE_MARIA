@@ -1278,10 +1278,21 @@ can_be_marshal_trigger = {
 			}
 			is_adult = yes
 			is_priest = no
+			NOT = {
+				OR = {
+					society_member_of = monastic_order_benedictine
+					society_member_of = monastic_order_dominican
+					society_member_of = monastic_order_orthodox
+					society_member_of = monastic_order_nestorian
+					society_member_of = monastic_order_monophysite
+					society_member_of = monastic_order_buddhist
+					society_member_of = monastic_order_jain
+				}
+			}
 		}
 		has_character_flag = special_marshal
 	}
-	
+	is_priest = no
 	independent = no
 	prisoner = no
 	NOT = { trait = incapable }
