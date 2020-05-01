@@ -28,6 +28,7 @@ character_event = {
 	}
 		
 	immediate = {
+		# Give HEXACO traits
 		#faithful						
 		random_list = {						
 			50 = { 					
@@ -4048,4026 +4049,6 @@ character_event = {
 				}				
 			}					
 		}						
-		#faithful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = faithful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = faithful
-						}		
-						30 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						5 = {		
-							add_trait = generous
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = faithful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = faithful
-						}		
-						30 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						5 = {		
-							add_trait = generous
-						}		
-					}			
-				}				
-			}					
-		}						
-		#honest						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = honest
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						30 = {		
-							add_trait = faithful
-						}		
-						10 = {		
-							add_trait = honest
-						}		
-						30 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						5 = {		
-							add_trait = humble
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = honest
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						30 = {		
-							add_trait = faithful
-						}		
-						10 = {		
-							add_trait = honest
-						}		
-						30 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						5 = {		
-							add_trait = humble
-						}		
-					}			
-				}				
-			}					
-		}						
-		#sincere						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = sincere
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = faithful
-						}		
-						30 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						30 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						5 = {		
-							add_trait = pretentious
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = sincere
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = faithful
-						}		
-						30 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						30 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						5 = {		
-							add_trait = pretentious
-						}		
-					}			
-				}				
-			}					
-		}						
-		#generous						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = generous
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = faithful
-						}		
-						10 = {		
-							add_trait = honest
-						}		
-						30 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						30 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						5 = {		
-							add_trait = greedy
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = generous
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = faithful
-						}		
-						10 = {		
-							add_trait = honest
-						}		
-						30 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						30 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						5 = {		
-							add_trait = greedy
-						}		
-					}			
-				}				
-			}					
-		}						
-		#humble						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = humble
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						30 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						30 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						5 = {		
-							add_trait = inconstant
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = humble
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = honest
-						}		
-						10 = {		
-							add_trait = sincere
-						}		
-						30 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						30 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						5 = {		
-							add_trait = inconstant
-						}		
-					}			
-				}				
-			}					
-		}						
-		#pretentious						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = pretentious
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						30 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						30 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						5 = {		
-							add_trait = deceitful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = pretentious
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sincere
-						}		
-						10 = {		
-							add_trait = generous
-						}		
-						30 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						30 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						5 = {		
-							add_trait = deceitful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#greedy						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = greedy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						30 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						30 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						5 = {		
-							add_trait = hypocritical
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = greedy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = generous
-						}		
-						10 = {		
-							add_trait = humble
-						}		
-						30 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						30 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						5 = {		
-							add_trait = hypocritical
-						}		
-					}			
-				}				
-			}					
-		}						
-		#inconstant						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = inconstant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						30 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						30 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						5 = {		
-							add_trait = craven
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = inconstant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = humble
-						}		
-						10 = {		
-							add_trait = pretentious
-						}		
-						30 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						30 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						5 = {		
-							add_trait = craven
-						}		
-					}			
-				}				
-			}					
-		}						
-		#deceitful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = deceitful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						30 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						30 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						5 = {		
-							add_trait = sentimental
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = deceitful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = pretentious
-						}		
-						10 = {		
-							add_trait = greedy
-						}		
-						30 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						30 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						5 = {		
-							add_trait = sentimental
-						}		
-					}			
-				}				
-			}					
-		}						
-		#hypocritical						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = hypocritical
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						30 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						30 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						5 = {		
-							add_trait = fearful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = hypocritical
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = greedy
-						}		
-						10 = {		
-							add_trait = inconstant
-						}		
-						30 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						30 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						5 = {		
-							add_trait = fearful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#craven						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = craven
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						30 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						30 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						5 = {		
-							add_trait = anxious
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = craven
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = inconstant
-						}		
-						10 = {		
-							add_trait = deceitful
-						}		
-						30 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						30 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						5 = {		
-							add_trait = anxious
-						}		
-					}			
-				}				
-			}					
-		}						
-		#sentimental						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = sentimental
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						30 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						30 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						5 = {		
-							add_trait = vulnerable
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = sentimental
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = deceitful
-						}		
-						10 = {		
-							add_trait = hypocritical
-						}		
-						30 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						30 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						5 = {		
-							add_trait = vulnerable
-						}		
-					}			
-				}				
-			}					
-		}						
-		#fearful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = fearful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						30 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						30 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						5 = {		
-							add_trait = stable
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = fearful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = hypocritical
-						}		
-						10 = {		
-							add_trait = craven
-						}		
-						30 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						30 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						5 = {		
-							add_trait = stable
-						}		
-					}			
-				}				
-			}					
-		}						
-		#anxious						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = anxious
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						30 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						30 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						5 = {		
-							add_trait = selfassured
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = anxious
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = craven
-						}		
-						10 = {		
-							add_trait = sentimental
-						}		
-						30 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						30 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						5 = {		
-							add_trait = selfassured
-						}		
-					}			
-				}				
-			}					
-		}						
-		#vulnerable 						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = vulnerable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						30 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						30 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						5 = {		
-							add_trait = independent
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = vulnerable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sentimental
-						}		
-						10 = {		
-							add_trait = fearful
-						}		
-						30 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						30 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						5 = {		
-							add_trait = independent
-						}		
-					}			
-				}				
-			}					
-		}						
-		#stable						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = stable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						30 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						30 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						5 = {		
-							add_trait = tough
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = stable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = fearful
-						}		
-						10 = {		
-							add_trait = anxious
-						}		
-						30 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						30 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						5 = {		
-							add_trait = tough
-						}		
-					}			
-				}				
-			}					
-		}						
-		#selfassured						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = selfassured
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						30 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						30 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						5 = {		
-							add_trait = brave
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = selfassured
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = anxious
-						}		
-						10 = {		
-							add_trait = vulnerable
-						}		
-						30 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						30 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						5 = {		
-							add_trait = brave
-						}		
-					}			
-				}				
-			}					
-		}						
-		#independent						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = independent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						30 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						30 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						5 = {		
-							add_trait = outgoing
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = independent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = vulnerable
-						}		
-						10 = {		
-							add_trait = stable
-						}		
-						30 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						30 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						5 = {		
-							add_trait = outgoing
-						}		
-					}			
-				}				
-			}					
-		}						
-		#tough						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = tough
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						30 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						30 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						5 = {		
-							add_trait = lively
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = tough
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = stable
-						}		
-						10 = {		
-							add_trait = selfassured
-						}		
-						30 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						30 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						5 = {		
-							add_trait = lively
-						}		
-					}			
-				}				
-			}					
-		}						
-		#brave						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = brave
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						30 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						30 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						5 = {		
-							add_trait = sociable
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = brave
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = selfassured
-						}		
-						10 = {		
-							add_trait = independent
-						}		
-						30 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						30 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						5 = {		
-							add_trait = sociable
-						}		
-					}			
-				}				
-			}					
-		}						
-		#outgoing						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = outgoing
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						30 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						30 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						5 = {		
-							add_trait = talkative
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = outgoing
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = independent
-						}		
-						10 = {		
-							add_trait = tough
-						}		
-						30 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						30 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						5 = {		
-							add_trait = talkative
-						}		
-					}			
-				}				
-			}					
-		}						
-		#lively						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = lively
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						30 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						30 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						5 = {		
-							add_trait = cheerful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = lively
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = tough
-						}		
-						10 = {		
-							add_trait = brave
-						}		
-						30 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						30 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						5 = {		
-							add_trait = cheerful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#sociable						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = sociable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						30 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						30 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						5 = {		
-							add_trait = passive
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = sociable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = brave
-						}		
-						10 = {		
-							add_trait = outgoing
-						}		
-						30 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						30 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						5 = {		
-							add_trait = passive
-						}		
-					}			
-				}				
-			}					
-		}						
-		#talkative						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = talkative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						30 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						30 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						5 = {		
-							add_trait = withdrawn
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = talkative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = outgoing
-						}		
-						10 = {		
-							add_trait = lively
-						}		
-						30 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						30 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						5 = {		
-							add_trait = withdrawn
-						}		
-					}			
-				}				
-			}					
-		}						
-		#cheerful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = cheerful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						30 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						30 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						5 = {		
-							add_trait = introverted
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = cheerful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = lively
-						}		
-						10 = {		
-							add_trait = sociable
-						}		
-						30 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						30 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						5 = {		
-							add_trait = introverted
-						}		
-					}			
-				}				
-			}					
-		}						
-		#passive						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = passive
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						30 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						30 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						5 = {		
-							add_trait = quiet
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = passive
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sociable
-						}		
-						10 = {		
-							add_trait = talkative
-						}		
-						30 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						30 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						5 = {		
-							add_trait = quiet
-						}		
-					}			
-				}				
-			}					
-		}						
-		#withdrawn						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = withdrawn
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						30 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						30 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						5 = {		
-							add_trait = reserved
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = withdrawn
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = talkative
-						}		
-						10 = {		
-							add_trait = cheerful
-						}		
-						30 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						30 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						5 = {		
-							add_trait = reserved
-						}		
-					}			
-				}				
-			}					
-		}						
-		#introverted						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = introverted
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						30 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						30 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						5 = {		
-							add_trait = patient
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = introverted
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = cheerful
-						}		
-						10 = {		
-							add_trait = passive
-						}		
-						30 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						30 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						5 = {		
-							add_trait = patient
-						}		
-					}			
-				}				
-			}					
-		}						
-		#quiet						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = quiet
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						30 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						30 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						5 = {		
-							add_trait = tolerant
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = quiet
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = passive
-						}		
-						10 = {		
-							add_trait = withdrawn
-						}		
-						30 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						30 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						5 = {		
-							add_trait = tolerant
-						}		
-					}			
-				}				
-			}					
-		}						
-		#reserved						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = reserved
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						30 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						30 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						5 = {		
-							add_trait = agreeable
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = reserved
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = withdrawn
-						}		
-						10 = {		
-							add_trait = introverted
-						}		
-						30 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						30 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						5 = {		
-							add_trait = agreeable
-						}		
-					}			
-				}				
-			}					
-		}						
-		#patient						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = patient
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						30 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						30 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						5 = {		
-							add_trait = mild
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = patient
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = introverted
-						}		
-						10 = {		
-							add_trait = quiet
-						}		
-						30 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						30 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						5 = {		
-							add_trait = mild
-						}		
-					}			
-				}				
-			}					
-		}						
-		#tolerant						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = tolerant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						30 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						30 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						5 = {		
-							add_trait = gentle
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = tolerant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = quiet
-						}		
-						10 = {		
-							add_trait = reserved
-						}		
-						30 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						30 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						5 = {		
-							add_trait = gentle
-						}		
-					}			
-				}				
-			}					
-		}						
-		#agreeable						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = agreeable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						30 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						30 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						5 = {		
-							add_trait = illtempered
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = agreeable
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = reserved
-						}		
-						10 = {		
-							add_trait = patient
-						}		
-						30 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						30 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						5 = {		
-							add_trait = illtempered
-						}		
-					}			
-				}				
-			}					
-		}						
-		#mild						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = mild
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						30 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						30 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						5 = {		
-							add_trait = quarrelsome
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = mild
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = patient
-						}		
-						10 = {		
-							add_trait = tolerant
-						}		
-						30 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						30 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						5 = {		
-							add_trait = quarrelsome
-						}		
-					}			
-				}				
-			}					
-		}						
-		#gentle						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = gentle
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						30 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						30 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						5 = {		
-							add_trait = stubborn
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = gentle
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = tolerant
-						}		
-						10 = {		
-							add_trait = agreeable
-						}		
-						30 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						30 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						5 = {		
-							add_trait = stubborn
-						}		
-					}			
-				}				
-			}					
-		}						
-		#illtempered						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = illtempered
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						30 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						30 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						5 = {		
-							add_trait = intolerant
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = illtempered
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = agreeable
-						}		
-						10 = {		
-							add_trait = mild
-						}		
-						30 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						30 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						5 = {		
-							add_trait = intolerant
-						}		
-					}			
-				}				
-			}					
-		}						
-		#quarrelsome						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = quarrelsome
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						30 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						30 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						5 = {		
-							add_trait = wroth
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = quarrelsome
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = mild
-						}		
-						10 = {		
-							add_trait = gentle
-						}		
-						30 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						30 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						5 = {		
-							add_trait = wroth
-						}		
-					}			
-				}				
-			}					
-		}						
-		#stubborn						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = stubborn
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						30 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						30 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						5 = {		
-							add_trait = organized
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = stubborn
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = gentle
-						}		
-						10 = {		
-							add_trait = illtempered
-						}		
-						30 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						30 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						5 = {		
-							add_trait = organized
-						}		
-					}			
-				}				
-			}					
-		}						
-		#intolerant						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = intolerant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						30 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						30 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						5 = {		
-							add_trait = diligent
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = intolerant
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = illtempered
-						}		
-						10 = {		
-							add_trait = quarrelsome
-						}		
-						30 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						30 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						5 = {		
-							add_trait = diligent
-						}		
-					}			
-				}				
-			}					
-		}						
-		#wroth						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = wroth
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						30 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						30 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						5 = {		
-							add_trait = careful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = wroth
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = quarrelsome
-						}		
-						10 = {		
-							add_trait = stubborn
-						}		
-						30 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						30 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						5 = {		
-							add_trait = careful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#organized						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = organized
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						30 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						30 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						5 = {		
-							add_trait = thorough
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = organized
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = stubborn
-						}		
-						10 = {		
-							add_trait = intolerant
-						}		
-						30 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						30 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						5 = {		
-							add_trait = thorough
-						}		
-					}			
-				}				
-			}					
-		}						
-		#diligent						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = diligent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						30 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						30 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						5 = {		
-							add_trait = precise
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = diligent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = intolerant
-						}		
-						10 = {		
-							add_trait = wroth
-						}		
-						30 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						30 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						5 = {		
-							add_trait = precise
-						}		
-					}			
-				}				
-			}					
-		}						
-		#careful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = careful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						30 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						30 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						5 = {		
-							add_trait = sloppy
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = careful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = wroth
-						}		
-						10 = {		
-							add_trait = organized
-						}		
-						30 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						30 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						5 = {		
-							add_trait = sloppy
-						}		
-					}			
-				}				
-			}					
-		}						
-		#thorough						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = thorough
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						30 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						30 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						5 = {		
-							add_trait = negligent
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = thorough
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = organized
-						}		
-						10 = {		
-							add_trait = diligent
-						}		
-						30 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						30 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						5 = {		
-							add_trait = negligent
-						}		
-					}			
-				}				
-			}					
-		}						
-		#precise						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = precise
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						30 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						30 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						5 = {		
-							add_trait = reckless
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = precise
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = diligent
-						}		
-						10 = {		
-							add_trait = careful
-						}		
-						30 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						30 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						5 = {		
-							add_trait = reckless
-						}		
-					}			
-				}				
-			}					
-		}						
-		#sloppy						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = sloppy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						30 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						30 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						5 = {		
-							add_trait = lazy
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = sloppy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = careful
-						}		
-						10 = {		
-							add_trait = thorough
-						}		
-						30 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						30 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						5 = {		
-							add_trait = lazy
-						}		
-					}			
-				}				
-			}					
-		}						
-		#negligent						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = negligent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						30 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						30 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						5 = {		
-							add_trait = irresponsible
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = negligent
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = thorough
-						}		
-						10 = {		
-							add_trait = precise
-						}		
-						30 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						30 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						5 = {		
-							add_trait = irresponsible
-						}		
-					}			
-				}				
-			}					
-		}						
-		#reckless						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = reckless
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						30 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						30 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						5 = {		
-							add_trait = intellectual
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = reckless
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = precise
-						}		
-						10 = {		
-							add_trait = sloppy
-						}		
-						30 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						30 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						5 = {		
-							add_trait = intellectual
-						}		
-					}			
-				}				
-			}					
-		}						
-		#lazy						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = lazy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						30 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						30 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						5 = {		
-							add_trait = creative
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = lazy
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = sloppy
-						}		
-						10 = {		
-							add_trait = negligent
-						}		
-						30 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						30 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						5 = {		
-							add_trait = creative
-						}		
-					}			
-				}				
-			}					
-		}						
-		#irresponsible						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = irresponsible
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						30 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						30 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						5 = {		
-							add_trait = unconventional
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = irresponsible
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = negligent
-						}		
-						10 = {		
-							add_trait = reckless
-						}		
-						30 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						30 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						5 = {		
-							add_trait = unconventional
-						}		
-					}			
-				}				
-			}					
-		}						
-		#intellectual						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = intellectual
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						30 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						30 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						5 = {		
-							add_trait = innovative
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = intellectual
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = reckless
-						}		
-						10 = {		
-							add_trait = lazy
-						}		
-						30 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						30 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						5 = {		
-							add_trait = innovative
-						}		
-					}			
-				}				
-			}					
-		}						
-		#creative						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = creative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						30 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						30 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						5 = {		
-							add_trait = thoughtful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = creative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = lazy
-						}		
-						10 = {		
-							add_trait = irresponsible
-						}		
-						30 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						30 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						5 = {		
-							add_trait = thoughtful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#unconventional						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = unconventional
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						30 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						30 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						5 = {		
-							add_trait = shallow
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = unconventional
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = irresponsible
-						}		
-						10 = {		
-							add_trait = intellectual
-						}		
-						30 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						30 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						5 = {		
-							add_trait = shallow
-						}		
-					}			
-				}				
-			}					
-		}						
-		#innovative						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = innovative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						30 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						30 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						5 = {		
-							add_trait = unimaginative
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = innovative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = intellectual
-						}		
-						10 = {		
-							add_trait = creative
-						}		
-						30 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						30 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						5 = {		
-							add_trait = unimaginative
-						}		
-					}			
-				}				
-			}					
-		}						
-		#thoughtful						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = thoughtful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						30 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						30 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						5 = {		
-							add_trait = conventional
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = thoughtful
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = creative
-						}		
-						10 = {		
-							add_trait = unconventional
-						}		
-						30 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						30 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						5 = {		
-							add_trait = conventional
-						}		
-					}			
-				}				
-			}					
-		}						
-		#shallow						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = shallow
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						30 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						30 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						5 = {		
-							add_trait = uninspired
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = shallow
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = unconventional
-						}		
-						10 = {		
-							add_trait = innovative
-						}		
-						30 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						30 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						5 = {		
-							add_trait = uninspired
-						}		
-					}			
-				}				
-			}					
-		}						
-		#unimaginative						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = unimaginative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						30 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						30 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = unimaginative
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = innovative
-						}		
-						10 = {		
-							add_trait = thoughtful
-						}		
-						30 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						30 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-		}						
-		#conventional						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = conventional
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						30 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						30 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = faithful
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = conventional
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = thoughtful
-						}		
-						10 = {		
-							add_trait = shallow
-						}		
-						30 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						30 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = faithful
-						}		
-					}			
-				}				
-			}					
-		}						
-		#uninspired						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = uninspired
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						30 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = uninspired
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = shallow
-						}		
-						10 = {		
-							add_trait = unimaginative
-						}		
-						30 = {		
-							add_trait = conventional
-						}		
-						10 = {		
-							add_trait = uninspired
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-		}
-		#simple						
-		random_list = {						
-			50 = { 					
-				if = {				
-					limit = {			
-						mother_even_if_dead = {		
-							trait = simple
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						30 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-			50 = { 					
-				if = {				
-					limit = {			
-						father_even_if_dead = {		
-							trait = simple
-						}		
-					}			
-					random_list = {			
-						5 = {		
-							add_trait = unimaginative
-						}		
-						10 = {		
-							add_trait = conventional
-						}		
-						30 = {		
-							add_trait = uninspired
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						30 = {		
-							add_trait = simple
-						}		
-						10 = {		
-							add_trait = simple
-						}		
-						5 = {		
-							add_trait = simple
-						}		
-					}			
-				}				
-			}					
-		}
 		
 		# Making sure you have all the traits
 		# Honesty-Humility					
@@ -8376,10 +4357,2909 @@ character_event = {
 				}				
 			}					
 		}						
+		
+		# Setting up the personality changing variable
+		# Honesty-Humility - faithful			
+		if = {	# faithful		
+			limit = {			
+				trait = faithful		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = 15 }			
+		}				
+		# Honesty-Humility honest			
+		if = {	# honest		
+			limit = {			
+				trait = honest		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = 12 }			
+		}				
+		# Honesty-Humility sincere			
+		if = {	# sincere		
+			limit = {			
+				trait = sincere		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = 9 }			
+		}				
+		# Honesty-Humility generous			
+		if = {	# generous		
+			limit = {			
+				trait = generous		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = 6 }			
+		}				
+		# Honesty-Humility humble			
+		if = {	# humble		
+			limit = {			
+				trait = humble		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = 3 }			
+		}				
+		# Honesty-Humility pretentious			
+		if = {	# pretentious		
+			limit = {			
+				trait = pretentious		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = -3 }			
+		}				
+		# Honesty-Humility greedy			
+		if = {	# greedy		
+			limit = {			
+				trait = greedy		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = -6 }			
+		}				
+		# Honesty-Humility inconstant			
+		if = {	# inconstant		
+			limit = {			
+				trait = inconstant		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = -9 }			
+		}				
+		# Honesty-Humility deceitful			
+		if = {	# deceitful		
+			limit = {			
+				trait = deceitful		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = -12 }			
+		}				
+		# Honesty-Humility hypocritical			
+		if = {	# hypocritical		
+			limit = {			
+				trait = hypocritical		
+			}			
+			set_variable = { which = hexaco_personality_value_honesty_humility value = -15 }			
+		}				
+		# Emotionality stable			
+		if = {	# stable		
+			limit = {			
+				trait = stable		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = 15 }			
+		}				
+		# Emotionality selfassured			
+		if = {	# selfassured		
+			limit = {			
+				trait = selfassured		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = 12 }			
+		}				
+		# Emotionality independent			
+		if = {	# independent		
+			limit = {			
+				trait = independent		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = 9 }			
+		}				
+		# Emotionality tough			
+		if = {	# tough		
+			limit = {			
+				trait = tough		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = 6 }			
+		}				
+		# Emotionality brave			
+		if = {	# brave		
+			limit = {			
+				trait = brave		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = 3 }			
+		}				
+		# Emotionality craven			
+		if = {	# craven		
+			limit = {			
+				trait = craven		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = -3 }			
+		}				
+		# Emotionality sentimental			
+		if = {	# sentimental		
+			limit = {			
+				trait = sentimental		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = -6 }			
+		}				
+		# Emotionality fearful			
+		if = {	# fearful		
+			limit = {			
+				trait = fearful		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = -9 }			
+		}				
+		# Emotionality anxious			
+		if = {	# anxious		
+			limit = {			
+				trait = anxious		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = -12 }			
+		}				
+		# Emotionality vulnerable 			
+		if = {	# vulnerable 		
+			limit = {			
+				trait = vulnerable 		
+			}			
+			set_variable = { which = hexaco_personality_value_emotionality value = -15 }			
+		}				
+		# Extraversion outgoing			
+		if = {	# outgoing		
+			limit = {			
+				trait = outgoing		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = 15 }			
+		}				
+		# Extraversion lively			
+		if = {	# lively		
+			limit = {			
+				trait = lively		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = 12 }			
+		}				
+		# Extraversion sociable			
+		if = {	# sociable		
+			limit = {			
+				trait = sociable		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = 9 }			
+		}				
+		# Extraversion talkative			
+		if = {	# talkative		
+			limit = {			
+				trait = talkative		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = 6 }			
+		}				
+		# Extraversion cheerful			
+		if = {	# cheerful		
+			limit = {			
+				trait = cheerful		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = 3 }			
+		}				
+		# Extraversion passive			
+		if = {	# passive		
+			limit = {			
+				trait = passive		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = -3 }			
+		}				
+		# Extraversion withdrawn			
+		if = {	# withdrawn		
+			limit = {			
+				trait = withdrawn		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = -6 }			
+		}				
+		# Extraversion introverted			
+		if = {	# introverted		
+			limit = {			
+				trait = introverted		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = -9 }			
+		}				
+		# Extraversion quiet			
+		if = {	# quiet		
+			limit = {			
+				trait = quiet		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = -12 }			
+		}				
+		# Extraversion reserved			
+		if = {	# reserved		
+			limit = {			
+				trait = reserved		
+			}			
+			set_variable = { which = hexaco_personality_value_extraversion value = -15 }			
+		}				
+		# Agreeableness patient			
+		if = {	# patient		
+			limit = {			
+				trait = patient		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = 15 }			
+		}				
+		# Agreeableness tolerant			
+		if = {	# tolerant		
+			limit = {			
+				trait = tolerant		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = 12 }			
+		}				
+		# Agreeableness agreeable			
+		if = {	# agreeable		
+			limit = {			
+				trait = agreeable		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = 9 }			
+		}				
+		# Agreeableness mild			
+		if = {	# mild		
+			limit = {			
+				trait = mild		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = 6 }			
+		}				
+		# Agreeableness gentle			
+		if = {	# gentle		
+			limit = {			
+				trait = gentle		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = 3 }			
+		}				
+		# Agreeableness illtempered			
+		if = {	# illtempered		
+			limit = {			
+				trait = illtempered		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = -3 }			
+		}				
+		# Agreeableness quarrelsome			
+		if = {	# quarrelsome		
+			limit = {			
+				trait = quarrelsome		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = -6 }			
+		}				
+		# Agreeableness stubborn			
+		if = {	# stubborn		
+			limit = {			
+				trait = stubborn		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = -9 }			
+		}				
+		# Agreeableness intolerant			
+		if = {	# intolerant		
+			limit = {			
+				trait = intolerant		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = -12 }			
+		}				
+		# Agreeableness wroth			
+		if = {	# wroth		
+			limit = {			
+				trait = wroth		
+			}			
+			set_variable = { which = hexaco_personality_value_agreeableness value = -15 }			
+		}				
+		# Conscientiousness organized			
+		if = {	# organized		
+			limit = {			
+				trait = organized		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = 15 }			
+		}				
+		# Conscientiousness diligent			
+		if = {	# diligent		
+			limit = {			
+				trait = diligent		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = 12 }			
+		}				
+		# Conscientiousness careful			
+		if = {	# careful		
+			limit = {			
+				trait = careful		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = 9 }			
+		}				
+		# Conscientiousness thorough			
+		if = {	# thorough		
+			limit = {			
+				trait = thorough		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = 6 }			
+		}				
+		# Conscientiousness precise			
+		if = {	# precise		
+			limit = {			
+				trait = precise		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = 3 }			
+		}				
+		# Conscientiousness sloppy			
+		if = {	# sloppy		
+			limit = {			
+				trait = sloppy		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = -3 }			
+		}				
+		# Conscientiousness negligent			
+		if = {	# negligent		
+			limit = {			
+				trait = negligent		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = -6 }			
+		}				
+		# Conscientiousness reckless			
+		if = {	# reckless		
+			limit = {			
+				trait = reckless		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = -9 }			
+		}				
+		# Conscientiousness lazy			
+		if = {	# lazy		
+			limit = {			
+				trait = lazy		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = -12 }			
+		}				
+		# Conscientiousness irresponsible			
+		if = {	# irresponsible		
+			limit = {			
+				trait = irresponsible		
+			}			
+			set_variable = { which = hexaco_personality_value_conscientiousness value = -15 }			
+		}				
+		# Openness to Experience intellectual			
+		if = {	# intellectual		
+			limit = {			
+				trait = intellectual		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = 15 }			
+		}				
+		# Openness to Experience creative			
+		if = {	# creative		
+			limit = {			
+				trait = creative		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = 12 }			
+		}				
+		# Openness to Experience unconventional			
+		if = {	# unconventional		
+			limit = {			
+				trait = unconventional		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = 9 }			
+		}				
+		# Openness to Experience innovative			
+		if = {	# innovative		
+			limit = {			
+				trait = innovative		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = 6 }			
+		}				
+		# Openness to Experience thoughtful			
+		if = {	# thoughtful		
+			limit = {			
+				trait = thoughtful		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = 3 }			
+		}				
+		# Openness to Experience shallow			
+		if = {	# shallow		
+			limit = {			
+				trait = shallow		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = -3 }			
+		}				
+		# Openness to Experience unimaginative			
+		if = {	# unimaginative		
+			limit = {			
+				trait = unimaginative		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = -6 }			
+		}				
+		# Openness to Experience conventional			
+		if = {	# conventional		
+			limit = {			
+				trait = conventional		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = -9 }			
+		}				
+		# Openness to Experience uninspired			
+		if = {	# uninspired		
+			limit = {			
+				trait = uninspired		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = -12 }			
+		}				
+		# Openness to Experience simple			
+		if = {	# simple		
+			limit = {			
+				trait = simple		
+			}			
+			set_variable = { which = hexaco_personality_value_openness_to_experience value = -15 }			
+		}				
 
 	}
 	
 }
+
+#############################################
+# Call to other events						#
+#############################################
+character_event = {
+	id = AVE_MARIA_hexaco_childhood.2
+	hide_window = yes
+	
+	mean_time_to_happen  = {
+		months = 6
+	}
+	
+	trigger = {
+		has_dlc = "Zeus"
+		NOT = { has_character_modifier = the_oubliette }
+		NOT = { has_character_modifier = the_dungeon }
+		NOT = { is_inaccessible_trigger = yes }
+		age < 10
+		is_adult = no
+	}
+}
+
+#############################################
+# Honesty-Humility 3-13						#
+#############################################
+
+# Honesty-Humility Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.3				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.3				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.3
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.3			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.4				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.4				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.4
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.4			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.5				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.5				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.5			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.5			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.6				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.6				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.6			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.6			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.7				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.7				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.7			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.7			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.8				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.8				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.8			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.8			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.9				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.9				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.9			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.9			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.10				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.10				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.10			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.10			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.11				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.11				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.11			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.11			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Honesty-Humility Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.12				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.12				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_honesty_humility			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.12			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.12			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Honesty-Humility Improvement 		
+character_event = {			
+	id = AVE_MARIA_hexaco_childhood.13		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.13	
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.13	
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.13	
+	}		
+}			
+
+
+#############################################
+# Emotionality 14-24						#
+#############################################
+
+# Emotionality Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.14				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.14				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.14			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.14			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.15				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.15				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.15
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.15			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.16				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.16				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.16			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.16			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.17				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.17				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.17			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.17			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.18				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.18				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.18			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.18			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.19				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.19				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.19			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.19			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.20				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.20				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.20			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.20			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.21				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.21				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.21			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.21			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.22				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.22				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.22			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.22			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Emotionality Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.23				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.23				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_emotionality			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.23			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.23			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Emotionality Improvement 				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.24				
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.24	
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.24
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.24	
+	}		
+}					
+
+#############################################
+# Extraversion 15-35						#
+#############################################
+
+# Extraversion Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.25				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.25				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.25			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.25			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.26				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.26				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.26			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.26			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.27				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.27				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.27			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.27			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.28				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.28				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.28			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.28			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.29				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.29				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.29			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.29			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.30				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.30				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.30			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.30			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.31				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.31				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.31			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.31			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.32				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.32				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.32			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.32			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.33				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.33				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.33			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.33			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Extraversion Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.34				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.34				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_extraversion			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.34			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.34			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Extraversion Improvement 				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.35				
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.35	
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.35
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.35	
+	}			
+}					
+
+#############################################
+# Agreeableness 36-46						#
+#############################################
+
+# Agreeableness Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.36				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.36				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.36			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.36			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.37				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.37				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.37			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.37			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.38				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.38				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.38			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.38			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.39				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.39				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.39			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.39			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.40				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.40				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.40			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.40			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.41				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.41				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.41			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.41			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.42				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.42				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.42			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.42			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.43				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.43				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.43			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.43			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.44				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.44				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.44			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.44			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Agreeableness Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.45				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.45				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_agreeableness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.45			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.45			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Agreeableness Improvement 				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.46				
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.46	
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.46
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.46	
+	}				
+}					
+
+#############################################
+# Conscientiousness 47-57					#
+#############################################
+
+# Conscientiousness Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.47				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.47				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.47			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.47			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.48				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.48				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.48			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.48			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.49				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.49				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.49			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.49			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.50				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.50				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.50			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.50			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.51				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.51				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.51			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.51			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.52				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.52				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.52			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.52			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.53				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.53				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.53			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.53			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.54				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.54				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.54			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.54			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.55				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.55				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.55			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.55			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Conscientiousness Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.56				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.56				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_conscientiousness			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.56			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.56			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Conscientiousness Improvement 				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.57				
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.57
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.57
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.57	
+	}				
+}					
+
+#############################################
+# Openness to Experience 58-68				#
+#############################################
+
+# Openness to Experience Improvement 1				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.58				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.58				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.58			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.58			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 2				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.59				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.59				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.59			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.59			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 3				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.60				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.60				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.60			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.60			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 4				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.61				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.61				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.61			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.61			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 5				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.62				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.62				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.62			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.62			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 6				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.63				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.63				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.63			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.63			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 7				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.64				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.64				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.64			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.64			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 8				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.65				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.65				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.65			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.65			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 9				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.66				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.66				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.66			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.66			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Openness to Experience Improvement 10				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.67				
+	desc = EVTDESC_AVE_MARIA_hexaco_childhood.67				
+	picture = GFX_evt_child_talking				
+	is_triggered_only = yes				
+	only_capable = yes				
+					
+	trigger = {				
+		has_dlc = "Zeus"			
+		NOT = { has_character_modifier = the_oubliette }			
+		NOT = { has_character_modifier = the_dungeon }			
+		NOT = { is_inaccessible_trigger = yes }			
+		has_focus = focus_ch_openness_to_experience			
+	}				
+					
+	option = {	# accept and gain 1 points on personality scale			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.67			
+		hexaco_personality_lvl_up = yes
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_improvement		
+		}			
+		ai_chance = {			
+			factor = 95		
+		}			
+	}				
+	option = {	# refuse and gain no points on personality scale			
+		name = EVTOPT_B_AVE_MARIA_hexaco_childhood.67			
+		hidden_tooltip = {			
+			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
+			set_character_flag = hexaco_personality_scale_no_improvement		
+		}			
+		ai_chance = {			
+			factor = 5		
+		}			
+	}				
+}					
+# Tutor Reacts to Experience Improvement 				
+character_event = {					
+	id = AVE_MARIA_hexaco_childhood.68				
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_improvement }
+		}	
+		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.68	
+	}		
+	desc = {		
+		trigger = {	
+			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
+		}	
+		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.68
+	}		
+	picture = GFX_evt_child_talking		
+	is_triggered_only = yes		
+	only_capable = yes		
+	prisoner = no		
+			
+	option = {	# OK	
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.68	
+	}				
+}					
+
 
 #############################################
 # Petite enfance 0-7 years old				#

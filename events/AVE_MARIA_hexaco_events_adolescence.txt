@@ -17,7 +17,7 @@ namespace = AVE_MARIA_hexaco_adolescence
 # Refer to the related  scripted effects and triggers for details
 
 #############################################
-# Variable 1								#
+# Variable Set Up							#
 #############################################
 # Set up XP variable for adolescent when he comes of age
 character_event = {
@@ -67,7 +67,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -92,7 +92,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -121,7 +121,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -160,7 +160,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -185,7 +185,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -214,7 +214,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -253,7 +253,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -278,7 +278,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -307,7 +307,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -346,7 +346,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -371,7 +371,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -400,7 +400,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -439,7 +439,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -464,7 +464,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -493,7 +493,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -532,7 +532,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -557,7 +557,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -586,7 +586,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -640,7 +640,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_martial_arts_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -669,7 +669,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -694,7 +694,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -723,7 +723,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -762,7 +762,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -787,7 +787,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -816,7 +816,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -855,7 +855,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -880,7 +880,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -909,7 +909,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -948,7 +948,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -973,7 +973,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1002,7 +1002,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1041,7 +1041,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1066,7 +1066,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1095,7 +1095,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1134,7 +1134,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1159,7 +1159,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1188,7 +1188,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_riding_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1242,7 +1242,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_riding_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_riding_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -1278,7 +1278,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1303,7 +1303,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1332,7 +1332,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1371,7 +1371,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1396,7 +1396,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1425,7 +1425,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1464,7 +1464,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1489,7 +1489,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1518,7 +1518,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1557,7 +1557,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1582,7 +1582,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1611,7 +1611,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1650,7 +1650,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1675,7 +1675,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1704,7 +1704,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1743,7 +1743,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1768,7 +1768,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1797,7 +1797,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_etiquette_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1851,7 +1851,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_etiquette_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_etiquette_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -1880,7 +1880,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1905,7 +1905,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -1934,7 +1934,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -1973,7 +1973,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -1998,7 +1998,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2027,7 +2027,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2066,7 +2066,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2091,7 +2091,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2120,7 +2120,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2159,7 +2159,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2184,7 +2184,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2213,7 +2213,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2252,7 +2252,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2277,7 +2277,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2306,7 +2306,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2345,7 +2345,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2370,7 +2370,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2399,7 +2399,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_read_write_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2453,7 +2453,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_read_write_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_read_write_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -2482,7 +2482,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2507,7 +2507,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2536,7 +2536,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2575,7 +2575,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2600,7 +2600,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2629,7 +2629,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2668,7 +2668,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2693,7 +2693,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2722,7 +2722,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2761,7 +2761,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2786,7 +2786,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2815,7 +2815,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2854,7 +2854,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2879,7 +2879,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -2908,7 +2908,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -2947,7 +2947,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -2972,7 +2972,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3001,7 +3001,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_mathematics_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3055,7 +3055,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_mathematics_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_mathematics_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -3084,7 +3084,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3109,7 +3109,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3138,7 +3138,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3177,7 +3177,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3202,7 +3202,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3231,7 +3231,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3270,7 +3270,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3295,7 +3295,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3324,7 +3324,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3363,7 +3363,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3388,7 +3388,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3417,7 +3417,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3456,7 +3456,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3481,7 +3481,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3510,7 +3510,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3549,7 +3549,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3574,7 +3574,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3603,7 +3603,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_philosophy_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3657,7 +3657,7 @@ character_event = {
 			FROM = {			
 				# set_character_flag = AVE_MARIA_hexaco_adolescence_philosophy_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_philosophy_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -3686,7 +3686,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3711,7 +3711,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3740,7 +3740,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3779,7 +3779,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3804,7 +3804,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3833,7 +3833,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3872,7 +3872,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3897,7 +3897,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -3926,7 +3926,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -3965,7 +3965,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -3990,7 +3990,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4019,7 +4019,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4058,7 +4058,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4083,7 +4083,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4112,7 +4112,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4151,7 +4151,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4176,7 +4176,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_law_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4205,7 +4205,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_law_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4259,7 +4259,7 @@ character_event = {
 			FROM = {			
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_law_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_law_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -4288,7 +4288,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4313,7 +4313,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4342,7 +4342,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4381,7 +4381,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4406,7 +4406,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4435,7 +4435,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4474,7 +4474,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4499,7 +4499,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4528,7 +4528,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4567,7 +4567,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4592,7 +4592,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4621,7 +4621,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4660,7 +4660,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4685,7 +4685,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4714,7 +4714,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4753,7 +4753,7 @@ character_event = {
 		random_list = {				
 			60 = { # Normal progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_normal		
 				modifier = {		
 					factor = 1.05	
@@ -4778,7 +4778,7 @@ character_event = {
 			}			
 			35 = { # Gifted progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 2 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_faster		
 				modifier = {		
 					factor = 1.05	
@@ -4807,7 +4807,7 @@ character_event = {
 			}			
 			5 = { # Crazy progress			
 				change_variable = { which = hexaco_learning_theology_xp value = 3 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 				set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_genius		
 				modifier = {		
 					factor = 2	
@@ -4861,7 +4861,7 @@ character_event = {
 			FROM = {			
 				# # set_character_flag = AVE_MARIA_hexaco_adolescence_theology_improvement_making_good_progress		
 				change_variable = { which = hexaco_learning_theology_xp value = 1 }		
-				hexaco_lvl_up = yes		
+				hexaco_education_lvl_up = yes		
 			}			
 		}				
 	}					
@@ -5014,6 +5014,7 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }
 		NOT = { has_character_modifier = the_dungeon }
 		NOT = { is_inaccessible_trigger = yes }
+		is_adult = no
 	}
 	
 	immediate = {

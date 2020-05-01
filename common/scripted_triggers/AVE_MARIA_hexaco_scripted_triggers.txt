@@ -9,7 +9,10 @@
 
 # Written by Atreides
 
-# Character
+
+#############################################
+# Various Triggers							#
+#############################################
 has_hexaco_personality_trait = {
 	OR = {
 		trait = faithful
@@ -157,6 +160,10 @@ has_martial_arts_lvl_5_trait_trigger = {
 	}
 }
 
+
+#############################################
+# Education XP triggers						#
+#############################################
 
 hexaco_martial_arts_xp_3_level_up = {
 	AND = {
@@ -525,6 +532,11 @@ hexaco_theology_xp_25_level_up = {
 }
 
 
+
+#############################################
+# Traits XP triggers						#
+#############################################
+hexaco_
 
 
 
