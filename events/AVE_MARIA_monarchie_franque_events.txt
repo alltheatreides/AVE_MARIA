@@ -53,7 +53,7 @@ character_event = {
 			}
 		}
 		
-		any_vassal = { 
+		random_realm_character = { 
 			limit = {
 				OR = {
 					title = c_reims

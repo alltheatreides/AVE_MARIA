@@ -37,6 +37,7 @@ character_event = {
 		set_variable = { which = hexaco_learning_martial_arts_xp value = 0 }
 		set_variable = { which = hexaco_learning_riding_xp value = 0 }
 		set_variable = { which = hexaco_learning_etiquette_xp value = 0 }
+		set_variable = { which = hexaco_learning_read_write_xp value = 0 }
 		set_variable = { which = hexaco_learning_mathematics_xp value = 0 }
 		set_variable = { which = hexaco_learning_philosophy_xp value = 0 }
 		set_variable = { which = hexaco_learning_law_xp value = 0 }
@@ -5015,6 +5016,8 @@ character_event = {
 		NOT = { has_character_modifier = the_dungeon }
 		NOT = { is_inaccessible_trigger = yes }
 		is_adult = no
+		age = 10
+		NOT = { age = 16 }
 	}
 	
 	immediate = {
@@ -5283,14 +5286,22 @@ character_event = {
 					id = AVE_MARIA_hexaco_adolescence.44			
 					days = 15			
 					random = 10			
-				}				
+				}
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			12 = {					
 				character_event = {				
 					id = AVE_MARIA_hexaco_adolescence.45			
 					days = 15			
 					random = 10			
-				}				
+				}
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			12 = {					
 				character_event = {				
@@ -5298,6 +5309,10 @@ character_event = {
 					days = 15			
 					random = 10			
 				}				
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			12 = {					
 				character_event = {				
@@ -5305,6 +5320,10 @@ character_event = {
 					days = 15			
 					random = 10			
 				}				
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			12 = {					
 				character_event = {				
@@ -5312,6 +5331,10 @@ character_event = {
 					days = 15			
 					random = 10			
 				}				
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			12 = {					
 				character_event = {				
@@ -5319,6 +5342,10 @@ character_event = {
 					days = 15			
 					random = 10			
 				}				
+				modifier = {
+					factor = 0
+					NOT = { culture_group = byzantine }
+				}
 			}					
 			# Theology				
 			12 = {					

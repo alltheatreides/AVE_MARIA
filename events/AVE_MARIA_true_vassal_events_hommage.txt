@@ -194,8 +194,8 @@ character_event = {
         }
         hidden_effect = {
 			set_character_flag = true_vassal_normal_homage_ceremony
-            narrative_event = { id = AVE_MARIA_true_vassal_hommage.5 days = 5 }
-            FROM = { narrative_event = { id = AVE_MARIA_true_vassal_hommage.6 days = 5 } }
+            narrative_event = { id = AVE_MARIA_true_vassal_hommage.6 days = 5 }
+            FROM = { narrative_event = { id = AVE_MARIA_true_vassal_hommage.5 days = 5 } }
         }
         ai_chance = {
             factor = 80

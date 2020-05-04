@@ -38,9 +38,19 @@ dejure_duchy_claim = { # New1
 			}
 		}
 		FROM = {
-			suzerain = {
-				NOT = {
-					character = ROOT
+			NOT = {
+				is_tributary = {
+					type = true_vassal
+					suzerain = ROOT
+				}
+			}
+		}
+		NOT = {
+			FROM = {
+				suzerain = {
+					any_tributary = {
+						character = ROOT
+					}
 				}
 			}
 		}

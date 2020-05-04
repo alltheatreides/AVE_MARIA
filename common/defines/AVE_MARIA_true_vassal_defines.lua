@@ -37,14 +37,14 @@ NDefines.NCharacter.SECONDARY_SPOUSE_FERTILITY_MULT = 0.33
 NDefines.NCharacter.TREASURY_CHANCE_TO_DISAPPEAR_STANDARD = 0
 
 -- Military
-NDefines.NMilitary.LEVY_MAINTENANCE_FACTOR = 2.5
+-- NDefines.NMilitary.LEVY_MAINTENANCE_FACTOR = 2.5
 NDefines.NMilitary.HOLDING_LEVY_SIZE_OWNER_MARTIAL_MULT = -0.0
 NDefines.NMilitary.HOLDING_LEVY_SIZE_OWNER_MARTIAL_BASE = 1
 --NDefines.NMilitary.RETINUE_TITLE_MODIFIER = 2
 --NDefines.NMilitary.RETINUE_INCREASE_PER_TECH = 3.0
 NDefines.NMilitary.SIEGE_MORALE_LOSS = 0.15
 NDefines.NMilitary.BASE_SETTLEMENT_WARSCORE = 2
-NDefines.NMilitary.CONTESTED_TERRITORY_WARSCORE_MULTIPLIER = 200
+NDefines.NMilitary.CONTESTED_TERRITORY_WARSCORE_MULTIPLIER = 100
 NDefines.NMilitary.ATTACKER_ASSULT_DAMAGE_FACTOR = 30				-- Attacker damage scale factor when assaulting
 NDefines.NMilitary.DEFENDER_ASSULT_DAMAGE_FACTOR = 0.3			-- Defender damage scale factor when assaulting
 NDefines.NMilitary.ARMY_LOAD_MOVE_COST = 40.0

@@ -4495,7 +4495,7 @@ character_event = {
 		# Emotionality vulnerable 			
 		if = {	# vulnerable 		
 			limit = {			
-				trait = vulnerable 		
+				trait = vulnerable	
 			}			
 			set_variable = { which = hexaco_personality_value_emotionality value = -15 }			
 		}				
@@ -4803,6 +4803,490 @@ character_event = {
 		age < 10
 		is_adult = no
 	}
+	
+	immediate = {
+		# Honesty-Humility Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_honesty_humility
+			}
+			random_list = {
+				# Honesty-Humility				
+				10 = {					
+					character_event = { 
+						id = AVE_MARIA_hexaco_childhood.3			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.4			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.5			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.6			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.7			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.8			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.9			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.10			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.11			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.12			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				
+			}
+		}
+		# Emotionality Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_emotionality
+			}
+			random_list = {
+				# Emotionality				
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.14			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.15			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.16			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.17			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.18			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.19			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.20			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.21			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.22			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.23			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				
+			}
+		}
+		# Extraversion Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_extraversion
+			}
+			random_list = {
+				# Extraversion				
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.25			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.26			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.27			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.28			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.29			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.30			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.31			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.32			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.33			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.34			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				
+			}
+		}
+		# Agreeableness Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_agreeableness
+			}
+			random_list = {
+				# Agreeableness				
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.36			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.37			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.38			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.39			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.40			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.41			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.42			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.43			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.44			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.45			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				
+			}
+		}
+		# Conscientiousness Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_conscientiousness
+			}
+			random_list = {
+				# Conscientiousness				
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.47			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.48			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.49			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.50			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.51			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.52			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.53			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.54			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.55			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.56			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				
+			}
+		}
+		# Openness to Experience Focus
+		if = {
+			limit = {
+				has_focus = focus_ch_openness_to_experience
+			}
+			random_list = {
+				# Openness to Experience				
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.58			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.59			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.60			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.61			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.62			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.63			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.64			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.65			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.66			
+						days = 15			
+						random = 10			
+					}				
+				}					
+				10 = {					
+					character_event = {				
+						id = AVE_MARIA_hexaco_childhood.67			
+						days = 15			
+						random = 10			
+					}				
+				}					
+
+			}
+		}
+		
+	}
 }
 
 #############################################
@@ -4827,6 +5311,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.3
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -4865,6 +5350,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.4
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -4903,6 +5389,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.5			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -4940,7 +5427,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.6			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.6
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -4979,6 +5467,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.7			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5017,6 +5506,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.8			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5055,6 +5545,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.9			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5093,6 +5584,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.10			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5131,6 +5623,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.11			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5169,6 +5662,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.12			
+		change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.13 } }		
@@ -5236,7 +5730,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.14			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.14	
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5275,6 +5770,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.15
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5312,7 +5808,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.16			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.16		
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5351,6 +5848,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.17			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5389,6 +5887,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.18			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5427,6 +5926,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.19			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5465,6 +5965,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.20			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5503,6 +6004,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.21			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5541,6 +6043,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.22			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5579,6 +6082,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.23			
+		change_variable = { which = hexaco_personality_value_emotionality value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.24 } }		
@@ -5646,6 +6150,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.25			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5684,6 +6189,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.26			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5722,6 +6228,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.27			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5760,6 +6267,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.28			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5798,6 +6306,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.29			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5836,6 +6345,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.30			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5874,6 +6384,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.31			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5912,6 +6423,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.32			
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5949,7 +6461,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.33			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.33	
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -5987,7 +6500,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.34			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.34		
+		change_variable = { which = hexaco_personality_value_extraversion value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.35 } }		
@@ -6054,7 +6568,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.36			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.36
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6092,7 +6607,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.37			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.37		
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6130,7 +6646,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.38			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.38	
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6168,7 +6685,8 @@ character_event = {
 	}				
 					
 	option = {	# accept and gain 1 points on personality scale			
-		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.39			
+		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.39
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6207,6 +6725,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.40			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6245,6 +6764,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.41			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6283,6 +6803,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.42			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6321,6 +6842,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.43			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6359,6 +6881,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.44			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6397,6 +6920,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.45			
+		change_variable = { which = hexaco_personality_value_agreeableness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.46 } }		
@@ -6464,6 +6988,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.47			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6502,6 +7027,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.48			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6540,6 +7066,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.49			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6578,6 +7105,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.50			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6616,6 +7144,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.51			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6654,6 +7183,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.52			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6692,6 +7222,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.53			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6730,6 +7261,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.54			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6768,6 +7300,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.55			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6806,6 +7339,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.56			
+		change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.57 } }		
@@ -6873,6 +7407,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.58			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -6911,6 +7446,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.59			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -6949,6 +7485,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.60			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -6987,6 +7524,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.61			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7025,6 +7563,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.62			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7063,6 +7602,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.63			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7101,6 +7641,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.64			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7139,6 +7680,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.65			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7177,6 +7719,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.66			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7215,6 +7758,7 @@ character_event = {
 					
 	option = {	# accept and gain 1 points on personality scale			
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.67			
+		change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }
 		hexaco_personality_lvl_up = yes
 		hidden_tooltip = {			
 			educator = { character_event = { id = AVE_MARIA_hexaco_adolescence.68 } }		
@@ -7236,20 +7780,20 @@ character_event = {
 	}				
 }					
 # Tutor Reacts to Experience Improvement 				
-character_event = {					
-	id = AVE_MARIA_hexaco_childhood.68				
+character_event = {
+	id = AVE_MARIA_hexaco_childhood.68
 	desc = {		
 		trigger = {	
 			FROM = { has_character_flag = hexaco_personality_scale_improvement }
 		}	
 		text = EVTDESC_A_AVE_MARIA_hexaco_childhood.68	
-	}		
+	}
 	desc = {		
 		trigger = {	
 			FROM = { has_character_flag = hexaco_personality_scale_no_improvement }
 		}	
 		text = EVTDESC_B_AVE_MARIA_hexaco_childhood.68
-	}		
+	}
 	picture = GFX_evt_child_talking		
 	is_triggered_only = yes		
 	only_capable = yes		
@@ -7258,7 +7802,7 @@ character_event = {
 	option = {	# OK	
 		name = EVTOPT_A_AVE_MARIA_hexaco_childhood.68	
 	}				
-}					
+}			
 
 
 #############################################

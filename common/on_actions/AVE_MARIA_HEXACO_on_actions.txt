@@ -12,7 +12,7 @@
 on_startup = {
 	events = {
 		AVE_MARIA_hexaco_maintenance.1
-		# AVE_MARIA_hexaco_maintenance.2
+		
 	}
 }
 
@@ -56,7 +56,7 @@ on_adolescence = {
 
 on_adulthood = {
 	events = {
-		#Making sure you get all of the HEXACO traits
+		#Making sure you get all of the HEXACO personality traits
 		AVE_MARIA_hexaco_maintenance.2
 		# Making sure you get at least the basics of the HEXACO education traits
 		AVE_MARIA_hexaco_adolescence.58
