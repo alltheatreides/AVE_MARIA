@@ -15931,6 +15931,7 @@ spawn_good_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_1
+		set_character_flag = hexaco_battles_won_2
 		add_trait = riding_3
 		
 		if = {				
@@ -16178,6 +16179,7 @@ spawn_great_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_2
+		set_character_flag = hexaco_battles_won_10
 		add_trait = riding_4
 		
 		
@@ -16463,6 +16465,7 @@ spawn_fantastic_commander_effect = {
 		remove_trait = martial_arts_eastern_5
 		
 		add_trait = war_veteran_5
+		set_character_flag = hexaco_battles_won_25
 		add_trait = riding_5
 		
 		if = { 			

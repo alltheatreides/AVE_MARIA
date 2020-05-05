@@ -284,19 +284,25 @@ dejure_duchy_claim = { # New1
 
 	on_success_title = {
 		ROOT = {
-			# vassalize_or_take_under_title = {
-				# title = PREV
-				# enemy = FROM
-				## anti_nomad = yes # Vassalize non-nomadic rulers
-				# type = claim
-			# }
-			
-			FROM = {
-				suzerain = {
-					remove_tributary = PREV
-				}
+			vassalize_or_take_under_title = {
+				title = PREV
+				enemy = FROM
+				# anti_nomad = yes # Vassalize non-nomadic rulers
+				type = claim
 			}
-			make_tributary = { who = FROM tributary_type = true_vassal }
+			if = {
+				limit = {
+					FROM = {
+						vassal_of = ROOT 
+					}
+				}
+				FROM = {
+					suzerain = {
+						remove_tributary = PREV
+					}
+				}
+				make_tributary = { who = FROM tributary_type = true_vassal }
+			}
 			participation_scaled_prestige = 100
 		}
 		any_attacker = {

@@ -20,7 +20,7 @@ monastic_order_benedictine = {
 		# True vassal mod
 		is_landed = no
 		NOT = {
-			has_landed_title = yes
+			is_female = yes
 		}
 		hidden_trigger = {
 			NAND = {
@@ -319,7 +319,7 @@ monastic_order_benedictine = {
 			# True vassal mod
 			is_landed = no
 			NOT = {
-				has_landed_title = yes
+				is_female = yes
 			}
 			OR = {
 				is_feudal = no

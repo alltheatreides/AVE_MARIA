@@ -61,7 +61,8 @@ character_event = {
 		has_dlc = "Zeus"				
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
-		NOT = { is_inaccessible_trigger = yes }				
+		NOT = { is_inaccessible_trigger = yes }
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.2				
@@ -154,7 +155,8 @@ character_event = {
 		has_dlc = "Zeus"				
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
-		NOT = { is_inaccessible_trigger = yes }				
+		NOT = { is_inaccessible_trigger = yes }
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.3				
@@ -248,6 +250,7 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.4				
@@ -341,6 +344,7 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.5				
@@ -434,6 +438,7 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.6				
@@ -527,6 +532,7 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		is_female = no
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.7				
@@ -633,8 +639,8 @@ character_event = {
 		trigger = {				
 			FROM  = { has_character_flag = AVE_MARIA_hexaco_adolescence_martial_arts_improvement_genius }			
 			OR = {			
-				trait = martial_arts_4		
-				trait = martial_arts_5		
+				has_martial_arts_lvl_4_trait_trigger = yes		
+				has_martial_arts_lvl_5_trait_trigger = yes	
 			}			
 		}				
 		hidden_tooltip = {				
@@ -3078,7 +3084,11 @@ character_event = {
 		has_dlc = "Zeus"				
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
-		NOT = { is_inaccessible_trigger = yes }				
+		NOT = { is_inaccessible_trigger = yes }
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.37				
@@ -3172,6 +3182,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.38				
@@ -3265,6 +3279,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.39				
@@ -3358,6 +3376,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.40				
@@ -3451,6 +3473,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.41				
@@ -3544,6 +3570,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.42				
@@ -3681,6 +3711,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.44				
@@ -3774,6 +3808,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.45				
@@ -3867,6 +3905,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.46				
@@ -3960,6 +4002,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.47				
@@ -4053,6 +4099,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.48				
@@ -4146,6 +4196,10 @@ character_event = {
 		NOT = { has_character_modifier = the_oubliette }				
 		NOT = { has_character_modifier = the_dungeon }				
 		NOT = { is_inaccessible_trigger = yes }				
+		OR = {
+			culture_group = byzantine
+			is_theocracy = yes
+		}
 	}					
 	option = {					
 		name = EVTOPT_A_AVE_MARIA_hexaco_adolescence.49				
@@ -4903,10 +4957,10 @@ character_event = {
 			}					
 			random_list = {					
 				90 = { 				
-					has_martial_arts_lvl_1_trait_trigger = yes			
+					add_hexaco_trait_martial_arts_1 = yes			
 				}				
 				10 = { 				
-					has_martial_arts_lvl_1_trait_trigger = yes			
+					add_hexaco_trait_martial_arts_2 = yes			
 				}				
 			}					
 		}						

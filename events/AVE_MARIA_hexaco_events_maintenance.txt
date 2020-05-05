@@ -3374,7 +3374,7 @@ character_event = {
 			# Emotionality vulnerable 			
 			if = {	# vulnerable 		
 				limit = {			
-					trait = vulnerable 		
+					trait = vulnerable	
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -15 }			
 			}				
@@ -3667,241 +3667,206 @@ character_event = {
 				limit = {				
 					has_martial_arts_lvl_1_trait_trigger = yes			
 				}				
-				set_variable = { which = hexaco_personality_value_martial_arts value = 3 }				
+				set_variable = { which = hexaco_learning_martial_arts_xp value = 3 }				
 			}					
 			if = {	# has_martial_arts_lvl_2_trait_trigger = yes			
 				limit = {				
 					has_martial_arts_lvl_2_trait_trigger = yes			
 				}				
-				set_variable = { which = hexaco_personality_value_martial_arts value = 7 }				
+				set_variable = { which = hexaco_learning_martial_arts_xp value = 7 }				
 			}					
 			if = {	# has_martial_arts_lvl_3_trait_trigger = yes			
 				limit = {				
 					has_martial_arts_lvl_3_trait_trigger = yes			
 				}				
-				set_variable = { which = hexaco_personality_value_martial_arts value = 12 }				
+				set_variable = { which = hexaco_learning_martial_arts_xp value = 12 }				
 			}					
 			if = {	# has_martial_arts_lvl_4_trait_trigger = yes			
 				limit = {				
 					has_martial_arts_lvl_4_trait_trigger = yes			
 				}				
-				set_variable = { which = hexaco_personality_value_martial_arts value = 18 }				
+				set_variable = { which = hexaco_learning_martial_arts_xp value = 18 }				
 			}					
 			if = {	# has_martial_arts_lvl_5_trait_trigger = yes			
 				limit = {				
 					has_martial_arts_lvl_5_trait_trigger = yes			
 				}				
-				set_variable = { which = hexaco_personality_value_martial_arts value = 25 }				
+				set_variable = { which = hexaco_learning_martial_arts_xp value = 25 }				
 			}					
 			if = {	# riding_1			
-				limit = {				
-					riding_1			
+				limit = { trait = riding_1			
 				}				
-				set_variable = { which = hexaco_personality_value_riding value = 3 }				
+				set_variable = { which = hexaco_learning_riding_xp value = 3 }				
 			}					
 			if = {	# riding_2			
-				limit = {				
-					riding_2			
+				limit = { trait = riding_2			
 				}				
-				set_variable = { which = hexaco_personality_value_riding value = 7 }				
+				set_variable = { which = hexaco_learning_riding_xp value = 7 }				
 			}					
 			if = {	# riding_3			
-				limit = {				
-					riding_3			
+				limit = { trait = riding_3			
 				}				
-				set_variable = { which = hexaco_personality_value_riding value = 12 }				
+				set_variable = { which = hexaco_learning_riding_xp value = 12 }				
 			}					
 			if = {	# riding_4			
-				limit = {				
-					riding_4			
+				limit = { trait = riding_4			
 				}				
-				set_variable = { which = hexaco_personality_value_riding value = 18 }				
+				set_variable = { which = hexaco_learning_riding_xp value = 18 }				
 			}					
 			if = {	# riding_5			
-				limit = {				
-					riding_5			
+				limit = { trait = riding_5			
 				}				
-				set_variable = { which = hexaco_personality_value_riding value = 25 }				
+				set_variable = { which = hexaco_learning_riding_xp value = 25 }				
 			}					
 			if = {	# etiquette_1			
-				limit = {				
-					etiquette_1			
+				limit = { trait = etiquette_1			
 				}				
-				set_variable = { which = hexaco_personality_value_etiquette value = 3 }				
+				set_variable = { which = hexaco_learning_etiquette_xp value = 3 }				
 			}					
 			if = {	# etiquette_2			
-				limit = {				
-					etiquette_2			
+				limit = { trait = etiquette_2			
 				}				
-				set_variable = { which = hexaco_personality_value_etiquette value = 7 }				
+				set_variable = { which = hexaco_learning_etiquette_xp value = 7 }				
 			}					
 			if = {	# etiquette_3			
-				limit = {				
-					etiquette_3			
+				limit = { trait = etiquette_3			
 				}				
-				set_variable = { which = hexaco_personality_value_etiquette value = 12 }				
+				set_variable = { which = hexaco_learning_etiquette_xp value = 12 }				
 			}					
 			if = {	# etiquette_4			
-				limit = {				
-					etiquette_4			
+				limit = { trait = etiquette_4			
 				}				
-				set_variable = { which = hexaco_personality_value_etiquette value = 18 }				
+				set_variable = { which = hexaco_learning_etiquette_xp value = 18 }				
 			}					
 			if = {	# etiquette_5			
-				limit = {				
-					etiquette_5			
+				limit = { trait = etiquette_5			
 				}				
-				set_variable = { which = hexaco_personality_value_etiquette value = 25 }				
+				set_variable = { which = hexaco_learning_etiquette_xp value = 25 }				
 			}					
 			if = {	# read_write_1			
-				limit = {				
-					read_write_1			
+				limit = { trait = read_write_1			
 				}				
-				set_variable = { which = hexaco_personality_value_read_write value = 3 }				
+				set_variable = { which = hexaco_learning_read_write_xp value = 3 }				
 			}					
 			if = {	# read_write_2			
-				limit = {				
-					read_write_2			
+				limit = { trait = read_write_2			
 				}				
-				set_variable = { which = hexaco_personality_value_read_write value = 7 }				
+				set_variable = { which = hexaco_learning_read_write_xp value = 7 }				
 			}					
 			if = {	# read_write_3			
-				limit = {				
-					read_write_3			
+				limit = { trait = read_write_3			
 				}				
-				set_variable = { which = hexaco_personality_value_read_write value = 12 }				
+				set_variable = { which = hexaco_learning_read_write_xp value = 12 }				
 			}					
 			if = {	# read_write_4			
-				limit = {				
-					read_write_4			
+				limit = { trait = read_write_4			
 				}				
-				set_variable = { which = hexaco_personality_value_read_write value = 18 }				
+				set_variable = { which = hexaco_learning_read_write_xp value = 18 }				
 			}					
 			if = {	# read_write_5			
-				limit = {				
-					read_write_5			
+				limit = { trait = read_write_5			
 				}				
-				set_variable = { which = hexaco_personality_value_read_write value = 25 }				
+				set_variable = { which = hexaco_learning_read_write_xp value = 25 }				
 			}					
 			if = {	# mathematics_1			
-				limit = {				
-					mathematics_1			
+				limit = { trait = mathematics_1			
 				}				
-				set_variable = { which = hexaco_personality_value_mathematics value = 3 }				
+				set_variable = { which = hexaco_learning_mathematics_xp value = 3 }				
 			}					
 			if = {	# mathematics_2			
-				limit = {				
-					mathematics_2			
+				limit = { trait = mathematics_2			
 				}				
-				set_variable = { which = hexaco_personality_value_mathematics value = 7 }				
+				set_variable = { which = hexaco_learning_mathematics_xp value = 7 }				
 			}					
 			if = {	# mathematics_3			
-				limit = {				
-					mathematics_3			
+				limit = { trait = mathematics_3			
 				}				
-				set_variable = { which = hexaco_personality_value_mathematics value = 12 }				
+				set_variable = { which = hexaco_learning_mathematics_xp value = 12 }				
 			}					
 			if = {	# mathematics_4			
-				limit = {				
-					mathematics_4			
+				limit = { trait = mathematics_4			
 				}				
-				set_variable = { which = hexaco_personality_value_mathematics value = 18 }				
+				set_variable = { which = hexaco_learning_mathematics_xp value = 18 }				
 			}					
 			if = {	# mathematics_5			
-				limit = {				
-					mathematics_5			
+				limit = { trait = mathematics_5			
 				}				
-				set_variable = { which = hexaco_personality_value_mathematics value = 25 }				
+				set_variable = { which = hexaco_learning_mathematics_xp value = 25 }				
 			}					
 			if = {	# philosophy_1			
-				limit = {				
-					philosophy_1			
+				limit = { trait = philosophy_1			
 				}				
-				set_variable = { which = hexaco_personality_value_philosophy value = 3 }				
+				set_variable = { which = hexaco_learning_philosophy_xp value = 3 }				
 			}					
 			if = {	# philosophy_2			
-				limit = {				
-					philosophy_2			
+				limit = { trait = philosophy_2			
 				}				
-				set_variable = { which = hexaco_personality_value_philosophy value = 7 }				
+				set_variable = { which = hexaco_learning_philosophy_xp value = 7 }				
 			}					
 			if = {	# philosophy_3			
-				limit = {				
-					philosophy_3			
+				limit = { trait = philosophy_3			
 				}				
-				set_variable = { which = hexaco_personality_value_philosophy value = 12 }				
+				set_variable = { which = hexaco_learning_philosophy_xp value = 12 }				
 			}					
 			if = {	# philosophy_4			
-				limit = {				
-					philosophy_4			
+				limit = { trait = philosophy_4			
 				}				
-				set_variable = { which = hexaco_personality_value_philosophy value = 18 }				
+				set_variable = { which = hexaco_learning_philosophy_xp value = 18 }				
 			}					
 			if = {	# philosophy_5			
-				limit = {				
-					philosophy_5			
+				limit = { trait = philosophy_5			
 				}				
-				set_variable = { which = hexaco_personality_value_philosophy value = 25 }				
+				set_variable = { which = hexaco_learning_philosophy_xp value = 25 }				
 			}					
 			if = {	# law_1			
-				limit = {				
-					law_1			
+				limit = { trait = law_1			
 				}				
-				set_variable = { which = hexaco_personality_value_law value = 3 }				
+				set_variable = { which = hexaco_learning_law_xp value = 3 }				
 			}					
 			if = {	# law_2			
-				limit = {				
-					law_2			
+				limit = { trait = law_2			
 				}				
-				set_variable = { which = hexaco_personality_value_law value = 7 }				
+				set_variable = { which = hexaco_learning_law_xp value = 7 }				
 			}					
 			if = {	# law_3			
-				limit = {				
-					law_3			
+				limit = { trait = law_3			
 				}				
-				set_variable = { which = hexaco_personality_value_law value = 12 }				
+				set_variable = { which = hexaco_learning_law_xp value = 12 }				
 			}					
 			if = {	# law_4			
-				limit = {				
-					law_4			
+				limit = { trait = law_4			
 				}				
-				set_variable = { which = hexaco_personality_value_law value = 18 }				
+				set_variable = { which = hexaco_learning_law_xp value = 18 }				
 			}					
 			if = {	# law_5			
-				limit = {				
-					law_5			
+				limit = { trait = law_5			
 				}				
-				set_variable = { which = hexaco_personality_value_law value = 25 }				
+				set_variable = { which = hexaco_learning_law_xp value = 25 }				
 			}					
 			if = {	# theology_1			
-				limit = {				
-					theology_1			
+				limit = { trait = theology_1			
 				}				
-				set_variable = { which = hexaco_personality_value_theology value = 3 }				
+				set_variable = { which = hexaco_learning_theology_xp value = 3 }				
 			}					
 			if = {	# theology_2			
-				limit = {				
-					theology_2			
+				limit = { trait = theology_2			
 				}				
-				set_variable = { which = hexaco_personality_value_theology value = 7 }				
+				set_variable = { which = hexaco_learning_theology_xp value = 7 }				
 			}					
 			if = {	# theology_3			
-				limit = {				
-					theology_3			
+				limit = { trait = theology_3			
 				}				
-				set_variable = { which = hexaco_personality_value_theology value = 12 }				
+				set_variable = { which = hexaco_learning_theology_xp value = 12 }				
 			}					
 			if = {	# theology_4			
-				limit = {				
-					theology_4			
+				limit = { trait = theology_4			
 				}				
-				set_variable = { which = hexaco_personality_value_theology value = 18 }				
+				set_variable = { which = hexaco_learning_theology_xp value = 18 }				
 			}					
 			if = {	# theology_5			
-				limit = {				
-					theology_5			
+				limit = { trait = theology_5			
 				}				
-				set_variable = { which = hexaco_personality_value_theology value = 25 }				
+				set_variable = { which = hexaco_learning_theology_xp value = 25 }				
 			}					
 
 		}

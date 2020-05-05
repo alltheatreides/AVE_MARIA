@@ -1828,7 +1828,18 @@ hexaco_personality_lvl_up = {
 	# 	Honesty-Humility - faithful			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }
+			OR = {
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = faithful	
 			}		
@@ -1839,7 +1850,18 @@ hexaco_personality_lvl_up = {
 	# 	Honesty-Humility honest			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }	
+			OR = {
+				trait = faithful
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = honest	
 			}		
@@ -1851,6 +1873,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = sincere	
 			}		
@@ -1862,6 +1895,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = generous	
 			}		
@@ -1873,6 +1917,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = humble	
 			}		
@@ -1884,6 +1939,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = pretentious	
 			}		
@@ -1895,6 +1961,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = inconstant
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = greedy	
 			}		
@@ -1906,6 +1983,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = deceitful
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = inconstant	
 			}		
@@ -1917,6 +2005,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = hypocritical
+			}
 			NOT = {		
 				trait = deceitful	
 			}		
@@ -1928,6 +2027,17 @@ hexaco_personality_lvl_up = {
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			OR = {
+				trait = faithful
+				trait = honest
+				trait = sincere
+				trait = generous
+				trait = humble
+				trait = pretentious
+				trait = greedy
+				trait = inconstant
+				trait = deceitful
+			}
 			NOT = {		
 				trait = hypocritical	
 			}		
@@ -1938,7 +2048,8 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality stable			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value >= 15 }		
+			
 			NOT = {		
 				trait = stable	
 			}		
@@ -1949,7 +2060,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality selfassured			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = 12 }		
 			NOT = {		
 				trait = selfassured	
 			}		
@@ -1960,7 +2071,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality independent			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = 9 }		
 			NOT = {		
 				trait = independent	
 			}		
@@ -1971,7 +2082,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality tough			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = 6 }		
 			NOT = {		
 				trait = tough	
 			}		
@@ -1982,7 +2093,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality brave			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = 3 }		
 			NOT = {		
 				trait = brave	
 			}		
@@ -1993,7 +2104,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality craven			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = -3 }		
 			NOT = {		
 				trait = craven	
 			}		
@@ -2004,7 +2115,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality sentimental			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = -6 }		
 			NOT = {		
 				trait = sentimental	
 			}		
@@ -2015,7 +2126,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality fearful			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = -9 }		
 			NOT = {		
 				trait = fearful	
 			}		
@@ -2026,7 +2137,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality anxious			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value = -12 }		
 			NOT = {		
 				trait = anxious	
 			}		
@@ -2037,7 +2148,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality vulnerable 			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value <= -15 }		
 			NOT = {		
 				trait = vulnerable
 			}		
@@ -2048,7 +2159,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion outgoing			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value >= 15 }		
 			NOT = {		
 				trait = outgoing	
 			}		
@@ -2059,7 +2170,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion lively			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = 12 }		
 			NOT = {		
 				trait = lively	
 			}		
@@ -2070,7 +2181,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion sociable			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = 9 }		
 			NOT = {		
 				trait = sociable	
 			}		
@@ -2081,7 +2192,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion talkative			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = 6 }		
 			NOT = {		
 				trait = talkative	
 			}		
@@ -2092,7 +2203,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion cheerful			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = 3 }		
 			NOT = {		
 				trait = cheerful	
 			}		
@@ -2103,7 +2214,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion passive			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = -3 }		
 			NOT = {		
 				trait = passive	
 			}		
@@ -2114,7 +2225,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion withdrawn			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = -6 }		
 			NOT = {		
 				trait = withdrawn	
 			}		
@@ -2125,7 +2236,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion introverted			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = -9 }		
 			NOT = {		
 				trait = introverted	
 			}		
@@ -2136,7 +2247,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion quiet			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value = -12 }		
 			NOT = {		
 				trait = quiet	
 			}		
@@ -2147,7 +2258,7 @@ hexaco_personality_lvl_up = {
 	# 	Extraversion reserved			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_extraversion value <= -15 }		
 			NOT = {		
 				trait = reserved	
 			}		
@@ -2158,7 +2269,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness patient			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value >= 15 }		
 			NOT = {		
 				trait = patient	
 			}		
@@ -2169,7 +2280,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness tolerant			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = 12 }		
 			NOT = {		
 				trait = tolerant	
 			}		
@@ -2180,7 +2291,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness agreeable			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = 9 }		
 			NOT = {		
 				trait = agreeable	
 			}		
@@ -2191,7 +2302,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness mild			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = 6 }		
 			NOT = {		
 				trait = mild	
 			}		
@@ -2202,7 +2313,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness gentle			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = 3 }		
 			NOT = {		
 				trait = gentle	
 			}		
@@ -2213,7 +2324,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness illtempered			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = -3 }		
 			NOT = {		
 				trait = illtempered	
 			}		
@@ -2224,7 +2335,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness quarrelsome			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = -6 }		
 			NOT = {		
 				trait = quarrelsome	
 			}		
@@ -2235,7 +2346,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness stubborn			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = -9 }		
 			NOT = {		
 				trait = stubborn	
 			}		
@@ -2246,7 +2357,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness intolerant			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value = -12 }		
 			NOT = {		
 				trait = intolerant	
 			}		
@@ -2257,7 +2368,7 @@ hexaco_personality_lvl_up = {
 	# 	Agreeableness wroth			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_agreeableness value <= -15 }		
 			NOT = {		
 				trait = wroth	
 			}		
@@ -2268,7 +2379,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness organized			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value >= 15 }		
 			NOT = {		
 				trait = organized	
 			}		
@@ -2279,7 +2390,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness diligent			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = 12 }		
 			NOT = {		
 				trait = diligent	
 			}		
@@ -2290,7 +2401,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness careful			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = 9 }		
 			NOT = {		
 				trait = careful	
 			}		
@@ -2301,7 +2412,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness thorough			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = 6 }		
 			NOT = {		
 				trait = thorough	
 			}		
@@ -2312,7 +2423,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness precise			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = 3 }		
 			NOT = {		
 				trait = precise	
 			}		
@@ -2323,7 +2434,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness sloppy			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = -3 }		
 			NOT = {		
 				trait = sloppy	
 			}		
@@ -2334,7 +2445,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness negligent			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = -6 }		
 			NOT = {		
 				trait = negligent	
 			}		
@@ -2345,7 +2456,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness reckless			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = -9 }		
 			NOT = {		
 				trait = reckless	
 			}		
@@ -2356,7 +2467,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness lazy			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value = -12 }		
 			NOT = {		
 				trait = lazy	
 			}		
@@ -2367,7 +2478,7 @@ hexaco_personality_lvl_up = {
 	# 	Conscientiousness irresponsible			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_conscientiousness value <= -15 }		
 			NOT = {		
 				trait = irresponsible	
 			}		
@@ -2378,7 +2489,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience intellectual			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= 15 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value >= 15 }		
 			NOT = {		
 				trait = intellectual	
 			}		
@@ -2389,7 +2500,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience creative			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 12 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = 12 }		
 			NOT = {		
 				trait = creative	
 			}		
@@ -2400,7 +2511,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience unconventional			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 9 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = 9 }		
 			NOT = {		
 				trait = unconventional	
 			}		
@@ -2411,7 +2522,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience innovative			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 6 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = 6 }		
 			NOT = {		
 				trait = innovative	
 			}		
@@ -2422,7 +2533,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience thoughtful			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = 3 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = 3 }		
 			NOT = {		
 				trait = thoughtful	
 			}		
@@ -2433,7 +2544,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience shallow			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -3 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = -3 }		
 			NOT = {		
 				trait = shallow	
 			}		
@@ -2444,7 +2555,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience unimaginative			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -6 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = -6 }		
 			NOT = {		
 				trait = unimaginative	
 			}		
@@ -2455,7 +2566,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience conventional			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -9 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = -9 }		
 			NOT = {		
 				trait = conventional	
 			}		
@@ -2466,7 +2577,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience uninspired			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value = -12 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value = -12 }		
 			NOT = {		
 				trait = uninspired	
 			}		
@@ -2477,7 +2588,7 @@ hexaco_personality_lvl_up = {
 	# 	Openness to Experience simple			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_openness_to_experience value <= -15 }		
 			NOT = {		
 				trait = simple	
 			}		
