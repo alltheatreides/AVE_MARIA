@@ -8,5 +8,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_adminisration_decision_icon_muster_all_the_tagma.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_icon_roman_administration_civilian_theme_government"
+		texturefile = "gfx\\interface\\government_icon_roman_administration_civilian_theme_government.dds"
+	}
+	
 
 }

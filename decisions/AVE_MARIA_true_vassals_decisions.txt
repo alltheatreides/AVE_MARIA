@@ -219,6 +219,9 @@ decisions = {
 
 		potential = {
 			is_tributary = yes
+			is_tributary = {
+				type = true_vassal
+			}
 			NOT = { has_character_flag = gave_homage_to_liege }
 			NOT = { trait = travelling }
 			age = 12

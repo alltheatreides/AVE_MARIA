@@ -56,6 +56,7 @@ character_event = {
 # Hommage-lige events - Inform the vassal of his decision and allow human player to back down
 character_event = {
     id = AVE_MARIA_true_vassal_hommage.2
+    title = AVE_MARIA_true_vassal_hommage.title.2
     desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.2
     picture = {
         trigger = { religion_group = christian }
@@ -101,6 +102,7 @@ character_event = {
 # Hommage-lige events - inform the lord of the vassal decision to come swear fealty
 character_event = {
     id = AVE_MARIA_true_vassal_hommage.3
+    title = AVE_MARIA_true_vassal_hommage.title.3
     desc = {
         trigger = { 
             FROM = { has_character_flag = will_swear_fealty }
@@ -269,6 +271,7 @@ character_event = {
 # Hommage-lige events - If the human suzerain decides not to accept the oath, the vassal is informed
 character_event = {
     id = AVE_MARIA_true_vassal_hommage.4
+    title = AVE_MARIA_true_vassal_hommage.title.4
     desc = EVTDESC_AVE_MARIA_true_vassal_hommage_events.4
     picture = {
         trigger = { religion_group = christian }
@@ -317,6 +320,7 @@ character_event = {
 # Hommage-lige events - Cérémonie d'hommage pour le feudataire
 narrative_event = {
     id = AVE_MARIA_true_vassal_hommage.5
+    title = AVE_MARIA_true_vassal_hommage.title.5
     desc = {
         trigger = { religion_group = christian }
         text = EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.5
@@ -445,7 +449,7 @@ narrative_event = {
 # Hommage-lige events - Cérémonie d'hommage pour le liege
 narrative_event = {
     id = AVE_MARIA_true_vassal_hommage.6
-    #title = TITLE_AVE_MARIA_true_vassal_hommage.6
+    title = AVE_MARIA_true_vassal_hommage.title.6
     desc = {
         trigger = { religion_group = christian }
         text = EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.6

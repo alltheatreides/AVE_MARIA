@@ -3,7 +3,6 @@
 #ADMC
 administrative_capacity_roman = {
 	demesne_size = 100
-	vassal_limit = 100
 	monthly_character_prestige = 1
 	vassal_opinion = 6
 	diplomacy = 3
@@ -123,6 +122,6 @@ administrative_capacity_very_low_maintenance = {
 }
 
 ## Hidden
-recent_investment = {
-	is_hidden = yes
-}
+# recent_investment = {
+# 	is_hidden = yes
+# }

@@ -13,7 +13,7 @@ namespace = AVE_MARIA_roman_administration
 
 ##NOTES:
 ## QOL event in order not to change every single history file
-## Give all titles to the roman emperor and afterwards jobs and some baronies to some great families
+## 
 character_event = {
 	id = AVE_MARIA_roman_administration.1
 	hide_window = yes
@@ -32,1334 +32,381 @@ character_event = {
 	}
 	
 	immediate = {
-		set_allow_vice_royalties = no
-		#Give all the provinces to new dudes
-		d_anatolia = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 2
-						learning = 2
-						stewardship = 8
-						intrigue = 2
-						martial = 2
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_bucellarian = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 3
-						learning = 3
-						stewardship = 9
-						intrigue = 3
-						martial = 3
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_charsianon = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 4
-						learning = 4
-						stewardship = 10
-						intrigue = 4
-						martial = 4
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_cibyrrhaeot = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 5
-						learning = 5
-						stewardship = 11
-						intrigue = 5
-						martial = 5
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_armenia_minor = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 6
-						learning = 6
-						stewardship = 12
-						intrigue = 6
-						martial = 6
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_paphlagonia = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 7
-						learning = 7
-						stewardship = 13
-						intrigue = 7
-						martial = 7
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_samos = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 8
-						learning = 8
-						stewardship = 14
-						intrigue = 8
-						martial = 8
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_thracesia = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 9
-						learning = 9
-						stewardship = 15
-						intrigue = 9
-						martial = 9
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_karvuna = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 10
-						learning = 10
-						stewardship = 16
-						intrigue = 10
-						martial = 10
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_turnovo = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 11
-						learning = 11
-						stewardship = 17
-						intrigue = 11
-						martial = 11
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_vidin = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 12
-						learning = 12
-						stewardship = 18
-						intrigue = 12
-						martial = 12
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_strymon = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 13
-						learning = 13
-						stewardship = 19
-						intrigue = 13
-						martial = 13
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_achaia = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 14
-						learning = 14
-						stewardship = 20
-						intrigue = 14
-						martial = 14
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_adrianopolis = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 15
-						learning = 15
-						stewardship = 21
-						intrigue = 15
-						martial = 15
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_aegean_islands = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 16
-						learning = 16
-						stewardship = 22
-						intrigue = 16
-						martial = 16
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_athens = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 17
-						learning = 17
-						stewardship = 23
-						intrigue = 17
-						martial = 17
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_cyprus = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 18
-						learning = 18
-						stewardship = 24
-						intrigue = 18
-						martial = 18
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_dyrrachion = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 19
-						learning = 19
-						stewardship = 25
-						intrigue = 19
-						martial = 19
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_epirus = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 20
-						learning = 20
-						stewardship = 26
-						intrigue = 20
-						martial = 20
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_cephalonia = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 21
-						learning = 21
-						stewardship = 27
-						intrigue = 21
-						martial = 21
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_ohrid = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 22
-						learning = 22
-						stewardship = 28
-						intrigue = 22
-						martial = 22
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_dyrrachion = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 23
-						learning = 23
-						stewardship = 29
-						intrigue = 23
-						martial = 23
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_krete = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 24
-						learning = 24
-						stewardship = 30
-						intrigue = 24
-						martial = 24
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_nikaea = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 25
-						learning = 25
-						stewardship = 31
-						intrigue = 25
-						martial = 25
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_thessalonika = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 26
-						learning = 26
-						stewardship = 32
-						intrigue = 26
-						martial = 26
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}							
-		d_dioclea = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 28
-						learning = 28
-						stewardship = 34
-						intrigue = 28
-						martial = 28
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_armeniacon = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 29
-						learning = 29
-						stewardship = 35
-						intrigue = 29
-						martial = 29
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-		d_trebizond = {				
-			grant_title = ROOT			
-						
-						
-			holder_scope = {			
-				create_random_steward = {		
-					random_traits = yes	
-					dynasty = random	
-					female = no	
-					attributes = {	
-						diplomacy = 30
-						learning = 30
-						stewardship = 36
-						intrigue = 30
-						martial = 30
-					}	
-				}		
-				new_character = {		
-					save_event_target_as = civilian_theme_new_holder	
-					set_character_flag = civilian_theme_new_holder	
-				}		
-			}			
-			gain_title = event_target:civilian_theme_new_holder			
-			add_law = {			
-				law = succ_byzantine_elective		
-				cooldown = no 		
-				opinion_effect = no		
-			}			
-			any_de_jure_vassal_title = {			
-				limit = {		
-					tier = count	
-					holder_scope = { same_realm = ROOT }	
-					NOT = { title = c_constantinople }	
-				}		
-				add_law = {		
-					law = succ_byzantine_elective	
-					cooldown = no 	
-					opinion_effect = no	
-				}		
-				gain_title = event_target:civilian_theme_new_holder		
-			}			
-		}				
-
 		
-		# Give the offices to relevant character cause modifying history files are annoying
-		#Give high offices
-		# d_anatolia_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		d_bucellarian_theme = {		
-			grant_title = {	
-				target = 696901
-			}	
-		}		
-		# d_charsianon_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_cibyrrhaeot_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_armenia_minor_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_paphlagonia_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		d_samos_theme = {		
-			grant_title = {	
-				target = 93452
-			}	
-		}		
-		# d_thracesia_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		d_karvuna_theme = {		
-			grant_title = {	
-				target = 696902
-			}	
-		}		
-		# d_turnovo_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_vidin_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_strymon_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_achaia_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_adrianopolis_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_aegean_islands_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_athens_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_cyprus_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_dyrrachion_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_epirus_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_cephalonia_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_ohrid_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_dyrrachion_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_krete_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		d_nikaea_theme = {		
-			grant_title = {	
-				target = 41536
-			}	
-		}		
-		# d_thessalonika_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_thrace_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_dioclea_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_armeniacon_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }		
-		# d_trebizond_theme = {		
-			# grant_title = {	
-				# target = 
-			# }	
-		# }
-	}
+		# set_allow_title_revokation = no
+		
+		## 1066 start date - create specific titles and add specific titles to specific people
+			
+		# Remove vanilla ducal title holders and give them to civilian_theme_new_holder and create military theme titles for previous aristocrat
+		any_title = {
+			limit = {
+				tier = DUKE
+				NOT = { tier = KING	}
+				NOT = { is_priest = yes }
+				has_holder = yes	
+				holder_scope = {			
+					is_vassal_or_below_of = ROOT
+					NOT = { character = ROOT }
+				}
+			}
+			if = {					
+				limit = {				
+					has_holder = yes			
+					holder_scope = {
+						NOT = { tier = KING	}
+						NOT = { is_priest = yes }
+						is_vassal_or_below_of = ROOT
+						is_adult = yes
+					}
+				}								
+				holder_scope = {
+					location = {				
+						save_event_target_as = target_location_military_theme_capital			
+					}
+					if = { # Create the military theme title and family county titular title when holder has not already a county family title
+						limit = {
+							any_demesne_title = {
+								has_title_flag = created_family_county_title
+							}
+						}
+						create_random_steward = { # Create the new civilian_theme_new_holder	
+							random_traits = yes		
+							dynasty = random		
+							female = no		
+							attributes = {		
+								diplomacy = 2	
+								learning = 2	
+								stewardship = 8	
+								intrigue = 2	
+								martial = 2	
+							}		
+						}			
+						new_character = {			
+							save_event_target_as = civilian_theme_new_holder		
+							set_character_flag = civilian_theme_new_holder		
+						}
+						create_title = { # Create the military theme title and family county titular title	
+							tier = DUKE		
+							landless = yes		
+							temporary = no		
+							culture = greek		
+							name = MILITARY_THEME_TITLE		
+							holder = THIS		
+							# graphical_culture = byzantinegfx		
+							# capital = event_target:target_location_military_theme_capital		
+							# base_title = PREV
+							custom_created = yes
+							ruler = "Strategos"		
+							ruler_female = "Strategos"		
+									
+							# can_be_usurped = no		
+							# duchy_revokation = no		
+							# can_be_claimed = no		
+							# assimilate = no		
+						}
+						new_title = { # MILITARY_THEME_TITLE
+							set_title_flag = created_military_theme_title
+							add_law = {		
+								law = succ_byzantine_elective	
+								cooldown = no 	
+								opinion_effect = no	
+							}		
+							add_law = {		
+								law = agnatic_succession	
+								cooldown = no 	
+								opinion_effect = no	
+							}
+						}
+						any_title_under = { # Give the civilian_theme_new_holder all the previous holder titles except the newly created military and family titles
+							limit = {			
+								NOT = { 
+									tier = baron 
+									OR = {
+										has_title_flag = created_family_county_title
+										has_title_flag = created_military_theme_title
+										has_title_flag = roman_administration_tagma_title
+										has_title_flag = roman_administration_domestikos_east_title
+										has_title_flag = roman_administration_domestikos_west_title
+									}
+								}		
+							}			
+							gain_title = event_target:civilian_theme_new_holder			
+						}
+						gain_title = event_target:civilian_theme_new_holder
+						event_target:civilian_theme_new_holder = { # Create the military thematic relationship otherwise you are fucking lost
+							make_tributary = {
+								who = PREV
+								tributary_type = theme_military
+							}
+						}
+					}
+					else = { # Create the military theme title only, if the family county titular title has already been created
+						create_random_steward = {			
+							random_traits = yes		
+							dynasty = random		
+							female = no		
+							attributes = {		
+								diplomacy = 2	
+								learning = 2	
+								stewardship = 8	
+								intrigue = 2	
+								martial = 2	
+							}		
+						}			
+						new_character = {			
+							save_event_target_as = civilian_theme_new_holder		
+							set_character_flag = civilian_theme_new_holder		
+						}
+						create_title = {			
+							tier = DUKE		
+							landless = yes		
+							temporary = no		
+							culture = greek		
+							name = MILITARY_THEME_TITLE		
+							holder = THIS		
+							# graphical_culture = byzantinegfx		
+							# capital = event_target:target_location_military_theme_capital		
+									
+							ruler = "Strategos"		
+							ruler_female = "Strategos"		
+									
+							# can_be_usurped = no		
+							# duchy_revokation = no		
+							# can_be_claimed = no		
+							# assimilate = no		
+						}
+						new_title = {
+							set_title_flag = created_military_theme_title
+							add_law = {		
+								law = succ_byzantine_elective	
+								cooldown = no 	
+								opinion_effect = no	
+							}		
+							add_law = {		
+								law = agnatic_succession	
+								cooldown = no 	
+								opinion_effect = no	
+							}
+						}
+						create_title = {			
+							tier = COUNT		
+							landless = yes		
+							temporary = no		
+							culture = greek		
+							name = FAMILY_COUNT_TITLE		
+							holder = THIS		
+							# graphical_culture = byzantinegfx		
+							# capital = 496		
+									
+							ruler = "Eugeneios"		
+							ruler_female = "Eugeneia"		
+									
+							# can_be_usurped = no		
+							# duchy_revokation = no		
+							# can_be_claimed = no		
+							# assimilate = no		
+						}			
+						new_title = {
+							set_title_flag = created_family_county_title
+							add_law = {		
+								law = succ_byzantine_elective	
+								cooldown = no 	
+								opinion_effect = no	
+							}		
+							add_law = {		
+								law = agnatic_succession	
+								cooldown = no 	
+								opinion_effect = no	
+							}		
+						}				
+						any_title_under = {				
+							limit = {			
+								NOT = { 
+									tier = baron 
+									OR = {
+										has_title_flag = created_family_county_title
+										has_title_flag = created_military_theme_title
+										has_title_flag = roman_administration_tagma_title
+										has_title_flag = roman_administration_domestikos_east_title
+										has_title_flag = roman_administration_domestikos_west_title
+									}
+								}		
+							}			
+							gain_title = event_target:civilian_theme_new_holder			
+						}
+						gain_title = event_target:civilian_theme_new_holder
+						event_target:civilian_theme_new_holder = {
+							make_tributary = {
+								who = PREV
+								tributary_type = theme_military
+							}
+						}
+					}
+					
+				}
+				set_title_flag = roman_administration_civilian_theme
+				add_law = {		
+					law = succ_byzantine_elective	
+					cooldown = no 	
+					opinion_effect = no	
+				}		
+				add_law = {		
+					law = agnatic_succession	
+					cooldown = no 	
+					opinion_effect = no	
+				}
+			}					
+			if = {
+				limit = {
+					has_holder = yes			
+					holder_scope = {
+						NOT = { tier = KING }
+						NOT = { is_priest = yes }
+						is_vassal_or_below_of = ROOT	
+						is_adult = no
+					}
+				}
+				holder_scope = {
+					# create_random_soldier = {			
+						# random_traits = yes		
+						# dynasty = random		
+						# female = no		
+						# attributes = {		
+							# diplomacy = 2	
+							# learning = 2	
+							# stewardship = 2	
+							# intrigue = 2	
+							# martial = 8	
+						# }		
+					# }		
+					spawn_great_commander = yes
+					new_character = {			
+						save_event_target_as = military_theme_new_holder		
+						set_character_flag = military_theme_new_holder		
+					}
+					create_random_steward = {			
+						random_traits = yes		
+						dynasty = random		
+						female = no		
+						attributes = {		
+							diplomacy = 2	
+							learning = 2	
+							stewardship = 8	
+							intrigue = 2	
+							martial = 2	
+						}		
+					}			
+					new_character = {			
+						save_event_target_as = civilian_theme_new_holder		
+						set_character_flag = civilian_theme_new_holder		
+					}
+					location = {				
+						save_event_target_as = target_location_military_theme_capital			
+					}
+					create_title = {			
+						tier = DUKE		
+						landless = yes		
+						temporary = no		
+						culture = greek		
+						name = MILITARY_THEME_TITLE		
+						holder = event_target:military_theme_new_holder		
+						# graphical_culture = byzantinegfx		
+						# capital = event_target:target_location_military_theme_capital		
+								
+						ruler = "Strategos"		
+						ruler_female = "Strategos"		
+								
+						# can_be_usurped = no		
+						# duchy_revokation = no		
+						# can_be_claimed = no		
+						# assimilate = no		
+					}
+					new_title = {
+						set_title_flag = created_military_theme_title
+						add_law = {		
+							law = succ_byzantine_elective	
+							cooldown = no 	
+							opinion_effect = no	
+						}		
+						add_law = {		
+							law = agnatic_succession	
+							cooldown = no 	
+							opinion_effect = no	
+						}
+						gain_title = event_target:military_theme_new_holder
+					}
+					any_title_under = {				
+						limit = {			
+							NOT = { 
+								tier = baron 
+								OR = {
+									has_title_flag = created_family_county_title
+									has_title_flag = created_military_theme_title
+									has_title_flag = roman_administration_tagma_title
+									has_title_flag = roman_administration_domestikos_east_title
+									has_title_flag = roman_administration_domestikos_west_title
+								}
+							}		
+						}			
+						gain_title = event_target:civilian_theme_new_holder
+						event_target:civilian_theme_new_holder = {
+							make_tributary = {
+								who = event_target:military_theme_new_holder
+								tributary_type = theme_military
+							}
+						}
+					}
+				}
+				set_title_flag = roman_administration_civilian_theme
+				add_law = {		
+					law = succ_byzantine_elective	
+					cooldown = no 	
+					opinion_effect = no	
+				}		
+				add_law = {		
+					law = agnatic_succession	
+					cooldown = no 	
+					opinion_effect = no	
+				}
+			}
+			
+		}
+		
+		# Swap civilian_theme_new_holder to update government
+		any_title = {
+			limit = {
+				has_title_flag = roman_administration_civilian_theme
+			}
+			holder_scope = {
+				clr_character_flag = civilian_theme_new_holder
+				clear_event_target = civilian_theme_new_holder
+				create_random_steward = {			
+					random_traits = yes		
+					dynasty = random		
+					female = no		
+					attributes = {		
+						diplomacy = 2	
+						learning = 2	
+						stewardship = 8	
+						intrigue = 2	
+						martial = 2	
+					}		
+				}			
+				new_character = {
+					add_hexaco_education_traits = yes
+					save_event_target_as = civilian_theme_new_holder		
+					set_character_flag = civilian_theme_new_holder		
+				}
+				any_demesne_title = {
+					gain_title = event_target:civilian_theme_new_holder
+				}
+			}
+		}
+		
+		# Destroy duplicate family ducal titles and give it to the oldest of the dynasty
+		
+	}	
+
 }
 
 ## Create the tagma armies
@@ -1368,9 +415,9 @@ character_event = {
 	hide_window = yes
 	
 	is_triggered_only = yes
-	is_save_game = no
-	
+		
 	trigger = {
+		is_save_game = no
 		primary_title = {
 			OR = { 
 				title = e_byzantium
@@ -1381,51 +428,126 @@ character_event = {
 	}
 	
 	immediate = {
-		any_title_under = {
-			limit = {
-				title = d_scholae_palatinae
+		spawn_great_commander_effect = yes
+		new_character = { save_event_target_as = roman_administration_tagma_commander }
+		e_byzantium = {
+			create_title = { #Scholai
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Scholae Palatinae"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Domestikos"
+				ruler_female = "Domestikos"
+				foa = "My Domestikos"				
 			}
-			holder_scope = {
-				save_event_target_as = target_tagma_commander
-				roman_administration_create_regular_cavalry_tagma = yes
-			}
-		}
-		any_title_under = {
-			limit = {
-				title = d_excubitor
-			}
-			holder_scope = {
-				save_event_target_as = target_tagma_commander
-				roman_administration_create_regular_cavalry_tagma = yes
-			}
-		}
-		any_title_under = {
-			limit = {
-				title = d_vigla
-			}
-			holder_scope = {
-				save_event_target_as = target_tagma_commander
-				roman_administration_create_regular_cavalry_tagma = yes
-			}
-		}
-		any_title_under = {
-			limit = {
-				title = d_hikanatoi
-			}
-			holder_scope = {
-				save_event_target_as = target_tagma_commander
-				roman_administration_create_regular_cavalry_tagma = yes
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_regular_cavalry_tagma = yes
+				}
 			}
 		}
-		any_title_under = {
-			limit = {
-				title = d_varangian_guard
+		
+		spawn_great_commander_effect = yes
+		new_character = { save_event_target_as = roman_administration_tagma_commander }
+		e_byzantium = {
+			create_title = { #Excubitor
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Excubitores"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Domestikos"
+				ruler_female = "Domestikos"
+				foa = "My Domestikos"				
 			}
-			holder_scope = {
-				save_event_target_as = target_tagma_commander
-				roman_administration_create_varangian_tagma = yes
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_regular_cavalry_tagma = yes
+				}
 			}
 		}
+		
+		spawn_great_commander_effect = yes
+		new_character = { save_event_target_as = roman_administration_tagma_commander }
+		e_byzantium = {
+			create_title = { #Vigla
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Vigla"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Domestikos"
+				ruler_female = "Domestikos"
+				foa = "My Domestikos"				
+			}
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_regular_cavalry_tagma = yes
+				}
+			}
+		}
+		
+		spawn_great_commander_effect = yes
+		new_character = { save_event_target_as = roman_administration_tagma_commander }
+		e_byzantium = {
+			create_title = { #Hikanatoi
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Hikanatoi"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Domestikos"
+				ruler_female = "Domestikos"
+				foa = "My Domestikos"				
+			}
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_regular_cavalry_tagma = yes
+				}
+			}
+		}
+	
 	}
 }
 

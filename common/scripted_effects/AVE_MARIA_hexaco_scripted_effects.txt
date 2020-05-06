@@ -361,7 +361,6 @@ add_hexaco_trait = {
 
 }
 
-
 add_hexaco_trait_martial_arts_1 = {
 	if = {				
 		limit = {			
@@ -616,6 +615,266 @@ add_hexaco_trait_martial_arts_5 = {
 		}			
 		add_trait = martial_arts_steppe_5	
 	}	
+}
+
+add_hexaco_education_traits = {
+	# Martial Arts					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					has_martial_arts_lvl_1_trait_trigger = yes		
+					has_martial_arts_lvl_2_trait_trigger = yes		
+					has_martial_arts_lvl_3_trait_trigger = yes		
+					has_martial_arts_lvl_4_trait_trigger = yes		
+					has_martial_arts_lvl_5_trait_trigger = yes		
+				}			
+			}				
+		}					
+		random_list = {				
+			20 = { 				
+				add_hexaco_trait_martial_arts_1 = yes			
+			}				
+			20 = { 				
+				add_hexaco_trait_martial_arts_2 = yes			
+			}
+			20 = { 				
+				add_hexaco_trait_martial_arts_3 = yes			
+			}				
+			20 = { 				
+				add_hexaco_trait_martial_arts_4 = yes			
+			}
+			20 = { 				
+				add_hexaco_trait_martial_arts_5 = yes			
+			}				
+		}					
+	}						
+	# Riding					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = riding_1		
+					trait = riding_2		
+					trait = riding_3		
+					trait = riding_4		
+					trait = riding_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = riding_1			
+			}				
+			20 = { 				
+				add_trait = riding_2
+			}
+			20 = { 				
+				add_trait = riding_3			
+			}				
+			20 = { 				
+				add_trait = riding_4			
+			}
+			20 = { 				
+				add_trait = riding_5			
+			}
+		}					
+	}						
+	# Etiquette					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = etiquette_1		
+					trait = etiquette_2		
+					trait = etiquette_3		
+					trait = etiquette_4		
+					trait = etiquette_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = etiquette_1			
+			}				
+			20 = { 				
+				add_trait = etiquette_2
+			}
+			20 = { 				
+				add_trait = etiquette_3			
+			}				
+			20 = { 				
+				add_trait = etiquette_4			
+			}
+			20 = { 				
+				add_trait = etiquette_5			
+			}				
+		}					
+	}	
+	# Read Write					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = read_write_1		
+					trait = read_write_2		
+					trait = read_write_3		
+					trait = tread_write_4		
+					trait = read_write_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = read_write_1			
+			}				
+			20 = { 				
+				add_trait = read_write_2
+			}
+			20 = { 				
+				add_trait = read_write_3			
+			}				
+			20 = { 				
+				add_trait = read_write_4			
+			}
+			20 = { 				
+				add_trait = read_write_5			
+			}				
+		}					
+	}
+	# Law			
+	if = {						
+		limit = {		
+			OR = {
+				culture_group = byzantine
+				is_priest = yes
+			}
+			NOT = {				
+				OR = {			
+					trait = law_1		
+					trait = law_2		
+					trait = law_3		
+					trait = tlaw_4		
+					trait = law_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = law_1			
+			}				
+			20 = { 				
+				add_trait = law_2
+			}
+			20 = { 				
+				add_trait = law_3			
+			}				
+			20 = { 				
+				add_trait = law_4			
+			}
+			20 = { 				
+				add_trait = law_5			
+			}				
+		}					
+	}
+	# Philosophy			
+	if = {						
+		limit = {		
+			OR = {
+				culture_group = byzantine
+				is_priest = yes
+			}
+			NOT = {				
+				OR = {			
+					trait = philosophy_1		
+					trait = philosophy_2		
+					trait = philosophy_3		
+					trait = tphilosophy_4		
+					trait = philosophy_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = philosophy_1			
+			}				
+			20 = { 				
+				add_trait = philosophy_2
+			}
+			20 = { 				
+				add_trait = philosophy_3			
+			}				
+			20 = { 				
+				add_trait = philosophy_4			
+			}
+			20 = { 				
+				add_trait = philosophy_5			
+			}				
+		}					
+	}
+	# Mathematics					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = mathematics_1		
+					trait = mathematics_2		
+					trait = mathematics_3		
+					trait = mathematics_4		
+					trait = mathematics_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = mathematics_1			
+			}				
+			20 = { 				
+				add_trait = mathematics_2
+			}
+			20 = { 				
+				add_trait = mathematics_3			
+			}				
+			20 = { 				
+				add_trait = mathematics_4			
+			}
+			20 = { 				
+				add_trait = mathematics_5			
+			}				
+		}					
+	}						
+	# Theology					
+	if = {						
+		limit = {					
+			NOT = {				
+				OR = {			
+					trait = theology_1		
+					trait = theology_2		
+					trait = theology_3		
+					trait = theology_4		
+					trait = theology_5		
+				}			
+			}				
+		}					
+		random_list = {					
+			20 = { 				
+				add_trait = theology_1			
+			}				
+			20 = { 				
+				add_trait = theology_2
+			}
+			20 = { 				
+				add_trait = theology_3			
+			}				
+			20 = { 				
+				add_trait = theology_4			
+			}
+			20 = { 				
+				add_trait = theology_5			
+			}				
+		}					
+	}						
+
 }
 
 #############################################

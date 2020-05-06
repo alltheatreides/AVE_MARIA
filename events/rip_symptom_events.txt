@@ -363,7 +363,7 @@ character_event = { #Fever can lead to pneumonia syphilis tuberculosis typhoid_f
 								has_character_flag = disease_not_serious
 							}
 						}
-					set_character_flag = got_syphilis
+					# set_character_flag = got_syphilis
 					set_character_flag = developing_illness
 					}
 					if = {
@@ -1424,7 +1424,7 @@ character_event = { #headache can lead to syphilis typhus smallpox aztec_disease
 								has_character_flag = disease_not_serious
 							}
 						}
-					set_character_flag = got_syphilis 
+					# set_character_flag = got_syphilis 
 					set_character_flag = developing_illness
 					}
 					if = {
@@ -2067,7 +2067,7 @@ character_event = { #rash can lead to syphilis typhus measles smallpox/aztec_dis
 								has_character_flag = disease_not_serious
 							}
 						}
-					set_character_flag = got_syphilis 
+					# set_character_flag = got_syphilis 
 					set_character_flag = developing_illness
 					}
 					if = {

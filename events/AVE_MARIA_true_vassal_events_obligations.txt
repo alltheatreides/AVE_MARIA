@@ -18,7 +18,9 @@ namespace = AVE_MARIA_true_vassal_obligations
 
 # Military obligations - Offensive War - Suzerain summons all vassals - Vassal choose amount of troop to send
 character_event = {
-    id = AVE_MARIA_true_vassal_obligations.1
+	id = AVE_MARIA_true_vassal_obligations.1
+	title = AVE_MARIA_true_vassal_obligations.title.1
+	picture = GFX_evt_battle
     desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.1
     is_triggered_only = yes
     border = GFX_event_normal_frame_war
@@ -214,7 +216,9 @@ character_event = {
 
 # Military obligations - Offensive War - Suzerain summons ONE vassal from targetted decision
 character_event = {
-    id = AVE_MARIA_true_vassal_obligations.3
+	id = AVE_MARIA_true_vassal_obligations.3
+	title = AVE_MARIA_true_vassal_obligations.title.3
+	picture = GFX_evt_battle
     desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.25
     is_triggered_only = yes
     border = GFX_event_normal_frame_war
@@ -364,9 +368,10 @@ character_event = {
 
 # Military obligations - Defensive War - Suzerain summons all vassals
 character_event = {
-    id = AVE_MARIA_true_vassal_obligations.4
+	id = AVE_MARIA_true_vassal_obligations.4
+	title = AVE_MARIA_true_vassal_obligations.title.4
     desc = EVTDESC_AVE_MARIA_true_vassal_obligations.29
-    picture = GFX_evt_ruler_listening_to_supplicant
+	picture = GFX_evt_battle
     border = GFX_event_normal_frame_war
     hide_window = yes
     is_triggered_only = yes
@@ -400,7 +405,8 @@ character_event = {
 
 # Military obligations - Defensive War - Suzerain summons ONE vassal from targetted decision
 character_event = {
-    id = AVE_MARIA_true_vassal_obligations.5
+	id = AVE_MARIA_true_vassal_obligations.5
+	title = AVE_MARIA_true_vassal_obligations.title.5
     desc = EVTDESC_AVE_MARIA_true_vassal_obligations.30
     hide_window = yes
     is_triggered_only = yes
@@ -408,7 +414,8 @@ character_event = {
 
 # Military obligations - Defensive War - Vassals receive summons
 character_event = {
-    id = AVE_MARIA_true_vassal_obligations.6
+	id = AVE_MARIA_true_vassal_obligations.6
+	title = AVE_MARIA_true_vassal_obligations.title.6
     desc = EVTDESC_AVE_MARIA_true_vassal_obligations.31
     picture = GFX_evt_battle
     border = GFX_event_normal_frame_war
@@ -522,6 +529,7 @@ character_event = {
 # Monetary obligations - Suzerain's son armed knight - Suzerain event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.7
+	title = AVE_MARIA_true_vassal_obligations.title.7
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.7
     picture = GFX_evt_ave_maria_true_vassal_obligation
     is_triggered_only = yes
@@ -565,6 +573,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's son armed knight - Vassals event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.8
+	title = AVE_MARIA_true_vassal_obligations.title.8
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.8
     picture = GFX_evt_ave_maria_true_vassal_obligation
     is_triggered_only = yes
@@ -649,6 +658,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's son armed knight - Suzerain receive vassals response
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.9
+	title = AVE_MARIA_true_vassal_obligations.title.9
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.9
     picture = GFX_evt_ave_maria_true_vassal_obligation
     is_triggered_only = yes
@@ -721,6 +731,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's first daughter marrying - Suzerain event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.10
+	title = AVE_MARIA_true_vassal_obligations.title.10
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.10
     picture = GFX_evt_marriage
     is_triggered_only = yes
@@ -764,6 +775,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's first daughter marrying - Vassals event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.11
+	title = AVE_MARIA_true_vassal_obligations.title.11
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.11
     picture = GFX_evt_marriage
     is_triggered_only = yes
@@ -848,6 +860,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's first daughter marrying - Suzerain receive vassals response
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.12
+	title = AVE_MARIA_true_vassal_obligations.title.12
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.12
     picture = GFX_evt_marriage
     is_triggered_only = yes
@@ -920,6 +933,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's ransom - Suzerain event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.13
+	title = AVE_MARIA_true_vassal_obligations.title.13
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.13
     picture = GFX_evt_emissary
     is_triggered_only = yes
@@ -960,6 +974,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's ransom - Vassals event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.14
+	title = AVE_MARIA_true_vassal_obligations.title.14
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.14
     picture = GFX_evt_emissary
     is_triggered_only = yes
@@ -1044,6 +1059,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's ransom - Suzerain receive vassals response
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.15
+	title = AVE_MARIA_true_vassal_obligations.title.15
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.15
     picture = GFX_evt_emissary
     is_triggered_only = yes
@@ -1116,6 +1132,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.16
+	title = AVE_MARIA_true_vassal_obligations.title.16
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.16
     picture = GFX_evt_marriage
     is_triggered_only = yes
@@ -1156,6 +1173,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's crusade/pilgrimage - Vassals event
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.17
+	title = AVE_MARIA_true_vassal_obligations.title.17
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.17
     picture = GFX_evt_marriage
     is_triggered_only = yes
@@ -1240,6 +1258,7 @@ narrative_event = {
 # Monetary obligations - Suzerain's crusade/pilgrimage - Suzerain receive vassals response
 narrative_event = {
 	id = AVE_MARIA_true_vassal_obligations.18
+	title = AVE_MARIA_true_vassal_obligations.title.18
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations.18
     picture = GFX_evt_emissary
     is_triggered_only = yes

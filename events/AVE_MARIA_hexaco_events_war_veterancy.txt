@@ -318,6 +318,8 @@ character_event = {
 	id = AVE_MARIA_hexaco_war_veterancy.2	
 	hide_window = yes
 	
+	mean_time_to_happen = { days = 1 }
+	
 	trigger = {
 		is_alive = yes
 		OR = {

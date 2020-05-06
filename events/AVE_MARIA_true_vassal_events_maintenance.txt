@@ -27,7 +27,7 @@ character_event = {
     }
 
     immediate = {
-		#FOR everyone else
+		#For everyone else
         any_playable_ruler = {
             limit = {
                 in_revolt = no
@@ -71,6 +71,7 @@ character_event = {
 							is_tributary = { type = default }
                             is_tributary = { type = true_vassal_hre }
                             is_tributary = { type = true_vassal }
+							is_tributary = { type = theme_military }
                         }
                     }
                 }
@@ -86,6 +87,7 @@ character_event = {
             any_tributary = {
                 limit = {
                     is_landed = no
+					NOT = { is_tributary = { type = theme_military } }
                 }
                 suzerain = {
                     remove_tributary = PREV
@@ -132,8 +134,10 @@ character_event = {
             limit = {
                 NOT = {
                     OR = {
-                        is_tributary = { type = true_vassal_hre }
-                        is_tributary = { type = true_vassal }
+                        is_tributary = { type = default }
+						is_tributary = { type = true_vassal_hre }
+						is_tributary = { type = true_vassal }
+						is_tributary = { type = theme_military }
                     }
                 }
             }
@@ -149,6 +153,7 @@ character_event = {
         any_tributary = {
             limit = {
                 is_landed = no
+				NOT = { is_tributary = { type = theme_military } }
             }
             suzerain = {
                 remove_tributary = PREV
@@ -514,13 +519,13 @@ character_event = {
     immediate = {
         FROM = {
             
-            clr_character_flag = convoqué_au_ban_defensive
+            # clr_character_flag = convoqué_au_ban_defensive
             clr_character_flag = convocation_au_ban_defensive
             clr_character_flag = convocation_au_ban_offensif
             clr_character_flag = target_attacked_vassal
             clr_character_flag = servitium_debitum
             any_tributary = {
-                clr_character_flag = convoqué_au_ban_defensive
+                # clr_character_flag = convoqué_au_ban_defensive
                 clr_character_flag = convocation_au_ban_defensive
                 clr_character_flag = convocation_au_ban_offensif
                 clr_character_flag = target_attacked_vassal
@@ -528,13 +533,13 @@ character_event = {
             }
         }
         ROOT = {
-            clr_character_flag = convoqué_au_ban_defensive
+            # clr_character_flag = convoqué_au_ban_defensive
             clr_character_flag = convocation_au_ban_defensive
             clr_character_flag = convocation_au_ban_offensif           
             clr_character_flag = target_attacked_vassal
             clr_character_flag = servitium_debitum
             any_tributary = {
-                clr_character_flag = convoqué_au_ban_defensive
+                # clr_character_flag = convoqué_au_ban_defensive
                 clr_character_flag = convocation_au_ban_defensive
                 clr_character_flag = convocation_au_ban_offensif
                 clr_character_flag = target_attacked_vassal
@@ -612,6 +617,7 @@ character_event = {
 # Message to vassals about liege change
 character_event = {
     id = AVE_MARIA_true_vassal_maintenance.7
+    picture = GFX_evt_battle
     desc = EVTDESC_AVE_MARIA_true_vassal_maintenance.7
     is_triggered_only = yes
 

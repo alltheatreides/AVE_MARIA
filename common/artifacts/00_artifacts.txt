@@ -45,7 +45,7 @@ cursed_diamond = { # (DLC: Rajas of India)
 
 cursed_diamond_crown = { # (DLC: Rajas of India)
 	monthly_character_prestige = 1
-	stewardship = 3
+	# stewardship = 3
 	quality = 4
 	flags = { event diamond curse }
 	stacking = no
@@ -73,7 +73,7 @@ rival_skull = { # (DLC: Reaper's Due)
 
 famous_head = {
 	monthly_character_prestige = 0.05
-	learning = 1
+	# learning = 1
 	quality = 1
 	flags = { saint bodypart }
 	picture = "GFX_saintly_skull"
@@ -81,7 +81,7 @@ famous_head = {
 
 famous_tongue = {
 	monthly_character_prestige = 0.05
-	diplomacy = 1
+	# diplomacy = 1
 	quality = 1
 	flags = { saint bodypart }
 	picture = "GFX_saintly_tongue"
@@ -89,7 +89,7 @@ famous_tongue = {
 
 infamous_tongue = {
 	monthly_character_prestige = 0.05
-	intrigue = 1
+	# intrigue = 1
 	quality = 1
 	flags = { saint bodypart }
 	picture = "GFX_saintly_tongue"
@@ -105,7 +105,7 @@ famous_hand = {
 
 famous_arm = {
 	monthly_character_prestige = 0.05
-	stewardship = 1
+	# stewardship = 1
 	quality = 1
 	flags = { saint bodypart }
 	picture = "GFX_saints_bone_femur"
@@ -138,7 +138,7 @@ iron_crown_of_lombardy = {
 	monthly_character_piety = 0.5
 	monthly_character_prestige = 1
 	vassal_opinion = 10
-	diplomacy = 1
+	# diplomacy = 1
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -156,7 +156,7 @@ shroud_of_jesus = {
 	monthly_character_prestige = 0.5
 	same_religion_opinion = 5
 	global_levy_size = 0.05
-	learning = 1
+	# learning = 1
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -224,7 +224,7 @@ bones_of_st_peter = {
 	same_religion_opinion = 10
 	build_cost_modifier = -0.1
 	build_time_modifier = -0.1
-	stewardship = 1
+	# stewardship = 1
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -240,7 +240,7 @@ crown_of_thorns = {
 	monthly_character_piety = 1
 	same_religion_opinion = 5
 	global_revolt_risk = -0.03
-	diplomacy = 1
+	# diplomacy = 1
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -256,7 +256,7 @@ seamless_robe_of_jesus = {
 	monthly_character_prestige = 0.5
 	same_religion_opinion = 5
 	global_tax_modifier = 0.1
-	learning = 1
+	# learning = 1
 	active = { 
 		religion_group = christian
 	}
@@ -272,7 +272,7 @@ seamless_robe_of_jesus = {
 fragment_of_true_cross = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
-	diplomacy = 2
+	# diplomacy = 2
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -316,7 +316,7 @@ fingerbone_of_saint = {
 finger_of_st_john = { #separate event chain
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
-	learning = 1
+	# learning = 1
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -329,7 +329,7 @@ finger_of_st_john = { #separate event chain
 
 chains_of_st_peter = {
 	monthly_character_prestige = 0.1
-	learning = 2
+	# learning = 2
 	active = { religion_group = christian }
 	allowed_gift = {
 		religion_group = christian
@@ -426,7 +426,7 @@ staff_of_moses = {
 		morale_offence = 0.1
 		morale_defence = 0.1
 	}
-	stewardship = 2
+	# stewardship = 2
 	same_religion_opinion = 5
 
 	active = { 
@@ -454,7 +454,7 @@ davids_harp = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
 	same_religion_opinion = 5
-	diplomacy = 4
+	# diplomacy = 4
 	active = { 
 		OR= {
 			religion_group = christian
@@ -483,7 +483,7 @@ ark_of_the_covenant = {
 		morale_defence = 0.1
 	}
 	same_religion_opinion = 10
-	stewardship = 2
+	# stewardship = 2
 	active = { 
 		OR= {
 			religion_group = christian
@@ -506,7 +506,7 @@ ark_of_the_covenant = {
 seal_of_solomon = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
-	learning = 4
+	# learning = 4
 	active = { 
 		OR= {
 			religion_group = christian
@@ -582,7 +582,7 @@ seal_of_mohammad = {
 	short_reign_length = -5
 	monthly_character_prestige = 0.5
 	same_religion_opinion = 10
-	diplomacy = 2
+	# diplomacy = 2
 	active = { religion_group = muslim }
 	allowed_gift = {
 		religion_group = muslim
@@ -617,7 +617,7 @@ blessed_mantle = {
 	monthly_character_prestige = 0.5
 	same_religion_opinion = 5
 	global_tax_modifier = 0.1
-	diplomacy = 1
+	# diplomacy = 1
 	active = { religion_group = muslim }
 	allowed_gift = {
 		religion_group = muslim
@@ -664,7 +664,7 @@ blessed_sandals = {
 letter_of_mohammad = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
-	learning = 2
+	# learning = 2
 	active = { religion_group = muslim }
 	allowed_gift = {
 		religion_group = muslim
@@ -706,7 +706,7 @@ mohammads_bowl = {
 mohammads_beard = {
 	monthly_character_piety = 0.25
 	monthly_character_prestige = 0.25
-	diplomacy = 1
+	# diplomacy = 1
 	active = { religion_group = muslim }
 	allowed_gift = {
 		religion_group = muslim
@@ -753,11 +753,11 @@ tooth_of_mohammad = {
 cup_of_jamshid = {
 	monthly_character_prestige = 0.1
 	health = 1
-	diplomacy = 1
+	# diplomacy = 1
 	# martial = 1
-	# stewardship = 1
-	# intrigue = 1
-	# learning = 1
+	# # stewardship = 1
+	# # intrigue = 1
+	# # learning = 1
 	same_religion_opinion = 5
 	
 	quality = 5
@@ -832,7 +832,7 @@ cyrus_cylinder = {
 	monthly_character_prestige = 0.1
 	build_cost_modifier = -0.1
 	build_time_modifier = -0.1
-	stewardship = 1
+	# stewardship = 1
 	quality = 3
 	active = { 
 		OR = {
@@ -912,7 +912,7 @@ mjolnir = {
 
 andvaranaut = {
 	monthly_character_prestige = 0.5
-	stewardship = 4
+	# stewardship = 4
 	global_tax_modifier = 0.2
 	same_religion_opinion = 5
 	health = -1
@@ -954,7 +954,7 @@ gjallarhorn = {
 fetish_of_souls = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.5
-	intrigue = 3
+	# intrigue = 3
 	monthly_character_piety = 1
 	same_religion_opinion = 10
 	quality = 5
@@ -973,7 +973,7 @@ fetish_of_souls = {
 sampo = {
 	monthly_character_prestige = 0.5
 	monthly_character_piety = 0.5
-	stewardship = 2
+	# stewardship = 2
 	global_tax_modifier = 0.2
 	same_religion_opinion = 5
 	quality = 5
@@ -1036,7 +1036,7 @@ axe_of_perkunas = {
 ### Tengri
 yada_tashy = {
 	monthly_character_prestige = 1
-	stewardship = 2
+	# stewardship = 2
 	global_tax_modifier = 0.1
 	same_religion_opinion = 10
 	quality = 5
@@ -1060,7 +1060,7 @@ buddhas_tooth = {
 	monthly_character_prestige = 0.1
 	short_reign_length = -5
 	monthly_character_piety = 1
-	diplomacy = 3
+	# diplomacy = 3
 	same_religion_opinion = 10
 	active = { religion_group = indian_group }
 	allowed_gift = {
@@ -1077,7 +1077,7 @@ mountain_of_light_diamond = { #Probably the Koh-i-Noor
 	same_religion_opinion = 5
 	build_cost_modifier = -0.1
 	build_time_modifier = -0.1
-	stewardship = 3
+	# stewardship = 3
 	health = -1
 	quality = 5
 	active = { religion_group = indian_group }
@@ -1092,7 +1092,7 @@ mountain_of_light_diamond = { #Probably the Koh-i-Noor
 elaborate_danda = {
 	monthly_character_prestige = 0.5
 	global_tax_modifier = 0.1
-	diplomacy = 1
+	# diplomacy = 1
 	quality = 3
 	active = { religion_group = indian_group }
 	allowed_gift = {
@@ -1121,7 +1121,7 @@ sarira = {
 sariraka_actual_body_part = {
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.25
-	learning = 3
+	# learning = 3
 	quality = 3
 	active = { religion_group = indian_group }
 	allowed_gift = {
@@ -1297,7 +1297,7 @@ engraved_sword = {
 crown_hre = { 
 	monthly_character_prestige = 1.0
 	monthly_character_piety = 1.0
-	diplomacy = 4
+	# diplomacy = 4
 	quality = 5
 	church_opinion = 10
 	active = {
@@ -1330,7 +1330,7 @@ crown_hre = {
 crown_byzantine = { 
 	monthly_character_prestige = 1.5
 	monthly_character_piety = 1.5
-	stewardship = 4
+	# stewardship = 4
 	quality = 5
 	active = { 
 		is_feudal = yes
@@ -1349,8 +1349,8 @@ crown_byzantine = {
 crown_pahlavi = { 
 	monthly_character_prestige = 1.0
 	monthly_character_piety = 1.0
-	stewardship = 2
-	diplomacy = 2
+	# stewardship = 2
+	# diplomacy = 2
 	vassal_opinion = 10
 	quality = 5
 	active = { 
@@ -1370,7 +1370,7 @@ crown_pahlavi = {
 crown_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	# stewardship = 2
+	# # stewardship = 2
 	# martial = 2
 	tribal_opinion = 10
 	quality = 4
@@ -1390,7 +1390,7 @@ crown_fylkir = {
 crown_tengri_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	diplomacy = 2
+	# diplomacy = 2
 	# martial = 2
 	tribal_opinion = 10
 	quality = 4
@@ -1409,8 +1409,8 @@ crown_tengri_fylkir = {
 crown_finnish_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	intrigue = 2
+	# stewardship = 2
+	# intrigue = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1428,8 +1428,8 @@ crown_finnish_fylkir = {
 crown_west_african_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	intrigue = 2
+	# stewardship = 2
+	# intrigue = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1447,8 +1447,8 @@ crown_west_african_fylkir = {
 crown_zun_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	intrigue = 2
+	# stewardship = 2
+	# intrigue = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1466,8 +1466,8 @@ crown_zun_fylkir = {
 crown_slavic_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	learning = 2
+	# stewardship = 2
+	# learning = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1485,8 +1485,8 @@ crown_slavic_fylkir = {
 crown_romuva_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	intrigue = 2
+	# stewardship = 2
+	# intrigue = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1505,7 +1505,7 @@ crown_aztec_fylkir = {
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
 	# martial = 2
-	intrigue = 2
+	# intrigue = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1523,8 +1523,8 @@ crown_aztec_fylkir = {
 scepter_bon_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	stewardship = 2
-	learning = 2
+	# stewardship = 2
+	# learning = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -1542,8 +1542,8 @@ scepter_bon_fylkir = {
 scepter_hellenic_fylkir = { 
 	monthly_character_prestige = 0.4
 	monthly_character_piety = 0.7
-	diplomacy = 2
-	learning = 2
+	# diplomacy = 2
+	# learning = 2
 	tribal_opinion = 10
 	quality = 4
 	active = { 
@@ -2865,7 +2865,7 @@ magnificent_painting = {
 }
 
 avant_garde_painting = {
-	diplomacy = -1
+	# diplomacy = -1
 	monthly_character_prestige = 0.5
 	quality = 1
 	flags = { art decor }
@@ -3128,7 +3128,7 @@ ingredient_metal_exotic9 = {
 ##################################
 
 emerald_tablet = {
-	learning = 2
+	# learning = 2
 	tech_growth_modifier = 0.05
 	quality = 4
 	active = {
@@ -3137,7 +3137,7 @@ emerald_tablet = {
 				society = hermetics
 				rank >= 3
 			}
-			learning = 20
+			# learning = 20
 		}
 	}
 	allowed_gift = {
@@ -3153,14 +3153,14 @@ emerald_tablet = {
 #########################################
 
 hermetic_handgun = {
-	learning = 1
+	# learning = 1
 	# combat_rating = 25
 	monthly_character_prestige = 1
 	command_modifier = { morale_offence = 0.2 }
 	quality = 3
 	active = { 
 		OR = {
-			learning = 20
+			# learning = 20
 			society_member_of = hermetics
 		}
 	}
@@ -3170,13 +3170,13 @@ hermetic_handgun = {
 }
 
 hermetic_compass = {
-	learning = 2
-	stewardship = 2 
+	# learning = 2
+	# stewardship = 2 
 	monthly_character_prestige = 0.5
 	quality = 3
 	active = { 
 		OR = {
-			learning = 20
+			# learning = 20
 			society_member_of = hermetics
 		}
 	}
@@ -3186,13 +3186,13 @@ hermetic_compass = {
 }
 
 radius_astronomicus = {
-	learning = 3
+	# learning = 3
 	tech_growth_modifier = 0.05
 	monthly_character_prestige = 0.5
 	quality = 3
 	active = { 
 		OR = {
-			learning = 20
+			# learning = 20
 			society_member_of = hermetics
 		}
 	}
@@ -3202,13 +3202,13 @@ radius_astronomicus = {
 }
 
 hermetic_cypher_machine = {
-	learning = 1
-	intrigue = 2
+	# learning = 1
+	# intrigue = 2
 	plot_power_modifier = 0.1
 	quality = 2
 	active = { 
 		OR = {
-			learning = 20
+			# learning = 20
 			society_member_of = hermetics
 		}
 	}
@@ -3218,14 +3218,14 @@ hermetic_cypher_machine = {
 }
 
 hermetic_plate_armor = {
-	learning = 1
+	# learning = 1
 	# combat_rating = 15
 	monthly_character_prestige = 0.25
 	command_modifier = { morale_offence = 0.05 }
 	quality = 2
 	active = { 
 		OR = {
-			learning = 12
+			# learning = 12
 			society_member_of = hermetics
 		}
 	}
@@ -3236,7 +3236,7 @@ hermetic_plate_armor = {
 }
 
 hermetic_glasses = {
-	learning = 2
+	# learning = 2
 	monthly_character_prestige = 0.25
 	quality = 1
 	active = { 
@@ -3255,7 +3255,7 @@ hermetic_glasses = {
 jade_dragon = {
 	monthly_character_prestige = 1
 	global_tax_modifier = 0.1
-	diplomacy = 2
+	# diplomacy = 2
 	quality = 5
 	flags = { chinese statue rare }
 	picture = "GFX_jade_dragon"
@@ -3264,7 +3264,7 @@ jade_dragon = {
 chinese_dragon_amulet = {
 	monthly_character_prestige = 0.75
 	vassal_opinion = 5
-	stewardship = 1
+	# stewardship = 1
 	build_cost_modifier = -0.1
 	quality = 4
 	flags = { chinese necklace jewelry }
@@ -3299,7 +3299,7 @@ chinese_sculpture = {
 chinese_ceremonial_robes = {
 	quality = 3
 	monthly_character_prestige = 0.5
-	diplomacy = 1
+	# diplomacy = 1
 	active = {
 		is_adult = yes
 	}
@@ -3311,7 +3311,7 @@ chinese_ceremonial_robes = {
 silk_shroud = {
 	quality = 3
 	monthly_character_prestige = 0.6
-	intrigue = 2
+	# intrigue = 2
 	active = {
 		is_adult = yes
 	}
@@ -3323,7 +3323,7 @@ silk_shroud = {
 water_clock = {
 	quality = 4
 	monthly_character_piety = 0.5
-	learning = 2
+	# learning = 2
 	flags = { chinese clock }
 	picture = "GFX_water_clock"
 	stacking = no
@@ -3418,7 +3418,7 @@ chinese_crossbow = {
 }
 chinese_bronze_sculpture = {
 	monthly_character_prestige = 0.1
-	stewardship = 1
+	# stewardship = 1
 	quality = 3
 	flags = { chinese art decor }
 	picture = "GFX_chinese_bronze_statue"
@@ -3742,7 +3742,7 @@ random_world_mythological_heart_1 = {
 	monthly_character_prestige = 1
 	# combat_rating = 1
 	quality = 3
-	learning = 1
+	# learning = 1
 	active = {
 		is_adult = yes
 	}
@@ -3753,7 +3753,7 @@ random_world_mythological_heart_1 = {
 random_world_mythological_blood = {
 	monthly_character_prestige = 1
 	quality = 3
-	learning = 4
+	# learning = 4
 	health = 0.5
 	active = {
 		is_adult = yes
@@ -4116,7 +4116,7 @@ crown_african_mask_8 = { #Low tier Mask - Fleeting
 #Totems
 scepter_african_1 = { #Mid tier Totem - Trickster
 	monthly_character_prestige = 0.15
-	intrigue = 3
+	# intrigue = 3
 	# combat_rating = 5
 	quality = 2
 	command_modifier = {
@@ -4152,7 +4152,7 @@ scepter_african_2 = { #Mid tier Totem - Howler
 }
 scepter_african_3 = { #Low tier Totem - Rainstick
 	monthly_character_prestige = 0.05
-	stewardship = 1
+	# stewardship = 1
 	# combat_rating = 5
 	quality = 1
 	days_of_supply = 20
@@ -4315,6 +4315,6 @@ sparkling_mane = {
 	flags = { }
 	stacking = no
 	picture = "GFX_crown_unicorn_helmet"
-	diplomacy = 1
-	intrigue = 1
+	# diplomacy = 1
+	# intrigue = 1
 }

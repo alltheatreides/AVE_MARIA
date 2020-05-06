@@ -716,7 +716,7 @@ other_claim = {
 		FROMFROM = {
 			make_tributary = {
 				who = ROOT
-				type = true_vassal
+				tributary_type = true_vassal
 			}
 		}
 		if = {

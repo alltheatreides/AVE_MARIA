@@ -17,7 +17,9 @@ namespace = AVE_MARIA_true_vassal_justice
 
 # Every year, the royal tribunal is organized and aristocrats can registrer grievances - Suzerain event
 character_event = {
-    id = AVE_MARIA_true_vassal_justice.1
+	id = AVE_MARIA_true_vassal_justice.1
+	title = AVE_MARIA_true_vassal_justice.title.1
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.1
     is_triggered_only = yes
 	
@@ -72,7 +74,9 @@ character_event = {
 
 # Every year, the royal tribunal is organized and aristocrats can registrer grievances - Vassal event
 character_event = {
-    id = AVE_MARIA_true_vassal_justice.2
+	id = AVE_MARIA_true_vassal_justice.2
+	title = AVE_MARIA_true_vassal_justice.title.1
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.2
     is_triggered_only = yes
  
@@ -158,6 +162,8 @@ character_event = {
 # Suzerain receives positive answer to plaid invitation
 letter_event = {
 	id = AVE_MARIA_true_vassal_justice.3
+	title = AVE_MARIA_true_vassal_justice.title.3
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.3
 
 	is_triggered_only = yes
@@ -170,6 +176,8 @@ letter_event = {
 # Suzerain receives negative answer to plaid invitation
 letter_event = {
 	id = AVE_MARIA_true_vassal_justice.4
+	title = AVE_MARIA_true_vassal_justice.title.4
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.4
 
 	is_triggered_only = yes
@@ -214,6 +222,8 @@ letter_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Liege event
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.5
+	title = AVE_MARIA_true_vassal_justice.title.5
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.5
     is_triggered_only = yes
 	
@@ -235,6 +245,8 @@ character_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal event
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.6
+	title = AVE_MARIA_true_vassal_justice.title.6
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.6
     is_triggered_only = yes
 	
@@ -562,6 +574,8 @@ character_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal successfuly defends himself - Liege notified
 letter_event = {
 	id = AVE_MARIA_true_vassal_justice.7
+	title = AVE_MARIA_true_vassal_justice.title.7
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.7
 
 	is_triggered_only = yes
@@ -574,6 +588,8 @@ letter_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal unsuccessfuly defends himself - Liege notified
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.8
+	title = AVE_MARIA_true_vassal_justice.title.8
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.8
 
 	is_triggered_only = yes
@@ -600,6 +616,8 @@ character_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal ultimatum 
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.9
+	title = AVE_MARIA_true_vassal_justice.title.9
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.9
 
 	is_triggered_only = yes
@@ -645,6 +663,8 @@ character_event = {
 # Judging of case - vassal commited grievance against liege and liege decides to revoke the fief (commise du fief) - Vassal successfuly argues for a fine 
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.10
+	title = AVE_MARIA_true_vassal_justice.title.10
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.10
 
 	is_triggered_only = yes
@@ -662,6 +682,8 @@ character_event = {
 # Royal plaid is over
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.11
+	title = AVE_MARIA_true_vassal_justice.title.11
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.11
     is_triggered_only = yes
 	
@@ -686,6 +708,8 @@ character_event = {
 # Vassal is notified that his feudal breach will be judged in the next plaid
 letter_event = {
 	id = AVE_MARIA_true_vassal_justice.12
+	title = AVE_MARIA_true_vassal_justice.title.12
+	picture = GFX_evt_diplomatic_greeting
 	desc = EVT_DESC_AVE_MARIA_true_vassal_justice.12
 
 	is_triggered_only = yes

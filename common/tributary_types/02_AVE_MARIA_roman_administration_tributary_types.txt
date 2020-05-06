@@ -1,0 +1,50 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA Tributary Types															   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# 											                          				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+#For tributary types with breaks_at_suzerain_death = yes add the type to JD.60015 for the notification event
+
+theme_military = {
+	tributary_name = THEME_MILITARY_NAME
+	tributary_plural = THEME_MILITARY_PLURAL
+	suzerain_name = SUZERAIN_THEME_MILITARY_NAME
+	tribute_name = TRIBUTARY_THEME_MILITARY_TRIBUTE
+	breaks_at_suzerain_death = no
+	suzerain_can_be_called = yes
+	suzerain_must_defend = yes
+	tributaries_can_infight = no
+	suzerain_can_join_infighting = yes
+	tributary_can_be_summoned = yes
+	tributary_must_defend = yes
+	tributaries_can_unite = no
+	breaks_on_realm_change = no
+	icon = 10
+	cbs_against_suzerain = {
+		# free_true_vassal_cb
+	}
+	income_tribute_percentage = {
+		value = 0
+	}
+	reinforce_tribute_percentage = {
+		value = 0
+	}
+	prestige_to_suzerain = {
+		value = 0
+	}
+	prestige_to_tributary = {
+		value = 0
+	}
+	piety_to_suzerain = {
+		value = 0
+	}
+	piety_to_tributary = {
+		value = 0
+	}
+}
