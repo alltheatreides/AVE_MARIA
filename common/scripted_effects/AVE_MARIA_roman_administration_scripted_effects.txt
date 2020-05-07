@@ -18,7 +18,7 @@ roman_administration_create_regular_cavalry_tagma = {
 				province = PREV
 				home = PREV
 				troops = {
-					knights = { 1000 1000 }
+					knights = { 350 350 }
 				}
 				attrition = 1
 				maintenance_multiplier = 2
@@ -27,7 +27,42 @@ roman_administration_create_regular_cavalry_tagma = {
 				earmark = excubitor_troops
                 can_toggle_looting = yes # Wether they can loot or not
                 cannot_inherit = no # Troops disappear if the owner die
-                disband_on_peace = yes # Troops disappear when the owner is no longer at war
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 350 350 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 350 350 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
 			}
 		}
 		

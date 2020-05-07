@@ -17,7 +17,7 @@ namespace = AVE_MARIA_hexaco_maintenance
 #############################################
 # Maintenance								#
 #############################################
-## At start give all characters HEXACO traits
+## At start give all characters HEXACO personality and education traits
 character_event = {		
 	id = AVE_MARIA_hexaco_maintenance.1	
 	hide_window = yes
@@ -1239,7 +1239,7 @@ character_event = {
 		any_character = {
 			remove_vanilla_education_trait = yes
 			remove_vanilla_childhood_trait = yes
-			# Add HEXACO traits
+			# Add HEXACO personality traits
 			random_list = {
 				# Honesty-Humility				
 				#faithful					
@@ -2499,14 +2499,14 @@ character_event = {
 					20 = { 		
 						add_trait = riding_4
 						modifier = {
-							factor = 4
+							factor = 10
 							culture_group = altaic
 						}
 					}		
 					20 = { 		
 						add_trait = riding_5
 						modifier = {
-							factor = 2
+							factor = 20
 							culture_group = altaic
 						}
 					}		
@@ -2898,16 +2898,16 @@ character_event = {
 					}
 				}
 				random_list = {		
-					20 = { 		
+					5 = { 		
 						add_trait = martial_arts_steppe_1	
 					}		
-					20 = { 		
+					10 = { 		
 						add_trait = martial_arts_steppe_2	
 					}		
-					20 = { 		
+					35 = { 		
 						add_trait = martial_arts_steppe_3	
 					}		
-					20 = { 		
+					30 = { 		
 						add_trait = martial_arts_steppe_4	
 					}		
 					20 = { 		

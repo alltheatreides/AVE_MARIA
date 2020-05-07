@@ -60,7 +60,7 @@ decisions = {
 					AND = {
 						# is_landed = yes
 						any_demesne_title = {
-							roman_adminisration_tagma_title_held_trigger = yes
+							roman_administration_tagma_title_held_trigger = yes
 						}
 					}
 				}
@@ -75,70 +75,70 @@ decisions = {
 	
 }
 
-targetted_decisions = {
+# targetted_decisions = {
 
 	#Decision to call manually a tagma instead of calling all of them
-	roman_administration_muster_the_army = {
-		only_independent = yes
-		filter = realm
-		ai_target_filter = realm
+	# roman_administration_muster_the_army = {
+		# only_independent = yes
+		# filter = realm
+		# ai_target_filter = realm
 		
-		potential = {
-			any_demesne_title = {
-				OR = {
-					roman_adminisration_theme_title_held_trigger = yes
-					roman_adminisration_tagma_title_held_trigger = yes
-				}
-			}
-		}
+		# potential = {
+			# any_demesne_title = {
+				# OR = {
+					# roman_adminisration_theme_title_held_trigger = yes
+					# roman_adminisration_tagma_title_held_trigger = yes
+				# }
+			# }
+		# }
 		
-		from_potential = {
-			is_playable = yes
-			is_landed = yes
-			mercenary = no
-			holy_order = no
-			primary_title = {
-				OR = {
-					title = e_byzantium
-					title = e_roman_empire
-				}
-				has_law = succ_byzantine_elective
-			}
-		}
+		# from_potential = {
+			# is_playable = yes
+			# is_landed = yes
+			# mercenary = no
+			# holy_order = no
+			# primary_title = {
+				# OR = {
+					# title = e_byzantium
+					# title = e_roman_empire
+				# }
+				# has_law = succ_byzantine_elective
+			# }
+		# }
 		
-		allow = {
-			FROM = {
-				war = yes
-			}
-			war = no
-		}
+		# allow = {
+			# FROM = {
+				# war = yes
+			# }
+			# war = no
+		# }
 		
-		effect = {
-			if = {
-				limit = {
-					FROM = { is_primary_war_attacker = yes }
-				}
-				ROOT = { join_attacker_wars = FROM }
-			}
-			if = {
-				limit = {
-					FROM = { is_primary_war_defender = yes }
-				}
-				ROOT = { join_defender_wars = FROM }
-			}
-		}
+		# effect = {
+			# if = {
+				# limit = {
+					# FROM = { is_primary_war_attacker = yes }
+				# }
+				# ROOT = { join_attacker_wars = FROM }
+			# }
+			# if = {
+				# limit = {
+					# FROM = { is_primary_war_defender = yes }
+				# }
+				# ROOT = { join_defender_wars = FROM }
+			# }
+		# }
 		
-		revoke_allowed = {
-			always = no #Not used in vanilla
-		}
+		# revoke_allowed = {
+			# always = no #Not used in vanilla
+		# }
 		
-		ai_will_do = {
-			factor = 0
-			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
-		}
-		ai_acceptance = {
-			factor = 100
-			yes_threshold = 100
-		}
-	}
-}
+		# ai_will_do = {
+			# factor = 0
+			## Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+		# }
+		# ai_acceptance = {
+			# factor = 100
+			# yes_threshold = 100
+		# }
+	# }
+# }
