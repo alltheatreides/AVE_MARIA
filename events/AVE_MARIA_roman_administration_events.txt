@@ -569,7 +569,7 @@ character_event = {
 	}
 }
 
-## Create the Imperial Society
+## Join the Imperial Society
 character_event = {	
 	id = AVE_MARIA_roman_administration.3
 	border = GFX_event_normal_frame_diplomacy		
@@ -590,20 +590,20 @@ character_event = {
 	}
 	
 	immediate = {
-		join_society = imperial_court_byzantine
+		join_society = roman_administration_imperial_court
 		set_society_grandmaster = yes
 		change_society_currency = 500
 		any_realm_character = {
 			limit = {
 				roman_administration_can_join_society = yes
 			}
-			join_society = imperial_court_byzantine
+			join_society = roman_administration_imperial_court
 		}
 		any_vassal = {
 			limit = {
 				roman_administration_can_join_society = yes
 			}
-			join_society = imperial_court_byzantine
+			join_society = roman_administration_imperial_court
 		}
 	}		
 	

@@ -8044,17 +8044,15 @@ roman_administration_elective_test = {
 roman_administration_elective_test_2 = {
 	elector_selection = {
 		days = -5 		
-		additive_modifier = { #Title holder is always an Elector.
-			value = 30
+		additive_modifier = { # Title holder is always an Elector.
+			value = 60
 			FROMFROM = { 
 				holder_scope = { character = ROOT }
 			}
 		}
-		additive_modifier = { #Holder Liege is always an Elector.
-			value = 30
-			FROMFROM = { 
-				holder_scope = { character = ROOT }
-			}
+		additive_modifier = { # Title holder Liege is always an Elector.
+			value = 60
+			de_jure_liege_or_above = FROMFROM
 		}
 		additive_modifier = { #Then the Councilors.
 			value = 10
@@ -8068,11 +8066,6 @@ roman_administration_elective_test_2 = {
 				has_minor_title = title_councilmember_king #Generic advisors
 				has_minor_title = title_councilmember_emperor
 			}
-		}
-		additive_modifier = { #And finally the generals.
-			value = 10
-			vassal_of = FROMFROM 
-			has_minor_title = title_commander
 		}
 	}
 	elector_vote_strength = { 
@@ -12763,14 +12756,12 @@ roman_administration_elective_test_2 = {
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #
 		NOT = { character = FROM } #Not the current ruler.
-		FROM = { 
+		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
 			NOR = { 
 				trait = crusader_king 
 				trait = crusader_queen
-			} 
-		} 
-		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
-			OR = { 
+			}
+			OR = {
 				any_liege = { 
 					character = ROOT
 				} 
@@ -12783,12 +12774,19 @@ roman_administration_elective_test_2 = {
 				} 
 			} 
 		}
-		FROM = {
-			is_in_society = roman_administration_imperial_court
+		FROM = { # Make sure you are adult
+			is_adult = yes			
 		}
 		FROM = { # Military characters cannot be krites while being military strategos/doux
-			any_demesne_title = {
-				NOT = { has_title_flag = created_military_theme_title }
+			primary_title = {
+				NOT = {
+					OR = {
+						has_title_flag = created_military_theme_title
+						has_title_flag = roman_administration_civilian_theme
+						has_title_flag = roman_administration_central_judicial_official_bureau
+						has_title_flag = roman_administration_tagma_title
+					}
+				}
 			}
 		}
 		FROM = {

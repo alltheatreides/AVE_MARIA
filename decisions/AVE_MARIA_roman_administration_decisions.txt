@@ -55,15 +55,13 @@ decisions = {
 			
 		}
 		effect = {
-			any_realm_lord = {
+			any_vassal = {
 				limit = {
-					AND = {
-						# is_landed = yes
-						any_demesne_title = {
-							roman_administration_tagma_title_held_trigger = yes
-						}
+					primary_title = {
+						roman_administration_tagma_title_held_trigger = yes
 					}
 				}
+				set_character_flag = wtf
 				join_attacker_wars = ROOT
 				join_defender_wars = ROOT
 			}
