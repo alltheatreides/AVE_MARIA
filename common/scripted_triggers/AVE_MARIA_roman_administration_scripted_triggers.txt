@@ -123,3 +123,22 @@ roman_adminisration_theme_title_held_trigger = {
 
 	}
 }
+
+
+roman_administration_can_join_society = {
+	hidden_tooltip = { is_in_society = no }
+	is_adult = yes
+	is_female = no
+	is_inaccessible_or_incapable_trigger = no
+	hidden_tooltip = {
+		top_liege = {
+			primary_title = {
+				has_title_flag = roman_administration_imperial_court_active
+			}
+		}
+	}
+	NOR = {
+		is_ascetic_trigger = yes
+		trait = excommunicated
+	}
+}

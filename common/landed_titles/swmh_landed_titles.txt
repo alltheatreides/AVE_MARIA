@@ -1083,24 +1083,24 @@ d_victual_brothers = { # Victual Brothers
 		}
 	}
 }
-d_varangian_guard = { # Varangian Guard
-	color = { 180 180 180 }
-	color2 = { 255 255 255 }
-	graphical_culture = orthodoxholygfx
-	capital = 290 # Tiundaland # Uppland
-	# Parent Religion
-	religion = orthodox
-	culture = norse
-	mercenary = yes
-	title = CAPTAIN
-	foa = CAPTAIN_FOA
-	# Always exists
-	landless = yes
-	# Cannot be held as a secondary title
-	primary = yes
-	strength_growth_per_century = 1.0
-	mercenary_type = varangian_guard_composition
-}
+# d_varangian_guard = { # Varangian Guard
+	# color = { 180 180 180 }
+	# color2 = { 255 255 255 }
+	# graphical_culture = orthodoxholygfx
+	# capital = 290 # Tiundaland # Uppland
+	##Parent Religion
+	# religion = orthodox
+	# culture = norse
+	# mercenary = yes
+	# title = CAPTAIN
+	# foa = CAPTAIN_FOA
+	##Always exists
+	# landless = yes
+	##Cannot be held as a secondary title
+	# primary = yes
+	# strength_growth_per_century = 1.0
+	# mercenary_type = varangian_guard_composition
+# }
 d_cuman_company = { # Cuman Company
 	color = { 160 160 80 }
 	color2 = { 255 255 255 }

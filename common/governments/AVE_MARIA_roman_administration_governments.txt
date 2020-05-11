@@ -26,7 +26,12 @@ feudal_governments = {
 		}
 		potential = {
 			tier = DUKE
-			primary_title = { has_title_flag = roman_administration_civilian_theme }
+			primary_title = { 
+				OR = {
+					has_title_flag = roman_administration_central_judicial_official_bureau
+					has_title_flag = roman_administration_civilian_theme 
+				}
+			}
 			liege = {
 				primary_title = { 
 					OR = { 
@@ -59,6 +64,9 @@ feudal_governments = {
 		unit_modifier = {
 			levy_size = -2
 			# garrison_size = 1
+		}
+		character_modifier = {
+			vassal_limit = 100
 		}
 		
 	}

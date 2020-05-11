@@ -1,0 +1,156 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration Society														   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+
+roman_administration_imperial_court = {
+	primary_attribute = diplomacy
+	is_secret = no
+	devil_worshipper = no
+	
+	opinion_to_other_members = 0
+	opinion_per_rank_above = +2
+	
+	society_rank_up_decision = request_to_rank_up_within_society
+	society_ranks_gfx = generic_ranks
+	sound = monastic_orders_interface
+	
+	non_interference = { always = no }
+	
+	active = { e_byzantium = { has_title_flag = roman_administration_imperial_court_active } }
+	indestructible = no
+
+	can_join_society = { roman_administration_can_join_society = yes }
+	
+	show_society = {
+		OR = {
+			primary_title = { title = e_byzantium }
+			top_liege = {
+				primary_title = { title = e_byzantium }
+			}
+			liege_before_war = {
+				primary_title = { title = e_byzantium }
+			}
+			top_liege = {
+				liege_before_war = { 
+					primary_title = { title = e_byzantium }
+				}
+			}
+			society_member_of = roman_administration_imperial_court
+		}
+	}
+	potential = {
+		OR = {
+			primary_title = { title = e_byzantium }
+			top_liege = {
+				primary_title = { title = e_byzantium }
+			}
+			liege_before_war = {
+				primary_title = { title = e_byzantium }
+			}
+			top_liege = {
+				liege_before_war = { 
+					primary_title = { title = e_byzantium }
+				}
+			}
+		}
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 100
+		startup_limit = 0
+		modifier = {
+			monthly_character_prestige = 0.1
+		}
+		decisions = {
+			
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 50
+		startup_limit = 0
+		modifier = {
+			monthly_character_prestige = 0.25
+			global_tax_modifier = 0.05
+		}
+		decisions = {
+			
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 10 
+		startup_limit = 0
+		modifier = {
+			monthly_character_prestige = 0.5
+			global_tax_modifier = 0.1
+			global_levy_size = 0.05
+		}
+		decisions = {
+			
+		}
+		custom_tooltip = imperial_office_power_tooltip
+	}
+
+	society_rank = {
+		level = 4
+		limit = 1
+		startup_limit = 0
+		modifier = { 
+			monthly_character_prestige = 1
+			vassal_opinion = 10
+		}
+		decisions = {
+			
+		}
+	}
+
+	monthly_currency_gain = {
+		name = currency_name_imperial_court_byzantine
+    	
+			
+		
+	}
+
+	member_score_per_attribute = 5
+	member_score_per_rank = 0
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			factor = 5
+			society_rank == 3
+		}
+		modifier = {
+			factor = 15
+			top_liege = { show_scope_change = no ROOT = { show_scope_change = no is_primary_heir = PREV } }
+		}
+		
+		modifier = {
+			factor = 2
+			tier = duke
+		}
+		modifier = {
+			factor = 3
+			tier = king
+		}
+	}
+	
+	startup_populate = {
+	    trigger = {
+			always = no
+		}
+	}
+}

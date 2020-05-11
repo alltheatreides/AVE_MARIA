@@ -9,7 +9,7 @@
 
 # Written by Atreides
 
-roman_administration_create_regular_cavalry_tagma = {
+roman_administration_create_elite_cavalry_tagma = {
 	# save_event_target_as = target_tagma_commander
 	capital_scope = {
 		event_target:target_tagma_commander = {
@@ -69,6 +69,279 @@ roman_administration_create_regular_cavalry_tagma = {
 	}
 }
 
+roman_administration_create_regular_cavalry_tagma = {
+	# save_event_target_as = target_tagma_commander
+	capital_scope = {
+		event_target:target_tagma_commander = {
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					knights = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_cavalry = { 250 250 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_cavalry = { 250 250 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_cavalry = { 250 250 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = excubitor_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+		}
+		
+	}
+}
+
+roman_administration_create_regular_infantry_taxiarchies_tagma = {
+	# save_event_target_as = target_tagma_commander
+	capital_scope = {
+		event_target:target_tagma_commander = {
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					heavy_infantry = { 150 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					heavy_infantry = { 150 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					heavy_infantry = { 150 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_infantry = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_infantry = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					light_infantry = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					archers = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					archers = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+			spawn_unit = {
+				owner = event_target:target_tagma_commander
+				province = PREV
+				home = PREV
+				troops = {
+					archers = { 100 100 }
+				}
+				attrition = 1
+				maintenance_multiplier = 2
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+				earmark = tagma_troops
+                can_toggle_looting = yes # Wether they can loot or not
+                cannot_inherit = no # Troops disappear if the owner die
+                disband_on_peace = no # Troops disappear when the owner is no longer at war
+				merge = yes
+			}
+		}
+		
+	}
+}
+
 roman_administration_create_varangian_tagma = {
 	save_event_target_as = target_tagma_commander
 	capital_scope = {
@@ -90,5 +363,65 @@ roman_administration_create_varangian_tagma = {
 			}
 		}
 		
+	}
+}
+
+roman_administration_create_bureaucrat = {
+	create_random_diplomat = {
+		random_traits = yes
+		dynasty = actually_culture
+		female = no
+		attributes = {
+			diplomacy = 8
+			learning = 4
+			stewardship = 12
+			intrigue = 4
+			martial = 4
+		}
+	}
+	new_character = {
+		remove_trait = weak
+		remove_trait = slow
+		remove_trait = imbecile
+		remove_trait = dull
+		remove_trait = dwarf
+		remove_trait = giant
+		remove_trait = hunchback
+		remove_trait = clubfooted
+		remove_trait = craven
+		remove_trait = paranoid
+		
+		remove_trait = mystic
+		remove_trait = socializer
+		remove_trait = gamer
+		remove_trait = hedonist
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = strategist
+		remove_trait = architect
+		remove_trait = gardener
+		remove_trait = schemer
+		remove_trait = impaler
+		remove_trait = seducer
+		remove_trait = seductress
+		remove_trait = theologian
+		remove_trait = scholar
+		
+		#AVE MARIA HEXACO
+		remove_vanilla_education_trait = yes
+		add_hexaco_trait = yes
+		add_hexaco_education_traits = yes
+		remove_trait = etiquette_1
+		remove_trait = etiquette_2
+		remove_trait = etiquette_3
+		remove_trait = etiquette_5
+		add_trait = etiquette_4
+		remove_trait = mathematics_1
+		remove_trait = mathematics_2
+		remove_trait = mathematics_3
+		remove_trait = mathematics_5
+		add_trait = mathematics_4
+		
+		save_event_target_as = invited_character
 	}
 }

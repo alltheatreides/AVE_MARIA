@@ -112,6 +112,13 @@ on_siege_lost_leader = {
 on_new_holder = {
 	events = {
 		# Prevent randomly created theocracy title holders not to have hexaco personality traits
-		AVE_MARIA_hexaco_maintenance.2
+		AVE_MARIA_hexaco_maintenance.3
+	}
+}
+
+on_new_holder_inheritance = {
+	events = {
+		# Prevent randomly created theocracy title holders not to have hexaco personality traits
+		AVE_MARIA_hexaco_maintenance.3
 	}
 }

@@ -15,3 +15,32 @@ spriteTypes = {
 	
 
 }
+
+#Society
+spriteTypes = {
+	##Backgrounds
+	spriteType = {
+		name = "GFX_society_main_background_roman_administration_imperial_court"
+		texturefile = "gfx\\interface\\societies\\society_bg_roman_administration_imperial_court.dds"
+	}
+	spriteType = {
+		name = "GFX_society_expansion_background_roman_administration_imperial_court"
+		texturefile = "gfx\\interface\\societies\\society_exp_bg_roman_administration_imperial_court.dds"
+	}
+	
+	## Mission
+	spriteType = { 
+		name = "GFX_event_window_society_quest_background_roman_administration_imperial_court"
+		textureFile = "gfx/interface/society_quest/mission_bg_roman_administration_imperial_court.dds"
+	}
+	
+	## Portrait rings
+	spriteType = { 
+		name = "GFX_society_portrait_ring_roman_administration_imperial_court"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_roman_administration_imperial_court.dds"
+	}
+	spriteType = { 
+		name = "GFX_society_portrait_ring_small_imperial_court_byzantine"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_roman_administration_imperial_court.dds"
+	}
+}

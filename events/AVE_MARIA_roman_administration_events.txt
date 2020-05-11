@@ -75,7 +75,7 @@ character_event = {
 			new_title = { # Set title flags and laws
 				set_title_flag = created_military_theme_title
 				add_law = {		
-					law = succ_byzantine_elective	
+					law = succ_roman_administration_elective_2	
 					cooldown = no 	
 					opinion_effect = no	
 				}		
@@ -113,11 +113,11 @@ character_event = {
 				}
 				new_title = {
 					set_title_flag = created_family_county_title
-					add_law = {		
-						law = succ_byzantine_elective	
-						cooldown = no 	
-						opinion_effect = no	
-					}		
+					# add_law = {		
+						# law = succ_roman_family_elective	
+						# cooldown = no 	
+						# opinion_effect = no	
+					# }		
 					add_law = {		
 						law = agnatic_succession	
 						cooldown = no 	
@@ -201,7 +201,7 @@ character_event = {
 			
 			set_title_flag = roman_administration_civilian_theme
 			add_law = {	
-				law = succ_byzantine_elective	
+				law = succ_roman_administration_elective_2	
 				cooldown = no 	
 				opinion_effect = no	
 			}		
@@ -210,6 +210,80 @@ character_event = {
 				cooldown = no 	
 				opinion_effect = no	
 			}			
+		}
+		
+		## Create the Judicial Central Bureau and put all the the vanilla themes under him for QOL
+		roman_administration_create_bureaucrat = yes
+		new_character = { save_event_target_as = target_central_judicial_official_holder }
+		e_byzantium = { # Create the επί των κρίσεων / Judical Central Bureau
+			create_title = {
+				tier = KING
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Epi Ton Kriseon"
+				holder = event_target:target_central_judicial_official_holder
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Sekreton"
+				ruler_female = "Sekreton"
+				foa = "My Sekreton"
+			}
+			new_title = {
+				add_law = {		
+					law = succ_roman_administration_elective_2	
+					cooldown = no 	
+					opinion_effect = no	
+				}	
+				set_title_flag = roman_administration_central_judicial_official_bureau
+				save_event_target_as = target_roman_administration_central_judicial_official_bureau
+				holder_scope = {
+					set_defacto_liege = ROOT
+				}
+			}
+			create_title = { # Family Titular title - Create Family titular county title	
+				tier = COUNT
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = event_target:target_central_judicial_official_holder
+				name = FAMILY_COUNT_TITLE_HIGH_OFFICE
+				holder = event_target:target_central_judicial_official_holder
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Eugeneios"
+				ruler_female = "Eugeneia"
+				foa = "My Eugeneios"
+			}
+			new_title = {
+				set_title_flag = created_family_county_title
+				# add_law = {		
+					# law = succ_roman_family_elective	
+					# cooldown = no 	
+					# opinion_effect = no	
+				# }		
+				add_law = {		
+					law = agnatic_succession	
+					cooldown = no 	
+					opinion_effect = no	
+				}
+			}
+		}
+		any_title = {
+			limit = {
+				has_title_flag = roman_administration_civilian_theme
+			}
+			holder_scope = {
+				set_defacto_liege = event_target:target_central_judicial_official_holder
+			}
+			# de_jure_liege = event_target:target_roman_administration_central_judicial_official_bureau
 		}
 	}	
 
@@ -234,9 +308,9 @@ character_event = {
 	}
 	
 	immediate = {
-		spawn_great_commander_effect = yes
+		spawn_great_commander_effect = yes # Create a tagma - spawn commander
 		new_character = { save_event_target_as = roman_administration_tagma_commander }
-		e_byzantium = {
+		e_byzantium = { # Create a Tagma - Elite Tagma Scholai
 			create_title = { #Scholai
 				tier = DUKE
 				landless = yes
@@ -259,14 +333,14 @@ character_event = {
 				holder_scope = {
 					set_defacto_liege = ROOT
 					save_event_target_as = target_tagma_commander
-					roman_administration_create_regular_cavalry_tagma = yes
+					roman_administration_create_elite_cavalry_tagma = yes
 				}
 			}
 		}
 		
-		spawn_great_commander_effect = yes
+		spawn_great_commander_effect = yes # Create a tagma - spawn commander
 		new_character = { save_event_target_as = roman_administration_tagma_commander }
-		e_byzantium = {
+		e_byzantium = { # Create a Tagma - Elite Tagma Excubitor
 			create_title = { #Excubitor
 				tier = DUKE
 				landless = yes
@@ -280,53 +354,53 @@ character_event = {
 				copy_title_laws = yes
 				mercenary = no
 				adventurer = no
-				ruler = "Domestikos"
-				ruler_female = "Domestikos"
-				foa = "My Domestikos"				
+				ruler = "Archontes"
+				ruler_female = "Archontes"
+				foa = "My Archontes"				
 			}
 			new_title = {
 				set_title_flag = roman_administration_tagma_title
 				holder_scope = {
 					set_defacto_liege = ROOT
 					save_event_target_as = target_tagma_commander
-					roman_administration_create_regular_cavalry_tagma = yes
+					roman_administration_create_elite_cavalry_tagma = yes
 				}
 			}
 		}
 		
-		spawn_great_commander_effect = yes
+		spawn_great_commander_effect = yes # Create a tagma - spawn commander
 		new_character = { save_event_target_as = roman_administration_tagma_commander }
-		e_byzantium = {
-			create_title = { #Vigla
+		e_byzantium = { # Create a Tagma - Elite Tagma Vigla/Arithmos
+			create_title = { #Vigla/Arithmos
 				tier = DUKE
 				landless = yes
 				temporary = no
 				rebel = no
 				culture = ROOT
-				name = "Vigla"
+				name = "Arithmos"
 				holder = event_target:roman_administration_tagma_commander
 				custom_created = yes
 				base_title = THIS
 				copy_title_laws = yes
 				mercenary = no
 				adventurer = no
-				ruler = "Domestikos"
-				ruler_female = "Domestikos"
-				foa = "My Domestikos"				
+				ruler = "Archontes"
+				ruler_female = "Archontes"
+				foa = "My Archontes"				
 			}
 			new_title = {
 				set_title_flag = roman_administration_tagma_title
 				holder_scope = {
 					set_defacto_liege = ROOT
 					save_event_target_as = target_tagma_commander
-					roman_administration_create_regular_cavalry_tagma = yes
+					roman_administration_create_elite_cavalry_tagma = yes
 				}
 			}
 		}
 		
-		spawn_great_commander_effect = yes
+		spawn_great_commander_effect = yes # Create a tagma - spawn commander
 		new_character = { save_event_target_as = roman_administration_tagma_commander }
-		e_byzantium = {
+		e_byzantium = { # Create a Tagma - Elite Tagma Hikanatoi
 			create_title = { #Hikanatoi
 				tier = DUKE
 				landless = yes
@@ -340,24 +414,155 @@ character_event = {
 				copy_title_laws = yes
 				mercenary = no
 				adventurer = no
-				ruler = "Domestikos"
-				ruler_female = "Domestikos"
-				foa = "My Domestikos"				
+				ruler = "Archontes"
+				ruler_female = "Archontes"
+				foa = "My Archontes"				
 			}
 			new_title = {
 				set_title_flag = roman_administration_tagma_title
 				holder_scope = {
 					set_defacto_liege = ROOT
 					save_event_target_as = target_tagma_commander
-					roman_administration_create_regular_cavalry_tagma = yes
+					roman_administration_create_elite_cavalry_tagma = yes
 				}
 			}
 		}
-	
+		
+		# Create a Tagma - Armeniakon 1000 men
+		spawn_great_commander_effect = yes # Create a tagma - spawn commander
+		new_character = { save_event_target_as = roman_administration_tagma_commander }
+		e_byzantium = { # Create a Tagma - Regular tagma - Armeniakon
+			create_title = { #Armeniakon
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Armeniakon"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Archontes"
+				ruler_female = "Archontes"
+				foa = "My Archontes"				
+			}
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_regular_infantry_taxiarchies_tagma = yes
+				}
+			}
+		}
+		
+		
+		# Create a Tagma - Anatolikon 3000 men ?
+		e_byzantium = { # Create a Tagma - Regular tagma - Armeniakon
+			create_title = { #Hikanatoi
+				tier = DUKE
+				landless = yes
+				temporary = no
+				rebel = no
+				culture = ROOT
+				name = "Anatolikon"
+				holder = event_target:roman_administration_tagma_commander
+				custom_created = yes
+				base_title = THIS
+				copy_title_laws = yes
+				mercenary = no
+				adventurer = no
+				ruler = "Archontes"
+				ruler_female = "Archontes"
+				foa = "My Archontes"				
+			}
+			new_title = {
+				set_title_flag = roman_administration_tagma_title
+				holder_scope = {
+					set_defacto_liege = ROOT
+					save_event_target_as = target_tagma_commander
+					roman_administration_create_elite_cavalry_tagma = yes
+				}
+			}
+		}
+		
+		# Create a Tagma - Regular tagma - 
+		# e_byzantium = { # Create a Tagma - Regular tagma - Armeniakon
+			# create_title = { #Hikanatoi
+				# tier = DUKE
+				# landless = yes
+				# temporary = no
+				# rebel = no
+				# culture = ROOT
+				# name = "Hikanatoi"
+				# holder = event_target:roman_administration_tagma_commander
+				# custom_created = yes
+				# base_title = THIS
+				# copy_title_laws = yes
+				# mercenary = no
+				# adventurer = no
+				# ruler = "Archontes"
+				# ruler_female = "Archontes"
+				# foa = "My Archontes"				
+			# }
+			# new_title = {
+				# set_title_flag = roman_administration_tagma_title
+				# holder_scope = {
+					# set_defacto_liege = ROOT
+					# save_event_target_as = target_tagma_commander
+					# roman_administration_create_elite_cavalry_tagma = yes
+				# }
+			# }
+		# }
+		
+		
+		
+		# Create a Tagma - Ethnarchoi tagma - 400 franks/normans
+		
+		if = { # Create a tagma - Varangian Guard
+			limit = {
+				has_global_flag = varangian_guard_founded
+			}
+			spawn_great_commander_effect = yes # Create a tagma - spawn commander
+			new_character = { save_event_target_as = roman_administration_tagma_commander }
+			e_byzantium = {
+				create_title = { # Varangian Guard
+					tier = DUKE
+					landless = yes
+					temporary = no
+					rebel = no
+					culture = ROOT
+					name = "Varangian Guard"
+					holder = event_target:roman_administration_tagma_commander
+					custom_created = yes
+					base_title = THIS
+					copy_title_laws = yes
+					mercenary = no
+					adventurer = no
+					ruler = "Archontes"
+					ruler_female = "Archontes"
+					foa = "My Archontes"				
+				}
+				new_title = {
+					set_title_flag = roman_administration_tagma_title
+					set_title_flag = varangian_guard
+					holder_scope = {
+						set_defacto_liege = ROOT
+						save_event_target_as = target_tagma_commander
+						roman_administration_create_varangian_tagma = yes
+					}
+				}
+			}
+		}
+		
 	}
 }
 
-character_event = {			
+## Create the Imperial Society
+character_event = {	
 	id = AVE_MARIA_roman_administration.3
 	border = GFX_event_normal_frame_diplomacy		
 	desc = AVE_MARIA_roman_administration.3	
@@ -365,8 +570,65 @@ character_event = {
 	
 	is_triggered_only = yes
 	
+	trigger = {
+		is_save_game = no
+		primary_title = {
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+	}
+	
 	immediate = {		
+		e_byzantium = { set_title_flag = roman_administration_imperial_court_active }
+		join_society = imperial_court_byzantine
+		set_society_grandmaster = yes
+		change_society_currency = 500
+		any_realm_character = {
+			limit = {
+				is_adult = yes
+				is_female = no
+			}
+			join_society = imperial_court_byzantine
+		}
+	}		
+	
+}		
+
+## Create the Imperial Society
+character_event = {	
+	id = AVE_MARIA_roman_administration.4
+	border = GFX_event_normal_frame_diplomacy		
+	desc = AVE_MARIA_roman_administration.4
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_save_game = no
+		primary_title = {
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+	}
 		
+	immediate = {		
+		join_society = imperial_court_byzantine
+		set_society_grandmaster = yes
+		change_society_currency = 500
+		any_realm_character = {
+			limit = {
+				is_adult = yes
+				is_female = no
+			}
+			join_society = imperial_court_byzantine
+		}
 	}		
 	
 }			
+	

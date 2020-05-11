@@ -13,43 +13,6 @@
 #############################################
 # Addition effects							#
 #############################################
-remove_vanilla_education_trait = {
-	remove_trait = naive_appeaser
-	remove_trait = underhanded_rogue
-	remove_trait = charismatic_negotiator
-	remove_trait = grey_eminence
-	remove_trait = misguided_warrior
-	remove_trait = tough_soldier
-	remove_trait = skilled_tactician
-	remove_trait = brilliant_strategist
-	remove_trait = indulgent_wastrel
-	remove_trait = thrifty_clerk
-	remove_trait = fortune_builder
-	remove_trait = midas_touched
-	remove_trait = amateurish_plotter
-	remove_trait = flamboyant_schemer
-	remove_trait = intricate_webweaver
-	remove_trait = elusive_shadow
-	remove_trait = detached_priest
-	remove_trait = martial_cleric
-	remove_trait = scholarly_theologian
-	remove_trait = mastermind_theologian
-}
-
-remove_vanilla_childhood_trait = {
-	remove_trait = affectionate
-	remove_trait = playful
-	remove_trait = haughty
-	remove_trait = rowdy
-	remove_trait = conscientious
-	remove_trait = fussy
-	remove_trait = brooding
-	remove_trait = indolent
-	remove_trait = willful
-	remove_trait = curious
-	remove_trait = idolizer
-	remove_trait = timid
-}
 
 add_hexaco_trait = {
 	# Honesty-Humility					
@@ -881,6 +844,44 @@ add_hexaco_education_traits = {
 # Remove effects							#
 #############################################
 
+remove_vanilla_education_trait = {
+	remove_trait = naive_appeaser
+	remove_trait = underhanded_rogue
+	remove_trait = charismatic_negotiator
+	remove_trait = grey_eminence
+	remove_trait = misguided_warrior
+	remove_trait = tough_soldier
+	remove_trait = skilled_tactician
+	remove_trait = brilliant_strategist
+	remove_trait = indulgent_wastrel
+	remove_trait = thrifty_clerk
+	remove_trait = fortune_builder
+	remove_trait = midas_touched
+	remove_trait = amateurish_plotter
+	remove_trait = flamboyant_schemer
+	remove_trait = intricate_webweaver
+	remove_trait = elusive_shadow
+	remove_trait = detached_priest
+	remove_trait = martial_cleric
+	remove_trait = scholarly_theologian
+	remove_trait = mastermind_theologian
+}
+
+remove_vanilla_childhood_trait = {
+	remove_trait = affectionate
+	remove_trait = playful
+	remove_trait = haughty
+	remove_trait = rowdy
+	remove_trait = conscientious
+	remove_trait = fussy
+	remove_trait = brooding
+	remove_trait = indolent
+	remove_trait = willful
+	remove_trait = curious
+	remove_trait = idolizer
+	remove_trait = timid
+}
+
 # Honesty-Humility		
 remove_hexaco_honesty_humility_traits = {			
 	remove_trait = faithful		
@@ -969,7 +970,6 @@ remove_hexaco_traits_all_personalities_traits = {
 	remove_hexaco_conscientiousness_traits = yes
 	remove_hexaco_openness_to_experience_traits = yes
 }
-
 
 # Remove Education Martial Arts
 remove_hexaco_trait_martial_arts_1 = {

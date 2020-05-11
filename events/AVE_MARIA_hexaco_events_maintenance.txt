@@ -3890,3 +3890,19 @@ character_event = {
 		add_hexaco_trait = yes
 	}
 }
+
+## When a title change hands make sure the randomly created characters have one of each HEXACO traits and education traits
+character_event = {
+	id = AVE_MARIA_hexaco_maintenance.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		# Clean up for newly created character
+		ROOT = {
+			remove_vanilla_education_trait = yes
+			add_hexaco_trait = yes
+			add_hexaco_education_traits = yes
+		}		
+	}
+}

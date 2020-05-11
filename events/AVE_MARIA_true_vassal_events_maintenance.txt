@@ -37,6 +37,7 @@ character_event = {
                 limit = {
                     NOR = {
 						AND = {
+							is_republic = yes
 							is_theocracy = yes
 							NOT = { tier = baron }
 						}
