@@ -75,7 +75,7 @@ character_event = {
 			new_title = { # Set title flags and laws
 				set_title_flag = created_military_theme_title
 				add_law = {		
-					law = succ_roman_administration_elective_2	
+					law = succ_my_test_law	
 					cooldown = no 	
 					opinion_effect = no	
 				}		
@@ -113,11 +113,11 @@ character_event = {
 				}
 				new_title = {
 					set_title_flag = created_family_county_title
-					# add_law = {		
-						# law = succ_roman_family_elective	
-						# cooldown = no 	
-						# opinion_effect = no	
-					# }		
+					add_law = {		
+						law = succ_primogeniture	
+						cooldown = no 	
+						opinion_effect = no	
+					}		
 					add_law = {		
 						law = agnatic_succession	
 						cooldown = no 	
@@ -201,7 +201,7 @@ character_event = {
 			
 			set_title_flag = roman_administration_civilian_theme
 			add_law = {	
-				law = succ_roman_administration_elective_2	
+				law = succ_my_test_law	
 				cooldown = no 	
 				opinion_effect = no	
 			}		
@@ -234,16 +234,17 @@ character_event = {
 				foa = "My Sekreton"
 			}
 			new_title = {
+				set_title_flag = roman_administration_central_judicial_official_bureau
 				add_law = {		
-					law = succ_roman_administration_elective_2	
+					law = succ_my_test_law	
 					cooldown = no 	
 					opinion_effect = no	
-				}	
-				set_title_flag = roman_administration_central_judicial_official_bureau
+				}				
 				save_event_target_as = target_roman_administration_central_judicial_official_bureau
 				holder_scope = {
 					set_defacto_liege = ROOT
 				}
+				de_jure_liege = e_byzantium
 			}
 			create_title = { # Family Titular title - Create Family titular county title	
 				tier = COUNT
@@ -276,15 +277,22 @@ character_event = {
 				}
 			}
 		}
-		any_title = {
-			limit = {
-				has_title_flag = roman_administration_civilian_theme
-			}
-			holder_scope = {
-				set_defacto_liege = event_target:target_central_judicial_official_holder
-			}
+		
+		# any_title = { # Put the newly created titles under the dejure roman empire
+			# limit = {
+				# has_title_flag = roman_administration_central_judicial_official_bureau
+			# }
+			# de_jure_liege = e_byzantium
+		# }		
+		# any_title = { # Put the newly created titles under the dejure roman empire
+			# limit = {
+				# has_title_flag = roman_administration_civilian_theme
+			# }
 			# de_jure_liege = event_target:target_roman_administration_central_judicial_official_bureau
-		}
+			# holder_scope = {
+				# set_defacto_liege = event_target:target_central_judicial_official_holder
+			# }
+		# }
 	}	
 
 }
@@ -581,15 +589,19 @@ character_event = {
 		}
 	}
 	
-	immediate = {		
-		e_byzantium = { set_title_flag = roman_administration_imperial_court_active }
+	immediate = {
 		join_society = imperial_court_byzantine
 		set_society_grandmaster = yes
 		change_society_currency = 500
 		any_realm_character = {
 			limit = {
-				is_adult = yes
-				is_female = no
+				roman_administration_can_join_society = yes
+			}
+			join_society = imperial_court_byzantine
+		}
+		any_vassal = {
+			limit = {
+				roman_administration_can_join_society = yes
 			}
 			join_society = imperial_court_byzantine
 		}
