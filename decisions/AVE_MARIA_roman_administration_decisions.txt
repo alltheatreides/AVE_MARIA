@@ -52,16 +52,24 @@ decisions = {
 			war = yes
 		}
 		allow = {
-			
+			any_vassal = {
+				limit = {
+					primary_title = {
+						has_title_flag = roman_administration_tagma_title
+					}
+				}
+				NOT = {
+					war = yes
+				}
+			}
 		}
 		effect = {
 			any_vassal = {
 				limit = {
 					primary_title = {
-						roman_administration_tagma_title_held_trigger = yes
+						has_title_flag = roman_administration_tagma_title
 					}
 				}
-				set_character_flag = wtf
 				join_attacker_wars = ROOT
 				join_defender_wars = ROOT
 			}

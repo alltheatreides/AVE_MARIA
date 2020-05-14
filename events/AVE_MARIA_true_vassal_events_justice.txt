@@ -20,7 +20,7 @@ character_event = {
 	id = AVE_MARIA_true_vassal_justice.1
 	title = AVE_MARIA_true_vassal_justice.title.1
 	picture = GFX_evt_diplomatic_greeting
-	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.1
+	desc = EVTDESC_AVE_MARIA_true_vassal_justice_events.1
     is_triggered_only = yes
 	
 	trigger = {
@@ -75,9 +75,9 @@ character_event = {
 # Every year, the royal tribunal is organized and aristocrats can registrer grievances - Vassal event
 character_event = {
 	id = AVE_MARIA_true_vassal_justice.2
-	title = AVE_MARIA_true_vassal_justice.title.1
+	title = AVE_MARIA_true_vassal_justice.title.2
 	picture = GFX_evt_diplomatic_greeting
-	desc = EVTDESC_AVE_MARIA_true_vassal_obligations_events.2
+	desc = EVTDESC_AVE_MARIA_true_vassal_justice_events.2
     is_triggered_only = yes
  
 	trigger = {

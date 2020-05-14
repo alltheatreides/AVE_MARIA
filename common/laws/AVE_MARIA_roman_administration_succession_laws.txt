@@ -1,36 +1,36 @@
 succession_laws = {
 	
-	succ_roman_family_elective = {
-		potential = {
-			has_title_flag = created_family_county_title
-			holder_scope = {
-				is_nomadic = no
-				is_merchant_republic = no
-				is_patrician = no
-			}
+	# succ_roman_family_elective = {
+		# potential = {
+			# has_title_flag = created_family_county_title
+			# holder_scope = {
+				# is_nomadic = no
+				# is_merchant_republic = no
+				# is_patrician = no
+			# }
 			
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = chinese_imperial_government } }
-		}
-		allow = {
-			custom_tooltip = {
-				text = not_forced_tt
-				hidden_tooltip = {
-					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
-				}
-			}
-		}
-		effect = {
-			succession = {
-				base_type = tanistry
-				voting_rules = family_elective
-			}
-			elective_voting_rules = family_elective
-		}
-		revoke_allowed = {
-			always = no
-		}
-	}
+			# NOT = { holder_scope = { government = confucian_bureaucracy } }
+			# NOT = { holder_scope = { government = chinese_imperial_government } }
+		# }
+		# allow = {
+			# custom_tooltip = {
+				# text = not_forced_tt
+				# hidden_tooltip = {
+					# holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				# }
+			# }
+		# }
+		# effect = {
+			# succession = {
+				# base_type = tanistry
+				# voting_rules = family_elective
+			# }
+			# elective_voting_rules = family_elective
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+	# }
 	
 	succ_roman_administration_elective = {
 		potential = {

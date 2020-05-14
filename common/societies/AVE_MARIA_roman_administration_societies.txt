@@ -9,7 +9,6 @@
 
 # Written by Atreides
 
-
 roman_administration_imperial_court = {
 	primary_attribute = diplomacy
 	is_secret = no
@@ -64,18 +63,17 @@ roman_administration_imperial_court = {
 		}
 	}
 	
-	society_rank = {
+	society_rank = { # Provincial noble or lower level administrator
 		level = 1
 		limit = 500 
 		startup_limit = 500
 		modifier = {
-			monthly_character_piety = 0.05
-			fertility = -0.15
+			monthly_character_prestige = 0.1
 		}
 		custom_tooltip = monastic_order_education_power_tt
 	}
 	
-	society_rank = {
+	society_rank = { # Provincial Official holding a title at the current moment
 		level = 2
 		limit = 50
 		startup_limit = 6
@@ -85,9 +83,7 @@ roman_administration_imperial_court = {
 			fertility = -0.15
 		}
 		decisions = {
-			monastic_orders_go_celibate #Power: toggle celibacy
-			monastic_orders_stop_celibate
-			monastic_orders_spiritual_guidance
+			
 		}
 	}
 	

@@ -1,0 +1,532 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+succ_roman_family_elective_desc;Roman Family Succession;;;;;;;;;;;;;x
+focus_ch_honesty_humility;Honesty-Humility;;;;;;;;;;;;;x
+focus_ch_emotionality;Emotionality;;;;;;;;;;;;;x
+focus_ch_extraversion;Extraversion;;;;;;;;;;;;;x
+focus_ch_agreeableness;Agreeableness;;;;;;;;;;;;;x
+focus_ch_conscientiousness;Conscientiousness;;;;;;;;;;;;;x
+focus_ch_openness_to_experience;Openness to experience;;;;;;;;;;;;;x
+focus_ed_etiquette;Etiquette;;;;;;;;;;;;;x
+focus_ed_martial_arts;Martial Arts;;;;;;;;;;;;;x
+focus_ed_knowledge;Knowledge;;;;;;;;;;;;;x
+focus_ed_theology;Theology;;;;;;;;;;;;;x
+administrative_capacity_roman;Centralized Bureaucracy;;;;;;;;;;;;;x
+administrative_capacity_very_high;Sophisticated Administration;;;;;;;;;;;;;x
+administrative_capacity_high;Highly Developed Administration;;;;;;;;;;;;;x
+administrative_capacity_average;Developed Administration;;;;;;;;;;;;;x
+administrative_capacity_below_average;Fledgling Administration;;;;;;;;;;;;;x
+administrative_capacity_low;Indirect Administration;;;;;;;;;;;;;x
+administrative_capacity_very_low;Indirect Administration;;;;;;;;;;;;;x
+administrative_capacity_roman_maintenance;Centralized Bureaucracy Cost;;;;;;;;;;;;;x
+administrative_capacity_very_high_maintenance;Sophisticated Administration Cost;;;;;;;;;;;;;x
+administrative_capacity_high_maintenance;Highly Developed Administration;;;;;;;;;;;;;x
+administrative_capacity_average_maintenance;Administration Cost;;;;;;;;;;;;;x
+administrative_capacity_below_average_maintenance;Fledgling Administration Cost;;;;;;;;;;;;;x
+administrative_capacity_low_maintenance;Indirect Administration Cost;;;;;;;;;;;;;x
+administrative_capacity_very_low_maintenance;Indirect Administration;;;;;;;;;;;;;x
+administrative_capacity_distance_one_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
+administrative_capacity_distance_two_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
+administrative_capacity_distance_three_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
+administrative_capacity_distance_four_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
+administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
+roman_administration_imperial_court;Roman Administration;;;;;;;;;;;;;x
+roman_administration_imperial_court_desc;The Roman Administration manages and rules the Empire of the Romans;;;;;;;;;;;;;x
+roman_administration_imperial_court_leader_desc;The Emperor is the leader of the administration of the Empire;;;;;;;;;;;;;x
+currency_name_roman_administration_imperial_court;Influence;;;;;;;;;;;;;x
+roman_administration_elective;Administrative Clientelism;;;;;;;;;;;;;x
+roman_administration_elective_test;Administrative Clientelism;;;;;;;;;;;;;x
+roman_administration_elective_test_2;Administrative Clientelism;;;;;;;;;;;;;x
+free_true_vassal_cb_desc;Free Vassal Casus Belli;;;;;;;;;;;;;x
+THEME_MILITARY_NAME;Strategos of;;;;;;;;;;;;;x
+THEME_MILITARY_PLURAL;Strategos of;;;;;;;;;;;;;x
+SUZERAIN_THEME_MILITARY_NAME;Civilian's Administration;;;;;;;;;;;;;x
+TRIBUTARY_THEME_MILITARY_TRIBUTE;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_ADMC_maintenance_events.4;Improving your Administrative Capacity;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_ADMC_maintenance_events.4;Yes, hire more royal servants.;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_ADMC_maintenance_events.4;On second thought no.;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.19;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.19;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.21;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.21;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.23;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.23;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.24;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.26;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.26;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.27;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.27;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.28;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.28;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.31;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.32;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.32;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.33;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.33;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.34;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.34;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.35;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.35;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.37;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.37;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.38;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.39;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.39;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.41;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.41;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.42;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.42;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.44;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.44;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.45;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.46;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.46;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.47;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.47;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.48;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.48;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.49;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.49;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.51;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.51;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.52;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.53;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.53;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.54;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.54;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.55;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.55;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.56;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.56;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_adolescence.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_adolescence.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_adolescence.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.19;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.19;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.19;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.2;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.21;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.21;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.21;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.22;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.23;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.23;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.23;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.24;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.24;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.24;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.26;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.26;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.26;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.27;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.27;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.27;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.28;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.28;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.28;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.29;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.31;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.31;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.31;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.32;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.32;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.32;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.33;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.33;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.33;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.34;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.34;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.34;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.35;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.35;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.35;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.36;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.37;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.37;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.37;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.38;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.38;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.38;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.39;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.39;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.39;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.41;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.41;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.41;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.42;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.42;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.42;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.43;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.44;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.44;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.44;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.45;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.45;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.45;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.46;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.46;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.46;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.47;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.47;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.47;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.48;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.48;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.48;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.49;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.49;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.49;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.51;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.51;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.51;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.52;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.52;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.52;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.53;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.53;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.53;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.54;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.54;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.54;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.55;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.55;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.55;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.56;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.56;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.56;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.57;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.58;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.58;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.58;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.59;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.59;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.59;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.61;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.61;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.61;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.62;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.62;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.62;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.63;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.63;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.63;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.64;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.64;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.64;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.65;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.65;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.65;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.66;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.66;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.66;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_hexaco_childhood.67;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.67;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_hexaco_childhood.67;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_A_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_B_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
+Strategos;Strategos;;;;;;;;;;;;;x
+succ_my_test_law;Administrative Clientelism;;;;;;;;;;;;;x
+succ_my_test_law_desc;Administrative Clientelism is a form a succession that favors members of a clientele or family members.;;;;;;;;;;;;;x
+Eugeneios;Eugeneios;;;;;;;;;;;;;x
+Eugeneia;Eugeneia;;;;;;;;;;;;;x
+Sekreton;Sekreton;;;;;;;;;;;;;x
+Domestikos;Domestikos;;;;;;;;;;;;;x
+Excubitores;Excubitores;;;;;;;;;;;;;x
+Archontes;Archontes;;;;;;;;;;;;;x
+Arithmos;Arithmos;;;;;;;;;;;;;x
+Hikanatoi;Hikanatoi;;;;;;;;;;;;;x
+Armeniakon;Armeniakon;;;;;;;;;;;;;x
+Anatolikon;Anatolikon;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_hommage.title.2;Pledge Homage to my Suzerain;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_hommage_events.2;After the death of my [Root.GetFatherMother] and as I am now of age, it is time for me to pledge homage to my lord as my ancestors did before me.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_hommage_events.2;I will travel to [Suzerain.capital_scope.GetName] to give my suzerain homage !;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_true_vassal_hommage_events.2;On second thought, let me reconsider this.;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_hommage.title.3;Swearing fealty;;;;;;;;;;;;;x
+EVTDESCA_AVE_MARIA_true_vassal_hommage_events.3;A messenger just arrived and informed me that [From.GetTitledName] is going to come in [Root.Capital_scope.GetName] to swear me homage.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_hommage_events.3;We must receive him as befitting his rank with a lavish ceremony and a banquet and a hunt...;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_true_vassal_hommage_events.3;We must prepare for the upcoming ceremony.;;;;;;;;;;;;;x
+EVTOPTC_AVE_MARIA_true_vassal_hommage_events.3;Accept his homage quickly and without spending too much.;;;;;;;;;;;;;x
+EVTOPTD_AVE_MARIA_true_vassal_hommage_events.3;He is not worthy of me and I do not want any entanglement with [From.GetTitledName] !;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_hommage.title.4;Refused fealty;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_hommage_events.4;I just received a messenger from [From.GetTitledName] that he refuses to accept my homage ! This is an outrage !;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_hommage_events.4;But why ?;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_hommage.title.5;Homage Ceremony;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.5;Today, in front of many witnesses I brought myself to my knees before [From.GetTitledName] in sign of humility and swore upon a holy relic my oath of fidelity while he held my hands. As [From.GetTitledName] accepted my pledge, I rose, we made the kiss of peace and I received a symbolic token of my fealty. \n I am now [From.GetTitledName]'s man.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_hommage_events.5;It was a nice ceremony and I was richly entertained.;;;;;;;;;;;;;x
+opinion_true_vassal_luxurious_homage_ceremony;Luxurious Homage Ceremony;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_true_vassal_hommage_events.5;It was a nice ceremony.;;;;;;;;;;;;;x
+opinion_true_vassal_normal_homage_ceremony;Gave Homage;;;;;;;;;;;;;x
+EVTOPTC_AVE_MARIA_true_vassal_hommage_events.5;What a stingy ceremony, it was unbefitting of my rank.;;;;;;;;;;;;;x
+opinion_true_vassal_sober_homage_ceremony;Sober Homage Ceremony;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_hommage.title.6;Homage Ceremony;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_hommage_events_christian.6;Today, in front of many witnesses [FromFrom.GetTitleName] brought himself to his knees before me in sign of humility and swore upon a holy relic his oath of fidelity while I held his hands. As I accepted his pledge, he rose, we made the kiss of peace and I gave him a symbolic token of his fealty.;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_hommage_events.6;He is now truly my vassal.;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.1;Royal Plaid;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_justice_events.1;As is customary I should organize the royal plaid.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.1;Yes, we should organize it.;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_justice.1;No need this year.;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_justice_events.2;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.2;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.3;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.4;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.4;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_justice.4;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.5;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.5;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.5;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.6;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_justice.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_justice.6;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.7;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.7;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.8;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_justice.8;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.9;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_justice.9;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.1;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.1;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.11;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.11;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_justice.title.12;REPLACE_ME;;;;;;;;;;;;;x
+EVT_DESC_AVE_MARIA_true_vassal_justice.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_justice.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_maintenance.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_maintenance.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_maintenance.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_maintenance.7;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+true_vassal_servitium_debitum_malus;Milites called to war;;;;;;;;;;;;;x
+EVTOPTC_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTD_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.3;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations_events.25;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.4;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.5;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.6;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.31;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTA_AVE_MARIA_true_vassal_obligations_events.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTB_AVE_MARIA_true_vassal_obligations_events.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTC_AVE_MARIA_true_vassal_obligations_events.25;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPTC_case1_true_vassals.2;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.7;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.7;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.8;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.8;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.9;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.9;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_son_knight_lavish_donation;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.9;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_son_knight_normal_donation;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.9;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_son_knight_sober_donation;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.9;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_son_knight_nothing_donation;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.1;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.11;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.11;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.12;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.12;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_daughter_marriage_lavish_donation;Donated lavishly for  my daughter's marriage;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.12;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_daughter_marriage_normal_donation;Donated for my daughter's marriage;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.12;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_daughter_marriage_sober_donation;Donated meagre sum for my daughter's marriage;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.12;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_daughter_marriage_nothing_donation;Donated nothing for my daughter's marriage;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.13;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.13;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.14;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.14;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.15;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.15;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_ransom_lavish_donation;Donated lavishly for the ransom;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.15;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_ransom_normal_donation;Donated for the ransom;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.15;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_ransom_sober_donation;Donated meagre sum for the ransom;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.15;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_ransom_nothing_donation;Donated nothing for the ransom;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.16;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.16;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.17;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.17;REPLACE_ME;;;;;;;;;;;;;x
+AVE_MARIA_true_vassal_obligations.title.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_true_vassal_obligations.18;REPLACE_ME;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_crusade_lavish_donation;Donated lavishly for the Crusade;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_crusade_normal_donation;Donated for the Crusade;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_crusade_sober_donation;Donated meagre sum for the Crusade;;;;;;;;;;;;;x
+EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
+opinion_true_vassal_obligations_suzerain_crusade_nothing_donation;Donated nothing for the Crusade;;;;;;;;;;;;;x

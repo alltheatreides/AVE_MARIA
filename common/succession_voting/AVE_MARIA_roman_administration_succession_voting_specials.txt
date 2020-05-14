@@ -8041,7 +8041,7 @@ roman_administration_elective_test = {
 }
 
 
-roman_administration_elective_test_2 = {
+roman_administration_elective_test_2 = { #Should be for civilian themes
 	elector_selection = {
 		days = -5 		
 		additive_modifier = { # Title holder is always an Elector.
@@ -8050,10 +8050,16 @@ roman_administration_elective_test_2 = {
 				holder_scope = { character = ROOT }
 			}
 		}
-		additive_modifier = { # Title holder Liege is always an Elector.
-			value = 60
-			de_jure_liege_or_above = FROMFROM
-		}
+		# additive_modifier = { # Title holder Liege is always an Elector.
+			# value = 60
+			# FROMFROM = { 
+				# holder_scope = {
+					# liege = {
+						# character = THIS
+					# }
+				# }
+			# }
+		# }
 		additive_modifier = { #Then the Councilors.
 			value = 10
 			vassal_of = FROMFROM 
@@ -12755,91 +12761,36 @@ roman_administration_elective_test_2 = {
 	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #
-		NOT = { character = FROM } #Not the current ruler.
-		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
-			NOR = { 
-				trait = crusader_king 
-				trait = crusader_queen
-			}
-			OR = {
-				any_liege = { 
-					character = ROOT
-				} 
-				is_ruler = no
-				ROOT_FROMFROM = { holder_scope = { independent = yes } }
-				NOR = { 
-					ROOT_FROMFROM = { has_law = out_of_realm_inheritance_law_1 } 
-					ROOT_FROMFROM = { has_law = crown_authority_3 } 
-					ROOT_FROMFROM = { has_law = crown_authority_4 } 
-				} 
-			} 
-		}
-		FROM = { # Make sure you are adult
-			is_adult = yes			
-		}
-		FROM = { # Military characters cannot be krites while being military strategos/doux
-			primary_title = {
-				NOT = {
-					OR = {
-						has_title_flag = created_military_theme_title
-						has_title_flag = roman_administration_civilian_theme
-						has_title_flag = roman_administration_central_judicial_official_bureau
-						has_title_flag = roman_administration_tagma_title
-					}
-				}
-			}
-		}
+		 # the current ruler.
 		FROM = {
-			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
+			OR = {
+				character = ROOT
 				AND = {
-					is_ruler = yes
-					is_landed = yes
+					NOT = {	primary_title = { title = e_byzantium }	}
+					NOT = { is_liege_of = FROMFROM }
+					society_member_of = roman_administration_imperial_court
+					is_adult = yes
 					is_republic = no
-					is_merchant_republic = no
-					is_theocracy = no
-				}
-				NOR = {
-					any_heir_title = {
-						is_republic = yes
-					}
-					any_heir_title = {
-						is_merchant_republic = yes
-					}
-					any_heir_title = {
-						is_theocracy = yes
-					}
+					is_priest = no
+					NOT = { tier = DUKE }
+					NOT = { tier = KING }
+					NOT = { tier = EMPEROR }
 				}
 			}
-			OR = { #If the title controls the religion, candidates must be of the same religion.
-				ROOT = { 
-					NOT = { 
-						controls_religion = yes
-					}
-				}
-				religion = ROOT
-			}
-			NOR = {
-				trait = cat
-				trait = disinherited
-				trait = horse
-				trait = eunuch
-				trait = disfigured
-				trait = blinded
-				trait = eunuch
-				trait = dwarf
-				trait = clubfooted
-				trait = harelip
-				trait = inbred
-				AND = { 
-					trait = bastard 
-					is_ruler = no
-				}
-				is_ascetic_trigger = yes
-				is_theocracy = yes
-				is_republic = yes
-				is_merchant_republic = yes
-			}
+			
+			# OR = {
+				# is_landed = no
+				# primary_title = {
+					# NOT = {
+						# OR = {
+							# has_title_flag = created_military_theme_title
+							# has_title_flag = roman_administration_civilian_theme
+							# has_title_flag = roman_administration_central_judicial_official_bureau
+							# has_title_flag = roman_administration_tagma_title
+						# }
+					# }
+				# }
+			# }
 		}
 	}
 }
-
