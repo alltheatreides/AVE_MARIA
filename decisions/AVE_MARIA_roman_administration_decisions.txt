@@ -81,9 +81,9 @@ decisions = {
 	
 }
 
-# targetted_decisions = {
+targetted_decisions = {
 
-	#Decision to call manually a tagma instead of calling all of them
+	## Decision to call manually a tagma instead of calling all of them
 	# roman_administration_muster_the_army = {
 		# only_independent = yes
 		# filter = realm
@@ -140,11 +140,99 @@ decisions = {
 		
 		# ai_will_do = {
 			# factor = 0
-			## Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+			##Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
 		# }
 		# ai_acceptance = {
 			# factor = 100
 			# yes_threshold = 100
 		# }
 	# }
-# }
+
+	introduce_young_adult_to_the_administration = {
+		only_playable = yes
+		is_in_society = yes
+		diplomacy_icon = GFX_GRANT_VICE_ROYALTY_INTERACTION_icon
+		
+		filter = close_relatives
+		ai_target_filter = close_relatives
+
+		from_potential = {
+			is_in_society = roman_administration_imperial_court
+			NOT = { tier = EMPEROR }
+		}
+		potential = { is_child_of = FROM }
+
+		allow = {
+			ROOT = {
+				roman_administration_can_join_society = yes
+			}
+		}
+
+		effect = {
+			ROOT = { join_society = roman_administration_imperial_court }
+			if = {
+				limit = {
+					FROM = { society_rank == 1 }
+				}
+				ROOT = {
+					society_rank_up = {
+						society = roman_administration_imperial_court
+						rank = 1
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { society_rank == 2 }
+				}
+				ROOT = {
+					society_rank_up = {
+						society = roman_administration_imperial_court
+						rank = 2
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { society_rank == 3 }
+				}
+				ROOT = {
+					society_rank_up = {
+						society = roman_administration_imperial_court
+						rank = 3
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = { society_rank == 4 }
+				}
+				ROOT = {
+					society_rank_up = {
+						society = roman_administration_imperial_court
+						rank = 4
+					}
+				}
+			}
+		}
+		
+		ai_check_interval = 24
+		ai_will_do = {
+			factor = 0.9
+			modifier = {
+				factor = 2
+				has_top_tier_education_trait_trigger = yes
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					trait = genius
+					trait = quick
+					trait = strong
+					trait = shrewd
+				}
+			}
+		}
+	}
+	
+}

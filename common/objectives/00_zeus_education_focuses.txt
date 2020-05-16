@@ -21,13 +21,13 @@
 	# allow = {
 	# }
 	
-	AI Pick chance
+	## AI Pick chance
 	# chance = {
 		# factor = 100
 
 	# }
 	
-	Focuses have no success conditions
+	## Focuses have no success conditions
 	# success = {
 		# always = no
 	# }
@@ -39,7 +39,7 @@
 	# abort_effect = {
 	# }
 	
-	MODIFIERS
+	##MODIFIERS
 	# diplomacy = 1
 	
 	# good_traits = {
@@ -66,7 +66,7 @@
 	# allow = {
 	# }
 	
-	AI Pick chance
+	##AI Pick chance
 	# chance = {
 		# factor = 100
 		# modifier = {
@@ -77,7 +77,7 @@
 		# }
 	# }
 	
-	Focuses have no success conditions
+	##Focuses have no success conditions
 	# success = {
 		# always = no
 	# }
@@ -89,7 +89,7 @@
 	# abort_effect = {
 	# }
 	
-	MODIFIERS
+	##MODIFIERS
 	# martial = 1
 	
 	# good_traits = {
@@ -116,13 +116,13 @@
 	# allow = {
 	# }
 	
-	AI Pick chance
+	##AI Pick chance
 	# chance = {
 		# factor = 100
 
 	# }
 	
-	Focuses have no success conditions
+	##Focuses have no success conditions
 	# success = {
 		# always = no
 	# }
@@ -134,7 +134,7 @@
 	# abort_effect = {
 	# }
 	
-	MODIFIERS
+	##MODIFIERS
 	# stewardship = 1
 	
 	# good_traits = {
@@ -161,13 +161,13 @@
 	# allow = {
 	# }
 	
-	AI Pick chance
+	##AI Pick chance
 	# chance = {
 		# factor = 100
 
 	# }
 	
-	Focuses have no success conditions
+	##Focuses have no success conditions
 	# success = {
 		# always = no
 	# }
@@ -179,7 +179,7 @@
 	# abort_effect = {
 	# }
 	
-	MODIFIERS
+	##MODIFIERS
 	# intrigue = 1
 	
 	# good_traits = {
@@ -206,13 +206,13 @@
 	# allow = {
 	# }
 	
-	AI Pick chance
+	##AI Pick chance
 	# chance = {
 		# factor = 100
 
 	# }
 	
-	Focuses have no success conditions
+	##Focuses have no success conditions
 	# success = {
 		# always = no
 	# }
@@ -224,7 +224,7 @@
 	# abort_effect = {
 	# }
 	
-	MODIFIERS
+	##MODIFIERS
 	# learning = 1
 	
 	# good_traits = {

@@ -84,6 +84,12 @@ character_event = {
 					cooldown = no 	
 					opinion_effect = no	
 				}
+				holder_scope = { # setting up term limit - variable creation
+					set_variable = {
+						which = roman_administration_term_duration_count
+						value = 0
+					}
+				}
 			}
 			if = { # if under age or has already a family titular title do not create it
 				limit = {
@@ -200,6 +206,12 @@ character_event = {
 			}
 			
 			set_title_flag = roman_administration_civilian_theme
+			holder_scope = { # setting up term limit - variable creation
+				set_variable = {
+					which = roman_administration_term_duration_count
+					value = 0
+				}
+			}
 			add_law = {	
 				law = succ_my_test_law	
 				cooldown = no 	
@@ -243,6 +255,12 @@ character_event = {
 				save_event_target_as = target_roman_administration_central_judicial_official_bureau
 				holder_scope = {
 					set_defacto_liege = ROOT
+				}
+				holder_scope = { # setting up term limit - variable creation
+					set_variable = {
+						which = roman_administration_term_duration_count
+						value = 0
+					}
 				}
 				de_jure_liege = e_byzantium
 			}
@@ -609,7 +627,7 @@ character_event = {
 	
 }		
 
-## Create the Imperial Society
+## Terms of office timer set up
 character_event = {	
 	id = AVE_MARIA_roman_administration.4
 	border = GFX_event_normal_frame_diplomacy		
@@ -619,28 +637,70 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		is_save_game = no
 		primary_title = {
-			OR = { 
-				title = e_byzantium
-				title = e_roman_empire
+			roman_administration_administrative_title_trigger = yes
+		}
+	}
+		
+	immediate = {
+		if = {
+			check_variable = {
+				which = roman_administration_term_duration_count
+				value <= 0
 			}
-			has_law = succ_byzantine_elective
+		}
+		set_variable = {
+			which = roman_administration_term_duration_count
+			value = 0
+		}
+	}		
+	
+}
+
+## Terms of office timer count for each year
+character_event = {	
+	id = AVE_MARIA_roman_administration.5
+	border = GFX_event_normal_frame_diplomacy		
+	desc = AVE_MARIA_roman_administration.5
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		check_variable = {
+			which = roman_administration_term_duration_count
+			value >= 0
 		}
 	}
 		
 	immediate = {		
-		join_society = imperial_court_byzantine
-		set_society_grandmaster = yes
-		change_society_currency = 500
-		any_realm_character = {
-			limit = {
-				is_adult = yes
-				is_female = no
-			}
-			join_society = imperial_court_byzantine
+		change_variable = {
+			which = roman_administration_term_duration_count
+			value = 1
 		}
 	}		
 	
-}			
+}
+
+## Terms of office terminado
+character_event = {
+	id = AVE_MARIA_roman_administration.6
+	border = GFX_event_normal_frame_diplomacy		
+	desc = AVE_MARIA_roman_administration.6
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		check_variable = {
+			which = roman_administration_term_duration_count
+			value = 6
+		}
+	}
+		
+	immediate = {		
+		abdicate = yes
+	}		
+	
+}		
 	

@@ -40,7 +40,14 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\societies\\portrait_ring_roman_administration_imperial_court.dds"
 	}
 	spriteType = { 
-		name = "GFX_society_portrait_ring_small_imperial_court_byzantine"
+		name = "GFX_society_portrait_ring_small_roman_administration_imperial_court"
 		texturefile = "gfx\\interface\\societies\\portrait_ring_small_roman_administration_imperial_court.dds"
+	}
+	
+	## Icon
+	spriteType = {
+		name = "GFX_icon_small_roman_administration_imperial_court"
+		texturefile = "gfx\\interface\\societies\\symbol_small_roman_administration_imperial_court.dds"
+		noOfFrames = 2
 	}
 }

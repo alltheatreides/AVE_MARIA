@@ -119,6 +119,14 @@ roman_adminisration_theme_title_held_trigger = {
 	}
 }
 
+#Title trigger
+roman_administration_administrative_title_trigger = {
+	OR = {
+		has_title_flag = created_military_theme_title
+		has_title_flag = roman_administration_civilian_theme
+		has_title_flag = roman_administration_central_judicial_official_bureau
+	}
+}
 
 roman_administration_can_join_society = {
 	hidden_tooltip = { is_in_society = no }

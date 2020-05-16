@@ -5346,6 +5346,20 @@ has_bottom_tier_education_trait_trigger = {
 		trait = indulgent_wastrel
 		trait = amateurish_plotter
 		trait = detached_priest
+		# AVE MARIA
+		trait = etiquette_2
+		trait = read_write_2
+		trait = mathematics_2
+		trait = philosophy_2
+		trait = law_2
+		trait = theology_2
+		# AVE MARIA
+		trait = etiquette_1
+		trait = read_write_1
+		trait = mathematics_1
+		trait = philosophy_1
+		trait = law_1
+		trait = theology_1
 	}
 }
 
@@ -5356,6 +5370,13 @@ has_2nd_tier_education_trait_trigger = {
 		trait = thrifty_clerk
 		trait = flamboyant_schemer
 		trait = martial_cleric
+		# AVE MARIA
+		trait = etiquette_3
+		trait = read_write_3
+		trait = mathematics_3
+		trait = philosophy_3
+		trait = law_3
+		trait = theology_3
 	}
 }
 
@@ -5369,6 +5390,13 @@ has_3rd_tier_education_trait_trigger = {
 				trait = fortune_builder
 				trait = intricate_webweaver
 				trait = scholarly_theologian
+				# AVE MARIA
+				trait = etiquette_4
+				trait = read_write_4
+				trait = mathematics_4
+				trait = philosophy_4
+				trait = law_4
+				trait = theology_4
 			}
 		}
 	}
@@ -5384,6 +5412,13 @@ has_top_tier_education_trait_trigger = {
 				trait = midas_touched
 				trait = brilliant_strategist
 				trait = mastermind_theologian
+				# AVE MARIA
+				trait = etiquette_5
+				trait = read_write_5
+				trait = mathematics_5
+				trait = philosophy_5
+				trait = law_5
+				trait = theology_5
 			}
 		}
 	}

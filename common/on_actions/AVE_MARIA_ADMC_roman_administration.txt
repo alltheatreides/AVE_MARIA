@@ -16,3 +16,17 @@ on_startup = {
 		AVE_MARIA_roman_administration.3
 	}
 }
+
+on_new_holder = {
+	events = {
+		AVE_MARIA_roman_administration.4
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		AVE_MARIA_roman_administration.5
+		AVE_MARIA_roman_administration.6
+	}
+}
+

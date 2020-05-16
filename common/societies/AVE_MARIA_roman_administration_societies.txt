@@ -70,7 +70,10 @@ roman_administration_imperial_court = {
 		modifier = {
 			monthly_character_prestige = 0.1
 		}
-		custom_tooltip = monastic_order_education_power_tt
+		decisions = {
+			# Decision to move up to the capital
+		}
+		# custom_tooltip = monastic_order_education_power_tt
 	}
 	
 	society_rank = { # Provincial Official holding a title at the current moment
@@ -78,134 +81,57 @@ roman_administration_imperial_court = {
 		limit = 50
 		startup_limit = 6
 		modifier = { 
-			monthly_character_piety = 0.1
-			stewardship = 1
-			fertility = -0.15
+			monthly_character_prestige = 0.25
 		}
 		decisions = {
 			
 		}
 	}
 	
-	society_rank = {
+	society_rank = { # Capital City Noble or Official
 		level = 3
 		limit = 25 
 		startup_limit = 3
 		modifier = {
-			monthly_character_piety = 0.2
-			stewardship = 2
-			build_cost_temple_modifier = -0.25
-			fertility = -0.15
+			monthly_character_prestige = 0.5
 		}
 		decisions = {
-			monastic_orders_invite_ascetic
-			monastic_orders_teach_virtue
+			
 		}
 	}
 
-	society_rank = {
+	society_rank = { # High Official
 		level = 4
 		limit = 5
-		startup_limit = 1
+		startup_limit = 15
 		modifier = { 
 			monthly_character_piety = 0.5
-			stewardship = 3
-			build_cost_temple_modifier = -0.5 
-			fertility = -0.15
 		}
 		decisions = {
-			monastic_order_convert_county
+			
 		}
-		custom_tooltip = benedictine_power_diligent_tt
+	}
+	
+	society_rank = { # High Official
+		level = 5
+		limit = 1
+		startup_limit = 1
+		modifier = { 
+			monthly_character_prestige = 1
+		}
+		decisions = {
+			
+		}
 	}
 
 	monthly_currency_gain = {
-		name = currency_name_monastic_order_benedictine
+		name = currency_name_roman_administration_imperial_court
     	
     	per_attribute = {
-    		name = stewardship
-    		value = 0.5
+    		name = diplomacy
+    		value = 0
     	}
-    	has_trait = {
-			trait = monk
-			value = 5
-		}
-		has_trait = {
-			trait = nun
-			value = 5
-		}
-		has_trait = {
-			trait = diligent
-			value = 3
-		}
-		has_trait = {
-			trait = celibate
-			value = 3
-		}
-    	has_trait = {
-			trait = chaste
-			value = 3
-		}
-		has_trait = {
-			trait = temperate
-			value = 3
-		}
-		has_trait = {
-			trait = charitable
-			value = 1
-		}
-		has_trait = {
-			trait = kind
-			value = 1
-		}
-		has_trait = {
-			trait = patient
-			value = 1
-		}
-		has_trait = {
-			trait = humble
-			value = 1
-		}
-		has_trait = {
-			trait = zealous
-			value = 1
-		}
-		has_trait = {
-			trait = honest
-			value = 1
-		}
-		has_trait = {
-			trait = erudite
-			value = 1
-		}
-		has_trait = {
-			trait = pilgrim
-			value = 1
-		}
-		has_trait = {
-			trait = theologian
-			value = 1
-		}
-		has_trait = {
-			trait = gardener
-			value = 1
-		}
-		society_rank = {
-			rank = 4
-			value = 10
-		}
-		triggered_gain = {
-			desc = "saintly_monastic_gain"
-			trigger = {
-				any_owned_bloodline = {
-					has_bloodline_flag = monastic_saintly_bloodline
-					founder = {
-						religion_group = ROOT
-					}
-				}
-			}
-			value = 3
-		}
+    	
 	}
 
 	member_score_per_attribute = 3
@@ -213,75 +139,6 @@ roman_administration_imperial_court = {
 
 	member_score = {
 		value = 10
-
-		modifier = {
-			is_priest = yes
-			factor = 10
-		}
-		modifier = {
-			trait = monk
-			factor = 5
-		}
-		modifier = {
-			trait = nun
-			factor = 5
-		}
-		modifier = {
-			trait = diligent
-			factor = 1.3
-		}
-		modifier = {
-			trait = celibate
-			factor = 1.3
-		}
-    	modifier = {
-			trait = chaste
-			factor = 1.3
-		}
-		modifier = {
-			trait = temperate
-			factor = 1.3
-		}
-		modifier = {
-			trait = charitable
-			factor = 1.1
-		}
-		modifier = {
-			trait = kind
-			factor = 1.1
-		}
-		modifier = {
-			trait = patient
-			factor = 1.1
-		}
-		modifier = {
-			trait = humble
-			factor = 1.1
-		}
-		modifier = {
-			trait = zealous
-			factor = 1.1
-		}
-		modifier = {
-			trait = honest
-			factor = 1.1
-		}
-		modifier = {
-			trait = erudite
-			factor = 1.1
-		}
-		modifier = {
-			trait = pilgrim
-			factor = 1.1
-		}
-		modifier = {
-			trait = theologian
-			factor = 1.1
-		}
-		modifier = {
-			trait = gardener
-			factor = 1.1
-		}
 	}
 	
 	
