@@ -397,3 +397,15 @@ So one way this might work is through the implementation of an expanded economy 
 - Pour simuler le combat naval ? Un système d'event et de variable centré sur les régions maritimes, les bateaux ont des events "is_at_sea" et si une puissance a la domination navale crack, coulé (damage_unit)
 
 18/05/20
+- Banged my head on the titular titles sheaningans regarding succession laws
+
+19/05/20
+- So it seems both special succession laws cannot work at the same time with another regular title, they just ignore the succesion laws after a few days
+- Retirer le demand gavelking et grant independance aux romains
+
+20/05/20
+- I guess I need to root the family titles into the de jure hierarchy and the like ?
+
+21/05/20
+- Bon la solution semble etre la suivante: il faut que le titre de la famille soit le titre principal et tenu tout le temps ainsi. Les titres secondaires doivent être du même rang que le principal sinon ils sautent avec le deuxième titre/le de jure (ex: si j'ai angleterre et france et la france est en elective, tous les titres que je possède en dessous de la france vont passer à un autre candidat
+- Les titres de famille ne devraient en ce cas pas être au niveau royal sinon les titres ducaux inférieurs (genre theme civils sautent) et leur elective law ne fonctionne pas
