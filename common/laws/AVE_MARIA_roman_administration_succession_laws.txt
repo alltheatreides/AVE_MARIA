@@ -32,6 +32,80 @@ succession_laws = {
 		# }
 	# }
 	
+	succ_roman_administration_elective = {
+		potential = {
+			OR = {
+				has_title_flag = roman_administration_central_judicial_official_bureau
+				has_title_flag = roman_administration_civilian_theme
+			}
+			holder_scope = {
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = administrative_elective
+			}
+			elective_voting_rules = administrative_elective
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
+	succ_roman_administration_elective_2 = {
+		potential = {
+			NAND = { 
+				has_law = succ_byzantine_elective 
+				OR = { 
+					title = e_byzantium
+					title = e_roman_empire
+				}
+			}
+			OR = {
+				has_title_flag = roman_administration_central_judicial_official_bureau
+				has_title_flag = roman_administration_civilian_theme
+			}
+			is_primary_type_title = no
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+			NOR = {  #Special Elective.
+				title = e_hre 
+				has_title_flag = alternate_hre
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = open_elective
+				voting_rules = roman_administration_elective_test
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+	
 	succ_my_test_law = {
 		child_opinion = 15
 		dynasty_opinion = 5

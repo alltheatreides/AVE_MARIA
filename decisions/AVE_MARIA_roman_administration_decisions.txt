@@ -151,16 +151,16 @@ targetted_decisions = {
 	introduce_young_adult_to_the_administration = {
 		only_playable = yes
 		is_in_society = yes
-		# diplomacy_icon = GFX_GRANT_VICE_ROYALTY_INTERACTION_icon
+		diplomacy_icon = GFX_GRANT_VICE_ROYALTY_INTERACTION_icon
 		
 		filter = close_relatives
 		ai_target_filter = close_relatives
 
 		from_potential = {
-			society_member_of = roman_administration_imperial_court
+			is_in_society = roman_administration_imperial_court
 			NOT = { tier = EMPEROR }
 		}
-		potential = { is_close_relative = FROM }
+		potential = { is_child_of = FROM }
 
 		allow = {
 			ROOT = {
