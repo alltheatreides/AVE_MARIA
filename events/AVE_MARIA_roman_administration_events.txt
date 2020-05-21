@@ -32,7 +32,557 @@ character_event = {
 	}
 	
 	immediate = {
-	
+		
+		## 1066 start date - create specific titles and add specific titles to specific people
+		# c_roman_family_1 = { gain_title = ROOT } # First roman family entry to the emperor
+		# c_roman_family_2 = { gain_title = 1746 } # Second Roman Family Entry to Doukas
+		
+		## Family titular title doling out set up to vanilla characters
+		d_abydos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_3				
+				}					
+			}						
+		}							
+		d_thrace = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_4				
+				}					
+			}						
+		}							
+		d_strymon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_5				
+				}					
+			}						
+		}							
+		d_thessalonika = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_6				
+				}					
+			}						
+		}							
+		d_neopatras = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_7				
+				}					
+			}						
+		}							
+		d_dyrrachion = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_8				
+				}					
+			}						
+		}							
+		d_epirus = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_9				
+				}					
+			}						
+		}							
+		d_cephalonia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_10				
+				}					
+			}						
+		}							
+		d_athens = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_11				
+				}					
+			}						
+		}							
+		d_achaia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_12				
+				}					
+			}						
+		}							
+		d_krete = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_13				
+				}					
+			}						
+		}							
+		d_paphlagonia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_14				
+				}					
+			}						
+		}							
+		d_boukellarion = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_15				
+				}					
+			}						
+		}							
+		d_samos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_16				
+				}					
+			}						
+		}							
+		d_thracesia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_17				
+				}					
+			}						
+		}							
+		d_opsikon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_18				
+				}					
+			}						
+		}							
+		d_optimatoi = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_19				
+				}					
+			}						
+		}							
+		d_cibyrrhaeot = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_20				
+				}					
+			}						
+		}							
+		d_charsianon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_21				
+				}					
+			}						
+		}							
+		d_cappadocia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_22				
+				}					
+			}						
+		}							
+		d_coloneia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_23				
+				}					
+			}						
+		}							
+		d_sebasteia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_24				
+				}					
+			}						
+		}							
+		d_lykandos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_25				
+				}					
+			}						
+		}							
+		d_anatolia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_26				
+				}					
+			}						
+		}							
+		d_melitene = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_27				
+				}					
+			}						
+		}							
+		d_cyprus = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_28				
+				}					
+			}						
+		}							
+		d_trebizond = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_29				
+				}					
+			}						
+		}							
+		d_cherson = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_30				
+				}					
+			}						
+		}							
+		d_armeniacon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_31				
+				}					
+			}						
+		}							
+		d_armenia_minor = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_32				
+				}					
+			}						
+		}							
+		d_seleukeia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_33				
+				}					
+			}						
+		}							
+		d_turnovo = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_34				
+				}					
+			}						
+		}							
+		d_karvuna = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_35				
+				}					
+			}						
+		}							
+		d_adrianopolis = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_36				
+				}					
+			}						
+		}							
+		d_vidin = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_37				
+				}					
+			}						
+		}							
+		d_ohrid = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_38				
+				}					
+			}						
+		}							
+		d_rashka = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_39				
+				}					
+			}						
+		}							
+		d_macva = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_40				
+				}					
+			}						
+		}							
+		d_hum = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_41				
+				}					
+			}						
+		}							
+		d_dioclea = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_42				
+				}					
+			}						
+		}							
+		d_ragusa = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = c_roman_family_43				
+				}					
+			}						
+		}							
+		
+		## Flags for the titular family titles
+		c_roman_family_1 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_2 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_3 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_4 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_5 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_6 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_7 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_8 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_9 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_10 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_11 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_12 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_13 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_14 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_15 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_16 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_17 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_18 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_19 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_20 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_21 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_22 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_23 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_24 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_25 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_26 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_27 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_28 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_29 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_30 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_31 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_32 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_33 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_34 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_35 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_36 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_37 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_38 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_39 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_40 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_41 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_42 = {		
+			set_title_flag = created_family_county_title	
+		}		
+		c_roman_family_43 = {		
+			set_title_flag = created_family_county_title	
+		}		
+
+
+		
+		
 		any_title = { # Remove vanilla ducal title holders and give them to civilian_theme_new_holder and create military theme titles for previous aristocrat
 			limit = {
 				tier = DUKE
@@ -293,36 +843,6 @@ character_event = {
 				}
 				de_jure_liege = e_byzantium
 			}
-			# create_title = { # Family Titular title - Create Family titular county title	
-				# tier = COUNT
-				# landless = yes
-				# temporary = no
-				# rebel = no
-				# culture = event_target:target_central_judicial_official_holder
-				# name = FAMILY_COUNT_TITLE_HIGH_OFFICE
-				# holder = event_target:target_central_judicial_official_holder
-				# custom_created = yes
-				# base_title = THIS
-				# copy_title_laws = yes
-				# mercenary = no
-				# adventurer = no
-				# ruler = "Eugeneios"
-				# ruler_female = "Eugeneia"
-				# foa = "My Eugeneios"
-			# }
-			# new_title = {
-				# set_title_flag = created_family_county_title
-				# add_law = {		
-					# law = succ_roman_family_elective	
-					# cooldown = no 	
-					# opinion_effect = no	
-				# }		
-				# add_law = {		
-					# law = agnatic_succession	
-					# cooldown = no 	
-					# opinion_effect = no	
-				# }
-			# }
 		}
 		
 		# any_title = { # Put the newly created titles under the dejure roman empire
@@ -341,2267 +861,7 @@ character_event = {
 			# }
 		# }
 		
-		## 1066 start date - create specific titles and add specific titles to specific people
-		grant_title_no_opinion = c_roman_family_1 # First roman family entry to the emperor
-		1746 = { grant_title_no_opinion = c_roman_family_2 } # Second Roman Family Entry to Doukas
-		
-		## Family titular title doling out set up	
-		any_realm_character = { #scope to all strategos with only the ducal theme title and dole out a roman family title
-			limit = {
-				primary_title = {
-					OR = {
-						has_title_flag = created_military_theme_title
-						# has_title_flag = roman_administration_central_judicial_official_bureau
-					}
-					
-				}
-			}	
-			#	2	c_roman_family_2	
-			# if = {			
-				# limit = {		
-					# AND = {	
-						# c_roman_family_1 = { has_holder = yes }
-					# }	
-				# }		
-				# grant_title_no_opinion = c_roman_family_2		
-			# }			
-			##	3	c_roman_family_3	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_3 = { gain_title = PREV } break = yes
-			}			
-			##	4	c_roman_family_4	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_4 = { gain_title = PREV } break = yes
-			}			
-			##	5	c_roman_family_5	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_5 = { gain_title = PREV } break = yes		
-			}			
-			##	6	c_roman_family_6	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_6 = { gain_title = PREV } break = yes		
-			}			
-			##	7	c_roman_family_7	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_7 = { gain_title = PREV } break = yes		
-			}			
-			##	8	c_roman_family_8	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_8 = { gain_title = PREV } break = yes		
-			}			
-			##	9	c_roman_family_9	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_9 = { gain_title = PREV } break = yes		
-			}			
-			##	10	c_roman_family_10	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_10 = { gain_title = PREV } break = yes		
-			}			
-			##	11	c_roman_family_11	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_11 = { gain_title = PREV } break = yes		
-			}			
-			##	12	c_roman_family_12	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_12 = { gain_title = PREV } break = yes		
-			}			
-			##	13	c_roman_family_13	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_13 = { gain_title = PREV } break = yes		
-			}			
-			##	14	c_roman_family_14	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_14 = { gain_title = PREV } break = yes		
-			}			
-			##	15	c_roman_family_15	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_15 = { gain_title = PREV } break = yes		
-			}			
-			##	16	c_roman_family_16	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_16 = { gain_title = PREV } break = yes		
-			}			
-			##	17	c_roman_family_17	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_17 = { gain_title = PREV } break = yes		
-			}			
-			##	18	c_roman_family_18	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_18 = { gain_title = PREV } break = yes		
-			}			
-			##	19	c_roman_family_19	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_19 = { gain_title = PREV } break = yes		
-			}			
-			##	20	c_roman_family_20	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_20 = { gain_title = PREV } break = yes		
-			}			
-			##	21	c_roman_family_21	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_21 = { gain_title = PREV } break = yes		
-			}			
-			##	22	c_roman_family_22	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_22 = { gain_title = PREV } break = yes		
-			}			
-			##	23	c_roman_family_23	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_23 = { gain_title = PREV } break = yes		
-			}			
-			##	24	c_roman_family_24	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_24 = { gain_title = PREV } break = yes		
-			}			
-			##	25	c_roman_family_25	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_25 = { gain_title = PREV } break = yes		
-			}			
-			##	26	c_roman_family_26	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_26 = { gain_title = PREV } break = yes		
-			}			
-			##	27	c_roman_family_27	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_27 = { gain_title = PREV } break = yes		
-			}			
-			##	28	c_roman_family_28	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_28 = { gain_title = PREV } break = yes		
-			}			
-			##	29	c_roman_family_29	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_29 = { gain_title = PREV } break = yes		
-			}			
-			##	30	c_roman_family_30	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_30 = { gain_title = PREV } break = yes		
-			}			
-			##	31	c_roman_family_31	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_31 = { gain_title = PREV } break = yes		
-			}			
-			##	32	c_roman_family_32	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_32 = { gain_title = PREV } break = yes		
-			}			
-			##	33	c_roman_family_33	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_33 = { gain_title = PREV } break = yes		
-			}			
-			##	34	c_roman_family_34	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_34 = { gain_title = PREV } break = yes		
-			}			
-			##	35	c_roman_family_35	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_35 = { gain_title = PREV } break = yes		
-			}			
-			##	36	c_roman_family_36	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_36 = { gain_title = PREV } break = yes		
-			}			
-			##	37	c_roman_family_37	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_37 = { gain_title = PREV } break = yes		
-			}			
-			##	38	c_roman_family_38	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_38 = { gain_title = PREV } break = yes		
-			}			
-			##	39	c_roman_family_39	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_39 = { gain_title = PREV } break = yes		
-			}			
-			##	40	c_roman_family_40	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_40 = { gain_title = PREV } break = yes		
-			}			
-			##	41	c_roman_family_41	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_41 = { gain_title = PREV } break = yes		
-			}			
-			##	42	c_roman_family_42	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_42 = { gain_title = PREV } break = yes		
-			}			
-			##	43	c_roman_family_43	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_43 = { gain_title = PREV } break = yes		
-			}			
-			##	44	c_roman_family_44	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_44 = { gain_title = PREV } break = yes		
-			}			
-			##	45	c_roman_family_45	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_45 = { gain_title = PREV } break = yes		
-			}			
-			##	46	c_roman_family_46	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_46 = { gain_title = PREV } break = yes		
-			}			
-			##	47	c_roman_family_47	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_47 = { gain_title = PREV } break = yes		
-			}			
-			##	48	c_roman_family_48	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_48 = { gain_title = PREV } break = yes		
-			}			
-			##	49	c_roman_family_49	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_49 = { gain_title = PREV } break = yes		
-			}			
-			##	50	c_roman_family_50	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_50 = { gain_title = PREV } break = yes		
-			}			
-			##	51	c_roman_family_51	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_51 = { gain_title = PREV } break = yes		
-			}			
-			##	52	c_roman_family_52	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_52 = { gain_title = PREV } break = yes		
-			}			
-			##	53	c_roman_family_53	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_53 = { gain_title = PREV } break = yes		
-			}			
-			##	54	c_roman_family_54	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_54 = { gain_title = PREV } break = yes		
-			}			
-			##	55	c_roman_family_55	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_55 = { gain_title = PREV } break = yes		
-			}			
-			##	56	c_roman_family_56	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_55 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_56 = { gain_title = PREV } break = yes		
-			}			
-			##	57	c_roman_family_57	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_56 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_55 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_57 = { gain_title = PREV } break = yes		
-			}			
-			##	58	c_roman_family_58	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_57 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_56 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_55 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_58 = { gain_title = PREV } break = yes		
-			}			
-			##	59	c_roman_family_59	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_58 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_57 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_56 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_55 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_59 = { gain_title = PREV } break = yes		
-			}			
-			##	60	c_roman_family_60	
-			if = {			
-				limit = {		
-					AND = {	
-						c_roman_family_59 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_58 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_57 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_56 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_55 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_54 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_53 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_52 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_51 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_50 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_49 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_48 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_47 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_46 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_45 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_44 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_43 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_42 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_41 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_40 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_39 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_38 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_37 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_36 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_35 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_34 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_33 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_32 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_31 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_30 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_29 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_28 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_27 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_26 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_25 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_24 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_23 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_22 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_21 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_20 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_19 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_18 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_17 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_16 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_15 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_14 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_13 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_12 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_11 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_10 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_9 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_8 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_7 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_6 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_5 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_4 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_3 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_2 = { has_holder = yes NOT = { holder = PREV } }
-						c_roman_family_1 = { has_holder = yes NOT = { holder = PREV } }
-					}	
-				}		
-				c_roman_family_60 = { gain_title = PREV } break = yes
-			}			
-
-		}
-		
-		
+			
 	}	
 
 }
@@ -2935,15 +1195,17 @@ character_event = {
 		
 	immediate = {
 		if = {
-			check_variable = {
-				which = roman_administration_term_duration_count
-				value <= 0
+			limit = {
+				check_variable = {
+					which = roman_administration_term_duration_count
+					value <= 0
+				}
 			}
-		}
-		set_variable = {
-			which = roman_administration_term_duration_count
-			value = 0
-		}
+			set_variable = {
+				which = roman_administration_term_duration_count
+				value = 0
+			}			
+		}		
 	}		
 	
 }
@@ -2995,3 +1257,32 @@ character_event = {
 	
 }		
 	
+## Test test
+character_event = {
+	id = AVE_MARIA_roman_administration.7
+	border = GFX_event_normal_frame_diplomacy		
+	desc = AVE_MARIA_roman_administration.7
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		## Family titular title doling out set up
+		d_abydos = {						
+			holder_scope = {
+				set_character_flag = wtf
+				if = {				
+					limit = {			
+						liege = {
+							character = ROOT
+						}	
+					}
+					set_character_flag = wtfxxx
+					grant_title_no_opinion = c_roman_family_3
+					# d_roman_family_3 = { gain_title = THIS }			
+				}				
+			}					
+		}
+	}
+}

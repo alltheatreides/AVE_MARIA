@@ -369,6 +369,7 @@ roman_administration_create_varangian_tagma = {
 roman_administration_create_bureaucrat = {
 	create_random_diplomat = {
 		random_traits = yes
+		culture = greek
 		dynasty = actually_culture
 		female = no
 		attributes = {
