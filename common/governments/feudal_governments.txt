@@ -539,7 +539,7 @@ feudal_governments = {
 		}
 		frame_suffix = "_romanimperial"
 		potential = {
-			OR = {
+			OR = { 
 				AND = { 
 					is_save_game = no
 					has_game_started = no
@@ -559,30 +559,6 @@ feudal_governments = {
 						has_law = succ_byzantine_elective
 					}
 				}
-				AND = { #AVE MARIA condition
-					is_save_game = no
-					has_game_started = no
-					primary_title = { 
-						OR = {
-							title = k_epi_ton_kriseon
-							title = k_roman_family_1
-							title = k_domestikos_tes_anatoles
-							title = k_opsikon_theme
-							title = k_opsikon
-						}
-					}
-				}
-				AND = { #AVE MARIA condition
-					primary_title = { 
-						OR = {
-							title = k_epi_ton_kriseon
-							title = k_roman_family_1
-							title = k_domestikos_tes_anatoles
-							title = k_opsikon_theme
-							title = k_opsikon
-						}
-					}
-				}
 			}
 			is_patrician = no
 		}
@@ -600,17 +576,14 @@ feudal_governments = {
 		
 		can_usurp_kingdoms_and_empires = no
 		can_imprison_without_reason = no
-		can_create_kingdoms = no
 		can_create_empires = no
 		vassal_government_opinion_penalties = no
 		can_grant_kingdoms_and_empires_to_other_government_group = yes
 		can_be_granted_kingdoms_and_empires_by_other_government = no
 		free_retract_vassalage = yes
-		can_grant_kingdoms_and_empires_to_other_government = no
+		uses_bride_price = yes
 
-		character_modifier = {
-			vassal_limit = 100
-		}
+		vassal_limit = 20
 	}
 	
 }

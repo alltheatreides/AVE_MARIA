@@ -2,9 +2,7 @@
 
 330.1.1 = {
 	liege = e_byzantium
-	# vice_royalty = yes
-	law = succ_my_test_law
-	set_title_flag = roman_administration_military_theme
+	vice_royalty = yes
 }
 855.1.1 = {
 	holder = 1232126
@@ -41,15 +39,15 @@
 }
 1078.1.1 = {
 	holder = 1740
-	# vice_royalty = no
+	vice_royalty = no
 }
 1078.3.31 = {
-	# vice_royalty = yes
+	vice_royalty = yes
 }
 1080.1.1 = {
 	liege = 0
 	holder = 41303
-	# vice_royalty = no
+	vice_royalty = no
 }
 1081.1.1 = {
 	liege = k_rum
@@ -62,7 +60,7 @@
 1097.6.19 = {
 	liege = e_byzantium
 	holder = 1232157
-	# vice_royalty = yes
+	vice_royalty = yes
 }
 1112.1.1 = {
 	holder = 34586
@@ -96,5 +94,5 @@
 }
 1204.5.16 = {
 	holder = 0
-	# vice_royalty = no
+	vice_royalty = no
 }
