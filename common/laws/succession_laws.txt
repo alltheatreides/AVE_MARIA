@@ -607,6 +607,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		potential = {
 			# NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				

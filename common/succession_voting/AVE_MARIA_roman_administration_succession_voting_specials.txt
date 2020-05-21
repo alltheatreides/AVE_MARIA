@@ -4759,3 +4759,36 @@ roman_administration_elective_test_2 = { #Should be for civilian themes
 		}
 	}
 }
+
+#Family paterfamilias
+family_election = {
+	#ROOT = Voter, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Title owner's candidate
+	elector_selection = {
+		days = 0
+		max_amount = 1
+		additive_modifier = { # Title holder is always an Elector.
+			value = 1
+			FROMFROM = { 
+				holder_scope = { character = ROOT }
+			}
+		}
+	}
+	
+	#ROOT = Voter, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Title owner's candidate
+	elector_vote_strength = {
+		days = 1
+	}
+
+	#ROOT = Voter, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Title owner's candidate
+	candidate_vote_score = {
+		days = 0
+	}
+
+	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
+	candidate_trigger = {
+		FROM = {
+			is_close_relative = ROOT
+			# is_landed = no
+		}
+	}
+}

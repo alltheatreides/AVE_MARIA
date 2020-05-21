@@ -1,36 +1,32 @@
 succession_laws = {
 	
-	# succ_roman_family_elective = {
-		# potential = {
+	succ_roman_family_elective = {
+		potential = {
 			# has_title_flag = created_family_county_title
-			# holder_scope = {
-				# is_nomadic = no
-				# is_merchant_republic = no
-				# is_patrician = no
-			# }
+			holder_scope = { government = roman_imperial_government }
 			
-			# NOT = { holder_scope = { government = confucian_bureaucracy } }
-			# NOT = { holder_scope = { government = chinese_imperial_government } }
-		# }
-		# allow = {
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+		}
+		allow = {
 			# custom_tooltip = {
 				# text = not_forced_tt
 				# hidden_tooltip = {
 					# holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 				# }
 			# }
-		# }
-		# effect = {
-			# succession = {
-				# base_type = tanistry
-				# voting_rules = family_elective
-			# }
-			# elective_voting_rules = family_elective
-		# }
-		# revoke_allowed = {
-			# always = no
-		# }
-	# }
+		}
+		effect = {
+			succession = {
+				base_type = tanistry
+				voting_rules = family_election
+			}
+			elective_voting_rules = family_election
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
 	
 	succ_my_test_law = {
 		child_opinion = 15
@@ -45,11 +41,16 @@ succession_laws = {
 			}
 						
 			rebel = no
+			# OR = {
+				# has_title_flag = roman_administration_central_judicial_official_bureau
+				# has_title_flag = roman_administration_civilian_theme
+				# has_title_flag = created_military_theme_title
+			# }
 			OR = {
-				has_title_flag = roman_administration_central_judicial_official_bureau
-				has_title_flag = roman_administration_civilian_theme
+				holder_scope = { government = roman_administration_civilian_theme_government }
+				holder_scope = { government = roman_imperial_government }
 			}
-			is_primary_type_title = no
+			# is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
@@ -61,7 +62,7 @@ succession_laws = {
 				base_type = feudal_elective 
 				voting_rules = roman_administration_elective_test_2 #Definded in common/00_succession_voting
 			}
-			# elective_voting_rules = roman_administration_elective_test_2
+			elective_voting_rules = roman_administration_elective_test_2
 		}
 		revoke_allowed = {
 			always = no
