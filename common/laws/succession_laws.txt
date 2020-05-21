@@ -84,7 +84,8 @@ succession_laws = {
 		vassal_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -203,7 +204,8 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 
@@ -306,7 +308,8 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -430,7 +433,8 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -602,7 +606,7 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -766,7 +770,8 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -875,7 +880,8 @@ succession_laws = {
 		vassal_opinion = 15
 		vassal_limit = 20
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -980,6 +986,8 @@ succession_laws = {
 		dynasty_opinion = -5
 		# feudal_opinion = -5
 		potential = {
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			holder_scope = {
 				OR = {
 					has_landed_title = e_byzantium
@@ -1043,7 +1051,8 @@ succession_laws = {
 		dynasty_opinion = 5
 		vassal_opinion = 5
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -1171,7 +1180,8 @@ succession_laws = {
 		child_opinion = -10
 		dynasty_opinion = -5
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -1341,7 +1351,8 @@ succession_laws = {
 		#child_opinion = 30
 		#dynasty_opinion = 10
 		potential = {
-			NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				
@@ -1444,7 +1455,8 @@ succession_laws = {
 	
 	succ_open_elective = {
 		potential = {
-			# NOT = { has_law = succ_roman_family_elective }
+			NOT = { roman_administration_administrative_title_trigger = yes }
+			NOT = { has_title_flag = created_family_county_title }
 			NAND = { 
 				has_law = succ_byzantine_elective 
 				OR = { 

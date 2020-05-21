@@ -383,3 +383,17 @@ des tagma qui décident/gèrent. > si ca ça marche quand tu a trois régiments 
 - Setting up for the terms of office duration
 - Va falloir gérer les terres de l'empereur pour créer un gestionnaire civil, ou alors les donner à un high office
 - Retirer la possibilité de mettre une autre loi que le clientelisme si on est civilian_theme / militayr theme ou autre office
+
+17/05/20
+- Idea from reddit badhistory: I've thought about this a lot but I think my ideal solution would probably go against Paradox's modern design philosophy. As said previously the problem with CK2 is that power and agency is completely held by landed characters, this is because landed characters are the ones that have total access to the resources important to gameplay. In CK2 these are money, military power, prestige, and piety. So for instance the primary way for most characters to acquire money is through taxes, prestige through events and good rule, piety through events and patronizing the church, and military power through retinues and constructing buildings to obtain more levies. This is a simplification but it is pretty plain to see that this current gameplay heavily favors landed characters, even in instances where non-landed characters can accumulate capital; like piety and prestige, they can't really use that capital unless they acquire a title. So I see two solutions here, the first is to expand the ways in which you acquire capital (of all kinds) both in terms of number of options and also in terms of what characters have access to those options. The second is to allow non-landed characters ways to use this capital and also to interact with other characters on their own terms (rather than being pushed to do so by landed characters).
+
+So one way this might work is through the implementation of an expanded economy or trading system. For instance characters could invest in workshops or agricultural estates or merchants that they could use to build up their own personal treasury, then you could implement a system of money lending so that characters can loan others money. What this would mean is that in times of economic crisis, the player doesn't simply press a button and gets a loan, but rather has to negotiate with already existing parties to secure funds, with these parties not necessarily being partial to supporting the player. Basically it would give non-landed character some degree of leverage over the player and also provide the player with an interesting game play alternative. Again this is just an example and you could probably think of more interesting or elaborate systems but you get the idea.
+
+- Add a landless chancellor job for landless holders
+- Add some clause to the usurp constantiople option for newly emperor to clear old posts
+- Add events so the roman administration society leader is always the emperor
+- Pour la société et l'election de l'empeeur, faire en sorte que les puissants à des postes centraux soient les electeurs de l'empereur et aient de l'influence et donc des votes
+- Rajouter un modifier de combat pour les gosses...
+- Pour simuler le combat naval ? Un système d'event et de variable centré sur les régions maritimes, les bateaux ont des events "is_at_sea" et si une puissance a la domination navale crack, coulé (damage_unit)
+
+18/05/20
