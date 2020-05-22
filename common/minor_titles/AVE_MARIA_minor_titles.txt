@@ -1,0 +1,70 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA MINOR TITLES															   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration MINOR TITLES                       							   #
+#                               													   #
+########################################################################################
+
+########################################################
+#	grant_limit: Max number of holders.
+#	realm_in_name: Append the name of the country after the title (Queen [of Sweden])
+#	allowed_to_hold: conditions for the character to hold the title
+#	allowed_to_grant: conditions for a ruler to grant the title
+#	regent: This is the title for regents (not really "minor")
+#	gain_effect: fires when the title is granted
+#	lose_effect: fires when a title is lost through most causes
+#	retire_effect: fires when a title is lost due to the character stepping down
+#	death_effect: fires when a title is lost due to the character dying
+#	message: should fire a message to the its owner when set
+#	The other fields are all character modifiers.
+
+
+title_strategos = {
+	is_high_prio = yes
+	realm_in_name = yes
+	dignity = 0.9
+	grant_limit = 100
+	opinion_effect = 10
+	revoke_allowed = no
+	attribute = martial
+	monthly_salary = 0.05
+	monthly_prestige = 0.75
+
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = {
+				roman_administration_administrative_title_trigger = yes
+			}
+		}
+		# liege = { character = FROM }
+		is_adult = yes
+		is_female = no
+		top_liege = {
+			primary_title = { title = e_byzantium }
+		}
+		is_inaccessible_or_incapable_trigger = no
+		NOR = {
+			is_ascetic_trigger = yes
+			trait = excommunicated
+		}
+	}
+	
+	allowed_to_grant = {
+		primary_title = { title = e_byzantium }
+	}
+	revoke_trigger = {
+		
+	}
+
+	gain_effect = {
+		
+		## Some event here
+	
+	}
+
+	lose_effect = {
+	}
+	message = yes
+}

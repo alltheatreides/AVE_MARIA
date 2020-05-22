@@ -115,16 +115,173 @@ roman_adminisration_theme_title_held_trigger = {
 		title = d_hum_theme
 		title = d_dioclea_theme
 		title = d_ragusa_theme
-
+		
 	}
 }
 
 #Title trigger
 roman_administration_administrative_title_trigger = {
 	OR = {
+		# Civilian theme SWMH
+		title = d_abydos
+		title = d_thrace
+		title = d_strymon
+		title = d_thessalonika
+		title = d_neopatras
+		title = d_dyrrachion
+		title = d_epirus
+		title = d_cephalonia
+		title = d_athens
+		title = d_achaia
+		title = d_krete
+		title = d_paphlagonia
+		title = d_boukellarion
+		title = d_samos
+		title = d_thracesia
+		title = k_opsikon
+		title = d_optimatoi
+		title = d_cibyrrhaeot
+		title = d_charsianon
+		title = d_cappadocia
+		title = d_coloneia
+		title = d_sebasteia
+		title = d_lykandos
+		title = d_anatolia
+		title = d_melitene
+		title = d_cyprus
+		title = d_trebizond
+		title = d_cherson
+		title = d_armeniacon
+		title = d_armenia_minor
+		title = d_seleukeia
+		title = d_turnovo
+		title = d_karvuna
+		title = d_adrianopolis
+		title = d_vidin
+		title = d_ohrid
+		title = d_rashka
+		title = d_macva
+		title = d_hum
+		title = d_dioclea
+		title = d_ragusa
+		
+		## Family ducal titles
+		title = k_roman_family_1
+		
+		# Military Theme from SWMH Civilian Theme
+		title = d_abydos_theme
+		title = d_thrace_theme
+		title = d_strymon_theme
+		title = d_thessalonika_theme
+		title = d_neopatras_theme
+		title = d_dyrrachion_theme
+		title = d_epirus_theme
+		title = d_cephalonia_theme
+		title = d_athens_theme
+		title = d_achaia_theme
+		title = d_krete_theme
+		title = d_paphlagonia_theme
+		title = d_boukellarion_theme
+		title = d_samos_theme
+		title = d_thracesia_theme
+		title = k_opsikon_theme
+		title = d_optimatoi_theme
+		title = d_cibyrrhaeot_theme
+		title = d_charsianon_theme
+		title = d_cappadocia_theme
+		title = d_coloneia_theme
+		title = d_sebasteia_theme
+		title = d_lykandos_theme
+		title = d_anatolia_theme
+		title = d_melitene_theme
+		title = d_cyprus_theme
+		title = d_trebizond_theme
+		title = d_cherson_theme
+		title = d_armeniacon_theme
+		title = d_armenia_minor_theme
+		title = d_seleukeia_theme
+		title = d_turnovo_theme
+		title = d_karvuna_theme
+		title = d_adrianopolis_theme
+		title = d_vidin_theme
+		title = d_ohrid_theme
+		title = d_rashka_theme
+		title = d_macva_theme
+		title = d_hum_theme
+		title = d_dioclea_theme
+		title = d_ragusa_theme
+		
+		## others
+		has_title_flag = created_family_county_title
 		has_title_flag = created_military_theme_title
 		has_title_flag = roman_administration_civilian_theme
 		has_title_flag = roman_administration_central_judicial_official_bureau
+	}
+}
+
+roman_administration_family_title_trigger = {
+	OR = {
+		title = k_roman_family_1
+		title = d_roman_family_2
+		title = d_roman_family_3
+		title = d_roman_family_4
+		title = d_roman_family_5
+		title = d_roman_family_6
+		title = d_roman_family_7
+		title = d_roman_family_8
+		title = d_roman_family_9
+		title = d_roman_family_10
+		title = d_roman_family_11
+		title = d_roman_family_12
+		title = d_roman_family_13
+		title = d_roman_family_14
+		title = d_roman_family_15
+		title = d_roman_family_16
+		title = d_roman_family_17
+		title = d_roman_family_18
+		title = d_roman_family_19
+		title = d_roman_family_20
+		title = d_roman_family_21
+		title = d_roman_family_22
+		title = d_roman_family_23
+		title = d_roman_family_24
+		title = d_roman_family_25
+		title = d_roman_family_26
+		title = d_roman_family_27
+		title = d_roman_family_28
+		title = d_roman_family_29
+		title = d_roman_family_30
+		title = d_roman_family_31
+		title = d_roman_family_32
+		title = d_roman_family_33
+		title = d_roman_family_34
+		title = d_roman_family_35
+		title = d_roman_family_36
+		title = d_roman_family_37
+		title = d_roman_family_38
+		title = d_roman_family_39
+		title = d_roman_family_40
+		title = d_roman_family_41
+		title = d_roman_family_42
+		title = d_roman_family_43
+		title = d_roman_family_44
+		title = d_roman_family_45
+		title = d_roman_family_46
+		title = d_roman_family_47
+		title = d_roman_family_48
+		title = d_roman_family_49
+		title = d_roman_family_50
+		title = d_roman_family_51
+		title = d_roman_family_52
+		title = d_roman_family_53
+		title = d_roman_family_54
+		title = d_roman_family_55
+		title = d_roman_family_56
+		title = d_roman_family_57
+		title = d_roman_family_58
+		title = d_roman_family_59
+		title = d_roman_family_60
+
 	}
 }
 

@@ -14,6 +14,112 @@
 # Great Families titular titles           #
 ###########################################
 
+e_null_utility = {
+	color = { 38 38 38 }
+	color2 = { 0 0 0 }
+	capital = 496
+	can_be_usurped = no
+	can_be_claimed = no
+	short_name = yes
+	
+	k_roman_family_1 = {			
+		color = { 255 255 0 }		
+		graphical_culture = byzantinegfx		
+		capital = 496		
+		culture = greek		
+		title = "Eugeneios"		
+		landless = yes		
+		can_be_usurped = no		
+		duchy_revokation = no		
+		can_be_claimed = no		
+		assimilate = no		
+		
+		d_null_utility = {
+			color = { 205 104 170 }
+			color2 = { 255 255 255 }
+			c_null_utility = {
+				b_null_utility = {
+					
+				}
+			}
+		}
+	}
+	
+	k_null_utility = {
+		color = { 38 38 38 }
+		color2 = { 0 0 0 }
+		capital = 496
+		can_be_usurped = no
+		can_be_claimed = no
+		short_name = yes
+		
+		
+		
+	}
+		
+}
+
+e_null_utility_2 = {
+	color = { 38 38 38 }
+	color2 = { 0 0 0 }
+	capital = 496
+	can_be_usurped = no
+	can_be_claimed = no
+	short_name = yes	
+	
+	k_opsikon_theme = {
+		color = { 36 83 169 }
+		color2 = { 255 255 255 }
+		capital = 750 # Nikaia # Nikaea
+		culture = greek
+		title = "Strategos"	
+		frankish = "Nicée"
+		norman = "Nicée"
+		sardinian = "Nicea"
+		dalmatian = "Nicea"
+		sicilian = "Nicea"
+		umbrian = "Nicea"
+		italian = "Nicea"
+		laziale = "Nicea"
+		langobardisch = "Nicea"
+		neapolitan = "Nicea"
+		tuscan = "Nicea"
+		ligurian = "Nicea"
+		venetian = "Nicea"
+		bedouin_arabic = "Níqíya"
+		sicilian_arabic = "Níqíya"
+		hijazi = "Níqíya"
+		yemeni = "Níqíya"
+		maghreb_arabic = "Níqíya"
+		levantine_arabic = "Níqíya"
+		egyptian_arabic = "Níqíya"
+		andalusian_arabic = "Níqíya"
+		oghuz = "Hüdavendigár"
+		turkmen = "Hüdavendigár"
+		turkish = "Hüdavendigár"
+		
+		d_null_utility_2 = {
+			color = { 205 104 170 }
+			color2 = { 255 255 255 }
+			c_null_utility_2 = {
+				b_null_utility_2 = {
+					
+				}
+			}
+		}
+	}
+	
+	k_null_utility_2 = {
+		color = { 38 38 38 }
+		color2 = { 0 0 0 }
+		capital = 496
+		can_be_usurped = no
+		can_be_claimed = no
+		short_name = yes
+		
+		
+	}
+}
 # d_roman_family_1 = {			
 	# color = { 255 255 0 }		
 	# graphical_culture = byzantinegfx		

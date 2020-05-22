@@ -409,3 +409,9 @@ So one way this might work is through the implementation of an expanded economy 
 21/05/20
 - Bon la solution semble etre la suivante: il faut que le titre de la famille soit le titre principal et tenu tout le temps ainsi. Les titres secondaires doivent être du même rang que le principal sinon ils sautent avec le deuxième titre/le de jure (ex: si j'ai angleterre et france et la france est en elective, tous les titres que je possède en dessous de la france vont passer à un autre candidat
 - Les titres de famille ne devraient en ce cas pas être au niveau royal sinon les titres ducaux inférieurs (genre theme civils sautent) et leur elective law ne fonctionne pas
+
+22/02/20
+- Faire en sorte que dans le family elective seuls les adultes puissent hériter
+- Pour les termes des mandats: ne pas utiliser abidcate, plutot: scope to current heir (donc titre principal de boulot) et gain title
+- BOn bah voilà, le système romain devrait fonctionner: il fonctionne avec les duchés transformés en royaume pour pouvoir se passer les titres principaux de postes et en secondaire un titre royal familial
+- La question maintenant c'est est ce que je peux tout faire fonctionner avec des titres titulaires en event startup

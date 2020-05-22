@@ -563,23 +563,29 @@ feudal_governments = {
 					is_save_game = no
 					has_game_started = no
 					primary_title = { 
-						OR = {
-							title = k_epi_ton_kriseon
-							title = k_roman_family_1
-							title = k_domestikos_tes_anatoles
-							title = k_opsikon_theme
-							title = k_opsikon
+						roman_administration_administrative_title_trigger = yes
+					}
+					liege = {
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
 						}
 					}
 				}
 				AND = { #AVE MARIA condition
 					primary_title = { 
-						OR = {
-							title = k_epi_ton_kriseon
-							title = k_roman_family_1
-							title = k_domestikos_tes_anatoles
-							title = k_opsikon_theme
-							title = k_opsikon
+						roman_administration_administrative_title_trigger = yes
+					}
+					liege = {
+						primary_title = { 
+							OR = { 
+								title = e_byzantium
+								title = e_roman_empire
+							}
+							has_law = succ_byzantine_elective
 						}
 					}
 				}

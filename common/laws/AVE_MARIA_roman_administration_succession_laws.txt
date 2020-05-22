@@ -2,9 +2,7 @@ succession_laws = {
 	
 	succ_roman_family_elective = {
 		potential = {
-			# has_title_flag = created_family_county_title
-			holder_scope = { government = roman_imperial_government }
-			
+			roman_administration_administrative_title_trigger = yes
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
@@ -33,24 +31,14 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
+			roman_administration_administrative_title_trigger = yes
 			holder_scope = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
-						
 			rebel = no
-			# OR = {
-				# has_title_flag = roman_administration_central_judicial_official_bureau
-				# has_title_flag = roman_administration_civilian_theme
-				# has_title_flag = created_military_theme_title
-			# }
-			OR = {
-				holder_scope = { government = roman_administration_civilian_theme_government }
-				holder_scope = { government = roman_imperial_government }
-			}
-			# is_primary_type_title = no
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
