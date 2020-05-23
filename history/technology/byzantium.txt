@@ -1,0 +1,108 @@
+# -*- ck2.history.technology -*-
+
+#BYZ
+
+technology = {
+	titles = {
+		k_samos
+		k_abydos
+		k_adrianopolis
+		k_thessalonika
+		k_dyrrachion
+		k_epirus
+		k_athens
+		k_achaia
+		k_krete
+		k_cyprus
+		k_cibyrrhaeot
+		k_anatolia
+		k_thracesia
+		k_charsianon
+		k_armeniacon
+		k_paphlagonia
+		k_trebizond
+		k_armenia_minor
+		k_armenia
+		k_mesopotamia
+		k_edessa
+		k_coloneia
+		k_turnovo
+		k_karvuna
+		k_kartli
+		k_derbent
+		k_abkhazia
+		k_strymon          
+		k_seleukeia        
+		k_ohrid                          
+		k_ragusa
+		k_artsakh          
+		k_suenik           
+		k_vaspurakan       
+		k_tao 
+		k_klarjeti                                                 
+		k_krk              
+		k_dalmatian_islands
+		k_kakheti
+		k_hereti
+		k_racha
+		k_imeretia
+		k_albania
+		k_neopatras
+		k_cephalonia
+		k_boukellarion
+		k_opsikon
+		k_optimatoi
+		k_cappadocia
+		k_sebasteia
+		k_lykandos
+		k_lori
+		k_melitene
+		k_amida
+		k_taron   
+		k_dzopk 
+	}
+	
+	769 = {
+		military = 1.2
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.8
+		economy = 4.8
+		culture = 4.8
+	}
+}
+
+technology = {
+	titles = {
+		k_thrace
+	}
+
+	769 = {
+		military = 1.2
+		economy = 1.5
+		culture = 1.5
+		
+		TECH_FORTIFICATIONS_CONSTRUCTION = 3.0
+		TECH_CASTLE_CONSTRUCTION = 2.0
+		TECH_CITY_CONSTRUCTION = 5.0
+		TECH_LEGALISM = 2.0
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+		
+		TECH_FORTIFICATIONS_CONSTRUCTION = 5.0
+		TECH_CASTLE_CONSTRUCTION = 5.0
+		TECH_CITY_CONSTRUCTION = 5.0
+		TECH_LEGALISM = 5.0
+	}
+}
+
+
+
+

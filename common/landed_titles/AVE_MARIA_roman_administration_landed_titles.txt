@@ -67,6 +67,176 @@ e_null_utility_2 = {
 	can_be_claimed = no
 	short_name = yes	
 	
+	## Thrace SWMH Kingdom
+	k_abydos_theme = {
+		color = { 104 8 103 }
+		color2 = { 255 255 255 }
+		capital = 484 # Kykládes # Naxos
+		sardinian = "dell'arcipelago"
+		dalmatian = "dell'arcipelago"
+		sicilian = "dell'arcipelago"
+		umbrian = "dell'arcipelago"
+		italian = "dell'arcipelago"
+		laziale = "dell'arcipelago"
+		langobardisch = "dell'arcipelago"
+		neapolitan = "dell'arcipelago"
+		tuscan = "dell'arcipelago"
+		ligurian = "dell'arcipelago"
+		venetian = "dell'arcipelago"
+	}
+	k_thrace_theme = {
+		color = { 194 129 1 }
+		color2 = { 255 255 255 }
+		capital = 496 # Konstantinoupolis # Byzantion
+		norman = "Thrace"
+		frankish = "Thrace"
+		bulgarian = "Trakija"
+		bedouin_arabic = "Tráqiya"
+		hijazi = "Tráqiya"
+		yemeni = "Tráqiya"
+		maghreb_arabic = "Tráqiya"
+		levantine_arabic = "Tráqiya"
+		egyptian_arabic = "Tráqiya"
+		andalusian_arabic = "Tráqiya"
+		sicilian_arabic = "Tráqiya"
+		oghuz = "Trakya"
+		turkmen = "Trakya"
+		turkish = "Trakya"
+		pecheneg = "Trakya"
+		# orthodox = 250 # Crusade target weight
+		# catholic = 125 # Crusade target weight
+		# sunni = 225 # Crusade target weight
+		# shiite = 100 # Crusade target weight
+	}
+	k_strymon_theme = {
+		color = { 0 86 148 }
+		color2 = { 255 255 255 }
+		oghuz = "Serez"
+		turkmen = "Serez"
+		turkish = "Serez"
+		pecheneg = "Serez"
+		capital = 492 # Strymonos # Strymon
+	}
+	k_thessalonika_theme = {
+		color = { 205 22 30 }
+		color2 = { 255 255 255 }
+		capital = 490 # Thessaloníke # Thessalonike
+		frankish = "Thessalonique"
+		norman = "Thessalonique"
+		dalmatian = "Tessalonica"
+		sardinian = "Tessalonica"
+		sicilian = "Tessalonica"
+		umbrian = "Tessalonica"
+		italian = "Tessalonica"
+		laziale = "Tessalonica"
+		langobardisch = "Tessalonica"
+		neapolitan = "Tessalonica"
+		tuscan = "Tessalonica"
+		ligurian = "Tessalonica"
+		venetian = "Tessalonica"
+		bulgarian = "Solun"
+		serbian = "Solun"
+		oghuz = "Selánik"
+		turkmen = "Selánik"
+		turkish = "Selánik"
+		pecheneg = "Selánik"
+	}
+	k_neopatras_theme = {
+		color = { 64 90 64 }
+		color2 = { 255 255 20 }
+		capital = 1224 # Neai Patrai # Neopatras
+		sardinian = "Neopatras"
+		dalmatian = "Neopatras"
+		sicilian = "Neopatras"
+		umbrian = "Neopatras"
+		italian = "Neopatras"
+		laziale = "Neopatras"
+		langobardisch = "Neopatras"
+		neapolitan = "Neopatras"
+		tuscan = "Neopatras"
+		ligurian = "Neopatras"
+		venetian = "Neopatras"
+		frankish = "Neopatrie"
+		norman = "Neopatrie"
+		catalan = "Neopatria"
+		oghuz = "Tesalya"
+		turkmen = "Tesalya"
+		turkish = "Tesalya"
+		pecheneg = "Tesalya"
+	}
+	
+	## Epirus SWMH Kingdom
+	k_dyrrachion_theme = { # Dyrráchiou
+		color = { 38 38 38 }
+		color2 = { 255 255 255 }
+		capital = 470 # Dyrrakhiou # Dyrrachion
+		serbian = "Drac"
+		bulgarian = "Drac"
+		sardinian = "Durazzo"
+		dalmatian = "Durazzo"
+		sicilian = "Durazzu"
+		umbrian = "Durazzo"
+		italian = "Durazzo"
+		laziale = "Durazzo"
+		langobardisch = "Durazzo"
+		neapolitan = "Durazzo"
+		tuscan = "Durazzo"
+		ligurian = "Durazzo"
+		venetian = "Durazo"
+		arberian = "Durrës"
+		oghuz = "Diraç"
+		pecheneg = "Diraç"
+		turkmen = "Diraç"
+		turkish = "Diraç"
+		
+	} # end k_dyrrachion
+	k_epirus_theme = { # Nikopoleos
+		color = { 48 111 135 }
+		color2 = { 255 255 20 }
+		capital = 473 # Nikopolis # Arta
+		frankish = "Épire"
+		norman = "Épire"
+		sardinian = "Epirus"
+		dalmatian = "Epirus"
+		sicilian = "Epirus"
+		umbrian = "Epirus"
+		italian = "Epirus"
+		laziale = "Epirus"
+		langobardisch = "Epirus"
+		neapolitan = "Epirus"
+		tuscan = "Epirus"
+		ligurian = "Epirus"
+		venetian = "Epirus"
+		oghuz = "Yanya"
+		turkmen = "Yanya"
+		turkish = "Yanya"
+		
+	} # end k_epirus
+	k_cephalonia_theme = { # Kephallenias
+		color = { 48 111 135 }
+		color2 = { 255 255 255 }
+		capital = 474 # Kephallenia # Cephalonia
+		sardinian = "Cefalonia"
+		dalmatian = "Cefalonia"
+		sicilian = "Cefalonia"
+		umbrian = "Cefalonia"
+		italian = "Cefalonia"
+		laziale = "Cefalonia"
+		langobardisch = "Cefalonia"
+		neapolitan = "Cefalonia"
+		tuscan = "Cefalonia"
+		ligurian = "Cefalonia"
+		venetian = "Cefalonia"
+		frankish = "Céphalonie"
+		norman = "Céphalonie"
+		oghuz = "Yedi Adalar"
+		turkmen = "Yedi Adalar"
+		turkish = "Yedi Adalar"
+		pecheneg = "Yedi Adalar"
+		
+	} # end k_cephalonia
+	
+	
 	k_opsikon_theme = {
 		color = { 36 83 169 }
 		color2 = { 255 255 255 }

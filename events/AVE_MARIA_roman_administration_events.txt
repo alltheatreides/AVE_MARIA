@@ -33,59 +33,212 @@ character_event = {
 	
 	immediate = {
 		
-		k_opsikon_theme = {
+		k_abydos_theme = {	
 			make_primary_title = yes
-		}
-		d_opsikon = {
+		}	
+		k_thrace_theme = {	
+			make_primary_title = yes
+		}	
+		k_strymon_theme = {	
+			make_primary_title = yes
+		}	
+		k_thessalonika_theme = {	
+			make_primary_title = yes
+		}	
+		k_neopatras_theme = {	
+			make_primary_title = yes
+		}	
+		k_dyrrachion_theme = {	
+			make_primary_title = yes
+		}	
+		k_epirus_theme = {	
+			make_primary_title = yes
+		}	
+		k_cephalonia_theme = {	
+			make_primary_title = yes
+		}	
+		k_athens_theme = {	
+			make_primary_title = yes
+		}	
+		k_achaia_theme = {	
+			make_primary_title = yes
+		}	
+		k_krete_theme = {	
+			make_primary_title = yes
+		}	
+		k_paphlagonia_theme = {	
+			make_primary_title = yes
+		}	
+		k_boukellarion_theme = {	
+			make_primary_title = yes
+		}	
+		k_samos_theme = {	
+			make_primary_title = yes
+		}	
+		k_thracesia_theme = {	
+			make_primary_title = yes
+		}	
+		k_opsikon_theme = {	
+			make_primary_title = yes
+		}	
+		k_optimatoi_theme = {	
+			make_primary_title = yes
+		}	
+		k_cibyrrhaeot_theme = {	
+			make_primary_title = yes
+		}	
+		k_charsianon_theme = {	
+			make_primary_title = yes
+		}	
+		k_cappadocia_theme = {	
+			make_primary_title = yes
+		}	
+		k_coloneia_theme = {	
+			make_primary_title = yes
+		}	
+		k_sebasteia_theme = {	
+			make_primary_title = yes
+		}	
+		k_lykandos_theme = {	
+			make_primary_title = yes
+		}	
+		k_anatolia_theme = {	
+			make_primary_title = yes
+		}	
+		k_melitene_theme = {	
+			make_primary_title = yes
+		}	
+		k_cyprus_theme = {	
+			make_primary_title = yes
+		}	
+		k_trebizond_theme = {	
+			make_primary_title = yes
+		}	
+		k_cherson_theme = {	
+			make_primary_title = yes
+		}	
+		k_armeniacon_theme = {	
+			make_primary_title = yes
+		}	
+		k_armenia_minor_theme = {	
+			make_primary_title = yes
+		}	
+		k_seleukeia_theme = {	
+			make_primary_title = yes
+		}	
+		k_turnovo_theme = {	
+			make_primary_title = yes
+		}	
+		k_karvuna_theme = {	
+			make_primary_title = yes
+		}	
+		k_adrianopolis_theme = {	
+			make_primary_title = yes
+		}	
+		k_vidin_theme = {	
+			make_primary_title = yes
+		}	
+		k_ohrid_theme = {	
+			make_primary_title = yes
+		}	
+		k_rashka_theme = {	
+			make_primary_title = yes
+		}	
+		k_macva_theme = {	
+			make_primary_title = yes
+		}	
+		k_hum_theme = {	
+			make_primary_title = yes
+		}	
+		k_dioclea_theme = {	
+			make_primary_title = yes
+		}	
+		k_ragusa_theme = {	
+			make_primary_title = yes
+		}	
+
+		any_title = {
+			limit = {
+				roman_administration_theme_title_trigger = yes
+				NOT = { holder = ROOT }
+			}
 			holder_scope = { # Creating the civilian theme new holder and the military theme new older if character is too young and give them the titles
-				save_event_target_as = military_theme_holder
-				create_random_steward = {			
-					random_traits = yes		
-					dynasty = random		
-					female = no		
-					attributes = {		
-						diplomacy = 2	
-						learning = 2	
-						stewardship = 8	
-						intrigue = 2	
-						martial = 2	
-					}		
-				}			
-				new_character = {			
-					save_event_target_as = civilian_theme_new_holder		
-					set_character_flag = civilian_theme_new_holder		
-				}
-				any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
-					limit = {
-						holder = event_target:military_theme_holder
-						NOT = { 
-							tier = baron 
-							OR = {
-								title = k_opsikon_theme
-								title = k_roman_family_1
-							}
-						}		
-					}			
-					grant_title_no_opinion = event_target:civilian_theme_new_holder			
-				}
-				if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was not underage
+				if = { #is_adult = yes
 					limit = {
 						is_adult = yes
 					}
-					event_target:civilian_theme_new_holder = {
+					save_event_target_as = military_theme_holder
+					create_random_steward = {			
+						random_traits = yes		
+						dynasty = random		
+						female = no		
+						attributes = {		
+							diplomacy = 2	
+							learning = 2	
+							stewardship = 8	
+							intrigue = 2	
+							martial = 2	
+						}		
+					}			
+					new_character = {			
+						save_event_target_as = civilian_theme_new_holder		
+						set_character_flag = civilian_theme_new_holder		
+					}
+					any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
+						limit = {
+							holder = event_target:military_theme_holder
+							NOT = { 
+								tier = baron 
+								roman_administration_family_title_trigger = yes
+								roman_adminisration_strategos_title_trigger = yes
+							}		
+						}			
+						grant_title_no_opinion = event_target:civilian_theme_new_holder			
+					}
+					event_target:civilian_theme_new_holder = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was not underage
 						make_tributary = {
 							who = PREV
 							tributary_type = theme_military
 						}
-					}
-					
-				}
-				if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was underage
+					}					
+				}				
+				if = {
 					limit = {
 						is_adult = no
 					}
-					event_target:civilian_theme_new_holder = {
-						make_tributary = {
+					spawn_great_commander = yes
+					new_character = {			
+						save_event_target_as = military_theme_new_holder		
+						set_character_flag = military_theme_new_holder		
+					}
+					create_random_steward = {			
+						random_traits = yes		
+						dynasty = random		
+						female = no		
+						attributes = {		
+							diplomacy = 2	
+							learning = 2	
+							stewardship = 8	
+							intrigue = 2	
+							martial = 2	
+						}		
+					}			
+					new_character = {			
+						save_event_target_as = civilian_theme_new_holder		
+						set_character_flag = civilian_theme_new_holder		
+					}
+					any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
+						limit = {
+							holder = event_target:military_theme_holder
+							NOT = { 
+								tier = baron 
+								roman_administration_family_title_trigger = yes
+							}		
+						}			
+						grant_title_no_opinion = event_target:civilian_theme_new_holder			
+					}
+					event_target:civilian_theme_new_holder = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was underage
+						make_tributary = { 
 							who = event_target:military_theme_new_holder
 							tributary_type = theme_military
 						}
@@ -93,6 +246,64 @@ character_event = {
 				}
 			}
 		}
+		
+		# d_opsikon = {
+			# holder_scope = { # Creating the civilian theme new holder and the military theme new older if character is too young and give them the titles
+				# save_event_target_as = military_theme_holder
+				# create_random_steward = {			
+					# random_traits = yes		
+					# dynasty = random		
+					# female = no		
+					# attributes = {		
+						# diplomacy = 2	
+						# learning = 2	
+						# stewardship = 8	
+						# intrigue = 2	
+						# martial = 2	
+					# }		
+				# }			
+				# new_character = {			
+					# save_event_target_as = civilian_theme_new_holder		
+					# set_character_flag = civilian_theme_new_holder		
+				# }
+				# any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
+					# limit = {
+						# holder = event_target:military_theme_holder
+						# NOT = { 
+							# tier = baron 
+							# OR = {
+								# title = k_opsikon_theme
+								# title = k_roman_family_1
+							# }
+						# }		
+					# }			
+					# grant_title_no_opinion = event_target:civilian_theme_new_holder			
+				# }
+				# if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was not underage
+					# limit = {
+						# is_adult = yes
+					# }
+					# event_target:civilian_theme_new_holder = {
+						# make_tributary = {
+							# who = PREV
+							# tributary_type = theme_military
+						# }
+					# }
+					
+				# }
+				# if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was underage
+					# limit = {
+						# is_adult = no
+					# }
+					# event_target:civilian_theme_new_holder = {
+						# make_tributary = {
+							# who = event_target:military_theme_new_holder
+							# tributary_type = theme_military
+						# }
+					# }
+				# }
+			# }
+		# }
 			
 	}	
 
