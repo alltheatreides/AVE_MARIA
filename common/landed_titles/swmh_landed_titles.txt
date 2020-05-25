@@ -7222,121 +7222,121 @@ e_byzantium = { # Basileia Rhõmaiõn
 		tuscan = "dell'arcipelago"
 		ligurian = "dell'arcipelago"
 		venetian = "dell'arcipelago"
-		c_kyzikos = { # Kyzikos (743)
-			color = { 214 113 179 }
+		d_abydos = {
+			color = { 104 8 103 }
 			color2 = { 255 255 255 }
-			oghuz = "Erdek"
-			turkmen = "Erdek"
-			turkish = "Erdek"
-			pecheneg = "Erdek"
-			b_pegai = {
-				oghuz = "Biga"
-				turkmen = "Biga"
-				turkish = "Biga"
-				pecheneg = "Biga"
-			}
-			b_artake = {
+			capital = 484 # Kykládes # Naxos
+			sardinian = "dell'arcipelago"
+			dalmatian = "dell'arcipelago"
+			sicilian = "dell'arcipelago"
+			umbrian = "dell'arcipelago"
+			italian = "dell'arcipelago"
+			laziale = "dell'arcipelago"
+			langobardisch = "dell'arcipelago"
+			neapolitan = "dell'arcipelago"
+			tuscan = "dell'arcipelago"
+			ligurian = "dell'arcipelago"
+			venetian = "dell'arcipelago"
+			
+			c_kyzikos = { # Kyzikos (743)
+				color = { 214 113 179 }
+				color2 = { 255 255 255 }
 				oghuz = "Erdek"
 				turkmen = "Erdek"
 				turkish = "Erdek"
 				pecheneg = "Erdek"
+				b_pegai = {
+					oghuz = "Biga"
+					turkmen = "Biga"
+					turkish = "Biga"
+					pecheneg = "Biga"
+				}
+				b_artake = {
+					oghuz = "Erdek"
+					turkmen = "Erdek"
+					turkish = "Erdek"
+					pecheneg = "Erdek"
+				}
+				b_kyzikos = {
+					oghuz = "Aydincik"
+					turkmen = "Aydincik"
+					turkish = "Aydincik"
+					pecheneg = "Aydincik"
+				}
+				b_panormos = {
+					oghuz = "Bandirma"
+					turkmen = "Bandirma"
+					turkish = "Bandirma"
+					pecheneg = "Bandirma"
+				}
 			}
-			b_kyzikos = {
-				oghuz = "Aydincik"
-				turkmen = "Aydincik"
-				turkish = "Aydincik"
-				pecheneg = "Aydincik"
-			}
-			b_panormos = {
-				oghuz = "Bandirma"
-				turkmen = "Bandirma"
-				turkish = "Bandirma"
-				pecheneg = "Bandirma"
-			}
-		}
-		c_kaliopolis = { # Kallipolis (2053)
-			color = { 194 103 196 }
-			color2 = { 255 255 255 }
-			oghuz = "Gelibolu"
-			turkmen = "Gelibolu"
-			turkish = "Gelibolu"
-			pecheneg = "Gelibolu"
-			b_gallipoli = {
+			c_kaliopolis = { # Kallipolis (2053)
+				color = { 194 103 196 }
+				color2 = { 255 255 255 }
 				oghuz = "Gelibolu"
 				turkmen = "Gelibolu"
 				turkish = "Gelibolu"
 				pecheneg = "Gelibolu"
-			}
-			b_hexamilion = {
-				oghuz = "Eksamil"
-				turkmen = "Eksamil"
-				turkish = "Eksamil"
-				pecheneg = "Eksamil"
-			}
-			b_madyta = {
-				oghuz = "Maydos"
-				turkmen = "Maydos"
-				turkish = "Maydos"
-				pecheneg = "Maydos"
-			}
-			b_tzympe = {
-				oghuz = "Cimpe"
-				turkmen = "Cimpe"
-				turkish = "Cimpe"
-				pecheneg = "Cimpe"
-			}
-			b_sestos_choiridokastron = {}
-		} # end c_kaliopolis
-		c_abydos = { # Troád (744)
-			color = { 147 55 115 }
-			color2 = { 255 255 255 }
-			oghuz = "Canakkale"
-			turkmen = "Canakkale"
-			turkish = "Canakkale"
-			pecheneg = "Canakkale"
-			b_abydos = {
+				b_gallipoli = {
+					oghuz = "Gelibolu"
+					turkmen = "Gelibolu"
+					turkish = "Gelibolu"
+					pecheneg = "Gelibolu"
+				}
+				b_hexamilion = {
+					oghuz = "Eksamil"
+					turkmen = "Eksamil"
+					turkish = "Eksamil"
+					pecheneg = "Eksamil"
+				}
+				b_madyta = {
+					oghuz = "Maydos"
+					turkmen = "Maydos"
+					turkish = "Maydos"
+					pecheneg = "Maydos"
+				}
+				b_tzympe = {
+					oghuz = "Cimpe"
+					turkmen = "Cimpe"
+					turkish = "Cimpe"
+					pecheneg = "Cimpe"
+				}
+				b_sestos_choiridokastron = {}
+			} # end c_kaliopolis
+			c_abydos = { # Troád (744)
+				color = { 147 55 115 }
+				color2 = { 255 255 255 }
 				oghuz = "Canakkale"
 				turkmen = "Canakkale"
 				turkish = "Canakkale"
 				pecheneg = "Canakkale"
+				b_abydos = {
+					oghuz = "Canakkale"
+					turkmen = "Canakkale"
+					turkish = "Canakkale"
+					pecheneg = "Canakkale"
+				}
+				b_alexandriatroas = {
+					oghuz = "Eski Stambul"
+					turkmen = "Eski Stambul"
+					turkish = "Eski Stambul"
+					pecheneg = "Eski Stambul"
+				}
+				b_lampsakos = {
+					oghuz = "Lapseki"
+					turkmen = "Lapseki"
+					turkish = "Lapseki"
+					pecheneg = "Lapseki"
+				}
+				b_ilion = {}
 			}
-			b_alexandriatroas = {
-				oghuz = "Eski Stambul"
-				turkmen = "Eski Stambul"
-				turkish = "Eski Stambul"
-				pecheneg = "Eski Stambul"
-			}
-			b_lampsakos = {
-				oghuz = "Lapseki"
-				turkmen = "Lapseki"
-				turkish = "Lapseki"
-				pecheneg = "Lapseki"
-			}
-			b_ilion = {}
-		}
-		c_naxos = { # Kykládes (484)
-			color = { 149 57 117 }
-			color2 = { 255 255 255 }
-			oghuz = "Kiklad"
-			turkmen = "Kiklad"
-			turkish = "Kiklad"
-			pecheneg = "Kiklad"
-			sardinian = "Nasso"
-			dalmatian = "Nasso"
-			sicilian = "Nasso"
-			umbrian = "Nasso"
-			italian = "Nasso"
-			laziale = "Nasso"
-			langobardisch = "Nasso"
-			neapolitan = "Nasso"
-			tuscan = "Nasso"
-			ligurian = "Nasso"
-			venetian = "Nasso"
-			b_naxos = {
-				oghuz = "Naksa"
-				turkmen = "Naksa"
-				turkish = "Naksa"
-				pecheneg = "Naksa"
+			c_naxos = { # Kykládes (484)
+				color = { 149 57 117 }
+				color2 = { 255 255 255 }
+				oghuz = "Kiklad"
+				turkmen = "Kiklad"
+				turkish = "Kiklad"
+				pecheneg = "Kiklad"
 				sardinian = "Nasso"
 				dalmatian = "Nasso"
 				sicilian = "Nasso"
@@ -7348,158 +7348,176 @@ e_byzantium = { # Basileia Rhõmaiõn
 				tuscan = "Nasso"
 				ligurian = "Nasso"
 				venetian = "Nasso"
-			}
-			b_paros = {
-				sardinian = "Pari"
-				dalmatian = "Pari"
-				sicilian = "Pari"
-				umbrian = "Pari"
-				italian = "Pari"
-				laziale = "Pari"
-				langobardisch = "Pari"
-				neapolitan = "Pari"
-				tuscan = "Pari"
-				ligurian = "Pari"
-				venetian = "Pari"
-			}
-			b_thera = {
-				greek = "Thera"
-				oghuz = "Santoron"
-				turkmen = "Santoron"
-				turkish = "Santoron"
-				pecheneg = "Santoron"
-				sardinian = "Santa Irene"
-				dalmatian = "Santa Irene"
-				sicilian = "Santa Irene"
-				umbrian = "Santa Irene"
-				italian = "Santa Irene"
-				laziale = "Santa Irene"
-				langobardisch = "Santa Irene"
-				neapolitan = "Santa Irene"
-				tuscan = "Santa Irene"
-				ligurian = "Santa Irene"
-				venetian = "Santa Irene"
-			}
-			b_andros = {
-				sardinian = "Andria"
-				dalmatian = "Andria"
-				sicilian = "Andria"
-				umbrian = "Andria"
-				italian = "Andria"
-				laziale = "Andria"
-				langobardisch = "Andria"
-				neapolitan = "Andria"
-				tuscan = "Andria"
-				ligurian = "Andria"
-				venetian = "Andria"
-				frankish = "André"
-			}
-			b_syros = {
-				oghuz = "Sire"
-				turkmen = "Sire"
-				turkish = "Sire"
-				pecheneg = "Sire"
-				sardinian = "Suda"
-				dalmatian = "Suda"
-				sicilian = "Suda"
-				umbrian = "Suda"
-				italian = "Suda"
-				laziale = "Suda"
-				langobardisch = "Suda"
-				neapolitan = "Suda"
-				tuscan = "Suda"
-				ligurian = "Suda"
-				venetian = "Suda"
-				frankish = "La Souda"
-			}
-			b_mykonos = {
-				sardinian = "Micolí"
-				dalmatian = "Micolí"
-				sicilian = "Micolí"
-				umbrian = "Micolí"
-				italian = "Micolí"
-				laziale = "Micolí"
-				langobardisch = "Micolí"
-				neapolitan = "Micolí"
-				tuscan = "Micolí"
-				ligurian = "Micolí"
-				venetian = "Micolí"
-				frankish = "Micoles"
-			}
-		} # end c_naxos
-		c_chios = { # Chios (486)
-			color = { 243 48 177 }
-			color2 = { 255 255 255 }
-			oghuz = "Sakiz"
-			turkmen = "Sakiz"
-			turkish = "Sakiz"
-			pecheneg = "Sakiz"
-			b_kastrochios = {
-				oghuz = "Sakiz Hisar"
-				turkmen = "Sakiz Hisar"
-				turkish = "Sakiz Hisar"
-				pecheneg = "Sakiz Hisar"
-			}
-			b_chios = {
+				b_naxos = {
+					oghuz = "Naksa"
+					turkmen = "Naksa"
+					turkish = "Naksa"
+					pecheneg = "Naksa"
+					sardinian = "Nasso"
+					dalmatian = "Nasso"
+					sicilian = "Nasso"
+					umbrian = "Nasso"
+					italian = "Nasso"
+					laziale = "Nasso"
+					langobardisch = "Nasso"
+					neapolitan = "Nasso"
+					tuscan = "Nasso"
+					ligurian = "Nasso"
+					venetian = "Nasso"
+				}
+				b_paros = {
+					sardinian = "Pari"
+					dalmatian = "Pari"
+					sicilian = "Pari"
+					umbrian = "Pari"
+					italian = "Pari"
+					laziale = "Pari"
+					langobardisch = "Pari"
+					neapolitan = "Pari"
+					tuscan = "Pari"
+					ligurian = "Pari"
+					venetian = "Pari"
+				}
+				b_thera = {
+					greek = "Thera"
+					oghuz = "Santoron"
+					turkmen = "Santoron"
+					turkish = "Santoron"
+					pecheneg = "Santoron"
+					sardinian = "Santa Irene"
+					dalmatian = "Santa Irene"
+					sicilian = "Santa Irene"
+					umbrian = "Santa Irene"
+					italian = "Santa Irene"
+					laziale = "Santa Irene"
+					langobardisch = "Santa Irene"
+					neapolitan = "Santa Irene"
+					tuscan = "Santa Irene"
+					ligurian = "Santa Irene"
+					venetian = "Santa Irene"
+				}
+				b_andros = {
+					sardinian = "Andria"
+					dalmatian = "Andria"
+					sicilian = "Andria"
+					umbrian = "Andria"
+					italian = "Andria"
+					laziale = "Andria"
+					langobardisch = "Andria"
+					neapolitan = "Andria"
+					tuscan = "Andria"
+					ligurian = "Andria"
+					venetian = "Andria"
+					frankish = "André"
+				}
+				b_syros = {
+					oghuz = "Sire"
+					turkmen = "Sire"
+					turkish = "Sire"
+					pecheneg = "Sire"
+					sardinian = "Suda"
+					dalmatian = "Suda"
+					sicilian = "Suda"
+					umbrian = "Suda"
+					italian = "Suda"
+					laziale = "Suda"
+					langobardisch = "Suda"
+					neapolitan = "Suda"
+					tuscan = "Suda"
+					ligurian = "Suda"
+					venetian = "Suda"
+					frankish = "La Souda"
+				}
+				b_mykonos = {
+					sardinian = "Micolí"
+					dalmatian = "Micolí"
+					sicilian = "Micolí"
+					umbrian = "Micolí"
+					italian = "Micolí"
+					laziale = "Micolí"
+					langobardisch = "Micolí"
+					neapolitan = "Micolí"
+					tuscan = "Micolí"
+					ligurian = "Micolí"
+					venetian = "Micolí"
+					frankish = "Micoles"
+				}
+			} # end c_naxos
+			c_chios = { # Chios (486)
+				color = { 243 48 177 }
+				color2 = { 255 255 255 }
 				oghuz = "Sakiz"
 				turkmen = "Sakiz"
 				turkish = "Sakiz"
 				pecheneg = "Sakiz"
+				b_kastrochios = {
+					oghuz = "Sakiz Hisar"
+					turkmen = "Sakiz Hisar"
+					turkish = "Sakiz Hisar"
+					pecheneg = "Sakiz Hisar"
+				}
+				b_chios = {
+					oghuz = "Sakiz"
+					turkmen = "Sakiz"
+					turkish = "Sakiz"
+					pecheneg = "Sakiz"
+				}
+				b_samos = {
+					oghuz = "Sisam"
+					turkmen = "Sisam"
+					turkish = "Sisam"
+					pecheneg = "Sisam"
+				}
+				b_neamoni = {}
 			}
-			b_samos = {
-				oghuz = "Sisam"
-				turkmen = "Sisam"
-				turkish = "Sisam"
-				pecheneg = "Sisam"
-			}
-			b_neamoni = {}
-		}
-		c_lesbos = { # Nisia Aigaiou (487)
-			color = { 153 61 121 }
-			color2 = { 255 255 255 }
-			sardinian = "Lesbos"
-			dalmatian = "Lesbos"
-			sicilian = "Lesbos"
-			umbrian = "Lesbos"
-			italian = "Lesbos"
-			laziale = "Lesbos"
-			langobardisch = "Lesbos"
-			neapolitan = "Lesbos"
-			tuscan = "Lesbos"
-			ligurian = "Lesbos"
-			venetian = "Lesbos"
-			oghuz = "Midilli"
-			turkmen = "Midilli"
-			turkish = "Midilli"
-			pecheneg = "Midilli"
-			b_mytilene = {
+			c_lesbos = { # Nisia Aigaiou (487)
+				color = { 153 61 121 }
+				color2 = { 255 255 255 }
+				sardinian = "Lesbos"
+				dalmatian = "Lesbos"
+				sicilian = "Lesbos"
+				umbrian = "Lesbos"
+				italian = "Lesbos"
+				laziale = "Lesbos"
+				langobardisch = "Lesbos"
+				neapolitan = "Lesbos"
+				tuscan = "Lesbos"
+				ligurian = "Lesbos"
+				venetian = "Lesbos"
 				oghuz = "Midilli"
 				turkmen = "Midilli"
 				turkish = "Midilli"
 				pecheneg = "Midilli"
-			}
-			b_mithymna = {
-				oghuz = "Molivo"
-				turkmen = "Molivo"
-				turkish = "Molivo"
-				pecheneg = "Molivo"
-			}
-			b_eresos = {}
-			b_hephaistia = {}
-			b_samothrake = {
-				oghuz = "Semadirek"
-				turkmen = "Semadirek"
-				turkish = "Semadirek"
-				pecheneg = "Semadirek"
-			}
-			b_imbros = {
-				oghuz = "Imroz"
-				turkmen = "Imroz"
-				turkish = "Imroz"
-				pecheneg = "Imroz"
-			}
-			b_skyros = {}
-		} # end c_lesbos
+				b_mytilene = {
+					oghuz = "Midilli"
+					turkmen = "Midilli"
+					turkish = "Midilli"
+					pecheneg = "Midilli"
+				}
+				b_mithymna = {
+					oghuz = "Molivo"
+					turkmen = "Molivo"
+					turkish = "Molivo"
+					pecheneg = "Molivo"
+				}
+				b_eresos = {}
+				b_hephaistia = {}
+				b_samothrake = {
+					oghuz = "Semadirek"
+					turkmen = "Semadirek"
+					turkish = "Semadirek"
+					pecheneg = "Semadirek"
+				}
+				b_imbros = {
+					oghuz = "Imroz"
+					turkmen = "Imroz"
+					turkish = "Imroz"
+					pecheneg = "Imroz"
+				}
+				b_skyros = {}
+			} # end c_lesbos
+			
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_abydos
 	k_thrace = { # Thrakes
@@ -7525,128 +7543,110 @@ e_byzantium = { # Basileia Rhõmaiõn
 		catholic = 125 # Crusade target weight
 		sunni = 225 # Crusade target weight
 		shiite = 100 # Crusade target weight
-		c_selymbria = { # Selymbria (495)
-			color = { 176 80 143 }
+		d_thrace = {
+			color = { 194 129 1 }
 			color2 = { 255 255 255 }
-			oghuz = "Silivri"
-			turkmen = "Silivri"
-			turkish = "Silivri"
-			pecheneg = "Silivri"
-			b_selymbria = {
+			capital = 496 # Konstantinoupolis # Byzantion
+			norman = "Thrace"
+			frankish = "Thrace"
+			bulgarian = "Trakija"
+			bedouin_arabic = "Tráqiya"
+			hijazi = "Tráqiya"
+			yemeni = "Tráqiya"
+			maghreb_arabic = "Tráqiya"
+			levantine_arabic = "Tráqiya"
+			egyptian_arabic = "Tráqiya"
+			andalusian_arabic = "Tráqiya"
+			sicilian_arabic = "Tráqiya"
+			oghuz = "Trakya"
+			turkmen = "Trakya"
+			turkish = "Trakya"
+			pecheneg = "Trakya"
+			c_selymbria = { # Selymbria (495)
+				color = { 176 80 143 }
+				color2 = { 255 255 255 }
 				oghuz = "Silivri"
 				turkmen = "Silivri"
 				turkish = "Silivri"
 				pecheneg = "Silivri"
-			}
-			b_raidestos = {
-				oghuz = "Rodoscuk"
-				turkmen = "Rodoscuk"
-				turkish = "Rodoscuk"
-				pecheneg = "Rodoscuk"
-				sardinian = "Rodosto"
-				dalmatian = "Rodosto"
-				sicilian = "Rodosto"
-				umbrian = "Rodosto"
-				italian = "Rodosto"
-				laziale = "Rodosto"
-				langobardisch = "Rodosto"
-				neapolitan = "Rodosto"
-				tuscan = "Rodosto"
-				ligurian = "Rodosto"
-				venetian = "Rodosto"
-				frankish = "Rodosto"
-				norman = "Rodosto"
-			}
-			b_herakleiaperinthos = {
-				frankish = "Héraclée"
-				norman = "Héraclée"
-				sardinian = "Heraclea"
-				dalmatian = "Heraclea"
-				sicilian = "Heraclea"
-				umbrian = "Heraclea"
-				italian = "Heraclea"
-				laziale = "Heraclea"
-				langobardisch = "Heraclea"
-				neapolitan = "Heraclea"
-				tuscan = "Heraclea"
-				ligurian = "Heraclea"
-				venetian = "Heraclea"
-				oghuz = "Eregli"
-				turkmen = "Eregli"
-				turkish = "Eregli"
-				pecheneg = "Eregli"
-			}
-			b_ainos = {
-				oghuz = "Enez"
-				turkmen = "Enez"
-				turkish = "Enez"
-				pecheneg = "Enez"
-			}
-			b_tzouroulos = {
-				oghuz = "Corlu"
-				turkmen = "Corlu"
-				turkish = "Corlu"
-				pecheneg = "Corlu"
-			}
-			b_chariopolis = {
-				oghuz = "Hayrabolu"
-				turkmen = "Hayrabolu"
-				turkish = "Hayrabolu"
-				pecheneg = "Hayrabolu"
-			}
-			b_kypsela = {
-				oghuz = "Ipsala"
-				turkmen = "Ipsala"
-				turkish = "Ipsala"
-				pecheneg = "Ipsala"
-			}
-		} # end c_selymbria
-		c_byzantion = { # Konstantinoupolis (496)
-			color = { 180 84 147 }
-			color2 = { 255 255 255 }
-			orthodox = 500 # Crusade target weight
-			catholic = 300 # Crusade target weight
-			muslim = 300 # Crusade target weight
-			sunni = 300 # Crusade target weight
-			shiite = 100 # Crusade target weight
-			top_de_jure_capital = yes
-			norwegian = "Miklagarðr"
-			danish = "Miklagarðr"
-			swedish = "Miklagarðr"
-			anglonorse = "Miklagarðr"
-			gothic = "Miklagarðr"
-			norse = "Miklagarðr"
-			norsegaelic = "Miklagarðr"
-			icelandic = "Miklagarðr"
-			saxon = "Miklagarðr"
-			bohemian = "Carzihrad"
-			slovieni = "Carzihrad"
-			pommeranian = "Tsargrad"
-			polish = "Tsargrad"
-			serbian = "Tsargrad"
-			croatian = "Tsargrad"
-			bosnian = "Tsargrad"
-			carantanian = "Tsargrad"
-			russian = "Tsargrad"
-			bulgarian = "Tsargrad"
-			kurdish = "al-Qustantíniyya"
-			bedouin_arabic = "al-Qustantíniyya"
-			sicilian_arabic = "al-Qustantíniyya"
-			hijazi = "al-Qustantíniyya"
-			yemeni = "al-Qustantíniyya"
-			maghreb_arabic = "al-Qustantíniyya"
-			levantine_arabic = "al-Qustantíniyya"
-			egyptian_arabic = "al-Qustantíniyya"
-			andalusian_arabic = "al-Qustantíniyya"
-			oghuz = "Kostantiniye"
-			turkmen = "Kostantiniye"
-			turkish = "Kostantiniye"
-			pecheneg = "Kostantiniye"
-			thuringian = "Konstantinusesburg"
-			swabian = "Konstantinusesburg"
-			bavarian = "Konstantinusesburg"
-			franconian = "Konstantinusesburg"
-			b_constantinople = {
+				b_selymbria = {
+					oghuz = "Silivri"
+					turkmen = "Silivri"
+					turkish = "Silivri"
+					pecheneg = "Silivri"
+				}
+				b_raidestos = {
+					oghuz = "Rodoscuk"
+					turkmen = "Rodoscuk"
+					turkish = "Rodoscuk"
+					pecheneg = "Rodoscuk"
+					sardinian = "Rodosto"
+					dalmatian = "Rodosto"
+					sicilian = "Rodosto"
+					umbrian = "Rodosto"
+					italian = "Rodosto"
+					laziale = "Rodosto"
+					langobardisch = "Rodosto"
+					neapolitan = "Rodosto"
+					tuscan = "Rodosto"
+					ligurian = "Rodosto"
+					venetian = "Rodosto"
+					frankish = "Rodosto"
+					norman = "Rodosto"
+				}
+				b_herakleiaperinthos = {
+					frankish = "Héraclée"
+					norman = "Héraclée"
+					sardinian = "Heraclea"
+					dalmatian = "Heraclea"
+					sicilian = "Heraclea"
+					umbrian = "Heraclea"
+					italian = "Heraclea"
+					laziale = "Heraclea"
+					langobardisch = "Heraclea"
+					neapolitan = "Heraclea"
+					tuscan = "Heraclea"
+					ligurian = "Heraclea"
+					venetian = "Heraclea"
+					oghuz = "Eregli"
+					turkmen = "Eregli"
+					turkish = "Eregli"
+					pecheneg = "Eregli"
+				}
+				b_ainos = {
+					oghuz = "Enez"
+					turkmen = "Enez"
+					turkish = "Enez"
+					pecheneg = "Enez"
+				}
+				b_tzouroulos = {
+					oghuz = "Corlu"
+					turkmen = "Corlu"
+					turkish = "Corlu"
+					pecheneg = "Corlu"
+				}
+				b_chariopolis = {
+					oghuz = "Hayrabolu"
+					turkmen = "Hayrabolu"
+					turkish = "Hayrabolu"
+					pecheneg = "Hayrabolu"
+				}
+				b_kypsela = {
+					oghuz = "Ipsala"
+					turkmen = "Ipsala"
+					turkish = "Ipsala"
+					pecheneg = "Ipsala"
+				}
+			} # end c_selymbria
+			c_byzantion = { # Konstantinoupolis (496)
+				color = { 180 84 147 }
+				color2 = { 255 255 255 }
+				orthodox = 500 # Crusade target weight
+				catholic = 300 # Crusade target weight
+				muslim = 300 # Crusade target weight
+				sunni = 300 # Crusade target weight
+				shiite = 100 # Crusade target weight
+				top_de_jure_capital = yes
 				norwegian = "Miklagarðr"
 				danish = "Miklagarðr"
 				swedish = "Miklagarðr"
@@ -7683,111 +7683,150 @@ e_byzantium = { # Basileia Rhõmaiõn
 				swabian = "Konstantinusesburg"
 				bavarian = "Konstantinusesburg"
 				franconian = "Konstantinusesburg"
-			}
-			b_hagiasophia = {
-				oghuz = "Ayasofya"
-				turkmen = "Ayasofya"
-				turkish = "Ayasofya"
-				pecheneg = "Ayasofya"
-			}
-			b_galata = {
-				oghuz = "Karaköy"
-				turkmen = "Karaköy"
-				turkish = "Karaköy"
-				pecheneg = "Karaköy"
-			}
-			b_blachernae = {
-				oghuz = "Ayvansaray"
-				turkmen = "Ayvansaray"
-				turkish = "Ayvansaray"
-				pecheneg = "Ayvansaray"
-			}
-			b_hieron = { # was b_phanarion & is still localised as such -- for vanilla title compat
-				oghuz = "Fener"
-				turkmen = "Fener"
-				turkish = "Fener"
-				pecheneg = "Fener"
-			}
-			b_deuteron = {
-				oghuz = "Topkapi"
-				turkmen = "Topkapi"
-				turkish = "Topkapi"
-				pecheneg = "Topkapi"
-			}
-			b_pempton = {
-				oghuz = "Yedikule"
-				turkmen = "Yedikule"
-				turkish = "Yedikule"
-				pecheneg = "Yedikule"
-			}
-			#b_vlanga = {
-			#	oghuz = "Yenikapi"
-			#	turkmen = "Yenikapi"
-			#	turkish = "Yenikapi"
-			#	pecheneg = "Yenikapi"
-			#}
-		} # end c_byzantion
-		c_thrake = { # Thráke (497)
-			color = { 184 88 151 }
-			color2 = { 255 255 255 }
-			bulgarian = "Trakija"
-			oghuz = "Trakya"
-			turkmen = "Trakya"
-			turkish = "Trakya"
-			pecheneg = "Trakya"
-			b_arkadiopolis = {
-				bulgarian = "Ljuleburgas"
-				oghuz = "Lüleburgaz"
-				turkmen = "Lüleburgaz"
-				turkish = "Lüleburgaz"
-				pecheneg = "Lüleburgaz"
-			}
-			b_agathopolis = {
-				bulgarian = "Ahtopol"
-				oghuz = "Ahtenbolu"
-				turkmen = "Ahtenbolu"
-				turkish = "Ahtenbolu"
-				pecheneg = "Ahtenbolu"
-			}
-			b_brysis = {
-				sardinian = "Verissa"
-				dalmatian = "Verissa"
-				sicilian = "Verissa"
-				umbrian = "Verissa"
-				italian = "Verissa"
-				laziale = "Verissa"
-				langobardisch = "Verissa"
-				neapolitan = "Verissa"
-				tuscan = "Verissa"
-				ligurian = "Verissa"
-				venetian = "Verissa"
-				frankish = "Verissa"
-				norman = "Verissa"
-				oghuz = "Bunarhisar"
-				turkmen = "Bunarhisar"
-				turkish = "Bunarhisar"
-				pecheneg = "Bunarhisar"
-			}
-			b_bizye = {
-				bulgarian = "Bisa"
-				oghuz = "Vize"
-				turkmen = "Vize"
-				turkish = "Vize"
-				pecheneg = "Vize"
-			}
-			b_bulgarophygon = {
-				oghuz = "Babaeski"
-				turkmen = "Babaeski"
-				turkish = "Babaeski"
-				pecheneg = "Babaeski"
-			}
-			b_medea = {
-				oghuz = "Midye"
-				turkmen = "Midye"
-				turkish = "Midye"
-				pecheneg = "Midye"
-			}
-		} # end c_thrake
+				b_constantinople = {
+					norwegian = "Miklagarðr"
+					danish = "Miklagarðr"
+					swedish = "Miklagarðr"
+					anglonorse = "Miklagarðr"
+					gothic = "Miklagarðr"
+					norse = "Miklagarðr"
+					norsegaelic = "Miklagarðr"
+					icelandic = "Miklagarðr"
+					saxon = "Miklagarðr"
+					bohemian = "Carzihrad"
+					slovieni = "Carzihrad"
+					pommeranian = "Tsargrad"
+					polish = "Tsargrad"
+					serbian = "Tsargrad"
+					croatian = "Tsargrad"
+					bosnian = "Tsargrad"
+					carantanian = "Tsargrad"
+					russian = "Tsargrad"
+					bulgarian = "Tsargrad"
+					kurdish = "al-Qustantíniyya"
+					bedouin_arabic = "al-Qustantíniyya"
+					sicilian_arabic = "al-Qustantíniyya"
+					hijazi = "al-Qustantíniyya"
+					yemeni = "al-Qustantíniyya"
+					maghreb_arabic = "al-Qustantíniyya"
+					levantine_arabic = "al-Qustantíniyya"
+					egyptian_arabic = "al-Qustantíniyya"
+					andalusian_arabic = "al-Qustantíniyya"
+					oghuz = "Kostantiniye"
+					turkmen = "Kostantiniye"
+					turkish = "Kostantiniye"
+					pecheneg = "Kostantiniye"
+					thuringian = "Konstantinusesburg"
+					swabian = "Konstantinusesburg"
+					bavarian = "Konstantinusesburg"
+					franconian = "Konstantinusesburg"
+				}
+				b_hagiasophia = {
+					oghuz = "Ayasofya"
+					turkmen = "Ayasofya"
+					turkish = "Ayasofya"
+					pecheneg = "Ayasofya"
+				}
+				b_galata = {
+					oghuz = "Karaköy"
+					turkmen = "Karaköy"
+					turkish = "Karaköy"
+					pecheneg = "Karaköy"
+				}
+				b_blachernae = {
+					oghuz = "Ayvansaray"
+					turkmen = "Ayvansaray"
+					turkish = "Ayvansaray"
+					pecheneg = "Ayvansaray"
+				}
+				b_hieron = { # was b_phanarion & is still localised as such -- for vanilla title compat
+					oghuz = "Fener"
+					turkmen = "Fener"
+					turkish = "Fener"
+					pecheneg = "Fener"
+				}
+				b_deuteron = {
+					oghuz = "Topkapi"
+					turkmen = "Topkapi"
+					turkish = "Topkapi"
+					pecheneg = "Topkapi"
+				}
+				b_pempton = {
+					oghuz = "Yedikule"
+					turkmen = "Yedikule"
+					turkish = "Yedikule"
+					pecheneg = "Yedikule"
+				}
+				#b_vlanga = {
+				#	oghuz = "Yenikapi"
+				#	turkmen = "Yenikapi"
+				#	turkish = "Yenikapi"
+				#	pecheneg = "Yenikapi"
+				#}
+			} # end c_byzantion
+			c_thrake = { # Thráke (497)
+				color = { 184 88 151 }
+				color2 = { 255 255 255 }
+				bulgarian = "Trakija"
+				oghuz = "Trakya"
+				turkmen = "Trakya"
+				turkish = "Trakya"
+				pecheneg = "Trakya"
+				b_arkadiopolis = {
+					bulgarian = "Ljuleburgas"
+					oghuz = "Lüleburgaz"
+					turkmen = "Lüleburgaz"
+					turkish = "Lüleburgaz"
+					pecheneg = "Lüleburgaz"
+				}
+				b_agathopolis = {
+					bulgarian = "Ahtopol"
+					oghuz = "Ahtenbolu"
+					turkmen = "Ahtenbolu"
+					turkish = "Ahtenbolu"
+					pecheneg = "Ahtenbolu"
+				}
+				b_brysis = {
+					sardinian = "Verissa"
+					dalmatian = "Verissa"
+					sicilian = "Verissa"
+					umbrian = "Verissa"
+					italian = "Verissa"
+					laziale = "Verissa"
+					langobardisch = "Verissa"
+					neapolitan = "Verissa"
+					tuscan = "Verissa"
+					ligurian = "Verissa"
+					venetian = "Verissa"
+					frankish = "Verissa"
+					norman = "Verissa"
+					oghuz = "Bunarhisar"
+					turkmen = "Bunarhisar"
+					turkish = "Bunarhisar"
+					pecheneg = "Bunarhisar"
+				}
+				b_bizye = {
+					bulgarian = "Bisa"
+					oghuz = "Vize"
+					turkmen = "Vize"
+					turkish = "Vize"
+					pecheneg = "Vize"
+				}
+				b_bulgarophygon = {
+					oghuz = "Babaeski"
+					turkmen = "Babaeski"
+					turkish = "Babaeski"
+					pecheneg = "Babaeski"
+				}
+				b_medea = {
+					oghuz = "Midye"
+					turkmen = "Midye"
+					turkish = "Midye"
+					pecheneg = "Midye"
+				}
+			} # end c_thrake
+			
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_thrace
 	k_strymon = { # Strymonos
@@ -7798,107 +7837,117 @@ e_byzantium = { # Basileia Rhõmaiõn
 		turkish = "Serez"
 		pecheneg = "Serez"
 		capital = 492 # Strymonos # Strymon
-		c_traianopolis = { # Traianopolis (1016)
-			color = { 216 77 168 }
+		d_strymon = {
+			color = { 0 86 148 }
 			color2 = { 255 255 255 }
-			bulgarian = "Dimotika"
-			serbian = "Dimotika"
-			oghuz = "Demotika"
-			turkmen = "Demotika"
-			turkish = "Demotika"
-			pecheneg = "Demotika"
-			b_traianopolis = {
-				oghuz = "Hana"
-				turkmen = "Hana"
-				turkish = "Hana"
-				pecheneg = "Hana"
-			}
-			b_didymoteichon = {
+			oghuz = "Serez"
+			turkmen = "Serez"
+			turkish = "Serez"
+			pecheneg = "Serez"
+			capital = 492 # Strymonos # Strymon
+			c_traianopolis = { # Traianopolis (1016)
+				color = { 216 77 168 }
+				color2 = { 255 255 255 }
 				bulgarian = "Dimotika"
 				serbian = "Dimotika"
 				oghuz = "Demotika"
 				turkmen = "Demotika"
 				turkish = "Demotika"
 				pecheneg = "Demotika"
+				b_traianopolis = {
+					oghuz = "Hana"
+					turkmen = "Hana"
+					turkish = "Hana"
+					pecheneg = "Hana"
+				}
+				b_didymoteichon = {
+					bulgarian = "Dimotika"
+					serbian = "Dimotika"
+					oghuz = "Demotika"
+					turkmen = "Demotika"
+					turkish = "Demotika"
+					pecheneg = "Demotika"
+				}
+				b_maroneia = {
+					oghuz = "Maronya"
+					turkmen = "Maronya"
+					turkish = "Maronya"
+					pecheneg = "Maronya"
+				}
+				b_makri = {
+					oghuz = "Miri"
+					turkmen = "Miri"
+					turkish = "Miri"
+					pecheneg = "Miri"
+				}
 			}
-			b_maroneia = {
-				oghuz = "Maronya"
-				turkmen = "Maronya"
-				turkish = "Maronya"
-				pecheneg = "Maronya"
-			}
-			b_makri = {
-				oghuz = "Miri"
-				turkmen = "Miri"
-				turkish = "Miri"
-				pecheneg = "Miri"
-			}
-		}
-		c_strymon = { # Strymonos (492)
-			color = { 139 29 101 }
-			color2 = { 255 255 255 }
-			bulgarian = "Syar"
-			serbian = "Ser"
-			oghuz = "Serez"
-			turkmen = "Serez"
-			turkish = "Serez"
-			pecheneg = "Serez"
-			b_serres = {
+			c_strymon = { # Strymonos (492)
+				color = { 139 29 101 }
+				color2 = { 255 255 255 }
 				bulgarian = "Syar"
 				serbian = "Ser"
 				oghuz = "Serez"
 				turkmen = "Serez"
 				turkish = "Serez"
 				pecheneg = "Serez"
-			}
-			b_kavala = {
-				oghuz = "Yeni Sehir"
-				turkmen = "Yeni Sehir"
-				turkish = "Yeni Sehir"
-				pecheneg = "Yeni Sehir"
-			}
-			b_philippi = {
-				oghuz = "Filibecik"
-				turkmen = "Filibecik"
-				turkish = "Filibecik"
-				pecheneg = "Filibecik"
-			}
-			b_siderokastron = {
-				bulgarian = "Valovishta"
-				oghuz = "Demirhisar"
-				turkmen = "Demirhisar"
-				turkish = "Demirhisar"
-				pecheneg = "Demirhisar"
-			}
-		} # end c_strymon
-		c_mosynopolis = { # Mosynopolis (940)
-			color = { 119 80 71 }
-			color2 = { 255 255 255 }
-			bulgarian = "Gyumyurdzina"
-			oghuz = "Gümülcine"
-			turkmen = "Gümülcine"
-			turkish = "Gümülcine"
-			pecheneg = "Gümülcine"
-			b_mosynopolis = {
+				b_serres = {
+					bulgarian = "Syar"
+					serbian = "Ser"
+					oghuz = "Serez"
+					turkmen = "Serez"
+					turkish = "Serez"
+					pecheneg = "Serez"
+				}
+				b_kavala = {
+					oghuz = "Yeni Sehir"
+					turkmen = "Yeni Sehir"
+					turkish = "Yeni Sehir"
+					pecheneg = "Yeni Sehir"
+				}
+				b_philippi = {
+					oghuz = "Filibecik"
+					turkmen = "Filibecik"
+					turkish = "Filibecik"
+					pecheneg = "Filibecik"
+				}
+				b_siderokastron = {
+					bulgarian = "Valovishta"
+					oghuz = "Demirhisar"
+					turkmen = "Demirhisar"
+					turkish = "Demirhisar"
+					pecheneg = "Demirhisar"
+				}
+			} # end c_strymon
+			c_mosynopolis = { # Mosynopolis (940)
+				color = { 119 80 71 }
+				color2 = { 255 255 255 }
 				bulgarian = "Gyumyurdzina"
 				oghuz = "Gümülcine"
 				turkmen = "Gümülcine"
 				turkish = "Gümülcine"
 				pecheneg = "Gümülcine"
+				b_mosynopolis = {
+					bulgarian = "Gyumyurdzina"
+					oghuz = "Gümülcine"
+					turkmen = "Gümülcine"
+					turkish = "Gümülcine"
+					pecheneg = "Gümülcine"
+				}
+				b_polystylon = {
+					oghuz = "Yenidje"
+					turkmen = "Yenidje"
+					turkish = "Yenidje"
+					pecheneg = "Yenidje"
+				}
+				b_xanthia = {
+					bulgarian = "Skecha"
+					oghuz = "Iskeçe"
+					turkmen = "Iskeçe"
+					turkish = "Iskeçe"
+					pecheneg = "Iskeçe"
+				}
 			}
-			b_polystylon = {
-				oghuz = "Yenidje"
-				turkmen = "Yenidje"
-				turkish = "Yenidje"
-				pecheneg = "Yenidje"
-			}
-			b_xanthia = {
-				bulgarian = "Skecha"
-				oghuz = "Iskeçe"
-				turkmen = "Iskeçe"
-				turkish = "Iskeçe"
-				pecheneg = "Iskeçe"
-			}
+			
 		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_strymon
@@ -7925,36 +7974,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 		turkmen = "Selánik"
 		turkish = "Selánik"
 		pecheneg = "Selánik"
-		c_chalkidike = { # Chalkidike (491)
-			color = { 192 22 133 }
+		d_thessalonika = {
+			color = { 205 22 30 }
 			color2 = { 255 255 255 }
-			oghuz = "Halkidikya"
-			turkmen = "Halkidikya"
-			turkish = "Halkidikya"
-			pecheneg = "Halkidikya"
-			b_kassandria = {
-				oghuz = "Kesendire"
-				pecheneg = "Kesendire"
-				turkmen = "Kesendire"
-				turkish = "Kesendire"
-			}
-			b_mntathos = {
-				oghuz = "Aynaroz"
-				pecheneg = "Aynaroz"
-				turkmen = "Aynaroz"
-				turkish = "Aynaroz"
-			}
-			b_ierissos = {
-				oghuz = "Erse"
-				pecheneg = "Erse"
-				turkmen = "Erse"
-				turkish = "Erse"
-			}
-			b_rendina = {}
-		}
-		c_thessalonike = { # Thessaloníke (490)
-			color = { 195 25 136 }
-			color2 = { 255 255 255 }
+			capital = 490 # Thessaloníke # Thessalonike
 			frankish = "Thessalonique"
 			norman = "Thessalonique"
 			dalmatian = "Tessalonica"
@@ -7970,32 +7993,43 @@ e_byzantium = { # Basileia Rhõmaiõn
 			venetian = "Tessalonica"
 			bulgarian = "Solun"
 			serbian = "Solun"
-			russian = "Solun"
-			slovieni = "Solun"
-			carantanian = "Solun"
-			croatian = "Solun"
-			pommeranian = "Solun"
-			polish = "Solun"
-			bohemian = "Solun"
 			oghuz = "Selánik"
 			turkmen = "Selánik"
-			pecheneg = "Selánik"
 			turkish = "Selánik"
-			b_kastronthessalonika = {
-				oghuz = "Beyaz Kule"
-				turkmen = "Beyaz Kule"
-				pecheneg = "Beyaz Kule"
-				turkish = "Beyaz Kule"
+			pecheneg = "Selánik"
+			c_chalkidike = { # Chalkidike (491)
+				color = { 192 22 133 }
+				color2 = { 255 255 255 }
+				oghuz = "Halkidikya"
+				turkmen = "Halkidikya"
+				turkish = "Halkidikya"
+				pecheneg = "Halkidikya"
+				b_kassandria = {
+					oghuz = "Kesendire"
+					pecheneg = "Kesendire"
+					turkmen = "Kesendire"
+					turkish = "Kesendire"
+				}
+				b_mntathos = {
+					oghuz = "Aynaroz"
+					pecheneg = "Aynaroz"
+					turkmen = "Aynaroz"
+					turkish = "Aynaroz"
+				}
+				b_ierissos = {
+					oghuz = "Erse"
+					pecheneg = "Erse"
+					turkmen = "Erse"
+					turkish = "Erse"
+				}
+				b_rendina = {}
 			}
-			b_hagiosdemetrios = {
-				oghuz = "Kasimiye Camii"
-				turkmen = "Kasimiye Camii"
-				pecheneg = "Kasimiye Camii"
-				turkish = "Kasimiye Camii"
-			}
-			b_thessaloniki = {
+			c_thessalonike = { # Thessaloníke (490)
+				color = { 195 25 136 }
+				color2 = { 255 255 255 }
 				frankish = "Thessalonique"
 				norman = "Thessalonique"
+				dalmatian = "Tessalonica"
 				sardinian = "Tessalonica"
 				sicilian = "Tessalonica"
 				umbrian = "Tessalonica"
@@ -8008,64 +8042,103 @@ e_byzantium = { # Basileia Rhõmaiõn
 				venetian = "Tessalonica"
 				bulgarian = "Solun"
 				serbian = "Solun"
+				russian = "Solun"
+				slovieni = "Solun"
+				carantanian = "Solun"
+				croatian = "Solun"
+				pommeranian = "Solun"
+				polish = "Solun"
+				bohemian = "Solun"
 				oghuz = "Selánik"
 				turkmen = "Selánik"
 				pecheneg = "Selánik"
 				turkish = "Selánik"
-			}
-			b_thesedessa = {
-				bulgarian = "Vodinu"
-				serbian = "Vodinu"
-				romanian = "Vudena"
-				oghuz = "Vodina"
-				turkmen = "Vodina"
-				pecheneg = "Vodina"
-				turkish = "Vodina"
-			}
-			b_langadas = {
-				oghuz = "Langaza"
-				turkmen = "Langaza"
-				pecheneg = "Langaza"
-				turkish = "Langaza"
-			}
-			b_gynaikokastron = {}
-			b_sthlanitza = {
-				oghuz = "Yenice-i Vardar"
-				turkmen = "Yenice-i Vardar"
-				pecheneg = "Yenice-i Vardar"
-				turkish = "Yenice-i Vardar"
-			}
-		} # end c_thessalonike
-		c_veria = { # Verroia (1346)
-			color = { 192 22 133 }
-			color2 = { 255 255 255 }
-			bulgarian = "Ber"
-			serbian = "Ber"
-			oghuz = "Karaferye"
-			turkmen = "Karaferye"
-			pecheneg = "Karaferye"
-			turkish = "Karaferye"
-			b_servia = {
-				oghuz = "Serfiçe"
-				turkmen = "Serfiçe"
-				pecheneg = "Serfiçe"
-				turkish = "Serfiçe"
-			}
-			b_veria = {
+				b_kastronthessalonika = {
+					oghuz = "Beyaz Kule"
+					turkmen = "Beyaz Kule"
+					pecheneg = "Beyaz Kule"
+					turkish = "Beyaz Kule"
+				}
+				b_hagiosdemetrios = {
+					oghuz = "Kasimiye Camii"
+					turkmen = "Kasimiye Camii"
+					pecheneg = "Kasimiye Camii"
+					turkish = "Kasimiye Camii"
+				}
+				b_thessaloniki = {
+					frankish = "Thessalonique"
+					norman = "Thessalonique"
+					sardinian = "Tessalonica"
+					sicilian = "Tessalonica"
+					umbrian = "Tessalonica"
+					italian = "Tessalonica"
+					laziale = "Tessalonica"
+					langobardisch = "Tessalonica"
+					neapolitan = "Tessalonica"
+					tuscan = "Tessalonica"
+					ligurian = "Tessalonica"
+					venetian = "Tessalonica"
+					bulgarian = "Solun"
+					serbian = "Solun"
+					oghuz = "Selánik"
+					turkmen = "Selánik"
+					pecheneg = "Selánik"
+					turkish = "Selánik"
+				}
+				b_thesedessa = {
+					bulgarian = "Vodinu"
+					serbian = "Vodinu"
+					romanian = "Vudena"
+					oghuz = "Vodina"
+					turkmen = "Vodina"
+					pecheneg = "Vodina"
+					turkish = "Vodina"
+				}
+				b_langadas = {
+					oghuz = "Langaza"
+					turkmen = "Langaza"
+					pecheneg = "Langaza"
+					turkish = "Langaza"
+				}
+				b_gynaikokastron = {}
+				b_sthlanitza = {
+					oghuz = "Yenice-i Vardar"
+					turkmen = "Yenice-i Vardar"
+					pecheneg = "Yenice-i Vardar"
+					turkish = "Yenice-i Vardar"
+				}
+			} # end c_thessalonike
+			c_veria = { # Verroia (1346)
+				color = { 192 22 133 }
+				color2 = { 255 255 255 }
 				bulgarian = "Ber"
 				serbian = "Ber"
 				oghuz = "Karaferye"
 				turkmen = "Karaferye"
 				pecheneg = "Karaferye"
 				turkish = "Karaferye"
+				b_servia = {
+					oghuz = "Serfiçe"
+					turkmen = "Serfiçe"
+					pecheneg = "Serfiçe"
+					turkish = "Serfiçe"
+				}
+				b_veria = {
+					bulgarian = "Ber"
+					serbian = "Ber"
+					oghuz = "Karaferye"
+					turkmen = "Karaferye"
+					pecheneg = "Karaferye"
+					turkish = "Karaferye"
+				}
+				b_kitros = {
+					oghuz = "Citroz"
+					turkmen = "Citroz"
+					pecheneg = "Citroz"
+					turkish = "Citroz"
+				}
+				b_dion = {}
 			}
-			b_kitros = {
-				oghuz = "Citroz"
-				turkmen = "Citroz"
-				pecheneg = "Citroz"
-				turkish = "Citroz"
-			}
-			b_dion = {}
 		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_thessalonika
@@ -8091,69 +8164,52 @@ e_byzantium = { # Basileia Rhõmaiõn
 		turkmen = "Tesalya"
 		turkish = "Tesalya"
 		pecheneg = "Tesalya"
-		c_thessalia = { # Thessalía (489)
-			color = { 198 28 139 }
-			color2 = { 255 255 255 }
-			sardinian = "Tessaglia"
-			dalmatian = "Tessaglia"
-			sicilian = "Tessaglia"
-			umbrian = "Tessaglia"
-			italian = "Tessaglia"
-			laziale = "Tessaglia"
-			langobardisch = "Tessaglia"
-			neapolitan = "Tessaglia"
-			tuscan = "Tessaglia"
-			ligurian = "Tessaglia"
-			venetian = "Tessaglia"
-			frankish = "Thessalie"
-			norman = "Thessalie"
-			catalan = "Tessália"
-			oghuz = "Tesalya"
-			turkmen = "Tesalya"
-			turkish = "Tesalya"
-			pecheneg = "Tesalya"
-			b_larissa = {
-				oghuz = "Yenisehir i-Fenari"
-				turkmen = "Yenisehir i-Fenari"
-				pecheneg = "Yenisehir i-Fenari"
-				turkish = "Yenisehir i-Fenari"
-			}
-			b_elasson = {
-				oghuz = "Alasonya"
-				turkmen = "Alasonya"
-				pecheneg = "Alasonya"
-				turkish = "Alasonya"
-			}
-			b_platamon = {
-				oghuz = "Platamona"
-				turkmen = "Platamona"
-				pecheneg = "Platamona"
-				turkish = "Platamona"
-			}
-			b_domenikon = {}
-			b_tyrnavos = {}
-		} # end c_thessalia
-		c_demetrias = { # Demetrias (488)
-			color = { 209 69 161 }
-			color2 = { 255 255 255 }
-			sardinian = "Dimitrias"
-			dalmatian = "Dimitrias"
-			sicilian = "Dimitrias"
-			umbrian = "Dimitrias"
-			italian = "Dimitrias"
-			laziale = "Dimitrias"
-			langobardisch = "Dimitrias"
-			neapolitan = "Dimitrias"
-			tuscan = "Dimitrias"
-			ligurian = "Dimitrias"
-			venetian = "Dimitrias"
-			frankish = "Mitre"
-			norman = "Mitre"
-			oghuz = "Golos"
-			turkmen = "Golos"
-			pecheneg = "Golos"
-			turkish = "Golos"
-			b_demetrias = {
+		d_neopatras = {
+			c_thessalia = { # Thessalía (489)
+				color = { 198 28 139 }
+				color2 = { 255 255 255 }
+				sardinian = "Tessaglia"
+				dalmatian = "Tessaglia"
+				sicilian = "Tessaglia"
+				umbrian = "Tessaglia"
+				italian = "Tessaglia"
+				laziale = "Tessaglia"
+				langobardisch = "Tessaglia"
+				neapolitan = "Tessaglia"
+				tuscan = "Tessaglia"
+				ligurian = "Tessaglia"
+				venetian = "Tessaglia"
+				frankish = "Thessalie"
+				norman = "Thessalie"
+				catalan = "Tessália"
+				oghuz = "Tesalya"
+				turkmen = "Tesalya"
+				turkish = "Tesalya"
+				pecheneg = "Tesalya"
+				b_larissa = {
+					oghuz = "Yenisehir i-Fenari"
+					turkmen = "Yenisehir i-Fenari"
+					pecheneg = "Yenisehir i-Fenari"
+					turkish = "Yenisehir i-Fenari"
+				}
+				b_elasson = {
+					oghuz = "Alasonya"
+					turkmen = "Alasonya"
+					pecheneg = "Alasonya"
+					turkish = "Alasonya"
+				}
+				b_platamon = {
+					oghuz = "Platamona"
+					turkmen = "Platamona"
+					pecheneg = "Platamona"
+					turkish = "Platamona"
+				}
+				b_domenikon = {}
+				b_tyrnavos = {}
+			} # end c_thessalia
+			c_demetrias = { # Demetrias (488)
+				color = { 209 69 161 }
+				color2 = { 255 255 255 }
 				sardinian = "Dimitrias"
 				dalmatian = "Dimitrias"
 				sicilian = "Dimitrias"
@@ -8171,181 +8227,200 @@ e_byzantium = { # Basileia Rhõmaiõn
 				turkmen = "Golos"
 				pecheneg = "Golos"
 				turkish = "Golos"
-			}
-			b_halmyros = {
-				sardinian = "Almiró"
-				dalmatian = "Almiró"
-				sicilian = "Almiró"
-				umbrian = "Almiró"
-				italian = "Almiró"
-				laziale = "Almiró"
-				langobardisch = "Almiró"
-				neapolitan = "Almiró"
-				tuscan = "Almiró"
-				ligurian = "Almiró"
-				venetian = "Almiró"
-				frankish = "L'Amiro"
-				norman = "L'Amiro"
-				oghuz = "Ermiye"
-				turkmen = "Ermiye"
-				pecheneg = "Ermiye"
-				turkish = "Ermiye"
-			}
-			b_velestino = {
-				oghuz = "Velestin"
-				turkmen = "Velestin"
-				pecheneg = "Velestin"
-				turkish = "Velestin"
-			}
-			b_lekhonia = {
-				sardinian = "Liconia"
-				dalmatian = "Liconia"
-				sicilian = "Liconia"
-				umbrian = "Liconia"
-				italian = "Liconia"
-				laziale = "Liconia"
-				langobardisch = "Liconia"
-				neapolitan = "Liconia"
-				tuscan = "Liconia"
-				ligurian = "Liconia"
-				venetian = "Liconia"
-				frankish = "Liconie"
-				norman = "Liconie"
-			}
-		} # end c_demetrias
-		c_upper_wallachia = { # Megále Vlachia (1528)
-			color = { 212 72 164 }
-			color2 = { 255 255 255 }
-			oghuz = "Tirhala"
-			turkmen = "Tirhala"
-			turkish = "Tirhala"
-			pecheneg = "Tirhala"
-			serbian = "Megalovlahija"
-			b_kalabaka = {
-				oghuz = "Kalabaka"
-				turkmen = "Kalabaka"
-				pecheneg = "Kalabaka"
-				turkish = "Kalabaka"
-			}
-			b_trikala = {
+				b_demetrias = {
+					sardinian = "Dimitrias"
+					dalmatian = "Dimitrias"
+					sicilian = "Dimitrias"
+					umbrian = "Dimitrias"
+					italian = "Dimitrias"
+					laziale = "Dimitrias"
+					langobardisch = "Dimitrias"
+					neapolitan = "Dimitrias"
+					tuscan = "Dimitrias"
+					ligurian = "Dimitrias"
+					venetian = "Dimitrias"
+					frankish = "Mitre"
+					norman = "Mitre"
+					oghuz = "Golos"
+					turkmen = "Golos"
+					pecheneg = "Golos"
+					turkish = "Golos"
+				}
+				b_halmyros = {
+					sardinian = "Almiró"
+					dalmatian = "Almiró"
+					sicilian = "Almiró"
+					umbrian = "Almiró"
+					italian = "Almiró"
+					laziale = "Almiró"
+					langobardisch = "Almiró"
+					neapolitan = "Almiró"
+					tuscan = "Almiró"
+					ligurian = "Almiró"
+					venetian = "Almiró"
+					frankish = "L'Amiro"
+					norman = "L'Amiro"
+					oghuz = "Ermiye"
+					turkmen = "Ermiye"
+					pecheneg = "Ermiye"
+					turkish = "Ermiye"
+				}
+				b_velestino = {
+					oghuz = "Velestin"
+					turkmen = "Velestin"
+					pecheneg = "Velestin"
+					turkish = "Velestin"
+				}
+				b_lekhonia = {
+					sardinian = "Liconia"
+					dalmatian = "Liconia"
+					sicilian = "Liconia"
+					umbrian = "Liconia"
+					italian = "Liconia"
+					laziale = "Liconia"
+					langobardisch = "Liconia"
+					neapolitan = "Liconia"
+					tuscan = "Liconia"
+					ligurian = "Liconia"
+					venetian = "Liconia"
+					frankish = "Liconie"
+					norman = "Liconie"
+				}
+			} # end c_demetrias
+			c_upper_wallachia = { # Megále Vlachia (1528)
+				color = { 212 72 164 }
+				color2 = { 255 255 255 }
 				oghuz = "Tirhala"
 				turkmen = "Tirhala"
-				pecheneg = "Tirhala"
 				turkish = "Tirhala"
+				pecheneg = "Tirhala"
+				serbian = "Megalovlahija"
+				b_kalabaka = {
+					oghuz = "Kalabaka"
+					turkmen = "Kalabaka"
+					pecheneg = "Kalabaka"
+					turkish = "Kalabaka"
+				}
+				b_trikala = {
+					oghuz = "Tirhala"
+					turkmen = "Tirhala"
+					pecheneg = "Tirhala"
+					turkish = "Tirhala"
+				}
+				b_grevena = {
+					bulgarian = "Grebena"
+					romanian = "Grebini"
+					oghuz = "Gerebena"
+					turkmen = "Gerebena"
+					pecheneg = "Gerebena"
+					turkish = "Gerebena"
+				}
+				b_porta = {}
 			}
-			b_grevena = {
-				bulgarian = "Grebena"
-				romanian = "Grebini"
-				oghuz = "Gerebena"
-				turkmen = "Gerebena"
-				pecheneg = "Gerebena"
-				turkish = "Gerebena"
-			}
-			b_porta = {}
-		}
-		c_neopatras = { # Neai Patrai (1224)
-			color = { 212 72 164 }
-			color2 = { 255 255 255 }
-			sardinian = "Neopatras"
-			dalmatian = "Neopatras"
-			sicilian = "Neopatras"
-			umbrian = "Neopatras"
-			italian = "Neopatras"
-			laziale = "Neopatras"
-			langobardisch = "Neopatras"
-			neapolitan = "Neopatras"
-			tuscan = "Neopatras"
-			ligurian = "Neopatras"
-			venetian = "Neopatras"
-			frankish = "Neopatrie"
-			norman = "Neopatrie"
-			catalan = "Neopatria"
-			oghuz = "Patracik"
-			turkmen = "Patracik"
-			pecheneg = "Patracik"
-			turkish = "Patracik"
-			b_zetounion = {
-				sardinian = "Citó"
-				dalmatian = "Citó"
-				sicilian = "Citó"
-				umbrian = "Citó"
-				italian = "Citó"
-				laziale = "Citó"
-				langobardisch = "Citó"
-				neapolitan = "Citó"
-				tuscan = "Citó"
-				ligurian = "Citó"
-				venetian = "Citó"
-				frankish = "Girton"
-				norman = "Girton"
-				oghuz = "Izdin"
-				turkmen = "Izdin"
-				pecheneg = "Izdin"
-				turkish = "Izdin"
-			}
-			b_pharsalos = {
-				frankish = "Ferselle"
-				norman = "Ferselle"
-				oghuz = "Catalca"
-				turkmen = "Catalca"
-				pecheneg = "Catalca"
-				turkish = "Catalca"
-			}
-			b_neopatras = {
-				sardinian = "La Pátria"
-				dalmatian = "La Pátria"
-				sicilian = "La Pátria"
-				umbrian = "La Pátria"
-				italian = "La Pátria"
-				laziale = "La Pátria"
-				langobardisch = "La Pátria"
-				neapolitan = "La Pátria"
-				tuscan = "La Pátria"
-				ligurian = "La Pátria"
-				venetian = "La Pátria"
-				frankish = "La Patre"
-				norman = "La Patre"
-				catalan = "La Pátria"
+			c_neopatras = { # Neai Patrai (1224)
+				color = { 212 72 164 }
+				color2 = { 255 255 255 }
+				sardinian = "Neopatras"
+				dalmatian = "Neopatras"
+				sicilian = "Neopatras"
+				umbrian = "Neopatras"
+				italian = "Neopatras"
+				laziale = "Neopatras"
+				langobardisch = "Neopatras"
+				neapolitan = "Neopatras"
+				tuscan = "Neopatras"
+				ligurian = "Neopatras"
+				venetian = "Neopatras"
+				frankish = "Neopatrie"
+				norman = "Neopatrie"
+				catalan = "Neopatria"
 				oghuz = "Patracik"
 				turkmen = "Patracik"
 				pecheneg = "Patracik"
 				turkish = "Patracik"
-			}
-			b_domokos = {
-				sardinian = "Domaco"
-				dalmatian = "Domaco"
-				sicilian = "Domaco"
-				umbrian = "Domaco"
-				italian = "Domaco"
-				laziale = "Domaco"
-				langobardisch = "Domaco"
-				neapolitan = "Domaco"
-				tuscan = "Domaco"
-				ligurian = "Domaco"
-				venetian = "Domaco"
-				frankish = "Donchie"
-				norman = "Donchie"
-				oghuz = "Dömeke"
-				pecheneg = "Dömeke"
-				turkmen = "Dömeke"
-				turkish = "Dömeke"
-			}
-			b_siderokastronthessaly = {
-				sardinian = "Siderocastro"
-				dalmatian = "Siderocastro"
-				sicilian = "Siderocastro"
-				umbrian = "Siderocastro"
-				italian = "Siderocastro"
-				laziale = "Siderocastro"
-				langobardisch = "Siderocastro"
-				neapolitan = "Siderocastro"
-				tuscan = "Siderocastro"
-				ligurian = "Siderocastro"
-				venetian = "Siderocastro"
-				frankish = "Chastel-de-Fer"
-				norman = "Chastel-de-Fer"
-			}
-		} # end c_neopatras
+				b_zetounion = {
+					sardinian = "Citó"
+					dalmatian = "Citó"
+					sicilian = "Citó"
+					umbrian = "Citó"
+					italian = "Citó"
+					laziale = "Citó"
+					langobardisch = "Citó"
+					neapolitan = "Citó"
+					tuscan = "Citó"
+					ligurian = "Citó"
+					venetian = "Citó"
+					frankish = "Girton"
+					norman = "Girton"
+					oghuz = "Izdin"
+					turkmen = "Izdin"
+					pecheneg = "Izdin"
+					turkish = "Izdin"
+				}
+				b_pharsalos = {
+					frankish = "Ferselle"
+					norman = "Ferselle"
+					oghuz = "Catalca"
+					turkmen = "Catalca"
+					pecheneg = "Catalca"
+					turkish = "Catalca"
+				}
+				b_neopatras = {
+					sardinian = "La Pátria"
+					dalmatian = "La Pátria"
+					sicilian = "La Pátria"
+					umbrian = "La Pátria"
+					italian = "La Pátria"
+					laziale = "La Pátria"
+					langobardisch = "La Pátria"
+					neapolitan = "La Pátria"
+					tuscan = "La Pátria"
+					ligurian = "La Pátria"
+					venetian = "La Pátria"
+					frankish = "La Patre"
+					norman = "La Patre"
+					catalan = "La Pátria"
+					oghuz = "Patracik"
+					turkmen = "Patracik"
+					pecheneg = "Patracik"
+					turkish = "Patracik"
+				}
+				b_domokos = {
+					sardinian = "Domaco"
+					dalmatian = "Domaco"
+					sicilian = "Domaco"
+					umbrian = "Domaco"
+					italian = "Domaco"
+					laziale = "Domaco"
+					langobardisch = "Domaco"
+					neapolitan = "Domaco"
+					tuscan = "Domaco"
+					ligurian = "Domaco"
+					venetian = "Domaco"
+					frankish = "Donchie"
+					norman = "Donchie"
+					oghuz = "Dömeke"
+					pecheneg = "Dömeke"
+					turkmen = "Dömeke"
+					turkish = "Dömeke"
+				}
+				b_siderokastronthessaly = {
+					sardinian = "Siderocastro"
+					dalmatian = "Siderocastro"
+					sicilian = "Siderocastro"
+					umbrian = "Siderocastro"
+					italian = "Siderocastro"
+					laziale = "Siderocastro"
+					langobardisch = "Siderocastro"
+					neapolitan = "Siderocastro"
+					tuscan = "Siderocastro"
+					ligurian = "Siderocastro"
+					venetian = "Siderocastro"
+					frankish = "Chastel-de-Fer"
+					norman = "Chastel-de-Fer"
+				}
+			} # end c_neopatras
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_neopatras
 	
@@ -8372,9 +8447,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 		pecheneg = "Diraç"
 		turkmen = "Diraç"
 		turkish = "Diraç"
-		c_dyrrachion = { # Dyrrakhiou (470)
-			color = { 39 39 33 }
+		d_dyrrachion = {
+			color = { 38 38 38 }
 			color2 = { 255 255 255 }
+			capital = 470 # Dyrrakhiou # Dyrrachion
 			serbian = "Drac"
 			bulgarian = "Drac"
 			sardinian = "Durazzo"
@@ -8393,7 +8469,9 @@ e_byzantium = { # Basileia Rhõmaiõn
 			pecheneg = "Diraç"
 			turkmen = "Diraç"
 			turkish = "Diraç"
-			b_durazzo = {
+			c_dyrrachion = { # Dyrrakhiou (470)
+				color = { 39 39 33 }
+				color2 = { 255 255 255 }
 				serbian = "Drac"
 				bulgarian = "Drac"
 				sardinian = "Durazzo"
@@ -8409,124 +8487,126 @@ e_byzantium = { # Basileia Rhõmaiõn
 				venetian = "Durazo"
 				arberian = "Durrës"
 				oghuz = "Diraç"
-				turkmen = "Diraç"
 				pecheneg = "Diraç"
+				turkmen = "Diraç"
 				turkish = "Diraç"
-			}
-			b_lezhe = {
-				sardinian = "Alessio"
-				dalmatian = "Alessio"
-				sicilian = "Alessio"
-				umbrian = "Alessio"
-				italian = "Alessio"
-				laziale = "Alessio"
-				neapolitan = "Alessio"
-				tuscan = "Alessio"
-				ligurian = "Alessio"
-				langobardisch = "Alessio"
-				venetian = "Alessio"
-				greek = "Lissòs"
-				armenian = "Lissòs"
-				georgian = "Lissòs"
-				alan = "Lissòs"
-				roman = "Lissus"
-				arberian = "Lezhë"
-				turkish = "Les"
-				serbian = "Lješ"
-				croatian = "Lješ"
-				bosnian = "Lješ"
-				bulgarian = "Lješ"
-			}
-			b_chounavia = { arberian = "Thumanë" }
-			b_spinarizza = {}
-			b_graditzion = {}
-		} # end c_dyrrachion
-		c_arbanon = { # Arbër (1011)
-			color = { 143 33 105 }
-			color2 = { 255 255 255 }
-			greek = "Arbanon"
-			arberian = "Arbër"
-			oghuz = "Arvanid"
-			turkmen = "Arvanid"
-			turkish = "Arvanid"
-			pecheneg = "Arvanid"
-			b_kruje = {
-				sicilian = "Croia"
-				dalmatian = "Croia"
-				umbrian = "Croia"
-				italian = "Croia"
-				laziale = "Croia"
-				langobardisch = "Croia"
-				neapolitan = "Croia"
-				tuscan = "Croia"
-				ligurian = "Croia"
-				venetian = "Croia"
-				arberian = "Krujë"
-				oghuz = "Akçahisar"
-				turkmen = "Akçahisar"
-				pecheneg = "Akçahisar"
-				turkish = "Akçahisar"
-			}
-			b_berat = {
-				sicilian = "Belgrad di Romania"
-				dalmatian = "Belgrad di Romania"
-				umbrian = "Belgrad di Romania"
-				italian = "Belgrad di Romania"
-				laziale = "Belgrad di Romania"
-				langobardisch = "Belgrad di Romania"
-				neapolitan = "Belgrad di Romania"
-				tuscan = "Belgrad di Romania"
-				ligurian = "Belgrad di Romania"
-				venetian = "Belgrad di Romania"
-				arberian = "Berat"
-				oghuz = "Belgrad-i Arnavud"
-				turkmen = "Belgrad-i Arnavud"
-				turkish = "Belgrad-i Arnavud"
-				pecheneg = "Belgrad-i Arnavud"
-				serbian = "Beligrad"
-				bulgarian = "Beligrad"
-			}
-			b_petrela = { arberian = "Petrelë" }
-			b_hiskampis = {
-				arberian = "Elbasan"
-				oghuz = "Ilbasan"
-				turkmen = "Ilbasan"
-				pecheneg = "Ilbasan"
-				turkish = "Ilbasan"
-			}
-			b_glavinitza = {
-				sicilian = "Glavinizza"
-				dalmatian = "Glavinizza"
-				umbrian = "Glavinizza"
-				italian = "Glavinizza"
-				laziale = "Glavinizza"
-				langobardisch = "Glavinizza"
-				neapolitan = "Glavinizza"
-				tuscan = "Glavinizza"
-				ligurian = "Glavinizza"
-				venetian = "Glavinizza"
-			}
-		} # end c_arbanon
-		c_valona = { # Aulona (1013)
-			color = { 143 33 105 }
-			color2 = { 255 255 255 }
-			sicilian = "Valona"
-			dalmatian = "Valona"
-			umbrian = "Valona"
-			italian = "Valona"
-			laziale = "Valona"
-			langobardisch = "Valona"
-			neapolitan = "Valona"
-			tuscan = "Valona"
-			ligurian = "Valona"
-			venetian = "Valona"
-			arberian = "Vlorë"
-			oghuz = "Avlonya"
-			turkmen = "Avlonya"
-			pecheneg = "Avlonya"
-			turkish = "Avlonya"
-			b_kanina = { arberian = "Kaninë" }
-			b_valona = {
+				b_durazzo = {
+					serbian = "Drac"
+					bulgarian = "Drac"
+					sardinian = "Durazzo"
+					dalmatian = "Durazzo"
+					sicilian = "Durazzu"
+					umbrian = "Durazzo"
+					italian = "Durazzo"
+					laziale = "Durazzo"
+					langobardisch = "Durazzo"
+					neapolitan = "Durazzo"
+					tuscan = "Durazzo"
+					ligurian = "Durazzo"
+					venetian = "Durazo"
+					arberian = "Durrës"
+					oghuz = "Diraç"
+					turkmen = "Diraç"
+					pecheneg = "Diraç"
+					turkish = "Diraç"
+				}
+				b_lezhe = {
+					sardinian = "Alessio"
+					dalmatian = "Alessio"
+					sicilian = "Alessio"
+					umbrian = "Alessio"
+					italian = "Alessio"
+					laziale = "Alessio"
+					neapolitan = "Alessio"
+					tuscan = "Alessio"
+					ligurian = "Alessio"
+					langobardisch = "Alessio"
+					venetian = "Alessio"
+					greek = "Lissòs"
+					armenian = "Lissòs"
+					georgian = "Lissòs"
+					alan = "Lissòs"
+					roman = "Lissus"
+					arberian = "Lezhë"
+					turkish = "Les"
+					serbian = "Lješ"
+					croatian = "Lješ"
+					bosnian = "Lješ"
+					bulgarian = "Lješ"
+				}
+				b_chounavia = { arberian = "Thumanë" }
+				b_spinarizza = {}
+				b_graditzion = {}
+			} # end c_dyrrachion
+			c_arbanon = { # Arbër (1011)
+				color = { 143 33 105 }
+				color2 = { 255 255 255 }
+				greek = "Arbanon"
+				arberian = "Arbër"
+				oghuz = "Arvanid"
+				turkmen = "Arvanid"
+				turkish = "Arvanid"
+				pecheneg = "Arvanid"
+				b_kruje = {
+					sicilian = "Croia"
+					dalmatian = "Croia"
+					umbrian = "Croia"
+					italian = "Croia"
+					laziale = "Croia"
+					langobardisch = "Croia"
+					neapolitan = "Croia"
+					tuscan = "Croia"
+					ligurian = "Croia"
+					venetian = "Croia"
+					arberian = "Krujë"
+					oghuz = "Akçahisar"
+					turkmen = "Akçahisar"
+					pecheneg = "Akçahisar"
+					turkish = "Akçahisar"
+				}
+				b_berat = {
+					sicilian = "Belgrad di Romania"
+					dalmatian = "Belgrad di Romania"
+					umbrian = "Belgrad di Romania"
+					italian = "Belgrad di Romania"
+					laziale = "Belgrad di Romania"
+					langobardisch = "Belgrad di Romania"
+					neapolitan = "Belgrad di Romania"
+					tuscan = "Belgrad di Romania"
+					ligurian = "Belgrad di Romania"
+					venetian = "Belgrad di Romania"
+					arberian = "Berat"
+					oghuz = "Belgrad-i Arnavud"
+					turkmen = "Belgrad-i Arnavud"
+					turkish = "Belgrad-i Arnavud"
+					pecheneg = "Belgrad-i Arnavud"
+					serbian = "Beligrad"
+					bulgarian = "Beligrad"
+				}
+				b_petrela = { arberian = "Petrelë" }
+				b_hiskampis = {
+					arberian = "Elbasan"
+					oghuz = "Ilbasan"
+					turkmen = "Ilbasan"
+					pecheneg = "Ilbasan"
+					turkish = "Ilbasan"
+				}
+				b_glavinitza = {
+					sicilian = "Glavinizza"
+					dalmatian = "Glavinizza"
+					umbrian = "Glavinizza"
+					italian = "Glavinizza"
+					laziale = "Glavinizza"
+					langobardisch = "Glavinizza"
+					neapolitan = "Glavinizza"
+					tuscan = "Glavinizza"
+					ligurian = "Glavinizza"
+					venetian = "Glavinizza"
+				}
+			} # end c_arbanon
+			c_valona = { # Aulona (1013)
+				color = { 143 33 105 }
+				color2 = { 255 255 255 }
 				sicilian = "Valona"
 				dalmatian = "Valona"
 				umbrian = "Valona"
@@ -8542,23 +8622,42 @@ e_byzantium = { # Basileia Rhõmaiõn
 				turkmen = "Avlonya"
 				pecheneg = "Avlonya"
 				turkish = "Avlonya"
-			}
-			b_himara = {
-				sardinian = "Himara"
-				dalmatian = "Himara"
-				sicilian = "Himara"
-				umbrian = "Himara"
-				italian = "Himara"
-				laziale = "Himara"
-				langobardisch = "Himara"
-				neapolitan = "Himara"
-				tuscan = "Himara"
-				ligurian = "Himara"
-				venetian = "Himara"
-				arberian = "Himarë"
-			}
-			b_sopot = { arberian = "Borsh" }
-		} # end c_valona
+				b_kanina = { arberian = "Kaninë" }
+				b_valona = {
+					sicilian = "Valona"
+					dalmatian = "Valona"
+					umbrian = "Valona"
+					italian = "Valona"
+					laziale = "Valona"
+					langobardisch = "Valona"
+					neapolitan = "Valona"
+					tuscan = "Valona"
+					ligurian = "Valona"
+					venetian = "Valona"
+					arberian = "Vlorë"
+					oghuz = "Avlonya"
+					turkmen = "Avlonya"
+					pecheneg = "Avlonya"
+					turkish = "Avlonya"
+				}
+				b_himara = {
+					sardinian = "Himara"
+					dalmatian = "Himara"
+					sicilian = "Himara"
+					umbrian = "Himara"
+					italian = "Himara"
+					laziale = "Himara"
+					langobardisch = "Himara"
+					neapolitan = "Himara"
+					tuscan = "Himara"
+					ligurian = "Himara"
+					venetian = "Himara"
+					arberian = "Himarë"
+				}
+				b_sopot = { arberian = "Borsh" }
+			} # end c_valona
+			
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_dyrrachion
 	k_epirus = { # Nikopoleos
@@ -8581,9 +8680,12 @@ e_byzantium = { # Basileia Rhõmaiõn
 		oghuz = "Yanya"
 		turkmen = "Yanya"
 		turkish = "Yanya"
-		c_epeiros = { # Epeiros (472)
-			color = { 138 67 113 }
-			color2 = { 255 255 255 }
+		d_epirus = {
+			color = { 48 111 135 }
+			color2 = { 255 255 20 }
+			capital = 473 # Nikopolis # Arta
+			frankish = "Épire"
+			norman = "Épire"
 			sardinian = "Epirus"
 			dalmatian = "Epirus"
 			sicilian = "Epirus"
@@ -8595,99 +8697,100 @@ e_byzantium = { # Basileia Rhõmaiõn
 			tuscan = "Epirus"
 			ligurian = "Epirus"
 			venetian = "Epirus"
-			arberian = "Epiri"
-			oghuz = "Yanyá"
-			turkmen = "Yanyá"
-			turkish = "Yanyá"
-			b_butrint = {
-				sardinian = "Butrinto"
-				dalmatian = "Butrinto"
-				sicilian = "Butrinto"
-				umbrian = "Butrinto"
-				italian = "Butrinto"
-				laziale = "Butrinto"
-				langobardisch = "Butrinto"
-				neapolitan = "Butrinto"
-				tuscan = "Butrinto"
-				ligurian = "Butrinto"
-				venetian = "Butrinto"
-				arberian = "Butrint"
-			}
-			b_ioannina = {
-				sardinian = "Giànnina"
-				dalmatian = "Giànnina"
-				sicilian = "Giànnina"
-				umbrian = "Giànnina"
-				italian = "Giànnina"
-				laziale = "Giànnina"
-				langobardisch = "Giànnina"
-				neapolitan = "Giànnina"
-				tuscan = "Giànnina"
-				ligurian = "Giànnina"
-				venetian = "Giànnina"
-				arberian = "Janinë"
+			oghuz = "Yanya"
+			turkmen = "Yanya"
+			turkish = "Yanya"
+			c_epeiros = { # Epeiros (472)
+				color = { 138 67 113 }
+				color2 = { 255 255 255 }
+				sardinian = "Epirus"
+				dalmatian = "Epirus"
+				sicilian = "Epirus"
+				umbrian = "Epirus"
+				italian = "Epirus"
+				laziale = "Epirus"
+				langobardisch = "Epirus"
+				neapolitan = "Epirus"
+				tuscan = "Epirus"
+				ligurian = "Epirus"
+				venetian = "Epirus"
+				arberian = "Epiri"
 				oghuz = "Yanyá"
 				turkmen = "Yanyá"
 				turkish = "Yanyá"
-				romanian = "Ianina"
-			}
-			b_dryinoupolis = { arberian = "Dropulli" }
-			b_gjirokaster = {
-				sardinian = "Argirocastro"
-				dalmatian = "Argirocastro"
-				sicilian = "Argirocastro"
-				umbrian = "Argirocastro"
-				italian = "Argirocastro"
-				laziale = "Argirocastro"
-				langobardisch = "Argirocastro"
-				neapolitan = "Argirocastro"
-				tuscan = "Argirocastro"
-				ligurian = "Argirocastro"
-				venetian = "Argirocastro"
-				arberian = "Gjirokastër"
-				oghuz = "Ergiri"
-				turkmen = "Ergiri"
-				turkish = "Ergiri"
-				romanian = "Ljorucastru"
-			}
-			b_igoumenitsa = {
-				sardinian = "Gomenizza"
-				dalmatian = "Gomenizza"
-				sicilian = "Gomenizza"
-				umbrian = "Gomenizza"
-				italian = "Gomenizza"
-				laziale = "Gomenizza"
-				langobardisch = "Gomenizza"
-				neapolitan = "Gomenizza"
-				tuscan = "Gomenizza"
-				ligurian = "Gomenizza"
-				venetian = "Gomenizza"
-				arberian = "Gumenicë"
-				oghuz = "Igumeniça"
-				turkmen = "Igumeniça"
-				turkish = "Igumeniça"
-			}
-		} # end c_epeiros
-		c_hellas = { # Naupaktos (475)
-			color = { 212 72 164 }
-			color2 = { 255 255 255 }
-			sardinian = "Lepanto"
-			sicilian = "Lepanto"
-			umbrian = "Lepanto"
-			italian = "Lepanto"
-			laziale = "Lepanto"
-			langobardisch = "Lepanto"
-			neapolitan = "Lepanto"
-			tuscan = "Lepanto"
-			ligurian = "Lepanto"
-			venetian = "Lepanto"
-			dalmatian = "Lepanto"
-			oghuz = "Inebahti"
-			turkmen = "Inebahti"
-			turkish = "Inebahti"
-			b_naupaktos = {
+				b_butrint = {
+					sardinian = "Butrinto"
+					dalmatian = "Butrinto"
+					sicilian = "Butrinto"
+					umbrian = "Butrinto"
+					italian = "Butrinto"
+					laziale = "Butrinto"
+					langobardisch = "Butrinto"
+					neapolitan = "Butrinto"
+					tuscan = "Butrinto"
+					ligurian = "Butrinto"
+					venetian = "Butrinto"
+					arberian = "Butrint"
+				}
+				b_ioannina = {
+					sardinian = "Giànnina"
+					dalmatian = "Giànnina"
+					sicilian = "Giànnina"
+					umbrian = "Giànnina"
+					italian = "Giànnina"
+					laziale = "Giànnina"
+					langobardisch = "Giànnina"
+					neapolitan = "Giànnina"
+					tuscan = "Giànnina"
+					ligurian = "Giànnina"
+					venetian = "Giànnina"
+					arberian = "Janinë"
+					oghuz = "Yanyá"
+					turkmen = "Yanyá"
+					turkish = "Yanyá"
+					romanian = "Ianina"
+				}
+				b_dryinoupolis = { arberian = "Dropulli" }
+				b_gjirokaster = {
+					sardinian = "Argirocastro"
+					dalmatian = "Argirocastro"
+					sicilian = "Argirocastro"
+					umbrian = "Argirocastro"
+					italian = "Argirocastro"
+					laziale = "Argirocastro"
+					langobardisch = "Argirocastro"
+					neapolitan = "Argirocastro"
+					tuscan = "Argirocastro"
+					ligurian = "Argirocastro"
+					venetian = "Argirocastro"
+					arberian = "Gjirokastër"
+					oghuz = "Ergiri"
+					turkmen = "Ergiri"
+					turkish = "Ergiri"
+					romanian = "Ljorucastru"
+				}
+				b_igoumenitsa = {
+					sardinian = "Gomenizza"
+					dalmatian = "Gomenizza"
+					sicilian = "Gomenizza"
+					umbrian = "Gomenizza"
+					italian = "Gomenizza"
+					laziale = "Gomenizza"
+					langobardisch = "Gomenizza"
+					neapolitan = "Gomenizza"
+					tuscan = "Gomenizza"
+					ligurian = "Gomenizza"
+					venetian = "Gomenizza"
+					arberian = "Gumenicë"
+					oghuz = "Igumeniça"
+					turkmen = "Igumeniça"
+					turkish = "Igumeniça"
+				}
+			} # end c_epeiros
+			c_hellas = { # Naupaktos (475)
+				color = { 212 72 164 }
+				color2 = { 255 255 255 }
 				sardinian = "Lepanto"
-				dalmatian = "Lepanto"
 				sicilian = "Lepanto"
 				umbrian = "Lepanto"
 				italian = "Lepanto"
@@ -8697,116 +8800,76 @@ e_byzantium = { # Basileia Rhõmaiõn
 				tuscan = "Lepanto"
 				ligurian = "Lepanto"
 				venetian = "Lepanto"
+				dalmatian = "Lepanto"
 				oghuz = "Inebahti"
 				turkmen = "Inebahti"
 				turkish = "Inebahti"
-			}
-			b_lidoriki = {
-				sardinian = "Lodorichi"
-				dalmatian = "Lodorichi"
-				sicilian = "Lodorichi"
-				umbrian = "Lodorichi"
-				italian = "Lodorichi"
-				laziale = "Lodorichi"
-				langobardisch = "Lodorichi"
-				neapolitan = "Lodorichi"
-				tuscan = "Lodorichi"
-				ligurian = "Lodorichi"
-				venetian = "Lodorichi"
-				frankish = "Odrich"
-				norman = "Odrich"
-				oghuz = "Olendirek"
-				turkmen = "Olendirek"
-				turkish = "Olendirek"
-			}
-			b_galaxidi = {
-				sardinian = "Galaxidi"
-				dalmatian = "Galaxidi"
-				sicilian = "Galaxidi"
-				umbrian = "Galaxidi"
-				italian = "Galaxidi"
-				laziale = "Galaxidi"
-				langobardisch = "Galaxidi"
-				neapolitan = "Galaxidi"
-				tuscan = "Galaxidi"
-				ligurian = "Galaxidi"
-				venetian = "Galaxidi"
-			}
-			b_vitrinitsa = {
-				sardinian = "Vetrenica"
-				dalmatian = "Vetrenica"
-				sicilian = "Vetrenica"
-				umbrian = "Vetrenica"
-				italian = "Vetrenica"
-				laziale = "Vetrenica"
-				langobardisch = "Vetrenica"
-				neapolitan = "Vetrenica"
-				tuscan = "Vetrenica"
-				ligurian = "Vetrenica"
-				venetian = "Vetrenica"
-				frankish = "Vetrenice"
-				norman = "Vetrenice"
-			}
-		} # end c_hellas
-		c_arta = { # Nikopolis (473)
-			color = { 142 71 117 }
-			color2 = { 255 255 255 }
-			sardinian = "Arta"
-			dalmatian = "Arta"
-			sicilian = "Arta"
-			umbrian = "Arta"
-			italian = "Arta"
-			laziale = "Arta"
-			langobardisch = "Arta"
-			neapolitan = "Arta"
-			tuscan = "Arta"
-			ligurian = "Arta"
-			venetian = "Arta"
-			frankish = "Arthe"
-			norman = "Arthe"
-			oghuz = "Narda"
-			turkmen = "Narda"
-			turkish = "Narda"
-			pecheneg = "Narda"
-			b_angelokastron = {
-				sardinian = "Gello-Castro"
-				dalmatian = "Gello-Castro"
-				sicilian = "Gello-Castro"
-				umbrian = "Gello-Castro"
-				italian = "Gello-Castro"
-				laziale = "Gello-Castro"
-				langobardisch = "Gello-Castro"
-				neapolitan = "Gello-Castro"
-				tuscan = "Gello-Castro"
-				ligurian = "Gello-Castro"
-				venetian = "Gello-Castro"
-				frankish = "Gello-Castro"
-				norman = "Gello-Castro"
-				oghuz = "Engili Kasri"
-				turkmen = "Engili Kasri"
-				pecheneg = "Engili Kasri"
-				turkish = "Engili Kasri"
-			}
-			b_preveza = {
-				sardinian = "Preveza"
-				dalmatian = "Preveza"
-				sicilian = "Preveza"
-				umbrian = "Preveza"
-				italian = "Preveza"
-				laziale = "Preveza"
-				langobardisch = "Preveza"
-				neapolitan = "Preveza"
-				tuscan = "Preveza"
-				ligurian = "Preveza"
-				venetian = "Preveza"
-				frankish = "Prevesse"
-				norman = "Prevesse"
-				oghuz = "Preveze"
-				turkmen = "Preveze"
-				pecheneg = "Preveze"
-				turkish = "Preveze"
-			}
-			b_arta = {
+				b_naupaktos = {
+					sardinian = "Lepanto"
+					dalmatian = "Lepanto"
+					sicilian = "Lepanto"
+					umbrian = "Lepanto"
+					italian = "Lepanto"
+					laziale = "Lepanto"
+					langobardisch = "Lepanto"
+					neapolitan = "Lepanto"
+					tuscan = "Lepanto"
+					ligurian = "Lepanto"
+					venetian = "Lepanto"
+					oghuz = "Inebahti"
+					turkmen = "Inebahti"
+					turkish = "Inebahti"
+				}
+				b_lidoriki = {
+					sardinian = "Lodorichi"
+					dalmatian = "Lodorichi"
+					sicilian = "Lodorichi"
+					umbrian = "Lodorichi"
+					italian = "Lodorichi"
+					laziale = "Lodorichi"
+					langobardisch = "Lodorichi"
+					neapolitan = "Lodorichi"
+					tuscan = "Lodorichi"
+					ligurian = "Lodorichi"
+					venetian = "Lodorichi"
+					frankish = "Odrich"
+					norman = "Odrich"
+					oghuz = "Olendirek"
+					turkmen = "Olendirek"
+					turkish = "Olendirek"
+				}
+				b_galaxidi = {
+					sardinian = "Galaxidi"
+					dalmatian = "Galaxidi"
+					sicilian = "Galaxidi"
+					umbrian = "Galaxidi"
+					italian = "Galaxidi"
+					laziale = "Galaxidi"
+					langobardisch = "Galaxidi"
+					neapolitan = "Galaxidi"
+					tuscan = "Galaxidi"
+					ligurian = "Galaxidi"
+					venetian = "Galaxidi"
+				}
+				b_vitrinitsa = {
+					sardinian = "Vetrenica"
+					dalmatian = "Vetrenica"
+					sicilian = "Vetrenica"
+					umbrian = "Vetrenica"
+					italian = "Vetrenica"
+					laziale = "Vetrenica"
+					langobardisch = "Vetrenica"
+					neapolitan = "Vetrenica"
+					tuscan = "Vetrenica"
+					ligurian = "Vetrenica"
+					venetian = "Vetrenica"
+					frankish = "Vetrenice"
+					norman = "Vetrenice"
+				}
+			} # end c_hellas
+			c_arta = { # Nikopolis (473)
+				color = { 142 71 117 }
+				color2 = { 255 255 255 }
 				sardinian = "Arta"
 				dalmatian = "Arta"
 				sicilian = "Arta"
@@ -8822,55 +8885,113 @@ e_byzantium = { # Basileia Rhõmaiõn
 				norman = "Arthe"
 				oghuz = "Narda"
 				turkmen = "Narda"
-				pecheneg = "Narda"
 				turkish = "Narda"
-			}
-			b_rogoi = {
-				sardinian = "Rogo"
-				dalmatian = "Rogo"
-				sicilian = "Rogo"
-				umbrian = "Rogo"
-				italian = "Rogo"
-				laziale = "Rogo"
-				langobardisch = "Rogo"
-				neapolitan = "Rogo"
-				tuscan = "Rogo"
-				ligurian = "Rogo"
-				venetian = "Rogo"
-			}
-			b_vonitsza = {
-				sardinian = "Vonizza"
-				dalmatian = "Vonizza"
-				sicilian = "Vonizza"
-				umbrian = "Vonizza"
-				italian = "Vonizza"
-				laziale = "Vonizza"
-				langobardisch = "Vonizza"
-				neapolitan = "Vonizza"
-				tuscan = "Vonizza"
-				ligurian = "Vonizza"
-				venetian = "Vonizza"
-				frankish = "Bondice"
-				norman = "Bondice"
-				oghuz = "Voniçe"
-				turkmen = "Voniçe"
-				pecheneg = "Voniçe"
-				turkish = "Voniçe"
-			}
-			b_aetos = {
-				sardinian = "Aquilla"
-				dalmatian = "Aquilla"
-				sicilian = "Aquilla"
-				umbrian = "Aquilla"
-				italian = "Aquilla"
-				laziale = "Aquilla"
-				langobardisch = "Aquilla"
-				neapolitan = "Aquilla"
-				tuscan = "Aquilla"
-				ligurian = "Aquilla"
-				venetian = "Aquilla"
-			}
-		} # end c_arta
+				pecheneg = "Narda"
+				b_angelokastron = {
+					sardinian = "Gello-Castro"
+					dalmatian = "Gello-Castro"
+					sicilian = "Gello-Castro"
+					umbrian = "Gello-Castro"
+					italian = "Gello-Castro"
+					laziale = "Gello-Castro"
+					langobardisch = "Gello-Castro"
+					neapolitan = "Gello-Castro"
+					tuscan = "Gello-Castro"
+					ligurian = "Gello-Castro"
+					venetian = "Gello-Castro"
+					frankish = "Gello-Castro"
+					norman = "Gello-Castro"
+					oghuz = "Engili Kasri"
+					turkmen = "Engili Kasri"
+					pecheneg = "Engili Kasri"
+					turkish = "Engili Kasri"
+				}
+				b_preveza = {
+					sardinian = "Preveza"
+					dalmatian = "Preveza"
+					sicilian = "Preveza"
+					umbrian = "Preveza"
+					italian = "Preveza"
+					laziale = "Preveza"
+					langobardisch = "Preveza"
+					neapolitan = "Preveza"
+					tuscan = "Preveza"
+					ligurian = "Preveza"
+					venetian = "Preveza"
+					frankish = "Prevesse"
+					norman = "Prevesse"
+					oghuz = "Preveze"
+					turkmen = "Preveze"
+					pecheneg = "Preveze"
+					turkish = "Preveze"
+				}
+				b_arta = {
+					sardinian = "Arta"
+					dalmatian = "Arta"
+					sicilian = "Arta"
+					umbrian = "Arta"
+					italian = "Arta"
+					laziale = "Arta"
+					langobardisch = "Arta"
+					neapolitan = "Arta"
+					tuscan = "Arta"
+					ligurian = "Arta"
+					venetian = "Arta"
+					frankish = "Arthe"
+					norman = "Arthe"
+					oghuz = "Narda"
+					turkmen = "Narda"
+					pecheneg = "Narda"
+					turkish = "Narda"
+				}
+				b_rogoi = {
+					sardinian = "Rogo"
+					dalmatian = "Rogo"
+					sicilian = "Rogo"
+					umbrian = "Rogo"
+					italian = "Rogo"
+					laziale = "Rogo"
+					langobardisch = "Rogo"
+					neapolitan = "Rogo"
+					tuscan = "Rogo"
+					ligurian = "Rogo"
+					venetian = "Rogo"
+				}
+				b_vonitsza = {
+					sardinian = "Vonizza"
+					dalmatian = "Vonizza"
+					sicilian = "Vonizza"
+					umbrian = "Vonizza"
+					italian = "Vonizza"
+					laziale = "Vonizza"
+					langobardisch = "Vonizza"
+					neapolitan = "Vonizza"
+					tuscan = "Vonizza"
+					ligurian = "Vonizza"
+					venetian = "Vonizza"
+					frankish = "Bondice"
+					norman = "Bondice"
+					oghuz = "Voniçe"
+					turkmen = "Voniçe"
+					pecheneg = "Voniçe"
+					turkish = "Voniçe"
+				}
+				b_aetos = {
+					sardinian = "Aquilla"
+					dalmatian = "Aquilla"
+					sicilian = "Aquilla"
+					umbrian = "Aquilla"
+					italian = "Aquilla"
+					laziale = "Aquilla"
+					langobardisch = "Aquilla"
+					neapolitan = "Aquilla"
+					tuscan = "Aquilla"
+					ligurian = "Aquilla"
+					venetian = "Aquilla"
+				}
+			} # end c_arta
+			
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_epirus
 	k_cephalonia = { # Kephallenias
@@ -8894,9 +9015,10 @@ e_byzantium = { # Basileia Rhõmaiõn
 		turkmen = "Yedi Adalar"
 		turkish = "Yedi Adalar"
 		pecheneg = "Yedi Adalar"
-		c_cephalonia = { # Kephallenia (474)
-			color = { 146 75 121 }
+		d_cephalonia = {
+			color = { 48 111 135 }
 			color2 = { 255 255 255 }
+			capital = 474 # Kephallenia # Cephalonia
 			sardinian = "Cefalonia"
 			dalmatian = "Cefalonia"
 			sicilian = "Cefalonia"
@@ -8910,11 +9032,13 @@ e_byzantium = { # Basileia Rhõmaiõn
 			venetian = "Cefalonia"
 			frankish = "Céphalonie"
 			norman = "Céphalonie"
-			oghuz = "Kefalonya"
-			turkmen = "Kefalonya"
-			turkish = "Kefalonya"
-			pecheneg = "Kefalonya"
-			b_kefalonia = {
+			oghuz = "Yedi Adalar"
+			turkmen = "Yedi Adalar"
+			turkish = "Yedi Adalar"
+			pecheneg = "Yedi Adalar"
+			c_cephalonia = { # Kephallenia (474)
+				color = { 146 75 121 }
+				color2 = { 255 255 255 }
 				sardinian = "Cefalonia"
 				dalmatian = "Cefalonia"
 				sicilian = "Cefalonia"
@@ -8930,107 +9054,92 @@ e_byzantium = { # Basileia Rhõmaiõn
 				norman = "Céphalonie"
 				oghuz = "Kefalonya"
 				turkmen = "Kefalonya"
-				pecheneg = "Kefalonya"
 				turkish = "Kefalonya"
-			}
-			b_lefkas = {
-				sardinian = "Santa Maura"
-				dalmatian = "Santa Maura"
-				sicilian = "Santa Maura"
-				umbrian = "Santa Maura"
-				italian = "Santa Maura"
-				laziale = "Santa Maura"
-				langobardisch = "Santa Maura"
-				neapolitan = "Santa Maura"
-				tuscan = "Santa Maura"
-				ligurian = "Santa Maura"
-				venetian = "Santa Maura"
-				frankish = "Leucade"
-				norman = "Leucade"
-				oghuz = "Ayamavra"
-				turkmen = "Ayamavra"
-				pecheneg = "Ayamavra"
-				turkish = "Ayamavra"
-			}
-			b_agiosgeorgios = {
-				sardinian = "San Giorgio"
-				dalmatian = "San Giorgio"
-				sicilian = "San Giorgio"
-				umbrian = "San Giorgio"
-				italian = "San Giorgio"
-				laziale = "San Giorgio"
-				langobardisch = "San Giorgio"
-				neapolitan = "San Giorgio"
-				tuscan = "San Giorgio"
-				ligurian = "San Giorgio"
-				venetian = "San Giorgio"
-				frankish = "Saint-Georges"
-				norman = "Saint-Georges"
-			}
-			b_zante = {
-				sardinian = "Zante"
-				dalmatian = "Zante"
-				sicilian = "Zante"
-				umbrian = "Zante"
-				italian = "Zante"
-				laziale = "Zante"
-				langobardisch = "Zante"
-				neapolitan = "Zante"
-				tuscan = "Zante"
-				ligurian = "Zante"
-				venetian = "Zante"
-				frankish = "Zante"
-				norman = "Zante"
-				oghuz = "Zaklisse"
-				turkmen = "Zaklisse"
-				pecheneg = "Zaklisse"
-				turkish = "Zaklisse"
-			}
-			b_ithaca = {
-				frankish = "Val di Compare"
-				norman = "Val di Compare"
-				oghuz = "Fiaki"
-				turkmen = "Fiaki"
-				pecheneg = "Fiaki"
-				turkish = "Fiaki"
-			}
-		} # end c_cephalonia
-		c_corfu = { # Kérkyra (1014)
-			color = { 138 67 113 }
-			color2 = { 255 255 255 }
-			sardinian = "Corfú"
-			dalmatian = "Corfú"
-			sicilian = "Corfú"
-			umbrian = "Corfú"
-			italian = "Corfú"
-			laziale = "Corfú"
-			langobardisch = "Corfú"
-			neapolitan = "Corfú"
-			tuscan = "Corfú"
-			ligurian = "Corfú"
-			venetian = "Corfú"
-			frankish = "Corfu"
-			norman = "Corfu"
-			serbian = "Krf"
-			croatian = "Krf"
-			oghuz = "Körfuz"
-			pecheneg = "Körfuz"
-			turkmen = "Körfuz"
-			turkish = "Körfuz"
-			b_palaiofrourio = {
-				sardinian = "Fortezza Vecchia"
-				dalmatian = "Fortezza Vecchia"
-				sicilian = "Fortezza Vecchia"
-				umbrian = "Fortezza Vecchia"
-				italian = "Fortezza Vecchia"
-				laziale = "Fortezza Vecchia"
-				langobardisch = "Fortezza Vecchia"
-				neapolitan = "Fortezza Vecchia"
-				tuscan = "Fortezza Vecchia"
-				ligurian = "Fortezza Vecchia"
-				venetian = "Fortezza Vecchia"
-			}
-			b_corfu = {
+				pecheneg = "Kefalonya"
+				b_kefalonia = {
+					sardinian = "Cefalonia"
+					dalmatian = "Cefalonia"
+					sicilian = "Cefalonia"
+					umbrian = "Cefalonia"
+					italian = "Cefalonia"
+					laziale = "Cefalonia"
+					langobardisch = "Cefalonia"
+					neapolitan = "Cefalonia"
+					tuscan = "Cefalonia"
+					ligurian = "Cefalonia"
+					venetian = "Cefalonia"
+					frankish = "Céphalonie"
+					norman = "Céphalonie"
+					oghuz = "Kefalonya"
+					turkmen = "Kefalonya"
+					pecheneg = "Kefalonya"
+					turkish = "Kefalonya"
+				}
+				b_lefkas = {
+					sardinian = "Santa Maura"
+					dalmatian = "Santa Maura"
+					sicilian = "Santa Maura"
+					umbrian = "Santa Maura"
+					italian = "Santa Maura"
+					laziale = "Santa Maura"
+					langobardisch = "Santa Maura"
+					neapolitan = "Santa Maura"
+					tuscan = "Santa Maura"
+					ligurian = "Santa Maura"
+					venetian = "Santa Maura"
+					frankish = "Leucade"
+					norman = "Leucade"
+					oghuz = "Ayamavra"
+					turkmen = "Ayamavra"
+					pecheneg = "Ayamavra"
+					turkish = "Ayamavra"
+				}
+				b_agiosgeorgios = {
+					sardinian = "San Giorgio"
+					dalmatian = "San Giorgio"
+					sicilian = "San Giorgio"
+					umbrian = "San Giorgio"
+					italian = "San Giorgio"
+					laziale = "San Giorgio"
+					langobardisch = "San Giorgio"
+					neapolitan = "San Giorgio"
+					tuscan = "San Giorgio"
+					ligurian = "San Giorgio"
+					venetian = "San Giorgio"
+					frankish = "Saint-Georges"
+					norman = "Saint-Georges"
+				}
+				b_zante = {
+					sardinian = "Zante"
+					dalmatian = "Zante"
+					sicilian = "Zante"
+					umbrian = "Zante"
+					italian = "Zante"
+					laziale = "Zante"
+					langobardisch = "Zante"
+					neapolitan = "Zante"
+					tuscan = "Zante"
+					ligurian = "Zante"
+					venetian = "Zante"
+					frankish = "Zante"
+					norman = "Zante"
+					oghuz = "Zaklisse"
+					turkmen = "Zaklisse"
+					pecheneg = "Zaklisse"
+					turkish = "Zaklisse"
+				}
+				b_ithaca = {
+					frankish = "Val di Compare"
+					norman = "Val di Compare"
+					oghuz = "Fiaki"
+					turkmen = "Fiaki"
+					pecheneg = "Fiaki"
+					turkish = "Fiaki"
+				}
+			} # end c_cephalonia
+			c_corfu = { # Kérkyra (1014)
+				color = { 138 67 113 }
+				color2 = { 255 255 255 }
 				sardinian = "Corfú"
 				dalmatian = "Corfú"
 				sicilian = "Corfú"
@@ -9044,67 +9153,99 @@ e_byzantium = { # Basileia Rhõmaiõn
 				venetian = "Corfú"
 				frankish = "Corfu"
 				norman = "Corfu"
+				serbian = "Krf"
+				croatian = "Krf"
 				oghuz = "Körfuz"
 				pecheneg = "Körfuz"
 				turkmen = "Körfuz"
 				turkish = "Körfuz"
-			}
-			b_kassiopi = {
-				sardinian = "Cassiopi"
-				dalmatian = "Cassiopi"
-				sicilian = "Cassiopi"
-				umbrian = "Cassiopi"
-				italian = "Cassiopi"
-				laziale = "Cassiopi"
-				langobardisch = "Cassiopi"
-				neapolitan = "Cassiopi"
-				tuscan = "Cassiopi"
-				ligurian = "Cassiopi"
-				venetian = "Cassiopi"
-			}
-			b_angelokastro = {
-				sardinian = "Castel Sant'Angelo"
-				dalmatian = "Castel Sant'Angelo"
-				sicilian = "Castel Sant'Angelo"
-				umbrian = "Castel Sant'Angelo"
-				italian = "Castel Sant'Angelo"
-				laziale = "Castel Sant'Angelo"
-				langobardisch = "Castel Sant'Angelo"
-				neapolitan = "Castel Sant'Angelo"
-				tuscan = "Castel Sant'Angelo"
-				ligurian = "Castel Sant'Angelo"
-				venetian = "Castel Sant'Angelo"
-			}
-		} # end c_corfu
+				b_palaiofrourio = {
+					sardinian = "Fortezza Vecchia"
+					dalmatian = "Fortezza Vecchia"
+					sicilian = "Fortezza Vecchia"
+					umbrian = "Fortezza Vecchia"
+					italian = "Fortezza Vecchia"
+					laziale = "Fortezza Vecchia"
+					langobardisch = "Fortezza Vecchia"
+					neapolitan = "Fortezza Vecchia"
+					tuscan = "Fortezza Vecchia"
+					ligurian = "Fortezza Vecchia"
+					venetian = "Fortezza Vecchia"
+				}
+				b_corfu = {
+					sardinian = "Corfú"
+					dalmatian = "Corfú"
+					sicilian = "Corfú"
+					umbrian = "Corfú"
+					italian = "Corfú"
+					laziale = "Corfú"
+					langobardisch = "Corfú"
+					neapolitan = "Corfú"
+					tuscan = "Corfú"
+					ligurian = "Corfú"
+					venetian = "Corfú"
+					frankish = "Corfu"
+					norman = "Corfu"
+					oghuz = "Körfuz"
+					pecheneg = "Körfuz"
+					turkmen = "Körfuz"
+					turkish = "Körfuz"
+				}
+				b_kassiopi = {
+					sardinian = "Cassiopi"
+					dalmatian = "Cassiopi"
+					sicilian = "Cassiopi"
+					umbrian = "Cassiopi"
+					italian = "Cassiopi"
+					laziale = "Cassiopi"
+					langobardisch = "Cassiopi"
+					neapolitan = "Cassiopi"
+					tuscan = "Cassiopi"
+					ligurian = "Cassiopi"
+					venetian = "Cassiopi"
+				}
+				b_angelokastro = {
+					sardinian = "Castel Sant'Angelo"
+					dalmatian = "Castel Sant'Angelo"
+					sicilian = "Castel Sant'Angelo"
+					umbrian = "Castel Sant'Angelo"
+					italian = "Castel Sant'Angelo"
+					laziale = "Castel Sant'Angelo"
+					langobardisch = "Castel Sant'Angelo"
+					neapolitan = "Castel Sant'Angelo"
+					tuscan = "Castel Sant'Angelo"
+					ligurian = "Castel Sant'Angelo"
+					venetian = "Castel Sant'Angelo"
+				}
+			} # end c_corfu
+			
+		}
 		allow = { title_duke_basic_allow = yes }
 	} # end k_cephalonia
 	
-	## AVE MARIA Modified Hierarchy Old Epirus Kingdom
-	
-	k_achaea = { # Moréos
-		color = { 213 217 101 }
-		color2 = { 23 255 255 }
-		culture = frankish
-		capital = 476 # Achaía # Achaia
-		title = PRINCE
-		title_female = PRINCE_female
-		orthodox = 300 # Crusade target weight
-		catholic = 150 # Crusade target weight
-		muslim = 25 # Crusade target weight
-		hellenic_pagan_reformed = 2000 # Crusade target weight
-		frankish = "Achaïe"
-		norman = "Achaïe"
-		sardinian = "Achaia"
-		dalmatian = "Achaia"
-		sicilian = "Achaia"
-		umbrian = "Achaia"
-		italian = "Achaia"
-		laziale = "Achaia"
-		langobardisch = "Achaia"
-		neapolitan = "Achaia"
-		tuscan = "Achaia"
-		ligurian = "Achaia"
-		venetian = "Achaia"
+	## AVE MARIA Modified Hierarchy Achea Kingdom
+	k_athens = { # Helládos
+		color = { 186 206 253 }
+		color2 = { 255 255 255 }
+		capital = 482 # Attika # Atheniai
+		frankish = "Athènes"
+		norman = "Athènes"
+		sardinian = "Atene"
+		dalmatian = "Atene"
+		sicilian = "Atene"
+		umbrian = "Atene"
+		italian = "Atene"
+		laziale = "Atene"
+		langobardisch = "Atene"
+		neapolitan = "Atene"
+		tuscan = "Atene"
+		ligurian = "Atene"
+		venetian = "Atene"
+		catalan = "Atenes"
+		oghuz = "Atina"
+		turkmen = "Atina"
+		turkish = "Atina"
+		pecheneg = "Atina"
 		d_athens = { # Helládos
 			color = { 186 206 253 }
 			color2 = { 255 255 255 }
@@ -9453,6 +9594,31 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_atheniai
 			allow = { title_duke_basic_allow = yes }
 		} # end d_athens
+	
+		allow = { title_duke_basic_allow = yes }
+	} # end d_athens
+	k_achaia = { # Peloponnesou
+		color = { 246 188 0 }
+		color2 = { 255 255 255 }
+		capital = 481 # Korinthos
+		frankish = "Achaïe"
+		norman = "Achaïe"
+		sardinian = "Achaia"
+		dalmatian = "Achaia"
+		sicilian = "Achaia"
+		umbrian = "Achaia"
+		italian = "Achaia"
+		laziale = "Achaia"
+		langobardisch = "Achaia"
+		neapolitan = "Achaia"
+		tuscan = "Achaia"
+		ligurian = "Achaia"
+		venetian = "Achaia"
+		oghuz = "Morá"
+		turkmen = "Morá"
+		turkish = "Morá"
+		pecheneg = "Morá"
+		
 		d_achaia = { # Peloponnesou
 			color = { 246 188 0 }
 			color2 = { 255 255 255 }
@@ -9960,15 +10126,12 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_arcadia
 			allow = { title_duke_basic_allow = yes }
 		} # end d_achaia
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_achaea
-	k_candia = { # Kretes
+				
+		allow = { title_duke_basic_allow = yes }
+	} # end k_achaia
+	
+	## AVE MARIA Modified Hierarchy Krete Kingdom
+	k_krete = { # Kretes
 		color = { 107 75 104 }
 		color2 = { 23 255 255 }
 		culture = italian
@@ -10265,16 +10428,11 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 				#b_temenos = {}
 			} # end c_chandax
-			allow = { title_duke_basic_allow = yes }
+			
 		} # end d_krete
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_candia
+		allow = { title_duke_basic_allow = yes }
+	} # end k_krete
+	
 	k_nikaea = { # Nikaia
 		color = { 94 154 92 }
 		color2 = { 255 255 255 }

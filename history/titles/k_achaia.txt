@@ -2,7 +2,7 @@
 
 330.1.1 = {
 	liege = e_byzantium
-	vice_royalty = yes
+	# vice_royalty = yes
 }
 865.1.1 = {
 	holder = 145151
@@ -33,14 +33,14 @@
 }
 1077.9.1 = {
 	holder = 20502
-	vice_royalty = no
+	# vice_royalty = no
 }
 1078.6.1 = {
 	holder = 41308
 }
 1079.1.1 = {
 	holder = 70427
-	vice_royalty = yes
+	# vice_royalty = yes
 }
 1086.1.1 = {
 	holder = 1232157
@@ -69,7 +69,7 @@
 # Collapse of Byzantine Empire
 1204.5.16 = {
 	liege = 0
-	vice_royalty = no
+	# vice_royalty = no
 }
 1205.3.1 = {
 	liege = k_achaea

@@ -6,12 +6,12 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decisions\\ave_maria_admc_decision_icon_invest_in_administrative_capacity.tga"
 	}
 	
-	spriteType = {
-		name = "GFX_modifier_icons"
-		texturefile = "gfx\\interface\\modifier_icons.dds"
-		noOfFrames = 277
-		loadType = "INGAME"
-	}
+	# spriteType = {
+		# name = "GFX_modifier_icons"
+		# texturefile = "gfx\\interface\\modifier_icons.dds"
+		# noOfFrames = 277
+		# loadType = "INGAME"
+	# }
 
 }
 

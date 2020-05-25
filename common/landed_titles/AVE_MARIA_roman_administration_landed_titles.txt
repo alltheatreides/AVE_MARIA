@@ -236,6 +236,52 @@ e_null_utility_2 = {
 		
 	} # end k_cephalonia
 	
+	## Achaia SWMH Kingdom
+	k_athens_theme = {
+		color = { 186 206 253 }
+		color2 = { 255 255 255 }
+		capital = 482 # Attika # Atheniai
+		frankish = "Athènes"
+		norman = "Athènes"
+		sardinian = "Atene"
+		dalmatian = "Atene"
+		sicilian = "Atene"
+		umbrian = "Atene"
+		italian = "Atene"
+		laziale = "Atene"
+		langobardisch = "Atene"
+		neapolitan = "Atene"
+		tuscan = "Atene"
+		ligurian = "Atene"
+		venetian = "Atene"
+		catalan = "Atenes"
+		oghuz = "Atina"
+		turkmen = "Atina"
+		turkish = "Atina"
+		pecheneg = "Atina"
+	}
+	k_achaia_theme = {
+		color = { 246 188 0 }
+		color2 = { 255 255 255 }
+		capital = 481 # Korinthos
+		frankish = "Achaïe"
+		norman = "Achaïe"
+		sardinian = "Achaia"
+		dalmatian = "Achaia"
+		sicilian = "Achaia"
+		umbrian = "Achaia"
+		italian = "Achaia"
+		laziale = "Achaia"
+		langobardisch = "Achaia"
+		neapolitan = "Achaia"
+		tuscan = "Achaia"
+		ligurian = "Achaia"
+		venetian = "Achaia"
+		oghuz = "Morá"
+		turkmen = "Morá"
+		turkish = "Morá"
+		pecheneg = "Morá"
+	}
 	
 	k_opsikon_theme = {
 		color = { 36 83 169 }

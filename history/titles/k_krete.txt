@@ -2,12 +2,12 @@
 
 330.1.1 = {
 	liege = e_byzantium
-	vice_royalty = yes
+	# vice_royalty = yes
 }
 827.1.1 = {
 	liege = 0
 	holder = 159524 # Umar I
-	vice_royalty = no
+	# vice_royalty = no
 	conquest_culture = andalusian_arabic
 }
 855.1.1 = {
@@ -40,7 +40,7 @@
 964.1.1 = {
 	liege = e_byzantium
 	holder = 1712 # Nikephoros Phokas
-	vice_royalty = yes
+	# vice_royalty = yes
 	conquest_culture = greek
 }
 990.1.1 = {
@@ -106,7 +106,7 @@
 1211.1.1 = {
 	liege = k_venice
 	holder = 32120 # Pietro Ziani
-	vice_royalty = no	
+	# vice_royalty = no	
 }
 1229.3.13 = {
 	holder = 32124 # Iacopo Tiepolo
