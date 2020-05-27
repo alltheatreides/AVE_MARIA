@@ -2,7 +2,7 @@ succession_laws = {
 	
 	succ_roman_family_elective = {
 		potential = {
-			roman_administration_administrative_title_trigger = yes
+			roman_administration_family_title_trigger = yes
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}

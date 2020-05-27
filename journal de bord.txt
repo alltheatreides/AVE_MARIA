@@ -424,3 +424,26 @@ So one way this might work is through the implementation of an expanded economy 
 
 22/05/20
 - Retirer l'ambition "gain landed title for unlandes son"
+
+23/05/20
+- Work on the byzantine landed titles conversion for administrative landless system
+
+24/05/20
+- Work on the byzantine landed titles conversion for administrative landless system
+
+25/05/20
+- Work on the byzantine landed titles conversion for administrative landless system
+- Fiddling witht he modifier_icon strip in prevision for the province/resource rework
+
+26/05/20
+- Faire un event de maintenance si jamais le titre k_regular_vanilla_theme n'est pas possédé par un mec vassal de l'empire, détrruire l'office de theme associé
+- Faire une condition pour avoir les titres royaux/ducaux byzantines
+- Va falloir créer des null sous titres pour tous les titres de famille... ok done
+- ... et pour les _theme job titles aussi....
+- Créer tous les flags pour tous les d_null c_null et b_null
+
+27/05/20
+- Changer les lois de tous les titres administratifs pour ne pas pouvoir déclarer de guerre
+- Créer les fichiers historiques des tagma..
+- Economic overhaul: distinguer les basic foodstuffs and goods (grain, meats, fabric, tools) et les luxury goods. Les luxury goods font l'objet de commerce longue distance
+- Ajouter une condition pour les conseillers de l'empereur qui doivent d'être d'un certain rang

@@ -10433,17 +10433,36 @@ e_byzantium = { # Basileia Rhõmaiõn
 		allow = { title_duke_basic_allow = yes }
 	} # end k_krete
 	
-	k_nikaea = { # Nikaia
-		color = { 94 154 92 }
+	## AVE MARIA Modified Hierarchy Nikaia Kingdom
+	k_paphlagonia = { # Paphlagonias
+		color = { 112 109 67 }
 		color2 = { 255 255 255 }
-		culture = greek
-		capital = 750 # Nikaia # Nikaea
-		orthodox = 400 # Crusade target weight
-		catholic = 25 # Crusade target weight
-		muslim = 200 # Crusade target weight
-		hellenic_pagan_reformed = 5000 # Crusade target weight
-		name_tier = emperor
-		d_paphlagonia = { # Paphlagonias
+		capital = 751 # Paphlagonia
+		frankish = "Paphlagonie"
+		norman = "Paphlagonie"
+		sardinian = "Paphlagonia"
+		dalmatian = "Paphlagonia"
+		sicilian = "Paphlagonia"
+		umbrian = "Paphlagonia"
+		italian = "Paphlagonia"
+		laziale = "Paphlagonia"
+		langobardisch = "Paphlagonia"
+		neapolitan = "Paphlagonia"
+		tuscan = "Paphlagonia"
+		ligurian = "Paphlagonia"
+		venetian = "Paphlagonia"
+		bedouin_arabic = "Aflakhúniya"
+		hijazi = "Aflakhúniya"
+		yemeni = "Aflakhúniya"
+		maghreb_arabic = "Aflakhúniya"
+		levantine_arabic = "Aflakhúniya"
+		egyptian_arabic = "Aflakhúniya"
+		andalusian_arabic = "Aflakhúniya"
+		sicilian_arabic = "Aflakhúniya"
+		oghuz = "Kastamoni"
+		turkmen = "Kastamoni"
+		turkish = "Kastamoni"
+		d_paphlagonia = {
 			color = { 112 109 67 }
 			color2 = { 255 255 255 }
 			capital = 751 # Paphlagonia
@@ -10572,8 +10591,19 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			}
 			allow = { title_duke_basic_allow = yes }
-		} # end d_paphlagonia
-		d_boukellarion = { # Boukellarion
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_paphlagonia
+	k_boukellarion = { # Boukellarion
+		color = { 80 159 20 }
+		color2 = { 255 255 255 }
+		capital = 753 # Ankyra
+		frankish = "Bucellaires"
+		norman = "Bucellaires"
+		oghuz = "Engürü"
+		turkmen = "Engürü"
+		turkish = "Engürü"
+		d_boukellarion = {
 			color = { 80 159 20 }
 			color2 = { 255 255 255 }
 			capital = 753 # Ankyra
@@ -10737,8 +10767,17 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			} # end c_ankyra
 			allow = { title_duke_basic_allow = yes }
-		} # end d_boukellarion
-		d_samos = { # Samou
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_boukellarion
+	k_samos = { # Samou
+		color = { 67 112 88 }
+		color2 = { 255 255 255 }
+		capital = 745 # Smyrna
+		oghuz = "Izmir"
+		turkmen = "Izmir"
+		turkish = "Aydin"
+		d_samos = {
 			color = { 67 112 88 }
 			color2 = { 255 255 255 }
 			capital = 745 # Smyrna
@@ -10885,8 +10924,25 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			} # end c_smyrna
 			allow = { title_duke_basic_allow = yes }
-		} # end d_samos
-		d_thracesia = { # Thrakesion
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_samos
+	k_thracesia = { # Thrakesion
+		color = { 154 43 116 }
+		color2 = { 255 255 255 }
+		capital = 748 # Karía # Laodikeia
+		bedouin_arabic = "Tarqasís"
+		hijazi = "Tarqasís"
+		yemeni = "Tarqasís"
+		maghreb_arabic = "Tarqasís"
+		levantine_arabic = "Tarqasís"
+		egyptian_arabic = "Tarqasís"
+		andalusian_arabic = "Tarqasís"
+		sicilian_arabic = "Tarqasís"
+		oghuz = "Ala Šehir"
+		turkmen = "Ala Šehir"
+		turkish = "Ala Šehir"
+		d_thracesia = {
 			color = { 154 43 116 }
 			color2 = { 255 255 255 }
 			capital = 748 # Karía # Laodikeia
@@ -11062,342 +11118,402 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			}
 			allow = { title_duke_basic_allow = yes }
-		} # end d_thracesia
-		# d_opsikon = { # Opsikion
-			# color = { 36 83 169 }
-			# color2 = { 255 255 255 }
-			# capital = 750 # Nikaia # Nikaea
-			# frankish = "Nicée"
-			# norman = "Nicée"
-			# sardinian = "Nicea"
-			# dalmatian = "Nicea"
-			# sicilian = "Nicea"
-			# umbrian = "Nicea"
-			# italian = "Nicea"
-			# laziale = "Nicea"
-			# langobardisch = "Nicea"
-			# neapolitan = "Nicea"
-			# tuscan = "Nicea"
-			# ligurian = "Nicea"
-			# venetian = "Nicea"
-			# bedouin_arabic = "Níqíya"
-			# sicilian_arabic = "Níqíya"
-			# hijazi = "Níqíya"
-			# yemeni = "Níqíya"
-			# maghreb_arabic = "Níqíya"
-			# levantine_arabic = "Níqíya"
-			# egyptian_arabic = "Níqíya"
-			# andalusian_arabic = "Níqíya"
-			# oghuz = "Hüdavendigár"
-			# turkmen = "Hüdavendigár"
-			# turkish = "Hüdavendigár"
-			# c_nikaea = { # Nikaia (750)
-				# color = { 205 104 170 }
-				# color2 = { 255 255 255 }
-				# frankish = "Nicée"
-				# norman = "Nicée"
-				# sardinian = "Nicea"
-				# dalmatian = "Nicea"
-				# sicilian = "Nicea"
-				# umbrian = "Nicea"
-				# italian = "Nicea"
-				# laziale = "Nicea"
-				# langobardisch = "Nicea"
-				# neapolitan = "Nicea"
-				# tuscan = "Nicea"
-				# ligurian = "Nicea"
-				# venetian = "Nicea"
-				# bedouin_arabic = "Níqíya"
-				# sicilian_arabic = "Níqíya"
-				# hijazi = "Níqíya"
-				# yemeni = "Níqíya"
-				# maghreb_arabic = "Níqíya"
-				# levantine_arabic = "Níqíya"
-				# egyptian_arabic = "Níqíya"
-				# andalusian_arabic = "Níqíya"
-				# oghuz = "Iznik"
-				# turkmen = "Iznik"
-				# turkish = "Iznik"
-				# b_malagina = {
-					# oghuz = "Akhisar-i Geviye"
-					# turkmen = "Akhisar-i Geviye"
-					# turkish = "Akhisar-i Geviye"
-				# }
-				# b_nikaia = {
-					# frankish = "Nicée"
-					# norman = "Nicée"
-					# sardinian = "Nicea"
-					# dalmatian = "Nicea"
-					# sicilian = "Nicea"
-					# umbrian = "Nicea"
-					# italian = "Nicea"
-					# laziale = "Nicea"
-					# langobardisch = "Nicea"
-					# neapolitan = "Nicea"
-					# tuscan = "Nicea"
-					# ligurian = "Nicea"
-					# venetian = "Nicea"
-					# bedouin_arabic = "Níqíya"
-					# sicilian_arabic = "Níqíya"
-					# hijazi = "Níqíya"
-					# yemeni = "Níqíya"
-					# maghreb_arabic = "Níqíya"
-					# levantine_arabic = "Níqíya"
-					# egyptian_arabic = "Níqíya"
-					# andalusian_arabic = "Níqíya"
-					# oghuz = "Iznik"
-					# turkmen = "Iznik"
-					# turkish = "Iznik"
-				# }
-				# b_basilinopolis = {
-					# oghuz = "Orhangazi"
-					# turkmen = "Orhangazi"
-					# turkish = "Orhangazi"
-				# }
-				# b_pylai = {
-					# oghuz = "Yalakabad"
-					# turkmen = "Yalakabad"
-					# turkish = "Yalakabad"
-				# }
-				# b_kios = {
-					# oghuz = "Gemleyik"
-					# turkmen = "Gemleyik"
-					# turkish = "Gemleyik"
-				# }
-				# b_leukai = {
-					# oghuz = "Lefke"
-					# turkmen = "Lefke"
-					# turkish = "Lefke"
-				# }
-				# b_angelokomis = {
-					# oghuz = "Eyinegöl"
-					# turkmen = "Eyinegöl"
-					# turkish = "Eyinegöl"
-				# }
-			# } # end c_nikaea
-			# c_prusa = { # Prousa (742)
-				# color = { 211 110 176 }
-				# color2 = { 255 255 255 }
-				# frankish = "Pruse"
-				# norman = "Pruse"
-				# sardinian = "Prusa"
-				# dalmatian = "Prusa"
-				# sicilian = "Prusa"
-				# umbrian = "Prusa"
-				# italian = "Prusa"
-				# laziale = "Prusa"
-				# langobardisch = "Prusa"
-				# neapolitan = "Prusa"
-				# tuscan = "Prusa"
-				# ligurian = "Prusa"
-				# venetian = "Prusa"
-				# oghuz = "Bursa"
-				# turkmen = "Bursa"
-				# turkish = "Bursa"
-				# b_lopadion = {
-					# oghuz = "Ulubat"
-					# turkmen = "Ulubat"
-					# turkish = "Ulubat"
-				# }
-				# b_prusa = {
-					# frankish = "Pruse"
-					# norman = "Pruse"
-					# sardinian = "Prusa"
-					# dalmatian = "Prusa"
-					# sicilian = "Prusa"
-					# umbrian = "Prusa"
-					# italian = "Prusa"
-					# laziale = "Prusa"
-					# langobardisch = "Prusa"
-					# neapolitan = "Prusa"
-					# tuscan = "Prusa"
-					# ligurian = "Prusa"
-					# venetian = "Prusa"
-					# oghuz = "Bursa"
-					# turkmen = "Bursa"
-					# turkish = "Bursa"
-				# }
-				# b_miletopolis = {
-					# oghuz = "Mihaliç"
-					# turkmen = "Mihaliç"
-					# turkish = "Mihaliç"
-				# }
-				# b_apamea = {
-					# frankish = "Apamée"
-					# norman = "Apamée"
-					# sardinian = "Apamea"
-					# dalmatian = "Apamea"
-					# sicilian = "Apamea"
-					# umbrian = "Apamea"
-					# italian = "Apamea"
-					# laziale = "Apamea"
-					# langobardisch = "Apamea"
-					# neapolitan = "Apamea"
-					# tuscan = "Apamea"
-					# ligurian = "Apamea"
-					# venetian = "Apamea"
-					# oghuz = "Mundanya"
-					# turkmen = "Mundanya"
-					# turkish = "Mundanya"
-				# }
-				# b_apollonia = {
-					# oghuz = "Apolyont"
-					# turkmen = "Apolyont"
-					# turkish = "Apolyont"
-				# }
-				# b_adrianoi = {
-					# oghuz = "Adirnas"
-					# turkmen = "Adirnas"
-					# turkish = "Adirnas"
-				# }
-			# } # end c_prusa
-			# c_akhyraous = { # Mysía (1332)
-				# color = { 214 113 179 }
-				# color2 = { 255 255 255 }
-				# frankish = "Mysie"
-				# norman = "Mysie"
-				# oghuz = "Karasi"
-				# turkmen = "Karasi"
-				# turkish = "Karasi"
-				# b_poimanenos = {
-					# oghuz = "Tatarköy"
-					# turkmen = "Tatarköy"
-					# turkish = "Tatarköy"
-				# }
-				# b_akhyraous = {
-					# oghuz = "Balikasri"
-					# turkmen = "Balikasri"
-					# turkish = "Balikasri"
-				# }
-				# b_synaos = {
-					# oghuz = "Simav"
-					# turkmen = "Simav"
-					# turkish = "Simav"
-				# }
-				# b_pegadia = {
-					# frankish = "Pegadie"
-					# norman = "Pegadie"
-					# sardinian = "Pegadea"
-					# dalmatian = "Pegadea"
-					# sicilian = "Pegadea"
-					# umbrian = "Pegadea"
-					# italian = "Pegadea"
-					# laziale = "Pegadea"
-					# langobardisch = "Pegadea"
-					# neapolitan = "Pegadea"
-					# tuscan = "Pegadea"
-					# ligurian = "Pegadea"
-					# venetian = "Pegadea"
-					# oghuz = "Bigadiç"
-					# turkmen = "Bigadiç"
-					# turkish = "Bigadiç"
-				# }
-				# b_lentiana = {}
-				# b_adrianeia = {}
-			# } # end c_akhyraous
-			# c_sangarios = { # Sangários (956)
-				# color = { 214 113 179 }
-				# color2 = { 255 255 255 }
-				# oghuz = "Sögüt"
-				# turkmen = "Sögüt"
-				# turkish = "Sögüt"
-				# b_kibaia = {
-					# oghuz = "Geviye"
-					# turkmen = "Geviye"
-					# turkish = "Geviye"
-				# }
-				# b_thebasion = {
-					# oghuz = "Sögüt"
-					# turkmen = "Sögüt"
-					# turkish = "Sögüt"
-				# }
-				# b_bilekomis = {
-					# oghuz = "Bilecik"
-					# turkmen = "Bilecik"
-					# turkish = "Bilecik"
-				# }
-			# }
-			# c_dorylaion = { # Dorylaion (749)
-				# color = { 176 25 124 }
-				# color2 = { 255 255 255 }
-				# frankish = "Dorylée"
-				# norman = "Dorylée"
-				# sardinian = "Dorylaeum"
-				# dalmatian = "Dorylaeum"
-				# sicilian = "Dorylaeum"
-				# umbrian = "Dorylaeum"
-				# italian = "Dorylaeum"
-				# laziale = "Dorylaeum"
-				# langobardisch = "Dorylaeum"
-				# neapolitan = "Dorylaeum"
-				# tuscan = "Dorylaeum"
-				# ligurian = "Dorylaeum"
-				# venetian = "Dorylaeum"
-				# oghuz = "Kütahya"
-				# turkmen = "Kütahya"
-				# turkish = "Kütahya"
-				# bedouin_arabic = "Daruliyyah"
-				# sicilian_arabic = "Daruliyyah"
-				# hijazi = "Daruliyyah"
-				# yemeni = "Daruliyyah"
-				# maghreb_arabic = "Daruliyyah"
-				# levantine_arabic = "Daruliyyah"
-				# egyptian_arabic = "Daruliyyah"
-				# andalusian_arabic = "Daruliyyah"
-				# b_dorylaion = {
-					# frankish = "Dorylée"
-					# norman = "Dorylée"
-					# sardinian = "Dorylaeum"
-					# dalmatian = "Dorylaeum"
-					# sicilian = "Dorylaeum"
-					# umbrian = "Dorylaeum"
-					# italian = "Dorylaeum"
-					# laziale = "Dorylaeum"
-					# langobardisch = "Dorylaeum"
-					# neapolitan = "Dorylaeum"
-					# tuscan = "Dorylaeum"
-					# ligurian = "Dorylaeum"
-					# venetian = "Dorylaeum"
-					# bedouin_arabic = "Daruliyyah"
-					# sicilian_arabic = "Daruliyyah"
-					# hijazi = "Daruliyyah"
-					# yemeni = "Daruliyyah"
-					# maghreb_arabic = "Daruliyyah"
-					# levantine_arabic = "Daruliyyah"
-					# egyptian_arabic = "Daruliyyah"
-					# andalusian_arabic = "Daruliyyah"
-					# oghuz = "Eski Šehir"
-					# turkmen = "Eski Šehir"
-					# turkish = "Eski Šehir"
-				# }
-				# b_kotyaion = {
-					# oghuz = "Kütahya"
-					# turkmen = "Kütahya"
-					# turkish = "Kütahya"
-				# }
-				# b_nakoleia = {
-					# frankish = "Nacolée"
-					# norman = "Nacolée"
-					# sardinian = "Nacolea"
-					# dalmatian = "Nacolea"
-					# sicilian = "Nacolea"
-					# umbrian = "Nacolea"
-					# italian = "Nacolea"
-					# laziale = "Nacolea"
-					# langobardisch = "Nacolea"
-					# neapolitan = "Nacolea"
-					# tuscan = "Nacolea"
-					# ligurian = "Nacolea"
-					# venetian = "Nacolea"
-					# oghuz = "Seyyid Gazi"
-					# turkmen = "Seyyid Gazi"
-					# turkish = "Seyyid Gazi"
-				# }
-				# b_midaion = {}
-			# } # end c_dorylaion
-			# allow = { title_duke_basic_allow = yes }
-		# } # end d_opsikon
-		d_optimatoi = { # Optimàton
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_thracesia
+	k_opsikon = { # Opsikion
+		color = { 36 83 169 }
+		color2 = { 255 255 255 }
+		capital = 750 # Nikaia # Nikaea
+		frankish = "Nicée"
+		norman = "Nicée"
+		sardinian = "Nicea"
+		dalmatian = "Nicea"
+		sicilian = "Nicea"
+		umbrian = "Nicea"
+		italian = "Nicea"
+		laziale = "Nicea"
+		langobardisch = "Nicea"
+		neapolitan = "Nicea"
+		tuscan = "Nicea"
+		ligurian = "Nicea"
+		venetian = "Nicea"
+		bedouin_arabic = "Níqíya"
+		sicilian_arabic = "Níqíya"
+		hijazi = "Níqíya"
+		yemeni = "Níqíya"
+		maghreb_arabic = "Níqíya"
+		levantine_arabic = "Níqíya"
+		egyptian_arabic = "Níqíya"
+		andalusian_arabic = "Níqíya"
+		oghuz = "Hüdavendigár"
+		turkmen = "Hüdavendigár"
+		turkish = "Hüdavendigár"
+		d_opsikon = {
+			color = { 36 83 169 }
+			color2 = { 255 255 255 }
+			capital = 750 # Nikaia # Nikaea
+			frankish = "Nicée"
+			norman = "Nicée"
+			sardinian = "Nicea"
+			dalmatian = "Nicea"
+			sicilian = "Nicea"
+			umbrian = "Nicea"
+			italian = "Nicea"
+			laziale = "Nicea"
+			langobardisch = "Nicea"
+			neapolitan = "Nicea"
+			tuscan = "Nicea"
+			ligurian = "Nicea"
+			venetian = "Nicea"
+			bedouin_arabic = "Níqíya"
+			sicilian_arabic = "Níqíya"
+			hijazi = "Níqíya"
+			yemeni = "Níqíya"
+			maghreb_arabic = "Níqíya"
+			levantine_arabic = "Níqíya"
+			egyptian_arabic = "Níqíya"
+			andalusian_arabic = "Níqíya"
+			oghuz = "Hüdavendigár"
+			turkmen = "Hüdavendigár"
+			turkish = "Hüdavendigár"
+			c_nikaea = { # Nikaia (750)
+				color = { 205 104 170 }
+				color2 = { 255 255 255 }
+				frankish = "Nicée"
+				norman = "Nicée"
+				sardinian = "Nicea"
+				dalmatian = "Nicea"
+				sicilian = "Nicea"
+				umbrian = "Nicea"
+				italian = "Nicea"
+				laziale = "Nicea"
+				langobardisch = "Nicea"
+				neapolitan = "Nicea"
+				tuscan = "Nicea"
+				ligurian = "Nicea"
+				venetian = "Nicea"
+				bedouin_arabic = "Níqíya"
+				sicilian_arabic = "Níqíya"
+				hijazi = "Níqíya"
+				yemeni = "Níqíya"
+				maghreb_arabic = "Níqíya"
+				levantine_arabic = "Níqíya"
+				egyptian_arabic = "Níqíya"
+				andalusian_arabic = "Níqíya"
+				oghuz = "Iznik"
+				turkmen = "Iznik"
+				turkish = "Iznik"
+				b_malagina = {
+					oghuz = "Akhisar-i Geviye"
+					turkmen = "Akhisar-i Geviye"
+					turkish = "Akhisar-i Geviye"
+				}
+				b_nikaia = {
+					frankish = "Nicée"
+					norman = "Nicée"
+					sardinian = "Nicea"
+					dalmatian = "Nicea"
+					sicilian = "Nicea"
+					umbrian = "Nicea"
+					italian = "Nicea"
+					laziale = "Nicea"
+					langobardisch = "Nicea"
+					neapolitan = "Nicea"
+					tuscan = "Nicea"
+					ligurian = "Nicea"
+					venetian = "Nicea"
+					bedouin_arabic = "Níqíya"
+					sicilian_arabic = "Níqíya"
+					hijazi = "Níqíya"
+					yemeni = "Níqíya"
+					maghreb_arabic = "Níqíya"
+					levantine_arabic = "Níqíya"
+					egyptian_arabic = "Níqíya"
+					andalusian_arabic = "Níqíya"
+					oghuz = "Iznik"
+					turkmen = "Iznik"
+					turkish = "Iznik"
+				}
+				b_basilinopolis = {
+					oghuz = "Orhangazi"
+					turkmen = "Orhangazi"
+					turkish = "Orhangazi"
+				}
+				b_pylai = {
+					oghuz = "Yalakabad"
+					turkmen = "Yalakabad"
+					turkish = "Yalakabad"
+				}
+				b_kios = {
+					oghuz = "Gemleyik"
+					turkmen = "Gemleyik"
+					turkish = "Gemleyik"
+				}
+				b_leukai = {
+					oghuz = "Lefke"
+					turkmen = "Lefke"
+					turkish = "Lefke"
+				}
+				b_angelokomis = {
+					oghuz = "Eyinegöl"
+					turkmen = "Eyinegöl"
+					turkish = "Eyinegöl"
+				}
+			} # end c_nikaea
+			c_prusa = { # Prousa (742)
+				color = { 211 110 176 }
+				color2 = { 255 255 255 }
+				frankish = "Pruse"
+				norman = "Pruse"
+				sardinian = "Prusa"
+				dalmatian = "Prusa"
+				sicilian = "Prusa"
+				umbrian = "Prusa"
+				italian = "Prusa"
+				laziale = "Prusa"
+				langobardisch = "Prusa"
+				neapolitan = "Prusa"
+				tuscan = "Prusa"
+				ligurian = "Prusa"
+				venetian = "Prusa"
+				oghuz = "Bursa"
+				turkmen = "Bursa"
+				turkish = "Bursa"
+				b_lopadion = {
+					oghuz = "Ulubat"
+					turkmen = "Ulubat"
+					turkish = "Ulubat"
+				}
+				b_prusa = {
+					frankish = "Pruse"
+					norman = "Pruse"
+					sardinian = "Prusa"
+					dalmatian = "Prusa"
+					sicilian = "Prusa"
+					umbrian = "Prusa"
+					italian = "Prusa"
+					laziale = "Prusa"
+					langobardisch = "Prusa"
+					neapolitan = "Prusa"
+					tuscan = "Prusa"
+					ligurian = "Prusa"
+					venetian = "Prusa"
+					oghuz = "Bursa"
+					turkmen = "Bursa"
+					turkish = "Bursa"
+				}
+				b_miletopolis = {
+					oghuz = "Mihaliç"
+					turkmen = "Mihaliç"
+					turkish = "Mihaliç"
+				}
+				b_apamea = {
+					frankish = "Apamée"
+					norman = "Apamée"
+					sardinian = "Apamea"
+					dalmatian = "Apamea"
+					sicilian = "Apamea"
+					umbrian = "Apamea"
+					italian = "Apamea"
+					laziale = "Apamea"
+					langobardisch = "Apamea"
+					neapolitan = "Apamea"
+					tuscan = "Apamea"
+					ligurian = "Apamea"
+					venetian = "Apamea"
+					oghuz = "Mundanya"
+					turkmen = "Mundanya"
+					turkish = "Mundanya"
+				}
+				b_apollonia = {
+					oghuz = "Apolyont"
+					turkmen = "Apolyont"
+					turkish = "Apolyont"
+				}
+				b_adrianoi = {
+					oghuz = "Adirnas"
+					turkmen = "Adirnas"
+					turkish = "Adirnas"
+				}
+			} # end c_prusa
+			c_akhyraous = { # Mysía (1332)
+				color = { 214 113 179 }
+				color2 = { 255 255 255 }
+				frankish = "Mysie"
+				norman = "Mysie"
+				oghuz = "Karasi"
+				turkmen = "Karasi"
+				turkish = "Karasi"
+				b_poimanenos = {
+					oghuz = "Tatarköy"
+					turkmen = "Tatarköy"
+					turkish = "Tatarköy"
+				}
+				b_akhyraous = {
+					oghuz = "Balikasri"
+					turkmen = "Balikasri"
+					turkish = "Balikasri"
+				}
+				b_synaos = {
+					oghuz = "Simav"
+					turkmen = "Simav"
+					turkish = "Simav"
+				}
+				b_pegadia = {
+					frankish = "Pegadie"
+					norman = "Pegadie"
+					sardinian = "Pegadea"
+					dalmatian = "Pegadea"
+					sicilian = "Pegadea"
+					umbrian = "Pegadea"
+					italian = "Pegadea"
+					laziale = "Pegadea"
+					langobardisch = "Pegadea"
+					neapolitan = "Pegadea"
+					tuscan = "Pegadea"
+					ligurian = "Pegadea"
+					venetian = "Pegadea"
+					oghuz = "Bigadiç"
+					turkmen = "Bigadiç"
+					turkish = "Bigadiç"
+				}
+				b_lentiana = {}
+				b_adrianeia = {}
+			} # end c_akhyraous
+			c_sangarios = { # Sangários (956)
+				color = { 214 113 179 }
+				color2 = { 255 255 255 }
+				oghuz = "Sögüt"
+				turkmen = "Sögüt"
+				turkish = "Sögüt"
+				b_kibaia = {
+					oghuz = "Geviye"
+					turkmen = "Geviye"
+					turkish = "Geviye"
+				}
+				b_thebasion = {
+					oghuz = "Sögüt"
+					turkmen = "Sögüt"
+					turkish = "Sögüt"
+				}
+				b_bilekomis = {
+					oghuz = "Bilecik"
+					turkmen = "Bilecik"
+					turkish = "Bilecik"
+				}
+			}
+			c_dorylaion = { # Dorylaion (749)
+				color = { 176 25 124 }
+				color2 = { 255 255 255 }
+				frankish = "Dorylée"
+				norman = "Dorylée"
+				sardinian = "Dorylaeum"
+				dalmatian = "Dorylaeum"
+				sicilian = "Dorylaeum"
+				umbrian = "Dorylaeum"
+				italian = "Dorylaeum"
+				laziale = "Dorylaeum"
+				langobardisch = "Dorylaeum"
+				neapolitan = "Dorylaeum"
+				tuscan = "Dorylaeum"
+				ligurian = "Dorylaeum"
+				venetian = "Dorylaeum"
+				oghuz = "Kütahya"
+				turkmen = "Kütahya"
+				turkish = "Kütahya"
+				bedouin_arabic = "Daruliyyah"
+				sicilian_arabic = "Daruliyyah"
+				hijazi = "Daruliyyah"
+				yemeni = "Daruliyyah"
+				maghreb_arabic = "Daruliyyah"
+				levantine_arabic = "Daruliyyah"
+				egyptian_arabic = "Daruliyyah"
+				andalusian_arabic = "Daruliyyah"
+				b_dorylaion = {
+					frankish = "Dorylée"
+					norman = "Dorylée"
+					sardinian = "Dorylaeum"
+					dalmatian = "Dorylaeum"
+					sicilian = "Dorylaeum"
+					umbrian = "Dorylaeum"
+					italian = "Dorylaeum"
+					laziale = "Dorylaeum"
+					langobardisch = "Dorylaeum"
+					neapolitan = "Dorylaeum"
+					tuscan = "Dorylaeum"
+					ligurian = "Dorylaeum"
+					venetian = "Dorylaeum"
+					bedouin_arabic = "Daruliyyah"
+					sicilian_arabic = "Daruliyyah"
+					hijazi = "Daruliyyah"
+					yemeni = "Daruliyyah"
+					maghreb_arabic = "Daruliyyah"
+					levantine_arabic = "Daruliyyah"
+					egyptian_arabic = "Daruliyyah"
+					andalusian_arabic = "Daruliyyah"
+					oghuz = "Eski Šehir"
+					turkmen = "Eski Šehir"
+					turkish = "Eski Šehir"
+				}
+				b_kotyaion = {
+					oghuz = "Kütahya"
+					turkmen = "Kütahya"
+					turkish = "Kütahya"
+				}
+				b_nakoleia = {
+					frankish = "Nacolée"
+					norman = "Nacolée"
+					sardinian = "Nacolea"
+					dalmatian = "Nacolea"
+					sicilian = "Nacolea"
+					umbrian = "Nacolea"
+					italian = "Nacolea"
+					laziale = "Nacolea"
+					langobardisch = "Nacolea"
+					neapolitan = "Nacolea"
+					tuscan = "Nacolea"
+					ligurian = "Nacolea"
+					venetian = "Nacolea"
+					oghuz = "Seyyid Gazi"
+					turkmen = "Seyyid Gazi"
+					turkish = "Seyyid Gazi"
+				}
+				b_midaion = {}
+			} # end c_dorylaion
+			allow = { title_duke_basic_allow = yes }
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_opsikon
+	k_optimatoi = { # Optimàton
+		color = { 136 83 69 }
+		color2 = { 255 255 20 }
+		capital = 741 # Nikomedeia
+		frankish = "Nicomédie"
+		norman = "Nicomédie"
+		sardinian = "Nicomedia"
+		dalmatian = "Nicomedia"
+		sicilian = "Nicomedia"
+		umbrian = "Nicomedia"
+		italian = "Nicomedia"
+		laziale = "Nicomedia"
+		langobardisch = "Nicomedia"
+		neapolitan = "Nicomedia"
+		tuscan = "Nicomedia"
+		ligurian = "Nicomedia"
+		venetian = "Nicomedia"
+		bedouin_arabic = "Uftimát"
+		sicilian_arabic = "Uftimát"
+		hijazi = "Uftimát"
+		yemeni = "Uftimát"
+		maghreb_arabic = "Uftimát"
+		levantine_arabic = "Uftimát"
+		egyptian_arabic = "Uftimát"
+		andalusian_arabic = "Uftimát"
+		oghuz = "Koca-eli"
+		turkmen = "Koca-eli"
+		turkish = "Koca-eli"
+		d_optimatoi = {
 			color = { 136 83 69 }
 			color2 = { 255 255 20 }
 			capital = 741 # Nikomedeia
@@ -11570,8 +11686,30 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			} # end c_chrysopolis
 			allow = { title_duke_basic_allow = yes }
-		} # end d_optimatoi
-		d_cibyrrhaeot = { # Kibyrrhaioton
+		}
+		allow = { title_duke_basic_allow = yes }
+	} # end k_optimatoi
+	k_cibyrrhaeot = { # Kibyrrhaioton
+		color = { 44 83 40 }
+		color2 = { 255 255 255 }
+		capital = 755 # Attáleia # Attaleia
+		frankish = "Cibyrrhéotes"
+		norman = "Cibyrrhéotes"
+		sardinian = "Cibirreoti"
+		dalmatian = "Cibirreoti"
+		sicilian = "Cibirreoti"
+		umbrian = "Cibirreoti"
+		italian = "Cibirreoti"
+		laziale = "Cibirreoti"
+		langobardisch = "Cibirreoti"
+		neapolitan = "Cibirreoti"
+		tuscan = "Cibirreoti"
+		ligurian = "Cibirreoti"
+		venetian = "Cibirreoti"
+		oghuz = "Menteše"
+		turkmen = "Menteše"
+		turkish = "Menteše"
+		d_cibyrrhaeot = {
 			color = { 44 83 40 }
 			color2 = { 255 255 255 }
 			capital = 755 # Attáleia # Attaleia
@@ -11772,27 +11910,29 @@ e_byzantium = { # Basileia Rhõmaiõn
 				}
 			}
 			allow = { title_duke_basic_allow = yes }
-		} # end d_cibyrrhaeot
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
 		}
-	} # end k_nikaea
-	k_anatolia = { # Ikonion
-		color = { 201 81 9 }
+		allow = { title_duke_basic_allow = yes }
+	} # end k_cibyrrhaeot
+	
+	## AVE MARIA Modified Hierarchy Ikonion Kingdom
+	k_charsianon = {
+		color = { 143 23 130 }
 		color2 = { 255 255 255 }
-		dynasty_title_names = no # Will not be named "Seljuk", etc.
-		culture = greek
-		capital = 759 # Ikonion
-		norman = "Anatolie"
-		frankish = "Anatolie"
-		orthodox = 400 # Crusade target weight
-		catholic = 100 # Crusade target weight
-		muslim = 250 # Crusade target weight
-		hellenic_pagan_reformed = 2000 # Crusade target weight
+		capital = 737 # Kaisareia # Kaisereia
+		armenian = "Gesaria"
+		norman = "Césarée"
+		frankish = "Césarée"
+		bedouin_arabic = "Kharshana"
+		sicilian_arabic = "Kharshana"
+		hijazi = "Kharshana"
+		yemeni = "Kharshana"
+		maghreb_arabic = "Kharshana"
+		levantine_arabic = "Kharshana"
+		egyptian_arabic = "Kharshana"
+		andalusian_arabic = "Kharshana"
+		oghuz = "Kayseriye"
+		turkmen = "Kayseriye"
+		turkish = "Kayseriye"
 		d_charsianon = { # Kharsianoù
 			color = { 143 23 130 }
 			color2 = { 255 255 255 }
@@ -11876,6 +12016,22 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_charsianon
+	}
+	k_cappadocia = {
+		color = { 109 95 80 }
+		color2 = { 255 255 255 }
+		capital = 760 # Tyana
+		bedouin_arabic = "Qabádhaq"
+		hijazi = "Qabádhaq"
+		yemeni = "Qabádhaq"
+		maghreb_arabic = "Qabádhaq"
+		levantine_arabic = "Qabádhaq"
+		egyptian_arabic = "Qabádhaq"
+		andalusian_arabic = "Qabádhaq"
+		sicilian_arabic = "Qabádhaq"
+		oghuz = "Nigde"
+		turkmen = "Nigde"
+		turkish = "Nigde"
 		d_cappadocia = { # Kappadokias
 			color = { 109 95 80 }
 			color2 = { 255 255 255 }
@@ -11975,6 +12131,16 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_cappadocia
+	}
+	k_coloneia = {
+		color = { 217 127 61 }
+		color2 = { 255 255 255 }
+		capital = 706 # Koloneia
+		norman = "Colonée"
+		frankish = "Colonée"
+		oghuz = "Divrigi"
+		turkmen = "Divrigi"
+		turkish = "Divrigi"
 		d_coloneia = { # Koloneias
 			color = { 217 127 61 }
 			color2 = { 255 255 255 }
@@ -12065,6 +12231,17 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_coloneia
+	}
+	k_sebasteia	= {
+		color = { 17 50 61 }
+		color2 = { 255 255 255 }
+		capital = 1218 # Sebasteia # Sebastia
+		armenian = "Sebasta"
+		arpitan = "Sébaste"
+		frankish = "Sébaste"
+		oghuz = "Sivas"
+		turkmen = "Sivas"
+		turkish = "Sivas"
 		d_sebasteia = { # Sebasteias
 			color = { 17 50 61 }
 			color2 = { 255 255 255 }
@@ -12140,6 +12317,23 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_sebasteia
+	}
+	k_lykandos = {
+		color = { 30 220 31 }
+		color2 = { 255 255 255 }
+		capital = 736 # Lykandos
+		bedouin_arabic = "Ablustain"
+		sicilian_arabic = "Ablustain"
+		hijazi = "Ablustain"
+		yemeni = "Ablustain"
+		maghreb_arabic = "Ablustain"
+		levantine_arabic = "Ablustain"
+		egyptian_arabic = "Ablustain"
+		andalusian_arabic = "Ablustain"
+		armenian = "Ablastayn"
+		oghuz = "Elbistan"
+		turkmen = "Elbistan"
+		turkish = "Elbistan"
 		d_lykandos = { # Lykàndou
 			color = { 30 220 31 }
 			color2 = { 255 255 255 }
@@ -12207,6 +12401,22 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_lykandos
 			allow = { title_duke_basic_allow = yes }
 		} # end d_lykandos
+	}
+	k_anatolia = {
+		color = { 255 206 45 }
+		color2 = { 255 255 255 }
+		capital = 759 # Ikonion
+		bedouin_arabic = "Nátlíq"
+		sicilian_arabic = "Nátlíq"
+		hijazi = "Nátlíq"
+		yemeni = "Nátlíq"
+		maghreb_arabic = "Nátlíq"
+		levantine_arabic = "Nátlíq"
+		egyptian_arabic = "Nátlíq"
+		andalusian_arabic = "Nátlíq"
+		oghuz = "Rúm"
+		turkmen = "Rúm"
+		turkish = "Rúm"
 		d_anatolia = { # Anatolikon
 			color = { 255 206 45 }
 			color2 = { 255 255 255 }
@@ -12372,6 +12582,19 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_anatolia
+	}
+	k_melitene = {
+		color = { 27 56 162 }
+		color2 = { 255 255 255 }
+		capital = 707 # Melitene
+		armenian = "Malat'ya"
+		oghuz = "Malatiya"
+		turkmen = "Malatiya"
+		turkish = "Malatiya"
+		frankish = "Melitena"
+		norman = "Melitena"
+		kurdish = "Meletî"
+		greek = "Melitene"
 		d_melitene = { # Malatya
 			color = { 27 56 162 }
 			color2 = { 255 255 255 }
@@ -12443,23 +12666,28 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_melitene
 			allow = { title_duke_basic_allow = yes }
 		} # end d_melitene
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_anatolia
-	k_cyprus = { # Kyprou
-		color = { 248 246 137 }
+	}	
+	
+	## AVE MARIA Modified Hierarchy Kyprou Kingdom
+	k_cyprus = {
+		color = { 85 138 236 }
 		color2 = { 255 255 255 }
 		capital = 1069 # Leukousía # Nikosia # Nicosia
-		culture = greek
 		orthodox = 400 # Crusade target weight
 		catholic = 400 # Crusade target weight
 		muslim = 100 # Crusade target weight
 		hellenic_pagan_reformed = 500
+		bedouin_arabic = "Qubrus"
+		sicilian_arabic = "Qubrus"
+		hijazi = "Qubrus"
+		yemeni = "Qubrus"
+		maghreb_arabic = "Qubrus"
+		levantine_arabic = "Qubrus"
+		egyptian_arabic = "Qubrus"
+		andalusian_arabic = "Qubrus"
+		oghuz = "Kibris"
+		turkmen = "Kibris"
+		turkish = "Kibris"
 		frankish = "Chypre"
 		norman = "Chypre"
 		sardinian = "Cipro"
@@ -12474,69 +12702,36 @@ e_byzantium = { # Basileia Rhõmaiõn
 		ligurian = "Cipro"
 		venetian = "Cipro"
 		d_cyprus = { # Kyprou
-			color = { 85 138 236 }
-			color2 = { 255 255 255 }
-			capital = 1069 # Leukousía # Nikosia # Nicosia
-			bedouin_arabic = "Qubrus"
-			sicilian_arabic = "Qubrus"
-			hijazi = "Qubrus"
-			yemeni = "Qubrus"
-			maghreb_arabic = "Qubrus"
-			levantine_arabic = "Qubrus"
-			egyptian_arabic = "Qubrus"
-			andalusian_arabic = "Qubrus"
-			oghuz = "Kibris"
-			turkmen = "Kibris"
-			turkish = "Kibris"
-			frankish = "Chypre"
-			norman = "Chypre"
-			sardinian = "Cipro"
-			dalmatian = "Cipro"
-			sicilian = "Cipro"
-			umbrian = "Cipro"
-			italian = "Cipro"
-			laziale = "Cipro"
-			langobardisch = "Cipro"
-			neapolitan = "Cipro"
-			tuscan = "Cipro"
-			ligurian = "Cipro"
-			venetian = "Cipro"
-			c_limisol = { # Lemesos (756)
-				color = { 231 22 159 }
+				color = { 85 138 236 }
 				color2 = { 255 255 255 }
-				oghuz = "Leymosun"
-				turkmen = "Leymosun"
-				turkish = "Leymosun"
-				frankish = "Limassol"
-				norman = "Limassol"
-				sardinian = "Limisso"
-				dalmatian = "Limisso"
-				sicilian = "Limisso"
-				umbrian = "Limisso"
-				italian = "Limisso"
-				laziale = "Limisso"
-				langobardisch = "Limisso"
-				neapolitan = "Limisso"
-				tuscan = "Limisso"
-				ligurian = "Limisso"
-				venetian = "Limisso"
-				b_paphos = {
-					oghuz = "Baf"
-					turkmen = "Baf"
-					turkish = "Baf"
-					sardinian = "Pafo"
-					dalmatian = "Pafo"
-					sicilian = "Pafo"
-					umbrian = "Pafo"
-					italian = "Pafo"
-					laziale = "Pafo"
-					langobardisch = "Pafo"
-					neapolitan = "Pafo"
-					tuscan = "Pafo"
-					ligurian = "Pafo"
-					venetian = "Pafo"
-				}
-				b_limmassol = {
+				capital = 1069 # Leukousía # Nikosia # Nicosia
+				bedouin_arabic = "Qubrus"
+				sicilian_arabic = "Qubrus"
+				hijazi = "Qubrus"
+				yemeni = "Qubrus"
+				maghreb_arabic = "Qubrus"
+				levantine_arabic = "Qubrus"
+				egyptian_arabic = "Qubrus"
+				andalusian_arabic = "Qubrus"
+				oghuz = "Kibris"
+				turkmen = "Kibris"
+				turkish = "Kibris"
+				frankish = "Chypre"
+				norman = "Chypre"
+				sardinian = "Cipro"
+				dalmatian = "Cipro"
+				sicilian = "Cipro"
+				umbrian = "Cipro"
+				italian = "Cipro"
+				laziale = "Cipro"
+				langobardisch = "Cipro"
+				neapolitan = "Cipro"
+				tuscan = "Cipro"
+				ligurian = "Cipro"
+				venetian = "Cipro"
+				c_limisol = { # Lemesos (756)
+					color = { 231 22 159 }
+					color2 = { 255 255 255 }
 					oghuz = "Leymosun"
 					turkmen = "Leymosun"
 					turkish = "Leymosun"
@@ -12553,76 +12748,68 @@ e_byzantium = { # Basileia Rhõmaiõn
 					tuscan = "Limisso"
 					ligurian = "Limisso"
 					venetian = "Limisso"
-				}
-				b_solia = {
-					frankish = "Soles"
-					norman = "Soles"
-					sardinian = "Soli"
-					dalmatian = "Soli"
-					sicilian = "Soli"
-					umbrian = "Soli"
-					italian = "Soli"
-					laziale = "Soli"
-					langobardisch = "Soli"
-					neapolitan = "Soli"
-					tuscan = "Soli"
-					ligurian = "Soli"
-					venetian = "Soli"
-				}
-				b_kolossi = {
-					oghuz = "Golos"
-					turkmen = "Golos"
-					turkish = "Golos"
-					frankish = "Colosse"
-					norman = "Colosse"
-				}
-				b_kykkos = {}
-				b_arsinoecyprus = {}
-			} # end c_limisol
-			c_nicosia = { # Leukousía (1069) # Nikosia
-				color = { 228 19 156 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Lefqosha"
-				sicilian_arabic = "Lefqosha"
-				hijazi = "Lefqosha"
-				yemeni = "Lefqosha"
-				maghreb_arabic = "Lefqosha"
-				levantine_arabic = "Lefqosha"
-				egyptian_arabic = "Lefqosha"
-				andalusian_arabic = "Lefqosha"
-				oghuz = "Lefkosa"
-				turkmen = "Lefkosa"
-				turkish = "Lefkosa"
-				armenian = "Nigosia"
-				frankish = "Nicosie"
-				norman = "Nicosie"
-				sardinian = "Nicosia"
-				dalmatian = "Nicosia"
-				sicilian = "Nicosia"
-				umbrian = "Nicosia"
-				italian = "Nicosia"
-				laziale = "Nicosia"
-				langobardisch = "Nicosia"
-				neapolitan = "Nicosia"
-				tuscan = "Nicosia"
-				ligurian = "Nicosia"
-				venetian = "Nicosia"
-				b_sthilarion = {
-					frankish = "Saint-Hilarion"
-					norman = "Saint-Hilarion"
-					sardinian = "Sant'Ilario"
-					dalmatian = "Sant'Ilario"
-					sicilian = "Sant'Ilario"
-					umbrian = "Sant'Ilario"
-					italian = "Sant'Ilario"
-					laziale = "Sant'Ilario"
-					langobardisch = "Sant'Ilario"
-					neapolitan = "Sant'Ilario"
-					tuscan = "Sant'Ilario"
-					ligurian = "Sant'Ilario"
-					venetian = "Sant'Ilario"
-				}
-				b_nikosia = {
+					b_paphos = {
+						oghuz = "Baf"
+						turkmen = "Baf"
+						turkish = "Baf"
+						sardinian = "Pafo"
+						dalmatian = "Pafo"
+						sicilian = "Pafo"
+						umbrian = "Pafo"
+						italian = "Pafo"
+						laziale = "Pafo"
+						langobardisch = "Pafo"
+						neapolitan = "Pafo"
+						tuscan = "Pafo"
+						ligurian = "Pafo"
+						venetian = "Pafo"
+					}
+					b_limmassol = {
+						oghuz = "Leymosun"
+						turkmen = "Leymosun"
+						turkish = "Leymosun"
+						frankish = "Limassol"
+						norman = "Limassol"
+						sardinian = "Limisso"
+						dalmatian = "Limisso"
+						sicilian = "Limisso"
+						umbrian = "Limisso"
+						italian = "Limisso"
+						laziale = "Limisso"
+						langobardisch = "Limisso"
+						neapolitan = "Limisso"
+						tuscan = "Limisso"
+						ligurian = "Limisso"
+						venetian = "Limisso"
+					}
+					b_solia = {
+						frankish = "Soles"
+						norman = "Soles"
+						sardinian = "Soli"
+						dalmatian = "Soli"
+						sicilian = "Soli"
+						umbrian = "Soli"
+						italian = "Soli"
+						laziale = "Soli"
+						langobardisch = "Soli"
+						neapolitan = "Soli"
+						tuscan = "Soli"
+						ligurian = "Soli"
+						venetian = "Soli"
+					}
+					b_kolossi = {
+						oghuz = "Golos"
+						turkmen = "Golos"
+						turkish = "Golos"
+						frankish = "Colosse"
+						norman = "Colosse"
+					}
+					b_kykkos = {}
+					b_arsinoecyprus = {}
+				} # end c_limisol
+				c_nicosia = { # Leukousía (1069) # Nikosia
+					color = { 228 19 156 }
+					color2 = { 255 255 255 }
 					bedouin_arabic = "Lefqosha"
 					sicilian_arabic = "Lefqosha"
 					hijazi = "Lefqosha"
@@ -12648,94 +12835,109 @@ e_byzantium = { # Basileia Rhõmaiõn
 					tuscan = "Nicosia"
 					ligurian = "Nicosia"
 					venetian = "Nicosia"
-				}
-				b_stavrovouni = {}
-				b_larnaca = {
-					oghuz = "Iskele"
-					turkmen = "Iskele"
-					turkish = "Iskele"
-					frankish = "Larnaca"
-					norman = "Larnaca"
-					sardinian = "Larnaca"
-					dalmatian = "Larnaca"
-					sicilian = "Larnaca"
-					umbrian = "Larnaca"
-					italian = "Larnaca"
-					laziale = "Larnaca"
-					langobardisch = "Larnaca"
-					neapolitan = "Larnaca"
-					tuscan = "Larnaca"
-					ligurian = "Larnaca"
-					venetian = "Larnaca"
-				}
-				b_kyrenia = {
-					oghuz = "Girne"
-					turkmen = "Girne"
-					turkish = "Girne"
-					frankish = "Cyrenie"
-					norman = "Cyrenie"
-					sardinian = "Cerena"
-					dalmatian = "Cerena"
-					sicilian = "Cerena"
-					umbrian = "Cerena"
-					italian = "Cerena"
-					laziale = "Cerena"
-					langobardisch = "Cerena"
-					neapolitan = "Cerena"
-					tuscan = "Cerena"
-					ligurian = "Cerena"
-					venetian = "Cerena"
-				}
-				b_lapithos = {
-					oghuz = "Lapta"
-					turkmen = "Lapta"
-					turkish = "Lapta"
-				}
-				b_buffavento = {
-					frankish = "Buffavento"
-					norman = "Buffavento"
-					sardinian = "Buffavento"
-					dalmatian = "Buffavento"
-					sicilian = "Buffavento"
-					umbrian = "Buffavento"
-					italian = "Buffavento"
-					laziale = "Buffavento"
-					langobardisch = "Buffavento"
-					neapolitan = "Buffavento"
-					tuscan = "Buffavento"
-					ligurian = "Buffavento"
-					venetian = "Buffavento"
-				}
-			} # end c_nicosia
-			c_famagusta = { # Ammókhõstos (757) # Ammokhostos
-				color = { 228 19 156 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Magosha"
-				sicilian_arabic = "Magosha"
-				hijazi = "Magosha"
-				yemeni = "Magosha"
-				maghreb_arabic = "Magosha"
-				levantine_arabic = "Magosha"
-				egyptian_arabic = "Magosha"
-				andalusian_arabic = "Magosha"
-				oghuz = "Magusa"
-				turkmen = "Magusa"
-				turkish = "Magusa"
-				frankish = "Famagouste"
-				norman = "Famagouste"
-				sardinian = "Famagosta"
-				dalmatian = "Famagosta"
-				sicilian = "Famagosta"
-				umbrian = "Famagosta"
-				italian = "Famagosta"
-				laziale = "Famagosta"
-				langobardisch = "Famagosta"
-				neapolitan = "Famagosta"
-				tuscan = "Famagosta"
-				ligurian = "Famagosta"
-				venetian = "Famagosta"
-				b_kantara = {}
-				b_famagusta = {
+					b_sthilarion = {
+						frankish = "Saint-Hilarion"
+						norman = "Saint-Hilarion"
+						sardinian = "Sant'Ilario"
+						dalmatian = "Sant'Ilario"
+						sicilian = "Sant'Ilario"
+						umbrian = "Sant'Ilario"
+						italian = "Sant'Ilario"
+						laziale = "Sant'Ilario"
+						langobardisch = "Sant'Ilario"
+						neapolitan = "Sant'Ilario"
+						tuscan = "Sant'Ilario"
+						ligurian = "Sant'Ilario"
+						venetian = "Sant'Ilario"
+					}
+					b_nikosia = {
+						bedouin_arabic = "Lefqosha"
+						sicilian_arabic = "Lefqosha"
+						hijazi = "Lefqosha"
+						yemeni = "Lefqosha"
+						maghreb_arabic = "Lefqosha"
+						levantine_arabic = "Lefqosha"
+						egyptian_arabic = "Lefqosha"
+						andalusian_arabic = "Lefqosha"
+						oghuz = "Lefkosa"
+						turkmen = "Lefkosa"
+						turkish = "Lefkosa"
+						armenian = "Nigosia"
+						frankish = "Nicosie"
+						norman = "Nicosie"
+						sardinian = "Nicosia"
+						dalmatian = "Nicosia"
+						sicilian = "Nicosia"
+						umbrian = "Nicosia"
+						italian = "Nicosia"
+						laziale = "Nicosia"
+						langobardisch = "Nicosia"
+						neapolitan = "Nicosia"
+						tuscan = "Nicosia"
+						ligurian = "Nicosia"
+						venetian = "Nicosia"
+					}
+					b_stavrovouni = {}
+					b_larnaca = {
+						oghuz = "Iskele"
+						turkmen = "Iskele"
+						turkish = "Iskele"
+						frankish = "Larnaca"
+						norman = "Larnaca"
+						sardinian = "Larnaca"
+						dalmatian = "Larnaca"
+						sicilian = "Larnaca"
+						umbrian = "Larnaca"
+						italian = "Larnaca"
+						laziale = "Larnaca"
+						langobardisch = "Larnaca"
+						neapolitan = "Larnaca"
+						tuscan = "Larnaca"
+						ligurian = "Larnaca"
+						venetian = "Larnaca"
+					}
+					b_kyrenia = {
+						oghuz = "Girne"
+						turkmen = "Girne"
+						turkish = "Girne"
+						frankish = "Cyrenie"
+						norman = "Cyrenie"
+						sardinian = "Cerena"
+						dalmatian = "Cerena"
+						sicilian = "Cerena"
+						umbrian = "Cerena"
+						italian = "Cerena"
+						laziale = "Cerena"
+						langobardisch = "Cerena"
+						neapolitan = "Cerena"
+						tuscan = "Cerena"
+						ligurian = "Cerena"
+						venetian = "Cerena"
+					}
+					b_lapithos = {
+						oghuz = "Lapta"
+						turkmen = "Lapta"
+						turkish = "Lapta"
+					}
+					b_buffavento = {
+						frankish = "Buffavento"
+						norman = "Buffavento"
+						sardinian = "Buffavento"
+						dalmatian = "Buffavento"
+						sicilian = "Buffavento"
+						umbrian = "Buffavento"
+						italian = "Buffavento"
+						laziale = "Buffavento"
+						langobardisch = "Buffavento"
+						neapolitan = "Buffavento"
+						tuscan = "Buffavento"
+						ligurian = "Buffavento"
+						venetian = "Buffavento"
+					}
+				} # end c_nicosia
+				c_famagusta = { # Ammókhõstos (757) # Ammokhostos
+					color = { 228 19 156 }
+					color2 = { 255 255 255 }
 					bedouin_arabic = "Magosha"
 					sicilian_arabic = "Magosha"
 					hijazi = "Magosha"
@@ -12760,40 +12962,82 @@ e_byzantium = { # Basileia Rhõmaiõn
 					tuscan = "Famagosta"
 					ligurian = "Famagosta"
 					venetian = "Famagosta"
+					b_kantara = {}
+					b_famagusta = {
+						bedouin_arabic = "Magosha"
+						sicilian_arabic = "Magosha"
+						hijazi = "Magosha"
+						yemeni = "Magosha"
+						maghreb_arabic = "Magosha"
+						levantine_arabic = "Magosha"
+						egyptian_arabic = "Magosha"
+						andalusian_arabic = "Magosha"
+						oghuz = "Magusa"
+						turkmen = "Magusa"
+						turkish = "Magusa"
+						frankish = "Famagouste"
+						norman = "Famagouste"
+						sardinian = "Famagosta"
+						dalmatian = "Famagosta"
+						sicilian = "Famagosta"
+						umbrian = "Famagosta"
+						italian = "Famagosta"
+						laziale = "Famagosta"
+						langobardisch = "Famagosta"
+						neapolitan = "Famagosta"
+						tuscan = "Famagosta"
+						ligurian = "Famagosta"
+						venetian = "Famagosta"
+					}
+					b_salamiscyprus = {}
+					b_karpasia = {
+						frankish = "Karpas"
+						norman = "Karpas"
+						oghuz = "Karpaz"
+						turkmen = "Karpaz"
+						turkish = "Karpaz"
+					}
+				} # end c_famagusta
+				allow = {
+					has_landed_title = c_nicosia
+					has_landed_title = c_famagusta
+					has_landed_title = c_limisol
+					title_duke_basic_allow = yes
 				}
-				b_salamiscyprus = {}
-				b_karpasia = {
-					frankish = "Karpas"
-					norman = "Karpas"
-					oghuz = "Karpaz"
-					turkmen = "Karpaz"
-					turkish = "Karpaz"
-				}
-			} # end c_famagusta
-			allow = {
-				has_landed_title = c_nicosia
-				has_landed_title = c_famagusta
-				has_landed_title = c_limisol
-				title_duke_basic_allow = yes
-			}
-		} # end d_cyprus
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_cyprus
-	k_trebizond = { # Trebizond
-		color = { 83 89 54 }
+			} # end d_cyprus
+	}
+	
+	## AVE MARIA Modified Hierarchy Trebizond Kingdom
+	k_trebizond = {
+		color = { 99 150 32 }
 		color2 = { 255 255 255 }
 		capital = 678 # Trapezous
-		culture = greek
-		orthodox = 400 # Crusade target weight
-		muslim = 75 # Crusade target weight
-		hellenic_pagan_reformed = 5000 # Crusade target weight
-		name_tier = emperor
+		bedouin_arabic = "Kháldiya"
+		hijazi = "Kháldiya"
+		yemeni = "Kháldiya"
+		maghreb_arabic = "Kháldiya"
+		levantine_arabic = "Kháldiya"
+		egyptian_arabic = "Kháldiya"
+		andalusian_arabic = "Kháldiya"
+		sicilian_arabic = "Kháldiya"
+		oghuz = "Trabzun"
+		turkmen = "Trabzun"
+		turkish = "Trabzun"
+		armenian = "Trapizon"
+		georgian = "T'rap'izoni"
+		frankish = "Chaldée"
+		norman = "Chaldée"
+		sardinian = "Chaldia"
+		dalmatian = "Chaldia"
+		sicilian = "Chaldia"
+		umbrian = "Chaldia"
+		italian = "Chaldia"
+		laziale = "Chaldia"
+		langobardisch = "Chaldia"
+		neapolitan = "Chaldia"
+		tuscan = "Chaldia"
+		ligurian = "Chaldia"
+		venetian = "Chaldia"
 		d_trebizond = { # Chaldia
 			color = { 99 150 32 }
 			color2 = { 255 255 255 }
@@ -12954,6 +13198,48 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_trebizond
+	}
+	k_cherson = {
+		color = { 225 187 34 }
+		color2 = { 255 255 255 }
+		capital = 560 # Cherson
+		italian = "Gothia"
+		sardinian = "Gothia"
+		sicilian = "Gothia"
+		umbrian = "Gothia"
+		laziale = "Gothia"
+		neapolitan = "Gothia"
+		tuscan = "Gothia"
+		ligurian = "Gothia"
+		langobardisch = "Gothia"
+		venetian = "Gothia"
+		dalmatian = "Gothia"
+		crimean_gothic = "Theodoro"
+		bohemian = "Cherson"
+		slovieni = "Cherson"
+		pommeranian = "Korsun"
+		polish = "Korsun"
+		serbian = "Korsun"
+		croatian = "Korsun"
+		bosnian = "Korsun"
+		carantanian = "Korsun"
+		russian = "Korsun"
+		bulgarian = "Korsun"
+		khazar = "Sudaq"
+		khavar = "Sudaq"
+		bolghar = "Sudaq"
+		pecheneg = "Sudaq"
+		oghuz = "Sudaq"
+		turkmen = "Sudaq"
+		bashkir = "Sudaq"
+		kasogi = "Sudaq"
+		avar = "Sudaq"
+		karluk = "Sudaq"
+		kirghiz = "Kefe"
+		mongol = "Kefe"
+		cuman = "Kefe"
+		uyghur = "Kefe"
+		turkish = "Kefe"
 		d_cherson = { # Chersõnos # Chersonessos
 			color = { 225 187 34 }
 			color2 = { 255 255 255 }
@@ -13386,6 +13672,24 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_cherson
 			allow = { title_duke_basic_allow = yes }
 		} # end d_cherson
+	}
+	k_armeniacon = {
+		color = { 188 191 175 }
+		color2 = { 255 255 255 }
+		capital = 941 # Amaseia # Amasia
+		maghreb_arabic = "Arminyáq"
+		levantine_arabic = "Arminyáq"
+		bedouin_arabic = "Arminyáq"
+		hijazi = "Arminyáq"
+		yemeni = "Arminyáq"
+		egyptian_arabic = "Arminyáq"
+		andalusian_arabic = "Arminyáq"
+		sicilian_arabic = "Arminyáq"
+		oghuz = "Amasiyya"
+		turkmen = "Amasiyya"
+		turkish = "Amasiyya"
+		frankish = "Amasée"
+		norman = "Amasée"
 		d_armeniacon = { # Armeniakon
 			color = { 188 191 175 }
 			color2 = { 255 255 255 }
@@ -13507,23 +13811,17 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_armeniacon
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_trebizond
-	k_cilician = { # Kilikia
-		color = { 255 249 189 }
+	}
+	
+	## AVE MARIA Modified Hierarchy Kilikia Kingdom
+	k_armenia_minor = {
+		color = { 36 41 65 }
 		color2 = { 255 255 255 }
 		capital = 969 # Sision # Sis
-		culture = armenian
-		catholic = 300 # Crusade target weight
-		orthodox = 300 # Crusade target weight
-		muslim = 150 # Crusade target weight
-		hellenic_pagan_reformed = 300 # Crusade target weight
+		oghuz = "Ataná"
+		turkmen = "Ataná"
+		turkish = "Ataná"
+		armenian = "Kilikia"
 		frankish = "Cilicie"
 		norman = "Cilicie"
 		d_armenia_minor = { # Kilikía
@@ -13881,6 +14179,25 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_alexandretta
 			allow = { title_duke_basic_allow = yes }
 		} # end d_armenia_minor
+	}
+	k_seleukeia = {
+		color = { 26 13 107 }
+		color2 = { 255 255 255 }
+		bedouin_arabic = "Salúqiya"
+		hijazi = "Salúqiya"
+		yemeni = "Salúqiya"
+		maghreb_arabic = "Salúqiya"
+		levantine_arabic = "Salúqiya"
+		egyptian_arabic = "Salúqiya"
+		andalusian_arabic = "Salúqiya"
+		sicilian_arabic = "Salúqiya"
+		oghuz = "Silifke"
+		turkmen = "Silifke"
+		turkish = "Qaráman"
+		armenian = "Selewkia"
+		frankish = "Séleph"
+		norman = "Séleph"
+		capital = 758 # Seleukeia
 		d_seleukeia = { # Seleukeia
 			color = { 26 13 107 }
 			color2 = { 255 255 255 }
@@ -14047,23 +14364,20 @@ e_byzantium = { # Basileia Rhõmaiõn
 			} # end c_anamur
 			allow = { title_duke_basic_allow = yes }
 		} # end d_seleukeia
-		allow = {
-			OR = {
-				emf_trigger = yes
-				byzantine_lockout_trigger = yes
-			}
-			title_king_basic_allow = yes
-		}
-	} # end k_cilician
-	k_bulgaria = { # Balgariya
-		color = { 113 88 101 }
+	}	
+	
+	## AVE MARIA Modified Hierarchy Balgariya Kingdom
+	k_turnovo = {
+		color = { 88 80 112 }
 		color2 = { 255 255 255 }
 		capital = 499 # Tarnovo # Tyrnovo
-		culture = bulgarian
-		orthodox = 300 # Crusade target weight
-		catholic = 100 # Crusade target weight
-		muslim = 25 # Crusade target weight
-		hellenic_pagan_reformed = 1000 # Crusade target weight
+		greek = "Paristrion"
+		crimean_gothic = "Paristrion"
+		roman = "Paristrion"
+		oghuz = "Nigbolu"
+		turkmen = "Nigbolu"
+		turkish = "Nigbolu"
+		pecheneg = "Nigbolu"
 		d_turnovo = { # Tarnovo
 			color = { 88 80 112 }
 			color2 = { 255 255 255 }
@@ -14259,152 +14573,225 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_turnovo
-		d_karvuna = { # Karvuna
-			color = { 63 127 98 }
-			color2 = { 255 255 255 }
-			greek = "Mikrá Skythia"
-			crimean_gothic = "Mikrá Skythia"
-			oghuz = "Dobruja"
-			turkmen = "Dobruja"
-			turkish = "Dobruja"
-			pecheneg = "Dobruja"
-			capital = 509 # Karvuna
-			c_karvuna = { # Karvuna (509)
-				color = { 210 95 253 }
-				color2 = { 255 255 255 }
-				greek = "Krounoi"
-				crimean_gothic = "Krounoi"
-				roman = "Krounoi"
-				oghuz = "Balçik"
-				turkmen = "Balçik"
-				turkish = "Balçik"
-				pecheneg = "Balçik"
-				b_provadiya = {
-					greek = "Provat"
-					crimean_gothic = "Provat"
-					roman = "Provat"
-					oghuz = "Pravadi"
-					turkmen = "Pravadi"
-					turkish = "Pravadi"
-					pecheneg = "Pravadi"
-					italian = "Provanto"
-					sardinian = "Provanto"
-					dalmatian = "Provanto"
-					sicilian = "Provanto"
-					umbrian = "Provanto"
-					laziale = "Provanto"
-					langobardisch = "Provanto"
-					neapolitan = "Provanto"
-					tuscan = "Provanto"
-					ligurian = "Provanto"
-					venetian = "Provanto"
-				}
-				b_kaliakra = {
-					greek = "Akrai"
-					crimean_gothic = "Akrai"
-					roman = "Trissa"
-					oghuz = "Celigra"
-					turkmen = "Celigra"
-					turkish = "Celigra"
-					pecheneg = "Celigra"
-					romanian = "Caliacra"
-				}
-				b_varna = {
-					greek = "Odessus"
-					crimean_gothic = "Odessus"
-					roman = "Odessus"
-					hungarian = "Várna"
-					szekely = "Várna"
-				}
-				b_karvuna = {
-					greek = "Krounoi"
-					crimean_gothic = "Krounoi"
-					roman = "Krounoi"
-					oghuz = "Balçik"
-					turkmen = "Balçik"
-					turkish = "Balçik"
-					pecheneg = "Balçik"
-				}
-				b_mangalia = {
-					romanian = "Tomisovara"
-					greek = "Panglitsara"
-					crimean_gothic = "Panglitsara"
-					oghuz = "Mangalya"
-					turkmen = "Mangalya"
-					turkish = "Mangalya"
-					pecheneg = "Mangalya"
-				}
-			} # end c_karvuna
-			c_constantia = { # Konstanta (510)
-				color = { 213 98 253 }
-				color2 = { 255 255 255 }
-				greek = "Konstantia"
-				crimean_gothic = "Konstantia"
-				roman = "Constantia"
-				oghuz = "Köstence"
-				turkmen = "Köstence"
-				turkish = "Köstence"
-				pecheneg = "Köstence"
-				romanian = "Constanta"
-				b_vicina = {
-					greek = "Bitzina"
-					crimean_gothic = "Bitzina"
-				}
-				b_tulcea = {
-					greek = "Aigissos"
-					crimean_gothic = "Aigissos"
-					roman = "Aegyssus"
-					oghuz = "Tolchu"
-					turkmen = "Tolchu"
-					turkish = "Tolchu"
-					pecheneg = "Tolchu"
-					romanian = "Tulcea"
-				}
-				b_constantia = {
-					greek = "Konstantia"
-					crimean_gothic = "Konstantia"
-					roman = "Constantia"
-					oghuz = "Köstence"
-					turkmen = "Köstence"
-					turkish = "Köstence"
-					pecheneg = "Köstence"
-					romanian = "Constanta"
-				}
-				b_chilia = {
-					greek = "Kellia"
-					crimean_gothic = "Kellia"
-					romanian = "Chilia"
-					italian = "Lycostomo"
-					sardinian = "Lycostomo"
-					dalmatian = "Lycostomo"
-					sicilian = "Lycostomo"
-					umbrian = "Lycostomo"
-					laziale = "Lycostomo"
-					langobardisch = "Lycostomo"
-					neapolitan = "Lycostomo"
-					tuscan = "Lycostomo"
-					ligurian = "Lycostomo"
-					venetian = "Lycostomo"
-				}
-				b_harsova = {
-					greek = "Carsion"
-					crimean_gothic = "Carsion"
-					roman = "Carsium"
-					oghuz = "Hirsova"
-					turkmen = "Hirsova"
-					turkish = "Hirsova"
-					pecheneg = "Hirsova"
-					romanian = "Carsia"
-				}
-			} # end c_constantia
-			allow = { title_duke_basic_allow = yes }
-		} # end d_karvuna
+	}
+	# k_karvuna = {
+		# color = { 63 127 98 }
+		# color2 = { 255 255 255 }
+		# greek = "Mikrá Skythia"
+		# crimean_gothic = "Mikrá Skythia"
+		# oghuz = "Dobruja"
+		# turkmen = "Dobruja"
+		# turkish = "Dobruja"
+		# pecheneg = "Dobruja"
+		# capital = 509 # Karvuna
+		# d_karvuna = { # Karvuna
+			# color = { 63 127 98 }
+			# color2 = { 255 255 255 }
+			# greek = "Mikrá Skythia"
+			# crimean_gothic = "Mikrá Skythia"
+			# oghuz = "Dobruja"
+			# turkmen = "Dobruja"
+			# turkish = "Dobruja"
+			# pecheneg = "Dobruja"
+			# capital = 509 # Karvuna
+			# c_karvuna = { # Karvuna (509)
+				# color = { 210 95 253 }
+				# color2 = { 255 255 255 }
+				# greek = "Krounoi"
+				# crimean_gothic = "Krounoi"
+				# roman = "Krounoi"
+				# oghuz = "Balçik"
+				# turkmen = "Balçik"
+				# turkish = "Balçik"
+				# pecheneg = "Balçik"
+				# b_provadiya = {
+					# greek = "Provat"
+					# crimean_gothic = "Provat"
+					# roman = "Provat"
+					# oghuz = "Pravadi"
+					# turkmen = "Pravadi"
+					# turkish = "Pravadi"
+					# pecheneg = "Pravadi"
+					# italian = "Provanto"
+					# sardinian = "Provanto"
+					# dalmatian = "Provanto"
+					# sicilian = "Provanto"
+					# umbrian = "Provanto"
+					# laziale = "Provanto"
+					# langobardisch = "Provanto"
+					# neapolitan = "Provanto"
+					# tuscan = "Provanto"
+					# ligurian = "Provanto"
+					# venetian = "Provanto"
+				# }
+				# b_kaliakra = {
+					# greek = "Akrai"
+					# crimean_gothic = "Akrai"
+					# roman = "Trissa"
+					# oghuz = "Celigra"
+					# turkmen = "Celigra"
+					# turkish = "Celigra"
+					# pecheneg = "Celigra"
+					# romanian = "Caliacra"
+				# }
+				# b_varna = {
+					# greek = "Odessus"
+					# crimean_gothic = "Odessus"
+					# roman = "Odessus"
+					# hungarian = "Várna"
+					# szekely = "Várna"
+				# }
+				# b_karvuna = {
+					# greek = "Krounoi"
+					# crimean_gothic = "Krounoi"
+					# roman = "Krounoi"
+					# oghuz = "Balçik"
+					# turkmen = "Balçik"
+					# turkish = "Balçik"
+					# pecheneg = "Balçik"
+				# }
+				# b_mangalia = {
+					# romanian = "Tomisovara"
+					# greek = "Panglitsara"
+					# crimean_gothic = "Panglitsara"
+					# oghuz = "Mangalya"
+					# turkmen = "Mangalya"
+					# turkish = "Mangalya"
+					# pecheneg = "Mangalya"
+				# }
+			# } # end c_karvuna
+			# c_constantia = { # Konstanta (510)
+				# color = { 213 98 253 }
+				# color2 = { 255 255 255 }
+				# greek = "Konstantia"
+				# crimean_gothic = "Konstantia"
+				# roman = "Constantia"
+				# oghuz = "Köstence"
+				# turkmen = "Köstence"
+				# turkish = "Köstence"
+				# pecheneg = "Köstence"
+				# romanian = "Constanta"
+				# b_vicina = {
+					# greek = "Bitzina"
+					# crimean_gothic = "Bitzina"
+				# }
+				# b_tulcea = {
+					# greek = "Aigissos"
+					# crimean_gothic = "Aigissos"
+					# roman = "Aegyssus"
+					# oghuz = "Tolchu"
+					# turkmen = "Tolchu"
+					# turkish = "Tolchu"
+					# pecheneg = "Tolchu"
+					# romanian = "Tulcea"
+				# }
+				# b_constantia = {
+					# greek = "Konstantia"
+					# crimean_gothic = "Konstantia"
+					# roman = "Constantia"
+					# oghuz = "Köstence"
+					# turkmen = "Köstence"
+					# turkish = "Köstence"
+					# pecheneg = "Köstence"
+					# romanian = "Constanta"
+				# }
+				# b_chilia = {
+					# greek = "Kellia"
+					# crimean_gothic = "Kellia"
+					# romanian = "Chilia"
+					# italian = "Lycostomo"
+					# sardinian = "Lycostomo"
+					# dalmatian = "Lycostomo"
+					# sicilian = "Lycostomo"
+					# umbrian = "Lycostomo"
+					# laziale = "Lycostomo"
+					# langobardisch = "Lycostomo"
+					# neapolitan = "Lycostomo"
+					# tuscan = "Lycostomo"
+					# ligurian = "Lycostomo"
+					# venetian = "Lycostomo"
+				# }
+				# b_harsova = {
+					# greek = "Carsion"
+					# crimean_gothic = "Carsion"
+					# roman = "Carsium"
+					# oghuz = "Hirsova"
+					# turkmen = "Hirsova"
+					# turkish = "Hirsova"
+					# pecheneg = "Hirsova"
+					# romanian = "Carsia"
+				# }
+			# } # end c_constantia
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_karvuna
+	# }
+	k_adrianopolis = {
+		color = { 146 0 5 }
+		color2 = { 255 255 20 }
+		capital = 494 # Adrianopol # Adrianopolis
+		culture = greek
+		# venetian = "Adrianupleos et Didimotichi"
+		bedouin_arabic = "Maqadúniya"
+		hijazi = "Maqadúniya"
+		yemeni = "Maqadúniya"
+		maghreb_arabic = "Maqadúniya"
+		levantine_arabic = "Maqadúniya"
+		egyptian_arabic = "Maqadúniya"
+		andalusian_arabic = "Maqadúniya"
+		sicilian_arabic = "Maqadúniya"
+		sanhaja = "Maqadúniya"
+		tagelmust = "Maqadúniya"
+		tuareg = "Maqadúniya"
+		masmuda = "Maqadúniya"
+		zanata = "Maqadúniya"
+		turkish = "Rumelí"
+		oghuz = "Rumelí"
+		turkmen = "Rumelí"
+		pecheneg = "Rumelí"
+		crimean_gothic = "Makedonía"
+		greek = "Makedonía"
+		hungarian = "Filipápoly"
+		szekely = "Filipápoly"
+		norwegian = "Philippopolis"
+		gothic = "Philippopolis"
+		swedish = "Philippopolis"
+		danish = "Philippopolis"
+		basque = "Philippopolis"
+		aragonese = "Philippopolis"
+		castillan = "Philippopolis"
+		catalan = "Philippopolis"
+		leonese = "Philippopolis"
+		german = "Philippopolis"
+		thuringian = "Philippopolis"
+		swabian = "Philippopolis"
+		bavarian = "Philippopolis"
+		low_saxon = "Philippopolis"
+		franconian = "Philippopolis"
+		low_german = "Philippopolis"
+		low_frankish = "Philippopolis"
+		dutch = "Philippopolis"
+		frankish = "Philippopolis"
+		norman = "Philippopolis"
+		arpitan = "Philippopolis"
+		occitan = "Philippopolis"
+		italian = "Philippopolis"
+		sardinian = "Philippopolis"
+		sicilian = "Philippopolis"
+		umbrian = "Philippopolis"
+		laziale = "Philippopolis"
+		langobardisch = "Philippopolis"
+		neapolitan = "Philippopolis"
+		tuscan = "Philippopolis"
+		ligurian = "Philippopolis"
+		venetian = "Philippopolis"
+		dalmatian = "Philippopolis"
+		english = "Philippopolis"
 		d_adrianopolis = { # Plovdiv
 			color = { 146 0 5 }
 			color2 = { 255 255 20 }
 			capital = 494 # Adrianopol # Adrianopolis
 			culture = greek
-			#venetian = "Adrianupleos et Didimotichi"
+			# venetian = "Adrianupleos et Didimotichi"
 			bedouin_arabic = "Maqadúniya"
 			hijazi = "Maqadúniya"
 			yemeni = "Maqadúniya"
@@ -14815,126 +15202,150 @@ e_byzantium = { # Basileia Rhõmaiõn
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_adrianopolis
-		d_vidin = { # Vidin
-			color = { 122 103 58 }
-			color2 = { 255 255 255 }
-			greek = "Bidyne"
-			crimean_gothic = "Bidyne"
-			roman = "Bononia"
-			hungarian = "Bodony"
-			szekely = "Bodony"
-			romanian = "Diiu"
-			capital = 506 # Vidin
-			c_vidin = { # Vidin (506)
-				color = { 124 105 60 }
-				color2 = { 255 255 255 }
-				greek = "Bidyne"
-				crimean_gothic = "Bidyne"
-				roman = "Bononia"
-				hungarian = "Bodony"
-				szekely = "Bodony"
-				romanian = "Diiu"
-				b_belogradchik = {
-					crimean_gothic = "Mikrí Bellegrada"
-					greek = "Mikrí Bellegrada"
-				}
-				b_svrljig = {
-					greek = "Sevrlík"
-					crimean_gothic = "Sevrlík"
-					oghuz = "Esferlik"
-					turkmen = "Esferlik"
-					pecheneg = "Esferlik"
-					turkish = "Esferlik"
-				}
-				b_archar = {
-					greek = "Ratiaria"
-					crimean_gothic = "Ratiaria"
-					roman = "Ratiaria"
-				}
-				b_vidin = {
-					greek = "Bidyne"
-					crimean_gothic = "Bidyne"
-					roman = "Bononia"
-					hungarian = "Bodony"
-					szekely = "Bodony"
-					romanian = "Diiu"
-				}
-				b_kozal = {}
-			}
-			c_branicevo = { # Branicevo (961)
-				color = { 184 105 60 }
-				color2 = { 255 255 255 }
-				greek = "Viminakion"
-				crimean_gothic = "Viminacion"
-				roman = "Viminacium"
-				oghuz = "Alaga Hisar"
-				turkmen = "Alaga Hisar"
-				turkish = "Alaga Hisar"
-				pecheneg = "Alaga Hisar"
-				b_kucevo = {
-					hungarian = "Kucsó"
-					szekely = "Kucsó"
-					romanian = "Cuiova"
-					oghuz = "Kuçeva"
-					turkmen = "Kuçeva"
-					turkish = "Kuçeva"
-					pecheneg = "Kuçeva"
-				}
-				b_ram_branicevo = {
-					greek = "Lederata"
-					crimean_gothic = "Lederata"
-					roman = "Lederata"
-				}
-				b_krusevac = {
-					greek = "Kroúsebats"
-					crimean_gothic = "Kroúsebats"
-					german = "Kruschewatz"
-					oghuz = "Alaga Hisar"
-					turkmen = "Alaga Hisar"
-					turkish = "Alaga Hisar"
-					pecheneg = "Alaga Hisar"
-				}
-				b_cuprija_ravno = {
-					roman = "Horreum Margi"
-					greek = "Géfyra"
-					crimean_gothic = "Géfyra"
-					oghuz = "Köpri"
-					turkmen = "Köpri"
-					turkish = "Köpri"
-					pecheneg = "Köpri"
-				}
-				b_branicevo = {
-					greek = "Viminakion"
-					crimean_gothic = "Viminacion"
-					roman = "Viminacium"
-					hungarian = "Barancs"
-					szekely = "Barancs"
-				}
-				b_golubac = {
-					greek = "Kòlymbos"
-					crimean_gothic = "Kòlymbos"
-					roman = "Columbria"
-					hungarian = "Galambóc"
-					szekely = "Galambóc"
-					oghuz = "Güvercinlik"
-					turkmen = "Güvercinlik"
-					turkish = "Güvercinlik"
-					pecheneg = "Güvercinlik"
-					german = "Taubenberg"
-					thuringian = "Taubenberg"
-					swabian = "Taubenberg"
-					bavarian = "Taubenberg"
-					low_saxon = "Taubenberg"
-					franconian = "Taubenberg"
-					low_german = "Taubenberg"
-					low_frankish = "Taubenberg"
-					dutch = "Taubenberg"
-					romanian = "Golumbei"
-				}
-				b_zdrelo = {}
-			} # end c_branicevo
-			allow = { title_duke_basic_allow = yes }
-		} # end d_vidin
+	}
+	# k_vidin = {
+		# color = { 122 103 58 }
+		# color2 = { 255 255 255 }
+		# greek = "Bidyne"
+		# crimean_gothic = "Bidyne"
+		# roman = "Bononia"
+		# hungarian = "Bodony"
+		# szekely = "Bodony"
+		# romanian = "Diiu"
+		# capital = 506 # Vidin
+		# d_vidin = { # Vidin
+			# color = { 122 103 58 }
+			# color2 = { 255 255 255 }
+			# greek = "Bidyne"
+			# crimean_gothic = "Bidyne"
+			# roman = "Bononia"
+			# hungarian = "Bodony"
+			# szekely = "Bodony"
+			# romanian = "Diiu"
+			# capital = 506 # Vidin
+			# c_vidin = { # Vidin (506)
+				# color = { 124 105 60 }
+				# color2 = { 255 255 255 }
+				# greek = "Bidyne"
+				# crimean_gothic = "Bidyne"
+				# roman = "Bononia"
+				# hungarian = "Bodony"
+				# szekely = "Bodony"
+				# romanian = "Diiu"
+				# b_belogradchik = {
+					# crimean_gothic = "Mikrí Bellegrada"
+					# greek = "Mikrí Bellegrada"
+				# }
+				# b_svrljig = {
+					# greek = "Sevrlík"
+					# crimean_gothic = "Sevrlík"
+					# oghuz = "Esferlik"
+					# turkmen = "Esferlik"
+					# pecheneg = "Esferlik"
+					# turkish = "Esferlik"
+				# }
+				# b_archar = {
+					# greek = "Ratiaria"
+					# crimean_gothic = "Ratiaria"
+					# roman = "Ratiaria"
+				# }
+				# b_vidin = {
+					# greek = "Bidyne"
+					# crimean_gothic = "Bidyne"
+					# roman = "Bononia"
+					# hungarian = "Bodony"
+					# szekely = "Bodony"
+					# romanian = "Diiu"
+				# }
+				# b_kozal = {}
+			# }
+			# c_branicevo = { # Branicevo (961)
+				# color = { 184 105 60 }
+				# color2 = { 255 255 255 }
+				# greek = "Viminakion"
+				# crimean_gothic = "Viminacion"
+				# roman = "Viminacium"
+				# oghuz = "Alaga Hisar"
+				# turkmen = "Alaga Hisar"
+				# turkish = "Alaga Hisar"
+				# pecheneg = "Alaga Hisar"
+				# b_kucevo = {
+					# hungarian = "Kucsó"
+					# szekely = "Kucsó"
+					# romanian = "Cuiova"
+					# oghuz = "Kuçeva"
+					# turkmen = "Kuçeva"
+					# turkish = "Kuçeva"
+					# pecheneg = "Kuçeva"
+				# }
+				# b_ram_branicevo = {
+					# greek = "Lederata"
+					# crimean_gothic = "Lederata"
+					# roman = "Lederata"
+				# }
+				# b_krusevac = {
+					# greek = "Kroúsebats"
+					# crimean_gothic = "Kroúsebats"
+					# german = "Kruschewatz"
+					# oghuz = "Alaga Hisar"
+					# turkmen = "Alaga Hisar"
+					# turkish = "Alaga Hisar"
+					# pecheneg = "Alaga Hisar"
+				# }
+				# b_cuprija_ravno = {
+					# roman = "Horreum Margi"
+					# greek = "Géfyra"
+					# crimean_gothic = "Géfyra"
+					# oghuz = "Köpri"
+					# turkmen = "Köpri"
+					# turkish = "Köpri"
+					# pecheneg = "Köpri"
+				# }
+				# b_branicevo = {
+					# greek = "Viminakion"
+					# crimean_gothic = "Viminacion"
+					# roman = "Viminacium"
+					# hungarian = "Barancs"
+					# szekely = "Barancs"
+				# }
+				# b_golubac = {
+					# greek = "Kòlymbos"
+					# crimean_gothic = "Kòlymbos"
+					# roman = "Columbria"
+					# hungarian = "Galambóc"
+					# szekely = "Galambóc"
+					# oghuz = "Güvercinlik"
+					# turkmen = "Güvercinlik"
+					# turkish = "Güvercinlik"
+					# pecheneg = "Güvercinlik"
+					# german = "Taubenberg"
+					# thuringian = "Taubenberg"
+					# swabian = "Taubenberg"
+					# bavarian = "Taubenberg"
+					# low_saxon = "Taubenberg"
+					# franconian = "Taubenberg"
+					# low_german = "Taubenberg"
+					# low_frankish = "Taubenberg"
+					# dutch = "Taubenberg"
+					# romanian = "Golumbei"
+				# }
+				# b_zdrelo = {}
+			# } # end c_branicevo
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_vidin
+	# }
+	k_ohrid = {
+		color = { 249 254 214 }
+		color2 = { 255 255 255 }
+		culture = bulgarian
+		greek = "Boulgarias"
+		crimean_gothic = "Boulgarias"
+		arberian = "Ohër"
+		oghuz = "Üsküp"
+		turkmen = "Üsküp"
+		turkish = "Üsküp"
+		pecheneg = "Üsküp"
+		capital = 1015 # Skopje
 		d_ohrid = { # Ohrid
 			color = { 249 254 214 }
 			color2 = { 255 255 255 }
@@ -14953,7 +15364,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 				greek = "Skopia"
 				crimean_gothic = "Skopia"
 				arberian = "Shkupi"
-				#roman = "Styberra"
+				# roman = "Styberra"
 				oghuz = "Üsküp"
 				turkmen = "Üsküp"
 				turkish = "Üsküp"
@@ -15098,8 +15509,8 @@ e_byzantium = { # Basileia Rhõmaiõn
 					roman = "Adeva"
 				}
 				b_velbazhd = {
-					# "Patelense" claimed as the common byzzie name on a german wiki page,
-					# but that sounds weird gramma wise and has not been possible to vertify.
+					## "Patelense" claimed as the common byzzie name on a german wiki page,
+					## but that sounds weird gramma wise and has not been possible to vertify.
 					greek = "Pautalia"
 					crimean_gothic = "Pautalia"
 					roman = "Pautalia"
@@ -15283,27 +15694,2261 @@ e_byzantium = { # Basileia Rhõmaiõn
 					pecheneg = "Ürgüb"
 				}
 				b_gracanica = {}
-				#b_vranje = {
-				#	greek = "Branea"
-				#	crimean_gothic = "Branea"
-				#	roman = "Branea"
-				#	german = "Wragl"
-				#	thuringian = "Wragl"
-				#	swabian = "Wragl"
-				#	bavarian = "Wragl"
-				#	low_saxon = "Wragl"
-				#	franconian = "Wragl"
-				#	low_german = "Wragl"
-				#	low_frankish = "Wragl"
-				#	dutch = "Wragl"
-				#	oghuz = "Ivranye"
-				#	turkmen = "Ivranye"
-				#	turkish = "Ivranye"
-				#	pecheneg = "Ivranye"
-				#}
+				# b_vranje = {
+					# greek = "Branea"
+					# crimean_gothic = "Branea"
+					# roman = "Branea"
+					# german = "Wragl"
+					# thuringian = "Wragl"
+					# swabian = "Wragl"
+					# bavarian = "Wragl"
+					# low_saxon = "Wragl"
+					# franconian = "Wragl"
+					# low_german = "Wragl"
+					# low_frankish = "Wragl"
+					# dutch = "Wragl"
+					# oghuz = "Ivranye"
+					# turkmen = "Ivranye"
+					# turkish = "Ivranye"
+					# pecheneg = "Ivranye"
+				# }
 			} # end c_naissus
 			allow = { title_duke_basic_allow = yes }
 		} # end d_ohrid
+	}	
+	## AVE MARIA Modified Hierarchy Srbija Kingdom
+	## AVE MARIA Modified Hierarchy Dubrovnik Kingdom
+	## AVE MARIA Modified Hierarchy Magyar Kingdom
+	## AVE MARIA Modified Hierarchy Hayk Kingdom
+	k_dzopk = {
+		color = { 9 12 119 }
+		color2 = { 255 255 255 }
+		greek = "Mesopotamias"
+		oghuz = "Harput"
+		turkmen = "Harput"
+		turkish = "Harput"
+		maghreb_arabic = "Hisn Ziyad"
+		levantine_arabic = "Hisn Ziyad"
+		egyptian_arabic = "Hisn Ziyad"
+		andalusian_arabic = "Hisn Ziyad"
+		sicilian_arabic = "Hisn Ziyad"
+		bedouin_arabic = "Hisn Ziyad"
+		hijazi = "Hisn Ziyad"
+		yemeni = "Hisn Ziyad"
+		kurdish = "Xarpet"
+		capital = 1282 # Charpete
+		d_dzopk = { # Dzopk
+			color = { 9 12 119 }
+			color2 = { 255 255 255 }
+			greek = "Mesopotamias"
+			oghuz = "Harput"
+			turkmen = "Harput"
+			turkish = "Harput"
+			maghreb_arabic = "Hisn Ziyad"
+			levantine_arabic = "Hisn Ziyad"
+			egyptian_arabic = "Hisn Ziyad"
+			andalusian_arabic = "Hisn Ziyad"
+			sicilian_arabic = "Hisn Ziyad"
+			bedouin_arabic = "Hisn Ziyad"
+			hijazi = "Hisn Ziyad"
+			yemeni = "Hisn Ziyad"
+			kurdish = "Xarpet"
+			capital = 1282 # Charpete
+			c_karin = { # Derdjan (703) # Yerznka
+				color = { 117 154 36 }
+				color2 = { 255 255 255 }
+				greek = "Keltzene"
+				oghuz = "Erzincan"
+				turkmen = "Erzincan"
+				turkish = "Erzincan"
+				maghreb_arabic = "Arzinjan"
+				levantine_arabic = "Arzinjan"
+				egyptian_arabic = "Arzinjan"
+				andalusian_arabic = "Arzinjan"
+				sicilian_arabic = "Arzinjan"
+				bedouin_arabic = "Arzinjan"
+				hijazi = "Arzinjan"
+				yemeni = "Arzinjan"
+				kurdish = "Ezirgan"
+				b_kamakha = {
+					greek = "Kamacha"
+					oghuz = "Kemah"
+					turkmen = "Kemah"
+					turkish = "Kemah"
+					maghreb_arabic = "Hisn Kamakh"
+					levantine_arabic = "Hisn Kamakh"
+					egyptian_arabic = "Hisn Kamakh"
+					andalusian_arabic = "Hisn Kamakh"
+					sicilian_arabic = "Hisn Kamakh"
+					bedouin_arabic = "Hisn Kamakh"
+					hijazi = "Hisn Kamakh"
+					yemeni = "Hisn Kamakh"
+					kurdish = "Kemax"
+				}
+				b_keltzene = {
+					greek = "Keltzene"
+					oghuz = "Erzincan"
+					turkmen = "Erzincan"
+					turkish = "Erzincan"
+					maghreb_arabic = "Arzinjan"
+					levantine_arabic = "Arzinjan"
+					egyptian_arabic = "Arzinjan"
+					andalusian_arabic = "Arzinjan"
+					sicilian_arabic = "Arzinjan"
+					bedouin_arabic = "Arzinjan"
+					hijazi = "Arzinjan"
+					yemeni = "Arzinjan"
+					kurdish = "Ezirgan"
+				}
+				b_barzanissa = {
+					oghuz = "Baspinar"
+					turkmen = "Baspinar"
+					turkish = "Baspinar"
+					armenian = "Vartenik"
+				}
+			} # end c_karin
+			c_charpete = { # Charpete (1282)
+				color = { 125 192 44 }
+				color2 = { 255 255 255 }
+				greek = "Mesopotamias"
+				oghuz = "Harput"
+				turkmen = "Harput"
+				turkish = "Harput"
+				maghreb_arabic = "Hisn Ziyad"
+				levantine_arabic = "Hisn Ziyad"
+				egyptian_arabic = "Hisn Ziyad"
+				andalusian_arabic = "Hisn Ziyad"
+				sicilian_arabic = "Hisn Ziyad"
+				bedouin_arabic = "Hisn Ziyad"
+				hijazi = "Hisn Ziyad"
+				yemeni = "Hisn Ziyad"
+				kurdish = "Xarpet"
+				b_chosomachon = {
+					greek = "Chosomachon"
+					oghuz = "Çemisgezek"
+					turkmen = "Çemisgezek"
+					turkish = "Çemisgezek"
+					kurdish = "Melkisî"
+				}
+				b_mertikerton = {
+					greek = "Mertikerton"
+					oghuz = "Mazgirt"
+					turkmen = "Mazgirt"
+					turkish = "Mazgirt"
+					kurdish = "Mazgerd"
+				}
+				b_chozanon = {
+					greek = "Chozanon"
+					oghuz = "Xozad"
+					turkmen = "Xozad"
+					turkish = "Xozad"
+					kurdish = "Xozad"
+				}
+				b_charpete = {
+					greek = "Charpete"
+					oghuz = "Harput"
+					turkmen = "Harput"
+					turkish = "Harput"
+					maghreb_arabic = "Hisn Ziyad"
+					levantine_arabic = "Hisn Ziyad"
+					egyptian_arabic = "Hisn Ziyad"
+					andalusian_arabic = "Hisn Ziyad"
+					sicilian_arabic = "Hisn Ziyad"
+					bedouin_arabic = "Hisn Ziyad"
+					hijazi = "Hisn Ziyad"
+					yemeni = "Hisn Ziyad"
+					kurdish = "Xarpet"
+				}
+				b_pertek = {
+					greek = "Berdak"
+					armenian = "Berdak"
+				}
+			} # end c_charpete
+			allow = { title_duke_basic_allow = yes }
+		} # end d_dzopk
+	}
+	k_taron = {
+		color = { 130 118 13 }
+		color2 = { 255 255 255 }
+		greek = "Taron"
+		armenian = "Daron"
+		oghuz = "Malazgird"
+		turkmen = "Malazgird"
+		turkish = "Malazgird"
+		maghreb_arabic = "Minazjird"
+		levantine_arabic = "Minazjird"
+		egyptian_arabic = "Minazjird"
+		andalusian_arabic = "Minazjird"
+		sicilian_arabic = "Minazjird"
+		bedouin_arabic = "Minazjird"
+		hijazi = "Minazjird"
+		yemeni = "Minazjird"
+		kurdish = "Malazgir"
+		capital = 701 # Tarawn # Taron
+		d_taron = { # Tarawn
+			color = { 130 118 13 }
+			color2 = { 255 255 255 }
+			greek = "Taron"
+			armenian = "Daron"
+			oghuz = "Malazgird"
+			turkmen = "Malazgird"
+			turkish = "Malazgird"
+			maghreb_arabic = "Minazjird"
+			levantine_arabic = "Minazjird"
+			egyptian_arabic = "Minazjird"
+			andalusian_arabic = "Minazjird"
+			sicilian_arabic = "Minazjird"
+			bedouin_arabic = "Minazjird"
+			hijazi = "Minazjird"
+			yemeni = "Minazjird"
+			kurdish = "Malazgir"
+			capital = 701 # Tarawn # Taron
+			c_dzopk = { # Ašmušat (1097)
+				color = { 125 162 44 }
+				color2 = { 255 255 255 }
+				greek = "Arsamosaton"
+				oghuz = "Bingöl"
+				turkmen = "Bingöl"
+				turkish = "Bingöl"
+				maghreb_arabic = "Šimšat"
+				levantine_arabic = "Šimšat"
+				egyptian_arabic = "Šimšat"
+				andalusian_arabic = "Šimšat"
+				sicilian_arabic = "Šimšat"
+				bedouin_arabic = "Šimšat"
+				hijazi = "Šimšat"
+				yemeni = "Šimšat"
+				kurdish = "Erxenî"
+				armenian = "Chapaghjur"
+				b_citharizion = {
+					oghuz = "Keteriz"
+					turkmen = "Keteriz"
+					turkish = "Keteriz"
+					kurdish = "Keteriz"
+				}
+				b_romanopolis = {
+					greek = "Romanoupolis"
+					oghuz = "Bingöl"
+					turkmen = "Bingöl"
+					turkish = "Bingöl"
+					kurdish = "Cewlîg"
+					armenian = "Chapaghjur"
+				}
+				b_arshamasat = {
+					greek = "Arsamosaton"
+					oghuz = "Haraba"
+					turkmen = "Haraba"
+					turkish = "Haraba"
+					maghreb_arabic = "Šimšat"
+					levantine_arabic = "Šimšat"
+					egyptian_arabic = "Šimšat"
+					andalusian_arabic = "Šimšat"
+					sicilian_arabic = "Šimšat"
+					bedouin_arabic = "Šimšat"
+					hijazi = "Šimšat"
+					yemeni = "Šimšat"
+				}
+				b_arkni = {
+					greek = "Erkne"
+					oghuz = "Osmaniye"
+					turkmen = "Osmaniye"
+					turkish = "Osmaniye"
+					maghreb_arabic = "Arqanin"
+					levantine_arabic = "Arqanin"
+					egyptian_arabic = "Arqanin"
+					andalusian_arabic = "Arqanin"
+					sicilian_arabic = "Arqanin"
+					bedouin_arabic = "Arqanin"
+					hijazi = "Arqanin"
+					yemeni = "Arqanin"
+					kurdish = "Erxenî"
+				}
+			} # end c_dzopk
+			c_taron = { # Tarawn (701)
+				color = { 125 162 44 }
+				color2 = { 255 255 255 }
+				greek = "Taron"
+				armenian = "Daron"
+				oghuz = "Mus"
+				turkmen = "Mus"
+				turkish = "Mus"
+				maghreb_arabic = "Muš"
+				levantine_arabic = "Muš"
+				egyptian_arabic = "Muš"
+				andalusian_arabic = "Muš"
+				sicilian_arabic = "Muš"
+				bedouin_arabic = "Muš"
+				hijazi = "Muš"
+				yemeni = "Muš"
+				kurdish = "Mûs"
+				b_sason = {
+					armenian = "Sasun"
+					greek = "Sassoun"
+					kurdish = "Qabilcewz"
+				}
+				b_mush = {
+					greek = "Mous"
+					oghuz = "Mus"
+					turkmen = "Mus"
+					turkish = "Mus"
+					maghreb_arabic = "Mus"
+					levantine_arabic = "Mus"
+					egyptian_arabic = "Mus"
+					andalusian_arabic = "Mus"
+					sicilian_arabic = "Mus"
+					bedouin_arabic = "Mus"
+					hijazi = "Mus"
+					yemeni = "Mus"
+					kurdish = "Mûs"
+				}
+				b_surpmarineh = { greek = "Ekklisía tis Agías Nautilías" }
+				b_arakelots = {
+					oghuz = "Arak Manastiri"
+					turkmen = "Arak Manastiri"
+					turkish = "Arak Manastiri"
+					greek = "Monì Agíon Apostólon"
+				}
+			} # end c_taron
+			c_manzikert = { # Manazkert (1158)
+				color = { 15 152 64 }
+				color2 = { 255 255 255 }
+				greek = "Matzierte"
+				oghuz = "Malazgird"
+				turkmen = "Malazgird"
+				turkish = "Malazgird"
+				maghreb_arabic = "Minazjird"
+				levantine_arabic = "Minazjird"
+				egyptian_arabic = "Minazjird"
+				andalusian_arabic = "Minazjird"
+				sicilian_arabic = "Minazjird"
+				bedouin_arabic = "Minazjird"
+				hijazi = "Minazjird"
+				yemeni = "Minazjird"
+				kurdish = "Malazgir"
+				b_manzikert = {
+					greek = "Matzierte"
+					oghuz = "Malazgird"
+					turkmen = "Malazgird"
+					turkish = "Malazgird"
+					maghreb_arabic = "Minazjird"
+					levantine_arabic = "Minazjird"
+					egyptian_arabic = "Minazjird"
+					andalusian_arabic = "Minazjird"
+					sicilian_arabic = "Minazjird"
+					bedouin_arabic = "Minazjird"
+					hijazi = "Minazjird"
+					yemeni = "Minazjird"
+					kurdish = "Milazgir"
+				}
+				b_glak = {
+					armenian = "Glakavank"
+					greek = "Monì Glak"
+					oghuz = "Çanli Kilise"
+					turkmen = "Çanli Kilise"
+					turkish = "Çanli Kilise"
+				}
+				b_tondrak = {}
+				b_olnoutin = { greek = "Olnoutin" }
+				b_khnus = {
+					oghuz = "Hinis"
+					turkmen = "Hinis"
+					turkish = "Hinis"
+					kurdish = "Xinûs"
+				}
+			} # end c_manzikert
+			allow = { title_duke_basic_allow = yes }
+		} # end d_taron
+	}
+	k_mesopotamia_hayk = {	
+		color = { 30 118 113 }
+		color2 = { 255 255 255 }
+		greek = "Theodosioupolis"
+		oghuz = "Erzen er-Rúm"
+		turkmen = "Erzen er-Rúm"
+		turkish = "Erzen er-Rúm"
+		maghreb_arabic = "Arzan ar-Rúm"
+		levantine_arabic = "Arzan ar-Rúm"
+		egyptian_arabic = "Arzan ar-Rúm"
+		andalusian_arabic = "Arzan ar-Rúm"
+		sicilian_arabic = "Arzan ar-Rúm"
+		bedouin_arabic = "Arzan ar-Rúm"
+		hijazi = "Arzan ar-Rúm"
+		yemeni = "Arzan ar-Rúm"
+		kurdish = "Erzîrom"
+		capital = 704 # Karin # Theodosipolis
+		d_mesopotamia = { # Bardzr Hayk
+			color = { 30 118 113 }
+			color2 = { 255 255 255 }
+			greek = "Theodosioupolis"
+			oghuz = "Erzen er-Rúm"
+			turkmen = "Erzen er-Rúm"
+			turkish = "Erzen er-Rúm"
+			maghreb_arabic = "Arzan ar-Rúm"
+			levantine_arabic = "Arzan ar-Rúm"
+			egyptian_arabic = "Arzan ar-Rúm"
+			andalusian_arabic = "Arzan ar-Rúm"
+			sicilian_arabic = "Arzan ar-Rúm"
+			bedouin_arabic = "Arzan ar-Rúm"
+			hijazi = "Arzan ar-Rúm"
+			yemeni = "Arzan ar-Rúm"
+			kurdish = "Erzîrom"
+			capital = 704 # Karin # Theodosipolis
+			c_theodosiopolis = { # Karin (704)
+				color = { 101 152 34 }
+				color2 = { 255 255 255 }
+				greek = "Theodosioupolis"
+				armenian = "Karin"
+				oghuz = "Erzen er-Rúm"
+				turkmen = "Erzen er-Rúm"
+				turkish = "Erzen er-Rúm"
+				maghreb_arabic = "Arzan ar-Rúm"
+				levantine_arabic = "Arzan ar-Rúm"
+				egyptian_arabic = "Arzan ar-Rúm"
+				andalusian_arabic = "Arzan ar-Rúm"
+				sicilian_arabic = "Arzan ar-Rúm"
+				bedouin_arabic = "Arzan ar-Rúm"
+				hijazi = "Arzan ar-Rúm"
+				yemeni = "Arzan ar-Rúm"
+				kurdish = "Erzîrom"
+				b_theodosiopolis = {
+					greek = "Theodosioupolis"
+					oghuz = "Erzen er-Rûm"
+					turkmen = "Erzen er-Rúm"
+					turkish = "Erzen er-Rúm"
+					maghreb_arabic = "Qaliqala"
+					levantine_arabic = "Qaliqala"
+					egyptian_arabic = "Qaliqala"
+					andalusian_arabic = "Qaliqala"
+					sicilian_arabic = "Qaliqala"
+					bedouin_arabic = "Qaliqala"
+					hijazi = "Qaliqala"
+					yemeni = "Qaliqala"
+					kurdish = "Erzîrom"
+				}
+				b_artsn = {}
+				b_derzene = {
+					greek = "Derzene"
+					oghuz = "Mama Hatun"
+					turkmen = "Mama Hatun"
+					turkish = "Mama Hatun"
+					kurdish = "Tercan"
+				}
+				b_basean = {
+					georgian = "Basiani"
+					greek = "Phasiane"
+					oghuz = "Hasankale"
+					turkmen = "Hasankale"
+					turkish = "Hasankale"
+					kurdish = "Hesenqela"
+				}
+				b_jermuk_erzurum = {
+					oghuz = "Cermük"
+					turkmen = "Cermük"
+					turkish = "Cermük"
+				}
+				b_daroynk_erzurum = {}
+			} # end c_theodosiopolis
+			c_sper = { # Sper (816)
+				color = { 191 157 100 }
+				color2 = { 255 255 255 }
+				greek = "Syspirátis"
+				oghuz = "Ispir"
+				turkmen = "Ispir"
+				turkish = "Ispir"
+				georgian = "Speri"
+				kurdish = "Espîr"
+				b_baydbert = {
+					greek = "Baiberdôn"
+					oghuz = "Bayburt"
+					turkmen = "Bayburt"
+					turkish = "Bayburt"
+					maghreb_arabic = "Báburt"
+					levantine_arabic = "Báburt"
+					egyptian_arabic = "Báburt"
+					andalusian_arabic = "Báburt"
+					sicilian_arabic = "Báburt"
+					bedouin_arabic = "Báburt"
+					hijazi = "Báburt"
+					yemeni = "Báburt"
+				}
+				b_sper = {
+					greek = "Hyspirátis"
+					oghuz = "Ispir"
+					turkmen = "Ispir"
+					turkish = "Ispir"
+					georgian = "Speri"
+					kurdish = "Espîr"
+				}
+				b_varzahan = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_mesopotamia
+	}
+	k_tao = {
+		color = { 210 204 50 }
+		color2 = { 255 255 255 }
+		capital = 680 # Tao
+		georgian = "Tao"
+		d_tao = { # Tayk
+			color = { 210 204 50 }
+			color2 = { 255 255 255 }
+			capital = 680 # Tao
+			georgian = "Tao"
+			c_tao = { # Tao (680)
+				color = { 238 183 183 }
+				color2 = { 255 255 255 }
+				oghuz = "Oltu"
+				turkmen = "Oltu"
+				turkish = "Oltu"
+				armenian = "Tayk"
+				b_ughtis = {
+					oghuz = "Oltu"
+					turkmen = "Oltu"
+					turkish = "Oltu"
+					georgian = "Oltisi"
+				}
+				b_tortumi = {
+					oghuz = "Tortum"
+					turkmen = "Tortum"
+					turkish = "Tortum"
+					georgian = "Tortomi"
+				}
+				b_khakhuli = {
+					oghuz = "Haho"
+					turkmen = "Haho"
+					turkish = "Haho"
+				}
+				b_oshki = {
+					oghuz = "Ösk Vank"
+					turkmen = "Ösk Vank"
+					turkish = "Ösk Vank"
+				}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_tao
+	}
+	k_vaspurakan_hayk = {
+		color = { 174 23 122 }
+		color2 = { 255 255 255 }
+		greek = "Vaasprakania"
+		maghreb_arabic = "Van"
+		levantine_arabic = "Van"
+		egyptian_arabic = "Van"
+		andalusian_arabic = "Van"
+		sicilian_arabic = "Van"
+		bedouin_arabic = "Van"
+		hijazi = "Van"
+		yemeni = "Van"
+		oghuz = "Van"
+		turkmen = "Van"
+		turkish = "Van"
+		kurdish = "Wan"
+		capital = 682 # Vaspurakan
+		d_vaspurakan = { # Vaspurakan
+			color = { 174 23 122 }
+			color2 = { 255 255 255 }
+			greek = "Vaasprakania"
+			maghreb_arabic = "Van"
+			levantine_arabic = "Van"
+			egyptian_arabic = "Van"
+			andalusian_arabic = "Van"
+			sicilian_arabic = "Van"
+			bedouin_arabic = "Van"
+			hijazi = "Van"
+			yemeni = "Van"
+			oghuz = "Van"
+			turkmen = "Van"
+			turkish = "Van"
+			kurdish = "Wan"
+			capital = 682 # Vaspurakan
+			c_vaspurakan = { # Vaspurakan (682)
+				color = { 162 191 44 }
+				color2 = { 255 255 255 }
+				greek = "Vaasprakania"
+				maghreb_arabic = "Van"
+				levantine_arabic = "Van"
+				egyptian_arabic = "Van"
+				andalusian_arabic = "Van"
+				sicilian_arabic = "Van"
+				bedouin_arabic = "Van"
+				hijazi = "Van"
+				yemeni = "Van"
+				oghuz = "Van"
+				turkmen = "Van"
+				turkish = "Van"
+				kurdish = "Wan"
+				b_haykaberd = {
+					greek = "Kastron Hayk"
+					oghuz = "Asbasén"
+					turkmen = "Asbasén"
+					turkish = "Asbasén"
+				}
+				b_van = {
+					greek = "Eua"
+					kurdish = "Wan"
+				}
+				b_varagavank = {
+					oghuz = "Yedi Kilise"
+					turkmen = "Yedi Kilise"
+					turkish = "Yedi Kilise"
+				}
+				b_maku = { greek = "Magoustana" }
+				b_artamed = {
+					greek = "Adramyttion"
+					oghuz = "Edremit"
+					turkmen = "Edremit"
+					turkish = "Edremit"
+				}
+				b_hadamakert = {
+					armenian = "Hadamagert"
+					oghuz = "Albak"
+					turkmen = "Albak"
+					turkish = "Albak"
+				}
+			} # end c_vaspurakan
+			c_persarmenia = { # Rstunik (1094)
+				color = { 58 154 120 }
+				color2 = { 255 255 255 }
+				greek = "Moxos"
+				oghuz = "Müküs"
+				turkmen = "Müküs"
+				turkish = "Müküs"
+				kurdish = "Mikis"
+				b_moks = {
+					greek = "Moxos"
+					oghuz = "Müküs"
+					turkmen = "Müküs"
+					turkish = "Müküs"
+					kurdish = "Mikis"
+				}
+				b_surbkhach = {
+					greek = "Monì tìs Agio Stavrós"
+					oghuz = "Ahtamar Kilisesi"
+					turkmen = "Ahtamar Kilisesi"
+					turkish = "Ahtamar Kilisesi"
+				}
+				b_vostan = {
+					greek = "Ostan"
+					oghuz = "Gevas"
+					turkmen = "Gevas"
+					turkish = "Gevas"
+				}
+				b_narekavank = {}
+				b_surpgevork = {}
+			}
+			c_bznunik = { # Bznunik (702)
+				color = { 82 42 46 }
+				color2 = { 255 255 255 }
+				greek = "Chalata"
+				armenian = "Bznunik"
+				oghuz = "Ahlat"
+				turkmen = "Ahlat"
+				turkish = "Ahlat"
+				maghreb_arabic = "Akhlát"
+				levantine_arabic = "Akhlát"
+				egyptian_arabic = "Akhlát"
+				andalusian_arabic = "Akhlát"
+				sicilian_arabic = "Akhlát"
+				bedouin_arabic = "Akhlát"
+				hijazi = "Akhlát"
+				yemeni = "Akhlát"
+				kurdish = "Xelat"
+				assyrian = "Halat"
+				b_akhlat = {
+					greek = "Chalata"
+					oghuz = "Ahlat"
+					turkmen = "Ahlat"
+					turkish = "Ahlat"
+					maghreb_arabic = "Akhlát"
+					levantine_arabic = "Akhlát"
+					egyptian_arabic = "Akhlát"
+					andalusian_arabic = "Akhlát"
+					sicilian_arabic = "Akhlát"
+					bedouin_arabic = "Akhlát"
+					hijazi = "Akhlát"
+					yemeni = "Akhlát"
+					kurdish = "Xelat"
+					assyrian = "Halat"
+				}
+				b_bitlis = {
+					greek = "Balales"
+					oghuz = "Bitlis"
+					turkmen = "Bitlis"
+					turkish = "Bitlis"
+					maghreb_arabic = "Badlís"
+					levantine_arabic = "Badlís"
+					egyptian_arabic = "Badlís"
+					andalusian_arabic = "Badlís"
+					sicilian_arabic = "Badlís"
+					bedouin_arabic = "Badlís"
+					hijazi = "Badlís"
+					yemeni = "Badlís"
+					kurdish = "Bidlîs"
+					assyrian = "Bet Dlis"
+				}
+				b_artzesion = {
+					greek = "Artzesion"
+					oghuz = "Ercis"
+					turkmen = "Ercis"
+					turkish = "Ercis"
+					kurdish = "Erdîs"
+					maghreb_arabic = "Arjiš"
+					levantine_arabic = "Arjiš"
+					egyptian_arabic = "Arjiš"
+					andalusian_arabic = "Arjiš"
+					sicilian_arabic = "Arjiš"
+					bedouin_arabic = "Arjiš"
+					hijazi = "Arjiš"
+					yemeni = "Arjiš"
+				}
+				b_berkri = {
+					greek = "Perkrion"
+					oghuz = "Bergiri"
+					turkmen = "Bergiri"
+					turkish = "Bergiri"
+					kurdish = "Bêgirî"
+					maghreb_arabic = "Barghiri"
+					levantine_arabic = "Barghiri"
+					egyptian_arabic = "Barghiri"
+					andalusian_arabic = "Barghiri"
+					sicilian_arabic = "Barghiri"
+					bedouin_arabic = "Barghiri"
+					hijazi = "Barghiri"
+					yemeni = "Barghiri"
+				}
+				b_artske = {
+					greek = "Artzike"
+					oghuz = "Ádelcewz"
+					turkmen = "Ádelcewz"
+					turkish = "Ádelcewz"
+					kurdish = "Elcewaz"
+					maghreb_arabic = "Zatülcevaz"
+					levantine_arabic = "Zatülcevaz"
+					egyptian_arabic = "Zatülcevaz"
+					andalusian_arabic = "Zatülcevaz"
+					sicilian_arabic = "Zatülcevaz"
+					bedouin_arabic = "Zatülcevaz"
+					hijazi = "Zatülcevaz"
+					yemeni = "Zatülcevaz"
+				}
+			} # end c_bznunik
+			allow = { title_duke_basic_allow = yes }
+		} # end d_vaspurakan
+	}
+	## AVE MARIA Modified Hierarchy Antioch Kingdom
+	k_edessa = {
+		color = { 89 21 66 }
+		color2 = { 255 255 255 }
+		name_tier = count
+		capital = 699 # Edessa
+		d_edessa = { # Edessa
+			color = { 89 21 66 }
+			color2 = { 255 255 255 }
+			name_tier = count
+			capital = 699 # Edessa
+			bedouin_arabic = "Ar-Ruha"
+			maghreb_arabic = "Ar-Ruha"
+			levantine_arabic = "Ar-Ruha"
+			egyptian_arabic = "Ar-Ruha"
+			andalusian_arabic = "Ar-Ruha"
+			sicilian_arabic = "Ar-Ruha"
+			yemeni = "Ar-Ruha"
+			hijazi = "Ar-Ruha"
+			sanhaja = "Ar-Ruha"
+			tagelmust = "Ar-Ruha"
+			tuareg = "Ar-Ruha"
+			masmuda = "Ar-Ruha"
+			zanata = "Ar-Ruha"
+			oghuz = "Urfa"
+			turkmen = "Urfa"
+			turkish = "Urfa"
+			kurdish = "Riha"
+			assyrian = "Urhây"
+			greek = "Edesses"
+			armenian = "Urha"
+			c_edessa = { # Edessa (699)
+				color = { 153 255 5 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Ar-Ruha"
+				maghreb_arabic = "Ar-Ruha"
+				levantine_arabic = "Ar-Ruha"
+				egyptian_arabic = "Ar-Ruha"
+				andalusian_arabic = "Ar-Ruha"
+				sicilian_arabic = "Ar-Ruha"
+				yemeni = "Ar-Ruha"
+				hijazi = "Ar-Ruha"
+				sanhaja = "Ar-Ruha"
+				tagelmust = "Ar-Ruha"
+				tuareg = "Ar-Ruha"
+				masmuda = "Ar-Ruha"
+				zanata = "Ar-Ruha"
+				oghuz = "Urfa"
+				turkmen = "Urfa"
+				turkish = "Urfa"
+				kurdish = "Riha"
+				assyrian = "Urhây"
+				greek = "Edesses"
+				armenian = "Urha"
+				b_edessa = {
+					bedouin_arabic = "Ar-Ruha"
+					maghreb_arabic = "Ar-Ruha"
+					levantine_arabic = "Ar-Ruha"
+					egyptian_arabic = "Ar-Ruha"
+					andalusian_arabic = "Ar-Ruha"
+					sicilian_arabic = "Ar-Ruha"
+					yemeni = "Ar-Ruha"
+					hijazi = "Ar-Ruha"
+					sanhaja = "Ar-Ruha"
+					tagelmust = "Ar-Ruha"
+					tuareg = "Ar-Ruha"
+					masmuda = "Ar-Ruha"
+					zanata = "Ar-Ruha"
+					oghuz = "Urfa"
+					turkmen = "Urfa"
+					turkish = "Urfa"
+					kurdish = "Riha"
+					assyrian = "Urhây"
+					greek = "Edesses"
+					armenian = "Urha"
+				}
+				b_sruk = {
+					bedouin_arabic = "Sarug"
+					maghreb_arabic = "Sarug"
+					levantine_arabic = "Sarug"
+					egyptian_arabic = "Sarug"
+					andalusian_arabic = "Sarug"
+					sicilian_arabic = "Sarug"
+					yemeni = "Sarug"
+					hijazi = "Sarug"
+					frankish = "Sorogia"
+					norman = "Sorogia"
+					oghuz = "Suruç"
+					turkmen = "Suruç"
+					turkish = "Suruç"
+					kurdish = "Sirûc"
+					roman = "Batnae"
+					greek = "Batnai"
+				}
+				b_bile = {
+					bedouin_arabic = "al-Birah"
+					hijazi = "al-Birah"
+					yemeni = "al-Birah"
+					maghreb_arabic = "al-Birah"
+					levantine_arabic = "al-Birah"
+					egyptian_arabic = "al-Birah"
+					andalusian_arabic = "al-Birah"
+					sicilian_arabic = "al-Birah"
+					oghuz = "Birecik"
+					turkmen = "Birecik"
+					turkish = "Birecik"
+					kurdish = "Bêrecûg"
+					greek = "Birtha"
+				}
+				b_hromgla = {
+					bedouin_arabic = "Qal'at al-Rum"
+					hijazi = "Qal'at al-Rum"
+					yemeni = "Qal'at al-Rum"
+					maghreb_arabic = "Qal'at al-Rum"
+					levantine_arabic = "Qal'at al-Rum"
+					egyptian_arabic = "Qal'at al-Rum"
+					andalusian_arabic = "Qal'at al-Rum"
+					sicilian_arabic = "Qal'at al-Rum"
+					oghuz = "Rumkale"
+					turkmen = "Rumkale"
+					turkish = "Rumkale"
+					kurdish = "Kela Zêrîn"
+					armenian = "Hromkla"
+					greek = "Romaion Koula"
+					frankish = "Ranculat"
+					norman = "Ranculat"
+				}
+				b_samsat = {
+					bedouin_arabic = "Sumaysat"
+					sicilian_arabic = "Sumaysat"
+					hijazi = "Sumaysat"
+					yemeni = "Sumaysat"
+					maghreb_arabic = "Sumaysat"
+					levantine_arabic = "Sumaysat"
+					egyptian_arabic = "Sumaysat"
+					andalusian_arabic = "Sumaysat"
+					armenian = "Šamšat"
+					greek = "Samosata"
+					oghuz = "Šimšat"
+					turkmen = "Šimšat"
+					turkish = "Šimšat"
+				}
+			} # end c_edessa
+			c_tell_bashir = { # Turbessel (708)
+				color = { 155 255 7 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Tell Bashir"
+				hijazi = "Tell Bashir"
+				yemeni = "Tell Bashir"
+				maghreb_arabic = "Tell Bashir"
+				levantine_arabic = "Tell Bashir"
+				egyptian_arabic = "Tell Bashir"
+				andalusian_arabic = "Tell Bashir"
+				sicilian_arabic = "Tell Bashir"
+				oghuz = "Tilbesar"
+				turkmen = "Tilbesar"
+				turkish = "Tilbesar"
+				b_turbessel = {
+					bedouin_arabic = "Tell Bashir"
+					hijazi = "Tell Bashir"
+					yemeni = "Tell Bashir"
+					maghreb_arabic = "Tell Bashir"
+					levantine_arabic = "Tell Bashir"
+					egyptian_arabic = "Tell Bashir"
+					andalusian_arabic = "Tell Bashir"
+					sicilian_arabic = "Tell Bashir"
+					turkish = "Tilbesar"
+				}
+				b_trihalet = {
+					bedouin_arabic = "Tell Halid"
+					hijazi = "Tell Halid"
+					yemeni = "Tell Halid"
+					maghreb_arabic = "Tell Halid"
+					levantine_arabic = "Tell Halid"
+					egyptian_arabic = "Tell Halid"
+					andalusian_arabic = "Tell Halid"
+					sicilian_arabic = "Tell Halid"
+				}
+				b_kyrrhos = {
+					bedouin_arabic = "Qurus"
+					hijazi = "Qurus"
+					yemeni = "Qurus"
+					maghreb_arabic = "Qurus"
+					levantine_arabic = "Qurus"
+					egyptian_arabic = "Qurus"
+					andalusian_arabic = "Qurus"
+					sicilian_arabic = "Qurus"
+					frankish = "Corice"
+					norman = "Corice"
+				}
+				b_nizip = { greek = "Nisibina" }
+			} # end c_tell_bashir
+			c_aintab = { # Ravendal (734)
+				color = { 157 255 9 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Ayn Tab"
+				hijazi = "Ayn Tab"
+				yemeni = "Ayn Tab"
+				maghreb_arabic = "Ayn Tab"
+				levantine_arabic = "Ayn Tab"
+				egyptian_arabic = "Ayn Tab"
+				andalusian_arabic = "Ayn Tab"
+				sicilian_arabic = "Ayn Tab"
+				frankish = "Hamtab"
+				norman = "Hamtab"
+				greek = "Doliche"
+				b_aintab = {
+					bedouin_arabic = "Ayn Tab"
+					hijazi = "Ayn Tab"
+					yemeni = "Ayn Tab"
+					maghreb_arabic = "Ayn Tab"
+					levantine_arabic = "Ayn Tab"
+					egyptian_arabic = "Ayn Tab"
+					andalusian_arabic = "Ayn Tab"
+					sicilian_arabic = "Ayn Tab"
+					frankish = "Hamtab"
+					norman = "Hamtab"
+				}
+				b_tulupe = {}
+				b_killiz = {}
+				b_ravendan = {
+					bedouin_arabic = "ar-Rawandan"
+					hijazi = "ar-Rawandan"
+					yemeni = "ar-Rawandan"
+					maghreb_arabic = "ar-Rawandan"
+					levantine_arabic = "ar-Rawandan"
+					egyptian_arabic = "ar-Rawandan"
+					andalusian_arabic = "ar-Rawandan"
+					sicilian_arabic = "ar-Rawandan"
+				}
+				b_duluk = {
+					bedouin_arabic = "Duluk"
+					hijazi = "Duluk"
+					yemeni = "Duluk"
+					maghreb_arabic = "Duluk"
+					levantine_arabic = "Duluk"
+					egyptian_arabic = "Duluk"
+					andalusian_arabic = "Duluk"
+					sicilian_arabic = "Duluk"
+					oghuz = "Dülük"
+					turkmen = "Dülük"
+					turkish = "Dülük"
+					greek = "Doliche"
+				}
+			} # end c_aintab
+			c_kaisun = { # Kaisun (1220)
+				color = { 157 255 9 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Kaisum"
+				hijazi = "Kaisum"
+				yemeni = "Kaisum"
+				maghreb_arabic = "Kaisum"
+				levantine_arabic = "Kaisum"
+				egyptian_arabic = "Kaisum"
+				andalusian_arabic = "Kaisum"
+				sicilian_arabic = "Kaisum"
+				greek = "Kaison"
+				b_kaisun = {
+					bedouin_arabic = "Kaisum"
+					hijazi = "Kaisum"
+					yemeni = "Kaisum"
+					maghreb_arabic = "Kaisum"
+					levantine_arabic = "Kaisum"
+					egyptian_arabic = "Kaisum"
+					andalusian_arabic = "Kaisum"
+					sicilian_arabic = "Kaisum"
+					greek = "Kaison"
+				}
+				b_behetselin = {
+					bedouin_arabic = "Hisn Mansur"
+					sicilian_arabic = "Hisn Mansur"
+					hijazi = "Hisn Mansur"
+					yemeni = "Hisn Mansur"
+					maghreb_arabic = "Hisn Mansur"
+					levantine_arabic = "Hisn Mansur"
+					egyptian_arabic = "Hisn Mansur"
+					andalusian_arabic = "Hisn Mansur"
+					armenian = "Perre"
+					greek = "Perre"
+					oghuz = "Hisn-i Mansur"
+					turkmen = "Hisn-i Mansur"
+					turkish = "Hisn-i Mansur"
+					kurdish = "Semsûr"
+				}
+				b_raban = { greek = "Rabaine" }
+				b_hartanedessa = {
+					bedouin_arabic = "Káhta"
+					sicilian_arabic = "Káhta"
+					hijazi = "Káhta"
+					yemeni = "Káhta"
+					maghreb_arabic = "Káhta"
+					levantine_arabic = "Káhta"
+					egyptian_arabic = "Káhta"
+					andalusian_arabic = "Káhta"
+					greek = "Arsameia"
+					oghuz = "Káhta"
+					turkmen = "Káhta"
+					turkish = "Káhta"
+					kurdish = "Kolik"
+				}
+				b_karkaron = {
+					armenian = "Gargar"
+					bedouin_arabic = "Karkar"
+					sicilian_arabic = "Karkar"
+					hijazi = "Karkar"
+					yemeni = "Karkar"
+					maghreb_arabic = "Karkar"
+					levantine_arabic = "Karkar"
+					egyptian_arabic = "Karkar"
+					andalusian_arabic = "Karkar"
+					oghuz = "Karkar"
+					turkmen = "Karkar"
+					turkish = "Karkar"
+				}
+			} # end c_kaisun
+			allow = { title_duke_basic_allow = yes }
+		} # end d_edessa
+	}
+	k_antioch_roman = {
+		color = { 91 139 188 }
+		color2 = { 255 255 255 }
+		short_name = yes
+		capital = 764 # Antioch
+		d_antioch = { # Antioche # Principauté d'Antioche
+			color = { 91 139 188 }
+			color2 = { 255 255 255 }
+			short_name = yes
+			capital = 764 # Antioch
+			christian = 400 # Crusade target weight
+			muslim = 200 # Crusade target weight
+			bedouin_arabic = "Jund 'Awasim"
+			maghreb_arabic = "Jund 'Awasim"
+			levantine_arabic = "Jund 'Awasim"
+			egyptian_arabic = "Jund 'Awasim"
+			andalusian_arabic = "Jund 'Awasim"
+			sicilian_arabic = "Jund 'Awasim"
+			yemeni = "Jund 'Awasim"
+			hijazi = "Jund 'Awasim"
+			sanhaja = "Jund 'Awasim"
+			tagelmust = "Jund 'Awasim"
+			tuareg = "Jund 'Awasim"
+			masmuda = "Jund 'Awasim"
+			zanata = "Jund 'Awasim"
+			greek = "Antiokeias"
+			alan = "Antiokeias"
+			arberian = "Antiokeias"
+			armenian = "Antiok"
+			georgian = "Antiok"
+			frankish = "Principauté d'Antioche"
+			norman = "Principauté d'Antioche"
+			ethiopian = "Ansokya"
+			c_antiocheia = { # Antioch (764)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Antakiya"
+				maghreb_arabic = "Antakiya"
+				levantine_arabic = "Antakiya"
+				egyptian_arabic = "Antakiya"
+				andalusian_arabic = "Antakiya"
+				sicilian_arabic = "Antakiya"
+				yemeni = "Antakiya"
+				hijazi = "Antakiya"
+				sanhaja = "Antakiya"
+				tagelmust = "Antakiya"
+				tuareg = "Antakiya"
+				masmuda = "Antakiya"
+				zanata = "Antakiya"
+				oghuz = "Antakiya"
+				turkmen = "Antakiya"
+				turkish = "Antakiya"
+				armenian = "Antiok"
+				assyrian = "Antiokia"
+				ethiopian = "Ansokya"
+				b_antiocheia = {
+					bedouin_arabic = "Antakiya"
+					maghreb_arabic = "Antakiya"
+					levantine_arabic = "Antakiya"
+					egyptian_arabic = "Antakiya"
+					andalusian_arabic = "Antakiya"
+					sicilian_arabic = "Antakiya"
+					yemeni = "Antakiya"
+					hijazi = "Antakiya"
+					sanhaja = "Antakiya"
+					tagelmust = "Antakiya"
+					tuareg = "Antakiya"
+					masmuda = "Antakiya"
+					zanata = "Antakiya"
+					turkish = "Antakiya"
+					armenian = "Antiok"
+					assyrian = "Antiokia"
+					ethiopian = "Ansokya"
+				}
+				b_stsymeon = {
+					bedouin_arabic = "as-Suwaydiyah"
+					hijazi = "as-Suwaydiyah"
+					yemeni = "as-Suwaydiyah"
+					maghreb_arabic = "as-Suwaydiyah"
+					levantine_arabic = "as-Suwaydiyah"
+					egyptian_arabic = "as-Suwaydiyah"
+					andalusian_arabic = "as-Suwaydiyah"
+					sicilian_arabic = "as-Suwaydiyah"
+					greek = "Seleukeia Pieria"
+					oghuz = "Süveydiye"
+					turkmen = "Süveydiye"
+					turkish = "Süveydiye"
+					armenian = "Svedia"
+				}
+				b_darbsak = {
+					bedouin_arabic = "ad-Darbasak"
+					hijazi = "ad-Darbasak"
+					yemeni = "ad-Darbasak"
+					maghreb_arabic = "ad-Darbasak"
+					levantine_arabic = "ad-Darbasak"
+					egyptian_arabic = "ad-Darbasak"
+					andalusian_arabic = "ad-Darbasak"
+					sicilian_arabic = "ad-Darbasak"
+					frankish = "Trapesac"
+					norman = "Trapesac"
+					greek = "Trapezon"
+				}
+				b_harenc = {
+					bedouin_arabic = "Qal'at Antakiya"
+					maghreb_arabic = "Qal'at Antakiya"
+					levantine_arabic = "Qal'at Antakiya"
+					egyptian_arabic = "Qal'at Antakiya"
+					andalusian_arabic = "Qal'at Antakiya"
+					sicilian_arabic = "Qal'at Antakiya"
+					yemeni = "Qal'at Antakiya"
+					hijazi = "Qal'at Antakiya"
+					sanhaja = "Qal'at Antakiya"
+					tagelmust = "Qal'at Antakiya"
+					tuareg = "Qal'at Antakiya"
+					masmuda = "Qal'at Antakiya"
+					zanata = "Qal'at Antakiya"
+					oghuz = "Antakiya Hisar"
+					turkmen = "Antakiya Hisar"
+					turkish = "Antakiya Hisar"
+					armenian = "Antiokla"
+					greek = "Kastro Antiokheia"
+				}
+				b_baghras = {
+					oghuz = "Bakras"
+					turkmen = "Bakras"
+					turkish = "Bakras"
+					greek = "Pagrai"
+					armenian = "Pagrai"
+					frankish = "Gaston"
+					norman = "Gaston"
+				}
+				b_artasium = {
+					bedouin_arabic = "Artah"
+					hijazi = "Artah"
+					yemeni = "Artah"
+					maghreb_arabic = "Artah"
+					levantine_arabic = "Artah"
+					egyptian_arabic = "Artah"
+					andalusian_arabic = "Artah"
+					sicilian_arabic = "Artah"
+					frankish = "Artasia"
+					norman = "Artasia"
+				}
+			} # end c_antiocheia
+			c_hazart = { # Hazart (1236)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Azaz"
+				hijazi = "Azaz"
+				yemeni = "Azaz"
+				maghreb_arabic = "Azaz"
+				levantine_arabic = "Azaz"
+				egyptian_arabic = "Azaz"
+				andalusian_arabic = "Azaz"
+				sicilian_arabic = "Azaz"
+				b_hazart = {
+					bedouin_arabic = "Azaz"
+					hijazi = "Azaz"
+					yemeni = "Azaz"
+					maghreb_arabic = "Azaz"
+					levantine_arabic = "Azaz"
+					egyptian_arabic = "Azaz"
+					andalusian_arabic = "Azaz"
+					sicilian_arabic = "Azaz"
+				}
+				b_harimantiochia = {
+					frankish = "Harenc"
+					norman = "Harenc"
+				}
+				b_zerdana = {
+					bedouin_arabic = "Zaradna"
+					hijazi = "Zaradna"
+					yemeni = "Zaradna"
+					maghreb_arabic = "Zaradna"
+					levantine_arabic = "Zaradna"
+					egyptian_arabic = "Zaradna"
+					andalusian_arabic = "Zaradna"
+					sicilian_arabic = "Zaradna"
+					frankish = "Sardona"
+					norman = "Sardona"
+				}
+				b_sarmada = {
+					frankish = "Samarta"
+					norman = "Samarta"
+				}
+			}
+			c_saone = { # Saone (968)
+				color = { 106 191 44 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "al-Ladiqiya"
+				maghreb_arabic = "al-Ladiqiya"
+				levantine_arabic = "al-Ladiqiya"
+				egyptian_arabic = "al-Ladiqiya"
+				andalusian_arabic = "al-Ladiqiya"
+				sicilian_arabic = "al-Ladiqiya"
+				yemeni = "al-Ladiqiya"
+				hijazi = "al-Ladiqiya"
+				greek = "Laodikeia"
+				b_latakiah = {
+					bedouin_arabic = "al-Ladiqiya"
+					maghreb_arabic = "al-Ladiqiya"
+					levantine_arabic = "al-Ladiqiya"
+					egyptian_arabic = "al-Ladiqiya"
+					andalusian_arabic = "al-Ladiqiya"
+					sicilian_arabic = "al-Ladiqiya"
+					yemeni = "al-Ladiqiya"
+					hijazi = "al-Ladiqiya"
+					frankish = "Laodicée"
+					norman = "Laodicée"
+					greek = "Laodikeia"
+				}
+				b_hisnaddair = {}
+				b_stdanielsyria = {}
+				b_saone = {
+					bedouin_arabic = "Sahyun"
+					maghreb_arabic = "Sahyun"
+					levantine_arabic = "Sahyun"
+					egyptian_arabic = "Sahyun"
+					andalusian_arabic = "Sahyun"
+					sicilian_arabic = "Sahyun"
+					yemeni = "Sahyun"
+					hijazi = "Sahyun"
+					greek = "Sigon"
+				}
+				b_jabala = {
+					bedouin_arabic = "Gabla"
+					hijazi = "Gabla"
+					yemeni = "Gabla"
+					maghreb_arabic = "Gabla"
+					levantine_arabic = "Gabla"
+					egyptian_arabic = "Gabla"
+					andalusian_arabic = "Gabla"
+					sicilian_arabic = "Gabla"
+					frankish = "Gabula"
+					norman = "Gabula"
+					greek = "Gabala"
+				}
+				b_balatanos = {
+					bedouin_arabic = "Ablatunus"
+					hijazi = "Ablatunus"
+					yemeni = "Ablatunus"
+					maghreb_arabic = "Ablatunus"
+					levantine_arabic = "Ablatunus"
+					egyptian_arabic = "Ablatunus"
+					andalusian_arabic = "Ablatunus"
+					sicilian_arabic = "Ablatunus"
+				}
+				b_gibellum = {}
+			} # end c_saone
+			c_archa = { # Berzieh (765)
+				color = { 109 194 47 }
+				color2 = { 255 255 255 }
+				bedouin_arabic = "Fámieh"
+				maghreb_arabic = "Fámieh"
+				levantine_arabic = "Fámieh"
+				egyptian_arabic = "Fámieh"
+				andalusian_arabic = "Fámieh"
+				sicilian_arabic = "Fámieh"
+				yemeni = "Fámieh"
+				hijazi = "Fámieh"
+				frankish = "Apamée"
+				norman = "Apamée"
+				greek = "Apameia"
+				b_sarmeniasyria = {
+					bedouin_arabic = "Sarmin"
+					hijazi = "Sarmin"
+					yemeni = "Sarmin"
+					maghreb_arabic = "Sarmin"
+					levantine_arabic = "Sarmin"
+					egyptian_arabic = "Sarmin"
+					andalusian_arabic = "Sarmin"
+					sicilian_arabic = "Sarmin"
+				}
+				b_albarasyria = {
+					bedouin_arabic = "al-Bara"
+					hijazi = "al-Bara"
+					yemeni = "al-Bara"
+					maghreb_arabic = "al-Bara"
+					levantine_arabic = "al-Bara"
+					egyptian_arabic = "al-Bara"
+					andalusian_arabic = "al-Bara"
+					sicilian_arabic = "al-Bara"
+				}
+				b_famia = {
+					bedouin_arabic = "Fámieh"
+					maghreb_arabic = "Fámieh"
+					levantine_arabic = "Fámieh"
+					egyptian_arabic = "Fámieh"
+					andalusian_arabic = "Fámieh"
+					sicilian_arabic = "Fámieh"
+					yemeni = "Fámieh"
+					hijazi = "Fámieh"
+					frankish = "Apamée"
+					norman = "Apamée"
+					greek = "Apameia"
+				}
+				b_bourzeycastle = {
+					bedouin_arabic = "Barzuya"
+					hijazi = "Barzuya"
+					yemeni = "Barzuya"
+					maghreb_arabic = "Barzuya"
+					levantine_arabic = "Barzuya"
+					egyptian_arabic = "Barzuya"
+					andalusian_arabic = "Barzuya"
+					sicilian_arabic = "Barzuya"
+					frankish = "Rochefort"
+					norman = "Rochefort"
+					greek = "Lysias"
+				}
+				b_treiz = {}
+			} # end c_archa
+			allow = { title_duke_basic_allow = yes }
+		} # end d_antioch
+	}	
+	
+	
+	k_bulgaria = { # Balgariya
+		color = { 113 88 101 }
+		color2 = { 255 255 255 }
+		capital = 499 # Tarnovo # Tyrnovo
+		culture = bulgarian
+		orthodox = 300 # Crusade target weight
+		catholic = 100 # Crusade target weight
+		muslim = 25 # Crusade target weight
+		hellenic_pagan_reformed = 1000 # Crusade target weight
+		d_turnovo = { # Tarnovo
+			color = { 88 80 112 }
+			color2 = { 255 255 255 }
+			capital = 499 # Tarnovo # Tyrnovo
+			greek = "Paristrion"
+			crimean_gothic = "Paristrion"
+			roman = "Paristrion"
+			oghuz = "Nigbolu"
+			turkmen = "Nigbolu"
+			turkish = "Nigbolu"
+			pecheneg = "Nigbolu"
+			c_tyrnovo = { # Tarnovo (499)
+				color = { 156 41 199 }
+				color2 = { 255 255 255 }
+				greek = "Moisía"
+				crimean_gothic = "Moesia Secunda"
+				roman = "Moesia Secunda"
+				oghuz = "Tirnova"
+				turkmen = "Tirnova"
+				turkish = "Tirnova"
+				pecheneg = "Tirnova"
+				b_transfiguration_monestary_tarnovo = {}
+				b_kilifarevo = {
+					oghuz = "Kilifar"
+					turkmen = "Kilifar"
+					turkish = "Kilifar"
+					pecheneg = "Kilifar"
+					greek = "Kephálos"
+				}
+				b_lovech = {
+					greek = "Diokletianoupolis"
+					crimean_gothic = "Diocletianopolis"
+					roman = "Melta"
+					oghuz = "Lofça"
+					turkmen = "Lofça"
+					pecheneg = "Lofça"
+					turkish = "Lofça"
+				}
+				b_nikopol = {
+					greek = "Nikopolis"
+					crimean_gothic = "Nikopolis"
+					roman = "Nicopolis"
+					oghuz = "Nigbolu"
+					turkmen = "Nigbolu"
+					turkish = "Nigbolu"
+					pecheneg = "Nigbolu"
+					hungarian = "Nikápoly"
+					szekely = "Nikápoly"
+				}
+				b_oryahovo = {
+					greek = "Oískos"
+					crimean_gothic = "Oescus"
+					roman = "Oescus"
+					oghuz = "Rahova"
+					turkmen = "Rahova"
+					turkish = "Rahova"
+					pecheneg = "Rahova"
+				}
+				b_tarnovo = {
+					greek = "Zikídeva"
+					crimean_gothic = "Zikídeva"
+					roman = "Zikideva"
+					oghuz = "Tirnova"
+					turkmen = "Tirnova"
+					turkish = "Tirnova"
+					pecheneg = "Tirnova"
+				}
+			} # end c_tyrnovo
+			c_serdica = { # Sredets (500)
+				color = { 158 43 201 }
+				color2 = { 255 255 255 }
+				greek = "Triaditsa"
+				crimean_gothic = "Triaditsa"
+				roman = "Serdica"
+				oghuz = "Sofya"
+				turkmen = "Sofya"
+				turkish = "Sofya"
+				pecheneg = "Sofya"
+				b_etropole = {
+					oghuz = "Etrebolu"
+					turkmen = "Etrebolu"
+					turkish = "Etrebolu"
+					pecheneg = "Etrebolu"
+				}
+				b_samundzhievo = {}
+				b_vratsa = {
+					greek = "Vratica"
+					crimean_gothic = "Vratica"
+					roman = "Valve"
+					oghuz = "Ivrace"
+					turkmen = "Ivrace"
+					turkish = "Ivrace"
+					pecheneg = "Ivrace"
+				}
+				b_serdica = {
+					greek = "Triaditsa"
+					crimean_gothic = "Triaditsa"
+					roman = "Serdica"
+					oghuz = "Sofya"
+					turkmen = "Sofya"
+					turkish = "Sofya"
+					pecheneg = "Sofya"
+				}
+				b_breznik = {}
+			} # end c_serdica
+			c_dorostotum = { # Preslav (508)
+				color = { 162 47 205 }
+				color2 = { 255 255 255 }
+				greek = "Durostoulon"
+				crimean_gothic = "Durostoulon"
+				roman = "Dorostorum"
+				oghuz = "Stamboluk"
+				turkmen = "Stamboluk"
+				turkish = "Stamboluk"
+				pecheneg = "Stamboluk"
+				b_shumen = {
+					greek = "Simeonis"
+					crimean_gothic = "Simeonis"
+					roman = "Simeonis"
+					oghuz = "Sumena"
+					turkmen = "Sumena"
+					turkish = "Sumena"
+					pecheneg = "Sumena"
+				}
+				b_cherven_bulgaria = {
+					oghuz = "Cernovi"
+					turkmen = "Cernovi"
+					turkish = "Cernovi"
+					pecheneg = "Cernovi"
+					crimean_gothic = "Kókkinos"
+					greek = "Kókkinos"
+				}
+				b_silistra = {
+					greek = "Durostoulon"
+					crimean_gothic = "Durostoulon"
+					roman = "Dorostorum"
+					oghuz = "Silistre"
+					turkmen = "Silistre"
+					turkish = "Silistre"
+					pecheneg = "Silistre"
+				}
+				b_pliska = {
+					greek = "Aboba"
+					crimean_gothic = "Aboba"
+					roman = "Aboba"
+				}
+				b_preslav = {
+					greek = "Ioannoupolis"
+					crimean_gothic = "Ioannoupolis"
+					roman = "Ioannopolis"
+					oghuz = "Stamboluk"
+					turkmen = "Stamboluk"
+					turkish = "Stamboluk"
+					pecheneg = "Stamboluk"
+				}
+				b_ivanovo = {}
+			} # end c_dorostotum
+			c_nikopolis = { # Kran (507)
+				color = { 160 45 203 }
+				color2 = { 255 255 255 }
+				greek = "Seuthoupolis"
+				crimean_gothic = "Seuthoupolis"
+				roman = "Seuthopolis"
+				oghuz = "Hasat"
+				turkmen = "Hasat"
+				turkish = "Hasat"
+				pecheneg = "Hasat"
+				b_tryavna = {
+					oghuz = "Travna"
+					turkmen = "Travna"
+					turkish = "Travna"
+					pecheneg = "Travna"
+				}
+				b_silven = {
+					greek = "Selymnos"
+					crimean_gothic = "Selymnos"
+					roman = "Selymnum"
+					oghuz = "Islimye"
+					turkmen = "Islimye"
+					turkish = "Islimye"
+					pecheneg = "Islimye"
+				}
+				b_kran = {
+					greek = "Seuthoupolis"
+					crimean_gothic = "Seuthoupolis"
+					roman = "Seuthopolis"
+					oghuz = "Hasat"
+					turkmen = "Hasat"
+					turkish = "Hasat"
+					pecheneg = "Hasat"
+				}
+				b_kteina = {}
+			}
+			allow = { title_duke_basic_allow = yes }
+		} # end d_turnovo
+		d_karvuna = { # Karvuna
+			color = { 63 127 98 }
+			color2 = { 255 255 255 }
+			greek = "Mikrá Skythia"
+			crimean_gothic = "Mikrá Skythia"
+			oghuz = "Dobruja"
+			turkmen = "Dobruja"
+			turkish = "Dobruja"
+			pecheneg = "Dobruja"
+			capital = 509 # Karvuna
+			c_karvuna = { # Karvuna (509)
+				color = { 210 95 253 }
+				color2 = { 255 255 255 }
+				greek = "Krounoi"
+				crimean_gothic = "Krounoi"
+				roman = "Krounoi"
+				oghuz = "Balçik"
+				turkmen = "Balçik"
+				turkish = "Balçik"
+				pecheneg = "Balçik"
+				b_provadiya = {
+					greek = "Provat"
+					crimean_gothic = "Provat"
+					roman = "Provat"
+					oghuz = "Pravadi"
+					turkmen = "Pravadi"
+					turkish = "Pravadi"
+					pecheneg = "Pravadi"
+					italian = "Provanto"
+					sardinian = "Provanto"
+					dalmatian = "Provanto"
+					sicilian = "Provanto"
+					umbrian = "Provanto"
+					laziale = "Provanto"
+					langobardisch = "Provanto"
+					neapolitan = "Provanto"
+					tuscan = "Provanto"
+					ligurian = "Provanto"
+					venetian = "Provanto"
+				}
+				b_kaliakra = {
+					greek = "Akrai"
+					crimean_gothic = "Akrai"
+					roman = "Trissa"
+					oghuz = "Celigra"
+					turkmen = "Celigra"
+					turkish = "Celigra"
+					pecheneg = "Celigra"
+					romanian = "Caliacra"
+				}
+				b_varna = {
+					greek = "Odessus"
+					crimean_gothic = "Odessus"
+					roman = "Odessus"
+					hungarian = "Várna"
+					szekely = "Várna"
+				}
+				b_karvuna = {
+					greek = "Krounoi"
+					crimean_gothic = "Krounoi"
+					roman = "Krounoi"
+					oghuz = "Balçik"
+					turkmen = "Balçik"
+					turkish = "Balçik"
+					pecheneg = "Balçik"
+				}
+				b_mangalia = {
+					romanian = "Tomisovara"
+					greek = "Panglitsara"
+					crimean_gothic = "Panglitsara"
+					oghuz = "Mangalya"
+					turkmen = "Mangalya"
+					turkish = "Mangalya"
+					pecheneg = "Mangalya"
+				}
+			} # end c_karvuna
+			c_constantia = { # Konstanta (510)
+				color = { 213 98 253 }
+				color2 = { 255 255 255 }
+				greek = "Konstantia"
+				crimean_gothic = "Konstantia"
+				roman = "Constantia"
+				oghuz = "Köstence"
+				turkmen = "Köstence"
+				turkish = "Köstence"
+				pecheneg = "Köstence"
+				romanian = "Constanta"
+				b_vicina = {
+					greek = "Bitzina"
+					crimean_gothic = "Bitzina"
+				}
+				b_tulcea = {
+					greek = "Aigissos"
+					crimean_gothic = "Aigissos"
+					roman = "Aegyssus"
+					oghuz = "Tolchu"
+					turkmen = "Tolchu"
+					turkish = "Tolchu"
+					pecheneg = "Tolchu"
+					romanian = "Tulcea"
+				}
+				b_constantia = {
+					greek = "Konstantia"
+					crimean_gothic = "Konstantia"
+					roman = "Constantia"
+					oghuz = "Köstence"
+					turkmen = "Köstence"
+					turkish = "Köstence"
+					pecheneg = "Köstence"
+					romanian = "Constanta"
+				}
+				b_chilia = {
+					greek = "Kellia"
+					crimean_gothic = "Kellia"
+					romanian = "Chilia"
+					italian = "Lycostomo"
+					sardinian = "Lycostomo"
+					dalmatian = "Lycostomo"
+					sicilian = "Lycostomo"
+					umbrian = "Lycostomo"
+					laziale = "Lycostomo"
+					langobardisch = "Lycostomo"
+					neapolitan = "Lycostomo"
+					tuscan = "Lycostomo"
+					ligurian = "Lycostomo"
+					venetian = "Lycostomo"
+				}
+				b_harsova = {
+					greek = "Carsion"
+					crimean_gothic = "Carsion"
+					roman = "Carsium"
+					oghuz = "Hirsova"
+					turkmen = "Hirsova"
+					turkish = "Hirsova"
+					pecheneg = "Hirsova"
+					romanian = "Carsia"
+				}
+			} # end c_constantia
+			allow = { title_duke_basic_allow = yes }
+		} # end d_karvuna
+		# d_adrianopolis = { # Plovdiv
+			# color = { 146 0 5 }
+			# color2 = { 255 255 20 }
+			# capital = 494 # Adrianopol # Adrianopolis
+			# culture = greek
+			venetian = "Adrianupleos et Didimotichi"
+			# bedouin_arabic = "Maqadúniya"
+			# hijazi = "Maqadúniya"
+			# yemeni = "Maqadúniya"
+			# maghreb_arabic = "Maqadúniya"
+			# levantine_arabic = "Maqadúniya"
+			# egyptian_arabic = "Maqadúniya"
+			# andalusian_arabic = "Maqadúniya"
+			# sicilian_arabic = "Maqadúniya"
+			# sanhaja = "Maqadúniya"
+			# tagelmust = "Maqadúniya"
+			# tuareg = "Maqadúniya"
+			# masmuda = "Maqadúniya"
+			# zanata = "Maqadúniya"
+			# turkish = "Rumelí"
+			# oghuz = "Rumelí"
+			# turkmen = "Rumelí"
+			# pecheneg = "Rumelí"
+			# crimean_gothic = "Makedonía"
+			# greek = "Makedonía"
+			# hungarian = "Filipápoly"
+			# szekely = "Filipápoly"
+			# norwegian = "Philippopolis"
+			# gothic = "Philippopolis"
+			# swedish = "Philippopolis"
+			# danish = "Philippopolis"
+			# basque = "Philippopolis"
+			# aragonese = "Philippopolis"
+			# castillan = "Philippopolis"
+			# catalan = "Philippopolis"
+			# leonese = "Philippopolis"
+			# german = "Philippopolis"
+			# thuringian = "Philippopolis"
+			# swabian = "Philippopolis"
+			# bavarian = "Philippopolis"
+			# low_saxon = "Philippopolis"
+			# franconian = "Philippopolis"
+			# low_german = "Philippopolis"
+			# low_frankish = "Philippopolis"
+			# dutch = "Philippopolis"
+			# frankish = "Philippopolis"
+			# norman = "Philippopolis"
+			# arpitan = "Philippopolis"
+			# occitan = "Philippopolis"
+			# italian = "Philippopolis"
+			# sardinian = "Philippopolis"
+			# sicilian = "Philippopolis"
+			# umbrian = "Philippopolis"
+			# laziale = "Philippopolis"
+			# langobardisch = "Philippopolis"
+			# neapolitan = "Philippopolis"
+			# tuscan = "Philippopolis"
+			# ligurian = "Philippopolis"
+			# venetian = "Philippopolis"
+			# dalmatian = "Philippopolis"
+			# english = "Philippopolis"
+			# c_adrianopolis = { # Adrianopol (494)
+				# color = { 216 77 168 }
+				# color2 = { 255 255 20 }
+				# hungarian = "Drinápoly"
+				# szekely = "Drinápoly"
+				# norwegian = "Adrianopolis"
+				# gothic = "Adrianopolis"
+				# swedish = "Adrianopolis"
+				# danish = "Adrianopolis"
+				# basque = "Adrianopolis"
+				# aragonese = "Adrianopolis"
+				# castillan = "Adrianopolis"
+				# catalan = "Adrianopolis"
+				# leonese = "Adrianopolis"
+				# german = "Adrianopolis"
+				# thuringian = "Adrianopolis"
+				# swabian = "Adrianopolis"
+				# bavarian = "Adrianopolis"
+				# low_saxon = "Adrianopolis"
+				# franconian = "Adrianopolis"
+				# low_german = "Adrianopolis"
+				# low_frankish = "Adrianopolis"
+				# dutch = "Adrianopolis"
+				# frankish = "Adrianopolis"
+				# norman = "Adrianopolis"
+				# arpitan = "Adrianopolis"
+				# occitan = "Adrianopolis"
+				# italian = "Adrianopolis"
+				# sardinian = "Adrianopolis"
+				# dalmatian = "Adrianopolis"
+				# sicilian = "Adrianopolis"
+				# umbrian = "Adrianopolis"
+				# laziale = "Adrianopolis"
+				# langobardisch = "Adrianopolis"
+				# neapolitan = "Adrianopolis"
+				# tuscan = "Adrianopolis"
+				# ligurian = "Adrianopolis"
+				# venetian = "Adrianupleos"
+				# english = "Adrianopolis"
+				# crimean_gothic = "Adrianoupolis"
+				# greek = "Hadrianoúpolis"
+				# roman = "Hadrianopolis"
+				# oghuz = "Edirne"
+				# turkmen = "Edirne"
+				# turkish = "Edirne"
+				# pecheneg = "Edirne"
+				# b_matochina = {
+					# crimean_gothic = "Bukelona"
+					# greek = "Bukelona"
+					# oghuz = "Fikel"
+					# turkmen = "Fikel"
+					# turkish = "Fikel"
+					# pecheneg = "Fikel"
+				# }
+				# b_perperikon = {
+					# greek = "Perperakion"
+					# crimean_gothic = "Perperakion"
+					# roman = "Perperakion"
+				# }
+				# b_lyutitsa = {
+					# crimean_gothic = "Lioútitsa"
+					# greek = "Lioútitsa"
+				# }
+				# b_versinikia = {}
+				# b_adrianopolis = {
+					# hungarian = "Drinápoly"
+					# szekely = "Drinápoly"
+					# norwegian = "Adrianopolis"
+					# gothic = "Adrianopolis"
+					# swedish = "Adrianopolis"
+					# danish = "Adrianopolis"
+					# basque = "Adrianopolis"
+					# aragonese = "Adrianopolis"
+					# castillan = "Adrianopolis"
+					# catalan = "Adrianopolis"
+					# leonese = "Adrianopolis"
+					# german = "Adrianopolis"
+					# thuringian = "Adrianopolis"
+					# swabian = "Adrianopolis"
+					# bavarian = "Adrianopolis"
+					# low_saxon = "Adrianopolis"
+					# franconian = "Adrianopolis"
+					# low_german = "Adrianopolis"
+					# low_frankish = "Adrianopolis"
+					# dutch = "Adrianopolis"
+					# frankish = "Adrianopolis"
+					# norman = "Adrianopolis"
+					# arpitan = "Adrianopolis"
+					# occitan = "Adrianopolis"
+					# italian = "Adrianopolis"
+					# sardinian = "Adrianopolis"
+					# dalmatian = "Adrianopolis"
+					# sicilian = "Adrianopolis"
+					# umbrian = "Adrianopolis"
+					# laziale = "Adrianopolis"
+					# langobardisch = "Adrianopolis"
+					# neapolitan = "Adrianopolis"
+					# tuscan = "Adrianopolis"
+					# ligurian = "Adrianopolis"
+					# venetian = "Adrianupleos"
+					# english = "Adrianopolis"
+					# crimean_gothic = "Adrianoupolis"
+					# greek = "Adrianoupolis"
+					# roman = "Hadrianopolis"
+					# oghuz = "Edirne"
+					# turkmen = "Edirne"
+					# turkish = "Edirne"
+					# pecheneg = "Edirne"
+				# } # end b_adrianopolis
+				# b_kardzahli = {
+					# crimean_gothic = "Kártzali"
+					# greek = "Kártzali"
+					# oghuz = "Kircaali"
+					# turkmen = "Kircaali"
+					# pecheneg = "Kircaali"
+					# turkish = "Kircaali"
+				# }
+			# } # end c_adrianopolis
+			# c_philippopolis = { # Plovdiv (493)
+				# color = { 219 80 171 }
+				# color2 = { 255 255 20 }
+				# hungarian = "Filipápoly"
+				# szekely = "Filipápoly"
+				# norwegian = "Philippopolis"
+				# gothic = "Philippopolis"
+				# swedish = "Philippopolis"
+				# danish = "Philippopolis"
+				# basque = "Philippopolis"
+				# aragonese = "Philippopolis"
+				# castillan = "Philippopolis"
+				# catalan = "Philippopolis"
+				# leonese = "Philippopolis"
+				# german = "Philippopolis"
+				# thuringian = "Philippopolis"
+				# swabian = "Philippopolis"
+				# bavarian = "Philippopolis"
+				# low_saxon = "Philippopolis"
+				# franconian = "Philippopolis"
+				# low_german = "Philippopolis"
+				# low_frankish = "Philippopolis"
+				# dutch = "Philippopolis"
+				# frankish = "Philippopolis"
+				# norman = "Philippopolis"
+				# arpitan = "Philippopolis"
+				# occitan = "Philippopolis"
+				# italian = "Philippopolis"
+				# sardinian = "Philippopolis"
+				# dalmatian = "Philippopolis"
+				# sicilian = "Philippopolis"
+				# umbrian = "Philippopolis"
+				# laziale = "Philippopolis"
+				# langobardisch = "Philippopolis"
+				# neapolitan = "Philippopolis"
+				# tuscan = "Philippopolis"
+				# ligurian = "Philippopolis"
+				# venetian = "Philippopolis"
+				# english = "Philippopolis"
+				# greek = "Philippoupolis"
+				# crimean_gothic = "Philippoupolis"
+				# roman = "Philippopolis"
+				# oghuz = "Filibe"
+				# turkmen = "Filibe"
+				# turkish = "Filibe"
+				# pecheneg = "Filibe"
+				# b_bachkovo = {
+					# crimean_gothic = "Petritsoni"
+					# greek = "Petritsoni"
+				# }
+				# b_perushtitsa = {
+					# oghuz = "Perustiçe"
+					# turkmen = "Perustiçe"
+					# turkish = "Perustiçe"
+					# pecheneg = "Perustiçe"
+				# }
+				# b_plovdiv = {
+					# hungarian = "Filipápoly"
+					# norwegian = "Philippopolis"
+					# gothic = "Philippopolis"
+					# swedish = "Philippopolis"
+					# danish = "Philippopolis"
+					# basque = "Philippopolis"
+					# aragonese = "Philippopolis"
+					# castillan = "Philippopolis"
+					# catalan = "Philippopolis"
+					# leonese = "Philippopolis"
+					# german = "Philippopolis"
+					# thuringian = "Philippopolis"
+					# swabian = "Philippopolis"
+					# bavarian = "Philippopolis"
+					# low_saxon = "Philippopolis"
+					# franconian = "Philippopolis"
+					# low_german = "Philippopolis"
+					# low_frankish = "Philippopolis"
+					# dutch = "Philippopolis"
+					# frankish = "Philippopolis"
+					# norman = "Philippopolis"
+					# arpitan = "Philippopolis"
+					# occitan = "Philippopolis"
+					# italian = "Philippopolis"
+					# sardinian = "Philippopolis"
+					# dalmatian = "Philippopolis"
+					# sicilian = "Philippopolis"
+					# umbrian = "Philippopolis"
+					# laziale = "Philippopolis"
+					# langobardisch = "Philippopolis"
+					# neapolitan = "Philippopolis"
+					# tuscan = "Philippopolis"
+					# ligurian = "Philippopolis"
+					# venetian = "Philippopolis"
+					# english = "Philippopolis"
+					# greek = "Philippoupolis"
+					# crimean_gothic = "Philippoupolis"
+					# roman = "Philippopolis"
+					# oghuz = "Filibe"
+					# turkmen = "Filibe"
+					# turkish = "Filibe"
+					# pecheneg = "Filibe"
+				# } # end b_plovdiv
+				# b_asenscastle_petrich = {}
+				# b_tespina = {
+					# crimean_gothic = "Tzepania"
+					# greek = "Tzepania"
+				# }
+				# b_steinmahos = {
+					# crimean_gothic = "Stenímachos"
+					# greek = "Stenímachos"
+					# oghuz = "Istanimaka"
+					# turkmen = "Istanimaka"
+					# turkish = "Istanimaka"
+					# pecheneg = "Istanimaka"
+				# }
+			# } # end c_philippopolis
+			# c_mesembria = { # Zagore (498)
+				# color = { 207 92 250 }
+				# color2 = { 255 255 255 }
+				# greek = "Zagoria"
+				# crimean_gothic = "Zagoria"
+				# roman = "Zagoria"
+				# oghuz = "Misivri"
+				# turkmen = "Misivri"
+				# turkish = "Misivri"
+				# pecheneg = "Misivri"
+				# b_sozopol = {
+					# greek = "Sozopolis"
+					# crimean_gothic = "Sozopolis"
+					# oghuz = "Sizebolu"
+					# turkmen = "Sizebolu"
+					# turkish = "Sizebolu"
+					# pecheneg = "Sizebolu"
+				# }
+				# b_aetos_bulgaria = {
+					# greek = "Aetos"
+					# crimean_gothic = "Aetos"
+					# roman = "Aetos"
+					# oghuz = "Aydos"
+					# turkmen = "Aydos"
+					# turkish = "Aydos"
+					# pecheneg = "Aydos"
+				# }
+				# b_yambol = {
+					# bedouin_arabic = "Dinibouli"
+					# hijazi = "Dinibouli"
+					# yemeni = "Dinibouli"
+					# maghreb_arabic = "Dinibouli"
+					# levantine_arabic = "Dinibouli"
+					# egyptian_arabic = "Dinibouli"
+					# andalusian_arabic = "Dinibouli"
+					# sicilian_arabic = "Dinibouli"
+					# sanhaja = "Dinibouli"
+					# tagelmust = "Dinibouli"
+					# tuareg = "Dinibouli"
+					# masmuda = "Dinibouli"
+					# zanata = "Dinibouli"
+					# greek = "Diampolis"
+					# crimean_gothic = "Diampolis"
+					# roman = "Diampolis"
+					# oghuz = "Yanbolu"
+					# turkmen = "Yanbolu"
+					# turkish = "Yanbolu"
+					# pecheneg = "Yanbolu"
+				# }
+				# b_pomorie = {
+					# greek = "Anchialos"
+					# crimean_gothic = "Anchialos"
+					# roman = "Anchialos"
+					# oghuz = "Ahyolu"
+					# turkmen = "Ahyolu"
+					# turkish = "Ahyolu"
+					# pecheneg = "Ahyolu"
+				# }
+				# b_mesembria = {
+					# greek = "Mesembria"
+					# crimean_gothic = "Mesembria"
+					# roman = "Mesembria"
+					# oghuz = "Misivri"
+					# turkmen = "Misivri"
+					# turkish = "Misivri"
+					# pecheneg = "Misivri"
+				# }
+				# b_debelt = {
+					# greek = "Debeltos"
+					# crimean_gothic = "Debeltos"
+					# roman = "Deultum"
+					# oghuz = "Yakezli"
+					# turkmen = "Yakezli"
+					# turkish = "Yakezli"
+					# pecheneg = "Yakezli"
+				# }
+				# b_rusokastro = {
+					# greek = "Rusokastrón"
+					# crimean_gothic = "Rusokastrón"
+					# oghuz = "Rus Kasri"
+					# turkmen = "Rus Kasri"
+					# turkish = "Rus Kasri"
+					# pecheneg = "Rus Kasri"
+				# }
+			# } # end c_mesembria
+			# c_kopsis = { # Kopsis (1527)
+				# color = { 60 15 43 }
+				# color2 = { 255 255 255 }
+				# greek = "Kopsis"
+				# crimean_gothic = "Kopsis"
+				# oghuz = "Gjopsa"
+				# turkmen = "Gjopsa"
+				# turkish = "Gjopsa"
+				# pecheneg = "Gjopsa"
+				# b_ihtiman = {
+					# greek = "Stipon"
+					# crimean_gothic = "Stipon"
+					# roman = "Stipon"
+					# oghuz = "Ihtiman"
+					# turkmen = "Ihtiman"
+					# turkish = "Ihtiman"
+					# pecheneg = "Ihtiman"
+				# }
+				# b_beroe = {
+					# greek = "Beroia"
+					# crimean_gothic = "Beroia"
+					# roman = "Beroia"
+					# oghuz = "Eski Zagra"
+					# turkmen = "Eski Zagra"
+					# turkish = "Eski Zagra"
+					# pecheneg = "Eski Zagra"
+				# }
+				# b_kopsis = { # Is it actually just a greek rendering of Sopot?
+					# greek = "Kopsis"
+					# crimean_gothic = "Kopsis"
+					# oghuz = "Gjopsa"
+					# turkmen = "Gjopsa"
+					# turkish = "Gjopsa"
+					# pecheneg = "Gjopsa"
+				# }
+			# }
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_adrianopolis
+		d_vidin = { # Vidin
+			color = { 122 103 58 }
+			color2 = { 255 255 255 }
+			greek = "Bidyne"
+			crimean_gothic = "Bidyne"
+			roman = "Bononia"
+			hungarian = "Bodony"
+			szekely = "Bodony"
+			romanian = "Diiu"
+			capital = 506 # Vidin
+			c_vidin = { # Vidin (506)
+				color = { 124 105 60 }
+				color2 = { 255 255 255 }
+				greek = "Bidyne"
+				crimean_gothic = "Bidyne"
+				roman = "Bononia"
+				hungarian = "Bodony"
+				szekely = "Bodony"
+				romanian = "Diiu"
+				b_belogradchik = {
+					crimean_gothic = "Mikrí Bellegrada"
+					greek = "Mikrí Bellegrada"
+				}
+				b_svrljig = {
+					greek = "Sevrlík"
+					crimean_gothic = "Sevrlík"
+					oghuz = "Esferlik"
+					turkmen = "Esferlik"
+					pecheneg = "Esferlik"
+					turkish = "Esferlik"
+				}
+				b_archar = {
+					greek = "Ratiaria"
+					crimean_gothic = "Ratiaria"
+					roman = "Ratiaria"
+				}
+				b_vidin = {
+					greek = "Bidyne"
+					crimean_gothic = "Bidyne"
+					roman = "Bononia"
+					hungarian = "Bodony"
+					szekely = "Bodony"
+					romanian = "Diiu"
+				}
+				b_kozal = {}
+			}
+			c_branicevo = { # Branicevo (961)
+				color = { 184 105 60 }
+				color2 = { 255 255 255 }
+				greek = "Viminakion"
+				crimean_gothic = "Viminacion"
+				roman = "Viminacium"
+				oghuz = "Alaga Hisar"
+				turkmen = "Alaga Hisar"
+				turkish = "Alaga Hisar"
+				pecheneg = "Alaga Hisar"
+				b_kucevo = {
+					hungarian = "Kucsó"
+					szekely = "Kucsó"
+					romanian = "Cuiova"
+					oghuz = "Kuçeva"
+					turkmen = "Kuçeva"
+					turkish = "Kuçeva"
+					pecheneg = "Kuçeva"
+				}
+				b_ram_branicevo = {
+					greek = "Lederata"
+					crimean_gothic = "Lederata"
+					roman = "Lederata"
+				}
+				b_krusevac = {
+					greek = "Kroúsebats"
+					crimean_gothic = "Kroúsebats"
+					german = "Kruschewatz"
+					oghuz = "Alaga Hisar"
+					turkmen = "Alaga Hisar"
+					turkish = "Alaga Hisar"
+					pecheneg = "Alaga Hisar"
+				}
+				b_cuprija_ravno = {
+					roman = "Horreum Margi"
+					greek = "Géfyra"
+					crimean_gothic = "Géfyra"
+					oghuz = "Köpri"
+					turkmen = "Köpri"
+					turkish = "Köpri"
+					pecheneg = "Köpri"
+				}
+				b_branicevo = {
+					greek = "Viminakion"
+					crimean_gothic = "Viminacion"
+					roman = "Viminacium"
+					hungarian = "Barancs"
+					szekely = "Barancs"
+				}
+				b_golubac = {
+					greek = "Kòlymbos"
+					crimean_gothic = "Kòlymbos"
+					roman = "Columbria"
+					hungarian = "Galambóc"
+					szekely = "Galambóc"
+					oghuz = "Güvercinlik"
+					turkmen = "Güvercinlik"
+					turkish = "Güvercinlik"
+					pecheneg = "Güvercinlik"
+					german = "Taubenberg"
+					thuringian = "Taubenberg"
+					swabian = "Taubenberg"
+					bavarian = "Taubenberg"
+					low_saxon = "Taubenberg"
+					franconian = "Taubenberg"
+					low_german = "Taubenberg"
+					low_frankish = "Taubenberg"
+					dutch = "Taubenberg"
+					romanian = "Golumbei"
+				}
+				b_zdrelo = {}
+			} # end c_branicevo
+			allow = { title_duke_basic_allow = yes }
+		} # end d_vidin
 		allow = {
 			OR = {
 				emf_trigger = yes
@@ -15312,6 +17957,7 @@ e_byzantium = { # Basileia Rhõmaiõn
 			title_king_basic_allow = yes
 		}
 	} # end k_bulgaria
+	
 	k_serbia = { # Srbija
 		color = { 113 98 61 }
 		color2 = { 255 255 255 }
@@ -16101,373 +18747,6 @@ e_byzantium = { # Basileia Rhõmaiõn
 		} # end d_ragusa
 		allow = { title_king_basic_allow = yes }
 	} # end k_ragusa
-	
-	k_opsikon = {
-		color = { 36 83 169 }
-		color2 = { 255 255 255 }
-		capital = 750 # Nikaia # Nikaea
-		culture = greek
-		title = "Strategos"	
-		frankish = "Nicée"
-		norman = "Nicée"
-		sardinian = "Nicea"
-		dalmatian = "Nicea"
-		sicilian = "Nicea"
-		umbrian = "Nicea"
-		italian = "Nicea"
-		laziale = "Nicea"
-		langobardisch = "Nicea"
-		neapolitan = "Nicea"
-		tuscan = "Nicea"
-		ligurian = "Nicea"
-		venetian = "Nicea"
-		bedouin_arabic = "Níqíya"
-		sicilian_arabic = "Níqíya"
-		hijazi = "Níqíya"
-		yemeni = "Níqíya"
-		maghreb_arabic = "Níqíya"
-		levantine_arabic = "Níqíya"
-		egyptian_arabic = "Níqíya"
-		andalusian_arabic = "Níqíya"
-		oghuz = "Hüdavendigár"
-		turkmen = "Hüdavendigár"
-		turkish = "Hüdavendigár"
-		
-		d_opsikon = { # Opsikion
-			color = { 36 83 169 }
-			color2 = { 255 255 255 }
-			capital = 750 # Nikaia # Nikaea
-			frankish = "Nicée"
-			norman = "Nicée"
-			sardinian = "Nicea"
-			dalmatian = "Nicea"
-			sicilian = "Nicea"
-			umbrian = "Nicea"
-			italian = "Nicea"
-			laziale = "Nicea"
-			langobardisch = "Nicea"
-			neapolitan = "Nicea"
-			tuscan = "Nicea"
-			ligurian = "Nicea"
-			venetian = "Nicea"
-			bedouin_arabic = "Níqíya"
-			sicilian_arabic = "Níqíya"
-			hijazi = "Níqíya"
-			yemeni = "Níqíya"
-			maghreb_arabic = "Níqíya"
-			levantine_arabic = "Níqíya"
-			egyptian_arabic = "Níqíya"
-			andalusian_arabic = "Níqíya"
-			oghuz = "Hüdavendigár"
-			turkmen = "Hüdavendigár"
-			turkish = "Hüdavendigár"
-			c_nikaea = { # Nikaia (750)
-				color = { 205 104 170 }
-				color2 = { 255 255 255 }
-				frankish = "Nicée"
-				norman = "Nicée"
-				sardinian = "Nicea"
-				dalmatian = "Nicea"
-				sicilian = "Nicea"
-				umbrian = "Nicea"
-				italian = "Nicea"
-				laziale = "Nicea"
-				langobardisch = "Nicea"
-				neapolitan = "Nicea"
-				tuscan = "Nicea"
-				ligurian = "Nicea"
-				venetian = "Nicea"
-				bedouin_arabic = "Níqíya"
-				sicilian_arabic = "Níqíya"
-				hijazi = "Níqíya"
-				yemeni = "Níqíya"
-				maghreb_arabic = "Níqíya"
-				levantine_arabic = "Níqíya"
-				egyptian_arabic = "Níqíya"
-				andalusian_arabic = "Níqíya"
-				oghuz = "Iznik"
-				turkmen = "Iznik"
-				turkish = "Iznik"
-				b_malagina = {
-					oghuz = "Akhisar-i Geviye"
-					turkmen = "Akhisar-i Geviye"
-					turkish = "Akhisar-i Geviye"
-				}
-				b_nikaia = {
-					frankish = "Nicée"
-					norman = "Nicée"
-					sardinian = "Nicea"
-					dalmatian = "Nicea"
-					sicilian = "Nicea"
-					umbrian = "Nicea"
-					italian = "Nicea"
-					laziale = "Nicea"
-					langobardisch = "Nicea"
-					neapolitan = "Nicea"
-					tuscan = "Nicea"
-					ligurian = "Nicea"
-					venetian = "Nicea"
-					bedouin_arabic = "Níqíya"
-					sicilian_arabic = "Níqíya"
-					hijazi = "Níqíya"
-					yemeni = "Níqíya"
-					maghreb_arabic = "Níqíya"
-					levantine_arabic = "Níqíya"
-					egyptian_arabic = "Níqíya"
-					andalusian_arabic = "Níqíya"
-					oghuz = "Iznik"
-					turkmen = "Iznik"
-					turkish = "Iznik"
-				}
-				b_basilinopolis = {
-					oghuz = "Orhangazi"
-					turkmen = "Orhangazi"
-					turkish = "Orhangazi"
-				}
-				b_pylai = {
-					oghuz = "Yalakabad"
-					turkmen = "Yalakabad"
-					turkish = "Yalakabad"
-				}
-				b_kios = {
-					oghuz = "Gemleyik"
-					turkmen = "Gemleyik"
-					turkish = "Gemleyik"
-				}
-				b_leukai = {
-					oghuz = "Lefke"
-					turkmen = "Lefke"
-					turkish = "Lefke"
-				}
-				b_angelokomis = {
-					oghuz = "Eyinegöl"
-					turkmen = "Eyinegöl"
-					turkish = "Eyinegöl"
-				}
-			} # end c_nikaea
-			c_prusa = { # Prousa (742)
-				color = { 211 110 176 }
-				color2 = { 255 255 255 }
-				frankish = "Pruse"
-				norman = "Pruse"
-				sardinian = "Prusa"
-				dalmatian = "Prusa"
-				sicilian = "Prusa"
-				umbrian = "Prusa"
-				italian = "Prusa"
-				laziale = "Prusa"
-				langobardisch = "Prusa"
-				neapolitan = "Prusa"
-				tuscan = "Prusa"
-				ligurian = "Prusa"
-				venetian = "Prusa"
-				oghuz = "Bursa"
-				turkmen = "Bursa"
-				turkish = "Bursa"
-				b_lopadion = {
-					oghuz = "Ulubat"
-					turkmen = "Ulubat"
-					turkish = "Ulubat"
-				}
-				b_prusa = {
-					frankish = "Pruse"
-					norman = "Pruse"
-					sardinian = "Prusa"
-					dalmatian = "Prusa"
-					sicilian = "Prusa"
-					umbrian = "Prusa"
-					italian = "Prusa"
-					laziale = "Prusa"
-					langobardisch = "Prusa"
-					neapolitan = "Prusa"
-					tuscan = "Prusa"
-					ligurian = "Prusa"
-					venetian = "Prusa"
-					oghuz = "Bursa"
-					turkmen = "Bursa"
-					turkish = "Bursa"
-				}
-				b_miletopolis = {
-					oghuz = "Mihaliç"
-					turkmen = "Mihaliç"
-					turkish = "Mihaliç"
-				}
-				b_apamea = {
-					frankish = "Apamée"
-					norman = "Apamée"
-					sardinian = "Apamea"
-					dalmatian = "Apamea"
-					sicilian = "Apamea"
-					umbrian = "Apamea"
-					italian = "Apamea"
-					laziale = "Apamea"
-					langobardisch = "Apamea"
-					neapolitan = "Apamea"
-					tuscan = "Apamea"
-					ligurian = "Apamea"
-					venetian = "Apamea"
-					oghuz = "Mundanya"
-					turkmen = "Mundanya"
-					turkish = "Mundanya"
-				}
-				b_apollonia = {
-					oghuz = "Apolyont"
-					turkmen = "Apolyont"
-					turkish = "Apolyont"
-				}
-				b_adrianoi = {
-					oghuz = "Adirnas"
-					turkmen = "Adirnas"
-					turkish = "Adirnas"
-				}
-			} # end c_prusa
-			c_akhyraous = { # Mysía (1332)
-				color = { 214 113 179 }
-				color2 = { 255 255 255 }
-				frankish = "Mysie"
-				norman = "Mysie"
-				oghuz = "Karasi"
-				turkmen = "Karasi"
-				turkish = "Karasi"
-				b_poimanenos = {
-					oghuz = "Tatarköy"
-					turkmen = "Tatarköy"
-					turkish = "Tatarköy"
-				}
-				b_akhyraous = {
-					oghuz = "Balikasri"
-					turkmen = "Balikasri"
-					turkish = "Balikasri"
-				}
-				b_synaos = {
-					oghuz = "Simav"
-					turkmen = "Simav"
-					turkish = "Simav"
-				}
-				b_pegadia = {
-					frankish = "Pegadie"
-					norman = "Pegadie"
-					sardinian = "Pegadea"
-					dalmatian = "Pegadea"
-					sicilian = "Pegadea"
-					umbrian = "Pegadea"
-					italian = "Pegadea"
-					laziale = "Pegadea"
-					langobardisch = "Pegadea"
-					neapolitan = "Pegadea"
-					tuscan = "Pegadea"
-					ligurian = "Pegadea"
-					venetian = "Pegadea"
-					oghuz = "Bigadiç"
-					turkmen = "Bigadiç"
-					turkish = "Bigadiç"
-				}
-				b_lentiana = {}
-				b_adrianeia = {}
-			} # end c_akhyraous
-			c_sangarios = { # Sangários (956)
-				color = { 214 113 179 }
-				color2 = { 255 255 255 }
-				oghuz = "Sögüt"
-				turkmen = "Sögüt"
-				turkish = "Sögüt"
-				b_kibaia = {
-					oghuz = "Geviye"
-					turkmen = "Geviye"
-					turkish = "Geviye"
-				}
-				b_thebasion = {
-					oghuz = "Sögüt"
-					turkmen = "Sögüt"
-					turkish = "Sögüt"
-				}
-				b_bilekomis = {
-					oghuz = "Bilecik"
-					turkmen = "Bilecik"
-					turkish = "Bilecik"
-				}
-			}
-			c_dorylaion = { # Dorylaion (749)
-				color = { 176 25 124 }
-				color2 = { 255 255 255 }
-				frankish = "Dorylée"
-				norman = "Dorylée"
-				sardinian = "Dorylaeum"
-				dalmatian = "Dorylaeum"
-				sicilian = "Dorylaeum"
-				umbrian = "Dorylaeum"
-				italian = "Dorylaeum"
-				laziale = "Dorylaeum"
-				langobardisch = "Dorylaeum"
-				neapolitan = "Dorylaeum"
-				tuscan = "Dorylaeum"
-				ligurian = "Dorylaeum"
-				venetian = "Dorylaeum"
-				oghuz = "Kütahya"
-				turkmen = "Kütahya"
-				turkish = "Kütahya"
-				bedouin_arabic = "Daruliyyah"
-				sicilian_arabic = "Daruliyyah"
-				hijazi = "Daruliyyah"
-				yemeni = "Daruliyyah"
-				maghreb_arabic = "Daruliyyah"
-				levantine_arabic = "Daruliyyah"
-				egyptian_arabic = "Daruliyyah"
-				andalusian_arabic = "Daruliyyah"
-				b_dorylaion = {
-					frankish = "Dorylée"
-					norman = "Dorylée"
-					sardinian = "Dorylaeum"
-					dalmatian = "Dorylaeum"
-					sicilian = "Dorylaeum"
-					umbrian = "Dorylaeum"
-					italian = "Dorylaeum"
-					laziale = "Dorylaeum"
-					langobardisch = "Dorylaeum"
-					neapolitan = "Dorylaeum"
-					tuscan = "Dorylaeum"
-					ligurian = "Dorylaeum"
-					venetian = "Dorylaeum"
-					bedouin_arabic = "Daruliyyah"
-					sicilian_arabic = "Daruliyyah"
-					hijazi = "Daruliyyah"
-					yemeni = "Daruliyyah"
-					maghreb_arabic = "Daruliyyah"
-					levantine_arabic = "Daruliyyah"
-					egyptian_arabic = "Daruliyyah"
-					andalusian_arabic = "Daruliyyah"
-					oghuz = "Eski Šehir"
-					turkmen = "Eski Šehir"
-					turkish = "Eski Šehir"
-				}
-				b_kotyaion = {
-					oghuz = "Kütahya"
-					turkmen = "Kütahya"
-					turkish = "Kütahya"
-				}
-				b_nakoleia = {
-					frankish = "Nacolée"
-					norman = "Nacolée"
-					sardinian = "Nacolea"
-					dalmatian = "Nacolea"
-					sicilian = "Nacolea"
-					umbrian = "Nacolea"
-					italian = "Nacolea"
-					laziale = "Nacolea"
-					langobardisch = "Nacolea"
-					neapolitan = "Nacolea"
-					tuscan = "Nacolea"
-					ligurian = "Nacolea"
-					venetian = "Nacolea"
-					oghuz = "Seyyid Gazi"
-					turkmen = "Seyyid Gazi"
-					turkish = "Seyyid Gazi"
-				}
-				b_midaion = {}
-			} # end c_dorylaion
-			allow = { title_duke_basic_allow = yes }
-		} # end d_opsikon
-	}
 	
 	allow = {
 		trigger_if = {
@@ -29356,625 +31635,6 @@ e_arabia = { # Arabian Empire
 		catholic = 300 # Crusade target weight
 		orthodox = 300 # Crusade target weight
 		muslim = 150 # Crusade target weight
-		d_edessa = { # Edessa
-			color = { 89 21 66 }
-			color2 = { 255 255 255 }
-			name_tier = count
-			capital = 699 # Edessa
-			bedouin_arabic = "Ar-Ruha"
-			maghreb_arabic = "Ar-Ruha"
-			levantine_arabic = "Ar-Ruha"
-			egyptian_arabic = "Ar-Ruha"
-			andalusian_arabic = "Ar-Ruha"
-			sicilian_arabic = "Ar-Ruha"
-			yemeni = "Ar-Ruha"
-			hijazi = "Ar-Ruha"
-			sanhaja = "Ar-Ruha"
-			tagelmust = "Ar-Ruha"
-			tuareg = "Ar-Ruha"
-			masmuda = "Ar-Ruha"
-			zanata = "Ar-Ruha"
-			oghuz = "Urfa"
-			turkmen = "Urfa"
-			turkish = "Urfa"
-			kurdish = "Riha"
-			assyrian = "Urhây"
-			greek = "Edesses"
-			armenian = "Urha"
-			c_edessa = { # Edessa (699)
-				color = { 153 255 5 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Ar-Ruha"
-				maghreb_arabic = "Ar-Ruha"
-				levantine_arabic = "Ar-Ruha"
-				egyptian_arabic = "Ar-Ruha"
-				andalusian_arabic = "Ar-Ruha"
-				sicilian_arabic = "Ar-Ruha"
-				yemeni = "Ar-Ruha"
-				hijazi = "Ar-Ruha"
-				sanhaja = "Ar-Ruha"
-				tagelmust = "Ar-Ruha"
-				tuareg = "Ar-Ruha"
-				masmuda = "Ar-Ruha"
-				zanata = "Ar-Ruha"
-				oghuz = "Urfa"
-				turkmen = "Urfa"
-				turkish = "Urfa"
-				kurdish = "Riha"
-				assyrian = "Urhây"
-				greek = "Edesses"
-				armenian = "Urha"
-				b_edessa = {
-					bedouin_arabic = "Ar-Ruha"
-					maghreb_arabic = "Ar-Ruha"
-					levantine_arabic = "Ar-Ruha"
-					egyptian_arabic = "Ar-Ruha"
-					andalusian_arabic = "Ar-Ruha"
-					sicilian_arabic = "Ar-Ruha"
-					yemeni = "Ar-Ruha"
-					hijazi = "Ar-Ruha"
-					sanhaja = "Ar-Ruha"
-					tagelmust = "Ar-Ruha"
-					tuareg = "Ar-Ruha"
-					masmuda = "Ar-Ruha"
-					zanata = "Ar-Ruha"
-					oghuz = "Urfa"
-					turkmen = "Urfa"
-					turkish = "Urfa"
-					kurdish = "Riha"
-					assyrian = "Urhây"
-					greek = "Edesses"
-					armenian = "Urha"
-				}
-				b_sruk = {
-					bedouin_arabic = "Sarug"
-					maghreb_arabic = "Sarug"
-					levantine_arabic = "Sarug"
-					egyptian_arabic = "Sarug"
-					andalusian_arabic = "Sarug"
-					sicilian_arabic = "Sarug"
-					yemeni = "Sarug"
-					hijazi = "Sarug"
-					frankish = "Sorogia"
-					norman = "Sorogia"
-					oghuz = "Suruç"
-					turkmen = "Suruç"
-					turkish = "Suruç"
-					kurdish = "Sirûc"
-					roman = "Batnae"
-					greek = "Batnai"
-				}
-				b_bile = {
-					bedouin_arabic = "al-Birah"
-					hijazi = "al-Birah"
-					yemeni = "al-Birah"
-					maghreb_arabic = "al-Birah"
-					levantine_arabic = "al-Birah"
-					egyptian_arabic = "al-Birah"
-					andalusian_arabic = "al-Birah"
-					sicilian_arabic = "al-Birah"
-					oghuz = "Birecik"
-					turkmen = "Birecik"
-					turkish = "Birecik"
-					kurdish = "Bêrecûg"
-					greek = "Birtha"
-				}
-				b_hromgla = {
-					bedouin_arabic = "Qal'at al-Rum"
-					hijazi = "Qal'at al-Rum"
-					yemeni = "Qal'at al-Rum"
-					maghreb_arabic = "Qal'at al-Rum"
-					levantine_arabic = "Qal'at al-Rum"
-					egyptian_arabic = "Qal'at al-Rum"
-					andalusian_arabic = "Qal'at al-Rum"
-					sicilian_arabic = "Qal'at al-Rum"
-					oghuz = "Rumkale"
-					turkmen = "Rumkale"
-					turkish = "Rumkale"
-					kurdish = "Kela Zêrîn"
-					armenian = "Hromkla"
-					greek = "Romaion Koula"
-					frankish = "Ranculat"
-					norman = "Ranculat"
-				}
-				b_samsat = {
-					bedouin_arabic = "Sumaysat"
-					sicilian_arabic = "Sumaysat"
-					hijazi = "Sumaysat"
-					yemeni = "Sumaysat"
-					maghreb_arabic = "Sumaysat"
-					levantine_arabic = "Sumaysat"
-					egyptian_arabic = "Sumaysat"
-					andalusian_arabic = "Sumaysat"
-					armenian = "Šamšat"
-					greek = "Samosata"
-					oghuz = "Šimšat"
-					turkmen = "Šimšat"
-					turkish = "Šimšat"
-				}
-			} # end c_edessa
-			c_tell_bashir = { # Turbessel (708)
-				color = { 155 255 7 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Tell Bashir"
-				hijazi = "Tell Bashir"
-				yemeni = "Tell Bashir"
-				maghreb_arabic = "Tell Bashir"
-				levantine_arabic = "Tell Bashir"
-				egyptian_arabic = "Tell Bashir"
-				andalusian_arabic = "Tell Bashir"
-				sicilian_arabic = "Tell Bashir"
-				oghuz = "Tilbesar"
-				turkmen = "Tilbesar"
-				turkish = "Tilbesar"
-				b_turbessel = {
-					bedouin_arabic = "Tell Bashir"
-					hijazi = "Tell Bashir"
-					yemeni = "Tell Bashir"
-					maghreb_arabic = "Tell Bashir"
-					levantine_arabic = "Tell Bashir"
-					egyptian_arabic = "Tell Bashir"
-					andalusian_arabic = "Tell Bashir"
-					sicilian_arabic = "Tell Bashir"
-					turkish = "Tilbesar"
-				}
-				b_trihalet = {
-					bedouin_arabic = "Tell Halid"
-					hijazi = "Tell Halid"
-					yemeni = "Tell Halid"
-					maghreb_arabic = "Tell Halid"
-					levantine_arabic = "Tell Halid"
-					egyptian_arabic = "Tell Halid"
-					andalusian_arabic = "Tell Halid"
-					sicilian_arabic = "Tell Halid"
-				}
-				b_kyrrhos = {
-					bedouin_arabic = "Qurus"
-					hijazi = "Qurus"
-					yemeni = "Qurus"
-					maghreb_arabic = "Qurus"
-					levantine_arabic = "Qurus"
-					egyptian_arabic = "Qurus"
-					andalusian_arabic = "Qurus"
-					sicilian_arabic = "Qurus"
-					frankish = "Corice"
-					norman = "Corice"
-				}
-				b_nizip = { greek = "Nisibina" }
-			} # end c_tell_bashir
-			c_aintab = { # Ravendal (734)
-				color = { 157 255 9 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Ayn Tab"
-				hijazi = "Ayn Tab"
-				yemeni = "Ayn Tab"
-				maghreb_arabic = "Ayn Tab"
-				levantine_arabic = "Ayn Tab"
-				egyptian_arabic = "Ayn Tab"
-				andalusian_arabic = "Ayn Tab"
-				sicilian_arabic = "Ayn Tab"
-				frankish = "Hamtab"
-				norman = "Hamtab"
-				greek = "Doliche"
-				b_aintab = {
-					bedouin_arabic = "Ayn Tab"
-					hijazi = "Ayn Tab"
-					yemeni = "Ayn Tab"
-					maghreb_arabic = "Ayn Tab"
-					levantine_arabic = "Ayn Tab"
-					egyptian_arabic = "Ayn Tab"
-					andalusian_arabic = "Ayn Tab"
-					sicilian_arabic = "Ayn Tab"
-					frankish = "Hamtab"
-					norman = "Hamtab"
-				}
-				b_tulupe = {}
-				b_killiz = {}
-				b_ravendan = {
-					bedouin_arabic = "ar-Rawandan"
-					hijazi = "ar-Rawandan"
-					yemeni = "ar-Rawandan"
-					maghreb_arabic = "ar-Rawandan"
-					levantine_arabic = "ar-Rawandan"
-					egyptian_arabic = "ar-Rawandan"
-					andalusian_arabic = "ar-Rawandan"
-					sicilian_arabic = "ar-Rawandan"
-				}
-				b_duluk = {
-					bedouin_arabic = "Duluk"
-					hijazi = "Duluk"
-					yemeni = "Duluk"
-					maghreb_arabic = "Duluk"
-					levantine_arabic = "Duluk"
-					egyptian_arabic = "Duluk"
-					andalusian_arabic = "Duluk"
-					sicilian_arabic = "Duluk"
-					oghuz = "Dülük"
-					turkmen = "Dülük"
-					turkish = "Dülük"
-					greek = "Doliche"
-				}
-			} # end c_aintab
-			c_kaisun = { # Kaisun (1220)
-				color = { 157 255 9 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Kaisum"
-				hijazi = "Kaisum"
-				yemeni = "Kaisum"
-				maghreb_arabic = "Kaisum"
-				levantine_arabic = "Kaisum"
-				egyptian_arabic = "Kaisum"
-				andalusian_arabic = "Kaisum"
-				sicilian_arabic = "Kaisum"
-				greek = "Kaison"
-				b_kaisun = {
-					bedouin_arabic = "Kaisum"
-					hijazi = "Kaisum"
-					yemeni = "Kaisum"
-					maghreb_arabic = "Kaisum"
-					levantine_arabic = "Kaisum"
-					egyptian_arabic = "Kaisum"
-					andalusian_arabic = "Kaisum"
-					sicilian_arabic = "Kaisum"
-					greek = "Kaison"
-				}
-				b_behetselin = {
-					bedouin_arabic = "Hisn Mansur"
-					sicilian_arabic = "Hisn Mansur"
-					hijazi = "Hisn Mansur"
-					yemeni = "Hisn Mansur"
-					maghreb_arabic = "Hisn Mansur"
-					levantine_arabic = "Hisn Mansur"
-					egyptian_arabic = "Hisn Mansur"
-					andalusian_arabic = "Hisn Mansur"
-					armenian = "Perre"
-					greek = "Perre"
-					oghuz = "Hisn-i Mansur"
-					turkmen = "Hisn-i Mansur"
-					turkish = "Hisn-i Mansur"
-					kurdish = "Semsûr"
-				}
-				b_raban = { greek = "Rabaine" }
-				b_hartanedessa = {
-					bedouin_arabic = "Káhta"
-					sicilian_arabic = "Káhta"
-					hijazi = "Káhta"
-					yemeni = "Káhta"
-					maghreb_arabic = "Káhta"
-					levantine_arabic = "Káhta"
-					egyptian_arabic = "Káhta"
-					andalusian_arabic = "Káhta"
-					greek = "Arsameia"
-					oghuz = "Káhta"
-					turkmen = "Káhta"
-					turkish = "Káhta"
-					kurdish = "Kolik"
-				}
-				b_karkaron = {
-					armenian = "Gargar"
-					bedouin_arabic = "Karkar"
-					sicilian_arabic = "Karkar"
-					hijazi = "Karkar"
-					yemeni = "Karkar"
-					maghreb_arabic = "Karkar"
-					levantine_arabic = "Karkar"
-					egyptian_arabic = "Karkar"
-					andalusian_arabic = "Karkar"
-					oghuz = "Karkar"
-					turkmen = "Karkar"
-					turkish = "Karkar"
-				}
-			} # end c_kaisun
-			allow = { title_duke_basic_allow = yes }
-		} # end d_edessa
-		d_antioch = { # Antioche # Principauté d'Antioche
-			color = { 91 139 188 }
-			color2 = { 255 255 255 }
-			short_name = yes
-			capital = 764 # Antioch
-			christian = 400 # Crusade target weight
-			muslim = 200 # Crusade target weight
-			bedouin_arabic = "Jund 'Awasim"
-			maghreb_arabic = "Jund 'Awasim"
-			levantine_arabic = "Jund 'Awasim"
-			egyptian_arabic = "Jund 'Awasim"
-			andalusian_arabic = "Jund 'Awasim"
-			sicilian_arabic = "Jund 'Awasim"
-			yemeni = "Jund 'Awasim"
-			hijazi = "Jund 'Awasim"
-			sanhaja = "Jund 'Awasim"
-			tagelmust = "Jund 'Awasim"
-			tuareg = "Jund 'Awasim"
-			masmuda = "Jund 'Awasim"
-			zanata = "Jund 'Awasim"
-			greek = "Antiokeias"
-			alan = "Antiokeias"
-			arberian = "Antiokeias"
-			armenian = "Antiok"
-			georgian = "Antiok"
-			frankish = "Principauté d'Antioche"
-			norman = "Principauté d'Antioche"
-			ethiopian = "Ansokya"
-			c_antiocheia = { # Antioch (764)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Antakiya"
-				maghreb_arabic = "Antakiya"
-				levantine_arabic = "Antakiya"
-				egyptian_arabic = "Antakiya"
-				andalusian_arabic = "Antakiya"
-				sicilian_arabic = "Antakiya"
-				yemeni = "Antakiya"
-				hijazi = "Antakiya"
-				sanhaja = "Antakiya"
-				tagelmust = "Antakiya"
-				tuareg = "Antakiya"
-				masmuda = "Antakiya"
-				zanata = "Antakiya"
-				oghuz = "Antakiya"
-				turkmen = "Antakiya"
-				turkish = "Antakiya"
-				armenian = "Antiok"
-				assyrian = "Antiokia"
-				ethiopian = "Ansokya"
-				b_antiocheia = {
-					bedouin_arabic = "Antakiya"
-					maghreb_arabic = "Antakiya"
-					levantine_arabic = "Antakiya"
-					egyptian_arabic = "Antakiya"
-					andalusian_arabic = "Antakiya"
-					sicilian_arabic = "Antakiya"
-					yemeni = "Antakiya"
-					hijazi = "Antakiya"
-					sanhaja = "Antakiya"
-					tagelmust = "Antakiya"
-					tuareg = "Antakiya"
-					masmuda = "Antakiya"
-					zanata = "Antakiya"
-					turkish = "Antakiya"
-					armenian = "Antiok"
-					assyrian = "Antiokia"
-					ethiopian = "Ansokya"
-				}
-				b_stsymeon = {
-					bedouin_arabic = "as-Suwaydiyah"
-					hijazi = "as-Suwaydiyah"
-					yemeni = "as-Suwaydiyah"
-					maghreb_arabic = "as-Suwaydiyah"
-					levantine_arabic = "as-Suwaydiyah"
-					egyptian_arabic = "as-Suwaydiyah"
-					andalusian_arabic = "as-Suwaydiyah"
-					sicilian_arabic = "as-Suwaydiyah"
-					greek = "Seleukeia Pieria"
-					oghuz = "Süveydiye"
-					turkmen = "Süveydiye"
-					turkish = "Süveydiye"
-					armenian = "Svedia"
-				}
-				b_darbsak = {
-					bedouin_arabic = "ad-Darbasak"
-					hijazi = "ad-Darbasak"
-					yemeni = "ad-Darbasak"
-					maghreb_arabic = "ad-Darbasak"
-					levantine_arabic = "ad-Darbasak"
-					egyptian_arabic = "ad-Darbasak"
-					andalusian_arabic = "ad-Darbasak"
-					sicilian_arabic = "ad-Darbasak"
-					frankish = "Trapesac"
-					norman = "Trapesac"
-					greek = "Trapezon"
-				}
-				b_harenc = {
-					bedouin_arabic = "Qal'at Antakiya"
-					maghreb_arabic = "Qal'at Antakiya"
-					levantine_arabic = "Qal'at Antakiya"
-					egyptian_arabic = "Qal'at Antakiya"
-					andalusian_arabic = "Qal'at Antakiya"
-					sicilian_arabic = "Qal'at Antakiya"
-					yemeni = "Qal'at Antakiya"
-					hijazi = "Qal'at Antakiya"
-					sanhaja = "Qal'at Antakiya"
-					tagelmust = "Qal'at Antakiya"
-					tuareg = "Qal'at Antakiya"
-					masmuda = "Qal'at Antakiya"
-					zanata = "Qal'at Antakiya"
-					oghuz = "Antakiya Hisar"
-					turkmen = "Antakiya Hisar"
-					turkish = "Antakiya Hisar"
-					armenian = "Antiokla"
-					greek = "Kastro Antiokheia"
-				}
-				b_baghras = {
-					oghuz = "Bakras"
-					turkmen = "Bakras"
-					turkish = "Bakras"
-					greek = "Pagrai"
-					armenian = "Pagrai"
-					frankish = "Gaston"
-					norman = "Gaston"
-				}
-				b_artasium = {
-					bedouin_arabic = "Artah"
-					hijazi = "Artah"
-					yemeni = "Artah"
-					maghreb_arabic = "Artah"
-					levantine_arabic = "Artah"
-					egyptian_arabic = "Artah"
-					andalusian_arabic = "Artah"
-					sicilian_arabic = "Artah"
-					frankish = "Artasia"
-					norman = "Artasia"
-				}
-			} # end c_antiocheia
-			c_hazart = { # Hazart (1236)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Azaz"
-				hijazi = "Azaz"
-				yemeni = "Azaz"
-				maghreb_arabic = "Azaz"
-				levantine_arabic = "Azaz"
-				egyptian_arabic = "Azaz"
-				andalusian_arabic = "Azaz"
-				sicilian_arabic = "Azaz"
-				b_hazart = {
-					bedouin_arabic = "Azaz"
-					hijazi = "Azaz"
-					yemeni = "Azaz"
-					maghreb_arabic = "Azaz"
-					levantine_arabic = "Azaz"
-					egyptian_arabic = "Azaz"
-					andalusian_arabic = "Azaz"
-					sicilian_arabic = "Azaz"
-				}
-				b_harimantiochia = {
-					frankish = "Harenc"
-					norman = "Harenc"
-				}
-				b_zerdana = {
-					bedouin_arabic = "Zaradna"
-					hijazi = "Zaradna"
-					yemeni = "Zaradna"
-					maghreb_arabic = "Zaradna"
-					levantine_arabic = "Zaradna"
-					egyptian_arabic = "Zaradna"
-					andalusian_arabic = "Zaradna"
-					sicilian_arabic = "Zaradna"
-					frankish = "Sardona"
-					norman = "Sardona"
-				}
-				b_sarmada = {
-					frankish = "Samarta"
-					norman = "Samarta"
-				}
-			}
-			c_saone = { # Saone (968)
-				color = { 106 191 44 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "al-Ladiqiya"
-				maghreb_arabic = "al-Ladiqiya"
-				levantine_arabic = "al-Ladiqiya"
-				egyptian_arabic = "al-Ladiqiya"
-				andalusian_arabic = "al-Ladiqiya"
-				sicilian_arabic = "al-Ladiqiya"
-				yemeni = "al-Ladiqiya"
-				hijazi = "al-Ladiqiya"
-				greek = "Laodikeia"
-				b_latakiah = {
-					bedouin_arabic = "al-Ladiqiya"
-					maghreb_arabic = "al-Ladiqiya"
-					levantine_arabic = "al-Ladiqiya"
-					egyptian_arabic = "al-Ladiqiya"
-					andalusian_arabic = "al-Ladiqiya"
-					sicilian_arabic = "al-Ladiqiya"
-					yemeni = "al-Ladiqiya"
-					hijazi = "al-Ladiqiya"
-					frankish = "Laodicée"
-					norman = "Laodicée"
-					greek = "Laodikeia"
-				}
-				b_hisnaddair = {}
-				b_stdanielsyria = {}
-				b_saone = {
-					bedouin_arabic = "Sahyun"
-					maghreb_arabic = "Sahyun"
-					levantine_arabic = "Sahyun"
-					egyptian_arabic = "Sahyun"
-					andalusian_arabic = "Sahyun"
-					sicilian_arabic = "Sahyun"
-					yemeni = "Sahyun"
-					hijazi = "Sahyun"
-					greek = "Sigon"
-				}
-				b_jabala = {
-					bedouin_arabic = "Gabla"
-					hijazi = "Gabla"
-					yemeni = "Gabla"
-					maghreb_arabic = "Gabla"
-					levantine_arabic = "Gabla"
-					egyptian_arabic = "Gabla"
-					andalusian_arabic = "Gabla"
-					sicilian_arabic = "Gabla"
-					frankish = "Gabula"
-					norman = "Gabula"
-					greek = "Gabala"
-				}
-				b_balatanos = {
-					bedouin_arabic = "Ablatunus"
-					hijazi = "Ablatunus"
-					yemeni = "Ablatunus"
-					maghreb_arabic = "Ablatunus"
-					levantine_arabic = "Ablatunus"
-					egyptian_arabic = "Ablatunus"
-					andalusian_arabic = "Ablatunus"
-					sicilian_arabic = "Ablatunus"
-				}
-				b_gibellum = {}
-			} # end c_saone
-			c_archa = { # Berzieh (765)
-				color = { 109 194 47 }
-				color2 = { 255 255 255 }
-				bedouin_arabic = "Fámieh"
-				maghreb_arabic = "Fámieh"
-				levantine_arabic = "Fámieh"
-				egyptian_arabic = "Fámieh"
-				andalusian_arabic = "Fámieh"
-				sicilian_arabic = "Fámieh"
-				yemeni = "Fámieh"
-				hijazi = "Fámieh"
-				frankish = "Apamée"
-				norman = "Apamée"
-				greek = "Apameia"
-				b_sarmeniasyria = {
-					bedouin_arabic = "Sarmin"
-					hijazi = "Sarmin"
-					yemeni = "Sarmin"
-					maghreb_arabic = "Sarmin"
-					levantine_arabic = "Sarmin"
-					egyptian_arabic = "Sarmin"
-					andalusian_arabic = "Sarmin"
-					sicilian_arabic = "Sarmin"
-				}
-				b_albarasyria = {
-					bedouin_arabic = "al-Bara"
-					hijazi = "al-Bara"
-					yemeni = "al-Bara"
-					maghreb_arabic = "al-Bara"
-					levantine_arabic = "al-Bara"
-					egyptian_arabic = "al-Bara"
-					andalusian_arabic = "al-Bara"
-					sicilian_arabic = "al-Bara"
-				}
-				b_famia = {
-					bedouin_arabic = "Fámieh"
-					maghreb_arabic = "Fámieh"
-					levantine_arabic = "Fámieh"
-					egyptian_arabic = "Fámieh"
-					andalusian_arabic = "Fámieh"
-					sicilian_arabic = "Fámieh"
-					yemeni = "Fámieh"
-					hijazi = "Fámieh"
-					frankish = "Apamée"
-					norman = "Apamée"
-					greek = "Apameia"
-				}
-				b_bourzeycastle = {
-					bedouin_arabic = "Barzuya"
-					hijazi = "Barzuya"
-					yemeni = "Barzuya"
-					maghreb_arabic = "Barzuya"
-					levantine_arabic = "Barzuya"
-					egyptian_arabic = "Barzuya"
-					andalusian_arabic = "Barzuya"
-					sicilian_arabic = "Barzuya"
-					frankish = "Rochefort"
-					norman = "Rochefort"
-					greek = "Lysias"
-				}
-				b_treiz = {}
-			} # end c_archa
-			allow = { title_duke_basic_allow = yes }
-		} # end d_antioch
 		d_tripoli = { # Tripoli
 			color = { 154 39 39 }
 			color2 = { 255 255 255 }
@@ -62062,196 +63722,196 @@ e_null = { #
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_suenik
-		d_vaspurakan = { # Vaspurakan
-			color = { 174 23 122 }
-			color2 = { 255 255 255 }
-			greek = "Vaasprakania"
-			maghreb_arabic = "Van"
-			levantine_arabic = "Van"
-			egyptian_arabic = "Van"
-			andalusian_arabic = "Van"
-			sicilian_arabic = "Van"
-			bedouin_arabic = "Van"
-			hijazi = "Van"
-			yemeni = "Van"
-			oghuz = "Van"
-			turkmen = "Van"
-			turkish = "Van"
-			kurdish = "Wan"
-			capital = 682 # Vaspurakan
-			c_vaspurakan = { # Vaspurakan (682)
-				color = { 162 191 44 }
-				color2 = { 255 255 255 }
-				greek = "Vaasprakania"
-				maghreb_arabic = "Van"
-				levantine_arabic = "Van"
-				egyptian_arabic = "Van"
-				andalusian_arabic = "Van"
-				sicilian_arabic = "Van"
-				bedouin_arabic = "Van"
-				hijazi = "Van"
-				yemeni = "Van"
-				oghuz = "Van"
-				turkmen = "Van"
-				turkish = "Van"
-				kurdish = "Wan"
-				b_haykaberd = {
-					greek = "Kastron Hayk"
-					oghuz = "Asbasén"
-					turkmen = "Asbasén"
-					turkish = "Asbasén"
-				}
-				b_van = {
-					greek = "Eua"
-					kurdish = "Wan"
-				}
-				b_varagavank = {
-					oghuz = "Yedi Kilise"
-					turkmen = "Yedi Kilise"
-					turkish = "Yedi Kilise"
-				}
-				b_maku = { greek = "Magoustana" }
-				b_artamed = {
-					greek = "Adramyttion"
-					oghuz = "Edremit"
-					turkmen = "Edremit"
-					turkish = "Edremit"
-				}
-				b_hadamakert = {
-					armenian = "Hadamagert"
-					oghuz = "Albak"
-					turkmen = "Albak"
-					turkish = "Albak"
-				}
-			} # end c_vaspurakan
-			c_persarmenia = { # Rstunik (1094)
-				color = { 58 154 120 }
-				color2 = { 255 255 255 }
-				greek = "Moxos"
-				oghuz = "Müküs"
-				turkmen = "Müküs"
-				turkish = "Müküs"
-				kurdish = "Mikis"
-				b_moks = {
-					greek = "Moxos"
-					oghuz = "Müküs"
-					turkmen = "Müküs"
-					turkish = "Müküs"
-					kurdish = "Mikis"
-				}
-				b_surbkhach = {
-					greek = "Monì tìs Agio Stavrós"
-					oghuz = "Ahtamar Kilisesi"
-					turkmen = "Ahtamar Kilisesi"
-					turkish = "Ahtamar Kilisesi"
-				}
-				b_vostan = {
-					greek = "Ostan"
-					oghuz = "Gevas"
-					turkmen = "Gevas"
-					turkish = "Gevas"
-				}
-				b_narekavank = {}
-				b_surpgevork = {}
-			}
-			c_bznunik = { # Bznunik (702)
-				color = { 82 42 46 }
-				color2 = { 255 255 255 }
-				greek = "Chalata"
-				armenian = "Bznunik"
-				oghuz = "Ahlat"
-				turkmen = "Ahlat"
-				turkish = "Ahlat"
-				maghreb_arabic = "Akhlát"
-				levantine_arabic = "Akhlát"
-				egyptian_arabic = "Akhlát"
-				andalusian_arabic = "Akhlát"
-				sicilian_arabic = "Akhlát"
-				bedouin_arabic = "Akhlát"
-				hijazi = "Akhlát"
-				yemeni = "Akhlát"
-				kurdish = "Xelat"
-				assyrian = "Halat"
-				b_akhlat = {
-					greek = "Chalata"
-					oghuz = "Ahlat"
-					turkmen = "Ahlat"
-					turkish = "Ahlat"
-					maghreb_arabic = "Akhlát"
-					levantine_arabic = "Akhlát"
-					egyptian_arabic = "Akhlát"
-					andalusian_arabic = "Akhlát"
-					sicilian_arabic = "Akhlát"
-					bedouin_arabic = "Akhlát"
-					hijazi = "Akhlát"
-					yemeni = "Akhlát"
-					kurdish = "Xelat"
-					assyrian = "Halat"
-				}
-				b_bitlis = {
-					greek = "Balales"
-					oghuz = "Bitlis"
-					turkmen = "Bitlis"
-					turkish = "Bitlis"
-					maghreb_arabic = "Badlís"
-					levantine_arabic = "Badlís"
-					egyptian_arabic = "Badlís"
-					andalusian_arabic = "Badlís"
-					sicilian_arabic = "Badlís"
-					bedouin_arabic = "Badlís"
-					hijazi = "Badlís"
-					yemeni = "Badlís"
-					kurdish = "Bidlîs"
-					assyrian = "Bet Dlis"
-				}
-				b_artzesion = {
-					greek = "Artzesion"
-					oghuz = "Ercis"
-					turkmen = "Ercis"
-					turkish = "Ercis"
-					kurdish = "Erdîs"
-					maghreb_arabic = "Arjiš"
-					levantine_arabic = "Arjiš"
-					egyptian_arabic = "Arjiš"
-					andalusian_arabic = "Arjiš"
-					sicilian_arabic = "Arjiš"
-					bedouin_arabic = "Arjiš"
-					hijazi = "Arjiš"
-					yemeni = "Arjiš"
-				}
-				b_berkri = {
-					greek = "Perkrion"
-					oghuz = "Bergiri"
-					turkmen = "Bergiri"
-					turkish = "Bergiri"
-					kurdish = "Bêgirî"
-					maghreb_arabic = "Barghiri"
-					levantine_arabic = "Barghiri"
-					egyptian_arabic = "Barghiri"
-					andalusian_arabic = "Barghiri"
-					sicilian_arabic = "Barghiri"
-					bedouin_arabic = "Barghiri"
-					hijazi = "Barghiri"
-					yemeni = "Barghiri"
-				}
-				b_artske = {
-					greek = "Artzike"
-					oghuz = "Ádelcewz"
-					turkmen = "Ádelcewz"
-					turkish = "Ádelcewz"
-					kurdish = "Elcewaz"
-					maghreb_arabic = "Zatülcevaz"
-					levantine_arabic = "Zatülcevaz"
-					egyptian_arabic = "Zatülcevaz"
-					andalusian_arabic = "Zatülcevaz"
-					sicilian_arabic = "Zatülcevaz"
-					bedouin_arabic = "Zatülcevaz"
-					hijazi = "Zatülcevaz"
-					yemeni = "Zatülcevaz"
-				}
-			} # end c_bznunik
-			allow = { title_duke_basic_allow = yes }
-		} # end d_vaspurakan
+		# d_vaspurakan = { # Vaspurakan
+			# color = { 174 23 122 }
+			# color2 = { 255 255 255 }
+			# greek = "Vaasprakania"
+			# maghreb_arabic = "Van"
+			# levantine_arabic = "Van"
+			# egyptian_arabic = "Van"
+			# andalusian_arabic = "Van"
+			# sicilian_arabic = "Van"
+			# bedouin_arabic = "Van"
+			# hijazi = "Van"
+			# yemeni = "Van"
+			# oghuz = "Van"
+			# turkmen = "Van"
+			# turkish = "Van"
+			# kurdish = "Wan"
+			# capital = 682 # Vaspurakan
+			# c_vaspurakan = { # Vaspurakan (682)
+				# color = { 162 191 44 }
+				# color2 = { 255 255 255 }
+				# greek = "Vaasprakania"
+				# maghreb_arabic = "Van"
+				# levantine_arabic = "Van"
+				# egyptian_arabic = "Van"
+				# andalusian_arabic = "Van"
+				# sicilian_arabic = "Van"
+				# bedouin_arabic = "Van"
+				# hijazi = "Van"
+				# yemeni = "Van"
+				# oghuz = "Van"
+				# turkmen = "Van"
+				# turkish = "Van"
+				# kurdish = "Wan"
+				# b_haykaberd = {
+					# greek = "Kastron Hayk"
+					# oghuz = "Asbasén"
+					# turkmen = "Asbasén"
+					# turkish = "Asbasén"
+				# }
+				# b_van = {
+					# greek = "Eua"
+					# kurdish = "Wan"
+				# }
+				# b_varagavank = {
+					# oghuz = "Yedi Kilise"
+					# turkmen = "Yedi Kilise"
+					# turkish = "Yedi Kilise"
+				# }
+				# b_maku = { greek = "Magoustana" }
+				# b_artamed = {
+					# greek = "Adramyttion"
+					# oghuz = "Edremit"
+					# turkmen = "Edremit"
+					# turkish = "Edremit"
+				# }
+				# b_hadamakert = {
+					# armenian = "Hadamagert"
+					# oghuz = "Albak"
+					# turkmen = "Albak"
+					# turkish = "Albak"
+				# }
+			# } # end c_vaspurakan
+			# c_persarmenia = { # Rstunik (1094)
+				# color = { 58 154 120 }
+				# color2 = { 255 255 255 }
+				# greek = "Moxos"
+				# oghuz = "Müküs"
+				# turkmen = "Müküs"
+				# turkish = "Müküs"
+				# kurdish = "Mikis"
+				# b_moks = {
+					# greek = "Moxos"
+					# oghuz = "Müküs"
+					# turkmen = "Müküs"
+					# turkish = "Müküs"
+					# kurdish = "Mikis"
+				# }
+				# b_surbkhach = {
+					# greek = "Monì tìs Agio Stavrós"
+					# oghuz = "Ahtamar Kilisesi"
+					# turkmen = "Ahtamar Kilisesi"
+					# turkish = "Ahtamar Kilisesi"
+				# }
+				# b_vostan = {
+					# greek = "Ostan"
+					# oghuz = "Gevas"
+					# turkmen = "Gevas"
+					# turkish = "Gevas"
+				# }
+				# b_narekavank = {}
+				# b_surpgevork = {}
+			# }
+			# c_bznunik = { # Bznunik (702)
+				# color = { 82 42 46 }
+				# color2 = { 255 255 255 }
+				# greek = "Chalata"
+				# armenian = "Bznunik"
+				# oghuz = "Ahlat"
+				# turkmen = "Ahlat"
+				# turkish = "Ahlat"
+				# maghreb_arabic = "Akhlát"
+				# levantine_arabic = "Akhlát"
+				# egyptian_arabic = "Akhlát"
+				# andalusian_arabic = "Akhlát"
+				# sicilian_arabic = "Akhlát"
+				# bedouin_arabic = "Akhlát"
+				# hijazi = "Akhlát"
+				# yemeni = "Akhlát"
+				# kurdish = "Xelat"
+				# assyrian = "Halat"
+				# b_akhlat = {
+					# greek = "Chalata"
+					# oghuz = "Ahlat"
+					# turkmen = "Ahlat"
+					# turkish = "Ahlat"
+					# maghreb_arabic = "Akhlát"
+					# levantine_arabic = "Akhlát"
+					# egyptian_arabic = "Akhlát"
+					# andalusian_arabic = "Akhlát"
+					# sicilian_arabic = "Akhlát"
+					# bedouin_arabic = "Akhlát"
+					# hijazi = "Akhlát"
+					# yemeni = "Akhlát"
+					# kurdish = "Xelat"
+					# assyrian = "Halat"
+				# }
+				# b_bitlis = {
+					# greek = "Balales"
+					# oghuz = "Bitlis"
+					# turkmen = "Bitlis"
+					# turkish = "Bitlis"
+					# maghreb_arabic = "Badlís"
+					# levantine_arabic = "Badlís"
+					# egyptian_arabic = "Badlís"
+					# andalusian_arabic = "Badlís"
+					# sicilian_arabic = "Badlís"
+					# bedouin_arabic = "Badlís"
+					# hijazi = "Badlís"
+					# yemeni = "Badlís"
+					# kurdish = "Bidlîs"
+					# assyrian = "Bet Dlis"
+				# }
+				# b_artzesion = {
+					# greek = "Artzesion"
+					# oghuz = "Ercis"
+					# turkmen = "Ercis"
+					# turkish = "Ercis"
+					# kurdish = "Erdîs"
+					# maghreb_arabic = "Arjiš"
+					# levantine_arabic = "Arjiš"
+					# egyptian_arabic = "Arjiš"
+					# andalusian_arabic = "Arjiš"
+					# sicilian_arabic = "Arjiš"
+					# bedouin_arabic = "Arjiš"
+					# hijazi = "Arjiš"
+					# yemeni = "Arjiš"
+				# }
+				# b_berkri = {
+					# greek = "Perkrion"
+					# oghuz = "Bergiri"
+					# turkmen = "Bergiri"
+					# turkish = "Bergiri"
+					# kurdish = "Bêgirî"
+					# maghreb_arabic = "Barghiri"
+					# levantine_arabic = "Barghiri"
+					# egyptian_arabic = "Barghiri"
+					# andalusian_arabic = "Barghiri"
+					# sicilian_arabic = "Barghiri"
+					# bedouin_arabic = "Barghiri"
+					# hijazi = "Barghiri"
+					# yemeni = "Barghiri"
+				# }
+				# b_artske = {
+					# greek = "Artzike"
+					# oghuz = "Ádelcewz"
+					# turkmen = "Ádelcewz"
+					# turkish = "Ádelcewz"
+					# kurdish = "Elcewaz"
+					# maghreb_arabic = "Zatülcevaz"
+					# levantine_arabic = "Zatülcevaz"
+					# egyptian_arabic = "Zatülcevaz"
+					# andalusian_arabic = "Zatülcevaz"
+					# sicilian_arabic = "Zatülcevaz"
+					# bedouin_arabic = "Zatülcevaz"
+					# hijazi = "Zatülcevaz"
+					# yemeni = "Zatülcevaz"
+				# }
+			# } # end c_bznunik
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_vaspurakan
 		d_armenia = { # Hayk
 			color = { 88 87 52 }
 			color2 = { 255 255 255 }
@@ -62492,415 +64152,415 @@ e_null = { #
 			}
 			allow = { title_duke_basic_allow = yes }
 		}
-		d_taron = { # Tarawn
-			color = { 130 118 13 }
-			color2 = { 255 255 255 }
-			greek = "Taron"
-			armenian = "Daron"
-			oghuz = "Malazgird"
-			turkmen = "Malazgird"
-			turkish = "Malazgird"
-			maghreb_arabic = "Minazjird"
-			levantine_arabic = "Minazjird"
-			egyptian_arabic = "Minazjird"
-			andalusian_arabic = "Minazjird"
-			sicilian_arabic = "Minazjird"
-			bedouin_arabic = "Minazjird"
-			hijazi = "Minazjird"
-			yemeni = "Minazjird"
-			kurdish = "Malazgir"
-			capital = 701 # Tarawn # Taron
-			c_dzopk = { # Ašmušat (1097)
-				color = { 125 162 44 }
-				color2 = { 255 255 255 }
-				greek = "Arsamosaton"
-				oghuz = "Bingöl"
-				turkmen = "Bingöl"
-				turkish = "Bingöl"
-				maghreb_arabic = "Šimšat"
-				levantine_arabic = "Šimšat"
-				egyptian_arabic = "Šimšat"
-				andalusian_arabic = "Šimšat"
-				sicilian_arabic = "Šimšat"
-				bedouin_arabic = "Šimšat"
-				hijazi = "Šimšat"
-				yemeni = "Šimšat"
-				kurdish = "Erxenî"
-				armenian = "Chapaghjur"
-				b_citharizion = {
-					oghuz = "Keteriz"
-					turkmen = "Keteriz"
-					turkish = "Keteriz"
-					kurdish = "Keteriz"
-				}
-				b_romanopolis = {
-					greek = "Romanoupolis"
-					oghuz = "Bingöl"
-					turkmen = "Bingöl"
-					turkish = "Bingöl"
-					kurdish = "Cewlîg"
-					armenian = "Chapaghjur"
-				}
-				b_arshamasat = {
-					greek = "Arsamosaton"
-					oghuz = "Haraba"
-					turkmen = "Haraba"
-					turkish = "Haraba"
-					maghreb_arabic = "Šimšat"
-					levantine_arabic = "Šimšat"
-					egyptian_arabic = "Šimšat"
-					andalusian_arabic = "Šimšat"
-					sicilian_arabic = "Šimšat"
-					bedouin_arabic = "Šimšat"
-					hijazi = "Šimšat"
-					yemeni = "Šimšat"
-				}
-				b_arkni = {
-					greek = "Erkne"
-					oghuz = "Osmaniye"
-					turkmen = "Osmaniye"
-					turkish = "Osmaniye"
-					maghreb_arabic = "Arqanin"
-					levantine_arabic = "Arqanin"
-					egyptian_arabic = "Arqanin"
-					andalusian_arabic = "Arqanin"
-					sicilian_arabic = "Arqanin"
-					bedouin_arabic = "Arqanin"
-					hijazi = "Arqanin"
-					yemeni = "Arqanin"
-					kurdish = "Erxenî"
-				}
-			} # end c_dzopk
-			c_taron = { # Tarawn (701)
-				color = { 125 162 44 }
-				color2 = { 255 255 255 }
-				greek = "Taron"
-				armenian = "Daron"
-				oghuz = "Mus"
-				turkmen = "Mus"
-				turkish = "Mus"
-				maghreb_arabic = "Muš"
-				levantine_arabic = "Muš"
-				egyptian_arabic = "Muš"
-				andalusian_arabic = "Muš"
-				sicilian_arabic = "Muš"
-				bedouin_arabic = "Muš"
-				hijazi = "Muš"
-				yemeni = "Muš"
-				kurdish = "Mûs"
-				b_sason = {
-					armenian = "Sasun"
-					greek = "Sassoun"
-					kurdish = "Qabilcewz"
-				}
-				b_mush = {
-					greek = "Mous"
-					oghuz = "Mus"
-					turkmen = "Mus"
-					turkish = "Mus"
-					maghreb_arabic = "Mus"
-					levantine_arabic = "Mus"
-					egyptian_arabic = "Mus"
-					andalusian_arabic = "Mus"
-					sicilian_arabic = "Mus"
-					bedouin_arabic = "Mus"
-					hijazi = "Mus"
-					yemeni = "Mus"
-					kurdish = "Mûs"
-				}
-				b_surpmarineh = { greek = "Ekklisía tis Agías Nautilías" }
-				b_arakelots = {
-					oghuz = "Arak Manastiri"
-					turkmen = "Arak Manastiri"
-					turkish = "Arak Manastiri"
-					greek = "Monì Agíon Apostólon"
-				}
-			} # end c_taron
-			c_manzikert = { # Manazkert (1158)
-				color = { 15 152 64 }
-				color2 = { 255 255 255 }
-				greek = "Matzierte"
-				oghuz = "Malazgird"
-				turkmen = "Malazgird"
-				turkish = "Malazgird"
-				maghreb_arabic = "Minazjird"
-				levantine_arabic = "Minazjird"
-				egyptian_arabic = "Minazjird"
-				andalusian_arabic = "Minazjird"
-				sicilian_arabic = "Minazjird"
-				bedouin_arabic = "Minazjird"
-				hijazi = "Minazjird"
-				yemeni = "Minazjird"
-				kurdish = "Malazgir"
-				b_manzikert = {
-					greek = "Matzierte"
-					oghuz = "Malazgird"
-					turkmen = "Malazgird"
-					turkish = "Malazgird"
-					maghreb_arabic = "Minazjird"
-					levantine_arabic = "Minazjird"
-					egyptian_arabic = "Minazjird"
-					andalusian_arabic = "Minazjird"
-					sicilian_arabic = "Minazjird"
-					bedouin_arabic = "Minazjird"
-					hijazi = "Minazjird"
-					yemeni = "Minazjird"
-					kurdish = "Milazgir"
-				}
-				b_glak = {
-					armenian = "Glakavank"
-					greek = "Monì Glak"
-					oghuz = "Çanli Kilise"
-					turkmen = "Çanli Kilise"
-					turkish = "Çanli Kilise"
-				}
-				b_tondrak = {}
-				b_olnoutin = { greek = "Olnoutin" }
-				b_khnus = {
-					oghuz = "Hinis"
-					turkmen = "Hinis"
-					turkish = "Hinis"
-					kurdish = "Xinûs"
-				}
-			} # end c_manzikert
-			allow = { title_duke_basic_allow = yes }
-		} # end d_taron
-		d_mesopotamia = { # Bardzr Hayk
-			color = { 30 118 113 }
-			color2 = { 255 255 255 }
-			greek = "Theodosioupolis"
-			oghuz = "Erzen er-Rúm"
-			turkmen = "Erzen er-Rúm"
-			turkish = "Erzen er-Rúm"
-			maghreb_arabic = "Arzan ar-Rúm"
-			levantine_arabic = "Arzan ar-Rúm"
-			egyptian_arabic = "Arzan ar-Rúm"
-			andalusian_arabic = "Arzan ar-Rúm"
-			sicilian_arabic = "Arzan ar-Rúm"
-			bedouin_arabic = "Arzan ar-Rúm"
-			hijazi = "Arzan ar-Rúm"
-			yemeni = "Arzan ar-Rúm"
-			kurdish = "Erzîrom"
-			capital = 704 # Karin # Theodosipolis
-			c_theodosiopolis = { # Karin (704)
-				color = { 101 152 34 }
-				color2 = { 255 255 255 }
-				greek = "Theodosioupolis"
-				armenian = "Karin"
-				oghuz = "Erzen er-Rúm"
-				turkmen = "Erzen er-Rúm"
-				turkish = "Erzen er-Rúm"
-				maghreb_arabic = "Arzan ar-Rúm"
-				levantine_arabic = "Arzan ar-Rúm"
-				egyptian_arabic = "Arzan ar-Rúm"
-				andalusian_arabic = "Arzan ar-Rúm"
-				sicilian_arabic = "Arzan ar-Rúm"
-				bedouin_arabic = "Arzan ar-Rúm"
-				hijazi = "Arzan ar-Rúm"
-				yemeni = "Arzan ar-Rúm"
-				kurdish = "Erzîrom"
-				b_theodosiopolis = {
-					greek = "Theodosioupolis"
-					oghuz = "Erzen er-Rûm"
-					turkmen = "Erzen er-Rúm"
-					turkish = "Erzen er-Rúm"
-					maghreb_arabic = "Qaliqala"
-					levantine_arabic = "Qaliqala"
-					egyptian_arabic = "Qaliqala"
-					andalusian_arabic = "Qaliqala"
-					sicilian_arabic = "Qaliqala"
-					bedouin_arabic = "Qaliqala"
-					hijazi = "Qaliqala"
-					yemeni = "Qaliqala"
-					kurdish = "Erzîrom"
-				}
-				b_artsn = {}
-				b_derzene = {
-					greek = "Derzene"
-					oghuz = "Mama Hatun"
-					turkmen = "Mama Hatun"
-					turkish = "Mama Hatun"
-					kurdish = "Tercan"
-				}
-				b_basean = {
-					georgian = "Basiani"
-					greek = "Phasiane"
-					oghuz = "Hasankale"
-					turkmen = "Hasankale"
-					turkish = "Hasankale"
-					kurdish = "Hesenqela"
-				}
-				b_jermuk_erzurum = {
-					oghuz = "Cermük"
-					turkmen = "Cermük"
-					turkish = "Cermük"
-				}
-				b_daroynk_erzurum = {}
-			} # end c_theodosiopolis
-			c_sper = { # Sper (816)
-				color = { 191 157 100 }
-				color2 = { 255 255 255 }
-				greek = "Syspirátis"
-				oghuz = "Ispir"
-				turkmen = "Ispir"
-				turkish = "Ispir"
-				georgian = "Speri"
-				kurdish = "Espîr"
-				b_baydbert = {
-					greek = "Baiberdôn"
-					oghuz = "Bayburt"
-					turkmen = "Bayburt"
-					turkish = "Bayburt"
-					maghreb_arabic = "Báburt"
-					levantine_arabic = "Báburt"
-					egyptian_arabic = "Báburt"
-					andalusian_arabic = "Báburt"
-					sicilian_arabic = "Báburt"
-					bedouin_arabic = "Báburt"
-					hijazi = "Báburt"
-					yemeni = "Báburt"
-				}
-				b_sper = {
-					greek = "Hyspirátis"
-					oghuz = "Ispir"
-					turkmen = "Ispir"
-					turkish = "Ispir"
-					georgian = "Speri"
-					kurdish = "Espîr"
-				}
-				b_varzahan = {}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_mesopotamia
-		d_dzopk = { # Dzopk
-			color = { 9 12 119 }
-			color2 = { 255 255 255 }
-			greek = "Mesopotamias"
-			oghuz = "Harput"
-			turkmen = "Harput"
-			turkish = "Harput"
-			maghreb_arabic = "Hisn Ziyad"
-			levantine_arabic = "Hisn Ziyad"
-			egyptian_arabic = "Hisn Ziyad"
-			andalusian_arabic = "Hisn Ziyad"
-			sicilian_arabic = "Hisn Ziyad"
-			bedouin_arabic = "Hisn Ziyad"
-			hijazi = "Hisn Ziyad"
-			yemeni = "Hisn Ziyad"
-			kurdish = "Xarpet"
-			capital = 1282 # Charpete
-			c_karin = { # Derdjan (703) # Yerznka
-				color = { 117 154 36 }
-				color2 = { 255 255 255 }
-				greek = "Keltzene"
-				oghuz = "Erzincan"
-				turkmen = "Erzincan"
-				turkish = "Erzincan"
-				maghreb_arabic = "Arzinjan"
-				levantine_arabic = "Arzinjan"
-				egyptian_arabic = "Arzinjan"
-				andalusian_arabic = "Arzinjan"
-				sicilian_arabic = "Arzinjan"
-				bedouin_arabic = "Arzinjan"
-				hijazi = "Arzinjan"
-				yemeni = "Arzinjan"
-				kurdish = "Ezirgan"
-				b_kamakha = {
-					greek = "Kamacha"
-					oghuz = "Kemah"
-					turkmen = "Kemah"
-					turkish = "Kemah"
-					maghreb_arabic = "Hisn Kamakh"
-					levantine_arabic = "Hisn Kamakh"
-					egyptian_arabic = "Hisn Kamakh"
-					andalusian_arabic = "Hisn Kamakh"
-					sicilian_arabic = "Hisn Kamakh"
-					bedouin_arabic = "Hisn Kamakh"
-					hijazi = "Hisn Kamakh"
-					yemeni = "Hisn Kamakh"
-					kurdish = "Kemax"
-				}
-				b_keltzene = {
-					greek = "Keltzene"
-					oghuz = "Erzincan"
-					turkmen = "Erzincan"
-					turkish = "Erzincan"
-					maghreb_arabic = "Arzinjan"
-					levantine_arabic = "Arzinjan"
-					egyptian_arabic = "Arzinjan"
-					andalusian_arabic = "Arzinjan"
-					sicilian_arabic = "Arzinjan"
-					bedouin_arabic = "Arzinjan"
-					hijazi = "Arzinjan"
-					yemeni = "Arzinjan"
-					kurdish = "Ezirgan"
-				}
-				b_barzanissa = {
-					oghuz = "Baspinar"
-					turkmen = "Baspinar"
-					turkish = "Baspinar"
-					armenian = "Vartenik"
-				}
-			} # end c_karin
-			c_charpete = { # Charpete (1282)
-				color = { 125 192 44 }
-				color2 = { 255 255 255 }
-				greek = "Mesopotamias"
-				oghuz = "Harput"
-				turkmen = "Harput"
-				turkish = "Harput"
-				maghreb_arabic = "Hisn Ziyad"
-				levantine_arabic = "Hisn Ziyad"
-				egyptian_arabic = "Hisn Ziyad"
-				andalusian_arabic = "Hisn Ziyad"
-				sicilian_arabic = "Hisn Ziyad"
-				bedouin_arabic = "Hisn Ziyad"
-				hijazi = "Hisn Ziyad"
-				yemeni = "Hisn Ziyad"
-				kurdish = "Xarpet"
-				b_chosomachon = {
-					greek = "Chosomachon"
-					oghuz = "Çemisgezek"
-					turkmen = "Çemisgezek"
-					turkish = "Çemisgezek"
-					kurdish = "Melkisî"
-				}
-				b_mertikerton = {
-					greek = "Mertikerton"
-					oghuz = "Mazgirt"
-					turkmen = "Mazgirt"
-					turkish = "Mazgirt"
-					kurdish = "Mazgerd"
-				}
-				b_chozanon = {
-					greek = "Chozanon"
-					oghuz = "Xozad"
-					turkmen = "Xozad"
-					turkish = "Xozad"
-					kurdish = "Xozad"
-				}
-				b_charpete = {
-					greek = "Charpete"
-					oghuz = "Harput"
-					turkmen = "Harput"
-					turkish = "Harput"
-					maghreb_arabic = "Hisn Ziyad"
-					levantine_arabic = "Hisn Ziyad"
-					egyptian_arabic = "Hisn Ziyad"
-					andalusian_arabic = "Hisn Ziyad"
-					sicilian_arabic = "Hisn Ziyad"
-					bedouin_arabic = "Hisn Ziyad"
-					hijazi = "Hisn Ziyad"
-					yemeni = "Hisn Ziyad"
-					kurdish = "Xarpet"
-				}
-				b_pertek = {
-					greek = "Berdak"
-					armenian = "Berdak"
-				}
-			} # end c_charpete
-			allow = { title_duke_basic_allow = yes }
-		} # end d_dzopk
+		# d_taron = { # Tarawn
+			# color = { 130 118 13 }
+			# color2 = { 255 255 255 }
+			# greek = "Taron"
+			# armenian = "Daron"
+			# oghuz = "Malazgird"
+			# turkmen = "Malazgird"
+			# turkish = "Malazgird"
+			# maghreb_arabic = "Minazjird"
+			# levantine_arabic = "Minazjird"
+			# egyptian_arabic = "Minazjird"
+			# andalusian_arabic = "Minazjird"
+			# sicilian_arabic = "Minazjird"
+			# bedouin_arabic = "Minazjird"
+			# hijazi = "Minazjird"
+			# yemeni = "Minazjird"
+			# kurdish = "Malazgir"
+			# capital = 701 # Tarawn # Taron
+			# c_dzopk = { # Ašmušat (1097)
+				# color = { 125 162 44 }
+				# color2 = { 255 255 255 }
+				# greek = "Arsamosaton"
+				# oghuz = "Bingöl"
+				# turkmen = "Bingöl"
+				# turkish = "Bingöl"
+				# maghreb_arabic = "Šimšat"
+				# levantine_arabic = "Šimšat"
+				# egyptian_arabic = "Šimšat"
+				# andalusian_arabic = "Šimšat"
+				# sicilian_arabic = "Šimšat"
+				# bedouin_arabic = "Šimšat"
+				# hijazi = "Šimšat"
+				# yemeni = "Šimšat"
+				# kurdish = "Erxenî"
+				# armenian = "Chapaghjur"
+				# b_citharizion = {
+					# oghuz = "Keteriz"
+					# turkmen = "Keteriz"
+					# turkish = "Keteriz"
+					# kurdish = "Keteriz"
+				# }
+				# b_romanopolis = {
+					# greek = "Romanoupolis"
+					# oghuz = "Bingöl"
+					# turkmen = "Bingöl"
+					# turkish = "Bingöl"
+					# kurdish = "Cewlîg"
+					# armenian = "Chapaghjur"
+				# }
+				# b_arshamasat = {
+					# greek = "Arsamosaton"
+					# oghuz = "Haraba"
+					# turkmen = "Haraba"
+					# turkish = "Haraba"
+					# maghreb_arabic = "Šimšat"
+					# levantine_arabic = "Šimšat"
+					# egyptian_arabic = "Šimšat"
+					# andalusian_arabic = "Šimšat"
+					# sicilian_arabic = "Šimšat"
+					# bedouin_arabic = "Šimšat"
+					# hijazi = "Šimšat"
+					# yemeni = "Šimšat"
+				# }
+				# b_arkni = {
+					# greek = "Erkne"
+					# oghuz = "Osmaniye"
+					# turkmen = "Osmaniye"
+					# turkish = "Osmaniye"
+					# maghreb_arabic = "Arqanin"
+					# levantine_arabic = "Arqanin"
+					# egyptian_arabic = "Arqanin"
+					# andalusian_arabic = "Arqanin"
+					# sicilian_arabic = "Arqanin"
+					# bedouin_arabic = "Arqanin"
+					# hijazi = "Arqanin"
+					# yemeni = "Arqanin"
+					# kurdish = "Erxenî"
+				# }
+			# } # end c_dzopk
+			# c_taron = { # Tarawn (701)
+				# color = { 125 162 44 }
+				# color2 = { 255 255 255 }
+				# greek = "Taron"
+				# armenian = "Daron"
+				# oghuz = "Mus"
+				# turkmen = "Mus"
+				# turkish = "Mus"
+				# maghreb_arabic = "Muš"
+				# levantine_arabic = "Muš"
+				# egyptian_arabic = "Muš"
+				# andalusian_arabic = "Muš"
+				# sicilian_arabic = "Muš"
+				# bedouin_arabic = "Muš"
+				# hijazi = "Muš"
+				# yemeni = "Muš"
+				# kurdish = "Mûs"
+				# b_sason = {
+					# armenian = "Sasun"
+					# greek = "Sassoun"
+					# kurdish = "Qabilcewz"
+				# }
+				# b_mush = {
+					# greek = "Mous"
+					# oghuz = "Mus"
+					# turkmen = "Mus"
+					# turkish = "Mus"
+					# maghreb_arabic = "Mus"
+					# levantine_arabic = "Mus"
+					# egyptian_arabic = "Mus"
+					# andalusian_arabic = "Mus"
+					# sicilian_arabic = "Mus"
+					# bedouin_arabic = "Mus"
+					# hijazi = "Mus"
+					# yemeni = "Mus"
+					# kurdish = "Mûs"
+				# }
+				# b_surpmarineh = { greek = "Ekklisía tis Agías Nautilías" }
+				# b_arakelots = {
+					# oghuz = "Arak Manastiri"
+					# turkmen = "Arak Manastiri"
+					# turkish = "Arak Manastiri"
+					# greek = "Monì Agíon Apostólon"
+				# }
+			# } # end c_taron
+			# c_manzikert = { # Manazkert (1158)
+				# color = { 15 152 64 }
+				# color2 = { 255 255 255 }
+				# greek = "Matzierte"
+				# oghuz = "Malazgird"
+				# turkmen = "Malazgird"
+				# turkish = "Malazgird"
+				# maghreb_arabic = "Minazjird"
+				# levantine_arabic = "Minazjird"
+				# egyptian_arabic = "Minazjird"
+				# andalusian_arabic = "Minazjird"
+				# sicilian_arabic = "Minazjird"
+				# bedouin_arabic = "Minazjird"
+				# hijazi = "Minazjird"
+				# yemeni = "Minazjird"
+				# kurdish = "Malazgir"
+				# b_manzikert = {
+					# greek = "Matzierte"
+					# oghuz = "Malazgird"
+					# turkmen = "Malazgird"
+					# turkish = "Malazgird"
+					# maghreb_arabic = "Minazjird"
+					# levantine_arabic = "Minazjird"
+					# egyptian_arabic = "Minazjird"
+					# andalusian_arabic = "Minazjird"
+					# sicilian_arabic = "Minazjird"
+					# bedouin_arabic = "Minazjird"
+					# hijazi = "Minazjird"
+					# yemeni = "Minazjird"
+					# kurdish = "Milazgir"
+				# }
+				# b_glak = {
+					# armenian = "Glakavank"
+					# greek = "Monì Glak"
+					# oghuz = "Çanli Kilise"
+					# turkmen = "Çanli Kilise"
+					# turkish = "Çanli Kilise"
+				# }
+				# b_tondrak = {}
+				# b_olnoutin = { greek = "Olnoutin" }
+				# b_khnus = {
+					# oghuz = "Hinis"
+					# turkmen = "Hinis"
+					# turkish = "Hinis"
+					# kurdish = "Xinûs"
+				# }
+			# } # end c_manzikert
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_taron
+		# d_mesopotamia = { # Bardzr Hayk
+			# color = { 30 118 113 }
+			# color2 = { 255 255 255 }
+			# greek = "Theodosioupolis"
+			# oghuz = "Erzen er-Rúm"
+			# turkmen = "Erzen er-Rúm"
+			# turkish = "Erzen er-Rúm"
+			# maghreb_arabic = "Arzan ar-Rúm"
+			# levantine_arabic = "Arzan ar-Rúm"
+			# egyptian_arabic = "Arzan ar-Rúm"
+			# andalusian_arabic = "Arzan ar-Rúm"
+			# sicilian_arabic = "Arzan ar-Rúm"
+			# bedouin_arabic = "Arzan ar-Rúm"
+			# hijazi = "Arzan ar-Rúm"
+			# yemeni = "Arzan ar-Rúm"
+			# kurdish = "Erzîrom"
+			# capital = 704 # Karin # Theodosipolis
+			# c_theodosiopolis = { # Karin (704)
+				# color = { 101 152 34 }
+				# color2 = { 255 255 255 }
+				# greek = "Theodosioupolis"
+				# armenian = "Karin"
+				# oghuz = "Erzen er-Rúm"
+				# turkmen = "Erzen er-Rúm"
+				# turkish = "Erzen er-Rúm"
+				# maghreb_arabic = "Arzan ar-Rúm"
+				# levantine_arabic = "Arzan ar-Rúm"
+				# egyptian_arabic = "Arzan ar-Rúm"
+				# andalusian_arabic = "Arzan ar-Rúm"
+				# sicilian_arabic = "Arzan ar-Rúm"
+				# bedouin_arabic = "Arzan ar-Rúm"
+				# hijazi = "Arzan ar-Rúm"
+				# yemeni = "Arzan ar-Rúm"
+				# kurdish = "Erzîrom"
+				# b_theodosiopolis = {
+					# greek = "Theodosioupolis"
+					# oghuz = "Erzen er-Rûm"
+					# turkmen = "Erzen er-Rúm"
+					# turkish = "Erzen er-Rúm"
+					# maghreb_arabic = "Qaliqala"
+					# levantine_arabic = "Qaliqala"
+					# egyptian_arabic = "Qaliqala"
+					# andalusian_arabic = "Qaliqala"
+					# sicilian_arabic = "Qaliqala"
+					# bedouin_arabic = "Qaliqala"
+					# hijazi = "Qaliqala"
+					# yemeni = "Qaliqala"
+					# kurdish = "Erzîrom"
+				# }
+				# b_artsn = {}
+				# b_derzene = {
+					# greek = "Derzene"
+					# oghuz = "Mama Hatun"
+					# turkmen = "Mama Hatun"
+					# turkish = "Mama Hatun"
+					# kurdish = "Tercan"
+				# }
+				# b_basean = {
+					# georgian = "Basiani"
+					# greek = "Phasiane"
+					# oghuz = "Hasankale"
+					# turkmen = "Hasankale"
+					# turkish = "Hasankale"
+					# kurdish = "Hesenqela"
+				# }
+				# b_jermuk_erzurum = {
+					# oghuz = "Cermük"
+					# turkmen = "Cermük"
+					# turkish = "Cermük"
+				# }
+				# b_daroynk_erzurum = {}
+			# } # end c_theodosiopolis
+			# c_sper = { # Sper (816)
+				# color = { 191 157 100 }
+				# color2 = { 255 255 255 }
+				# greek = "Syspirátis"
+				# oghuz = "Ispir"
+				# turkmen = "Ispir"
+				# turkish = "Ispir"
+				# georgian = "Speri"
+				# kurdish = "Espîr"
+				# b_baydbert = {
+					# greek = "Baiberdôn"
+					# oghuz = "Bayburt"
+					# turkmen = "Bayburt"
+					# turkish = "Bayburt"
+					# maghreb_arabic = "Báburt"
+					# levantine_arabic = "Báburt"
+					# egyptian_arabic = "Báburt"
+					# andalusian_arabic = "Báburt"
+					# sicilian_arabic = "Báburt"
+					# bedouin_arabic = "Báburt"
+					# hijazi = "Báburt"
+					# yemeni = "Báburt"
+				# }
+				# b_sper = {
+					# greek = "Hyspirátis"
+					# oghuz = "Ispir"
+					# turkmen = "Ispir"
+					# turkish = "Ispir"
+					# georgian = "Speri"
+					# kurdish = "Espîr"
+				# }
+				# b_varzahan = {}
+			# }
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_mesopotamia
+		# d_dzopk = { # Dzopk
+			# color = { 9 12 119 }
+			# color2 = { 255 255 255 }
+			# greek = "Mesopotamias"
+			# oghuz = "Harput"
+			# turkmen = "Harput"
+			# turkish = "Harput"
+			# maghreb_arabic = "Hisn Ziyad"
+			# levantine_arabic = "Hisn Ziyad"
+			# egyptian_arabic = "Hisn Ziyad"
+			# andalusian_arabic = "Hisn Ziyad"
+			# sicilian_arabic = "Hisn Ziyad"
+			# bedouin_arabic = "Hisn Ziyad"
+			# hijazi = "Hisn Ziyad"
+			# yemeni = "Hisn Ziyad"
+			# kurdish = "Xarpet"
+			# capital = 1282 # Charpete
+			# c_karin = { # Derdjan (703) # Yerznka
+				# color = { 117 154 36 }
+				# color2 = { 255 255 255 }
+				# greek = "Keltzene"
+				# oghuz = "Erzincan"
+				# turkmen = "Erzincan"
+				# turkish = "Erzincan"
+				# maghreb_arabic = "Arzinjan"
+				# levantine_arabic = "Arzinjan"
+				# egyptian_arabic = "Arzinjan"
+				# andalusian_arabic = "Arzinjan"
+				# sicilian_arabic = "Arzinjan"
+				# bedouin_arabic = "Arzinjan"
+				# hijazi = "Arzinjan"
+				# yemeni = "Arzinjan"
+				# kurdish = "Ezirgan"
+				# b_kamakha = {
+					# greek = "Kamacha"
+					# oghuz = "Kemah"
+					# turkmen = "Kemah"
+					# turkish = "Kemah"
+					# maghreb_arabic = "Hisn Kamakh"
+					# levantine_arabic = "Hisn Kamakh"
+					# egyptian_arabic = "Hisn Kamakh"
+					# andalusian_arabic = "Hisn Kamakh"
+					# sicilian_arabic = "Hisn Kamakh"
+					# bedouin_arabic = "Hisn Kamakh"
+					# hijazi = "Hisn Kamakh"
+					# yemeni = "Hisn Kamakh"
+					# kurdish = "Kemax"
+				# }
+				# b_keltzene = {
+					# greek = "Keltzene"
+					# oghuz = "Erzincan"
+					# turkmen = "Erzincan"
+					# turkish = "Erzincan"
+					# maghreb_arabic = "Arzinjan"
+					# levantine_arabic = "Arzinjan"
+					# egyptian_arabic = "Arzinjan"
+					# andalusian_arabic = "Arzinjan"
+					# sicilian_arabic = "Arzinjan"
+					# bedouin_arabic = "Arzinjan"
+					# hijazi = "Arzinjan"
+					# yemeni = "Arzinjan"
+					# kurdish = "Ezirgan"
+				# }
+				# b_barzanissa = {
+					# oghuz = "Baspinar"
+					# turkmen = "Baspinar"
+					# turkish = "Baspinar"
+					# armenian = "Vartenik"
+				# }
+			# } # end c_karin
+			# c_charpete = { # Charpete (1282)
+				# color = { 125 192 44 }
+				# color2 = { 255 255 255 }
+				# greek = "Mesopotamias"
+				# oghuz = "Harput"
+				# turkmen = "Harput"
+				# turkish = "Harput"
+				# maghreb_arabic = "Hisn Ziyad"
+				# levantine_arabic = "Hisn Ziyad"
+				# egyptian_arabic = "Hisn Ziyad"
+				# andalusian_arabic = "Hisn Ziyad"
+				# sicilian_arabic = "Hisn Ziyad"
+				# bedouin_arabic = "Hisn Ziyad"
+				# hijazi = "Hisn Ziyad"
+				# yemeni = "Hisn Ziyad"
+				# kurdish = "Xarpet"
+				# b_chosomachon = {
+					# greek = "Chosomachon"
+					# oghuz = "Çemisgezek"
+					# turkmen = "Çemisgezek"
+					# turkish = "Çemisgezek"
+					# kurdish = "Melkisî"
+				# }
+				# b_mertikerton = {
+					# greek = "Mertikerton"
+					# oghuz = "Mazgirt"
+					# turkmen = "Mazgirt"
+					# turkish = "Mazgirt"
+					# kurdish = "Mazgerd"
+				# }
+				# b_chozanon = {
+					# greek = "Chozanon"
+					# oghuz = "Xozad"
+					# turkmen = "Xozad"
+					# turkish = "Xozad"
+					# kurdish = "Xozad"
+				# }
+				# b_charpete = {
+					# greek = "Charpete"
+					# oghuz = "Harput"
+					# turkmen = "Harput"
+					# turkish = "Harput"
+					# maghreb_arabic = "Hisn Ziyad"
+					# levantine_arabic = "Hisn Ziyad"
+					# egyptian_arabic = "Hisn Ziyad"
+					# andalusian_arabic = "Hisn Ziyad"
+					# sicilian_arabic = "Hisn Ziyad"
+					# bedouin_arabic = "Hisn Ziyad"
+					# hijazi = "Hisn Ziyad"
+					# yemeni = "Hisn Ziyad"
+					# kurdish = "Xarpet"
+				# }
+				# b_pertek = {
+					# greek = "Berdak"
+					# armenian = "Berdak"
+				# }
+			# } # end c_charpete
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_dzopk
 		gain_effect = {
 			# If title receiver also owns the titular Hayk, then
 			# we can safely destroy and deactivate that title now.
@@ -73247,43 +74907,43 @@ e_null = { #
 			}
 			allow = { title_duke_basic_allow = yes }
 		} # end d_kartli
-		d_tao = { # Tayk
-			color = { 210 204 50 }
-			color2 = { 255 255 255 }
-			capital = 680 # Tao
-			georgian = "Tao"
-			c_tao = { # Tao (680)
-				color = { 238 183 183 }
-				color2 = { 255 255 255 }
-				oghuz = "Oltu"
-				turkmen = "Oltu"
-				turkish = "Oltu"
-				armenian = "Tayk"
-				b_ughtis = {
-					oghuz = "Oltu"
-					turkmen = "Oltu"
-					turkish = "Oltu"
-					georgian = "Oltisi"
-				}
-				b_tortumi = {
-					oghuz = "Tortum"
-					turkmen = "Tortum"
-					turkish = "Tortum"
-					georgian = "Tortomi"
-				}
-				b_khakhuli = {
-					oghuz = "Haho"
-					turkmen = "Haho"
-					turkish = "Haho"
-				}
-				b_oshki = {
-					oghuz = "Ösk Vank"
-					turkmen = "Ösk Vank"
-					turkish = "Ösk Vank"
-				}
-			}
-			allow = { title_duke_basic_allow = yes }
-		} # end d_tao
+		# d_tao = { # Tayk
+			# color = { 210 204 50 }
+			# color2 = { 255 255 255 }
+			# capital = 680 # Tao
+			# georgian = "Tao"
+			# c_tao = { # Tao (680)
+				# color = { 238 183 183 }
+				# color2 = { 255 255 255 }
+				# oghuz = "Oltu"
+				# turkmen = "Oltu"
+				# turkish = "Oltu"
+				# armenian = "Tayk"
+				# b_ughtis = {
+					# oghuz = "Oltu"
+					# turkmen = "Oltu"
+					# turkish = "Oltu"
+					# georgian = "Oltisi"
+				# }
+				# b_tortumi = {
+					# oghuz = "Tortum"
+					# turkmen = "Tortum"
+					# turkish = "Tortum"
+					# georgian = "Tortomi"
+				# }
+				# b_khakhuli = {
+					# oghuz = "Haho"
+					# turkmen = "Haho"
+					# turkish = "Haho"
+				# }
+				# b_oshki = {
+					# oghuz = "Ösk Vank"
+					# turkmen = "Ösk Vank"
+					# turkish = "Ösk Vank"
+				# }
+			# }
+			# allow = { title_duke_basic_allow = yes }
+		# } # end d_tao
 		d_klarjeti = { # Klarjeti
 			color = { 72 204 160 }
 			color2 = { 255 255 255 }

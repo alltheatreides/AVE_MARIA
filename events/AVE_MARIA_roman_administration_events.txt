@@ -32,7 +32,1243 @@ character_event = {
 	}
 	
 	immediate = {
+		## Changing laws for titles
+		k_abydos = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thrace = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_strymon = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thessalonika = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_neopatras = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_dyrrachion = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_epirus = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cephalonia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_athens = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_achaia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_krete = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_paphlagonia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_boukellarion = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_samos = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thracesia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_opsikon = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_optimatoi = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cibyrrhaeot = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_charsianon = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cappadocia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_coloneia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_sebasteia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_lykandos = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_anatolia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_melitene = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cyprus = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_trebizond = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cherson = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_armeniacon = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_armenia_minor = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_seleukeia = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_turnovo = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_karvuna = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_adrianopolis = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_vidin = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_ohrid = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_rashka = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_macva = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_hum = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_dioclea = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_ragusa = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
 		
+		## Changing laws for titles
+		k_abydos_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thrace_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_strymon_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thessalonika_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_neopatras_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_dyrrachion_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_epirus_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cephalonia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_athens_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_achaia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_krete_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_paphlagonia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_boukellarion_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_samos_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_thracesia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_opsikon_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_optimatoi_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cibyrrhaeot_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_charsianon_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cappadocia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_coloneia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_sebasteia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_lykandos_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_anatolia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_melitene_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cyprus_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_trebizond_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_cherson_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_armeniacon_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_armenia_minor_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_seleukeia_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_turnovo_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_karvuna_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_adrianopolis_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_vidin_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_ohrid_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_rashka_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_macva_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_hum_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_dioclea_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+		k_ragusa_theme = {						
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}					
+		}						
+
+		## Granting Family titles to non manually modified family titles (like the family_1 and the Doukas for instance
+		k_abydos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_3				
+				}					
+			}						
+		}							
+		k_thrace = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_4				
+				}					
+			}						
+		}							
+		k_strymon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_5				
+				}					
+			}						
+		}							
+		k_thessalonika = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_6				
+				}					
+			}						
+		}							
+		k_neopatras = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_7				
+				}					
+			}						
+		}							
+		k_dyrrachion = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_8				
+				}					
+			}						
+		}							
+		k_epirus = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_9				
+				}					
+			}						
+		}							
+		k_cephalonia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_10				
+				}					
+			}						
+		}							
+		k_athens = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_11				
+				}					
+			}						
+		}							
+		k_achaia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_12				
+				}					
+			}						
+		}							
+		k_krete = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_13				
+				}					
+			}						
+		}							
+		k_paphlagonia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_14				
+				}					
+			}						
+		}							
+		k_boukellarion = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_15				
+				}					
+			}						
+		}							
+		k_samos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_16				
+				}					
+			}						
+		}							
+		k_thracesia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_17				
+				}					
+			}						
+		}							
+		k_opsikon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_18				
+				}					
+			}						
+		}							
+		k_optimatoi = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_19				
+				}					
+			}						
+		}							
+		k_cibyrrhaeot = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_20				
+				}					
+			}						
+		}							
+		k_charsianon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_21				
+				}					
+			}						
+		}							
+		k_cappadocia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_22				
+				}					
+			}						
+		}							
+		k_coloneia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_23				
+				}					
+			}						
+		}							
+		k_sebasteia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_24				
+				}					
+			}						
+		}							
+		k_lykandos = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_25				
+				}					
+			}						
+		}							
+		k_anatolia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_26				
+				}					
+			}						
+		}							
+		k_melitene = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_27				
+				}					
+			}						
+		}							
+		k_cyprus = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_28				
+				}					
+			}						
+		}							
+		k_trebizond = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_29				
+				}					
+			}						
+		}							
+		k_cherson = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_30				
+				}					
+			}						
+		}							
+		k_armeniacon = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_31				
+				}					
+			}						
+		}							
+		k_armenia_minor = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_32				
+				}					
+			}						
+		}							
+		k_seleukeia = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_33				
+				}					
+			}						
+		}							
+		k_turnovo = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_34				
+				}					
+			}						
+		}							
+		k_karvuna = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_35				
+				}					
+			}						
+		}							
+		k_adrianopolis = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_36				
+				}					
+			}						
+		}							
+		k_vidin = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_37				
+				}					
+			}						
+		}							
+		k_ohrid = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_38				
+				}					
+			}						
+		}							
+		k_rashka = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_39				
+				}					
+			}						
+		}							
+		k_macva = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_40				
+				}					
+			}						
+		}							
+		k_hum = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_41				
+				}					
+			}						
+		}							
+		k_dioclea = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_42				
+				}					
+			}						
+		}							
+		k_ragusa = {							
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_43				
+				}					
+			}						
+		}							
+		
+		## Making Strategos job titles primary
 		k_abydos_theme = {	
 			make_primary_title = yes
 		}	
@@ -156,8 +1392,9 @@ character_event = {
 		k_ragusa_theme = {	
 			make_primary_title = yes
 		}	
-
-		any_title = {
+		
+		
+		any_title = { ## Distributing civilian titles to civilians
 			limit = {
 				roman_administration_theme_title_trigger = yes
 				NOT = { holder = ROOT }
@@ -247,64 +1484,54 @@ character_event = {
 			}
 		}
 		
-		# d_opsikon = {
+		# d_edessa = {
+			# limit = {
+				# roman_administration_theme_title_trigger = yes
+				# NOT = { holder = ROOT }
+			# }
 			# holder_scope = { # Creating the civilian theme new holder and the military theme new older if character is too young and give them the titles
-				# save_event_target_as = military_theme_holder
-				# create_random_steward = {			
-					# random_traits = yes		
-					# dynasty = random		
-					# female = no		
-					# attributes = {		
-						# diplomacy = 2	
-						# learning = 2	
-						# stewardship = 8	
-						# intrigue = 2	
-						# martial = 2	
-					# }		
-				# }			
-				# new_character = {			
-					# save_event_target_as = civilian_theme_new_holder		
-					# set_character_flag = civilian_theme_new_holder		
-				# }
-				# any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
-					# limit = {
-						# holder = event_target:military_theme_holder
-						# NOT = { 
-							# tier = baron 
-							# OR = {
-								# title = k_opsikon_theme
-								# title = k_roman_family_1
-							# }
-						# }		
-					# }			
-					# grant_title_no_opinion = event_target:civilian_theme_new_holder			
-				# }
-				# if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was not underage
+				# if = { #is_adult = yes
 					# limit = {
 						# is_adult = yes
 					# }
-					# event_target:civilian_theme_new_holder = {
+					# save_event_target_as = military_theme_holder
+					# create_random_steward = {			
+						# random_traits = yes		
+						# dynasty = random		
+						# female = no		
+						# attributes = {		
+							# diplomacy = 2	
+							# learning = 2	
+							# stewardship = 8	
+							# intrigue = 2	
+							# martial = 2	
+						# }		
+					# }			
+					# new_character = {			
+						# save_event_target_as = civilian_theme_new_holder		
+						# set_character_flag = civilian_theme_new_holder		
+					# }
+					# any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
+						# limit = {
+							# holder = event_target:military_theme_holder
+							# NOT = { 
+								# tier = baron 
+								# roman_administration_family_title_trigger = yes
+								# roman_adminisration_strategos_title_trigger = yes
+							# }		
+						# }			
+						# grant_title_no_opinion = event_target:civilian_theme_new_holder			
+					# }
+					# event_target:civilian_theme_new_holder = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was not underage
 						# make_tributary = {
 							# who = PREV
 							# tributary_type = theme_military
 						# }
-					# }
-					
-				# }
-				# if = { # Create the military thematic relationship otherwise you are fucking lost - when vanilla ducal title holder was underage
-					# limit = {
-						# is_adult = no
-					# }
-					# event_target:civilian_theme_new_holder = {
-						# make_tributary = {
-							# who = event_target:military_theme_new_holder
-							# tributary_type = theme_military
-						# }
-					# }
-				# }
+					# }					
+				# }				
 			# }
 		# }
-			
+	
 	}	
 
 }

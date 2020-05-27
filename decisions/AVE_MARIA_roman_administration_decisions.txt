@@ -55,7 +55,7 @@ decisions = {
 			any_vassal = {
 				limit = {
 					primary_title = {
-						has_title_flag = roman_administration_tagma_title
+						roman_adminisration_tagma_title_held_trigger = yes
 					}
 				}
 				NOT = {

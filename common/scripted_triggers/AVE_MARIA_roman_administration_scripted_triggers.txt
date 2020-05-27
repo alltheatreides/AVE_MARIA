@@ -62,6 +62,14 @@ roman_administration_theme_title_trigger = {
 		title = k_hum
 		title = k_dioclea
 		title = k_ragusa		
+		
+		## Test test
+		title = d_edessa
+		
+		## Test test
+		title = e_null_utility
+		title = k_null_utility
+		title = d_roman_family_1
 	}
 }
 
@@ -108,105 +116,119 @@ roman_adminisration_strategos_title_trigger = {
 		title = k_hum_theme
 		title = k_dioclea_theme
 		title = k_ragusa_theme
+		
+		## Test test
+		title = d_edessa_theme
+		
+		## Test test
+		title = e_null_utility
+		title = k_null_utility
+		title = d_roman_family_1
 	}
 }
 
 roman_administration_administrative_title_trigger = {
 	OR = {
 		# Civilian theme SWMH
-		title = d_abydos
-		title = d_thrace
-		title = d_strymon
-		title = d_thessalonika
-		title = d_neopatras
-		title = d_dyrrachion
-		title = d_epirus
-		title = d_cephalonia
-		title = d_athens
-		title = d_achaia
-		title = d_krete
-		title = d_paphlagonia
-		title = d_boukellarion
-		title = d_samos
-		title = d_thracesia
+		title = k_abydos
+		title = k_thrace
+		title = k_strymon
+		title = k_thessalonika
+		title = k_neopatras
+		title = k_dyrrachion
+		title = k_epirus
+		title = k_cephalonia
+		title = k_athens
+		title = k_achaia
+		title = k_krete
+		title = k_paphlagonia
+		title = k_boukellarion
+		title = k_samos
+		title = k_thracesia
 		title = k_opsikon
-		title = d_optimatoi
-		title = d_cibyrrhaeot
-		title = d_charsianon
-		title = d_cappadocia
-		title = d_coloneia
-		title = d_sebasteia
-		title = d_lykandos
-		title = d_anatolia
-		title = d_melitene
-		title = d_cyprus
-		title = d_trebizond
-		title = d_cherson
-		title = d_armeniacon
-		title = d_armenia_minor
-		title = d_seleukeia
-		title = d_turnovo
-		title = d_karvuna
-		title = d_adrianopolis
-		title = d_vidin
-		title = d_ohrid
-		title = d_rashka
-		title = d_macva
-		title = d_hum
-		title = d_dioclea
-		title = d_ragusa
-		
-		## Family ducal titles
-		title = k_roman_family_1
-		
-		# Military Theme from SWMH Civilian Theme
-		title = d_abydos_theme
-		title = d_thrace_theme
-		title = d_strymon_theme
-		title = d_thessalonika_theme
-		title = d_neopatras_theme
-		title = d_dyrrachion_theme
-		title = d_epirus_theme
-		title = d_cephalonia_theme
-		title = d_athens_theme
-		title = d_achaia_theme
-		title = d_krete_theme
-		title = d_paphlagonia_theme
-		title = d_boukellarion_theme
-		title = d_samos_theme
-		title = d_thracesia_theme
+		title = k_optimatoi
+		title = k_cibyrrhaeot
+		title = k_charsianon
+		title = k_cappadocia
+		title = k_coloneia
+		title = k_sebasteia
+		title = k_lykandos
+		title = k_anatolia
+		title = k_melitene
+		title = k_cyprus
+		title = k_trebizond
+		title = k_cherson
+		title = k_armeniacon
+		title = k_armenia_minor
+		title = k_seleukeia
+		title = k_turnovo
+		title = k_karvuna
+		title = k_adrianopolis
+		title = k_vidin
+		title = k_ohrid
+		title = k_rashka
+		title = k_macva
+		title = k_hum
+		title = k_dioclea
+		title = k_ragusa
+				
+		# Military Theme from SWMH
+		title = k_abydos_theme
+		title = k_thrace_theme
+		title = k_strymon_theme
+		title = k_thessalonika_theme
+		title = k_neopatras_theme
+		title = k_dyrrachion_theme
+		title = k_epirus_theme
+		title = k_cephalonia_theme
+		title = k_athens_theme
+		title = k_achaia_theme
+		title = k_krete_theme
+		title = k_paphlagonia_theme
+		title = k_boukellarion_theme
+		title = k_samos_theme
+		title = k_thracesia_theme
 		title = k_opsikon_theme
-		title = d_optimatoi_theme
-		title = d_cibyrrhaeot_theme
-		title = d_charsianon_theme
-		title = d_cappadocia_theme
-		title = d_coloneia_theme
-		title = d_sebasteia_theme
-		title = d_lykandos_theme
-		title = d_anatolia_theme
-		title = d_melitene_theme
-		title = d_cyprus_theme
-		title = d_trebizond_theme
-		title = d_cherson_theme
-		title = d_armeniacon_theme
-		title = d_armenia_minor_theme
-		title = d_seleukeia_theme
-		title = d_turnovo_theme
-		title = d_karvuna_theme
-		title = d_adrianopolis_theme
-		title = d_vidin_theme
-		title = d_ohrid_theme
-		title = d_rashka_theme
-		title = d_macva_theme
-		title = d_hum_theme
-		title = d_dioclea_theme
-		title = d_ragusa_theme
+		title = k_optimatoi_theme
+		title = k_cibyrrhaeot_theme
+		title = k_charsianon_theme
+		title = k_cappadocia_theme
+		title = k_coloneia_theme
+		title = k_sebasteia_theme
+		title = k_lykandos_theme
+		title = k_anatolia_theme
+		title = k_melitene_theme
+		title = k_cyprus_theme
+		title = k_trebizonk_theme
+		title = k_cherson_theme
+		title = k_armeniacon_theme
+		title = k_armenia_minor_theme
+		title = k_seleukeia_theme
+		title = k_turnovo_theme
+		title = k_karvuna_theme
+		title = k_adrianopolis_theme
+		title = k_vidin_theme
+		title = k_ohrik_theme
+		title = k_rashka_theme
+		title = k_macva_theme
+		title = k_hum_theme
+		title = k_dioclea_theme
+		title = k_ragusa_theme
 		
 		## others
 		has_title_flag = created_family_county_title
 		has_title_flag = created_military_theme_title
 		has_title_flag = roman_administration_civilian_theme
 		has_title_flag = roman_administration_central_judicial_official_bureau
+		
+		## Test test
+		title = d_edessa
+		title = d_edessa_theme
+		
+		## Test test
+		title = e_null_utility
+		title = k_null_utility
+		title = d_roman_family_1
 	}
 }
 
@@ -272,7 +294,64 @@ roman_administration_family_title_trigger = {
 		title = k_roman_family_58
 		title = k_roman_family_59
 		title = k_roman_family_60
-
+		title = k_roman_family_61
+		title = k_roman_family_62
+		title = k_roman_family_63
+		title = k_roman_family_64
+		title = k_roman_family_65
+		title = k_roman_family_66
+		title = k_roman_family_67
+		title = k_roman_family_68
+		title = k_roman_family_69
+		title = k_roman_family_70
+		title = k_roman_family_71
+		title = k_roman_family_72
+		title = k_roman_family_73
+		title = k_roman_family_74
+		title = k_roman_family_75
+		title = k_roman_family_76
+		title = k_roman_family_77
+		title = k_roman_family_78
+		title = k_roman_family_79
+		title = k_roman_family_80
+		title = k_roman_family_81
+		title = k_roman_family_82
+		title = k_roman_family_83
+		title = k_roman_family_84
+		title = k_roman_family_85
+		title = k_roman_family_86
+		title = k_roman_family_87
+		title = k_roman_family_88
+		title = k_roman_family_89
+		title = k_roman_family_90
+		title = k_roman_family_91
+		title = k_roman_family_92
+		title = k_roman_family_93
+		title = k_roman_family_94
+		title = k_roman_family_95
+		title = k_roman_family_96
+		title = k_roman_family_97
+		title = k_roman_family_98
+		title = k_roman_family_99
+		title = k_roman_family_100
+		title = k_roman_family_101
+		title = k_roman_family_102
+		title = k_roman_family_103
+		title = k_roman_family_104
+		title = k_roman_family_105
+		title = k_roman_family_106
+		title = k_roman_family_107
+		title = k_roman_family_108
+		title = k_roman_family_109
+		title = k_roman_family_110
+		title = k_roman_family_111
+		title = k_roman_family_112
+		title = k_roman_family_113
+		
+		## Test test
+		title = e_null_utility
+		title = k_null_utility
+		title = d_roman_family_1
 	}
 }
 

@@ -1,9 +1,75 @@
 # -*- ck2.history.titles -*-
 
+330.1.1 = {
+	liege = e_byzantium
+	# vice_royalty = yes
+}
+688.1.1 = {
+	liege = 0
+	# vice_royalty = no
+}
+965.1.1 = {
+	liege = e_byzantium
+	# vice_royalty = yes
+	holder = 1500484 # Niketas Chalkoutzes. Naval Commander, led the Conquest of Cyprus	
+}
+966.1.1 = {
+	holder = 1234604 # Vakram. Armenian Governor of Cyprus. Very dark period after his governorship until around 1000, so i'm making him a long-term governor
+}
+991.1.1 = {
+	holder = 1232312 # Theodotos Diogenes
+}
+1028.1.1 = {
+	holder = 1500376
+}
+1041.1.1 = {
+	holder = 1232440
+}
+1042.1.1 = {
+	holder = 1232180
+}
+1056.1.1 = {
+	holder = 41303
+}
+1065.1.1 = {
+	holder = 1232510
+}
+1085.1.1 = {
+	holder = 1232172
+}
+1092.6.1 = {
+	liege = 0
+}
+1093.1.1 = {
+	liege = e_byzantium
+	holder = 34348
+}
+1118.1.1 = {
+	holder = 34344
+}
+1122.1.1 = {
+	holder = 232531
+}
+1136.1.1 = {
+	holder = 1232241
+}
+1155.1.1 = {
+	holder = 215570
+}
+1176.1.2 = {
+	holder = 34275
+}
+1185.9.12 = {
+	liege = 0
+	holder = 223020
+	# vice_royalty = no
+}
+1191.5.1 = {
+	holder = 204510
+}
 1192.5.3 = {
+	liege = k_cyprus
 	holder = 223500 # Guy of Lusignan
-	law = cognatic_succession
-	law = succ_primogeniture
 }
 1194.4.1 = {
 	holder = 223505 # Amalric II of Jerusalem / Amalric II of Lusignan

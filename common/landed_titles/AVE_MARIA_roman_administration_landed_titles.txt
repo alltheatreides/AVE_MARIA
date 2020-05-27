@@ -11,9 +11,8 @@
 
 
 ###########################################
-# Great Families titular titles           #
+# Great Families titles           		  #
 ###########################################
-
 e_null_utility = {
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
@@ -22,28 +21,2494 @@ e_null_utility = {
 	can_be_claimed = no
 	short_name = yes
 	
-	k_roman_family_1 = {			
-		color = { 255 255 0 }		
-		graphical_culture = byzantinegfx		
-		capital = 496		
-		culture = greek		
-		title = "Eugeneios"		
-		landless = yes		
-		can_be_usurped = no		
-		duchy_revokation = no		
-		can_be_claimed = no		
-		assimilate = no		
-		
-		d_null_utility = {
-			color = { 205 104 170 }
-			color2 = { 255 255 255 }
-			c_null_utility = {
-				b_null_utility = {
-					
-				}
-			}
-		}
-	}
+	k_roman_family_1 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_1 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_1 = {			
+				b_null_utility_1 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_2 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_2 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_2 = {			
+				b_null_utility_2 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_3 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_3 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_3 = {			
+				b_null_utility_3 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_4 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_4 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_4 = {			
+				b_null_utility_4 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_5 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_5 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_5 = {			
+				b_null_utility_5 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_6 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_6 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_6 = {			
+				b_null_utility_6 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_7 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_7 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_7 = {			
+				b_null_utility_7 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_8 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_8 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_8 = {			
+				b_null_utility_8 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_9 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_9 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_9 = {			
+				b_null_utility_9 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_10 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_10 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_10 = {			
+				b_null_utility_10 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_11 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_11 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_11 = {			
+				b_null_utility_11 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_12 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_12 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_12 = {			
+				b_null_utility_12 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_13 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_13 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_13 = {			
+				b_null_utility_13 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_14 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_14 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_14 = {			
+				b_null_utility_14 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_15 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_15 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_15 = {			
+				b_null_utility_15 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_16 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_16 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_16 = {			
+				b_null_utility_16 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_17 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_17 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_17 = {			
+				b_null_utility_17 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_18 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_18 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_18 = {			
+				b_null_utility_18 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_19 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_19 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_19 = {			
+				b_null_utility_19 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_20 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_20 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_20 = {			
+				b_null_utility_20 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_21 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_21 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_21 = {			
+				b_null_utility_21 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_22 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_22 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_22 = {			
+				b_null_utility_22 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_23 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_23 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_23 = {			
+				b_null_utility_23 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_24 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_24 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_24 = {			
+				b_null_utility_24 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_25 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_25 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_25 = {			
+				b_null_utility_25 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_26 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_26 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_26 = {			
+				b_null_utility_26 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_27 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_27 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_27 = {			
+				b_null_utility_27 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_28 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_28 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_28 = {			
+				b_null_utility_28 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_29 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_29 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_29 = {			
+				b_null_utility_29 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_30 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_30 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_30 = {			
+				b_null_utility_30 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_31 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_31 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_31 = {			
+				b_null_utility_31 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_32 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_32 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_32 = {			
+				b_null_utility_32 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_33 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_33 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_33 = {			
+				b_null_utility_33 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_34 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_34 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_34 = {			
+				b_null_utility_34 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_35 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_35 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_35 = {			
+				b_null_utility_35 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_36 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_36 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_36 = {			
+				b_null_utility_36 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_37 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_37 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_37 = {			
+				b_null_utility_37 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_38 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_38 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_38 = {			
+				b_null_utility_38 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_39 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_39 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_39 = {			
+				b_null_utility_39 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_40 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_40 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_40 = {			
+				b_null_utility_40 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_41 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_41 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_41 = {			
+				b_null_utility_41 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_42 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_42 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_42 = {			
+				b_null_utility_42 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_43 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_43 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_43 = {			
+				b_null_utility_43 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_44 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_44 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_44 = {			
+				b_null_utility_44 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_45 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_45 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_45 = {			
+				b_null_utility_45 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_46 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_46 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_46 = {			
+				b_null_utility_46 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_47 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_47 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_47 = {			
+				b_null_utility_47 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_48 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_48 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_48 = {			
+				b_null_utility_48 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_49 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_49 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_49 = {			
+				b_null_utility_49 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_50 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_50 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_50 = {			
+				b_null_utility_50 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_51 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_51 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_51 = {			
+				b_null_utility_51 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_52 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_52 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_52 = {			
+				b_null_utility_52 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_53 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_53 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_53 = {			
+				b_null_utility_53 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_54 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_54 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_54 = {			
+				b_null_utility_54 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_55 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_55 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_55 = {			
+				b_null_utility_55 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_56 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_56 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_56 = {			
+				b_null_utility_56 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_57 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_57 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_57 = {			
+				b_null_utility_57 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_58 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_58 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_58 = {			
+				b_null_utility_58 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_59 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_59 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_59 = {			
+				b_null_utility_59 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_60 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_60 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_60 = {			
+				b_null_utility_60 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_61 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_61 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_61 = {			
+				b_null_utility_61 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_62 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_62 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_62 = {			
+				b_null_utility_62 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_63 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_63 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_63 = {			
+				b_null_utility_63 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_64 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_64 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_64 = {			
+				b_null_utility_64 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_65 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_65 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_65 = {			
+				b_null_utility_65 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_66 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_66 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_66 = {			
+				b_null_utility_66 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_67 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_67 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_67 = {			
+				b_null_utility_67 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_68 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_68 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_68 = {			
+				b_null_utility_68 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_69 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_69 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_69 = {			
+				b_null_utility_69 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_70 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_70 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_70 = {			
+				b_null_utility_70 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_71 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_71 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_71 = {			
+				b_null_utility_71 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_72 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_72 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_72 = {			
+				b_null_utility_72 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_73 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_73 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_73 = {			
+				b_null_utility_73 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_74 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_74 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_74 = {			
+				b_null_utility_74 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_75 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_75 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_75 = {			
+				b_null_utility_75 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_76 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_76 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_76 = {			
+				b_null_utility_76 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_77 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_77 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_77 = {			
+				b_null_utility_77 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_78 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_78 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_78 = {			
+				b_null_utility_78 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_79 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_79 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_79 = {			
+				b_null_utility_79 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_80 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_80 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_80 = {			
+				b_null_utility_80 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_81 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_81 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_81 = {			
+				b_null_utility_81 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_82 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_82 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_82 = {			
+				b_null_utility_82 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_83 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_83 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_83 = {			
+				b_null_utility_83 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_84 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_84 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_84 = {			
+				b_null_utility_84 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_85 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_85 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_85 = {			
+				b_null_utility_85 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_86 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_86 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_86 = {			
+				b_null_utility_86 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_87 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_87 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_87 = {			
+				b_null_utility_87 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_88 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_88 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_88 = {			
+				b_null_utility_88 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_89 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_89 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_89 = {			
+				b_null_utility_89 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_90 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_90 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_90 = {			
+				b_null_utility_90 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_91 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_91 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_91 = {			
+				b_null_utility_91 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_92 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_92 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_92 = {			
+				b_null_utility_92 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_93 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_93 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_93 = {			
+				b_null_utility_93 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_94 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_94 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_94 = {			
+				b_null_utility_94 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_95 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_95 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_95 = {			
+				b_null_utility_95 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_96 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_96 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_96 = {			
+				b_null_utility_96 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_97 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_97 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_97 = {			
+				b_null_utility_97 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_98 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_98 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_98 = {			
+				b_null_utility_98 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_99 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_99 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_99 = {			
+				b_null_utility_99 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_100 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_100 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_100 = {			
+				b_null_utility_100 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_101 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_101 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_101 = {			
+				b_null_utility_101 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_102 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_102 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_102 = {			
+				b_null_utility_102 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_103 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_103 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_103 = {			
+				b_null_utility_103 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_104 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_104 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_104 = {			
+				b_null_utility_104 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_105 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_105 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_105 = {			
+				b_null_utility_105 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_106 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_106 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_106 = {			
+				b_null_utility_106 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_107 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_107 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_107 = {			
+				b_null_utility_107 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_108 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_108 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_108 = {			
+				b_null_utility_108 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_109 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_109 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_109 = {			
+				b_null_utility_109 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_110 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_110 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_110 = {			
+				b_null_utility_110 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_111 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_111 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_111 = {			
+				b_null_utility_111 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_112 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_112 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_112 = {			
+				b_null_utility_112 = {		
+						
+				}		
+			}			
+		}				
+	}					
+	k_roman_family_113 = {					
+		color = { 255 255 0 }				
+		graphical_culture = byzantinegfx				
+		capital = 496				
+		culture = greek				
+		title = "Eugeneios"				
+		landless = yes				
+		can_be_usurped = no				
+		duchy_revokation = no				
+		can_be_claimed = no				
+		assimilate = no				
+						
+		d_null_utility_113 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_113 = {			
+				b_null_utility_113 = {		
+						
+				}		
+			}			
+		}				
+	}					
+
+
 	
 	k_null_utility = {
 		color = { 38 38 38 }
@@ -54,11 +2519,13 @@ e_null_utility = {
 		short_name = yes
 		
 		
-		
 	}
 		
 }
 
+###########################################
+# Military Offices titles		  		  #
+###########################################
 e_null_utility_2 = {
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
@@ -72,6 +2539,8 @@ e_null_utility_2 = {
 		color = { 104 8 103 }
 		color2 = { 255 255 255 }
 		capital = 484 # Kykládes # Naxos
+		culture = greek
+		title = "Strategos"
 		sardinian = "dell'arcipelago"
 		dalmatian = "dell'arcipelago"
 		sicilian = "dell'arcipelago"
@@ -88,6 +2557,8 @@ e_null_utility_2 = {
 		color = { 194 129 1 }
 		color2 = { 255 255 255 }
 		capital = 496 # Konstantinoupolis # Byzantion
+		culture = greek
+		title = "Strategos"
 		norman = "Thrace"
 		frankish = "Thrace"
 		bulgarian = "Trakija"
@@ -116,11 +2587,15 @@ e_null_utility_2 = {
 		turkish = "Serez"
 		pecheneg = "Serez"
 		capital = 492 # Strymonos # Strymon
+		culture = greek
+		title = "Strategos"
 	}
 	k_thessalonika_theme = {
 		color = { 205 22 30 }
 		color2 = { 255 255 255 }
 		capital = 490 # Thessaloníke # Thessalonike
+		culture = greek
+		title = "Strategos"
 		frankish = "Thessalonique"
 		norman = "Thessalonique"
 		dalmatian = "Tessalonica"
@@ -145,6 +2620,8 @@ e_null_utility_2 = {
 		color = { 64 90 64 }
 		color2 = { 255 255 20 }
 		capital = 1224 # Neai Patrai # Neopatras
+		culture = greek
+		title = "Strategos"
 		sardinian = "Neopatras"
 		dalmatian = "Neopatras"
 		sicilian = "Neopatras"
@@ -170,6 +2647,8 @@ e_null_utility_2 = {
 		color = { 38 38 38 }
 		color2 = { 255 255 255 }
 		capital = 470 # Dyrrakhiou # Dyrrachion
+		culture = greek
+		title = "Strategos"
 		serbian = "Drac"
 		bulgarian = "Drac"
 		sardinian = "Durazzo"
@@ -194,6 +2673,8 @@ e_null_utility_2 = {
 		color = { 48 111 135 }
 		color2 = { 255 255 20 }
 		capital = 473 # Nikopolis # Arta
+		culture = greek
+		title = "Strategos"
 		frankish = "Épire"
 		norman = "Épire"
 		sardinian = "Epirus"
@@ -216,6 +2697,8 @@ e_null_utility_2 = {
 		color = { 48 111 135 }
 		color2 = { 255 255 255 }
 		capital = 474 # Kephallenia # Cephalonia
+		culture = greek
+		title = "Strategos"
 		sardinian = "Cefalonia"
 		dalmatian = "Cefalonia"
 		sicilian = "Cefalonia"
@@ -241,6 +2724,8 @@ e_null_utility_2 = {
 		color = { 186 206 253 }
 		color2 = { 255 255 255 }
 		capital = 482 # Attika # Atheniai
+		culture = greek
+		title = "Strategos"
 		frankish = "Athènes"
 		norman = "Athènes"
 		sardinian = "Atene"
@@ -264,6 +2749,8 @@ e_null_utility_2 = {
 		color = { 246 188 0 }
 		color2 = { 255 255 255 }
 		capital = 481 # Korinthos
+		culture = greek
+		title = "Strategos"
 		frankish = "Achaïe"
 		norman = "Achaïe"
 		sardinian = "Achaia"
@@ -283,6 +2770,78 @@ e_null_utility_2 = {
 		pecheneg = "Morá"
 	}
 	
+	## Nikaea SWMH Kingdom
+	k_paphlagonia_theme = {
+		color = { 112 109 67 }
+		color2 = { 255 255 255 }
+		capital = 751 # Paphlagonia
+		culture = greek
+		title = "Strategos"
+		frankish = "Paphlagonie"
+		norman = "Paphlagonie"
+		sardinian = "Paphlagonia"
+		dalmatian = "Paphlagonia"
+		sicilian = "Paphlagonia"
+		umbrian = "Paphlagonia"
+		italian = "Paphlagonia"
+		laziale = "Paphlagonia"
+		langobardisch = "Paphlagonia"
+		neapolitan = "Paphlagonia"
+		tuscan = "Paphlagonia"
+		ligurian = "Paphlagonia"
+		venetian = "Paphlagonia"
+		bedouin_arabic = "Aflakhúniya"
+		hijazi = "Aflakhúniya"
+		yemeni = "Aflakhúniya"
+		maghreb_arabic = "Aflakhúniya"
+		levantine_arabic = "Aflakhúniya"
+		egyptian_arabic = "Aflakhúniya"
+		andalusian_arabic = "Aflakhúniya"
+		sicilian_arabic = "Aflakhúniya"
+		oghuz = "Kastamoni"
+		turkmen = "Kastamoni"
+		turkish = "Kastamoni"
+	}
+	k_boukellarion_theme = {
+		color = { 80 159 20 }
+		color2 = { 255 255 255 }
+		capital = 753 # Ankyra
+		culture = greek
+		title = "Strategos"
+		frankish = "Bucellaires"
+		norman = "Bucellaires"
+		oghuz = "Engürü"
+		turkmen = "Engürü"
+		turkish = "Engürü"
+	}
+	k_samos_theme = {
+		color = { 67 112 88 }
+		color2 = { 255 255 255 }
+		capital = 745 # Smyrna
+		culture = greek
+		title = "Strategos"
+		oghuz = "Izmir"
+		turkmen = "Izmir"
+		turkish = "Aydin"
+	}
+	k_thracesia_theme = {
+		color = { 154 43 116 }
+		color2 = { 255 255 255 }
+		capital = 748 # Karía # Laodikeia
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Tarqasís"
+		hijazi = "Tarqasís"
+		yemeni = "Tarqasís"
+		maghreb_arabic = "Tarqasís"
+		levantine_arabic = "Tarqasís"
+		egyptian_arabic = "Tarqasís"
+		andalusian_arabic = "Tarqasís"
+		sicilian_arabic = "Tarqasís"
+		oghuz = "Ala Šehir"
+		turkmen = "Ala Šehir"
+		turkish = "Ala Šehir"
+	}
 	k_opsikon_theme = {
 		color = { 36 83 169 }
 		color2 = { 255 255 255 }
@@ -324,6 +2883,572 @@ e_null_utility_2 = {
 			}
 		}
 	}
+	k_optimatoi_theme = {
+		color = { 136 83 69 }
+		color2 = { 255 255 20 }
+		capital = 741 # Nikomedeia
+		culture = greek
+		title = "Strategos"
+		frankish = "Nicomédie"
+		norman = "Nicomédie"
+		sardinian = "Nicomedia"
+		dalmatian = "Nicomedia"
+		sicilian = "Nicomedia"
+		umbrian = "Nicomedia"
+		italian = "Nicomedia"
+		laziale = "Nicomedia"
+		langobardisch = "Nicomedia"
+		neapolitan = "Nicomedia"
+		tuscan = "Nicomedia"
+		ligurian = "Nicomedia"
+		venetian = "Nicomedia"
+		bedouin_arabic = "Uftimát"
+		sicilian_arabic = "Uftimát"
+		hijazi = "Uftimát"
+		yemeni = "Uftimát"
+		maghreb_arabic = "Uftimát"
+		levantine_arabic = "Uftimát"
+		egyptian_arabic = "Uftimát"
+		andalusian_arabic = "Uftimát"
+		oghuz = "Koca-eli"
+		turkmen = "Koca-eli"
+		turkish = "Koca-eli"
+	}
+	k_cibyrrhaeot_theme = {
+		color = { 44 83 40 }
+		color2 = { 255 255 255 }
+		capital = 755 # Attáleia # Attaleia
+		culture = greek
+		title = "Strategos"
+		frankish = "Cibyrrhéotes"
+		norman = "Cibyrrhéotes"
+		sardinian = "Cibirreoti"
+		dalmatian = "Cibirreoti"
+		sicilian = "Cibirreoti"
+		umbrian = "Cibirreoti"
+		italian = "Cibirreoti"
+		laziale = "Cibirreoti"
+		langobardisch = "Cibirreoti"
+		neapolitan = "Cibirreoti"
+		tuscan = "Cibirreoti"
+		ligurian = "Cibirreoti"
+		venetian = "Cibirreoti"
+		oghuz = "Menteše"
+		turkmen = "Menteše"
+		turkish = "Menteše"
+	}
+	
+	## Ikonion SWMH Kingdom
+	k_charsianon_theme = {
+		color = { 143 23 130 }
+		color2 = { 255 255 255 }
+		capital = 737 # Kaisareia # Kaisereia
+		culture = greek
+		title = "Strategos"
+		armenian = "Gesaria"
+		norman = "Césarée"
+		frankish = "Césarée"
+		bedouin_arabic = "Kharshana"
+		sicilian_arabic = "Kharshana"
+		hijazi = "Kharshana"
+		yemeni = "Kharshana"
+		maghreb_arabic = "Kharshana"
+		levantine_arabic = "Kharshana"
+		egyptian_arabic = "Kharshana"
+		andalusian_arabic = "Kharshana"
+		oghuz = "Kayseriye"
+		turkmen = "Kayseriye"
+		turkish = "Kayseriye"
+	}
+	k_cappadocia_theme = {
+		color = { 109 95 80 }
+		color2 = { 255 255 255 }
+		capital = 760 # Tyana
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Qabádhaq"
+		hijazi = "Qabádhaq"
+		yemeni = "Qabádhaq"
+		maghreb_arabic = "Qabádhaq"
+		levantine_arabic = "Qabádhaq"
+		egyptian_arabic = "Qabádhaq"
+		andalusian_arabic = "Qabádhaq"
+		sicilian_arabic = "Qabádhaq"
+		oghuz = "Nigde"
+		turkmen = "Nigde"
+		turkish = "Nigde"
+	}
+	k_coloneia_theme = {
+		color = { 217 127 61 }
+		color2 = { 255 255 255 }
+		capital = 706 # Koloneia
+		culture = greek
+		title = "Strategos"
+		norman = "Colonée"
+		frankish = "Colonée"
+		oghuz = "Divrigi"
+		turkmen = "Divrigi"
+		turkish = "Divrigi"
+	}
+	k_sebasteia_theme = {
+		color = { 17 50 61 }
+		color2 = { 255 255 255 }
+		capital = 1218 # Sebasteia # Sebastia
+		culture = greek
+		title = "Strategos"
+		armenian = "Sebasta"
+		arpitan = "Sébaste"
+		frankish = "Sébaste"
+		oghuz = "Sivas"
+		turkmen = "Sivas"
+		turkish = "Sivas"
+	}
+	k_lykandos_theme = {
+		color = { 30 220 31 }
+		color2 = { 255 255 255 }
+		capital = 736 # Lykandos
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Ablustain"
+		sicilian_arabic = "Ablustain"
+		hijazi = "Ablustain"
+		yemeni = "Ablustain"
+		maghreb_arabic = "Ablustain"
+		levantine_arabic = "Ablustain"
+		egyptian_arabic = "Ablustain"
+		andalusian_arabic = "Ablustain"
+		armenian = "Ablastayn"
+		oghuz = "Elbistan"
+		turkmen = "Elbistan"
+		turkish = "Elbistan"
+	}
+	k_anatolia_theme = {
+		color = { 255 206 45 }
+		color2 = { 255 255 255 }
+		capital = 759 # Ikonion
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Nátlíq"
+		sicilian_arabic = "Nátlíq"
+		hijazi = "Nátlíq"
+		yemeni = "Nátlíq"
+		maghreb_arabic = "Nátlíq"
+		levantine_arabic = "Nátlíq"
+		egyptian_arabic = "Nátlíq"
+		andalusian_arabic = "Nátlíq"
+		oghuz = "Rúm"
+		turkmen = "Rúm"
+		turkish = "Rúm"
+	}
+	k_melitene_theme = {
+		color = { 27 56 162 }
+		color2 = { 255 255 255 }
+		capital = 707 # Melitene
+		culture = greek
+		title = "Strategos"
+		armenian = "Malat'ya"
+		oghuz = "Malatiya"
+		turkmen = "Malatiya"
+		turkish = "Malatiya"
+		frankish = "Melitena"
+		norman = "Melitena"
+		kurdish = "Meletî"
+		greek = "Melitene"
+	}	
+	
+	## Cyprus SWMH Kingdom
+	k_cyprus_theme = {
+		color = { 85 138 236 }
+		color2 = { 255 255 255 }
+		capital = 1069 # Leukousía # Nikosia # Nicosia
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Qubrus"
+		sicilian_arabic = "Qubrus"
+		hijazi = "Qubrus"
+		yemeni = "Qubrus"
+		maghreb_arabic = "Qubrus"
+		levantine_arabic = "Qubrus"
+		egyptian_arabic = "Qubrus"
+		andalusian_arabic = "Qubrus"
+		oghuz = "Kibris"
+		turkmen = "Kibris"
+		turkish = "Kibris"
+		frankish = "Chypre"
+		norman = "Chypre"
+		sardinian = "Cipro"
+		dalmatian = "Cipro"
+		sicilian = "Cipro"
+		umbrian = "Cipro"
+		italian = "Cipro"
+		laziale = "Cipro"
+		langobardisch = "Cipro"
+		neapolitan = "Cipro"
+		tuscan = "Cipro"
+		ligurian = "Cipro"
+		venetian = "Cipro"
+	}
+	
+	## Trebizond SWMH Kingdom
+	k_trebizond_theme = {
+		color = { 99 150 32 }
+		color2 = { 255 255 255 }
+		capital = 678 # Trapezous
+		culture = greek
+		title = "Strategos"
+		bedouin_arabic = "Kháldiya"
+		hijazi = "Kháldiya"
+		yemeni = "Kháldiya"
+		maghreb_arabic = "Kháldiya"
+		levantine_arabic = "Kháldiya"
+		egyptian_arabic = "Kháldiya"
+		andalusian_arabic = "Kháldiya"
+		sicilian_arabic = "Kháldiya"
+		oghuz = "Trabzun"
+		turkmen = "Trabzun"
+		turkish = "Trabzun"
+		armenian = "Trapizon"
+		georgian = "T'rap'izoni"
+		frankish = "Chaldée"
+		norman = "Chaldée"
+		sardinian = "Chaldia"
+		dalmatian = "Chaldia"
+		sicilian = "Chaldia"
+		umbrian = "Chaldia"
+		italian = "Chaldia"
+		laziale = "Chaldia"
+		langobardisch = "Chaldia"
+		neapolitan = "Chaldia"
+		tuscan = "Chaldia"
+		ligurian = "Chaldia"
+		venetian = "Chaldia"
+	}
+	k_cherson_theme = {
+		color = { 225 187 34 }
+		color2 = { 255 255 255 }
+		capital = 560 # Cherson
+		culture = greek
+		title = "Strategos"
+		italian = "Gothia"
+		sardinian = "Gothia"
+		sicilian = "Gothia"
+		umbrian = "Gothia"
+		laziale = "Gothia"
+		neapolitan = "Gothia"
+		tuscan = "Gothia"
+		ligurian = "Gothia"
+		langobardisch = "Gothia"
+		venetian = "Gothia"
+		dalmatian = "Gothia"
+		crimean_gothic = "Theodoro"
+		bohemian = "Cherson"
+		slovieni = "Cherson"
+		pommeranian = "Korsun"
+		polish = "Korsun"
+		serbian = "Korsun"
+		croatian = "Korsun"
+		bosnian = "Korsun"
+		carantanian = "Korsun"
+		russian = "Korsun"
+		bulgarian = "Korsun"
+		khazar = "Sudaq"
+		khavar = "Sudaq"
+		bolghar = "Sudaq"
+		pecheneg = "Sudaq"
+		oghuz = "Sudaq"
+		turkmen = "Sudaq"
+		bashkir = "Sudaq"
+		kasogi = "Sudaq"
+		avar = "Sudaq"
+		karluk = "Sudaq"
+		kirghiz = "Kefe"
+		mongol = "Kefe"
+		cuman = "Kefe"
+		uyghur = "Kefe"
+		turkish = "Kefe"
+	}
+	k_armeniacon_theme = {
+		color = { 188 191 175 }
+		color2 = { 255 255 255 }
+		capital = 941 # Amaseia # Amasia
+		culture = greek
+		title = "Strategos"
+		maghreb_arabic = "Arminyáq"
+		levantine_arabic = "Arminyáq"
+		bedouin_arabic = "Arminyáq"
+		hijazi = "Arminyáq"
+		yemeni = "Arminyáq"
+		egyptian_arabic = "Arminyáq"
+		andalusian_arabic = "Arminyáq"
+		sicilian_arabic = "Arminyáq"
+		oghuz = "Amasiyya"
+		turkmen = "Amasiyya"
+		turkish = "Amasiyya"
+		frankish = "Amasée"
+		norman = "Amasée"
+	}
+	
+	## Kilikia SWMH Kingdom
+	k_armenia_minor_theme = {
+		color = { 36 41 65 }
+		color2 = { 255 255 255 }
+		capital = 969 # Sision # Sis
+		culture = greek
+		title = "Strategos"
+		oghuz = "Ataná"
+		turkmen = "Ataná"
+		turkish = "Ataná"
+		armenian = "Kilikia"
+		frankish = "Cilicie"
+		norman = "Cilicie"
+	}
+	k_seleukeia_theme = {
+		color = { 26 13 107 }
+		color2 = { 255 255 255 }
+		bedouin_arabic = "Salúqiya"
+		hijazi = "Salúqiya"
+		yemeni = "Salúqiya"
+		maghreb_arabic = "Salúqiya"
+		levantine_arabic = "Salúqiya"
+		egyptian_arabic = "Salúqiya"
+		andalusian_arabic = "Salúqiya"
+		sicilian_arabic = "Salúqiya"
+		oghuz = "Silifke"
+		turkmen = "Silifke"
+		turkish = "Qaráman"
+		armenian = "Selewkia"
+		frankish = "Séleph"
+		norman = "Séleph"
+		capital = 758 # Seleukeia
+		culture = greek
+		title = "Strategos"
+	}
+		
+	## Bulgaria SWMH Kingdom
+	k_turnovo_theme = {
+		color = { 88 80 112 }
+		color2 = { 255 255 255 }
+		capital = 499 # Tarnovo # Tyrnovo
+		culture = greek
+		title = "Strategos"
+		greek = "Paristrion"
+		crimean_gothic = "Paristrion"
+		roman = "Paristrion"
+		oghuz = "Nigbolu"
+		turkmen = "Nigbolu"
+		turkish = "Nigbolu"
+		pecheneg = "Nigbolu"
+	}
+	# k_karvuna_theme = {
+		# color = { 63 127 98 }
+		# color2 = { 255 255 255 }
+		# greek = "Mikrá Skythia"
+		# crimean_gothic = "Mikrá Skythia"
+		# oghuz = "Dobruja"
+		# turkmen = "Dobruja"
+		# turkish = "Dobruja"
+		# pecheneg = "Dobruja"
+		# capital = 509 # Karvuna
+	# }
+	k_adrianopolis_theme = {
+		color = { 146 0 5 }
+		color2 = { 255 255 20 }
+		capital = 494 # Adrianopol # Adrianopolis
+		culture = greek
+		title = "Strategos"
+		culture = greek
+		venetian = "Adrianupleos et Didimotichi"
+		bedouin_arabic = "Maqadúniya"
+		hijazi = "Maqadúniya"
+		yemeni = "Maqadúniya"
+		maghreb_arabic = "Maqadúniya"
+		levantine_arabic = "Maqadúniya"
+		egyptian_arabic = "Maqadúniya"
+		andalusian_arabic = "Maqadúniya"
+		sicilian_arabic = "Maqadúniya"
+		sanhaja = "Maqadúniya"
+		tagelmust = "Maqadúniya"
+		tuareg = "Maqadúniya"
+		masmuda = "Maqadúniya"
+		zanata = "Maqadúniya"
+		turkish = "Rumelí"
+		oghuz = "Rumelí"
+		turkmen = "Rumelí"
+		pecheneg = "Rumelí"
+		crimean_gothic = "Makedonía"
+		greek = "Makedonía"
+		hungarian = "Filipápoly"
+		szekely = "Filipápoly"
+		norwegian = "Philippopolis"
+		gothic = "Philippopolis"
+		swedish = "Philippopolis"
+		danish = "Philippopolis"
+		basque = "Philippopolis"
+		aragonese = "Philippopolis"
+		castillan = "Philippopolis"
+		catalan = "Philippopolis"
+		leonese = "Philippopolis"
+		german = "Philippopolis"
+		thuringian = "Philippopolis"
+		swabian = "Philippopolis"
+		bavarian = "Philippopolis"
+		low_saxon = "Philippopolis"
+		franconian = "Philippopolis"
+		low_german = "Philippopolis"
+		low_frankish = "Philippopolis"
+		dutch = "Philippopolis"
+		frankish = "Philippopolis"
+		norman = "Philippopolis"
+		arpitan = "Philippopolis"
+		occitan = "Philippopolis"
+		italian = "Philippopolis"
+		sardinian = "Philippopolis"
+		sicilian = "Philippopolis"
+		umbrian = "Philippopolis"
+		laziale = "Philippopolis"
+		langobardisch = "Philippopolis"
+		neapolitan = "Philippopolis"
+		tuscan = "Philippopolis"
+		ligurian = "Philippopolis"
+		venetian = "Philippopolis"
+		dalmatian = "Philippopolis"
+		english = "Philippopolis"
+	}
+	# k_vidin_theme = {
+		# color = { 122 103 58 }
+		# color2 = { 255 255 255 }
+		# greek = "Bidyne"
+		# crimean_gothic = "Bidyne"
+		# roman = "Bononia"
+		# hungarian = "Bodony"
+		# szekely = "Bodony"
+		# romanian = "Diiu"
+		# capital = 506 # Vidin
+	# }
+	k_ohrid_theme = {
+		color = { 249 254 214 }
+		color2 = { 255 255 255 }
+		culture = bulgarian
+		title = "Strategos"
+		greek = "Boulgarias"
+		crimean_gothic = "Boulgarias"
+		arberian = "Ohër"
+		oghuz = "Üsküp"
+		turkmen = "Üsküp"
+		turkish = "Üsküp"
+		pecheneg = "Üsküp"
+		capital = 1015 # Skopje
+	}
+	
+	## Hayk SWMH Kingdom
+	k_dzopk_theme = {
+		color = { 9 12 119 }
+		color2 = { 255 255 255 }
+		culture = greek
+		title = "Strategos"
+		greek = "Mesopotamias"
+		oghuz = "Harput"
+		turkmen = "Harput"
+		turkish = "Harput"
+		maghreb_arabic = "Hisn Ziyad"
+		levantine_arabic = "Hisn Ziyad"
+		egyptian_arabic = "Hisn Ziyad"
+		andalusian_arabic = "Hisn Ziyad"
+		sicilian_arabic = "Hisn Ziyad"
+		bedouin_arabic = "Hisn Ziyad"
+		hijazi = "Hisn Ziyad"
+		yemeni = "Hisn Ziyad"
+		kurdish = "Xarpet"
+		capital = 1282 # Charpete
+	}
+	k_taron_theme = {
+		color = { 130 118 13 }
+		color2 = { 255 255 255 }
+		culture = greek
+		title = "Strategos"
+		greek = "Taron"
+		armenian = "Daron"
+		oghuz = "Malazgird"
+		turkmen = "Malazgird"
+		turkish = "Malazgird"
+		maghreb_arabic = "Minazjird"
+		levantine_arabic = "Minazjird"
+		egyptian_arabic = "Minazjird"
+		andalusian_arabic = "Minazjird"
+		sicilian_arabic = "Minazjird"
+		bedouin_arabic = "Minazjird"
+		hijazi = "Minazjird"
+		yemeni = "Minazjird"
+		kurdish = "Malazgir"
+		capital = 701 # Tarawn # Taron
+	}
+	k_mesopotamia_hayk_theme = {
+		color = { 30 118 113 }
+		color2 = { 255 255 255 }
+		culture = greek
+		title = "Strategos"
+		greek = "Theodosioupolis"
+		oghuz = "Erzen er-Rúm"
+		turkmen = "Erzen er-Rúm"
+		turkish = "Erzen er-Rúm"
+		maghreb_arabic = "Arzan ar-Rúm"
+		levantine_arabic = "Arzan ar-Rúm"
+		egyptian_arabic = "Arzan ar-Rúm"
+		andalusian_arabic = "Arzan ar-Rúm"
+		sicilian_arabic = "Arzan ar-Rúm"
+		bedouin_arabic = "Arzan ar-Rúm"
+		hijazi = "Arzan ar-Rúm"
+		yemeni = "Arzan ar-Rúm"
+		kurdish = "Erzîrom"
+		capital = 704 # Karin # Theodosipolis
+	}
+	k_tao_theme = {
+		color = { 210 204 50 }
+		color2 = { 255 255 255 }
+		capital = 680 # Tao
+		culture = greek
+		title = "Strategos"
+		georgian = "Tao"
+	}
+	k_vaspurakan_hayk_theme = {
+		color = { 174 23 122 }
+		color2 = { 255 255 255 }
+		greek = "Vaasprakania"
+		maghreb_arabic = "Van"
+		levantine_arabic = "Van"
+		egyptian_arabic = "Van"
+		andalusian_arabic = "Van"
+		sicilian_arabic = "Van"
+		bedouin_arabic = "Van"
+		hijazi = "Van"
+		yemeni = "Van"
+		oghuz = "Van"
+		turkmen = "Van"
+		turkish = "Van"
+		kurdish = "Wan"
+		capital = 682 # Vaspurakan
+		culture = greek
+		title = "Strategos"
+	}
+	
+	## Antioch SWMH Kingdom
+	k_edessa_theme = {
+		color = { 89 21 66 }
+		color2 = { 255 255 255 }
+		name_tier = count
+		capital = 699 # Edessa
+		culture = greek
+		title = "Strategos"
+	}
+	k_antioch_roman_theme = {
+		color = { 91 139 188 }
+		color2 = { 255 255 255 }
+		short_name = yes
+		capital = 764 # Antioch
+		culture = greek
+		title = "Strategos"
+	}
+	
 	
 	k_null_utility_2 = {
 		color = { 38 38 38 }
@@ -333,1209 +3458,9 @@ e_null_utility_2 = {
 		can_be_claimed = no
 		short_name = yes
 		
-		
 	}
 }
-# d_roman_family_1 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_2 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_3 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_4 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_5 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_6 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_7 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_8 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_9 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_10 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_11 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_12 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_13 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_14 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_15 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_16 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_17 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_18 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_19 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_20 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_21 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_22 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_23 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_24 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_25 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_26 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_27 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_28 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_29 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_30 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_31 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_32 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_33 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_34 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_35 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_36 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_37 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_38 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_39 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_40 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_41 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_42 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_43 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_44 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_45 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_46 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_47 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_48 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_49 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_50 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_51 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_52 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_53 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_54 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_55 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_56 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_57 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_58 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_59 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_60 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_61 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_62 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_63 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_64 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_65 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_66 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_67 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_68 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_69 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_70 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_71 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_72 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_73 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_74 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_75 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_76 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_77 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_78 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_79 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_80 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_81 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_82 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_83 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_84 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_85 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_86 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_87 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_88 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_89 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_90 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_91 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_92 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_93 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_94 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_95 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_96 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_97 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_98 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_99 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
-# d_roman_family_100 = {			
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Eugeneios"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no		
-# }			
+
 
 ###########################################
 # Military Offices			              #

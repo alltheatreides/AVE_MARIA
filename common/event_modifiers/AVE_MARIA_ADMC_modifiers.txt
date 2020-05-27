@@ -6,39 +6,39 @@ administrative_capacity_roman = {
 	monthly_character_prestige = 1
 	vassal_opinion = 6
 	diplomacy = 3
-	icon = 7
+	icon = 152
 }
 administrative_capacity_very_high = {
 	demesne_size = 25
 	monthly_character_prestige = 0.75
 	vassal_opinion = 4
 	diplomacy = 2
-	icon = 7
+	icon = 151
 }
 administrative_capacity_high = {
 	demesne_size = 15
 	monthly_character_prestige = 0.5
 	vassal_opinion = 2
 	diplomacy = 1
-	icon = 7
+	icon = 150
 }
 administrative_capacity_average = {
 	demesne_size = 10
 	monthly_character_prestige = 0.25
-	icon = 7
+	icon = 149
 }
 administrative_capacity_below_average = {
 	demesne_size = 5
 	monthly_character_prestige = 0.1
-	icon = 7
+	icon = 148
 }
 administrative_capacity_low = {
 	demesne_size = 2
-	icon = 7
+	icon = 147
 }
 administrative_capacity_very_low = {
 	demesne_size = 1
-	icon = 7
+	icon = 146
 }
 administrative_capacity_limited = {
 	icon = 31
@@ -71,7 +71,7 @@ administrative_capacity_distance_three_horse_day_travel_from_capital = {
 	levy_size = -0.3
 	# garrison_size = -0.5
 	levy_reinforce_rate = -0.45
-	local_tax_modifier = -0.75
+	local_tax_modifier = -0.85
 }
 
 administrative_capacity_distance_four_horse_day_travel_from_capital = {
