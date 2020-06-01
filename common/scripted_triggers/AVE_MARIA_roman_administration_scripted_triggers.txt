@@ -10,8 +10,17 @@
 # Written by Atreides
 
 #Title triggers
-roman_adminisration_tagma_title_held_trigger = {
+roman_administration_tagma_title_held_trigger = {
 	OR = {
+		title = k_megas_domestikos
+		title = k_domestikos_ton_scholon_west
+		title = k_megas_droungarios
+		title = k_excubitor
+		title = k_vigla
+		title = k_hikanatoi
+		title = k_varangian_guard
+		title = k_regular_tagma_1
+		title = k_regular_tagma_2
 		has_title_flag = roman_administration_tagma_title
 		has_title_flag = roman_administration_domestikos_east_title
 		has_title_flag = roman_administration_domestikos_west_title
@@ -20,7 +29,7 @@ roman_adminisration_tagma_title_held_trigger = {
 
 roman_administration_theme_title_trigger = {
 	OR = {
-		# Civilian theme SWMH
+		# Civilian theme SWMH e_byzantium
 		title = k_abydos
 		title = k_thrace
 		title = k_strymon
@@ -61,10 +70,18 @@ roman_administration_theme_title_trigger = {
 		title = k_macva
 		title = k_hum
 		title = k_dioclea
-		title = k_ragusa		
-		
-		## Test test
-		title = d_edessa
+		title = k_ragusa	
+
+		# Civilian theme SWMH other parts
+		title = k_dzopk	
+		title = k_taron	
+		title = k_mesopotamia_hayk	
+		title = k_tao
+		title = k_vaspurakan_hayk	
+		title = k_edessa	
+		title = k_antioch_roman	
+		title = k_tao	
+		title = k_syrmia
 		
 		## Test test
 		title = e_null_utility
@@ -73,7 +90,7 @@ roman_administration_theme_title_trigger = {
 	}
 }
 
-roman_adminisration_strategos_title_trigger = {
+roman_administration_strategos_title_trigger = {
 	OR = {
 		title = k_abydos_theme
 		title = k_thrace_theme
@@ -101,7 +118,7 @@ roman_adminisration_strategos_title_trigger = {
 		title = k_anatolia_theme
 		title = k_melitene_theme
 		title = k_cyprus_theme
-		title = k_trebizonk_theme
+		title = k_trebizond_theme
 		title = k_cherson_theme
 		title = k_armeniacon_theme
 		title = k_armenia_minor_theme
@@ -110,15 +127,23 @@ roman_adminisration_strategos_title_trigger = {
 		title = k_karvuna_theme
 		title = k_adrianopolis_theme
 		title = k_vidin_theme
-		title = k_ohrik_theme
+		title = k_ohrid_theme
 		title = k_rashka_theme
 		title = k_macva_theme
 		title = k_hum_theme
 		title = k_dioclea_theme
 		title = k_ragusa_theme
 		
-		## Test test
-		title = d_edessa_theme
+		# Civilian theme SWMH other parts
+		title = k_dzopk_theme
+		title = k_taron_theme
+		title = k_mesopotamia_hayk_theme	
+		title = k_tao_theme
+		title = k_vaspurakan_hayk_theme	
+		title = k_edessa_theme	
+		title = k_antioch_roman_theme	
+		title = k_tao_theme
+		title = k_syrmia_theme
 		
 		## Test test
 		title = e_null_utility
@@ -199,7 +224,7 @@ roman_administration_administrative_title_trigger = {
 		title = k_anatolia_theme
 		title = k_melitene_theme
 		title = k_cyprus_theme
-		title = k_trebizonk_theme
+		title = k_trebizond_theme
 		title = k_cherson_theme
 		title = k_armeniacon_theme
 		title = k_armenia_minor_theme
@@ -208,7 +233,7 @@ roman_administration_administrative_title_trigger = {
 		title = k_karvuna_theme
 		title = k_adrianopolis_theme
 		title = k_vidin_theme
-		title = k_ohrik_theme
+		title = k_ohrid_theme
 		title = k_rashka_theme
 		title = k_macva_theme
 		title = k_hum_theme
@@ -216,19 +241,43 @@ roman_administration_administrative_title_trigger = {
 		title = k_ragusa_theme
 		
 		## others
-		has_title_flag = created_family_county_title
-		has_title_flag = created_military_theme_title
-		has_title_flag = roman_administration_civilian_theme
-		has_title_flag = roman_administration_central_judicial_official_bureau
+		# has_title_flag = created_family_county_title
+		# has_title_flag = created_military_theme_title
+		# has_title_flag = roman_administration_civilian_theme
+		# has_title_flag = roman_administration_central_judicial_official_bureau
 		
-		## Test test
-		title = d_edessa
-		title = d_edessa_theme
+		# Civilian theme SWMH other parts
+		title = k_dzopk	
+		title = k_taron	
+		title = k_mesopotamia_hayk	
+		title = k_tao
+		title = k_vaspurakan_hayk	
+		title = k_edessa	
+		title = k_antioch_roman	
+		title = k_tao	
+		title = k_syrmia
 		
-		## Test test
-		title = e_null_utility
-		title = k_null_utility
-		title = d_roman_family_1
+		# Civilian theme SWMH other parts
+		title = k_dzopk_theme
+		title = k_taron_theme
+		title = k_mesopotamia_hayk_theme	
+		title = k_tao_theme
+		title = k_vaspurakan_hayk_theme	
+		title = k_edessa_theme	
+		title = k_antioch_roman_theme	
+		title = k_tao_theme
+		title = k_syrmia_theme
+		
+		# Tagma titles
+		# title = k_megas_domestikos
+		# title = k_domestikos_ton_scholon_west
+		# title = k_megas_droungarios
+		# title = d_excubitor
+		# title = d_vigla
+		# title = d_hikanatoi
+		# title = d_varangian_guard
+		# title = d_regular_tagma_1
+		# title = d_regular_tagma_2
 	}
 }
 

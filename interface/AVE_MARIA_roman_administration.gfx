@@ -8,10 +8,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_adminisration_decision_icon_muster_all_the_tagma.tga"
 	}
 	
-	spriteType = {
-		name = "GFX_icon_roman_administration_civilian_theme_government"
-		texturefile = "gfx\\interface\\government_icon_roman_administration_civilian_theme_government.dds"
-	}
+	
 	
 
 }
@@ -52,5 +49,86 @@ spriteTypes = {
 	}
 }
 
+##Government
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\government_icon_roman_administration_civilian_government.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_roman_administration_military_government"
+		texturefile = "gfx\\interface\\government_icon_roman_administration_military_government.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_roman_administration_family_government"
+		texturefile = "gfx\\interface\\government_icon_roman_imperial.dds"
+	}
+}
+
+##Government Frames
+spriteTypes = {
+	spriteType = {
+		name = "GFX_charframe_150_roman_administration_military_government"
+		texturefile = "gfx\\interface\\charframe_150_roman_administration_military.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_roman_administration_military_government"
+		texturefile = "gfx\\interface\\charframe_100_roman_administration_military.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_roman_administration_military_government"
+		texturefile = "gfx\\interface\\charframe_75_roman_administration_military.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_roman_administration_military_government"
+		texturefile = "gfx\\interface\\charframe_50_roman_administration_military.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_roman_administration_military_government"
+		texturefile = "gfx\\interface\\charframe_34_roman_administration_military.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_charframe_150_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\charframe_150_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\charframe_100_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\charframe_75_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\charframe_50_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_roman_administration_civilian_government"
+		texturefile = "gfx\\interface\\charframe_34_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+}
 
 ##COA
+

@@ -1055,8 +1055,19 @@ spriteTypes = {
 		norefcount = yes					
 		effectFile = "gfx/FX/buttonstate_linear.lua"					
 	}						
+	
+	## OTHERS
+	
+	#Knight traits
+	spriteType = {				
+		name = "GFX_trait_musician"			
+		texturefile = gfx/traits/musician.tga			
+		noOfFrames = 1			
+		norefcount = yes			
+		effectFile = "gfx/FX/buttonstate_linear.lua"			
+	}
 
-	# EVENTS
+	## EVENTS
 	spriteType = {
 		name = "GFX_evt_ave_maria_hexaco_baptism"
 		texturefile = "gfx\\event_pictures\ave_maria_hexaco_event_picture_baptism.dds"

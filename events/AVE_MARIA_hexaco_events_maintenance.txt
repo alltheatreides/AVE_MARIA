@@ -3223,7 +3223,9 @@ character_event = {
 					}				
 				}					
 			}						
-
+			
+			add_hexaco_education_traits = yes
+			
 		}
 		
 		# Setting up XP variables for education

@@ -3,7 +3,7 @@
 1018.1.1 = {
 	liege = e_byzantium
 	holder = 20525
-	vice_royalty = yes
+	# vice_royalty = yes
 }
 1029.1.1 = {
 	holder = 1500402
@@ -29,5 +29,5 @@
 # To hungary
 1071.8.26 = {
 	holder = 0
-	vice_royalty = no
+	# vice_royalty = no
 }

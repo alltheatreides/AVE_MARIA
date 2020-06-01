@@ -4,62 +4,47 @@
 
 technology = {
 	titles = {
-		k_samos
-		k_abydos
-		k_adrianopolis
-		k_thessalonika
-		k_dyrrachion
-		k_epirus
-		k_athens
-		k_achaia
-		k_krete
-		k_cyprus
-		k_cibyrrhaeot
-		k_anatolia
-		k_thracesia
-		k_charsianon
-		k_armeniacon
-		k_paphlagonia
-		k_trebizond
-		k_armenia_minor
-		k_armenia
-		k_mesopotamia
-		k_edessa
-		k_coloneia
-		k_turnovo
-		k_karvuna
-		k_kartli
-		k_derbent
-		k_abkhazia
-		k_strymon          
-		k_seleukeia        
-		k_ohrid                          
-		k_ragusa
-		k_artsakh          
-		k_suenik           
-		k_vaspurakan       
-		k_tao 
-		k_klarjeti                                                 
-		k_krk              
-		k_dalmatian_islands
-		k_kakheti
-		k_hereti
-		k_racha
-		k_imeretia
-		k_albania
-		k_neopatras
-		k_cephalonia
-		k_boukellarion
-		k_opsikon
-		k_optimatoi
-		k_cappadocia
-		k_sebasteia
-		k_lykandos
-		k_lori
-		k_melitene
-		k_amida
-		k_taron   
-		k_dzopk 
+		d_abydos
+		d_thrace
+		d_strymon
+		d_thessalonika
+		d_neopatras
+		d_dyrrachion
+		d_epirus
+		d_cephalonia
+		d_athens
+		d_achaia
+		d_krete
+		d_paphlagonia
+		d_boukellarion
+		d_samos
+		d_thracesia
+		d_opsikon
+		d_optimatoi
+		d_cibyrrhaeot
+		d_charsianon
+		d_cappadocia
+		d_coloneia
+		d_sebasteia
+		d_lykandos
+		d_anatolia
+		d_melitene
+		d_cyprus
+		d_trebizond
+		d_cherson
+		d_armeniacon
+		d_armenia_minor
+		d_seleukeia
+		d_turnovo
+		d_karvuna
+		d_adrianopolis
+		d_vidin
+		d_ohrid
+		d_rashka
+		d_macva
+		d_hum
+		d_dioclea
+		d_ragusa
 	}
 	
 	769 = {
@@ -77,7 +62,7 @@ technology = {
 
 technology = {
 	titles = {
-		k_thrace
+		d_thrace
 	}
 
 	769 = {

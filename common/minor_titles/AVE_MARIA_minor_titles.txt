@@ -35,13 +35,13 @@ title_strategos = {
 	allowed_to_hold = {
 		NOT = { 
 			primary_title = {
-				roman_administration_administrative_title_trigger = yes
+				roman_administration_strategos_title_trigger = yes
 			}
 		}
 		# liege = { character = FROM }
 		is_adult = yes
 		is_female = no
-		top_liege = {
+		liege = {
 			primary_title = { title = e_byzantium }
 		}
 		is_inaccessible_or_incapable_trigger = no

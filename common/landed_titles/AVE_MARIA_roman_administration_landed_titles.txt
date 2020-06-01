@@ -2507,8 +2507,6 @@ e_null_utility = {
 			}			
 		}				
 	}					
-
-
 	
 	k_null_utility = {
 		color = { 38 38 38 }
@@ -2524,7 +2522,7 @@ e_null_utility = {
 }
 
 ###########################################
-# Military Offices titles		  		  #
+# Strategos Offices titles		  		  #
 ###########################################
 e_null_utility_2 = {
 	color = { 38 38 38 }
@@ -2552,6 +2550,16 @@ e_null_utility_2 = {
 		tuscan = "dell'arcipelago"
 		ligurian = "dell'arcipelago"
 		venetian = "dell'arcipelago"
+		
+		d_null_utility_114 = {				
+			color = { 205 104 170 }			
+			color2 = { 255 255 255 }			
+			c_null_utility_114 = {			
+				b_null_utility_114 = {		
+						
+				}		
+			}			
+		}
 	}
 	k_thrace_theme = {
 		color = { 194 129 1 }
@@ -2578,6 +2586,15 @@ e_null_utility_2 = {
 		# catholic = 125 # Crusade target weight
 		# sunni = 225 # Crusade target weight
 		# shiite = 100 # Crusade target weight
+		d_null_utility_115 = {
+			color = { 205 104 170 } 
+			color2 = { 255 255 255 } 
+			c_null_utility_115 = { 
+				b_null_utility_115  = {
+					
+				} 
+			} 
+		}
 	}
 	k_strymon_theme = {
 		color = { 0 86 148 }
@@ -2589,6 +2606,8 @@ e_null_utility_2 = {
 		capital = 492 # Strymonos # Strymon
 		culture = greek
 		title = "Strategos"
+		d_null_utility_116 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_116 = { b_null_utility_116  = { } } }
+
 	}
 	k_thessalonika_theme = {
 		color = { 205 22 30 }
@@ -2615,6 +2634,8 @@ e_null_utility_2 = {
 		turkmen = "Selánik"
 		turkish = "Selánik"
 		pecheneg = "Selánik"
+		d_null_utility_117 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_117 = { b_null_utility_117  = { } } }
+
 	}
 	k_neopatras_theme = {
 		color = { 64 90 64 }
@@ -2640,6 +2661,8 @@ e_null_utility_2 = {
 		turkmen = "Tesalya"
 		turkish = "Tesalya"
 		pecheneg = "Tesalya"
+		d_null_utility_118 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_118 = { b_null_utility_118  = { } } }
+
 	}
 	
 	## Epirus SWMH Kingdom
@@ -2667,6 +2690,8 @@ e_null_utility_2 = {
 		pecheneg = "Diraç"
 		turkmen = "Diraç"
 		turkish = "Diraç"
+		d_null_utility_119 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_119 = { b_null_utility_119  = { } } }
+
 		
 	} # end k_dyrrachion
 	k_epirus_theme = { # Nikopoleos
@@ -2691,6 +2716,8 @@ e_null_utility_2 = {
 		oghuz = "Yanya"
 		turkmen = "Yanya"
 		turkish = "Yanya"
+		d_null_utility_120 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_120 = { b_null_utility_120  = { } } }
+
 		
 	} # end k_epirus
 	k_cephalonia_theme = { # Kephallenias
@@ -2716,6 +2743,8 @@ e_null_utility_2 = {
 		turkmen = "Yedi Adalar"
 		turkish = "Yedi Adalar"
 		pecheneg = "Yedi Adalar"
+		d_null_utility_121 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_121 = { b_null_utility_121  = { } } }
+
 		
 	} # end k_cephalonia
 	
@@ -2744,6 +2773,8 @@ e_null_utility_2 = {
 		turkmen = "Atina"
 		turkish = "Atina"
 		pecheneg = "Atina"
+		d_null_utility_122 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_122 = { b_null_utility_122  = { } } }
+
 	}
 	k_achaia_theme = {
 		color = { 246 188 0 }
@@ -2768,6 +2799,8 @@ e_null_utility_2 = {
 		turkmen = "Morá"
 		turkish = "Morá"
 		pecheneg = "Morá"
+		d_null_utility_123 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_123 = { b_null_utility_123  = { } } }
+
 	}
 	
 	## Nikaea SWMH Kingdom
@@ -2801,6 +2834,8 @@ e_null_utility_2 = {
 		oghuz = "Kastamoni"
 		turkmen = "Kastamoni"
 		turkish = "Kastamoni"
+		d_null_utility_124 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_124 = { b_null_utility_124  = { } } }
+
 	}
 	k_boukellarion_theme = {
 		color = { 80 159 20 }
@@ -2813,6 +2848,8 @@ e_null_utility_2 = {
 		oghuz = "Engürü"
 		turkmen = "Engürü"
 		turkish = "Engürü"
+		d_null_utility_125 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_125 = { b_null_utility_125  = { } } }
+
 	}
 	k_samos_theme = {
 		color = { 67 112 88 }
@@ -2823,6 +2860,8 @@ e_null_utility_2 = {
 		oghuz = "Izmir"
 		turkmen = "Izmir"
 		turkish = "Aydin"
+		d_null_utility_126 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_126 = { b_null_utility_126  = { } } }
+
 	}
 	k_thracesia_theme = {
 		color = { 154 43 116 }
@@ -2841,6 +2880,8 @@ e_null_utility_2 = {
 		oghuz = "Ala Šehir"
 		turkmen = "Ala Šehir"
 		turkish = "Ala Šehir"
+		d_null_utility_127 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_127 = { b_null_utility_127  = { } } }
+
 	}
 	k_opsikon_theme = {
 		color = { 36 83 169 }
@@ -2913,6 +2954,8 @@ e_null_utility_2 = {
 		oghuz = "Koca-eli"
 		turkmen = "Koca-eli"
 		turkish = "Koca-eli"
+		d_null_utility_128 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_128 = { b_null_utility_128  = { } } }
+
 	}
 	k_cibyrrhaeot_theme = {
 		color = { 44 83 40 }
@@ -2936,6 +2979,8 @@ e_null_utility_2 = {
 		oghuz = "Menteše"
 		turkmen = "Menteše"
 		turkish = "Menteše"
+		d_null_utility_129 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_129 = { b_null_utility_129  = { } } }
+
 	}
 	
 	## Ikonion SWMH Kingdom
@@ -2959,6 +3004,8 @@ e_null_utility_2 = {
 		oghuz = "Kayseriye"
 		turkmen = "Kayseriye"
 		turkish = "Kayseriye"
+		d_null_utility_130 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_130 = { b_null_utility_130  = { } } }
+
 	}
 	k_cappadocia_theme = {
 		color = { 109 95 80 }
@@ -2989,6 +3036,8 @@ e_null_utility_2 = {
 		oghuz = "Divrigi"
 		turkmen = "Divrigi"
 		turkish = "Divrigi"
+		d_null_utility_131 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_131 = { b_null_utility_131  = { } } }
+
 	}
 	k_sebasteia_theme = {
 		color = { 17 50 61 }
@@ -3002,6 +3051,8 @@ e_null_utility_2 = {
 		oghuz = "Sivas"
 		turkmen = "Sivas"
 		turkish = "Sivas"
+		d_null_utility_132 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_132 = { b_null_utility_132  = { } } }
+
 	}
 	k_lykandos_theme = {
 		color = { 30 220 31 }
@@ -3021,6 +3072,8 @@ e_null_utility_2 = {
 		oghuz = "Elbistan"
 		turkmen = "Elbistan"
 		turkish = "Elbistan"
+		d_null_utility_133 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_133 = { b_null_utility_133  = { } } }
+
 	}
 	k_anatolia_theme = {
 		color = { 255 206 45 }
@@ -3039,6 +3092,8 @@ e_null_utility_2 = {
 		oghuz = "Rúm"
 		turkmen = "Rúm"
 		turkish = "Rúm"
+		d_null_utility_134 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_134 = { b_null_utility_134  = { } } }
+
 	}
 	k_melitene_theme = {
 		color = { 27 56 162 }
@@ -3054,6 +3109,8 @@ e_null_utility_2 = {
 		norman = "Melitena"
 		kurdish = "Meletî"
 		greek = "Melitene"
+		d_null_utility_135 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_135 = { b_null_utility_135  = { } } }
+
 	}	
 	
 	## Cyprus SWMH Kingdom
@@ -3087,6 +3144,8 @@ e_null_utility_2 = {
 		tuscan = "Cipro"
 		ligurian = "Cipro"
 		venetian = "Cipro"
+		d_null_utility_136 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_136 = { b_null_utility_136  = { } } }
+
 	}
 	
 	## Trebizond SWMH Kingdom
@@ -3122,6 +3181,8 @@ e_null_utility_2 = {
 		tuscan = "Chaldia"
 		ligurian = "Chaldia"
 		venetian = "Chaldia"
+		d_null_utility_137 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_137 = { b_null_utility_137  = { } } }
+
 	}
 	k_cherson_theme = {
 		color = { 225 187 34 }
@@ -3166,6 +3227,8 @@ e_null_utility_2 = {
 		cuman = "Kefe"
 		uyghur = "Kefe"
 		turkish = "Kefe"
+		d_null_utility_138 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_138 = { b_null_utility_138  = { } } }
+
 	}
 	k_armeniacon_theme = {
 		color = { 188 191 175 }
@@ -3186,6 +3249,8 @@ e_null_utility_2 = {
 		turkish = "Amasiyya"
 		frankish = "Amasée"
 		norman = "Amasée"
+		d_null_utility_139 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_139 = { b_null_utility_139  = { } } }
+
 	}
 	
 	## Kilikia SWMH Kingdom
@@ -3201,6 +3266,8 @@ e_null_utility_2 = {
 		armenian = "Kilikia"
 		frankish = "Cilicie"
 		norman = "Cilicie"
+		d_null_utility_140 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_140 = { b_null_utility_140  = { } } }
+
 	}
 	k_seleukeia_theme = {
 		color = { 26 13 107 }
@@ -3222,6 +3289,8 @@ e_null_utility_2 = {
 		capital = 758 # Seleukeia
 		culture = greek
 		title = "Strategos"
+		d_null_utility_141 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_141 = { b_null_utility_141  = { } } }
+
 	}
 		
 	## Bulgaria SWMH Kingdom
@@ -3238,6 +3307,8 @@ e_null_utility_2 = {
 		turkmen = "Nigbolu"
 		turkish = "Nigbolu"
 		pecheneg = "Nigbolu"
+		d_null_utility_142 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_142 = { b_null_utility_142  = { } } }
+
 	}
 	# k_karvuna_theme = {
 		# color = { 63 127 98 }
@@ -3313,6 +3384,8 @@ e_null_utility_2 = {
 		venetian = "Philippopolis"
 		dalmatian = "Philippopolis"
 		english = "Philippopolis"
+		d_null_utility_143 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_143 = { b_null_utility_143  = { } } }
+
 	}
 	# k_vidin_theme = {
 		# color = { 122 103 58 }
@@ -3338,6 +3411,8 @@ e_null_utility_2 = {
 		turkish = "Üsküp"
 		pecheneg = "Üsküp"
 		capital = 1015 # Skopje
+		d_null_utility_144 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_144 = { b_null_utility_144  = { } } }
+
 	}
 	
 	## Hayk SWMH Kingdom
@@ -3360,6 +3435,8 @@ e_null_utility_2 = {
 		yemeni = "Hisn Ziyad"
 		kurdish = "Xarpet"
 		capital = 1282 # Charpete
+		d_null_utility_145 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_145 = { b_null_utility_145  = { } } }
+
 	}
 	k_taron_theme = {
 		color = { 130 118 13 }
@@ -3381,6 +3458,8 @@ e_null_utility_2 = {
 		yemeni = "Minazjird"
 		kurdish = "Malazgir"
 		capital = 701 # Tarawn # Taron
+		d_null_utility_146 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_146 = { b_null_utility_146  = { } } }
+
 	}
 	k_mesopotamia_hayk_theme = {
 		color = { 30 118 113 }
@@ -3401,6 +3480,8 @@ e_null_utility_2 = {
 		yemeni = "Arzan ar-Rúm"
 		kurdish = "Erzîrom"
 		capital = 704 # Karin # Theodosipolis
+		d_null_utility_147 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_147 = { b_null_utility_147  = { } } }
+
 	}
 	k_tao_theme = {
 		color = { 210 204 50 }
@@ -3409,6 +3490,8 @@ e_null_utility_2 = {
 		culture = greek
 		title = "Strategos"
 		georgian = "Tao"
+		d_null_utility_148 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_148 = { b_null_utility_148  = { } } }
+
 	}
 	k_vaspurakan_hayk_theme = {
 		color = { 174 23 122 }
@@ -3429,6 +3512,8 @@ e_null_utility_2 = {
 		capital = 682 # Vaspurakan
 		culture = greek
 		title = "Strategos"
+		d_null_utility_149 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_149 = { b_null_utility_149  = { } } }
+
 	}
 	
 	## Antioch SWMH Kingdom
@@ -3439,6 +3524,8 @@ e_null_utility_2 = {
 		capital = 699 # Edessa
 		culture = greek
 		title = "Strategos"
+		d_null_utility_150 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_150 = { b_null_utility_150  = { } } }
+
 	}
 	k_antioch_roman_theme = {
 		color = { 91 139 188 }
@@ -3447,8 +3534,40 @@ e_null_utility_2 = {
 		capital = 764 # Antioch
 		culture = greek
 		title = "Strategos"
+		d_null_utility_151 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_151 = { b_null_utility_151  = { } } }
+
 	}
 	
+	## 1066 duchies out of de jure
+	k_syrmia_theme = {
+		color = { 110 89 20 }
+		color2 = { 255 255 255 }
+		roman = "Pannonia Secunda"
+		greek = "Sirmiou"
+		crimean_gothic = "Sirmiou"
+		croatian = "Srijem"
+		bohemian = "Sriem"
+		slovieni = "Sriem"
+		german = "Syrmien"
+		thuringian = "Syrmien"
+		swabian = "Syrmien"
+		bavarian = "Syrmien"
+		low_saxon = "Syrmien"
+		franconian = "Syrmien"
+		low_german = "Syrmien"
+		low_frankish = "Syrmien"
+		dutch = "Syrmien"
+		old_hungarian = "Zerem"
+		hungarian = "Szerém"
+		szekely = "Szerém"
+		oghuz = "Sirem"
+		pecheneg = "Sirem"
+		turkmen = "Sirem"
+		turkish = "Sirem"
+		capital = 1000 # Szerém # Syrmia
+		d_null_utility_152 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_152 = { b_null_utility_152  = { } } }
+
+	}
 	
 	k_null_utility_2 = {
 		color = { 38 38 38 }
@@ -3463,969 +3582,379 @@ e_null_utility_2 = {
 
 
 ###########################################
-# Military Offices			              #
+# Tagma Military Offices			      #
 ###########################################
-## Tagma Troops
-#Domestikos of the East, later called megas domestikos under Alexios
-# k_megas_domestikos = {
-	# graphical_culture = byzantinegfx
-	# capital = 496
-	# culture = greek
-	# title = "Domestikos Tes Anatoles"
-	# landless = yes
-	# can_be_usurped = no
-	# assimilate = no
+e_null_utility_3 = {
 	
-	# TAGMA
-	#Tagma regiment Domestic of the Scholai Palatinae heavy cavalry nah they should be directly under the emperor ?
-	# d_scholae_palatinae = {
-		# assimilate = no
-		# color = { 178 34 34 }
-		# color2 = { 255 215 0 }
-		
-		# graphical_culture = orthodoxholygfx
+	## Domestikos of the East, later called megas domestikos under Alexios
+	## Tagma regiment Domestic of the Scholai Palatinae heavy cavalry
+	k_megas_domestikos = {
+		graphical_culture = byzantinegfx
+		capital = 496
+		culture = greek
+		title = "Domestikos"
+		landless = yes
+		can_be_usurped = no
+		assimilate = no
+		d_null_utility_153 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_153 = { b_null_utility_153  = { } } }
 
-		# capital = 496 # Constantinople
+	}
+	
+	# Domestikos of the west - Less important than the east
+	# k_domestikos_ton_scholon_west = {
+		# assimilate = no
+		# graphical_culture = byzantinegfx
+		# capital = 496
+		# culture = greek
+		# title = "Domestikos Tes Dyseos"
+		# landless = yes
+		# can_be_usurped = no
+	# }
+	
+	#Fleet Commander
+	k_megas_droungarios = {
+		graphical_culture = byzantinegfx
+		capital = 496
+		culture = greek
+		title = "Droungarios"
+		landless = yes
+		can_be_usurped = no
+		assimilate = no
+		d_null_utility_154 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_154 = { b_null_utility_154  = { } } }
+
+	}
+	
+	## Excubitor
+	k_excubitor = {
+		assimilate = no
+		color = { 178 34 34 }
+		color2 = { 255 215 0 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496 # Constantinople
+		
+		## Parent Religion 
+		religion = orthodox
+		
+		culture = greek
+
+		title = "Domestikos"
+		foa = "domestic_FOA"
+		title_female = "Domestikos"
+		
+		landless = yes
+		
+		## Cannot be held as a secondary title
+		primary = yes
+	}
+	
+	## Vigla
+	k_vigla = {
+		assimilate = no
+		color = { 178 34 34 }
+		color2 = { 255 215 0 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496 # Constantinople
 		
 		# Parent Religion 
-		# religion = orthodox
+		religion = orthodox
 		
-		# culture = greek
+		culture = greek
 
-		# title = "Domestikos ton scholon"
-		# foa = "domestic_FOA"
-		# title_female = "Domestikos ton scholon"
+		title = "Domestikos"
+		foa = "domestic_FOA"
+		title_female = "Domestikos"
 		
-		# landless = yes
-		
-		# Cannot be held as a secondary title
-		# primary = yes
-
-	# }
-
-	# Excubitor
-	# d_excubitor = {
-		# assimilate = no
-		# color = { 178 34 34 }
-		# color2 = { 255 215 0 }
-		
-		# graphical_culture = orthodoxholygfx
-
-		# capital = 496 # Constantinople
-		
-		# Parent Religion 
-		# religion = orthodox
-		
-		# culture = greek
-
-		# title = "Domestikos"
-		# foa = "domestic_FOA"
-		# title_female = "Domestikos"
-		
-		# landless = yes
+		landless = yes
 		
 		# Cannot be held as a secondary title
-		# primary = yes
+		primary = yes
+	}
+	
+	##Hikanatoi
+	k_hikanatoi = {
+		assimilate = no
+		color = { 178 34 34 }
+		color2 = { 255 215 0 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496 # Constantinople
+		
+		### Parent Religion 
+		religion = orthodox
+		
+		culture = greek
+
+		title = "Domestikos"
+		foa = "domestic_FOA"
+		title_female = "Domestikos"
+		
+		landless = yes
+		
+		### Cannot be held as a secondary title
+		primary = yes
+	}
+	
+	##Varangian Guard
+	k_varangian_guard = {
+		color = { 180 180 180 }
+		color2 = { 255 255 255 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496
+		
+		### Parent Religion 
+		religion = orthodox
+		
+		culture = norse
+		
+		title = "Akolouthos"
+		foa = "CAPTAIN_FOA"
+		title_female = "Akolouthos"
+
+		### Always exists
+		landless = yes
+		
+		### Cannot be held as a secondary title
+		primary = yes
+
+	}
+
+	k_regular_tagma_1 = {
+		assimilate = no
+		color = { 178 34 34 }
+		color2 = { 255 215 0 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496 # Constantinople
+		
+		### Parent Religion 
+		religion = orthodox
+		
+		culture = greek
+
+		title = "Domestikos"
+		foa = "domestic_FOA"
+		title_female = "Domestikos"
+		
+		landless = yes
+		
+		### Cannot be held as a secondary title
+		primary = yes
+	}
+	
+	k_regular_tagma_2 = {
+		assimilate = no
+		color = { 178 34 34 }
+		color2 = { 255 215 0 }
+		
+		graphical_culture = orthodoxholygfx
+
+		capital = 496 # Constantinople
+		
+		### Parent Religion 
+		religion = orthodox
+		
+		culture = greek
+
+		title = "Domestikos"
+		foa = "domestic_FOA"
+		title_female = "Domestikos"
+		
+		landless = yes
+		
+		### Cannot be held as a secondary title
+		primary = yes
+	}
+	
+	# k_null_utility_3 = {
+		## MAJOR TAGMA
+		##Tagma regiment Domestic of the Scholai Palatinae heavy cavalry nah they should be directly under the emperor ?
+		# d_scholae_palatinae = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			# Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos ton scholon"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos ton scholon"
+			
+			# landless = yes
+			
+			# Cannot be held as a secondary title
+			# primary = yes
+
+		# }
+
+		# Excubitor
+		# d_excubitor = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			### Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos"
+			
+			# landless = yes
+			
+			### Cannot be held as a secondary title
+			# primary = yes
+		# }
+
+		## Vigla
+		# d_vigla = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			## Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos"
+			
+			# landless = yes
+			
+			## Cannot be held as a secondary title
+			# primary = yes
+		# }
+
+		#Hikanatoi
+		# d_hikanatoi = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			## Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos"
+			
+			# landless = yes
+			
+			## Cannot be held as a secondary title
+			# primary = yes
+		# }
+		
+		####Varangian Guard
+		# d_varangian_guard = {
+			# color = { 180 180 180 }
+			# color2 = { 255 255 255 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496
+			
+			## Parent Religion 
+			# religion = orthodox
+			
+			# culture = norse
+			
+			# title = "Akolouthos"
+			# foa = "CAPTAIN_FOA"
+			# title_female = "Akolouthos"
+
+			## Always exists
+			# landless = yes
+			
+			## Cannot be held as a secondary title
+			# primary = yes
+
+		# }
+	
+		# d_regular_tagma_1 = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			## Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos"
+			
+			# landless = yes
+			
+			## Cannot be held as a secondary title
+			# primary = yes
+		# }
+		
+		# d_regular_tagma_2 = {
+			# assimilate = no
+			# color = { 178 34 34 }
+			# color2 = { 255 215 0 }
+			
+			# graphical_culture = orthodoxholygfx
+
+			# capital = 496 # Constantinople
+			
+			## Parent Religion 
+			# religion = orthodox
+			
+			# culture = greek
+
+			# title = "Domestikos"
+			# foa = "domestic_FOA"
+			# title_female = "Domestikos"
+			
+			# landless = yes
+			
+			## Cannot be held as a secondary title
+			# primary = yes
+		# }
 	# }
-
-	# Vigla
-	# d_vigla = {
-		# assimilate = no
-		# color = { 178 34 34 }
-		# color2 = { 255 215 0 }
-		
-		# graphical_culture = orthodoxholygfx
-
-		# capital = 496 # Constantinople
-		
-		# Parent Religion 
-		# religion = orthodox
-		
-		# culture = greek
-
-		# title = "Domestikos"
-		# foa = "domestic_FOA"
-		# title_female = "Domestikos"
-		
-		# landless = yes
-		
-		# Cannot be held as a secondary title
-		# primary = yes
-	# }
-
-	# Hikanatoi
-	# d_hikanatoi = {
-		# assimilate = no
-		# color = { 178 34 34 }
-		# color2 = { 255 215 0 }
-		
-		# graphical_culture = orthodoxholygfx
-
-		# capital = 496 # Constantinople
-		
-		# Parent Religion 
-		# religion = orthodox
-		
-		# culture = greek
-
-		# title = "Domestikos"
-		# foa = "domestic_FOA"
-		# title_female = "Domestikos"
-		
-		# landless = yes
-		
-		# Cannot be held as a secondary title
-		# primary = yes
-	# }
-
-# }
-
-# Domestikos of the west - Less important than the east
-# k_domestikos_ton_scholon_west = {
-	# assimilate = no
-	# graphical_culture = byzantinegfx
-	# capital = 496
-	# culture = greek
-	# title = "Domestikos Tes Dyseos"
-	# landless = yes
-	# can_be_usurped = no
-# }
-
-## THEMES - Understood here as the military organizations
-## SWMH De jure e_byzantine ducal titles
-# d_opsikon_theme = {
-	# color = { 255 255 0 }		
-	# graphical_culture = byzantinegfx		
-	# capital = 496		
-	# culture = greek		
-	# title = "Strategos"		
-	# landless = yes		
-	# can_be_usurped = no		
-	# duchy_revokation = no		
-	# can_be_claimed = no		
-	# assimilate = no
-# }
-
-# d_abydos_theme = {						
-	# color = { 104 8 103 }
-	# color2 = { 255 255 255 }
-	# capital = 484 # Kykl?des # Naxos					
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_thrace_theme = {						
-	# color = { 194 129 1 }
-	# color2 = { 255 255 255 }
-	# capital = 496 # Konstantinoupolis # Byzantion
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_strymon_theme = {						
-	# color = { 0 86 148 }
-	# color2 = { 255 255 255 }
-	# capital = 492 # Strymonos # Strymon			
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_thessalonika_theme = {						
-	# color = { 205 22 30 }
-	# color2 = { 255 255 255 }
-	# capital = 490 # Thessaloníke # Thessalonike	
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-
-# }						
-# d_neopatras_theme = {						
-	# color = { 64 90 64 }
-	# color2 = { 255 255 20 }
-	# capital = 1224 # Neai Patrai # Neopatras
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_dyrrachion_theme = {						
-	# color = { 38 38 38 }
-	# color2 = { 255 255 255 }
-	# capital = 470 # Dyrrakhiou # Dyrrachion
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_epirus_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_cephalonia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_athens_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_achaia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_krete_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_paphlagonia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_boukellarion_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_samos_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_thracesia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_opsikon_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_optimatoi_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_cibyrrhaeot_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_charsianon_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_cappadocia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_coloneia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_sebasteia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_lykandos_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_anatolia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_melitene_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_cyprus_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_trebizond_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_cherson_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_armeniacon_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_armenia_minor_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_seleukeia_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_turnovo_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_karvuna_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_adrianopolis_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_vidin_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_ohrid_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_rashka_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_macva_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_hum_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_dioclea_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-# d_ragusa_theme = {						
-						
-	# title = "Strategos"					
-	# assimilate = no					
-	# can_be_usurped = no					
-	# can_be_claimed = no					
-	# allow = { has_character_flag = roman_administraton_never }					
-						
-# }						
-
-
-## VANILLA STUFF
-# Themes from the vanilla TREBIZOND kingdom
-# d_trebizond_theme = {
-	# Vanilla copy&paste
-	# color = { 125 160 30 }
-	# color2 = { 255 255 255 }
-
-	# capital = 678 ## Trepezous
 	
-	# fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_armeniacon_theme = {
-	#Vanilla copy&paste
-	# color = { 125 190 75 }
-	# color2 = { 255 255 20 }
+}
 
-	# capital = 738 ## Amisos
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_paphlagonia_theme = {
-	#Vanilla copy&paste
-	# color = { 230 180 98 }
-	# color2 = { 255 255 20 }
 
-	# capital = 751 ## Paphlagonia
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla THRACE kingdom
-# d_optimatoi_theme = {
-	#Vanilla copy&paste
-	# color = { 225 90 190 }
-	# color2 = { 255 255 20 }
 
-	# capital = 741 ## Nikomedia
-
-	# turkish = "Izmit"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_abydos_theme = {
-	#Vanilla copy&paste
-	# color = { 210 140 170 }
-	# color2 = { 255 255 20 }
-
-	# capital = 744 ## Abydos
-
-	# turkish = "Balakhisar"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_thrace_theme = {
-	#Vanilla copy&paste
-	# color = { 172 76 139 }
-	# color2 = { 255 255 20 }
-
-	# capital = 496 ## Byzantion
-
-	# roman = "Thracia"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_adrianopolis_theme = {
-	#Vanilla copy&paste
-	# color = { 213 74 165 }
-	# color2 = { 255 255 20 }
-
-	# capital = 494 ## Adrianopolis
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla BYZANTIUM kingdom - tssk tssk
-# d_thessalonika_theme = {
-	#Vanilla copy&paste
-	# color = { 189 19 130 }
-	# color2 = { 255 255 20 }
-
-	# capital = 490 ## Thessalonike
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_athens_theme = {
-	#Vanilla copy&paste
-	# color = { 206 66 158 }
-	# color2 = { 255 255 20 }
-
-	# capital = 475 ## Thebes
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_achaia_theme = {
-	#Vanilla copy&paste
-	# color = { 190 29 134 }
-	# color2 = { 255 255 20 }
-
-	# capital = 481 ## Korinthos
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_krete_theme = {
-	#Vanilla copy&paste
-	# color = { 205 110 35 }
-	# color2 = { 255 255 20 }
-
-	# capital = 480 ## Chandax
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla EPIRUS kingdom
-# d_dyrrachion_theme = {
-	#Vanilla copy&paste
-	# color = { 137 27 99 }
-	# color2 = { 255 255 20 }
-
-	# capital = 470 ## Dyrrachion
-
-	# arberian = "Arbanon"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_cephalonia_theme = {
-	#Vanilla copy&paste
-	# color = { 222 155 155 }
-	# color2 = { 255 255 20 }
-
-	# capital = 474
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla ANATOLIA kingdom
-# d_nikaea_theme = {
-	#Vanilla copy&paste
-	# color = { 202 101 167 }
-	# color2 = { 255 255 20 }
-	# capital = 750 ## Nikaea
-	# turkish = "Iznik"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_samos_theme = {
-	#Vanilla copy&paste
-	# color = { 115 55 100 }
-	# color2 = { 255 255 20 }
-
-	# capital = 486 ## Samos
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_cibyrrhaeot_theme = {
-	#Vanilla copy&paste
-	# color = { 108 29 80 }
-	# color2 = { 255 255 20 }
-
-	# capital = 755 ## Attaleia
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_anatolia_theme = {
-	#Vanilla copy&paste
-	# color = { 174 23 122 }
-	# color2 = { 255 255 20 }
-
-	# capital = 759 ## Ikonion
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_thracesia_theme = {
-	#Vanilla copy&paste
-	# color = { 154 43 116 }
-	# color2 = { 255 255 20 }
-
-	# capital = 748 ## Laodikeia
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_charsianon_theme = {
-	#Vanilla copy&paste
-	# color = { 237 58 198 }
-	# color2 = { 255 255 20 }
-
-	# capital = 737 ## Kaisereia
-
-	# roman = "Galatia"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_cappadocia_theme = {
-	#Vanilla copy&paste
-	# color = { 160 20 130 }
-	# color2 = { 255 255 20 }
-
-	# capital = 760
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_bucellarian_theme = {
-	#Vanilla copy&paste
-	# color = { 234 157 207 }
-	# color2 = { 255 255 20 }
-
-	# capital = 753
-
-	# greek = "Boukellarion"
-	# turkish = "Ankara"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_armenia_minor_theme = {
-	#Vanilla copy&paste
-	# color = { 214 140 190 }
-	# color2 = { 255 255 255 }
-
-	# capital = 761 ## Tarsos
-
-	# armenian = "Armenia Minor"
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_cyprus_theme = {
-	#Vanilla copy&paste
-	# color = { 239 109 163 }
-	# color2 = { 255 255 20 }
-
-	# capital = 757 ## Famagusta
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla ARMENIA kingdom
-# d_armenia_theme = {
-	#Vanilla copy&paste
-	# color = { 154 77 36 }
-	# color2 = { 255 255 255 }
-
-	# capital = 682 ## Vaspurakan
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_mesopotamia_theme = {
-	#Vanilla copy&paste
-	# color = { 155 88 20 }
-	# color2 = { 255 255 255 }
-
-	# capital = 702 ## Mesopotamia
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_edessa_theme = {
-	#Vanilla copy&paste
-	# color = { 182 110 45 }
-	# color2 = { 255 255 255 }
-
-	# capital = 699 ## Edessa
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_coloneia_theme = {
-	#Vanilla copy&paste
-	# color = { 195 125 55 }
-	# color2 = { 255 255 255 }
-
-	# capital = 706 ## Koloneia
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# Themes from the vanilla BULGARIA kingdom
-# d_turnovo_theme = {
-	#Vanilla copy&paste
-	# color = { 197 39 154 }
-	# color2 = { 255 255 255 }
-
-	# capital = 499 ## Tyrnovo
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-# d_karvuna_theme = {
-	#Vanilla copy&paste
-	# color = { 227 79 190 }
-	# color2 = { 255 255 255 }
-
-	# capital = 509 ## Karvuna
-	
-	#fixed AVE MARIA modification
-	# assimilate = no
-	# title = "Strategos"
-	# landless = yes
-	# can_be_usurped = no		
-# }
-
-#Varangian Guard
-# d_varangian_guard = {
-	# color = { 180 180 180 }
-	# color2 = { 255 255 255 }
-	
-	# graphical_culture = orthodoxholygfx
-
-	# capital = 496
-	
-	# Parent Religion 
-	# religion = orthodox
-	
-	# culture = norse
-	
-	# title = "Akolouthos"
-	# foa = "CAPTAIN_FOA"
-	# title_female = "Akolouthos"
-
-	# Always exists
-	# landless = yes
-	
-	# Cannot be held as a secondary title
-	# primary = yes
-
-# }
-
-#Fleet Commander
-# k_megas_droungarios = {
-	# graphical_culture = byzantinegfx
-	# capital = 496
-	# culture = greek
-	# title = "Megas Droungarios"
-	# landless = yes
-	# can_be_usurped = no
-	# assimilate = no
-# }
 
 ######################################################################################
 ## Civilian Offices			              ##

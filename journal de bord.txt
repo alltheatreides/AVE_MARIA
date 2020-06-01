@@ -444,6 +444,27 @@ So one way this might work is through the implementation of an expanded economy 
 
 27/05/20
 - Changer les lois de tous les titres administratifs pour ne pas pouvoir déclarer de guerre
-- Créer les fichiers historiques des tagma..
+- Créer les fichiers historiques des tagma.
 - Economic overhaul: distinguer les basic foodstuffs and goods (grain, meats, fabric, tools) et les luxury goods. Les luxury goods font l'objet de commerce longue distance
 - Ajouter une condition pour les conseillers de l'empereur qui doivent d'être d'un certain rang
+
+28/05/20
+- Faire des boutons spéciaux pour les conseillers des romains unlanded
+- Exclure de la maintenance true vassal les tributaires romains
+- Pour refaire les evenements d emandats: event root sur le character qui a un titre admin ET a le compteur de mandat à 6, alors primary_title = save_eevent target as title to pass up, current_heir = { give title = title to pass up }
+
+29/05/20
+- Grands évènements chrétiens à représenter (calendirer chrétien), notamment la veillée aux morts, post character death
+
+30/05/20
+-
+
+31/05/20
+- Refaire les cercles des gouvernements spéciaux pour ne pas qu'ils aient l'air de King
+- Reprendre les coronation event pour les romains de CK2+
+- Un ssytème de transition dans la succession: l'héritier est toujours genre, le throne, et les héritiers/fils/claimants du roi mort doivent agir vite pour saisir la couronne
+
+01/06/20
+- GFX work mostly
+- Prevent job title ecclessiarch from leading troops....
+- Rename "Kaisar" commander name for king tier ?

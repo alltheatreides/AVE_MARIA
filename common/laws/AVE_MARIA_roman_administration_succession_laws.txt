@@ -31,7 +31,11 @@ succession_laws = {
 		dynasty_opinion = 5
 	
 		potential = {
-			roman_administration_administrative_title_trigger = yes
+			OR = {
+				roman_administration_administrative_title_trigger = yes
+				roman_administration_tagma_title_held_trigger = yes
+			}
+			
 			holder_scope = {
 				is_nomadic = no
 				NOT = { religion_group = muslim }
