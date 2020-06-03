@@ -1,15 +1,43 @@
 ##EVENTS
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_roman_coronation"
+		texturefile = "gfx\\event_pictures\ave_maria_roman_coronation.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ave_maria_roman_advice"
+		texturefile = "gfx\\event_pictures\ave_maria_roman_advice.dds"
+		allwaystransparent = yes
+	}
+}
+
 
 ##DECISIONS
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_roman_adminisration_muster_all_the_tagma"
-		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_adminisration_decision_icon_muster_all_the_tagma.tga"
+		name = "GFX_roman_administration_muster_all_the_tagma"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_administration_decision_muster_all_the_tagma.tga"
+	}
+	spriteType = {
+		name = "GFX_roman_administration_imperial_coronation"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_administration_decision_imperial_coronation.tga"
+	}
+	spriteType = {
+		name = "GFX_roman_administration_set_up_administration"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_administration_decision_set_up_administration.tga"
 	}
 	
 	
-	
+	spriteType = {
+		name = "GFX_roman_administration_fire_official"
+		texturefile = "gfx\\interface\\diplo_decision_roman_administration_fire_official.dds"
+	}
+	spriteType = {
+		name = "GFX_roman_administration_name_official"
+		texturefile = "gfx\\interface\\diplo_decision_roman_administration_name_official.dds"
+	}
 
 }
 
@@ -67,6 +95,8 @@ spriteTypes = {
 
 ##Government Frames
 spriteTypes = {
+	
+	## Military
 	spriteType = {
 		name = "GFX_charframe_150_roman_administration_military_government"
 		texturefile = "gfx\\interface\\charframe_150_roman_administration_military.dds"
@@ -98,6 +128,7 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	## Civilian	
 	spriteType = {
 		name = "GFX_charframe_150_roman_administration_civilian_government"
 		texturefile = "gfx\\interface\\charframe_150_romanadministration.dds"
@@ -128,7 +159,50 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
+	
+	## Family
+	spriteType = {
+		name = "GFX_charframe_150_roman_administration_family_government"
+		texturefile = "gfx\\interface\\charframe_150_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_roman_administration_family_government"
+		texturefile = "gfx\\interface\\charframe_100_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_roman_administration_family_government"
+		texturefile = "gfx\\interface\\charframe_75_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_roman_administration_family_government"
+		texturefile = "gfx\\interface\\charframe_50_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_roman_administration_family_government"
+		texturefile = "gfx\\interface\\charframe_34_romanadministration.dds"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
 }
 
-##COA
+
+##Traits
+spriteTypes = {
+	spriteType = {						
+		name = "GFX_trait_crowned_basileus"					
+		texturefile = gfx/traits/crowned_basileus.tga					
+		noOfFrames = 1					
+		norefcount = yes					
+		effectFile = "gfx/FX/buttonstate_linear.lua"					
+	}
+}
+
 

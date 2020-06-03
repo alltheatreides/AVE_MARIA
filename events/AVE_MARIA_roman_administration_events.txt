@@ -13,7 +13,7 @@ namespace = AVE_MARIA_roman_administration
 
 ##NOTES:
 ## QOL event in order not to change every single history file
-## 
+## Titles setup
 character_event = {
 	id = AVE_MARIA_roman_administration.1
 	hide_window = yes
@@ -855,7 +855,88 @@ character_event = {
 				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
 			}					
 		}						
-
+		k_dzopk_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_taron_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}		
+		k_mesopotamia_hayk_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_tao_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_vaspurakan_hayk_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_edessa_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_antioch_roman_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		k_syrmia_theme = {
+			if = {					
+				limit = {				
+					holder_scope = {			
+						liege = { character = ROOT }		
+					}			
+				}				
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }				
+			}	
+		}
+		
+		
 		## Granting Family titles to non manually modified family titles (like the family_1 and the Doukas for instance
 		k_abydos = {							
 			holder_scope = {						
@@ -953,7 +1034,7 @@ character_event = {
 					limit = {				
 						liege = { character = ROOT }			
 					}				
-					grant_title_no_opinion = k_roman_family_12				
+					grant_title_no_opinion = k_roman_family_13				
 				}					
 			}						
 		}							
@@ -1267,6 +1348,87 @@ character_event = {
 				}					
 			}						
 		}							
+		k_dzopk = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_44			
+				}					
+			}	
+		}
+		k_taron = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_45		
+				}					
+			}	
+		}		
+		k_mesopotamia_hayk = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_46			
+				}					
+			}	
+		}
+		k_tao = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_47		
+				}					
+			}	
+		}
+		k_vaspurakan_hayk = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_48		
+				}					
+			}	
+		}
+		k_edessa = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_49	
+				}					
+			}	
+		}
+		k_antioch_roman = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_50	
+				}					
+			}	
+		}
+		k_syrmia = {
+			holder_scope = {						
+				if = {					
+					limit = {				
+						liege = { character = ROOT }			
+					}				
+					grant_title_no_opinion = k_roman_family_51
+				}					
+			}	
+		}
+		
 		
 		## Making Strategos job titles primary
 		k_abydos_theme = {	
@@ -1392,13 +1554,39 @@ character_event = {
 		k_ragusa_theme = {	
 			make_primary_title = yes
 		}	
-		
+		k_dzopk_theme = {
+			make_primary_title = yes
+		}
+		k_taron_theme = {
+			make_primary_title = yes
+		}		
+		k_mesopotamia_hayk_theme = {
+			make_primary_title = yes
+		}
+		k_tao_theme = {
+			make_primary_title = yes
+		}
+		k_vaspurakan_hayk_theme = {
+			make_primary_title = yes
+		}
+		k_edessa_theme = {
+			make_primary_title = yes
+		}
+		k_antioch_roman_theme = {
+			make_primary_title = yes
+		}
+		k_syrmia_theme = {
+			make_primary_title = yes
+		}
 		
 		any_title = { ## Distributing civilian titles to civilians
 			limit = {
 				roman_administration_theme_title_trigger = yes
 				NOT = { holder = ROOT }
 				NOT = { is_theocracy = yes }
+				NOT = {
+					title = d_apostolic
+				}
 			}
 			holder_scope = { # Creating the civilian theme new holder and the military theme new older if character is too young and give them the titles
 				if = { #is_adult = yes
@@ -1494,6 +1682,30 @@ character_event = {
 			}
 		}
 		
+		any_character = {
+			limit = {
+				primary_title = {
+					OR = {
+						roman_administration_tagma_title_held_trigger = yes
+						roman_administration_theme_title_trigger = yes
+						roman_administration_strategos_title_trigger = yes
+					}
+				}
+				NOT = { primary_title = { title = k_varangian_guard } }
+			}
+			set_character_flag = roman_administration_term_start_count
+			set_variable = {
+				which = roman_administration_term_duration_count
+				value = 0
+			}
+			if = {
+				limit = {
+					check_variable = { which = roman_administration_term_duration_count value = 0 }
+				}
+				# remove_character_modifier = roman_administration_terms_of_office_0
+				add_character_modifier = { name = roman_administration_terms_of_office_0 duration = -1 }
+			}
+		}
 	}	
 
 }
@@ -1530,6 +1742,7 @@ character_event = {
 		}		
 		k_excubitor = {
 			set_title_flag = roman_administration_tagma_title
+			add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 			holder_scope = {
 				add_hexaco_education_traits = yes
 				save_event_target_as = target_tagma_commander
@@ -1541,6 +1754,7 @@ character_event = {
 		}
 		k_vigla = {
 			set_title_flag = roman_administration_tagma_title
+			add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 			holder_scope = {
 				add_hexaco_education_traits = yes
 				save_event_target_as = target_tagma_commander
@@ -1552,6 +1766,7 @@ character_event = {
 		}
 		k_hikanatoi = {
 			set_title_flag = roman_administration_tagma_title
+			add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 			holder_scope = {
 				add_hexaco_education_traits = yes
 				save_event_target_as = target_tagma_commander
@@ -1566,19 +1781,22 @@ character_event = {
 				has_global_flag = varangian_guard_founded
 			}
 			k_varangian_guard = {
+				set_defacto_liege = e_byzantium
 				set_title_flag = roman_administration_tagma_title
+				add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 				holder_scope = {
 					spawn_great_commander_effect = yes # Create a tagma - spawn commander
-					# new_character = { save_event_target_as = target_tagma_commander }
+					new_character = { save_event_target_as = target_tagma_commander }
 					roman_administration_create_varangian_tagma = yes
-					# any_title_under = { # Give to the military guy the strategos title		
-						# grant_title_no_opinion = event_target:target_tagma_commander			
-					# }
+					any_title_under = { # Give to the military guy the strategos title		
+						grant_title_no_opinion = event_target:target_tagma_commander			
+					}
 				}
 			}
 		}		
 		k_regular_tagma_1 = {
 			set_title_flag = roman_administration_tagma_title
+			add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 			holder_scope = {
 				add_hexaco_education_traits = yes
 				save_event_target_as = target_tagma_commander
@@ -1590,6 +1808,7 @@ character_event = {
 		}		
 		k_regular_tagma_2 = {
 			set_title_flag = roman_administration_tagma_title
+			add_law = { law = succ_my_test_law cooldown = no opinion_effect = no }
 			holder_scope = {
 				add_hexaco_education_traits = yes
 				save_event_target_as = target_tagma_commander
@@ -1660,23 +1879,30 @@ character_event = {
 	
 	trigger = {
 		primary_title = {
-			roman_administration_administrative_title_trigger = yes
+			OR = {
+				roman_administration_tagma_title_held_trigger = yes
+				roman_administration_theme_title_trigger = yes
+				roman_administration_strategos_title_trigger = yes
+			}
+		}
+		NOT = {
+			has_character_flag = roman_administration_term_start_count
 		}
 	}
 		
 	immediate = {
+		set_character_flag = roman_administration_term_start_count
+		set_variable = {
+			which = roman_administration_term_duration_count
+			value = 0
+		}
 		if = {
 			limit = {
-				check_variable = {
-					which = roman_administration_term_duration_count
-					value <= 0
-				}
+				check_variable = { which = roman_administration_term_duration_count value = 0 }
 			}
-			set_variable = {
-				which = roman_administration_term_duration_count
-				value = 0
-			}			
-		}		
+			# remove_character_modifier = roman_administration_terms_of_office_0
+			add_character_modifier = { name = roman_administration_terms_of_office_0 duration = -1 }
+		}
 	}		
 	
 }
@@ -1691,6 +1917,14 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		primary_title = {
+			OR = {
+				roman_administration_tagma_title_held_trigger = yes
+				roman_administration_theme_title_trigger = yes
+				roman_administration_strategos_title_trigger = yes
+			}
+		}
+		has_character_flag = roman_administration_term_start_count
 		check_variable = {
 			which = roman_administration_term_duration_count
 			value >= 0
@@ -1702,6 +1936,68 @@ character_event = {
 			which = roman_administration_term_duration_count
 			value = 1
 		}
+		if = {
+			limit = {
+				check_variable = { which = roman_administration_term_duration_count value = 1 }
+			}
+			remove_character_modifier = roman_administration_terms_of_office_0
+			remove_character_modifier = roman_administration_terms_of_office_1
+			remove_character_modifier = roman_administration_terms_of_office_2
+			remove_character_modifier = roman_administration_terms_of_office_3
+			remove_character_modifier = roman_administration_terms_of_office_4
+			remove_character_modifier = roman_administration_terms_of_office_5
+			add_character_modifier = { name = roman_administration_terms_of_office_1 duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = roman_administration_term_duration_count value = 2 }
+			}
+			remove_character_modifier = roman_administration_terms_of_office_0
+			remove_character_modifier = roman_administration_terms_of_office_1
+			remove_character_modifier = roman_administration_terms_of_office_2
+			remove_character_modifier = roman_administration_terms_of_office_3
+			remove_character_modifier = roman_administration_terms_of_office_4
+			remove_character_modifier = roman_administration_terms_of_office_5
+			add_character_modifier = { name = roman_administration_terms_of_office_2 duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = roman_administration_term_duration_count value = 3 }
+			}
+			remove_character_modifier = roman_administration_terms_of_office_0
+			remove_character_modifier = roman_administration_terms_of_office_1
+			remove_character_modifier = roman_administration_terms_of_office_2
+			remove_character_modifier = roman_administration_terms_of_office_3
+			remove_character_modifier = roman_administration_terms_of_office_4
+			remove_character_modifier = roman_administration_terms_of_office_5
+			add_character_modifier = { name = roman_administration_terms_of_office_3 duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = roman_administration_term_duration_count value = 4 }
+			}
+			remove_character_modifier = roman_administration_terms_of_office_0
+			remove_character_modifier = roman_administration_terms_of_office_1
+			remove_character_modifier = roman_administration_terms_of_office_2
+			remove_character_modifier = roman_administration_terms_of_office_3
+			remove_character_modifier = roman_administration_terms_of_office_4
+			remove_character_modifier = roman_administration_terms_of_office_5
+			add_character_modifier = { name = roman_administration_terms_of_office_4 duration = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = { which = roman_administration_term_duration_count value = 5 }
+			}
+			remove_character_modifier = roman_administration_terms_of_office_0
+			remove_character_modifier = roman_administration_terms_of_office_1
+			remove_character_modifier = roman_administration_terms_of_office_2
+			remove_character_modifier = roman_administration_terms_of_office_3
+			remove_character_modifier = roman_administration_terms_of_office_4
+			remove_character_modifier = roman_administration_terms_of_office_5
+			add_character_modifier = { name = roman_administration_terms_of_office_5 duration = -1 }
+		}
+		
+		
 	}		
 	
 }
@@ -1713,47 +2009,946 @@ character_event = {
 	desc = AVE_MARIA_roman_administration.6
 	hide_window = yes
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
 	trigger = {
+		any_demesne_title = {
+			OR = {
+				roman_administration_tagma_title_held_trigger = yes
+				roman_administration_theme_title_trigger = yes
+				roman_administration_strategos_title_trigger = yes
+			}
+		}
 		check_variable = {
 			which = roman_administration_term_duration_count
 			value = 6
 		}
 	}
 		
-	immediate = {		
-		abdicate = yes
+	immediate = {
+		any_demesne_title = {
+			limit = {
+				OR = {
+					roman_administration_tagma_title_held_trigger = yes
+					roman_administration_theme_title_trigger = yes
+					roman_administration_strategos_title_trigger = yes
+				}
+			}
+			save_event_target_as = roman_administration_title_to_pass_up
+			holder_scope = {
+				current_heir = {
+					save_event_target_as = roman_administration_next_title_holder
+				}
+				set_variable = {
+					which = roman_administration_term_duration_count
+					value = 0
+				}
+				clr_character_flag = roman_administration_term_start_count
+				remove_character_modifier = roman_administration_terms_of_office_0
+				remove_character_modifier = roman_administration_terms_of_office_1
+				remove_character_modifier = roman_administration_terms_of_office_2
+				remove_character_modifier = roman_administration_terms_of_office_3
+				remove_character_modifier = roman_administration_terms_of_office_4
+				remove_character_modifier = roman_administration_terms_of_office_5
+			}
+			grant_title_no_opinion = event_target:roman_administration_next_title_holder
+		}
 	}		
 	
 }		
 	
-## Test test
+## Imperial Coronation - Patriarch asked to crown emperor
 character_event = {
 	id = AVE_MARIA_roman_administration.7
 	border = GFX_event_normal_frame_diplomacy		
 	desc = AVE_MARIA_roman_administration.7
+	picture = "GFX_evt_ave_maria_roman_coronation"
+	
+	is_triggered_only = yes
+	
+	option = {  # Patriarch is okay with it
+		name = EVTOPT_A_AVE_MARIA_roman_administration.7		
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 75 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 50 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = FROM value = 25 }
+			}
+			modifier = {
+				factor = 3
+				FROM = { trait = born_in_the_purple }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = celibate }
+			}
+			modifier = {
+				factor = 1.7
+				FROM = { trait = chaste }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = humble }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = zealous }
+			}
+		}
+		FROM = { character_event = { id = AVE_MARIA_roman_administration.8 } }
+	}
+
+	option = { # Patriarch is not okay with it
+		name = "EVTOPT_B_AVE_MARIA_roman_administration.7"		 
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 2
+				NOT = { opinion = { who = FROM value = -40 } }
+			}
+			modifier = {
+				factor = 2
+				NOT = { opinion = { who = FROM value = -60 } }
+			}
+			modifier = {
+				factor = 2
+				NOT = { opinion = { who = FROM value = -80 } }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { is_female = yes }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { culture = greek } }
+			}
+			modifier = {
+				factor = 3
+				FROM = { trait = lunatic }
+			}
+			modifier = {
+				factor = 4
+				FROM = { trait = possessed }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = bastard }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = legit_bastard }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = imbecile }
+			}
+			modifier = {
+				factor = 4
+				FROM = { trait = inbred }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = hedonist }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = cynical }
+			}
+		}
+		FROM = { character_event = { id = AVE_MARIA_roman_administration.8 } }
+   }
+	
+}
+
+## Imperial Coronation - Patriarch has agreeed to crown the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration.8
+	desc = EVTDESC_AVE_MARIA_roman_administration.8
+	picture = GFX_evt_ave_maria_roman_coronation
+
+	is_triggered_only = yes
+
+	option = { #Invite the great of the empire
+		name = EVTOPT_A_AVE_MARIA_roman_administration.8 
+		scaled_wealth = -1.0
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = {
+					has_regent = no
+					OR = {
+						is_ruler = yes
+						spouse = { is_ruler = yes }
+					}
+					religion = ROOT
+					NOT = { character = FROM }
+					NOT = { trait = excommunicated }
+				}
+				letter_event = { id = AVE_MARIA_roman_administration.9 } # Invitation
+			}
+			FROM = { character_event = { id = AVE_MARIA_roman_administration.11 } }
+		}
+	}
+}
+
+## Imperial Coronation - Invitation to the great of the empire
+letter_event = {
+	id = AVE_MARIA_roman_administration.9
+	desc = EVTDESC_AVE_MARIA_roman_administration.9
+	# picture = GFX_evt_ave_maria_roman_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.9	# Attend
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					opinion = {
+						who = FROM
+						value = 20
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					opinion = {
+						who = FROM
+						value = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.6
+				ROOT = {
+					opinion = {
+						who = FROM
+						value = 60
+					}
+				}
+			}
+			modifier = {
+				factor = 2.0
+				ROOT = {
+					opinion = {
+						who = FROM
+						value = 80
+					}
+				}
+			}
+			modifier = {
+				factor = 2.0
+				ROOT = {
+					opinion = {
+						who = FROM
+						value = 100
+					}
+				}
+			}
+		}
+		set_character_flag = roman_administration_attend_coronation
+	}
+	option = {
+		name = EVTOPT_B_AVE_MARIA_roman_administration.9	# Do not attend
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 4.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder
+					}
+				}
+			}
+			modifier = {
+				factor = 2.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_spouse
+					}
+				}
+			}
+			modifier = {
+				factor = 4.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_child
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_vassal
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -20
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -40
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -60
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -80
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -99
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { higher_tier_than = COUNT }
+			FROM = {
+				letter_event = { id = Plus.1180 days = 2 random = 8 }
+			}
+		}
+	}
+}
+
+## Imperial Coronation - Emperor is informed of the refusal to come
+letter_event = {
+	id = AVE_MARIA_roman_administration.10
+	desc = EVTDESC_AVE_MARIA_roman_administration.10
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.10
+		ROOT = {
+			opinion = {
+				modifier = insulted
+				who = FROM
+				months = 60
+			}
+		}
+	}
+}
+
+## Imperial Coronation - Patriarch gives the emperor a bonus to authority or not according to emperor's quality
+character_event = {
+	id = AVE_MARIA_roman_administration.11
+	desc = EVTDESC_AVE_MARIA_roman_administration.11
+	picture = GFX_evt_ave_maria_roman_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.11
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				FROM = { martial = 18 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { martial = 15 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { martial = 12 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { diplomacy = 18 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { diplomacy = 15 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { diplomacy = 12 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { stewardship = 15 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { learning = 18 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { intrigue = 15 }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = faithful }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = honest }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = sincere }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = generous }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = brave }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = tough }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = independent }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = selfassured }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = ambitious }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = gregarious }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = etiquette_5 }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = patient }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = fair }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = genius }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = quick }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = shrewd }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_strong_trigger = yes }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = duelist }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = hunter }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = temperate }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = falconer }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = diligent }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = born_in_the_purple }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { realm_size = 200 }
+			}
+			modifier = {
+				factor = 1.6
+				FROM = { realm_size = 250 }
+			}
+			modifier = {
+				factor = 1.6
+				FROM = { realm_size = 300 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { realm_size = 350 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { realm_size = 400 }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { realm_size = 450 }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { realm_size = 500 }
+			}
+		}
+		FROM = { narrative_event = { id = AVE_MARIA_roman_administration.12 days = 30 } }
+	}
+
+	option = {
+		name = EVTOPT_B_AVE_MARIA_roman_administration.11
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 2
+				FROM = { NOT = { martial = 9 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { martial = 6 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { martial = 3 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { diplomacy = 9 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { diplomacy = 6 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { diplomacy = 3 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { stewardship = 5 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { intrigue = 5 } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { NOT = { learning = 5 } }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { NOT = { culture = greek } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_female = yes }
+			}
+			modifier = {
+				factor = 1.8
+				NOT = { FROM = { owns = 496 } }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { age = 50 }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { age = 60 }
+			}
+			modifier = {
+				factor = 1.7
+				FROM = { age = 70 }
+			}
+			modifier = {
+				factor = 2
+				FROM = { age = 80 }
+			}
+			modifier = {
+				factor = 2.5
+				FROM = { age = 90 }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = depressed }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = lunatic }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = possessed }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = infirm }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = drunkard }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = bastard }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = legit_bastard }
+			}
+			modifier = {
+				factor = 2
+				FROM = { is_kinslayer_trigger = yes }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = clubfooted }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = harelip }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = hunchback }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = lisp }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = stutter }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = ugly }
+			}
+			modifier = {
+				factor = 1.3
+				FROM = { trait = dwarf }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = slow }
+			}
+			modifier = {
+				factor = 1.8
+				FROM = { trait = dull }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = imbecile }
+			}
+			modifier = {
+				factor = 2.5
+				FROM = { trait = inbred }
+			}
+			modifier = {
+				factor = 1.7
+				FROM = { is_weak_trigger = yes }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = blinded }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = eunuch }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = trusting }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = paranoid }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { trait = arbitrary }
+			}
+			modifier = {
+				factor = 1.6
+				FROM = { trait = content }
+			}
+			modifier = {
+				factor = 1.4
+				FROM = { trait = shy }
+			}
+			modifier = {
+				factor = 1.7
+				FROM = { trait = craven }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = deceitful }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = gluttonous }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					prestige = 2500
+					piety = 500
+					NOT = {
+						any_vassal = {
+							higher_tier_than = COUNT
+							NOT = { opinion = { who = PREV value = 0 } }
+						}
+					}
+				}
+			}
+		}
+		FROM = { character_event = { id = AVE_MARIA_roman_administration.13 days = 30 } }
+   }
+}
+
+## Imperial Coronation - Future is bright
+narrative_event = {
+	id = AVE_MARIA_roman_administration.12
+	title = AVE_MARIA_roman_administration.12
+	desc = EVTDESC_AVE_MARIA_roman_administration.12
+	picture = GFX_evt_ave_maria_roman_coronation
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.12
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		prestige = 200
+		piety = 100
+		add_trait = crowned_basileus
+		set_character_flag = roman_administration_bright_future_emperor
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = { has_character_flag = roman_administration_attend_coronation }
+				clr_character_flag = roman_administration_attend_coronation
+				opinion = {
+					modifier = opinion_roman_administration_imperial_coronation
+					who = ROOT
+					years = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.12
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			any_liege = { has_landed_title = e_byzantium }
+		}
+	}
+	option = {
+		name = EVTOPT_C_AVE_MARIA_roman_administration.12
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			NOT = { any_liege = { has_landed_title = e_byzantium } }
+		}
+	}
+
+}
+
+## Imperial Coronation - Future is bleak
+narrative_event = {
+	id = AVE_MARIA_roman_administration.13
+	title = AVE_MARIA_roman_administration.13
+	desc = EVTDESC_AVE_MARIA_roman_administration.13
+	picture = GFX_evt_ave_maria_roman_coronation
+
+	major = yes
+	hide_from = yes
+	show_ROOT = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.13
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		piety = 100
+		add_trait = crowned_basileus
+		set_character_flag = roman_administration_bleak_future_emperor
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = { has_character_flag = roman_administration_attend_coronation }
+				clr_character_flag = roman_administration_attend_coronation
+				opinion = {
+					modifier = opinion_roman_administration_imperial_coronation
+					who = ROOT
+					years = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration.13
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			any_liege = { has_landed_title = e_byzantium }
+		}
+	}
+	option = {
+		name = EVTOPT_C_AVE_MARIA_roman_administration.13
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+			NOT = { any_liege = { has_landed_title = e_byzantium } }
+		}
+	}
+
+}
+
+## Name an official decision
+letter_event = {
+	id = AVE_MARIA_roman_administration.14
+	desc = EVTDESC_AVE_MARIA_roman_administration.14
+	# picture = GFX_evt_ave_maria_roman_advice
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	option = { # Accept
+		name = EVTOPT_A_AVE_MARIA_roman_administration.14
+		event_target:roman_administration_title_to_pass_up = {
+			holder_scope = {
+				current_heir = {
+					save_event_target_as = roman_administration_next_title_holder
+				}
+				set_variable = {
+					which = roman_administration_term_duration_count
+					value = 0
+				}
+				clr_character_flag = roman_administration_term_start_count
+			}
+			grant_title_no_opinion = event_target:roman_administration_next_title_holder
+			any_de_jure_vassal_title = {
+				limit = {
+					holder = event_target:roman_administration_previous_holder
+				}
+				grant_title_no_opinion = event_target:roman_administration_next_title_holder
+			}
+		}
+		opinion = {
+			modifier = opinion_roman_administration_granted_office
+			who = FROM
+			years = 5
+		}
+	}
+	option = { # Refuse
+		name = EVTOPT_B_AVE_MARIA_roman_administration.14
+		FROM = {
+			opinion = {
+				modifier = opinion_roman_administration_refused_office
+				who = ROOT
+				years = 5
+			}
+		}
+	}
+	
+}
+
+## Test test
+character_event = {
+	id = AVE_MARIA_roman_administration.15
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
 	
 	immediate = {
-		## Family titular title doling out set up
-		d_abydos = {						
-			holder_scope = {
-				set_character_flag = wtf
-				if = {				
-					limit = {			
-						liege = {
-							character = ROOT
-						}	
-					}
-					set_character_flag = wtfxxx
-					grant_title_no_opinion = c_roman_family_3
-					# d_roman_family_3 = { gain_title = THIS }			
-				}				
-			}					
+		capital_scope = {
+			add_province_modifier = {
+				name = orc_road_paved
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_road
+				duration = -1
+			}
 		}
 	}
+	
 }

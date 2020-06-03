@@ -111,17 +111,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_true_vassal_convocation_au_ban_offensif"
-		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_icon_convocation_du_ban.tga"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_convocation_du_ban.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_decision_true_vassal_convocation_au_ban_defensive"
-		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_icon_convocation_du_ban.tga"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_true_vassal_decision_convocation_du_ban.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_decision_true_vassal_hommage"
-		texturefile = "gfx\\interface\\decisions\\ave_marie_true_vassal_decision_icon_true_vassal_homage.tga"
+		texturefile = "gfx\\interface\\decisions\\ave_marie_true_vassal_decision_true_vassal_homage.tga"
 	}
 	
 

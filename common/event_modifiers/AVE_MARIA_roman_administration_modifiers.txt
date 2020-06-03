@@ -85,6 +85,25 @@
 ## Roman Administration modifiers
 
 roman_administration_civilian_theme = {
-	icon = 31
+	icon = 141
 	levy_size = -1
+}
+
+roman_administration_terms_of_office_0 = {
+	icon = 135
+}
+roman_administration_terms_of_office_1 = {
+	icon = 136
+}
+roman_administration_terms_of_office_2 = {
+	icon = 137
+}
+roman_administration_terms_of_office_3 = {
+	icon = 138
+}
+roman_administration_terms_of_office_4 = {
+	icon = 139
+}
+roman_administration_terms_of_office_5 = {
+	icon = 140
 }

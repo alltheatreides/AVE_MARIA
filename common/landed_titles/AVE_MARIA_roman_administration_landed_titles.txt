@@ -3565,6 +3565,7 @@ e_null_utility_2 = {
 		turkmen = "Sirem"
 		turkish = "Sirem"
 		capital = 1000 # Szerém # Syrmia
+		title = "Strategos"
 		d_null_utility_152 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_152 = { b_null_utility_152  = { } } }
 
 	}
@@ -3647,6 +3648,9 @@ e_null_utility_3 = {
 		
 		## Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_155 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_155 = { b_null_utility_155  = { } } }
+
 	}
 	
 	## Vigla
@@ -3664,7 +3668,7 @@ e_null_utility_3 = {
 		
 		culture = greek
 
-		title = "Domestikos"
+		title = "Droungarios"
 		foa = "domestic_FOA"
 		title_female = "Domestikos"
 		
@@ -3672,6 +3676,9 @@ e_null_utility_3 = {
 		
 		# Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_156 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_156 = { b_null_utility_156  = { } } }
+
 	}
 	
 	##Hikanatoi
@@ -3697,6 +3704,9 @@ e_null_utility_3 = {
 		
 		### Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_157 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_157 = { b_null_utility_157  = { } } }
+
 	}
 	
 	##Varangian Guard
@@ -3722,6 +3732,8 @@ e_null_utility_3 = {
 		
 		### Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_158 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_158 = { b_null_utility_158  = { } } }
 
 	}
 
@@ -3747,6 +3759,9 @@ e_null_utility_3 = {
 		
 		### Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_159 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_159 = { b_null_utility_159  = { } } }
+
 	}
 	
 	k_regular_tagma_2 = {
@@ -3771,6 +3786,9 @@ e_null_utility_3 = {
 		
 		### Cannot be held as a secondary title
 		primary = yes
+		
+		d_null_utility_160 = { color = { 205 104 170 } color2 = { 255 255 255 } c_null_utility_160 = { b_null_utility_160  = { } } }
+
 	}
 	
 	# k_null_utility_3 = {

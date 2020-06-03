@@ -383,7 +383,14 @@ character_event = {
 					OR = {
 						higher_tier_than = king
 						higher_tier_than = duke
-					}			
+					}
+					any_demesne_title = {
+						OR = {
+							roman_administration_tagma_title_held_trigger = yes
+							roman_administration_strategos_title_trigger = yes
+							roman_administration_family_title_trigger = yes
+						}
+					}
 				}
 			}
 			set_variable = { which = administrative_capacity value = 1 }
@@ -393,12 +400,30 @@ character_event = {
 		if = {
 			limit = {
 				higher_tier_than = duke
+				NOT = {
+					any_demesne_title = {
+						OR = {
+							roman_administration_tagma_title_held_trigger = yes
+							roman_administration_strategos_title_trigger = yes
+							roman_administration_family_title_trigger = yes
+						}
+					}
+				}
 			}
 			set_variable = { which = administrative_capacity value = 2 }
 		}
 		if = {
 			limit = {
 				higher_tier_than = king
+				NOT = {
+					any_demesne_title = {
+						OR = {
+							roman_administration_tagma_title_held_trigger = yes
+							roman_administration_strategos_title_trigger = yes
+							roman_administration_family_title_trigger = yes
+						}
+					}
+				}
 			}
 			set_variable = { which = administrative_capacity value = 15 }
 		}
@@ -489,7 +514,14 @@ character_event = {
 						OR = {
 							higher_tier_than = king
 							higher_tier_than = duke
-						}			
+						}
+						any_demesne_title = {
+							OR = {
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_strategos_title_trigger = yes
+								roman_administration_family_title_trigger = yes
+							}
+						}
 					}
 				}
 				set_variable = { which = administrative_capacity value = 2 }
@@ -499,12 +531,30 @@ character_event = {
 			if = {
 				limit = {
 					higher_tier_than = duke
+					NOT = {
+						any_demesne_title = {
+							OR = {
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_strategos_title_trigger = yes
+								roman_administration_family_title_trigger = yes
+							}
+						}
+					}
 				}
 				set_variable = { which = administrative_capacity value = 5 }
 			}
 			if = {
 				limit = {
 					higher_tier_than = king
+					NOT = {
+						any_demesne_title = {
+							OR = {
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_strategos_title_trigger = yes
+								roman_administration_family_title_trigger = yes
+							}
+						}
+					}
 				}
 				set_variable = { which = administrative_capacity value = 15 }
 			}

@@ -33,123 +33,264 @@
 #                               													   #
 ########################################################################################
 
-# Written by Atreides
+## Written by Atreides
 
 decisions = {
 
-	#Decision to call all the tagma at once instead of manually selecting each of them
-	# roman_adminisration_muster_all_the_tagma = {
-		# is_high_prio = yes
-		# ai_check_interval = 12
-		# potential = {
-			# primary_title = {
-				# OR = { 
-					# title = e_byzantium
-					# title = e_roman_empire
-				# }
-				# has_law = succ_byzantine_elective
-			# }
-			# war = yes
-		# }
-		# allow = {
-			# ROOT = {
-				# any_vassal = {
-					# limit = {
-						# any_demesne_title = {
-							# roman_administration_tagma_title_held_trigger = yes
-						# }
-					# }
-					# NOT = {
-						# war = yes
-					# }
-				# }
-			# }			
-		# }
-		# effect = {
-			# any_vassal = {
-				# limit = {
-					# any_demesne_title = {
-						# roman_administration_tagma_title_held_trigger = yes
-					# }
-				# }
-				# join_attacker_wars = ROOT
-				# join_defender_wars = ROOT
-			# }
-		# }
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	
-}
-
-targetted_decisions = {
-
-	## Decision to call manually a tagma instead of calling all of them
-	roman_administration_muster_the_army = {
-		only_independent = yes
-		filter = realm
-		ai_target_filter = realm
-		
+	## Decision to call all the tagma at once instead of manually selecting each of them
+	roman_administration_muster_all_the_tagma = {
+		is_high_prio = yes
+		ai_check_interval = 12
 		potential = {
-			any_demesne_title = {
-				OR = {
-					roman_administration_theme_title_trigger = yes
-					roman_administration_tagma_title_held_trigger = yes
-				}
-			}
-		}
-		
-		from_potential = {
-			is_playable = yes
-			is_landed = yes
-			mercenary = no
-			holy_order = no
 			primary_title = {
-				OR = {
+				OR = { 
 					title = e_byzantium
 					title = e_roman_empire
 				}
 				has_law = succ_byzantine_elective
 			}
+			war = yes
 		}
-		
 		allow = {
-			FROM = {
-				war = yes
-			}
-			war = no
+			ROOT = {
+				any_vassal = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes
+					}
+					NOT = {
+						war = yes
+					}
+				}
+			}			
 		}
-		
 		effect = {
-			if = {
+			any_vassal = {
 				limit = {
-					FROM = { is_primary_war_attacker = yes }
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes
+					}
 				}
-				ROOT = { join_attacker_wars = FROM }
-			}
-			if = {
-				limit = {
-					FROM = { is_primary_war_defender = yes }
-				}
-				ROOT = { join_defender_wars = FROM }
+				join_attacker_wars = ROOT
+				join_defender_wars = ROOT
 			}
 		}
-		
-		revoke_allowed = {
-			always = no #Not used in vanilla
-		}
-		
 		ai_will_do = {
-			factor = 0
-			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
-		}
-		ai_acceptance = {
-			factor = 100
-			yes_threshold = 100
+			factor = 1
 		}
 	}
+	
+	## Imperial Coronation
+	roman_administration_imperial_coronation = {
+		is_high_prio = yes
 
+		potential = {
+			primary_title = { title = e_byzantium }
+			NOT = { trait = crowned_basileus }
+			religion = orthodox
+			is_nomadic = no
+			b_hagiasophia = {
+				has_holder = yes
+				holder_scope = {
+					is_theocracy = yes
+					religion = ROOT
+					NOT = { character = ROOT }
+					OR = {
+						NOT = { has_character_flag = roman_administration_denied_coronation }
+						had_character_flag = { flag = roman_administration_denied_coronation days = 365 }
+					}
+				}
+			}
+			NOT = { has_character_flag = roman_administration_coronation }
+		}
+		allow = {
+			war = no
+			has_regent = no
+			piety = 25
+			scaled_wealth = 1.0
+			is_adult = yes
+			NOT = { trait = excommunicated }
+		}
+		effect = {
+			set_character_flag = roman_administration_preparing_coronation
+			b_hagiasophia = {
+				holder_scope = {
+					character_event = { id = AVE_MARIA_roman_administration.7 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	## Redistribute titles other than Constantinople
+	roman_administration_set_up_administration = {
+		only_playable = yes
+	 	is_high_prio = yes
+		ai_check_interval = 12
+
+		potential = {
+			primary_title = { title = e_byzantium }
+			any_demesne_title = {
+				limit = {
+					NOT = {
+						roman_administration_administrative_title_trigger = yes
+						title = e_byzantium
+						title = c_byzantion
+					}
+				}
+			}
+		}
+		allow = {
+			primary_title = { title = e_byzantium }
+			any_demesne_title = {
+				limit = {
+					NOT = {
+						roman_administration_administrative_title_trigger = yes
+						title = e_byzantium
+						title = c_byzantion
+					}
+				}
+			}
+		}
+		effect = {
+			random_demesne_title = {
+				limit = {
+					tier = COUNT
+					NOT = {
+						roman_administration_administrative_title_trigger = yes
+						title = e_byzantium
+						title = c_byzantion
+					}
+				}
+				save_event_target_as = roman_administration_title_to_give
+			}
+			create_random_steward = {			
+				random_traits = yes		
+				dynasty = random		
+				female = no		
+				attributes = {		
+					diplomacy = 2	
+					learning = 2	
+					stewardship = 8	
+					intrigue = 2	
+					martial = 2	
+				}		
+			}
+			new_character = {			
+				save_event_target_as = roman_administration_new_holder		
+			}
+			event_target:roman_administration_title_to_give = {
+				grant_title_no_opinion = event_target:roman_administration_new_holder
+			}
+			random_demesne_title = {
+				limit = {
+					tier = KING
+					NOT = {
+						roman_administration_administrative_title_trigger = yes
+						title = e_byzantium
+						title = c_byzantion
+					}
+				}
+				save_event_target_as = roman_administration_title_to_give
+			}
+			create_random_steward = {			
+				random_traits = yes		
+				dynasty = random		
+				female = no		
+				attributes = {		
+					diplomacy = 2	
+					learning = 2	
+					stewardship = 8	
+					intrigue = 2	
+					martial = 2	
+				}		
+			}
+			new_character = {			
+				save_event_target_as = roman_administration_new_holder		
+			}
+			event_target:roman_administration_title_to_give = {
+				grant_title_no_opinion = event_target:roman_administration_new_holder
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+}
+
+targetted_decisions = {
+
+	## Decision to call manually a tagma instead of calling all of them
+	# roman_administration_muster_the_army = {
+		# only_independent = yes
+		# filter = realm
+		# ai_target_filter = realm
+		
+		# potential = {
+			# any_demesne_title = {
+				# OR = {
+					# roman_administration_theme_title_trigger = yes
+					# roman_administration_tagma_title_held_trigger = yes
+				# }
+			# }
+		# }
+		
+		# from_potential = {
+			# is_playable = yes
+			# is_landed = yes
+			# mercenary = no
+			# holy_order = no
+			# primary_title = {
+				# OR = {
+					# title = e_byzantium
+					# title = e_roman_empire
+				# }
+				# has_law = succ_byzantine_elective
+			# }
+		# }
+		
+		# allow = {
+			# FROM = {
+				# war = yes
+			# }
+			# war = no
+		# }
+		
+		# effect = {
+			# if = {
+				# limit = {
+					# FROM = { is_primary_war_attacker = yes }
+				# }
+				# ROOT = { join_attacker_wars = FROM }
+			# }
+			# if = {
+				# limit = {
+					# FROM = { is_primary_war_defender = yes }
+				# }
+				# ROOT = { join_defender_wars = FROM }
+			# }
+		# }
+		
+		# revoke_allowed = {
+			# always = no #Not used in vanilla
+		# }
+		
+		# ai_will_do = {
+			# factor = 0
+			##Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+		# }
+		# ai_acceptance = {
+			# factor = 100
+			# yes_threshold = 100
+		# }
+	# }
+	
+	## Decision to introduce a son/family member to the administration of the empire
 	introduce_young_adult_to_the_administration = {
 		only_playable = yes
 		is_in_society = yes
@@ -236,5 +377,344 @@ targetted_decisions = {
 			}
 		}
 	}
+	
+	## Decision to name an official of your choosing to a post
+	roman_administration_name_official = {
+		only_independent = yes
+		filter = realm
+		ai_target_filter = realm
+		diplomacy_icon = GFX_roman_administration_name_official
+		
+		third_party_filter = realm
+		ai_third_party_filter = realm
+		
+		third_party_potential  = {
+			FROMFROM = {
+				is_alive = yes
+				is_adult = yes
+				religion_group = christian
+				female = no
+				mercenary = no
+				holy_order = no
+			}			
+		}
+		third_party_allow = {
+			is_adult = yes
+			female = no
+			mercenary = no
+			holy_order = no			
+		}
+		# third_party_score = {
+			# factor = 10
+			# additive_modifier = {
+				# value = 50
+				# is_close_relative = FROM
+			# }
+			# additive_modifier = {
+				# value = 1.2
+				# FROM = {
+					# opinion = {
+						# who = FROMFROM
+						# value = 20
+					# }
+				# }
+			# }
+			# additive_modifier = {
+				# value = 1.2
+				# FROM = {
+					# opinion = {
+						# who = FROMFROM
+						# value = 40
+					# }
+				# }
+			# }
+			# additive_modifier = {
+				# value = 1.6
+				# FROM = {
+					# opinion = {
+						# who = FROMFROM
+						# value = 60
+					# }
+				# }
+			# }
+			# additive_modifier = {
+				# value = 2.0
+				# FROM = {
+					# opinion = {
+						# who = FROMFROM
+						# value = 80
+					# }
+				# }
+			# }
+			# additive_modifier = {
+				# value = 2.0
+				# FROM = {
+					# opinion = {
+						# who = FROMFROM
+						# value = 100
+					# }
+				# }
+			# }
+		# }
+		
+		potential = {
+			any_demesne_title = {
+				OR = {
+					roman_administration_strategos_title_trigger = yes
+					roman_administration_tagma_title_held_trigger = yes
+					roman_administration_theme_title_trigger = yes
+				}
+			}
+		}
+		
+		from_potential = {
+			is_playable = yes
+			is_landed = yes
+			mercenary = no
+			holy_order = no
+			primary_title = {
+				OR = {
+					title = e_byzantium
+					title = e_roman_empire
+				}
+				has_law = succ_byzantine_elective
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			ROOT = {
+				primary_title = {
+					save_event_target_as = roman_administration_title_to_pass_up
+				}
+				FROM = {
+					FROMFROM = {
+						save_event_target_as = roman_administration_next_title_holder
+						letter_event = { id = AVE_MARIA_roman_administration.14 }
+					}
+				}				
+			}			
+		}
+		
+		revoke_allowed = {
+			always = no #Not used in vanilla
+		}
+		
+		ai_will_do = {
+			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+			factor = 10
+			modifier = {
+				factor = 50
+				ROOT = {
+					primary_title = {
+						OR = {
+							title = k_megas_domestikos
+							title = k_megas_droungarios
+							title = k_excubitor
+							title = k_vigla
+							title = k_hikanatoi
+						}
+					}					
+				}
+			}			
+		}
+		ai_acceptance = {
+			factor = 100
+			yes_threshold = 100
+		}
+	}
+	
+	## Decision to fire an official
+	roman_administration_fire_official = {
+		only_independent = yes
+		filter = realm
+		ai_target_filter = realm
+		diplomacy_icon = GFX_roman_administration_fire_official
+		
+		potential = {
+			any_demesne_title = {
+				OR = {
+					roman_administration_strategos_title_trigger = yes
+					roman_administration_tagma_title_held_trigger = yes
+					roman_administration_theme_title_trigger = yes
+				}
+			}
+		}
+		
+		from_potential = {
+			is_playable = yes
+			is_landed = yes
+			mercenary = no
+			holy_order = no
+			primary_title = {
+				OR = {
+					title = e_byzantium
+					title = e_roman_empire
+				}
+				has_law = succ_byzantine_elective
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				ROOT = {
+					any_demesne_title = {
+						limit = {
+							OR = {
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_theme_title_trigger = yes
+								roman_administration_strategos_title_trigger = yes
+							}
+						}
+						save_event_target_as = roman_administration_title_to_pass_up
+						holder_scope = {
+							save_event_target_as = roman_administration_previous_holder
+							current_heir = {
+								save_event_target_as = roman_administration_next_title_holder
+							}
+							set_variable = {
+								which = roman_administration_term_duration_count
+								value = 0
+							}
+							clr_character_flag = roman_administration_term_start_count
+							remove_character_modifier = roman_administration_terms_of_office_0
+							remove_character_modifier = roman_administration_terms_of_office_1
+							remove_character_modifier = roman_administration_terms_of_office_2
+							remove_character_modifier = roman_administration_terms_of_office_3
+							remove_character_modifier = roman_administration_terms_of_office_4
+							remove_character_modifier = roman_administration_terms_of_office_5
+						}
+						grant_title_no_opinion = event_target:roman_administration_next_title_holder
+						any_de_jure_vassal_title = {
+							limit = {
+								holder = event_target:roman_administration_previous_holder
+							}
+							grant_title_no_opinion = event_target:roman_administration_next_title_holder
+						}
+					}
+					
+				}
+			}
+			ROOT = {
+				opinion = {
+					modifier = opinion_roman_administration_fired_from_office
+					who = FROM
+					years = 5
+				}
+			}			
+		}
+		
+		revoke_allowed = {
+			always = no #Not used in vanilla
+		}
+		
+		ai_will_do = {
+			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
+			factor = 10
+			modifier = {
+				factor = 4.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder
+					}
+				}
+			}
+			modifier = {
+				factor = 2.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_spouse
+					}
+				}
+			}
+			modifier = {
+				factor = 4.0
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_child
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				ROOT = {
+					has_opinion_modifier = {
+						who = FROM
+						modifier = attempted_murder_of_vassal
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -20
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -40
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -60
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -80
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 1.2
+				ROOT = {
+					NOT = {
+						opinion = {
+							who = FROM
+							value = -99
+						}
+					}
+				}
+			}
+		}
+		ai_acceptance = {
+			factor = 100
+			yes_threshold = 100
+		}
+	}
+	
 	
 }

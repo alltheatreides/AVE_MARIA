@@ -4726,8 +4726,9 @@ roman_administration_elective_test_2 = { #Should be for civilian themes
 	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = { #
-		 # the current ruler.
+		# the current ruler.
 		FROM = {
+			NOT = { is_theocracy = yes }
 			OR = {
 				character = ROOT
 				AND = {

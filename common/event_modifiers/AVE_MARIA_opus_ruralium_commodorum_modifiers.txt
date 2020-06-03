@@ -1,0 +1,13 @@
+## OPUS RURALIUM COMMODORUM MODIFIERS
+
+## Roads
+orc_road = {
+	supply_limit = 0.1
+	local_movement_speed = 0.1
+	icon = 143
+}
+orc_road_paved = {
+	supply_limit = 0.15
+	local_movement_speed = 0.15
+	icon = 144
+}

@@ -226,6 +226,7 @@ character_event = {
             if = {
                 limit = {
                     tier = KING
+					NOT = { is_tributary = { type = theme_military } }
                     suzerain = {
                         OR = {
 							tier = KING
@@ -240,14 +241,14 @@ character_event = {
                     if = {
                         limit = {
                             OR = {
-                                 tier = KING
-                                 tier = DUKE
-                                 tier = COUNT
-                                 tier = baron
-                                 is_landed = no
-                             }
-                         }
-                         remove_tributary = PREV
+                                tier = KING
+                                tier = DUKE
+                                tier = COUNT
+                                tier = baron
+                                is_landed = no
+                            }
+                        }
+                        remove_tributary = PREV
                     }
                 }         
             }
@@ -268,14 +269,14 @@ character_event = {
                     if = {
                         limit = {
                             OR = {
-                                 tier = DUKE
-                                 tier = COUNT
-                                 tier = baron
-                                 tier = KING
-                                 is_landed = no
-                             }
-                         }
-                         remove_tributary = PREV
+                                tier = DUKE
+                                tier = COUNT
+                                tier = baron
+                                tier = KING
+                                is_landed = no
+                            }
+                        }
+                        remove_tributary = PREV
                     }
                 }         
             }
@@ -294,11 +295,11 @@ character_event = {
                 if = {
                     limit = {
                         OR = {
-                             tier = baron
-                             is_landed = no
-                         }
-                     }
-                     remove_tributary = PREV
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
                 }
 			}         
 		}
@@ -317,18 +318,19 @@ character_event = {
                 if = {
                     limit = {
                         OR = {
-                             tier = COUNT
-                             tier = baron
-                             is_landed = no
-                         }
-                     }
-                     remove_tributary = PREV
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
                 }
 			}         
 		}
 		if = {
 			limit = {
 				tier = KING
+				NOT = { is_tributary = { type = theme_military } }
 				suzerain = {
 					OR = {
 						tier = KING
@@ -343,14 +345,14 @@ character_event = {
                 if = {
                     limit = {
                         OR = {
-                             tier = KING
-                             tier = DUKE
-                             tier = COUNT
-                             tier = baron
-                             is_landed = no
-                         }
-                     }
-                     remove_tributary = PREV
+                            tier = KING
+                            tier = DUKE
+                            tier = COUNT
+                            tier = baron
+                            is_landed = no
+                        }
+                    }
+                    remove_tributary = PREV
                 }
 			}         
 		}
@@ -454,6 +456,7 @@ character_event = {
             if = {
                 limit = {
                     tier = KING
+					NOT = { is_tributary = { type = theme_military } }
                     suzerain = {
                         OR = {
                             tier = KING

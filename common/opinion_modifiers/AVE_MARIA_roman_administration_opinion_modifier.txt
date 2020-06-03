@@ -1,0 +1,32 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Opinion Modifiers										                          	   #
+#                               													   #
+########################################################################################
+
+## Written by Atreides
+
+
+## Roman Coronation Opinion
+opinion_roman_administration_imperial_coronation = {
+	opinion = 15
+}
+
+## Granted Office
+opinion_roman_administration_granted_office = {
+	opinion = 15
+}
+
+## Refused Office
+opinion_roman_administration_refused_office = {
+	opinion = -10
+}
+
+## Fired from Office
+opinion_roman_administration_fired_from_office = {
+	opinion = -15
+}
+
