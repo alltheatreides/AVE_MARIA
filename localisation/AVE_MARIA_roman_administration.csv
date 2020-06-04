@@ -10,9 +10,38 @@ k_megas_droungarios;Imperial Fleet;;;;;;;;;;;;;x
 roman_administration_fire_official;Fire Official;;;;;;;;;;;;;x
 roman_administration_fire_official_short;§YFire Official§!;;;;;;;;;;;;;x
 roman_administration_fire_official_desc;§Y[From.GetTitledFirstName]§! has decided it is time for §Y[This.GetTitledFirstName]§! to leave his office.;;;;;;;;;;;;;x
+roman_administration_fire_official_tooltip;§REnacting this decision will cost us a lot of Prestige§!;;;;;;;;;;;;;x
 roman_administration_name_official;Name Official;;;;;;;;;;;;;x
 roman_administration_name_official_short;§YName Official§!;;;;;;;;;;;;;x
 roman_administration_name_official_desc;§Y[From.GetTitledFirstName]§! has decided it is time for §Y[This.GetTitledFirstName]§! to leave his office and name someone better qualified at his post.;;;;;;;;;;;;;x
+opinion_roman_administration_imperial_coronation;Invited to Imperial Coronation;;;;;;;;;;;;;x
+opinion_roman_administration_granted_office;Granted Imperial Office;;;;;;;;;;;;;x
+opinion_roman_administration_refused_office;Refused Offered Office;;;;;;;;;;;;;x
+opinion_roman_administration_fired_from_office;Fired me from Office;;;;;;;;;;;;;x
+roman_administration_muster_all_the_tagma;Muster the Tagmas;;;;;;;;;;;;;x
+roman_administration_muster_all_the_tagma_desc;War is upon us and it is time to muster the Tagmas to fight the ennemis of Rome.;;;;;;;;;;;;;x
+roman_administration_imperial_coronation;Imperial Coronation;;;;;;;;;;;;;x
+roman_administration_imperial_coronation_desc;Begin preparation for my Imperial Coronation. As [Root.GetTitle] it is imperative for me to be crowned by the Patriarch of Constantinople in order to legitimize my divine right to rule.;;;;;;;;;;;;;x
+roman_administration_set_up_administration;Set up Local Administration;;;;;;;;;;;;;x
+roman_administration_set_up_administration_desc;Begin setting up the administration of the newly acquired land,;;;;;;;;;;;;;x
+roman_administration_terms_of_office_0;Imperial Official;;;;;;;;;;;;;x
+roman_administration_terms_of_office_1;First Year of Office;;;;;;;;;;;;;x
+roman_administration_terms_of_office_2;Second Year of Office;;;;;;;;;;;;;x
+roman_administration_terms_of_office_3;Third Year of Office;;;;;;;;;;;;;x
+roman_administration_terms_of_office_4;Fourth Year of Office;;;;;;;;;;;;;x
+roman_administration_terms_of_office_5;Fifth Year of Office;;;;;;;;;;;;;x
+roman_administration_terms_of_office_0_desc;This character is in the first year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_1_desc;This character is in the second year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_2_desc;This character is in the third year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_3_desc;This character is in the fourth year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_4_desc;This character is in the fifth year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_5_desc;This character is in the sixth year of his term of office.;;;;;;;;;;;;;x
+roman_administration_military_government;Roman Military Government;;;;;;;;;;;;;x
+roman_administration_civilian_government;Roman Civilian Government;;;;;;;;;;;;;x
+roman_administration_family_government;Family Government;;;;;;;;;;;;;x
+roman_administration_military_government_desc;A Roman Military Government is a form of organization limited to the Empire of the Romans with a focus on military life and troops management.;;;;;;;;;;;;;x
+roman_administration_civilian_government_desc;A Roman Civilian Government is a form of organization limited to the Empire of the Romans with a focus on the administrative management of the Empire from tax collection to justice.;;;;;;;;;;;;;x
+roman_administration_family_government_desc;A Roman Family Government is a special government limited to Great Families of the Empire of the Romans.;;;;;;;;;;;;;x
 k_roman_family_1;Roman Family;;;;;;;;;;;;;x
 k_roman_family_2;Roman Family;;;;;;;;;;;;;x
 k_roman_family_3;Roman Family;;;;;;;;;;;;;x
@@ -73,3 +102,115 @@ k_roman_family_57;Roman Family;;;;;;;;;;;;;x
 k_roman_family_58;Roman Family;;;;;;;;;;;;;x
 k_roman_family_59;Roman Family;;;;;;;;;;;;;x
 k_roman_family_60;Roman Family;;;;;;;;;;;;;x
+k_abydos;Aigaiou Pelàgous;;;;;;;;;;;;;x
+k_thrace;Thrakes;;;;;;;;;;;;;x
+k_strymon;Strymonos;;;;;;;;;;;;;x
+k_thessalonika;Thessalonikes;;;;;;;;;;;;;x
+k_neopatras;Megále Vlachía;;;;;;;;;;;;;x
+k_dyrrachion;Dyrráchiou;;;;;;;;;;;;;x
+k_epirus;Nikopoleos;;;;;;;;;;;;;x
+k_cephalonia;Kephallenias;;;;;;;;;;;;;x
+k_athens;Helládos;;;;;;;;;;;;;x
+k_achaia;Peloponnesou;;;;;;;;;;;;;x
+k_krete;Kretes;;;;;;;;;;;;;x
+k_paphlagonia;Paphlagonias;;;;;;;;;;;;;x
+k_boukellarion;Boukellarion;;;;;;;;;;;;;x
+k_samos;Samou;;;;;;;;;;;;;x
+k_thracesia;Thrakesion;;;;;;;;;;;;;x
+k_opsikon;Opsikion;;;;;;;;;;;;;x
+k_optimatoi;Optimàton;;;;;;;;;;;;;x
+k_cibyrrhaeot;Kibyrrhaioton;;;;;;;;;;;;;x
+k_charsianon;Kharsianoù;;;;;;;;;;;;;x
+k_cappadocia;Kappadokias;;;;;;;;;;;;;x
+k_coloneia;Koloneias;;;;;;;;;;;;;x
+k_sebasteia;Sebasteias;;;;;;;;;;;;;x
+k_lykandos;Lykàndou;;;;;;;;;;;;;x
+k_anatolia;Anatolikon;;;;;;;;;;;;;x
+k_melitene;Melitene;;;;;;;;;;;;;x
+k_cyprus;Kyprou;;;;;;;;;;;;;x
+k_trebizond;Chaldia;;;;;;;;;;;;;x
+k_cherson;Chersõnos;;;;;;;;;;;;;x
+k_armeniacon;Armeniakon;;;;;;;;;;;;;x
+k_armenia_minor;Kilikía;;;;;;;;;;;;;x
+k_seleukeia;Seleukeia;;;;;;;;;;;;;x
+k_turnovo;Tarnovo;;;;;;;;;;;;;x
+k_karvuna;Karvuna;;;;;;;;;;;;;x
+k_adrianopolis;Plovdiv;;;;;;;;;;;;;x
+k_vidin;Vidin;;;;;;;;;;;;;x
+k_ohrid;Ohrid;;;;;;;;;;;;;x
+k_rashka;Raška;;;;;;;;;;;;;x
+k_macva;Macva;;;;;;;;;;;;;x
+k_hum;Zahumlje;;;;;;;;;;;;;x
+k_dioclea;Zeta;;;;;;;;;;;;;x
+k_ragusa;Dubrovnik;;;;;;;;;;;;;x
+k_abydos_theme;Aigaiou Pelàgous;;;;;;;;;;;;;x
+k_thrace_theme;Thrakes;;;;;;;;;;;;;x
+k_strymon_theme;Strymonos;;;;;;;;;;;;;x
+k_thessalonika_theme;Thessalonikes;;;;;;;;;;;;;x
+k_neopatras_theme;Megále Vlachía;;;;;;;;;;;;;x
+k_dyrrachion_theme;Dyrráchiou;;;;;;;;;;;;;x
+k_epirus_theme;Nikopoleos;;;;;;;;;;;;;x
+k_cephalonia_theme;Kephallenias;;;;;;;;;;;;;x
+k_athens_theme;Helládos;;;;;;;;;;;;;x
+k_achaia_theme;Peloponnesou;;;;;;;;;;;;;x
+k_krete_theme;Kretes;;;;;;;;;;;;;x
+k_paphlagonia_theme;Paphlagonias;;;;;;;;;;;;;x
+k_boukellarion_theme;Boukellarion;;;;;;;;;;;;;x
+k_samos_theme;Samou;;;;;;;;;;;;;x
+k_thracesia_theme;Thrakesion;;;;;;;;;;;;;x
+k_opsikon_theme;Opsikion;;;;;;;;;;;;;x
+k_optimatoi_theme;Optimàton;;;;;;;;;;;;;x
+k_cibyrrhaeot_theme;Kibyrrhaioton;;;;;;;;;;;;;x
+k_charsianon_theme;Kharsianoù;;;;;;;;;;;;;x
+k_cappadocia_theme;Kappadokias;;;;;;;;;;;;;x
+k_coloneia_theme;Koloneias;;;;;;;;;;;;;x
+k_sebasteia_theme;Sebasteias;;;;;;;;;;;;;x
+k_lykandos_theme;Lykàndou;;;;;;;;;;;;;x
+k_anatolia_theme;Anatolikon;;;;;;;;;;;;;x
+k_melitene_theme;Melitene;;;;;;;;;;;;;x
+k_cyprus_theme;Kyprou;;;;;;;;;;;;;x
+k_trebizond_theme;Chaldia;;;;;;;;;;;;;x
+k_cherson_theme;Chersõnos;;;;;;;;;;;;;x
+k_armeniacon_theme;Armeniakon;;;;;;;;;;;;;x
+k_armenia_minor_theme;Kilikía;;;;;;;;;;;;;x
+k_seleukeia_theme;Seleukeia;;;;;;;;;;;;;x
+k_turnovo_theme;Tarnovo;;;;;;;;;;;;;x
+k_karvuna_theme;Karvuna;;;;;;;;;;;;;x
+k_adrianopolis_theme;Plovdiv;;;;;;;;;;;;;x
+k_vidin_theme;Vidin;;;;;;;;;;;;;x
+k_ohrid_theme;Ohrid;;;;;;;;;;;;;x
+k_rashka_theme;Raška;;;;;;;;;;;;;x
+k_macva_theme;Macva;;;;;;;;;;;;;x
+k_hum_theme;Zahumlje;;;;;;;;;;;;;x
+k_dioclea_theme;Zeta;;;;;;;;;;;;;x
+k_ragusa_theme;Dubrovnik;;;;;;;;;;;;;x
+k_excubitor;Excubitor;;;;;;;;;;;;;x
+k_vigla;Vigla;;;;;;;;;;;;;x
+k_hikanatoi;Hikanatoi;;;;;;;;;;;;;x
+k_regular_tagma_1;Imperial Tagma;;;;;;;;;;;;;x
+k_regular_tagma_2;Imperial Tagma;;;;;;;;;;;;;x
+k_varangian_guard;Varangian Guard;;;;;;;;;;;;;x
+Strategos;Strategos;;;;;;;;;;;;;x
+succ_my_test_law;Administrative Clientelism;;;;;;;;;;;;;x
+succ_my_test_law_desc;Administrative Clientelism is a form a succession that favors members of a clientele or family members.;;;;;;;;;;;;;x
+Eugeneios;Eugeneios;;;;;;;;;;;;;x
+Eugeneia;Eugeneia;;;;;;;;;;;;;x
+Sekreton;Sekreton;;;;;;;;;;;;;x
+Domestikos;Domestikos;;;;;;;;;;;;;x
+Excubitores;Excubitores;;;;;;;;;;;;;x
+Archontes;Archontes;;;;;;;;;;;;;x
+Arithmos;Arithmos;;;;;;;;;;;;;x
+Hikanatoi;Hikanatoi;;;;;;;;;;;;;x
+Armeniakon;Armeniakon;;;;;;;;;;;;;x
+Anatolikon;Anatolikon;;;;;;;;;;;;;x
+roman_administration_imperial_court;Roman Administration;;;;;;;;;;;;;x
+roman_administration_imperial_court_desc;The Roman Administration manages and rules the Empire of the Romans;;;;;;;;;;;;;x
+roman_administration_imperial_court_leader_desc;The Emperor is the leader of the administration of the Empire;;;;;;;;;;;;;x
+currency_name_roman_administration_imperial_court;Influence;;;;;;;;;;;;;x
+roman_administration_elective;Administrative Clientelism;;;;;;;;;;;;;x
+roman_administration_elective_test;Administrative Clientelism;;;;;;;;;;;;;x
+roman_administration_elective_test_2;Administrative Clientelism;;;;;;;;;;;;;x
+family_election;Roman Family Succession;;;;;;;;;;;;;x
+succ_roman_family_elective_desc;Roman Family Succession;;;;;;;;;;;;;x
+crowned_basileus;Crowned by the Patriarch;;;;;;;;;;;;;x
+crowned_basileus_desc;This ruler was anointed by the Patriarch of Constantinople. \n A formal coronation ceremony is considered as an essential step in legitimizing the rule of the Emperor.;;;;;;;;;;;;;x

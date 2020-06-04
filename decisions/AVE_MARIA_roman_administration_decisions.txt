@@ -132,24 +132,16 @@ decisions = {
 		potential = {
 			primary_title = { title = e_byzantium }
 			any_demesne_title = {
-				limit = {
-					NOT = {
-						roman_administration_administrative_title_trigger = yes
-						title = e_byzantium
-						title = c_byzantion
-					}
+				NOT = {
+					has_title_flag = roman_administration_emperor_title_no_touching
 				}
 			}
 		}
 		allow = {
 			primary_title = { title = e_byzantium }
 			any_demesne_title = {
-				limit = {
-					NOT = {
-						roman_administration_administrative_title_trigger = yes
-						title = e_byzantium
-						title = c_byzantion
-					}
+				NOT = {
+					has_title_flag = roman_administration_emperor_title_no_touching
 				}
 			}
 		}
@@ -224,71 +216,6 @@ decisions = {
 }
 
 targetted_decisions = {
-
-	## Decision to call manually a tagma instead of calling all of them
-	# roman_administration_muster_the_army = {
-		# only_independent = yes
-		# filter = realm
-		# ai_target_filter = realm
-		
-		# potential = {
-			# any_demesne_title = {
-				# OR = {
-					# roman_administration_theme_title_trigger = yes
-					# roman_administration_tagma_title_held_trigger = yes
-				# }
-			# }
-		# }
-		
-		# from_potential = {
-			# is_playable = yes
-			# is_landed = yes
-			# mercenary = no
-			# holy_order = no
-			# primary_title = {
-				# OR = {
-					# title = e_byzantium
-					# title = e_roman_empire
-				# }
-				# has_law = succ_byzantine_elective
-			# }
-		# }
-		
-		# allow = {
-			# FROM = {
-				# war = yes
-			# }
-			# war = no
-		# }
-		
-		# effect = {
-			# if = {
-				# limit = {
-					# FROM = { is_primary_war_attacker = yes }
-				# }
-				# ROOT = { join_attacker_wars = FROM }
-			# }
-			# if = {
-				# limit = {
-					# FROM = { is_primary_war_defender = yes }
-				# }
-				# ROOT = { join_defender_wars = FROM }
-			# }
-		# }
-		
-		# revoke_allowed = {
-			# always = no #Not used in vanilla
-		# }
-		
-		# ai_will_do = {
-			# factor = 0
-			##Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
-		# }
-		# ai_acceptance = {
-			# factor = 100
-			# yes_threshold = 100
-		# }
-	# }
 	
 	## Decision to introduce a son/family member to the administration of the empire
 	introduce_young_adult_to_the_administration = {
@@ -381,81 +308,60 @@ targetted_decisions = {
 	## Decision to name an official of your choosing to a post
 	roman_administration_name_official = {
 		only_independent = yes
-		filter = realm
-		ai_target_filter = realm
 		diplomacy_icon = GFX_roman_administration_name_official
-		
-		third_party_filter = realm
-		ai_third_party_filter = realm
-		
-		third_party_potential  = {
+		# other parameters
+		third_party_filter = realm # Filter for applicable third parties
+		ai_third_party_filter = realm # Filter for third party characters selected by the AI
+		third_party = FROM # Determine which scope the third party should be filtered from.  Defaults to FROM
+		show_third_party_potential = yes #Set to show third party requirements in the tooltip. Defaults to no.
+		third_party_potential = {
 			FROMFROM = {
-				is_alive = yes
 				is_adult = yes
-				religion_group = christian
-				female = no
-				mercenary = no
-				holy_order = no
-			}			
+				society_member_of = roman_administration_imperial_court
+				NOT = { is_theocracy = yes }
+				hidden_tooltip = {
+					NOT = {
+						any_demesne_title = {
+							OR = {
+								roman_administration_strategos_title_trigger = yes
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_theme_title_trigger = yes
+							}
+						}
+					}
+				}				
+			}
 		}
 		third_party_allow = {
-			is_adult = yes
-			female = no
-			mercenary = no
-			holy_order = no			
+			#Conditions on the selected third party for the "Send" button to be enabled
+			FROMFROM = {
+				is_adult = yes
+				society_member_of = roman_administration_imperial_court
+				NOT = { is_theocracy = yes }
+				hidden_tooltip = {
+					NOT = {
+						any_demesne_title = {
+							OR = {
+								roman_administration_strategos_title_trigger = yes
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_theme_title_trigger = yes
+							}
+						}
+					}
+				}
+			}
 		}
-		# third_party_score = {
-			# factor = 10
-			# additive_modifier = {
-				# value = 50
-				# is_close_relative = FROM
-			# }
-			# additive_modifier = {
-				# value = 1.2
-				# FROM = {
-					# opinion = {
-						# who = FROMFROM
-						# value = 20
-					# }
-				# }
-			# }
-			# additive_modifier = {
-				# value = 1.2
-				# FROM = {
-					# opinion = {
-						# who = FROMFROM
-						# value = 40
-					# }
-				# }
-			# }
-			# additive_modifier = {
-				# value = 1.6
-				# FROM = {
-					# opinion = {
-						# who = FROMFROM
-						# value = 60
-					# }
-				# }
-			# }
-			# additive_modifier = {
-				# value = 2.0
-				# FROM = {
-					# opinion = {
-						# who = FROMFROM
-						# value = 80
-					# }
-				# }
-			# }
-			# additive_modifier = {
-				# value = 2.0
-				# FROM = {
-					# opinion = {
-						# who = FROMFROM
-						# value = 100
-					# }
-				# }
-			# }
-		# }
+		third_party_score = { # Factors to determine how "good" a third party character is for the decision.  Determines sorting. This score is stored in the variable "local_third_party_score", so it can be used in triggers and effect
+			factor = 1 #Base value
+			additive_modifier = {
+			  value = 5 #Value to add to current
+			  #Conditions
+			}
+			modifier = {
+			  factor = 2 #Factor to multiply the value
+			  #Conditions
+			}
+		}
 		
 		potential = {
 			any_demesne_title = {
@@ -481,49 +387,21 @@ targetted_decisions = {
 			}
 		}
 		
-		allow = {
-			
-		}
-		
 		effect = {
-			ROOT = {
-				primary_title = {
-					save_event_target_as = roman_administration_title_to_pass_up
-				}
-				FROM = {
-					FROMFROM = {
-						save_event_target_as = roman_administration_next_title_holder
-						letter_event = { id = AVE_MARIA_roman_administration.14 }
-					}
-				}				
-			}			
-		}
-		
-		revoke_allowed = {
-			always = no #Not used in vanilla
-		}
-		
-		ai_will_do = {
-			#Factors for an AI character to take the decision (1 = 100% chance every month - for each allowed target!)
-			factor = 10
-			modifier = {
-				factor = 50
+			FROMFROM = {
+				save_event_target_as = roman_administration_next_title_holder
 				ROOT = {
 					primary_title = {
-						OR = {
-							title = k_megas_domestikos
-							title = k_megas_droungarios
-							title = k_excubitor
-							title = k_vigla
-							title = k_hikanatoi
+						save_event_target_as = roman_administration_title_to_pass_up
+					}
+					FROM = {
+						save_event_target_as = roman_administration_nepotism_guy
+						PREVPREV = {
+							letter_event = { id = AVE_MARIA_roman_administration.14 }
 						}
-					}					
+					}
 				}
-			}			
-		}
-		ai_acceptance = {
-			factor = 100
-			yes_threshold = 100
+			}
 		}
 	}
 	
@@ -608,7 +486,10 @@ targetted_decisions = {
 					who = FROM
 					years = 5
 				}
-			}			
+			}
+			FROM = {
+				scaled_prestige = -0.10
+			}
 		}
 		
 		revoke_allowed = {

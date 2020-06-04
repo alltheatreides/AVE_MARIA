@@ -1,6 +1,4 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-family_election;Roman Family Succession;;;;;;;;;;;;;x
-succ_roman_family_elective_desc;Roman Family Succession;;;;;;;;;;;;;x
 focus_ch_honesty_humility;Honesty-Humility;;;;;;;;;;;;;x
 focus_ch_emotionality;Emotionality;;;;;;;;;;;;;x
 focus_ch_extraversion;Extraversion;;;;;;;;;;;;;x
@@ -30,13 +28,6 @@ administrative_capacity_distance_two_horse_day_travel_from_capital;Distance from
 administrative_capacity_distance_three_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
 administrative_capacity_distance_four_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
 administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital;Distance from capital;;;;;;;;;;;;;x
-roman_administration_imperial_court;Roman Administration;;;;;;;;;;;;;x
-roman_administration_imperial_court_desc;The Roman Administration manages and rules the Empire of the Romans;;;;;;;;;;;;;x
-roman_administration_imperial_court_leader_desc;The Emperor is the leader of the administration of the Empire;;;;;;;;;;;;;x
-currency_name_roman_administration_imperial_court;Influence;;;;;;;;;;;;;x
-roman_administration_elective;Administrative Clientelism;;;;;;;;;;;;;x
-roman_administration_elective_test;Administrative Clientelism;;;;;;;;;;;;;x
-roman_administration_elective_test_2;Administrative Clientelism;;;;;;;;;;;;;x
 free_true_vassal_cb_desc;Free Vassal Casus Belli;;;;;;;;;;;;;x
 THEME_MILITARY_NAME;Strategos;;;;;;;;;;;;;x
 THEME_MILITARY_PLURAL;Strategos;;;;;;;;;;;;;x
@@ -357,19 +348,6 @@ EVTOPT_B_AVE_MARIA_hexaco_childhood.67;REPLACE_ME;;;;;;;;;;;;;x
 EVTDESC_A_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
 EVTDESC_B_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
 EVTOPT_A_AVE_MARIA_hexaco_childhood.68;REPLACE_ME;;;;;;;;;;;;;x
-Strategos;Strategos;;;;;;;;;;;;;x
-succ_my_test_law;Administrative Clientelism;;;;;;;;;;;;;x
-succ_my_test_law_desc;Administrative Clientelism is a form a succession that favors members of a clientele or family members.;;;;;;;;;;;;;x
-Eugeneios;Eugeneios;;;;;;;;;;;;;x
-Eugeneia;Eugeneia;;;;;;;;;;;;;x
-Sekreton;Sekreton;;;;;;;;;;;;;x
-Domestikos;Domestikos;;;;;;;;;;;;;x
-Excubitores;Excubitores;;;;;;;;;;;;;x
-Archontes;Archontes;;;;;;;;;;;;;x
-Arithmos;Arithmos;;;;;;;;;;;;;x
-Hikanatoi;Hikanatoi;;;;;;;;;;;;;x
-Armeniakon;Armeniakon;;;;;;;;;;;;;x
-Anatolikon;Anatolikon;;;;;;;;;;;;;x
 AVE_MARIA_true_vassal_hommage.title.2;Pledge Homage to my Suzerain;;;;;;;;;;;;;x
 EVTDESC_AVE_MARIA_true_vassal_hommage_events.2;After the death of my [Root.GetFatherMother] and as I am now of age, it is time for me to pledge homage to my lord as my ancestors did before me.;;;;;;;;;;;;;x
 EVTOPTA_AVE_MARIA_true_vassal_hommage_events.2;I will travel to [Suzerain.capital_scope.GetName] to give my suzerain homage !;;;;;;;;;;;;;x
@@ -531,4 +509,3 @@ EVTOPT_C_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
 opinion_true_vassal_obligations_suzerain_crusade_sober_donation;Donated meagre sum for the Crusade;;;;;;;;;;;;;x
 EVTOPT_D_AVE_MARIA_true_vassal_obligations_events.18;REPLACE_ME;;;;;;;;;;;;;x
 opinion_true_vassal_obligations_suzerain_crusade_nothing_donation;Donated nothing for the Crusade;;;;;;;;;;;;;x
-k_varangian_guard;Varangian Guard;;;;;;;;;;;;;x
