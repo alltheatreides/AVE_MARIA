@@ -1,0 +1,28 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_roman_administration.1 - AVE_MARIA_roman_administration.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_roman_administration_flavour
+
+##NOTES:
+
+character_event = {
+	id = AVE_MARIA_roman_administration_flavour.1
+	border = GFX_event_normal_frame_war	
+	desc = EVTDESC_AVE_MARIA_roman_administration_flavour.1
+	picture = GFX_evt_ave_maria_roman_marching_to_war_2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_roman_administration_flavour.1
+		
+	}
+}

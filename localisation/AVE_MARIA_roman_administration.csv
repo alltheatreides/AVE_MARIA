@@ -30,12 +30,12 @@ roman_administration_terms_of_office_2;Second Year of Office;;;;;;;;;;;;;x
 roman_administration_terms_of_office_3;Third Year of Office;;;;;;;;;;;;;x
 roman_administration_terms_of_office_4;Fourth Year of Office;;;;;;;;;;;;;x
 roman_administration_terms_of_office_5;Fifth Year of Office;;;;;;;;;;;;;x
-roman_administration_terms_of_office_0_desc;This character is in the first year of his term of office.;;;;;;;;;;;;;x
-roman_administration_terms_of_office_1_desc;This character is in the second year of his term of office.;;;;;;;;;;;;;x
-roman_administration_terms_of_office_2_desc;This character is in the third year of his term of office.;;;;;;;;;;;;;x
-roman_administration_terms_of_office_3_desc;This character is in the fourth year of his term of office.;;;;;;;;;;;;;x
-roman_administration_terms_of_office_4_desc;This character is in the fifth year of his term of office.;;;;;;;;;;;;;x
-roman_administration_terms_of_office_5_desc;This character is in the sixth year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_0_desc;This character is an official in the roman administration;;;;;;;;;;;;;x
+roman_administration_terms_of_office_1_desc;This character is in the first year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_2_desc;This character is in the second year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_3_desc;This character is in the third year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_4_desc;This character is in the fourth year of his term of office.;;;;;;;;;;;;;x
+roman_administration_terms_of_office_5_desc;This character is in the fifth year of his term of office.;;;;;;;;;;;;;x
 roman_administration_military_government;Roman Military Government;;;;;;;;;;;;;x
 roman_administration_civilian_government;Roman Civilian Government;;;;;;;;;;;;;x
 roman_administration_family_government;Family Government;;;;;;;;;;;;;x
@@ -214,3 +214,13 @@ family_election;Roman Family Succession;;;;;;;;;;;;;x
 succ_roman_family_elective_desc;Roman Family Succession;;;;;;;;;;;;;x
 crowned_basileus;Crowned by the Patriarch;;;;;;;;;;;;;x
 crowned_basileus_desc;This ruler was anointed by the Patriarch of Constantinople. \n A formal coronation ceremony is considered as an essential step in legitimizing the rule of the Emperor.;;;;;;;;;;;;;x
+title_strategos_salary;Receives a Strategos Salary;;;;;;;;;;;;;x
+title_tagma_salary;Receives a Domestikos Salary;;;;;;;;;;;;;x
+gov_roman_administration_military_government;Professional Military;;;;;;;;;;;;;x
+gov_roman_administration_civilian_government;Bureaucratic Clientelism;;;;;;;;;;;;;x
+gov_roman_administration_family_government;Familial Inheritance;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_roman_administration_flavour.1;During the military exercise organized;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_roman_administration_flavour;Punish him harshly;;;;;;;;;;;;;x
+roman_administration_estates_1;Family Estates;;;;;;;;;;;;;x
+roman_administration_organize_military_exercises;Organize Military Exercises;;;;;;;;;;;;;x
+roman_administration_organize_military_exercises_desc;Organize Military Exercises with your Tagma troops in order to maintain their discipline and effectiveness in combat;;;;;;;;;;;;;x

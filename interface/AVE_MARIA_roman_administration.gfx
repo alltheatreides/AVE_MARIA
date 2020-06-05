@@ -10,7 +10,25 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\ave_maria_roman_advice.dds"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_ave_maria_roman_marching_to_war_2"
+		texturefile = "gfx\\event_pictures\ave_maria_roman_marching_to_war_2.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ave_maria_roman_street_encounter"
+		texturefile = "gfx\\event_pictures\ave_maria_roman_street_encounter.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ave_maria_roman_family"
+		texturefile = "gfx\\event_pictures\ave_maria_roman_family.dds"
+		allwaystransparent = yes
+	}
+	
 }
+
+
 
 
 ##DECISIONS
@@ -27,6 +45,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_roman_administration_set_up_administration"
 		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_administration_decision_set_up_administration.tga"
+	}
+	spriteType = {
+		name = "GFX_roman_administration_organize_military_exercises"
+		texturefile = "gfx\\interface\\decisions\\ave_maria_roman_administration_decision_military_exercises.tga"
 	}
 	
 	

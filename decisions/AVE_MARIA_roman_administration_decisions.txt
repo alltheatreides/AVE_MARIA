@@ -212,7 +212,37 @@ decisions = {
 			factor = 1
 		}
 	}
+	
+	roman_administration_organize_military_exercises = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			primary_title = {
+				OR = { 
+					roman_administration_strategos_title_trigger = yes
+					roman_administration_tagma_title_held_trigger = yes
+				}
+			}
+			war = no
+		}
+		allow = {
+			primary_title = {
+				OR = { 
+					roman_administration_strategos_title_trigger = yes
+					roman_administration_tagma_title_held_trigger = yes
+				}
+			}
+			war = no
+			NOT = { has_character_flag = roman_administration_organized_military_exercises }
+		}
 		
+		effect = {
+			character_event = {
+				id = AVE_MARIA_roman_administration_flavour.1
+			}
+		}
+		
+	}
 }
 
 targetted_decisions = {

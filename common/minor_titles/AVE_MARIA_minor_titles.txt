@@ -21,7 +21,7 @@
 #	The other fields are all character modifiers.
 
 
-title_strategos = {
+title_strategos_salary = {
 	is_high_prio = yes
 	realm_in_name = yes
 	dignity = 0.9
@@ -29,14 +29,58 @@ title_strategos = {
 	opinion_effect = 10
 	revoke_allowed = no
 	attribute = martial
-	monthly_salary = 0.05
+	monthly_salary = 0.25
 	monthly_prestige = 0.75
 
 	allowed_to_hold = {
-		NOT = { 
-			primary_title = {
-				roman_administration_strategos_title_trigger = yes
-			}
+		primary_title = {
+			roman_administration_strategos_title_trigger = yes
+		}
+		# liege = { character = FROM }
+		is_adult = yes
+		is_female = no
+		liege = {
+			primary_title = { title = e_byzantium }
+		}
+		is_inaccessible_or_incapable_trigger = no
+		NOR = {
+			is_ascetic_trigger = yes
+			trait = excommunicated
+		}
+	}
+	
+	allowed_to_grant = {
+		primary_title = { title = e_byzantium }
+	}
+	revoke_trigger = {
+		
+	}
+
+	gain_effect = {
+		
+		## Some event here
+	
+	}
+
+	lose_effect = {
+	}
+	message = yes
+}
+
+title_tagma_salary = {
+	is_high_prio = yes
+	realm_in_name = yes
+	dignity = 0.9
+	grant_limit = 100
+	opinion_effect = 10
+	revoke_allowed = no
+	attribute = martial
+	monthly_salary = 4
+	monthly_prestige = 0.75
+
+	allowed_to_hold = {
+		primary_title = {
+			roman_administration_tagma_title_held_trigger = yes
 		}
 		# liege = { character = FROM }
 		is_adult = yes
