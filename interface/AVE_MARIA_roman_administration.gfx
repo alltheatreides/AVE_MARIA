@@ -97,6 +97,27 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\societies\\symbol_small_roman_administration_imperial_court.dds"
 		noOfFrames = 2
 	}
+	
+	## Icon
+	spriteType = {
+		name = "GFX_imperial_ranks"
+		texturefile = "gfx\\interface\\societies\\rank_icons_imperial.dds"
+		noOfFrames = 4
+	}
+	
+	## Icon	
+	spriteType = {
+		name = "GFX_generic_ranks_highlight"
+		texturefile = "gfx\\interface\\societies\\rank_icons_imperial_highlight.dds"
+		noOfFrames = 4
+	}
+	
+	## Icon	
+	spriteType = {
+		name = "GFX_generic_ranks_locked"
+		texturefile = "gfx\\interface\\societies\\rank_icons_imperial_locked.dds"
+		noOfFrames = 4
+	}
 }
 
 ##Government
