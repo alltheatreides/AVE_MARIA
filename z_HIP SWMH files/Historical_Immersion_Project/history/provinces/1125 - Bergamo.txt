@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1125 - Bergamo
+
+# County Title
+title = c_bergamo
+
+# Settlements
+max_settlements = 4
+
+b_cortenouva = castle
+b_bergamo = temple
+b_clusone = castle
+b_taxis = castle
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = hills
+# History

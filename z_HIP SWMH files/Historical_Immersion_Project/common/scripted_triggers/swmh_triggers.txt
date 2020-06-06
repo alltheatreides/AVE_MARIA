@@ -1,0 +1,29 @@
+# -*- ck2.scripted_triggers -*-
+
+
+emf_trigger = {
+	custom_tooltip = {
+		text = EMF_TRIGGER_TT
+		hidden_tooltip = { has_global_flag = EMF }
+	}
+}
+
+not_emf_trigger = {
+	custom_tooltip = {
+		text = EMF_TRIGGER_NOT_TT
+		hidden_tooltip = { NOT = { has_global_flag = EMF } }
+	}
+}
+
+byzantine_lockout_trigger = {
+	custom_tooltip = {
+		text = BYZANTINE_LOCKOUT_TRIGGER_TT
+		hidden_tooltip = {
+			NOT = {
+				top_liege = {
+					has_landed_title = e_byzantium
+				}
+			}
+		}
+	}
+}

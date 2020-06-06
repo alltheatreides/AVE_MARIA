@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1553 - Badakhshán
+
+# County Title
+title = c_badakhshan
+
+# Settlements
+max_settlements = 5
+b_badakhshan = castle
+b_kishm = city
+b_jerm = temple
+#b_shughnan = castle
+
+b_ishkashim = castle #Vakhan
+#b_khandud = temple #Vakhan
+
+#b_dar-i-tubbat = city #Vakhan
+#b_sanglich = city #Vakhan
+
+# Misc
+culture = sogdian
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }
+1090.1.1 = { religion = ismaili }

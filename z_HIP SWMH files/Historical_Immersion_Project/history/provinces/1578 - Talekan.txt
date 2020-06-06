@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1578 - Tálekán
+
+# County Title
+title = c_talekan
+
+# Settlements
+max_settlements = 5
+b_talekan = castle
+b_valvalij = city
+b_andicharagh = temple
+b_anderab = temple
+
+#b_rustaq = city
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

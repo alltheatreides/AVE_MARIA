@@ -1,0 +1,35 @@
+# 312 - Meissen
+
+# County Title
+title = c_meissen
+
+# Settlements
+max_settlements = 5
+
+b_misni = tribal 
+
+#b_freiberg = city 
+#b_meissen = temple
+#b_dohna = castle 
+#b_chemnitz = city 
+
+#b_hartenstein = castle 
+#b_dresden = city 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+929.1.1 = {
+	b_misni = castle
+	b_meissen = temple
+}
+#Shouldn't immediately Germanize, how about 20 or so years instead
+952.1.1 = { culture = thuringian }
+952.1.1 = { religion = catholic }
+1143.1.1 = { b_dohna = castle }
+1170.1.1 = { culture = german }
+# silver mines of Freiberg founded in 1186 (not listed)
+1170.1.1 = { b_freiberg = city }
+1171.1.1 = { b_chemnitz = city }

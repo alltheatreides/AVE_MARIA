@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1407 - Javakheti
+
+# County Title
+title = c_javakheti
+
+# Settlements
+max_settlements = 5
+b_kldekari = castle
+b_khertvisi = castle
+b_tmogvi = castle
+#b_tsunda = city
+#b_kumurdo = temple
+b_akhalkalaki = city
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History
+
+1240.1.1 = { remove_settlement = b_khertvisi }

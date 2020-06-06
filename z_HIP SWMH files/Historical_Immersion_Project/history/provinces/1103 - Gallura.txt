@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1103 - Gallura
+
+# County Title
+title = c_gallura
+
+# Settlements
+max_settlements = 4
+
+b_olbia_civita =castle
+b_galtelli = temple
+#b_posada = castle
+#b_nuoro = city
+
+# Misc
+culture = sardinian
+religion = catholic
+terrain = hills
+
+# History
+1180.1.1 = { b_posada = castle }

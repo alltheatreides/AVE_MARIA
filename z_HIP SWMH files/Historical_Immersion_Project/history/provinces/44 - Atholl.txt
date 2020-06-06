@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 44 - Atholl
+
+# County Title
+title = c_atholl
+
+# Settlements
+max_settlements = 4
+b_blair_atholl = tribal
+b_fortingall = temple
+#b_pitlochry = city
+#b_grandtully = castle
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+1146.1.1 = { b_blair_atholl = castle } 

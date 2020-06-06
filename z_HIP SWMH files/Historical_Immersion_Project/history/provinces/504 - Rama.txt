@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 504 - Rama
+
+# County Title
+title = c_rama
+
+# Settlements
+max_settlements = 3
+
+b_prozor_rama = castle
+b_travnik = castle
+#b_bioski = city
+
+ 
+
+
+
+
+# Misc
+culture = bosnian
+religion = catholic
+
+# History
+
+1232.1.1= { religion = bogomilist } 
+1232.1.1= { b_fojnica = temple } 

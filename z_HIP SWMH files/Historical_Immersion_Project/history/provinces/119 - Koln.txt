@@ -1,0 +1,29 @@
+# 119 - Köln
+
+# County Title
+title = c_koln
+
+# Settlements
+max_settlements = 6
+
+b_koln = temple
+b_neuss = city 
+b_hochstaden = castle
+
+#b_neuenahr = castle 
+#b_brauweiler = temple 
+#b_remagen = city 
+
+#b_saffenburg = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1028.1.1= { b_brauweiler = temple }
+1170.1.1 = { culture = german }
+1221.1.1= { b_remagen = city }
+1225.1.1= { b_neuenahr = castle }
+1288.6.5 = { capital = b_brauweiler }
+1288.6.5 = { b_koln = city }

@@ -1,0 +1,27 @@
+# 1958 - Sayn
+
+# County Title
+title = c_sayn
+
+# Settlements
+max_settlements = 4
+
+b_sayn = castle 
+
+#b_altenkirchen = city 
+#b_rommersdorf = temple 
+#b_wied = castle
+
+#b_isenburg = castle 
+#b_wildenburg = castle 
+#b_dierdorf = city
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1084.1.1 = { b_wied = castle }
+1117.1.1 = { b_rommersdorf = temple }
+1170.1.1 = { culture = german }
+1314.1.1 = { b_altenkirchen = city }

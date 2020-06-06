@@ -1,0 +1,28 @@
+# 122 - Leiningen
+
+# County Title
+title = c_leiningen  
+
+# Settlements
+max_settlements = 5
+
+b_leiningen = castle
+b_worms = temple
+b_lorsch = temple
+
+#b_lautern = city 
+#b_falkenstein = castle 
+
+#b_alzey = city
+#b_stauf = castle
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+
+1135.1.1 = { b_falkenstein = castle }
+1170.1.1 = { culture = german }
+1276.1.1 = { b_lautern = city }
+#1277.1.1 = { b_alzey = city }

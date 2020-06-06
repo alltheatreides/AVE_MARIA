@@ -1,0 +1,792 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  Thuringian characters
+###############################################################
+#Thuringian character Range: 1236800-1236949
+###########
+### Sizzonids
+1236800 = { 
+	name="Sizzo"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+
+	965.1.1={
+		birth = yes
+	}
+	1005.1.1={
+		death = yes
+	}
+}
+### Sizzonids
+1236801 = { 
+	name="Sizzo"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+	father=1236800
+	1004.1.1={
+		birth = yes
+	}
+	1075.1.1={
+		death = yes
+	}
+}
+### Sizzonids
+1236802 = { 
+	name="Gunther"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+	father=1236801
+	1050.1.1={
+		birth = yes
+	}
+	1109.1.1={
+		death = yes
+	}
+}
+### Sizzonids
+1236803 = { 
+	name="Sizzo"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+	father=1236802
+	1093.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+### Sizzonids
+1236804 = { 
+	name="Gunther"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+	father=1236803
+	1129.1.1={
+		birth = yes
+	}
+	1197.1.1={
+		death = yes
+	}
+}
+### Sizzonids
+1236805 = { 
+	name="Heinrich"
+	dynasty=7230
+	religion="catholic"
+	culture="thuringian"  # german
+	father=1236803
+	1130.1.1={
+		birth = yes
+	}
+	1184.1.1={
+		death = yes
+	}
+}
+1236806 = {
+	name="Hoyer"
+	dynasty=12403
+	religion="catholic"
+	culture="thuringian"
+	1028.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		death=yes
+	}
+}
+1236807 = {
+	name="Hoyer"
+	dynasty=12403
+	religion="catholic"
+	culture="thuringian"
+	father=1236806	
+	1064.1.1 = {
+		birth=yes
+	}
+	1115.2.11 = {
+		death=yes
+	}
+}
+1236808 = {
+	name="Siegfried"
+	dynasty=12403
+	religion="catholic"
+	culture="thuringian"
+	father=1236807	
+	1086.1.1 = {
+		birth=yes
+	}
+	1115.2.11 = {
+		death=yes
+	}
+}
+1236809 = {
+	name="Hoyer"
+	dynasty=12403
+	religion="catholic"
+	culture="thuringian"
+	father=1236807	
+	1091.1.1 = {
+		birth=yes
+	}
+	1157.8.3 = {
+		death=yes
+	}
+}
+1236810 = {
+	name="Hoyer"
+	dynasty=12403
+	religion="catholic"
+	culture="thuringian"
+	father=1236809	
+	1132.1.1 = {
+		birth=yes
+	}
+	1183.6.2 = {
+		death=yes
+	}
+}
+1236811 = {
+	name="Burchard"
+	dynasty=12403
+	religion="catholic"
+	culture="german"
+	father=1236810	
+	1170.1.1 = {
+		birth=yes
+	}
+	1229.12.13 = {
+		death=yes
+	}
+}
+1236812 = {
+	name="Gertrud"
+	female=yes
+	dynasty=12403
+	religion="catholic"
+	culture="german"
+	father=1236811	
+	1194.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1236813 = {
+	name="Sophie"
+	female=yes
+	dynasty=12403
+	religion="catholic"
+	culture="german"
+	father=1236811	
+	1196.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1236814 = {
+	name="Burchard"
+	dynasty=12402
+	religion="catholic"
+	culture="german"
+	father = 212365
+	1197.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		add_spouse = 1236813
+	}	
+	1255.1.1 = {
+		death=yes
+	}
+}
+1236815 = {
+	name="Burchard"
+	dynasty=12402
+	religion="catholic"
+	culture="german"
+	father=1236814
+	mother=1236813	
+	1229.1.1 = {
+		birth=yes
+	}
+	1273.12.4 = {
+		death=yes
+	}
+}
+1236816 = {
+	name="Burchard"
+	dynasty=12402
+	religion="catholic"
+	culture="german"
+	father=1236815
+	1251.1.1 = {
+		birth=yes
+	}
+	1310.10.2 = {
+		death=yes
+	}
+}
+1236817 = {
+	name="Burchard"
+	dynasty=12402
+	religion="catholic"
+	culture="german"
+	father=1236815
+	1249.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes
+	}
+}
+1236818 = {
+	name="Konrad"
+	dynasty=1000103714
+	religion="catholic"
+	culture="german"
+
+	1235.1.1 = {
+		birth=yes
+	}
+	1293.1.1 = {
+		death=yes
+	}
+}
+1236819 = {
+	name="Albrecht"
+	dynasty=1000103714
+	religion="catholic"
+	culture="german"
+	father=1236818
+	1258.1.1 = {
+		birth=yes
+	}
+	1319.1.1 = {
+		death=yes
+	}
+}
+1236820 = {
+	name="Konrad"
+	dynasty=1000103714
+	religion="catholic"
+	culture="german"
+	father=1236819
+	1280.1.1 = {
+		birth=yes
+	}
+	1339.1.1 = {
+		death=yes
+	}
+}
+1236821 = {
+	name="Dedo" # Dedo von Wettin, eldest son of Thimo von Wettin. Count of Wettin and Groitzsch. Married Berta von Morungen
+	dynasty=528
+	religion="catholic"
+	culture="thuringian"  # melted from: german
+	father=7662
+	mother=112605
+	1087.1.1 = {
+		birth=yes
+	}
+	1112.1.1 = {
+		add_spouse = 33791
+	}	
+	1124.12.16 = {
+		death=yes
+	}
+}
+1236822 = {
+	name="Otto" # Otto von Wettin-Brehna, eldest son of Friedrich von Wettin-Brehna.
+	dynasty=528
+	religion="catholic"
+	culture="german"
+	father=212949
+	mother=212865
+	1180.1.1 = {
+		birth=yes
+	}
+	1203.12.23 = {
+		death=yes
+	}
+}
+1236823 = {
+	name="Otto" # Otto von Wettin-Brehna, eldest son of Friedrich von Wettin-Brehna
+	dynasty=528
+	religion="catholic"
+	culture="german"
+	father=7513
+	1211.1.1 = {
+		birth=yes
+	}
+	1234.7.22 = {
+		death=yes
+	}
+}
+1236824 = {
+	name="Konrad" # Konrad von Wettin-Brehna, eldest son of Dietrich von Wettin-Brehna
+	dynasty=528
+	religion="catholic"
+	culture="german"
+	father=7514
+	mother=7515	
+	1242.1.1 = {
+		birth=yes
+	}
+	1278.3.26 = {
+		death=yes
+	}
+}
+1236825 = {
+	name="Albrecht" # Albrecht von Wettin-Brehna, eldest son of Konrad von Wettin-Brehna
+	dynasty=528
+	religion="catholic"
+	culture="german"
+	father=1236824
+	1263.1.1 = {
+		birth=yes
+	}
+	1284.4.1 = {
+		death=yes
+	}
+}
+1236826 = {
+	name="Otto" # Otto von Wettin-Brehna, last Wettin count of Brehna
+	dynasty=528
+	religion="catholic"
+	culture="german"
+	father=1236824
+	1265.1.1 = {
+		birth=yes
+	}
+	1290.6.28 = {
+		death=yes
+	}
+}
+1236827 = {
+	name="Friedrich" # Friedrich von Wettin-Eilenburg, younger brother of Dedo von Wettin, Count of Eilenburg
+	dynasty=528
+	religion="catholic"
+	culture="thuringian"  # melted from: german
+	father=33573
+	966.1.1 = {
+		birth=yes
+	}
+	1017.1.6 = {
+		death=yes
+	}
+}
+1236828 = {
+	name="Rikdag" # Rikdag or Ricdag, Count of Schwabengau, Margrave of Zeitz and Merseburg and Margrave of Meissen
+	dynasty=1000103358
+	religion="catholic"
+	culture="low_saxon"
+
+	937.1.1 = {
+		birth=yes
+	}	
+	985.1.1 = {
+		death=yes
+	}
+}
+1236829 = {
+	name="Karl" # Karl, son of Rikdag, Count of Schwabengau
+	dynasty=1000103358
+	religion="catholic"
+	culture="low_saxon"
+	father=1236828
+	969.1.1 = {
+		birth=yes
+	}	
+	1014.4.28 = {
+		death=yes
+	}
+}
+1236830 = {
+	name="Judith" # unnamed daughter of Rikdag, shortlived wife of Boleslaw the Brave. Marriage annulled as her father died and wasn't succeeded by his son as Margrave as the marriage was purely political
+	female=yes
+	dynasty=1000103358
+	religion="catholic"
+	culture="low_saxon"
+	father=1236828
+	970.1.1 = {
+		birth=yes
+	}	
+	1019.1.1 = {
+		death=yes
+	}
+}
+1236831 = {
+	name="Gertrud" # daughter of Rikdag
+	female=yes
+	dynasty=1000103358
+	religion="catholic"
+	culture="low_saxon"
+	father=1236828
+	973.1.1 = {
+		birth=yes
+	}	
+	1022.10.30 = {
+		death=yes
+	}
+}
+1236832 = {
+	name="Heinrich" # Heinrich III "the Long/Tall" von Plauen, Vogt and Lord of Plauen 1302-1348, Reichsministerialer and Hauptmann of Eger
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236833	
+	1284.1.1 = {
+		birth=yes
+	}	
+	1348.5.8 = {
+		death=yes
+	}
+}
+1236833 = {
+	name="Heinrich" # Heinrich II "the Bohemian" von Plauen, Vogt and Lord of Plauen 1274-1302, Hauptmann of Eger
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236838	
+	1255.1.1 = {
+		birth=yes
+	}	
+	1302.8.24 = {
+		death=yes
+	}
+}
+1236834 = {
+	name="Heinrich" # Heinrich IV von Plauen, Vogt of Plauen, Lord of Mühltroff, Kapitän of the Margrave of Meissen from 1325
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236832	
+	1307.1.1 = {
+		birth=yes
+	}	
+	1348.5.8 = {
+		death=yes
+	}
+}
+1236835 = {
+	name="Heinrich" # Heinrich V "the Elder" von Plauen, Vogt of Plauen, Lord of Mühltroff
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236834	
+	1323.1.1 = {
+		birth=yes
+	}	
+	1363.9.7 = {
+		death=yes
+	}
+}
+1236836 = {
+	name="Heinrich" # Heinrich V "the Younger" von Plauen, Vogt of Plauen, Lord of Plauen
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236834	
+	1325.1.1 = {
+		birth=yes
+	}	
+	1370.12.28 = {
+		death=yes
+	}
+}
+1236837 = {
+	name="Heinrich" # Heinrich I "the Reusse" von Plauen, Vogt and Lord of Plauen 1274-1295,
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236838	
+	1256.1.1 = {
+		birth=yes
+	}	
+	1295.12.12 = {
+		death=yes
+	}
+}
+1236838 = {
+	name="Heinrich" # Heinrich I von Plauen, Vogt and Lord of Plauen-Gera 1238-1244, Vogt and Lord of Plauen-Greiz 1244-1302
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236839	
+	1227.1.1 = {
+		birth=yes
+	}	
+	1302.8.24 = {
+		death=yes
+	}
+}
+1236839 = {
+	name="Heinrich" # Heinrich IV "the Middle" von Plauen, Vogt and Lord of Plauen-Gera 1209-1238. Founder of the Cadet Branch line, von Plauen. Retired to Teutonic Order as a Knight in 1237/1238, leaving his title to his son
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236840	
+	1183.1.1 = {
+		birth=yes
+	}	
+	1249.2.7 = {
+		death=yes
+	}
+}
+1236840 = {
+	name="Heinrich" # Heinrich II "the Rich" von Weida, possessed the Lordships of Weida, Gera, Plauen, Greiz and Ronneburg
+	dynasty=1000103725
+	religion="catholic"
+	culture="thuringian"
+	father=1236843	
+	1162.1.1 = {
+		birth=yes
+	}	
+	1209.8.3 = {
+		death=yes
+	}
+}
+1236841 = {
+	name="Heinrich" # Heinrich III "the Elder" von Weida, Vogt and Lord of Weida-Ronneburg 1209-1219. Retired to the Teutonic Order as a knight in 1219
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236840	
+	1180.1.1 = {
+		birth=yes
+	}	
+	1224.7.9 = {
+		death=yes
+	}
+}
+1236842 = {
+	name="Heinrich" # Heinrich VI von Weida, Vogt and Lord of Weida-Ronneburg 1219-1254.
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236841
+	1208.1.1 = {
+		birth=yes
+	}	
+	1254.9.23 = {
+		death=yes
+	}
+}
+1236843 = {
+	name="Heinrich" # Heinrich I "Probus" von Weida, Vogt of Weida and Gera
+	dynasty=1000103725
+	religion="catholic"
+	culture="thuringian"
+	father=1236844	
+	1124.1.1 = {
+		birth=yes
+	}	
+	1193.9.8 = {
+		death=yes
+	}
+}
+1236844 = {
+	name="Erkenbert" # Erkenbert von Weida, Imperial Ministerialer in the Vogtlands
+	dynasty=1000103725
+	religion="catholic"
+	culture="thuringian"
+	
+	1090.1.1 = {
+		birth=yes
+	}	
+	1143.1.1 = {
+		death=yes
+	}
+}
+1236845 = {
+	name="Erkenbert" # Erkenbert von Weida, Lord of Weida
+	dynasty=1000103725
+	religion="catholic"
+	culture="thuringian"
+	father=1236844	
+	1125.1.1 = {
+		birth=yes
+	}	
+	1171.1.1 = {
+		death=yes
+	}
+}
+1236846 = {
+	name="Heinrich" # Heinrich V "the Younger" von Plauen, Vogt and Lord of Greiz and Reichenbach 1209-1239.
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236840	
+	1184.1.1 = {
+		birth=yes
+	}	
+	1239.5.28 = {
+		death=yes
+	}
+}
+1236847 = {
+	name="Heinrich" # Heinrich VII "the Red" von Weida, Vogt of Weida, and Imperial Landrichter of the Egerlands
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236842
+	1236.1.1 = {
+		birth=yes
+	}	
+	1260.11.26 = {
+		death=yes
+	}
+}
+1236848 = {
+	name="Heinrich" # Heinrich VIII von Weida, Vogt of Weida
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236842
+	1238.1.1 = {
+		birth=yes
+	}	
+	1279.9.17 = {
+		death=yes
+	}
+}
+1236849 = {
+	name="Heinrich" # Heinrich IX "the Elder" von Weida, Vogt of Weida
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236848
+	1261.1.1 = {
+		birth=yes
+	}	
+	1316.9.28 = {
+		death=yes
+	}
+}
+1236850 = {
+	name="Heinrich" # Heinrich X "the Younger" von Weida, Vogt of Weida and Tinz
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236848
+	1264.1.1 = {
+		birth=yes
+	}	
+	1293.3.22 = {
+		death=yes
+	}
+}
+1236851 = {
+	name="Heinrich" # Heinrich XI "the Elder" von Weida, Vogt of Weida,  and Imperial Landrichter of the Egerlands
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236849
+	1289.1.1 = {
+		birth=yes
+	}	
+	1366.11.21 = {
+		death=yes
+	}
+}
+1236852 = {
+	name="Heinrich" # Heinrich XII "the Knight" von Weida, Vogt of Weida
+	dynasty=1000103725
+	religion="catholic"
+	culture="german"
+	father=1236851
+	1337.1.1 = {
+		birth=yes
+	}	
+	1370.6.17 = {
+		death=yes
+	}
+}
+1236853 = {
+	name="Katharina" # Katharina von Plauen, married Heinrich XI von Weida
+	female=yes
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236832	
+	1310.1.1 = {
+		birth=yes
+	}	
+	1336.1.1 = {
+		death=yes
+	}
+}
+1236854 = {
+	name="Adelheid" # Adelheid von Plauen, married Anarg I von Waldenburg and Volkenstein
+	female=yes
+	dynasty=100311
+	religion="catholic"
+	culture="german"
+	father=1236838	
+	1259.1.1 = {
+		birth=yes
+	}	
+	1317.1.1 = {
+		death=yes
+	}
+}
+1236855 = {
+	name="Bruno" # Bruno von Querfurt. The Progenitor of the von Querfurt noble family. Lord of Querfurt
+	dynasty=12402
+	religion="catholic"
+	culture="thuringian"  # melted from: german
+	father = 1236857	
+	940.1.1 = {
+		birth=yes
+	}
+	1009.10.19 = {
+		death=yes
+	}
+}
+1236856 = {
+	name="Ricbert" # Ricbert, count of Hassegau, brother of Bruno von Querfurt
+	dynasty=12402
+	religion="catholic"
+	culture="thuringian"  # melted from: german
+	father = 1236857	
+	939.1.1 = {
+		birth=yes
+	}
+	1009.1.1 = {
+		death=yes
+	}
+}
+1236857 = {
+	name="Hermann" # Unnamed father of Ricbert and Bruno
+	dynasty=12402
+	religion="catholic"
+	culture="thuringian"  # melted from: german
+	916.1.1 = {
+		birth=yes
+	}
+	965.1.1 = {
+		death=yes
+	}
+}
+1236858 = { 
+	name="Liudolf" # Bishop of Trier 994-1008
+	religion="catholic"
+	culture="thuringian"  # german
+	952.1.1={
+		birth = yes
+	}
+	1008.4.7={
+		death = yes	
+	}
+}

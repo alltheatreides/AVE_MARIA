@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 36 - Orkney
+
+# County Title
+title = c_orkney
+
+# Settlements
+max_settlements = 3
+b_birsay = tribal
+b_kirkwall = temple
+#b_orphir = castle
+
+#b_westray = castle
+#b_egilsay = castle
+#b_wyre = castle
+#b_sanday = castle
+#b_ronaldsay = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+terrain = hills
+
+# History
+867.1.1 = {
+	b_birsay = tb_shipyard_1
+}
+1015.1.1 = { religion = catholic } 
+1035.1.1 = { culture = norwegian } 

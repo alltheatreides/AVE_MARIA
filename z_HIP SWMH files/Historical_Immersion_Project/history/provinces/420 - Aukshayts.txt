@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 420 - Aukshayts
+
+# County Title
+title = c_aukshayts
+
+# Settlements
+max_settlements = 5
+
+b_kernave = tribal
+b_vilnius = city
+
+#b_salcininkai = temple
+#b_medininkai = castle
+#b_merkine = castle
+#b_eisiskes = castle
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+1253.6.30  = { b_kernave = castle } # Granduchy of Lithuania formed
+1253.6.30 = { b_medininkai = castle }
+1311.1.1 = { b_salcininkai = temple }
+

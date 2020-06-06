@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Alavid Conquest of Gurgan"
+
+casus_belli = {
+	actor = 45108
+	recipient = 163100
+	casus_belli=muslim_county_conquest
+	landed_title=c_gurgan
+	date=867.1.1
+}
+
+867.1.1 = {
+	add_attacker = 45108
+	add_defender = 163100
+}
+
+867.6.1 = {
+	rem_attacker = 45108
+	rem_defender = 163100
+}

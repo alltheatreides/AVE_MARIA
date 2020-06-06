@@ -1,0 +1,27 @@
+# 955 - Augsburg
+
+# County Title
+title = c_augsburg
+
+# Settlements
+max_settlements = 5
+
+b_beuren = castle
+b_augsburg = temple
+b_fussen = temple 
+
+#b_memmingen = city
+#b_ronsberg = castle
+
+#b_mindelheim = city 
+#b_rothenstein = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+864.1.1 = { capital = b_augsburg }
+982.1.1= { b_ronsberg = castle }
+1158.1.1= { b_memmingen = city }
+1170.1.1 = { culture = german }

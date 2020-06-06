@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 940 - Mosynopolis
+
+# County Title
+title = c_mosynopolis
+
+# Settlements
+max_settlements = 3
+
+
+b_mosynopolis = castle
+b_polystylon = city
+#b_xanthia = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+879.1.1 = { b_xanthia = city }
+1189.1.1 = { trade_post = b_dandolo }

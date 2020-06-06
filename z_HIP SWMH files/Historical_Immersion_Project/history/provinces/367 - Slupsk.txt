@@ -1,0 +1,30 @@
+# 367 - Slupsk
+
+# County Title
+title = c_slupsk
+
+# Settlements
+max_settlements = 3
+b_slawno = tribal
+
+#b_slupsk = city
+#b_buckow = temple
+
+#b_drosedow = castle 
+#b_darlowo = city #Rügenwalde
+#b_zitzewitz = castle 
+#b_sianow = city #Zanow
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+#Ratibor I
+1122.1.1 = { b_slawno = castle }#Ratibor I
+1122.1.1 = { b_slupsk = city }
+
+1180.1.1 = { religion = catholic }
+1237.1.1 = { trade_post = b_warendorp }
+1248.1.1 = { b_buckow = temple }
+#1300.1.1= { culture= low_german } 

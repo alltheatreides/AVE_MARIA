@@ -1,0 +1,119 @@
+# -*- ck2.history.titles -*-
+
+864.1.1 = {
+	liege = d_rashka
+	holder = 1229400
+}
+891.1.1 = {
+	holder = 167869
+}
+892.1.1 = {
+	holder = 167876
+}
+#Mihajlo of Zahumlje, independent or semi-independent Lord of Zahumlje. Mihajlo does not appear in sources after 925, but some historians believe his reign lasted into the 940'ies
+910.1.1 = {
+	set_tribute_suzerain = {
+		who = d_rashka
+		type = permanent
+	}
+	liege = 0
+	holder = 262700
+}
+946.1.1={
+	clear_tribute_suzerain = d_rashka
+	liege = d_rashka
+	holder = 167875 # Caslav, Prince of Serbia, takes over control of Zahumlje after the death of Mihajlo
+}
+960.1.1 = {
+	holder = 0
+}
+976.1.1 = {
+	liege = d_dioclea
+	holder = 20496 # Petrislav aka. Peter of Diokleia, placeholder ruler under the unknown period of Byzantine rule over Serbia after the demise of the Catepanate of Ras and before the Bulgarian takeover of Serbia in 998
+}
+998.1.1 = {
+	liege = d_hum
+	holder = 20494 # Dragimir, uncle of Jovan Vladimir
+}
+1018.1.1 = {
+	liege = d_syrmia
+	holder = 1229402 # Ljutovid of Zahumlje, ruler of the interior
+}
+1028.1.1 = {
+	liege = d_hum
+}
+1043.1.1 = {
+	liege = d_dioclea
+	holder = 20491 # Rashka taken and Byzantium driven off for good
+}
+1060.1.1 = {
+	holder = 20474
+}
+1082.1.1 = {
+	holder = 20493
+}
+1101.1.1 = {
+	holder = 70356
+}
+1102.1.1 = {
+	holder = 70360
+}
+1103.1.1 = {
+	holder = 70350
+}
+1113.1.1 = {
+	holder = 34124
+}
+1118.1.1 = {
+	holder = 34131
+}
+1125.1.1 = {
+	holder = 34124
+}
+1131.1.1 = {
+	holder = 34132
+}
+1146.1.1 = {
+	holder = 34140
+}
+1148.1.1 = {
+	holder = 34071
+}
+1162.1.1 = {
+	holder = 34141
+}
+1166.1.1 = {
+	holder = 34075
+}
+1186.1.1 = {
+	liege = d_hum
+}
+1192.1.1 = {
+	holder = 34077
+}
+1198.1.1 = {
+	holder = 34079
+}
+1216.1.1 = {
+	holder = 34080
+}
+1250.1.1 = {
+	holder = 34083
+}
+1254.5.22 = {
+	liege = d_rashka
+	holder = 34088
+}
+1276.1.1 = {
+	holder = 34117
+}
+1282.1.1 = {
+	holder = 468505
+}
+1316.1.1 = {
+	holder = 34122
+}
+1322.1.1 = {
+	liege = d_hum
+	holder = 1229404
+}

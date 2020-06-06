@@ -1,0 +1,27 @@
+# 244 - Rheinfelden
+
+# County Title
+title = c_rheinfelden
+
+# Settlements
+max_settlements = 5
+
+b_rheinfelden = castle
+b_solothurn = temple
+
+#b_bern = city
+#b_frohburg = castle
+#b_buchegg = castle
+
+#b_fribourg = city
+#b_homberg = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1050.1.1 = { b_frohburg = castle }
+1130.1.1 = { b_buchegg = castle }
+1170.1.1 = { culture = german }
+1191.1.1 = { b_bern = city }

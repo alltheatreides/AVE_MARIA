@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1235 - Roufra (Koufra)
+
+# County Title
+title = c_roufra
+
+# Settlements
+max_settlements = 3
+
+b_koufra = tribal
+#b_sherda = city
+#b_aingalakka = city
+
+# Misc
+culture = zaghawa
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+#islamization
+940.1.1 = { religion = sunni }

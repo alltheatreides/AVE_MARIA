@@ -1,0 +1,843 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH Frankish characters
+###############################################################
+# SWMH Character Range: 1091161 - 1.000.092.999
+# 3d range, Frankish Characters: 1226500 - 1226799
+##############################################################################################
+
+############
+# Maison de d'Amiens
+############
+1091161 = {
+	name="Ade" # Ade d'Amiens wife of Guy I de Ponthieu
+	female=yes
+	dynasty=100095
+	martial=4
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="catholic"
+	culture="frankish"
+	add_trait="underhanded_rogue"
+	father=260
+	1037.1.2 = {
+		birth="1037.1.2"
+	}
+	1087.1.2 = {
+		death="1087.1.2"
+	}
+}
+#####
+#Bishops of Langres, also comte de Tonnere 814-954
+####
+1226500 = {
+	name="Belto" # 790/820 
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	760.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+1226501 = {
+	name="Alberic" # 820/838
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	780.1.1 = {
+		birth = yes
+	}
+	838.1.1 = {
+		death = yes
+	}
+}
+1226502 = {
+	name="Thibaut" # 838/856
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	800.1.1 = {
+		birth = yes
+	}
+	856.1.1 = {
+		death = yes
+	}
+}
+1226503 = {
+	name="Isaac" # 859/880
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	839.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+1226504 = {
+	name="Gilon" # 880/891  Gilon de Tournus
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	853.1.1 = {
+		birth = yes
+	}
+	891.1.1 = {
+		death = yes
+	}
+}
+1226505 = {
+	name="Thibaut" # 891/899
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	860.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+1226506 = {
+	name="Argrin" # 899/901 abdicated
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	870.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+1226507 = {
+	name="Garnier" # 901/922 
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	869.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+1226508 = {
+	name="Gosselin" # 922/931 , Gosselin II comte de Bassigny(and Josselin)
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	880.1.1 = {
+		birth = yes
+	}
+	931.1.1 = {
+		death = yes
+	}
+}
+1226509 = {
+	name="Lethéric" # 931-932 , died within the year
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	876.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		death = yes
+	}
+}
+1226510 = {
+	name="Héric" # 932/948 
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	889.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+1226511 = {
+	name="Achard" # 948/969
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	905.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+1226512 = {
+	name="Vidric" # 969/980
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	923.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+1226513 = {
+	name="Brunon" # 980/1015, Brunon de Roucy
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+        dynasty=738
+	956.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+1226514 = {
+	name="Lambert" # 1016/1031, Lambert de Bassigny
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	970.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+1226515 = {
+	name="Richard" # 1031-1032, died within the year
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	965.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+1226516 = {
+	name="Richard" # 1032/1049, Hugues de Breteuil
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	972.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+1226517 = {
+	name="Arduin" # 1049/1065, Arduin Renaud( his father Rainard was the count of Tonnerre 1002-1039)
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	1010.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+1226518 = {
+	name="Hugues" # 1065/1085, Hugues Renaud( his father Milon III was the count 1039-1046)
+	religion="catholic"
+	culture="frankish"
+        trait=detached_priest
+	1037.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+1226519 = {
+	name="Gauthier" # Baron of Akova from 1209 to his death in 1273
+	religion="catholic"
+	culture="frankish"
+	dynasty=1000036004 #de Rosieres
+	1191.1.1 = {
+		birth = yes
+	}
+	1273.1.1 = {
+		death = yes
+	}
+}
+1226520 = {
+	name="Jean" # Baron of Passavant until it fell to the Byzzies
+	religion="catholic"
+	culture="frankish"
+	dynasty=7207 #de Neuilly
+	1199.1.1 = {
+		birth = yes
+	}
+	1262.1.1 = {
+		death = yes
+	}
+}
+#226 = {
+#	name="Robert" #Robert (1059 † 1111), bishop of Langres
+#	dynasty=741 #capetian house of Burgundy
+#	religion="catholic"
+#	culture="frankish"
+#	trait=detached_priest #Bishop of Langres
+#	father=218 #Henri de Bourgogne
+#	mother=110531 #Sibylle de Barcelone
+#	1059.1.1 = {
+#		birth="1059.1.1"
+#	}
+#	1111.1.1 = {
+#		death="1111.1.1"
+#	}
+#}
+1226521 = {
+	name="Hugues" #Hugh de Bourgogne
+	dynasty=741 #Capetian house of Burgundy
+	religion="catholic"
+	culture="frankish"
+	father=210 #Robert I de Bourgogne
+	mother=209 #Helie de Semur
+	1034.1.1 = {
+		birth="1034.1.1"
+	}
+	1059.1.1 = {
+		death={ death_reason=death_battle } #killed in battle
+	}
+}
+1226522 = {
+	name="Jeanne" 
+	female=yes
+	dynasty=93
+	religion="catholic"
+	culture="frankish"
+	father=138015 #Hugues XII de Lusignan
+	#mother Jeanne de Fougères
+	1260.1.1 = {
+		birth="1260.1.1"
+	}
+	#married Piers de Joinville
+	1323.4.13 = {
+		death="1323.4.13"
+	}
+}
+1226523 = {
+	name="Rithard"
+	religion="catholic"
+	culture="frankish"
+
+	1000.1.1 = {
+		birth=yes
+	}
+	1042.8.16 = {
+		death=yes
+	}
+}
+1226524 = {
+	name="Aymon"
+	# AKA: Aymone
+	dynasty=240
+	religion="catholic"
+	culture="frankish"
+	father=1176
+	mother=1177
+	1006.1.1 = {
+		birth=yes
+	}
+	1054.7.13 = {
+		death=yes
+	}
+}
+1226525= { #Conon de Montfaucon
+	name="Conon"
+	dynasty=7287
+	religion="catholic"
+	culture="frankish"
+
+	1005.2.1={ birth = yes }		
+	1050.2.1={ death = yes }
+}
+1226526= { #Richard 1er de Montfaucon
+	name="Richard"
+	dynasty=7287
+	religion="catholic"
+	culture="frankish"
+	father=1226525
+	1030.2.1={ birth = yes }		
+	1085.2.1={ death = yes }
+}
+1226527= { #Amédée 1er de Montfaucon
+	name="Amédée"
+	dynasty=7287
+	religion="catholic"
+	culture="frankish"
+	father=1226526
+	1050.2.1={ birth = yes }		
+	1110.2.1={ death = yes }
+}
+1226528= { #Jean 1er de Montfaucon
+	name="Jean"
+	dynasty=7287
+	religion="catholic"
+	culture="frankish"
+	father=161770
+	#mother Mathilde countess of Sarrebruck married his father, it was her second marriage
+	1250.3.1={
+		birth = yes
+	}		
+	1306.9.1={
+		death = yes
+	}
+}
+######################
+#maison de Rotrou
+######################
+# signeur du Nogent
+1226529= { 
+	name="Rotrou" #Rotrou, signeur du Nogent fl ca 960-? last attested 996.
+	dynasty=1000100072
+	religion="catholic"
+	culture="frankish"
+	930.1.1={
+		birth = yes
+	}		
+	997.1.1={
+		death = yes
+	}
+}
+1226530= { 
+	name="Burchard" #Burchard son of Rotrou, predeceased his father.
+	dynasty=1000100072
+	religion="catholic"
+	culture="frankish"
+	father=1226529
+	950.1.1={
+		birth = yes
+	}		
+	970.1.1={
+		death = yes
+	}
+}
+1226531= { 
+	name="Mélisende" #Mélisende daughter of Rotrou, souse of Fulcois de Mortagne.
+	dynasty=1000100072
+	religion="catholic"
+	culture="frankish"
+	father=1226529	
+	female=yes
+	959.1.1={
+		birth = yes
+	}		
+	1015.1.1={
+		death = yes
+	}
+}
+######################
+#du Perche
+######################
+#Comte di Mortagne, Perche, Gravina, Andria, viscomte de Châteaudun, segniur de Nogent 
+1226532= { 
+	name="Fulcois" #Fulcois, comte de Mortagne, fl. ca 1000. died 1004. founder of dynasty
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=168049	
+	951.1.1={
+		birth = yes
+	}	
+	980.1.1={
+		add_spouse =1226531 # Mélisende de Rotrou
+	}	
+	1004.1.1={
+		death = yes
+	}
+}
+1226533= { 
+	name="Geoffroy" # Goeffroy, son of Fulcois and Mélisende, comte de Mortagne, viscomte de Châteaudun, segniur de Nogent
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226532
+	mother=1226531
+	981.1.1={
+		birth = yes
+	}		
+	1041.1.1={
+		death = yes
+	}
+}
+1226534= { 
+	name="Hugues" #Hugues I son of Geoffroy, vicomte de Châteaudun), seigneur de Nogent, comte de Mortagne. fl ca 1040-1050. died without issue
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226533
+	1010.1.1={
+		birth = yes
+	}		
+	1055.1.1={
+		death = yes
+	}
+}
+1226535= { 
+	name="Rotrou" #Rotrou II younger son of Geoffroy, vicomte de Châteaudun, seigneur de Nogent, comte de Mortagne. last attested 1077.
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226533
+	1018.1.1={
+		birth = yes
+	}		
+	1078.1.1={
+		death = yes
+	}
+}
+1226536= { 
+	name="Geoffroy" #Geoffroy II son of Rotrou II, comte de Mortagne, vicomte de Châteaudun, seigneur de Nogent. created comte de Perche 1090, died 1100.
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226535
+	1045.1.1={
+		birth = yes
+	}		
+	1100.1.1={
+		death = yes
+	}
+}
+1226541= { 
+	name="Thomas" # Thomas du Perche, son of Geoffroy III du Perche, comte de Perche. died the 20th of May 1217 leading troops in Lincoln.
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=205882 # Geoffroy III du Perche
+	1180.1.1={
+		birth = yes
+	}		
+	1217.5.20={
+		death = yes
+	}
+}
+1226542= { 
+	name="Guillaume" # Guillaume du Perche, second son of Geoffroy III du Perche, comte de Perche, died the 18th of February 1226
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=205882 # Geoffroy III du Perche
+	1182.1.1={
+		birth = yes
+	}		
+	1226.2.18={
+		death = yes
+	}
+}
+####South italian branch naturalized.
+1226537= { 
+	name="Étienne" # made archebishop of Palermo 1167, had to flee in december same year.  Chancellor of Sicilly 1166-1168.
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=205881 # Rotrou III du Perche, comte de Perche et Mortagne. born out of wedlock.
+	1126.1.1={
+		birth = yes
+	}		
+	1169.1.1={
+		death = yes
+	}
+}
+1226538= { 
+	name="Bertrand" # Bertrand I, brother of Etienne, conte di Gravina ?-1159.
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=205881 # Rotrou III du Perche, comte de Perche et Mortagne. born out of wedlock.
+	1118.1.1={
+		birth = yes
+	}		
+	1159.1.1={
+		death = yes
+	}
+}
+1226539= { 
+	name="Gilbert" # Gilbert son of Bertrand, conte di Gravina 1159-1168(exiled to the kingdom of Jerusalem).
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226538
+	1133.1.1={
+		birth = yes
+	}		
+	1190.1.1={
+		death = yes
+	}
+}
+1226540= { 
+	name="Bertrand" # Betrand II son of Gilbert, conte di Andria 1166-1168(exiled to the kingdom of Jerusalem).
+	dynasty=306
+	religion="catholic"
+	culture="frankish"
+	father=1226539
+	1151.1.1={
+		birth = yes
+	}		
+	1210.1.1={
+		death = yes
+	}
+}
+1226543 = {
+	name="Helene" #Angevin bastard daughter of Robert I, was kidnapped by Andrea Thopia and sired several children with him
+	female=yes
+	dynasty=81
+	religion="catholic"
+	culture="frankish"
+	trait="bastard"
+	father=461700
+	1305.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1226544 = {
+	name="Geoffroy" #Geoffroy III le Noble
+	dynasty=100139 #Bourges
+	religion="catholic"
+	culture="frankish"
+	father=1226545 #Geoffroy II le Bosberas
+	978.1.1 = {
+		birth=yes
+	}
+	1039.1.1 = {
+		death=yes
+	}
+}
+1226545 = {
+	name="Geoffroy" #Geoffroy II le Bosberas
+	dynasty=100139 #Bourges
+	religion="catholic"
+	culture="frankish"
+	father=1226546 #Geoffroy I le Paspabas
+	954.1.1 = {
+		birth=yes
+	}
+	1012.1.1 = {
+		death=yes
+	}
+}
+1226546 = {
+	name="Geoffroy" #Geoffroy I le Paspabas
+	dynasty=100139 #Bourges
+	religion="catholic"
+	culture="frankish"
+
+	916.1.1 = {
+		birth=yes
+	}
+	967.1.1 = {
+		death=yes
+	}
+}
+1226547 = {
+	name="Rorgon" #Rorgon de Lusignan
+	# AKA: Hugh
+	dynasty=93
+	religion="catholic"
+	culture="frankish"
+	father=40050 #Hugh IV of Lusignan
+	mother=40037 #Aldéarde de Thouars
+	1015.1.1 = {
+		birth=yes
+	}
+	1045.1.1 = {
+		death=yes
+	}
+}
+1226548 = {
+	name="Simon" #Simon de Commercy
+	dynasty=1000103284
+	religion="catholic"
+	culture="frankish"
+
+	1200.1.1 = {
+		birth=yes
+	}
+	1229.1.1 = {
+		add_spouse=1236617
+	}	
+	1248.12.1 = {
+		death=yes
+	}
+}
+1226549 = {
+	name="Jeanne" # Joan of Bar, wife of John de Warenne. Their blocked divorce was the cause of the feud between John de Warenne and Thomas of Lancaster
+	female=yes
+	dynasty=88
+	religion="catholic"
+	culture="frankish"
+	father=455763
+	mother=455764
+	1294.1.1 = {
+		birth=yes
+	}
+	1361.11.1 = {
+		death=yes
+	}
+}
+1226550 = {
+	name="Gerberge" # Gerberge de Macon, mother of Otton Guillaume the first Count Palatine of Burgundy. Her second husband (Henri Capet "the Great")'s will, that his stepson was to inherit Burgundy, triggered a short succession War, were Burgundy was divided between France and the Empire
+	female=yes
+	dynasty=736
+	religion="catholic"
+	culture="frankish"
+	father=40330
+	945.1.1 = {
+		birth=yes
+	}
+	991.1.1 = {
+		death=yes
+	}
+}
+1226551 = {
+	name="Guy" # Guy d'Anjou. Bishop of Puy-en-Velay
+	dynasty=723
+	religion="catholic"
+	culture="frankish"
+	father=370
+	942.1.1 = {
+		birth=yes
+	}
+	995.1.1 = {
+		death=yes
+	}
+}
+1226552 = {
+	name="Geoffroy" # Geoffroy de Gatinais, Count of Gatinais until 992-997
+	dynasty=1000036005 #de Gatinais
+	religion="catholic"
+	culture="frankish"
+	946.1.1 = {
+		birth=yes
+	}
+	975.1.1 = {
+		add_spouse=1226556
+	}	
+	996.10.24 = {
+		death=yes
+	}
+}
+1226553 = {
+	name="Alberic" #Alberic/Aubry de Macon
+	dynasty=100225 #de Macon
+	religion="catholic"
+	culture="occitan"
+
+	885.1.1 = {
+		birth=yes
+	}
+	943.1.1 = {
+		death=yes
+	}		
+}
+1226554 = {
+	name="Lietald" #Lietald de Macon
+	dynasty=100225 #de Macon 
+	religion="catholic"
+	culture="frankish"
+	father=1226553 #Aubry de Macon
+	915.1.1 = {
+		birth=yes
+	}
+	966.1.1 = {
+		death=yes
+	}		
+}
+1226555 = {
+	name="Alberic" #Alberic/Aubry de Macon
+	dynasty=100225 #de Macon
+	religion="catholic"
+	culture="frankish"
+	father=1226554 #Lietald de Macon
+	935.1.1 = {
+		birth=yes
+	}
+	982.1.1 = {
+		death=yes
+	}		
+}
+1226556 = {
+	name="Beatrice" #Beatrice de Macon, son of Aubry, married to Geoffroy de Gatinais
+	female=yes
+	dynasty=100225 #de Macon
+	religion="catholic"
+	culture="frankish"
+	father=1226555 #Alberic/Aubry de Macon
+	961.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}		
+}
+1226557 = {
+	name="Alberic" # Alberic/Aubry de Gatinais, Count of Gatinais from roughly 1006-1028/30
+	dynasty=1000036005 #de Gatinais
+	religion="catholic"
+	culture="frankish"
+	father=1226552 #Geoffroy de Gatinais
+	mother=1226556 #Beatrice de Macon	
+	985.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}
+}
+1226558 = {
+	name="Guillaume"
+	dynasty=206
+	religion="catholic"
+	culture="frankish"
+	868.1.1 = {
+		birth=yes
+	}
+	933.1.1 = {
+		death=yes
+	}
+}
+1226559 = {
+	name="Thibaud"
+	# AKA: Thibaud 'le Ancien/the Old'
+	dynasty=721
+	religion="catholic"
+	culture="frankish"	
+	890.1.1 = {
+		birth=yes
+	}
+	944.1.1 = {
+		death=yes
+	}
+}
+1226560 = {
+	name="Manassès" # Bishop of Trent 933-957
+	dynasty=796
+	religion="catholic"
+	culture="frankish"
+	father = 144971
+	mother = 144972
+	902.1.1={
+		birth=yes
+	}
+	962.11.17={
+		death=yes
+	}
+}

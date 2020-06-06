@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 405 - Chud # Vaga
+# County Title
+title = c_chud
+
+# Settlements
+max_settlements = 4
+
+b_shenkursk = tribal
+#b_ust_vaga = city
+#b_ust_emetsk = city
+#b_velsk = city
+
+# Misc
+culture = vepsian
+religion = finnish_pagan
+
+# History
+1229.1.1 = { religion = orthodox }
+1229.1.1 = { b_shenkursk = castle}
+1229.1.1 = { b_velsk = city }

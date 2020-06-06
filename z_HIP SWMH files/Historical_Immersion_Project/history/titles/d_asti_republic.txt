@@ -1,0 +1,76 @@
+#Asti commune
+1140.1.1 = {
+	law = succ_feudal_elective
+    liege=e_hre
+	holder = 1064874 # Ottone da Roero
+}
+1145.1.1 = {
+	holder = 1064864 # Ruffino da Solaro
+}
+#back to Monferrato
+1154.12.1 = {
+    liege=0
+	holder = 0 # Sacked by Monferrato and Babarossa
+}
+#Commune pops up again
+1164.1.1 = {
+    liege=k_italy
+	holder = 1064865 # Aurcio da Solaro
+}
+1167.4.7 = {
+    liege=k_lombard_league
+}
+1168.1.1 = {
+	holder = 1064875 # Berado da Roero
+}
+1170.1.1 = {
+	holder = 1064866 # Oberto da Solaro
+}
+1198.1.1 = {
+	holder = 1064867 # Alberto da Solaro
+}
+1202.1.1 = {
+	holder = 1064868 # Manfredo da Solaro, consul of Asti 1202
+}
+1210.1.1 = {
+	holder = 1064876 # Manfredo da Roero
+}
+1217.1.1 = {
+	holder = 1064878 # Guglielmo da Roero, sindacus of Asti 1217-1224
+}
+1231.1.1 = {
+	holder = 1062129 # Bernardo Rossi, podesta of Asti 1231
+}
+1232.1.1 = {
+	holder = 1064869 # Chiavaro da Solaro
+}
+1250.12.13 = {
+    liege=0
+}
+1260.1.1 = {
+	holder = 1064870 # Bernardo da Solaro
+}
+1278.1.1 = {
+	holder = 1064871 # Emanuele da Solaro, signore/capitano del popoli of Asti 1278-1303
+}
+1303.1.1 = {
+	holder = 1064891 # Guglielmo Turco
+}
+1309.1.1 = {
+	holder = 1064884 # Percivalle da Roero
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.8.24 = {
+	liege=k_naples
+}
+1323.1.1 = {
+	holder = 1064884 # Guglielmo da Roero
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1329.1.1 = {
+	holder = 1064889 # Manfredo/Manfredin da Roero, rettore of Asti 1335 and 1342
+}

@@ -1,0 +1,56 @@
+# -*- ck2.history.provinces -*-
+
+# 840 - Fes
+
+# County Title
+title = c_fes
+
+# Settlements
+max_settlements = 6
+
+b_fes = castle
+b_meknes = city
+b_sefrou = city
+b_walila = castle
+b_qarawiyyin = temple
+
+#b_qalat_mahdi = castle
+
+#b_tagragra = city
+#b_zerhoun = temple
+#b_missour = city
+#b_elhajeb = castle
+#b_enjil = castle
+
+#b_tiflet = city
+#b_oulmes = castle
+
+# Misc
+culture = sanhaja # Awraba
+religion = sunni
+
+# History
+
+867.1.1 = {
+	b_fes = ca_keep_1
+	b_fes = ca_training_grounds_1
+	b_fes = ca_keep_2
+	b_fes = ca_stable_1
+	b_fes = ca_barracks_1
+	b_fes = ca_militia_barracks_1
+	b_fes = ca_wall_1
+	b_fes = ca_wall_2
+	b_qarawiyyin = tp_monastery_1
+	b_qarawiyyin = tp_monastery_2
+	b_qarawiyyin = tp_wall_1
+	b_qarawiyyin = tp_barracks_1
+}
+980.1.1 = { #constructed by the Yajfash of Banu Ifran in the late 10th century
+	b_qalat_mahdi = castle
+}
+1000.1.1 = { #Maghrawa migration
+	culture = zanata
+}
+1100.1.1 = { #in ruin by the 12th century
+	remove_settlement = b_walila
+}

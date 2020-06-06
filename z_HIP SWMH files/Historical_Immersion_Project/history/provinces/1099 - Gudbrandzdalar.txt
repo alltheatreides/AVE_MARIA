@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1099 - Gudbrandzdalar
+
+# County Title
+title = c_gudbrandzdalar
+
+# Settlements
+max_settlements = 3
+
+b_hundorp = tribal # Hundþorp
+#b_lom = temple # Lóm
+#b_dovre = castle # Dofrar
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History 
+1022.1.1 = { b_lom = temple }
+1023.1.1 = { religion = catholic }
+1035.1.1 = { b_hundorp = castle
+b_dovre = castle } # Fat Olav
+1035.1.1 = { culture = norwegian } 
+1130.1.1 = { religion = catholic }

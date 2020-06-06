@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1551 - Lamghán
+
+# County Title
+title = c_lamghan
+
+# Settlements
+max_settlements = 2
+
+b_lamghan = castle
+b_nagarahara = city
+
+# Misc
+culture = khalaj
+religion = buddhist
+
+# History
+1040.1.1 = { religion = sunni }
+#1080.1.1 = { culture = afghan }

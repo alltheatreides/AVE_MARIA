@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 660 - Kúmis
+
+# County Title
+title = c_kumis
+
+# Settlements
+max_settlements = 6
+b_damghan = castle
+b_simnan = city
+b_ras-al-kalb = castle
+b_vanda = temple
+
+b_ahuvan = temple
+b_shalamba = city
+
+#Misc
+culture = persian
+religion = sunni
+
+# History
+887.1.1 = {	religion = sunni }

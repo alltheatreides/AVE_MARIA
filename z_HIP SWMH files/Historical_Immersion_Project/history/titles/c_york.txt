@@ -1,0 +1,104 @@
+# -*- ck2.history.titles -*-
+
+# West ridding of Yorkshire. Barony of Pontefract used for most of the title post 1066.
+866.11.1 = {
+	liege = d_york
+	holder = 163112
+}
+927.7.12 = {
+	liege = k_england
+	holder = 33350 # Aethelstan the Glorious
+}
+939.10.28 = {
+	holder = 102 # Edmund the Magnificent
+}
+946.5.27 = {
+	holder = 33351 # Eadred
+}
+954.1.1 = {
+	holder = 260539
+}
+963.1.1 = {
+	holder = 1226249 # Oslac
+}
+975.1.1 = {
+	holder = 0 # Oslac exiled
+}
+979.1.1 = {
+	liege = d_york
+	holder = 1226248 # Thored
+}
+994.1.1 = {
+	holder = 1226209 # Alfhelm, brother of Wulfric Spot
+}
+1006.1.1 = {
+	holder = 188 # Uhtred the Bold
+}
+1016.1.1 = {
+	liege = k_england
+	holder = 106 # Aethelraed the Unready
+}
+1016.4.24 = {
+	holder = 108 # Edmund Ironside
+}
+1016.11.30 = {
+	holder = 101510 # Knud the Great
+}
+1017.1.1 = {
+	liege = d_york
+	holder = 1228057 # Eric of Hlathir
+}
+1023.1.1 = {
+	holder = 196 # Sigeweard Grossus
+}
+1041.1.1 = {
+	liege = d_northumberland
+}
+1055.1.1 = {
+	holder = 124 # Tostig Godwinson
+}
+1066.1.1 = {
+	holder = 5660 # Morcar
+}
+1066.10.14 = {
+	holder = 1227361 # Hugh de Lacy, seignur of Lassy
+}
+1076.1.1 = {
+	liege = k_england
+}
+1085.3.27 = {
+	holder = 129083 # Ilber de Lacy first lord of Pontefract and 2nd lord of Bowland
+}
+1093.1.1 = {
+	holder = 129084 # Robert de Lacy 2nd lord of Pontefract and 3d lord of Bowland
+}
+1112.11.1 = {
+	holder = 1227362 # Ilbert de Lacy II 3d lord of Pontefract and 4th lord of Bowland
+}
+1141.2.2 = {
+	holder = 1227364 # Henry de Lacy 4th lord of Pontefract and 5th lord of Bowland
+}
+1177.9.25 = {
+	holder = 1227365 # Robert de Lacy 5th lord of Pontefract and 6th lord of Bowland
+}
+1193.8.21 = {
+	holder = 129090 # Roger de Lacy 6th lord of Pontefract and 7th lord of Bowland
+}
+1211.1.1 = {
+	holder = 454045 # John de Lacy 2nd Earl of Lincoln, 7th lord of Pontefract and 8th lord of Bowland
+}
+1240.1.1 = {
+	holder = 454043 # Edmund de Lacy 8th lord of Pontefract and 9th lord of Bowland
+}
+1257.1.1 = {
+	holder = 454040 # Henry de Lacy 3d Earl of Lincoln, 9th lord of Pontefract and 10th lord of Bowland
+}
+1265.1.1 = {
+	holder = 230527 # John de Warenne, Baron of Conisbrough
+}
+1316.8.1 = {
+	holder = 129037 # Thomas of Lancaster. Had seized Conisbrough in his feud with John de Warenne. The Feud was later settled by the King who awarded Conisbrough to Lancaster
+}
+1322.3.22 = {
+	holder = 454581 # John de Warenne. Was returned the Barony of Conisbrough, upon the death of Thomas of Lancaster
+}

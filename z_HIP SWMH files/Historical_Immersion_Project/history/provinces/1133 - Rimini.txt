@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1133 - Rimini
+
+# County Title
+title = c_rimini
+
+# Settlements
+max_settlements = 4
+
+b_ghiaggiolo = castle
+b_cesena = temple
+b_rimini = city
+b_sogliano = castle
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = plains
+# History
+
+
+

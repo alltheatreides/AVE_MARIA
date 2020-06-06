@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 610 - Bulgar
+
+# County Title
+title = c_bulgar
+
+# Settlements
+max_settlements = 5
+
+b_bulgar = tribal
+#b_balimer = tribal
+#b_cukataw = city
+#b_tuxcin = tribal
+#b_zainsk = castle
+
+
+# Misc
+culture = bolghar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+923.1.1 = { religion = sunni } 
+923.1.1 = { b_bulgar = castle
+b_cukataw = castle
+b_balimer = city} 
+1100.1.1 = { 
+b_tuxcin = temple }
+1236.9.1 = {
+	remove_settlement = b_bulgar
+	capital = b_cukataw
+}

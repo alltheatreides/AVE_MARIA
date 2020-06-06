@@ -1,0 +1,71 @@
+# -*- ck2.history.titles -*-
+
+846.1.1 = {
+	holder = 1228220
+}
+869.1.1 = {
+	holder = 1228221
+}
+889.1.1 = {
+	holder = 1228858
+}
+930.1.1 = {
+	set_tribute_suzerain = {
+		who = k_africa
+		type = permanent
+	}
+}
+948.1.1 = {
+	holder = 1228859
+}
+969.7.1 = {
+	clear_tribute_suzerain = k_africa
+	set_tribute_suzerain = {
+		who = e_egypt
+		type = permanent
+	}
+}
+979.1.1 = {
+	holder = 1236300
+}
+1003.1.1 = {
+	holder = 1236301
+}
+1035.1.1 = {
+	holder = 1236302
+}
+#1052.1.1 = {
+#	clear_tribute_suzerain = e_egypt
+#}
+1077.1.1 = {
+	holder = 1236457
+}
+1094.1.1 = {
+	holder = 1236458
+}
+1115.1.1 = {
+	holder = 1236459
+}
+1143.1.1 = {
+	holder = 1236460
+}
+1158.1.1 = {
+	holder = 1236461
+}
+1171.1.1 = {
+	clear_tribute_suzerain = e_egypt
+	set_tribute_suzerain = {
+		who = k_egypt
+		type = permanent
+	}
+}
+1204.1.1 = {
+	holder = 1236462
+}
+1234.1.1 = {
+	holder = 1236463
+}
+1250.1.1 = {
+	clear_tribute_suzerain = k_egypt
+	holder = 0
+}

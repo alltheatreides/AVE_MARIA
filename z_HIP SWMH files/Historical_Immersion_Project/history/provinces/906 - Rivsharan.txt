@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 906 - Rivshárán
+
+# County Title
+title = c_rivsharan
+
+# Settlements
+max_settlements = 3
+b_rivsharan = castle
+b_gurzivan = temple
+
+#b_manshan = castle
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+987.1.1 = {	religion = sunni }

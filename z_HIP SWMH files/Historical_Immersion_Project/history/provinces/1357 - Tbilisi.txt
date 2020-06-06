@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1357 - Tbilisi
+
+# County Title
+title = c_tbilisi
+
+# Settlements
+max_settlements = 4
+b_narikala = castle
+b_tbilisi = city
+b_sioni = temple
+b_rustavi = city
+
+# Misc
+culture = georgian
+religion = orthodox
+terrain = plains # pretty flat province, situated between the confluence of two rivers
+
+# History

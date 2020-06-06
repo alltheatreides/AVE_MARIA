@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 991 - Chelm
+
+# County Title
+title = c_chelm
+
+# Settlements
+max_settlements = 4
+
+b_uhrusk = tribal
+b_kholm = temple
+#b_wlodawa = castle
+#b_hrubieszow = castle 
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1001.1.1 = { religion = orthodox }
+1001.1.1 = { b_uhrusk = castle }

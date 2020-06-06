@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Tutush's Claim on Persia War"
+
+casus_belli = {
+	actor = 3044
+	recipient = 144012
+	casus_belli=claim
+	landed_title=e_persia
+	date=1092.11.1
+}
+
+1092.11.1 = {
+	add_attacker = 3044
+	add_defender = 144012
+}
+
+1094.1.1 = {
+	rem_attacker = 3044
+	rem_defender = 144012
+}

@@ -1,0 +1,17 @@
+# -*- ck2.history.provinces -*-
+
+# 595 - Don portage #Terek
+
+# County Title
+title = c_don_portage
+
+# Settlements
+max_settlements = 2
+b_terek = castle
+#b_sunzha = city
+# Misc
+culture = alan
+religion = tengri_pagan
+
+# History
+1050.1.1 = { b_sunzha = city }

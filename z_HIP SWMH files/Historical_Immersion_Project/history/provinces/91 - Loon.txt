@@ -1,0 +1,26 @@
+# 91 - Loon
+
+# County Title
+title = c_loon
+
+# Settlements
+max_settlements = 4
+
+b_loon = castle
+b_tongeren = city
+b_st_truiden = temple 
+
+#b_horn = castle 
+
+#b_hasselt = city
+#b_averbode = temple
+#b_duras = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+1150.1.1 = { culture = dutch }
+#1232.1.1= { b_hasselt = city } 
+1243.1.1= { b_horn = castle } 

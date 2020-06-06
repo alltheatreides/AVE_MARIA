@@ -1,0 +1,758 @@
+# -*- ck2.history.characters -*-
+
+	##################################################
+############ SWMH NEW CHARACTERS #################
+##################################################
+#2nd Range: 1605001-1605500
+
+1228100 = {
+	name="Vistrach"
+	dynasty=1000100850
+	religion="slavic_pagan"
+	culture="bohemian"
+	820.1.1={
+		birth="820.1.1"
+	}
+	855.1.1={
+		death="855.1.1"
+	}
+}
+1228101 = {
+	name="Slavitah"
+	dynasty=1000100850
+	religion="slavic_pagan"
+	culture="bohemian"
+  father=1228100
+	838.1.1={
+		birth="838.1.1"
+	}
+	856.1.1={
+		religion="catholic"
+	}
+	857.1.1 = {
+	employer=187002  # Rostislav of Moravia
+	}
+	857.1.1 = {
+	add_claim=c_zatec
+	}
+	880.1.1={
+		death="880.1.1"
+	}
+}
+1228102 = {
+	name="Vistrach"
+	dynasty=1000100850
+	religion="slavic_pagan"
+	culture="bohemian"
+  father=1228100
+	840.1.1={
+		birth="840.1.1"
+	}
+	885.1.1={
+		death="885.1.1"
+	}
+}
+
+#Slavníkovci
+1228103 = {
+	name="Spytimir" 
+	dynasty=9588
+	religion="catholic"
+	culture="bohemian"
+	father=168360
+	mother=168361
+	953.1.1={
+		birth = yes
+	}
+	
+	995.9.27={
+		death = yes
+	}
+}
+1228104 = {
+	name="Pobreslav" 
+	dynasty=9588
+	religion="catholic"
+	culture="bohemian"
+	father=168360
+	mother=168361
+	955.1.1={
+		birth = yes
+	}
+	
+	995.9.27={
+		death = yes
+	}
+}
+1228105 = {
+	name="Porzej" 
+	dynasty=9588
+	religion="catholic"
+	culture="bohemian"
+	father=168360
+	mother=168361
+	957.1.1={
+		birth = yes
+	}
+	
+	995.9.27={
+		death = yes
+	}
+}
+1228106 = {
+	name="Czaslav" 
+	dynasty=9588
+	religion="catholic"
+	culture="bohemian"
+	father=168360
+	mother=168361
+	959.1.1={
+		birth = yes
+	}
+	
+	995.9.27={
+		death = yes
+	}
+}
+
+#Vršovci
+1228107 = {
+	name="Kochan" #unknown by name - a husband of daughter of Boleslav 
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228110
+	976.1.1={
+		birth = yes
+	}
+	999.1.1={
+		add_spouse = 1228108
+	}
+	1003.2.9={
+		death = yes
+	}
+}
+1228108 = {
+	name="Svatava"  #unknown daughter of Boleslav III.
+	female=yes
+	dynasty=506
+	religion="catholic"
+	culture="bohemian"
+	father=512
+	mother=1228109
+	983.1.1={
+		birth = yes
+	}
+	999.1.1={
+		add_spouse = 1228107
+	}
+	1035.1.1={
+		death = yes
+	}
+}
+1228109 = {
+	name="Svatava"  #unknown wife of Boleslav III.
+	female=yes
+	religion="catholic"
+	culture="bohemian"
+	957.1.1={
+		birth = yes
+	}
+	981.1.1={
+		add_spouse = 512
+	}
+	1022.1.1={
+		death = yes
+	}
+}
+1228110 = {
+	name="Kochan" #fictional 
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=273025
+	950.1.1={
+		birth = yes
+	}
+	999.9.9={
+		death = yes
+	}
+}
+1228111 = {
+	name="Bozej" #in 1014 the leader of Vršovci - at that date a possible Vršovic grandson of Boleslav III was still too young.
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228110
+	980.1.1={
+		birth = yes
+	}
+	1014.9.9={
+		death = yes
+	}
+}
+1228112 = {
+	name="Kochan" #murderer of Jaromír Premyslid 
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228107
+	mother=1228108
+	1002.1.1={
+		birth = yes
+	}
+	1035.11.11={
+		death = yes
+	}
+}
+1228113 = {
+	name="Czaslav" #fictional link between the first Vršovci and those massacred in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228112
+	1033.1.1={
+		birth = yes
+	}
+	1083.11.11={
+		death = yes
+	}
+}
+1228114 = {
+	name="Nemoj" #in 1107 gave large territories to Vyšehrad kapitula
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228112
+	1034.1.1={
+		birth = yes
+	}
+	1107.11.11={
+		death = yes
+	}
+}
+1228115 = {
+	name="Mutina" #1092-1096 and 1101-1108 Litomerice
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228113
+	1059.1.1={
+		birth = yes
+	}
+	1108.10.27={
+		death = yes
+	}
+}
+1228116 = {
+	name="Mutina" #son of Mutina murdered in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228115
+	1083.1.1={
+		birth = yes
+	}
+	1108.10.27={
+		death = { death_reason=death_murder }
+	}
+}
+1228117 = {
+	name="Nemoj" #son of Mutina murdered in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228115
+	1087.1.1={
+		birth = yes
+	}
+	1108.10.27={
+		death = { death_reason=death_murder }
+	}
+}
+1228118 = {
+	name="Vnislav" #murdered in 1108 together with Mutina
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228114
+	1064.1.1={
+		birth = yes
+	}
+	1108.10.27={
+		death = { death_reason=death_murder }
+	}
+}
+1228119 = {
+	name="Damaša" #murdered in 1108 together with Mutina
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228114
+	1066.1.1={
+		birth = yes
+	}
+	1108.10.27={
+		death = { death_reason=death_murder }
+	}
+}
+1228120 = {
+	name="Neuša" #in 1108 was with Mutina, escaped, but was murdered later
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228114
+	1083.1.1={
+		birth = yes
+	}
+	1108.10.28={
+		death = { death_reason=death_murder }
+	}
+}
+1228121 = {
+	name="Bozej"
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228112
+	1036.1.1={
+		birth = yes
+	}
+	1089.11.11={
+		death = yes
+	}
+}
+1228122 = {
+	name="Bozej" #1092-1096 and 1101-1108 Zatec, Murdered in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228121
+	1065.1.1={
+		birth = yes
+	}
+	1108.10.29={
+		death = { death_reason=death_murder }
+	}
+}
+1228123 = {
+	name="Czesta" #Murdered in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228121
+	1066.1.1={
+		birth = yes
+	}
+	1108.10.29={
+		death = { death_reason=death_murder }
+	}
+}
+1228124 = {
+	name="Borzut" #son of Bozej of Zatec, Murdered in 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228122
+	1093.1.1={
+		birth = yes
+	}
+	1108.10.29={
+		death = { death_reason=death_murder }
+	}
+}
+1228125 = {
+	name="Jan" #son of Czesta (Èesta), the only one from Bohemian, who survived the massacre of 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228123
+	1092.1.1={
+		birth = yes
+	}
+	1144.10.10={
+		death = yes
+	}
+}
+#Moravian branch of Vršovci
+1228126 = {
+	name="Hruta" #castellan of Bitov
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228114
+	1065.1.1={
+		birth = yes
+	}
+	1112.10.10={
+		death = yes
+	}
+}
+1228127 = {
+	name="Detrich" #castellan of Bitov 1112-1155
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228126
+	1093.1.1={
+		birth = yes
+	}
+	1155.10.10={
+		death = yes
+	}
+}
+1228128 = {
+	name="Detrich" #castellan of Bitov 1155-1170
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228127
+	1115.1.1={
+		birth = yes
+	}
+	1170.10.10={
+		death = yes
+	}
+}
+1228129 = {
+	name="Hruta" #castellan of Bitov 1170-1192
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228127
+	1122.1.1={
+		birth = yes
+	}
+	1192.10.10={
+		death = yes
+	}
+}
+#descendants of the survivor Jan, governors in Litomerice and Zatec
+1228130 = {
+	name="Nemoj" #fictional son of Jan, who survived the massacre of 1108
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228125
+	1110.1.1={
+		birth = yes
+	}
+	1154.10.10={
+		death = yes
+	}
+}
+1228131 = {
+	name="Nemoj" # Nemoj II. in 1160 castellan of Litomerice, since 1160 also steward
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228130
+	1127.1.1={
+		birth = yes
+	}
+	1190.10.10={
+		death = yes
+	}
+}
+1228132 = {
+	name="Jarohnev" # 1146-77 castellan of Zatec
+	dynasty=10107
+	religion="catholic"
+	culture="bohemian"
+	father=1228130
+	1128.1.1={
+		birth = yes
+	}
+	1177.10.10={
+		death = yes
+	}
+}
+1605001 = {
+	name="Závis" # Zavis of Nechanitz, from the Krumau branch of the Vitkovci family
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605002	
+	1196.1.1={
+		birth=yes
+	}
+	1257.1.1={
+		death=yes
+	}
+}
+1605002 = {
+	name="Vítek" # Vitek/Witigo, from the Krumau branch of the Vitkovci family, son of the progenitor of the Vitek/Witigo
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605003	
+	1168.1.1={
+		birth=yes
+	}
+	1236.1.1={
+		death=yes
+	}
+}
+1605003 = {
+	name="Vítek" # Vitek/Witigo, progenitor of the Vitkovci family, short-lived Burgrave/Castellan of Glatz in 1177, Burgrave/Castellan of Prachen 1184-1194 and amassed extensive possessions in Southern Bohemia that he passed onto his sons
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	1120.1.1={
+		birth=yes
+	}
+	1194.1.1={
+		death=yes
+	}
+}
+1605004 = {
+	name="Vítek" # Vitek/Witigo, from the Rosenberg branch of the Vitkovci family, son of the progenitor of the Vitek/Witigo
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605003	
+	1170.1.1={
+		birth=yes
+	}
+	1256.6.4={
+		death=yes
+	}
+}
+1605005 = {
+	name="Jindrich" # Jindrich/Heinrich, from the Neuhaus branch of the Vitkovci family, son of the progenitor of the Vitek/Witigo
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605003	
+	1171.1.1={
+		birth=yes
+	}
+	1237.1.1={
+		death=yes
+	}
+}
+1605006 = {
+	name="Vok" # Vok von Rosenberg, Lord of Rosenberg in Southern Bohemia and extensive lands around it. Hetman of Steiermark, and Grand Marshall of Bohemia at some point
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605004	
+	1209.1.1={
+		birth=yes
+	}
+	1262.6.3={
+		death=yes
+	}
+}
+1605007 = {
+	name="Vítek" # Vitek/Witigo von Pribenice, Lord of Pribenice
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605004	
+	1212.1.1={
+		birth=yes
+	}
+	1259.1.1={
+		death=yes
+	}
+}
+1605008 = {
+	name="Jindrich" # Jindrich/Heinrich von Rosenberg, Lord of Rosenberg and Oberstkämmerer/High Chamberlain of the King of Bohemia
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605006	
+	1248.1.1={
+		birth=yes
+	}
+	1310.7.4={
+		death=yes
+	}
+}
+1605009 = {
+	name="Vítek" # Vitek/Witigo von Rosenberg, died relatively young
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605006	
+	1255.1.1={
+		birth=yes
+	}
+	1277.9.22={
+		death=yes
+	}
+}
+1605010 = {
+	name="Petr" # Petr/Peter von Rosenberg, Lord of Rosenberg and Oberstkämmerer/High Chamberlain of the King of Bohemia
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605008
+	1291.1.1={
+		birth=yes
+	}
+	1347.10.14={
+		death=yes
+	}
+}
+1605011 = {
+	name="Johanka" # Johanka/Johanna von Rosenberg, married to Benes von Michalovice
+	female=yes
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605008
+	1276.1.1={
+		birth=yes
+	}
+	1317.1.1={
+		death=yes
+	}
+}
+1605012 = {
+	name="Anezka" # Anezka/Agnes von Rosenberg, married to Perholt/Pertold von Leipa
+	female=yes
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605008
+	1283.1.1={
+		birth=yes
+	}
+	1332.1.1={
+		death=yes
+	}
+}
+1605013 = {
+	name="Jindrich" # Jindrich/Heinrich von Rosenberg, pre-deceased his father by 1 year at the Battle of Crecy
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605010
+	1320.1.1={
+		birth=yes
+	}
+	1346.8.26={
+		death=yes
+	}
+}
+1605014 = {
+	name="Vítek" # Vitek/Witigo, from the Neuhaus branch of the Vitkovci family, shortlived Burgrave/Castellan of Olmütz between 1247-1249
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605005	
+	1218.1.1={
+		birth=yes
+	}
+	1259.1.1={
+		death=yes
+	}
+}
+1605015 = {
+	name="Ludmila" # Ludmila, from the Neuhaus branch of the Vitkovci family, married Markwart von Hradek
+	female=yes
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605014	
+	1237.1.1={
+		birth=yes
+	}
+	1268.1.1={
+		death=yes
+	}
+}
+1605016 = {
+	name="Oldrich" # Oldrich/Ulrich, from the Neuhaus branch of the Vitkovci family, Lord of Hradec/Neuhaus and royal Chamberlain between 1263-1270
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605014	
+	1245.1.1={
+		birth=yes
+	}
+	1283.1.1={
+		death=yes
+	}
+}
+1605017 = {
+	name="Detrich" # Detrich/Dietrich, from the Neuhaus branch of the Vitkovci family, Bishop of Olmütz 1281-1302
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605014	
+	1250.1.1={
+		birth=yes
+	}
+	1302.10.10={
+		death=yes
+	}
+}
+1605018 = {
+	name="Oldrich" # Oldrich/Ulrich, from the Neuhaus branch of the Vitkovci family, Burgrave/Castellan of Znojmo 1284-1312
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605016	
+	1266.1.1={
+		birth=yes
+	}
+	1312.1.1={
+		death=yes
+	}
+}
+1605019 = {
+	name="Oldrich" # Oldrich/Ulrich, from the Neuhaus branch of the Vitkovci family, Lord of Hradec/Neuhaus, married to Margaretha von Kärnten
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605018
+	1299.1.1={
+		birth=yes
+	}
+	1349.1.1={
+		death=yes
+	}
+}
+1605020 = {
+	name="Katerina" # Katerina, from the Neuhaus branch of the Vitkovci family, married Heinrich von Kuenring
+	female=yes
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605016	
+	1264.1.1={
+		birth=yes
+	}
+	1301.1.1={
+		death=yes
+	}
+}
+1605021 = {
+	name="Jindrich" # Jindrich/Heinrich, from the Neuhaus branch of the Vitkovci family, Lord of Hradec/Neuhaus, married to Margaretha von Hals
+	dynasty=10106
+	religion="catholic"
+	culture="bohemian"
+	father=1605019
+	1327.1.1={
+		birth=yes
+	}
+	1363.7.15={
+		death=yes
+	}
+}
+1605022 = {
+	name="Oldrich" # Oldrich/Ulrich von Rosenberg, Lord of Rosenberg
+	dynasty=12473
+	religion="catholic"
+	culture="bohemian"
+	father=1605010
+	1324.1.1={
+		birth=yes
+	}
+	1390.3.4={
+		death=yes
+	}
+}

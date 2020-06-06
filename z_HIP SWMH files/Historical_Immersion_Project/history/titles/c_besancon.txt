@@ -1,0 +1,74 @@
+# -*- ck2.history.titles -*-
+
+# Archevêché puis ville libre.
+842.1.1 = {
+	liege = k_lotharingia
+}
+888.1.1 = {
+	liege = k_burgundy
+}
+915.1.1 = {
+	holder = 1226553 # Alberic/Aubry de Macon, Count of Macon and Besancon
+}
+943.1.1 = {
+	holder = 1226554 # Lietald de Macon, Count of Macon and Besancon
+}
+966.1.1 = {
+	holder = 1226555 # Alberic/Aubry de Macon, Count of Macon and Besancon
+}
+982.1.1 = {
+	liege = d_upper_burgundy
+	holder = 272 # Otte-Guillaume de Bourgogne
+}
+1026.1.1 = {
+	holder = 276 # Renaud I de Bourgogne
+}
+##Maison de Rougemont
+1047.1.1 = {
+	holder = 1066535 # Humbert/Hubald de Rougemont, vicomte de Besançon
+}
+1092.1.1 = {
+	holder = 1066535 # Étienne de Rougemont, vicomte de Besançon
+}
+1116.1.1 = {
+	holder = 1066537 # Thiébaud I de Rougemont, vicomte de Besançon
+}
+1149.1.1 = {
+	holder = 1066539 # Thiébaud II de Rougemont, vicomte de Besançon
+}
+1174.1.1 = {
+	holder = 1066542 # Humbert II de Rougemont, vicomte de Besançon
+}
+1223.1.1 = {
+	holder = 1066544 # Thiébaud III de Rougemont, vicomte de Besançon
+}
+1229.1.1 = {
+	holder = 1066547 # Humbert III de Rougemont, vicomte de Besançon
+}
+1247.1.1 = {
+	holder = 1066552 # Thiébaud IV de Rougemont, vicomte de Besançon
+}
+##Maison de Monferrand 
+1268.1.1 = {
+	holder = 1066567 # Pierre de Montferrand, vicomte de Besançon sometime between 1260/1268 - 1277
+}
+1277.1.1 = {
+	holder = 1066568 # Eudes de Montferrand, vicomte de Besançon 1277-1293 
+}
+##Maison de Cuiseaux
+1293.1.1 = {
+	holder = 1066572 # Humbert de Cuiseaux-Clairvaux, vicomte de Besançon 1293-1295
+}
+##Maison de Chalon-Arlay
+1295.1.1 = {
+	holder = 1066625 # Jean I de Chalon-Arlay, vicomte de Besançon(since 1295)
+}
+1315.8.1 = {
+	holder = 1066627 # Hugues I de Chalon-Arlay, vicomte de Besançon
+} 
+1322.12.4 = {
+	holder = 1066628 # Jean II de Chalon-Arlay, vicomte de Besançon
+} 
+1362.2.25 = {
+	holder = 1066629 # Hugues II de Chalon-Arlay, vicomte de Besançon
+} 

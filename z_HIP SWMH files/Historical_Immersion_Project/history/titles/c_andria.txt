@@ -1,0 +1,115 @@
+# -*- ck2.history.titles -*-
+
+857.1.1 = {
+	de_jure_liege = d_apulia
+	holder = 163094
+}
+934.1.1 = {
+	liege = "d_apulia"
+	holder = 1500514 # Kosmas the Patrikios, sent to Italy with a fleet of reinforcements in 934
+}
+955.1.1 = {
+	holder = 145162 # Marianos Argyros
+}
+963.8.16 = {
+	holder = 1500499 # Nikephoros Hexakionites
+}
+970.1.1 = {
+	holder = 1500500 # Michael Abidelas
+}
+982.1.1 = {
+	holder = 1500501 # Kalokyros Delphinas
+}
+988.1.1 = {
+	holder = 1500477
+}
+998.1.1 = {
+	holder = 1232166
+}
+1006.1.1 = {
+	holder = 1167124
+}
+1009.1.1 = { # Melus starts the Rebellion
+	liege = 0
+}
+1011.6.11 = { # Bari is retaken and Melus flees to Salerno
+	liege = d_apulia
+	holder = 1500374
+}
+1017.1.1 = { # Short-lived reconquest by Melus, thanks to Norman Mercenaries
+	liege = 0
+	holder = 1167124
+}
+1018.8.1 = {
+	liege = d_apulia
+	holder = 1232334
+}
+1029.1.1 = {
+	holder = 1232153
+}
+1033.1.1 = {
+	holder = 1232340
+}
+1039.1.1 = {
+	holder = 20504
+}
+1041.1.1 = {
+	holder = 1232335
+}
+1042.1.1 = {
+	holder = 1232274
+}
+1043.3.1 = {
+	holder = 1232337
+}
+1044.1.1 = {
+	holder = 1232336
+}
+1046.1.1 = {
+	liege = d_norman_apulia
+	holder = 1091146 # Pietro II di Trani, conte di Trani
+}
+1059.1.1 = {
+	liege = d_apulia
+}
+1063.1.1 = {
+	holder = 1091149 # Riccardo I di Trani, conte di Andria
+}
+1077.12.18 = {
+	de_jure_liege = d_bari
+}
+1090.1.1 = {
+	holder = 1063642 # Goffredo II di Trani, conte di Andria
+}
+1131.1.1 = {
+	holder = 1063643 # Ricchard de Lingevrès, conte di Andria ?-1155
+}
+1166.1.1 = {
+	holder = 1226540 # Bertrand II du Perche, conte di Andria 1166-1168
+}
+1168.1.1 = {
+	holder = 1063644 # Ruggero di Trani( de Lingevrès), conte di Andria 1168-1190
+}
+1190.1.1 = {
+	holder = 1063645 # Roberto di Calagio( de Lingevrès), conte di Andria 1190-1201/1202
+}
+1201.1.1 = {
+	holder = 1063646 # Giacomo di Andria, conte di Andria 1201/1202-?
+}
+### to the crown
+1266.2.26 = {
+	holder = 455406 # Charles I d'Anjou
+}
+1285.1.7 = {
+	holder = 461710 # Charles II
+}
+1290.1.1 = {
+	holder = 1063628 #Raimond Berengar di Anjou, conte di Andria, Gravina e Monte sant Angelo
+}
+1307.10.1 = {
+	holder = 70681 # Beatrix di Anjou
+}
+1309.1.1 = {
+	holder = 1063635 # Bertrand III del Blazo, conte di Andria e Montescagolioso
+}
+

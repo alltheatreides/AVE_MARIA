@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1333 - Burzenland
+
+# County Title
+title = c_burzenland
+
+# Settlements
+max_settlements = 3
+b_torcsvar = tribal
+#b_brasso = city
+#b_feketehalom = temple
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+
+1020.1.1 = { b_torcsvar = castle }
+1190.1.1 = { b_brasso = city } 
+1190.1.1 = { culture = low_german} 
+1190.1.1 = { religion = catholic} 
+1265.1.1 = { b_feketehalom = temple} 

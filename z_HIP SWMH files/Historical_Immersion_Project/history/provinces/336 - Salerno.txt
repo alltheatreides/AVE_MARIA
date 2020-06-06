@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 336 - Salerno # Principato
+
+# County Title
+title = c_salerno
+
+# Settlements
+max_settlements = 5
+
+b_eboli = castle
+b_capaccio = city
+#b_camerota = castle
+b_salerno = temple
+#b_cavea = temple
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = forest
+
+# History
+1014.1.1={ b_cavea = temple }
+1097.1.1={ culture = neapolitan }
+1116.1.1={ b_camerota = castle }
+1116.1.1 = { trade_post = b_alliata }
+1285.1.1  = { trade_post = b_spinola }

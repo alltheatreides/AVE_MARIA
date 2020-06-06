@@ -1,0 +1,26 @@
+# 447 - Passau
+
+# County Title
+title = c_passau
+
+# Settlements
+max_settlements = 5
+
+b_formbach = castle
+b_passau = temple
+b_scharding = city
+b_niederaltaich = temple
+
+#b_hals = castle 
+
+#b_vilshofen = city 
+#b_seiboldsdorf = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1072.1.1 = { b_hals = castle }
+1170.1.1 = { culture = german }
+

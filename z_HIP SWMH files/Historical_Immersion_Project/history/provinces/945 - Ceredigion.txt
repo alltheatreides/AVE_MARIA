@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 945 - Ceredigion
+
+# County Title
+title = c_ceredigion
+
+# Settlements
+max_settlements = 3
+b_aberystwyth = tribal
+#b_llanddewi_brefi = temple
+#b_aberteifi = city
+
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+
+909.1.1 = {
+	b_aberystwyth = castle
+}
+1130.1.1 = {
+	b_llanddewi_brefi = temple
+}

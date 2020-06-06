@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 563 - Lower Don # Orel
+
+# County Title
+title = c_lower_don
+
+# Settlements
+max_settlements = 3
+
+b_poltava = tribal
+#b_omel_niki = city
+#b_zmiiv = castle
+
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+
+# History
+893.1.1 = { culture = pecheneg }
+1044.1.1 = { culture = cuman }
+1227.1.1 = { religion = sunni } 
+1238.1.1 = { culture = mongol } 

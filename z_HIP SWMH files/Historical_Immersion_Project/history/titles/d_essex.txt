@@ -1,0 +1,68 @@
+# -*- ck2.history.titles -*-
+
+# Eastseaxe
+560.1.1 = {
+	holder = 194095 # Ascwine, fist king, area probably under dominion of Kent beforehand
+}
+587.1.1 = {
+	holder = 194096 # Sledda
+}
+604.1.1 = {
+	holder = 194097 # Saeberht
+}
+615.1.1 = {
+	holder = 194098 # Seaxred
+}
+616.1.1 = {
+	holder = 194099 # Saeweard was joint king
+}
+617.1.1 = {
+	holder = 194100 # Sigeberht Parvus
+}
+653.1.1 = {
+	holder = 194101 # Sigeberht II Sanctus
+}
+660.1.1 = {
+	holder = 194102 # Swithhelm
+}
+664.1.1 = {
+	holder = 194103 # Sighere
+}
+683.1.1 = {
+	holder = 205256 # Sebbi
+}
+694.1.1 = {
+	holder = 205257 # Sigheard
+}
+700.1.1 = {
+	holder = 205258 # Swafraed
+}
+708.1.1 = {
+	holder = 205259 # Offa not the famous one
+}
+709.1.1 = {
+	holder = 205262 # Saelraed, descendant of Sigeberhrt
+}
+746.1.1 = {
+	holder = 205263 # Swithraed, grandson of Sigeheard
+}
+758.1.1 = {
+	holder = 205265 # Sigeric
+}
+798.1.1 = {
+	holder = 205266 # Sigeraed
+}
+825.1.1 = {
+	holder = 0 # Essex absorbed by Wessex
+	de_jure_liege = k_wessex	
+}
+927.7.12 = {
+	de_jure_liege = k_england
+}
+962.1.1 = {
+	liege = k_england
+	holder = 1226367 # Byrhtnoth, Earldorman of Essex ?-991.
+}
+991.8.10 = {
+	holder = 0 #
+}

@@ -1,0 +1,191 @@
+# -*- ck2.history.characters -*-
+
+#217201 = {
+#	name = Axushfarn
+#	dynasty = 1051115 # Khwatawch
+#	religion = manichean
+#	culture = sogdian
+#	817.3.27 = {
+#		birth = yes
+#	}
+#	833.4.12 = {
+#		add_spouse = 217202
+#	}
+#	865.2.17 = {
+#		death = yes
+#	}
+#}
+#217202 = {
+#	name = Golshan
+#	religion = manichean
+#	culture = sogdian
+#	female = yes
+#	812.8.14 = {
+#		birth = yes
+#	}
+#	885.4.9 = {
+#		death = yes
+#	}
+#}
+#217204 = {
+#	name = Donya
+#	dynasty = 1051115 # Kwatawch
+#	religion = manichean
+#	culture = sogdian
+#	father = 217201
+#	mother = 217202
+#	female = yes
+#	839.11.27 = {
+#		birth = yes
+#	}
+#	904.4.7 = {
+#		death = yes
+#	}
+#}
+
+217314 = {
+	name = Bindu
+	dynasty = 1000102102 # Khuda
+	religion = zoroastrian
+	culture = sogdian
+	
+	645.7.21 = {
+		birth = yes
+	}
+	681.5.10 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+217315 = {
+	name = Tughshada
+	dynasty = 1000102102 # Khuda
+	religion = zoroastrian
+	culture = sogdian
+	father = 217314
+	681.2.15 = {
+		birth = yes
+	}
+	739.6.4 = {
+		death = { 
+			death_reason = death_murder
+		}
+	}
+}
+217316 = {
+	name = Qutayba
+	dynasty = 1000102102 # Khuda
+	religion = zoroastrian
+	culture = sogdian
+	father = 217315
+	722.7.17 = {
+		birth = yes
+	}
+	750.8.21 = {
+		death = { death_reason = death_murder }
+	}
+}
+217317 = {
+	name = Sukan
+	dynasty = 1000102102 # Khuda
+	religion = zoroastrian
+	culture = sogdian
+	father = 217315
+	727.10.4 = { 
+		birth = yes
+	}
+	757.3.12 = {
+		death = { death_reason = death_murder }
+	}
+}
+217318 = {
+	name = Bunyat
+	dynasty = 1000102102 # Khuda
+	religion = zoroastrian
+	culture = sogdian
+	father = 217315
+	730.5.4 = {
+		birth = yes
+	}
+	783.5.25 = {
+		death = { death_reason = death_murder }
+	}
+}
+217319 = {
+	name = Khunuk
+	dynasty = 1051144 # Bukhar
+	religion = zoroastrian
+	culture = sogdian
+	
+	679.5.14 = { birth = yes }
+	710.4.17 = {
+		death = { 
+			death_reason = death_execution
+			killer = 217320
+		}
+	}
+}
+
+217328 = {
+	name = Farn # fictional son of Bunyat
+	dynasty = 1000102102
+	religion = zoroastrian
+	culture = sogdian
+	father = 217318
+	
+	776.4.15 = {
+		birth = yes
+	}
+	835.1.17 = {
+		death = yes
+	}
+}
+217329 = {
+	name = Aspandhat # fictional grandson of Bunyat
+	dynasty = 1000102102
+	religion = zoroastrian
+	culture = sogdian
+	father = 217328
+	
+	817.7.3 = {
+		birth = yes
+	}
+	842.11.15 = {
+		death = yes
+	}
+}
+217330 = {
+	name = Kanakk # fictional grand-grandson of Bunyat
+	dynasty = 1000102102
+	religion = sunni
+	culture = sogdian
+	father = 217329
+	trait="sympathy_zoroastrianism"
+	
+	835.10.17 = {
+		birth = yes
+	}
+	891.2.15 = {
+		death = yes
+	}
+}
+217331 = {
+	name = Darya # fictional grand-granddaughter of Bunyat
+	dynasty = 1000102102
+	female = yes
+	religion = sunni
+	culture = sogdian
+	father = 217329
+	trait="sympathy_zoroastrianism"
+	
+	841.10.19 = {
+		birth = yes
+	}
+	887.5.9 = {
+		death = yes
+	}
+}
+
+#Rulers of Khotan, Kashgar, and Yarkand to saka.txt
+

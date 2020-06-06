@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 9 - Connacht 
+
+# County Title
+title = c_connacht
+
+# Settlements
+max_settlements = 5
+
+b_tuam = tribal
+b_galway = city
+#b_lisnatreanduff = tribal
+#b_mayo = temple
+#b_shrule = castle
+
+#b_killala = temple
+#b_castlebar = castle
+
+
+# Misc
+culture = irish
+religion = catholic
+terrain = hills
+
+# History
+
+#818.1.1 = { remove_settlement = b_mayo } #Turgeis 
+1185.1.1 = { b_shrule = castle } # De Borgo

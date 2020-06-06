@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1096 - Sarir
+
+# County Title
+title = c_sarir
+
+# Settlements
+ max_settlements = 3
+b_arkas = castle
+b_humraj = temple
+#b_khunzakh = castle
+
+
+# Misc
+culture = caucasian_avar
+religion = tengri_pagan
+
+# History
+740.1.1 = { religion = orthodox }
+1260.1.1 = { b_khunzakh = city } #was tribal
+1260.1.1 = { religion = sunni }

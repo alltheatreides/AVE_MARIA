@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 483 - Rhodos
+
+# County Title
+title = c_rhodos
+
+# Settlements
+max_settlements = 3
+
+b_rhodos = castle
+b_kos = temple
+
+#b_lindos = castle
+#b_karpathos = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+1166.1.1 = { trade_post = b_morosini }
+
+
+#The Knights Hospitaler take over Rhodos
+
+#1309.1.1 = { religion = catholic }
+#1309.1.1 = { b_lindos = castle }

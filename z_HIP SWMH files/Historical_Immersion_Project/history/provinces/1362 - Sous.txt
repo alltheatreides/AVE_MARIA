@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1362 - Sous
+
+# County Title
+title = c_sous
+
+# Settlements
+max_settlements = 3
+b_thineghir = castle
+#b_alnif = temple
+b_ansa = city
+
+#b_ouarzazate = city
+
+# Misc
+culture = tagelmust
+religion = ibadi
+
+# History
+990.1.1 = { culture = masmuda }
+1030.1.1 = { religion = sunni }
+#1056.1.1 = { b_thineghir = tribal }
+1140.1.1 = { religion = mahdiyya }
+1260.1.1 = { religion = sunni }

@@ -1,0 +1,23 @@
+# 1045 - Vesoul
+
+# County Title
+title = c_vesoul
+
+# Settlements
+max_settlements = 5
+
+b_faucogney = castle
+b_vesoul = city
+b_luxeuil = temple
+#b_montsaugeon = castle
+#b_baume = temple
+#b_lure = temple
+#b_cherlieu = temple
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1040.1.1 = { b_montsaugeon = castle  }

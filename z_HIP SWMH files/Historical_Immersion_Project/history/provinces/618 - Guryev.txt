@@ -1,0 +1,42 @@
+# -*- ck2.history.provinces -*-
+
+# 618 - Guryev # Saray-Jük
+
+# County Title
+title = c_guryev
+
+# Settlements
+max_settlements = 3
+
+b_little_sarai_aqtobe = tribal
+#b_little_sarai = city
+#b_atyrau = castle
+
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+
+825.1.1 = { culture = pecheneg }
+825.1.1 = { religion = manichean }
+893.1.1 = { culture = oghuz }
+893.1.1 = { religion = tengri_pagan }
+#850.1.1 = {
+#	b_atyrau = ca_town_1
+#	b_atyrau = ca_militia_barracks_1
+#	b_atyrau = ca_steppe_barracks_1
+#	b_atyrau = ca_keep_1
+#	b_atyrau = ca_wall_1
+#	b_atyrau = ca_steppe_stable_1
+#}
+1030.1.1 = { culture = cuman } 
+#1030.1.1 = { religion = tengri_pagan } 
+1100.1.1 = { religion = sunni } 
+
+1227.1.1 = { culture = mongol } 
+1240.1.1 = { b_little_sarai = city }
+
+
+

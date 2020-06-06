@@ -1,0 +1,718 @@
+# -*- ck2.mercenaries -*-
+
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+# Each company should have 1000 maintenance in troops (camel cavalry counts as 2, not 3), and then levy_size to create different sizes
+
+
+papal_guard_composition = {
+	levy_size = 10
+	pikemen = 207
+	knights = 124
+	archers = 60
+}
+
+knights_templar_composition = {
+	levy_size = 5
+	heavy_infantry = 209
+	knights = 108
+	archers = 100
+}
+
+teutonic_order_composition = {
+	levy_size = 5
+	heavy_infantry = 300
+	knights = 43
+	archers = 152
+}
+
+livonian_order_composition = {
+	levy_size = 5
+	heavy_infantry = 250
+	knights = 83
+	archers = 112
+}
+
+knights_hospitaler_composition = {
+	levy_size = 5
+	heavy_infantry = 209
+	knights = 108
+	archers = 100
+	galleys = 5
+}
+
+hashshashin_composition = {
+	levy_size = 5
+	light_infantry = 300
+	light_cavalry = 350
+}
+
+bektashi_composition = {
+	levy_size = 8
+	archers = 200
+	light_infantry = 300
+	camel_cavalry = 200
+	galleys = 4
+}
+
+jomsvikings_composition = {
+	levy_size = 11
+	heavy_infantry = 500
+}
+
+immortals_composition = {
+	levy_size = 11
+	light_cavalry = 250
+	horse_archers = 250
+}
+
+zealots_composition = {
+	levy_size = 11
+	heavy_infantry = 500
+}
+
+holy_sepulchre_composition = {
+	levy_size = 17
+	knights = 200
+	horse_archers = 100
+}
+
+saint_anthony_composition = {
+	levy_size = 11
+	light_cavalry = 200
+	knights = 150
+}
+
+saint_addai_composition = {
+	levy_size = 11
+	light_cavalry = 250
+	horse_archers = 250
+}
+
+sky_lords_composition = {
+	levy_size = 11
+	horse_archers = 450
+	light_cavalry = 150
+}
+
+spirit_guardians_composition = {
+	levy_size = 11
+	light_infantry = 550
+	archers = 300
+}
+
+warriors_perun_composition = {
+	levy_size = 11
+	knights = 250
+}
+
+chosen_perkunas_composition = {
+	levy_size = 28
+	heavy_infantry = 310
+	light_infantry = 155
+	archers = 150
+}
+
+sons_kaleva_composition = {
+	levy_size = 11
+	light_infantry = 1000
+}
+
+huitzilopochtli_composition = {
+	levy_size = 11
+	heavy_infantry = 500
+}
+
+knights_santiago_composition = {
+	levy_size = 2
+	knights = 200
+	light_cavalry = 100
+}
+
+knights_calatrava_composition = {
+	levy_size = 2
+	knights = 200
+	light_cavalry = 100
+}
+
+followers_arjuna_composition = {
+	levy_size = 11
+	war_elephants = 20
+	archers = 400
+}
+
+ashokas_chosen_composition = {
+	levy_size = 11
+	war_elephants = 20
+	archers = 400
+}
+
+dralhas_children_composition = {
+	levy_size = 13
+	heavy_infantry = 265
+	light_infantry = 116
+	archers = 116
+	war_elephants = 9
+}
+
+bulls_rishabha_composition = {
+	levy_size = 11
+	war_elephants = 20
+	archers = 400
+}
+
+zun_warriors_composition = {
+	levy_size = 19
+	heavy_infantry = 250
+	light_cavalry = 250
+}
+
+myrmidons_composition = {
+	levy_size = 16
+	light_infantry = 110
+	heavy_infantry = 445
+}
+
+muslim_turkic_company_composition = {
+	levy_size = 3
+	horse_archers = 250
+	light_cavalry = 250
+}
+
+muslim_cuman_company_composition = {
+	levy_size = 3
+	horse_archers = 350
+	light_cavalry = 150
+}
+
+berber_company_composition = {
+	levy_size = 3
+	camel_cavalry = 250
+	light_cavalry = 250
+}
+
+bedouin_company_composition = {
+	levy_size = 3
+	camel_cavalry = 500
+}
+
+victual_brothers_composition = {
+	levy_size = 5
+	heavy_infantry = 500
+	galleys = 3
+}
+
+white_company_composition = {
+	levy_size = 5
+	archers = 200
+	heavy_infantry = 350
+}
+
+great_company_composition = {
+	levy_size = 5
+	knights = 250
+}
+
+company_of_st_george_composition = {
+	levy_size = 4
+	light_cavalry = 200
+	knights = 150
+}
+
+star_company_composition = {
+	levy_size = 4
+	light_cavalry = 200
+	knights = 150
+}
+
+little_hat_company_composition = {
+	levy_size = 4
+	light_cavalry = 200
+	knights = 150
+}
+
+rose_company_composition = {
+	levy_size = 3
+	light_cavalry = 200
+	knights = 150
+}
+
+catalan_company_composition = {
+	levy_size = 4
+	light_infantry = 1000
+}
+
+navarrese_company_composition = {
+	levy_size = 4
+	light_cavalry = 500
+}
+
+swiss_company_composition = {
+	levy_size = 3
+	pikemen = 500
+}
+
+breton_company_composition = {
+	levy_size = 3
+	archers = 200
+	heavy_infantry = 350
+}
+
+lombard_band_composition = {
+	levy_size = 1
+	knights = 200
+	light_cavalry = 100
+}
+
+swiss_band_composition = {
+	levy_size = 1
+	pikemen = 500
+}
+
+breton_band_composition = {
+	levy_size = 1
+	archers = 200
+	heavy_infantry = 350
+}
+
+catalan_band_composition = {
+	levy_size = 1
+	light_infantry = 1000
+}
+
+saxon_band_composition = {
+	levy_size = 1
+	heavy_infantry = 500
+}
+
+varangian_guard_composition = {
+	levy_size = 2
+	heavy_infantry = 500
+}
+
+scholae_palatinae_composition = {
+	levy_size = 3
+	knights = 218
+	horse_archers = 64
+}
+
+mamluks_composition = {
+	levy_size = 2
+	light_cavalry = 250
+	horse_archers = 200
+	knights = 50
+}
+
+ghilman_composition = {
+	levy_size = 2
+	light_cavalry = 500
+}
+
+cuman_company_composition = {
+	levy_size = 5
+	horse_archers = 350
+	light_cavalry = 150
+}
+
+rus_company_composition = {
+	levy_size = 4
+	knights = 150
+	horse_archers = 200
+}
+
+pecheneg_company_composition = {
+	levy_size = 3
+	light_cavalry = 250
+	horse_archers = 250
+}
+
+turkic_company_composition = {
+	levy_size = 3
+	light_cavalry = 250
+	horse_archers = 250
+}
+
+bulgarian_company_composition = {
+	levy_size = 2
+	heavy_infantry = 500
+}
+
+rus_band_composition = {
+	levy_size = 1.5
+	knights = 150
+	horse_archers = 200
+}
+
+finnish_band_composition = {
+	levy_size = 1.0
+	light_infantry = 1000
+}
+
+lappish_band_composition = {
+	levy_size = 1.0
+	light_infantry = 1000
+}
+
+lithuanian_band_composition = {
+	levy_size = 1.0
+	heavy_infantry = 500
+}
+
+abyssinian_band_composition = {
+	levy_size = 1.5
+	archers = 300
+	light_infantry = 550
+}
+
+nubian_band_composition = {
+	levy_size = 1.5
+	archers = 300
+	light_infantry = 550
+}
+
+ghanan_band_composition = {
+	levy_size = 1.5
+	archers = 300
+	light_infantry = 550
+}
+
+scottish_band_composition = {
+	levy_size = 1.5
+	pikemen = 500
+}
+
+irish_band_composition = {
+	levy_size = 1.0
+	heavy_infantry = 500
+}
+
+alan_band_composition = {
+	levy_size = 1.5
+	horse_archers = 450
+	light_cavalry = 50
+}
+
+cuman_band_composition = {
+	levy_size = 1.5
+	horse_archers = 450
+	light_cavalry = 50
+}
+
+pecheneg_band_composition = {
+	levy_size = 1.5
+	horse_archers = 450
+	light_cavalry = 50
+}
+
+turkic_band_composition = {
+	levy_size = 1
+	horse_archers = 450
+	light_cavalry = 50
+}
+
+bulgarian_band_composition = {
+	levy_size = 1
+	heavy_infantry = 500
+}
+
+naval_merc_composition = {
+	levy_size = 4
+	galleys = 10
+}
+
+tamil_band_composition = {
+	levy_size = 1.3
+	light_infantry = 315
+	light_cavalry = 80
+	archers = 150
+	war_elephants = 15
+}
+
+marathi_company_composition = {
+	levy_size = 4
+	light_infantry = 296
+	heavy_infantry = 148
+	light_cavalry = 74
+	archers = 80
+	war_elephants = 7
+}
+
+marathi_band_composition = {
+	levy_size = 1.5
+	light_infantry = 296
+	heavy_infantry = 148
+	light_cavalry = 74
+	archers = 80
+	war_elephants = 7
+}
+
+bengal_company_composition = {
+	levy_size = 4
+	light_infantry = 202
+	heavy_infantry = 138
+	light_cavalry = 70
+	archers = 68
+	war_elephants = 14
+}
+
+bengal_band_composition = {
+	levy_size = 1.5
+	light_infantry = 202
+	heavy_infantry = 138
+	light_cavalry = 70
+	archers = 68
+	war_elephants = 14
+}
+
+rajput_company_composition = {
+	levy_size = 4
+	light_infantry = 203
+	heavy_infantry = 138
+	light_cavalry = 138
+	archers = 70
+	war_elephants = 7
+}
+
+rajput_band_composition = {
+	levy_size = 1.5
+	light_infantry = 203
+	heavy_infantry = 138
+	light_cavalry = 138
+	archers = 70
+	war_elephants = 7
+}
+
+mercenary_princess_composition = {
+	levy_size = 18.2
+	archers = 120
+	heavy_infantry = 159
+	light_infantry = 132
+	light_cavalry = 132
+	pikemen = 53
+	galleys = 11
+}
+
+# Chinese Mercs
+han_massive_composition = {
+	levy_size = 10
+	heavy_infantry = 130
+	pikemen = 130
+	archers = 144
+	light_cavalry = 102
+	knights = 15
+}
+
+han_large_composition = {
+	levy_size = 7
+	archers = 114
+	light_infantry = 85
+	heavy_infantry = 175
+	pikemen = 175
+	knights = 11
+}
+
+han_mid_composition = {
+	levy_size = 4
+	light_infantry = 234
+	heavy_infantry = 94
+	pikemen = 94
+	light_cavalry = 78
+	archers = 156
+}
+
+han_mid_low_composition = {
+	levy_size = 2.7
+	light_infantry = 186
+	heavy_infantry = 148
+	pikemen = 74
+	light_cavalry = 74
+	archers = 148
+}
+
+outlaws_of_the_marsh = {
+	levy_size = 2.4
+	light_infantry = 250
+	heavy_infantry = 250
+	pikemen = 125
+}
+
+han_low_composition = {
+	levy_size = 1
+	light_infantry = 232
+	heavy_infantry = 93
+	pikemen = 93
+	light_cavalry = 93
+	archers = 140
+}
+
+han_tiny_composition_1 = {
+	levy_size = 0.9
+	archers = 280
+	light_infantry = 400
+	pikemen = 90
+}
+
+han_tiny_composition_2 = {
+	levy_size = 0.8
+	archers = 270
+	light_infantry = 395
+	heavy_infantry = 50
+	pikemen = 50
+}
+
+tangut_low_composition = {
+	levy_size = 1
+	light_infantry = 275
+	light_cavalry = 250
+	archers = 150
+}
+
+bodpa_low_composition = {
+	levy_size = 1.1
+	light_infantry = 180
+	heavy_infantry = 90
+	light_cavalry = 185
+	archers = 180
+}
+
+jurchen_band_composition = {
+	levy_size = 1.5
+	horse_archers = 333
+	light_cavalry = 167
+}
+
+treasure_fleet_composition = {
+	levy_size = 5
+	archers = 144
+	heavy_infantry = 148
+	pikemen = 148
+	light_infantry = 192
+	galleys = 40
+}
+
+persian_caravan_guards_composition = {
+	levy_size = 3
+	light_cavalry = 300
+	horse_archers = 200
+}
+
+silk_road_sentinels_composition = {
+	levy_size = 3
+	light_infantry = 200
+	heavy_infantry = 125
+	light_cavalry = 225
+	knights = 25
+}
+
+turkic_guards_composition = {
+	levy_size = 3
+	light_cavalry = 300
+	horse_archers = 200
+}
+
+sardinian_company_composition = {
+	levy_size = 2.3
+	archers = 172
+	pikemen = 86
+	heavy_infantry = 259
+	knights = 13
+}
+
+sardinian_band_composition = {
+	levy_size = 1.3
+	archers = 152
+	pikemen = 115
+	heavy_infantry = 230
+	light_cavalry = 41
+}
+
+### African
+african_massive_composition = {
+	levy_size = 10
+	heavy_infantry = 133
+	pikemen = 127
+	archers = 124
+	light_cavalry = 109
+	knights = 19
+}
+
+african_large_composition = {
+	levy_size = 6
+	archers = 40
+	light_infantry = 20
+	heavy_infantry = 20
+	pikemen = 195
+	light_cavalry = 205
+	knights = 20
+}
+
+african_mid_composition = {
+	levy_size = 4
+	archers = 152
+	light_infantry = 244
+	heavy_infantry = 115
+	pikemen = 92
+	light_cavalry = 57
+}
+
+african_mid_low_1_composition = {
+	levy_size = 3
+	light_infantry = 180
+	heavy_infantry = 145
+	pikemen = 75
+	light_cavalry = 55
+	archers = 180
+}
+
+african_mid_low_2_composition = {
+	levy_size = 3
+	light_infantry = 182
+	heavy_infantry = 145
+	pikemen = 75
+	light_cavalry = 75
+	archers = 152
+}
+
+african_low_composition = {
+	levy_size = 0.9
+	light_infantry = 232
+	heavy_infantry = 93
+	pikemen = 93
+	light_cavalry = 93
+	archers = 140
+}
+
+african_tiny_composition_1 = {
+	levy_size = 0.9
+	archers = 286
+	light_infantry = 395
+	pikemen = 88
+}
+### 
+
+
+## Must exist or else dynamic mercenary band might fail for nomads!
+default_culture_band_composition = {
+	levy_size = 1
+	light_infantry = 100
+}
+
+altaic_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 60
+	horse_archers = 40
+}
+
+magyar_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 70
+	horse_archers = 30
+}
+
+alan_culture_band_composition = {
+	levy_size = 1
+	light_cavalry = 70
+	horse_archers = 30
+}
+

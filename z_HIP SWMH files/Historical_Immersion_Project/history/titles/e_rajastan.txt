@@ -1,0 +1,99 @@
+# -*- ck2.history.titles -*-
+
+733.8.14 = {
+	holder = 188377 # Lalitaditya Muktapida
+}
+736.1.1 = {
+	holder = 188378 # Kuvalayapida
+}
+737.1.1 = {
+	holder = 188379 # Vajraditya
+}
+744.1.1 = {
+	holder = 0
+}
+1186.1.1 = {
+	holder = 144141 # Ghiyath al-Din Muhammad
+}
+1192.1.1 = {
+	capital = 1658 #Delhi
+}
+1203.1.1 = {
+	holder = 144142
+}
+1206.3.15 = {
+	holder = 144143
+}
+1208.1.1 = { #Ghiyath al-Din Mahmud recognizes Khwarezmian suzerainty
+	set_tribute_suzerain = {
+		who = k_khwarezmia
+		type = permanent
+	}
+}
+1212.1.1 = {
+	holder = 93144
+}
+1213.1.1 = {
+	holder = 93145
+}
+1214.1.1 = {
+	holder = 1230332
+}
+1215.1.1 = {
+	clear_tribute_suzerain = k_khwarezmia
+	holder = 170302 # Yildoz
+}
+1216.2.15 = { #Iltutmish defeats Yildoz and proclaims himself sultan
+	holder = 170193 # Iltutmish
+}
+1236.5.1 = {
+	holder = 170194 # Firuz I
+}
+1236.11.20 = {
+	holder = 170195 # Raziyya
+}
+1239.10.1 = {
+	holder = 170198 # Bahram
+}
+1242.5.15 = {
+	holder = 170199 # Masud
+}
+1246.6.11 = {
+	holder = 170201 # Mahmud
+}
+1266.2.19 = {
+	holder = 170204 # Ghiyasuddin Balban
+}
+1286.1.1 = {
+	holder = 170213 # Muizz ud-din Qaiqabad
+}
+1290.10.1 = {
+	holder = 170243 # Jalal ud din Firuz Khilji
+}
+1296.7.21 = {
+	holder = 170245 # Ibrahim
+}
+1296.11.1 = {
+	holder = 170246 # Ala-ud-din Muhammad
+}
+1316.1.3 = {
+	holder = 170247 # Umar
+}
+1316.4.1 = {
+	holder = 170248 # Mubarak
+}
+#1318.1.1 = {
+#	holder = 170250 # Mahmud
+#}
+#1318.6.1 = {
+#	holder = 170248 # Mubarak
+#}
+1320.6.1 = {
+	holder = 170251 # Husraw Kushru
+}
+1320.10.1 = {
+	holder = 170257 # Ghiyath al-Din Tughluq
+}
+1325.2.1 = {
+	holder = 170258 # Muhammad
+}

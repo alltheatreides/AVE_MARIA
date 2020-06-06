@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 711 - Sinjar
+
+# County Title
+title = c_sinjar
+
+# Settlements
+max_settlements = 4
+b_sinjar = castle
+b_tallafar = city
+b_makisin = city
+#b_hayyal = castle
+#b_baaj = castle
+
+#Misc
+culture = assyrian
+religion = nestorian
+
+# History
+1150.1.1 = { 
+	culture = kurdish
+	religion = sunni
+}
+1200.1.1 = {
+	religion = yazidi
+}

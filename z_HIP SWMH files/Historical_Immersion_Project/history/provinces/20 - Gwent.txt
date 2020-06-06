@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 20 - Gwent
+
+# County Title
+title = c_gwent
+
+# Settlements
+max_settlements = 3
+b_caerwent = tribal
+#b_trefynwy = temple
+#b_caerleon = city
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+930.1.1={
+	b_caerwent = castle
+	b_trefynwy = temple
+}

@@ -1,0 +1,26 @@
+# 1038 - Gruyere
+
+# County Title
+title = c_gruyere
+
+# Settlements
+max_settlements = 4
+
+b_greyerz = castle
+
+#b_rougemont_greyerz = temple
+#b_bulle = city
+#b_montsalvens = castle
+
+#b_strattligen = castle #Strättligen
+#b_wimmis = city
+#b_weissenau = castle
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1073.1.1 = { b_rougemont_greyerz = temple }
+1182.1.1 = { b_montsalvens = castle }
+1231.1.1 = { b_bulle = city }

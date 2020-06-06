@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1536 - Rukhádj
+
+# County Title
+title = c_rukhadj
+
+# Settlements
+max_settlements = 4
+b_kandahar = castle
+b_pandjvay = city
+b_bakrabad = temple
+b_kuhak = castle
+
+# Misc
+culture = afghan
+religion = hindu
+
+# History
+990.1.1 = {	religion = sunni }
+#1050.1.1 = {	culture = afghan }

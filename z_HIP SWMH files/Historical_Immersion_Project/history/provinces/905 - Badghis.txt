@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 905 - Bádghís / Herát
+
+# County Title
+title = c_badghis
+
+# Settlements
+max_settlements = 6
+b_herat = castle
+b_karukh = temple
+b_pushang = castle
+b_esfezar = city
+
+b_malin = city
+b_kusuy = city
+
+# Misc
+culture = khorasani
+religion = kharijite
+
+# History
+950.1.1 = {
+	religion = sunni
+}
+1222.1.1 = { capital = b_pushang }
+1222.1.1 = {
+      remove_settlement = b_herat
+      }
+1236.1.1 = { b_herat = castle }
+1236.1.1 = { capital = b_herat }

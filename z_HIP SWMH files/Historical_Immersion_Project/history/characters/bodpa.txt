@@ -1,0 +1,2267 @@
+
+12203 = {
+	name="Bhuti" # Fictional
+	dynasty=19110 # Pangong
+	
+	culture = bodpa
+	religion = buddhist
+	trait = vajrayana_buddhist
+	
+	740.1.1={
+		birth=yes
+	}
+	792.1.1={
+		death=yes
+	}
+}
+
+# Yarlung Kingdom
+
+247068 = {
+	name="Tritog Jetsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	#father=247067
+	411.1.1={
+		birth=yes
+	}
+	474.1.1={
+		death=yes
+	}
+}
+
+247069 = {
+	name="Lha Thothori Nyantsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247068
+	436.1.1={
+		birth=yes
+	}
+	498.1.1={
+		death=yes
+	}
+}
+
+247070 = {
+	name="Trinyen Zungtsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247069
+	468.1.1={
+		birth=yes
+	}
+	534.1.1={
+		death=yes
+	}
+}
+
+247071 = {
+	name="Drongnyen Deu"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247070
+	515.1.1={
+		birth=yes
+	}
+	579.1.1={
+		death=yes
+	}
+}
+
+247072 = {
+	name="Tagbu Nyasig"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247071
+	550.1.1={
+		birth=yes
+	}
+	606.1.1={
+		death=yes
+	}
+}
+
+247073 = {
+	name="Namri Songtsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247072
+	576.1.1={
+		birth=yes
+	}
+	604.1.1={
+		add_spouse=247074
+	}
+	619.1.1={
+		death=yes
+	}
+}
+
+247075 = {
+	name="Songtsen Gampo"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247073
+	mother=247074
+	605.1.1={
+		birth=yes
+	}
+	622.1.1={
+		#add_spouse=247080
+		create_bloodline = {
+			type = songtsen_gampo
+			has_dlc = "Holy Fury"
+		}
+	}
+	625.1.1={
+		effect={c_247078={add_consort=ROOT}}
+	}
+	629.1.1={
+		effect={c_247079={add_consort=ROOT}}
+	}
+	634.1.1={
+		effect={c_247003={add_consort=ROOT}}
+	}
+	636.1.1={
+		effect={c_247343={add_consort=ROOT}}
+	}
+	641.1.1={
+		add_spouse=247081
+		religion="buddhist"
+		trait = vajrayana_buddhist
+	}
+	650.1.1={
+		death=yes
+	}
+}
+
+247076 = {
+	name="Sadmarkar"
+	female=yes
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247073
+	mother=247074
+	607.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+
+247077 = {
+	name="Tsensong"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247073
+	mother=247074
+	610.1.1={
+		birth=yes
+	}
+	641.1.1={
+		death=yes
+	}
+}
+
+247083 = {
+	name="Mangpoje Shangnang"
+	dynasty=105909 #Nyang
+	religion="bon"
+	culture="bodpa"
+	585.1.1={
+		birth=yes
+	}
+	633.1.1={
+		death=yes
+	}
+}
+
+247085 = {
+	name="Tongtsen Yulsung"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247270
+	598.1.1={
+		birth=yes
+	}
+	667.1.1={
+		death=yes
+	}
+}
+
+247086 = {
+	name="Tsenye Dompu"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247085
+	630.1.1={
+		birth=yes
+	}
+	685.1.1={
+		death=yes
+	}
+}
+
+247087 = {
+	name="Trinring Tsendro"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247085
+	635.1.1={
+		birth=yes
+	}
+	699.1.1={
+		death=yes
+	}
+}
+
+#Tibetan Empire
+
+247088 = {
+	name="Gungsrong Gungtsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247075
+	mother=247078
+	631.1.1={
+		birth=yes
+	}
+	#647.1.1={
+	#	add_spouse=247344
+	#}
+	649.1.1={
+		death=yes
+	}
+}
+
+247089 = {
+	name="Trimang Löntsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247088
+	#mother=247344
+	648.1.1={
+		birth=yes
+	}
+	651.1.1={
+		name="Mangsong Mangtsen"
+	}
+	667.1.1={
+		add_spouse=247090
+	}
+	679.1.1={
+		death=yes
+	}
+}
+
+247090 = {
+	name="Thrimalö"
+	female=yes
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247086
+	647.1.1={
+		birth=yes
+	}
+	712.1.1={
+		death=yes
+	}
+}
+
+247091 = {
+	name="Tridu Songtsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247089
+	mother=247090
+	668.1.1={
+		birth=yes
+	}
+	680.1.1={
+		religion="buddhist"
+		trait = vajrayana_buddhist
+	}
+	684.1.1={
+		add_spouse = 247093
+	}
+	685.1.1={
+		effect={c_247094={add_consort=ROOT}}
+	}
+	690.1.1={
+		effect={c_247095={add_consort=ROOT}}
+	}
+	704.6.1={
+		death=yes
+	}
+}
+
+247092 = {
+	name="Thridang"
+	female=yes
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247089
+	mother=247090
+	670.1.1={
+		birth=yes
+	}
+	720.1.1={
+		death=yes
+	}
+}
+
+247093 = {
+	name="Cogrodtsa"
+	female=yes
+	dynasty=105820 #'Damgyi
+	religion="bon"
+	culture="bodpa"
+	668.1.1={
+		birth=yes
+	}
+	700.1.1={
+		death=yes
+	}
+}
+
+247094 = {
+	name="Tsunmotog"
+	female=yes
+	dynasty=105821 #Chimza
+	religion="bon"
+	culture="bodpa"
+	675.1.1={
+		birth=yes
+	}
+	720.1.1={
+		death=yes
+	}
+}
+
+247096 = {
+	name="Lha Balpo"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247091
+	mother=247093
+	685.1.1={
+		birth=yes
+	}
+	730.1.1={
+		death=yes
+	}
+}
+
+247097 = {
+	name="Gyältsugru"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247091
+	mother=247094
+	trait="child_of_consort"
+	704.1.1={
+		birth=yes
+	}
+	#709 - true date of marriage with Princess Jincheng of Tang
+	712.1.1={
+		name = "Tridé Tsuktsen"
+	}
+	715.1.1={
+		religion="buddhist"
+		trait = vajrayana_buddhist
+	}
+	720.1.1={
+		add_spouse = 247099 #Princess Jincheng of Tang
+	}
+	722.1.1={
+		effect={c_247101={add_consort=ROOT}}
+	}
+	740.1.1={
+		effect={c_247100={add_consort=ROOT}}
+	}
+	742.1.1={
+		religion="bon"
+	}
+	755.1.1={
+		name = "Me Agtsom"
+		death=yes
+	}
+}
+
+247098 = {
+	name="Dronmalön" #Wife/concubine of Ozmish Qaghan (Ozmis Khagan)
+	female=yes
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247091
+	mother=247095
+	705.1.1={
+		birth=yes
+	}
+	744.1.1={
+		death=yes
+	}
+}
+
+247100 = {
+	name="Mangmorje Tshistöng"
+	female=yes
+	dynasty=105822 #Nanam
+	religion="bon"
+	culture="bodpa"
+	father=252025
+	724.1.1={
+		birth=yes
+	}
+	750.1.1={
+		death=yes
+	}
+}
+
+247102 = {
+	name="Lang"
+	dynasty=105811 #Mang
+	religion="bon"
+	culture="bodpa"
+	695.1.1={
+		birth=yes
+	}
+	756.1.1={
+		death=yes
+	}
+}
+
+247103 = {
+	name="'Bal"
+	dynasty=105814 #Myang
+	religion="bon"
+	culture="bodpa"
+	700.1.1={
+		birth=yes
+	}
+	756.1.1={
+		death=yes
+	}
+}
+
+247104 = {
+	name="Tagdra Lukong"
+	dynasty=105811 #Mang
+	religion="bon"
+	culture="bodpa"
+	father=247102
+	715.1.1={
+		birth=yes
+	}
+	796.1.1={
+		death=yes
+	}
+}
+
+247105 = {
+	name="Song Detsen"
+	dna = dwiuwqvmgyh
+	properties = aaebc0000000000000
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait = vajrayana_buddhist
+	culture="bodpa"
+	father=247097
+	mother=247100
+	trait="child_of_consort"
+	742.1.1={
+		birth=yes
+	}
+	755.1.1={
+		name = "Trisong Detsen"
+	}
+	758.1.1={
+		add_spouse = 247106
+	}
+	760.1.1={
+		effect={c_247108={add_consort=ROOT}}
+		add_trait = zealous
+	}
+	762.1.1={
+		effect={c_247110={add_friend=ROOT}}
+	}
+	763.1.1={
+		effect={c_247109={add_consort=ROOT}}
+	}
+	767.1.1={
+		effect={c_247114={add_consort=ROOT}}
+	}
+	769.1.1 = {
+		# Some extra troops for Tibet
+		effect = {
+			wealth = 1000
+			spawn_unit = {
+				province = 1447
+				owner = ROOT
+				troops = {
+					light_infantry = { 700 700 }
+					light_cavalry = { 200 200 }
+					archers = { 500 500 }
+				}
+				attrition = 1
+			}
+			spawn_unit = {
+				province = 1443
+				owner = ROOT
+				troops = {
+					light_infantry = { 700 700 }
+					light_cavalry = { 200 200 }
+					archers = { 500 500 }
+				}
+				attrition = 1
+			}
+		}
+	}
+	770.1.1={
+		effect={c_247107={add_consort=ROOT}}
+	}
+	797.1.1={
+		death=yes
+	}
+}
+
+247114 = {
+	name="Yeshe Tsogyal" #Concubine of Trisong Detsen, later Tantric consort of Padmasambhava
+	female=yes
+	dynasty=105827 #Karchen
+	religion="buddhist"
+	culture="bodpa"
+	trait="vajrayana_buddhist"
+	750.1.1={
+		birth=yes
+	}
+	817.1.1={
+		death=yes
+	}
+}
+
+247115 = {
+	name="Mutri"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247105
+	mother=247106
+	759.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}
+
+247116 = {
+	name="Muné"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait = vajrayana_buddhist
+	culture="bodpa"
+	father=247105
+	mother=247106
+	762.1.1={
+		birth=yes
+	}
+	785.1.1={
+		add_spouse = 247117
+	}
+	799.1.1={
+		death=yes
+	}
+}
+
+247117 = {
+	name="Phoyongsa"
+	female=yes
+	dynasty=105802 #Khön
+	religion="buddhist"
+	culture="bodpa"
+	father=247213
+	trait=fair
+	trait=zealous
+	trait="vajrayana_buddhist"
+	765.1.1={
+		birth=yes
+	}
+	798.6.1={
+		death=yes
+	}
+}
+
+247118 = {
+	name="Mutik"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait=zealous
+	father=247105
+	mother=247106
+	765.1.1={
+		birth=yes
+	}
+	799.6.1={
+		death=yes
+	}
+}
+
+247119 = {
+	name="Sadnalegs"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247105
+	mother=247106
+	768.1.1={
+		birth=yes
+	}
+	799.6.1={
+		name="Tridé Songtsen"
+	}
+	786.1.1={
+		add_spouse = 252020
+	}
+	807.1.1={
+		effect={c_247121={add_consort=ROOT}}
+	}
+	808.1.1={
+		effect={c_247122={add_consort=ROOT}}
+	}
+	811.1.1={
+		effect={c_247123={add_consort=ROOT}}
+	}
+	815.1.1={
+		death=yes
+	}
+}
+
+252020 = {
+	name="Lhagyal Mangmorje"
+	female=yes
+	dynasty=105907 #Broza
+	religion="buddhist"
+	culture="bodpa"
+	father=247213
+	trait="vajrayana_buddhist"
+	768.1.1={
+		birth=yes
+	}
+	798.1.1={
+		death=yes
+	}
+}
+
+247120 = {
+	name="Pema Sal"
+	female=yes
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247105
+	mother=247114
+	773.1.1={
+		birth=yes
+	}
+	832.1.1={
+		death=yes
+	}
+}
+
+247121 = {
+	name="Sengemo"
+	female=yes
+	dynasty=105803 #Glo
+	religion="bon"
+	culture="bodpa"
+	771.1.1={
+		birth=yes
+	}
+	840.1.1={
+		death=yes
+	}
+}
+
+247122 = {
+	name="Dolma"
+	female=yes
+	dynasty=105801 #Namgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	777.1.1={
+		birth=yes
+	}
+	823.1.1={
+		death=yes
+	}
+}
+
+247123 = {
+	name="Torma"
+	female=yes
+	dynasty=105811 #Mang
+	religion="bon"
+	culture="bodpa"
+	782.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes
+	}
+}
+
+247124 = {
+	name="Lhasras Tsangma" #Became a monk
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247119
+	mother=252020
+	804.1.1={
+		birth=yes
+	}
+	810.1.1={
+		trait="monk"
+	}
+	840.1.1={
+		death=yes
+	}
+}
+
+247125 = {
+	name="Tritsu Detsen"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	trait=zealous
+	father=247119
+	mother=252020
+	806.1.1={
+		birth=yes
+	}
+	815.1.1 = {
+		name="Ralpacan"
+	}
+	838.11.1={
+		death=yes
+	}
+}
+
+247126 = {
+	name="Tri Uidumtsaen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait=zealous
+	father=247119
+	mother=252020
+	808.1.1={
+		birth=yes
+	}
+	828.1.1={
+		add_spouse = 247129
+	}
+	829.1.1={
+		effect={c_247130={add_consort=ROOT}}
+	}
+	838.11.1 = {
+		name="Langdarma"
+	}
+	842.1.1={
+		death=yes
+	}
+}
+
+247127 = {
+	name="Gyaltso"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247119
+	mother=247122
+	811.1.1={
+		birth=yes
+	}
+	821.1.1={
+		death=yes
+	}
+}
+
+247128 = {
+	name="Palden"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247119
+	mother=247123
+	813.1.1={
+		birth=yes
+	}
+	825.1.1={
+		death=yes
+	}
+}
+
+247129 = {
+	name="Nanamsa"
+	female=yes
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247276
+	812.1.1={
+		birth=yes
+	}
+	859.1.1={
+		death=yes
+	}
+}
+
+247130 = {
+	name="Zigsa"
+	female=yes
+	dynasty=105814 #Myang
+	religion="bon"
+	culture="bodpa"
+	814.1.1={
+		birth=yes
+	}
+	866.1.1={
+		death=yes
+	}
+}
+
+247131 = {
+	name="Ösrung"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	trait="child_of_consort"
+	father=247126
+	mother=247130
+	830.1.1={
+		birth=yes
+	}
+	905.1.1={
+		death=yes
+	}
+}
+
+247132 = {
+	name="Yumtän"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247126
+	mother=247129
+	830.1.1={
+		birth=yes
+	}
+	905.1.1={
+		death=yes
+	}
+}
+
+# Era of Fragmentation - Descendants of Ödsrung
+
+247133 = {
+	name="Pelkhortsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247131
+	846.1.1={
+		birth=yes
+	}
+	910.1.1={
+		death=yes
+	}
+}
+
+247134 = {
+	name="Trashi Tsentsen"
+	dynasty=105800 #Purgyal
+	religion="bon"
+	culture="bodpa"
+	father=247133
+	872.1.1={
+		birth=yes
+	}
+	912.1.1={
+		death=yes
+	}
+}
+
+247135 = {
+	name="Thrikhyiding"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247133
+	875.1.1={
+		birth=yes
+	}
+	912.1.1={
+		name="Skyidide-Nyimagön"
+	}
+	930.1.1={
+		death=yes
+	}
+}
+
+# Guge
+
+247136 = {
+	name="Bhakra Shismgon"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247135
+	909.1.1={
+		birth=yes
+	}
+	971.1.1={
+		death=yes
+	}
+}
+
+247137 = {
+	name="Srongnge Yeshe Öd"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247136
+	935.1.1={
+		birth=yes
+	}
+	988.1.1={
+		death=yes
+	}
+}
+
+247138 = {
+	name="Khorre"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247136
+	942.1.1={
+		birth=yes
+	}
+	996.1.1={
+		death=yes
+	}
+}
+
+247139 = {
+	name="Nagaraja" # Became a monk
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247137
+	964.1.1={
+		birth=yes
+	}
+	975.1.1={
+		trait="monk"
+	}
+	1023.1.1={
+		death=yes
+	}
+}
+
+247140 = {
+	name="Devaraja" # Became a monk
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247137
+	965.1.1={
+		birth=yes
+	}
+	975.1.1={
+		trait="monk"
+	}
+	1026.1.1={
+		death=yes
+	}
+}
+
+247141 = {
+	name="Lhaide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247138
+	960.1.1={
+		birth=yes
+	}
+	1024.1.1={
+		death=yes
+	}
+}
+
+247142 = {
+	name="Ödidebtsan"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247141
+	981.1.1={
+		birth=yes
+	}
+	1037.1.1={
+		death=yes
+	}
+}
+
+247143 = {
+	name="Byangchub Öd"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247141
+	985.1.1={
+		birth=yes
+	}
+	1057.1.1={
+		death=yes
+	}
+}
+
+247144 = {
+	name="Zhiba Öd" # Became Monk
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247141
+	1023.1.1={
+		birth=yes
+	}
+	1033.1.1={
+		trait="monk"
+	}
+	1111.1.1={
+		death=yes
+	}
+}
+
+247145 = {
+	name="Chechen Tshartseide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247143
+	1033.1.1={
+		birth=yes
+	}
+	1088.1.1={
+		death=yes
+	}
+}
+
+247146 = {
+	name="Bangide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247143
+	1028.1.1={
+		birth=yes
+	}
+	1055.1.1={
+		death=yes
+	}
+}
+
+247147 = {
+	name="Baride"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247146
+	1046.1.1={
+		birth=yes
+	}
+	1095.1.1={
+		death=yes
+	}
+}
+
+247148 = {
+	name="Södnamsrtse"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247147
+	1062.1.1={
+		birth=yes
+	}
+	1118.1.1={
+		death=yes
+	}
+}
+
+247149 = {
+	name="Krashisrtse"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247148
+	1084.1.1={
+		birth=yes
+	}
+	1137.1.1={
+		death=yes
+	}
+}
+
+247150 = {
+	name="Jobo Gyalpo"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247148
+	1089.1.1={
+		birth=yes
+	}
+	1145.1.1={
+		death=yes
+	}
+}
+
+247151 = {
+	name="Tsübartsan"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247149
+	1132.1.1={
+		birth=yes
+	}
+	1161.1.1={
+		death=yes
+	}
+}
+
+247152 = {
+	name="Pyidetsan"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247151
+	1150.1.1={
+		birth=yes
+	}
+	1189.1.1={
+		death=yes
+	}
+}
+
+247153 = {
+	name="Namidetsan"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247152
+	1166.1.1={
+		birth=yes
+	}
+	1212.1.1={
+		death=yes
+	}
+}
+
+247154 = {
+	name="Nyimaide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247153
+	1183.1.1={
+		birth=yes
+	}
+	1219.1.1={
+		death=yes
+	}
+}
+
+247155 = {
+	name="Gübum"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247154
+	1201.1.1={
+		birth=yes
+	}
+	1242.1.1={
+		death=yes
+	}
+}
+
+247156 = {
+	name="Laga"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247155
+	1217.1.1={
+		birth=yes
+	}
+	1260.1.1={
+		death=yes
+	}
+}
+
+247157 = {
+	name="Chosgyal Gragspa"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247156
+	1233.1.1={
+		birth=yes
+	}
+	1265.1.1={
+		death=yes
+	}
+}
+
+247158 = {
+	name="Gragspaide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247156
+	1234.1.1={
+		birth=yes
+	}
+	1277.1.1={
+		death=yes
+	}
+}
+
+247159 = {
+	name="Gyaltsen"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247158
+	1250.1.1={
+		birth=yes
+	}
+	1306.1.1={
+		death=yes
+	}
+}
+
+247160 = {
+	name="Jigten"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247159
+	1272.1.1={
+		birth=yes
+	}
+	1333.1.1={
+		death=yes
+	}
+}
+
+247161 = {
+	name="Rygalide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247160
+	1295.1.1={
+		birth=yes
+	}
+	1347.1.1={
+		death=yes
+	}
+}
+
+247162 = {
+	name="Nampo"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247161
+	1311.1.1={
+		birth=yes
+	}
+	1364.1.1={
+		death=yes
+	}
+}
+
+247163 = {
+	name="Namri Rabtan"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247162
+	1332.1.1={
+		birth=yes
+	}
+	1396.1.1={
+		death=yes
+	}
+}
+
+247164 = {
+	name="Namgyalide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247163
+	1355.1.1={
+		birth=yes
+	}
+	1424.1.1={
+		death=yes
+	}
+}
+
+#Zanskar Ruler
+
+247165 = {
+	name="Bhakra Shismgon"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247135
+	913.1.1={
+		birth=yes
+	}
+	986.1.1={
+		death=yes
+	}
+}
+
+#Ladakh Rulers
+
+247166 = {
+	name="Lhachen Dpalgyimgon"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247135
+	906.1.1={
+		birth=yes
+	}
+	975.1.1={
+		death=yes
+	}
+}
+
+247167 = {
+	name="Lhachen Gragspalde"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247166
+	948.1.1={
+		birth=yes
+	}
+	990.1.1={
+		death=yes
+	}
+}
+
+247168 = {
+	name="Lhachen Takpa"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247166
+	956.1.1={
+		birth=yes
+	}
+	1015.1.1={
+		death=yes
+	}
+}
+
+247169 = {
+	name="Lhachen Byangchupsenpa"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247168
+	993.1.1={
+		birth=yes
+	}
+	1050.1.1={
+		death=yes
+	}
+}
+
+247170 = {
+	name="Lhachen Gyalpo"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247169
+	1030.1.1={
+		birth=yes
+	}
+	1080.1.1={
+		death=yes
+	}
+}
+
+247171 = {
+	name="Lhachen 'Utpala"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	trait="brave"
+	trait="genius"
+	father=247170
+	1051.1.1={
+		birth=yes
+	}
+	1110.1.1={
+		death=yes
+	}
+}
+
+247172 = {
+	name="Lhachen Naglug"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247171
+	1085.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+
+247173 = {
+	name="Lhachen Gyebhe"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247172
+	1138.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+247174 = {
+	name="Lhachen Jospal"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247173
+	trait="mastermind_theologian"
+	1199.1.1={
+		birth=yes
+	}
+	1300.1.1={ ###
+		death=yes
+	}
+}
+
+247175 = {
+	name="Lhachen Mutup"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247174
+	1248.1.1={
+		birth=yes
+	}
+	1325.1.1={
+		death=yes
+	}
+}
+
+247176 = {
+	name="Rinchen Gyalpo"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247175
+	1272.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		religion="sunni"
+	}# Reportedly went to Kashmir and embraced Islam
+	1325.1.1={
+		name="Sadar ud-din"
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+
+247177 = {
+	name="Chachen Jobodpal" #Same as 247174, but made as brother to cover the long gap between 1200 and 1275
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247173
+	1186.1.1={
+		birth=yes
+	}
+	1275.1.1={
+		death=yes
+	}
+}
+
+247178 = {
+	name="Lhachen Sherab"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247176
+	1315.1.1={
+		birth=yes
+	}
+	1380.1.1={
+		death=yes
+	}
+}
+
+247179 = {
+	name="Lhachen Thechukde"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247178
+	1346.1.1={
+		birth=yes
+	}
+	1408.1.1={
+		death=yes
+	}
+}
+
+# Kingdom of Yartse in Western Nepal
+
+247180 = {
+	name="Nagaide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247145
+	1059.1.1={
+		birth=yes
+	}
+	1116.1.1={
+		death=yes
+	}
+}
+
+247181 = {
+	name="Tsanphyugide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247180
+	1087.1.1={
+		birth=yes
+	}
+	1148.1.1={
+		death=yes
+	}
+}
+
+247182 = {
+	name="Gragtsanide"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247181
+	1122.1.1={
+		birth=yes
+	}
+	1173.1.1={
+		death=yes
+	}
+}
+
+247183 = {
+	name="Kratsancalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247180
+	1112.1.1={
+		birth=yes
+	}
+	1188.1.1={
+		death=yes
+	}
+}
+
+247184 = {
+	name="Kradhicalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247183
+	1158.1.1={
+		birth=yes
+	}
+	1225.1.1={
+		death=yes
+	}
+}
+
+247185 = {
+	name="Ashokacalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247184
+	1215.1.1={
+		birth=yes
+	}
+	1278.1.1={
+		death=yes
+	}
+}
+
+
+247186 = {
+	name="Jitarimalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247185
+	1248.1.1={
+		birth=yes
+	}
+	1293.1.1={
+		death=yes
+	}
+}
+
+247187 = {
+	name="Anandamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247185
+	1253.1.1={
+		birth=yes
+	}
+	1298.1.1={
+		death=yes
+	}
+}
+
+247188 = {
+	name="Ripumalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247187
+	1270.1.1={
+		birth=yes
+	}
+	1314.1.1={
+		death=yes
+	}
+}
+
+247189 = {
+	name="Sangramamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247188
+	1288.1.1={
+		birth=yes
+	}
+	1321.1.1={
+		death=yes
+	}
+}
+
+247190 = {
+	name="Ajitamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247186
+	1266.1.1={
+		birth=yes
+	}
+	1328.1.1={
+		death=yes
+	}
+}
+
+247191 = {
+	name="Kalyanamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247190
+	1282.1.1={
+		birth=yes
+	}
+	1333.1.1={
+		death=yes
+	}
+}
+
+247192 = {
+	name="Pratapamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247189
+	1305.1.1={
+		birth=yes
+	}
+	1336.1.1={
+		death=yes
+	}
+}
+
+247193 = {
+	name="Mangmo"
+	female=yes
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247192
+	1321.1.1={
+		birth=yes
+	}
+	1354.1.1={
+		death=yes
+	}
+}
+
+247194 = {
+	name="Punyamalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247191
+	1315.1.1={
+		birth=yes
+	}
+	1337.1.1={
+		add_spouse=247193
+	}
+	1339.1.1={
+		death=yes
+	}
+}
+
+247195 = {
+	name="Prthivimalla"
+	dynasty=105800 #Purgyal
+	religion="buddhist"
+	trait="vajrayana_buddhist"
+	culture="bodpa"
+	father=247194
+	mother=247193
+	1338.1.1={
+		birth=yes
+	}
+	1368.1.1={
+		death=yes
+	}
+}
+
+# Dege & Gar lineage
+
+247268 = {
+	name="Namtshábrug"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	496.1.1={
+		birth=yes
+	}
+	563.1.1={
+		death=yes
+	}
+}
+
+247269 = {
+	name="Blama Mkhyenchenpo"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247268
+	539.1.1={
+		birth=yes
+	}
+	599.1.1={
+		death=yes
+	}
+}
+
+247270 = {
+	name="Mangsham Sumnang"
+	dynasty=105816 #Gar
+	religion="bon"
+	culture="bodpa"
+	father=247269
+	563.1.1={
+		birth=yes
+	}
+	645.1.1={
+		death=yes
+	}
+}
+
+#Great Ministers of Trisong Detsen
+252013 = {
+	name="Takdra Lukhong"
+	dynasty=105869 #Nganlam
+	religion="bon"
+	culture="bodpa"
+	martial=16 #Famed General of Tibet
+	trait = brilliant_strategist
+	725.1.1={
+		birth=yes
+	}
+	750.1.1={
+		effect={c_252002={add_friend=ROOT}}
+		effect={c_247342={add_friend=ROOT}}
+		effect={c_252005={add_friend=ROOT}}
+	}
+	755.1.2={
+		#employer=247105
+		effect = {
+			give_job_title=job_marshal
+		}
+	}
+	770.1.1={
+		religion="buddhist"
+		add_trait = vajrayana_buddhist
+		secret_religion = bon
+		#effect = {
+		#	remove_job_title=job_marshal
+		#}
+	} #forced to convert by the Emperor and exiled
+	782.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	} #won back the graces of the Emperor
+	795.1.1={
+		death=yes
+	}
+}
+
+252014 = {
+	name="Kyesang Dongtsab"
+	dynasty=105903 #Bel
+	religion="bon"
+	culture="bodpa"
+	713.1.1={
+		birth=yes
+	}
+	747.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	755.1.1={
+		death=yes
+	} #Murders Me Agtsom and rebels along with Drotsen (Molingzan) King of Sumpa, quickly executed by Chimshang Gyalsig Shuteng and Nganlam Takdra Lukhong
+}
+252015 = {
+	name="Nangshar Sutsen"
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	father=252037
+	718.1.1={
+		birth=yes
+	}
+	755.1.1={
+		employer=247105
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	768.1.1={
+		death=yes
+	}
+}
+252016 = {
+	name="Trisang Yalag"
+	dynasty=105905 #Gos
+	religion="buddhist"
+	culture="bodpa"
+	trait = zealous
+	trait = vajrayana_buddhist
+	720.1.1={
+		birth=yes
+	}
+	768.1.1={
+		employer=247105
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	780.1.1={
+		death=yes
+	}
+}
+252017 = {
+	name="Gyalsig Shuteng"
+	dynasty=105906 #Chimshang
+	religion="bon"
+	culture="bodpa"
+	martial=7 #Famed General of Tibet
+	730.1.1={
+		birth=yes
+	}
+	780.1.1={
+		employer=247105
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	797.1.1={
+		death=yes
+	}
+}
+252018 = {
+	name="Shang Gyaltsen Lhanang"
+	dynasty=105822 #Nanam
+	religion="buddhist"
+	culture="bodpa"
+	trait = zealous
+	trait = vajrayana_buddhist
+	martial=7 #Famed General of Tibet
+	father=252026
+	740.1.1={
+		birth=yes
+	}
+	783.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	796.1.1={
+		death=yes
+	}
+}
+252019 = {
+	name="Buring"
+	dynasty=105822 #Nanam
+	religion="buddhist"
+	culture="bodpa"
+	trait = zealous
+	trait = vajrayana_buddhist
+	father = 252018
+	760.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death={
+			death_reason=death_murder
+			killer=247118
+		}
+	} #Killed by Prince Mutik
+}
+252021 = {
+	name="Trisu Ramsha"
+	dynasty=105908 #Dro
+	religion="buddhist"
+	culture="bodpa"
+	trait = vajrayana_buddhist
+	martial=7 #Famed General of Tibet
+	father=252038
+	744.1.1={
+		birth=yes
+	}
+	796.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	818.1.1={
+		death=yes
+	}
+}
+252022 = {
+	name="Mangje Lhalo"
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	martial=7 #Famed General of Tibet
+	father=252015
+	750.1.1={
+		birth=yes
+	}
+	800.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	826.1.1={
+		death=yes
+	}
+}
+252023 = {
+	name="Trisumje Taknang"
+	dynasty=105908 #Dro
+	religion="buddhist"
+	culture="bodpa"
+	trait = vajrayana_buddhist
+	martial=7 #Famed General of Tibet
+	father=252021
+	760.1.1={
+		birth=yes
+	}
+	810.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	836.1.1={
+		death=yes
+	}
+}
+252024 = {
+	name="Gyaltore Taknye" #Last Great Minister of Tibet
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	trait=zealous
+	father=252022
+	767.1.1={
+		birth=yes
+	}
+	836.1.1={
+		effect = {
+			give_job_title=job_chancellor
+		} #Great Minister
+	}
+	842.1.1={
+		death=yes
+	}
+}
+
+252028 = {
+	name="Pungse Sutse"
+	dynasty=105910 #Khyungpo
+	religion="bon"
+	culture="bodpa"
+	614.1.1={
+		birth=yes
+	}
+	652.1.1={
+		death=yes
+	}
+}
+252029 = {
+	name="Lotsen"
+	dynasty=105911 #Omade
+	religion="bon"
+	culture="bodpa"
+	624.1.1={
+		birth=yes
+	}
+	661.1.1={
+		death=yes
+	}
+}
+252030 = {
+	name="Lontramo"
+	dynasty=105912 #Zhang
+	religion="bon"
+	culture="bodpa"
+	624.1.1={
+		birth=yes
+	}
+	667.6.1={
+		death=yes
+	}
+}
+
+252033 = {
+	name="Mangpoje Lhasung"
+	dynasty=105913 #Khu
+	religion="bon"
+	culture="bodpa"
+	651.1.1={
+		birth=yes
+	}
+	705.1.1={
+		death=yes
+	}
+}
+252034 = {
+	name="Trisig Shangnyen"
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	653.1.1={
+		birth=yes
+	}
+	721.1.1={
+		death=yes
+	}
+}
+252035 = {
+	name="Trisig Shangnyen"
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	father=252034
+	674.1.1={
+		birth=yes
+	}
+	725.1.1={
+		death=yes
+	}
+}
+252036 = {
+	name="Mangsham Taktsab"
+	dynasty=105914 #Nge
+	religion="bon"
+	culture="bodpa"
+	687.1.1={
+		birth=yes
+	}
+	727.1.1={
+		death=yes
+	}
+}
+252037 = {
+	name="Tadra Khonglo"
+	dynasty=105904 #We
+	religion="bon"
+	culture="bodpa"
+	father=252035
+	690.1.1={
+		birth=yes
+	}
+	728.1.1={
+		death=yes
+	}
+}
+252038 = {
+	name="Chungsang Ormang"
+	dynasty=105908 #Dro
+	religion="buddhist"
+	culture="bodpa"
+	trait = vajrayana_buddhist
+	706.1.1={
+		birth=yes
+	}
+	747.1.1={
+		death=yes
+	}
+}

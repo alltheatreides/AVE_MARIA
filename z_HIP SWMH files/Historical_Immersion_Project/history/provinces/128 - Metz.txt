@@ -1,0 +1,27 @@
+# 128 - Metz
+
+# County Title
+title = c_metz
+
+# Settlements
+max_settlements = 5
+
+b_rixingen = castle 
+b_metz = temple
+b_saint_arnoul = temple
+
+#b_saint_avold = city  
+#b_fenetrange = castle 
+
+#b_puttlingen = castle
+#b_marsal = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1222.1.1 = { b_fenetrange = castle }
+1234.1.1 = { capital = b_saint_arnoul } 
+1234.1.1 = { b_metz = city } 
+1327.1.1 = { b_saint_avold = city }

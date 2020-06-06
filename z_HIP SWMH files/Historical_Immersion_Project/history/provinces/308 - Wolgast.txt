@@ -1,0 +1,33 @@
+# 308 - Wolgast
+
+# County Title
+title = c_wolgast
+
+# Settlements
+max_settlements = 5
+
+b_wolgast = tribal
+b_wollin = city
+#b_kammin = temple
+#b_naugard = castle
+#b_grobe = temple
+#b_szvuine = castle
+#b_treptow = city
+
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+
+960.1.1 = { b_wollin = castle } #The islands Wollin and Usedom subjugated by the Danes. Perhaps a bit much to have the mainland become a part of Denmark as wel
+1002.1.1 = { b_wollin = city }
+1128.1.1 = { b_wolgast = castle } # To Pomerania
+1128.1.1 = { religion = catholic } # Otto of Bamberg
+1140.1.1 = { b_kammin = temple }
+1155.1.1 = { b_grobe = temple }
+1248.1.1 = { b_naugard = castle }
+1250.1.1 = { culture = low_german } 
+1290.1.1 = { trade_post = b_bardewik }
+

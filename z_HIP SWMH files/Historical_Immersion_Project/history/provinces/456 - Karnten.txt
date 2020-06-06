@@ -1,0 +1,32 @@
+# 456 - Kärnten
+
+# County Title
+title = c_karnten
+
+# Settlements
+max_settlements = 5
+
+b_karnburg = castle
+
+#b_villach = city 
+#b_gurk = temple
+#b_heunburg = castle
+#b_ortenburg = castle
+
+#b_sanktveit = city
+#b_millstatt = temple
+
+# Misc
+culture = carantanian # Bavarian & Frankish settlement started before 867
+#culture = bavarian 
+religion = catholic
+
+# History
+1050.1.1 = { b_heunburg = castle }
+1060.1.1 = { b_villach = city  }
+#1070.1.1 = { b_millstatt = temple }
+1072.1.1 = { b_gurk = temple }
+1091.1.1 = { b_ortenburg = castle }
+1100.1.1 = { culture = bavarian } # less densely populated mountainous regions remained mostly Slavic till 1300 
+1170.1.1 = { culture = german } # as a majority the population stayed mixed
+#1224.1.1 = { b_sanktveit = city }

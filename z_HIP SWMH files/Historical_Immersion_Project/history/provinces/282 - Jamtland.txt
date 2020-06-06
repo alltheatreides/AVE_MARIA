@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 282 - Jämtland
+
+# County Title
+title = c_jamtland
+
+# Settlements
+max_settlements = 2
+
+b_brunflo = tribal # Hagnastadha
+#b_vasterhus = temple 
+#b_hov = castle # Hof
+
+# Misc
+culture = lappish
+religion = finnish_pagan
+
+# History
+885.1.1 = { culture = norse } 
+885.1.1 = { religion = norse_pagan } 
+1035.1.1 = { b_brunflo = castle } #Fat Olav
+1035.1.1 = { culture = norwegian } 
+1090.1.1 = { religion = catholic }

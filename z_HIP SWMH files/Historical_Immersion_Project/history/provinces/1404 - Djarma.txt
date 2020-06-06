@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1404 - Djarma
+
+# County Title
+title = c_djarma
+
+# Settlements
+max_settlements = 5
+
+b_djarma = tribal
+
+b_tassawa = city
+#b_tsawa = city
+#b_dillaim = temple
+#b_murzuk = city
+
+# Misc
+culture = tuareg
+religion = ibadi
+
+# History
+
+1200.1.1 = { b_tassawa = city }
+

@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 604 - Kuma
+
+# County Title
+title = c_kuma
+
+# Settlements
+max_settlements = 3
+b_kuma = tribal
+#b_kizlyar = castle
+#b_majar = temple
+
+
+culture = khazar
+religion = tengri_pagan
+
+# History
+
+#Mongol invasion
+
+1313.1.1 = { religion = sunni }

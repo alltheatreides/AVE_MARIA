@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Kharijite Rebellion"
+
+casus_belli = {
+	actor = 1234862
+	recipient = 34014
+	casus_belli=religious
+	landed_title=d_diyareast
+	date=866.1.1
+}
+
+866.1.1 = {
+	add_attacker = 1234862
+	add_defender = 34014
+}
+
+869.1.1 = {
+	rem_attacker = 1234862
+	rem_defender = 34014
+}

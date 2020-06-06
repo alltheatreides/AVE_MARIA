@@ -1,0 +1,101 @@
+# -*- ck2.history.titles -*-
+
+# Kings/Cheifs of Telemark
+855.1.1 = {
+	holder = 1228000 # Ulv Gylde
+}
+882.1.1 = {
+	liege = d_ostlandet
+}
+900.1.1 = {
+	holder = 1228001 # Aasgrim Gylde
+}
+# claimed by Harald, and handed to Bjørn. Linked with Vestfold from here.
+925.1.1 = {
+	holder = 144005 # Bjørn Farmann
+}
+927.1.1 = {
+	holder = 144002 # Olaf Haraldsson Geirstadalf
+}
+934.1.1 = {
+	liege = k_norway
+	holder = 144006 # Gudrød Bjørnsson
+}
+# Vestfold and Telemark reclaimed by the crown
+968.1.1 = {
+	holder = 102508 # Harald Gråfeld
+}
+970.1.1 = {
+	liege = k_denmark
+	holder = 102526 # Harald Grenske
+}
+995.1.1 = {
+	liege = k_norway
+	holder = 144004 # Olof I
+}
+1000.1.1 = {
+	holder = 101505 # Sweyn Forkbeard
+}
+1015.1.1 = {
+	holder = 102527 # Olof The Saint
+}
+1028.1.1 = {
+	holder = 102518 # Haakon Eiriksson of the Lade Family
+}
+1030.7.29 = {
+	holder = 101514 # Svein Knutsson, son of Canute the Great and Ælfgifu. Ruled Norway alongside his mother as regent, after the death of Haakon Eiriksson of the Lade Earls at sea in 1029-30, thereby ending the family
+}
+1034.1.1 = {
+	holder = 1228072 # Eiliv of Bratsberg
+}
+1062.1.1 = {
+	holder = 1228071 # Dag Eilivsson of Bratsberg
+}
+1107.1.1 = {
+	holder = 1290092 # Orm Dagsson of Bratsberg, Lendsmann
+}
+1139.1.1 = {
+	holder = 1290090 # Gregorius Dagsson of Bratsberg, Lendsmann
+}
+1161.1.7 = {
+	holder = 202507 # Håkon Herdebrei, son of Sigurd Munn
+}
+1162.7.7 = {
+	holder = 202051 # Magnus Erlingsson
+}
+1184.6.15 = {
+	holder = 202500 # Sverre Sigurdsson
+}
+1187.1.1 = {
+	holder = 202003
+}
+1200.1.1 = {
+	holder = 202500 # Sverre Sigurdsson
+}
+1202.3.9 = {
+	holder = 202502 # Håkon Sverreson
+}
+1204.1.1 = {
+	holder = 202508 # Guttorm Sigurdsson
+}
+1204.8.11 = {
+	holder = 202032 # Inge Bårdsson
+}
+1217.4.23 = {
+	holder = 202509 # Håkon Håkonsson
+}
+1263.12.15 = {
+	holder = 6905 # Magnus Lagaböter
+}
+1280.5.9 = {
+	holder = 6906 # Erik 'Prästhatare' Magnusson
+}
+1299.7.15 = {
+	holder = 452510 # Håkon Magnusson
+}
+1319.5.8 = {
+	holder = 450500 # Magnus Eriksson (Bjälbo)
+}
+1337.1.1 = {
+	holder = 450740
+}

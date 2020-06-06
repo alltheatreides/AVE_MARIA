@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 812 - Malta
+
+# County Title
+title = c_malta
+
+# Settlements
+max_settlements = 4
+b_mdina = castle #re-fortified during Fatimid times
+b_gozo = city
+#b_sanpawl = temple
+
+#b_birzebbuga = castle
+#b_marsascala = castle
+#b_mgarr = castle
+#b_sangjilan = castle
+#b_sliema = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+895.1.1 = { religion = sunni }
+895.1.1 = { culture = maghreb_arabic }
+960.1.1 = { culture = sicilian_arabic }
+1099.1.1 = { trade_post = b_ziani }
+1147.1.1 = { religion = catholic }
+1147.1.1 = { culture = sicilian }
+1147.1.1 = { b_sanpawl = temple } 

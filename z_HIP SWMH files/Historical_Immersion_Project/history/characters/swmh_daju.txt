@@ -1,0 +1,253 @@
+# -*- ck2.history.characters -*-
+###################################################
+#SWMH Daju characters range: 1238000-1238099
+###################################################
+
+#First Daju dynasty
+1238000 = {
+	name="Gita" #
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	841.1.1={
+		birth = yes
+	}
+	899.1.1={
+		death = yes
+	}
+}
+1238001 = {
+	name="Kosom" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238000
+	865.1.1={
+		birth = yes
+	}
+	918.1.1={
+		death = yes
+	}
+}
+1238002 = {
+	name="Gon" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238001
+	891.1.1={
+		birth = yes
+	}
+	958.1.1={
+		death = yes
+	}
+}
+1238003 = {
+	name="Anqarib" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238002
+	919.1.1={
+		birth = yes
+	}
+	975.1.1={
+		death = yes
+	}
+}
+1238004 = {
+	name="Magjin" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238003
+	943.1.1={
+		birth = yes
+	}
+	1004.1.1={
+		death = yes
+	}
+}
+1238005 = {
+	name="Koydin" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238004
+	974.1.1={
+		birth = yes
+	}
+	1026.1.1={
+		death = yes
+	}
+}
+1238006 = {
+	name="Yug" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238005
+	1002.1.1={
+		birth = yes
+	}
+	1057.1.1={
+		death = yes
+	}
+}
+1238007 = {
+	name="Shuaeib" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238006
+	1030.1.1={
+		birth = yes
+	}
+	1092.1.1={
+		death = yes
+	}
+}
+1238008 = {
+	name="Rong" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238007
+	1056.1.1={
+		birth = yes
+	}
+	1106.1.1={
+		death = yes
+	}
+}
+1238009 = {
+	name="Risha" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238008
+	1080.1.1={
+		birth = yes
+	}
+	1129.1.1={
+		death = yes
+	}
+}
+1238010 = {
+	name="Ber" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238009
+	1102.1.1={
+		birth = yes
+	}
+	1160.1.1={
+		death = yes
+	}
+}
+1238011 = {
+	name="Asil" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238010
+	1132.1.1={
+		birth = yes
+	}
+	1185.1.1={
+		death = yes
+	}
+}
+1238012 = {
+	name="Ett" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238011
+	1156.1.1={
+		birth = yes
+	}
+	1219.1.1={
+		death = yes
+	}
+}
+1238013 = {
+	name="Gaguwe" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238012
+	1182.1.1={
+		birth = yes
+	}
+	1234.1.1={
+		death = yes
+	}
+}
+1238014 = {
+	name="Chaski" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238013
+	1203.1.1={
+		birth = yes
+	}
+	1265.1.1={
+		death = yes
+	}
+}
+1238015 = {
+	name="Hajar" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238014
+	1230.1.1={
+		birth = yes
+	}
+	1297.1.1={
+		death = yes
+	}
+}
+1238016 = {
+	name="Ishaq" #name fictional
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238015
+	1264.1.1={
+		birth = yes
+	}
+	1309.1.1={
+		death = yes
+	}
+}
+1238017 = {
+	name="Kuroma" #
+	dynasty=1000101203
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="daju"
+	father=1238016
+	1287.1.1={
+		birth = yes
+	}
+	1315.1.1={
+		death = yes
+	}
+}
+
+#Tunjur dynasty
+1238018 = {
+	name="Ibrahim" #name fictional
+	dynasty=1000101106
+	religion=sunni
+	culture="kanuri"
+	1288.1.1={
+		birth = yes
+	}
+	1343.1.1={
+		death = yes
+	}
+}

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1268 - Koporje
+
+# County Title
+title = c_koporje
+
+# Settlements
+max_settlements = 3
+
+b_koporje = tribal
+#b_kingisepp = castle
+#b_ivanovskaya = castle
+#b_khotchino = city
+
+# Misc
+culture = ugricbaltic
+religion = finnish_pagan
+
+# History
+1150.1.1 = { religion = orthodox }
+1249.1.1 = { b_koporje = castle }
+

@@ -1,0 +1,965 @@
+# -*- ck2.events -*-
+
+# The German Melting Pot
+
+namespace = SWMH
+
+character_event = {
+	id = SWMH.10
+	desc = "EVTDESCSWMH.10"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1170
+		OR = {
+			culture = franconian
+			culture = bavarian
+			culture = swabian
+			culture = thuringian
+		}
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			OR = {
+				culture = franconian
+				culture = bavarian
+				culture = swabian
+				culture = thuringian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.6
+			learning = 7
+		}
+		modifier = {
+			factor = 0.65
+			learning = 9
+		}
+		modifier = {
+			factor = 0.7
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTASWMH.10"
+		culture = german
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				OR = {
+					culture = franconian
+					culture = bavarian
+					culture = swabian
+					culture = thuringian
+				}
+			}
+			culture = german
+		}
+	}
+}
+
+# It's spreading (German)
+character_event = {
+	id = SWMH.11
+	desc = "EVTDESCSWMH.11"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1170
+		culture = german
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			OR = {
+				culture = franconian
+				culture = bavarian
+				culture = swabian
+				culture = thuringian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.11"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				OR = {
+					culture = franconian
+					culture = bavarian
+					culture = swabian
+					culture = thuringian
+				}
+			}
+			culture = german
+		}
+	}
+}
+
+#Make my court speak German
+character_event = {
+	id = SWMH.12
+	desc = "EVTDESCSWMH.12"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1170
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_courtier = {
+			OR = {
+				culture = franconian
+				culture = bavarian
+				culture = swabian
+				culture = thuringian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.12"
+		random_courtier = {
+			limit = {
+				OR = {
+					culture = franconian
+					culture = bavarian
+					culture = swabian
+					culture = thuringian
+				}
+			}
+			culture = german
+			hidden_tooltip = {
+				character_event = { id = SWMH.14 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak German
+character_event = {
+	id = SWMH.13
+	desc = "EVTDESCSWMH.13"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1170
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_vassal = {
+			OR = {
+				culture = franconian
+				culture = bavarian
+				culture = swabian
+				culture = thuringian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.13"
+		random_vassal = {
+			limit = {
+				OR = {
+					culture = franconian
+					culture = bavarian
+					culture = swabian
+					culture = thuringian
+				}
+			}
+			culture = german
+			hidden_tooltip = {
+				character_event = { id = SWMH.14 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = SWMH.14
+	desc = "EVTDESCSWMH.14"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.14"
+		culture = german
+	}
+}
+
+##
+# The Low German Melting Pot
+character_event = {
+	id = SWMH.15
+	desc = "EVTDESCSWMH.15"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1100
+		culture = low_saxon
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			culture = low_saxon
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.6
+			learning = 7
+		}
+		modifier = {
+			factor = 0.65
+			learning = 9
+		}
+		modifier = {
+			factor = 0.7
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTASWMH.15"
+		culture = low_german
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				culture = low_saxon
+			}
+			culture = low_german
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = SWMH.16
+	desc = "EVTDESCSWMH.16"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1100
+		culture = low_german
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			culture = low_saxon
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.16"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				culture = low_saxon
+			}
+			culture = low_german
+		}
+	}
+}
+
+#Make my court speak Low German
+character_event = {
+	id = SWMH.17
+	desc = "EVTDESCSWMH.17"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1100
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_courtier = {
+			culture = low_saxon
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.17"
+		random_courtier = {
+			limit = {
+				culture = low_saxon
+			}
+			culture = low_german
+			hidden_tooltip = {
+				character_event = { id = SWMH.19 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Low German
+character_event = {
+	id = SWMH.18
+	desc = "EVTDESCSWMH.18"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1100
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_vassal = {
+			culture = low_saxon
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.18"
+		random_vassal = {
+			limit = {
+				culture = low_saxon
+			}
+			culture = low_german
+			hidden_tooltip = {
+				character_event = { id = SWMH.19 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = SWMH.19
+	desc = "EVTDESCSWMH.19"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.19"
+		culture = low_german
+	}
+}
+
+##
+# The Dutch Melting Pot
+character_event = {
+	id = SWMH.20
+	desc = "EVTDESCSWMH.20"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1150
+		culture = low_frankish
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_france
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			culture = low_frankish
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.6
+			learning = 7
+		}
+		modifier = {
+			factor = 0.65
+			learning = 9
+		}
+		modifier = {
+			factor = 0.7
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTASWMH.20"
+		culture = dutch
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_france
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				culture = low_frankish
+			}
+			culture = dutch
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = SWMH.21
+	desc = "EVTDESCSWMH.21"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1150
+		culture = dutch
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_germany
+					title = k_france
+					title = k_lotharingia
+					title = k_burgundy
+					title = k_lower_lorraine
+					title = k_upper_lorraine
+					title = k_franconia
+					title = k_bavaria
+					title = k_schwaben					
+					title = k_saxony
+					title = k_frisia
+					title = k_carinthia
+					title = k_bohemia
+					title = k_pomerania
+				}
+			}
+			culture = low_frankish
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.21"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_germany
+						title = k_france
+						title = k_lotharingia
+						title = k_burgundy
+						title = k_lower_lorraine
+						title = k_upper_lorraine
+						title = k_franconia
+						title = k_bavaria
+						title = k_schwaben					
+						title = k_saxony
+						title = k_frisia
+						title = k_carinthia
+						title = k_bohemia
+						title = k_pomerania
+					}
+				}
+				culture = low_frankish
+			}
+			culture = dutch
+		}
+	}
+}
+
+#Make my court speak Dutch
+character_event = {
+	id = SWMH.22
+	desc = "EVTDESCSWMH.22"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1150
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+			culture = frankish
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_france
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_courtier = {
+			culture = low_frankish
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.22"
+		random_courtier = {
+			limit = {
+				culture = low_frankish
+			}
+			culture = dutch
+			hidden_tooltip = {
+				character_event = { id = SWMH.24 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Dutch
+character_event = {
+	id = SWMH.23
+	desc = "EVTDESCSWMH.23"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1150
+		OR = {
+			culture = german
+			culture = low_german
+			culture = dutch
+			culture = frankish
+		}	
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_hre
+							title = k_france
+							title = k_germany
+							title = k_lotharingia
+							title = k_burgundy
+							title = k_italy
+							title = k_lower_lorraine
+							title = k_upper_lorraine
+							title = k_franconia
+							title = k_bavaria
+							title = k_schwaben					
+							title = k_saxony
+							title = k_frisia
+							title = k_carinthia
+							title = k_bohemia
+							title = k_pomerania
+						}
+					}
+				}
+			}
+		}	
+		any_vassal = {
+			culture = low_frankish
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTASWMH.23"
+		random_vassal = {
+			limit = {
+				culture = low_frankish
+			}
+			culture = dutch
+			hidden_tooltip = {
+				character_event = { id = SWMH.24 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = SWMH.24
+	desc = "EVTDESCSWMH.24"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.24"
+		culture = dutch
+	}
+}

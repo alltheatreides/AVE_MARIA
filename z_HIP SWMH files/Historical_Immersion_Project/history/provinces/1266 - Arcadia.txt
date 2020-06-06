@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1266 - Arcadia
+
+# County Title
+title = c_arcadia
+
+# Settlements
+max_settlements = 3
+
+b_nikli = castle
+b_veligosti = city
+
+#b_akova = tribal
+#b_karytaina = castle
+#b_tripolitsa = city
+
+# Misc
+culture = bulgarian
+religion = slavic_pagan
+terrain = mountain
+
+# History
+980.1.1 = { b_nikli = castle }
+980.1.1 = { religion = orthodox }
+980.1.1 = { culture = greek }
+#1137.1.1 = { trade_post = b_morosini }
+
+1204.8.1 = { b_akova = castle }
+1204.8.1 = { b_karytaina = castle }
+1204.8.1 = { remove_settlement = b_veligosti }
+

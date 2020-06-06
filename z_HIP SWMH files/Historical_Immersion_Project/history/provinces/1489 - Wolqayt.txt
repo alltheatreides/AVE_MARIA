@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 1489 - Wolqayt
+
+# County Title
+title = c_wolqayt
+
+# Settlements
+max_settlements = 2
+
+b_wolqayt = tribal
+
+#b_showak = city
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History

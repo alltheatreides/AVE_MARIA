@@ -1,0 +1,26 @@
+# 248 - Thurgau
+
+# County Title
+title = c_thurgau
+
+# Settlements
+max_settlements = 4
+
+b_kyburg = castle
+b_stgallen = temple
+b_zurich = city
+
+#b_toggenburg = castle
+
+#b_winterthur = city
+#b_regensberg = castle 
+#b_schanis = temple #Schänis
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1044.1.1 = { b_toggenburg = castle } 
+1170.1.1 = { culture = german }
+#1180.1.1 = { b_winterthur= city } 

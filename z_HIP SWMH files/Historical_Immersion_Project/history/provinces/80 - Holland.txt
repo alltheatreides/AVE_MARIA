@@ -1,0 +1,33 @@
+# 80 - Holland
+
+# County Title
+title = c_holland
+
+# Settlements
+max_settlements = 6
+
+b_haarlem = castle
+
+#b_dordrecht = city 
+#b_rijnsburg = temple 
+#b_leiden = castle 
+#b_sgravenhage = castle 
+#b_amsterdam = city 
+
+##
+#b_brederode = castle 
+
+# Misc
+culture = frisian 
+religion = catholic
+
+# History
+1000.1.1 = { b_leiden = castle }
+1101.1.1 = { culture = low_frankish } # first count of Holland, his predecessors were know as Frisian Counts.
+1133.1.1 = { b_rijnsburg = temple }
+1150.1.1 = { culture = dutch }
+1220.1.1 = { b_dordrecht = city }
+1248.1.1 = { b_sgravenhage = castle }
+1248.1.1 = { capital = b_sgravenhage }
+1300.1.1 = { b_amsterdam = city }
+1317.1.1 = { trade_post = b_warendorp }

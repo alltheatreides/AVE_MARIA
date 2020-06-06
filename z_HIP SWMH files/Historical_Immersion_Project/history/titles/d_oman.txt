@@ -1,0 +1,143 @@
+# -*- ck2.history.titles -*-
+
+665.1.1 = {
+	liege = e_arabia
+}
+# "First Imammate"
+751.1.1 = {
+	liege = 0 # De facto
+	holder = 188763 # al-Julanda bin Masood
+}
+# 775.1.1={
+# holder =  # Mohammed bin Abi Affan
+# }
+# 801.1.1={
+# holder =  # Al-Warith bin Ka'ab al-Kharusi al-Yahmadi
+# }
+# 807.1.1={
+# holder =  # Ghassan bin Abdullah al-Fejhy al-Yahmadi al-Azdi
+# }
+# 824.1.1={
+# holder =  # Abdulmalik bin Humaid
+# }
+# 840.1.1={
+# holder =  # Al-Muhanna bin Jayfar al-Fejhi al-Yahmadi al-Azdi
+# }
+851.1.1 = {
+	holder = 74037 # al-Salt bin Malik
+}
+886.1.1={
+	holder = 1500070 # Rashid bin Al-Nadhar
+}
+893.1.1={ #Oman occupied by the Abbasid governor of Iraq Muhammad b. Nur
+	liege = e_arabia
+}
+897.1.1={
+	holder = 1500072 # Azzan bin Tamim al-Kharusi
+}
+#896-918: Ahmad b. Hilal, former deputy of Muhammad b. Nur in Nizwa
+
+# 897.1.1={
+# holder =  # Mohammed bin Al-Hassan al-Azdi al-Kharusi
+# }
+# 898.1.1={
+# holder =  # Azzan bin Al-Hazbar al-Maliki al-Yahmadi
+# }
+# 899.1.1={
+# holder =  # Abdullah bin Mohammed al-Haddani
+# }
+# 900.1.1={
+# holder =  # Al-Salt bin Al-Qasim (and Al-Husn bin Said)
+# }
+# 904.1.1={
+# holder =  # Al-Hawari bin Matraf al-Haddani
+# }
+# 912.1.1={
+# holder =  # Omar bin Mohammed b. Matraf al-Haddani
+# }
+918.1.1={
+	liege = 0
+}
+# 920.1.1={
+# holder =  # Mohammed bin Yazid al-Kindi
+# }
+# 930.1.1={
+# holder =  # Al-Hakm bin Al-Milaa Al-Bahri
+# }
+932.1.1 = {
+	holder = 1500123 # Said bin Abdullah b. Muhammad b. Mahbub b. al-Rahil b. Seif b. Hubayra
+}
+940.1.1={
+	holder = 1500125 # Rashid bin Waleed
+}
+953.1.1={ #Rashid b. Walid surrenders to the Wajihids
+	holder = 1234910
+}
+962.1.1 = {
+	holder = 1900834
+}
+965.1.1 = {
+	liege = k_mesopotamia
+	holder = 1500212 #Umar b. Nabhan al-Taiy, ca. 970
+}
+#Buyid governor of Oman kicked out sometime before 970
+973.1.1={
+	liege = 0
+	holder = 1231065 # Azod al-Dawla
+}
+976.9.9 = {
+	liege = k_persia
+}
+983.3.3 = {
+	holder = 1231071
+}
+989.6.9 = {
+	holder = 1231070
+}
+998.12.1 = {
+	holder = 1231072
+}
+1000.1.1 = {
+	holder = 1236256
+}
+# "Second Imammate"
+1002.1.1={
+	liege = 0
+	holder = 1500056 # Al-Khalil bin Shadhan
+}
+1032.1.1 = {
+	holder = 1229630 # Rashid b. Sa'id
+}
+1053.1.1 = {
+	holder = 1500226 #placeholder imam
+}
+1059.1.1 = {
+	holder = 1500227 #placeholder imam
+}
+1068.1.1 = {
+	holder = 1500225 #placeholder imam
+}
+1083.1.1 = {
+	holder = 1500211 # 'Amir b. Rashid b. Walid al-Kharusi
+}
+1099.1.1 = {
+	holder = 1236020 # Rashid b. Ali
+}
+1119.1.1 = {
+	holder = 1236017 #? Khanbash b. Muhammad
+}
+1132.1.1 = {
+	holder = 1236018 # Musa
+}
+1154.1.1 = {
+	holder = 1236016 # Muhammad b. Khanbash
+}
+1161.1.1 = {
+	holder = 1500220 #? Khalil b. Abdallah
+}
+1165.1.1 = {
+	holder = 1500222 #? Muhammad b. Ghassan b. Abdallah
+}
+1197.1.1 = {
+	holder = 0
+}

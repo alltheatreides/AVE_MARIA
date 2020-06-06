@@ -1,0 +1,103 @@
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+	liege = d_kabul
+	holder = 178021
+}
+870.1.1 = { #Hindu Shahis expelled from Kabul and relocated to Udabhanda
+	liege = d_gandhara
+	holder = 175060
+}
+895.1.1 = {
+	holder = 1231300
+}
+900.1.1 = {
+	holder = 1240015
+}
+921.1.1 = {
+	holder = 1240016
+}
+964.1.1 = {
+	holder = 1240003
+}
+#Ghakkars
+#983-end of game
+#Muslims from around 1180
+995.1.1 = {
+	holder = 191971
+}
+1005.1.1 = {
+	holder = 191972 #Kai Gohar
+}
+1010.1.1={ #Mahmud Ghazni defeats the Hindu Shahi army at Waihind in 1008
+	liege = k_kafarestan
+	holder = 144125
+}
+1013.1.1={ #Mahmud Ghazni captures Nandana
+	holder = 191972 #Kai Gohar
+}
+1021.1.1={
+	liege = d_lahore
+}
+1031.1.1={
+	holder = 191973 #Bag Han
+}
+1041.8.1 = {
+	liege = d_gandhara
+}
+1053.1.1 = {
+	liege = k_kafarestan
+}
+1065.1.1={
+	holder = 191974 #Mahpal Han
+}
+1097.1.1 = {
+	liege = d_gandhara
+}
+1101.1.1={
+	holder = 191975 #Mu'azzam Han
+	#muslims
+}
+1116.1.1 = {
+	liege = k_kafarestan
+}
+1135.1.1={
+	holder = 191976 #Asi Han
+}
+1152.1.1={
+	holder = 191977 #Ragar Han
+}
+1173.1.1 = {
+	liege = k_punjab
+}
+1175.1.1 = {
+	liege = d_zabulistan # Mu'izz Ghurid
+}
+1186.1.1={
+	#liege = d_lahore
+	holder = 191978 #Sipihr Han
+}
+1192.1.1 = {
+	liege = k_punjab
+}
+1199.1.1={
+	holder = 191979 #Surkah Han
+}
+1206.1.1={
+	holder = 191980 #Fidai Han
+}
+#1206.3.15 = {
+#	liege = e_rajastan
+#}
+1220.1.1={
+	holder = 191981 #Mang Han
+}
+1267.1.1={
+	holder = 191982 #Lahar Han
+}
+1330.1.1={
+	holder = 191983 #Lakhan Han
+}
+1341.1.1={
+	holder = 191984 #Haydar Han
+}

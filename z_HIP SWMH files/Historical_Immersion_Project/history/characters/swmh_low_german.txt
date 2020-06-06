@@ -1,0 +1,4591 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  Low Saxon and Low German characters
+###############################################################
+#Low Saxon and Low German character 
+#Range: 1236950-1236999
+#Range: 1237018-1237049
+#Range: 1603000-1603500
+###########
+### Counts of Rüstringen/Oldenburg
+1236950 = { 
+	name="Huno"
+	dynasty=224
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	trait="tough_soldier"
+	father=1236952
+	1001.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+### Counts of Rüstringen/Oldenburg
+1236951 = { 
+	name="Hadwig"
+	female=yes
+	dynasty=224
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236952
+	1006.1.1 = {
+		birth=yes
+	}
+	1063.1.1 = {
+		death=yes
+	}
+}
+1236952 = { 
+	name="Huno"
+	dynasty=224
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	trait="tough_soldier"
+	979.1.1 = {
+		birth=yes
+	}
+	1031.1.1 = {
+		death=yes
+	}
+}
+1236953 = { 
+	name="Adalbrand"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	979.1.1 = {
+		birth=yes
+	}
+	1043.4.15 = {
+		death=yes
+	}
+}
+1236954 = { 
+	name="Rudbert"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	999.1.1 = {
+		birth=yes
+	}
+	1063.1.1 = {
+		death=yes
+	}
+}
+1236955 = { 
+	name="Hermann"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	990.1.1 = {
+		birth=yes
+	}
+	1042.1.1 = {
+		death=yes
+	}
+}
+1236956 = { 
+	name="Alberich"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	997.1.1 = {
+		birth=yes
+	}
+	1052.4.19 = {
+		death=yes
+	}
+}
+1236957 = { 
+	name="Wazzo"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	997.1.1 = {
+		birth=yes
+	}
+	1048.7.8 = {
+		death=yes
+	}
+}
+1236958 = { 
+	name="Udalrich"
+	dynasty=1000035156
+	religion="catholic"
+	culture="low_saxon"
+
+	942.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes
+	}
+}
+1236959 = {
+	name="Oda"
+	female=yes
+	dynasty=669
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33460
+	mother=1413
+	996.1.1 = {
+		birth=yes
+	}
+	1027.1.1 = {
+		death=yes
+	}
+}
+1236960 = { 
+	name="Hermann"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	979.1.1 = {
+		birth=yes
+	}
+	1035.1.1 = {
+		death=yes
+	}
+}
+1236961 = { 
+	name="Liawizo"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	mother=1236962
+	970.1.1 = {
+		birth=yes
+	}
+	1032.8.24 = {
+		death=yes
+	}
+}
+1236962 = { 
+	name="Oda"
+	female=yes
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236964
+	950.1.1 = {
+		birth=yes
+	}
+	1012.1.1 = {
+		death=yes
+	}
+}
+1236963 = { 
+	name="Liawizo"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236964
+	948.1.1 = {
+		birth=yes
+	}
+	1013.1.4 = {
+		death=yes
+	}
+}
+1236964 = { 
+	name="Liawizo"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	922.1.1 = {
+		birth=yes
+	}
+	979.1.4 = {
+		death=yes
+	}
+}
+1236965=  {
+	name="Waldered"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33246
+	935.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes
+	}
+}
+1236966=  {
+	name="Thiedrich"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236965
+	957.1.1 = {
+		birth=yes
+	}
+	995.3.6 = {
+		death=yes
+	}
+}
+1236967=  {
+	name="Siegbert"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236965
+	958.1.1 = {
+		birth=yes
+	}
+	995.10.14 = {
+		death=yes
+	}
+}
+1236968=  {
+	name="Unwan"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236967
+	980.1.1 = {
+		birth=yes
+	}
+	1029.1.27 = {
+		death=yes
+	}
+}
+1236969 = {
+	name="Siegfried"
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=168543
+	
+	957.1.1 = {
+		birth = yes
+	}
+	972.1.1 = {
+		add_spouse="1236988"
+	}	
+	990.3.15 = {
+		death = yes
+	}
+}
+1236970 = {
+	name="Siegfried"
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236969
+	mother=1236988
+	
+	981.1.1 = {
+		birth = yes
+	}
+	1032.11.27 = {
+		death = yes
+	}
+}
+1236971 = {
+	name="Dietrich"
+	dynasty=12411
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	mother=1236993	
+	974.1.1 = {
+		birth = yes
+	}
+	1022.1.23 = {
+		death = yes
+	}
+}
+1236972 = { 
+	name="Gozmar"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	985.1.1 = {
+		birth=yes
+	}
+	1036.12.10 = {
+		death=yes
+	}
+}
+1236973 = { 
+	name="Meginher"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	983.1.1 = {
+		birth=yes
+	}
+	1027.12.10 = {
+		death=yes
+	}
+}
+1236974 = { 
+	name="Thietmar"
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	970.1.1 = {
+		birth=yes
+	}
+	1022.6.18 = {
+		death=yes
+	}
+}
+1236975 = {
+	name="Günther"
+	dynasty=669
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33460
+	mother=1413
+	986.1.1 = {
+		birth=yes
+	}
+	1025.11.1 = {
+		death=yes
+	}
+}
+1236976 = {
+	name = "Meginhard" #Meginhard IV
+	dynasty = 1064000	
+	religion = "catholic"
+	culture = "low_saxon"
+	father = 263005 #Eberhard
+	mother = 263006
+	898.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		add_spouse = 263010
+	}
+#	930.1.1 = {
+#		add_spouse = 263012
+#	}
+	955.3.15 = {
+		death = yes
+	}
+}
+1236977 = {
+	name="Wichmann"
+	dynasty=1064000
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1236976 #Meginhard IV
+	mother = 263010
+	934.1.1 = {
+		birth = yes
+	}
+	973.3.15 = {
+		death = yes
+	}
+}
+1236978 = {
+	name="Adela"
+	female=yes
+	dynasty=1064000
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236977
+	950.1.1 = {
+		birth=yes
+	}
+	1021.1.1 = {
+		death=yes
+	}
+}
+1236979 = {
+	name="Liutgard"
+	female=yes
+	dynasty=1064000
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236977
+	953.1.1 = {
+		birth=yes
+	}
+	997.1.1 = {
+		death=yes
+	}
+}
+1236980 = {
+	name="Dietrich"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33245
+	mother=1236978	
+	970.1.1 = {
+		birth=yes
+	}
+	1018.4.7 = {
+		death=yes
+	}
+}
+1236981 = {
+	name="Meinwerk"
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33245
+	mother=1236978	
+	974.1.1 = {
+		birth=yes
+	}
+	1036.6.5 = {
+		death=yes
+	}
+}
+1236982 = {
+	name="Glismod"
+	female=yes
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=33245
+	mother=1236978	
+	977.1.1 = {
+		birth=yes
+	}
+	1040.2.5 = {
+		death=yes
+	}
+}
+1236983 = {
+	name="Siegfried"
+	dynasty=766
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	955.1.1 = {
+		birth=yes
+	}
+	1004.11.1 = {
+		death=yes
+	}
+}
+1236984 = {
+	name="Siegfried"
+	dynasty=766
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236983
+	992.1.1 = {
+		birth=yes
+	}
+	1025.1.1 = {
+		death=yes
+	}
+}
+1236985 = {
+	name="Frederuna"
+	female=yes
+	dynasty=7282
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	mother=1236982	
+	999.1.1 = {
+		birth=yes
+	}
+	1046.1.1 = {
+		death=yes
+	}
+}
+1236986 = {
+	name="Siegfried" #Siegfried I, Count of Stade
+	dynasty=661
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=167787	
+	923.1.1 = {
+		birth=yes
+	}
+	962.1.1 = {
+		death=yes
+	}
+}
+1236987 = {
+	name="Heinrich" #Heinrich "the Good" Count of Stade
+	dynasty=661
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=30245	
+	946.1.1 = {
+		birth=yes
+	}
+	1016.10.2 = {
+		death=yes
+	}
+}
+1236988 = {
+	name="Kunigunde" #Kunigunde von Stade, married Siegfried I, Count of Walbeck, gave birth to Thietmar Prince-Bishop of Merseburg the big chronicler of the Ottonian Dynasty, Germany and the HRE
+	female=yes
+	dynasty=661
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=30245	
+	956.1.1 = {
+		birth=yes
+	}
+	997.7.13 = {
+		death=yes
+	}
+}
+1236989 = {
+	name="Eilika"
+	female=yes
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=168543
+	
+	956.1.1 = {
+		birth = yes
+	}	
+	1015.8.19 = {
+		death = yes
+	}
+}
+1236990 = {
+	name="Heinrich"
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236969
+	mother=1236988	
+	
+	973.1.1 = {
+		birth = yes
+	}	
+	1004.9.1 = {
+		death = yes
+	}
+}
+1236991 = {
+	name="Friedrich"
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236969
+	mother=1236988	
+	
+	974.1.1 = {
+		birth = yes
+	}	
+	1018.1.1 = {
+		death = yes
+	}
+}
+1236992 = {
+	name="Thietmar"
+	dynasty=9600
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236969
+	mother=1236988	
+	
+	975.7.25 = {
+		birth = yes
+	}	
+	1018.12.1 = {
+		death = yes
+	}
+}
+1236993 = {
+	name="Gerberg" #Gerberg von Stade, mother of Dietrich, Bishop of Münster
+	female=yes
+	dynasty=661
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=30245	
+	954.1.1 = {
+		birth=yes
+	}
+	1000.1.1 = {
+		death=yes
+	}
+}
+1236994 = {
+	name="Siegfried" #Siegfried III, Count of Stade
+	dynasty=661
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236987	
+	970.1.1 = {
+		birth=yes
+	}
+	994.10.26 = {
+		death=yes
+	}
+}
+1236995 = {
+	name="Thietmar"
+	dynasty=656
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1412
+	mother=1421
+	998.1.1 = {
+		birth=yes
+	}
+	1048.10.1 = {
+		death=yes
+	}
+}
+1236996 = {
+	name="Godesti"
+	female=yes
+	dynasty=656
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1412
+	mother=1421
+	993.1.1 = {
+		birth=yes
+	}
+	1041.1.1 = {
+		death=yes
+	}
+}
+1236997 = {
+	name="Gerbert" #Earliest mentioned ancestor of the Stumpenhusen family, in the late 1000's
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	1035.1.1 = {
+		birth=yes
+	}
+	1091.1.1 = {
+		death=yes
+	}
+}
+1236998 = {
+	name="Adolf" #son of Gerbert, ancestor of the Versfleth line of the family
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236997
+	1070.1.1 = {
+		birth=yes
+	}
+	1125.1.1 = {
+		death=yes
+	}
+}
+1236999 = {
+	name="Gerbert" #aka. Gero, son of Gerbert, and father of Wedekind, Count of Stumpenhusen who later married a daughter of the Count of Wildeshausen
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236997
+	1064.1.1 = {
+		birth=yes
+	}
+	1096.1.1 = {
+		death=yes
+	}
+}
+1237018 = {
+	name="Gerhard" #last son of Gerbert
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236997
+	1071.1.1 = {
+		birth=yes
+	}
+	1125.1.1 = {
+		death=yes
+	}
+}
+1237019 = {
+	name="Widukind" #Wedekind von Stumpenhusen, count of Stumpenhusen
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236999
+	1095.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1237020 = {
+	name="Gerbert" #Gerbert I von Versfleth, according to Europäische Stammtafeln, the father of the Vanilla character Kunigunde
+	dynasty=222
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1236998
+	1093.1.1 = {
+		birth=yes
+	}
+	1148.1.1 = {
+		death=yes
+	}
+}
+1237021 = {
+	name="Heinrich" #Heinrich von Stumpenhusen, count of Stumpenhusen son of Widukind
+	dynasty=222
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237019
+	1140.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+1237022 = {
+	name="Burchard" #Burchard von Stumpenhusen, Bishop claimant of Bremen/Hamburg between 1208-1210 son of Widukind
+	dynasty=222
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237019
+	1144.1.1 = {
+		birth=yes
+	}
+	1231.1.1 = {
+		death=yes
+	}
+}
+1237023 = {
+	name="Heinrich" #Heinrich I von Hoya, first count of Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	1180.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		add_spouse = 1237026
+	}	
+	1235.11.25 = {
+		death=yes
+	}
+}
+1237024 = {
+	name="Konrad"
+	dynasty=7111
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237025	
+	1209.1.1 = {
+		birth=yes
+	}
+	1255.7.23 = {
+		death=yes
+	}
+}
+1237025 = {
+	name="Bernhard"
+	dynasty=7111
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	1176.1.1 = {
+		birth=yes
+	}
+	1221.1.1 = {
+		death=yes
+	}
+}
+1237026 = {
+	name="Richenza"
+	female=yes
+	dynasty=7111
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237025	
+	1194.1.1 = {
+		birth=yes
+	}
+	1227.1.1 = {
+		death=yes
+	}
+}
+1237027 = {
+	name="Sophie"
+	female=yes
+	dynasty=7111
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237025	
+	1197.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1237028 = {
+	name="Jutta"
+	female=yes
+	dynasty=7111
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237025	
+	1198.1.1 = {
+		birth=yes
+	}
+	1216.1.1 = {
+		death=yes
+	}
+}
+1237029 = {
+	name="Heinrich" #Heinrich II von Hoya, second count of Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237023
+	mother=1237026	
+	1217.1.1 = {
+		birth=yes
+	}
+	1234.1.1 = {
+		add_spouse = 1603019
+	}	
+	1290.11.25 = {
+		death=yes
+	}
+}
+1237030 = {
+	name="Jutta" #Jutta/Judith von Hoya, married to Ludolf von Hallermund
+	female=yes
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237023
+	mother=1237026	
+	1225.1.1 = {
+		birth=yes
+	}	
+	1272.1.1 = {
+		death=yes
+	}
+}
+1237031 = {
+	name="Widukind" #Wedekind von Hoya, Bishop of Minden 1253-1261, brother of Heinrich II von Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237023
+	mother=1237026	
+	1224.1.1 = {
+		birth=yes
+	}	
+	1261.1.1 = {
+		death=yes
+	}
+}
+1237032 = {
+	name="Gerhard" #Gerhard von Hoya, Bishop of Verden 1251-1269, brother of Heinrich II von Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237023
+	mother=1237026	
+	1220.1.1 = {
+		birth=yes
+	}	
+	1269.5.4 = {
+		death=yes
+	}
+}
+1237033 = {
+	name="Gerhard" #Gerhard von Hoya, third count of Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237029 #Heinrich II von Hoya
+	mother=1603019
+	1248.1.1 = {
+		birth=yes
+	}	
+	1313.1.1 = {
+		death=yes
+	}
+}
+1237034 = {
+	name="Otto" #Otto von Hoya, fourth count of Hoya
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237029 #Heinrich II von Hoya
+	mother=1603019	
+	1251.1.1 = {
+		birth=yes
+	}	
+	1324.8.2 = {
+		death=yes
+	}
+}
+1237035 = {
+	name="Ermengard"
+	female=yes
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237029 #Heinrich II von Hoya
+	mother=1603019	
+	1237.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes
+	}
+}
+1237036 = {
+	name="Gerhard" #Gerhard von Hoya, fifth count of Hoya alongside his brother
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237034
+	1305.1.1 = {
+		birth=yes
+	}	
+	1383.1.1 = {
+		death=yes
+	}
+}
+1237037 = {
+	name="Johann" #Johann von Hoya, fifth count of Hoya alongside his brother
+	dynasty=7131  #von Hoya
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237034
+	1307.1.1 = {
+		birth=yes
+	}	
+	1377.1.1 = {
+		death=yes
+	}
+}
+1237038 = {
+	name="Gebhard" #Gebhard von Stotel, Count/Lord of Stotel -1202
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	1156.1.1 = {
+		birth=yes
+	}	
+	1202.1.1 = {
+		death=yes
+	}
+}
+1237039 = {
+	name="Rudolf" #Rudolf von Stotel, Count/Lord of Stotel 1202-1229
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237038	
+	1178.1.1 = {
+		birth=yes
+	}	
+	1229.1.1 = {
+		death=yes
+	}
+}
+1237040 = {
+	name="Gerbert" #Gerbert von Stotel, Count/Lord of Stotel 1229-1267
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237039	
+	1214.1.1 = {
+		birth=yes
+	}	
+	1267.1.1 = {
+		death=yes
+	}
+}
+1237041 = {
+	name="Rudolf" #Rudolf von Stotel
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237039	
+	1205.1.1 = {
+		birth=yes
+	}	
+	1228.1.1 = {
+		death=yes
+	}
+}
+1237042 = {
+	name="Johann" #Johann von Stotel, Count/Lord of Stotel 1267-1306
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237040	
+	1251.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death=yes
+	}
+}
+1237043 = {
+	name="Hildebold" #Hildebold von Stotel, co-ruler of Stotel for a short period of time after Gerbert's death
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237040
+	1253.1.1 = {
+		birth=yes
+	}	
+	1298.11.30 = {
+		death=yes
+	}
+}
+1237044 = {
+	name="Johann" #Johann von Stotel, Count/Lord of Stotel 1306-1326
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237042	
+	1280.1.1 = {
+		birth=yes
+	}	
+	1326.1.1 = {
+		death=yes
+	}
+}
+1237045 = {
+	name="Volrad" #Volrad I von Dannenberg, first known Count of Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	1114.1.1 = {
+		birth=yes
+	}	
+	1169.1.1 = {
+		death=yes
+	}
+}
+1237046 = {
+	name="Heinrich" #Heinrich I von Dannenberg, second Count of Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237045	
+	1143.1.1 = {
+		birth=yes
+	}	
+	1209.1.1 = {
+		death=yes
+	}
+}
+1237047 = {
+	name="Volrad" #Volrad II von Dannenberg, third Count of Dannenberg, co-ruler with his brother Heinrich II
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237046	
+	1177.1.1 = {
+		birth=yes
+	}	
+	1226.1.1 = {
+		death=yes
+	}
+}
+1237048 = {
+	name="Heinrich" #Heinrich II von Dannenberg, third Count of Dannenberg, co-ruler with his brother Heinrich II. Fourth count after 1226.
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237046	
+	1182.1.1 = {
+		birth=yes
+	}	
+	1236.1.1 = {
+		death=yes
+	}
+}
+1237049 = {
+	name="Heinrich" #Heinrich III von Dannenberg, fifth Count of Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237047	
+	1205.1.1 = {
+		birth=yes
+	}	
+	1237.1.1 = {
+		death=yes
+	}
+}
+1603000 = {
+	name="Bernhard" #Bernhard I von Dannenberg, sixth Count of Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237048	
+	1211.1.1 = {
+		birth=yes
+	}	
+	1266.1.1 = {
+		death=yes
+	}
+}
+1603001 = {
+	name="Adolf" #Adolf I von Dannenberg, sixth Count of Dannenberg, co-ruler with his brother
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1237048	
+	1213.1.1 = {
+		birth=yes
+	}	
+	1266.1.1 = {
+		death=yes
+	}
+}	
+1603002 = {
+	name="Heinrich" #Heinrich IV von Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1603000	
+	1248.1.1 = {
+		birth=yes
+	}	
+	1302.1.1 = {
+		death=yes
+	}
+}
+1603003 = {
+	name="Adolf" #Adolf II von Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1603000	
+	1249.1.1 = {
+		birth=yes
+	}	
+	1300.1.1 = {
+		death=yes
+	}
+}
+1603004 = {
+	name="Bernhard" #Bernhard II von Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1603000	
+	1250.1.1 = {
+		birth=yes
+	}	
+	1293.1.1 = {
+		death=yes
+	}
+}
+1603005 = {
+	name="Nikolaus" #Nikolaus I von Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1603000	
+	1254.1.1 = {
+		birth=yes
+	}	
+	1311.1.1 = {
+		death=yes
+	}
+}
+1603006 = {
+	name="Friedrich" #Friedrich I von Dannenberg
+	dynasty=1000103310  #von Dannenberg
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father=1603001
+	1237.1.1 = {
+		birth=yes
+	}	
+	1285.1.1 = {
+		death=yes
+	}
+}
+1603007 = {
+	name="Hermann"  #First Count of Calvelage/Kalvelage. Married Ethelinde, daughter of Otto von Northeim
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	1037.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		add_spouse = 112602
+	}	
+	1115.1.1 = {
+		death=yes
+	}
+}
+1603008 = {
+	name="Hermann"  #First Count of Ravensberg
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603007	
+	mother = 112602
+	1080.1.1 = {
+		birth=yes
+	}	
+	1144.1.1 = {
+		death=yes
+	}
+}
+1603009 = {
+	name="Otto"  #Otto I, co-ruler with his brother. Count ca. 1140-1170
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603008
+	1116.1.1 = {
+		birth=yes
+	}	
+	1171.1.1 = {
+		death=yes
+	}
+}
+1603010 = {
+	name="Heinrich"  #Heinrich, co-ruler with his brother. Count ca. 1160-1180
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603008
+	1122.1.1 = {
+		birth=yes
+	}	
+	1178.1.1 = {
+		death=yes
+	}
+}
+1603011 = {
+	name="Hermann"  #Hermann II, Count ca. 1175-1220
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603009
+	1159.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		add_spouse = 33385
+	}	
+	1221.4.22 = {
+		death=yes
+	}
+}
+1603012 = {
+	name="Otto"  #Otto II, Count ca. 1220-1244, co-ruler with his brother. Asserted the stronger position over the inheritance in a feud with his brother
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603011
+	mother = 33385
+	1185.1.1 = {
+		birth=yes
+	}
+	1216.1.1 = {
+		add_spouse = 1603015
+	}	
+	1244.4.1 = {
+		death=yes
+	}
+}
+1603013 = {
+	name="Ludwig"  #Ludwig, Count ca. 1220-1249, co-ruler with his brother. Struggled with the Tecklenburgers after his brothers death, as they claimed part of the county as a dowry for Otto's daughter who married Heinrich III von Tecklenburg
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603011
+	mother = 33385
+	1193.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		add_spouse = 1603034
+	}
+	1249.1.15 = {
+		death=yes
+	}
+}
+1603014 = {
+	name="Burchard"  #Burchard von Oldenburg-Wildeshausen
+	dynasty=224  #von Oldenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=30071 #Heinrich II
+		
+	1181.1.1 = {
+		birth=yes
+	}
+	1233.7.6 = {
+		death=yes
+	}
+}
+1603015 = {
+	name="Sophie"  #Sophie von Oldenburg-Wildeshausen
+	female=yes
+	dynasty=224  #von Oldenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603014 #Burchard
+		
+	1200.1.1 = {
+		birth=yes
+	}
+	1261.1.1 = {
+		death=yes
+	}
+}
+1603016 = {
+	name="Hermann"  #Son of Otto and Sophie von Oldenburg-Wildeshausen, died young
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603012
+	mother = 1603015
+	1221.1.1 = {
+		birth=yes
+	}	
+	1232.1.1 = {
+		death=yes
+	}
+}
+1603017 = {
+	name="Jutta"  #Only child of Otto von Ravensberg and Sophie von Oldenburg-Wildeshausen, that survived to adulthood. Married Heinrich III von Tecklenburg
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603012
+	mother = 1603015
+	1223.1.1 = {
+		birth=yes
+	}	
+	1301.1.1 = {
+		death=yes
+	}
+}
+1603018 = {
+	name="Otto"  #Otto III, count of Ravensberg 1249-1305
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603013	
+	1247.1.1 = {
+		birth=yes
+	}
+	1268.1.1 = {
+		add_spouse = 1603038
+	}	
+	1305.3.25 = {
+		death=yes
+	}
+}
+1603019 = {
+	name="Jutta"  #Jutta von Ravensberg, married Heinrich II von Hoya
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603013
+	mother = 1603034	
+	1221.1.1 = {
+		birth=yes
+	}
+	1282.5.17 = {
+		death=yes
+	}
+}
+1603020 = {
+	name="Hedwig"  #Hedwig von Ravensberg, married Gottfried von Arnsberg
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603013
+	mother = 1603034	
+	1222.1.1 = {
+		birth=yes
+	}
+	1265.6.8 = {
+		death=yes
+	}
+}
+1603021 = {
+	name="Gertrud"  #Gertrud von Ravensberg, married Ludolf von Steinfurt
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603013	
+	1224.1.1 = {
+		birth=yes
+	}
+	1266.1.1 = {
+		death=yes
+	}
+}
+1603022 = {
+	name="Otto"  #Otto IV, count of Ravensberg 1305-1328
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603018
+	mother = 1603038	
+	1274.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		add_spouse=1236570
+	} 	
+	1328.1.1 = {
+		death=yes
+	}
+}
+1603023 = {
+	name="Bernhard"  #Bernhard, count of Ravensberg 1328-1346
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603018
+	mother = 1603038	
+	1276.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+1603024 = {
+	name="Margarete"  #Margarete von Ravensberg-Berg, married Gerhard I von Jülich-Berg, and inherited Ravensberg after all males lines of the Ravensberg family died out in 1348
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603022
+	mother = 1236570	
+	1320.1.1 = {
+		birth=yes
+	}
+	1389.2.19 = {
+		death=yes
+	}
+}
+1603025 = {
+	name="Heinrich" #co-ruler with his brother after the death of their father
+	dynasty=7123  #von Tecklenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=30350 #Simon von Tecklenburg
+	mother=30349 #Oda von Berg
+	1186.1.1 = {
+		birth=yes
+	}
+	1226.1.1 = {
+		death=yes
+	}
+}
+1603026 = {
+	name="Oda" #Married Hermann II von Lippe
+	female=yes
+	dynasty=7123  #von Tecklenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=30350 #Simon von Tecklenburg
+	mother=30349 #Oda von Berg
+	1180.1.1 = {
+		birth=yes
+	}
+	1221.4.5 = {
+		death=yes
+	}
+}
+1603027 = {
+	name="Heinrich" #Heinrich III, co-ruler with his father, married Jutta von Ravensberg
+	dynasty=7123  #von Tecklenburg	
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=31803
+	mother=31770	
+	1217.1.1 = {
+		birth=yes
+	}
+	1244.1.1 = {
+		add_spouse = 1603017
+	}	
+	1247.7.25 = {
+		death=yes
+	}
+}
+1603028 = {
+	name="Elisabeth"
+	female=yes
+	dynasty=7123  #von Tecklenburg	
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=31803
+	mother=31770	
+	1222.1.1 = {
+		birth=yes
+	}
+	1268.1.1 = {
+		death=yes
+	}
+}
+1603029 = {
+	name="Hermann" # Hermann I zur Lippe, known father of the two Counts of Lippe, Bernhard I and Hermann II. Must have died by 1123, as Bernhard is first mentioned as Count in 1123
+	dynasty=12462
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+		
+	1055.1.1 = {
+		birth=yes
+	}
+	1123.1.1 = {
+		death=yes
+	}
+}
+1603030 = {
+	name="Bernhard" # Bernhard I zur Lippe, Count of Lippe 1123-1158
+	dynasty=12462
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603029		
+	1090.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes
+	}
+}
+1603031 = {
+	name="Hermann" # Hermann II zur Lippe, Count of Lippe 1158-1168
+	dynasty=12462
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603029		
+	1094.1.1 = {
+		birth=yes
+	}
+	1168.1.1 = {
+		death=yes
+	}
+}
+1603032 = {
+	name="Hermann"
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603031		
+	1138.1.1 = {
+		birth=yes
+	}
+	1163.1.1 = {
+		death=yes
+	}
+}
+1603033 = {
+	name="Bernhard" # Bernhard V zur Lippe. Herr von Lippe 1344-1365
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=144223
+	1290.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1603034 = {
+	name="Gertrud"
+	female=yes
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=30323
+	1208.1.1 = {
+		birth=yes
+	}
+	1244.9.30 = {
+		death=yes
+	}
+}
+1603035 = {
+	name="Otto" # Otto zur Lippe. Herr von Lippe in Lemgo 1344-1365
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=144223
+	1300.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1603036 = {
+	name="Adelheid"  #Adelheid von Ravensberg married Otto I Landgrave of Hessen
+	female=yes
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603018
+	mother = 1603038	
+	1271.1.1 = {
+		birth=yes
+	}
+	1338.4.3 = {
+		death=yes
+	}
+}
+1603037 = {
+	name="Ludwig"  #Ludwig von Ravensberg, pre-deceased his father
+	dynasty=7126  #von Ravensberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603018
+	mother = 1603038	
+	1269.1.1 = {
+		birth=yes
+	}
+	1294.1.1 = {
+		death=yes
+	}
+}
+1603038 = {
+	name="Hedwig" #Hedwig zur Lippe
+	female=yes
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 144221
+	mother = 1603053
+	1238.1.1 = {
+		birth=yes
+	}
+	1315.3.5 = {
+		death=yes
+	}
+}
+1603039 = {
+	name="Hermann" # Hermann III zur Lippe, co-ruler with his brother Bernhard IV zur Lippe
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 144221
+	mother = 1603053
+	1233.1.1 = {
+		birth=yes
+	}
+	1274.10.3 = {
+		death=yes
+	}
+}
+1603040 = {
+	name="Heinrich" # Heinrich I von Werl. Co-ruler for a short period of time of Werl
+	dynasty=111  #von Werl
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=144215
+	999.1.1 = {
+		birth=yes
+	}
+	1024.1.1 = {
+		death=yes
+	}
+}
+1603041= {
+	name="Friedrich" # Friedrich von Werl-Arnsberg, Count of Arnsberg 1092-1124
+	dynasty=101896 # Von Arnsberg
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father = 144218
+	mother = 112607
+	1075.1.1 = {
+		birth=yes
+	}
+	1124.2.11 = {
+		death=yes
+	}
+}
+1603042= {
+	name="Ida" # Ida von Werl-Arnsberg, Only daughter of Friedrich von Werl-Arnsberg, Married Gottfried von Cuyk
+	female=yes
+	dynasty=101896 # Von Arnsberg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603041
+	1103.1.1 = {
+		birth=yes
+	}
+	1154.1.1 = {
+		death=yes
+	}
+}
+1603043 = {
+	name="Heinrich"
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1140023	
+	mother = 1603042	
+	1128.1.1 = {
+		birth=yes
+	}	
+	1200.6.4 = {
+		death=yes
+	}
+}
+1603044 = {
+	name="Alverada"
+	female=yes
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1140023	
+	mother = 1603042	
+	1132.1.1 = {
+		birth=yes
+	}	
+	1205.1.1 = {
+		death=yes
+	}
+}
+1603045 = {
+	name="Adelheid"
+	female=yes
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1140023	
+	mother = 1603042	
+	1135.1.1 = {
+		birth=yes
+	}	
+	1200.6.4 = {
+		death=yes
+	}
+}
+1603046 = {
+	name="Heinrich" # Got usurped by his younger brother and became Count of Rietburg instead after the death of their father
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603043	
+	1155.1.1 = {
+		birth=yes
+	}	
+	1207.1.1 = {
+		death=yes
+	}
+}
+1603047 = {
+	name="Gottfried" # Gottfried II, long-time Count of Arnsberg
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603043	
+	1157.1.1 = {
+		birth=yes
+	}	
+	1235.1.1 = {
+		death=yes
+	}
+}
+1603048 = {
+	name="Gottfried" # Gottfried III, Count of Arnsberg 1235-1282
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603047	
+	1204.1.1 = {
+		birth=yes
+	}	
+	1282.1.1 = {
+		death=yes
+	}
+}
+1603049 = {
+	name="Heinrich" # Heinrich van Cuyk, pre-deceased his father
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603048	
+	1235.1.1 = {
+		birth=yes
+	}	
+	1273.4.17 = {
+		death=yes
+	}
+}
+1603050 = {
+	name="Gottfried" # Gottfried van Cuyk, pre-deceased his father
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603048	
+	1236.1.1 = {
+		birth=yes
+	}	
+	1266.4.20 = {
+		death=yes
+	}
+}
+1603051 = {
+	name="Friedrich" # Friedrich van Cuyk, pre-deceased his father
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603048	
+	1239.1.1 = {
+		birth=yes
+	}	
+	1279.3.23 = {
+		death=yes
+	}
+}
+1603052 = {
+	name="Ludwig" # Ludwig van Cuyk, Count of Arnsberg 1282-1313
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603048	
+	1243.1.1 = {
+		birth=yes
+	}	
+	1313.5.2 = {
+		death=yes
+	}
+}
+1603053 = {
+	name="Sophie" # Sophie van Cuyk-Arnsberg, married Bernhard III zur Lippe
+	female=yes
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603047	
+	1210.1.1 = {
+		birth=yes
+	}	
+	1245.1.1 = {
+		death=yes
+	}
+}
+1603054 = {
+	name="Mechthild" # Mechthild van Cuyk-Arnsberg, married Heinrich III von Waldeck
+	female=yes	
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603048	
+	1237.1.1 = {
+		birth=yes
+	}	
+	1298.8.13 = {
+		death=yes
+	}
+}
+1603055 = {
+	name="Wilhelm" # Wilhelm van Cuyk, Count of Arnsberg 1313-1338
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603052
+	1277.1.1 = {
+		birth=yes
+	}	
+	1338.1.1 = {
+		death=yes
+	}
+}
+1603056 = {
+	name="Gottfried" # Gottfried IV, Count of Arnsberg 1338-1368
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603055	
+	1296.1.1 = {
+		birth=yes
+	}	
+	1371.2.21 = {
+		death=yes
+	}
+}
+1603057 = {
+	name="Richarda" # Richarda van Cuyk
+	female=yes	
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_german"  # melted from: german	
+	father = 1603052
+	1271.1.1 = {
+		birth=yes
+	}	
+	1309.1.1 = {
+		death=yes
+	}
+}
+1603058 = {
+	name="Liupold"
+	dynasty=111 # von Werl
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father = 144216
+	1051.1.1 = {
+		birth=yes
+	}
+	1102.1.1 = {
+		death=yes
+	}
+}
+1603059 = {
+	name="Bernhard"
+	dynasty=111 # von Werl
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father = 144214
+	mother = 71900
+	983.1.1 = {
+		birth=yes
+	}
+	1032.1.1 = {
+		death=yes
+	}
+}
+1603060 = {
+	name="Ida"
+	female=yes
+	dynasty=111 # von Werl
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father = 1603059
+	1030.1.1 = {
+		birth=yes
+	}
+	1084.1.1 = {
+		death=yes
+	}
+}
+1603061 = {
+	name="Adelheid"
+	female=yes
+	dynasty=1000103205 # von Lauffen
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father = 1603062
+	mother = 1603060
+	1045.1.1 = {
+		birth=yes
+	}
+	1107.1.1 = {
+		death=yes
+	}
+}
+1603062 = {
+	name="Heinrich"
+	dynasty=1000103205 # von Lauffen
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236576	
+	1023.1.1 = {
+		birth=yes
+	}
+	1044.1.1 = {
+		add_spouse = 1603060
+	}	
+	1064.1.1 = {
+		death=yes
+	}
+}
+1603063 = {
+	name="Konrad"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	1078.1.1 = {
+		birth=yes
+	}	
+	1128.1.1 = {
+		death=yes
+	}
+}
+1603064 = {
+	name="Adalbert"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603063	
+	1101.1.1 = {
+		birth=yes
+	}	
+	1158.4.18 = {
+		death=yes
+	}
+}
+1603065 = {
+	name="Adalbert"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603064	
+	1136.1.1 = {
+		birth=yes
+	}	
+	1197.4.4 = {
+		death=yes
+	}
+}
+1603066 = {
+	name="Adalbert"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603065	
+	1170.1.1 = {
+		birth=yes
+	}	
+	1217.9.19 = {
+		death=yes
+	}
+}
+1603067 = {
+	name="Konrad"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603065	
+	1172.1.1 = {
+		birth=yes
+	}	
+	1233.1.1 = {
+		death=yes
+	}
+}
+1603068 = {
+	name="Konrad"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603066	
+	1195.1.1 = {
+		birth=yes
+	}	
+	1256.8.7 = {
+		death=yes
+	}
+}
+1603069 = {
+	name="Otto"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603066	
+	1206.1.1 = {
+		birth=yes
+	}	
+	1282.1.1 = {
+		death=yes
+	}
+}
+1603070 = {
+	name="Ludwig"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603066	
+	1210.1.1 = {
+		birth=yes
+	}	
+	1284.1.1 = {
+		death=yes
+	}
+}
+1603071 = {
+	name="Hermann"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603066	
+	1213.1.1 = {
+		birth=yes
+	}	
+	1268.1.1 = {
+		death=yes
+	}
+}
+1603073 = {
+	name="Heinrich"
+	dynasty=1000103221 # von Schwalenberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603075	
+	1041.1.1 = {
+		birth=yes
+	}	
+	1113.1.1 = {
+		death=yes
+	}
+}
+1603074 = {
+	name="Volkwin"
+	dynasty=1000103221 # von Schwalenberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603073	
+	1081.1.1 = {
+		birth=yes
+	}	
+	1125.1.1 = {
+		death=yes
+	}
+}
+1603075 = {
+	name="Hermann"
+	dynasty=1000103221 # von Schwalenberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father = 1603076	
+	1009.1.1 = {
+		birth=yes
+	}	
+	1043.1.1 = {
+		death=yes
+	}
+}
+1603076 = {
+	name="Widukind"
+	dynasty=1000103221 # von Schwalenberg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	976.1.1 = {
+		birth=yes
+	}	
+	1031.1.1 = {
+		death=yes
+	}
+}
+1603077 = {
+	name="Heilwig" #Married to Gottfried II von Ziegenhain
+	female=yes
+	dynasty=12462  #von der Lippe
+	religion="catholic"
+	culture="low_german"  # melted from: german
+		
+	father=30324
+		
+	1186.1.1 = {
+		birth=yes
+	}	
+	1244.1.1 = {
+		death=yes
+	}
+}
+1603078 = {
+	name="Simon" # Simon zur Lippe. pre-deceased his father Bernhard V
+	dynasty=12462
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603033
+	1328.1.1 = {
+		birth=yes
+	}
+	1363.1.1 = {
+		death=yes
+	}
+}
+1603079 = {
+	name="Ludwig"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603068	
+	1237.1.1 = {
+		birth=yes
+	}	
+	1289.1.1 = {
+		death=yes
+	}
+}
+1603080 = {
+	name="Albert"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603069	
+	1225.1.1 = {
+		birth=yes
+	}	
+	1274.1.1 = {
+		death=yes
+	}
+}
+1603081 = {
+	name="Otto"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603080	
+	1260.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+1603082 = {
+	name="Otto"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603071	
+	1241.1.1 = {
+		birth=yes
+	}	
+	1312.1.1 = {
+		death=yes
+	}
+}
+1603083 = {
+	name="Hermann"
+	dynasty=1000103306 # von Everstein
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father = 1603082	
+	1286.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1603084 = {
+	name="Rudolf" #Rudolf III von Stotel, Count/Lord of Stotel 1326-1350 (regency 1326-1336)
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237044	
+	1317.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1603085 = {
+	name="Johann" #Brother of Rudolf III
+	dynasty=1000103602  #von Stotel
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1237044	
+	1319.1.1 = {
+		birth=yes
+	}	
+	1353.1.1 = {
+		death=yes
+	}
+}
+1603086 = {
+	name="Bernhard" # Count of Harzgau (what later basically became Blankenburg) 1043-1062,  Count of Süpplingenburg. Married Ida von Querfurt
+	dynasty=7103 #von Süpplingenburg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1603087
+	1012.1.1 = {
+		birth=yes
+	}
+	1069.1.1 = {
+		death=yes
+	}
+}
+1603087 = {
+	name="Liutger" # Count of Harzgau 1013-1031
+	dynasty=7103 #von Süpplingenburg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	988.1.1 = {
+		birth=yes
+	}
+	1031.1.1 = {
+		death=yes
+	}
+}
+1603088 = {
+	name="Thietmar" # Brother of Gerhard von Süpplingenburg, Bishop of Halberstadt
+	dynasty=7103 #von Süpplingenburg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1603086	
+	1035.1.1 = {
+		birth=yes
+	}
+	1093.1.1 = {
+		death=yes
+	}
+}
+1603089 = {
+	name="Poppo" # Poppo von Blankenburg. Loyal supporter of Lothar von Süpplingenburg, who rewarded him with the County of Blankenburg in 1128
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	1095.1.1 = {
+		birth=yes
+	}
+	1164.1.1 = {
+		death=yes
+	}
+}
+1603090 = {
+	name="Konrad" # Konrad, Count of the Regenstein part of his fathers County
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603089
+	1126.1.1 = {
+		birth=yes
+	}
+	1197.1.1 = {
+		death=yes
+	}
+}
+1603091 = {
+	name="Siegfried" # Siegfried, Count of the Blankenburg part of his fathers County
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603089
+	1129.1.1 = {
+		birth=yes
+	}
+	1172.1.1 = {
+		death=yes
+	}
+}
+1603092 = {
+	name="Friedrich" # Friedrich, pre-deceased his father according to Medlands
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603090
+	1150.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1603093 = {
+	name="Konrad" # Konrad, Count of Regenstein according to Medlands
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603092
+	1183.1.1 = {
+		birth=yes
+	}
+	1246.1.1 = {
+		death=yes
+	}
+}
+1603094 = {
+	name="Heinrich" # Heinrich I, Count of the Blankenburg and later Count of Regenstein
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603091
+	1161.1.1 = {
+		birth=yes
+	}
+	1235.6.1 = {
+		death=yes
+	}
+}
+1603095 = {
+	name="Siegfried" # Siegfried I, Count of the Blankenburg and later Count of Regenstein, obviously co-ruler of his elder brother
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603091
+	1164.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1603096 = {
+	name="Mechthild"
+	female=yes
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603091
+	1166.1.1 = {
+		birth=yes
+	}
+	1200.5.25 = {
+		death=yes
+	}
+}
+1603097 = {
+	name="Heinrich" # Heinrich, pre-deceased his father
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603094
+	1198.1.1 = {
+		birth=yes
+	}
+	1219.1.1 = {
+		death=yes
+	}
+}
+1603098 = {
+	name="Ulrich" # Ulrich I, count of Regenstein
+	dynasty=1000103324 #von Blankenburg
+	religion="catholic"
+	culture="low_german"  # melted from: german
+	father=1603094
+	1202.1.1 = {
+		birth=yes
+	}
+	1265.6.24 = {
+		death=yes
+	}
+}
+#######################################
+#der Rikquur/von Heeslingen/von Hamburg, cadet of Billunger
+#######################################
+#Liudger, younger son of Hermann Billunger, graf of Westfalengau.
+1603099 = {
+	name="Hermann" # #Hermann, son of previous, graf of?, dead by 1038. Died without issue.
+	dynasty=656 #Billunger
+	religion="catholic"
+	culture="low_saxon"
+	father=33242
+	980.1.1 = {
+		birth=yes
+	}
+	1038.1.1 = {
+		death=yes
+	}
+}
+1603100 = {
+	name="Rikquur" #Rikquur von Heeslingen, daughter of Liudger 
+	dynasty=1000103366 #von Heeslingen
+	religion="catholic"
+	culture="low_saxon"
+	father=33242
+	female=yes
+	1000.1.1 = {
+		birth=yes
+	}
+	1059.1.1 = {
+		death=yes
+	}
+}
+1603101 = {
+	name="Heinrich" #Heinrich von Hamburg, bastard son of Rikquur(father unknown, but one common theory is that it was Udo I of Stade/Nordmark), graf of Hamburg since at least 1059/1060(his mothers dispute with the archbishop over inheritance(Dithmarschen and parts of the county of Stade was handed over to the archbishop) was settled in 1059 and by 1060 his new comitical seat Neue Burg had been constructed by the duke which handed it over to Heinrich), in 1087 he is recorded as count of Hamburg. Married Margareta von Loewen. Died the 31. of October 1093.
+	dynasty=1000103366 #von Heeslingen
+	religion="catholic"
+	culture="low_saxon"
+	mother=1603100
+	#father=1350
+	#trait=bastard
+	1020.1.1 = {
+		birth=yes
+	}
+	1044.1.1 = {
+		add_spouse=1603103
+	}	
+	1093.10.31 = {
+		death=yes
+	}
+}
+1603102 = {
+	name="Gottfried" #Gottfried von Hamburg, son of Heinrich and Margareta von Loewen, graf of Hamburg since 1093, fell in battle against the Oborites. Died without issue 2nd of November 1110. Stormarn was then granted to Adolf 1. Schauenburg.
+	dynasty=1000103366 #von Heeslingen
+	religion="catholic"
+	culture="low_saxon"
+	father=1603101
+	mother=1603103
+	1045.1.1 = {
+		birth=yes
+	}
+	1110.11.02 = {
+		death={ death_reason=death_battle }
+	}
+}
+1603103 = {
+	name="Margareta" #Margareta von Loewen.
+	dynasty=7198 #Reignar
+	religion="catholic"
+	culture="low_frankish"
+	father=144996 # speculative, Hendrik I
+	female=yes
+	1025.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+#######################################
+#Ammoniden
+#######################################
+#Voigt and Overbode(Prefect) of Nordalbingen. Their seat was in Bornhöved and their domain encompased the, Lübeck, Wagrien and northern Holstein area. Uneasy relationship with the counts of Holstein overtime but they were not always at odds, and Marcrad I even served as regent when Adolf III was a minor. They were very loyal to the Welfs in the fight against the Staufens.
+1603104 = {
+	name="Ammo" #Voigte and vassal of the Bishop of Bremen(possibly in Dithmarschen), died before 1148.
+	dynasty=1000103367
+	religion="catholic"
+	culture="low_saxon"
+	1050.1.1 = {
+		birth=yes
+	}
+	1127.1.1 = {
+		death=yes
+	}
+}
+1603105 = {
+	name="Marcrad" #Marcrad I, son of Ammo, Overbode of Nordalbingen. attested 1127-1170
+	dynasty=1000103367
+	religion="catholic"
+	culture="low_saxon"
+	father=1603104
+	1100.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		death=yes
+	}
+}
+1603106 = {
+	name="Marcrad" #Marcrad II, son of Marcrad I, Overbode of Nordalbingen. Vassal of the dukes of Sachsen. Died between 1182(was driven off by the Adolf III, and took up exile in Slesvig) and 1190.
+	dynasty=1000103367
+	religion="catholic"
+	culture="low_saxon"
+	father=1603105
+	1128.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		death=yes
+	}
+}
+1603107 = {
+	name="Thanbrigge" #Thanbrigge daughter of Marcrad II, married Hugo von Hildesheim(von Werder) mayor and one of the biggest early magnates of Hansa Lübeck. She was last attesed 1224 donating to a monestary.
+	dynasty=1000103367
+	religion="catholic"
+	culture="low_german"
+	father=1603106
+	female=yes
+	1160.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+##von Segeberg branch. Overbode of Wagrien and Holstein. see Zeitschrif der Gesellschaft fur Schleswig-Holsteinische Gescihte 1958 and 1975 edition and 
+1603134 = {
+	name="Timmo" #Timmo I, died before 1189. Overbode of ? (Stormarn?) ?-?.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_saxon"
+	father=1603105
+	1129.1.1 = {
+		birth=yes
+	}	
+	1187.1.1 = {
+		employer=201501 # Valdemar II  
+	}	
+	1189.1.1 = {
+		death=yes
+	}
+}
+1603135 = {
+	name="Timo" #Timo/Timmo II, Was entrusted with Segeberg by duke Valdemar, and is mentioned as a voigt and Overbode for Albrect von Orlamünde in 1221.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603134 
+	1148.1.1 = {
+		birth=yes
+	}	
+	1225.1.1 = {
+		death={ death_reason=death_battle } # Battle of Mölln seems fitting
+	}
+}
+1603136 = {
+	name="Marquard" #Marquard/Markward brother of Timo, he was entrusted with Travemünde, attested 1221.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603134
+	1156.1.1 = {
+		birth=yes
+	}	
+	1228.1.1 = {
+		death=yes
+	}
+}
+1603170 = {
+	name="Gottschalk" #Gottschalk von Segeberg, son of Timmo II, overbode 1225-1248
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603135
+	1166.1.1 = {
+		birth=yes
+	}	
+	1248.1.1 = {
+		death=yes
+	}
+}
+1603171 = {
+	name="Adelheid" #Adelheid, daughter of Gottschalk, married Heinrich II von Barmstede, died 10th of may 1235.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603170
+	female=yes
+	1185.1.1 = {
+		birth=yes
+	}	
+	1235.5.10 = {
+		death=yes
+	}
+}
+1603172 = {
+	name="Hartvig" #Hartvig v Segeberg, son of Gottschalk, daipfer in 1247-1254, 1254-? Overbode, last attested 1261.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603170
+	1210.1.1 = {
+		birth=yes
+	}	
+	1261.7.8 = {
+		death=yes
+	}
+}
+1603173 = {
+	name="Gottschalk" #Gottschalk II, son of ?, Overbode ?-?
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603170 # haven't been able to confirm yet
+	1215.1.1 = {
+		birth=yes
+	}	
+	1261.7.8 = {
+		employer=31753  
+	}	
+	1273.1.1 = {
+		death=yes
+	}
+}
+1603174 = {
+	name="Wichardis" #Wichardis, daughter of Gottschalk II, married Heinrich III von Barmstede, died 13th of March 1275
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603170
+	female=yes
+	1233.1.1 = {
+		birth=yes
+	}	
+	1275.3.13 = {
+		death=yes
+	}
+}
+1603175 = {
+	name="Marquard" #Marquard v Segeberg, son of Gottschalk II, daipfer 1272-1291.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603173
+	1242.1.1 = {
+		birth=yes
+	}	
+	1291.1.1 = {
+		death=yes
+	}
+}
+1603176 = {
+	name="Raven" #Raven v Segeberg, son of ?, daipfer 1324.
+	dynasty=1000103370
+	religion="catholic"
+	culture="low_german"
+	father=1603175 # specualtive
+	1273.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+
+#-79 reserved
+#######################################
+#von Wielen/von Stormarn
+#######################################
+1603180 = {
+	name="Verestus" #Verestus von Wielen/von Stormarn(used by him and his direct decendends(who?) since he took office), attested in Holstein 1226 first(supposedly came from Westphalia) , 1228-1238 Overbode of Stormarn. Married Adelheid von Barmstede
+	dynasty=1000103372
+	religion="catholic"
+	culture="low_german"
+	1180.1.1 = {
+		birth=yes
+	}
+	1228.1.1 = {
+		employer=31752  
+	}	
+	1238.1.1 = {
+		death=yes
+	}
+}
+#-84 reserved
+#######################################
+#Reventlow
+#######################################
+#Voigte of Dithmarschen, also knights in Holstein, Mecklemburg and Denmark. First attested as vassal of Albert II of Orlamünde.
+1603110 = {
+	name="Hartvig" #Hartvig I Reventlow, fl. ca 1200.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	1180.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		employer=31795  
+	}		
+	1222.1.1 = {
+		death=yes
+	}
+}
+#Holstein line
+1603111 = {
+	name="Gottschalk" #Gotskalk I, oldest son of Hartvig I, voigt of Dithmarschen. attested 1223 and 1247. married Elizabeth.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603110
+	1200.1.1 = {
+		birth=yes
+	}	
+	1248.1.1 = {
+		death=yes
+	}
+}
+1603112 = {
+	name="Iven" #Iven, son of Gotskalk I, attetsted 1249
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603111
+	1225.1.1 = {
+		birth=yes
+	}	
+	1295.1.1 = {
+		death=yes
+	}
+}
+1603113 = {
+	name="Iven" #Iven II, son of Iven I, attested 1306 and 1359.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603112
+	1286.1.1 = {
+		birth=yes
+	}	
+	1359.1.1 = {
+		death=yes
+	}
+}
+1603114 = {
+	name="Heinrich" #Henrik, son of Iven II
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603113
+	1315.1.1 = {
+		birth=yes
+	}	
+	1365.1.1 = {
+		death=yes
+	}
+}
+1603115 = {
+	name="Gottschalk" #Gotskalk II, son of Iven II attested 1359 and 1414
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603113
+	1340.1.1 = {
+		birth=yes
+	}	
+	1415.1.1 = {
+		death=yes
+	}
+}
+1603116 = {
+	name="Volrad" #Volrad, son of Iven I, attested 1323.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603112
+	1260.1.1 = {
+		birth=yes
+	}	
+	1324.1.1 = {
+		death=yes
+	}
+}
+1603117 = {
+	name="Hartvig" #Hartvig III, son of Iven I, attested 1315 and 1356. Slew Adoplh VI of Segeberg in 1317.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603112
+	1285.1.1 = {
+		birth=yes
+	}	
+	1359.1.1 = {
+		death=yes
+	}
+}
+1603118 = {
+	name="Iven" # Iven III son of Hartvig III, attested 1352 and 1391.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603117
+	1310.1.1 = {
+		birth=yes
+	}	
+	1392.1.1 = {
+		death=yes
+	}
+}
+#
+1603119 = {
+	name="Heinrich" #Henrik, second son of Gotskalk I, attested 1272
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603111
+	1230.1.1 = {
+		birth=yes
+	}	
+	1278.1.1 = {
+		death=yes
+	}
+}
+1603120 = {
+	name="Hartvig" #Hartvig II, third son of Gotskalk I, attested 1257(knighted) and 1300. Served as prefekt for Holstein-Kiel and Holstein-Segeberg.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603111
+	1235.1.1 = {
+		birth=yes
+	}	
+	1302.1.1 = {
+		death=yes
+	}
+}
+1603121 = {
+	name="Eler" #Eler/Elerus "the bald", son of Gotskalk I, attested 1243 and 1272. Was convicted(in abstentia) for looting Lübeck tradesmen.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603111
+	1224.1.1 = {
+		birth=yes
+	}	
+	1275.1.1 = {
+		death=yes
+	}
+}
+1603122 = {
+	name="Johann" #Johannes, son of Eler, attested 1300 and died 1336. Founded the first Danish branch on Fyn.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603121
+	1260.1.1 = {
+		birth=yes
+	}	
+	1336.1.1 = {
+		death=yes
+	}
+}
+#Mecklemburg line
+1603123 = {
+	name="Detlev" #Detlev I, second son of Hartvig I, founder of Mecklemburg branch. Attested 1236 and 1261.
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603110
+	1210.1.1 = {
+		birth=yes
+	}
+	1236.1.1 = {
+		employer=452001 
+	}	
+	1262.1.1 = {
+		death=yes
+	}
+}
+1603124 = {
+	name="Otto" #Otto, oldest son of Detlev I, attested 1260(already knigted) and 1284
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603123
+	1230.1.1 = {
+		birth=yes
+	}	
+	1285.1.1 = {
+		death=yes
+	}
+}
+1603125 = {
+	name="Hartvig" #Harvig VI, second son of Detlev I, attested 1256 and 1272. prefekt of mecklemburg
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603123
+	1235.1.1 = {
+		birth=yes
+	}	
+	1290.1.1 = {
+		death=yes
+	}
+}
+1603126 = {
+	name="Heinrich" #Henrik, oldest son of Hartvig VI, attested 1335
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603125
+	1263.1.1 = {
+		birth=yes
+	}	
+	1336.1.1 = {
+		death=yes
+	}
+}
+1603127 = {
+	name="Henning" #Henning, second son of Hartvig VI, attested 1347
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603125
+	1269.1.1 = {
+		birth=yes
+	}	
+	1348.1.1 = {
+		death=yes
+	}
+}
+1603128 = {
+	name="Detlev" #Detlev, third son of Detlev I, attested 1316
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603125
+	1272.1.1 = {
+		birth=yes
+	}	
+	1318.1.1 = {
+		death=yes
+	}
+}
+#######################################
+#Dithmarschen and mixed Danish vassals in Holstein appointed in the wake of the 1201 invasion
+#######################################
+#Dithmarschen
+1603130 = {
+	name="Reinhold" #Reinhold von Dithmarschen. Appointed by Heinrich the lion in 1156. He is attested participating in the put down of the revolt along with Gunzel, the counts of Holstein, Nordmark, Ratzeburg and Oldenburg. He died on the same expedition and a new count wasn't proclaimed until the danes came along. 
+	dynasty=1000103369
+	religion="catholic"
+	culture="low_german"
+	1120.1.1 = {
+		birth=yes
+	}	
+	1164.11.1 = {
+		death=yes
+	}
+}
+1603131 = {
+	name="Schackward" #Schackward, appointed count of Dithmarschen by duke Valdemar in 1201. 
+	dynasty=1000103369
+	religion="catholic"
+	culture="low_german"
+	father=1603130 # speculative
+	1157.1.1 = {
+		birth=yes
+	}	
+	1218.1.1 = {
+		death=yes
+	}
+}
+1603132 = {
+	name="Widdag" #Widdag, brother of Schakward who was entrusted with Plön castle
+	dynasty=1000103369
+	religion="catholic"
+	culture="low_german"
+	father=1603130 # speculative
+	1162.1.1 = {
+		birth=yes
+	}	
+	1227.1.1 = {
+		death=yes
+	}
+}
+1603133 = {
+	name="Rudolf" #Rudolf, brother of Schakward and Widdag. Was entrusted with Hamburg, reffered to as "Schirmvogt". He fled the Adolf III counterattack in November 1201.
+	dynasty=1000103369
+	religion="catholic"
+	culture="low_german"
+	father=1603130 # speculative
+	1162.1.1 = {
+		birth=yes
+	}	
+	1215.1.1 = {
+		death=yes
+	}
+}
+############
+1603137 = {
+	name="Johann" #Johannes/Johann Gans zu Grabow, sworn enemy of the count of Schwerin who had fled to Albrecht of Orlamünde's court in 1208.
+	dynasty=1000103371
+	religion="catholic"
+	culture="low_german"
+	martial=9
+	diplomacy=7
+	intrigue=11
+	stewardship=5
+	trait="wroth"
+	trait="proud"
+	trait="tough_soldier"	
+	1170.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		employer=33269
+	}	
+	1208.1.1 = {
+	    add_claim = c_schwerin
+		employer=31795  
+	}	
+	1227.7.22 = {
+		death=yes
+	}
+}
+#Nobles mentioned in the retinue of Albrecht of Orlamünde in 1221:Overbode Timmo und sein Bruder Marquard, Heinrich von Barmstedt, Gotschalt von Godelande mit seinen Brüdern Volquin und Syricus, das bruderpaar Benedict und Schad(Shack or Schackward?) von Berdoel und Marquard von Fralau.
+#######################################
+#von Werder
+#######################################
+1603108 = {
+	name="Hugo" #Hugo von Hildesheim(von Werder) mayor and the biggest early magnate of pre Hansa Lübeck. Married Thanbrigge daugher of Marcrad II Ammoniden.
+	dynasty=1000103368
+	religion="catholic"
+	culture="low_german"
+	1160.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		add_spouse=1603107
+	}	
+	1227.1.1 = {
+		death=yes
+	}
+}
+#######################################
+#von Krummediek/Krummedige
+#######################################
+#Vogte von Ottenbüttel and herren von Krummendiek
+1603140 = {
+	name="Heinrich" #Heinrich, vogt von Ottenbüttel. 
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	1090.1.1 = {
+		birth=yes
+	}
+	1130.1.1 = {
+		death=yes
+	}
+}
+1603141 = {
+	name="Hasso" #Hasso I, son of Heinrich, attested 1149, married Sophie.
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603140
+	1120.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1603142 = {
+	name="Heinrich" #Heinrich "Busche", son of Hasso and Sophie, attested 1201 and 1208. Vogt von Ottenbüttel.
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603141
+	1155.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes
+	}
+}
+1603143 = {
+	name="Hartvig" #Hartvig, son of Heinrich Busche, attested 1230
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603142
+	1180.1.1 = {
+		birth=yes
+	}
+	1232.1.1 = {
+		death=yes
+	}
+}
+1603144 = {
+	name="Volbrecht" #Volbrecht, son of Heinrich Busche, attested 1247
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603142
+	1192.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1603145 = {
+	name="Nanno" #Nanno, son of Volbrecht, attested 1297
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603144
+	1220.1.1 = {
+		birth=yes
+	}
+	1298.1.1 = {
+		death=yes
+	}
+}
+1603146 = {
+	name="Balduin" #Balduin, son of Heinrich Busche, attested 1247
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603142
+	1187.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1603147 = {
+	name="Eler" #Eler I, son of Heinrich Busche, attested 1236, 1247, 1257 and 1261
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603142
+	1179.1.1 = {
+		birth=yes
+	}
+	1262.1.1 = {
+		death=yes
+	}
+}
+##
+1603148 = {
+	name="Hartvig" #Hartvig II, son of Eler I, attested 1267, 1279(as  a knight), 1280 and 1281
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603147
+	1225.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes
+	}
+}
+1603149 = {
+	name="Johann" #Johann, son of Hartvig II, attested 1300, 1313, 1316, 1325 and 1326
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603148
+	1264.1.1 = {
+		birth=yes
+	}
+	1327.1.1 = {
+		death=yes
+	}
+}
+1603150 = {
+	name="Borkvard" #Borkvard, son of Johann
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603149
+	1285.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+1603151 = {
+	name="Nicolaus" #Nicolaus II, son of Hartvig II, attested 1300, 1316, 1317, 1323, 1325 and 1326
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603148
+	1260.1.1 = {
+		birth=yes
+	}
+	1327.1.1 = {
+		death=yes
+	}
+}
+1603152 = {
+	name="Hartvig" #Hartvig, son of Nicolaus II, attested 1324, 1335, 1336, 1342, 1348 and 1363. Went to DK.
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603151
+	1292.1.1 = {
+		birth=yes
+	}
+	1364.1.1 = {
+		death=yes
+	}
+}
+1603153 = {
+	name="Nicolaus" #Nicolaus III, son of Nicolaus II, attested 1320, 1323, 1324, 1325, 1339 and 1342
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603151
+	1285.1.1 = {
+		birth=yes
+	}
+	1343.1.1 = {
+		death=yes
+	}
+}
+##
+1603154 = {
+	name="Hasso" #Hasso II, son of Eler I, attested 1275(as a knight), 1279 and 1281
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603147
+	1227.1.1 = {
+		birth=yes
+	}
+	1290.1.1 = {
+		death=yes
+	}
+}
+1603155 = {
+	name="Hartvig" #Hartvig, son of Hasso II, attested 1313, 1315 and 1318
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603154
+	1250.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+1603156 = {
+	name="Hasso" #Hasso III, son of Hasso II, attested 1313, 1322, 1327, 1342, 1345 and 1350
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603154
+	1274.1.1 = {
+		birth=yes
+	}
+	1351.1.1 = {
+		death=yes
+	}
+}
+## Mainline
+1603157 = {
+	name="Nicolaus" #Nicolaus I, son of Eler I, attested 1267 and 1281(as a knight)
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603147
+	1219.1.1 = {
+		birth=yes
+	}
+	1284.1.1 = {
+		death=yes
+	}
+}
+1603158 = {
+	name="Eler" #Eler II, son of Nicolaus I, attested 1305
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603157
+	1262.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1603159 = {
+	name="Heinrich" #Heinrich, son of Nicolaus I, attested 1305
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603157
+	1258.1.1 = {
+		birth=yes
+	}
+	1306.1.1 = {
+		death=yes
+	}
+}
+1603160 = {
+	name="Grote Iven" #Grote Iven, son of Nicolaus, attested 1297, 1298 and 1300
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603157
+	1246.1.1 = {
+		birth=yes
+	}
+	1304.1.1 = {
+		death=yes
+	}
+}
+1603161 = {
+	name="Grote Johann" #Grote Johann, son of Grote Iven, attested 1351
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603160
+	1291.1.1 = {
+		birth=yes
+	}
+	1352.1.1 = {
+		death=yes
+	}
+}
+1603162 = {
+	name="Iven" #Iven, son of Grote Iven, attested 1305, 1312, 1345 and 1348
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603160
+	1293.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+1603163 = {
+	name="Hartvig" #Hartvig Mildehand, son of Grote Iven, attested 1335 and 1358 
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603160
+	1296.1.1 = {
+		birth=yes
+	}
+	1359.1.1 = {
+		death=yes
+	}
+}
+1603164 = {
+	name="Timme" #Timme, son of Grote Iven, attested 1340 and 1346 
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603160
+	1288.1.1 = {
+		birth=yes
+	}
+	1347.1.1 = {
+		death=yes
+	}
+}
+1603165 = {
+	name="Lyder" #Lyder, son of Grote Iven, attested 1342 and 1345, was dead by 1348. Held the castle of Krummendiek before his death.
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603160
+	1285.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+1603166 = {
+	name="Eggert" #Eggert, son of Lyder, attested 1348, 1358, 1359, 1365 and 1367
+	dynasty=1000035853
+	religion="catholic"
+	culture="low_saxon"
+	father=1603165
+	1310.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes
+	}
+}
+#reseverd 70-84 reserved for Ammoniden above
+#######################################
+#von Barmstedt
+#######################################
+#Herren von Barmstede und Uettersen
+1603185 = {
+	name="Heinrich" #Heinrich I, attested 1149. First known member. Lord of Barmstede.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_saxon"
+	1115.1.1 = {
+		birth=yes
+	}	
+	1174.1.1 = {
+		death=yes
+	}
+}
+##Wibrand branch
+1603186 = {
+	name="Wibrand" #Wibrand, second son of Heinrich I, attested 1175(as a knight) and 1195.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603185
+	1145.1.1 = {
+		birth=yes
+	}	
+	1200.1.1 = {
+		death=yes
+	}
+}
+1603187 = {
+	name="Eckehard" #Eckehard, oldest son of Wibrand, attested 1211.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603186
+	1165.1.1 = {
+		birth=yes
+	}	
+	1212.1.1 = {
+		death=yes
+	}
+}
+1603188 = {
+	name="Eckehard" #Lambert II, second son of Wibrand, attested 1212, 1219 he was a priest in Bremen, he died the 6th of November 1228 as Bishop of Ratzeburg 
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603186
+	1167.1.1 = {
+		birth=yes
+	}	
+	1228.11.6 = {
+		death=yes
+	}
+}
+##Borchart branch
+1603189 = {
+	name="Borchart" #Borchart I, oldest son of Heinrich I, attested 1190(as a knight)
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603185
+	1144.1.1 = {
+		birth=yes
+	}	
+	1200.1.1 = {
+		death=yes
+	}
+}
+1603190 = {
+	name="Borchart" #Borchart II, son of Borchart I, attested 1211.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603189
+	1185.1.1 = {
+		birth=yes
+	}	
+	1212.1.1 = {
+		death=yes
+	}
+}
+1603191 = {
+	name="Marquard" #Marquard/Marcard/Markward I son of Borchart I, attested on the 10th of May 1211 as vassal of Albrecht of Orlamünde.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603189
+	1183.1.1 = {
+		birth=yes
+	}	
+	1225.1.1 = {
+		death=yes
+	}
+}
+##Heinrich Branch(mainline) von Barmstede
+1603192 = {
+	name="Heinrich" #Heinrich II, oldest son of Borchart I attested first 1211, died either the 24th or 25th of august 1240, married Adelheid(died 10th of may 1235) daughther of Overbode Gottschschalck. Lord of Barmstede. 
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603189
+	1182.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		add_spouse=1603171
+	}	
+	1240.8.24 = {
+		death=yes
+	}
+}
+1603193 = {
+	name="Adelheid" #Adelheid I, daughter of Heinrich II and Adelheid, married the Overbode of Stormarn Verestus in 1228, died 1246.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603192
+	mother=1603171
+	female=yes
+	1201.1.1 = {
+		birth=yes
+	}	
+	1246.1.1 = {
+		death=yes
+	}
+}
+1603194 = {
+	name="Gottschalk" #Gottschakalk, son of Heinrich II, attested ca 1235, died before 1240
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603192
+	mother=1603171	
+	1205.1.1 = {
+		birth=yes
+	}	
+	1236.1.1 = {
+		death=yes
+	}
+}
+1603195 = {
+	name="Otto" #Otto I, son of Heinrich II, attested as a knight 1246, died ca 1269-1270. married Gertrud von Hasseldorf and purchased the feif of Hasseldorf in 1255. In 1257 he sowre fealty to the archbishop of Bremen(seemingly granted whole or parts of Dithmarchen as a feif until 1259), invoking the ire of the Holstein counts and the citizens of Hamburg. War lasted until 1259. In 1267 he was at war with Hamburg again.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603192
+	mother=1603171	
+	1212.1.1 = {
+		birth=yes
+	}	
+	1247.1.1 = {
+		add_spouse =1603219
+	}		
+	1269.1.1 = {
+		death=yes
+	}
+}
+1603196 = {
+	name="Adelheid" #Adelheid II, daughter of Otto I, attested 1288, married Heinrich v Heimbruch(fl 1255-76 and died 1301)
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603195
+	female=yes
+	mother=1603219
+	1248.1.1 = {
+		birth=yes
+	}	
+	1301.1.1 = {
+		death=yes
+	}
+}
+1603197 = {
+	name="Heinrich" #Heinrich III, son of Heinrich II, attested 1248, 1255 and 1285. Died the 28th of January 1286. Married Wichardis daughter of Overbode Gottschalk II von Holstein(Segeberg). Lord of Barmstede
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603192
+	mother=1603171	
+	1211.1.1 = {
+		birth=yes
+	}
+	1255.1.1 = {
+		add_spouse =1603174
+	}			
+	1286.1.28 = {
+		death=yes
+	}
+}
+1603198 = {
+	name="Otto" #Otto II, son of Heinrich II, died as child/junior. With him the male mainline died out(he had two unnamed sisters)
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603197
+	mother=1603174	
+	1256.1.1 = {
+		birth=yes
+	}	
+	1269.1.1 = {
+		death=yes
+	}
+}
+##Lambert Branch aka Raboisen(Herren von Seester, Raboysen und Wensien) they had the same coa as mainline.
+1603199 = {
+	name="Lambert" #Lambert I, son of Heinrich I attetsted 1211
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603185
+	1157.1.1 = {
+		birth=yes
+	}	
+	1217.1.1 = {
+		death=yes
+	}
+}
+1603200 = {
+	name="Hermann" #Hermann I, son of Lambert I, attested 1253, 1257(first mention of the name Rabiosen) and 1266, died the 11th of February 1267. 
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603199
+	1193.1.1 = {
+		birth=yes
+	}	
+	1267.2.11 = {
+		death=yes
+	}
+}
+1603201 = {
+	name="Borchart" #Borchart/Burchard III, son of Hermann I, attested 1266, 1279 abd 1286. Died 1301.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603200
+	1229.1.1 = {
+		birth=yes
+	}	
+	1301.1.1 = {
+		death=yes
+	}
+}
+1603202 = {
+	name="Hermann" #Hermann III, son of Borchart III, attested 1301 and 1309 
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603201
+	1266.1.1 = {
+		birth=yes
+	}	
+	1315.1.1 = {
+		death=yes
+	}
+}
+1603203 = {
+	name="Lambert" #Lambert III, son of Hermann I, attested 1266 and 1279, died before 1285.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603200
+	1220.1.1 = {
+		birth=yes
+	}	
+	1284.1.1 = {
+		death=yes
+	}
+}
+1603204 = {
+	name="Eler" #Eler son of Lambert III, attested 1302 as a knight.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1253.1.1 = {
+		birth=yes
+	}	
+	1305.1.1 = {
+		death=yes
+	}
+}
+1603205 = {
+	name="Hermann" #Hermann II, son of Lambert III, attested 1279, 1301(as a knight), and 1317.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1251.1.1 = {
+		birth=yes
+	}	
+	1318.1.1 = {
+		death=yes
+	}
+}
+1603206 = {
+	name="Heinrich" #Heinrich V, son of Hermann II, attested 1322 and 1334
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1283.1.1 = {
+		birth=yes
+	}	
+	1334.1.1 = {
+		death=yes
+	}
+}
+1603207 = {
+	name="Hermann" #Hermann IV, son of Hermann II, attested 1322 and 1324, died before 1346.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1281.1.1 = {
+		birth=yes
+	}	
+	1344.1.1 = {
+		death=yes
+	}
+}
+1603208 = {
+	name="Otto" #Otto III, son(probably oldest) of Herman II, attested 1320 and 1322.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1275.1.1 = {
+		birth=yes
+	}	
+	1323.1.1 = {
+		death=yes
+	}
+}
+1603209 = {
+	name="Margarete" #Margarete, daughter of Hermann II, married Heinrich IV von Wedel( funny how many Holstein families had links with Estonia)
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	female=yes
+	1282.1.1 = {
+		birth=yes
+	}	
+	1335.1.1 = {
+		death=yes
+	}
+}
+#NN, daughter of Hermann II, married Detlef v Wensien(fl 1310-1339) making the link with the Wesin family which gained a lot of their estates in Wagrien.
+1603210 = {
+	name="Lambert" #Lambert IV, son(probably second son) of Hermann II, attested 1322, 1323, 1332 and 1351. died 1362. His line survived the longest.
+	dynasty=1000103373
+	religion="catholic"
+	culture="low_german"
+	father=1603203
+	1280.1.1 = {
+		birth=yes
+	}	
+	1362.1.1 = {
+		death=yes
+	}
+}
+#############
+#Haseldorf/Haselthorpe
+##############
+#Herren von Haseldorf and uetersen, later played an important role during the Livonian crusade and in the establishment of the archbishoperic of Riga.
+1603215 = {
+	name="Odico" #Adico/Odico, attested 1143, first known member.
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	1120.1.1 = {
+		birth=yes
+	}	
+	1180.1.1 = {
+		death=yes
+	}
+}
+1603216 = {
+	name="Friedrich" #Friedrich I, son of ?,  attested 1190 and 1201. 
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=1603215 # Speculative
+	1145.1.1 = {
+		birth=yes
+	}	
+	1205.1.1 = {
+		death=yes
+	}
+}
+1603217 = {
+	name="Friedrich" #Friedrich II, older son of Friedrich,  attested 1190 and 1220, knight in the service of the Archbishop of Bremen. 
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=1603216
+	1165.1.1 = {
+		birth=yes
+	}	
+	1223.1.1 = {
+		death=yes
+	}
+}
+1603218 = {
+	name="Theodore" #Theodore, second son of Freidrich I, first attested 1224 as a knight in the service of the Archbishop of Bremen and later(early 1236 he arrived in Livonia) the Archbishop of Riga. Married Helena.
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=1603216
+	1180.1.1 = {
+		birth=yes
+	}	
+	1236.9.22 = { # fell at the battle of Schaulen/Saule
+		death={ death_reason=death_battle }
+	}
+}
+30431 = {
+	name="Freidrich" #Freidrich III,  son of Theodore, knight in the service of the Archbishop of Bremen who also served as a judge in Hamburg until 1255. Married Jutta. In 1255 he took the wow and went to a monestary in Stade. His feif went to Otto von Barmstede. In january 1269 he was made bishop of Dorpat. Last attested 4th of december 1285, dead before 1289.
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=1603218
+	trait="martial_cleric"
+	1210.1.1 = {
+		birth=yes
+	}	
+	1288.1.1 = { 
+		death=yes
+	}
+}
+1603219 = {
+	name="Gertrude" #Gertrude, daughter of Freidrich III, married Otto von Barmstede.
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=30431
+	female=yes
+	1229.1.1 = {
+		birth=yes
+	}	
+	1275.1.1 = {
+		death=yes
+	}
+}
+1603220 = {
+	name="Adelheid" #Adelheid, daughter of Freidrich III 
+	dynasty=7156  #von Haseldorf
+	religion="catholic"
+	culture="low_german"
+	father=30431
+	female=yes
+	1234.1.1 = {
+		birth=yes
+	}	
+	1279.1.1 = {
+		death=yes
+	}
+}
+#############
+#Vedel/Wedel/Wedele
+##############
+#Herren von Wedel, one branch gained multiple lordships during the Ostliednung since 1240. Another branch went to DK and Norway while a third went to Swedish Finland.
+1603221 = {
+	name="Heinrich" # Heinrich I, vogt of Neumünster, died before 13th of september 1149
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_saxon"
+	1100.1.1 = {
+		birth=yes
+	}	
+	1148.1.1 = {
+		death=yes
+	}
+}
+1603222 = {
+	name="Hasso" # Hasso I, son of Heinrich attested 13th of september 1149 as a knight.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603221
+	1127.1.1 = {
+		birth=yes
+	}	
+	1195.1.1 = {
+		death=yes
+	}
+}
+1603223 = {
+	name="Heinrich" # Heinrich II, son of Hasso I
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603222
+	1158.1.1 = {
+		birth=yes
+	}	
+	1215.1.1 = {
+		death=yes
+	}
+}
+1603224 = {
+	name="Hasso" # Hasso II, son of Hasso I, attested 1180
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603222
+	1155.1.1 = {
+		birth=yes
+	}	
+	1205.1.1 = {
+		death=yes
+	}
+}
+1603225 = {
+	name="Reinbert" # Reimbernus I son of Hasso II attested 1212
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603224
+	1194.1.1 = {
+		birth=yes
+	}	
+	1243.1.1 = {
+		death=yes
+	}
+}
+1603226 = {
+	name="Friedrich" # Frithericus I son of Hasso II, attested 1215
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603224
+	1182.1.1 = {
+		birth=yes
+	}	
+	1213.1.1 = {
+		death=yes
+	}
+} 
+1603227 = {
+	name="Hasso" # Hasso III, son of Hasso II attested 1212 and 1238
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603224
+	1188.1.1 = {
+		birth=yes
+	}	
+	1253.1.1 = {
+		death=yes
+	}
+} 
+1603228 = {
+	name="Ludwig" #Ludwig, son of Hasso III, attested 1269. Was captured at the battle of Uetersen in 1306 and quarterd.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603227
+	1240.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death={ death_reason=death_rabble }
+	}
+}
+1603229 = {
+	name="Sigried" #Sigried, daughter of Hasso III, died 1322
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603227
+	female=yes
+	1250.1.1 = {
+		birth=yes
+	}	
+	1322.1.1 = {
+		death=yes
+	}
+}
+1603230 = {
+	name="Reinbert" # Reinbert the older, son of ? attested 1302
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603227 # speculative
+	1233.1.1 = {
+		birth=yes
+	}	
+	1304.1.1 = {
+		death=yes
+	}
+}
+1603231 = {
+	name="Hasso" #Hasso, father of Heinrich/placeholder(Heinrich was son of a Hasso, but he would have been very old if it was Hasso III).
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603227
+	1227.1.1 = {
+		birth=yes
+	}	
+	1280.1.1 = {
+		death=yes
+	}
+}
+1603232 = {
+	name="Heinrich" #Heinrich, son of a Hasso nephew of Reinbert the Older, attested 1302, died 1334
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603231
+	1255.1.1 = {
+		birth=yes
+	}	
+	1334.1.1 = {
+		death=yes
+	}
+}
+1603233 = {
+	name="Johann" #Johann, brother of Heinrich attested 1302.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603231
+	1260.1.1 = {
+		birth=yes
+	}	
+	1307.1.1 = {
+		death=yes
+	}
+}
+1603234 = {
+	name="Reinbert" #Reinbert, brother of Heinrich attested 1302.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603231
+	1263.1.1 = {
+		birth=yes
+	}	
+	1314.1.1 = {
+		death=yes
+	}
+}
+1603235 = {
+	name="Gorlis" #Tzules/Gorlis, son of ?, attested 1347
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603232 # speculative
+	1290.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1603236 = {
+	name="Henning" #Henning son of Gorlis
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603235 
+	1320.1.1 = {
+		birth=yes
+	}	
+	1370.1.1 = {
+		death=yes
+	}
+}
+#### Pommerian, Brandenburg and Prussian branches.
+1603237 = {
+	name="Heinrich" # Heinricus II son of Hasso II, attested 1212 and 1224
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603224
+	1160.1.1 = {
+		birth=yes
+	}	
+	1225.1.1 = {
+		death=yes
+	}
+}
+1603238 = {
+	name="Hasso" # Hasso IV son of Heinrich II, attested 1227 and 1228 as vogt of Itzehoe, by 1240 he had crossed the Oder during the Ostliednung.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603237
+	1190.1.1 = {
+		birth=yes
+	}	
+	1250.1.1 = {
+		death=yes
+	}
+}
+#Uchtenhagen branch
+1603239 = {
+	name="Hasso" #Hasso V, son og Hasso IV, attested as vogt of Drysen in 1252.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603238
+	1224.1.1 = {
+		birth=yes
+	}	
+	1295.1.1 = {
+		death=yes
+	}
+}
+1603240 = {
+	name="Wedekin" #Wedego/Wedeghe/Wedekin I son of Hasso V, lord of Uchtenhagen, attested 1324 9th of october, chamberlin of Otto of Pommerania. 
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603239
+	1257.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+1603241 = {
+	name="Barbara" #Barbara, daughter of Wedego I
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	female=yes
+	father=1603240
+	1283.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+1603242 = {
+	name="Hasso" #Hasso VI, son of Wedego I.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603240
+	1295.1.1 = {
+		birth=yes
+	}	
+	1327.1.1 = {
+		death=yes
+	}
+}
+1603243 = {
+	name="Wedekin" #Wedekin II, oldest son of Wedego I, lord of Uctenhagen, fell at the battle of Kremmer in 1332
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603240
+	1285.1.1 = {
+		birth=yes
+	}	
+	1332.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1603244 = {
+	name="Wedekin" #Wedekin III, son of Wedekin II, lord of Kannenberg, attested 1333.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603243
+	1310.1.1 = {
+		birth=yes
+	}	
+	1362.1.1 = {
+		death=yes
+	}
+}
+1603245 = {
+	name="Wedekin" #Maria, daughter of Wedekin II.
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603243
+	female=yes
+	1315.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+#Kremzow branch
+1603246 = {
+	name="Ludolf" #Ludolf/Ludeke, son of Hasso IV, lord of Falkenburg, Kremzow, Plathe, Pollnow and Schlawe. attested 1282
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603238
+	1240.1.1 = {
+		birth=yes
+	}	
+	1310.1.1 = {
+		death=yes
+	}
+}
+1603247 = {
+	name="Otto" #Otto, son of Ludeke, attested 1324
+	dynasty=100274  #Wedel
+	religion="catholic"
+	culture="low_german"
+	father=1603246
+	1260.1.1 = {
+		birth=yes
+	}	
+	1340.1.1 = {
+		death=yes
+	}
+}
+1603248 = {
+	name="Markward" #Markward, third son of Iven II, attested 1340
+	dynasty=100302
+	religion="catholic"
+	culture="low_german"
+	father=1603113
+	1320.1.1 = {
+		birth=yes
+	}	
+	1380.1.1 = {
+		death=yes
+	}
+}
+1603249 = {
+	name="Tammo" #Tammo/Thankmar. Truchsess of Hessengau for Otto III from at least 994 and onwards. Giving him Hessengau as a placeholder in 993. Possibly related to the Immedingers, but not proven
+	dynasty=1000103374
+	religion="catholic"
+	culture="low_saxon"
+
+	961.1.1 = {
+		birth=yes
+	}	
+	1037.1.1 = {
+		death=yes
+	}
+}
+1603250 = {
+	name="Dodiko" #Dodiko. Count of Hessengau from at least 1011 and onwards. Also Count of Ittergau and Nethegau. Possibly related to the Billungs but not proven
+	dynasty=1000103375
+	religion="catholic"
+	culture="low_saxon"
+
+	974.1.1 = {
+		birth=yes
+	}	
+	1020.8.29 = {
+		death=yes
+	}
+}
+1603251 = {
+	name="Volkmar" #Volkmar I von Harzgau. Speculated by the Lexicon des Mittelalters as the third possible ancestry of the Wettins. Discounting the theory for our setup
+	dynasty=1000103376
+	religion="catholic"
+	culture="low_saxon"
+	father=1603265
+	915.1.1 = {
+		birth=yes
+	}	
+	961.1.1 = {
+		death=yes
+	}
+}
+1603252 = {
+	name="Friedrich" #Friedrich III von Harzgau. Son of Volkmar I
+	dynasty=1000103376
+	religion="catholic"
+	culture="low_saxon"
+	father=1603251
+	939.1.1 = {
+		birth=yes
+	}	
+	996.1.1 = {
+		death=yes
+	}
+}
+1603253 = {
+	name="Volkmar" #Volkmar II von Harzgau. Son or brother of Friedrich III, going with son.
+	dynasty=1000103376
+	religion="catholic"
+	culture="low_saxon"
+	father=1603252
+	968.1.1 = {
+		birth=yes
+	}	
+	1015.1.1 = {
+		death=yes
+	}
+}
+1603254 = {
+	name="Suidger" #Swidger, Suidger or Suitger. Bishop of Münster 993-1011. Canonised in 1652. Perhaps a bit too late for it to be included. We can always discuss that. According to the German wiki, he was the uncle of Suitger, the Bishop of Bamberg, who later became Pope Clement
+	dynasty=1000103363
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1603256	
+	969.1.1 = {
+		birth = yes
+	}
+	1011.11.19 = {
+		death = yes
+	}
+}
+1603255 = {
+	name="Konrad" #Konrad von Morsleben, father of Suidger who later became Pope Clemens
+	dynasty=1000103363
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	father=1603256	
+	971.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+1603256 = {
+	name="Liudger" #Unnamed father of Konrad and Suidger
+	dynasty=1000103363
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	943.1.1 = {
+		birth = yes
+	}
+	997.11.19 = {
+		death = yes
+	}
+}
+1603257 = {
+	name="Dodo" #Bishop of Münster 969-993
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	937.1.1 = {
+		birth = yes
+	}
+	993.5.14 = {
+		death = yes
+	}
+}
+1603258 = { 
+	name="Dodo" #Bishop of Osnabrück 978-996
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	940.1.1 = {
+		birth=yes
+	}
+	996.4.12 = {
+		death=yes
+	}
+}
+1603259 = { 
+	name="Günther" #Bishop of Osnabrück 996-998
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	955.1.1 = {
+		birth=yes
+	}
+	998.11.27 = {
+		death=yes
+	}
+}
+1603260 = { 
+	name="Wodilulf" #Bishop of Osnabrück 998-1003
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	954.1.1 = {
+		birth=yes
+	}
+	1003.2.17 = {
+		death=yes
+	}
+}
+1603261 = {
+	name = "Unni" # Saint Unni, Bishop of Bremen and Hamburg between 916-936, died while on missionary work in Birka
+	religion = "catholic"
+	culture = "low_saxon"
+	882.1.1 = {
+		birth = yes
+	}
+	936.9.17 = {
+		trait = "saint"
+		name = "Saint Unni"	
+		death = yes
+	}
+}
+1603262 = {
+	name = "Hathaburg" # Hathaburg von Merseburg, mother of Thankmar
+	female=yes
+	dynasty=1000103377
+	religion = "catholic"
+	culture = "low_saxon"
+	father=1603264	
+	879.1.1 = {
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+	}
+}
+1603263 = {
+	name = "Hildegard" # Hildegard von Merseburg, mother of Gero and Siegfried von Merseburg
+	female=yes
+	dynasty=1000103377
+	religion = "catholic"
+	culture = "low_saxon"
+	father=1603264	
+	881.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+1603264 = {
+	name = "Erwin" # Erwin von Merseburg, Count of Hasegau and Friesenfeld, grandfather of Gero the Great and Siegfried von Merseburg through their mother
+	dynasty=1000103377
+	religion = "catholic"
+	culture = "low_saxon"
+	840.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		death = yes
+	}
+}
+1603265 = {
+	name="Friedrich" #Friedrich von Harzgau
+	dynasty=1000103376
+	religion="catholic"
+	culture="low_saxon"
+
+	891.1.1 = {
+		birth=yes
+	}	
+	945.1.1 = {
+		death=yes
+	}
+}
+1603266 = {
+	name="Dedi" #Dedi, Count of Hassegau
+	dynasty=1000103378
+	religion="catholic"
+	culture="low_saxon"
+
+	899.1.1 = {
+		birth=yes
+	}	
+	957.3.14 = {
+		death=yes
+	}
+}
+1603267 = { 
+	name="Ludolf" #Bishop of Osnabrück 967-978
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	926.1.1 = {
+		birth=yes
+	}
+	978.3.31 = {
+		death=yes
+	}
+}
+1603268 = { 
+	name="Drogo" #Bishop of Osnabrück 949-967
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+
+	919.1.1 = {
+		birth=yes
+	}
+	967.5.10 = {
+		death=yes
+	}
+}
+1603269 = {
+	name="Hildebold" #Bishop of Münster 941-969
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	908.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+1603270 = {
+	name="Rumhold" #Bishop of Münster 922-941
+	religion="catholic"
+	culture="low_saxon"  # melted from: german
+	
+	890.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+#############
+#Random notes on Marschall/Truchess(dapifer) of Holstein 
+##############
+#Otto v Kellingdorf, Marschall 1226
+#Marquard von Rönnau, Marschall 1247
+#Wulfold aka Papewulf, dapifer in 1256, last attested 1290.

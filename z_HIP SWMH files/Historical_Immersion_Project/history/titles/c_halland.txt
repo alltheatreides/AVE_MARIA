@@ -1,0 +1,118 @@
+# -*- ck2.history.titles -*-
+
+860.1.1 = {
+	liege = d_skane
+	holder = 6843
+}
+915.1.1 = {
+	holder = 168635 # Gorm Haraldsen(Klak-Harald), king of eastern Denmark/Skåne
+}
+935.1.1 = {
+	holder = 168638 # Sigfred/Sigvald Gormsen, king of eastern Denmark/Skåne
+}
+961.1.1 = {
+	holder = 168639 # Harald(Strut-Harald) Sigfredsen Jarl of Skåne
+}
+985.1.1 = {
+	holder = 168641 # Torgil(the Tall) Haraldsen Jarl of Skåne
+}
+1025.1.1 = {
+	holder = 168642 # Harald Torgilsen Jarl of Skåne
+}
+1042.1.1 = {
+	liege = d_jylland
+	holder = 101515 # Svend Estridsen
+}
+1047.10.25 = {
+	liege = k_denmark
+}
+1051.1.1 = {
+	holder = 102504 # Finn Arneson of Norway
+}
+1062.1.1 = {
+	holder = 102523 # Håkon Ivarson
+}
+1063.1.1 = {
+	holder = 101515
+}
+1074.4.28 = {
+	holder = 101517
+}
+1080.4.17 = {
+	holder = 101519
+}
+1086.7.10 = {
+	holder = 101520
+}
+1095.8.18 = {
+	holder = 101521
+}
+1103.7.10 = {
+	holder = 101530 # Nils Svendsen
+}
+1134.6.25 = {
+	holder = 201517 # Erik Emune
+}
+1137.7.18 = {
+	holder = 201514 # Erik Lamm
+}
+1146.8.27 = {
+    liege=d_sjaelland
+	holder = 201518 # Svend Grathe
+}
+1154.6.1 = { 
+	holder = 201508 # Knud V
+}
+### Svend Grathe as king of Skaane
+1157.7.1 = {
+	liege = d_skane
+    holder = 201518 # Svend Grathe
+}
+###
+1157.10.23 = {
+	holder = 201510 # Valdemar the Great
+}
+1182.5.12 = {
+	holder = 201500 # Knud VI
+}
+1202.11.12 = {
+	holder = 201501 # Valdemar Sejr
+}
+1217.1.1 = {
+	holder = 161737 # Niels Ylving
+}
+1219.1.1 = {
+	holder = 201501 # Valdemar Sejr
+}
+1241.3.28 = {
+	holder = 451510 # Erik Plogpenning
+}
+1250.8.9 = {
+	holder = 451524 # Abel
+}
+1252.6.29 = {
+	holder = 451513 # Christoffer I
+}
+1259.5.29 = {
+	holder = 451514 # Erik Klipping
+}
+1286.11.22 = {
+	holder = 451515 # Erik Menved
+}
+1312.1.1 = {
+	liege = d_ostergotland
+	holder = 450501 # Duke Erik gains the county through marriage to princess Ingeborg
+}
+1318.2.16 = {
+	holder = 450504 # King Birger
+}
+1320.1.1 = {
+	holder = 451801
+}
+1329.1.1 = {
+	liege = d_esthonia # Knud Porse becomes duke of Esthonia
+}
+1330.5.30 = {
+	liege = d_ostergotland
+	holder = 451800
+}

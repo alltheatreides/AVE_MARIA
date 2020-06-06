@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1302 - Santok
+
+# County Title
+title = c_santok
+
+# Settlements
+max_settlements = 4
+
+b_santok = tribal
+#b_usch = castle
+#b_paradies = temple
+#b_wielen = castle
+#b_landsberg_oder = city
+#b_woldenberg = city
+#b_pila = city
+
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+962.1.1 = { 
+b_santok = castle
+b_wielen = castle
+b_usch = city}
+1150.1.1 = { culture = polish }
+1150.1.1 = { religion = catholic }
+#1226.1.1 = { b_wielen = city}
+1230.1.1 = { b_paradies = temple }

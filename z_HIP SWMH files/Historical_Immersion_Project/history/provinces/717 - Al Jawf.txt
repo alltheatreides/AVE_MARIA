@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 717 - Al Jawf
+
+# County Title
+title = c_al_jawf
+
+# Settlements
+max_settlements = 3
+
+b_fayd = tribal
+#b_zubala = city
+#b_aghfur = castle
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

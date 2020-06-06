@@ -1,0 +1,43 @@
+# -*- ck2.history.provinces -*-
+
+# 452 - Pecs # Tolna
+
+# County Title
+title = c_pecs
+
+# Settlements
+max_settlements = 5
+
+b_tolnavar = tribal
+b_pecs = city
+#b_vaty = temple
+
+#b_pecsvarad = castle
+#b_szekszard = temple
+#b_regoly = castle
+#b_madogsa = temple
+#b_paks = castle
+#b_dombovar = city
+#b_tamasi = temple
+#b_simontornya = city
+#b_dobrokoz = castle
+#b_pecsvarad = castle
+#b_dunaszekcso = castle
+#b_siklos = temple
+#b_mohacs = city
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = khavar }
+1000.1.1 = { 
+	b_tolnavar = castle 
+	b_vaty = temple
+}
+1025.1.1 = { religion = catholic }
+1041.1.1 = { culture = szekely }
+1187.1.1 = { b_pecsvarad = castle } 
+1250.1.1 = { culture = hungarian }
+

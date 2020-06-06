@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 931 - Möre
+
+# County Title
+title = c_more
+
+# Settlements
+max_settlements = 3
+
+b_kalmarslott = tribal
+#b_kalmar = city
+
+#b_vastervik = city
+#b_vimmerby = city	
+
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+800.1.1 = { b_kalmarslott = tb_shipyard_1 }
+1008.1.1 = {b_kalmarslott = castle
+b_kalmar = city	
+b_kalmarslott = ca_shipyard_1}
+1022.1.7 = {religion = catholic}
+1035.1.1 = { culture = gothic }  
+1242.1.1= { trade_post = b_pat_luneburg }

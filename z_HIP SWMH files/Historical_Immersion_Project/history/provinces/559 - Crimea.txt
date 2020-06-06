@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 559 - Crimea
+
+# County Title
+title = c_crimea
+
+# Settlements
+max_settlements = 5
+b_kirim = tribal
+#b_kezlev = city
+#b_chufut_kale = castle
+#b_aqmescit = temple
+#b_qarasuvbazar = city
+
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+808.1.1 = { religion = jewish }
+1016.1.1 = { culture = pecheneg }
+1016.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman } 
+1152.1.1 = { trade_post = b_grimaldi }
+
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol } 
+

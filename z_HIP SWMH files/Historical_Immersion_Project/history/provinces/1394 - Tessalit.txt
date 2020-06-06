@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1394 - Tessalit
+
+# County Title
+title = c_tessalit
+
+# Settlements
+max_settlements = 2
+
+b_tessalit = tribal
+
+#b_aguelhok = city
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+
+#Berber colonization
+#1030.1.1 = { culture = zanata }
+
+#islamization
+#1110.1.1 = { religion = ibadi }

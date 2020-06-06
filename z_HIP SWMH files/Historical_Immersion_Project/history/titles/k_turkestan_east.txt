@@ -1,0 +1,139 @@
+# -*- ck2.history.titles -*-
+
+20.1.1 = {
+	historical_nomad = yes
+}
+840.1.1 = {
+	holder = 188778
+}
+893.1.2 = {
+	holder = 194383
+}
+920.1.2 = {
+	holder = 1230252
+}
+940.1.2 = {
+	holder = 188853
+}
+950.1.1 = {
+	historical_nomad = no
+}
+958.1.2 = {
+	holder = 1230254
+}
+958.10.10 = {
+	holder = 188854
+}
+990.1.2 = {
+	holder = 1230266
+}
+992.8.8 = {
+	holder = 3000
+}
+998.1.2 = {
+	holder = 3002
+}
+1017.1.2 = {
+	holder = 3004
+}
+1025.1.2 = {
+	holder = 1230268
+}
+1026.1.2 = {
+	capital = 1567 #Kashgar
+	holder = 3008 # Yusuf Kadir Khan
+}
+1032.1.2 = {
+	holder = 3010
+}
+1034.1.2 = {
+	holder = 144102
+}
+1057.1.1 = {
+	holder = 144103
+}
+1058.4.1 = {
+	holder = 144104
+}
+1062.1.1 = {
+	holder = 144105
+}
+1074.1.1 = {
+	holder = 144106
+}
+1075.1.1 = {
+	holder = 144107
+}
+1076.1.1 = {
+	holder = 1230283
+}
+1089.1.1 = {
+	set_tribute_suzerain = {
+		who = e_persia
+		percentage = 0.4
+	}
+}
+1092.11.1 = {
+	clear_tribute_suzerain = e_persia
+}
+1102.1.1 = {
+	holder = 144114
+}
+1128.1.1 = {
+	holder = 144115 # lives up to 1156
+}
+# submission to Khitan
+1134.1.1 = {
+	liege = e_khitan
+}
+1137.1.1 = { #Eastern Qarakhanid khan demoted to Ilig-Turkmen
+	holder = 188905
+}
+1144.6.6 = {
+	holder = 188907
+}
+#1151.6.6 = {
+#	holder = 188907
+#}
+1163.6.6 = {
+	holder = 188908
+}
+1177.6.6 = {
+	holder = 1231500
+}
+1177.11.11 = {
+	holder = 188912
+}
+1211.1.1 = {
+	holder = 188914
+}
+# Mongol conquest
+1218.1.1 = {
+	liege = 0
+	holder = 0
+}
+1227.12.2 = {
+	historical_nomad = yes
+	liege = e_mongol_empire
+	holder = 93062
+}
+1234.2.10 = {
+	liege = 0
+	holder = 0
+}
+1267.1.1 = {
+	holder = 217305
+}
+1301.10.23 = {
+	holder = 166915
+}
+1303.8.1 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1306.1.1 = {
+	clear_tribute_suzerain = e_china_west_governor
+	holder = 0
+}

@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 799 - Gabiyaha      # Nastarawa
+
+# County Title
+title = c_gabiyaha
+
+# Settlements
+max_settlements = 6
+b_nastarawa = castle
+b_burullus = city
+b_fuwa = temple
+b_rashid = castle
+
+#b_alshirak = city
+#b_tida = castle
+
+#b_hermopolis = castle
+#b_rosetta = castle
+#b_sais = city
+
+# Misc
+culture = coptic
+religion = miaphysite
+terrain = farmlands
+
+# History
+
+990.1.1 = { culture = egyptian_arabic religion = sunni } 

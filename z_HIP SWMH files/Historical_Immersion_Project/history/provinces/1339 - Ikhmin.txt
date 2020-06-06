@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1339 - Akhmim
+
+# County Title
+title = c_ikhmin
+
+# Settlements
+max_settlements = 3
+b_ikhmin = castle
+b_hu = city
+
+b_bulaina = temple
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+1099.1.1 = { culture = egyptian_arabic religion = sunni }

@@ -1,0 +1,30 @@
+# 455 - Steiermark
+
+# County Title
+title = c_steiermark
+
+# Settlements
+max_settlements = 5
+
+b_hengistburg = castle
+
+#b_graz = city 
+#b_rein = temple 
+#b_wildon = castle
+#b_stubenberg = castle  
+
+#b_pfannberg = castle
+#b_furstenfeld = city #Fürstenfeld 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+955.1.1 = { culture = bavarian }
+1129.1.1 = { b_rein = temple }
+1160.1.1 = { b_stubenberg = castle }
+1170.1.1 = { culture = german }
+1170.1.1 = { b_wildon = castle }
+1245.1.1 = { b_graz = city }
+

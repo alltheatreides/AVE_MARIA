@@ -1,0 +1,27 @@
+# 1036 - Montbeliard
+
+# County Title
+title = c_montbeliard
+
+# Settlements
+max_settlements = 5
+
+b_montbeliard = castle
+#b_hericourt = city
+b_belchamp = temple
+#b_la_roche_montbeliard = castle
+#b_neuchatel_urtiere = castle
+#b_belvoir_comte = castle
+#b_glere = castle
+
+
+# Misc
+
+culture = arpitan
+religion = catholic
+
+# History
+1060.1.1 = { b_la_roche_montbeliard = castle }
+1147.1.1 = { b_belchamp = temple }
+1147.1.1 = { b_neuchatel_urtiere = castle }
+1173.1.1 = { b_hericourt = city }

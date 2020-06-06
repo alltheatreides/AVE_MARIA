@@ -1,0 +1,52 @@
+# -*- ck2.history.provinces -*-
+
+# 444 - Esztergom
+
+# County Title
+title = c_esztergom
+
+# Settlements
+max_settlements = 6
+
+b_esztergom = tribal
+b_buda = city
+b_visegrad = city
+b_vac = temple
+
+#b_obuda = temple
+#b_pest = city
+#b_cegled = castle
+#b_hatvan = castle
+#b_szentendre = temple
+#b_godollo = city
+#b_erd = castle
+#b_batorkeszi = castle
+#b_beny = temple
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+925.1.1 = { culture = old_hungarian }
+962.1.1 = {
+	b_esztergom = tb_hillfort_1
+}
+972.1.1 = {
+	b_esztergom = tb_hillfort_2
+}
+982.1.1 = {
+	b_esztergom = tb_hillfort_3
+}
+992.1.1 = {
+	b_esztergom = tb_hillfort_4
+}
+1000.12.25 = {
+	religion = catholic
+	culture = hungarian
+	b_esztergom = castle
+}
+1187.1.1 = { b_hatvan = castle }
+
+
+

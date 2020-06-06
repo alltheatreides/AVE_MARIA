@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 699 - Edessa
+
+# County Title
+title = c_edessa
+
+# Settlements
+max_settlements = 5
+b_edessa = castle
+b_sruk = city
+b_samsat = city
+b_bile = temple
+#b_hromgla = castle
+
+# Misc
+culture = assyrian
+religion = syriac
+
+
+# History
+1030.1.1 = { 
+	culture = armenian 
+	religion = apostolic
+}
+1164.1.1 = { 
+	culture = kurdish 
+	religion = sunni 
+}

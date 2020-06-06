@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1233 - Rizaion
+
+# County Title
+title = c_rizaion
+
+# Settlements
+max_settlements = 3
+
+b_rizaion = castle
+b_atina = city
+b_hamamashen = city
+
+# Misc
+culture = georgian #Laz
+religion = orthodox
+
+# History
+
+1400.1.1 = { culture = turkish }
+1400.1.1 = { religion = sunni }

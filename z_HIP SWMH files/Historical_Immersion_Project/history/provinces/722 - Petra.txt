@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 722 - Petra # Elim
+
+# County Title
+title = c_petra
+
+# Settlements
+max_settlements = 3
+
+b_pharaohosisland = castle
+b_jordanaqba = city
+b_syrarandal = temple
+
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+
+974.1.1 = { remove_settlement = b_syrarandal culture = bedouin_arabic } #Tribalisation/Nomadization of al-Urdunn
+974.1.1 = { b_pharaohosisland = tribal } #Tribalisation/Nomadization of al-Urdunn
+1115.1.1 = { b_syrarandal = temple } #Crusader Conquest
+1115.1.1 = { b_pharaohosisland = castle } #Crusader Conquest
+1187.10.2 = { b_pharaohosisland = tribal } #Falls to the Ayyubids
+1187.10.2 = { remove_settlement = b_syrarandal } #Falls to the Ayyubids
+1250.5.2 = { b_pharaohosisland = castle }
+1271.1.1 = { b_pharaohosisland = tribal } 

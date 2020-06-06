@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1577 - Barskhan
+
+# County Title
+title = c_barskhan
+
+# Settlements
+max_settlements = 3
+b_barskhan = tribal
+#b_karakol = city
+
+#b_arshatu = temple
+
+# Misc
+culture = karluk
+religion = tengri_pagan
+
+# History
+1040.1.1 = { b_barskhan = castle }
+1220.1.1 = { b_barskhan = tribal }

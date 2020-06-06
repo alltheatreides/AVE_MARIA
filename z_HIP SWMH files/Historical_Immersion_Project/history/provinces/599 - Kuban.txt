@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 599 - Kuban
+
+# County Title
+title = c_kuban
+
+# Settlements
+max_settlements = 2
+
+b_kuban = tribal
+#b_sapaksi = city
+
+culture = kasogi
+religion = tengri_pagan
+
+# History
+
+1227.1.1 = { religion = sunni } 

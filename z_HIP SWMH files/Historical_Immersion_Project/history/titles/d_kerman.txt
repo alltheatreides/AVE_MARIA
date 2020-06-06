@@ -1,0 +1,184 @@
+# -*- ck2.history.titles -*-
+
+661.2.28 = {
+	liege = e_arabia
+}
+765.1.1 = {
+	holder = 188606
+}
+780.1.1 = {
+	liege = 0
+	holder = 0
+}
+865.1.1 = {
+	holder = 1236289
+}
+934.1.1 = {
+	liege = k_mavarannahr
+	holder = 1230261 # Abu-Ishaq Simjuri 
+}
+936.8.1 = {
+	liege = 0
+	holder = 0 # Mu'izz al-Dawla establishes Buyid authority with the aid of Imad al-Dawla
+}
+940.1.1 = { #coins struck in the name of Mohammad b. Elyas from 945
+	capital = 639 # Kerman, during Muhammad b. Ilyas's reign
+	holder = 1230777
+	set_tribute_suzerain = {
+		who = k_mavarannahr
+		percentage = 0.4
+	}
+}
+960.1.1 = { #Mohammad b. Elyas receives royal insignia from the Abbasid caliph
+	clear_tribute_suzerain = k_mavarannahr
+}
+965.1.1 = { #? Sometime before 967
+	holder = 1230778
+}
+968.1.1 = {
+	liege = k_persia
+	holder = 1231065
+}
+983.3.3 = {
+	holder = 1231071
+}
+989.6.9 = {
+	holder = 1231070
+}
+998.12.1 = {
+	holder = 1231072
+}
+1012.12.22 = {
+	holder = 1231075
+}
+1028.11.1 = { #succeeded Kerman from his uncle Qiwam al-Daula Abu'l-Fawaris
+	liege = 0
+	holder = 1231078
+}
+1037.1.1 = {
+	liege = k_persia
+}
+# 1032-1036 Ghaznavid
+1048.1.1 = {
+	liege = k_khorasan
+	holder = 3041
+}
+1073.4.17 = {
+	liege = e_persia
+	holder = 144025
+}
+1085.1.1 = {
+	holder = 144027
+}
+1097.1.1 = {
+	holder = 144028
+}
+1101.1.1 = {
+	holder = 144034
+}
+1142.1.1 = {
+	holder = 144035
+}
+1156.1.1 = {
+	holder = 144036
+}
+1156.1.1 = {
+	liege = 0
+}
+1169.1.1 = {
+	holder = 144037
+}
+1174.1.1 = {
+	holder = 144038
+}
+1176.1.1 = {
+	holder = 144039
+}
+1183.1.1 = {
+	holder = 144040
+}
+1187.1.1 = {
+	#historical_nomad = yes
+	holder = 93256
+}
+1195.1.1 = {
+	holder = 93257
+}
+1196.1.1 = {
+	holder = 1232020
+}
+1200.1.1 = {
+	#historical_nomad = no
+	holder = 1231418
+}
+1204.1.1 = {
+	#historical_nomad = yes
+	holder = 1232020
+}
+1209.1.1 = {
+	#historical_nomad = no
+	holder = 93246
+}
+1213.1.1 = {
+	liege = k_khwarezmia
+	holder = 93054
+}
+1221.1.1 = {
+	liege = 0
+	holder = 93258
+}
+1223.1.1 = {
+	liege = k_khwarezmia
+}
+1228.1.1 = {
+	liege = 0
+}
+1230.1.1 = {
+	liege = e_mongol_empire
+}
+1234.2.10 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1235.1.1 = {
+	holder = 93259
+}
+1236.1.1 = {
+	holder = 93260
+}
+1251.1.1 = {
+	holder = 93259
+}
+1257.1.1 = {
+	holder = 93262
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1282.1.1 = {
+	holder = 93263
+}
+1292.1.1 = {
+	holder = 93264
+}
+1295.1.1 = {
+	holder = 93265
+}
+1296.1.1 = {
+	holder = 93266
+}
+1301.1.1 = {
+	holder = 93267
+}
+1308.1.1 = {
+	holder = 93268
+}
+1314.1.1 = {
+	holder = 478022
+}
+1336.4.10 = {
+	liege = 0
+}

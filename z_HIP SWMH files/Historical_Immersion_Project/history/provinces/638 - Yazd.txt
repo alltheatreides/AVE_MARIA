@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 638 - Yazd
+
+# County Title
+title = c_yazd
+
+# Settlements
+max_settlements = 5
+b_yazd = castle
+b_andjira = city
+b_maybudh = temple
+b_nain = castle #often counted as a dependency of Isfahan
+
+#b_fahradj = temple
+#b_bafq = castle
+
+# Misc
+culture = persian
+religion = sunni
+
+# History

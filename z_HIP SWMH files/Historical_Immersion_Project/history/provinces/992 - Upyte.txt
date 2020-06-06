@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 992 - Upyte
+
+# County Title
+title = c_upyte
+
+# Settlements
+max_settlements = 3
+
+b_upyte = tribal
+#b_birzai = castle
+b_pasvalys = city
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1253.6.30  = { b_upyte = castle } # Granduchy of Lithuania formed

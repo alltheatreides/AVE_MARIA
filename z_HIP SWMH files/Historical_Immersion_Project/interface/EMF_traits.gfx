@@ -1,0 +1,81 @@
+
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_imamah_claimant"
+		texturefile = "gfx/traits/imamah_claimant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_emf_saint"
+		texturefile = "gfx/traits/emf_saint.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martyr"
+		texturefile = "gfx/traits/martyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_emf_crowned_by_pope"
+		texturefile = "gfx/traits/emf_crowned_by_pope.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_emf_crowned"
+		texturefile = "gfx/traits/emf_crowned.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+ 		name = "GFX_trait_strong_basileus"
+ 		texturefile = "gfx/traits/strong_basileus.dds"
+		noOfFrames = 1
+ 		norefcount = yes
+ 		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	#spriteType = {
+	#	name = "GFX_trait_emf_uncrowned"
+	#	texturefile = "gfx/traits/emf_uncrowned.dds"
+	#	noOfFrames = 1
+	#	norefcount = yes
+	#	effectFile = "gfx/FX/buttonstate.lua"
+	#}
+	spriteType = {
+ 		name = "GFX_trait_weak_basileus"
+ 		texturefile = "gfx/traits/weak_basileus.dds"
+		noOfFrames = 1
+ 		norefcount = yes
+ 		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sterile_secret"
+		texturefile = "gfx/traits/sterile.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sterile_known"
+		texturefile = "gfx/traits/sterile.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_infertile"
+		texturefile = "gfx/traits/infertile.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

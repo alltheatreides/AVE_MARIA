@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 467 - Split # Cetina
+
+# County Title
+title = c_split
+
+# Settlements
+max_settlements = 6
+
+b_vrlika = castle
+b_solin = castle
+b_split = city
+b_trogir = temple
+#b_sinj = castle
+#b_klis = castle
+b_sibenik = temple
+
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History
+

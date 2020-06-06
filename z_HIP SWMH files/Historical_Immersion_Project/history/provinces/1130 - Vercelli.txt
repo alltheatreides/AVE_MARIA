@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1130 - Vercelli
+
+# County Title
+title = c_vercelli
+
+# Settlements
+max_settlements = 5
+
+b_romagnano = castle
+b_ivrea = city
+b_vercelli = temple
+#b_crescentino = castle
+b_valperga = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = hills
+# History
+1200.1.1 = { b_crescentino = castle }
+1240.1.1 = { capital = b_crescentino } # vercelli commune

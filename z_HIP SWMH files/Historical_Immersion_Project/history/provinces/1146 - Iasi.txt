@@ -1,0 +1,36 @@
+# -*- ck2.history.provinces -*-
+
+# 1146 - Iasi
+
+# County Title
+title = c_iasi
+
+
+# Settlements
+max_settlements = 4
+
+b_orheimoldavia = tribal
+#b_iasimoldavia  = city
+#b_targu_frumos = city
+#b_soroca = castle
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1055.1.1 = {religion = orthodox }
+1060.1.1 = { religion = tengri_pagan 
+#remove_settlement = b_orheimoldavia 
+}
+1060.1.1 = { culture = oghuz }
+1150.1.1 = {religion = orthodox 
+b_orheimoldavia = tribal }
+1150.1.1 = {culture = romanian }
+1320.1.1 = {b_iasimoldavia  = city
+b_orheimoldavia = castle }
+
+
+ 
+
+ 

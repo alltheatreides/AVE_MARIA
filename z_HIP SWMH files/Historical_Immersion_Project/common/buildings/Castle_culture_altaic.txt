@@ -1,0 +1,602 @@
+# -*- ck2.buildings -*-
+
+# Altaic horse breeders
+castle = {
+	ca_culture_group_altaic_1 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = {
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = turkmen
+						culture = oghuz
+						culture = khalaj
+						culture = mongol
+						culture = cuman
+						culture = pecheneg
+						culture = khazar
+						culture = khavar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kasogi
+						culture = kirghiz
+						culture = uyghur
+						culture = bashkir
+						culture = khitan
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture = alan
+				culture = udi
+				culture = caucasian_avar
+				has_building = ca_culture_group_altaic_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_cavalry = 10
+		knights = 5
+		horse_archers = 10
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_group_altaic_2 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = {
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = turkmen
+						culture = oghuz
+						culture = khalaj
+						culture = mongol
+						culture = cuman
+						culture = pecheneg
+						culture = khazar
+						culture = khavar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kasogi
+						culture = kirghiz
+						culture = uyghur
+						culture = bashkir
+						culture = khitan
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture = alan
+				culture = udi
+				culture = caucasian_avar
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_1
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 15
+		knights = 5
+		horse_archers = 15
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_group_altaic_3 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = {
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = turkmen
+						culture = oghuz
+						culture = khalaj
+						culture = mongol
+						culture = cuman
+						culture = pecheneg
+						culture = khazar
+						culture = khavar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kasogi
+						culture = kirghiz
+						culture = uyghur
+						culture = bashkir
+						culture = khitan
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture = alan
+				culture = udi
+				culture = caucasian_avar
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+				has_building = ca_culture_group_altaic_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_2
+		gold_cost = 400
+		build_time = 2190
+		light_cavalry = 15
+		knights = 10
+		horse_archers = 15
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 99
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_group_altaic_4 = {
+		desc = ca_culture_group_altaic_1_desc
+		potential = {
+			OR = {
+				custom_tooltip = {
+					OR = {
+						culture = turkish
+						culture = turkmen
+						culture = oghuz
+						culture = khalaj
+						culture = mongol
+						culture = cuman
+						culture = pecheneg
+						culture = khazar
+						culture = khavar
+						culture = bolghar
+						culture = avar
+						culture = karluk
+						culture = kasogi
+						culture = kirghiz
+						culture = uyghur
+						culture = bashkir
+						culture = khitan
+					}
+					text = ALTAIC_BUT_NOT_JURCHEN_TT
+				}
+				culture = alan
+				culture = udi
+				culture = caucasian_avar
+				has_building = ca_culture_group_altaic_1
+				has_building = ca_culture_group_altaic_2
+				has_building = ca_culture_group_altaic_3
+				has_building = ca_culture_group_altaic_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					custom_tooltip = {
+						OR = {
+							culture = turkish
+							culture = turkmen
+							culture = oghuz
+							culture = khalaj
+							culture = mongol
+							culture = cuman
+							culture = pecheneg
+							culture = khazar
+							culture = khavar
+							culture = bolghar
+							culture = avar
+							culture = karluk
+							culture = kasogi
+							culture = kirghiz
+							culture = uyghur
+							culture = bashkir
+							culture = khitan
+						}
+						text = ALTAIC_BUT_NOT_JURCHEN_TT
+					}
+					culture = alan
+					culture = udi
+					culture = caucasian_avar
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_3
+		gold_cost = 500
+		build_time = 2190
+		light_cavalry = 20
+		knights = 10
+		horse_archers = 20
+		horse_archers_offensive = 0.1
+		horse_archers_morale = 0.05
+		ai_creation_factor = 98
+		extra_tech_building_start = 0.8
+	}
+
+	# Steppe nomadic tribe building AKA Ordu
+	ca_culture_group_altaic_nomad_1 = {
+		desc = ca_culture_group_altaic_nomad_1_desc
+		potential = {
+			terrain = steppe
+			FROM = {
+				OR = {
+					culture = turkish
+					culture = turkmen
+					culture = oghuz
+					culture = uyghur
+					culture = mongol
+					culture = cuman
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = avar
+					culture = karluk
+					culture = kirghiz
+					culture = bashkir
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 120
+		build_time = 365
+		light_cavalry = 25
+		horse_archers = 50
+		horse_archers_offensive = 0.2
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.5
+	}
+
+	ca_culture_group_altaic_nomad_2 = {
+		desc = ca_culture_group_altaic_nomad_1_desc
+		potential = {
+			OR = {
+				culture = turkmen
+				culture = oghuz
+				culture = mongol
+				culture = cuman
+				culture = pecheneg
+				culture = khazar
+				culture = khavar
+				culture = bolghar
+				culture = karluk
+				culture = kirghiz
+				culture = bashkir
+				has_building = ca_culture_group_altaic_nomad_1
+				has_building = ca_culture_group_altaic_nomad_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = turkmen
+					culture = oghuz
+					culture = mongol
+					culture = cuman
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = karluk
+					culture = kirghiz
+					culture = bashkir
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = turkmen
+					culture = oghuz
+					culture = mongol
+					culture = cuman
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = karluk
+					culture = kirghiz
+					culture = bashkir
+				}
+			}
+		}
+		prerequisites = { ca_wall_1 }
+		upgrades_from = ca_culture_group_altaic_nomad_1
+		gold_cost = 200
+		build_time = 1095
+		light_cavalry = 20
+		horse_archers = 30
+		horse_archers_offensive = 0.25
+		ai_creation_factor = 98
+		extra_tech_building_start = 0.6
+	}
+
+	ca_culture_group_altaic_nomad_3 = {
+		desc = ca_culture_group_altaic_nomad_1_desc
+		potential = {
+			OR = {
+				culture = turkmen
+				culture = oghuz
+				culture = mongol
+				culture = cuman
+				culture = pecheneg
+				culture = khazar
+				culture = khavar
+				culture = bolghar
+				culture = karluk
+				culture = kirghiz
+				culture = bashkir
+				has_building = ca_culture_group_altaic_nomad_1
+				has_building = ca_culture_group_altaic_nomad_2
+				has_building = ca_culture_group_altaic_nomad_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = turkmen
+					culture = oghuz
+					culture = mongol
+					culture = cuman
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = karluk
+					culture = kirghiz
+					culture = bashkir
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = turkmen
+					culture = oghuz
+					culture = mongol
+					culture = cuman
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = karluk
+					culture = kirghiz
+					culture = bashkir
+				}
+			}
+		}
+		upgrades_from = ca_culture_group_altaic_nomad_2
+		gold_cost = 300
+		build_time = 1095
+		light_cavalry = 10
+		horse_archers = 20
+		horse_archers_offensive = 0.3
+		ai_creation_factor = 90
+		extra_tech_building_start = 0.6
+	}
+}

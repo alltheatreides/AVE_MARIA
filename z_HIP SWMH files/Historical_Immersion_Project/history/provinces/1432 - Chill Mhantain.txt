@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1432 - Wicklow
+
+# County Title
+title = c_wicklow
+
+# Settlements
+max_settlements = 3
+
+
+b_wicklow = tribal
+
+#b_glendalough = temple
+#b_carnew = city
+#b_arklow = castle
+
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+867.1.1 = {
+	b_wicklow = tb_shipyard_1
+}
+1176.1.1 = {
+	b_wicklow = castle
+	b_wicklow = ca_shipyard_1
+} 

@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 70 - Norfolk
+
+# County Title
+title = c_norfolk
+
+# Settlements
+max_settlements = 5
+
+b_thetford = castle
+#b_lynn = city
+b_norwich = city
+b_elmham = temple
+#b_castle_rising = castle
+#b_weeting = castle
+#b_castle_acre = castle
+#b_horsford = castle
+#b_yarmouth = city
+#b_mileham = castle
+#b_cromer = city
+
+
+# Misc
+culture = saxon
+religion = catholic
+
+# History
+869.1.1 = { culture = norse } # Fall of East Anglia
+869.1.1 = { religion = norse_pagan } # Fall of East Anglia
+879.1.1 = { religion = catholic } # Guthrum becomes Æþelstan
+918.1.1 = { culture = anglonorse }
+950.1.1 = { b_lynn = city }
+1100.11.11 = { culture = english }
+ 

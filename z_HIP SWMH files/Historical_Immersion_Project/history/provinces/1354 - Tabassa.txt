@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1354 - Tabassa
+
+# County Title
+title = c_tabassa
+
+# Settlements
+max_settlements = 4
+
+b_tabassa = castle
+b_khenchela = temple
+b_baghaya = city
+
+#b_ouenza = temple
+
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History
+#1056.1.1 = { remove_settlement = b_tabassa  }
+1057.1.1 = { b_tabassa = tribal }
+1057.1.1 = { remove_settlement = b_khenchela  }
+1152.1.1 = { b_tabassa = castle }

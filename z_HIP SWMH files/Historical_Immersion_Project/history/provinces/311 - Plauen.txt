@@ -1,0 +1,31 @@
+# 311 - Plauen/Voigtland
+# County Title
+title = c_plauen
+
+# Settlements
+max_settlements = 4
+
+b_weida = tribal 
+
+#b_plauen = city 
+#b_zwickau = temple 
+#b_schoenburg = castle 
+
+#b_gera = city
+#b_lobenstein = castle 
+#b_asch = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+883.1.1 = { religion = catholic }
+883.1.1 = { 
+	b_weida = castle
+}
+1000.1.1 = { culture = thuringian }
+1137.1.1 = { b_schoenburg = castle }
+1170.1.1 = { culture = german }
+1224.1.1 = { b_plauen = city }
+1232.1.1 = { b_zwickau = temple }

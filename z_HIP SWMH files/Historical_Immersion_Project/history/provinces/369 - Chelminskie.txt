@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 369 - Chelminskie
+
+# County Title
+title = c_chelminskie
+
+# Settlements
+max_settlements = 6
+
+b_radzyn = tribal
+b_chelmno = city
+#b_loza = temple
+
+#b_michalowo = castle
+#b_thorn = city
+#b_lobauprussia = castle
+#b_grudziadz = city
+
+
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History 
+1065.1.1 = { religion = catholic } 
+1065.1.1 = { b_radzyn = castle } # to Poland
+1065.1.1 = { b_loza = temple }
+1138.1.1 = { b_michalowo = castle  }
+1220.1.1 = { b_lobauprussia = castle }
+1233.1.1 = { b_thorn = city }
+1250.1.1 = { culture = german }

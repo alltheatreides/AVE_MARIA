@@ -1,0 +1,101 @@
+# -*- ck2.decisions -*-
+
+decisions = {
+	# Paulician
+	become_paulician_patriarch = {
+		is_high_prio = yes
+		icon_religion = paulician
+		
+		potential = {
+			is_playable = yes
+			is_landed = yes
+			religion = paulician
+			d_paulician = { has_holder = no }
+			NOT = { any_demesne_title = { temporary = yes } }
+		}
+		allow = {
+			war = no
+			has_regent = no
+			independent = yes
+			prestige = 1000
+			piety = 1000
+			higher_tier_than = DUKE
+			any_realm_title = { is_holy_site = ROOT }
+		}
+		effect = {
+			piety = 500
+			if = {
+				limit = { NOT = { is_title_active = d_paulician } }
+				activate_title = { title = d_paulician status = yes }
+			}
+			d_paulician = { gain_title = ROOT }
+			hidden_tooltip = { narrative_event = { id = emf_heresy.2107 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Manichean
+	manichean_create_leader = {
+		is_high_prio = yes
+		icon_religion = manichean
+		
+		potential = {
+			is_playable = yes
+			religion = manichean
+			NOR = {
+				any_demesne_title = { temporary = yes }
+				is_title_active = d_manichean
+			}
+		}
+		allow = {
+			war = no
+			has_regent = no
+			independent = yes
+			higher_tier_than = DUKE
+			num_of_holy_sites = 1
+			piety = 1000
+		}
+		effect = {
+			prestige = 1000
+			activate_title = { title = d_manichean status = yes }
+			narrative_event = { id = emf_heresy.228 tooltip = CREATE_MANICHEAN_LEADER }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Ismaili
+	claim_imamah = {
+		is_high_prio = yes
+		icon_religion = ismaili
+
+		potential = {
+			dynasty = 589 #Fatimid
+			religion = ismaili
+			NOR = {
+				trait = imamah_claimant
+				imamah_claimant = { is_alive = yes }
+				has_global_flag = ismaili_caliphate_revolt
+				has_global_flag = ismaili_caliphate_revolt_ongoing
+			}
+		}
+		allow = {
+			dynasty_head = { character = ROOT }
+		}
+		effect = {
+			set_character_flag = is_imamah_claimant
+			add_trait = imamah_claimant
+			hidden_tooltip = {
+				d_ismaili = { set_title_flag = not_direct_imamah }
+				narrative_event = { id = emf_heresy.1976 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 649 - Basra
+
+# County Title
+title = c_basra
+
+# Settlements
+max_settlements = 5
+b_qalatbasra = castle
+b_basra = city
+b_almukhtara = castle
+b_alubulla = city
+
+culture = bedouin_arabic
+religion = sunni
+
+# History
+850.1.1 = { religion = shiite}
+1258.2.20 = { remove_settlement = b_alubulla }

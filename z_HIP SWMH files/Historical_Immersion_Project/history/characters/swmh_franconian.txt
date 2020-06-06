@@ -1,0 +1,3318 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  Franconian characters
+###############################################################
+#Franconian character Range: 1236500-1236649
+#2nd Range: 1604501-1605000
+###########
+### Patriarch of Aquileia
+1236500 = { 
+	name="Eberhard" # Patriarch 1045-1048
+	religion="catholic"
+	culture="franconian"  # german
+
+	994.1.1={
+		birth = yes
+	}
+	1048.11.13={
+		death = yes
+	}
+}
+1236501 = { 
+	name="Godwalt" # Patriarch 1048-1063
+	religion="catholic"
+	culture="franconian"  # german
+
+	1005.1.1={
+		birth = yes
+	}
+	1063.1.1={
+		death = yes
+	}
+}
+1236502 = { 
+	name="Baldwin" # Archbishop of Salzburg 1041-1060
+	religion="catholic"
+	culture="franconian"  # german
+
+	999.1.1={
+		birth = yes
+	}
+	1060.1.1={
+		death = yes
+	}
+}
+1236503 = {
+	name="Berengar"
+	dynasty=101693
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236504
+	1008.1.1 = {
+		birth=yes
+	}
+	1072.1.1 = {
+		death=yes
+	}
+}
+1236504 = {
+	name="Berengar" #Placeholder
+	dynasty=101693
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236505
+	986.1.1 = {
+		birth=yes
+	}
+	1050.1.1 = {
+		death=yes
+	}
+}
+1236505 = {
+	name="Hugo" #Placeholder
+	dynasty=101693
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	958.1.1 = {
+		birth=yes
+	}
+	1021.1.1 = {
+		death=yes
+	}
+}
+1236506 = {
+	name="Hermann"
+	dynasty=101554
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=20208
+	mother=20207
+	997.1.1 = {
+		birth=yes
+	}
+	1056.2.11 = {
+		death=yes
+	}
+}
+1236507 = { 
+	name="Bardo" # Archbishop of Mainz 1031-1051
+	religion="catholic"
+	culture="franconian"  # german
+
+	994.1.1={
+		birth = yes
+	}
+	1051.6.11={
+		death = yes
+	}
+}
+1236508 = { 
+	name="Eberhard" # Archbishop of Bamberg 1007-1040
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"  # german
+	father=1604537
+	973.1.1={
+		birth = yes
+	}
+	1040.8.13={
+		death = yes
+	}
+}
+1236509 = { 
+	name="Gunther" # Archbishop of Bamberg 1057-1065
+	religion="catholic"
+	culture="franconian"  # german
+
+	1013.1.1={
+		birth = yes
+	}
+	1065.7.23={
+		death = yes
+	}
+}
+1236510 = { 
+	name="Hermann" # Archbishop of Bamberg 1065-1075
+	religion="catholic"
+	culture="franconian"  # german
+
+	1028.1.1={
+		birth = yes
+	}
+	1084.1.1={
+		death = yes
+	}
+}
+1236511 = { 
+	name="Rupert" # Archbishop of Bamberg 1075-1102
+	religion="catholic"
+	culture="franconian"  # german
+
+	1038.1.1={
+		birth = yes
+	}
+	1102.6.11={
+		death = yes
+	}
+}
+1236512 = { 
+	name="Otto" # Archbishop of Bamberg 1102-1139
+	religion="catholic"
+	culture="franconian"  # german
+
+	1064.1.1={
+		birth = yes
+	}
+	1139.6.30={
+		death = yes
+	}
+}
+1236513 = { 
+	name="Eberhard" # Archbishop of Trier 1047-1066
+	religion="catholic"
+	culture="franconian"  # german
+
+	1009.1.1={
+		birth = yes
+	}
+	1066.6.1={
+		death = yes
+	}
+}
+###########
+1236514 = { 
+	name="Werner" #Werner von Lenzburg-Baden(should be son of 40701 and Richenza von Habsburg) made duke of spoleto and margrave of Ancona 1093-1120(died)
+	dynasty=672
+	religion="catholic"
+	culture="franconian"  # german
+	father=40700
+	1047.1.1={
+		birth = yes
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+1236515 = { 
+	name="Friedrich" #Friedrich von Lenzburg-Baden, son of Werner I and ALtrude. co rulcer of spoleto and march of Ancona. died in 1139.
+	dynasty=672
+	religion="catholic"
+	culture="franconian"  # german
+	father=1236514
+	1075.1.1={
+		birth = yes
+	}
+	1139.1.1={
+		death = yes
+	}
+}
+1236516 = { 
+	name="Werner" #Werner II, von Lenzburg-Baden, son of previous and Altrude. Joint ruler with his brother Freidrich(died 1139) upon his fathers death. died 1152
+	dynasty=672
+	religion="catholic"
+	culture="franconian"  # german
+	father=1236514
+	1080.1.1={
+		birth = yes
+	}
+	1152.1.1={
+		death = yes
+	}
+}
+1236517 = { 
+	name="Heribert" # Archbishop of Cologne 999-1021, son of Hugo Gau-Count of Einrichgau, brother of Heinrich Bishop of Würzburg
+	dynasty=1000103282
+	religion="catholic"
+	culture="franconian"  # german
+	father=1604563
+	965.1.1={
+		birth = yes
+	}
+	1021.3.16={
+		death = yes
+		trait = "saint"
+		name = "Saint Heribert"		
+	}
+}
+1236518 = { 
+	name="Erkanbald" # From the family of the Counts of Ölsburg. Archbishop of Mainz between 1011-1021
+	dynasty=1000103362
+	religion="catholic"
+	culture="low_saxon"  # german
+
+	978.1.1={
+		birth = yes
+	}
+	1021.8.17={
+		death = yes
+	}
+}
+1236519 = { 
+	name="Willigis" # Archbishop of Mainz between 975-1011. Saint. From a free, but non-noble family
+	religion="catholic"
+	culture="franconian"  # german
+
+	940.1.1={
+		birth = yes
+	}
+	1011.2.23={
+		name = "Saint Willigis"
+		trait = "saint"	
+		death = yes
+	}	
+}
+1236520 = {
+	name="Regilind"
+	female=yes
+	dynasty=22007
+	religion="catholic"
+	culture="franconian" #German
+	father=144992
+	mother=1411
+	986.1.1 = {
+		birth=yes
+	}
+	1050.2.1 = {
+		death=yes
+	}
+}
+1236521 = { 
+	name="Reginhard" # Archbishop of Liege between 1025-1037.
+	religion="catholic"
+	culture="franconian"  # german
+
+	989.1.1={
+		birth = yes
+	}
+	1037.12.5={	
+		death = yes
+	}	
+}
+1236522 = {
+	name="Wilhelm"
+	dynasty=651
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1308
+	977.1.1 = {
+		birth=yes
+	}
+	1047.11.7 = {
+		death=yes
+	}
+}
+1236523 = {
+	name="Gozmar" #Count in 1062, of an unspecified County
+	dynasty=1000103214
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1020.1.1 = {
+		birth=yes
+	}
+	1062.1.1 = {
+		death=yes
+	}
+}
+1236524 = {
+	name="Gozmar" #Gozmar I(II), first mentioned Count of Reichenbach 1062-1117
+	dynasty=1000103214
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236523
+	1045.1.1 = {
+		birth=yes
+	}
+	1117.1.1 = {
+		death=yes
+	}
+}
+1236525 = {
+	name="Gozmar" #Gozmar II(III), Count of Reichenbach 1123-1141
+	dynasty=1000103214
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236524
+	1072.1.1 = {
+		birth=yes
+	}
+	1141.1.1 = {
+		death=yes
+	}
+}
+1236526 = {
+	name="Gottfried" #Gottfried I, Count of Ziegenhain 1141-1168
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236525
+	1099.1.1 = {
+		birth=yes
+	}
+	1168.1.1 = {
+		death=yes
+	}
+}
+1236527 = {
+	name="Gozmar" #Gozmar III(IV), Count of Ziegenhain 1168-1184
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236526
+	1130.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		culture="german"
+	}	
+	1184.7.26 = {
+		death=yes
+	}
+}
+1236528 = {
+	name="Rudolf" #Rudolf II, Count of Ziegenhain 1184-1188
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236526
+	1132.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		culture="german"
+	}	
+	1188.1.1 = {
+		death=yes
+	}
+}
+1236529 = {
+	name="Rudolf" #Rudolf I, Count of Reichenbach 1117-1123
+	dynasty=1000103214
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236524
+	1070.1.1 = {
+		birth=yes
+	}
+	1123.1.1 = {
+		death=yes
+	}
+}
+1236530 = {
+	name="Kunigunde" #Kunigunde von Ziegenhain, married Walram I, Count of Nassau
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236526
+	1136.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		culture="german"
+	}	
+	1189.1.1 = {
+		death=yes
+	}
+}
+1236531 = {
+	name="Gottfried" #Gottfried II, Count of Ziegenhain 1188-1200
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236528
+	1156.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		culture="german"
+	}
+	1199.1.1 = {
+		add_spouse = 1603077
+	}	
+	1200.1.1 = {
+		death=yes
+	}
+}
+1236532 = {
+	name="Ludwig" #Ludwig I, Count of Ziegenhain 1200-1229
+	dynasty=1000103241
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236528
+	1167.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		culture="german"
+	}	
+	1229.1.17 = {
+		death=yes
+	}
+}
+1236533 = {
+	name="Adelheid" #Adelheid von Ziegenhain, married Burchard von Scharzfeld and Ulrich von Hagen-Münzenberg
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236528
+	1170.1.1 = {
+		birth=yes
+	}	
+	1226.2.26 = {
+		death=yes
+	}
+}
+1236534 = {
+	name="Gottfried" #Gottfried IV, Count of Ziegenhain 1229-1250
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236532
+	1202.1.1 = {
+		birth=yes
+	}	
+	1250.11.15 = {
+		death=yes
+	}
+}
+1236535 = {
+	name="Berthold" #Berthold I, Count of Ziegenhain 1250-1258
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236532
+	1207.1.1 = {
+		birth=yes
+	}	
+	1258.8.6 = {
+		death=yes
+	}
+}
+1236536 = {
+	name="Burkhart" #Burkhart von Ziegenhain, Archbishop of Salzburg for a few months in 1247
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236532
+	1209.1.1 = {
+		birth=yes
+	}	
+	1247.8.1 = {
+		death=yes
+	}
+}
+1236537 = {
+	name="Ludwig" #Ludwig, Count of Ziegenhain-Nidda, broke decisively with the other branch of the family who retained Ziegenhain itself
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236534
+	1233.1.1 = {
+		birth=yes
+	}
+	1268.1.1 = {
+		add_spouse = 1236562
+	}	
+	1289.1.1 = {
+		death=yes
+	}
+}
+1236538 = {
+	name="Gottfried" #Gottfried V, Count of Ziegenhain 1258-1272
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236535
+	1234.1.1 = {
+		birth=yes
+	}	
+	1272.1.1 = {
+		death=yes
+	}
+}
+1236539 = {
+	name="Berthold" #Eldest son of Berthold I, pre-deceased his father
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236535
+	1231.1.1 = {
+		birth=yes
+	}	
+	1258.1.1 = {
+		death=yes
+	}
+}
+1236540 = {
+	name="Gottfried" #Gottfried VI, Count of Ziegenhain 1272-1304
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236538
+	1262.1.1 = {
+		birth=yes
+	}
+	1287.1.1 = {
+		add_spouse=1604549
+	}	
+	1304.11.30 = {
+		death=yes
+	}
+}
+1236541 = {
+	name="Johann" #Johann I, Count of Ziegenhain 1304-1359
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236540
+	mother=1604549
+	1292.1.1 = {
+		birth=yes
+	}
+	1311.1.1 = {
+		add_spouse = 1236545
+	}
+	1359.12.15 = {
+		death=yes
+	}
+}
+1236542 = {
+	name="Adelheid" #Adelheid von Ziegenhain, married Heinrich II von Rheineck
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236540
+	mother=1604549	
+	1290.1.1 = {
+		birth=yes
+	}	
+	1325.1.1 = {
+		death=yes
+	}
+}
+1236543 = {
+	name="Gottfried" #Gottfried VII, Count of Ziegenhain 1359-1372
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236541
+	mother=1236545
+	1326.1.1 = {
+		birth=yes
+	}	
+	1372.1.1 = {
+		death=yes
+	}
+}
+1236544 = {
+	name="Engelbert" #Engelbert, Count of Ziegenhain-Nidda
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236537
+	mother=1236562
+	1269.1.1 = {
+		birth=yes
+	}	
+	1329.1.1 = {
+		death=yes
+	}
+}
+1236545 = {
+	name="Lukardis" #Lukardis von Ziegenhain-Nidda, married Johann I von Ziegenhain, and reunited the Ziegenhain lands.
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236544
+	1291.1.1 = {
+		birth=yes
+	}	
+	1333.1.1 = {
+		death=yes
+	}
+}
+1236546 = {
+	name="Engelbert" #Engelbert von Ziegenhain
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236541
+	mother=1236545
+	1329.1.1 = {
+		birth=yes
+	}	
+	1342.1.1 = {
+		death=yes
+	}
+}
+1236547 = {
+	name="Sophie" #Sophie von Ziegenhain, married Albrecht IV von Saxe-Lauenburg
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236541
+	mother=1236545
+	1317.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1236548 = {
+	name="Werner" #Werner II von Maden, Count of Maden-Gudensberg aka. Hessengau 1040-1053
+	dynasty=1000103218
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236663
+	1020.1.1 = {
+		birth=yes
+	}	
+	1053.6.18 = {
+		death=yes
+	}
+}
+1236549 = {
+	name="Werner" #Werner III von Maden, Count of Maden-Gudensberg aka. Hessengau 1053-1065
+	dynasty=1000103218
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236548
+	1040.1.1 = {
+		birth=yes
+	}	
+	1065.2.24 = {
+		death=yes
+	}	
+}
+1236550 = {
+	name="Werner" #Werner IV von Maden, Count of Maden-Gudensberg aka. Hessengau 1065-1121
+	dynasty=1000103218
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236549
+	1060.1.1 = {
+		birth=yes
+	}	
+	1121.2.22 = {
+		death=yes
+	}
+}
+1236551 = {
+	name="Giso" #Giso IV Gau-Count of Oberlahngau and Count of Maden-Gudensberg aka. Hessengau 1121-1122
+	dynasty=1000103269
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236575
+	1070.1.1 = {
+		birth=yes
+	}	
+	1122.3.12 = {
+		death=yes
+	}
+}
+1236552 = {
+	name="Giso" #Giso V Count of Maden-Gudensberg aka. Hessengau 1122-1137
+	dynasty=1000103269
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236551
+	1110.1.1 = {
+		birth=yes
+	}	
+	1137.1.1 = {
+		death=yes
+	}
+}
+1236553 = {
+	name="Heinrich" # Heinrich I von Sayn, brother and co-ruler of Eberhard
+	dynasty=12445  # von Sayn
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236554	
+	1121.1.1 = {
+		birth=yes
+	}
+	1159.1.1 = {
+		death="1176.1.1"
+	}
+}
+1236554 = {
+	name="Heinrich" # placeholder father of Eberhard and Heinrich
+	dynasty=12445  # von Sayn
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	1096.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1236555 = {
+	name="Gottfried"
+	dynasty=12439
+	religion="catholic"
+	culture="german"
+	father=33129
+	1223.1.1 = {
+		birth=yes
+	}
+	1284.1.1 = {
+		death=yes
+	}
+}
+1236556 = {
+	name="Johann"
+	dynasty=12439
+	religion="catholic"
+	culture="german"
+	father=1236555
+	1265.1.1 = {
+		birth=yes
+	}
+	1324.1.1 = {
+		death=yes
+	}
+}
+1236557 = {
+	name="Gottfried"
+	dynasty=12439
+	religion="catholic"
+	culture="german"
+	father=1236556
+	1297.1.1 = {
+		birth=yes
+	}
+	1327.1.1 = {
+		death=yes
+	}
+}
+1236558 = {
+	name="Johann"
+	dynasty=12439
+	religion="catholic"
+	culture="german"
+	father=1236556
+	1302.1.1 = {
+		birth=yes
+	}
+	1360.12.25 = {
+		death=yes
+	}
+}
+1236559 = {
+	name="Engelbert"
+	dynasty=12439
+	religion="catholic"
+	culture="german"
+	father=1236555
+	1269.1.1 = {
+		birth=yes
+	}
+	1336.1.1 = {
+		death=yes
+	}
+}
+1236560 = {
+	name="Otto" # Got a share of his fathers inheritance. Count of Altena 1249-1262 
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=30331 
+	1224.1.1 = {
+		birth=yes
+	}
+	1262.8.14 = {
+		death=yes
+	}
+}
+1236561 = {
+	name="Eberhard" # Eldest son of Adolf I, pre-deceased his father
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=30331 
+	1218.1.1 = {
+		birth=yes
+	}
+	1241.1.1 = {
+		death=yes
+	}
+}
+1236562 = {
+	name="Sophie" # Sophie von der Mark, married Ludwig II von Ziegenhain
+	female=yes
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33182
+	1254.1.1 = {
+		birth=yes
+	}
+	1302.1.1 = {
+		death=yes
+	}
+}
+1236563 = {
+	name="Richardis" # Richardis von der Mark, married Otto III von Tecklenburg
+	female=yes
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33182
+	1257.1.1 = {
+		birth=yes
+	}
+	1277.6.23 = {
+		death=yes
+	}
+}
+1236564 = {
+	name="Margarete" # Married Gerhard von Katzelnbogen
+	female=yes
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33183
+	mother=33184
+	1279.1.1 = {
+		birth=yes
+	}
+	1327.8.4 = {
+		death=yes
+	}
+}
+1236565 = {
+	name="Konrad" # Married Elizabeth von Kleve
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33183
+	mother=33184
+	1289.1.1 = {
+		birth=yes
+	}
+	1353.3.14 = {
+		death=yes
+	}
+}
+1236566 = {
+	name="Irmgard" 
+	female=yes
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33185
+	1305.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1236567 = {
+	name="Engelbert" #Bishop of Liege 1345-1364, Archbishop of Cologne 1364-1368
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33185
+	1304.1.1 = {
+		birth=yes
+	}
+	1368.8.25 = {
+		death=yes
+	}
+}
+1236568 = {
+	name="Engelbert" # Eldest son of Adolf II von der Mark
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33186
+	mother=462921	
+	1333.1.1 = {
+		birth=yes
+	}
+	1391.12.21 = {
+		death=yes
+	}
+}
+1236569 = {
+	name="Adolf" # second son of Adolf II von der Mark, Bishop of Münster 1357-1363, Archbishop of Cologne 1363-1364, Count of Kleves 1368-1394, Count of the Mark 1391-1393
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33186
+	mother=462921
+	1334.1.1 = {
+		birth=yes
+	}
+	1394.9.7 = {
+		death=yes
+	}
+}
+1236570 = {
+	name="Margarete" # Became the Heiress to the County of Berg as her brother died Childless, married Otto IV von Ravensburg and had daughters with him
+	female=yes
+	dynasty=287
+	religion="catholic"
+	culture="german"
+	father=33155
+	1285.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1236571 = {
+	name="Dietrich" # Third son of Adolf II von der Mark
+	dynasty=248
+	religion="catholic"
+	culture="german"
+	father=33186
+	mother=462921
+	1336.1.1 = {
+		birth=yes
+	}
+	1406.1.1 = {
+		death=yes
+	}
+}
+1236572 = {
+	name="Ruprecht" # Count of Laurenburg, Count/Vogt of Siegen
+	dynasty=263  #von Nassau
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	1048.1.1 = {
+		birth=yes
+	}
+	1097.1.1 = {
+		death=yes
+	}
+}
+1236573 = {
+	name="Giso" #Giso I Gau-Count of Oberlahngau
+	dynasty=1000103269
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	983.1.1 = {
+		birth=yes
+	}	
+	1039.1.1 = {
+		death=yes
+	}
+}
+1236574 = {
+	name="Giso" #Giso II Gau-Count of Oberlahngau
+	dynasty=1000103269
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236573
+	1014.1.1 = {
+		birth=yes
+	}	
+	1073.1.1 = {
+		death=yes
+	}
+}
+1236575 = {
+	name="Giso" #Giso III Gau-Count of Oberlahngau
+	dynasty=1000103269
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236574
+	1042.1.1 = {
+		birth=yes
+	}	
+	1091.1.1 = {
+		death=yes
+	}
+}
+1236576 = {
+	name="Arnold" #Arnold von Lauffen, apparently married Adelheid von Nellenburg
+	dynasty=1000103205 # von Lauffen	
+	religion="catholic"
+	culture="franconian"  # german
+	father=1236577
+	1007.1.1 = {
+		birth=yes
+	}
+	1075.1.1 = {
+		death=yes
+	}
+}
+1236577 = {
+	name="Heinrich" #Heinrich von Lauffen, Count of Lobdengau
+	dynasty=1000103205 # von Lauffen	
+	religion="catholic"
+	culture="franconian"  # german
+	father=1236578
+	991.1.1 = {
+		birth=yes
+	}
+	1068.1.1 = {
+		death=yes
+	}
+}
+1236578 = {
+	name="Poppo" #Poppo von Lauffen
+	dynasty=1000103205 # von Lauffen	
+	religion="catholic"
+	culture="franconian"  # german
+	father=1236579
+	976.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}
+}
+1236579 = {
+	name="Poppo" #Poppo von Lauffen, Count of Wingarteiba
+	dynasty=1000103205 # von Lauffen	
+	religion="catholic"
+	culture="franconian"  # german
+
+	959.1.1 = {
+		birth=yes
+	}
+	1016.1.1 = {
+		death=yes
+	}
+}
+1236580 = {
+	name="Poppo"
+	dynasty=1000103205 # von Lauffen
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236576
+	1044.1.1 = {
+		birth=yes
+	}	
+	1122.1.1 = {
+		death=yes
+	}
+}
+1236581 = {
+	name="Wolfram" # Wolfram I von Wertheim 1132-1157 (gave him Wertheim a little early)
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1101.1.1 = {
+		birth=yes
+	}	
+	1157.1.1 = {
+		death=yes
+	}
+}
+1236582 = {
+	name="Gerhard" # Gerhard I von Wertheim 1157-1170
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236581
+	1128.1.1 = {
+		birth=yes
+	}	
+	1170.1.1 = {
+		death=yes
+	}
+}
+1236583 = {
+	name="Poppo" # Poppo I von Wertheim 1165-1212
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236582
+	1149.1.1 = {
+		birth=yes
+	}	
+	1212.1.1 = {
+		death=yes
+	}
+}
+1236584 = {
+	name="Poppo" # Poppo II von Wertheim 1212-1238 (was already granted control of Wertheim in 1183, when his father went off on Crusade with Frederick Barbarossa
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236583
+	1167.1.1 = {
+		birth=yes
+	}	
+	1238.1.1 = {
+		death=yes
+	}
+}
+1236585 = {
+	name="Heinrich" # Heinrich von Wertheim, pre-deceased his father Poppo II
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236584
+	1193.1.1 = {
+		birth=yes
+	}	
+	1224.1.1 = {
+		death=yes
+	}
+}
+1236586 = {
+	name="Poppo" # Poppo III von Wertheim, 1238-1260
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236584
+	1200.1.1 = {
+		birth=yes
+	}	
+	1260.2.11 = {
+		death=yes
+	}
+}
+1236587 = {
+	name="Rudolf" # Rudolf I von Wertheim, co-ruler with his brother
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236584
+	1205.1.1 = {
+		birth=yes
+	}	
+	1251.1.1 = {
+		death=yes
+	}
+}
+1236588 = {
+	name="Poppo" # Poppo IV von Wertheim, 1260-1281, co-ruler with his brother Rudolf II from 1268-1281, when Rudolf came of age
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236586
+	1236.1.1 = {
+		birth=yes
+	}	
+	1281.1.1 = {
+		death=yes
+	}
+}
+1236589 = {
+	name="Rudolf" # Rudolf II
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236586
+	1249.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death=yes
+	}
+}
+1236590 = {
+	name="Kunigunde" # Eldest daughter of Poppo IV
+	female=yes
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236588
+	1257.1.1 = {
+		birth=yes
+	}	
+	1302.1.1 = {
+		death=yes
+	}
+}
+1236591 = {
+	name="Elisabeth" # second daughter of Poppo IV
+	female=yes
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236588
+	1258.1.1 = {
+		birth=yes
+	}	
+	1313.1.1 = {
+		death=yes
+	}
+}
+1236592 = {
+	name="Mechthild" # Youngest daughter of Poppo IV
+	female=yes
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236588
+	1260.1.1 = {
+		birth=yes
+	}	
+	1309.1.1 = {
+		death=yes
+	}
+}
+1236593 = {
+	name="Rudolf" # Rudolf the Elder, resigned his position of the County in 1330
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236589
+	1300.1.1 = {
+		birth=yes
+	}	
+	1352.1.1 = {
+		death=yes
+	}
+}
+1236594 = {
+	name="Rudolf" # Rudolf the Middle (starting to sense a problem for this father). Was the actual driving force amongst the brother and became the actual ruler as time went on.
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236589
+	1301.1.1 = {
+		birth=yes
+	}	
+	1355.1.1 = {
+		death=yes
+	}
+}
+1236595 = {
+	name="Rudolf" # Rudolf the Younger (What was wrong with this guy ;))
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236589
+	1304.1.1 = {
+		birth=yes
+	}	
+	1315.1.1 = {
+		death=yes
+	}
+}
+1236596 = {
+	name="Eberhard" # Count 1355-1372
+	dynasty=1000103217 # von Wertheim
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236594
+	1329.1.1 = {
+		birth=yes
+	}	
+	1372.1.1 = {
+		death=yes
+	}
+}
+1236597 = {
+	name="Konrad"  # Konrad von Weikersheim, known father of Heinrich I von Hohenlohe
+	dynasty=7138  #von Hohenlohe
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	1116.1.1 = {
+		birth=yes
+	}
+	1173.1.1 = {
+		death=yes
+	}
+}
+1236598 = {
+	name="Kraft" # Kraft II von Hohenlohe-Weikersheim
+	dynasty=7138 #von Hohenlohe
+	religion="catholic"
+	culture="german"
+	father=30419 #Kraft von Hohenlohe
+	mother=1604528 #Margaretha von Truhendingen
+	1283.1.1 = {
+		birth=yes
+	}
+	1344.5.18 = {
+		death=yes
+	}
+}
+1236599 = {
+	name="Kraft" # Kraft III von Hohenlohe-Weikersheim
+	dynasty=7138 #von Hohenlohe
+	religion="catholic"
+	culture="german"
+	father=1236598 #Kraft von Hohenlohe-Weikersheim
+	1318.1.1 = {
+		birth=yes
+	}
+	1371.11.16 = {
+		death=yes
+	}
+}
+1236600 = {
+	name="Adelheid" # Adelheid von Hohenlohe-Weikersheim, married Konrad V von Öttingen
+	female=yes
+	dynasty=7138 #von Hohenlohe
+	religion="catholic"
+	culture="german"
+	father=30419 #Kraft von Hohenlohe
+	mother=1604528 #Margaretha von Truhendingen
+	1287.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1236601 = {
+	name="Agnes" # Agnes von Hohenlohe-Weikersheim, married Ulrich II von Hanau
+	female=yes
+	dynasty=7138 #von Hohenlohe
+	religion="catholic"
+	culture="german"
+	father=30419 #Kraft von Hohenlohe
+	mother=1604528 #Margaretha von Truhendingen
+	1285.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+1236602 = {
+	name="Irmgard" # Irmgard von Hohenlohe-Weikersheim, married Konrad III von Nürnberg
+	female=yes	
+	dynasty=7138 #von Hohenlohe
+	religion="catholic"
+	culture="german"
+	father=1236598 #Kraft von Hohenlohe-Weikersheim
+	1315.1.1 = {
+		birth=yes
+	}
+	1372.1.13 = {
+		death=yes
+	}
+}
+1236603 = {
+	name="Friedrich" # Friedrich I von Saarbrücken, Count of Saarbrücken ca. 1105-1135
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236605 #Sigebert von Saarbrücken
+	1071.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes
+	}
+}
+1236604 = {
+	name="Bruno" # Bruno von Saarbrücken, Bishop of Speyer
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236605 #Sigebert von Saarbrücken
+	1081.1.1 = {
+		birth=yes
+	}
+	1123.10.19 = {
+		death=yes
+	}
+}
+1236605 = {
+	name="Sigebert" # Sigebert von Saarbrücken, ancestor of the Saarbrücken family, Count of the Saargau
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1049.1.1 = {
+		birth=yes
+	}
+	1105.1.1 = {
+		death=yes
+	}
+}
+1236606 = {
+	name="Simon" # Simon I von Saarbrücken, Count of Saarbrücken ca. 1135-1183. Apparently married to a Mechthild von Sponheim, most likely the daughter of Meinhard von Sponheim
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236603 #Friedrich von Saarbrücken
+	1106.1.1 = {
+		birth=yes
+	}
+	1183.1.1 = {
+		death=yes
+	}
+}
+1236607 = {
+	name="Simon" # Simon II von Saarbrücken, Count of Saarbrücken ca. 1183-1207. Eldest son of Simon I, inherited Saarbrücken from his father. Married to Liutgard von Leiningen, inherited Leiningen through her for his heirs
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236606 #Simon von Saarbrücken
+	1140.1.1 = {
+		birth=yes
+	}
+	1175.1.1 = {
+		add_spouse = 1236638
+	}	
+	1207.1.1 = {
+		death=yes
+	}
+}
+1236608 = {
+	name="Heinrich" # Heinrich I von Zweibrücken, Count of Zweibrücken ca. 1183-1228. Younger son of Simon I, inherited Zweibrücken from his father
+	dynasty=1000103283
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236606 #Simon von Saarbrücken
+	1149.1.1 = {
+		birth=yes
+	}
+	1228.1.1 = {
+		death=yes
+	}
+}
+1236609 = {
+	name="Sophia" # Sophia von Saarbrücken, married Heinrich III von Limburg
+	female=yes
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236606 #Simon von Saarbrücken
+	1148.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1236610 = {
+	name="Agnes" # Agnes von Saarbrücken, married Günther III von Schwarzburg
+	female=yes
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236606 #Simon von Saarbrücken
+	1150.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		death=yes
+	}
+}
+1236611 = {
+	name="Jutta" # Jutta von Saarbrücken, married Folmar von Blieskastel
+	female=yes
+	dynasty=252
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236606 #Simon von Saarbrücken
+	1147.1.1 = {
+		birth=yes
+	}
+	1223.1.1 = {
+		death=yes
+	}
+}
+1236612 = {
+	name="Simon" # Simon III von Saarbrücken, eldest son of Simon II and Liutgard von Leiningen, Count of Saarbrücken 1207-1235 ca.
+	dynasty=252
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236607 #Simon von Saarbrücken
+	mother=1236638 #Liutgard von Leiningen
+	1176.1.1 = {
+		birth=yes
+	}
+	1235.4.4 = {
+		death=yes
+	}
+}
+1236613 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, younger son of Simon II and Liutgard von Leiningen, inherited Leiningen on his fathers or mothers death. Not quite sure
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236607 #Simon von Saarbrücken
+	mother=1236638 #Liutgard von Leiningen	
+	1178.1.1 = {
+		birth=yes
+	}
+	1237.1.1 = {
+		death=yes
+	}
+}
+1236614 = {
+	name="Heinrich" # Heinrich von Saarbrücken, younger son of Simon II and Liutgard von Leiningen, Bishop of Wörms ca. 1217-1234
+	dynasty=252
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236607 #Simon von Saarbrücken
+	mother=1236638 #Liutgard von Leiningen	
+	1180.1.1 = {
+		birth=yes
+	}
+	1234.9.12 = {
+		death=yes
+	}
+}
+1236615 = {
+	name="Dietrich" # Dietrich von Saarbrücken, only son of Simon III, pre-deceased his father
+	dynasty=252
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236612 #Simon von Saarbrücken
+	1202.1.1 = {
+		birth=yes
+	}
+	1227.5.12 = {
+		death=yes
+	}
+}
+1236616 = {
+	name="Laurette" # Laurette von Saarbrücken, initial heir to her father. Her husbands ruling jure-uxoris. Remained childless so she was eventually inherited by her sister and her husbands
+	female=yes
+	dynasty=252
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236612 #Simon von Saarbrücken
+	1209.1.1 = {
+		birth=yes
+	}
+	1270.11.13 = {
+		death=yes
+	}
+}
+1236617 = {
+	name="Mathilde" # Mathilde von Saarbrücken, succeeded her sister. Her husbands ruling jure-uxoris
+	female=yes
+	dynasty=252
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236612 #Simon von Saarbrücken
+	1211.1.1 = {
+		birth=yes
+	}
+	1276.8.30 = {
+		death=yes
+	}
+}
+1236618 = {
+	name="Simon" #Simon de Commercy, Count of Saarbrücken 1276-1308
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"
+	father=1226548 #Simon de Commercy	
+	mother=1236617 #Mathilde von Saarbrücken
+	1233.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+1236619 = {
+	name="Johann" #Johann de Commercy, Count of Saarbrücken 1308-1342
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"	
+	father=1236618 #Simon de Commercy
+	1260.1.1 = {
+		birth=yes
+	}	
+	1342.1.23 = {
+		death=yes
+	}
+}
+1236620 = {
+	name="Simon" #Simon de Commercy, Eldest son of Johann de Commercy, pre-deceased his father
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"	
+	father=1236619 #Johann de Commercy
+	1284.1.1 = {
+		birth=yes
+	}	
+	1325.1.1 = {
+		death=yes
+	}
+}
+1236621 = {
+	name="Johann" #Johann de Commercy, Younger son of Johann de Commercy, Seigneur of Commercy after his father's death
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"	
+	father=1236619 #Johann de Commercy
+	1287.1.1 = {
+		birth=yes
+	}	
+	1344.1.1 = {
+		death=yes
+	}
+}
+1236622 = {
+	name="Agnes" #Agnes de Commercy, daughter of Johann de Commercy, married Simon II von Zweibrücken
+	female=yes
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"	
+	father=1236619 #Johann de Commercy
+	1289.1.1 = {
+		birth=yes
+	}	
+	1337.5.1 = {
+		death=yes
+	}
+}
+1236623 = {
+	name="Johann" #Johann de Commercy, son of Simon de Commercy. Succeeded his grandfather as Count of Saarbrücken. Count 1342-1381
+	dynasty=1000103284
+	religion="catholic"
+	culture="german"	
+	father=1236620 #Simon de Commercy
+	1321.1.1 = {
+		birth=yes
+	}	
+	1381.3.11 = {
+		death=yes
+	}
+}
+1236624 = {
+	name="Heinrich" # Heinrich II von Zweibrücken, Count of Zweibrücken ca. 1228-1281. Only son of Heinrich I von Zweibrücken
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236608 #Heinrich von Zweibrücken
+	1203.1.1 = {
+		birth=yes
+	}
+	1281.1.1 = {
+		death=yes
+	}
+}
+1236625 = {
+	name="Simon" # Simon I von Zweibrücken, Eldest son of Heinrich II von Zweibrücken and Agnes von Eberstein, inherited his mothers county
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236624 #Heinrich von Zweibrücken
+	1240.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes
+	}
+}
+1236626 = {
+	name="Eberhard" # Eberhard I von Zweibrücken, second son of Heinrich II von Zweibrücken and Agnes von Eberstein, co-count of Zweibrücken
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236624 #Heinrich von Zweibrücken
+	1245.1.1 = {
+		birth=yes
+	}
+	1321.1.1 = {
+		death=yes
+	}
+}
+1236627 = {
+	name="Walram" # Walram I von Zweibrücken, Third son of Heinrich II von Zweibrücken and Agnes von Eberstein, count of Zweibrücken 1281-1308
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236624 #Heinrich von Zweibrücken
+	1246.1.1 = {
+		birth=yes
+	}
+	1308.12.1 = {
+		death=yes
+	}
+}
+1236628 = {
+	name="Simon" # Simon II von Zweibrücken, Eldest son of Walram I von Zweibrücken, Count 1308-1311
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236627 #Walram von Zweibrücken
+	1274.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		add_spouse = 1236622
+	}	
+	1311.10.1 = {
+		death=yes
+	}
+}
+1236629 = {
+	name="Walram" # Walram II von Zweibrücken, Eldest son of Simon II von Zweibrücken and Agnes de Commercy-Saarbrücken, Count 1311-1366
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236628 #Simon von Zweibrücken
+	mother=1236622 #Agnes de Commercy-Saarbrücken
+	1307.1.1 = {
+		birth=yes
+	}	
+	1366.9.29 = {
+		death=yes
+	}
+}
+1236630 = {
+	name="Eberhard" # Eberhard von Zweibrücken, Eldest son of Walram II von Zweibrücken
+	dynasty=1000103283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236629 #Walram von Zweibrücken
+	1332.1.1 = {
+		birth=yes
+	}	
+	1394.12.10 = {
+		death=yes
+	}
+}
+1236631 = {
+	name="Simon" # Simon von Saarbrücken-Leiningen, eldest son of Friedrich von Saarbrücken-Leiningen, married Gertrud von Dagsburg and married the County after her as she died Childless
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236613 #Friedrich von Saarbrücken-Leiningen
+	1202.1.1 = {
+		birth=yes
+	}
+	1234.3.16 = {
+		death=yes
+	}
+}
+1236632 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, succeeded his father as Count. Married Adelheid von Kyburg, a cousin of Rudolf I von Habsburg
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236613 #Friedrich von Saarbrücken-Leiningen
+	1209.1.1 = {
+		birth=yes
+	}
+	1287.1.1 = {
+		death=yes
+	}
+}
+1236633 = {
+	name="Emich" # Emich von Saarbrücken-Leiningen, co-ruler with his brother Count of Leiningen-Landeck
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236613 #Friedrich von Saarbrücken-Leiningen
+	1215.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes
+	}
+}
+1236634 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, succeeded his father as Count Leiningen-Dagsburg
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236632 #Friedrich von Saarbrücken-Leiningen
+	1253.1.1 = {
+		birth=yes
+	}
+	1316.1.1 = {
+		death=yes
+	}
+}
+1236635 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, succeeded his father as Count of Leiningen-Dagsburg in 1316
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236634 #Friedrich von Saarbrücken-Leiningen
+	1270.1.1 = {
+		birth=yes
+	}
+	1327.1.1 = {
+		death=yes
+	}
+}
+1236636 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, succeeded his father as Count of Leiningen-Dagsburg in 1327
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236635 #Friedrich von Saarbrücken-Leiningen
+	1301.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+1236637 = {
+	name="Friedrich" # Friedrich von Saarbrücken-Leiningen, succeeded his father as Count of Leiningen-Dagsburg in 1342
+	dynasty=12433
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236636 #Friedrich von Saarbrücken-Leiningen
+	1324.1.1 = {
+		birth=yes
+	}
+	1377.1.1 = {
+		death=yes
+	}
+}
+1236638 = {
+	name="Liutgard" # Liutgard von Leiningen, succeeded her brother as ruler of Leiningen, married Simon II von Saarbrücken
+	female=yes
+	dynasty=1000103277
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236639 #Emich von Leiningen
+	1160.1.1 = {
+		birth=yes
+	}
+	1239.1.1 = {
+		death=yes
+	}
+}
+1236639 = {
+	name="Emich" # Emich von Leiningen, succeeded his father as Count of Leiningen. Iffy dates, most likely count 1138-1187
+	dynasty=1000103277
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236641 #Emich von Leiningen
+	1123.1.1 = {
+		birth=yes
+	}
+	1187.1.1 = {
+		death=yes
+	}
+}
+1236640 = {
+	name="Friedrich" # Friedrich von Leiningen, succeeded his father as count of Leiningen
+	dynasty=1000103277
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236639 #Emich von Leiningen
+	1158.1.1 = {
+		birth=yes
+	}
+	1217.3.10 = {
+		death=yes
+	}
+}
+1236641 = {
+	name="Emich" # Emich von Leiningen, ancestor of the Emichonen Counts of Leiningen
+	dynasty=1000103277
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1085.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1236642 = {
+	name="Hermann" # Hermann II von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=40707
+	mother=33411
+	1075.1.1 = {
+		birth=yes
+	}
+	1136.2.20 = {
+		death=yes
+	}
+}
+1236643 = {
+	name="Heinrich" # Heinrich I von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236642
+	1104.1.1 = {
+		birth=yes
+	}
+	1169.1.1 = {
+		death=yes
+	}
+}
+1236644 = {
+	name="Heinrich" # Heinrich II von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236643
+	1142.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+1236645 = {
+	name="Heinrich" # Heinrich III von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236644
+	1171.1.1 = {
+		birth=yes
+	}
+	1246.1.1 = {
+		death=yes
+	}
+}
+1236646 = {
+	name="Heinrich" # Heinrich von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236645
+	1191.1.1 = {
+		birth=yes
+	}
+	1228.9.21 = {
+		death=yes
+	}
+}
+1236647 = {
+	name="Heinrich" # Heinrich IV von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236646
+	1225.1.1 = {
+		birth=yes
+	}
+	1292.1.8 = {
+		death=yes
+	}
+}
+1236648 = {
+	name="Heinrich" # Eldest son of Heinrich IV, pre-deceased his father
+	dynasty=12437
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236647
+	1253.1.1 = {
+		birth=yes
+	}
+	1288.5.14 = {
+		death=yes
+	}
+}
+1236649 = {
+	name="Johann" # Johann I von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236647
+	1267.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1604501 = {
+	name="Hermann" # Hermann von Salm
+	dynasty=12437
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1236642
+	1102.1.1 = {
+		birth=yes
+	}
+	1144.1.1 = {
+		death=yes
+	}
+}
+1604502 = {
+	name="Elisabeth" # Elisabeth von Salm, inherited Niedersalm aka. Lower Salm from her father. Married Friedrich II von Vianden
+	female=yes
+	dynasty=12437
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604501
+	1139.1.1 = {
+		birth=yes
+	}
+	1201.1.1 = {
+		death=yes
+	}
+}
+1604503 = {
+	name="Wilhelm"
+	dynasty=283
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=910053
+	mother=1604502
+	1163.1.1 = {
+		birth=yes
+	}
+	1214.9.5 = {
+		death=yes
+	}
+}
+1604504 = {
+	name="Heinrich"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604503
+	1185.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1604505 = {
+	name="Gerhard"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604503
+	1186.1.1 = {
+		birth=yes
+	}
+	1217.1.1 = {
+		death=yes
+	}
+}
+1604506 = {
+	name="Heinrich"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604505
+	1208.1.1 = {
+		birth=yes
+	}
+	1259.7.21 = {
+		death=yes
+	}
+}
+1604507 = {
+	name="Wilhelm"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604506
+	1240.1.1 = {
+		birth=yes
+	}
+	1292.3.16 = {
+		death=yes
+	}
+}
+1604508 = {
+	name="Wilhelm"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604507
+	1261.1.1 = {
+		birth=yes
+	}
+	1295.5.21 = {
+		death=yes
+	}
+}
+1604509 = {
+	name="Heinrich"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604507
+	1279.1.1 = {
+		birth=yes
+	}
+	1333.9.16 = {
+		death=yes
+	}
+}
+1604510 = {
+	name="Heinrich"
+	dynasty=283
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1604509
+	1310.1.1 = {
+		birth=yes
+	}
+	1360.4.11 = {
+		death=yes
+	}
+}
+1604511 = {
+	name="Adelheid" #Adelheid von Vianden, married Otto von Nassau
+	female=yes
+	dynasty=283
+	religion="catholic"
+	culture="german"
+	father=910063
+	1311.1.1 = {
+		birth=yes
+	}
+	1376.9.30 = {
+		death=yes
+	}
+}
+1604512 = {
+	name="Maria" # Maria von Vianden, only child of Heinrich von Vianden
+	female=yes
+	dynasty=283
+	religion="catholic"
+	culture="german"
+	father=910064
+	1337.1.1 = {
+		birth=yes
+	}
+	1400.4.21 = {
+		death=yes
+	}
+}
+1604513 = {
+	name="Heinrich" 
+	dynasty=263 #von Nassau
+	religion="catholic"
+	culture="german"
+	father=30711
+	1272.1.1 = {
+		birth=yes
+	}
+	1343.1.1 = {
+		death=yes
+	}
+}
+1604514 = {
+	name="Otto" 
+	dynasty=263 #von Nassau
+	religion="catholic"
+	culture="german"
+	father=1604513
+	1305.1.1 = {
+		birth=yes
+	}
+	1331.12.23 = {
+		add_spouse = 1604511
+	}	
+	1350.12.1 = {
+		death=yes
+	}
+}
+1604515 = {
+	name="Metfried" # Metfried von Wied, Gau Count of Engersgau, roughly Sayn.
+	dynasty=1000103216
+	religion="catholic"
+	culture="franconian"  # german
+
+	1073.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		death=yes
+	}
+}
+1604516 = {
+	name="Siegfried" # Siegfried von Wied, Count of Wied 1145-1162, brother of Archbishop Arnold von Wied of Cologne
+	dynasty=1000103216
+	religion="catholic"
+	culture="franconian"  # german
+	father=1604515	
+	1097.1.1 = {
+		birth=yes
+	}
+	1162.1.1 = {
+		death=yes
+	}
+}
+1604517 = {
+	name="Theoderich" # Theoderich von Wied, Count of Wied 1162-1197, father of Theoderich Archbishop of Trier
+	dynasty=1000103216
+	religion="catholic"
+	culture="franconian"  # german
+	father=1604516	
+	1141.1.1 = {
+		birth=yes
+	}
+	1197.1.1 = {
+		death=yes
+	}
+}
+1604518 = {
+	name="Georg" # Georg von Wied, Count of Wied 1197-1219
+	dynasty=1000103216	
+	religion="catholic"
+	culture="german"
+	trait="martial_cleric"
+	father=1604517	
+	1168.1.1 = {
+		birth=yes
+	}
+	1219.6.15 = {
+		death=yes
+	}
+}
+1604519 = {
+	name="Lothar" # Lothar von Wied, Count of Wied 1219-1244
+	dynasty=1000103216	
+	religion="catholic"
+	culture="german"
+	trait="martial_cleric"
+	father=1604517	
+	1176.1.1 = {
+		birth=yes
+	}
+	1244.3.1 = {
+		death=yes
+	}
+}
+1604520 = {
+	name="Elisabeth" # Elisabeth von Nürnberg-Hohenzollern, married Gottfried I von Hohenlohe
+	female=yes
+	dynasty=12476
+	religion="catholic"
+	culture="german"
+	father=462359
+	mother=161703
+	1243.1.1 = {
+		birth=yes
+	}
+	1288.2.24 = {
+		death=yes
+	}
+}
+1604521 = {
+	name="Konrad" # Konrad von Nürnberg-Hohenzollern, co Burggrave with his brother
+	dynasty=12476
+	religion="catholic"
+	culture="german"
+	father=462358
+	1235.1.1 = {
+		birth=yes
+	}
+	1314.7.6 = {
+		death=yes
+	}
+}
+1604522 = {
+	name="Konrad" # Konrad von Truhendingen, son of Agnes von Nürnberg-Hohenzollern and Friedrich von Truhendingen
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604524
+	1300.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes
+	}
+}
+1604523 = {
+	name="Heinrich" # Heinrich von Truhendingen, son of Friedrich von Truhendingen and Sophie von Henneberg
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604522
+	1325.1.1 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		death=yes
+	}
+}
+1604524 = {
+	name="Friedrich" # Friedrich von Truhendingen, son of Friedrich von Truhendingen and Agnes von Württemberg
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604525
+	1283.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes
+	}
+}
+1604525 = {
+	name="Friedrich" # Friedrich von Truhendingen, son of Friedrich von Truhendingen and Margaretha von Andechs-Meranien
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604526
+	mother=1228510
+	1253.1.1 = {
+		birth=yes
+	}
+	1290.3.15 = {
+		death=yes
+	}
+}
+1604526 = {
+	name="Friedrich" # Friedrich von Truhendingen, married to Margaretha von Andechs-Meranien, first notable Truhendingen Count
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604527
+	1223.1.1 = {
+		birth=yes
+	}
+	1243.1.1 = {
+		add_spouse = 1228510
+	}	
+	1274.8.30 = {
+		death=yes
+	}
+}
+1604527 = {
+	name="Friedrich" # Friedrich von Truhendingen
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604533
+	1194.1.1 = {
+		birth=yes
+	}
+	1253.1.1 = {
+		death=yes
+	}
+}
+1604528 = {
+	name="Margaretha" # Margaretha von Truhendingen, married to Kraft von Hohenlohe
+	female=yes
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604526
+	mother=1228510
+	1256.1.1 = {
+		birth=yes
+	}
+	1294.11.11 = {
+		death=yes
+	}
+}
+1604529 = {
+	name="Agnes" # Agnes von Truhendingen, married to Hermann von Baden
+	female=yes
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604526
+	mother=1228510
+	1255.1.1 = {
+		birth=yes
+	}
+	1309.3.15 = {
+		death=yes
+	}
+}
+1604530 = {
+	name="Willibirg" # Willigburgis von Truhendingen, married to Hartmann Hupoldinger, Count of Dillingen
+	female=yes
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604527
+	1210.1.1 = {
+		birth=yes
+	}	
+	1246.1.26 = {
+		death=yes
+	}
+}
+1604531 = {
+	name="Agnes" # Agnes von Truhendingen, married to Heinrich von Urach, Count of Fürstenburg
+	female=yes
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604527
+	1238.1.1 = {
+		birth=yes
+	}	
+	1294.9.20 = {
+		death=yes
+	}
+}
+1604532 = {
+	name="Ulrich" # Ulrich von Truhendingen, son of Friedrich von Truhendingen and Agnes von Württemberg
+	dynasty=1000103431
+	religion="catholic"
+	culture="german"
+	father=1604525
+	1285.1.1 = {
+		birth=yes
+	}
+	1327.1.1 = {
+		death=yes
+	}
+}
+1604533 = {
+	name="Friedrich" # Friedrich von Truhendingen, Edelherr of Truhendingen according to Europäische Stammtafeln
+	dynasty=1000103431
+	religion="catholic"
+	culture="franconian"
+	father=1604534
+	1141.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death=yes
+	}
+}
+1604534 = {
+	name="Adalbert" # Adalbert von Truhendingen, Edelherr of Truhendingen according to Europäische Stammtafeln, brother of Siegfried von Truhendingen Bishop of Würzburg
+	dynasty=1000103431
+	religion="catholic"
+	culture="franconian"
+	father=1604536
+	1099.1.1 = {
+		birth=yes
+	}
+	1167.1.1 = {
+		death=yes
+	}
+}
+1604535 = {
+	name="Siegfried" # Siegfried von Truhendingen, Bishop of Würzburg 1146-1150
+	dynasty=1000103431
+	religion="catholic"
+	culture="franconian"
+	father=1604536
+	1100.1.1 = {
+		birth=yes
+	}
+	1150.11.16 = {
+		death=yes
+	}
+}
+1604536 = {
+	name="Friedrich" # Unnamed earliest ancestor of the Truhendingens
+	dynasty=1000103431
+	religion="catholic"
+	culture="franconian"
+
+	1082.1.1 = {
+		birth=yes
+	}
+	1128.1.1 = {
+		death=yes
+	}
+}
+1604537 = {
+	name="Eberhard" # Unnamed Gau-Count in Rangau, father of Eberhard von Abenberg, Bishop of Würzburg and Chancellor for the Emperor, and Konrad his successor as Gau-Count
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+
+	949.1.1 = {
+		birth=yes
+	}
+	993.1.1 = {
+		death=yes
+	}
+}
+1604538 = {
+	name="Konrad" # Konrad von Abenberg, Gau-Count in Rangau
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604537
+	971.1.1 = {
+		birth=yes
+	}
+	1021.1.1 = {
+		death=yes
+	}
+}
+1604539 = {
+	name="Adalbert" # Adalbert von Abenberg, Gau-Count in Radenzgau, elder son of Konrad von Abenberg
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604538
+	994.1.1 = {
+		birth=yes
+	}
+	1035.1.1 = {
+		death=yes
+	}
+}
+1604540 = {
+	name="Otto" # Otto von Abenberg, Gau-Count in Rangau, younger son of Konrad von Abenberg
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604538
+	996.1.1 = {
+		birth=yes
+	}
+	1036.1.1 = {
+		death=yes
+	}
+}
+1604541 = {
+	name="Wolfram" # Wolfram I von Abenberg, Gau-Count in Rangau, founder of the village of Abenberg in 1040
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604540
+	1022.1.1 = {
+		birth=yes
+	}
+	1077.1.1 = {
+		death=yes
+	}
+}
+1604542 = {
+	name="Wolfram" # Wolfram II von Abenberg, Count of Abenberg with his brother
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604541
+	1050.1.1 = {
+		birth=yes
+	}
+	1116.1.1 = {
+		death=yes
+	}
+}
+1604543 = {
+	name="Otto" # Otto von Abenberg, Count of Abenberg with his brother
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604541
+	1053.1.1 = {
+		birth=yes
+	}
+	1108.1.1 = {
+		death=yes
+	}
+}
+1604544 = {
+	name="Rapoto" # Rapoto von Abenberg, Count of Abenberg. Some conflicting genealogies apparently. Chronologically this is what looks like makes most sense
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604543
+	1079.1.1 = {
+		birth=yes
+	}
+	1145.5.22 = {
+		death=yes
+	}
+}
+1604545 = {
+	name="Rapoto" # Rapoto von Abenberg, Count of Abenberg. Domvogt of Bamberg
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604544
+	1115.1.1 = {
+		birth=yes
+	}
+	1172.1.1 = {
+		death=yes
+	}
+}
+1604546 = {
+	name="Friedrich" # Friedrich von Abenberg, Count of Abenberg. Domvogt of Bamberg
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604545
+	1144.1.1 = {
+		birth=yes
+	}
+	1183.7.26 = {
+		death=yes
+	}
+}
+1604547 = {
+	name="Friedrich" # Friedrich von Abenberg, Count of Abenberg
+	dynasty=1000103200
+	religion="catholic"
+	culture="franconian"
+	father=1604546
+	1165.1.1 = {
+		birth=yes
+	}
+	1200.9.14 = {
+		death=yes
+	}
+}
+1604548 = {
+	name="Willibirg" # Willibirg von Dillingen, married to Ulrich von Helfenstein. The root of the Helfenstein claim to the Öttingen lands
+	female=yes
+	dynasty=101555
+	religion="catholic"
+	culture="german"
+	father=33627
+	mother=1604530
+	1229.1.1 = {
+		birth=yes
+	}
+	
+	1268.8.6 = {
+		death=yes
+	}
+}
+1604549 = {
+	name="Mechthild" # Mechthild von Hessen, married to Gottfried von Ziegenhain
+	female=yes
+	dynasty=7198
+	religion="catholic"
+	culture="dutch"  # melted from: german
+	father=33391
+	mother=33333
+	1267.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes
+	}
+}
+1604550 = {
+	name="Adelheid" #Adelheid von Ziegenhain, married Heinrich von Truhendingen according to the Online Regesten for the Counts of Ziegenhain, that is run by the official Hessian department for Historical Knowledge (Landeskunde)
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236541
+	mother=1236545
+	1320.1.1 = {
+		birth=yes
+	}	
+	1388.1.1 = {
+		death=yes
+	}
+}
+1604551 = {
+	name="Berta" #Berta von Ziegenhain, daughter of Gottfried V von Ziegenhain, married Konrad von Hohenlohe-Brauneck
+	female=yes
+	dynasty=1000103241
+	religion="catholic"
+	culture="german"  # melted from: german
+	father=1236538
+	1263.1.1 = {
+		birth=yes
+	}	
+	1290.7.26 = {
+		death=yes
+	}
+}
+1604552 = {
+	name="Heinrich" # Heinrich von Comburg, Count of Rothenburg, last ruler of Rothenburg from his family
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604555
+	1062.1.1 = {
+		birth=yes
+	}
+	1116.1.20 = {
+		death=yes
+	}
+}
+1604553 = {
+	name="Emehard" # Emehard von Comburg, Bishop of Würzburg 1089-1105. Eldest son
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604555
+	1055.1.1 = {
+		birth=yes
+	}
+	1105.2.27 = {
+		death=yes
+	}
+}
+1604554 = {
+	name="Burkhard" # Burkhard von Comburg, Count of Rothenburg at the time of the construction of the Monastery at Comburg
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604555
+	1058.1.1 = {
+		birth=yes
+	}
+	1098.12.2 = {
+		death=yes
+	}
+}
+1604555 = {
+	name="Emehard" # Emehard I von Comburg, Count of Rothenburg
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604560
+	1030.1.1 = {
+		birth=yes
+	}
+	1069.1.1 = {
+		death=yes
+	}
+}
+1604556 = {
+	name="Rugger" # Bishop of Würzburg 1121-1125
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1087.1.1 = {
+		birth=yes
+	}
+	1125.1.1 = {
+		death=yes
+	}
+}
+1604557 = {
+	name="Erlung" # Bishop of Würzburg 1105-1121
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1073.1.1 = {
+		birth=yes
+	}
+	1121.12.28 = {
+		death=yes
+	}
+}
+1604558 = {
+	name="Embricho" # Bishop of Würzburg 1127-1146. Often speculated to have been from the noble family the Embrichonens. His ancestry has never been proven
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1090.1.1 = {
+		birth=yes
+	}
+	1146.11.10 = {
+		death=yes
+	}
+}
+1604559 = {
+	name="Meginhard" # Bishop of Würzburg 1018-1034
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	988.1.1 = {
+		birth=yes
+	}
+	1034.4.14 = {
+		death=yes
+	}
+}
+1604560 = {
+	name="Rudigierus" # Rudigierus von Comburg, Count of Rothenburg
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	1000.1.1 = {
+		birth=yes
+	}
+	1054.1.1 = {
+		death=yes
+	}
+}
+1604561 = {
+	name="Richardus" # Richardus von Comburg, Count of Kocher- and Mulachgau
+	dynasty=7178
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604560
+	1032.1.1 = {
+		birth=yes
+	}
+	1069.1.1 = {
+		death=yes
+	}
+}
+1604562 = { 
+	name="Heinrich" # Bishop of Würzburg 995-1018, son of Hugo Gau-Count of Einrichgau, brother of Heribert Archbishop of Cologne
+	dynasty=1000103282
+	religion="catholic"
+	culture="franconian"  # german
+	father=1604563
+	970.1.1={
+		birth = yes
+	}
+	1018.11.14={
+		death = yes	
+	}
+}
+1604563 = { 
+	name="Hugo" # Bishop of Würzburg 995-1018, son of Hugo Gau-Count of Einrichgau, brother of Heribert Archbishop of Cologne
+	dynasty=1000103282
+	religion="catholic"
+	culture="franconian"  # german
+
+	933.1.1={
+		birth = yes
+	}
+	989.1.1={
+		death = yes	
+	}
+}
+1604564 = {
+	name="Ulrich" # Ulrich II von Hanau, Lord of Hanau, married to Agnes von Hohenlohe-Weikersheim
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604570
+	1283.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		add_spouse=1236601
+	}	
+	1346.9.23 = {
+		death=yes
+	}
+}
+1604565 = {
+	name="Ulrich" # Ulrich III von Hanau, Lord of Hanau, son of Ulrich II von Hanau and Agnes von Hohenlohe-Weikersheim
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604564	
+	mother=1236601
+	1311.1.1 = {
+		birth=yes
+	}	
+	1369.1.1 = {
+		death=yes
+	}
+}
+1604566 = {
+	name="Gottfried" # Gottfried von Hanau, Komtur in the Teutonic Order
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604564	
+	mother=1236601
+	1322.1.1 = {
+		birth=yes
+	}	
+	1372.10.6 = {
+		death=yes
+	}
+}
+1604567 = {
+	name="Kraft" # Kraft von Hanau, Domherr in Cologne then in Mainz, then in Würzburg and lastly Wörms
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604564	
+	mother=1236601
+	1316.1.1 = {
+		birth=yes
+	}	
+	1382.11.3 = {
+		death=yes
+	}
+}
+1604568 = {
+	name="Elisabeth" # Elisabeth von Hanau, married Philipp von Falkenstein
+	female=yes
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604564	
+	mother=1236601
+	1312.1.1 = {
+		birth=yes
+	}	
+	1365.1.1 = {
+		death=yes
+	}
+}
+1604569 = {
+	name="Adelheid" # Adelheid von Hanau, married Heinrich von Isenburg
+	female=yes
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604564	
+	mother=1236601
+	1313.1.1 = {
+		birth=yes
+	}	
+	1378.1.1 = {
+		death=yes
+	}
+}
+1604570 = {
+	name="Ulrich" # Ulrich I von Hanau, Lord of Hanau, married to Elisabeth von Rieneck
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+
+	1254.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death=yes
+	}
+}
+1604571 = {
+	name="Adelheid" # Adelheid von Hanau, married to Konrad von Weinsberg
+	female=yes
+	dynasty=1000103230 #von Hanau
+	religion="catholic"
+	culture="german"
+	father=1604570
+	1287.1.1 = {
+		birth=yes
+	}	
+	1325.1.1 = {
+		death=yes
+	}
+}
+1604572 = { 
+	name="Bernward" # Bishop of Würzburg 990-995
+	religion="catholic"
+	culture="franconian"  # german
+	948.1.1={
+		birth = yes
+	}
+	995.1.1={
+		death = yes	
+	}
+}
+1604573 = { 
+	name="Hugo" # Bishop of Würzburg 983-990
+	religion="catholic"
+	culture="franconian"  # german
+	942.1.1={
+		birth = yes
+	}
+	990.1.1={
+		death = yes	
+	}
+}
+1604574 = { 
+	name="Megingaud" # Bishop of Trier 1008-1015
+	religion="catholic"
+	culture="franconian"  # german
+	966.1.1={
+		birth = yes
+	}
+	1015.12.24={
+		death = yes	
+	}
+}
+1604575 = { 
+	name="Everger" # Bishop of Cologne 985-999
+	religion="catholic"
+	culture="franconian"  # german
+	941.1.1={
+		birth = yes
+	}
+	999.6.11={
+		death = yes	
+	}
+}
+1604576 = { 
+	name="Warin" # Bishop of Cologne 976-985
+	religion="catholic"
+	culture="franconian"  # german
+	933.1.1={
+		birth = yes
+	}
+	985.9.21={
+		death = yes	
+	}
+}
+1604577 = {
+	name="Konrad"
+	dynasty=1053
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	martial=4
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	father=7953
+	911.1.1 = {
+		birth=yes
+	}
+	965.1.1 = {
+		death=yes
+	}
+}
+1604578 = {
+	name="Meingoz" # Count of Maingau between 965-987. No Counts recorded for the Maingau before at the earliest 1011, so he keeps it as a placeholder
+	dynasty=1053
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	martial=4
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	father=1604577
+	947.1.1 = {
+		birth=yes
+	}
+	1010.1.1 = {
+		death=yes
+	}
+}
+1604579 = {
+	name="Isaac" # Count of Cambrai 908-948
+	dynasty=1000103285
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	885.1.1 = {
+		birth=yes
+	}
+	948.4.30 = {
+		death=yes
+	}
+}
+1604580 = {
+	name="Arnulf" # Count of Cambrai 948-?
+	dynasty=1000103285
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604579	
+	912.1.1 = {
+		birth=yes
+	}
+	967.1.1 = {
+		death=yes
+	}
+}
+1604581 = {
+	name="Arnulf" # Count of Cambrai 967-1007, Count of the Valenciennes March 973-1012
+	dynasty=1000103285
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604579	
+	944.1.1 = {
+		birth=yes
+	}
+	1012.1.1 = {
+		death=yes
+	}
+}
+1604582 = {
+	name="Hermann" # son of Friedrich von Luxembourg and Irmtrud von der Wetterau, inherited Gleiberg
+	dynasty=420
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1256
+	mother=7667
+	1015.1.1 = {
+		birth=yes
+	}
+	1062.1.1 = {
+		death=yes
+	}
+}
+1604583 = {
+	name="Hermann" # son of Hermann I von Gleiberg
+	dynasty=420
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604582
+
+	1046.1.1 = {
+		birth=yes
+	}
+	1095.1.1 = {
+		death=yes
+	}
+}
+1604584 = {
+	name="Wilhelm"  #second-born son of Wilhelm von Luxembourg and Liutgard von Nordheim, inherited the County of Gleiberg
+	dynasty=420
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=500001
+	mother=161250
+	1113.1.1 = {
+		birth=yes
+	}
+	1167.1.1 = {
+		death=yes
+	}
+}
+1604585 = {
+	name="Mechthild"  #Mechthild von Giessen. Countess of Gleiberg and Giessen. Married Rudolf I von Tübingen
+	female=yes
+	dynasty=420
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604584
+	1159.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		death=yes
+	}
+}
+1604586 = {
+	name="Megingoz"  #Megingoz von Geldern. Major landholder on the Dutch-German border and in Auelgau near Bonn, hence his Franconian culture. A bit iffy on what and where, but Zutphen for sure. Giving him Bentheim as a placeholder too. His daughter Irmtrud or Imiza married Heribert von der Wetterau, and their son Otto von Hammerstein or Otto von Zutphen, later became the first count of the new County of Zutphen
+	dynasty=1000103286
+	religion="catholic"
+	culture="franconian"  # melted from: german
+
+	920.1.1 = {
+		birth=yes
+	}
+	999.1.1 = {
+		death=yes
+	}
+}
+1604587 = {
+	name="Gottfried"  #Only son of Megingoz, died in battle in Bohemia in either 976 or 977
+	dynasty=1000103286
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604586
+	960.1.1 = {
+		birth=yes
+	}
+	976.1.1 = {
+		death=yes
+	}
+}
+1604588 = {
+	name="Irmtrud"  #Wife of Heribert von der Wetterau
+	female=yes
+	dynasty=1000103286
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604586
+	957.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes
+	}
+}
+1604589 = {
+	name="Engelfred" #Engelfred, Patriarch of Aquileia 944-963
+	religion="catholic"
+	culture="franconian"
+	905.1.1 = {
+		birth=yes
+	}
+	963.12.13 = {
+		death=yes 
+	}
+}
+1604590 = {
+	name="Burchard" #Burchard, Bishop of Würzburg 932-941
+	religion="catholic"
+	culture="franconian"
+	894.1.1 = {
+		birth=yes
+	}
+	941.1.1 = {
+		death=yes 
+	}
+}
+1604591 = {
+	name="Poppo" #Poppo, Bishop of Würzburg 941-961
+	dynasty=7290	
+	religion="catholic"
+	culture="franconian"
+	father=1604594	
+	902.1.1 = {
+		birth=yes
+	}
+	961.2.14 = {
+		death=yes 
+	}
+}
+1604592 = {
+	name="Poppo" #Poppo, Bishop of Würzburg 961-983
+	religion="catholic"
+	culture="franconian"
+	917.1.1 = {
+		birth=yes
+	}
+	983.1.1 = {
+		death=yes 
+	}
+}
+1604593 = {
+	name="Heinrich" #son of Heinrich Babenberg, Count of Franconia marchlands
+	dynasty=7290
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=7910
+	mother=7911
+	858.1.1 = {
+		birth=yes
+	}
+	902.5.1 = {
+		death=yes
+	}
+}
+1604594 = {
+	name="Heinrich" #placeholder connection between Heinrich Babenberg and Poppo of Würzburg and Heinrich of Trier
+	dynasty=7290
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	father=1604593
+	876.1.1 = {
+		birth=yes
+	}
+	919.1.1 = {
+		death=yes
+	}
+}
+1604595 = {
+	name="Hildebert" #Bishop of Mainz 927-937. Vanilla has somehow forgotten about him
+	religion="catholic"
+	culture="franconian"  # melted from: german
+	888.1.1 = {
+		birth=yes
+	}
+	937.5.31 = {
+		death=yes
+	}
+}
+1604596 = {
+	name="Heinrich" #Heinrich, Bishop of Trier 956-964
+	dynasty=7290	
+	religion="catholic"
+	culture="franconian"
+	father=1604594	
+	905.1.1 = {
+		birth=yes
+	}
+	964.7.3 = {
+		death=yes 
+	}
+}
+1604597 = {
+	name="Theoderich" #Theoderich, Bishop of Trier 964-977	
+	religion="catholic"
+	culture="franconian"	
+	923.1.1 = {
+		birth=yes
+	}
+	977.6.5 = {
+		death=yes 
+	}
+}

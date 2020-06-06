@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 747 - Lykia
+
+# County Title
+title = c_lykia
+
+# Settlements
+max_settlements = 4
+
+b_myra = castle
+b_telmissos = city
+b_patara = temple
+
+#b_phaselis = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1175.1.1 = { trade_post = b_morosini }
+1328.1.1 = { culture = turkish }
+1328.1.1 = { religion = sunni }

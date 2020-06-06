@@ -1,0 +1,28 @@
+# 1963 - Staufen
+
+# County Title
+title = c_staufen
+
+# Settlements
+max_settlements = 6
+
+b_staufen = castle
+b_esslingen = city 
+b_ellwangen = temple
+
+#b_schwabisch_gmund = city
+#b_limpurg = castle
+#b_lorch = temple
+
+#b_nordlingen = city
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1102.1.1 = { b_lorch = temple }
+1162.1.1 = { b_schwabisch_gmund = city }
+1170.1.1 = { culture = german }
+#1215.1.1 = { b_nordlingen = city }
+1226.1.1 = { b_limpurg = castle }

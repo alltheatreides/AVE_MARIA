@@ -1,0 +1,27 @@
+# 1030 - Calw
+
+# County Title
+title = c_calw
+
+# Settlements
+max_settlements = 4
+
+b_calw = castle
+b_hirsau = temple
+
+#b_tubingen = city
+#b_nagold = castle
+
+#b_weil = city
+#b_ehingen = castle  
+#b_boblingen = city 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1100.1.1 = { b_nagold = castle }
+1145.1.1 = { capital = b_nagold }
+1170.1.1 = { culture = german }
+1231.1.1 = { b_tubingen = city }

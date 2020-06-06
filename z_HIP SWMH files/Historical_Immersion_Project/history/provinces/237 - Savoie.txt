@@ -1,0 +1,28 @@
+# 237 - Savoie # Maurienne
+
+# County Title
+title = c_savoie
+
+# Settlements
+
+max_settlements = 6
+
+b_montmelian = castle
+b_moutiers_tarentaise = temple 
+b_belley = city
+
+#b_ciamberi = city 
+#b_miolans = castle
+#b_hautecombe = temple
+#b_la_chambre = castle
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1014.1.1 = { b_miolans = castle }
+1125.1.1 = { b_hautecombe = temple }
+#1232.1.1 = { b_ciamberi = city }
+1232.1.1 = { b_la_chambre = castle }

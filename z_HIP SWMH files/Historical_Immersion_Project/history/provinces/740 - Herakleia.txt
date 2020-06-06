@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 740 - Herakleia
+
+# County Title
+title = c_herakleia
+
+# Settlements
+max_settlements = 3
+
+b_herakleia = castle
+b_tion = city
+b_prousias = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1209.1.1 = { trade_post = b_spinola }
+
+
+1325.1.1 = { culture = turkish }
+1325.1.1 = { religion = sunni }
+

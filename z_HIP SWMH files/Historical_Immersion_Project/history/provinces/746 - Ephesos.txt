@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 746 - Ephesos
+
+# County Title
+title = c_ephesos
+
+# Settlements
+max_settlements = 5
+
+b_ephesos = castle
+b_miletos = city
+b_lebedos = temple
+b_tralleis = city
+#b_melanoudion = castle
+b_herakleia_latmos = city
+#b_priene_sampson = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1222.1.1 = { trade_post = b_dandolo }
+1222.1.1 = { remove_settlement = b_lebedos }
+1222.1.1 = { b_tralleis = temple  }
+1222.1.1 = { b_melanoudion = castle }
+1328.1.1 = { culture = turkish }
+1328.1.1 = { religion = sunni }

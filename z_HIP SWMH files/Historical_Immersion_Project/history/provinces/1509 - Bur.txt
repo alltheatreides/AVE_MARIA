@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1509 - Bur
+
+# County Title
+title = c_bur
+
+# Settlements
+max_settlements = 4
+b_dahlak = tribal
+#b_matara = castle
+#b_adel = city
+
+#b_saho = temple
+
+# Misc
+culture = afar
+religion = sunni
+
+# History
+
+1057.1.1 = { b_dahlak = castle }
+#1066.1.1 = { trade_post = b_assadad }
+#1262.1.1 = { capital = b_matara }
+1262.1.1 = { religion = miaphysite }

@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 835 - Hanyan
+
+# County Title
+title = c_hanyan
+
+# Settlements
+max_settlements = 3
+
+b_nadruma = castle
+#b_hanyan = city
+b_arshgul = temple
+
+
+#b_berkane = city
+#b_alkasdir = castle
+#b_alancha = castle
+#b_magoura = castle
+#b_bougtob = castle
+#b_raselma = castle
+#b_benisaf = castle
+
+# Misc
+culture = maghreb_arabic
+religion = sunni
+
+# History
+1000.1.1 = { b_hanyan = city }

@@ -1,0 +1,26 @@
+# 89 - Kleve
+
+# County Title
+title = c_kleve
+
+# Settlements
+max_settlements = 5
+
+b_kleve = castle
+b_moers = castle 
+b_duisburg = city
+
+#b_bedburg = temple 
+#b_wesel = city 
+
+#b_emmerich = city
+#b_anholt = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+1124.1.1= { b_bedburg = temple }
+1150.1.1 = { culture = dutch }
+1241.1.1 = { b_wesel = city }

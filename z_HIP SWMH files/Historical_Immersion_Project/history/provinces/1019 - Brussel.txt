@@ -1,0 +1,24 @@
+# 1019 - Brussel
+
+# County Title
+title = c_brussel
+
+# Settlements
+max_settlements = 5
+b_coudeberg = castle
+b_brussel = city
+b_mechelen = castle
+b_nivelles = temple
+
+#b_affligem = temple 
+
+#b_vilvoorde = city
+#b_grimbergen = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+1062.1.1= { b_affligem = temple } 
+1150.1.1 = { culture = dutch }

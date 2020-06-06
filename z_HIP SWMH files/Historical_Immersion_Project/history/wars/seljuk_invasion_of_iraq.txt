@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Seljuk Invasion of al-Iraq"
+
+casus_belli = {
+	actor = 3038
+	recipient = 1231079
+	casus_belli=muslim_invasion
+	landed_title=k_mesopotamia
+	date=1055.1.1
+}
+
+1055.1.1 = {
+	add_attacker = 3038
+	add_defender = 1231079
+}
+
+1055.12.18 = {
+	rem_attacker = 3038
+	rem_defender = 1231079
+}

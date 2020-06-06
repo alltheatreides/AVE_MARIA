@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1574 - Emil
+
+# County Title
+title = c_emil
+
+# Settlements
+max_settlements = 3
+b_urzhar = tribal
+#b_emil = city
+#b_yamalu = temple
+
+# Misc
+culture = karluk
+religion = tengri_pagan
+
+# History
+950.1.1 = { culture = kirghiz }
+1134.1.1 = { b_emil = city }
+1240.1.1 = { culture = mongol }
+1320.1.1 = { remove_settlement = b_emil }

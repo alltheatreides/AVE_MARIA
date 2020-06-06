@@ -1,0 +1,26 @@
+# 1265 - Zatec
+
+# County Title
+title = c_zatec
+
+# Settlements
+max_settlements = 4
+
+b_zatec = castle
+b_louny = city 
+
+#b_osek = temple
+#b_loket = castle 
+
+#b_egerberk = castle #Egerberg 
+#b_sumberk = castle #Schönburg 
+#b_kadan = city #Kaaden
+
+# Misc
+culture = bohemian
+religion = slavic_pagan
+
+# History
+883.1.1 = { religion = catholic }
+1192.1.1 = { b_osek = temple }
+1234.1.1 = { b_loket = castle }

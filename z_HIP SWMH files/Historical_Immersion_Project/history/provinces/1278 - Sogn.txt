@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1278 - Sogn
+
+# County Title
+title = c_sogn
+
+# Settlements
+max_settlements = 2
+
+b_hoeyanger = tribal # Heyangr
+#b_gulen = = city # Gulaﬁing
+#b_aurland = tribal # Aurland
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1024.1.1 = { b_hoeyanger = castle
+b_aurland = castle} #Fat Olav
+1024.1.1 = { religion = catholic }
+1035.1.1 = { culture = norwegian } 
+

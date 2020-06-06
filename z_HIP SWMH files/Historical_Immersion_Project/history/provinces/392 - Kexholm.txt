@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 392 - Kexholm
+
+# County Title
+title = c_kexholm
+
+# Settlements
+max_settlements = 3
+
+b_kakisalmi = tribal
+#b_sortavala = city
+#b_lieksa = city
+#b_viensuu = city
+#b_nurmes = temple
+
+
+# Misc
+culture = karelian
+religion = finnish_pagan
+
+# History
+1249.1.1 = { b_kakisalmi = castle
+b_sortavala = city }
+1292.1.1 = { religion = catholic }	#Northern Crusades

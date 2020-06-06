@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 936 - Hvar
+
+# County Title
+title = c_hvar
+
+# Settlements
+max_settlements = 4
+
+b_nerezisca = castle
+b_vis = city
+b_hvar_stari_grad = temple
+#b_supetar = city
+
+
+# Misc
+culture = serbian
+religion = slavic_pagan
+
+# History
+
+900.1.1 = { religion = catholic }
+1010.1.1 = { culture = croatian }

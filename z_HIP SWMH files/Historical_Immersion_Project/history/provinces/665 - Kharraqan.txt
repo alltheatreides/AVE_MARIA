@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 665 - Dailam
+
+# County Title
+title = c_kharraqan
+
+# Settlements
+max_settlements = 6
+b_zanjan = castle
+b_abhar = city
+b_suhravard = city
+b_shamiran = castle #actually under Qazwin
+#b_sharuyaz = castle
+#b_khunaj = temple
+b_aba = temple
+
+#Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+900.1.1 = { religion = zaydi }
+950.1.1 = { capital = b_shamiran }
+1200.1.1 = { #destroyed by the Ismaili during or before Yaqut's time
+	capital = b_zanjan
+	remove_settlement = b_shamiran } 
+1231.1.1 = { remove_settlement = b_suhravard }
+1306.1.1 = { #Sultaniyya
+	b_sharuyaz = castle
+	capital = b_sharuyaz
+}

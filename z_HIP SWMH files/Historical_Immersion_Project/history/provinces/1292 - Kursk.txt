@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1292 - Kursk
+
+# County Title
+title = c_kursk
+
+# Settlements
+max_settlements = 2
+
+b_kursk = tribal
+#b_oboyan = castle
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+
+1015.1.1 = {b_kursk = castle }
+1025.1.1 = {religion = orthodox }

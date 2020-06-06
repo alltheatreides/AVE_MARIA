@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 676 - Kakheti
+
+# County Title
+title = c_kakheti
+
+# Settlements
+ max_settlements = 5
+b_ujarma = castle
+#b_alaverdi = temple
+b_davidgareja = temple
+b_telavi = city
+b_kelatsminda = temple
+#b_sighnaghi = castle
+#b_bochorma = castle
+#b_kvetera = temple
+#b_gremi = castle
+ 
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History
+

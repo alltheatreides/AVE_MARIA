@@ -1,0 +1,26 @@
+# 1007 - Katzenelnbogen
+
+# County Title
+title = c_katzenelnbogen
+
+# Settlements
+max_settlements = 4
+
+b_katzenelnbogen = castle 
+b_wiesbaden = city 
+
+#b_schonau = temple
+#b_bessungen = castle
+
+#b_darmstadt = city
+#b_rheinfels = castle 
+#b_bickenbach = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1002.1.1 = { b_bessungen = castle }
+1126.1.1 = { b_schonau = temple }
+1170.1.1 = { culture = german }

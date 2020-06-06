@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 593 - Khopyor # Khoper
+
+# County Title
+title = c_khopyor
+
+# Settlements
+max_settlements = 3
+
+b_bezdezh = tribal 
+#b_medveditsa = tribal 
+#b_atkarsk = tribal
+
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+825.1.1 = { culture = pecheneg } 
+893.1.1 = { culture = khazar } 
+966.1.1 = { culture = oghuz } 
+1050.1.1 = { culture = cuman } 
+1050.1.1 = { religion = tengri_pagan } 
+
+1300.1.1 = { religion = sunni } 
+
+

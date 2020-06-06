@@ -1,0 +1,32 @@
+# 365 - Brandenburg
+
+# County Title
+title = c_brandenburg
+
+# Settlements
+max_settlements = 5
+
+b_copenick = tribal
+b_brenna = city
+
+#b_brandenburg = castle
+#b_lehnin = temple
+#b_berlin = city 
+
+#b_prenzlau = city 
+#b_quitzow = castle # from (now) Quitzöbel
+
+
+# Misc
+
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1128.12.4 = { b_copenick = castle }
+1128.12.4 = { b_brandenburg = castle }
+1157.1.1 = { culture = low_german }
+1157.1.1 = { religion = catholic } 
+1157.1.1 = { capital = b_brandenburg }
+1180.1.1 = { b_lehnin = temple } 
+1251.1.1 = { b_berlin = city } 

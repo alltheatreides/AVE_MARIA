@@ -1,0 +1,44 @@
+# -*- ck2.history.titles -*-
+
+# Baruq
+1030.1.1 = {
+	liege = k_qipchaq
+	holder = 1233245
+}
+1050.1.1 = {
+	liege = k_qangli
+}
+1055.1.1 = {
+	holder = 1233246
+}
+1084.1.1 = {
+	holder = 1233247
+}
+1112.1.1 = {
+	holder = 1233248
+}
+1125.1.1 = {
+	set_tribute_suzerain = {
+		who = d_khwarazm
+		percentage = 0.4
+	}
+}
+1133.1.1 = {
+	holder = 1233249
+}
+1157.5.9 = {
+	clear_tribute_suzerain = d_khwarazm
+}
+1159.1.1 = {
+	holder = 1229702
+}
+1188.1.1 = {
+	holder = 1229703
+}
+1210.1.1 = {
+	holder = 1229704
+}
+1223.1.1 = {
+	liege = 0
+	holder = 0
+}

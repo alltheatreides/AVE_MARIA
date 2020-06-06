@@ -1,0 +1,554 @@
+# -*- ck2.history.characters -*-
+
+########
+#CJL78 Ligurians 1.000.167.050-1.000.167.059 1237050-1237099
+########
+
+########
+#Counts of Ventimiglia
+########
+
+1167050 = {
+	name="Corrado"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237052
+	1000.1.1 = {
+		birth="1000.1.1" #unknown
+	}
+	1041.1.1 = {
+		death=yes
+	}
+}
+
+1167051 = {
+	name="Ottone"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167050
+	1020.1.1 = {
+		birth="1020.1.1" #unknown
+	}
+	1080.1.1 = {
+		death="1080.1.1" #unknown
+	}
+}
+
+1167052 = {
+	name="Alfonso"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237053
+	1086.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+
+1167053 = {
+	name="Corrado"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167050
+	1035.1.1 = {
+		birth="1035.1.1" #unknown
+	}
+	1085.1.1 = {
+		death="1085.1.1" #unknown
+	}
+}
+
+1167054 = {
+	name="Corrado"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167053
+	1065.1.1 = {
+		birth="1065.1.1" #unknown
+	}
+	1110.1.1 = {
+		death="1110.1.1" #unknown
+	}
+}
+
+1167055 = {
+	name="Guido"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237054
+	1110.1.1 = {
+		birth="1110.1.1" #unknown
+	}
+	1167.1.1 = {
+		death="1167.1.1" #unknown
+	}
+}
+
+1167056 = {
+	name="Ottone"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237054
+	1150.1.1 = {
+		birth="1150.1.1" #unknown
+	}
+	1200.1.1 = {
+		death="1200.1.1" #unknown
+	}
+}
+
+1167057 = {
+	name="Emmanuele"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167056
+	1180.1.1 = {
+		birth=yes
+	}
+	1253.1.1 = {
+		death=yes
+	}
+}
+
+1167058 = {
+	name="Guglielmo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167056
+	1185.1.1 = {
+		birth="1185.1.1" #unknown
+	}
+	1257.1.1 = {
+		death=yes
+	}
+}
+
+1167059 = {
+	name="Enrico"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167056
+	1186.1.1 = {
+		birth=yes
+	}
+	1227.1.1 = {
+		death=yes
+	}
+}
+
+### Placeholder Grimaldi
+1237051 = { 
+	name="Ottone"
+	dynasty = 13016
+	religion="catholic"
+	culture="ligurian"
+	
+	999.1.1= {
+		birth=yes
+	}
+	1051.1.1= {
+		death=yes
+	}
+}
+1237052 = { 
+	name="Corrado"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	977.1.1 = {
+		birth=yes
+	}
+	1039.1.1 = {
+		death=yes
+	}
+}
+1237053 = {
+	name="Ottone"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167053
+	1067.1.1 = {
+		birth=yes
+	}
+	1099.1.1 = {
+		death=yes
+	}
+}
+1237054 = {
+	name="Oberto"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237053
+	1088.1.1 = {
+		birth=yes
+	}
+	1157.1.1 = {
+		death=yes
+	}
+}
+1237055 = {
+	name="Guglielmino"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167058
+	1224.1.1 = {
+		birth=yes
+	}
+	1259.1.1 = {
+		death=yes
+	}
+}
+1237056 = {
+	name="Guglielmo Pietro"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167058
+	1226.1.1 = {
+		birth=yes
+	}
+	1261.7.1={
+		dynasty=1000035303 #Lascaris di Ventimiglia
+		add_spouse=1232348
+	}
+	1283.1.1 = {
+		death=yes
+	}
+}
+1237057 = {
+	name="Pietro Balbo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167058
+	1227.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1237058 = {
+	name="Giovanni"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237056
+	mother=1232348
+	1271.1.1 = {
+		birth=yes
+	}
+	1323.1.1 = {
+		death=yes
+	}
+}
+1237059 = {
+	name="Giacomo"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237056
+	mother=1232348
+	1272.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes
+	}
+}
+1237060 = {
+	name="Lucrezia"
+	female=yes
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237056
+	mother=1232348
+	1264.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes
+	}
+}
+1237061 = {
+	name="Guglielmo Pietro"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237058
+
+	1305.1.1 = {
+		birth=yes
+	}
+	1369.1.1 = {
+		death=yes
+	}
+}
+1237062 = {
+	name="Filippo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167059
+	1207.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1237063 = {
+	name="Ottone"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167059
+	1209.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1237064 = {
+	name="Enrico"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237062
+	1231.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		death=yes
+	}
+}
+1237065 = {
+	name="Alduino"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237064
+	1252.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+1237066 = {
+	name="Guglielmo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237064
+	1253.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+1237067 = {
+	name="Francesco"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237065
+	1286.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes
+	}
+}
+1237068 = {
+	name="Francesco"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237067
+	1320.1.1 = {
+		birth=yes
+	}
+	1387.1.1 = {
+		death=yes
+	}
+}
+1237069 = {
+	name="Vatatza"
+	female=yes
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237056
+	mother=1232348
+	1268.1.1 = {
+		birth=yes
+	}
+	1336.1.1 = {
+		death=yes
+	}
+}
+1237070 = {
+	name="Pietro Balbo"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237061
+
+	1335.1.1 = {
+		birth=yes
+	}
+	1407.1.1 = {
+		death=yes
+	}
+}
+1237071 = {
+	name="Guglielmo Pietro"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237061
+
+	1336.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes
+	}
+}
+1237072 = {
+	name="Luigi"
+	dynasty=1000035303 #Lascaris di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1237061
+
+	1337.1.1 = {
+		birth=yes
+	}
+	1399.1.1 = {
+		death=yes
+	}
+}
+1237073 = {
+	name="Emmanuele"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237067
+	1314.1.1 = {
+		birth=yes
+	}
+	1362.1.1 = {
+		death=yes
+	}
+}
+1237074 = {
+	name="Nicolo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237064
+	1260.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1237075 = {
+	name="Raimundo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="ligurian"
+	father=1167059
+	1209.1.1 = {
+		birth=yes
+	}
+	1251.1.1 = {
+		death=yes
+	}
+}
+1237076 = {
+	name="Ottone"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237075
+	1233.1.1 = {
+		birth=yes
+	}
+	1276.1.1 = {
+		death=yes
+	}
+}
+1237077 = {
+	name="Umberto"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237075
+	1237.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1237078 = {
+	name="Manfredi"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237075
+	1238.1.1 = {
+		birth=yes
+	}
+	1284.1.1 = {
+		death=yes
+	}
+}
+1237079 = {
+	name="Filippo"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237067
+	1322.1.1 = {
+		birth=yes
+	}
+	1379.1.1 = {
+		death=yes
+	}
+}
+1237080 = {
+	name="Giovanni"
+	dynasty=67 #di Ventimiglia
+	religion="catholic"
+	culture="sicilian"
+	father=1237067
+	1323.1.1 = {
+		birth=yes
+	}
+	1376.1.1 = {
+		death=yes
+	}
+}

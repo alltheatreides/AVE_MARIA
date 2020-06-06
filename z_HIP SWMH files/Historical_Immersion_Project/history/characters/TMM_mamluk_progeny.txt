@@ -1,0 +1,265 @@
+# -*- ck2.history.characters -*-
+
+######Kitbugha######
+8000540 = {
+	name="Anas" 
+	dynasty=7270
+	religion="sunni"
+	culture="mongol"
+	trait="strong" # Was a legendary bowman and possessed immense physical strength according to Ibn Hajar al-Asqalani
+	trait="hunter"
+	father=32938
+	1280.1.1={
+		birth="1280.1.1" # ? Old enough to have been appointed by his father as a deputy in 1296
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1294.7.1 = {
+	    remove_trait="no_inherit"
+	}
+	1323.1.1={
+		death="1323.1.1" # Per sources
+	}
+}
+
+8000541 = {
+	name="Ali" 
+	dynasty=7270
+	religion="sunni"
+	culture="mongol"
+	father=32938
+	1283.1.1={
+		birth="1283.1.1" # ? 
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1294.7.1 = {
+	    remove_trait="no_inherit"
+	}
+	1350.1.1={
+		death="1350.1.1" # ? Still alive in 1341 when he was made amir tablkhanah. 
+	}
+}
+
+8000542 = {
+	name="Kamal ad-Din Abdallah"
+	dynasty=7270
+	religion="sunni"
+	culture="mongol"
+	father=32938
+	1284.1.1={
+		birth="1284.1.1" # ? 
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1294.7.1 = {
+	    remove_trait="no_inherit"
+	}
+	1344.1.1={
+		death="1344.1.1" # Died as an amir of ten in Cairo. His son Ahmad inherited his amirate.
+	}
+}
+
+8000543 = {
+	name="Ahmad"
+	dynasty=7270
+	religion="sunni"
+	culture="mongol"
+	father=8000542
+	1302.1.1={
+		birth="1302.1.1" # ? 
+		culture="egyptian_arabic"
+    }
+	1360.1.1={
+		death="1360.1.1" # ?
+	}
+}
+
+######################
+######Qarasunqur######
+######################         
+
+8000544 = {
+	name="Muhammad" 
+	dynasty=8000607
+	martial=3
+	stewardship=2
+	intrigue=5   # Wisely advised his father to support al-Nasir over Baibars Jashnakir according to al-Safadi
+	religion="sunni"
+	culture="caucasian_avar"
+	trait="sturdy"
+	trait="tough_soldier" # Mentioned as a commander already at the battle of Urd which preceeded Marj al-Suffar 1303.
+	father=8000507
+	1280.1.1={
+		birth="1280.1.1" # ? 
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1361.1.1={
+		death="1361.1.1" # ? Still alive in 1360 as an amir.
+	}
+}
+
+8000545 = {
+	name="Ali" 
+	dynasty=8000607
+	martial=3
+	stewardship=2
+	diplomacy=3
+	religion="sunni"
+	culture="caucasian_avar"
+	trait="tough_soldier" # Mentioned as a commander against rebelling Egyptian bedouin in 1316 and Nubia in 1323.
+	father=8000507
+	1282.1.1={
+		birth="1282.1.1" # ? 
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1328.1.1 = {
+	    effect={add_friend=34993} # Became a close associate of Tankiz
+	    employer="34993" # Sent to serve as an amir in Damascus.
+	}
+	1347.1.1={
+		death="1347.1.1" # As per sources
+	}
+}
+
+8000546 = {
+	name="Faraj" 
+	dynasty=8000607
+	martial=3
+	stewardship=3
+	diplomacy=3
+	religion="sunni"
+	culture="caucasian_avar"
+	father=8000507
+	1284.1.1={
+		birth="1284.1.1" # ? Old enough to be made amir of ten in 1311
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1328.1.1 = {
+	    employer="34993" # Sent to serve as an amir in Damascus.
+	}
+	1333.1.1={
+		death="1333.1.1" # As per sources
+	}
+}
+
+######################
+######Tankiz##########
+######################
+
+# Wife of Tankiz for whom he built a mausoleum after her death. Daughter of an amir Kūkbāy al-Manṣūrī
+8000547 = {
+	name="Sititah"  # Sititah or Sutayta bint Kūkbāy al-Manṣūrī
+	female=yes
+	dynasty=8000617
+	religion="sunni"
+	culture="cuman"
+	1284.1.1={
+		birth="1284.1.1" # ?
+		culture="egyptian_arabic"
+	}
+	1300.1.1={
+	    add_spouse="34993" # ?
+	}
+	1330.9.1={
+		death="1330.1.1" # Mausoleum built around this time.
+	}
+}
+
+#####################
+#####His children####
+#####################
+
+8000548 = {
+	name="Ali" 
+	dynasty=100691
+	religion="sunni"
+	culture="cuman"
+	father=34993
+	mother=8000547 # ?
+	1303.1.1={
+		birth="1303.1.1" # ? Old enough to be made amir in 1331
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1350.1.1={
+		death="1350.1.1" # ?
+	}
+}
+
+8000549 = {
+	name="Muhammad" 
+	dynasty=100691
+	religion="sunni"
+	culture="cuman"
+	father=34993
+	mother=8000547 # ?
+	1305.1.1={
+		birth="1305.1.1" # ? Married a daughter of al-Nasir in 1339
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1351.1.1={
+		death="1351.1.1" # ?
+	}
+}
+
+8000550 = {
+	name="Ahmad" 
+	dynasty=100691
+	religion="sunni"
+	culture="cuman"
+	father=34993
+	mother=8000547 # ?
+	1307.1.1={
+		birth="1307.1.1" # ? Married a daughter of al-Nasir in 1339
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1352.1.1={
+		death="1352.1.1" # ?
+	}
+}
+
+# Wife of An-Nasir Muhammad and mother to one of his heirs.
+8000491 = {
+	name="Qutlumalik"
+	female=yes
+	dynasty=100691
+	religion="sunni"
+	culture="cuman"
+	father=34993
+	mother=8000547 # ?
+	1309.1.1={
+		birth="1309.1.1"
+		culture="egyptian_arabic"
+		add_trait="no_inherit"
+	}
+	1312.1.1 = {
+	    remove_trait="no_inherit"
+	}
+	1354.9.1={
+		death="1354.9.1" 
+	}
+}

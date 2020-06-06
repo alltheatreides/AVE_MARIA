@@ -1,0 +1,33 @@
+# -*- ck2.scripted_triggers -*-
+
+title_duke_basic_allow = {
+	FROM = {
+		is_titular = no
+		# maybe TODO: turn this into an OR w/ any explicitly allowed titular duchies
+	}
+}
+
+title_king_basic_allow = {
+	FROM = {
+		OR = {
+			is_de_jure_title = yes
+			hidden_tooltip = { title = k_england } # see swmh_britain
+		}
+	}
+}
+
+title_emperor_basic_allow = {
+	war = no
+	is_adult = yes # for that brief moment when a child isn't auto-assigned a regent, plus better TT
+	has_regent = no
+	ruled_years = 5
+	realm_size = 120
+	OR = {
+		FROM = { is_de_jure_title = yes }
+		NOT = { tier = EMPEROR }
+		AND = {
+			is_nomadic = yes
+			ai = no
+		}
+	}
+}

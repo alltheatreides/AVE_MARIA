@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1067 - Foerde
+
+# County Title
+title = c_foerde
+
+# Settlements
+max_settlements = 3
+
+b_aasmul = tribal # Aasmul
+#b_berle = tribal # Berðla
+#b_aatloeyna = castle # Atley
+#b_audunborg = castle # Audanborg
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+900.1.1 = { b_berle = tribal }
+900.1.1 = { capital = b_berle }
+900.1.1 = { remove_settlement = b_aasmul }
+1024.1.1 = { b_berle = castle }# Fat Olav
+1024.1.1 = { religion = catholic }
+1035.1.1 = { culture = norwegian }
+1267.1.1 = { b_audunborg = castle }  
+

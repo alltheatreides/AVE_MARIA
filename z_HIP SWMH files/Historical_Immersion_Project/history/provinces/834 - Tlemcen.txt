@@ -1,0 +1,45 @@
+# -*- ck2.history.provinces -*-
+
+# 834 - Tlemcen
+
+# County Title
+title = c_tlemcen
+
+# Settlements
+max_settlements = 5
+
+#b_tlemcen = castle
+b_agadir_tlemcen = castle #possible gold trade route terminus
+#b_oujda = castle
+#b_takrart = castle
+#b_mansura_tlemcen = castle
+
+#b_sidibelabbes = city
+
+#b_bedrabine = castle
+#b_jerada = city
+#b_ainbenimathar = temple
+#b_tessala = castle
+#b_letelagh = castle
+#b_elhaicaiba = castle
+#b_dhaya = castle
+#b_naama = city
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+994.1.1 = { b_oujda = castle }
+1081.1.1 = { b_takrart = city }
+1100.1.1 = {
+	b_tlemcen = castle
+	capital = b_tlemcen
+}
+1140.1.1 = { religion = mahdiyya }
+1220.1.1 = { religion = sunni }
+1302.1.1 = { b_mansura_tlemcen = temple }
+
+
+
+

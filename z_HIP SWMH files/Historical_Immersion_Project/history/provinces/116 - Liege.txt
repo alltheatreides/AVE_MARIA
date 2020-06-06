@@ -1,0 +1,26 @@
+# 116 - Liege
+
+# County Title
+title = c_liege
+
+# Settlements
+max_settlements = 6
+
+b_liege = temple
+b_dinant = city
+b_huy = castle
+b_bouillon = castle
+b_givet = city
+
+#b_rochefort = castle
+
+#b_ciney = city
+#b_val_dieu = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1000.1.1 = { b_rochefort = castle }
+1066.1.1 = { b_huy = city }

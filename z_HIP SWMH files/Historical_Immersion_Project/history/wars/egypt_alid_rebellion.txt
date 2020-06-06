@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Rebellion of Jábir"
+
+casus_belli = {
+	actor = 1234937
+	recipient = 1500052
+	casus_belli= religious
+	landed_title= d_alexandria
+	date=866.1.1
+}
+
+866.1.1 = {
+	add_attacker = 1234937
+	add_defender = 1500052
+}
+
+867.8.1 = {
+	rem_attacker = 1234937
+	rem_defender = 1500052
+}

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 51 - Dunbar
+
+# County Title
+title = c_dunbar
+
+# Settlements
+max_settlements = 3
+b_berwick = castle
+b_coldingham = temple
+#b_gordon = city
+
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+700.1.1 = { culture = saxon }
+955.1.1 = { b_berwick = tribal }
+1097.1.1 = { b_berwick = castle }
+1100.11.11 = { culture = english }
+

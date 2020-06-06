@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 411 - Vodi
+
+# County Title
+title = c_vodi
+
+# Settlements
+max_settlements = 3
+b_noteborg = tribal
+#b_nyen = city
+#b_toksovo = city
+#b_kolin = castle
+
+# Misc
+culture = karelian
+religion = finnish_pagan
+
+# History
+1150.1.1 = { religion = orthodox }
+1249.1.1 = { b_noteborg = castle }
+1299.1.1 = { b_nyen = city } #Swedish fortress
+1313.1.1= { trade_post = b_wittenborg }

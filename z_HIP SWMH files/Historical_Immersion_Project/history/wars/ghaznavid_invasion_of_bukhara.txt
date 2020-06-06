@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Ghaznavid Conquest of Bukhara"
+
+casus_belli = {
+	actor = 144125
+	recipient = 1230268
+	casus_belli=muslim_county_conquest
+	landed_title=c_bukhara
+	date=1025.1.1
+}
+
+1025.1.1 = {
+	add_attacker = 144125
+	add_defender = 1230268
+}
+
+1026.1.2 = {
+	rem_attacker = 144125
+	rem_defender = 1230268
+}

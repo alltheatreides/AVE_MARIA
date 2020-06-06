@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 634 - Nishapur
+
+# County Title
+title = c_nishapur
+
+# Settlements
+max_settlements = 7
+b_neshapur = castle
+b_bayhaq = city
+b_rivand = temple
+b_kishmar = city
+b_buzgan = temple
+
+b_farhagird = castle
+b_khusrugird = castle
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+980.1.1 = {	religion = sunni }

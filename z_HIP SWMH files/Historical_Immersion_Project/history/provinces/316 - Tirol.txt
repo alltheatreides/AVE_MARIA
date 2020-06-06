@@ -1,0 +1,28 @@
+# 316 - Tirol
+
+# County Title
+title = c_tirol
+
+# Settlements
+max_settlements = 5 
+
+b_tirol = castle
+b_brixen = temple
+
+#b_innsbruck = city
+#b_eppan = castle 
+#b_meran = city 
+
+#b_amras = castle
+#b_bolzano = city #Bozen
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+#1078.1.1 = { b_amras = castle }
+1078.1.1 = { b_eppan = castle }
+1170.1.1 = { culture = german }
+1187.1.1 = { b_innsbruck = city }
+1317.1.1 = { b_meran = city }

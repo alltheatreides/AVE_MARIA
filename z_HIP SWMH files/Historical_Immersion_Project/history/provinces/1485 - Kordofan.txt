@@ -1,0 +1,18 @@
+# -*- ck2.history.provinces -*-
+
+# 1485 - Kordofan
+
+# County Title
+title = c_kordofan
+
+# Settlements
+max_settlements = 2
+b_elobeid = tribal
+#b_tagali = city
+
+# Misc
+culture = daju
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+1300.1.1 = { religion = sunni }

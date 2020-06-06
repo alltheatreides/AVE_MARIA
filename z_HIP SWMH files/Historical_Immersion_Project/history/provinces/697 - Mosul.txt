@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 697 - Mosul
+
+# County Title
+title = c_mosul
+
+# Settlements
+max_settlements = 5
+b_mosulcastle = castle
+b_mosul = city
+b_baladmosul = city
+b_bawazij = temple
+b_haditha = city
+
+#Misc
+culture = assyrian
+religion = nestorian
+
+# History
+1055.1.1 = { culture = levantine_arabic religion = sunni }

@@ -1,0 +1,48 @@
+# -*- ck2.events -*-
+
+namespace = SWMH
+#by Ruwaard
+
+#Welf
+character_event = {
+	id = SWMH.35
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		always = no
+		character = 1530
+		NOT = { dynasty=650 }
+	}	
+	
+	immediate = {    	
+		any_child = {
+			limit = { dynasty = ROOT }
+			dynasty=650
+		}
+		dynasty=650
+	}
+}
+
+#Trastamara
+character_event = {
+	id = SWMH.36
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		always = no
+		character = 457510
+		NOT = { dynasty=774 }
+	}	
+	
+	immediate = {    	
+		any_child = {
+			limit = { dynasty = ROOT }
+			dynasty=774
+		}
+		dynasty=774
+	}
+}

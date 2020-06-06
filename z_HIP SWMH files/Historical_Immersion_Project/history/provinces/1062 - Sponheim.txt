@@ -1,0 +1,27 @@
+# 1062 - Sponheim
+
+# County Title
+title = c_sponheim
+
+# Settlements
+max_settlements = 5
+
+b_sponheim = castle
+b_boppard = city
+
+#b_ravengiersburg = temple 
+#b_stein = castle 
+#b_schmidtburg = castle
+
+#b_simmern = city 
+#b_kreuznach = city
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+926.1.1 = { b_schmidtburg = castle }
+1000.1.1 = { b_stein = castle }
+1074.1.1 = { b_ravengiersburg = temple }
+1170.1.1 = { culture = german }

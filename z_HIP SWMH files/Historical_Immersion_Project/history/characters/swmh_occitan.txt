@@ -1,0 +1,1761 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH Occitan Characters
+###############################################################
+#Range: 1227200 - 1227349
+###############################################################
+#
+###########
+#de Carcasonne and de Razès
+###########
+1227200 = {
+	name="Bello" # comte from 790
+        dynasty=100213 # de Carcasonne
+	religion="catholic"
+	culture="occitan"
+	755.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+1227201 = {
+	name="Guisclafred" # comte from 810
+        dynasty=100213
+	religion="catholic"
+	culture="occitan"
+        father=1227200
+	778.1.1 = {
+		birth = yes
+	}
+	821.1.1 = {
+		death = yes
+	}
+}
+1227202 = {
+	name="Olibia" # comte from 821
+        dynasty=100213
+	religion="catholic"
+	culture="occitan"
+        father=1227200
+	781.1.1 = {
+		birth = yes
+	}
+	837.1.1 = {
+		death = yes
+	}
+}
+#163063 = {
+#	name="Bernard" # comte 837-844? or just liege lord?
+#	dynasty=100217
+#	religion="catholic"
+#	culture="frankish"
+#	father=168130
+#	796.1.1 = {
+#		birth="796.1.1"
+#	}
+#	824.1.1 = {
+#		add_spouse=168141
+#	}
+#	844.5.1 = {
+#		death="844.5.1"
+#	}
+#}
+1227203 = {
+	name="Olibia" # comte of Carcasonne from 837 or 865-877
+        dynasty=100213
+	religion="catholic"
+	culture="occitan"
+        father=1227202
+	824.1.1 = {
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
+#127025 = { 
+#	name="Acfred"  # comte of Razès from 837 and Carcasonne from 877
+#	dynasty=100213
+#	martial=7
+#	diplomacy=6
+#	intrigue=6
+#	stewardship=7
+#	religion="catholic"
+#	culture="occitan"
+#       father=1227202# SWMH
+#	820.1.1 = {
+#		birth="820.1.1"
+#	}
+#	885.1.1 = {
+#		add_spouse=127024
+#	}
+#	906.2.18 = {
+#		death="906.2.18"
+#	}
+#}
+1227204 = {
+	name="Bencion" # comte of Carcasonne from 906
+        dynasty=100213
+	religion="catholic"
+	culture="occitan"
+        father=1227203
+	855.1.1 = {
+		birth = yes
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+1227205 = {
+	name="Acfred" # comte of Razès from 906 and Carcasonne from 908
+        dynasty=100213
+	religion="catholic"
+	culture="occitan"
+        father=1227203
+	868.1.1 = {
+		birth = yes
+	}
+	934.1.1 = {
+		death = yes
+	}
+}
+1227206 = {
+	name="Arsenda" # comtess of Razès from 934 married to Arnaud I de Comminges
+        dynasty=100213
+        female=yes
+	religion="catholic"
+	culture="occitan"
+        father=1227205
+	908.1.1 = {
+		birth = yes
+	}
+        933.1.1 = {
+		add_spouse=40180
+	}
+	992.1.1 = {
+		death = yes
+	}
+}
+1227211 = {
+	name="Estève" #Etienne d'Auvergne, Bishop of Clermont
+	# AKA: Stephen
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=40126 #Guillaume IV d'Auvergne
+	986.1.1 = {
+		birth=yes #unknown
+	}
+	1021.1.1 = {
+		death=yes
+	}
+}
+1227212 = {
+	name="Guilhèm" #Guillaume d'Auvergne, recorded in a donation of his mother
+	# AKA: William
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=40126 #Guillaume IV d'Auvergne
+	988.1.1 = {
+		birth=yes #unknown
+	}
+	1015.1.1 = {
+		death=yes
+	}
+}
+1227213 = {
+	name="Raimond" #Raimond III de Toulouse
+	dynasty=727
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=5
+	religion="catholic"
+	culture="occitan"
+	father=330
+	mother=1235543
+	925.1.1 = {
+		birth="925.1.1"
+	}
+	972.1.1 = {
+		death=yes
+	}
+}
+1227214 = {
+	name="Ugues" #Raimond IV de Toulouse
+	dynasty=727
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=5
+	religion="catholic"
+	culture="occitan"
+	father=1227213
+	946.1.1 = {
+		birth=yes
+	}
+	972.1.1 = {
+		death=yes
+	}
+}
+1227215 = {
+	name="Ebles" #Ebles d'Aquitaine
+	dynasty=413
+	martial=5
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="occitan"
+	father=232
+	mother=385
+	970.1.1 = {
+		birth=yes
+	}
+	998.1.1 = {
+		death=yes
+	}
+}
+###########
+#
+###########
+###########
+#de Marseille 
+########### 
+#Incredibly complicated inheritance flipflopping in the last generations, probably due to a switch to Senority(also rival claims and some civilwar) being applied before the Huges III de Baux enforces primogenture again. 
+1227216 = {
+	name="Arlulf" #Arlulfe/Arlulf 1st seigneur de Marseille, appointed 949 and last attested march 965, dead before 977, ancestry disputed, one theory is from the counts of Avignon and Apt. Another is that he was of di ventimiglia stock(as apparent from their arms the two family were closely linked)
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	905.1.1 = {
+		birth=yes
+	}
+	966.1.1 = {
+		death=yes
+	}
+}
+1227217 = {
+	name="Honorat" #Honorat, son of Arlulf, bishop of Marseille 948 - 6. februar, 976
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227216
+	925.1.1 = {
+		birth=yes
+	}
+	976.2.6 = {
+		death=yes
+	}
+}
+1227218 = {
+	name="Aicard" #Aicard, third son of Arlufl, married Leutgarde, attested 1060?(must be one of the later one)
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227216
+	950.1.1 = {
+		birth=yes
+	}
+	1010.1.1 = {
+		death=yes
+	}
+}
+1227219 = {
+	name="Guilhèm" #Guillaume I, son of Arlulf, 1st viscomte de Maresille(attested as such 977), died 21st of october 1004, 1st wife was Billielis/Belieldis and second was Hermengarde d'Arles
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227216
+	920.1.1 = {
+		birth=yes
+	}
+	1004.10.21 = {
+		death=yes
+	}
+}
+1227220 = {
+	name="Pons" #Pons, son of  Guillaume I and Billielis, bishop of Marseille 6th of march 977 - 30th of march 1015
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227219
+	950.1.1 = {
+		birth=yes
+	}
+	1015.3.30 = {
+		death=yes
+	}
+}
+1227221 = {
+	name="Billielis" #Billielis, daughter of Guillaume I and Billielis, married Adalelme d'Avignon justicar of Avignon(son of Adalbert) in 1002, they are the genisis of de Sabran family.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227219
+	female=yes
+	976.1.1 = {
+		birth=yes
+	}
+	1035.1.1 = {
+		death=yes
+	}
+}
+1227222 = {
+	name="Astrude" #Astrude, daughter of Guillaume I and Hermengarde.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227219
+	female=yes
+	990.1.1 = {
+		birth=yes
+	}
+	1050.1.1 = {
+		death=yes
+	}
+}
+1227223 = {
+	name="Guilhèm" #Guillaume II(aka the fat), son of Guillaume I and Billielis, viscomte de Marseille 1004 - 1031. in 999 married Accélena de Fos(daughter of Pons I de Fos) who died in 1019, second wife was Étiennette de Forcalquier(de Toulouse).
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227219
+	965.1.1 = {
+		birth=yes
+	}
+	999.1.1 = {
+		add_spouse=1227281
+	}		
+	1031.1.1 = {
+		death=yes
+	}
+}
+1227224 = {
+	name="Liégearde" #Liégearde, , daughter Guillaume and Étiennette, married Alfant I, viscomte de Mezoargue in 1023
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	female=yes
+	999.1.1 = {
+		birth=yes
+	}
+	1055.1.1 = {
+		death=yes
+	}
+}
+#403 ID #Stéphanie/Etiennette de Marseille, daughter Guillaume II and Étiennette
+1227225 = {
+	name="Pons" #Pons II, son of Guillaume II and Accélena, bishop of Marseille , died 18th of february 1073
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	mother=1227281
+	1015.1.1 = {
+		birth=yes
+	}
+	1073.2.18 = {
+		death=yes
+	}
+}
+1227226 = {
+	name="Guilhèm" #Guillaume III, oldest son of Guillaume II and Accélena, viscomte de Marseille, died without issue.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	mother=1227281	
+	1000.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+1227227 = {
+	name="Aicard" #Aicard, son of Guillaume II and Accélena, viscomte de Arles et Marseille?
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	mother=1227281	
+	1015.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+1227228 = {
+	name="Aimerude" #Aimerude, daughter of Guillaume II and Accélena, married Francon de Fréjus.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	mother=1227281	
+	female=yes
+	1010.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1227229 = {
+	name="Godafres" #Geoffroy I, son of Guillaume II and Accélena, viscomte de Marseille, attested first attested 1050, last 1091.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	mother=1227281	
+	1020.1.1 = {
+		birth=yes
+	}
+	1091.1.1 = {
+		death=yes
+	}
+}
+1227230 = {
+	name="Aicard" #Aicard, son of Geoffroy, archbishop of Arles 1070-1113.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227223
+	1044.1.1 = {
+		birth=yes
+	}
+	1113.1.1 = {
+		death=yes
+	}
+}
+#
+1227231 = {
+	name="Ugues-Godafres" #Hugues-Geoffroi, son of Geoffroy I viscomte de Marseille, attested 1119, died before 1128.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227229
+	1070.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1227232 = {
+	name="Raimond-Godafres" #Raimond Geofroi I, son of Hugues-Geoffroi I, viscomte de Mareseille, died 1192
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227231
+	1115.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1227233 = {
+	name="Ugues-Godafres" #Hugues-Geoffroi III, son of Raimond Geofroi I, last attested 1213, viscount de Marseille 1184
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227231
+	1145.1.1 = {
+		birth=yes
+	}
+	1214.1.1 = {
+		death=yes
+	}
+}
+1227234 = {
+	name="Alasacie" #Alasacie, daughter of Hugues-Geoffroi III, married Raimond de Baux(Berre) in 1208,
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227233
+	female=yes
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1227235 = {
+	name="Raimond-Godafres" #Raimond Geofroi III, son of Hugues-Geoffroi III
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227233
+	1168.1.1 = {
+		birth=yes
+	}
+	1244.1.1 = {
+		death=yes
+	}
+}
+#
+1227236 = {
+	name="Pons" #Pons de Peynier, son of Geoffroy I, viscomte de Marseille, died 1131.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227229
+	1075.1.1 = {
+		birth=yes
+	}
+	1131.1.1 = {
+		death=yes
+	}
+}
+1227237 = {
+	name="Bertand" #Bertand, third son of Pons, attested 1151 and 1180
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227236
+	1113.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1227238 = {
+	name="Ugues-Godafres" #Hugues-Geoffroi II, son of Pons, viscomte de Marseille 1151, died 1166
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227236
+	1095.1.1 = {
+		birth=yes
+	}
+	1166.1.1 = {
+		death=yes
+	}
+}
+1227239 = {
+	name="Guilhèm" #Guillaume IV(the fat), son of Hugues-Geoffroi II, died 1181, viscomte de Maresille 1180-1181
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227238
+	1133.1.1 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		death=yes
+	}
+}
+1227240 = {
+	name="Marabile" #Marabile, daughter of Guillaume IV, attested 1249
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227239
+	female=yes
+	1173.1.1 = {
+		birth=yes
+	}
+	1249.1.1 = {
+		death=yes
+	}
+}
+1227241 = {
+	name="Rosclin" #Rosclin, son of Hugues-Geoffroi II, attested 1172, abbot of saint victor ca 1185-, rival viscomte 1193-1209 and married, in 1209 he was excomunitcated and abandoned his claim short after, died 1215 as restored abbot of saint Victor.
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227238
+	1145.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1227242 = {
+	name="Barale" #Barale, daughter of  Raimond Geofroi II, married Huges III de Baux,viscountess de marseille(after Huges III pressed her claim(first in 1192, but contested with Rosclin until 1209)the viscounty stayed with that branch of des baux)
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227239
+	female=yes
+	1173.1.1 = {
+		birth=yes
+	}
+	1233.1.1 = {
+		death=yes
+	}
+}
+#-49
+###########
+#de Porcellets
+###########
+#seigneur de Porcellets
+1227250 = {
+	name="Porcel" #placeholder to link Daidonat and Bernard
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	930.1.1 = {
+		birth=yes
+	}
+	970.1.1 = {
+		death=yes
+	}
+}
+1227251 = {
+	name="Bernard" #Bernard, brother of Daidonat, last attested 1015
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227250
+	965.1.1 = {
+		birth=yes
+	}
+	1015.1.1 = {
+		death=yes
+	}
+}
+1227252 = {
+	name="Daidonat" #Daidonat, first attested member, last attested 1015, dead before 1019. Seigneur de Porcellets, married Armedruda.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227250
+	955.1.1 = {
+		birth=yes
+	}
+	1018.1.1 = {
+		death=yes
+	}
+}
+1227253 = {
+	name="Amelh" #Amelh, second son of Daidonat, attested 1056.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227252
+	990.1.1 = {
+		birth=yes
+	}
+	1018.1.1 = {
+		death=yes
+	}
+}
+1227254 = {
+	name="Rostaing" #Rostaing/Rostan, third son of Daidonat, attested 1056.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227252
+	992.1.1 = {
+		birth=yes
+	}
+	1018.1.1 = {
+		death=yes
+	}
+}
+1227255 = {
+	name="Rainaud" #Rainaud, fourth son of Daidonat.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227252
+	994.1.1 = {
+		birth=yes
+	}
+	1018.1.1 = {
+		death=yes
+	}
+}
+1227256 = {
+	name="Volverade" #Volverade oldest son of Daidonat, married Bellitruda1(attested 1009),seigneur de Porcellets.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227251
+	985.1.1 = {
+		birth=yes
+	}
+	1067.1.1 = {
+		death=yes
+	}
+}
+1227257 = {
+	name="Rostaing" #Rostaing oldest son of Volverade, married Bona.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227256
+	1002.1.1 = {
+		birth=yes
+	}
+	1075.1.1 = {
+		death=yes
+	}
+}
+1227258 = {
+	name="Aloïsa" #Aloïsa daughter of Rostaing, married "Uc"
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227257
+	female=yes
+	1025.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1227259 = {
+	name="Bertrand" #Bertrand son of Rostaing, seignur de Martigues et Arles(vassal of the archbishop), took part in the first crusade under Raymond of Toulouse, died 1106.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227257
+	1035.1.1 = {
+		birth=yes
+	}
+	1106.1.1 = {
+		death=yes
+	}
+}
+1227260 = {
+	name="Guilhèm"#Guilhem son of Rostaing, last attested 1094, assumed to have fallen on crusade ca 1105.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227257
+	1023.1.1 = {
+		birth=yes
+	}
+	1105.1.1 = {
+		death=yes
+	}
+}
+1227261 = {
+	name="Jaufre" #Jaufre son of Guilhem, died 1149.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227260
+	1090.1.1 = {
+		birth=yes
+	}
+	1149.1.1 = {
+		death=yes
+	}
+}
+1227262 = {
+	name="Raimond" #Raimon Sacristain son of Guilhem.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227260
+	1084.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1227263 = {
+	name="Guilhèm" #Guilhem son of Guilhem, attested 1120 died before 1151. founded the levant branch.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227260
+	1085.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1227264 = {
+	name="Godafres" #Geoffroi son of Guilhem, seigneur de Porcellets, Martigues et Arles. attestes 1111 and 1121.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227260
+	1075.1.1 = {
+		birth=yes
+	}
+	1122.1.1 = {
+		death=yes
+	}
+}
+1227265 = {
+	name="Porcelet" #Porcellus son of Geoffroi, seigneur de Porcellets, Martigues et Arles attested 1167.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227264
+	1103.1.1 = {
+		birth=yes
+	}
+	1168.1.1 = {
+		death=yes
+	}
+}
+1227268 = {
+	name="Guilhèm" #Guilhem II son of Porcelet/Porcellus, seigneur de Porcellets, Martigues et Arles attested 1188 and 1202, very active in the war over the Provencal succesion on the side of de Barcelona. First wife was Adelaide de Arles, second wife as Ermeffende d'Uzez.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227265
+	1138.1.1 = {
+		birth=yes
+	}
+	1212.1.1 = {
+		death=yes
+	}
+}
+1227269 = {
+	name="Bertrand" #Bertrand I son of Guilhem II, seigneur de Porcellets, Martigues et Arles attested 1216.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227268
+	1165.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1227270 = {
+	name="Guilhèm" #Guilhem III son of Bertrand I, seigneur de Porcellets, Martigues et Arles, attested 1265, 1266(one of Charles commanders during the conquest of Naples), 1270, 1272 died 1288. Sole survivor of the Provencal nobility on Sicily after the vespers(was spared because of his "just" rule as justicar). Chamberlain to Charles de'Anjou.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227269
+	1200.1.1 = {
+		birth=yes
+	}
+	1288.1.1 = {
+		death=yes
+	}
+}
+1227271 = {
+	name="Bertrand" #Bertand II son of Guilhem III, seigneur de Porcellets, Martigues et Arles, had married Marie des Baux daughter of Baral(which one?).
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227270
+	1230.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes
+	}
+}
+1227272 = {
+	name="Guilhèm" #Guilhem IV son of Bertrand II, seigneur de Porcellets, Martigues et Arles.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227271
+	1275.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1227273 = {
+	name="Bertrand" #Bertrand III son of Guilhem IV, seigneur de Porcellets, Martigues et Arles, attestd 1361.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227272
+	1300.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+#
+1227274 = {
+	name="Porcelet" #Porcelet son of Volverade, attested 1067.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227256
+	1004.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		death=yes
+	}
+}
+1227275 = {
+	name="Porcel" #Porcel son of Porcelet, attested 1085.
+	dynasty=1000227203
+	religion="catholic"
+	culture="occitan"
+	father=1227274
+	1035.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+#-79
+###########
+#de Fos
+###########
+1227280 = {
+	name="Pons" #Pons de Fos, disputed heritage(one theory is that he was a son of Pons de Marseille but its not affirmed), seigneur de Fos e Hyères since 970, withstood a seige of Fulco de Marseille in 1018(Pons had refused to swear fealty to Guillaume II de Provence) where Fulco died, last attested 1020.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	952.1.1 = {
+		birth=yes
+	}
+	1023.1.1 = {
+		death=yes
+	}
+}
+1227281 = {
+	name="Accélena" #Accélena daughter of Pons, married Guilhem II de marseille in 999
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227280
+    female=yes	
+	974.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes
+	}
+}
+1227282 = {
+	name="Gui" #Guy/Gui I, son of Pons, seigneur de Fos e Hyères(attested as such 1038), 1048, 1056, married Astrude, died 1058
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227280
+	980.1.1 = {
+		birth=yes
+	}
+	1058.1.1 = {
+		death=yes
+	}
+}
+1227283 = {
+	name="Rostaning" #Rostaning, son of Guy I, made archbishop of Aix in 1056(until 1082)
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227282
+	1015.1.1 = {
+		birth=yes
+	}
+	1082.1.1 = {
+		death=yes
+	}
+}
+1227284 = {
+	name="Gui" #Guy II son of Guy I, died 1085
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227282
+	1010.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes
+	}
+}
+1227285 = {
+	name="Amiel" #Amiel son of Guy I, attested 1085, died before 1103(probably before 1092 aswell), married Garcia(who outlived him)
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227282
+	1009.1.1 = {
+		birth=yes
+	}
+	1091.1.1 = {
+		death=yes
+	}
+}
+1227286 = {
+	name="Pons" #Pons IV, son of Amiel, frist attested 1085, head of family by 1092, last attested on crusades 1105
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227285
+	1034.1.1 = {
+		birth=yes
+	}
+	1106.1.1 = {
+		death=yes
+	}
+}
+1227287 = {
+	name="Pons" #Pons V, son of Pons IV, first attested 1115 affirmed as seigneur de Fos e Hyères in 1140.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227286
+	1063.1.1 = {
+		birth=yes
+	}
+	1141.1.1 = {
+		death=yes
+	}
+}
+1227288 = {
+	name="Gui" #Gui IV, son of Pons V, attested 1143(fomed coalition with des Baux against the house of Tolouse), 1164
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227287
+	1097.1.1 = {
+		birth=yes
+	}
+	1165.1.1 = {
+		death=yes
+	}
+}
+1227289 = {
+	name="Gui" #Gui, second son of Gui IV, attested 1180 and 1188.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227288
+	1135.1.1 = {
+		birth=yes
+	}
+	1189.1.1 = {
+		death=yes
+	}
+}
+1227290 = {
+	name="Rostaing" #Rostaing, third son of Gui IV, attested 1187, 1188 and 1192. vassal of the archbishop.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227288
+	1142.1.1 = {
+		birth=yes
+	}
+	1194.1.1 = {
+		death=yes
+	}
+}
+1227291 = {
+	name="Amiel" #Amiel II, oldest son of Gui IV, attested 1151, 1180, took the title marquise de Fos in 1188, was captures shortly after during a war with Guilhem de Porcellets, Gui had to sign the ransom papers transfering Fos castle to Guilhem. attested 1196 and 1204(had pawn the feudal rights of Hyères to Botin a jewish merchant in marseille), 1219, 1221, 1223, dead before 1235.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227288
+	1133.1.1 = {
+		birth=yes
+	}
+	1224.1.1 = {
+		death=yes
+	}
+}
+1227292 = {
+	name="Cecilia" #Cecilia, daughter of Amiel II, attested 1235
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227291
+	female=yes
+	1180.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1227293 = {
+	name="Huguette" #Huguette, daughter of Amiel II, attested 1235
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227291
+	female=yes
+	1175.1.1 = {
+		birth=yes
+	}
+	1238.1.1 = {
+		death=yes
+	}
+}
+1227294 = {
+	name="Roncelin" #Roncelin, son of Amiel II, attested 1248, 1250 died 1278. Was a templar chaptermaster first in Provence and 1250-1256 in England. 
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227291
+	1199.1.1 = {
+		birth=yes
+	}
+	1278.1.1 = {
+		death=yes
+	}
+}
+1227295 = {
+	name="Rogier" #Roger, oldest son of Amiel II, attested 1205, 1213(was a hostage of the visocunts of Marseille), 1221, 1225, 1235, 1254 and 1257.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227291
+	1182.1.1 = {
+		birth=yes
+	}
+	1257.1.1 = {
+		death=yes
+	}
+}
+1227296 = {
+	name="Philipe" #Phillipe Lavena, second son of Roger, attested 1266(conquest of siciliy), was made grand senechal and govenor of Provence after, took part in the was againt aragon in 1283.
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227295
+	1220.1.1 = {
+		birth=yes
+	}
+	1284.1.1 = {
+		death=yes
+	}
+}
+1227297 = {
+	name="Guilhèm" #Guilhem, oldest son of Roger, attested 1266(conquest of siciliy), 1272, 1273, sided with d'Anjou during the vespers and after)
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227295
+	1215.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1227298 = {
+	name="Rogier" #Roger II, son of Guilhem, attested 1266(conquest of siciliy), last attesed 1328 in Naples, dead before 1331
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227297
+	1245.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes
+	}
+}
+1227299 = {
+	name="Rossolin" #Rossolin, son of Roger II, attested 1286, seigneur de Bormes, 
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227298
+	1270.1.1 = {
+		birth=yes
+	}
+	1331.1.1 = {
+		death=yes
+	}
+}
+1227300 = {
+	name="Rossolin" #Rossolin II, son of Rossolin I, attested 1331,
+	dynasty=1000227204
+	religion="catholic"
+	culture="occitan"
+	father=1227299
+	1295.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+###########
+#de Grasse
+###########
+#Segneiurs de Grasse, segniuers, comte et prince de Antibes
+1227301 = {
+	name="Rodoard" #Rodoard, seigneur de Antibes 960, count by 993. married Alayarde daughter of the count of Arles.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	940.1.1 = {
+		birth=yes
+	}
+	1000.1.1 = {
+		death=yes
+	}
+}
+1227302 = {
+	name="Oda" #Oda, daughter of Rodoard, married Pierre Singerius
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227301
+	female=yes
+	965.1.1 = {
+		birth=yes
+	}
+	1025.1.1 = {
+		death=yes
+	}
+}
+1227303 = {
+	name="Guilhèm-Gruette" #Guiallaum-Gruette, son of Rodoard, became a monk 990
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227301
+	964.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}
+}
+1227304 = {
+	name="Gauceran" #Gauceran, oldest son of Rodoard, count of Antibes, married Belieldis de Gamero
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227301
+	963.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes
+	}
+}
+1227305 = {
+	name="Adalbert" #Adalbert, son of Gauceran, bishop of Antibes 1026-1050.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227304
+	995.1.1 = {
+		birth=yes
+	}
+	1050.1.1 = {
+		death=yes
+	}
+}
+1227306 = {
+	name="Maxime" #Maxime, daughter of Gauceran, married Bertrand del Podio
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227304
+	female=yes
+	990.1.1 = {
+		birth=yes
+	}
+	1035.1.1 = {
+		death=yes
+	}
+}
+1227307 = {
+	name="Guilhèm-Gaucera" #Guillaume/Guillaume-Gaucera, oldet son of Gauceran, count of Antibes(attested as such 1078), first seigneur de Grasse
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227304
+	994.1.1 = {
+		birth=yes
+	}
+	1079.1.1 = {
+		death=yes
+	}
+}
+1227308 = {
+	name="Godafres" #Geoffrey I, son of Guiallaume, bishop of antibes 1058-1088
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227307
+	1032.1.1 = {
+		birth=yes
+	}
+	1088.1.1 = {
+		death=yes
+	}
+}
+1227309 = {
+	name="Adelbert" #Adelbert, son of Guiallaume, abbot of Lérins 1044-1088, bishop of antibes 1088-1093.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227307
+	1029.1.1 = {
+		birth=yes
+	}
+	1093.1.1 = {
+		death=yes
+	}
+}
+1227310 = {
+	name="Rambaud" #Rambaud, oldest son of Guiallaume, prince of Antibes(attested as such 1113)
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227307
+	1028.1.1 = {
+		birth=yes
+	}
+	1114.1.1 = {
+		death=yes
+	}
+}
+1227311 = {
+	name="Raimond" #Raymond, second son of Rambaud, co count and also seigneur de Cabris et Grasse(until 1138 when the bishop of Antibes moved grapped it as his seat), attested 1138
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227310
+	1098.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1227312 = {
+	name="Guilhèm" #Guillaume, son of Rambaud, took part in second crusade
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227310
+	1099.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+1227313 = {
+	name="Fulco" #Fulco, son of Rambaud, excomunitcated and captured for expropiating proppertry from Lerin abbey. released in 1125 by presure from the count of Provence
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227310
+	1100.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1227314 = {
+	name="Bertrand" #Bertand, oldest son of Rambaud, married Ayadenne, prince de Antibes(attested as such 1147), attested 1155, 1176 and 1181. He and his brothers were in constant conflict with the Bishop of Antibes(the pope flipflopped in that conflict but the count of Provence supported de Grasse throughout).
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227310
+	1097.1.1 = {
+		birth=yes
+	}
+	1182.1.1 = {
+		death=yes
+	}
+}
+1227315 = {
+	name="Guilhèm" #Guillaume, son of Bertand
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227314
+	1145.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1227316 = {
+	name="Ugues" #Hugues, son of Bertand
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227314
+	1147.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		death=yes
+	}
+}
+1227317 = {
+	name="Gauceran" #Gauceran, son of Bertrand, abbot at Lerins Abbey
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227314
+	1145.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+1227318 = {
+	name="Rambaud" #Rambaud II, oldest son of Bertrand, seigneur de Antibes, attesed 1178 and 1190
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227314
+	1140.1.1 = {
+		birth=yes
+	}
+	1207.1.1 = {
+		death=yes
+	}
+}
+1227319 = {
+	name="Ugues" #Hugues, son of Rambaud II, died in the levant
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227318
+	1172.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes
+	}
+}
+1227320 = {
+	name="Gui" #Guy, son of Rambaud II
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227318
+	1175.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1227321 = {
+	name="Isnard" #Isnard I, oldest son of Rambaud, seigneur de Antibes, attested first 1208, married Tiburge de Caillan
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227318
+	1168.1.1 = {
+		birth=yes
+	}
+	1234.1.1 = {
+		death=yes
+	}
+}
+1227322 = {
+	name="Godafres" #Geoffrey, son of Isnard I, templar knight, attested 1247 in dealings with the bishop of Antibes.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227321
+	1200.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes
+	}
+}
+1227323 = {
+	name="Rambaud" #Rambaud III, son of Isnard I, seigneur de Antibes, attested 1235, staunch supporter of Raymond-Berenger IV of Provence.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227321
+	1190.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1227324 = {
+	name="Maxime" #Maxime, daughter of Rambaud III, married raymond de ferris
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227323
+	female=yes
+	1235.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes
+	}
+}
+1227325 = {
+	name="Pierre" #Pierre de Rochas, son of Rambaud
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227323
+	1233.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes
+	}
+}
+1227326 = {
+	name="Gautherius" #Gautherius, son of Pierre, senechal of Piemonte
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227325
+	1260.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1227327 = {
+	name="Bertrand" #Bertrand, son of Rambaud III, monk at Lerins abbey
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227323
+	1236.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1227328 = {
+	name="Isnard" #Isnard II, oldest son of Rambaud III, seigneur de Antibes
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227323
+	1232.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1227329 = {
+	name="Bertrand" #Bertrand, son of Isnard II, married Beatrice des baux, died without issue
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227328
+	1279.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		death=yes
+	}
+}
+1227330 = {
+	name="Isnard" #Isnard, son of Isnard II, grand senschal of Provence and commander of knights hospiallers in jerusalem and capua chapters
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227328
+	1277.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1227331 = {
+	name="Rambaud" #Rambaud IV, oldest son of Isnard II, seigneur de Antibes, comander under Roberd I d'Anjou, govenor of Aix and Marseille, married Anges Ponteves the 11th of janaur 1310.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227328
+	1276.1.1 = {
+		birth=yes
+	}
+	1345.1.1 = {
+		death=yes
+	}
+}
+1227332 = {
+	name="Bertrand" #Bertrand II, oldest son of Rambaud IV, seigneur de Antibes, marshall of Naples and Sicily under Jeanne I, was married in 1351.
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227331
+	1311.1.1 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		death=yes
+	}
+}
+1227333 = {
+	name="Maxime" #Maxime, daughter of Rambaud IV
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227331
+	female=yes
+	1312.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1227334 = {
+	name="Rosoline" #Rosoline, daughter of Rambaud IV
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227331
+	female=yes
+	1313.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		death=yes
+	}
+}
+1227335 = {
+	name="Gibeline" #Gibeline, daughter of Rambaud IV
+	dynasty=1000227205
+	religion="catholic"
+	culture="occitan"
+	father=1227331
+	female=yes
+	1314.1.1 = {
+		birth=yes
+	}
+	1370.1.1 = {
+		death=yes
+	}
+}
+1227336 = {
+	name="Raimond-Godafres" #Raimond Geofroi II aka Baral, son of Hugues-Geoffroi II, died 1192, viscomte de Maresille 1184-1192, married Alasacie Porcellet, daughter of Hugues Sacristan and Galberge Porcellet
+	dynasty=13104
+	religion="catholic"
+	culture="occitan"
+	father=1227238
+	1130.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1227337 = {
+	name="Esteve" #Etienne/Esteve de Gévaudan, Bishop of Puy-en-Velay
+	dynasty=100219 
+	religion="catholic"
+	culture="occitan"
+	father=40260 #Etienne II de Gévaudan/Brioude
+	mother=127009 #Adélais d'Anjou
+	967.1.1 = {
+		birth=yes
+	}
+	998.1.1 = {
+		death=yes
+	}		
+}
+1227338 = {
+	name="Geilin" #Geilin, Count of Valentinois
+	dynasty=1000227207
+	religion="catholic"
+	culture="occitan"
+	911.1.1 = {
+		birth=yes
+	}
+	960.1.1 = {
+		death=yes
+	}
+}
+1227339 = {
+	name="Boso" #Boso, Count of Valentinois, son of Adalelme
+	dynasty=1000227206
+	religion="catholic"
+	culture="occitan"
+	899.1.1 = {
+		birth=yes
+	}
+	943.1.1 = {
+		death=yes
+	}
+}
+1227340 = {
+	name="Godescalc" #Godescalc, Bishop of Puy-en-Velay
+	religion="catholic"
+	culture="occitan"
+
+	892.1.1 = {
+		birth=yes
+	}
+	961.12.1 = {
+		death=yes
+	}		
+}
+1227341 = {
+	name="Bégon" #Bégon, Bishop of Puy-en-Velay
+	religion="catholic"
+	culture="occitan"
+
+	914.1.1 = {
+		birth=yes
+	}
+	975.1.1 = {
+		death=yes
+	}		
+}
+1227342 = {
+	name="Robert" #Robert III de Clermont, Viscount of Auvergne
+	# AKA: Guilhem
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=40124  #viscount Robert II d'Auvergne
+	931.1.1 = {
+		birth=yes
+	}
+	979.1.1 = {
+		death=yes
+	}
+}
+1227343 = {
+	name="Odon" #Odon de Frezensac
+	# AKA: Odo/Eudes
+	dynasty=388
+	religion="catholic"
+	culture="occitan"
+	father=1235541
+	936.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes
+	}
+}

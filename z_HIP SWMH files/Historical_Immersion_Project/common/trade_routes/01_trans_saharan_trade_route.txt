@@ -1,0 +1,103 @@
+trans_saharan_trade_route = {
+	wealth = 7.0			# Total base wealth of trade route
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 811	# Trade post
+			province_id = 839	# Trade post
+			province_id = 840	# Trade post
+			province_id = 918	# Trade post
+			province_id = 911	# Cloth production
+			province_id = 912	# Salt mine
+			province_id = 916	# Salt mine
+			province_id = 926	# Gold mine
+			province_id = 1329	# Trade post
+			province_id = 1328	# Trade post
+			province_id = 1384	# Gold mine
+			province_id = 1405	# Trade post
+			province_id = 818	# Trade post
+		}
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		tribal_tax_modifier = 0.30
+		trade_route_value = 15
+		local_movement_speed = 0.30
+		tech_growth_modifier = 0.10
+		icon = 127
+	}
+
+	start = {				# Start provinces of trade route
+		926		# Bambuk
+		1384	# Bure
+	}
+
+	### Inland route - Bure
+	path = {	# Bure-Timbuktu
+		1384 925 1387 1389 915 911 
+	}
+	path = {	# Timbuktu-Walata
+		911 919
+	}
+	path = {	# Walata-Taghaza
+		919 1366 916
+	}
+	path = {	# Taghaza-Sijilmasa
+		916 918
+	}
+	#path = {	# Timbuktu-Taghaza
+	#	911 917 916
+	#}
+	path = {	# Timbuktu-Gao
+		911 914
+	}
+	path = {	# Gao-Kano-Djado
+		914 927 1319 1322 1323 1328 1474 1476 1329 1227 1400
+	}
+	path = {	# Djado-Zawila
+		1400 1405
+	}
+	path = {	# Zawila-Adjadabiya
+		1405 1399 1345
+	}
+	path = {	# Djado-Ghat
+		1400 1226
+	}
+	path = {	# Ghat-Tripoli
+		1226 1223 1398 811
+	}
+	path = {	# Gao-Hogar
+		914 922 1394 1403
+	}
+	path = {	# Hogar-Ghat
+		1403 1402 1226
+	}
+	#path = {	# Ghat-Zawila
+	#	1226 1404 1405
+	#}
+	path = {	# Hogar-Susa
+		1403 1392 1356 1352 815 818
+	}
+	
+	### Coastal route - Bambuk
+	path = {	# Bambuk-Aoudaghost
+		926 1373 912
+	}
+	path = {	# Aoudaghost-Walata
+		912 913 919
+	}
+	path = {	# Aoudaghost-Sijilmasa
+		912 920 921 1364 918
+	}
+	path = {	# Sijilmasa-Fes
+		918 1358 840
+	}
+	path = {	# Fes-Ceuta
+		840 839
+	}
+	path = {	# Fes-Wahran
+		840 838 834 832
+	}
+}

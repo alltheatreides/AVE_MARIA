@@ -1,0 +1,26 @@
+# 1048 - Graisivaudan
+
+# County Title
+title = c_graisivaudan
+
+# Settlements
+max_settlements = 5
+
+b_vif = castle
+b_grenoble = city
+#b_grande_chartreuse = temple 
+#b_sassenage = castle 
+#b_briancon = city
+
+#b_montbel = castle
+#b_saint_bonnet_en_champsaur = city
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1084.1.1 = { b_grande_chartreuse = temple }
+1085.1.1 = { b_sassenage = castle }
+1244.1.1 = { b_briancon = city }

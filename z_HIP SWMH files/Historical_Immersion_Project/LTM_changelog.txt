@@ -1,0 +1,109 @@
+###Changelog###
+LTM (C) 
+	- Adjusted non-visual terrain properties
+LTM (C) compatch for 3.1.1
+	- Compatibility patch for CKII v3.1.1 (adjusted non-visual terrain properties)
+LTM (C) compatch for 2.8 and SWMH 
+	- Adjusted brightness for the new terrain-in-wasteland feature
+	- Removed normal maps for the new terrain-in-wasteland feature (as it was in previous versions)
+	- Adjusted ice texture for the new terrain-in-wasteland feature
+	- Updated mapitems to include JD CoAs
+	- Adjusted Hungarian lakes to match 
+	- Adjusted Indus delta to match SWMH
+	- Adjusted Indus delta to match SWMH
+	- Adjusted Pommeranian coast to match SWMH
+	- More farmland along the Nile
+LTM (C) Hotfix
+	- Lowered snow brightness
+LTM (C) compatch for 2.7
+	- Adjustments to colourmap
+	
+LTM (C) compatch for SWMH's timeline expansion
+	- LTM map adjustments to fit corresponding SWMH map changes
+	
+LTM (C) compatch for 2.6
+	- Fixed the issue of vassal borders reappearing at the far away zoom
+
+LTM (C)
+	**ALTERNATE REQUESTED FILES**
+		- [Optional] Selection of alternate, & rejected country borders + old + all vanilla
+		- [Optional] High saturation-Low Transparency in political mode
+		- [Optional] Basic flat map
+		- [Optional] Old snow texture with new spread
+	**BORDERS**
+		- New non-passable border
+		- New country border
+		- New province border
+		- Slight increase in border intensity, still less than vanilla
+		- Non-realm border now fade away as the camera is pulled back
+		- Lowered border height to vanilla settings
+	**MAP CHANGES**
+		- Reshaped terrain of Massif Central
+		- Reshaped terrain of Britain
+		- Reshaped topology of Scotland
+		- Reshaped terrain along Tigris & Euphrates
+		- Reshaped trees in Nordkalotten, Finland, Novgorod, Baltics, & Sweden
+		- Reshaped terrain in Nordkalotten, Finland, Novgorod, Baltics, & Sweden
+		- Reshaped Irish terrain
+		- Reshaped Armenian valley topology to be softer & follow terrain
+		- Added northern wetlands
+		- Added farmland: focus on rivers, outlets, & branches
+		- Added coastlines (cliffs & beaches) to France, Portugal, north Spain, Sicily, Corsica, Sardinia... (TBC)
+		- Moved Italian Apennines terrain to its corresponding topology
+		- Moved Göta highlands terrain to its corresponding topology
+		- Removed trees for himalayan treeline
+		- Removed the green plains' sharpness around damascus
+		- Compatibility with SWMH's arabia release
+	**RECOLOURING**
+		- Removed vanilla's seasonal recolouring of rivers
+		- Expanded physical ice range to cover russian rivers
+		- Slightly recoloured of most fake lakes
+		- Recoloured Gotland & other Baltic Isles
+		- Recoloured Iberia & Italy
+		- Recoloured Carpathians
+		- Recoloured Himilayas
+		- Recoloured Turkey (TBC)
+		- Recoloured shores of caspian sea, north africa, & normandy
+		- Added salt lakes
+		- Removed seams around the Urals & Iran
+		- Adjusted snow colour
+		- Corrected colours & contours of water depths
+		- Recoloured water in all map modes
+	**TEXTURES**
+		- Replaced texture for hills
+		- Replaced texture for foothills
+		- Reworked texture for marshland
+		- Reworked texture for arid plains
+		- Reworked texture for farmland
+		- Flooded fake lakes with real water in Nordkalotten
+		- Added seperate texture for mountains in arid areas
+		- Added seperate texture for hills in arid areas
+		- Added seperate texture for hills in asia minor
+		- Added two textures for coastline terrain
+		- Replaced texture for ice
+		- Reverted desert texture back to vanilla (with adjustments)
+		- Increased normal sharpness for most textures
+		- Increased mipmap sharpness for most textures
+		- Slightly increased saturation in all textures
+	**VALUES**
+		- Increased water height & water height cap
+		- Increased trees width & height
+		- Replaced normal for most textures
+		- Decreased red hue in arid climate
+		- Increased green hue in temperate climates
+		- [Temporary] Farmland function as plains
+		- Renamed Arctic terrain to Boreal
+		- Added localisation for marshland terrain
+		- Increased boreal's movement cost & bottleneck chance
+		- Removed/Lessened paradox's terrain seams
+		- Increased of map transparency & saturation
+
+LTM (B)
+	- Reshaped terrain & trees along Nile Delta
+	- Partially replaced textures for better looking snow & mountain 'crevices'
+	- Trimmed trees in Russia
+	- Resized construction model as it became too big
+	- Increased texture density
+
+LTM (A)
+	- first release

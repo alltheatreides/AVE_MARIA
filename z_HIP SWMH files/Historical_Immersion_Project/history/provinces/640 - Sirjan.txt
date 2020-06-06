@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 640 - Sírján
+
+# County Title
+title = c_sirjan
+
+# Settlements
+max_settlements = 5
+b_sirjan = castle
+b_bimand = temple
+b_mashiz = city
+
+b_khir = city
+b_baft = castle
+
+
+# Misc
+culture = persian
+religion = sunni
+
+# History

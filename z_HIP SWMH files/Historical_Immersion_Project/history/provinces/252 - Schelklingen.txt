@@ -1,0 +1,29 @@
+# 252 - Schelklingen
+
+# County Title
+title = c_schelklingen
+
+# Settlements
+max_settlements = 4
+
+b_marstetten = castle
+
+#b_donauworth = city
+#b_schelklingen = castle 
+#b_rot = temple
+
+#b_ochsenhausen = temple
+#b_burgau = city 
+#b_kirchberg = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+#1090.1.1 = { b_ochsenhausen = temple }
+1126.1.1 = { b_rot = temple }
+1127.1.1 = { b_schelklingen = castle }
+1147.1.1 = { b_burgau = city  }
+1170.1.1 = { culture = german }
+1212.1.1 = { capital = b_schelklingen }

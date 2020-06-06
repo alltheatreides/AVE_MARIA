@@ -1,0 +1,26 @@
+# 309 - Altmark
+
+# County Title
+title = c_altmark
+
+# Settlements
+max_settlements = 4
+
+b_salzwedel = castle
+#b_stendal = city
+#b_marienwerder_diesdorf = temple
+#b_osterburg = castle
+
+#b_gardelegen = castle 
+#b_tangermunde = city #Tangermünde
+#b_schulenburg = castle
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1100.1.1 = { culture = low_german }
+1157.1.1 = { b_osterburg = castle }
+1160.1.1 = { b_stendal = city }
+1161.1.1 = { b_marienwerder_diesdorf = temple }

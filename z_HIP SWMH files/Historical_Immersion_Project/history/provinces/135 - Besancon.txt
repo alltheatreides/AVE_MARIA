@@ -1,0 +1,29 @@
+# 135 - Besancon
+
+# County Title
+title = c_besancon
+
+# Settlements
+max_settlements = 5
+
+b_rougemont = castle
+b_besancon = temple
+#b_ornans = city
+#b_joux = castle
+#b_montfaucon = castle
+#b_saint_maurice_en_montagne = castle
+#b_montferrand_de_la_chateau = castle
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+979.1.1 = { b_joux = castle }
+1025.1.1 = { b_montfaucon = castle }
+1151.1.1 = { b_ornans = city }
+#1206.1.1 = { b_montferrand_de_la_chateau = castle }
+#1268.1.1 = { capital = b_montferrand_de_la_chateau }
+
+

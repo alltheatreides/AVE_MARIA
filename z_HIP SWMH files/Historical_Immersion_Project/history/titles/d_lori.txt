@@ -1,0 +1,56 @@
+# -*- ck2.history.titles -*-
+
+989.1.1 = {
+	liege = k_armenia
+	holder = 41512
+}
+1020.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = k_armenia
+		type = permanent
+	}
+}
+1045.1.1 = {
+	clear_tribute_suzerain = k_armenia
+}
+1048.1.1 = {
+	holder = 41513
+}
+1068.1.1 = {
+	clear_tribute_suzerain = k_armenia
+	set_tribute_suzerain = {
+		who = e_persia
+		type = permanent
+	}
+}
+1089.1.1 = {
+	holder = 41336
+}
+1118.1.1 = {
+	liege = k_georgia
+	holder = 159219
+	clear_tribute_suzerain = e_persia
+}
+1170.1.1 = {
+	holder = 232758
+}
+1187.1.1 = {
+	holder = 232760
+}
+1230.1.1 = {
+	holder = 159207
+}
+1250.1.1 = {
+	holder = 0
+}
+1272.1.1 = {
+	liege = k_iberia
+	holder = 1234602 # Sadun Mankaberdeli
+}
+1284.1.1 = {
+	holder = 1234603 # Khutlu Bugha Mankaberdeli
+}
+1302.1.1 = {
+	holder = 0
+}

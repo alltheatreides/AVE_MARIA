@@ -1,0 +1,46 @@
+# -*- ck2.history.titles -*-
+
+# Yawdi-Ertim
+20.1.1 = {
+	historical_nomad = yes
+}
+#864.1.1 = {
+#	liege = k_pechenegs
+#	holder = 1231709
+#}
+879.1.1 = {
+	liege = k_pechenegs
+	holder = 1231708 # Bayca, cheif of Yawdi-Ertim at the time of the expulsion from Yaik.
+}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+905.1.1 = {
+	holder = 1231711
+}
+910.1.1 = {
+	holder = 1231712
+}
+940.1.1 = {
+	holder = 1231714
+}
+960.1.1 = {
+	holder = 1231716
+}
+980.1.1 = {
+	holder = 1231718 # Metigay
+}
+1010.1.1 = {
+	holder = 1231720
+}
+1036.1.1 = {
+	holder = 1231722
+}
+#1040.1.1 = {
+#	liege = k_pechenegs
+#}
+# West south Danubian Pechenegs wiped out following Tzegul's failed invasion in 1087
+1087.6.1 = {
+	liege = 0
+	holder = 0
+}

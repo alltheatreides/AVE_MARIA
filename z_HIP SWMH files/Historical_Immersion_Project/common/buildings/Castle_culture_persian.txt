@@ -1,0 +1,853 @@
+# -*- ck2.buildings -*-
+
+castle = {
+	# Persian Zhayedan
+	ca_culture_persian_1 = {
+		desc = ca_culture_persian_1_desc
+		potential = {
+			OR = {
+				culture = tajik
+				culture = persian
+				culture = pahlavi
+				has_building = ca_culture_persian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 10
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_persian_2 = {
+		desc = ca_culture_persian_1_desc
+		potential = {
+			OR = {
+				culture = tajik
+				culture = persian
+				culture = pahlavi
+				has_building = ca_culture_persian_1
+				has_building = ca_culture_persian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		upgrades_from = ca_culture_persian_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 15
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_persian_3 = {
+		desc = ca_culture_persian_1_desc
+		potential = {
+			OR = {
+				culture = tajik
+				culture = persian
+				culture = pahlavi
+				has_building = ca_culture_persian_1
+				has_building = ca_culture_persian_2
+				has_building = ca_culture_persian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		upgrades_from = ca_culture_persian_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 15
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_persian_4 = {
+		desc = ca_culture_persian_1_desc
+		potential = {
+			OR = {
+				culture = tajik
+				culture = persian
+				culture = pahlavi
+				has_building = ca_culture_persian_1
+				has_building = ca_culture_persian_2
+				has_building = ca_culture_persian_3
+				has_building = ca_culture_persian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = tajik
+					culture = persian
+					culture = pahlavi
+				}
+			}
+		}
+		upgrades_from = ca_culture_persian_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 20
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Khwarezmi cavalry
+	ca_culture_khwarezmian_1 = {
+		desc = ca_culture_khwarezmian_1_desc
+		potential = {
+			OR = {
+				culture = khorasani
+				culture = khwarezmi
+				has_building = ca_culture_khwarezmian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 10
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_khwarezmian_2 = {
+		desc = ca_culture_khwarezmian_1_desc
+		potential = {
+			OR = {
+				culture = khorasani
+				culture = khwarezmi
+				has_building = ca_culture_khwarezmian_1
+				has_building = ca_culture_khwarezmian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		upgrades_from = ca_culture_khwarezmian_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 15
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_khwarezmian_3 = {
+		desc = ca_culture_khwarezmian_1_desc
+		potential = {
+			OR = {
+				culture = khorasani
+				culture = khwarezmi
+				has_building = ca_culture_khwarezmian_1
+				has_building = ca_culture_khwarezmian_2
+				has_building = ca_culture_khwarezmian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		upgrades_from = ca_culture_khwarezmian_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 15
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_khwarezmian_4 = {
+		desc = ca_culture_khwarezmian_1_desc
+		potential = {
+			OR = {
+				culture = khorasani
+				culture = khwarezmi
+				has_building = ca_culture_khwarezmian_1
+				has_building = ca_culture_khwarezmian_2
+				has_building = ca_culture_khwarezmian_3
+				has_building = ca_culture_khwarezmian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = khorasani
+					culture = khwarezmi
+				}
+			}
+		}
+		upgrades_from = ca_culture_khwarezmian_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 20
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Iranian mountainers / Daylamites and Pashtun
+	ca_culture_daylamite_1 = {
+		desc = ca_culture_daylamite_1_desc
+		potential = {
+			OR = {
+				culture = daylamite
+				culture = afghan
+				culture = qufs
+				has_building = ca_culture_daylamite_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 20
+		light_infantry = 30
+		pikemen_defensive = 0.15
+		light_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_daylamite_2 = {
+		desc = ca_culture_daylamite_1_desc
+		potential = {
+			OR = {
+				culture = daylamite
+				culture = afghan
+				culture = qufs
+				has_building = ca_culture_daylamite_1
+				has_building = ca_culture_daylamite_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		upgrades_from = ca_culture_daylamite_1
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 30
+		light_infantry = 40
+		pikemen_defensive = 0.15
+		light_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_daylamite_3 = {
+		desc = ca_culture_daylamite_1_desc
+		potential = {
+			OR = {
+				culture = daylamite
+				culture = afghan
+				culture = qufs
+				has_building = ca_culture_daylamite_1
+				has_building = ca_culture_daylamite_2
+				has_building = ca_culture_daylamite_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		upgrades_from = ca_culture_daylamite_2
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 40
+		light_infantry = 50
+		pikemen_defensive = 0.15
+		light_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_daylamite_4 = {
+		desc = ca_culture_daylamite_1_desc
+		potential = {
+			OR = {
+				culture = daylamite
+				culture = afghan
+				culture = qufs
+				has_building = ca_culture_daylamite_1
+				has_building = ca_culture_daylamite_2
+				has_building = ca_culture_daylamite_3
+				has_building = ca_culture_daylamite_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = daylamite
+					culture = afghan
+					culture = qufs
+				}
+			}
+		}
+		upgrades_from = ca_culture_daylamite_3
+		gold_cost = 500
+		build_time = 2190
+		pikemen = 60
+		light_infantry = 60
+		pikemen_defensive = 0.15
+		light_infantry_offensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Iranian nomads
+	ca_culture_scythian_1 = {
+		desc = ca_culture_scythian_1_desc
+		potential = {
+			OR = {
+				culture = baloch
+				culture = khalaj
+				has_building = ca_culture_scythian_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 10
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scythian_2 = {
+		desc = ca_culture_scythian_1_desc
+		potential = {
+			OR = {
+				culture = baloch
+				culture = khalaj
+				has_building = ca_culture_scythian_1
+				has_building = ca_culture_scythian_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		upgrades_from = ca_culture_scythian_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 15
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scythian_3 = {
+		desc = ca_culture_scythian_1_desc
+		potential = {
+			OR = {
+				culture = baloch
+				culture = khalaj
+				has_building = ca_culture_scythian_1
+				has_building = ca_culture_scythian_2
+				has_building = ca_culture_scythian_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		upgrades_from = ca_culture_scythian_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 15
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scythian_4 = {
+		desc = ca_culture_scythian_1_desc
+		potential = {
+			OR = {
+				culture = baloch
+				culture = khalaj
+				has_building = ca_culture_scythian_1
+				has_building = ca_culture_scythian_2
+				has_building = ca_culture_scythian_3
+				has_building = ca_culture_scythian_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = baloch
+					culture = khalaj
+				}
+			}
+		}
+		upgrades_from = ca_culture_scythian_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 20
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Kurdish mountainers
+	ca_culture_kurdish_1 = {
+		desc = ca_culture_kurdish_1_desc
+		potential = {
+			OR = {
+				culture = kurdish
+				has_building = ca_culture_kurdish_1
+			}
+		}
+		is_active_trigger = { ROOT = { culture = kurdish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = { culture = kurdish }
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		archers = 20
+		pikemen = 20
+		archers_offensive = 0.15
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_kurdish_2 = {
+		desc = ca_culture_kurdish_1_desc
+		potential = {
+			OR = {
+				culture = kurdish
+				has_building = ca_culture_kurdish_1
+				has_building = ca_culture_kurdish_2
+			}
+		}
+		is_active_trigger = { ROOT = { culture = kurdish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = { culture = kurdish }
+		}
+		upgrades_from = ca_culture_kurdish_1
+		gold_cost = 300
+		build_time = 1095
+		archers = 30
+		pikemen = 30
+		archers_offensive = 0.15
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_kurdish_3 = {
+		desc = ca_culture_kurdish_1_desc
+		potential = {
+			OR = {
+				culture = kurdish
+				has_building = ca_culture_kurdish_1
+				has_building = ca_culture_kurdish_2
+				has_building = ca_culture_kurdish_3
+			}
+		}
+		is_active_trigger = { ROOT = { culture = kurdish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = { culture = kurdish }
+		}
+		upgrades_from = ca_culture_kurdish_2
+		gold_cost = 400
+		build_time = 2190
+		archers = 40
+		pikemen = 40
+		archers_offensive = 0.15
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_kurdish_4 = {
+		desc = ca_culture_kurdish_1_desc
+		potential = {
+			OR = {
+				culture = kurdish
+				has_building = ca_culture_kurdish_1
+				has_building = ca_culture_kurdish_2
+				has_building = ca_culture_kurdish_3
+				has_building = ca_culture_kurdish_4
+			}
+		}
+		is_active_trigger = { ROOT = { culture = kurdish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = { culture = kurdish }
+		}
+		upgrades_from = ca_culture_kurdish_3
+		gold_cost = 500
+		build_time = 2190
+		archers = 60
+		pikemen = 60
+		archers_offensive = 0.15
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Soghdian
+	ca_culture_sogdian_1 = {
+		desc = ca_culture_sogdian_1_desc
+		potential = {
+			OR = {
+				culture = sogdian
+				has_building = ca_culture_sogdian_1
+			}
+		}
+		is_active_trigger = { ROOT = { culture = sogdian } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = { culture = sogdian }
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 20
+		heavy_infantry = 20
+		heavy_infantry_offensive = 0.1
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_sogdian_2 = {
+		desc = ca_culture_sogdian_1_desc
+		potential = {
+			OR = {
+				culture = sogdian
+				has_building = ca_culture_sogdian_1
+				has_building = ca_culture_sogdian_2
+			}
+		}
+		is_active_trigger = { ROOT = { culture = sogdian } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = { culture = sogdian }
+		}
+		upgrades_from = ca_culture_sogdian_1
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 30
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.1
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_sogdian_3 = {
+		desc = ca_culture_sogdian_1_desc
+		potential = {
+			OR = {
+				culture = sogdian
+				has_building = ca_culture_sogdian_1
+				has_building = ca_culture_sogdian_2
+				has_building = ca_culture_sogdian_3
+			}
+		}
+		is_active_trigger = { ROOT = { culture = sogdian } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = { culture = sogdian }
+		}
+		upgrades_from = ca_culture_sogdian_2
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 40
+		heavy_infantry = 40
+		heavy_infantry_offensive = 0.1
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_sogdian_4 = {
+		desc = ca_culture_sogdian_1_desc
+		potential = {
+			OR = {
+				culture = sogdian
+				has_building = ca_culture_sogdian_1
+				has_building = ca_culture_sogdian_2
+				has_building = ca_culture_sogdian_3
+				has_building = ca_culture_sogdian_4
+			}
+		}
+		is_active_trigger = { ROOT = { culture = sogdian } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = { culture = sogdian }
+		}
+		upgrades_from = ca_culture_sogdian_3
+		gold_cost = 500
+		build_time = 2190
+		pikemen = 60
+		heavy_infantry = 40
+		heavy_infantry_offensive = 0.1
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+}

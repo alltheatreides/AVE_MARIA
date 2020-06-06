@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 400 - Zyriane # Vychegda
+
+# County Title
+title = c_zyriane
+
+# Settlements
+max_settlements = 2
+
+
+b_yarensk = tribal
+#b_solvychegodsk = city
+#b_koryazhma = temple
+
+# Misc
+culture = komi
+religion = finnish_pagan
+
+# History
+
+1384.1.1 = { b_yarensk = castle} #russikies take over
+1384.1.1 = { b_solvychegodsk = city} #russikies take over

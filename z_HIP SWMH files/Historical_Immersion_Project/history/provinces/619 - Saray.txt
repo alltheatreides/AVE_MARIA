@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 619 - Saray # Sarai/Akhtuba
+
+# County Title
+title = c_saray
+
+# Settlements
+max_settlements = 5
+
+b_akhtuba = tribal
+#b_baljiman = city
+#b_sarai_berke = tribal
+#b_sarai_batu = temple
+#b_tsaritsyn = castle
+
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+1050.1.1 = { culture = cuman } 
+1050.1.1 = { religion = tengri_pagan } 
+#1050.1.1 = { b_sarai_batu = city }
+
+#Mongol invasion
+
+1227.1.1 = { culture = mongol } 
+1245.1.1 = { b_sarai_batu = tribal} #constructed following Batu's conquest of the Cuman steppe
+1245.1.1 = { capital = b_sarai_batu }
+1245.1.1 = { remove_settlement = b_akhtuba }
+#1227.1.1 = { capital = b_sarai_berke }
+#1227.1.1 = { b_sarai_batu = temple }
+1290.1.1 = { b_baljiman = city } #appears in the writings of Abu al-Fida and Timur-era historians
+1330.1.1 = { b_sarai_berke = city } #contemporary literary evidence points to Ozbek's reign, not Berke's
+

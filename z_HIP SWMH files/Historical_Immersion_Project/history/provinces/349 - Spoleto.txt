@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 349 - Spoleto # Assisi
+
+# County Title
+title = c_spoleto
+
+# Settlements
+max_settlements = 6
+b_assisi = castle
+b_spoleto = temple
+b_terni = city
+b_ferentillo = castle
+b_narni = castle
+#b_foligno = city
+
+
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = hills
+# History
+1198.1.8 = { capital = b_spoleto }
+1205.1.1 = { capital = b_assisi }
+1276.1.1 = { capital = b_spoleto }

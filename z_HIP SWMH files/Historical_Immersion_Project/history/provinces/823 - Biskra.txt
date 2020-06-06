@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 823 - Biskra
+
+# County Title
+title = c_biskra
+
+# Settlements
+max_settlements = 5
+
+b_biskra = castle
+b_badis = city
+#b_sidiokba = temple #unclear when the site became a sizeable settlement
+
+b_ourlel = city
+b_tehouda = castle
+#b_bigou = temple
+#b_nebka = castle
+#b_mekhadma = castle
+#b_branis = castle
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History
+#1066.1.1 = { remove_settlement = b_biskra }
+1057.1.1 = { b_biskra = tribal }
+1057.1.1 = { remove_settlement = b_tehouda } #the site likely continued to be inhabited
+1152.1.1 = { b_biskra = castle }
+1152.1.1 = { b_sidiokba = temple } #recorded as such by Ibn Khaldun

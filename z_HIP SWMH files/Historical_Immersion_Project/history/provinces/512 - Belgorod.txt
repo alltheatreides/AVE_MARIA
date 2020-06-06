@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 512 - Belgorod # Tighina
+
+# County Title
+title = c_belgorod
+
+# Settlements
+max_settlements = 4
+
+b_tighina = tribal
+#b_chisinau = city
+#b_capriana_moldova = temple
+#b_vasluimoldavia  = city
+
+# Misc
+culture = bulgarian
+religion = tengri_pagan
+
+# History
+854.1.1 = { culture = khavar }
+895.1.1 = { culture = bulgarian }
+927.1.1 = { culture = pecheneg }
+1125.1.1 = {
+	culture = romanian
+	religion = orthodox
+}
+1280.1.1 = {
+	b_tighina = castle
+	b_chisinau = city
+}
+1287.1.1 = { b_vasluimoldavia  = city } 
+
+
+ 

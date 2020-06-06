@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1610 - Sibi
+
+# County Title
+title = c_sibi
+
+# Settlements
+max_settlements = 3
+b_sibi_india = castle
+b_mastanj = city
+#b_dadhar = castle
+
+#b_walishtan = temple
+
+# Misc
+culture = sindhi
+religion = hindu
+
+# History
+970.1.1 = {	religion = sunni }

@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 922 - Tadmekka
+
+# County Title
+title = c_tadmekka
+
+# Settlements
+max_settlements = 3
+
+b_tadmekka = tribal #gold route transit
+
+#b_essako = city # Es Souk
+#b_kidal = temple
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+
+#Berber colonization
+#1057.1.1 = { culture = zanata }
+
+
+#islamization
+#1110.1.1 = { religion = sunni }

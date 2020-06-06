@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1552 - Socotra 
+
+# County Title
+title = c_socotra
+
+# Settlements
+max_settlements = 3
+b_qualnsiyah = tribal
+#b_tamrida = city
+#b_qadub = temple
+#b_steroh = castle
+#b_asma = castle
+#b_siqirah = castle
+#b_qashiu = castle
+
+# Misc
+culture = yemeni
+religion = nestorian
+terrain = hills
+
+# History

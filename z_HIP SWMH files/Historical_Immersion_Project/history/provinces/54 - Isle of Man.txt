@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 54 - Isle of Man
+
+# County Title
+title = c_isle_of_man
+
+# Settlements
+max_settlements = 4
+b_rushen = tribal
+#b_peel = temple
+#b_douglas = city
+#b_maughold = castle
+
+
+# Misc
+culture = norsegaelic
+religion = norse_pagan
+terrain = hills
+
+# History
+867.1.1 = {
+	b_rushen = tb_shipyard_1
+}
+1015.1.1 = { 
+	religion = catholic
+}
+1266.1.1 = {
+	b_rushen = castle
+	b_rushen = ca_shipyard_1
+}
+
+

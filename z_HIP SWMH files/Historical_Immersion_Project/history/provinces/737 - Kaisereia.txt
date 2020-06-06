@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 737 - Kaisereia
+
+# County Title
+title = c_kaisereia
+
+# Settlements
+max_settlements = 5
+b_kaisareia = castle
+b_talas_anatolia = city
+b_zoropassos = temple
+b_malakopeia = city
+b_kyzistra = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = plains # The central anatolian plateau shouldn't really be all mountains
+
+# History
+
+# The Seljuks take over Anatolia
+1067.8.26 = { b_talas_anatolia = castle }
+1067.8.26 = { capital = b_talas_anatolia }
+1067.8.26 = { remove_settlement = b_kaisareia }
+1097.8.26 = { culture = turkmen }
+1097.8.26 = { religion = sunni }
+1134.1.1 = { b_kaisareia = castle }
+1134.1.1 = { b_talas_anatolia = city } 
+1134.1.1 = { remove_settlement = b_kyzistra }
+1134.1.2 = { capital = b_kaisareia }
+1256.1.1 = { culture = turkish }
+
+
+
+

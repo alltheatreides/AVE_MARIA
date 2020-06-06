@@ -1,0 +1,26 @@
+# 1065 - Dithmarschen
+
+# County Title
+title = c_dithmarschen
+
+# Settlements
+max_settlements = 3
+
+b_meldorf = city
+b_bokelnburg = castle
+#b_marienkloster_meldorf = temple
+#b_reventlow = castle
+#b_lehe = castle
+#b_woehrden = city
+#b_lunden = temple
+
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+1106.1.1 = { culture = low_german } 
+1223.1.1 = { b_reventlow = castle }
+1264.1.1 = { trade_post = b_vorrade }
+#1319.1.1 = { b_marienkloster_meldorf = temple }

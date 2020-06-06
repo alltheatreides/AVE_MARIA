@@ -1,0 +1,28 @@
+# 952 - Hanau
+
+# County Title
+title = c_hanau
+
+# Settlements
+max_settlements = 6
+
+b_hanau = castle 
+b_frankfurt = city
+b_seligenstadt = temple
+
+#b_aschaffenburg = city 
+#b_nidda = castle 
+#b_gelnhausen = city
+
+#b_budingen = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+957.1.1 = { b_aschaffenburg = temple }
+1065.1.1 = { b_nidda = castle }
+#1131.1.1 = { b_budingen = castle }
+1170.1.1 = { culture = german }
+1170.1.1 = { b_gelnhausen = city }

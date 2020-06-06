@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 939 - Polybotos#Akroinon
+
+# County Title
+title = c_polybotos
+
+# Settlements
+max_settlements = 5
+
+b_akroinon = castle
+b_synnada = temple
+b_polybotos = city
+b_aizanoi = castle # Noted as a Komnenian Fortress, Tübinger Atlas of the Near Orient, Byzantines/Seljuks/Crusaders 1081-1204
+b_bageis = temple
+#b_temenothyrai = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+
+1185.1.1 = { culture = turkmen }
+1185.1.1 = { religion = sunni }
+1210.1.1 = { remove_settlement = b_synnada }
+1250.1.1 = { b_temenothyrai = city }
+1256.1.1 = { culture = turkish }

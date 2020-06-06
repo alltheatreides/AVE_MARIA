@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1293 - Rilsk
+
+# County Title
+title = c_rilsk
+
+# Settlements
+max_settlements = 3
+b_rylsk = tribal
+#b_lgov = city
+#b_starivyrky = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1015.1.1 = {b_rylsk = castle
+b_lgov = city }
+1025.1.1 = {religion = orthodox }

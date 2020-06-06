@@ -1,0 +1,54 @@
+# -*- ck2.history.titles -*-
+
+# Yazi-Qapan
+20.1.1 = {
+	historical_nomad = yes
+}
+#864.1.1 = {
+#	liege = k_pechenegs
+#	holder = 1231739 # fictional father Yazi, chief of Yazi-Qapan at the time of the 893 expulsion
+#}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+895.1.1 = {
+	liege = k_pechenegs
+	holder = 1231820 # Yazi
+}
+902.1.1 = {
+	holder = 1231822
+}
+943.1.1 = {
+	holder = 1231824
+}
+968.1.1 = {
+	holder = 1231826
+}
+990.1.1 = {
+	holder = 1231828
+}
+1018.1.1 = {
+	holder = 1231830
+}
+#1040.1.1 = {
+#	holder = 1231830
+#	liege = k_pechenegs
+#}
+1049.1.1 = {
+	holder = 1231832
+}
+1060.1.1 = {
+	holder = 1231834 # Osul
+}
+# Tugorkan and Boniak subdue the north of the danube.
+1094.1.1 = {
+	liege = k_cuman
+	holder = 1231836
+}
+# Qipchaq loses the war against the Russians. Pechenegs in the west brakes free.
+1103.4.1 = {
+	liege = 0
+}
+1123.1.1 = {
+	holder = 0 # last invasion of the byzzies, Pechenegs wiped out.
+}

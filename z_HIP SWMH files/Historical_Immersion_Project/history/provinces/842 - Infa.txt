@@ -1,0 +1,42 @@
+# -*- ck2.history.provinces -*-
+
+# 842 - Infa
+
+# County Title
+title = c_infa
+
+# Settlements
+max_settlements = 3
+
+b_chella = castle
+#b_rabat = castle
+b_infa = city
+
+#b_sidirahhal = temple
+
+#b_berrechid = temple
+#b_azemmour = castle
+#b_khouribga = castle
+
+# Misc
+culture = masmuda
+religion = sunni
+
+# History
+
+#987.1.1 = { b_chella = tribal }
+867.1.1 = {
+	b_chella = ca_keep_1
+	b_chella = ca_training_grounds_1
+	b_chella = ca_keep_2
+	b_chella = ca_stable_1
+	b_chella = ca_barracks_1
+	b_chella = ca_militia_barracks_1
+	b_chella = ca_wall_1
+	b_chella = ca_wall_2
+}
+1150.1.1 = {
+	b_rabat = castle
+	capital = b_rabat
+	remove_settlement = b_chella
+}

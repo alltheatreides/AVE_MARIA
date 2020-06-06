@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Fatimid Invasion of Egypt"
+
+casus_belli = {
+	actor = 32903
+	recipient = 1234892
+	casus_belli=muslim_invasion
+	landed_title=k_egypt
+	date=968.1.1
+}
+
+968.1.1 = {
+	add_attacker = 32903
+	add_defender = 1234892
+}
+
+969.7.1 = {
+	rem_attacker = 32903
+	rem_defender = 1234892
+}

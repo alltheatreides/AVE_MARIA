@@ -1,0 +1,28 @@
+# -*- ck2.dynasties -*-
+
+######################################
+#Khwarezmi Dynasties
+######################################
+#
+#
+######################################
+#Khwarezmi dynasties
+#Range: 1000102250 - 1000102299
+#Characters: 1231200 - 1231299
+######################################
+
+1000102250 = {
+	name="Afríghí"
+	culture = khwarezmi
+	religion = zoroastrian
+}
+1000102251 = {
+	name="Ma'múní"
+	culture = khwarezmi
+	religion = sunni
+}
+1000102252 = {
+	name="Sohaylí"
+	culture = khwarezmi
+	religion = sunni
+}

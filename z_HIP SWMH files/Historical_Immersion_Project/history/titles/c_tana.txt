@@ -1,0 +1,103 @@
+# -*- ck2.history.titles -*-
+
+#769.1.1 = {
+#	liege = k_magyar
+#	holder = 159138
+#}
+#825.1.1 = {
+#	holder = 1233320
+#}
+#845.1.1 = {
+#	holder = 159137
+#}
+862.1.1 = {
+	liege = k_magyar
+	holder = 1233321
+}
+# Yawdi-Ertim
+892.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231762 # Ipoch, cheif of Suru-Külbej at the time of expulsion from Yaik.
+}
+923.1.1 = {
+	holder = 1231765
+}
+947.1.1 = {
+	holder = 1231768
+}
+# Sarkel falls, Suru-Külbej claims the rest of their demense.
+970.1.1 = {
+	holder = 1231769
+}
+989.1.1 = {
+	holder = 1231771
+}
+1015.1.1 = {
+	holder = 1231774
+}
+1017.1.1 = {
+	holder = 1231776 # Bilter
+}
+1034.1.1 = {
+	holder = 1231778 # Tiraq
+}
+#1040.1.1 = {
+#	liege = d_suru_kulbej
+#}
+# Oghuz takes over
+1044.1.1 = {
+	liege = k_uzes
+	holder = 1232026
+}
+1060.1.1 = {
+	liege = d_yimek
+	holder = 1233015
+}
+1065.1.1 = {
+	holder = 1233017 # Esen
+}
+1082.1.1 = {
+	holder = 1233019 # Aepa
+}
+1117.1.1 = {
+	holder = 1233021
+}
+1140.1.1 = {
+	holder = 1233024 # Amurat
+}
+1165.1.1 = {
+	holder = 1233026
+}
+1205.1.1 = {
+	holder = 1233028
+}
+############################
+# Mongols
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
+}

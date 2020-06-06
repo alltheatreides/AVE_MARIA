@@ -1,0 +1,40 @@
+# -*- ck2.dynasties -*-
+
+#Panjabi dynasties
+#Dynasties: 1000104001 - 1000104009
+
+1000104001 = {
+	name="Salítí"
+	culture = panjabi
+	religion = sunni
+}
+1000104002 = {
+	name="al-Munabbihí"
+	culture = bedouin_arabic
+	religion = sunni
+}
+1000104003 = {
+	name="al-Sa'dí"
+	culture = bedouin_arabic
+	religion = sunni
+}
+1000104004 = {
+	name="Multání"
+	culture = panjabi
+	religion = ismaili
+}
+1000104005 = {
+	name="Janjua"
+	culture = rajput
+	religion = hindu
+}
+#1000104006 = {
+#	name="Lawik"
+#	culture = panjabi
+#	religion = hindu
+#}
+1000104007 = {
+	name="Chandel"
+	culture = panjabi
+	religion = hindu
+}

@@ -1,0 +1,55 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+# SWMH Han characters
+###############################################################
+# SWMH Character Range: 1.501.001 - 1.501.100
+##############################################################################################
+
+1501001 = {
+	dynasty = 1000020551 # Guo
+	name = "Wei" 
+	religion = taoist
+	culture = han
+	trait = grey_eminence
+	904.9.10 = {
+		birth = yes
+	}
+	954.2.26 = {
+		name = "Taizu"
+		death = { death_reason = death_offmap }
+	}
+}
+
+1501002 = {
+	dynasty = 1000020552 # Chai
+	name = "Rong" 
+	religion = taoist
+	culture = han
+	trait = grey_eminence
+	trait = diligent
+	921.10.27 = {
+		birth = yes
+	}
+	959.7.28 = {
+		name = "Shizong"
+		death = { death_reason = death_offmap }
+	}
+}
+
+1501003 = {
+	dynasty = 1000020552 # Chai
+	name = "Zongxun" 
+	religion = taoist
+	culture = han
+	father = 1501002
+	953.9.14 = {
+		birth = yes
+	}
+	960.2.1 = {
+		name = "Gongdi"
+	}
+	974.1.1 = {
+		death = { death_reason = death_offmap }
+	}
+}

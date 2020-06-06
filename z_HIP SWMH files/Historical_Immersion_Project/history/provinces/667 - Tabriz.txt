@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 667 - Tabriz
+
+# County Title
+title = c_tabriz
+
+# Settlements
+max_settlements = 5
+b_tabriz = castle
+b_ahar = castle
+b_marand = city
+b_ujan = city
+#b_shabestar = temple
+#b_dakharraqan = city
+#b_babak = castle #Babak Fort; not mentioned by geographers since the second half of the 9th century
+
+#Misc
+culture = kurdish
+religion = sunni
+
+# History
+
+1150.1.1 = { 
+	culture = adhari 
+}

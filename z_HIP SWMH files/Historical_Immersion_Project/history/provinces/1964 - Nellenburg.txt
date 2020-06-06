@@ -1,0 +1,27 @@
+# 1964 - Nellenburg
+
+# County Title
+title = c_nellenburg
+
+# Settlements
+max_settlements = 5
+
+b_nellenburg = castle
+b_konstanz = temple
+b_reichenau = temple
+
+#b_schaffhausen = city
+#b_veringen = castle
+
+#b_sigmaringen = castle 
+#b_uberlingen = city 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1077.1.1 = { b_sigmaringen = castle }
+1130.1.1 = { b_veringen = castle }
+1170.1.1 = { culture = german }
+1190.1.1 = { b_schaffhausen = city }

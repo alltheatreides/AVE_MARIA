@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 499 - Tyrnovo
+
+# County Title
+title = c_tyrnovo
+
+# Settlements
+max_settlements = 6
+
+b_tarnovo = castle
+b_oryahovo = castle
+b_nikopol = castle
+b_lovech = city
+#b_kilifarevo = temple
+#b_transfiguration_monestary_tarnovo = temple
+
+
+# Misc
+culture = bulgarian
+religion = slavic_pagan
+
+# History
+888.1.1 = { religion = orthodox }
+1046.1.1 = { culture = pecheneg }
+1046.1.1 = { religion = tengri_pagan }
+1087.1.1 = { culture = bulgarian }
+1087.1.1 = { religion = orthodox }
+1187.1.1 = { b_kilifarevo = temple }  

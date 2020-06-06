@@ -1,0 +1,77 @@
+# -*- ck2.history.titles -*-
+
+920.1.1 = {
+	holder = 1229802
+}
+940.1.1 = {
+	holder = 1229803
+}
+948.1.1 = {
+	holder = 1229804
+}
+985.1.1 = {
+	holder = 1229809
+}
+1006.1.1 = {
+	de_jure_liege = k_turkestan_east
+}
+1010.1.1 = {
+	holder = 1229810
+}
+1050.1.1 = {
+	holder = 1229811
+}
+1092.1.1 = {
+	holder = 1229805
+}
+1130.1.1 = {
+	holder = 1229806
+}
+1132.1.1 = {
+	liege = e_khitan # actually 1126, but the Khitans are not on the map at this point
+}
+1150.1.1 = {
+	holder = 1229812
+}
+1208.1.1 = {
+	holder = 1229807
+}
+1210.1.1 = {
+	liege = 0
+}
+1217.1.1 = {
+	liege = e_mongol_empire # actually 1211, but the Mongols are not on the map at this point
+}
+1234.2.10 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1235.1.1 = {
+	holder = 1229814
+}
+1246.1.1 = {
+	holder = 1229815
+}
+1253.1.1 = {
+	holder = 1229816
+}
+1257.1.1 = {
+	holder = 1229817
+}
+1266.1.1 = {
+	holder = 1229818
+}
+1280.1.1 = {
+	holder = 1229819
+}
+1318.1.1 = {
+	holder = 1229820
+}
+1330.1.1 = {
+	holder = 1229821
+}
+1332.1.1 = {
+	holder = 1229822
+}

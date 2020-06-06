@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 725 - Thyateira
+
+# County Title
+title = c_thyateira
+
+# Settlements
+max_settlements = 3
+
+b_thyateira = castle
+b_khliara = city
+#b_kalamos = castle
+
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1305.1.1 = { culture = turkish }
+1305.1.1 = { religion = sunni }

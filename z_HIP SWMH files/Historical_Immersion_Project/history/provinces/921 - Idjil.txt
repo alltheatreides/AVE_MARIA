@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 921 - Idjil
+
+# County Title
+title = c_idjil
+
+# Settlements
+max_settlements = 2
+b_idjil = tribal
+
+#b_zouerat = city #Zouérat
+#b_tazadit = temple
+#b_rouessa = castle
+#b_fderick = castle #Fdérick
+
+# Misc
+culture = tagelmust
+religion = ibadi
+
+# History
+
+#islamization
+945.1.1 = { religion = sunni }

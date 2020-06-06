@@ -1,0 +1,108 @@
+max_provinces = 2062
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "statics"
+seasons = "seasons.txt"
+
+# European Seas
+sea_zones = { 1700 1716 }
+sea_zones = { 1718 1829 }
+sea_zones = { 1946 1947 }
+# European Seas
+sea_zones = { 2005 2011 }
+# European Seas
+sea_zones = { 1849 1934 }
+sea_zones = { 1954 1955 }
+sea_zones = { 1889 1892 }# Dneiper
+
+# Arabian seas
+sea_zones = { 1935 1945 }
+
+# Indian ocean
+sea_zones = { 1842 1848 }
+sea_zones = { 2059 2060 }
+
+# Caspian Sea
+sea_zones = { 1998 2004 }
+
+# CA lakes
+sea_zones = { 1595 1599 }
+
+# Non-accessible sea zones # lakes
+sea_zones = { 1830 1830} 
+sea_zones = { 1833 1841}
+sea_zones = { 1717 1717 }
+sea_zones = { 1437 1469 } 
+sea_zones = { 1948 1951 } 
+sea_zones = { 1953 1953 } 
+sea_zones = { 1991 1997 } 
+
+sea_zones ={ 1497 1498 } # Tarim and malabar
+
+ocean_region = {	# European Ocean
+	sea_zones = { 1 2 3 4 5 6 7}
+}
+ocean_region = {	# Arabian Ocean
+	sea_zones = { 8 9 10 }
+}
+
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+major_rivers = 
+{ 
+	1849	1770	1850  #Svir-Andoma 
+	1851	1852	1829	1853	1854 #Soyda-Sheksna
+	1855 #Suda
+	1856	1857 #Mologa
+	1728	1796 # Saimaa and Päijänne
+	1858 #Chagodoshcha
+	1859	1860	1861	1862  1863	1864	1865	1866	1867	1868	1869	1870 #Volga
+	1725 1998 1999 2000 2001 2002 2003 2004 # Caspian Sea
+    1871	1872	1873	1874	1875 # Oka
+	1876	1877 # Moskva
+	1878	1879 # Klyazma
+	1880 # Pronya
+	1881	1882	1883	1884 # Don
+	1885	1886	1887 # Smolnya
+	1888 # Pripjat
+	1897	1898 # Desna
+	1899	1900 # Sejm
+	1893	1894	1895 # West Dvnia
+	1896 # Lovat
+	1901	1902 # Thames
+	1903 # Vilaine
+	1904 # Somme
+	1906	1907	1908 # Seine
+	1909 # Yonne
+	1910	1911 # Marne
+	1912	1913 # Oise
+	1914 # Aisne
+	1915	1916	1917 # Loire
+	1918 # Vienne
+	1920 # Charente
+	1922 # Dordogne
+	1923	1924	1925 # Garonne
+	1926 # Adour
+	1927 # Rhone
+	1928 # Guadalquivir
+	1929	1930	1931 # Rhein
+	1919	1921 # Mosel
+	1905 # Main
+	1932	1933	1934 # Maas
+	1736	1827 # Götaelven-Väneren
+	1848  1842  1843 # Indus
+}
+
+externals = { 1497 1498 } # Paths to china

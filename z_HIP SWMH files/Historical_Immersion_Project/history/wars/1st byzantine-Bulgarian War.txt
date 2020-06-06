@@ -1,0 +1,24 @@
+# -*- ck2.history.wars -*-
+
+name = "Byzantine-Bulgarian War 1000-1004" 
+
+casus_belli = {
+	actor = 1716 # Basil II
+	recipient = 728 # Samuil of Bulgaria
+	landed_title=d_turnovo
+	landed_title=d_karvuna
+	landed_title=c_vidin
+	landed_title=c_veria	
+	date=1000.1.1
+	date = 1004.8.1
+}
+
+1000.1.1 = {
+	add_attacker = 1716 # Basil II
+	add_defender = 728 # Samuil of Bulgaria
+}
+
+1004.8.1 = {
+	rem_attacker = 1716 # Basil II
+	rem_defender = 728 # Samuil of Bulgaria
+}

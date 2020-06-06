@@ -1,0 +1,26 @@
+# 1959 - Arnsberg
+
+# County Title
+title = c_arnsberg
+
+# Settlements
+max_settlements = 4
+
+b_arnsberg = castle 
+b_soest = city
+
+#b_wedinghausen = temple
+#b_bueren = castle
+
+#b_ruthen = city #Rüthen
+#b_padberg = castle 
+#b_werl = castle 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1100.1.1 = { culture = low_german }
+1150.1.1 = { b_bueren = castle }
+1170.1.1 = { b_wedinghausen = temple }

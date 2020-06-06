@@ -1,0 +1,36 @@
+# -*- ck2.history.provinces -*-
+
+# 631 - Dihistan
+
+# County Title
+title = c_dihistan
+
+# Settlements
+max_settlements = 3
+b_dihistan = castle
+#b_okarem = temple
+b_akhor_dishistan = city
+
+# Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+651.1.1 = {
+	b_dihistan = ca_town_1
+	b_dihistan = ca_wall_1
+	b_dihistan = ca_keep_1
+	b_dihistan = ca_militia_barracks_1
+	#b_okarem = tp_town_1
+	#b_okarem = tp_town_2
+}
+
+900.1.1 = {
+	religion = sunni
+}
+
+#1030.1.1 = { b_dihistan = tribal }
+1130.1.1 = { culture = turkmen }
+#1071.1.1 = { b_dihistan = castle} #was 1080
+
+#1230.1.1 = { culture = turkish }

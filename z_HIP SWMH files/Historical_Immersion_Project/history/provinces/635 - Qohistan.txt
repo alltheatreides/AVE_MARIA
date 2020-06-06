@@ -1,0 +1,39 @@
+# -*- ck2.history.provinces -*-
+
+# 635 - Qohistan #Qohestán
+
+# County Title
+title = c_qohistan
+
+# Settlements
+max_settlements = 4
+
+b_kain = castle
+b_tun = city
+b_birjand = city
+b_khusb = temple
+
+#b_khur = temple
+#b_naband_qohistan = castle
+#b_kuri = castle
+
+
+# Misc
+culture = khorasani
+religion = kharijite
+
+# History
+970.1.1 = { religion = sunni }
+#970.1.1 = { culture = khorasani }
+1120.1.1 = {
+	religion = ismaili
+}
+1256.1.1 = {
+	remove_settlement = b_tun
+}
+1300.1.1 = {
+	religion = sunni
+}
+1320.1.1 = {
+	b_tun = city
+}

@@ -1,0 +1,68 @@
+# -*- ck2.history.titles -*-
+
+840.1.1 = {
+	liege = k_italy
+	holder = 1065741 # Leone di Milano, conte di Milano 842
+}
+844.1.1 = {
+	holder = 1065744 # Giovanni di Milano, conte di Milano 844
+}
+848.1.1 = {
+	holder = 1065745 # Alberico di Milano, in control of Milano 848, conte di Milano 880
+}
+887.1.1 = {
+	holder = 1065653 # Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte di Lodi, Milano, Sacro Palazzo(Pavia/Lomello), e Marchesi di Lombardia. attested 887, 888, 889, 892,  also conte di Seprio 888-896
+}
+896.12.1 = {
+	holder = 0
+}
+936.1.1 = {
+	law = succ_primogeniture
+	law = agnatic_succession
+	holder = 261385 # Adalberto I di Obertenghi "the Margrave"
+}
+951.1.1 = {
+	holder = 70630 # Oberto I di Obertenghi
+}
+975.1.1 = {
+	holder = 70632 # Oberto II di Obertenghi
+}
+996.1.1 = {
+	holder = 70631 # Adalberto II di Obertenghi
+}
+998.1.1 = {
+	holder = 70629 # Oberto di Obertenghi
+}
+1013.1.1 = {
+	holder = 70628 # Alberto Azzo di Este
+}
+1014.1.1 = {
+	liege = k_germany
+}
+1024.7.3 = {
+	liege = e_hre
+}
+1029.1.1 = {
+	holder = 1118 # Alberto Azzo II di Este
+}
+1032.1.1 = {
+    liege=0
+	holder = 0
+}
+1311.8.1 = {
+    liege=k_italy
+	holder = 463145
+	law = succ_primogeniture
+}
+1313.8.24 = {
+	liege=0
+}
+1322.6.28 = {
+	holder = 463141
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1327.7.5 = {
+	holder = 463140
+}

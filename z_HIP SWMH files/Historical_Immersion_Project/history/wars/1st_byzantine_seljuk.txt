@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Seljuk Holy War for Armenia"
+
+casus_belli = {
+	actor = 3040
+	recipient = 1732
+	casus_belli=religious
+	landed_title=d_armenia
+	date=1063.9.4
+}
+
+1063.9.4 = {
+	add_attacker = 3040
+	add_defender = 1732
+}
+
+1064.1.1 = {
+	rem_attacker = 3040
+	rem_defender = 1732
+}

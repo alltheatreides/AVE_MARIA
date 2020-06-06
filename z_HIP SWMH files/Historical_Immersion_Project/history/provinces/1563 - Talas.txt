@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1563 - Talas
+
+# County Title
+title = c_talas
+
+# Settlements
+max_settlements = 3
+b_talas_talas = tribal
+#b_shelji = city
+#b_chigil = temple
+
+# Misc
+culture = pecheneg
+religion = tengri_pagan
+
+# History
+
+810.1.1 = {
+	culture = karluk
+	religion = manichean
+} 
+892.1.1 = {religion = sunni }
+900.1.1 = { b_chigil = city }
+950.1.1 = { b_talas_talas = castle }

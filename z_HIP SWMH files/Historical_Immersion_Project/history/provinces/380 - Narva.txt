@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 380 - Narva
+
+# County Title
+title = c_narva
+
+# Settlements
+max_settlements = 5
+
+b_rakvere = tribal
+#b_narva = city
+#b_viru_nigulas = temple
+#b_maidla = castle
+#b_varangu = castle
+
+
+# Misc
+culture = ugricbaltic
+religion = finnish_pagan
+
+# History
+1220.1.1 = { b_rakvere = castle } #Danish conquest
+1220.1.1 = { b_narva = city }
+1220.1.1 = { religion = catholic }
+1241.1.1 = { b_maidla  = castle }
+1241.1.1 = { b_varangu = castle }
+1300.1.1 = { b_viru_nigulas = temple }

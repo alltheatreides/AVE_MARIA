@@ -1,0 +1,27 @@
+# 1040 - Chablais
+
+# County Title
+title = c_chablais
+
+# Settlements
+max_settlements = 5
+
+b_stmaurice = temple
+b_aigle = castle
+
+#b_martigny = city
+#b_faucigny = castle 
+#b_blonay = castle 
+#b_allinges = castle
+#b_saillon = castle
+
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1032.1.1 = { capital = b_aigle }
+1060.1.1 = { b_faucigny = castle }
+1108.1.1 = { b_blonay = castle }

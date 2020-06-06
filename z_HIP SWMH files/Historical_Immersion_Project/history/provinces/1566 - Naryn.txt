@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1566 - Naryn
+
+# County Title
+title = c_naryn
+
+# Settlements
+max_settlements = 2
+b_tartuq = tribal
+#b_naryn = city
+
+#b_atbash = castle
+
+# Misc
+culture = karluk
+religion = tengri_pagan
+
+# History
+#1066.1.1 = {	b_atbash = castle }
+#1066.1.1 = {	b_naryn = city }
+#1066.1.1 = {	capital = b_atbash }
+
+1115.1.1 = {	religion = sunni }

@@ -1,0 +1,5112 @@
+# -*- ck2.history.characters -*-
+
+#Laziale Italy (taken from Arpady range)
+#Characters: 1062201- 1062700
+####################################
+#Castelli family, including di Vico branch.
+####################################
+1062201 = {
+	name="Ramigio" # Ramigio, a German nobleman who arrived in Umbria(recorded by the abbey of Farfa in Sabina posthum). First known character of the family. 
+	dynasty=8785
+	religion="catholic"
+	culture="swabian"
+
+	705.1.1 = {
+		birth=yes
+	}
+	740.1.1 = {
+		death=yes
+	}
+}
+###
+1062202 = {
+	name="Aureolfo" # Aureolfo, (aka Garolfo and Magnolfo) son of Ramigio.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062201
+	725.1.1 = {
+		birth=yes
+	}
+	770.1.1 = {
+		death=yes
+	}
+}
+1062203 = {
+	name="Fulcoaldo" # Fulcoaldo, son of of Aureolfo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062201
+	745.1.1 = {
+		birth=yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+1062204 = {
+	name="Otterano" # Otterano, son of Aureolfo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062201
+	753.1.1 = {
+		birth=yes
+	}
+	809.1.1 = {
+		death=yes
+	}
+}
+1062205 = {
+	name="Arnulfo" # Arnulfo, son of Otterano.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062204
+	781.1.1 = {
+		birth=yes
+	}
+	832.1.1 = {
+		death=yes
+	}
+}
+1062206 = {
+	name="Narco" # Narco, son of Otterano.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062204
+	785.1.1 = {
+		birth=yes
+	}
+	847.1.1 = {
+		death=yes
+	}
+}
+1062207 = {
+	name="Narcasio" #Narcasio, son of Otterano.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062204
+	787.1.1 = {
+		birth=yes
+	}
+	850.1.1 = {
+		death=yes
+	}
+}
+###
+1062208 = {
+	name="Taciperticione" # Taciperticione, son of Ramigio. Gastaldo of Terni and lord of Narni. Attested 741 along with his brothers. In the service of the longobard duke of Spoleto(participated in the war against Benevento).
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+        father=1062201
+	721.1.1 = {
+		birth=yes
+	}
+	760.1.1 = {
+		death=yes
+	}
+}
+1062209 = {
+	name="Taciperga" # Taciperga, daughter of Taciperticione.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062208
+	female=yes
+	740.1.1 = {
+		birth=yes
+	}
+	820.1.1 = {
+		death=yes
+	}
+}
+1062210 = {
+	name="Elpidio" # Elpidio, son of Taciperticione.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062208
+	743.1.1 = {
+		birth=yes
+	}
+	815.1.1 = {
+		death=yes
+	}
+}
+1062211 = {
+	name="Helina" # Helina, daughter of Taciperticione.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062208
+	female=yes
+	742.1.1 = {
+		birth=yes
+	}
+	804.1.1 = {
+		death=yes
+	}
+}
+1062212 = {
+	name="Raimondo" # Raimone, aka Raimone/Raimondo. son of of Taciperticione. "Duca di Popoli e signori di Naarti" conte. Attested 799.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062208
+	739.1.1 = {
+		birth=yes
+	}
+	806.1.1 = {
+		death=yes
+	}
+}
+1062213 = {
+	name="Ilderico" # Ilderico, son of Raimone. Married Elperga/Helperga.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062212
+	771.1.1 = {
+		birth=yes
+	}
+	855.1.1 = {
+		death=yes
+	}
+}
+1062214 = {
+	name="Tucone" # Tucone, son of Raimone.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062212
+	775.1.1 = {
+		birth=yes
+	}
+	858.1.1 = {
+		death=yes
+	}
+}
+###
+1062215 = {
+	name="Magniperto" # Magniperto, son of Ramigio.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062201
+	724.1.1 = {
+		birth=yes
+	}
+	762.1.1 = {
+		death=yes
+	}
+}
+1062216 = {
+	name="Otterano" # Otterano, son of Magniperto. Became jointly: Conti, Gastaldi e Vicario of Terni and whole Narina regions together with Lupone I in 788.(raised to the honor by the pope and confrimed by CM)
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062215
+	743.1.1 = {
+		birth=yes
+	}
+	803.1.1 = {
+		death=yes
+	}
+}
+###
+1062217 = {
+	name="Spentone" # Spentone I, son of Ramigio
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062201
+	722.1.1 = {
+		birth=yes
+	}
+	768.1.1 = {
+		death=yes
+	}
+}
+1062218 = {
+	name="Andrea" # Andrea, son of Spentone.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062217
+	750.1.1 = {
+		birth=yes
+	}
+	807.1.1 = {
+		death=yes
+	}
+}
+1062219 = {
+	name="Lupone" # Lupone I, son of Spentone. Became jointly: Conti, Gastaldi e Vicario of Terni and whole Narina regions together with Otterano in 788(raised to the honor by the pope and confirmed by CM)
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062217
+	749.1.1 = {
+		birth=yes
+	}
+	795.1.1 = {
+		death=yes
+	}
+}
+1062220 = {
+	name="Spetone" # Spetone II, son of Lupone. 
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062219
+	771.1.1 = {
+		birth=yes
+	}
+	824.1.1 = {
+		death=yes
+	}
+}
+1062221 = {
+	name="Edramo" # Edramo, son of Spetone II
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062220
+	797.1.1 = {
+		birth=yes
+	}
+	838.1.1 = {
+		death=yes
+	}
+}
+1062222 = {
+	name="Odone" # Adone, aka Odone, son of Spetone II.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062220
+	796.1.1 = {
+		birth=yes
+	}
+	829.1.1 = {
+		death=yes
+	}
+}
+1062223 = {
+	name="Giseppe" # Giseppe, son of Spetone II
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062220
+	789.1.1 = {
+		birth=yes
+	}
+	831.1.1 = {
+		death=yes
+	}
+}
+1062224 = {
+	name="Raniero" # Rainerio, son of Giseppe. conte di Narinenfe(Narni) son of Giseppe. attested 845.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062223
+	818.1.1 = {
+		birth=yes
+	}
+	849.1.1 = {
+		death=yes
+	}
+}
+1062225 = {
+	name="Anastatio" # Anastatio, son of Giseppe. Was appointed antipope in Benevento. (ca 855-857). Must be the same as "Anastasius III Bibliothecarius" died before august 879 in that case.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062223
+	821.1.1 = {
+		birth=yes
+	}
+	879.1.1 = {
+		death=yes
+	}
+}
+1062226 = {
+	name="Berardo" # Berardo, son of Giseppe. conte di Narni. attested 833 and 855(was present in Benevento when his brother became antipope)
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062223
+	820.1.1 = {
+		birth=yes
+	}
+	872.1.1 = {
+		death=yes
+	}
+}
+1062227 = {
+	name="Lupone" # Lupone II, signore di Narni. Son of Berardo. attested 873.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062226
+	837.1.1 = {
+		birth=yes
+	}
+	892.1.1 = {
+		death=yes
+	}
+}
+1062249 = {
+	name="Attone" # Attone I, son of Lupone II
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062227
+	876.1.1 = {
+		birth=yes
+	}
+	941.1.1 = {
+		death=yes
+	}
+}
+1062305  = {
+	name="Iseltruda" # Iseltruda, daughter of Lupone II. marired Giovanni of Capua.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062227
+	female=yes
+	874.1.1 = {
+		birth=yes
+	}
+	933.1.1 = {
+		death=yes
+	}
+}
+#
+1062250 = {
+	name="Raniero" # Raniero II, son of Lupone II.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062227
+	855.1.1 = {
+		birth=yes
+	}
+	903.1.1 = {
+		death=yes
+	}
+}
+1062251 = {
+	name="Nera" # Nera daughter of Raniero II. Married Cencio conti di Sabina, attested 877.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062250
+	female=yes
+	870.1.1 = {
+		birth=yes
+	}
+	939.1.1 = {
+		death=yes
+	}
+}
+#
+1062228 = {
+	name="Arnolfo" # Arnolfo I, son of Lupone II. Gestaldo di Terni and signore di Narni. First Castelli. 
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062227
+	875.1.1 = {
+		birth=yes
+	}
+	935.1.1 = {
+		death=yes
+	}
+}
+##
+1062229 = {
+	name="Andrea" # Andrea, younger son of Arnolfo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062228
+	903.1.1 = {
+		birth=yes
+	}
+	951.1.1 = {
+		death=yes
+	}
+}
+1062230 = {
+	name="Sabina" # Sabina, daughter of Andrea
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062229
+	female=yes
+	929.1.1 = {
+		birth=yes
+	}
+	974.1.1 = {
+		death=yes
+	}
+}
+1062231 = {
+	name="Papinio" # Papinio(conte) son of Andrea(held some land In Terni region)
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062229
+	928.1.1 = {
+		birth=yes
+	}
+	993.1.1 = {
+		death=yes
+	}
+}
+1062232 = {
+	name="Gertruda" # Gertruda, daughter of Papinio
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062231
+	female=yes
+	955.1.1 = {
+		birth=yes
+	}
+	1031.1.1 = {
+		death=yes
+	}
+}
+##
+1062233 = {
+	name="Pietro" # Pietro I, son of Arnolfo. Gestaldo di Terni and signore di Narni. Attested 939.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062228
+	902.1.1 = {
+		birth=yes
+	}
+	966.1.1 = {
+		death=yes
+	}
+}
+1062234 = {
+	name="Lupone" # Lupone III, son of Pietro I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062233
+	928.1.1 = {
+		birth=yes
+	}
+	992.1.1 = {
+		death=yes
+	}
+}
+1062235 = {
+	name="Benedetto" # Benedetto, son of Pietro I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062233
+	930.1.1 = {
+		birth=yes
+	}
+	988.1.1 = {
+		death=yes
+	}
+}
+1062236 = {
+	name="Leotone" # Letone, aka Leotone son of Pietro I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062233
+	931.1.1 = {
+		birth=yes
+	}
+	991.1.1 = {
+		death=yes
+	}
+}
+1062237 = {
+	name="Bernardino" # Bernardno, aka Berardo son of Pietro I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062233
+	935.1.1 = {
+		birth=yes
+	}
+	999.1.1 = {
+		death=yes
+	}
+}
+1062238 = {
+	name="Marone" # Marone, aka Maiorone son of Pietro I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062233
+	927.1.1 = {
+		birth=yes
+	}
+	1002.1.1 = {
+		death=yes
+	}
+}
+1062239 = {
+	name="Galaffo" # Galaffo Marchese, son of Marone
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062238
+	941.1.1 = {
+		birth=yes
+	}
+	971.1.1 = {
+		death=yes
+	}
+}
+1062240 = {
+	name="Adamone" # Adamone, son of Marone
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062238
+	956.1.1 = {
+		birth=yes
+	}
+	991.1.1 = {
+		death=yes
+	}
+}
+###### Castelli Di Vico
+1062241 = {
+	name="Pietro" # Pietro II, son of Marone. first of Castelli di Vico. Attested 1024-1027. Signori di Vico, Gastaldi di terni
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062238
+	970.1.1 = {
+		birth=yes
+	}
+	1045.1.1 = {
+		death=yes
+	}
+}
+1062242 = {
+	name="Ghiserio" # Ghiserio?, son of Pietro II
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062241
+	1022.1.1 = {
+		birth=yes
+	}
+	1064.1.1 = {
+		death=yes
+	}
+}
+1062243 = {
+	name="Marone" # Marone II son of Ghiersio, attested 1081, when donating some land near Camerino to the church.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062242
+	1040.1.1 = {
+		birth=yes
+	}
+	1082.1.1 = {
+		death=yes
+	}
+}
+##
+1062244 = {
+	name="Pietro" # Pietro III, son of Pietro II. conte(bit unsure but possible of "Naharti" which i'd assume to be yet another name for Narni). Attested 1049 and again 1057-1067. Held land around Terni and in Sabina.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062241
+	1022.1.1 = {
+		birth=yes
+	}
+	1068.1.1 = {
+		death=yes
+	}
+}
+1062245 = {
+	name="Manfredo" # Manfredo son of Pietro III.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062244
+	1050.1.1 = {
+		birth=yes
+	}
+	1099.1.1 = {
+		death=yes
+	}
+}
+1062246 = {
+	name="Gualterio" # Gualterio son of Manfredo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062245
+	1079.1.1 = {
+		birth=yes
+	}
+	1131.1.1 = {
+		death=yes
+	}
+}
+1062247 = {
+	name="Albertino" # Albertino, son of Gualterio
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062246
+	1102.1.1 = {
+		birth=yes
+	}
+	1169.1.1 = {
+		death=yes
+	}
+}
+1062248 = {
+	name="Gualterio" # Gualterio II, son of Albertino I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062247
+	1137.1.1 = {
+		birth=yes
+	}
+	1188.1.1 = {
+		death=yes
+	}
+}
+1062252 = {
+	name="Giovanni" # Giovanni, V son of Gualterio.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062248
+	1171.1.1 = {
+		birth=yes
+	}
+	1212.1.1 = {
+		death=yes
+	}
+}
+1062253 = {
+	name="Gualterio" # Gualterio, III, son of of Giovanni V. Attested 1233-39. Signore di Rocca de l'Onda(near Camerino?)
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062252
+	1196.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+###
+1062254 = {
+	name="Alberto" # Alberto I attested 1045-1049. son of Pietro II. Conte di Bouacciani(sounds like it was near Viterbo), signore di Vico. Held land around Narni aswell.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062241
+	1020.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+#
+1062255 = {
+	name="Alberto" # Alberto II, son of Alberto I. Attested 1080-94 senator of Rome.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062254
+	1050.1.1 = {
+		birth=yes
+	}
+	1104.1.1 = {
+		death=yes
+	}
+}
+1062256 = {
+	name="Guidone" # Guidone, son of Alberto II, attested 1133.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062255
+	1079.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1062257 = {
+	name="Thebaldo" # Thebaldo son of Alberto II, attested 1133.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062255
+	1082.1.1 = {
+		birth=yes
+	}
+	1146.1.1 = {
+		death=yes
+	}
+}
+#
+1062258 = {
+	name="Pantaleone" # Pantalenoe, son of Alberto I. Consul of Rome.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062254
+	1048.1.1 = {
+		birth=yes
+	}
+	1102.1.1 = {
+		death=yes
+	}
+}
+#
+1062259 = {
+	name="Alberico" # Alberico, son of Alberto I. Had two sons, one of unknown name. attested 1090-1094.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062254
+	1049.1.1 = {
+		birth=yes
+	}
+	1098.1.1 = {
+		death=yes
+	}
+}
+1062260 = {
+	name="Alberico" # Alberico II, son of Alberico I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062259
+	1081.1.1 = {
+		birth=yes
+	}
+	1141.1.1 = {
+		death=yes
+	}
+}
+1062261 = {
+	name="Alberico" # Alberico III, son of Alberico II. attested 1190.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062260
+	1120.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+#
+1062262 = {
+	name="Pietro" # Pietro IV/V( III in the other book), son of Alberto I. Signore of Vico(and ruler of Viterbo). Attested 1067-1088. In 1071 he was a vassal of of Mathilda, and he remained such at least until 1077. Around 1080 he was a vassal of the Church since he was mentioned along with Alberto II in 1081 as a senator of Rome. Last mentioned in the papal archive in Orvieto in 1088 along with his two sons. Dead before 1090.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062254
+	1043.1.1 = {
+		birth=yes
+	}
+	1089.1.1 = {
+		death=yes
+	}
+}
+###
+1062263 = {
+	name="Uguccione" # Uguccione I, son of Pietro V.  Prefetto of Rome. Signore di vico. attested 1090-1094 as lord of Vico.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062262
+	1061.1.1 = {
+		birth=yes
+	}
+	1099.1.1 = {
+		death=yes
+	}
+}
+1062264 = {
+	name="Pietro" # Pietro VII, son of Uguccione. Prefetto of Rome attested 1118(as Perfetto) and 1135.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062263
+	1081.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes
+	}
+}
+#
+1062265 = {
+	name="Giovanni" # Giovanni I,(aka Gio I/Giouannni) son of Uguccione. Signore di Vico. Perfetto di Roma. attested 1119-1138.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062263
+	1088.1.1 = {
+		birth=yes
+	}
+	1139.1.1 = {
+		death=yes
+	}
+}
+1062266 = {
+	name="Pietro" # Pietro VIII, son of Giovanni I. Perfetto of Rome. Attested 1160- 1199. married Amita baroness of Trasteverina. had a lot of interests in Orvieto. Ghibeline tendencies?
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062265
+	1128.1.1 = {
+		birth=yes
+	}
+	1199.1.1 = {
+		death=yes
+	}
+}
+1062267 = {
+	name="Giovanni" # Giovanni II, son of Giovanni I. Was in conflict with the Anguillara family. Perfetto di Roma. attsted 1147
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062265
+	1110.1.1 = {
+		birth=yes
+	}
+	1159.1.1 = {
+		death=yes
+	}
+}
+1062268 = {
+	name="Ottovanni" # Ottovanni(aka Ottauiano), son of Giovanni I
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062265
+	1116.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes
+	}
+}
+1062269 = {
+	name="Nicola" # Nicola son of Ottavanni.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062268
+	1141.1.1 = {
+		birth=yes
+	}
+	1189.1.1 = {
+		death=yes
+	}
+}
+1062270 = {
+	name="Pietro" # Pietro, son of Nicola. Perfetto navale.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062269
+	1173.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		death=yes
+	}
+}
+1062271 = {
+	name="Guido" # Guido, son of Nicola
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062269
+	1172.1.1 = {
+		birth=yes
+	}
+	1188.1.1 = {
+		death=yes
+	}
+}
+1062272 = {
+	name="Cinzio" # Cinzio son of Nicola. attested 1206
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062269
+	1170.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death=yes
+	}
+}
+###
+1062273 = {
+	name="Pietro" # Pietro VI(IV in the other book), son of Pietro V. Prefetto of Rome. attested 1099-1115
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062262
+	1065.1.1 = {
+		birth=yes
+	}
+	1122.1.1 = {
+		death=yes
+	}
+}
+##
+1062274 = {
+	name="Angelo" # Angelo son of Pietro VI Prefetto of Rome. attested 1139-48
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062273
+	1109.1.1 = {
+		birth=yes
+	}
+	1148.1.1 = {
+		death=yes
+	}
+}
+1062275 = {
+	name="Guido" #Guido, son of the Angelo(or son of the unknown brother?), went on a military campagin on Corsica in 1199 for the emperor(or pope?).
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062274
+	1144.1.1 = {
+		birth=yes
+	}
+	1207.1.1 = {
+		death=yes
+	}
+}
+1062276 = {
+	name="Gottifredo" # Gottifredo, son of Guido. married a Corsican princess ?
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062275
+	1172.1.1 = {
+		birth=yes
+	}
+	1231.1.1 = {
+		death=yes
+	}
+}
+1062277 = {
+	name="Tebaldo" # Tebaldo, son of Guido
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062275
+	1170.1.1 = {
+		birth=yes
+	}
+	1219.1.1 = {
+		death=yes
+	}
+}
+1062278 = {
+	name="Amatore" # Amatore, son of Tebaldo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062277
+	1195.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1062279 = {
+	name="Gottifredo" # Gottifredo, son of Tebaldo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062277
+	1193.1.1 = {
+		birth=yes
+	}
+	1241.1.1 = {
+		death=yes
+	}
+}
+1062280 = {
+	name="Bonifacio" # Bonifacio, son of Tebaldo. senator in rome.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062277
+	1191.1.1 = {
+		birth=yes
+	}
+	1243.1.1 = {
+		death=yes
+	}
+}
+1062281 = {
+	name="Deodato" # Deodato, son of Bonifacio. attested 1245 in Rome
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062280
+	1215.1.1 = {
+		birth=yes
+	}
+	1264.1.1 = {
+		death=yes
+	}
+}
+1062282 = {
+	name="Pietro" # Pietro, son of Bonifacio. attested 1245 in Rome.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062280
+	1215.1.1 = {
+		birth=yes
+	}
+	1264.1.1 = {
+		death=yes
+	}
+}
+##
+#Unnamed son of Pietro VI
+##
+1062283 = {
+	name="Odorado" # Odorado son of Pietro VI
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062273
+	1107.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1062284 = {
+	name="Raniero" # Raniero son of Odorado, senatore in Rome 1199.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062283
+	1124.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+1062285 = {
+	name="Giovanni" #Giovanni, son Raniero
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062284
+	1155.1.1 = {
+		birth=yes
+	}
+	1204.1.1 = {
+		death=yes
+	}
+}
+1062286 = {
+	name="Pietro" #Pietro, son of Raniero perfetto di Roma in 1187-1198
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062284
+	1150.1.1 = {
+		birth=yes
+	}
+	1198.1.1 = {
+		death=yes
+	}
+}
+1062287 = {
+	name="Gottifredo" #Gottifredo, son of Pietro perefetto di Roma 1224
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062286
+	1171.1.1 = {
+		birth=yes
+	}
+	1228.1.1 = {
+		death=yes
+	}
+}
+1062288 = {
+	name="Giovanni" #Giovanni son of Pietro, perfetto di roma and signore di Vico, Gastaldo di Citta di Castello
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062286
+	1166.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes
+	}
+}
+1062289 = {
+	name="Pietro" #Pietro, son of Giovanni, 
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062288
+	1203.1.1 = {
+		birth=yes
+	}
+	1267.1.1 = {
+		death=yes
+	}
+}
+1062290 = {
+	name="Giovanni" #Giovanni, son of Giovanni
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062288
+	1206.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1062291 = {
+	name="Lodovico" #Lodovico son of Giovanni
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062288
+	1205.1.1 = {
+		birth=yes
+	}
+	1231.1.1 = {
+		death=yes
+	}
+}
+1062292 = {
+	name="Giovanni" #Giovanni son of Pietro , perfetto di Roma 1302
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062289
+	1239.1.1 = {
+		birth=yes
+	}
+	1302.1.1 = {
+		death=yes
+	}
+}
+1062293 = {
+	name="Manfredo" #Manfredo son of Pietro, perfetto di Roma, signori di Vico. attested 1293-1316
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062289
+	1238.1.1 = {
+		birth=yes
+	}
+	1318.1.1 = {
+		death=yes
+	}
+}
+1062294 = {
+	name="Pietro" #Pietro son of Pietro, last attested 1300 buying Tolfa castle.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062289
+	1243.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes
+	}
+}
+#
+1062295 = {
+	name="Giovanna" #Giovanna, daughter of Manfredo
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062293
+	female=yes
+	1286.1.1 = {
+		birth=yes
+	}
+	1331.1.1 = {
+		death=yes
+	}
+}
+1062296 = {
+	name="Giovanni" #Giovanni, son of Manfredo, perfetto di roma 1346 e signore di Vico, Orvieto, Viterbo, Montalto. attested last 1353. Murderd Facciolo. Ghibeline. Fought with the Pope repeatedly. lost in 1354, joined the court of Charled the IV of Luxembourg in march 1355. died april 1366 in abstensia.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062293
+	1288.1.1 = {
+		birth=yes
+	}
+	1366.4.1 = {
+		death=yes
+	}
+}
+1062297 = {
+	name="Lodovico" #Lodovico, son of Manfredo. Soldier in the papal army.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062293
+	1293.1.1 = {
+		birth=yes
+	}
+	1343.1.1 = {
+		death=yes
+	}
+}
+1062298 = {
+	name="Faziolo" #Facciolo, aka Faziolo, son of Manfredo. Slain by his brother Giovanni.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062293
+	1290.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death={
+			death_reason=death_battle
+			killer=1062296
+		}
+	}
+}
+1062299 = {
+	name="Sciarra" #Sciarra, son of Manfredo.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062293
+	1289.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+1062300 = {
+	name="Giovanni" #Giovanni son of Sciarra. Signore di Vico, Prefetto di Roma. born ca 1325.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062299
+	1323.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes
+	}
+}
+1062301 = {
+	name="Elisabetta" #Elisabetta daughter of Giovanni
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062300
+	female=yes
+	1341.1.1 = {
+		birth=yes
+	}
+	1389.1.1 = {
+		death=yes
+	}
+}
+1062302 = {
+	name="Battista" #Battista son of Giovanni
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062300
+	1345.1.1 = {
+		birth=yes
+	}
+	1397.1.1 = {
+		death=yes
+	}
+}
+1062303 = {
+	name="Francesco" #Francesco, son of Giovanni, died the 8th of may 1387, signore di Vico prefetto di Roma.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062300
+	1342.1.1 = {
+		birth=yes
+	}
+	1387.5.8 = {
+		death=yes
+	}
+}
+1062304 = {
+	name="Giacomo" #Giacomo son of Francesco.Signore de vico, last prefetto di Roma, decapitated august 1435, having lost to the papal army under cardinal Giovanni Vitelleschi and the count of Anguillara.
+	dynasty=8785
+	religion="catholic"
+	culture="laziale"
+    father=1062303
+	1371.1.1 = {
+		birth=yes
+	}
+	1435.8.1 = {
+		death=yes # chop chop
+	}
+}
+###06-29 reserved for other castelli branches
+#########################################
+#########################################
+# Crescenzi and their related families(who sometimes had some manner of the name applied but weren't striclty speaking real cadet branches)
+########
+1062330 = {
+	name="Crescenzio" #Crescencius/Crescenzio I. attested sometime 901-905(during the reign of Ludvig III), founder of dynasty
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	875.1.1 = {
+		birth=yes
+	}
+	930.1.1 = {
+		death=yes
+	}
+}
+# Crescenzi 
+1062331 = {
+	name="Crescenzio" #Crescenzio II aka Crescenzio de Caballo marmo. attested 963, probably younger son of Crescenzio I
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062330
+	910.1.1 = {
+		birth=yes
+	}
+	967.1.1 = {
+		death=yes
+	}
+}
+1062332 = {
+	name="Giovani" #Giovanni, son of Crescenzio II 
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062331
+	930.1.1 = {
+		birth=yes
+	}
+	970.1.1 = {
+		death=yes
+	}
+}
+1062333 = {
+	name="Theodorata" #Theodorata, daughter of  Crescenzio II, married Benedetto/Benedict son of Benedict of Sabina and Stephania daughter of Giovanni I. Wincest ^_^
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062331
+	female=yes
+	955.1.1 = {
+		birth=yes
+	}
+	1007.1.1 = {
+		death=yes
+	}
+}
+#Main branch.
+1062334 = {
+	name="Giovanni" #Giovanni I, son of Crescenzio I. Married Theodora daughter of Theophylact of Tusculum.
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062330
+	905.1.1 = {
+		birth=yes
+	}
+	967.1.1 = {
+		death=yes
+	}
+}
+#7828 = {
+#	name="Giovanni" #Giovanni II, son of Giovanni I(alternatively a nephew, but not son of Crescenzio II). Became Pope Giovanni XIII 1.10.965-6.9.972
+#	dynasty=1000035394
+#	religion="catholic"
+#	culture="laziale"
+#	father=1062334
+#	930.1.1 = {
+#		birth=yes
+#	}
+#	972.9.6 = {
+#		death=yes
+#	}
+#}
+1062336 = {
+	name="Stephania" #Stephania, daughter of Giovanni I, married Benedict of Sabina and Palestrina.
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062334
+	female=yes
+	934.1.1 = {
+		birth=yes
+	}
+	997.1.1 = {
+		death=yes
+	}
+}
+1062337 = {
+	name="Marozia" #Marozia, daughter of Giovanni I, married Gregorio I of Tusculum. She died 1013.
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062334
+	female=yes
+	939.1.1 = {
+		birth=yes
+	}
+	1013.1.1 = {
+		death=yes
+	}
+}
+1062338 = {
+	name="Crescenzio" #Crescenzio III(aka Crescenzio the elder/Crescenzio de Theordora), son of Giovanni I. died 7th of april 984(was incapable already in 983), married Sergia(died before 989). At luggerheads with the emperors and his representatve count Sccione over papal election 974(he captured and killed pope Benedetto VI(the one succeding Giovanni II) in 974 and tried to install Bonifacio VII as pope).
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062334
+	925.1.1 = {
+		birth=yes
+	}
+	983.1.1 = {
+		add_trait="infirm"
+		add_trait="monk" #shortly before his death
+	}
+	984.4.7 = {
+		death=yes
+	}
+}
+1062339 = {
+	name="Giovanni" #Giovanni III, son of Crescenzio III attested 983 died ca 991. senatore di Roma e conte di Terracina.
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062338
+	953.1.1 = {
+		birth=yes
+	}
+	991.1.1 = {
+		death=yes
+	}
+}
+1062340 = {
+	name="Crescenzio" #Crescenzio IV(Crescenzio Nomentano), son of Crescenzio III. succeded his brother. In constant conflict with either the pope or emperor.(sometimes both at the same time) revolted in august 996(after the old pope died)and tried to get the byzzies to install an antipope. decapitated and mutilated after a two month HRE siege of his stronghold castel san'angelo.(April 998)
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062338
+	951.1.1 = {
+		birth=yes
+	}
+	998.4.1 = {
+		death={
+			death_reason=death_execution
+			killer=1288 # Otto III
+		}
+	}
+}
+1062341 = {
+	name="Giovanni" #Giovanni IV son of Crescenzio IV, was restored to his fathers roman position in 1002 and took control of Rome. Control the appointment of the following popes :Giovanni XVII (1003), Giovanni XVIII (1004-1009) e Sergio IV (1009-1012). Lost control of Rome 1012, after they tired to instate a family member following Sergio's death (?). Seemmingly last maleline member of the real Crescenzi.
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062340
+	975.1.1 = {
+		birth=yes
+	}
+	1012.5.12 = { #died in 1012
+		death=yes
+	}
+}
+1062342 = {
+	name="Rogata" #Rogata, daughter of Crescenzio IV. Married Ottavano Ottaviani. atttested 1005
+	dynasty=1000035394
+	religion="catholic"
+	culture="laziale"
+	father=1062340
+	female=yes
+	979.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}
+}
+################################################################
+#Stefaniati aka Stephani crescenzi and Cencii. Rector di Farfa e conti di Sabina e signori di Palestrina.
+#####
+#Initial characters are all historical holders of the titles but with multiple unknowns reagrding their relation.
+1062573 = {
+	name="Ingelbert" # Father of Ingebald.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	890.1.1 = {
+		birth=yes
+	}
+	921.1.1 = {
+		death=yes
+	}
+}
+1062574 = {
+	name="Ingebald" # Ingebald, conti di Sabina 939.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062573
+	905.1.1 = {
+		birth=yes
+	}
+	940.1.1 = {
+		death=yes
+	}
+}
+1062343 = {
+	name="Leone" # Leo/Leone, dux Sabina. Brother of Raniero, Azzo, Guiuseppe, Teuzo all attested 941. father unknown.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+		father=1062574
+	920.1.1 = {
+		birth=yes
+	}
+	962.1.1 = {
+		death=yes
+	}
+}
+1062344 = {
+	name="Raniero" # Dux Sabina.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062574
+	922.1.1 = {
+		birth=yes
+	}
+	964.1.1 = {
+		death=yes
+	}
+}
+1062345 = {
+	name="Giuseppe" # Dux Sabina.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062574
+	923.1.1 = {
+		birth=yes
+	}
+	970.1.1 = {
+		death=yes
+	}
+}
+1062346 = {
+	name="Azzo" # Comes Sabina.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062574
+	925.1.1 = {
+		birth=yes
+	}
+	963.1.1 = {
+		death=yes
+	}
+}
+1062347 = {
+	name="Teuzo" # Dux Sabina.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062574
+	921.1.1 = {
+		birth=yes
+	}
+	972.1.1 = {
+		death=yes
+	}
+}
+#from Benedetto and further down the lineage is confirmed unbroken.
+1062348 = {
+	name="Benedetto" # Benedetto I, married Stefania . died after 23rd of octobter 987. Viscount of Palestrina and count of Sabbina.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062344
+	943.1.1 = {
+		birth=yes
+	}
+	960.1.1 = {
+		add_spouse=1062336
+	}	
+	987.10.23 = {
+		death=yes
+	}
+}
+1062349 = {
+	name="Benedetto" # Benedetto II, married Theodorata di Crescenzi. died before august 1012. their offspring somtimes used the name of Cencii. They ended up in control of a lot of the crescenzis' Roman propperty(including castel san angelo)
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062348
+	mother=1062336
+	961.1.1 = {
+		birth=yes
+	}
+	980.1.1 = {
+		add_spouse=1062333
+	}	
+	1012.7.1 = {
+		death=yes
+	}
+}
+1062350 = {
+	name="Giovanni" #Giovanni, son of  Benedetto II and Theodorata di Crescenzi. 
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062349
+	mother=1062333
+	983.1.1 = {
+		birth=yes
+	}	
+	1032.1.1 = {
+		death=yes
+	}
+}
+1062351 = {
+	name="Crescenzio" #Crescenzio, son of  Benedetto II and Theodorata. prefetto di Roma sometime 1004-1009, died after 1026 
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062349
+	mother=1062333
+	981.1.1 = {
+		birth=yes
+	}	
+	1035.1.1 = {
+		death=yes
+	}
+}
+1062352 = {
+	name="Regetello" # Regetello, son of Crescenzio
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062351
+	1009.1.1 = {
+		birth=yes
+	}
+	1034.1.1 = {
+		death=yes
+	}
+}
+1062353 = {
+	name="Rainaldo" # Rainaldo, son of Crescenzio
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062351
+	1013.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+1062354 = {
+	name="Cencius" # Cencius, banished from Rome to Palestrina  1075(backed the gregorian antipope). died 1077. unsure whether he was son of Rainaldo or Regetello.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062353
+	1035.1.1 = {
+		birth=yes
+	}
+	1077.1.1 = {
+		death=yes
+	}
+}
+1062355 = {
+	name="Tebaldo" # Tebaldo, son of Cencius. conte(Palestrina?).was banished from roman court 1075-1089. took control of "Castello Baccaricia" (Bracciano). Involved in the Farfa/Ottavanni feud as arbitrator.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062354
+	1055.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1062356 = {
+	name="Stefano" #Stefano, son of Tebaldo. Involved in the farfa/Ottavanni feud. 
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062355
+	1080.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes
+	}
+}
+1062357 = {
+	name="Cencius" #Cencius, son of Tebaldo.
+	dynasty=13015 
+	religion="catholic"
+	culture="laziale"
+	father=1062355
+	1085.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+################################################################
+#Ottaviani, Regulus di Palombara e conti di Rieti e Sabina.
+########
+1062358 = {
+	name="Giuseppe" #Giuseppe. Regulus di Palombara ca 870. Of Langobard origin.
+	dynasty=1000035389  
+	religion="catholic"
+	culture="langobardisch"
+	850.1.1 = {
+		birth=yes
+	}
+	915.1.1 = {
+		death=yes
+	}
+}
+1062359 = {
+	name="Godefredo" #Godefredo. son of Giuseppe, conti di Rieti. attested 920.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062358
+	899.1.1 = {
+		birth=yes
+	}
+	950.1.1 = {
+		death=yes
+	}
+}
+1062360 = {
+	name="Giuseppe" #Giuseppe II, son of Godefredo. conti di Rieti. attested 955. Married "Benedicta". 
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062359
+	920.1.1 = {
+		birth=yes
+	}
+	981.1.1 = {
+		death=yes
+	}
+}
+1062361 = {
+	name="Raniero" #Ranieri, son of Giuseppe. attested November 982.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062360
+	945.1.1 = {
+		birth=yes
+	}
+	994.1.1 = {
+		death=yes
+	}
+}
+1062362 = {
+	name="Oddone" #Atto, son of Giuseppe. attested November 982.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062360
+	946.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes
+	}
+}
+1062363 = {
+	name="Godefredo" #Godefredo III, , son of Giuseppe. attested November 982.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062360
+	948.1.1 = {
+		birth=yes
+	}
+	987.1.1 = {
+		death=yes
+	}
+}
+1062364 = {
+	name="Ottaviano" #Ottaviano aka Octaviano. son of Giuseppe Attested August 994, December 1005(was married to Rogata before this date), October 1006 and April 1024 Conti di Rieti.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062360
+	970.1.1 = {
+		birth=yes
+	}
+	995.1.1 = {
+		add_spouse=1062342
+	}
+	1024.7.1 = {
+		death=yes
+	}
+}
+#
+1062365 = {
+	name="Roccia" #Roccia, mistress of Ottaviano I. 
+	religion="catholic"
+	culture="laziale"
+	female=yes
+	990.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes
+	}
+}
+1062366 = {
+	name="Otta" #Otta, daughter of Roccia and Ottaviano I. attested 1036. married "Ogerio".
+	religion="catholic"
+	culture="laziale"
+	female=yes
+	father=1062364
+	mother=1062365
+	trait=bastard
+	1012.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+#
+1062367 = {
+	name="Ioannes" #Ioannes I. son of Ottaviano I. attested august 1014.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062364
+	mother=1062342
+	999.1.1 = {
+		birth=yes
+	}
+	1059.1.1 = {
+		death=yes
+	}
+}
+1062576 = {
+	name="Crescenzio" #Crescenzio, son of Ottaviano I. attested 1014-1022
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062364
+	mother=1062342
+	1000.1.1 = {
+		birth=yes
+	}
+	1045.1.1 = {
+		death=yes
+	}
+}
+1062368 = {
+	name="Marozia" #Marozia, daughter of Ottaviano I and Rogata. attested 1056. married Gregorio conte di Campgana(son ot Amato di Campania).
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062364
+	mother=1062342
+	female=yes
+	1015.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1062369 = {
+	name="Oddone" #Atto/Oddone/Otto I. son of Ottaviano. conti di Rieti attested August 1014, 1022 and 1036. Conti di Rieti. Married Doda daughter of conte Rinaldo di Marsi before july 1011.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062364
+	mother=1062342
+	997.1.1 = {
+		birth=yes
+	}
+	1013.1.1 = {
+	add_spouse=1061558  
+	}
+	1044.1.1 = {
+		death=yes
+	}
+}
+###
+1062370 = {
+	name="Ioannes" #Ioannes II, son of Oddone. attested 1048- November 1058. Married "Davinia".
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062369
+	mother=1061558
+	1018.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1062371 = {
+	name="Oddone" #Oddone II, son of Ioannes II. Attested 1103(donated to the abbey of Farfa)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	1055.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1062372 = {
+	name="Ioannes" #Giovanni/Ioannes, son of Ioannes II. attested November 1058., abbot of Subicao in the 1060ies. Outcompteded the abbey of Farfa. died the 2nd of May 1121.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	trait="diligent"
+	trait="patient"
+	trait="mastermind_theologian"
+	1050.1.1 = {
+		birth=yes
+	}
+	1121.5.2 = {
+		death=yes
+	}
+}
+1062373 = {
+	name="Maria" #Maria, daughter of Ioannes II
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	female=yes
+	1049.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1062374 = {
+	name="Raniero" #Raniero, son of Ioannes II?. attested November 1058. signore di Marano.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	1044.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes
+	}
+}
+1062375 = {
+	name="Bernardo" #Bernardo, son of Raniero attested 1103(donated some castles to the abbey of farfa)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062374
+	1071.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1062376 = {
+	name="Raniero" #Raniero, son of Bernardo attested 1103(donated along with his father)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062375
+	1087.1.1 = {
+		birth=yes
+	}
+	1151.1.1 = {
+		death=yes
+	}
+}
+#
+1062377 = {
+	name="Ottaviano" #Octaviano, son of Ioannes II, initially Suported the Abbey of Farfa against his brothter, but switched sides. appointed rector of Sabina in 1106(along with Oddone)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	1057.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+##
+1062378 = {
+	name="Oddone" #Oddone III. son of Ioannes II. attested 1103. Signore di Palombara e Monticello. appointed rector of Sabina in 1106(along with Ottaviano).
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062370
+	trait=proud
+	trait=wroth
+	1041.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1062379 = {
+	name="Ottaviano" #Ottaviano, son of Oddone III, attested 1103. Signore di Monticello e Palombara.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062378
+	1059.1.1 = {
+		birth=yes
+	}
+	1136.1.1 = {
+		death=yes
+	}
+}
+1062380 = {
+	name="Oddone" #Oddone, son of Ottaviano.Signore di Palombara. Staunch ghibeline. attested 1137 greeting Lothar II at Palombara. died before 1157.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062379
+	1080.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		add_spouse=1062381
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1062382 = {
+	name="Ottaviano" #Ottaviano. Nephew? of Oddone. Presumeably son of a daughter of Rainaldo conte di Marsi. Conte di Palombara attested 1155.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062380 # making him a son instead.
+	mother=1062381 
+	1104.1.1 = {
+		birth=yes
+	}
+	1178.1.1 = {
+		death=yes
+	}
+}
+#
+1062383 = {
+	name="Oddone" #Oddone, son of Ottaviano, conti di Palombara. attested 1185. Supporter of the papacy.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062382
+	1140.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1062384 = {
+	name="Giovanni" #Giovanni, son of Oddone?, conti di Palombara 1216. signore di  Montorio e Caminata by 1204.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062383
+	1175.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1062403 = {
+	name="Oddone" #Oddone V, son of Giovanni, conti di Palombara. marries into the Savelli family. Seems they inherit or purchase the title in 1275.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062383
+	1175.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+#
+1062385 = {
+	name="Ioannes" #Ioannes son of Oddone III,(aka Johannes Maledictus), attested frist 1103. Allied with the emperor 1108, got exocomunicated in 1119(for his imperial tendencies).. Supported his father. captured by the forces of the abbey of Farfa. 
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062378
+	1076.1.1 = {
+		birth=yes
+	}
+	1137.1.1 = {
+		death=yes
+	}
+}
+1062386 = {
+	name="Ottaviano" #Ottaviano, son of Ioannes. Was elected antipopope(HRE supported ) as Victor IV. Died the 20th April 1164
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062385
+	1100.1.1 = {
+		birth=yes
+	}
+	1164.4.20 = {
+		death=yes
+	}
+}
+###
+1062387 = {
+	name="Crescenzio" #Crescenzio, son of Ottaviano I. attested 1048. Died before april 1061. married "Theodora". Besiged the castle of Tribuco in 1060(was held by the abbey of Farfa) and cut off thte nose of the monk in charge.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062364
+	mother=1062342
+	1000.1.1 = {
+		birth=yes
+	}
+	1061.1.1 = {
+		death=yes
+	}
+}
+1062388 = {
+	name="Ioannes" #Ioannes, son of Crescenzio. attested 1061.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062387
+	1025.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		death=yes
+	}
+}
+1062389 = {
+	name="Fuido" #Fuido, son of Crescenzio.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062387
+	1025.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+1062390 = {
+	name="Fuido" #Fuido, son of Crescenzio.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062387
+	1025.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+1062391 = {
+	name="Rustico" #Rusticus/Rustico, son of Crescenzio, attested September 1062( and in january 1100? that can't be right.)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062387
+	1016.1.1 = {
+		birth=yes
+	}
+	1062.10.1 = {
+		death=yes
+	}
+}
+1062392 = {
+	name="Cencius" #Cencius, son of Crescenzio, attested 1061.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062387
+	1027.1.1 = {
+		birth=yes
+	}
+	1084.1.1 = {
+		death=yes
+	}
+}
+1062393 = {
+	name="Alberto" #Alberto, son of Cencius attested 1103(doantion to Farfa)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062392
+	1054.1.1 = {
+		birth=yes
+	}
+	1109.1.1 = {
+		death=yes
+	}
+}
+1062394 = {
+	name="Rustico" #Rustico, son of Cencius attested 1103(doantion to Farfa)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062392
+	1055.1.1 = {
+		birth=yes
+	}
+	1109.1.1 = {
+		death=yes
+	}
+}
+#
+1062395 = {
+	name="Azarello" #Azarello, grandson of Cencius. attested 1103.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062393
+	1078.1.1 = {
+		birth=yes
+	}
+	1132.1.1 = {
+		death=yes
+	}
+}
+1062396 = {
+	name="Ioannes" #Ioannes, grandson of cencius. attested 1103.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062393
+	1079.1.1 = {
+		birth=yes
+	}
+	1121.1.1 = {
+		death=yes
+	}
+}
+#
+1062577 = {
+	name="Ugolino" #Ugolino, son of Rusticus
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062391
+	1048.1.1 = {
+		birth=yes
+	}
+	1088.1.1 = {
+		death=yes
+	}
+}
+1062398 = {
+	name="Oddone" #Oddo, son of Rusticus. attested january 1100.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062391
+	1049.1.1 = {
+		birth=yes
+	}
+	1102.1.1 = {
+		death=yes
+	}
+}
+1062399 = {
+	name="Senebaldo" #Senebaldo, son of Rusticus. attested april 28 1060 and 1066, conte, was rector of Sabina 1059-1066, sided with the monks of Farfa his family in the 1060 dispute. Was dead by 1086(likely around 1084)
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062391
+	1039.1.1 = {
+		birth=yes
+	}
+	1084.1.1 = {
+		death=yes
+	}
+}
+1062400 = {
+	name="Gentile" #Gentile, son of Senebaldo.attested 1103.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062399
+	1057.1.1 = {
+		birth=yes
+	}
+	1108.1.1 = {
+		death=yes
+	}
+}
+1062401 = {
+	name="Rainaldo" #Rainaldo, son of Senebaldo. conte. attested 1103-1121. was appointed arbitrator in the 1103 hostilities. On very good terms with the emperor.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062399
+	1056.1.1 = {
+		birth=yes
+	}
+	1121.1.1 = {
+		death=yes
+	}
+}
+1062402 = {
+	name="Adenulf" #Adenulf, a younger son of Rainaldo. became abbot of Farfa.
+	dynasty=1000035389 
+	religion="catholic"
+	culture="laziale"
+	father=1062401
+	1090.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+#04-08 reserved
+################
+#Misc
+################
+1062409 = {
+	name="Berad" #Bera(l)d. III The scheming abbot of Farfa who squared off against the Ottavanni in 1103.
+	religion="catholic"
+	culture="laziale"
+	trait="grey_eminence"	
+	trait=ambitious
+	trait=cynical
+	1055.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+###########################################################
+#Pierleoni
+###########################################################
+#Possibly a Jewish banker famly who converted and made it big time as Papal bankers(found a 17th century book mainly concerned with the Frangipane which contradicts the first generations of Pierleoni though, whether the senatorial theory used in the old book is a kind of "whitewash"(it was paid for by a noble family claiming to be related, and the jewish heritage probably wasn't popular) of their lineage to make it more glorious or the jewish theory isn't legit, I can't quite workout), consuls of rome, etc. Mainly of Guelp tendencies. Rivals of the Frangipane. Dominated Trastevere(had stronghold there), Isola Tiberina and the Marcellus theatere(had another stronghold there).
+##
+#17th century books early family tree:
+#Giordano, senator of Rome attested 722.(Im guessing he is supposed to be of the Ancii family)
+#Flauia, daughter of Giordano.
+#Flauio(aka Flavio), son of Giordano.
+#Diodoro, son of Flauio?
+#Massimo, son of Flauio.
+#Pietro Leoni antico, son of Massimo. Died 987.
+#Pietro, son of Pietro Leoni antico.
+#Giovanni Graziano, son of Pietro, cardinal, attested 1045
+#Stefano, son of Pietro antico. attested 1030
+#Unnamed daughter of leo(the one below)
+#Rogiere, son of Leo.(the one below.)
+#####
+# Jewish theory, which seems to be dominant today.
+1062410 = {
+	name="Baruch" #Baruch, Jewish banker, took the name of Benedict when he converted. 
+	dynasty=8723
+	religion="jewish"
+	culture="sephardi"
+	985.1.1 = {
+		birth=yes
+	}
+	990.1.1 = {
+		wealth = 1200
+	}
+	1015.1.1 = {
+		name="Benedetto"
+		religion="catholic"
+	}	
+	1040.1.1 = {
+		death=yes
+	}
+}
+#####
+1062411 = {
+	name="Leone" #Leone/Leo, son of Baruch(according to the 17th century book he is son of Stefano). Led troops for the pope against the antipope the 14th of April 1062. the 17th century book have him dying before 1078 but without a specific date. was supportive of Farfa in their struggle against the Ottaviani.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062410
+	1025.1.1 = {
+		birth=yes
+	}	
+	1077.1.1 = {
+		death=yes
+	}
+}
+1062412 = {
+	name="Pietro" #Petrus/Pietro I, son of Leone. Consul of Rome, duca di Fondi(when?). had 10 children(9 according to the 17th century book, which only counts 8 sons). Supported the Ottaviani against the Farfa abbey. Occupied castel sant Angelo for the pope in 1098, awarded it sometime later?. died some time 1124-1130
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062411
+	1060.1.1 = {
+		birth=yes
+	}	
+	1129.1.1 = {
+		death=yes
+	}
+}
+1062413 = {
+	name="Cencius" #Cencius, son of Pietro?(making him son of Leone as per the old book) scriniarius of the pope. attested 1139
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062411
+	1062.1.1 = {
+		birth=yes
+	}	
+	1140.1.1 = {
+		death=yes
+	}
+}
+1062414 = {
+	name="Leone" #Leone, son of Petrus attested 1142 as a papal delegate. attested 1139-1152
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1105.1.1 = {
+		birth=yes
+	}	
+	1153.1.1 = {
+		death=yes
+	}
+}
+1062415 = {
+	name="Giovanni" #Giovanni, son of Pietro, attested 1130 and 1153. consul of Rome. 
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1100.1.1 = {
+		birth=yes
+	}	
+	1155.1.1 = {
+		death=yes
+	}
+}
+1062416 = {
+	name="Ruggero" #Ruggero, son of Pietro. attested 1130
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1098.1.1 = {
+		birth=yes
+	}	
+	1131.1.1 = {
+		death=yes
+	}
+}
+1062417 = {
+	name="Guido" #Guido, son of Pietro. attested 1160
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1098.1.1 = {
+		birth=yes
+	}	
+	1131.1.1 = {
+		death=yes
+	}
+}
+1062418 = {
+	name="Guimondo" #Guimondo, son of Pietro. attested 1160 
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1108.1.1 = {
+		birth=yes
+	}	
+	1165.1.1 = {
+		death=yes
+	}
+}
+1062419 = {
+	name="Giordano" #Giordano, son  of Pietro, Perfetto di Roma breifly in 1116(only confirmed by the pope not the city, so only partly confirmed for office), became head of the Roman repulbic in 1144(in opposition to his own family). deposed 1145. reconciled with the rest of the family before 1162.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1095.1.1 = {
+		birth=yes
+	}	
+	1166.1.1 = {
+		death=yes
+	}
+}
+1062420 = {
+	name="Pietro" #Pietro, son  of Pietro ca 1090-1138. Became antipope under the name Anacletus II in 1130. was made cardinal in 1111.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	trait="mastermind_theologian"	
+	1102.1.1 = {
+		birth=yes
+	}	
+	1138.1.25 = {
+		death=yes
+	}
+}
+1062421 = {
+	name="Tropea" #Tropea, daughter of Pietro I
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	female=yes
+	1106.1.1 = {
+		birth=yes
+	}	
+	1153.1.1 = {
+		death=yes
+	}
+}
+1062422 = {
+	name="Obicione" #Obicione, son of Pietro I. attested 1152.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062412
+	1091.1.1 = {
+		birth=yes
+	}	
+	1154.1.1 = {
+		death=yes
+	}
+}
+1062423 = {
+	name="Graziano" #Graziano II, son of Obicione. attested 1153
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062422
+	1109.1.1 = {
+		birth=yes
+	}	
+	1171.1.1 = {
+		death=yes
+	}
+}
+1062424 = {
+	name="Giovanni" #Giovanni, son of Obicone. was send to study theology in Paris in 1164.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062422
+	trait="diligent"
+	trait="mastermind_theologian"	
+	1130.1.1 = {
+		birth=yes
+	}	
+	1185.1.1 = {
+		death=yes
+	}
+}
+# from here the family links get more sketchy
+1062425 = {
+	name="Uguccione" # Uguccione, grandson of Pietro I. son of? attested 1130.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062422
+	1111.1.1 = {
+		birth=yes
+	}	
+	1149.1.1 = {
+		death=yes
+	}
+}
+1062426 = {
+	name="Ugo" # Ugo, son of Uguccione. appointed bishop of Piacenza in 1155. Cardinal bishop of Tusculum 1166.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062425	
+	1128.1.1 = {
+		birth=yes
+	}	
+	1170.1.1 = {
+		death=yes
+	}
+}
+1062427 = {
+	name="Ugo" #Ugo, nephew of the Ugo above. attested 1173-1182(died that year.) was made cardinal in 1173
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062423	
+	1141.1.1 = {
+		birth=yes
+	}	
+	1182.1.1 = {
+		death=yes
+	}
+}
+1062428 = {
+	name="Ugoccione" #Ugoccione, podesta of Firenze 1213
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062423	
+	1160.1.1 = {
+		birth=yes
+	}	
+	1219.1.1 = {
+		death=yes
+	}
+}
+1062429 = {
+	name="Arcinoe" #Arcinoe, podesta of Todi 1216.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062428	
+	1171.1.1 = {
+		birth=yes
+	}	
+	1215.1.1 = {
+		death=yes
+	}
+}
+1062430 = {
+	name="Giovanni" #Giovanni, appointed seneator 1196, elector 1204.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062423	
+	1139.1.1 = {
+		birth=yes
+	}	
+	1206.1.1 = {
+		death=yes
+	}
+}
+1062431 = {
+	name="Graziano" #Graziano, son of Giovanni podesa of Fermo 1221.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062430	
+	1172.1.1 = {
+		birth=yes
+	}	
+	1223.1.1 = {
+		death=yes
+	}
+}
+1062432 = {
+	name="Filippo" #Filippo, son of Giovanni podesa of Fermo 1224.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062430	
+	1175.1.1 = {
+		birth=yes
+	}	
+	1225.1.1 = {
+		death=yes
+	}
+}
+1062433 = {
+	name="Giorgio" #Giorgio. Senator of Rome sometime 1204-1216(was appointed during the reign of Innocent III).
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062430	
+	1165.1.1 = {
+		birth=yes
+	}	
+	1220.1.1 = {
+		death=yes
+	}
+}
+1062434 = {
+	name="Guido" #Guido, last attested 1228. appointed cardinal in 1204.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062430	
+	1172.1.1 = {
+		birth=yes
+	}	
+	1235.1.1 = {
+		death=yes
+	}
+}
+1062435 = {
+	name="Giovanni" #Giovanni, nephew of Guido, bishops of Piacenza 1217. died 23th of Juli 1220
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062433	
+	1195.1.1 = {
+		birth=yes
+	}	
+	1220.6.23 = {
+		death=yes
+	}
+}
+1062436 = {
+	name="Fracesco" #Fracesco, podesta of Foligno in 1263.
+	dynasty=8723
+	religion="catholic"
+	culture="laziale"
+	father=1062433	
+	1194.1.1 = {
+		birth=yes
+	}	
+	1265.1.1 = {
+		death=yes
+	}
+}
+#-43 reserved
+##################
+#Frangipane 
+###################
+#Mainly ghibeline leaning barrional family from Rome. Signore di Astura e conti di Terracina. Used the collouseum as their stronghold. Splintered into three subbranches in the 12th century; de Chartularia, de Septizonio and de Gradellis. Uncertain link to the Frangipane from Dalmatia.
+1062444 = {
+	name="Pietro" #Pietro Fraiapane de Imperator, attested in the 963 Rome synod as the only plebian participant; also held land in Farfa and Subiaco
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	940.1.1 = {
+		birth=yes
+	}	
+	1000.1.1 = {
+		death=yes
+	}
+}
+1062445 = {
+	name="Leone" #Leo/Leone, first confirmed memeber. attested 1014 in the farfa archive.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062444
+	975.1.1 = {
+		birth=yes
+	}	
+	1035.1.1 = {
+		death=yes
+	}
+}
+1062446 = {
+	name="Pietro" #Pietro/Petrus, attested mid 11th century.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062445
+	1013.1.1 = {
+		birth=yes
+	}	
+	1055.1.1 = {
+		death=yes
+	}
+}
+1062447 = {
+	name="Oddone" #Oddone, attested in 1058 as an adult, became an hermit ca 1120, died 23rd march 1127. son of?. A knight who bacme a benedictine monk, founded a hospital in Ariano Irpino and then lived as a hermit afterwards. Was declared a saint.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062446
+	trait="mastermind_theologian"	
+	1039.1.1 = {
+		birth=yes
+	}
+	1120.1.1={
+		add_trait="celibate"
+		add_trait=monk		
+	}	
+	1127.3.23 = {
+		add_trait = "saint"
+		give_nickname = nick_the_saint
+		death=yes
+	}
+}
+1062448 = {
+	name="Angelo" #Angelo, son of Pietro I. Died without issue.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062446
+	1038.1.1 = {
+		birth=yes
+	}	
+	1089.1.1 = {
+		death=yes
+	}
+}
+1062449 = {
+	name="Giovanni" #Giovanni aka Giovanni Sardo, son of Pietro I. 
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062446
+	1030.1.1 = {
+		birth=yes
+	}	
+	1072.1.1 = {
+		death=yes
+	}
+}
+1062450 = {
+	name="Cencio" #Cencio/Cencius(aka Cecio) I, son of Giovanni. Consul of Rome. Seized and breifly imprisoned the pope just before the christmas mass 1075. last attested 1102.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062449
+	trait=ambitious
+	trait=cynical
+	1045.1.1 = {
+		birth=yes
+	}	
+	1103.1.1 = {
+		death=yes
+	}
+}
+1062451 = {
+	name="Giovanni" #Giovanni II, son of Cencio I. married "Bona" sister of Stefano and Pandolfo di Normandi(maybe d'aquino or de' Settesoli?)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062450
+	1062.1.1 = {
+		birth=yes
+	}	
+	1120.1.1 = {
+		death=yes
+	}
+}
+1062452 = {
+	name="Ugone" #Ugone, son of Giovanni II
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062451
+	1083.1.1 = {
+		birth=yes
+	}	
+	1119.1.1 = {
+		death=yes
+	}
+}
+1062453 = {
+	name="Leone" #Leone II, son of Giovanni II,
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062451
+	1084.1.1 = {
+		birth=yes
+	}	
+	1119.1.1 = {
+		death=yes
+	}
+}
+## de Gradellis
+1062454 = {
+	name="Roberto" #Roberto, son of Giovanni II attested 1124-1130
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062451
+	1080.1.1 = {
+		birth=yes
+	}	
+	1131.1.1 = {
+		death=yes
+	}
+}
+1062455 = {
+	name="Raimone" #Raimone/Rainone, son of Roberto II. attested 1140
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062454
+	1105.1.1 = {
+		birth=yes
+	}	
+	1155.1.1 = {
+		death=yes
+	}
+}
+1062456 = {
+	name="Obicione" #Obicione, son of Raimone attested 1160
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062455
+	1131.1.1 = {
+		birth=yes
+	}	
+	1174.1.1 = {
+		death=yes
+	}
+}
+1062457 = {
+	name="Grazione" #Grazione, son of Obicione. married Iacopa/Giacomina  (de' Normanni/de' Settesoli)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062456
+	1153.1.1 = {
+		birth=yes
+	}	
+	1209.1.1 = {
+		death=yes
+	}
+}
+1062458 = {
+	name="Gio" #Gio, son of Grazione, attested 1210.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062457
+	1183.1.1 = {
+		birth=yes
+	}	
+	1214.1.1 = {
+		death=yes
+	}
+}
+1062459 = {
+	name="Grazione" #Grazione, son of Grazione. attested 1217
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062457
+	1180.1.1 = {
+		birth=yes
+	}	
+	1226.1.1 = {
+		death=yes
+	}
+}
+1062460 = {
+	name="Iacopa" #Iacopa, daughter of Grazione.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062459
+	female=yes
+	1200.1.1 = {
+		birth=yes
+	}	
+	1263.1.1 = {
+		death=yes
+	}
+}
+1062461 = {
+	name="Giovanni" #Giovanni, son of Grazione. attested 1237
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062459
+	1199.1.1 = {
+		birth=yes
+	}	
+	1248.1.1 = {
+		death=yes
+	}
+}
+1062462 = {
+	name="Giovanni" #Giovanni, son of Giovanni. attested 1257-1267(died before 1274). Married "Saracena"
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062461
+	1225.1.1 = {
+		birth=yes
+	}	
+	1273.1.1 = {
+		death=yes
+	}
+}
+1062463 = {
+	name="Pietro" #Pietro, son of Giovanni, died before Giovanni.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062462
+	1245.1.1 = {
+		birth=yes
+	}	
+	1272.1.1 = {
+		death=yes
+	}
+}
+1062464 = {
+	name="Filippa" #Filippa, daughter of Giovanni. Died before Saracena.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062462
+	female=yes
+	1253.1.1 = {
+		birth=yes
+	}	
+	1278.1.1 = {
+		death=yes
+	}
+}
+1062465 = {
+	name="Mariola" #Mariola, daughter of Pietro.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062463
+	female=yes
+	1264.1.1 = {
+		birth=yes
+	}	
+	1299.1.1 = {
+		death=yes
+	}
+}
+1062466 = {
+	name="Sofiola" #Sofiola, daughter of Pietro.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062463
+	female=yes
+	1263.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+1062467 = {
+	name="Iannuccio" #Iannuccio, son of Pietro.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062463
+	1262.1.1 = {
+		birth=yes
+	}	
+	1301.1.1 = {
+		death=yes
+	}
+}
+1062468 = {
+	name="Paulillo" #Paulillo, (aka Paulillo da Cui Nacquero) son of Pietro
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062463
+	1261.1.1 = {
+		birth=yes
+	}	
+	1319.1.1 = {
+		death=yes
+	}
+}
+1062469 = {
+	name="Petruccio" #Petruccio, son of Paulillo. Conduttiero. attested 1347.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062468
+	trait=skilled_tactician
+	1298.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1062470 = {
+	name="Valeriano" #Valeriano, son of Petruccio. attested as chancellor to the pope  1414-1419
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062469
+	1334.1.1 = {
+		birth=yes
+	}	
+	1419.1.1 = {
+		death=yes
+	}
+}
+##
+1062471 = {
+	name="Bona" #Bona, daughter of Giovanni II. married Arrigo conti di Tuscoli(Tusculum?)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	female=yes
+	father=1062451
+	1082.1.1 = {
+		birth=yes
+	}	
+	1138.1.1 = {
+		death=yes
+	}
+}
+##
+1062472 = {
+	name="Cencio" #Cencio II, son of Giovanni II.  Siezed the Pope in 1118. was made conti di Ceccano in 1124. Exiled from rome 1130-1133.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062451
+	1078.1.1 = {
+		birth=yes
+	}	
+	1134.1.1 = {
+		death=yes
+	}
+}
+1062473 = {
+	name="Rodulfo" #Rodulfo, son of Cencio II. attested 1161-1179
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1116.1.1 = {
+		birth=yes
+	}	
+	1180.1.1 = {
+		death=yes
+	}
+}
+1062474 = {
+	name="Alberto" #Alberto, son of Cencio II.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1113.1.1 = {
+		birth=yes
+	}	
+	1170.1.1 = {
+		death=yes
+	}
+}
+1062475 = {
+	name="Pietro" #Pietro, son of Cencio II. senator of Rome 1146.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1102.1.1 = {
+		birth=yes
+	}	
+	1160.1.1 = {
+		death=yes
+	}
+}
+1062476 = {
+	name="Obicione" #Obicione, son of Cencio II.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1106.1.1 = {
+		birth=yes
+	}	
+	1153.1.1 = {
+		death=yes
+	}
+}
+1062477 = {
+	name="Pagano" #Pagano, son of Cencio II.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1107.1.1 = {
+		birth=yes
+	}	
+	1177.1.1 = {
+		death=yes
+	}
+}
+1062478 = {
+	name="Stefano" #Stefano, son of Cencio II. Founded one of the subbranches(L.A)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1102.1.1 = {
+		birth=yes
+	}	
+	1163.1.1 = {
+		death=yes
+	}
+}
+###(L.B)
+1062479 = {
+	name="Leone" #Leone son of Cencio II. Founded one of the subbranches(L.B)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062472
+	1094.1.1 = {
+		birth=yes
+	}	
+	1138.1.1 = {
+		death=yes
+	}
+}
+1062480 = {
+	name="Cencio" #Cencio, son of Leone.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062479
+	1118.1.1 = {
+		birth=yes
+	}	
+	1153.1.1 = {
+		death=yes
+	}
+}
+1062481 = {
+	name="Oddone" #Oddone I, son of Leone. Very influential in roman politics from the 1130ies and forward. Took control of Tusculum for some time, and sold the rights to the Pope in december 1152?. lead the Roman army against Christian of Mainz but was defeated.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062479
+	1112.1.1 = {
+		birth=yes
+	}	
+	1167.5.29 = {
+		death={ death_reason=death_battle } # battle of Monte Porzio
+	}
+}
+1062482 = {
+	name="Oddone" #Oddone II, son of Oddone I. Married Eudoxia niece of Manuel Comnenus in the spring of 1170. Acquired Terrracina from the Raino di Tuscolo.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062481
+	1138.1.1 = {
+		birth=yes
+	}	
+	1195.1.1 = {
+		death=yes
+	}
+}
+#
+1062483 = {
+	name="Cencio" #Cencio, son of Oddone I. attested 1172 buying Circegium from Raino de Tuscolo.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062481
+	1140.1.1 = {
+		birth=yes
+	}	
+	1179.1.1 = {
+		death=yes
+	}
+}
+1062484 = {
+	name="Leone" #Leone, son of Cencio.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062483
+	1159.1.1 = {
+		birth=yes
+	}	
+	1208.1.1 = {
+		death=yes
+	}
+}
+1062485 = {
+	name="Emanuele" #Emanuele, son of Cencio.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062483
+	1160.1.1 = {
+		birth=yes
+	}	
+	1204.1.1 = {
+		death=yes
+	}
+}
+#
+1062575 = {
+	name="Iacopo" #Iacopo, son of Oddone II.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062482
+	1175.1.1 = {
+		birth=yes
+	}	
+	1245.1.1 = {
+		death=yes
+	}
+}
+1062486 = {
+	name="Oddone" #Oddone III, son of Oddone II. attested 1260
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062482
+	1179.1.1 = {
+		birth=yes
+	}	
+	1261.1.1 = {
+		death=yes
+	}
+}
+1062487 = {
+	name="Deodato" #Deodato, son of Oddone II. attested 1237
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062482
+	1176.1.1 = {
+		birth=yes
+	}	
+	1240.1.1 = {
+		death=yes
+	}
+}
+1062488 = {
+	name="Nicolo" #Nicolo, son of Deodato
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062487
+	1203.1.1 = {
+		birth=yes
+	}	
+	1272.1.1 = {
+		death=yes
+	}
+}
+1062489 = {
+	name="Raniero" #Raniero, son of Nicolo attested 1288
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062488
+	1232.1.1 = {
+		birth=yes
+	}	
+	1291.1.1 = {
+		death=yes
+	}
+}
+1062490 = {
+	name="Iacopo" #Iacopo, son of Raniero.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062489
+	1264.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+1062491 = {
+	name="Francesco" #Francesco, son of Raniero
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062489
+	1264.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+#
+1062492 = {
+	name="Cencio" #Cencio, son of Oddone II. attested ca 1200. 
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062482
+	1174.1.1 = {
+		birth=yes
+	}	
+	1240.1.1 = {
+		death=yes
+	}
+}
+1062493 = {
+	name="Iacopo" #Iacopo, son of cencio(or grandson?)
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062492
+	1210.1.1 = {
+		birth=yes
+	}	
+	1279.1.1 = {
+		death=yes
+	}
+}
+1062494 = {
+	name="Odduzzio" #Odduzzio, son of Iacopo. attested 1329
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062493
+	1255.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+1062495 = {
+	name="Gio" #Gio, son of Iacopo.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062493
+	1248.1.1 = {
+		birth=yes
+	}	
+	1300.1.1 = {
+		death=yes
+	}
+}
+#
+1062496 = {
+	name="Emanuele" #Emanuele II, son of Oddone II.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062482
+	1172.1.1 = {
+		birth=yes
+	}	
+	1228.1.1 = {
+		death=yes
+	}
+}
+1062497 = {
+	name="Pietro" #Pietro, son of Emanuele II. Conti di Terracina.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062496
+	1201.1.1 = {
+		birth=yes
+	}	
+	1261.1.1 = {
+		death=yes
+	}
+}
+#
+1062498 = {
+	name="Giovanni" #Giovanni, son of Pietro. Signore di Astura. Married into the orsini family? captured Conradin of Swabia and handed him over to Charles of Anjou for chop chop.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062497
+	1226.1.1 = {
+		birth=yes
+	}	
+	1294.1.1 = {
+		death=yes
+	}
+}
+1062499 = {
+	name="Nicolo" #Nicolo, son of Giovanni.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062498
+	1262.1.1 = {
+		birth=yes
+	}	
+	1313.1.1 = {
+		death=yes
+	}
+}
+1062500 = {
+	name="Giovanni" #Giovanni, son of Nicolo, attested 1351.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062499
+	1296.1.1 = {
+		birth=yes
+	}	
+	1352.1.1 = {
+		death=yes
+	}
+}
+1062501 = {
+	name="Giorgio" #Giorgio, son of of Giovanni attested 1380
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062500
+	1325.1.1 = {
+		birth=yes
+	}	
+	1382.1.1 = {
+		death=yes
+	}
+}
+#
+1062502 = {
+	name="Pietro" #Pietro, son of Pietro.
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062497
+	1240.1.1 = {
+		birth=yes
+	}	
+	1278.1.1 = {
+		death=yes
+	}
+}
+###
+1062503 = {
+	name="Alruda" #Aldruda, probably a granddaughter of Cencio I, but parents unkown. Married Ranieri di Bertinoro son of Cavalcaconte in 1142, countess of Betinoro. Widowed before 29th of December 1143. She(As a widow countess ) forced Christian of Mainz to lift the siege of Ancona in 1174
+	female=yes
+	dynasty=1000035395 
+	religion="catholic"
+	culture="laziale"
+	father=1062479
+	trait=brave
+	trait=proud
+	1110.1.1 = {
+		birth=yes
+	}	
+	1175.1.1 = {
+		death=yes
+	}
+}
+#-09 reserved
+####################################
+#Théophylactes, di Spoleto, Tusculani and Colonna.
+####################################
+#Tusculani
+1062510 = {
+	name="Giovanni" #Giovanni I, son of Teofilatto II aka pope Benedict VIII(from before he became pope).
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7933
+	980.1.1 = {
+		birth=yes
+	}	
+	1040.1.1 = {
+		death=yes
+	}
+}
+#
+1062511 = {
+	name="Pietro" #Pietro, son of Alberico III, attested september 1055
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7935
+	1001.1.1 = {
+		birth=yes
+	}	
+	1058.1.1 = {
+		death=yes
+	}
+}
+1062512 = {
+	name="Ottaviano" #Ottaviano II, son of Alberico III, dead before september 1055.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7935
+	1004.1.1 = {
+		birth=yes
+	}	
+	1053.1.1 = {
+		death=yes
+	}
+}
+1062513 = {
+	name="Guido" #Guido,(aka Gaio) son of Alberico III, attested september 1055
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7935
+	1003.1.1 = {
+		birth=yes
+	}	
+	1059.1.1 = {
+		death=yes
+	}
+}
+1062514 = {
+	name="Giovanni" #Giovanni II, son of Guido. Became antipope in 1058 as Benedict X(already ingame?)
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062513
+	1030.1.1 = {
+		birth=yes
+	}
+	1058.1.1 = {
+		name=Benedict
+	}	
+	1073.9.1 = {
+		death=yes
+	}
+}
+#
+1062515 = {
+	name="Giovanni" #Giovanni, son of Gregorio II 
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7936
+	1025.1.1 = {
+		birth=yes
+	}	
+	1075.1.1 = {
+		death=yes
+	}
+}
+1062516 = {
+	name="Theodora" #Theodora, daughter of Gregorio II, attested 1052. wife of Pandulfo di Capaccio, second son of Guaimar III of Salerno.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7936
+	female=yes
+	1022.1.1 = {
+		birth=yes
+	}	
+	1073.1.1 = {
+		death=yes
+	}
+}
+#
+1062517 = {
+	name="Isdara" #Isdara, daughter of Gregorio III
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7938
+	female=yes
+	1050.1.1 = {
+		birth=yes
+	}	
+	1120.1.1 = {
+		death=yes
+	}
+}
+#
+1062518 = {
+	name="Giorgio" #Younger son of Giorgio III, Iudex di Tuscolo.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7938
+	1060.1.1 = {
+		birth=yes
+	}	
+	1128.1.1 = {
+		death=yes
+	}
+}
+1062519 = {
+	name="Egidius" #son of Giorgio IV.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062518
+	1080.1.1 = {
+		birth=yes
+	}	
+	1137.1.1 = {
+		death=yes
+	}
+}
+#
+1062520 = {
+	name="Tolomeo" #Tolomeo I son of Gregorio III, attested 24th september 1077, inherited in 1108. died 1126.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=7938
+	1055.1.1 = {
+		birth=yes
+	}	
+	1126.1.1 = {
+		death=yes
+	}
+}
+1062521 = {
+	name="Tolomeo" #Tolomeo II, son of Tolomeo I. conti di tuscolo.Died 1153
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062520
+	1086.1.1 = {
+		birth=yes
+	}	
+	1153.1.1 = {
+		death=yes
+	}
+}
+1062522 = {
+	name="Gionata" #Gionata, son of Tolomeo II. attested 9th of july 1155. Died 1167.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062521
+	1102.1.1 = {
+		birth=yes
+	}	
+	1167.1.1 = {
+		death=yes
+	}
+}
+1062523 = {
+	name="Raino" #Raino, son of Tolomeo II. senator of rome 1165. lost Tusculum to the pope sometime 1170- 1172. 1172 he swapped some land with he Frangipane. Died 1197.
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062521
+	1116.1.1 = {
+		birth=yes
+	}	
+	1197.1.1 = {
+		death=yes
+	}
+}
+1062524 = {
+	name="Giordano" # youngest son of Tolomeo II, signor di Gavignano
+	dynasty=7051
+	religion="catholic"
+	culture="laziale"
+	father=1062521
+	1130.1.1 = {
+		birth=yes
+	}	
+	1185.1.1 = {
+		death=yes
+	}
+}
+####################
+#Colonna. Ghibeline tendencies. rivals of the Orsini and Caetani. Signore di Monteporzio, Colonna e Palestrina. 
+1062525 = {
+	name="Pietro" # Pietro, son of Gregorio II attested 1078-1101. Founder of the house of Colonna, signore de Palestrina.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=7936
+	1023.1.1 = {
+		birth=yes
+	}
+	1101.1.1 = {
+		death=yes
+	}
+}
+1062526 = {
+	name="Pietro" # Pietro, son of Pietro, attested 1116.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062525
+	1053.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1062527 = {
+	name="Giovanni" # Giovanni, son of Pietro, made cardinal of Carbognano attested in 1193 and 1206.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062526
+	1115.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death=yes
+	}
+}
+1062528 = {
+	name="Oddone" # Oddone, son of Pietro, attested 1143-51
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062526
+	1099.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		death=yes
+	}
+}
+1062529 = {
+	name="Giovanni" # Giovanni, son of Oddone. made cardinal the 18th of february 1212. died in rome 3. of february 1245. Ghibeline.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062528
+	1160.1.1 = {
+		birth=yes
+	}
+	1245.2.3 = {
+		death=yes
+	}
+}
+1062530 = {
+	name="Carsidonio" # Carsidonio, son of Pietro, attested 1143-51
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062526
+	1095.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		death=yes
+	}
+}
+1062531 = {
+	name="Giordano" # Giordano, signore di colonna.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062530
+	1143.1.1 = {
+		birth=yes
+	}
+	1222.1.1 = {
+		death=yes
+	}
+}
+1062532 = {
+	name="Giacomo" # Giacomo, son of Giordano. made cardinal the 13h of march 1278.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062531
+	1210.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes
+	}
+}
+1062533 = {
+	name="Giovanni" # Giovanni. son of Giordano. married into the anguillara family? senatore di roma.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062531
+	1209.1.1 = {
+		birth=yes
+	}
+	1286.1.1 = {
+		death=yes
+	}
+}
+1062534 = {
+	name="Pietro" # Pietro, son of Giovani. made cardinal 16th of may 1288. died 14th of august 1326.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062533
+	trait=chaste
+	add_trait="martial_cleric"
+	1245.1.1 = {
+		birth=yes
+	}
+	1326.8.14 = {
+		death=yes
+	}
+}
+1062535 = {
+	name="Giacomo" # Giacomo Sciarra(loved a fight), son of Giovanni. born 2nd march 1270, died in 1329. allied with france. captured the Caetani pope in Anangi during 1303. crowned Ludwig of bavaria as emperor on behalf the roman sristrocarcy in 1328. the crown was awarded to the colonna at same occasition.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062533
+	add_trait=brave
+	add_trait=wroth
+	add_trait=greedy
+	add_trait=ambitious
+	add_trait=skilled_tactician
+	1270.3.2 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes
+	}
+}
+1062536 = {
+	name="Stefano" # Stefano,(the older), son of Giovanni. stefano(5?)inherited his brother?. attested as conte di Romagna 1288,13. of february 1290 and 17th of january 1291
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062533
+	1250.1.1 = {
+		birth=yes
+	}
+	1292.1.1 = {
+		death=yes
+	}
+}
+1062538 = {
+	name="Stefano" # Stefano, son of ? , succeded Giacomo.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062535 # specualtive
+	1290.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+1062537 = {
+	name="Oddone" # Ottone, senator of rome 1279-1280.
+	dynasty=13019
+	religion="catholic"
+	culture="laziale"
+	father=1062532
+	1235.1.1 = {
+		birth=yes
+	}
+	1286.1.1 = {
+		death=yes
+	}
+}
+#-39 reserved
+####################################
+#Di Anagi, di Segni, di Conti and di Poli families
+####################################
+##Di Conti. Signori di Anagi, conti di Segni, conti d'Valmontone e Poli.
+1062540 = {
+	name="Pedro" # Pedro first lord of Anagi.
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	1026.1.1 = {
+		birth=yes
+	}
+	1099.1.1 = {
+		death=yes
+	}
+}
+#Anagi line
+1062541 = {
+	name="Filippo" # Filippo I, son of Pedro. signore di anagi.
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	father=1062540
+	1055.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1062542 = {
+	name="Tristeno" # Tristeno son of Pedro, conte di Anagi.
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062540
+	1083.1.1 = {
+		birth=yes
+	}
+	1139.1.1 = {
+		death=yes
+	}
+}
+1062543 = {
+	name="Fillipo" # Fillipo II, son of Tristeno, conte di Anagi.
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062542
+	1117.1.1 = {
+		birth=yes
+	}
+	1165.1.1 = {
+		death=yes
+	}
+}
+1062544 = {
+	name="Matteo" # Mattia, son of Fillipo II, conte di Anagi.
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062542
+	1132.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+# Segni line
+1062545 = {
+	name="Trasimondo" # Trasimundo son of Pedro, conti di Segni 
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	father=1062540
+	1082.1.1 = {
+		birth=yes
+	}
+	1165.1.1 = {
+		death=yes
+	}
+}
+1062546 = {
+	name="Riccardo" #Riccardo, son of Trasimundo, conti di Segni, Poli e Valmontone. attested 1206.
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062545
+	1120.1.1 = {
+		birth=yes
+	}
+	1209.1.1 = {
+		death=yes
+	}
+}
+1062547 = {
+	name="Adenolfo" # Adenolfo son of Riccardo, Conti di Segni 
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062546
+	1143.1.1 = {
+		birth=yes
+	}
+	1217.1.1 = {
+		death=yes
+	}
+}
+1062548 = {
+	name="Paolo" # Paolo, son of Riccardo, conti di Poli e Valmontone
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	father=1062546
+	1158.1.1 = {
+		birth=yes
+	}
+	1231.1.1 = {
+		death=yes
+	}
+}
+1062549 = {
+	name="Giovanni" # Giovanni I son of Paolo, conti di Poli e Valmontone
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062548
+	1180.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1062550 = {
+	name="Adenolfo" # Adenolfo II, son of Giovanni, conti di Poli e Valmontone
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	father=1062549
+	1215.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes
+	}
+}
+1062551 = {
+	name="Giovanni" # Giovanni II, son of Adenolfo, conti di Poli e Valmontone
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062550
+	1250.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1062552 = {
+	name="Aldobrandino" # Aldobrandino, son of Giovanni II, conti di Poli e Valmontone
+	dynasty=8790
+	religion="catholic"
+	culture="laziale"
+	father=1062551
+	1285.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1062553 = {
+	name="Caterina" # Caterina, daughter of Giovanni II.
+	dynasty=8790 
+	religion="catholic"
+	culture="laziale"
+	father=1062551
+	female=yes
+	1295.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+#-59reserved
+####################################
+#Di Anguillara
+####################################
+#Your hovercraf is full of eels! possibly a few incositencies with the links between the members, quite a few gaps in the sources.
+1062560 = {
+	name="Ramone" # mythical dragon slaying founder of the dynasty.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	900.1.1 = {
+		birth=yes
+	}
+	960.1.1 = {
+		death=yes
+	}
+}
+1062561 = {
+	name="Bellizio" # Bellizio/Bellizone, father of Guido. conte but unspecified of what. dead bofore 1019
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062560
+	935.1.1 = {
+		birth=yes
+	}
+	1015.1.1 = {
+		death=yes
+	}
+}
+1062562 = {
+	name="Guido" # Guido, son of Bellizo. attested 1019 in anguillara. conte but unspecified of what.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062561
+	990.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+1062563 = {
+	name="Gherardo" # Gherardo, signore di Anguillara attested 1090.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062562
+	1035.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1062564 = {
+	name="Giovanni" # Giovanni, son of Gherardo, signore di Anguillara. attested 1140.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062563
+	1072.1.1 = {
+		birth=yes
+	}
+	1144.1.1 = {
+		death=yes
+	}
+}
+1062565 = {
+	name="Nicolò" # Nicolò, signore di anguillara e Tolfa(taken in 1146)
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062564
+	1100.1.1 = {
+		birth=yes
+	}
+	1175.1.1 = {
+		death=yes
+	}
+}
+1062566 = {
+	name="Pandolfo" # Pandolfo I, conte di anguilla attested 1186-91, guelph
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062565
+	1135.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes
+	}
+}
+1062567 = {
+	name="Pandolfo" # Pandolfo II, son of pandolfo I. conte di anguillara. attested 1234(captured), 1246(reinstated). Ghibeline
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062566
+	1170.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1062568 = {
+	name="Pandolfo" # Pandolfo III. conte di anguillara. Ghibeline. became podesta of Viterbo 1274. died between 1291-1294.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062567
+	1210.1.1 = {
+		birth=yes
+	}
+	1292.1.1 = {
+		death=yes
+	}
+}
+1062569 = {
+	name="Francesco" # Francesco, father of Orso, signore di Caprinica.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062568
+	1245.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+1062570 = {
+	name="Orso" # Orso, attested 1316, 1331 and 1336-1346. Son of Francesco and Costanza Orsini. Married Agnese Colonna, daughter of Stefano Colonna.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062569
+	add_trait=wroth
+	add_trait=ambitious
+	add_trait=proud	
+	1280.1.1 = {
+		birth=yes
+	}
+	1333.5.6 = {
+		add_trait=kinslayer
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1062571 = {
+	name="Pandolfo" # Pandolfo, dead before 1331. Son of Francesco and Costanza Orsini.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062569
+	1270.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1062572 = {
+	name="Francesco" # Francesco, attested 1331. Son of Francesco and Costanza Orsini.Feuded with Orso. Slain the 6th of may 1333 in an ambush setup by his brother.
+	dynasty=1000035386 
+	religion="catholic"
+	culture="laziale"
+	father=1062569
+	1282.1.1 = {
+		birth=yes
+	}
+	1333.5.6 = {
+		death={
+			death_reason=death_battle
+			killer=1062570
+		}
+	}
+}
+#73-79 used elsewhere
+#######################
+#De Ceccano, signori e conti di Ceccano, signori di Maenza e Morolo.
+1062580 = {
+	name="Gregorio" # Gregorio, signore di Ceccano, died 1104. First attested member of the family.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	1050.1.1 = {
+		birth=yes
+	}
+	1104.1.1 = {
+		death=yes
+	}
+}
+1062581 = {
+	name="Giovanni" # Giovanni, signore di Ceccano, attested 18th of june 1135, 1139
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062580
+	1083.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		death=yes
+	}
+}
+1062582 = {
+	name="Gregorio" # Gregorio, conte di Ceccano attested 1149, 1157, 1162
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062581
+	1100.1.1 = {
+		birth=yes
+	}
+	1163.1.1 = {
+		death=yes
+	}
+}
+1062583 = {
+	name="Guido" # Guido, conte di Ceccano, attested 1158. died the 7th of october 1169.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062582
+	1120.1.1 = {
+		birth=yes
+	}
+	1169.10.7 = {
+		death=yes
+	}
+}
+1062584 = {
+	name="Landolfo" # Landolfo I, conte di Ceccano. died the 16th of may 1182("his children" is mentioned but not named at the time).
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062583
+	1140.1.1 = {
+		birth=yes
+	}
+	1182.5.16 = {
+		death=yes
+	}
+}
+1062585 = {
+	name="Giordano" # Giordano, brother of Landolfo. attested 1189(was made cardinal) also abbot of Fossanova. died 1206
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062583
+	1158.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death=yes
+	}
+}
+1062586 = {
+	name="Giovanni" # Giovanni, conte di Ceccano son of Landolfo attested 1196, 1199, 1216, 1217 and 5th of april 1224(will). died before 1227. married Rogasia daughter of Pietro conte di Manopello
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062584
+	1160.1.1 = {
+		birth=yes
+	}
+	1227.1.1 = {
+		death=yes
+	}
+}
+1062587 = {
+	name="Stefano" # Stefano, son of Landolfo, cardinal and abbot of Fossanova
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062584
+	trait="scholarly_theologian"	
+	1165.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1062588 = {
+	name="Rainaldo" # Rainaldo, visconte(of Ceccano?), the way he is mentioned could indicate he was a brother or close relative of Giovanni.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062584
+	1161.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+1062589 = {
+	name="Rainaldo" # Raeled/Raeded(smudged so hard to read what it says), son of Rainaldo. attested 1209 alongside Giovanni in Ceccano.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062588
+	1188.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1062590 = {
+	name="Roberto" # Roberto, son of Rainaldo. attested 1199.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062588
+	1187.1.1 = {
+		birth=yes
+	}
+	1208.1.1 = {
+		death=yes
+	}
+}
+#
+1062591 = {
+	name="Goffredo" # Godefredo, son of ?conte di Ceccano, attested 1228.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586 # speculative
+	1177.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1062592 = {
+	name="Landolfo" # Landolfo II, son of Giovanni. conte di Ceccano. attested 1224, 1227 and 1264(his will, he died the same year)
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586
+	1187.1.1 = {
+		birth=yes
+	}
+	1264.8.1 = {
+		death=yes
+	}
+}
+1062593 = {
+	name="Tomasia" # Tomasia, daughter of Giovanni
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586
+	female=yes
+	1181.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes
+	}
+}
+1062594 = {
+	name="Adelasia" # Adelasia, daughter of Giovanni
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586
+	female=yes
+	1183.1.1 = {
+		birth=yes
+	}
+	1239.1.1 = {
+		death=yes
+	}
+}
+1062595 = {
+	name="Teobaldo" # Teobaldo, son of Giovanni. looks like he predeceased his father.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586 # speculative
+	1185.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1062596 = {
+	name="Berardo" # Berardo, son of Giovanni. attested 1224 and 1254. signore di Maenza
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062586
+	1200.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1062597 = {
+	name="Giacomo" # Giacomo de Ceccano, attested 1325. son of Annibaldo I( not Berardo I?). signore di Maenza
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062596
+	1243.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1062598 = {
+	name="Rita" # Rita, daughter of Giacomo.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062597
+	female=yes
+	1280.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+# 
+1062599 = {
+	name="Giovanni" # Giovanni, son of Landolfo II. died without issue? conte di Ceccano
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	1230.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1062600 = {
+	name="Annibaldo" # Annibaldo, second son of Landolfo II, attested 1298. died before 1310. Signore di Setino. conte di Ceccano. podesta di Sezze.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	1235.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		death=yes
+	}
+}
+1062601 = {
+	name="Guglielmo" #  Guglielmo, son of Landolfo II attested 1254, 1294, 1299, 1325. clergyman.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	1240.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1062602 = {
+	name="Riccardo" #  Riccardo, son of Landolfo II. attested 1315.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	1244.1.1 = {
+		birth=yes
+	}
+	1316.1.1 = {
+		death=yes
+	}
+}
+1062603 = {
+	name="Rainerio" #  Raniero, son of Landolfo II. attested 1264.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	1242.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes
+	}
+}
+1062604 = {
+	name="Florisinda" #  Florisinda, daughter of Landolfo II. wife of Federico di Aquino
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	female=yes
+	1248.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1062605 = {
+	name="Rogasia" #  Rogasia, daughter of Landolfo II. wife of Giovanni Colonna.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	female=yes
+	1236.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1062606 = {
+	name="Carisia" #  Carisia, daughter of Landolfo II
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	female=yes
+	1239.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		death=yes
+	}
+}
+1062607 = {
+	name="Adelasia" #  Adelasia, daughter of Landolfo II
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062592
+	female=yes
+	1244.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+#
+1062608 = {
+	name="Giovanni" # Giovanni, oldest son of Annibaldo I. attested 1278. last attested 1310. signore di Setino e conte di Ceccano. gained Frosinone and Terracina., imprisoned 1299-1301. podesta di Sezze in 1310.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062600
+	1252.1.1 = {
+		birth=yes
+	}
+	1311.1.1 = {
+		death=yes
+	}
+}
+1062609 = {
+	name="Berardo" #  Berardo II, son of Annibaldo. married Perna Caetani. conte di Ceccano.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062600
+	1265.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+1062610 = {
+	name="Annibaldo" #  Annibaldo II, son of Berardo II. cardinal, attested 1348(his will)
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062609
+	1295.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+1062611 = {
+	name="Tommasello" # Tomasio, son of Berardo II. 
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062609
+	1297.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes
+	}
+}
+1062612 = {
+	name="Niccolò" # Nicola/Niccolò, son of Berardo II. bishop of Catania 1332-1337. 
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062609
+	1299.1.1 = {
+		birth=yes
+	}
+	1337.1.1 = {
+		death=yes
+	}
+}
+1062613 = {
+	name="Giovanna" # Giovanna, daughter of Berardo II.
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062609
+	female=yes
+	1294.1.1 = {
+		birth=yes
+	}
+	1331.1.1 = {
+		death=yes
+	}
+}
+1062614 = {
+	name="Goffredo" # Goffredo, son of Berardo II. married Maria di Supino. conte di Ceccano
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062609
+	1293.1.1 = {
+		birth=yes
+	}
+	1311.1.1 = {
+	    add_spouse = 1062630
+	}
+	1355.1.1 = {
+		death=yes
+	}
+}
+1062615 = {
+	name="Tommasello" # Tommasello/Tommaso IV, son of Goffredo and Maria di Supino. conte di Ceccano, attested 1346 in 12th of august 1363
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062614
+	mother=1062630
+	1315.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1062616 = {
+	name="Cecco" #  Cecco di Ceccano, attested 1359 and 1361
+	dynasty=1000035387 
+	religion="catholic"
+	culture="laziale"
+	father=1062615 #?
+	1335.1.1 = {
+		birth=yes
+	}
+	1375.1.1 = {
+		death=yes
+	}
+}
+#-19 reserved
+#######################
+#di Supino. Signori  e conti di Supino/Suppino, cadetbranch of the counts of Ceccano. Later they were closely allied with the Colonna.
+1062620 = {
+	name="Rinaldo" #  Rinaldo di Ceccano. son of Gregorio il vecchio da Ceccano. attested 1128. First lord of Supino.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062580
+	1088.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+1062621 = {
+	name="Giovanni" # Giovanni, di Supino attested 1168
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062620 #Speculative
+	1120.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		death=yes
+	}
+}
+1062622 = {
+	name="Tommasello" # Tommasso di Supino, attested 1216. fought the counts of Ceccano.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062621 #Speculative
+	1155.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes
+	}
+}
+1062623 = {
+	name="Riccardo" # Riccardo, son of Tommasso. attested 1227
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062622
+	1175.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1062624 = {
+	name="Bartolommeo" # Bartolommeo di Supino, attested 1229. signore di s. Giovanni in carrico.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062622 # speculative
+	1177.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1062625 = {
+	name="Maria" # Maria, daughter of Riccardo. married Francesco Caetani. she must have died a while before 1295 when her husband became cardinal.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062623
+	female=yes
+	1235.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1062626 = {
+	name="Rinaldo" # Rinaldo di Supino, son of Riccardo. attested 1249(as signor di Supino), 1251 february 1st(as conte di Romagna), 1266(back in Supino) and 1303(supported Sciarra Colonna against the Anagi in battle), 1304 and 1312.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062623
+	1225.1.1 = {
+		birth=yes
+	}
+	1312.1.1 = {
+		death=yes
+	}
+}
+1062627 = {
+	name="Balduino" # Balduino de Supino, son of Riccardo attested 1263 and 1266
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062623
+	1240.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1062628 = {
+	name="Adenolfo" # Adenolfo/Adinolfo di Supino. archbishop of Brindisi from the 23th of may 1288 to the 1st of october 1295.
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062623
+	1242.1.1 = {
+		birth=yes
+	}
+	1295.10.1 = {
+		death=yes
+	}
+}
+1062629 = {
+	name="Roberto" # Roberto, son of Rinaldo. attested 1303 and 1322(as signore di Supino)
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062626
+	1260.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1062630 = {
+	name="Maria" # Maria di Supino, daughter of Roberto?, married Goffredo di Ceccano
+	dynasty=1000035411 
+	religion="catholic"
+	culture="laziale"
+	father=1062629 # spcualtive
+	female=yes
+	1290.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+#Nanna di Supino, married Fabrizio colonna. attested 1385.
+######################
+#Caetani, conti di Caserta e Fondi
+#Roffredo, conte di Caserta.
+#Francesco Caetani, cardinal attested 1295(as caridnal), 1308, 1312 and 1317. had been married to Maria di Supino earlier. 
+######################
+#Annibaldi signori di Molara

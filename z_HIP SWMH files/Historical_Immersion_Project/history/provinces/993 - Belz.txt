@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 993 - Belz
+
+# County Title
+title = c_belz
+
+# Settlements
+max_settlements = 5
+
+b_belz = tribal
+b_cherven = city
+#b_lubaczow = temple
+#b_szcerbrzeszyn = castle
+#b_volyn = city
+#b_sokal = castle
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+989.1.1 = { religion = orthodox }
+1001.1.1 = {
+	b_belz = castle
+	b_lubaczow = temple
+}
+1170.1.1 = { b_szcerbrzeszyn = castle }
+1289.1.1 = { remove_settlement = b_cherven }

@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 956 - Sangarios
+
+# County Title
+title = c_sangarios
+
+# Settlements
+max_settlements = 3
+
+b_kibaia = castle
+b_thebasion = city
+b_bilekomis = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+
+1265.1.1 = { culture = turkish }
+1265.1.1 = { religion = sunni }
+1265.1.1 = { b_thebasion = castle }
+1265.1.1 = { b_bilekomis = city }
+1265.1.1 = { capital = b_thebasion }

@@ -1,0 +1,30 @@
+# 126 - Nordgau
+
+# County Title
+title = c_nordgau
+
+# Settlements
+max_settlements = 5
+
+b_andlau = castle
+b_strassburg = temple
+
+#b_hagenau = city
+#b_schlettstadt = city
+#b_werd = castle 
+
+#b_molsheim = city 
+#b_ville = castle
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1164.1.1 = { b_hagenau = city }
+1170.1.1 = { culture = german }
+1189.1.1 = { b_werd = castle }
+1216.1.1 = { b_schlettstadt = city }
+
+
+

@@ -1,0 +1,29 @@
+# 362 - Domazlice
+
+# County Title
+title = c_domazlice
+
+# Settlements
+max_settlements = 6
+b_doudleby = castle
+b_pisek = city 
+
+#b_milevsko = temple 
+#b_rosenberg = castle 
+#b_budweis = city 
+#b_vyssi_brod = temple 
+
+#b_landstejn = castle 
+
+# Misc
+
+culture = bohemian
+religion = slavic_pagan
+
+# History
+883.1.1 = { religion = catholic }
+1187.1.1 = { b_milevsko = temple }
+1225.1.1 = { b_rosenberg = castle }
+#1254.1.1 = { culture = german } partially settled
+1259.1.1 = { b_vyssi_brod = temple }
+1265.1.1 = { b_budweis = city }

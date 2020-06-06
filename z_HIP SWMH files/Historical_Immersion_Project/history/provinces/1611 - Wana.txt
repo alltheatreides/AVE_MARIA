@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1611 - Wana (Bori)
+
+# County Title
+title = c_wana
+
+# Settlements
+max_settlements = 3
+b_kushk = castle
+b_asfanjay = city
+
+#b_bori = castle
+
+# Misc
+culture = panjabi
+religion = hindu
+
+# History
+960.1.1 = {	religion = sunni }
+1000.1.1 = {	culture = afghan }

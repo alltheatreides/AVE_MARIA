@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 1259 - Chrysopolis
+
+# County Title
+title = c_chrysopolis
+
+# Settlements
+max_settlements = 3
+
+b_chrysopolis = castle
+b_chalkedon = temple 
+b_hieria = city
+
+#b_kartalimen = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1194.1.1 = { trade_post = b_spinola }
+#4th Crusade
+
+1203.4.16= { remove_settlement = b_hieria }
+
+1257.1.1 = { b_kartalimen = city } 
+
+1348.1.1 = { culture = turkish }
+1348.1.1 = { religion = sunni }

@@ -1,0 +1,19 @@
+name = "Umayyad-Tujibid Vassalization War"
+
+casus_belli = {
+	actor = 3200 # Abd al-Rahman III of Cordoba
+	recipient = 73843 # Muhammad II Tujibid
+	casus_belli=force_vassalization
+	landed_title=d_zaragoza
+	date=935.1.1
+}
+
+935.1.1 = {
+	add_attacker = 3200
+	add_defender = 73843
+}
+
+937.1.1 = {
+	rem_attacker = 3200
+	rem_defender = 73843
+}

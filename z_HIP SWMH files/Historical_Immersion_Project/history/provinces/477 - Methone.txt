@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 477 - Methone
+
+# County Title
+title = c_methone
+
+# Settlements
+max_settlements = 3
+
+b_kalamata = castle
+
+b_modon = city
+b_coron = temple
+
+#b_methonearkadia = castle
+#b_androusa = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+1112.1.1 = { trade_post = b_morosini }
+
+
+# 4th crusade: to Venice
+
+
+

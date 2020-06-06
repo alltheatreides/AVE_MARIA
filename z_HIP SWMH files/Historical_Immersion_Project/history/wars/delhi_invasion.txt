@@ -1,0 +1,29 @@
+# -*- ck2.history.wars -*-
+
+name = "Tomara Holy War for Lahore"
+
+casus_belli = {
+	actor = 170173
+	recipient = 144128
+	casus_belli=religious
+	landed_title=d_lahore
+	date=1043.1.1
+}
+
+1043.1.1 = {
+	add_attacker = 170173 #Raja of Delhi
+	add_attacker = 188184 #Bhoja Paramara, a possible participant
+	#add_attacker = 188414 #?
+	add_attacker = 247661 #Raja of Kangra
+	#add_attacker = 247494 #?
+	add_defender = 144128
+}
+
+1049.1.1 = {
+	rem_attacker = 170173
+	rem_attacker = 188184
+	#rem_attacker = 188414 #?
+	rem_attacker = 247661
+	#rem_attacker = 247494 #?
+	rem_defender = 144128
+}

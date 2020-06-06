@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1128 - Segni
+
+# County Title
+title = c_segni
+
+# Settlements
+max_settlements = 4
+
+b_segni = castle
+b_terracina = city
+b_piperno = temple
+#b_anagni = castle
+#b_sezze = city
+#b_maenza = castle
+
+# Misc
+culture = laziale
+religion = catholic
+terrain = plains
+# History
+1042.1.1 = { b_anagni = castle }
+1106.1.1 = { trade_post = b_dappiano }
+1285.1.1 = { trade_post = b_doria }

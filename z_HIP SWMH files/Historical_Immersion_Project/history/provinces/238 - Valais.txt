@@ -1,0 +1,25 @@
+# 238 - Valais
+
+# County Title
+title = c_valais
+
+# Settlements
+max_settlements = 4
+
+b_sitten = temple
+b_gestelnburg = castle # von Turn
+b_leuk = city
+#b_raron = castle
+#b_visp = city
+#b_grengiols = castle
+#b_ayent = castle
+
+
+# Misc
+culture = arpitan 
+religion = catholic
+
+# History
+1150.1.1 = { b_raron = castle }
+1200.1.1 = { culture = german }
+1256.1.1 = { b_leuk = city }

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 486 - Chios
+
+# County Title
+title = c_chios
+
+# Settlements
+max_settlements = 3
+
+b_kastrochios = castle
+b_chios = city
+b_samos = city
+
+#b_neamoni = temple
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+1234.1.1 = { trade_post = b_dandolo }

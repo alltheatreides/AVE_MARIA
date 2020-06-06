@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 683 - Amida
+
+# County Title
+title = c_amida
+
+# Settlements
+max_settlements = 3
+
+b_kiaburc = castle
+b_amida = city
+b_ulucamii = temple
+
+#b_suraamede = castle
+#b_egil = city
+#b_hazretisuleymancamii = temple
+#b_idtodyolataloho = temple
+
+
+
+# Misc
+culture = assyrian
+religion = syriac
+
+# History

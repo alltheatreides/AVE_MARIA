@@ -1,0 +1,19 @@
+# County Title
+title = c_gilgit
+
+# Settlements
+max_settlements = 3
+
+b_gilgit = castle
+b_danyor = city
+# b_minawar =
+# b_pahot =
+# b_chatorkhand =
+# b_barjangle =
+
+# Misc
+culture = panjabi #Shina culture
+religion = buddhist
+
+# History
+1215.1.1 = { religion = sunni }

@@ -1,0 +1,27 @@
+# 1966 - Abensberg
+
+# County Title
+title = c_abensberg
+
+# Settlements
+max_settlements = 5
+
+b_vohburg = castle
+b_regensburg = temple
+b_sankt_emmeran = temple
+
+#b_landshut = city
+#b_abensberg = castle 
+
+#b_rottenburg = castle
+#b_moosburg = castle
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+#1055.1.1 = { b_moosburg = castle }
+1100.1.1 = { b_abensberg = castle }
+1170.1.1 = { culture = german }
+1204.1.1 = { b_landshut = city }

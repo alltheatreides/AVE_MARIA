@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 911 - Timbuktu
+
+# County Title
+title = c_timbuktu
+
+# Settlements
+max_settlements = 6
+b_tirakka = tribal
+#b_safanqu = city
+b_sankore = temple
+
+#b_kouga = castle
+#b_timbuktu = castle
+#b_ras_el_ma = castle
+
+# Misc
+culture = songhay
+religion = west_african_pagan
+
+# History
+
+#berber colonization - most likely the Massufa, whom Ibn Battuta describes as the main population when he visited
+1060.1.1 = { 
+	culture = tagelmust
+}
+1090.1.1 = { religion = sunni }
+1267.5.1 = {
+	b_tirakka = castle
+	b_timbuktu = city
+	#capital = b_timbuktu
+	#b_tirakka = city
+}
+

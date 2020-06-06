@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1100 - Raumrike
+
+# County Title
+title = c_raumrike
+
+# Settlements
+max_settlements = 3
+
+b_eidsvoll = tribal # Eiðsvellir
+#b_kongsvinger = city # Vingr
+#b_soerum = castle # Suðrheimr
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1018.1.1 = { religion = catholic }
+1024.1.1 = { b_eidsvoll = castle
+b_kongsvinger = city } # Fat Olav 
+1035.1.1 = { culture = norwegian } 
+1200.1.1 = { b_soerum = castle } 
+
+
+

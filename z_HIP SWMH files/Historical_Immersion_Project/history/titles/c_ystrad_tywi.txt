@@ -1,0 +1,182 @@
+# -*- ck2.history.titles -*-
+
+# Vanilla 15/08/2013 county Dyfed
+360.1.1 = {
+	holder = 159807 # Macsen Wledig
+}
+380.1.1 = {
+	holder = 159808 # Annwn Dynod
+}
+428.1.1 = {
+	holder = 159816 # Ednyfed ap Annwn
+}
+431.1.1 = {
+	holder = 159817 # Glotguin ap Ednyfed
+}
+451.1.1 = {
+	holder = 159818 # Clotri
+}
+471.1.1 = {
+	holder = 159819 # Maelgwn
+}
+475.1.1 = {
+	holder = 159322 # Aircol Lawhir
+}
+495.1.1 = {
+	holder = 159324 # Gwerthefyr
+}
+540.1.1 = {
+	holder = 159340 # Cyngar
+}
+570.1.1 = {
+	holder = 159341 # Pedr
+}
+595.1.1 = {
+	holder = 159342 # Arthwyr
+}
+620.1.1 = {
+	holder = 159343 # Nowy Hen
+}
+650.1.1 = {
+	holder = 159344 # Cloten
+}
+670.1.1 = {
+	holder = 159345 # Cathen
+}
+690.1.1 = {
+	holder = 159346 # Cadwgan Tredylig
+}
+710.1.1 = {
+	holder = 159347 # Rhain
+}
+730.1.1 = {
+	holder = 159349 # Maredudd ap Tewdos
+}
+770.1.1 = {
+    holder = 159806 #Dyfnwal ab Arthwyr
+}
+818.1.1 = {
+    holder = 159800 #Meurig ap Dyfnwal
+}
+840.1.1 = {
+    holder = 159801 #Gwgan ap Meurig
+}
+867.1.1 = {
+    holder = 159353 # Hyfaidd ap Bledrig
+}
+890.1.1 = {
+    holder = 159361 # Rhodri ap Hyfaidd
+}
+893.1.1 = {
+    holder = 159354 # Llywarch ap Hyfaidd
+}
+904.1.1 = {
+	holder = 81823 #Hywel Dda
+}
+909.1.1 = {
+	law = agnatic_succession
+	law = succ_elective_gavelkind
+	liege = d_deheubarth
+}
+950.1.1 = {
+	holder = 81822 #Owain ap Hywel
+}
+986.1.1 = {
+	holder = 81821 #Maredudd ap Owain
+}
+999.1.1 = {
+	holder = 159001 #Cynan ap Hywel (Gwynedd)
+}
+1005.1.1 = {
+	holder = 138492 #Edwin ap Einion
+}
+1018.1.1 = {
+    holder = 1228334 # Rhain the Irish
+}
+1022.1.1 = {
+	holder = 40500 #Llywelyn ap Seisyll
+}
+1023.1.1 = {
+	holder = 81863 #Rhydderch ap Iestyn
+}
+1033.1.1 = {
+	holder = 1228318 #Hywel ap Edwin
+}
+1044.1.1 = {
+	holder = 81862 # Gruffydd ap Rhydderch
+}
+1055.1.1 = {
+	holder = 40502 #Gruffydd ap Llywelyn King of Wales
+}
+1064.1.1 = {
+    holder = 81815 # Rhys ap Owain ap Edwin
+}
+1078.1.1 = {
+    holder = 81816 # Rhys ap Tewdwr
+}
+1093.4.1 = {
+    liege = k_england
+}
+1093.4.1 = {
+    holder = 41262 # William FitzBaldwin
+}
+1096.1.1 = {
+    holder = 1228327 # Rhydygors Castle abandoned
+}
+1106.1.1 = {
+    holder = 1230877 # Hywel assassinated, Cantref Bychan granted to Richard FitzPons some time before 1116
+}
+1129.1.1 = {
+    holder = 1230878 # Walter Clifford
+}
+1136.4.15 = {
+    liege = d_deheubarth
+}
+1136.4.15 = {
+    holder = 214810 # The Welsh revolt of 1136, the Welsh overran Cantref Mawr, Cantref Bychan, and Carmarthen
+}
+1137.1.1 = {
+    holder = 138498 # Anarawd ap Gruffyd
+}
+1143.1.1 = {
+    holder = 138500 # Cadell ap Gruffyd
+}
+1153.1.1 = {
+    holder = 81814 # Maredudd ap Gruffyd
+}
+1157.1.1 = {
+    holder = 214800 # Rhys ap Gruffyd
+}
+1197.4.28 = {
+    liege = d_gwynedd
+}
+1197.4.28 = {
+    holder = 214803 # Gruffydd ap Rhys
+}
+1201.8.1 = {
+    holder = 214804 # Rhys Gryg
+}
+1234.1.1 = {
+    holder = 1228322 # Rhys Mechyll
+}
+1244.1.1 = {
+    holder = 1228323 # Rhys Fychan
+}
+1271.1.1 = {
+    holder = 1228324 # Rhys Wyndod
+}
+1277.9.29 = {
+    liege = k_england # Treaty of Aberconwy
+}
+1277.9.29 = {
+    holder = 454520 # Edward I Longshanks
+}
+1307.7.7 = {
+    holder = 454510 # Edward II of England
+}
+1327.2.1 = {
+    holder = 454500 # Edward III
+}
+1337.1.1 = {
+    holder = 454501
+}

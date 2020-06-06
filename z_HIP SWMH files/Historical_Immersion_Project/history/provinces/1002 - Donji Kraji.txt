@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1002 - Donji Kraji
+
+# County Title
+title = c_donjikraji
+
+# Settlements
+max_settlements = 3
+
+b_jajce = castle
+b_greben_castle = castle
+#b_bjelaj = city
+
+ 
+# Misc
+culture = bosnian
+religion = catholic
+
+
+# History
+
+1232.1.1= { religion = bogomilist } 

@@ -1,0 +1,120 @@
+# -*- ck2.dynasties -*-
+
+######################################
+#New Khavar Dynasties
+######################################
+#
+#
+######################################
+#Proper dynasties
+#Range 1000090100-1000090199
+######################################
+
+# Copies of Khazar dynasties that either have no characters associated with them or have only fictional characters associated with them
+1000090100 = {
+	name = "Khwaliz"
+	culture = khavar
+}
+1000090101 = {
+	name = "Baranjar"
+	culture = khavar
+}
+1000090102 = {
+	name = "Vakrimal"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090103 = {
+	name = "Samsamakh"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090104 = {
+	name = "Karadakhu"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090105 = {
+	name = "Yabghumakh"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090106 = {
+	name = "Hekel"
+	culture = khavar
+	religion = jewish
+}
+1000090107 = {
+	name = "Bulçir"
+	culture = khavar
+	religion = jewish
+}
+1000090108 = {
+	name = "Ryn"
+	culture = khavar
+	religion = jewish
+}
+1000090109 = {
+	name = "Azovi"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090110 = {
+	name = "Sugren"
+	culture = khavar
+	religion = tengri_pagan
+}
+1000090111 = {
+	name = "Sarek"
+	culture = khavar
+	religion = jewish
+}
+
+# Turk-ified copies of Old Hungarian dynasties that are actually Khavar names
+1000090112 = {
+	name = "Tarkhan"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090113 = {
+	name = "Beren"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090114 = {
+	name = "Kaliz"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090115 = {
+	name = "Sag"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090116 = {
+	name = "Uz"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090117 = {
+	name = "Örs"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090118 = { # Fictional dynasty whose leader supposedly lead some Khavars to the Rus' after being exiled from the rebellion against the Khazars
+	name = "Dyggvi"
+	culture = khavar
+	religion = tengri_pagan
+}
+
+1000090119 = { # Supposed clan name of the Khavar author of the Mihai Viteazu inscription
+	name = "Kür"
+	culture = khavar
+	religion = jewish
+}

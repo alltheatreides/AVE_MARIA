@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 543 - Oleshye
+
+# County Title
+title = c_oleshye
+
+# Settlements
+max_settlements = 2
+b_oleshye = tribal
+#b_orlik_pervomaisk = castle
+
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1190.1.1 = { trade_post = b_grimaldi } 
+

@@ -1,0 +1,16 @@
+#Cinque Ports family
+1066.10.14 = {
+	holding_dynasty = 1000100170 # de Magminot - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066930 # Gilbert II de Magminot
+}
+1101.1.1 = {
+	holder = 1066931 #Hugh de Magminot
+}
+1137.1.1 = {
+	holder = 1066932 #Walkelin de Magminot
+}
+1191.1.1 = {
+	holder = 0
+	liege=0
+}

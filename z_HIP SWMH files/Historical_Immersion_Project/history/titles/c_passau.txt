@@ -1,0 +1,104 @@
+# -*- ck2.history.titles -*-
+
+751.1.1 = {
+	liege = k_bavaria
+	holder = 190367 # Anniulf
+}
+788.1.1 = {
+	holder = 6392 # Charlemagne
+}
+814.1.28 = {
+	holder = 30227 # Lothair I
+}
+817.7.1 = {
+	holder = 90095 # Louis I the Pious
+}
+829.1.1 = {
+	holder = 90107 # Louis II the German
+}
+864.1.1 = {
+	holder = 42018 # Carloman
+}
+867.1.1 = {
+	holder = 167802 # Aribo
+}
+880.9.29 = {
+	holder = 42019 # Louis III the Younger
+}
+882.1.20 = {
+	holder = 90105 # Charles II the Fat
+}
+887.11.27 = {
+	holder = 7945 # Arnulf of Carinthia
+}
+895.1.1 = {
+	liege = d_bavaria
+	holder = 7969
+}
+899.12.8 = {
+	holder = 7949 # Louis IV the Child
+}
+907.7.4 = {
+	holder = 10097
+}
+936.1.1 = {
+	holder = 1605514 # Udalrich von Formbach
+}
+986.1.1 = {
+	holder = 1228471 # Berthold I von Formbach
+}
+1005.1.1 = {
+	holder = 30210 # Thiemo I von Formbach
+}
+1050.3.7 = {
+	holder = 1228403 # Ekbert I von Formbach
+}
+1078.1.1 = {
+	holder = 31666 # Ulrich von Rapotonen, Only Burggrave of the shortlived Burggraviate of Passau between 1078-1099
+}
+1099.2.24 = {
+	holder = 1228403 # Ekbert I von Formbach
+}
+1109.8.17 = {
+	holder = 1228405 # Ekbert II von Formbach
+}
+1144.11.24 = {
+	holder = 1228406 # Ekbert III von Formbach, last count of Formbach
+}
+1158.8.5 = {
+	holder = 212930 # Berthold III von Andechs, inherited part of the Formbach lands
+}
+# The von Andechs family is raised to the status of Margraves
+1173.1.28 = {
+	liege = d_krain
+}
+# The von Andechs family is raised to the status of Dukes
+1188.11.14 = {
+	liege = d_merania
+	holder = 212932 # Berthold IV von Andechs
+}
+1204.8.12 = {
+	holder = 212945 # Otto von Andechs
+}
+1234.5.7 = {
+	holder = 7684 # Otto von Andechs
+}
+#Falls to the Dukes of Bavaria
+1248.1.1 = {
+	liege = d_bavaria
+	holder = 462756
+}
+# First division of Bavaria into Lower and Upper Bavaria
+1253.11.29 = {
+	liege = d_niederbayern
+	holder = 462757 # Heinrich von Wittelsbach, Duke of Lower Bavaria
+}
+1290.2.3 = {
+	holder = 98009 # Otto von Wittelsbach, Duke of Lower Bavaria, later King of Hungary
+}
+1305.12.6 = {
+	holder = 462758 # Stefan von Wittelsbach, Duke of Lower Bavaria
+}
+1310.12.10 = {
+	holder = 462760 # Heinrich XIV von Wittelsbach, Duke of Lower Bavaria
+}

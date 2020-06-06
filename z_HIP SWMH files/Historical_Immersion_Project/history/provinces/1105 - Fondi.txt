@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1105 - Fondi
+
+# County Title
+title = c_fondi
+
+# Settlements
+max_settlements = 4
+
+b_fondi = castle
+b_gaeta = city
+#b_itri = castle
+#b_caleno = castle
+
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = plains
+# History
+1060.1.1={ culture = laziale religion = catholic }
+

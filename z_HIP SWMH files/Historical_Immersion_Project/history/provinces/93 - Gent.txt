@@ -1,0 +1,26 @@
+# 93 - Gent
+
+# County Title
+title = c_gent
+
+# Settlements
+max_settlements = 6
+
+b_gravensteencastle = castle
+b_gent = city
+b_saintbavo = temple
+b_deinze = castle 
+
+#b_kortrijk = city 
+#b_beveren = castle 
+
+#b_bornem = castle 
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+965.1.1= { b_beveren = castle } 
+1150.1.1 = { culture = dutch }
+1190.1.1= { b_kortrijk = city } 

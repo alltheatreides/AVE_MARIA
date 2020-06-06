@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 729 - Al-Sukhnah #Former Tadmor
+
+# County Title
+title = c_tadmor
+
+# Settlements
+max_settlements = 5
+b_jarjaraya = castle
+b_numaniya = city
+b_jamiayn = temple
+b_annil = city
+#b_hillah = castle
+
+#b_birmallaha = city
+
+# Misc
+culture = levantine_arabic
+religion = shiite
+
+# History
+
+1102.1.1 = {
+	b_hillah = castle
+	capital = b_hillah
+}
+1200.1.1 = { remove_settlement = b_jarjaraya } #abandoned by the time Yaqut was writing in early 13th century

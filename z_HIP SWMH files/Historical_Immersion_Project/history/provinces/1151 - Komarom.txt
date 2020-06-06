@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1151 - Komarom
+
+# County Title
+title = c_komarom
+
+# Settlements
+max_settlements = 2
+
+
+b_komarom = tribal
+#b_szony = castle
+#b_tatahungary = temple
+#b_guta = temple
+#b_nyarhid = city
+
+# Misc
+culture = slovieni
+religion = catholic 
+
+# History
+950.1.1 = { 
+	culture = old_hungarian 
+	religion = tengri_pagan 
+}
+1015.1.1 = { 
+	b_komarom = castle
+	religion = catholic
+	culture = hungarian
+}
+
+

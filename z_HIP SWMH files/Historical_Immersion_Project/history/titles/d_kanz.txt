@@ -1,0 +1,61 @@
+# -*- ck2.history.titles -*-
+
+#988.1.1 = {
+#	liege = k_egypt
+#	holder = 1236252
+#}
+1007.1.1 = {
+	#liege = k_egypt
+	set_tribute_suzerain = {
+		who = e_egypt
+		type = permanent
+	}
+	holder = 1236250
+}
+1042.1.1 = {
+	holder = 1300202
+}
+1055.1.1 = {
+	holder = 1236249
+}
+1067.1.1 = { #Banu Kanz disobedient to the Fatimids following the commotion in Cairo
+	clear_tribute_suzerain = e_egypt
+}
+1077.1.1 = { #1076-1077 Badr al-Jamali's expedition against Banu Kanz
+	set_tribute_suzerain = {
+		who = e_egypt
+		type = permanent
+	}
+	holder = 1236248
+}
+1110.1.1 = {
+	holder = 1236247
+}
+1158.1.1 = {
+	holder = 1236246
+}
+1171.1.1 = {
+	#liege = 0
+	clear_tribute_suzerain = e_egypt
+}
+1174.5.1 = { #al-'Adil Sayf al-Din's expedition against Banu Kanz
+	holder = 0
+}
+1195.1.1 = { #?
+	holder = 1236245
+}
+1233.1.1 = {
+	holder = 1236244
+}
+1266.1.1 = {
+	holder = 1236243
+}
+1297.1.1 = {
+	holder = 34987
+}
+1315.1.1 = { #chief of Banu Kanz by 1317
+	holder = 34988
+}
+1333.1.1 = {
+	holder = 1236253
+}

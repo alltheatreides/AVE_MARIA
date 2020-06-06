@@ -1,0 +1,144 @@
+# -*- ck2.history.titles -*-
+
+330.1.1 = {
+	liege = d_opsikon
+}
+855.1.1 = {
+	holder = 1232135
+}
+933.1.1 = {
+	holder = 145223 # Stephanos Lekapenos, placeholder of Opsikion
+}
+950.1.1 = {
+	holder = 1500512 # Romanos Mosele
+}
+989.1.1 = {
+	holder = 1500449 # Nikephoros Ouranos, on the rise before being appointed to Domestikos between 996-999. Lets placeholder extend his term as Domestikos
+}
+995.6.1 = {
+	holder = 1500379 # Konstantinos, Strategos of Opsikion, Anthypatos and Patrikios. Made Konstantinos Hexamilites into a placeholder for this Konstantinos. Hexamilites was also a known Strategos
+}
+1018.1.1 = {
+	holder = 1500388
+}
+1026.1.1 = {
+	holder = 1500319
+}
+1038.1.1 = {
+	holder = 41536
+}
+1047.1.1 = {
+	holder = 1232294
+}
+1055.1.1 = {
+	holder = 20463
+}
+1060.1.1 = {
+	holder = 20526
+}
+1074.1.1 = {
+	liege = d_armeniacon
+	holder = 34220
+}
+1074.7.1 = {
+	liege = d_opsikon
+	holder = 20526
+}
+1078.1.1 = {
+	liege = d_anatolia
+	holder = 1740
+}
+# The Seljuks
+1078.3.31 = {
+	liege = k_rum
+	holder = 3046
+}
+1086.1.1 = {
+	holder = 1232645
+}
+1092.1.1 = {
+	holder = 41701
+}
+1107.1.1 = {
+	holder = 144011
+}
+1116.1.1 = {
+	holder = 7299
+}
+1119.1.1 = {
+	liege = e_byzantium
+	holder = 232507
+}
+1122.1.1 = {
+	holder = 232510
+}
+1142.1.1 = {
+	holder = 223023
+}
+1143.10.1 = {
+	holder = 1232650
+}
+1160.1.1 = {
+	holder = 232508
+}
+1167.1.1 = {
+	holder = 1232250
+}
+1176.1.1 = {
+	holder = 34409
+}
+# battle of Myriokephalon
+# to Seljuk Rum
+1176.9.17 = {
+	liege = k_rum
+	holder = 225000
+}
+#### Kilij Arslan II divides his realm amongst his sons, Melik or Ghiyath-al-Din Kay-Khusraw gets Burghlu/Sozopolis
+1187.1.1 = {
+	holder = 225002 # Kaykhusraw Seljuq
+}
+#### Sulaymanshah captures Konya and forces Kaykhusraw into exile in Constantinople
+1196.1.1 = {
+	de_jure_liege = d_germiyan
+	holder = 225004 # Sulayman Seljuq
+}
+1204.7.6 = {
+	holder = 34187
+}
+1205.1.1 = {
+	holder = 225002
+}
+1211.1.1 = {
+	holder = 34188
+}
+1220.1.1 = {
+	holder = 34189
+}
+1237.1.1 = {
+	holder = 34190
+}
+1246.1.1 = {
+	holder = 34191
+}
+1248.1.1 = {
+	holder = 34192
+}
+1249.1.1 = {
+	holder = 34193
+}
+1257.1.1 = {
+	holder = 34192
+}
+1265.1.1 = {
+	holder = 34194
+}
+# To Germiyan
+1277.1.1 = {
+	holder = 71867
+}
+1299.1.1 = {
+	liege = d_germiyan
+}
+1327.1.1 = {
+	holder = 71868
+}

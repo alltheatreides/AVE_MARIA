@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1979 - Kahlur
+
+# County Title
+title = c_kangra
+
+# Settlements
+max_settlements = 4
+b_kahlur = castle
+b_chamba = city
+b_bharmour = temple
+#b_kullu = {
+#b_pancapura = castle
+#b_shimla = city
+
+# Misc
+culture = panjabi
+religion = buddhist
+
+# History
+810.1.1 = {
+	religion = hindu
+}#Influence of Hinduism speaks in Uttaranchal by Adi Shankara and decreases adherents to Buddhism

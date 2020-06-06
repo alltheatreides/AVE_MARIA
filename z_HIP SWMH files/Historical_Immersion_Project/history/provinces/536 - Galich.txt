@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 536 - Galich
+
+# County Title
+title = c_galich
+
+# Settlements
+max_settlements = 6
+
+b_halych = tribal
+#b_khotynchernivstskij = tribal # Khotyn/Hotin
+#b_cernauti = city
+#b_dolyna = city
+#b_tysmenytsya = temple
+#b_kolomyya = castle
+#b_horod = castle
+#b_vashkivtsi = city
+#b_stryj = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1054.2.20 = {religion = orthodox }
+1054.2.20 = {b_halych = castle
+b_dolyna = city
+b_khotynchernivstskij = castle }
+1187.1.1 = { b_cernauti = city }
+

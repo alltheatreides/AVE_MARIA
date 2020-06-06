@@ -1,0 +1,26 @@
+# 115 - Luxembourg
+
+# County Title
+title = c_luxembourg
+
+# Settlements
+max_settlements = 5
+b_luxembourg = castle
+b_echternach = temple
+b_thionville = city
+
+#b_bitburg = city 
+#b_manderscheid = castle
+
+#b_bourscheid = castle
+#b_fels = castle
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+#1122.1.1 = { b_bourscheid = castle }
+1133.1.1 = { b_manderscheid = castle }
+1170.1.1 = { culture = german }
+1267.1.1 = { b_bitburg = city }

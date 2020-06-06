@@ -1,0 +1,26 @@
+# 129 - Verdun
+
+# County Title
+title = c_verdun
+
+# Settlements
+max_settlements = 5
+
+b_briey = castle 
+b_verdun = temple
+b_saintmithiel = temple
+
+#b_lisle-en-barrois = temple
+#b_gorcy = castle 
+
+#b_clermont_en_argonne = castle 
+#b_stenay = castle 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+990.1.1 = { capital = b_verdun }
+1140.1.1 = { b_lisle-en-barrois = temple }
+1270.1.1 = { b_gorcy = castle } 

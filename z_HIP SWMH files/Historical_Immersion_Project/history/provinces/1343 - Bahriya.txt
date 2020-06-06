@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1343 - Bahriya
+
+# County Title
+title = c_bahriya
+
+# Settlements
+max_settlements = 2
+b_bahriya = tribal
+
+#b_alsaqya = city
+
+# Misc
+culture = zanata
+religion = miaphysite
+
+# History
+
+1030.1.1 = { culture = bedouin_arabic }
+1171.1.1 = { culture = egyptian_arabic religion = sunni } 

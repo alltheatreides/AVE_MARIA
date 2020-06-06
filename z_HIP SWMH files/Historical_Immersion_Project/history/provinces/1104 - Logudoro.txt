@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1104 - Logudoro
+
+# County Title
+title = c_logudoro
+
+# Settlements
+
+max_settlements = 5
+b_ardara = castle
+b_portotorres = temple
+b_alghero = city
+#b_bosa = castle
+#b_sassari = city
+#b_osilio = castle
+
+# Misc
+culture = sardinian
+religion = catholic
+terrain = hills
+
+# History
+1005.1.1 = { trade_post = b_visconti }
+1102.1.1 = { b_bosa = castle}
+1160.1.1 = { b_sassari = city}
+1205.1.1 = { b_alghero = castle}
+1259.1.1 = { capital = b_alghero}
+1285.1.1 = { trade_post = b_grimaldi }
+1324.1.1 = { capital = b_bosa }

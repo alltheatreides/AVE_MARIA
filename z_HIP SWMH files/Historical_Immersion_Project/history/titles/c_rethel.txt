@@ -1,0 +1,82 @@
+# -*- ck2.history.titles -*-
+
+# Carolingian house of Vermandois
+687.1.1 = {
+	holder = 131720
+}
+714.1.17 = {
+	holder = 131721
+}
+834.1.1 = {
+	liege = k_france
+	holder = 6398 # Pépin
+}
+892.1.1 = {
+	holder = 6400 # Herbert I
+}
+907.1.1 = {
+	holder = 6402 # Herbert II
+}
+943.1.1 = {
+	holder = 412 # Albert I
+}
+987.1.1 = {
+	holder = 414 # Albert II
+}
+1000.10.18 = {
+	holder = 416 # Otton de Vermandois
+}
+#Maison de Rethel/Omont, comte de Rethel
+#Should be Manassès I before 986, but he isn't scripted.
+1020.1.1 = {
+	holder = 131710 # Manassès II
+}
+1048.1.1 = {
+	holder = 90080 # Manassès III
+}
+1076.1.1 = {
+	holder = 90082 # Huges I
+}
+1118.1.1 = {
+	holder = 232013 # Gervais
+}
+1124.1.1 = {
+	holder = 232014 # Mathilde
+}
+1151.1.1 = {
+	holder = 232016 # Ithier
+}
+1171.1.2 = {
+	holder = 232017 # Manassès IV
+}
+1190.1.2 = {
+	holder = 183155 # Huges II
+}
+1227.5.26 = {
+	holder = 183156 # Huges III
+}
+1243.1.1 = {
+	holder = 183157 # Jean 
+}
+1251.1.1 = {
+	holder = 183158 # Gaucher I
+}
+1262.1.1 = {
+	holder = 183159 # Manassés V
+}
+1272.1.1 = {
+	holder = 183160 # Hugues IV
+}
+1275.1.1 = {
+	holder = 455720 # Jeanne
+}
+#Maison de Dampiere, comte di Rethel
+1290.1.1 = {
+	holder = 455711 #Louis de Flandre (gained Rethel by marriage)
+}
+1322.7.24 = {
+	holder = 455710 #Louis II de Flandre
+}
+1346.8.25 = {
+	holder = 455712 #Louis III de Flandre
+}

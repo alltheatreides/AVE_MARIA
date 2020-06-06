@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1005 - Zarand
+
+# County Title
+title = c_zarand
+
+# Settlements
+max_settlements = 5
+
+b_zarandvar = tribal
+b_arad = city
+#b_jeno = temple
+#b_pankota = temple
+#b_simand = castle
+#b_lippa = city
+
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+926.1.1 = { culture = old_hungarian }
+1000.1.1 = { b_zarandvar = castle }
+1043.1.1 = {
+	religion = catholic
+	culture = hungarian
+}
+1050.1.1 = { b_jeno = temple }

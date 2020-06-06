@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1521 - Shewa
+
+# County Title
+title = c_shewa
+
+# Settlements
+max_settlements = 3
+b_shewa = tribal
+#b_debrelibanos = temple #Debre Asbo
+#b_antsokia = city
+
+#b_debreberhan = temple #mid-15th century
+
+# Misc
+culture = ethiopian
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+1190.1.1 = { religion = sunni }
+1284.1.1 = { b_debrelibanos = temple }
+  

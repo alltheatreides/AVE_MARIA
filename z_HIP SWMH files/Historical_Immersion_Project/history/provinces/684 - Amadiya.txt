@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 684 - Amadiya
+
+# County Title
+title = c_amadiya
+
+# Settlements
+max_settlements = 3
+b_amadiyah = castle
+b_hakkari = city
+b_alki = castle
+
+# Misc
+culture = kurdish
+religion = kharijite
+
+# History
+
+900.1.1 = { 
+	religion = sunni
+}
+1162.1.1 = {
+	religion = yazidi
+}

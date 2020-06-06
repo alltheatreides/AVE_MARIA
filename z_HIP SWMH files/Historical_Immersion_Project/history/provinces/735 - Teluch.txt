@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 735 - Teluch
+
+# County Title
+title = c_teluch
+
+# Settlements
+max_settlements = 3
+
+b_kapan = castle
+b_marash = city
+#b_zeytun = city
+
+
+# Misc
+culture = assyrian
+religion = syriac
+terrain = mountain
+
+# History
+
+1030.1.1 = { 
+	culture = armenian 
+	religion = apostolic
+}

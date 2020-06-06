@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 589 - Grassland Cheremisa # Vetluga
+
+# County Title
+title = c_grassland_cheremisa
+
+# Settlements
+max_settlements = 2
+
+#b_vetluga = tribal
+b_staro_shangskoye = tribal
+#b_kazhirovo = city
+
+# Misc
+culture = mari
+religion = finnish_pagan
+
+# History
+#1066.1.1 = { b_kazhirovo = city} 

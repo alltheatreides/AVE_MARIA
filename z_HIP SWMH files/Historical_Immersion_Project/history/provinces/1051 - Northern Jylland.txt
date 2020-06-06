@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1051 - Northern Jylland # Vendsyssel
+
+# County Title
+title = c_northern_jylland
+
+# Settlements
+max_settlements = 4
+
+b_aggersborg = tribal
+#b_vestervig = temple
+#b_boerglum = temple
+b_thisted = temple
+#b_hjoerring = city
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+985.1.1= { trade_post = b_giaethning } 
+1005.1.1 = { religion = catholic 
+remove_settlement = b_thisted } 
+1020.1.1 = { 
+	b_aggersborg = castle
+	b_hjoerring = city
+}
+1035.1.1 = { culture = danish } 
+1059.1.1 = { b_vestervig = temple }
+1134.1.1 = { b_boerglum = temple } 
+1134.1.1 = { b_vestervig = castle }
+1362.1.1 = { trade_post = -1 }

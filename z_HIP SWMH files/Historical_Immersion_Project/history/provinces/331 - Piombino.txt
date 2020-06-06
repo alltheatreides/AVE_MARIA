@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 331 - Piombino # Santafiora
+
+# County Title
+title = c_piombino
+
+# Settlements
+max_settlements = 5
+
+b_santa_fiora = castle
+b_grosseto = city
+#b_massa_marittima = temple
+#b_scarlino = castle
+b_roselle = temple
+b_sticciano = castle
+#b_travale = castle
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = plains
+# History
+1066.1.1 = { b_travale = castle }
+1138.1.1 = { remove_settlement = b_roselle} 
+1138.1.1 = { b_massa_marittima = temple} 
+
+

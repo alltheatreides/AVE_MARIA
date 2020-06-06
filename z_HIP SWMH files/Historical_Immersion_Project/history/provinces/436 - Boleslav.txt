@@ -1,0 +1,29 @@
+# 436 - Boleslav
+
+# County Title
+title = c_boleslav
+
+# Settlements
+max_settlements = 4
+b_glatz = castle
+
+#b_jicin = city 
+#b_broumovkladsko = temple 
+#b_nachod = castle 
+
+#b_hummel = castle 
+#b_karpien = castle #Karpenstein
+#b_habelschwerdt = city #Kladská Bystrice
+
+# Misc
+culture = bohemian
+religion = slavic_pagan
+terrain = hills
+
+# History
+883.1.1 = { religion = catholic }
+1188.1.1 = { b_nachod = castle }
+1213.1.1 = { b_broumovkladsko = temple }
+#german colonists invited
+1254.1.1 = { culture = german }
+1302.1.1 = { b_jicin = city }

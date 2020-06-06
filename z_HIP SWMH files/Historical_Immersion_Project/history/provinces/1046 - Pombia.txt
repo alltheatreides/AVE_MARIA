@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1046 - Pombia
+
+# County Title
+title = c_pombia
+
+# Settlements
+max_settlements = 5
+
+b_pombia = castle
+b_biandrate = castle
+b_novara = temple
+#b_san_giulio = temple
+b_arona = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = hills
+# History

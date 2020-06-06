@@ -1,0 +1,82 @@
+# -*- ck2.history.titles -*-
+
+1029.1.1 = {
+	liege = k_italy
+	law = succ_primogeniture
+	law = agnatic_succession
+}
+1029.1.1 = {
+	holder = 1118
+}
+1039.6.4 = {
+	liege=e_hre
+}
+1046.12.25 = {
+	liege=k_italy
+}
+1056.10.5 = {
+	liege=e_hre
+}
+1080.1.1 = {
+	liege=k_italy
+}
+1097.4.13 = {
+	holder = 20299
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1128.12.15 = {
+	holder = 223597
+}
+1137.12.4 = {
+	liege = e_hre
+}
+1154.12.1 = {
+	liege= k_italy
+}
+1180.1.1 = {
+liege=k_lombard_league # made peace with Padua and joined the league, remained in the league from here
+}
+1193.12.15 = {
+	holder = 223596
+}
+1212.11.1 = {
+	holder = 70658
+}
+1215.1.1 = {
+	holder = 70661
+}
+1250.12.13 = {
+	liege=0
+}
+1264.2.17 = {
+	holder = 70669
+}
+1293.2.20 = {
+	holder = 70674
+}
+1308.1.31 = {
+	holder = 70686
+}
+1308.10.1 = {
+	holder = 70689
+}
+1310.1.1 = {
+	liege = k_papal_state
+	#law = succ_catholic_bishopric
+}
+1317.1.1 = {
+	liege = 0
+	holder = 70700
+	law = succ_primogeniture
+}
+1327.5.31 = {
+	liege=k_italy
+}
+1335.12.31 = {
+	holder = 70709
+}

@@ -1,0 +1,29 @@
+# 253 - Württemberg
+
+# County Title
+title = c_wurttemberg
+
+# Settlements
+max_settlements = 5
+
+b_wirtemberg = castle
+b_sindelfingen = temple
+
+#b_stuttgart = city
+#b_vaihingen = city
+#b_lowenstein = castle
+
+#b_eselsberg = castle 
+#b_rosswag = castle #Roßwag
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1125.1.1 = { b_lowenstein = castle }
+1170.1.1 = { culture = german }
+1219.1.1 = { b_stuttgart = city }
+1252.1.1 = { b_vaihingen = city }
+
+

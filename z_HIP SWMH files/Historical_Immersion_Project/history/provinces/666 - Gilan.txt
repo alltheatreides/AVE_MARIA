@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 666 - Gilan
+
+# County Title
+title = c_gilan
+
+# Settlements
+max_settlements = 5
+b_lahidjan = castle
+b_rasht_gilan = city
+b_hawsam = temple
+b_fumin = castle
+
+#b_kutum = castle
+
+#Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+651.1.1 = {
+	b_lahidjan = ca_town_1
+	b_lahidjan = ca_wall_1
+	b_lahidjan= ca_wall_q_1
+	b_lahidjan = ca_keep_1
+	b_lahidjan = ca_militia_barracks_1
+	b_rasht_gilan = ct_marketplace_1
+	b_hawsam = tp_town_1
+}
+
+900.1.1 = { religion = zaydi } #Sunnism in western Gilan, Zaydism in eastern Gilan
+#1187.1.1 = { b_fumin = castle }

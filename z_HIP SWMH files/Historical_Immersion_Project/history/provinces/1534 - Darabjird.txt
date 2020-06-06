@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1534 - Darábjírd
+
+# County Title
+title = c_darabjird
+
+# Settlements
+max_settlements = 6
+b_darabjird = castle
+b_fasa = temple
+b_darkan = castle
+b_furg = city
+b_niriz = temple
+
+#b_qutruh = city #iron mines nearby
+#b_istahbanat = castle
+#b_lar = city #not mentioned until the 14th century
+
+# Misc
+culture = pahlavi
+religion = zoroastrian
+
+# History
+967.1.1 = { culture = persian }
+967.1.1 = { religion = sunni }
+1055.1.1 = { culture = kurdish }
+1055.1.1 = { capital = b_darkan }
+1062.1.1 = { remove_settlement = b_fasa }
+1110.1.1 = { b_fasa = temple } #rebuilt by Chavli Saqaw
+1110.1.1 = { remove_settlement = b_darabjird } #Darabjird mostly in ruins by the beginning of the 12th century
+1200.1.1 = { b_qutruh = city }

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1474 - Munio
+
+# County Title
+title = c_munio
+
+# Settlements
+max_settlements = 2
+b_munio = tribal
+
+#b_nguru = city
+
+# Misc
+culture = hausa
+religion = west_african_pagan
+
+# History
+
+1070.1.1 = { b_munio = castle }
+1110.1.1 = { religion = sunni }

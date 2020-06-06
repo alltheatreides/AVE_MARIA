@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 1359 - Artaani
+
+# County Title
+title = c_artaani
+
+# Settlements
+ max_settlements = 3
+b_panaskerti = castle
+b_artaani = city
+#b_kola = city
+ 
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History

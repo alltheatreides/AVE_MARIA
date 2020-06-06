@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 2015 - Sus
+
+# County Title
+title = c_sus
+
+# Settlements
+max_settlements = 5
+b_sus-khuzestani = castle
+b_jundi_shapur = city
+#b_karkha = city
+b_qurqub = city
+b_dezful = temple
+
+# Misc
+culture = persian
+religion = sunni
+terrain = plains
+
+# History
+

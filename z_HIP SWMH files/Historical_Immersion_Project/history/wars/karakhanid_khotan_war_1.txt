@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Karakhanid Holy War for Khotan" 
+
+casus_belli = {
+	actor = 188854
+	recipient = 166686
+	casus_belli=religious
+	landed_title=d_khotan
+	date = 961.1.1
+}
+
+961.1.1 = {
+	add_attacker = 188854
+	add_defender = 166686
+}
+
+970.1.1 = { #969 Khotanese occupation of Kashgar
+	rem_attacker = 188854
+	rem_defender = 166686
+}

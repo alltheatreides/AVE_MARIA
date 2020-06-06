@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 691 - Al Nasiryah
+
+# County Title
+title = c_al_nasiryah
+
+# Settlements
+max_settlements = 2
+b_assaliq = castle
+b_niffar = temple #a Nestorian bishopric
+
+#Misc
+culture = levantine_arabic
+religion = sunni
+terrain = marsh
+
+# History
+850.1.1 = { religion = shiite}

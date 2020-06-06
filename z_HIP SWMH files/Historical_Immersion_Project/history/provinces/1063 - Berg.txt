@@ -1,0 +1,28 @@
+# 1063 - Berg
+
+# County Title
+title = c_berg
+
+# Settlements
+max_settlements = 5
+
+b_berg = castle
+
+#b_wipperfurth = city 
+#b_deutz = temple 
+#b_dusseldorf = city 
+#b_huckeswagen = castle 
+
+#b_homburg_berg = castle 
+#b_elberfeld = city 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1003.1.1= { b_deutz = temple } 
+1138.1.1= { b_huckeswagen = castle } 
+1170.1.1 = { culture = german }
+1225.1.1= { b_wipperfurth = city } 
+1288.1.1= { b_dusseldorf = city } 

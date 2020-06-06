@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 813 - Djerba
+
+# County Title
+title = c_djerba
+
+# Settlements
+max_settlements = 2
+
+b_djerba = castle
+
+#b_houmtsouk = city
+#b_midoun = city
+#b_ajim = temple
+#b_aghir = castle
+#b_abarda = castle
+#b_elmey = castle
+#b_cedriane = castle
+#b_taguermess = castle
+
+# Misc
+culture = sanhaja
+religion = ibadi
+
+# History
+1160.1.1 = { religion = sunni }

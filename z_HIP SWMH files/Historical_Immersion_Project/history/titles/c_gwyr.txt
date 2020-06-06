@@ -1,0 +1,203 @@
+# -*- ck2.history.titles -*-
+
+# Vanilla 15/08/2013 county Dyfed
+360.1.1 = {
+	holder = 159807 # Macsen Wledig
+	law = agnatic_succession
+	law = succ_gavelkind
+}
+380.1.1 = {
+    holder = 159809 # Owain Finddu
+}
+428.1.1 = {
+    holder = 159826 # Mor ap Owain
+}
+448.1.1 = {
+    holder = 159827 # Solor ap Mor
+}
+470.1.1 = {
+    holder = 159828 # Glywys ap Solor
+}
+498.1.1 = {
+    holder = 159823 # Caradog Freichfras
+}
+530.1.1 = {
+    holder = 159824 # Meurig
+}
+550.1.1 = {
+    holder = 159825
+}
+560.1.1 = {
+    holder = 159830
+}
+590.1.1 = {
+    holder = 159831
+}
+600.1.1 = {
+    holder = 159834
+}
+605.1.1 = {
+    holder = 159832
+}
+625.1.1 = {
+    holder = 159833
+}
+665.1.1 = {
+    holder = 159835
+}
+680.1.1 = {
+    holder = 159116
+}
+710.1.1 = {
+    holder = 159115
+}
+740.1.1 = {
+    holder = 159114
+}
+780.1.1 = {
+    holder = 159113
+}
+790.1.1 = {
+    holder = 159112
+}
+810.1.1 = {
+    holder = 159111
+}
+830.1.1 = {
+    holder = 159110
+}
+840.1.1 = {
+    holder = 159109
+}
+875.1.1 = {
+	holder = 159353 # Hyfaidd ap Hyfaidd
+}
+890.1.1 = {
+	holder = 159354 # Llywarch ap Hyfaidd
+}
+909.1.1 = {
+	holder = 81823 #Hywel Dda
+	law = agnatic_succession
+	law = succ_elective_gavelkind
+	liege = d_deheubarth
+}
+950.1.1 = {
+	holder = 81822 #Owain ap Hywel
+}
+986.1.1 = {
+	holder = 81821 #Maredudd ap Owain
+}
+999.1.1 = {
+	holder = 159001 #Cynan ap Hywel (Gwynedd)
+}
+1005.1.1 = {
+	holder = 138492 #Edwin ap Einion
+}
+1018.1.1 = {
+    holder = 1228334 # Rhain the Irish
+}
+1022.1.1 = {
+	holder = 40500 #Llywelyn ap Seisyll
+}
+1023.1.1 = {
+	holder = 81863 #Rhydderch ap Iestyn
+}
+1033.1.1 = {
+	holder = 1228318 #Hywel ap Edwin
+}
+1044.1.1 = {
+	holder = 81862 # Gruffydd ap Rhydderch
+}
+1055.1.1 = {
+	holder = 40502 #Gruffydd ap Llywelyn King of Wales
+}
+1064.1.1 = {
+    holder = 138496 # Maredudd ap Owain ap Edwin
+}
+1072.1.1 = {
+    holder = 81869 # Rhydderch ap Caradog, co-ruler of Deheubarth
+}
+1076.1.1 = {
+    holder = 81815 # Rhys ap Owain ap Edwin
+}
+1078.1.1 = {
+    holder = 81816 # Rhys ap Tewdwr
+}
+1093.4.1 = {
+    liege = k_england
+}
+1093.4.1 = {
+    holder = 152 # Norman conquest of Deheubarth, but no permanent presence was established in Gower
+}
+1094.1.1 = {
+    holder = 41032 # Hugh de Montgomery, Earl of Shrewsbury
+}
+1098.1.1 = {
+    holder = 41004 # Robert de Belleme
+}
+1102.1.1 = {
+    holder = 1228327 # Robert's property in Wales is appropriated and given to Hywel ap Goronwy
+}
+1106.1.1 = {
+    holder = 204717 # Hywel assassinated, Gower granted to Henry de Beaumont
+}
+1119.6.20 = {
+    holder = 204715 # Roger de Beaumont
+}
+1153.6.12 = {
+    holder = 129056 # William de Beaumont
+}
+1184.11.15 = {
+    holder = 204500 # Pledged to the Crown
+}
+1189.7.6 = {
+    holder = 204510 # Richard I Lionheart
+}
+1199.4.6 = {
+    holder = 204514 # John Lackland
+}
+1203.1.1 = {
+    holder = 204004 # Granted to William de Braose
+}
+1211.1.1 = {
+    holder = 204514 # Land seized by the Crown
+}
+1215.5.1 = {
+    holder = 204009 # Giles de Braose
+}
+1215.12.1 = {
+    liege = d_gwynedd
+}
+1215.12.1 = {
+    holder = 204011 # Reginald de Braose
+}
+1217.6.24 = {
+    liege = k_england
+}
+1218.1.1 = {
+    liege = d_gwynedd
+}
+1218.1.1 = {
+    holder = 214804 # English expelled 'without ever hope of returning'
+}
+1220.1.1 = {
+    holder = 1230884 # John de Braose, Llywelyn's son in law
+}
+1232.7.18 = {
+    holder = 1230885 # William de Braose
+}
+1240.4.11 = {
+  liege = k_england
+}
+1290.1.1 = {
+    holder = 1230886 # William de Braose
+}
+1320.1.1 = {
+    holder = 161668 # Land seized by the Crown then quickly granted to Hugh Despenser the Younger
+}
+1326.11.24 = {
+    holder = 1230887 # The Despensers are executed
+}
+1331.7.20 = {
+    holder = 1230892 # John de Mowbray
+}

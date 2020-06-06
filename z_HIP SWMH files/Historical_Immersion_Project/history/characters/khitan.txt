@@ -1,0 +1,452 @@
+# -*- ck2.history.characters -*-
+
+188905 = {
+	name="Dashi" #Yelü Dashi
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	learning=7
+	martial=8
+	trait="skilled_tactician"
+	trait="unyielding_leader"
+	trait="mahayana_buddhist"
+	trait="patient"
+	trait="diligent"
+	trait="ambitious"
+	trait="proud"
+	father=1231532 #fictional father
+	1087.5.5={
+		birth = yes
+	}
+	1127.1.1={
+		add_spouse=188906
+	}
+	1144.6.6={
+		death = yes
+	}
+}
+
+188906 = {
+	name="Tabuyen" #Tapuyen
+	female = yes
+	dynasty=1000102401
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	father=1231510 #fictional relation
+	1110.5.5={
+		birth = yes
+	}
+	1127.1.1={
+		add_spouse=188905
+	}
+	1144.1.1={
+		effect = {
+			give_minor_title = title_appointed_regent
+		}
+	}
+	1151.5.5={
+		effect = {
+			remove_title = title_appointed_regent
+		}
+	}
+	1151.6.6={
+		death = yes
+	}
+}
+
+188907 = {
+	name="Iri'er" #Yelü Yilie
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	father = 188905
+	mother = 188906
+	1135.5.5={
+		birth = yes
+	}
+	1163.6.6={
+		death = yes
+	}
+}
+
+188908 = {
+	name="Pösö'en" #Pusuwan
+	female = yes
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	trait="deceitful"
+	trait="lustful"
+	father = 188905
+	mother = 188906
+	1136.8.8={
+		birth = yes
+	}
+	1153.1.1={
+		add_spouse=188910
+	}
+	1177.6.6={
+		death={
+			death_reason=death_execution
+			killer=188909
+		}
+	}
+}
+
+188909 = {
+	name="Orila" #Khitan transliteration guesswork; Wolila; Duolubu's father
+	dynasty=1000102409
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	trait="tough_soldier"
+	1110.5.5={
+		birth = yes
+	}
+	1177.11.11={
+		death={
+			death_reason=death_murder
+			killer=188912
+		}
+	}
+}
+
+188910 = {
+	name="Dærub" #Khitan transliteration guesswork; Duolubu; Pusuwan's husband
+	dynasty=1000102409
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	father = 188909
+	1134.5.5={
+		birth = yes
+	}
+	1153.1.1={
+		add_spouse=188908 
+	}
+	1163.1.1={
+		employer = 188907
+	}
+	1163.6.6={
+		employer = 188912
+	}
+	1177.3.3={
+		death={
+			death_reason=death_murder
+			killer=188908
+		}
+	}
+}
+
+188911 = {
+	name="Bogujisiari" #Khitan transliteration guesswork; Fuguzhi; Duolubu's brother, Pusuwan's lover
+	dynasty=1000102409
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	trait="lustful"
+	father = 188909
+	1136.5.5={
+		birth = yes
+	}
+	1177.6.6={
+		death={
+			death_reason=death_execution
+			killer=188909
+		}
+	}
+}
+
+188912 = {
+	name="Jirug" #Zhilugu
+	dna = eboqtsnbtbn
+	properties = fm00gd000000000000
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	father = 188907
+	1157.5.5={
+		birth = yes
+	}
+	1213.6.6={
+		death = yes
+	}
+}
+
+188913 = {
+	name="Hon-hu" #Khitan transliteration guesswork; Zhilugu's daughter, wife of Küchlüg, the Naiman usurper
+	female=yes
+	dynasty=1000102400
+	religion="buddhist"
+	culture="khitan"
+	trait="mahayana_buddhist"
+	father = 188912
+	mother = 1231501
+	1186.5.5={
+		birth = yes
+	}
+	1208.5.5={
+		add_spouse = 188914
+	}
+	1228.6.6={
+		death = yes
+	}
+}
+194325 = { # Taizu
+	name="Ebege"  # Abaoji
+	dynasty=1000102400 # Liao Dynasty
+	religion="tengri_pagan"
+	culture=khitan
+	trait="skilled_tactician"
+	trait="brave"
+	#father= Yelu Sala(de)/Chala
+	872.6.6 = {
+		birth = yes
+		create_bloodline = {
+			type = abaoji
+			has_dlc = "Holy Fury"
+		}
+	}
+	926.9.6 = {
+		name="Taizu"
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194326 = {  # Taizong
+	name="Yeugur" #Khitan transliteration guesswork; Yaogu
+	dynasty=1000102400 # Liao Dynasty
+	religion="tengri_pagan"
+	culture=khitan
+	father=194325
+	mother=1231519
+	902.11.25 = {
+		birth = yes
+	}
+	947.5.15 = {
+		name="Taizong"
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194327 = {
+	name="Turör" # Khitan transliteration guesswork
+	dynasty=1000102400 # Liao Dynasty
+	religion="tengri_pagan"
+	culture=khitan
+	father=194325
+	mother=1231519
+	899.6.6 = {
+		birth = yes
+	}
+	937.1.7 = {
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194328 = {
+	name="Urel"  # Khitan transliteration guesswork; Shizong
+	dynasty=1000102400 # Liao Dynasty
+	religion="tengri_pagan"
+	culture=khitan
+	father=194327
+	919.1.29 = {
+		birth = yes
+	}
+	951.10.7 = {
+		name="Shizong"
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194329 = {
+	name="Shulü"  # Jing, Muzong
+	dynasty=1000102400 # Liao Dynasty
+	religion="tengri_pagan"
+	culture=khitan
+	father=194326
+	trait=indulgent_wastrel
+	trait=drunkard
+	trait=lustful
+	trait=hedonist
+	931.9.19 = {
+		birth = yes
+	}
+	969.3.12 = {
+		name="Muzong"
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194330 = {
+	name="Mæn"  # Khitan transliteration guesswork; Jingzong
+	dynasty=1000102400 # Liao Dynasty
+	religion="buddhist"
+	culture=khitan
+	father=194328
+	trait=thrifty_clerk
+	948.9.1 = {
+		birth = yes
+	}
+	982.10.13 = {
+		name="Jingzong"
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194331 = {
+	name="Munjunu"  #Khitan transliteration guesswork; Longxu, Shengzong
+	dynasty=1000102400 # Liao Dynasty
+	martial=7
+	diplomacy=8
+	stewardship=8
+	religion="buddhist"
+	culture=khitan
+	father=194330
+	trait=skilled_tactician
+	trait=ambitious
+	trait=patient
+	trait=just
+	trait=gregarious
+	972.1.16 = {
+		birth = yes
+	}
+	1031.6.25 = {
+		name="Shengzong"
+		death = {
+			death_reason=death_offmap
+		}
+	}
+}
+194332 = {
+	name="Jirgu"  # Khitan transliteration guesswork; Xingzong
+	dynasty=1000102400 # Liao Dynasty
+	religion="buddhist"
+	culture=khitan
+	father=194331
+	trait=tough_soldier
+	trait=greedy
+	1016.4.3 = {
+		birth = yes
+	}
+	1055.8.28 = {
+		name="Xingzong"
+		death = {
+			death_reason=death_offmap
+		}
+	}
+}
+194333 = {
+	name="Chala"  # Daozong
+	dynasty=1000102400 # Liao Dynasty
+	religion="buddhist"
+	culture=khitan
+	father=194332
+	trait=thrifty_clerk
+	trait=trusting
+	trait=arbitrary
+	1032.9.14 = {
+		birth = yes
+	}
+	1101.2.12 = {
+		name="Daozong"
+		death = {
+			death_reason=death_offmap
+		}
+	}
+}
+194401 = {
+	name="Yæru-on" #Khitan transliteration guesswork; Jun
+	dynasty=1000102400 # Liao Dynasty
+	religion="buddhist"
+	culture=khitan
+	father=194333
+	mother=194402
+	1057.5.5 = {
+		birth = yes
+	}
+	1077.6.6 = {
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194402 = {
+	name="Guanin" #Khitan transliteration guesswork
+	female=yes
+	dynasty=1000102410
+	religion="buddhist"
+	culture=khitan
+	trait="fair"
+	trait="poet"
+	1040.5.5 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		add_spouse=194333
+	}
+	1075.6.6 = {
+		death = {
+			death_reason=death_in_china_historic
+		}
+	}
+}
+194334 = {
+	name="Aga"  # Tianzuo
+	dynasty=1000102400 # Liao Dynasty
+	religion="buddhist"
+	culture=khitan
+	father=194401
+	trait="indulgent_wastrel"
+	trait="arbitrary"
+	1075.6.5 = {
+		birth = yes
+	}
+	1125.3.26 = {
+		name="Tianzuo"
+	}
+	1128.6.6 = {
+		death = {
+			death_reason=death_offmap
+		}
+	}
+}
+
+248238 = {
+	name="Chin-Temur" #Basqaq of Urgench, governor of Khorasan and Mazandaran
+	dynasty=1059033
+	martial=6
+	stewardship=7
+	diplomacy=6
+	religion=buddhist
+	culture=khitan
+	trait=mahayana_buddhist
+	#trait="sympathy_christendom"
+	#trait="sympathy_islam"
+	#trait="sympathy_zoroastrianism"
+	#trait="sympathy_judaism"
+	#trait="sympathy_indian"
+	trait=thrifty_clerk
+	1190.1.1={
+		birth=yes
+	}
+	1215.1.1 = {
+		employer=125501
+	}
+	1221.1.1 = {
+		employer=0
+	}
+	1236.1.1={
+		death=yes
+	}
+}

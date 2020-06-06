@@ -1,0 +1,31 @@
+# -*- ck2.history.titles -*-
+
+700.1.1 = {
+	liege = k_saxony
+}
+761.1.1 = {
+	holder = 190457 # Bruno
+}
+782.1.1 = {
+	liege = 0
+	holder = 0
+	#de_jure_liege = k_germany
+}
+1195.8.6 = {
+	liege = e_hre
+	holder = 462801
+	#law = agnatic_succession
+	#law = succ_primogeniture	
+}
+1213.12.13 = {
+	holder = 462802
+}
+1252.1.1 = {
+	holder = 462832
+}
+1262.1.1 = {
+	holder = 462803
+}
+1269.1.1 = {
+	holder = 0 #Division of the Duchy
+}

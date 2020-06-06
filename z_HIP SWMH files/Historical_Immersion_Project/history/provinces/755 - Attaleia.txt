@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 755 - Attaleia
+
+# County Title
+title = c_attaleia
+
+# Settlements
+max_settlements = 5
+
+b_attaleia = castle
+b_kalonoros = city
+b_alara = castle # Medieval Castle, built by the Byzantines, served as the Western Outpost of the Armenian Kingdom of Cilica and later guarding Caravan routes under Seljukid control
+b_syllaion = castle #Major Fortified site in Kibyrrhaiotai, home of a bishop
+b_aspendos = temple
+
+#b_perge = temple
+#b_side = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1000.1.1 = { remove_settlement = b_aspendos }
+1090.1.1 = { b_side = city }
+1149.1.1 = { trade_post = b_faliero }
+1210.1.1 = { remove_settlement = b_side }
+1225.1.1 = { culture = turkmen }
+1225.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }
+
+

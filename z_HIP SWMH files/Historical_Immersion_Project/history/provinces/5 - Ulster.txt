@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 5 - Ulster # aka Antrim
+
+# County Title
+title = c_ulster
+
+# Settlements
+max_settlements = 5
+
+b_carrickfergus = tribal
+#b_dunseverick = tribal
+#b_larne = castle
+b_downpatrick = temple
+#b_dromore = castle
+
+#b_connor = temple
+#b_dunluce = castle
+# Misc
+culture = irish
+religion = catholic
+terrain = hills
+
+# History
+

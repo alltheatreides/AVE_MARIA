@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1523 - Okic
+
+# County Title
+title = c_okic
+
+# Settlements
+max_settlements = 3
+
+b_okic = castle
+#b_ozalj = city
+b_samobor = castle
+#b_topusko = temple
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History
+1200.1.1 = { b_ozalj = city} 

@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 236 - Piemonte # Susa
+
+# County Title
+title = c_susa
+
+# Settlements
+max_settlements = 6
+
+b_susa = castle
+b_torino = temple
+#b_valgorrera = castle
+b_virle = castle
+#b_carmagola = city
+b_chieri = city
+#b_carignano =castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = mountain
+# History
+1034.1.1 = { b_carmagola = city }
+1034.1.1 = { b_carignano =castle }
+#1190.1.1 = { b_valgorrera = castle }

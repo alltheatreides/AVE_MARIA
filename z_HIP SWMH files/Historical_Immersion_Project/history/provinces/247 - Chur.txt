@@ -1,0 +1,25 @@
+# 247 - Chur
+
+# County Title
+title = c_chur
+
+# Settlements
+max_settlements = 5
+
+b_chur = temple
+b_vaz = castle
+b_disentis = temple
+b_bellinzona = city
+
+#b_misox = castle 
+
+#b_rhazuns = castle 
+#b_ilanz = city 
+
+# Misc
+culture = swabian #Romansch
+religion = catholic
+
+# History
+1170.1.1 = { culture = german }
+1248.1.1= { b_misox = castle }

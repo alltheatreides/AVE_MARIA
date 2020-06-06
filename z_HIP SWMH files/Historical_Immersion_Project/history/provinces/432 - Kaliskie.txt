@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 432 - Kaliskie
+
+# County Title
+title = c_kaliskie
+
+# Settlements
+max_settlements = 4
+b_kalisz = tribal
+#b_ladte = temple
+#b_wielun = city
+#b_ruda = castle
+#b_kepno = city
+#b_ostrzeszow = city
+#b_jarocin = city
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+962.1.1 = { religion = catholic 
+b_kalisz = castle
+b_ladte = temple
+}
+1106.1.1 = { 
+b_ruda = castle
+}
+1217.1.1 = { 
+b_wielun = city
+}

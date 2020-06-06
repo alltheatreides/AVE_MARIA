@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 891 - Tyumen # Suvar/Suar
+
+# County Title
+title = c_tyumen
+
+# Settlements
+max_settlements = 3
+b_suar = tribal
+#b_arbuga = tribal
+#b_simbirsk_ulyanovsk = castle
+
+
+# Misc
+culture = bolghar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+923.1.1 = { religion = sunni } 
+923.1.1 = { b_suar = castle
+b_arbuga = city } 
+1180.1.1 = { b_arbuga = temple }  
+

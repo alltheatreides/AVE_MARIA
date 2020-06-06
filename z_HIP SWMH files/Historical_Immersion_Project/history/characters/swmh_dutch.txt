@@ -1,0 +1,244 @@
+# -*- ck2.history.characters -*-
+
+# van Zupthen
+#1140016 = {
+#	name="Godschalk"
+#	dynasty=101918
+#	religion="catholic"
+#	culture="low_frankish"  # melted from: dutch
+#	1025.1.1 = {
+#		birth="1025.1.1"
+#	}
+#	1045.1.1 = {
+#		add_spouse = 41721
+#	}
+#	1063.1.1 = {
+#        add_trait="ill"
+#	}
+#	1064.1.1 = {
+#		death="1064.1.1"
+#	}
+#}
+1140017 = {
+	name="Bernold"
+	dynasty=1000103365	
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	
+	991.1.1 = {
+		birth=yes
+	}
+	1054.7.19 = {
+		death=yes
+		name = "Saint Bernold"
+		trait = "saint"
+	}
+}
+1140018 = {
+	name="Adalbald"
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	
+	964.1.1 = {
+		birth=yes
+	}
+	1026.11.27 = {
+		death=yes
+	}
+}
+1140019 = {
+	name="Durand"
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	
+	980.1.1 = {
+		birth=yes
+	}
+	1025.4.21 = {
+		death=yes
+	}
+}
+1140020 = {
+	name="Wolbodo"
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	
+	972.1.1 = {
+		birth=yes
+	}
+	1021.4.20 = {
+		name = "Saint Wolbodo"
+		trait = "saint"	
+		death=yes
+	}
+}
+1140021 = {
+	name="Otto"  #Count of Loon, most likely the father of Balderik and Gislebert, rather than their uncle
+	dynasty=424
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	martial=6
+	diplomacy=4
+	intrigue=7
+	stewardship=4
+	trait="tough_soldier"
+	father=161296
+	950.1.1 = {
+		birth=yes
+	}
+	1016.1.1 = {
+		death=yes
+	}
+}
+1140022 = {
+	name="Baldric"  #Bishop of Liege 1008-1018
+	dynasty=424
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140021
+	987.1.1 = {
+		birth=yes
+	}
+	1018.7.28 = {
+		death=yes
+	}
+}
+1140023 = {
+	name="Godefrid"
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140024	
+	1100.1.1 = {
+		birth=yes #Uknown birth year, placeholder chosen
+	}
+	1120.1.1 = {
+		add_spouse = 1603042
+	}	
+	1154.1.1 = {
+		death=yes #Uknown death year, placeholder chosen
+	}
+}
+1140024 = {
+	name="Hendrik" #Father of Godefrid, who married Ida von Werl-Arnsberg, and brother of Andreas Bishop of Utrecht
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140025
+	1067.1.1 = {
+		birth=yes #Uknown birth year, placeholder chosen
+	}	
+	1108.1.1 = {
+		death=yes
+	}
+}
+1140025 = {
+	name="Herman" #Father of Hendrik and Andreas
+	dynasty=7168  #van Cuijck
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+
+	1039.1.1 = {
+		birth=yes
+	}	
+	1080.1.1 = {
+		death=yes
+	}
+}
+1140026 = {
+	name="Egbert"  #Second son of Dirk/Dietrich of Holland and Hildegard of Flanders. Imperial Chancellor and Archbishop of Trier
+	dynasty=432
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	martial=8
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	learning=7
+	trait="scholarly_theologian"
+	father = 106550
+	mother = 94000
+	952.1.1 = {
+		birth=yes
+	}
+	993.12.8 = {
+		death=yes
+	}
+}
+1140027 = {
+	name="Rudolf"  # son of Nibelung of Betuwe
+	dynasty=1000103571
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140028
+	928.1.1 = {
+		birth=yes
+	}
+	990.1.1 = {
+		death=yes
+	}
+}
+1140028 = {
+	name="Nibelung"  # Nibelung of Betuwe
+	dynasty=1000103571
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140030
+	890.1.1 = {
+		birth=yes
+	}
+	943.1.1 = {
+		death=yes
+	}
+}
+1140029 = {
+	name="Balderik"  # Balderik, Bishop of Utrecht
+	dynasty=1000103571
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	father=1140030
+	897.1.1 = {
+		birth=yes
+	}
+	975.12.27 = {
+		death=yes
+	}
+}
+1140030 = {
+	name="Ricfried"  # Ricfried
+	dynasty=1000103571
+	religion="catholic"
+	culture="low_frankish"  # melted from: dutch
+	870.1.1 = {
+		birth=yes
+	}
+	949.1.1 = {
+		death=yes
+	}
+}
+1140031 = {
+	name="Folkmar"  # Folkmar of Utrecht
+
+	religion="catholic"
+	culture="franconian"  # melted from: dutch
+
+	944.1.1 = {
+		birth=yes
+	}
+	990.12.11 = {
+		death=yes
+	}
+}
+1140032 = {
+	name="Baldwin"  # Baldwin of Utrecht
+
+	religion="catholic"
+	culture="franconian"  # melted from: dutch
+
+	949.1.1 = {
+		birth=yes
+	}
+	995.5.10 = {
+		death=yes
+	}
+}

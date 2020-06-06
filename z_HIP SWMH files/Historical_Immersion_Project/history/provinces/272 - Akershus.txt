@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 272 - Akershus # Vingulmörk
+
+# County Title
+title = c_akershus
+
+# Settlements
+max_settlements = 5
+b_sarpsborg = tribal
+#b_akershus = castle
+b_oslo = temple
+#b_thorso = temple
+#b_hovedoeya = temple
+#b_isegran = castle
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+
+867.1.1 = {
+	b_oslo = tp_town_1
+}
+995.1.1 = { religion = catholic }
+1000.1.1 = { 
+b_sarpsborg = castle
+} #to Denmark 
+1035.1.1 = { culture = norwegian } 
+
+1267.1.1 = { trade_post = b_warendorp }
+1300.1.1 = { b_akershus = castle }

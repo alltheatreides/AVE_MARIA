@@ -1,0 +1,41 @@
+# -*- ck2.history.provinces -*-
+
+# 843 - Marrakech
+
+# County Title
+title = c_marrakech
+
+# Settlements
+max_settlements = 6
+
+#b_marrakech = castle
+b_aghmat = castle
+b_naffis = temple
+b_demnat = city #first acknowledged by Leo Africanus, though the settlement very likely existed for centuries
+#b_tasgimut = castle
+
+#b_asni = castle
+
+# Misc
+culture = masmuda
+religion = sunni
+
+# History
+
+867.1.1 = { 
+	b_aghmat = ca_keep_1
+	b_aghmat = ca_training_grounds_1
+	b_aghmat = ca_keep_2
+	b_aghmat = ca_stable_1
+	b_aghmat = ca_barracks_1
+	b_aghmat = ca_militia_barracks_1
+	b_aghmat = ca_wall_1
+	b_aghmat = ca_wall_2
+}
+1071.1.1 = {
+	b_marrakech = castle
+	capital = b_marrakech
+}
+1125.1.1 = { #sometime in the early 12th century
+	b_tasgimut = castle
+}

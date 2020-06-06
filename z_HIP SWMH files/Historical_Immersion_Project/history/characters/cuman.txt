@@ -1,0 +1,301 @@
+# -*- ck2.history.characters -*-
+34825 = {
+	name="Bönek"
+	#placeholder
+	religion="tengri_pagan"
+	culture="cuman"
+	1200.1.1={
+		birth="1200.1.1"
+	}
+	1241.1.1={
+		death="1241.1.1"
+	}
+}
+#only wife and mothers of Russian vanilla charcters salvaged.
+125051 = {
+	name="Sirma" # name unkown, daughter of Asalup
+	female=yes
+        dynasty=698 #Terteroba # clan unknwon
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1233093 #Asalup
+        mother=1233094
+	1077.1.1={
+		birth = yes
+	}
+	1094.1.1={
+		religion="orthodox" #must have married Oleg thereabout to seal the alliance.
+	}
+	1120.1.1={
+		death = yes
+	}
+}
+
+125092 = {
+	name="Anna" # Wife of Vsevolod of Kiev, mother of Rostislavl of Pereyaslavl
+	female=yes
+	dynasty=1042048 # clan unknown
+	religion="tengri_pagan"
+	culture="cuman"
+	father=1229732
+	1050.1.2={
+		birth="1050.1.2"
+	}
+	1068.1.2={
+		religion="orthodox"
+	}
+	1111.1.2={
+		death="1111.1.2"
+	}
+}
+
+125145 = {
+	name="Maria" # wife of Mstislav Mstislavic, was eldest daughter of Köten.
+	female=yes
+	dynasty=698 #Terteroba 
+	religion="tengri_pagan"
+	culture="cuman"
+        father=1233105 
+        mother=1233106
+	1184.1.2={
+		birth = yes
+	}
+	1203.1.1={
+		religion="orthodox" #was married in 1203
+	}
+	1230.1.2={
+		death = yes
+	}
+}
+
+125400 = {
+	name="Svoboda" #Konchakovna/Svoboda/Anastasia
+	female=yes
+	dynasty=1042048 # She and her father was Toqsoba not Tertoba! runs away and cry in corner.... For %&#¤ sake how bad is it possible to make this paradox -_-
+	religion="tengri_pagan"
+	culture="cuman"
+	father=1229737
+	1171.1.2={
+		birth="1171.1.2"
+	}
+	1187.1.2={
+	religion="orthodox"
+	name="Anastasia"
+	# AKA: Svoboda
+	}
+	1220.1.2={
+		death="1220.1.2"
+	}
+}
+
+222633 = {
+	name="Maria" #daugther of Aepa/Girgen, married Sviatoslav Olgovich. Name unkown
+	female = yes
+	dynasty=1000101581#Çortan, clan unkown
+	religion="orthodox"
+	culture="cuman"
+	father=1233200
+	mother=1233201
+	1110.1.2={
+		birth="1110.1.2"
+	}
+	1170.1.2={
+		death="1170.1.2"
+	}
+}
+
+222673 = {
+	name="Esin" # daughter of Aepa. Name unknown, married Yuri Vladimirovich in 1107.
+	female = yes
+	dynasty=1000101598
+	religion="tengri_pagan"
+	culture="cuman"
+	father=1233019
+	mother=1233020
+	1090.1.2={
+		birth="1090.1.2"
+	}
+	1107.1.1={
+		religion="orthodox"
+	}
+	1150.1.3={
+		death="1150.1.3"
+	}
+}
+
+228042 = {
+	name="Garu"
+	dynasty=100615
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=7
+	religion="tengri_pagan"
+	culture="cuman"
+	trait="amateurish_plotter"
+	1150.1.1={
+		birth="1150.1.1"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+31184 = {
+	name="Tekçe" #fictional given name; Anna, married to Kaloyan I and later Boril of Bulgaria
+	female = yes
+	dynasty=1042048
+	religion="tengri_pagan"
+	culture="cuman"
+	father=1229737
+	1172.1.1={
+		birth="1172.1.1"
+	}
+	1190.1.1={
+		religion="orthodox"
+		name="Anna"
+	}
+	1222.1.1={
+		death="1222.1.1"
+	}
+}
+
+34990 = {
+	name="Sunkur" #al-Ashkar
+	dynasty=7323
+	martial=4
+	diplomacy=4
+	stewardship=5
+	religion="sunni"
+	culture="cuman"
+	trait="diligent" # Qalawun singled out his ambition and energy for high ranking admin posts. Al-Nuwayri
+	trait="skilled_tactician"
+	1232.1.1={
+	    birth=yes
+		culture="egyptian_arabic"
+        add_trait="bahriyya_mamluk"
+        employer="32925"
+	}
+	1254.1.1 = {
+	    effect={add_friend=32933} # Baibars
+	    employer="32933"
+	}
+	1260.1.1={
+        employer="32933"
+    }
+	1293.1.1={
+		death = {
+		    death_reason = death_dungeon
+	        killer = 32937
+		}
+	}
+}
+
+34991 = {
+	name="Sanjar" # Sanjar al-Shuja’i. Vanilla Shuja al-Din Ardilu
+	dynasty=8000563
+	martial=5
+	diplomacy=4
+	intrigue=4
+	stewardship=5
+	religion="sunni"
+	culture="cuman"
+	trait="envious"
+	trait="proud"
+	trait="greedy"
+	trait="fortune_builder" # Reputation for being competent, pious and cultured but also greedy.
+	1250.1.1={
+		birth=yes
+        culture="egyptian_arabic"
+        add_trait="bahriyya_mamluk"
+	}
+	1260.1.1={
+        employer="32933"
+    }
+    1279.1.1={
+        employer="32936"
+		add_trait="architect" # Oversaw construction of Qalawunid mausoleums and a madrasa
+    }
+	1297.1.1={
+		death = {
+			death_reason = death_dungeon # Should be 1294
+			killer = 32938
+		}
+	}
+}
+
+34992 = {
+	name="Qipchaq"  # Qibjaq al-Mansuri
+	dynasty=100566
+	martial=5
+	diplomacy=3
+	intrigue=3
+	religion="tengri_pagan" 
+	culture="mongol"   
+	trait="cynical"
+	trait="deceitful"
+	trait="tough_soldier" # Was already a youth with military experience when captured
+	1260.1.1={ 
+		birth=yes
+    }
+	1277.4.15={ # Captured after the Mamluk victory at the battle of Elbistan
+	    culture="egyptian_arabic"
+		religion="sunni"
+        add_trait="bahriyya_mamluk"
+		name="Sayf ad-Din"
+	}
+    1279.1.1={
+		employer="32936" 
+    }
+	1312.1.1={
+		death="1312.1.1" # Died of a disease in 1310
+	}
+}
+
+34993 = {
+	name="Tankiz Sayf-ad-Din" # Tankiz
+	dynasty=100691
+	diplomacy=5
+	stewardship=5
+	martial=4
+	religion="sunni"
+	culture="cuman"
+	trait="brave" # Served as a bodyguard to al-Nasir and distinguished himself in battles against the mongols.
+	trait="proud"
+	trait="patient"
+	trait="diligent"
+	trait="midas_touched"
+	1280.1.1={
+		birth=yes
+        culture="egyptian_arabic"
+        add_trait="bahriyya_mamluk"
+	}
+    1280.6.1={
+		employer="32939"
+    }
+	1296.1.1={
+	    add_trait="administrator"
+	}
+	1299.1.1={
+		employer="485000"
+    }
+	1340.1.1={
+		death="1340.1.1"
+	}
+}
+
+98042 = {
+	name="Elizabeth"
+	female=yes
+	dynasty=698
+	religion="catholic"
+	culture="cuman"
+	father=1233105
+	1236.1.1={
+		birth="1236.1.1"
+	}
+	1290.1.2={
+		death="1290.1.2"
+	}
+}
+######################################## rest of cuman vanilla charaters has been thrown in the bin.

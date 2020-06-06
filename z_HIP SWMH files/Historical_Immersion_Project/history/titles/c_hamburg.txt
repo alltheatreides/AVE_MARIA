@@ -1,0 +1,76 @@
+# -*- ck2.history.titles -*-
+
+740.1.1 = {
+	liege = d_saxony
+	holder = 190455 # Theoderic
+}
+781.1.1 = {
+	holder = 167763 # Billung I Billunger
+}
+810.1.1 = {
+	holder = 167768 # Amelung Billunger
+}	
+850.1.1 = {
+	holder = 167769 # Wichmann I Billunger
+}
+855.11.10 = {
+	holder = 167770
+}
+885.1.1 = {
+	holder = 106516 # Billung II Billunger
+}
+936.1.1 = {
+	holder = 1410 # Hermann Billunger # put in control of the North-elbian/Northalbingian territories of Saxony aka. Holstein as Princeps Militiae. Later developed into a Margraviate including Mecklenburg-Vorpommern to the East
+}
+973.1.28 = {
+	holder = 33242 # Liudger Billunger, graf of Westfalengau 
+}
+1011.2.26 = {
+	holder = 1603099 # Hermann Billunger, graf of?
+}
+1038.1.1 = {
+	holder = 1603100 # Rikquur von Heeslingen
+}
+1059.1.1 = {
+	holder = 1603101 # Heinrich von Hamburg, graf of Hamburg
+}
+1093.10.11 = {
+	holder = 1603102 # Gottfried von Hamburg, graf of Hamburg
+}
+1110.11.2 = {
+	liege = d_holstein
+	holder = 31750 # Adolf I von Schauenburg, first Count of Holstein
+}
+1130.11.13 = {
+	holder = 212362 # Adolf II von Schauenburg, second Count of Holstein
+}
+1164.7.6 = {
+	holder = 212360 # Adolf III von Schauenburg, third Count of Holstein
+}
+1203.1.1 = {
+	holder = 1603133 # Rudolf Schirmvogt of Hamburg under Valdemar and Albrecht.
+}
+#Emperor breifly gains the town in 1215(doors were opened by the citizens), retaken by DK in 1216 and made direct feif of Albrecht as punnishment for surrendering to the emperor.
+1216.1.1 = {
+	holder = 31795 # Albrecht von Weimar-Orlamünde, the son of Princess Sophia of Denmark and thereby the nephew of both King Canute and King Valdemar the Victorious. Was granted the domains of the defeated Schauenbergers after they were expelled back to Schauenburg in 1203, despite the fact that he was a vassal of the HRE as well
+}
+#Peace treaty after the battle of Mölln
+1225.11.17 = {
+	holder = 31752 # Adolf IV von Schauenburg, fourth Count of Holstein. Was restored to his father's lands in Holstein following the Battle of Bornhöved
+}
+1228.1.1 = {
+	holder = 1603180 # Verestus von Wielen/von Stormarn, Overbode of Stormarn 1228-1238
+}
+1238.1.1 = {
+	holder = 31752 # Adolf IV von Schauenburg, fourth Count of Holstein.
+}
+1261.7.8 = {
+	liege = e_hre
+	holder = 451975 # Gerhard I von Schauenburg, first Count of Holstein-Itzehoe. His brother Johann inherited the other part of Holstein, Holstein-Kiel
+}
+1290.12.21 = {
+	holder = 31760 # Adolf V von Schauenburg, first Count of Holstein-Pinneberg. His brothers inherited the other parts of Holstein-Itzehoe, Holstein-Rendsburg and Holstein-Plön
+}
+1315.5.13 = {
+	holder = 31761 # Adolf VI von Schauenburg, second Count of Holstein-Pinneberg 
+}

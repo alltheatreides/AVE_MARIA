@@ -1,0 +1,32 @@
+# 83 - Gelre
+
+# County Title
+title = c_gelre
+
+# Settlements
+max_settlements = 5
+
+b_geldern = castle
+b_roermond = city 
+
+#b_thorn_gelre = temple 
+#b_wassenberg = castle 
+#b_cuijck = castle
+
+#b_venlo = city
+#b_kessel = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+972.1.1 = { b_thorn_gelre = temple }
+1020.1.1 = { b_wassenberg = castle }
+1020.1.1 = { capital = b_wassenberg } 
+1080.1.1 = { b_cuijck = castle }
+1107.1.1 = { capital = b_geldern } 
+1150.1.1 = { culture = dutch }
+1306.1.1 = { trade_post = b_warendorp }
+
+

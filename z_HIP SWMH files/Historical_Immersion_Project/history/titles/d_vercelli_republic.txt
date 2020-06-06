@@ -1,0 +1,57 @@
+# -*- ck2.history.titles -*-
+# Vercelli commune
+1240.1.1 = {
+	law = succ_feudal_elective
+    liege=k_lombard_league 
+	holder = 1064480 #Egidolo della Gente, podesta of vercelli 1240
+}
+1249.1.1 = {
+    liege=k_italy
+	holder = 1226789 #Enrico di Spavara, podesta of vercelli 1249
+}
+1249.5.26 = {
+    liege=e_hre
+}
+1250.1.1 = {
+	holder = 1064657 #Goffredo di Langosco podesta of vercelli 1250
+}
+1250.12.13 = {
+    liege=0
+}
+1257.1.1 = {
+	holder = 1064745 #Alberto Turixella, podesta of vercelli 1257-59
+}
+1270.1.1 = {
+	holder = 1064746 # Guglielmo Turixella 
+}
+1285.1.1 = {
+	holder = 1064748 # Riccardo Tizzoni, capitano of the Guelphs of Vercelli
+}
+1301.1.1 = {
+	holder = 1064786 # Ranierio Avogadro bishop and capitano del popoli of vercelli 1301
+}
+1303.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1307.1.1 = {
+	holder = 1064663 #Filippone di Langosco, podesta of Vercelli 1307-1308
+}
+1308.1.1 = {
+	holder = 1064778 # Simone Avogadro rettore di Vercelli 1303-1306 and 1309-1325
+}
+1311.1.6 = {
+    liege=k_italy
+}
+1313.8.24 = {
+	liege=k_naples
+}
+1325.1.1 = {
+	holder = 1064781 # Giovanni Avogadro podesta di Vercelli ca 1334
+}
+1327.5.31 = {
+    liege=k_italy
+}
+1334.1.1 = {
+	liege = 0
+	holder = 0
+}

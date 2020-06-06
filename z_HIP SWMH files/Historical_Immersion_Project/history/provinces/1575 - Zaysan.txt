@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1575 - Zaysan
+
+# County Title
+title = c_zaysan
+
+# Settlements
+max_settlements = 3
+b_zaysan = tribal
+#b_aksuat = temple
+#b_akzhar = city
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History
+1112.1.1 = { culture = kirghiz }
+1240.1.1 = { culture = mongol }

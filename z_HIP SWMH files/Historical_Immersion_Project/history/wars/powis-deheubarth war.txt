@@ -1,0 +1,19 @@
+# -*- ck2.history.wars -*-
+
+name = "Powis Invasion of Deheubarth" 
+
+casus_belli = {
+	actor = 40502 # Gruffyd ap Llwellyn
+	recipient = 1228318 #Hywel ap Edwin
+	casus_belli=tribal_invasion
+	landed_title=k_wales
+	date = 1042.1.1
+}
+1042.1.1 = {
+	add_attacker = 40502 # Gruffyd ap Llwellyn
+	add_defender = 1228318 #Hywel ap Edwin
+}
+1043.12.31 = {
+	rem_attacker = 40502 # Gruffyd ap Llwellyn
+	rem_defender = 1228318 #Hywel ap Edwin
+}

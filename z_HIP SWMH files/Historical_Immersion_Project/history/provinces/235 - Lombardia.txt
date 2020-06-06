@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 235 - Lombardia # Burgaria
+
+# County Title
+title = c_lombardia
+
+# Settlements
+max_settlements = 7
+
+b_parabiago = castle
+b_milano = temple
+b_lodi = city
+b_monza = castle
+#b_rosate = city
+b_cassina_aliprandi = castle
+#b_trezzo = castle
+b_bissano = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+
+# History
+#1193.12.25 = { capital = b_lodi} # ct
+#1200.1.1 = { b_trezzo = castle }
+#1240.1.1 = { capital = b_monza} # ca
+

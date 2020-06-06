@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1298 - Pogesania
+
+# County Title
+title = c_pogesania
+
+# Settlements
+max_settlements = 4
+
+b_ostroda = tribal
+b_elbing = city
+#b_tolkmicko = castle
+#b_dzialdowo = castle
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+
+
+1237.1.1= { b_ostroda = castle } 
+1274.4.1 = { religion = catholic }
+1290.1.1 = { b_tolkmicko = city }
+1306.1.1 = { b_dzialdowo = castle }

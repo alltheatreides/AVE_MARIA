@@ -1,0 +1,44 @@
+# -*- ck2.history.provinces -*-
+
+# 815 - Kairwan
+
+# County Title
+title = c_kairwan
+
+# Settlements
+max_settlements = 6
+
+b_alabbasiyaifr = castle #Al-Abbasiya-Ifriqi
+b_kairouan = temple
+#b_rakkada = castle
+b_qalshana = city
+b_subaytila = city
+
+#b_sabra = castle #al-Mansuriyya (renamed Sabra in 1048)
+#b_sabiba = city
+
+# Misc
+culture = maghreb_arabic
+religion = sunni
+
+# History
+
+867.1.1 = {
+	b_kairouan = tp_monastery_1
+	b_kairouan = tp_monastery_2
+	b_kairouan = tp_wall_1
+	b_kairouan = tp_barracks_1
+}
+876.1.1 = {
+	b_rakkada = castle
+	capital = b_rakkada
+}
+948.1.1 = { b_sabra = castle }
+949.5.1 = { capital = b_sabra }
+953.1.1 = { remove_settlement = b_rakkada } #Razed by the Fatimids
+1057.1.1 = { #Sabra and al-Abbasiya disappear from records following the Banu Hilal invasion
+	b_sabra = tribal
+	remove_settlement = b_alabbasiyaifr
+}
+1100.1.1 = { remove_settlement = b_subaytila }
+1159.7.1 = { b_sabra = castle }

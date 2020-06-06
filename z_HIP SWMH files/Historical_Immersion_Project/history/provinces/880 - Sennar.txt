@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 880 - Sennar
+
+# County Title
+title = c_sennar
+
+# Settlements
+max_settlements = 4
+
+b_sennar = tribal
+
+#b_sinjah = temple
+#b_bakkah = castle
+#b_kukur = castle
+#b_galgani = city
+#b_kinanah = castle
+#b_abbeit = castle
+
+# Misc
+culture = daju
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+1050.1.1 = { religion = miaphysite }

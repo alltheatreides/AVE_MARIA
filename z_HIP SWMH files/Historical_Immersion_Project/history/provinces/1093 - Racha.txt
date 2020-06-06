@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1093 - Racha
+
+# County Title
+title = c_racha
+
+# Settlements
+ max_settlements = 3
+b_kasriskari = castle
+b_gebi = city
+#b_tsageri = temple
+#b_oni = city
+ 
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History

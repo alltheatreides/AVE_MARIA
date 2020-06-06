@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 637 - Sistan
+
+# County Title
+title = c_sistan
+
+# Settlements
+max_settlements = 6
+b_zaranj = castle
+b_karkuya = temple
+b_nih = city
+b_tak_sistan = castle
+b_kurunk = city
+
+#b_ram = castle
+
+# Misc
+culture = khorasani
+religion = kharijite
+
+# History
+#900.1.1 = { culture = khorasani }
+950.1.1 = {	religion = sunni }
+

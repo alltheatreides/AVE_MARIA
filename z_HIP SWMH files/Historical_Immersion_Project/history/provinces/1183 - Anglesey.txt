@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1183 - Anglesey
+
+# County Title
+title = c_anglesey
+
+# Settlements
+max_settlements = 2
+b_abberffraw = tribal
+#b_caer_gybi = temple
+
+
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+
+942.1.1=
+{
+	b_abberffraw = castle
+}
+

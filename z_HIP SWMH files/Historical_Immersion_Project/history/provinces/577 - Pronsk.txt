@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 577 - Pronsk
+
+# County Title
+title = c_pronsk
+
+# Settlements
+max_settlements = 4
+
+b_skopin = tribal
+#b_pronsk = city
+#b_elets = castle
+
+#b_ryazhsk = city
+#b_dankov = castle
+
+
+
+# Misc
+culture = mordvin
+religion = finnish_pagan
+
+# History
+1025.1.1 = { b_skopin = castle
+b_pronsk = city
+b_elets = castle }
+1130.1.1 = { culture = russian }
+1130.1.1 = { religion = orthodox }
+

@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 38 - Teviotdale
+
+# County Title
+title = c_teviotdale
+
+# Settlements
+max_settlements = 4
+b_jedburgh = castle
+b_melrose = temple
+#b_roxburgh = city
+#b_kelso = city
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+700.1.1 = { culture = saxon }
+955.1.1 = { b_jedburgh = tribal }
+1097.1.1 = { b_jedburgh = castle }
+1100.11.11 = { culture = english }
+
+

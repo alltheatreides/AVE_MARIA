@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 811 - Tripolitana
+
+# County Title
+title = c_tripolitana
+
+# Settlements
+max_settlements = 5
+
+b_libtripoli = castle
+b_sabrata = city
+b_leptismagna = city
+
+#b_surman = temple
+#b_zawiya = city
+#b_gherlan = castle
+#b_funduq = castle
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+
+#1052.1.1 = { b_libtripoli = tribal }
+#1160.1.22 = { b_libtripoli = castle }
+1171.1.1 = { religion = sunni }

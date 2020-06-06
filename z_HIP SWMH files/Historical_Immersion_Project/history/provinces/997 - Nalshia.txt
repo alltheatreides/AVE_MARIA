@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 997 - Nalshia
+
+# County Title
+title = c_utena
+
+# Settlements
+max_settlements = 4
+
+b_utena = tribal
+b_svencionys = temple
+#b_pastavy = city
+#b_tauragnai = castle
+
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1044.1.2  = { b_utena = castle } # To Polotsk
+1250.1.1  = { b_tauragnai = castle }

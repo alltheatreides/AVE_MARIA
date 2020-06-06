@@ -1,0 +1,26 @@
+# 1301 - Swiecie
+
+# County Title
+title = c_swiecie
+
+# Settlements
+max_settlements = 4
+
+b_schwetz = tribal
+b_tuchel = temple
+
+#b_chojnice = city
+#b_schlochau = castle
+
+#b_brusy = city #Bruﬂ
+#b_wobeser = castle 
+#b_koscierzyna = city #Berent
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1122.1.1 = { b_schwetz = castle }
+1185.1.1 = { religion = catholic }
+1205.1.1 = { b_chojnice = city } 

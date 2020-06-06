@@ -1,0 +1,27 @@
+# 84 - Frisia
+
+# County Title
+title = c_frisia
+
+# Settlements
+max_settlements = 5
+
+b_franeker = castle
+b_stavoren = city
+b_dokkum = temple
+
+#b_harlingen = city 
+#b_kuinre = castle
+
+#b_bolsward = city
+#b_leeuwarden = temple
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+1101.1.1 = { capital = b_stavoren }
+1197.1.1 = { b_kuinre = castle }
+1234.1.1 = { b_harlingen = city }
+1362.1.1 = { trade_post = -1 }

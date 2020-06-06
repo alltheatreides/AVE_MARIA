@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 989 - Trakai
+
+# County Title
+title = c_trakai
+
+# Settlements
+max_settlements = 5
+
+b_trakai = tribal
+#b_raudondvaris = castle
+b_kaunas = city
+
+#b_alytus = castle
+#b_birstonas = temple # medival wellnesspa
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1253.6.30  = { b_trakai = castle } # Granduchy of Lithuania formed
+1253.6.30  = { b_raudondvaris = castle } 
+1350.1.1  = { b_alytus = castle} 

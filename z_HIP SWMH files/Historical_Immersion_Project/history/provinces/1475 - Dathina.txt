@@ -1,0 +1,18 @@
+# -*- ck2.history.provinces -*-
+
+# 1475 - Dathina
+
+# County Title
+title = c_dathina
+
+# Settlements
+max_settlements = 2
+b_ahwar = castle
+b_lawdar = city
+
+# Misc
+culture = bedouin_arabic
+religion = ibadi
+
+# History
+850.1.1 = { religion = sunni }

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 321 - Parma # San Secondo
+
+# County Title
+title = c_parma
+
+# Settlements
+max_settlements = 5
+
+b_san_secondo = castle
+b_parma = temple
+b_fidenza_borgo_san_donnino = city
+#b_bercetto = temple
+#b_pizzo = castle
+#b_sala_parmese = castle
+#b_tizzano = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = hills
+# History

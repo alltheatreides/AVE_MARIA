@@ -1,0 +1,86 @@
+# -*- ck2.history.titles -*-
+
+862.1.20 = {
+	liege = d_pagania
+	holder = 1232908
+}
+890.1.1 = {
+	holder = 1229409
+}
+924.1.1 = {
+	holder = 1229410
+}
+956.1.1 = {
+	holder = 1229411
+}
+990.1.1 = {
+	holder = 1229412
+}
+1000.5.9 = {
+	liege = d_croatia
+	holder = 1229234 # Bozetjeh ban of Croatia 1000-1035
+}
+1035.1.1 = {
+	holder = 1229232 # Stjepan Praska ban of Croatia 1035-1058
+}
+# Kacic
+1055.1.1 = {
+	liege = d_dalmatia
+	holder = 1229202 # Marjan Slavac(IV), Knez of Sidraškog, Ban of Neretva(Omis/Imotska).
+	#law = agnatic_succession
+	#law = succ_seniority
+}
+1080.1.1 = {
+	holder = 1229203 # Ikroslav Snacic/Kacic(son of previous)
+}
+1125.1.1 = {
+	holder = 1229204 # Marjan Kacic(made up, son of previous)
+}
+1155.1.1 = {
+	holder = 1229201 # Nikola Kacic(son of previous) Knez of Omis
+}
+1165.1.1 = {
+	holder = 1232198
+}
+1179.1.1 = {
+	holder = 125709
+}
+1183.9.24 = {
+	holder = 1229205 # Breko Kacic (son of previous) Knez of Omis
+}
+1199.1.1 = {
+	holder = 1229206 # Sebena Kacic (son of previous) Knez of Omis
+}
+1225.1.1 = {
+	holder = 1229207 # Malduch Kacic (son of previous) Knez of Omis
+}
+1250.1.1 = {
+	holder = 1229209 # Osor Kacic (son of previous) Knez of Omis
+}
+1274.1.1 = {
+	holder = 1229208 # Radoš Kacic (brother of previous) Knez of Omis
+}
+# Subic takes the county
+1285.1.1 = {
+	holder = 32608
+}
+1300.1.1 = {
+	holder = 32619
+}
+1304.1.1 = {
+	holder = 470002
+}
+# Kacic back in buisness, in the service of Bosnia this time.
+1326.1.1 = {
+	liege = d_bosnia
+	holder = 1229210 # Zaljko Kacic (son of Radoš), Knez of Markaska
+}
+1330.1.1 = {
+	holder = 1229211 # Baran Kacic (son of previous), Knez of Markaska
+}
+1365.1.1 = {
+	holder = 1229214 # Baran II Kacic (son of previous), Knez of Markaska
+}
+1385.1.1 = {
+	holder = 0
+}

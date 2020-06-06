@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 852 - Zamindávár
+
+# County Title
+title = c_zamindawar
+
+# Settlements
+max_settlements = 5
+b_bust = castle
+b_sarvan = city
+b_till = castle
+b_baghnin = temple
+
+b_durghash = castle
+#b_bishlang = castle
+#b_muaskar = city
+
+# Misc
+culture = afghan
+religion = hindu
+
+# History
+990.1.1 = {	religion = sunni }
+#1050.1.1 = {	culture = afghan }

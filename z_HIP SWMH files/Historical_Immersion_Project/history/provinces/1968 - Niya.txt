@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1968 - Niya
+
+# County Title
+title = c_cadota
+
+# Settlements
+max_settlements = 3
+b_niya = castle
+b_cherchen = city
+#b_endere = temple
+
+# Misc
+culture = saka
+religion = buddhist
+
+# History
+1080.1.1 = {	culture = karluk }
+1080.1.1 = {	religion = sunni }

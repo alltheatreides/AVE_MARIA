@@ -1,0 +1,35 @@
+# 366 - Stettin
+
+# County Title
+title = c_stettin
+
+# Settlements
+max_settlements = 5
+
+b_dabie = tribal
+b_stettin = city
+
+#b_kolbatz = temple 
+#b_groswin = castle
+#b_anklam = city
+#b_pyritz = city 
+#b_pasewalk = city 
+#b_stargard_pommern = city 
+#b_wussow = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1017.1.1 = { trade_post = b_gildehusen }# Truso had a Gotlandish trade colony; was 1066.1.1
+1097.1.1 = { trade_post = -1 }
+1122.1.1 = { b_dabie = castle }#Wartislaw I
+1122.1.1 = { b_groswin = castle }
+1140.1.1 = { religion = catholic } 
+1173.1.1 = { b_kolbatz = temple }
+1185.1.1 = { remove_settlement = b_groswin} #sacked by the Danish fleet under Kanute VI in 1185 last mentioned 1234.
+1185.1.1 = { b_anklam = city } # Population moves to Anklam
+1243.1.1 = { trade_post = b_warendorp }
+1263.1.1 = { b_pyritz = city }
+1280.1.1= { culture= low_german }

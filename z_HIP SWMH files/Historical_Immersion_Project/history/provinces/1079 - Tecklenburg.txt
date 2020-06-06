@@ -1,0 +1,27 @@
+# 1079 - Tecklenburg
+
+# County Title
+title = c_tecklenburg
+
+# Settlements
+max_settlements = 5
+
+b_tecklenburg = castle
+b_meppen = city
+
+#b_malgarten = temple
+#b_iburg = castle
+#b_ibbenburen = castle 
+
+#b_cloppenburg = castle 
+#b_quakenbruck = city 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1070.1.1 = { b_iburg = castle }
+1100.1.1 = { culture = low_german }
+1150.1.1 = { b_ibbenburen = castle }
+1175.1.1 = { b_malgarten = temple }

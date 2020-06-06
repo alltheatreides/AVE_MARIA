@@ -1,0 +1,113 @@
+# -*- ck2.history.titles -*-
+
+826.1.1 = {
+	liege = d_taron
+	holder = 41530
+}
+851.1.1 = {
+	holder = 41505
+}
+857.1.1 = {
+	holder = 1232543
+}
+878.1.1 = {
+	holder = 1232544
+}
+895.1.1 = {
+	holder = 1232545
+}
+897.1.1 = {
+	holder = 1232546
+}
+898.1.1 = {
+	holder = 41532
+}
+923.1.1 = {
+	holder = 41533
+}
+966.1.1 = {
+	liege = e_byzantium
+	holder = 1712
+}
+969.12.10 = {
+	holder = 1714
+}
+974.1.11 = {
+	holder = 1232572
+}
+1008.1.1 = {
+	holder = 1232573
+}
+1018.1.1 = {
+	liege = d_mesopotamia
+}
+1035.1.1 = {
+	liege = d_taron
+}
+1045.1.1 = {
+	holder = 1232574
+}
+1071.8.26 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = d_taron
+		type = permanent
+	}
+}
+1072.3.3 = {
+	holder = 1232575
+}
+1107.1.1 = {
+	holder = 1232577
+}
+1144.1.1 = {
+	holder = 1232579
+}
+1165.1.1 = {
+	clear_tribute_suzerain = d_taron
+	liege = d_taron
+	holder = 93413
+}
+1185.1.1 = {
+	holder = 1232634
+}
+1193.1.1 = {
+	holder = 1232635
+}
+1198.1.1 = {
+	holder = 1232636
+}
+1198.10.1 = {
+	holder = 1232637
+}
+1206.1.1 = {
+	holder = 1232638
+}
+1207.8.1 = {
+	liege = d_amida
+	holder = 34243
+}
+1232.1.1 = {
+	holder = 34247
+}
+1234.1.1 = {
+	holder = 32925
+}
+1239.1.1 = {
+	holder = 32927
+}
+1249.1.1 = {
+	holder = 93422
+}
+1283.1.1 = {
+	holder = 93423
+}
+1320.1.1 = {
+	holder = 93424
+}
+1331.1.1 = {
+	holder = 217219
+}
+1336.7.24 = {
+	holder = 217218
+}

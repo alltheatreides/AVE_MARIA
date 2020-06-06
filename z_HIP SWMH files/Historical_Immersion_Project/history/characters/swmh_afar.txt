@@ -1,0 +1,488 @@
+# -*- ck2.history.characters -*-
+
+#Characters: 1229000 - 1229099
+
+######################################
+# SWMH Characters
+######################################
+
+# Makhzumid sultans of Shewa
+1229000 = {
+	name="Malasma'í"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229011
+	1140.1.1={
+		birth="1140.1.1"
+	}
+	1183.1.1={
+		death="1183.1.1"
+	}
+}
+1229001 = {
+	name="Husein"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229000
+	1160.1.1={
+		birth="1160.1.1"
+	}
+	1193.1.1={
+		death="1193.1.1"
+	}
+}
+1229002 = {
+	name="Abdallah"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229001
+	1180.1.1={
+		birth="1180.1.1"
+	}
+	1235.1.1={
+		death="1235.1.1"
+	}
+}
+1229003 = {
+	name="Mahamed"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229001
+	1185.1.1={
+		birth="1185.1.1"
+	}
+	1239.1.1={
+		death="1239.1.1"
+	}
+}
+1229004 = {
+	name="Málzarrah"    #Shewa 1239-1252, 1245 married Fatimah Aydargun of Ifat
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229003
+	1205.1.1={
+		birth="1205.1.1"
+	}
+	1245.2.2={
+		add_spouse=1229120
+	}
+	1252.1.1={
+		death="1252.1.1"
+	}
+}
+1229005 = {
+	name="Ganah"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229003
+	1207.1.1={
+		birth="1207.1.1"
+	}
+	1262.1.1={
+		death="1262.1.1"
+	}
+}
+1229006 = {
+	name="Dilmárrah" # Shewa 1269-1278(july), 1278(september)-1279, since 1278 vasal of Ifat
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229004
+	mother=1229120
+	1246.1.1={
+		birth="1246.1.1"
+	}
+	1285.1.1={
+		death={
+			death_reason=death_execution
+			killer=1229107
+		}
+	}
+}
+1229007 = {
+	name="Girám-Gaz'i"   # Shewa 1262-63, abdicated in favour of brother
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229005
+	1232.1.1={
+		birth="1232.1.1"
+	}
+	1273.1.1={
+		death="1273.1.1"
+	}
+}
+1229008 = {
+	name="Dil-Gámis" # Shewa 1263-1269, then july-august 1278
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229005
+	1231.1.1={
+		birth="1231.1.1"
+	}
+	1278.1.9={
+		death="1278.1.9"
+	}
+}
+1229009 = {
+	name="Abdallah"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229005
+	1235.1.1={
+		birth="1235.1.1"
+	}
+	1279.1.1={
+		death="1279.1.1"
+	}
+}
+1229010 = {
+	name="Harba'ir"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	1093.1.1={
+		birth="1093.1.1"
+	}
+	1148.1.1={
+		death="1148.1.1"
+	}
+}
+1229011 = {
+	name="Hakym"
+	dynasty=1000101365
+	religion="sunni"
+	culture="ethiopian"
+	father=1229010
+	1118.1.1={
+		birth="1118.1.1"
+	}
+	1172.1.1={
+		death="1172.1.1"
+	}
+}
+
+#chiefs of the Danakil peoples
+
+1229012 = {
+	name="Abdulle"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	840.1.1={
+		birth="840.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+1229013 = {
+	name="Neissa"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229031
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1100.1.1={
+		death="1100.1.1"
+	}
+}
+1229014 = {
+	name="Abdul-Qadir"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229013
+	1065.1.1={
+		birth="1065.1.1"
+	}
+	1125.1.1={
+		death="1125.1.1"
+	}
+}
+1229015 = {
+	name="Canfaxe"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229014
+	1100.1.1={
+		birth="1100.1.1"
+	}
+	1155.1.1={
+		death="1155.1.1"
+	}
+}
+1229016 = {
+	name="Abukar"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229015
+	1130.1.1={
+		birth="1130.1.1"
+	}
+	1185.1.1={
+		death="1185.1.1"
+	}
+}
+1229017 = {
+	name="Axmed"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229016
+	1160.1.1={
+		birth="1160.1.1"
+	}
+	1210.1.1={
+		death="1210.1.1"
+	}
+}
+1229018 = {
+	name="Faarax"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229017
+	1193.1.1={
+		birth="1193.1.1"
+	}
+	1245.1.1={
+		death="1245.1.1"
+	}
+}
+1229019 = {
+	name="Saleban"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229018
+	1225.1.1={
+		birth="1225.1.1"
+	}
+	1280.1.1={
+		death="1280.1.1"
+	}
+}
+1229020 = {
+	name="Abdul-Qadir"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229019
+	1255.1.1={
+		birth="1255.1.1"
+	}
+	1310.1.1={
+		death="1310.1.1"
+	}
+}
+1229021 = {
+	name="Axmed"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229020
+	1290.1.1={
+		birth="1290.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+
+#Najashi/Nagash
+
+1229022 = {
+	name="Surkina"
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229026		
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1060.1.1={
+		death="1060.1.1"
+	}
+}
+1229023 = {
+	name="Digna"
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229022		
+	1024.1.1={
+		birth="1024.1.1"
+	}
+	1078.1.1={
+		death="1078.1.1"
+	}
+}
+1229024 = {
+	name="Ibedou"
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229023		
+	1053.1.1={
+		birth="1053.1.1"
+	}
+	1114.1.1={
+		death="1114.1.1"
+	}
+}
+1229025 = {
+	name="Mbakin"
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229024		
+	1082.1.1={
+		birth="1082.1.1"
+	}
+	1138.1.1={
+		death="1138.1.1"
+	}
+}
+1229026 = {
+	name="Kuk" #placeholder
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229027	
+	969.1.1={
+		birth=yes
+	}
+	1035.1.1={
+		death=yes
+	}
+}
+1229027 = {
+	name="Ood" #placeholder
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229028	
+	931.1.1={
+		birth=yes
+	}
+	997.1.1={
+		death=yes
+	}
+}
+1229028 = {
+	name="Fias" #placeholder
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229029	
+	896.1.1={
+		birth=yes
+	}
+	964.1.1={
+		death=yes
+	}
+}
+1229029 = {
+	name="Nos" #placeholder
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	father=1229030	
+	858.1.1={
+		birth=yes
+	}
+	923.1.1={
+		death=yes
+	}
+}
+1229030 = {
+	name="Kwina" #placeholder
+	dynasty=1000101242
+	religion = west_african_pagan # WAS: pagan, then east_african_pagan
+	culture="beja"
+	820.1.1={
+		birth=yes
+	}
+	899.1.1={
+		death=yes
+	}
+}
+1229031 = {
+	name="Abdul-Qadir"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229032
+	1005.1.1={
+		birth=yes
+	}
+	1059.1.1={
+		death=yes
+	}
+}
+1229032 = {
+	name="Axmed"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229033
+	971.1.1={
+		birth=yes
+	}
+	1032.1.1={
+		death=yes
+	}
+}
+1229033 = {
+	name="Canfaxe"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229034
+	947.1.1={
+		birth=yes
+	}
+	1006.1.1={
+		death=yes
+	}
+}
+1229034 = {
+	name="Abdulle"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229035
+	913.1.1={
+		birth=yes
+	}
+	978.1.1={
+		death=yes
+	}
+}
+1229035 = {
+	name="Axmed"
+	dynasty=1000101367
+	religion="sunni"
+	culture="afar"
+	father=1229012
+	870.1.1={
+		birth=yes
+	}
+	934.1.1={
+		death=yes
+	}
+}
+#Free Characters: 1229031 - 1229099

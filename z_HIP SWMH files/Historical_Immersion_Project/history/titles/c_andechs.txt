@@ -1,0 +1,72 @@
+# -*- ck2.history.titles -*-
+
+843.1.1 = {
+	liege = k_germany
+	holder = 168191
+}
+861.1.1 = {
+	holder = 168192
+}
+865.1.1 = {
+	liege = d_swabia
+}
+876.1.29 = {
+	liege = k_germany
+}
+935.1.1 = {
+	liege = d_bavaria
+	holder = 168201 # Adalbero von Ebersberg, Count of Ebersberg
+}
+969.1.1 = {
+	holder = 168196 # Seighard Sieghardinger, Count of Chiemgau
+}
+980.1.1 = {
+	holder = 168204 # Ulrich von Ebersberg, Count of Ebersberg
+}
+1029.3.11 = {
+	holder = 168206 # Adalbero von Ebersberg
+}
+1040.1.1 = {
+	holder = 11062
+}
+1060.1.1 = {
+	holder = 33511
+}
+1095.1.1 = {
+	holder = 33513
+}
+1102.1.1 = {
+	holder = 212935 # Berthold II von Andechs, Count of Andechs
+}
+1151.6.27 = {
+	holder = 212930 # Berthold III von Andechs, Count of Andechs
+}
+# The von Andechs family is raised to the status of Margraves
+1173.1.28 = {
+	liege = d_krain
+}
+# The von Andechs family is raised to the status of Dukes
+1188.11.14 = {
+	liege = d_merania
+	holder = 212932 # Berthold IV von Andechs
+}
+1204.8.12 = {
+	holder = 212945 # Otto von Andechs-Meranien, Count of Andechs
+}
+1234.5.7 = {
+	holder = 7684 # Otto von Andechs-Meranien, Count of Andechs
+}
+#Falls to the Dukes of Bavaria
+1248.1.1 = {
+	liege = d_bavaria
+	holder = 462756
+}
+1253.11.29 = {
+	holder = 462750
+}
+1294.2.2 = {
+	holder = 462736
+}
+1317.1.12 = {
+	holder = 462740
+}

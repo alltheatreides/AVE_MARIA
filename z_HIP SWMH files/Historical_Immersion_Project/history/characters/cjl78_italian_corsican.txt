@@ -1,0 +1,22 @@
+# -*- ck2.history.characters -*-
+
+########
+#CJL78 tuscans 1.000.167.040-1.000.167.049
+########
+
+########
+#tuscan Leader for Terra di Commune (fictional)
+########
+
+1167048 = {
+	name="Dionisio"
+	dynasty=0
+	religion="catholic"
+	culture="tuscan"
+	1050.1.1 = {
+		birth="1050.1.1"
+	}
+	1130.1.1 = {
+		death="1130.1.1"
+	}
+}

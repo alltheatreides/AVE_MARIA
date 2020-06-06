@@ -1,0 +1,11 @@
+# -*- ck2.bookmarks -*-
+
+bm_mali = {
+	name = "BM_MALI"
+	desc = "BM_MALI_DESC"
+	date = 1275.1.1
+
+	selectable_character = {
+		id = 161025 # Abubakari I of Mali
+	}
+}

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1355 - Setif
+
+# County Title
+title = c_setif
+
+# Settlements
+max_settlements = 4
+
+b_ikjan = castle
+#b_qalatbhammad = castle #Qal'at Bannu Hammad
+b_hamza = city
+b_setif = city
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History
+1008.1.1 = {
+	b_qalatbhammad = castle
+	capital = b_qalatbhammad
+}
+1200.1.1 = {
+	remove_settlement = b_qalatbhammad
+	capital = b_ikjan
+}

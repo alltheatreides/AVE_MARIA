@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1556 - Khuttal
+
+# County Title
+title = c_khuttal
+
+# Settlements
+max_settlements = 5
+b_hulbuk = castle
+b_munk = temple
+b_pargar = city
+b_halavand = temple
+
+b_qubadiyan = castle
+#b_livkand = city
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1592 - Suhar
+
+# County Title
+title = c_suhar
+
+# Settlements
+max_settlements = 5
+b_qalatsuhar = tribal
+b_sohar = city
+#b_dibba = city
+#b_khabura = city
+#b_khorfakkan = city
+
+# Misc
+culture = bedouin_arabic
+religion = ibadi
+
+# History
+1250.1.1 = {
+	b_qalatsuhar = castle
+	b_dibba = city
+	b_khabura = city
+}

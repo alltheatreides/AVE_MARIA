@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1124 - Piacenza
+
+# County Title
+title = c_piacenza
+
+# Settlements
+max_settlements = 5
+
+b_busseto = castle
+b_piacenza = temple
+b_bardi = castle
+#b_ronacagli = city
+#b_scipione = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = hills
+# History
+1025.1.1 = { b_scipione = castle}
+1158.1.1 = { b_ronacagli = city }

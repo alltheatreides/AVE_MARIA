@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 545 - Torki #suceava
+
+# County Title
+title = c_torki
+
+# Settlements
+max_settlements = 5
+
+b_suceava = tribal
+#b_bogdana = temple
+#b_humor  = temple
+#b_harlaumoldavia  = castle
+#b_dorohoi = city
+
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1060.1.1 = {religion = orthodox }
+1060.1.1 = {culture = romanian }
+1320.1.1 = { b_suceava = castle
+b_bogdana = temple 
+b_harlaumoldavia  = castle
+}

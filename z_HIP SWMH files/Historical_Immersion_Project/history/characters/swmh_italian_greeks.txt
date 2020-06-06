@@ -1,0 +1,572 @@
+# -*- ck2.history.characters -*-
+
+########
+#Italian Greeks 1.167.300-1.167.350
+########
+
+#########################################################
+#
+# Sergii/Spartenos of Naples, id 101138, Dukes of Naples
+#
+#########################################################
+1167300 = {
+	name = "Orania"
+	female = yes	
+	dynasty = 101138
+	religion = orthodox
+	culture = greek
+	father = 163086
+	894.1.1={
+		birth=yes
+	}
+	949.5.1={
+		death=yes
+	}
+}
+1167301 = {
+	name = "Sergios"
+	dynasty = 101138 #Spartenos
+	religion = "orthodox"
+	culture = "greek"
+	father = 145201
+	840.1.1 = {
+		birth="840.1.1" 
+	}
+	878.1.1 = {
+		death="878.1.1"
+	}
+}
+1167302 = {
+	name = "Gemma"
+	female = yes
+	dynasty = 101138 #Spartenos
+	religion = orthodox
+	culture = greek
+	father = 163088
+	880.1.1 = {
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}
+1167303 = {
+	name = "Maru"
+	female = yes	
+	dynasty = 101138
+	religion = orthodox
+	culture = greek
+	father = 163085
+	912.1.1={
+		birth=yes
+	}
+	971.1.1 = {
+		death=yes
+	}
+}
+1167304 = {
+	name = "Maria" #Unnamed daughter of Ioannes IV of Naples who married Rainulf Drengot
+	female = yes	
+	dynasty = 101138
+	religion = orthodox
+	culture = greek
+	father = 163081
+	989.1.1={
+		birth=yes
+	}
+	1034.1.1={
+		death=yes
+	}
+}
+#########################################################
+#
+# di Gaeta, id 12244, hypatus and dukes of Gaeta
+#
+#########################################################
+#Docibilis I, first hypatus of Gaeta
+1226700 = {
+	name="Docibilis"
+	dynasty=12244
+	martial=9
+	diplomacy=7
+	intrigue=12
+	stewardship=8
+	religion="catholic"
+	culture="greek"
+	add_trait="charismatic_negotiator"
+	830.1.1 = {
+		birth="830.1.1"
+	}
+	850.1.1 = {
+		add_spouse = 1167309
+	}	
+	906.1.1 = {
+		death="906.1.1"
+	}
+}
+#John I, second hypatus of Gaeta
+1226701 = {
+	name="Ioannes"
+	dynasty=12244
+	martial=12
+	diplomacy=6
+	intrigue=9
+	stewardship=12
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	853.1.1 = {
+		birth=yes
+	}
+	933.1.1 = {
+		death="933.1.1"
+	}
+}
+#Docibilis II, first duke of Gaeta
+1226702 = {
+	name="Docibilis"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	add_trait="charismatic_negotiator"
+	add_trait="proud"
+	father=1226701
+	880.1.1 = {
+		birth="880.1.1"
+	}
+	909.1.1 = {
+		add_spouse = 1167300
+	}	
+	954.1.1 = {
+		death="954.1.1"
+	}
+}
+#John I, second duke of Gaeta
+1226703 = {
+	name="Ioannes"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	910.1.1 = {
+		birth=yes
+	}
+	963.1.1 = {
+		death="963.1.1"
+	}
+}
+#Gregorio, 3rd duke of Gaeta
+1226709 = {
+	name="Gregorios"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	914.1.1 = {
+		birth=yes
+	}
+	966.1.1 = {
+		death=yes
+	}
+}
+#Marino, 4th duke of Gaeta
+1226710 = {
+	name="Marinos"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	930.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes
+	}
+}
+#John III, 5th duke of Gaeta
+1226712 = {
+	name="Ioannes"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226710
+	955.1.1 = {
+		birth=yes
+	}
+	1008.1.1 = {
+		death=yes
+	}
+}
+#John IV, 6th duke of Gaeta
+1226713 = {
+	name="Ioannes"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226712
+	983.1.1 = {
+		birth=yes
+	}
+	1012.1.1 = {
+		death=yes
+	}
+}
+#John V, 7th duke of Gaeta
+1226714 = {
+	name="Ioannes"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226713
+	1010.1.1 = {
+		birth=yes
+	}
+	1032.1.1 = {
+		death=yes
+	}
+}
+#Bona, Daughter of Docibilis and Matrona
+1167310 = {
+	name="Bona"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	851.1.1 = {
+		birth=yes
+	}
+	910.1.1 = {
+		death=yes
+	}
+}
+#Leo, son of Docibilis and Matrona
+1167311 = {
+	name="Leon"	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	860.1.1 = {
+		birth=yes
+	}
+	939.1.1 = {
+		death=yes
+	}
+}
+#Anatolios, son of Docibilis and Matrona. Later Duke of Terracina in 906
+1167312 = {
+	name="Anatolios"	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	862.1.1 = {
+		birth=yes
+	}
+	933.1.1 = {
+		death=yes
+	}
+}
+#Euphemia, Daughter of Docibilis and Matrona
+1167313 = {
+	name="Euphemia"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	858.1.1 = {
+		birth=yes
+	}
+	925.1.1 = {
+		death=yes
+	}
+}
+#Megalu, Daughter of Docibilis and Matrona
+1167314 = {
+	name="Megalo"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226700
+	mother=1167309	
+	864.1.1 = {
+		birth=yes
+	}
+	922.1.1 = {
+		death=yes
+	}
+}
+#Bernard, Bishop of Gaeta, younger brother of John III
+1167315 = {
+	name="Bernard"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226710
+	969.1.1 = {
+		birth=yes
+	}
+	1047.1.1 = {
+		death=yes
+	}
+}
+#Leo, ancestor of the later Leo II of Gaeta through his son Docibilis Magnificus
+1167316 = {
+	name="Leon"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	920.1.1 = {
+		birth=yes
+	}
+	962.1.1 = {
+		death=yes
+	}
+}
+#Maria, daughter of Docibilis II, wife of Landulf IV of Capua
+1167317 = {
+	name="Maria"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	911.1.1 = {
+		birth=yes
+	}
+	953.1.1 = {
+		death=yes
+	}
+}
+#Megalu, daughter of Docibilis II
+1167318 = {
+	name="Megalo"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	919.1.1 = {
+		birth=yes
+	}
+	965.1.1 = {
+		death=yes
+	}
+}
+#Drosu, daughter of Docibilis II
+1167319 = {
+	name="Drosu"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	924.1.1 = {
+		birth=yes
+	}
+	966.1.1 = {
+		death=yes
+	}
+}
+#Gemma, daughter of Docibilis II
+1167320 = {
+	name="Gemma"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	927.1.1 = {
+		birth=yes
+	}
+	970.1.1 = {
+		death=yes
+	}
+}
+#Anna, daughter of Docibilis II
+1167321 = {
+	name="Anna"
+	female = yes	
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226702
+	mother=1167300
+	929.1.1 = {
+		birth=yes
+	}
+	959.1.1 = {
+		death=yes
+	}
+}
+#Docibilis, son of Gregorios
+1167322 = {
+	name="Docibilis"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226709
+	942.1.1 = {
+		birth=yes
+	}
+	1009.1.1 = {
+		death=yes
+	}
+}
+#Leo, the son of John III, usurped the regency for his nephew from his mother for a 6 year period
+1167323 = {
+	name="Leon"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226712
+	986.1.1 = {
+		birth=yes
+	}
+	1037.1.1 = {
+		death=yes
+	}
+}
+#Docibilis Magnificus, father of Leo II
+1167324 = {
+	name="Docibilis"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1167316
+	958.1.1 = {
+		birth=yes
+	}
+	1011.1.1 = {
+		death=yes
+	}
+}
+#Leo II, shortlived return to native rule over Gaeta in 1042
+1167325 = {
+	name="Leon"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1167324
+	993.1.1 = {
+		birth=yes
+	}
+	1042.6.1 = {
+		death=yes
+	}
+}
+#Leo, Associated with John III as Dux of Fundi in 992
+1167326 = {
+	name="Leon"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226710
+	965.1.1 = {
+		birth=yes
+	}
+	1021.1.1 = {
+		death=yes
+	}
+}
+#Marinos, Associated with John III as Dux of Fundi in 997
+1167327 = {
+	name="Marinos"
+	dynasty=12244
+	religion="catholic"
+	culture="greek"
+	father=1226710
+	966.1.1 = {
+		birth=yes
+	}
+	1008.1.1 = {
+		death=yes
+	}
+}
+#########################################################
+#
+# Anatolii, id 1000102868, hypatus of Gaeta
+#
+#########################################################
+1167305 = {
+	name = "Anatolios" #Father of the first known Hypatos of Gaeta
+	dynasty = 1000102868
+	religion = orthodox
+	culture = greek
+	788.1.1={
+		birth=yes
+	}
+	839.1.1={
+		death=yes
+	}
+}
+1167306 = {
+	name = "Konstantinos" #First known Hypatos of Gaeta, disappears abruptly from history along with his son in 866, should probably hold Gaeta with Docibilis as a vassal.
+	dynasty = 1000102868
+	religion = orthodox
+	culture = greek
+	father=1167305	
+	814.1.1={
+		birth=yes
+	}
+	866.1.1={
+		death=yes
+	}
+}
+1167307 = {
+	name = "Bonios" #aka. Bonus. Named father of Docibilis' wife
+	dynasty = 1000102868
+	religion = orthodox
+	culture = greek
+	father=1167305	
+	815.1.1={
+		birth=yes
+	}
+	860.1.1={
+		death=yes
+	}
+}
+1167308 = {
+	name = "Marinos" #co-Hypatos alongside his father
+	dynasty = 1000102868
+	religion = orthodox
+	culture = greek
+	father=1167306	
+	833.1.1={
+		birth=yes
+	}
+	866.1.1={
+		death=yes
+	}
+}
+1167309 = {
+	name = "Matrona" #Wife of Docibilis I
+	female = yes	
+	dynasty = 1000102868
+	religion = orthodox
+	culture = greek
+	father=1167307	
+	835.1.1={
+		birth=yes
+	}
+	890.1.1={
+		death=yes
+	}
+}

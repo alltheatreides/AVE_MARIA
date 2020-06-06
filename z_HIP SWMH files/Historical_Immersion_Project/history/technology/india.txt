@@ -1,0 +1,96 @@
+# -*- ck2.history.technology -*-
+
+
+#HIMALAYAS
+
+technology = {
+	titles = {
+		d_kashmir
+		d_pamir
+		d_ladakh
+		d_purang
+		d_ngari
+		d_uttaranchal
+	}
+
+	769 = {
+		military = 1.0
+		economy = 1.2
+		culture = 1.3
+	}
+		
+	1337 = {
+		military = 4.2
+		economy = 4.3
+		culture = 4.5
+	}
+}
+
+#INDIA
+
+technology = {
+	titles = {
+		d_sauvira
+		d_bhakkar
+		d_multan
+		d_lahore
+		d_gandhara
+		d_trigarta
+		d_kuru
+		d_haritanaka
+		d_mathura
+		d_vodamayutja
+		d_nisada
+		d_gurjara_mandala
+		d_anartta
+		d_saurashtra
+		d_lata
+		d_maru
+		d_jangladesh
+		d_stravani
+		d_medapata
+		d_ajmer
+		d_dadhipadra
+		d_akara_dasarna
+		d_anupa
+		d_kanyakubja
+		d_saryupara
+		d_jejakabhukti
+		d_devagiri
+		d_dahala
+		d_vidharba
+		d_konkana
+		d_nasikya
+		d_rattapadi
+		d_kalyani
+		d_gangavadi
+		d_nulambavadi
+		d_raichur_doab
+		d_pandya_nadu
+		d_chera_nadu
+		d_warangal
+		d_racakonda
+	}
+
+	769 = {
+		military = 1.0
+		economy = 1.3
+		culture = 1.5
+
+		TECH_FORTIFICATIONS_CONSTRUCTION = 0.85
+		TECH_CASTLE_CONSTRUCTION = 0.85
+		TECH_CONSTRUCTION = 1
+		TECH_INFANTRY = 1
+		TECH_SKIRMISH = 1
+		TECH_MELEE = 1
+		TECH_SIEGE_EQUIPMENT = 1
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.7
+	}
+}
+
+

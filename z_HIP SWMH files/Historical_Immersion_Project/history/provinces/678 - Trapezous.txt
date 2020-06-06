@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 678 - Trapezous
+
+# County Title
+title = c_trapezous
+
+# Settlements
+max_settlements = 6
+b_trapezous = castle
+b_ophioun = city
+b_vazelon = temple
+b_machka = temple
+b_tzanikha = castle
+#b_koralla = castle
+#b_kharton = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1245.1.1 = { trade_post = b_spinola }

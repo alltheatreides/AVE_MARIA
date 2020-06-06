@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 690 - Al Amarah
+
+# County Title
+title = c_al_amarah
+
+# Settlements
+max_settlements = 6
+b_nahrawan = castle #Middle Nahrawan
+b_baqubah = castle #Upper Nahrawan
+b_bandanijin = city #Lower Nahrawan
+b_daskara = city
+b_iskaf_nahrawan = temple
+b_jalula = castle
+
+#b_barazarruz = city
+
+#Misc
+culture = levantine_arabic
+religion = sunni
+terrain = plains # Nahrawan shouldn't be mountains, Hills or plains is more accurate
+
+# History
+1258.2.20 = { # Failing irrigation system in + Mongol invasion, general abandonment in middle and lower Nahrawan
+	capital = b_baqubah
+	remove_settlement = b_nahrawan
+	remove_settlement = b_bandanijin
+}

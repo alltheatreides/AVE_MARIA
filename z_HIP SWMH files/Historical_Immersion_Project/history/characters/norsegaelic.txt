@@ -1,0 +1,519 @@
+# -*- ck2.history.characters -*-
+
+# Range - 1237000 - 1237500
+# Range - 1901000 - 1901200
+
+131521 = {
+	name="Járnkné"
+	# AKA: Glúniairn
+	dynasty=20084
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	father=5790
+	mother=131520
+	960.1.2={
+		birth="960.1.2"
+	}
+	989.1.2={
+		death="989.1.2"
+	}
+}
+131522 = {
+	name="Gilla Ciaráin"
+	# AKA: Gilla Ciarain
+	dynasty=20084
+	martial=5
+	diplomacy=4
+	intrigue=3
+	stewardship=4
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	father=131521
+	979.1.2={
+		birth="979.1.2"
+	}
+	1014.1.24={
+		death="1014.1.24"
+	}
+}
+131523 = {
+	name="Sigtrygg"
+	# AKA: Sihtric
+	dynasty=20084
+	martial=3
+	diplomacy=5
+	intrigue=3
+	stewardship=5
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	father=131521
+	980.1.2={
+		birth="980.1.2"
+	}
+	1014.1.24={
+		death="1014.1.24"
+	}
+}
+131526 = {
+	name="Mac Congáil"
+	dynasty=20084
+	martial=7
+	diplomacy=5
+	intrigue=6
+	stewardship=4
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	father=131525
+	1039.1.2={
+		birth="1039.1.2"
+	}
+	1098.1.1={
+		death="1098.1.1"
+	}
+}
+159291 = {
+	name="Sigtrygg"
+	# AKA: Sihtric
+	dynasty=20084
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=4
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	add_trait="bastard"
+	father=1027
+	mother=1028
+	1015.1.1={
+		birth="1015.1.1"
+	}
+	1040.1.1={
+		add_spouse=159290
+	} 
+	1080.1.5={
+		death="1080.1.5"
+	}
+}
+1025 = {
+	name="Sigtrygg"
+	# AKA: Sihtric
+	dynasty=20084
+	martial=5
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="intricate_webweaver"
+	father=5790
+	970.1.1={
+		birth="970.1.1"
+	}
+	1000.1.2={
+		add_spouse=1026
+	}
+	1042.1.5={
+		death="1042.1.5"
+	}
+}
+1027 = {
+	name="Olafr"
+	# AKA: Amlaíb
+	dynasty=20084
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=4
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="tough_soldier"
+	father=1025
+	mother=1026
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1018.1.2={
+		add_spouse=1028
+	}
+	1034.1.5={
+		death="1034.1.5"
+	}
+}
+1029 = {
+	name="Ragnhild"
+	# AKA: Rachel
+	female = yes
+	dynasty=20084
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=4
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="flamboyant_schemer"
+	father=1027
+	mother=1028
+	1018.1.1={
+		birth="1018.1.1"
+	}
+	1065.1.5={
+		death="1065.1.5"
+	}
+}
+131524 = {
+	name="Gudrød"
+	# AKA: Godfrey
+	dynasty=20084
+	martial=4
+	diplomacy=4
+	intrigue=5
+	stewardship=8
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="patient"
+	add_trait="charitable"
+	add_trait="gluttonous"
+	father=131523
+	1004.1.2={
+		birth="1004.1.2"
+	}
+	1074.1.1={
+		death="1074.1.1"
+	}
+}
+131525 = {
+	name="Finn"
+	# AKA: Fingal
+	dynasty=20084
+	martial=6
+	diplomacy=5
+	intrigue=8
+	stewardship=3
+	religion="catholic"
+	culture="norsegaelic"
+	add_trait="charitable"
+	add_trait="tough_soldier"
+	father=131524
+	1022.1.2={
+		birth="1022.1.2"
+	}
+	1072.1.1={
+		death="1072.1.1"
+	}
+}
+1226404 = {
+	name = "Guðfrið"
+	# AKA: Gofraid #Viking of Wexford
+	dynasty=1027032
+	martial=12
+	diplomacy=6
+	intrigue=3
+	stewardship=10
+	religion="catholic"
+	culture="norsegaelic"
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1100.1.1={  
+		death="1100.1.1"
+	}
+}
+1226424 = {
+	name = "Wadter" #Viking of Waterford
+	dynasty=1027032
+	martial=10
+	diplomacy=11
+	intrigue=9
+	stewardship=8
+	religion="catholic"
+	culture="norsegaelic"
+	father=1237014 #placeholder connection to tie the tree together	
+	1025.1.1={
+		birth=yes
+	}
+	1090.1.1={  
+		death=yes
+	}
+}
+#####################New Norse-Gaelic (Woody)##################
+
+1237000 = {
+	name = "Echmarcach" #Echmarcach Mac Ragnall
+	dynasty=20084
+	religion="catholic"
+	culture="norsegaelic"
+	father=1237003
+	1001.1.1={
+		birth="yes"
+	}
+	1039.1.1 = {
+		add_claim = c_dublin
+	}
+	1064.1.1={  
+		death="yes"
+	}
+}
+1237001 = {
+	name="Gofraid"
+	dynasty=20084
+	religion="norse_pagan"
+	culture=norsegaelic
+	father=214907
+	924.1.2={
+		birth = yes
+	}
+	955.1.1={
+		religion="catholic"
+	}	
+	989.1.1={
+		death = yes
+	}
+}
+1237002 = {
+	name="Maccus"
+	dynasty=20084
+	religion="norse_pagan"
+	culture=norsegaelic
+	father=214907
+	929.1.2={
+		birth = yes
+	}
+	955.1.1={
+		religion="catholic"
+	}	
+	987.1.2={
+		death = yes
+	}
+}
+1237003 = {
+	name="Ragnall"
+	dynasty=20084
+	religion="catholic"
+	culture=norsegaelic
+	father=1237001
+	951.1.1={
+		birth = yes
+	}
+	1005.1.1={
+		death = yes
+	}
+}
+1237004 = {
+	name="Lagmann"
+	dynasty=20084
+	religion="catholic"
+	culture=norsegaelic
+	father=1237001
+	953.1.2={
+		birth = yes
+	}
+	1012.1.2={
+		death = yes
+	}
+}
+1237005 = {
+	name="Amlaíb"
+	dynasty=20084
+	religion="catholic"
+	culture=norsegaelic
+	father=1237004
+	972.1.2={
+		birth = yes
+	}
+	1014.1.2={
+		death = yes
+	}
+}
+1237006 = {
+	name="Donnchad"
+	dynasty=20084
+	religion="catholic"
+	culture=norsegaelic
+	father=1237005
+	995.1.2={
+		birth = yes
+	}
+	1014.1.2={
+		death = yes
+	}
+}
+1237007 = {
+	name="Mael Muíre"
+	dynasty=20084
+	female = yes
+	religion="catholic"
+	culture=norsegaelic
+	father=1237001
+	955.1.2={
+		birth = yes
+	}
+	1023.1.2={
+		death = yes
+	}
+}
+1237008 = {
+	name="Ímar" #Imar mac Arailt
+	dynasty=556
+	religion="catholic"
+	culture=norsegaelic
+	father=5791
+	978.1.2={
+		birth = yes
+	}
+	1054.1.2={
+		death = yes
+	}
+}
+1237009 = {
+	name = "Cacht" #Cacht ingen Ragnall
+	dynasty=20084
+	religion="catholic"
+	culture="norsegaelic"
+	female=yes
+	father=1237003
+	1002.1.1={
+		birth="yes"
+	}
+	1054.1.1={  
+		death="yes"
+	}
+}
+1237010 = {
+	name ="Rögnvaldr" #Theorized Grandfather of Ivar of Waterford, known Viking King of Waterford around the turn of the 11th century. Which would make him an Ivaring
+	dynasty=20084
+	religion="norse_pagan"
+	culture=norse
+	father=168500	
+	888.1.1={
+		birth=yes
+	}
+	936.1.1={  
+		death=yes
+	}
+}
+1237011 = {
+	name ="Guðfrið" 
+	# AKA: Unnamed son of Ragnall ua Ímair
+	dynasty=20084
+	religion="catholic"
+	culture=norsegaelic
+	father=1237010	
+	921.1.1={
+		birth=yes
+	}
+	979.1.1={  
+		death=yes
+	}
+}
+1237012 = {
+	name="Ivar" 
+	# AKA: Ímar of Waterford, King of the city until 1000
+	dynasty=1027032
+	religion="catholic"
+	culture=norsegaelic
+	father=1237011	
+	943.1.1={
+		birth=yes
+	}
+	1000.1.1={  
+		death=yes
+	}
+}
+1237013 = {
+	name ="Gilla Pátraic" #son of Ivar of Waterford
+	dynasty=1027032
+	religion="catholic"
+	culture=norsegaelic
+	father=1237012	
+	964.1.1={
+		birth=yes
+	}
+	983.1.1={  
+		death=yes
+	}
+}
+1237014 = {
+	name="Rögnvaldr"
+	# AKA: Ragnall #son of Ivar of Waterford and his successor
+	dynasty=1027032
+	religion="catholic"
+	culture=norsegaelic
+	father=1237012	
+	967.1.1={
+		birth=yes
+	}
+	1018.1.1={  
+		death=yes
+	}
+}
+1237015 = {
+	name="Sigtrygg"
+	# AKA: Sihtric	#son of Ivar of Waterford and his successor
+	dynasty=1027032
+	religion="catholic"
+	culture=norsegaelic
+	father=1237012	
+	975.1.1={
+		birth=yes
+	}
+	1022.1.1={  
+		death=yes
+	}
+}
+1237016 = {
+	name="Rögnvaldr" 
+	# AKA: Ragnall	#grandson of Ivar of Waterford. Succeeded his uncle Sigtrygg/Sihtric to the throne of Waterford
+	dynasty=1027032
+	religion="catholic"
+	culture=norsegaelic
+	father=1237014	
+	996.1.1={
+		birth=yes
+	}
+	1035.1.1={  
+		death=yes
+	}
+}
+1237017 = {
+	name="Rögnvaldr" 
+	# AKA: Ragnall #Placeholder ruler of Waterford
+	dynasty=1027032
+	martial=10
+	diplomacy=11
+	intrigue=9
+	stewardship=8
+	religion="catholic"
+	culture="norsegaelic"
+	father=1226424 #placeholder connection to tie him to the Ui Imair's. Still uncertain how long they held control over the countryside in and around Waterford
+	1061.1.1={
+		birth=yes
+	}
+	1119.1.1={  
+		death=yes
+	}
+}
+#####################New Norse-Gaelic (King)##################
+1901000 = {
+	name="Gilli" # Hebridean Earl, Viceroy for Sigurdr the Stout and married to his sister
+	dynasty=1000101314
+	religion="catholic"
+	culture=norsegaelic	
+	961.1.1={
+		birth=yes
+	}
+	989.1.1={
+		add_spouse=1290034
+	}	
+	1014.4.23={
+		death=yes
+	}
+}

@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 975 -  Brega
+
+# County Title
+title = c_brega
+
+# Settlements
+max_settlements = 5
+
+b_tara_meath = tribal
+#b_morgallion = tribal
+#b_knowth = tribal
+#b_trim = castle
+#b_louth = city
+#b_mellifont = temple
+
+#b_kells = temple
+#b_ratoath = city
+#b_navan = city
+
+
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+900.1.1 = { b_louth = city }
+1175.1.1 = { b_mellifont = temple } #was 1013
+1175.1.1 = { b_trim = castle }
+1175.1.1 = { capital = b_trim }
+1175.1.1 = { remove_settlement = b_tara_meath }

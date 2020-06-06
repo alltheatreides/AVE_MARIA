@@ -1,0 +1,29 @@
+# 449 - Österreich
+
+# County Title
+title = c_osterreich
+
+# Settlements
+max_settlements = 6
+
+b_tulln = castle
+b_wien = city
+
+#b_melk = temple
+#b_peilstein = castle
+#b_stpolten = city 
+#b_liechtenstein = castle
+
+#b_zelking = castle 
+
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1074.1.1 = { b_peilstein = castle } 
+1089.1.1 = { b_melk = temple }
+1130.1.1 = { b_liechtenstein = castle } 
+1159.1.1 = { b_stpolten = city }
+1170.1.1 = { culture = german }

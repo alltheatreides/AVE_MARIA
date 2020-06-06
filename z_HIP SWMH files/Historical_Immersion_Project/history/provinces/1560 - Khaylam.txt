@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1560 - Khaylam
+
+# County Title
+title = c_khaylam
+
+# Settlements
+max_settlements = 3
+b_akhsiket = castle
+b_kasan = city
+#b_nasrabad = temple
+
+# Misc
+culture = sogdian
+religion = buddhist
+
+# History
+840.1.1 = { b_nasrabad = temple } # during Samanid Ahmad b. Asad's reign
+980.1.1 = {	culture = karluk }
+1005.1.1 = {	religion = sunni }

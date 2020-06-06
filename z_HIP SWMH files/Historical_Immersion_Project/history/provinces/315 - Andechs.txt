@@ -1,0 +1,27 @@
+# 315 - Andechs
+
+# County Title
+title = c_andechs
+
+# Settlements
+max_settlements = 5
+
+b_andechs = castle
+b_tegernsee = temple
+
+#b_landsberg_bayern = city
+#b_eschenlohe = castle
+#b_falkenstein_bayern = castle 
+
+#b_ebersberg = castle 
+#b_werdenfels = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1115.1.1 = { b_falkenstein_bayern = castle  }
+1157.1.1 = { b_eschenlohe = castle }
+1170.1.1 = { culture = german }
+1300.1.1 = { b_landsberg_bayern = city }

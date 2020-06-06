@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1499 - Semna
+
+# County Title
+title = c_semna
+
+# Settlements
+max_settlements = 5
+b_sai = castle
+b_akasha = temple
+b_sonqi_tino = city
+#b_kulb = temple
+
+#b_semna = castle
+#b_gemai = castle
+#b_attiri = castle
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History
+
+1150.1.1 = { b_kulb = temple }
+1300.1.1 = { religion = sunni }

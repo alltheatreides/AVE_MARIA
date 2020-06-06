@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 1571 - Yulduz
+
+# County Title
+title = c_yulduz
+
+# Settlements
+max_settlements = 5
+b_illi = tribal
+#b_almaliq = tribal
+#b_pulad = city
+#b_quyash = castle
+#b_quchlug = city #a "village" constructed by Chagatai near Almaliq
+
+#b_sarbulaq = temple
+
+
+# Misc
+culture = uyghur
+religion = tengri_pagan
+
+# History
+
+1000.1.1 = { culture= karluk }
+1100.1.1 = { religion = sunni }
+1180.1.1 = { b_almaliq = tribal }
+1180.1.1 = { capital = b_almaliq }
+1180.1.1 = { remove_settlement = b_illi }
+1180.1.1 = { b_pulad = city }
+1248.1.1 = { culture = mongol }

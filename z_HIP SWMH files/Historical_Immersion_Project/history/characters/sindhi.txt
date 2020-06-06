@@ -1,0 +1,693 @@
+# -*- ck2.history.characters -*-
+
+175050 = {
+	name="Umar" # Umar ibn'Abd al-Aziz al'Habbari
+	dynasty=1043005
+	religion="sunni"
+	culture="bedouin_arabic"
+	821.1.1={
+		birth=yes
+	}
+	883.1.1={
+		death=yes
+	}
+}
+
+178011 = {
+	name="Genhra" # Fictional
+	dynasty=1041111
+	religion="sunni"
+	culture="sindhi"
+	835.1.1={
+		birth="835.1.1"
+	}
+	884.1.1={
+		death="884.1.1"
+	}
+}
+178012 = {
+	name="Khafif" # Fictional
+	dynasty=1041112
+	religion="sunni"
+	culture="sindhi"
+	844.1.1={
+		birth="844.1.1"
+	}
+	869.1.1={
+		death="869.1.1"
+	}
+}
+178013 = {
+	name="Abdurrashid" # Fictional
+	dynasty=1041113
+	religion="sunni"
+	culture="sindhi"
+	849.1.1={
+		birth="849.1.1"
+	}
+	876.1.1={
+		death="876.1.1"
+	}
+}
+178014 = {
+	name="Junah" # Fictional
+	dynasty=1041114
+	religion="sunni"
+	culture="sindhi"
+	831.1.1={
+		birth="831.1.1"
+	}
+	882.1.1={
+		death="882.1.1"
+	}
+}
+178015 = {
+	name="Punhun" # Fictional
+	dynasty=1041115
+	religion="sunni"
+	culture="sindhi"
+	839.1.1={
+		birth="839.1.1"
+	}
+	894.1.1={
+		death="894.1.1"
+	}
+}
+178016 = {
+	name="Shahabuddin" # Fictional
+	dynasty=1041116
+	religion="sunni"
+	culture="sindhi"
+	trait=sympathy_indian
+	837.1.1={
+		birth="837.1.1"
+	}
+	901.1.1={
+		death="901.1.1"
+	}
+}
+178017 = {
+	name="Mahmud" # Fictional
+	dynasty=1041117
+	religion="sunni"
+	culture="sindhi"
+	833.1.1={
+		birth="833.1.1"
+	}
+	888.1.1={
+		death="888.1.1"
+	}
+}
+
+##########################################
+
+#Fictional holders of Karor
+
+178215 = {
+	name="Abdurrashid" # Fictional - title holder.
+	dynasty=1041116
+	father=178016
+	religion="sunni"
+	culture="sindhi"
+	trait=kshatriya
+	trait=sympathy_indian
+	859.7.12={
+		birth=yes
+	}
+	934.5.16={
+		death=yes
+	}
+}
+178216 = {
+	name="Chanesar" # Fictional - title holder.
+	dynasty=1041116
+	father=178215
+	religion="sunni"
+	culture="sindhi"
+	trait=kshatriya
+	trait=sympathy_indian
+	925.6.2={
+		birth=yes
+	}
+	973.5.1={
+		death=yes
+	}
+}
+178217 = {
+	name="Ali Sher" # Fictional - title holder.
+	dynasty=1041116
+	father=178216
+	religion="sunni"
+	culture="sindhi"
+	trait=kshatriya
+	trait=sympathy_indian
+	955.3.1={
+		birth=yes
+	}
+	1012.3.5={
+		death=yes
+	}
+}
+
+188349 = {
+	name="Khafif" # I
+	dynasty=1042090 # lineage unclear, but there are recent studies which argue that he was the father of Bhoongar
+	religion="sunni"
+	culture="rajput"
+	father=1240058 #fictional relation
+	trait="sympathy_indian" #Degree of Sumra devotion to Islam has long been disputed
+	984.1.1={
+		birth=yes
+		culture="sindhi"
+	}
+	1020.1.1 = {
+		religion = ismaili #ruler of Mansura at the time of Mahmud Ghazni's raid in 1025 is referred to as an "apostate muslim"
+	}
+	1026.1.1={
+		death={
+			death_reason=death_execution
+			killer=144125
+		}
+	}
+}
+
+188350 = {
+	name="Soomar" #Soomar/Sumra Rajabal/Rajpal?
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="rajput"
+	father=1240058 #fictional relation
+	trait="sympathy_indian" #Degree of Sumra devotion to Islam has long been disputed
+	977.1.1={
+		birth=yes
+		culture="sindhi"
+	}
+	990.1.1 = {
+		religion = ismaili #unclear whether he was born Ismaili or later converted
+	}
+	1030.1.1={
+		death=yes
+	}
+}
+
+188351 = {
+	name="Bhoongar"
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="rajput"
+	father=188349
+	trait="sympathy_indian" #Degree of Sumra devotion to Islam has long been disputed
+	1023.1.1={
+		birth=yes
+		culture="sindhi"
+	}
+	1068.1.1={
+		death=yes
+	}
+}
+
+188352 = {
+	name="Dodo" # the II
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="rajput"
+	father=188351
+	trait="tough_soldier" #expedition into Makran
+	trait="sympathy_indian"
+	1043.1.1={
+		birth=yes
+		culture="sindhi"
+	}
+	1100.1.1={ #? abdicated in 1089
+		death=yes
+	}
+}
+
+188353 = {
+	name="Zainab Tari"
+	female=yes
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188352
+	trait="grey_eminence"
+	trait="sympathy_indian"
+	1063.1.1={
+		birth=yes
+	}
+	1105.1.1={
+		death=yes
+	}
+}
+
+188354 = {
+	name="Sanghar"
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188352
+	trait="tough_soldier" #expedition into Makran
+	trait="sympathy_indian"
+	1078.1.1={ #still an infant upon succession
+		birth=yes
+	}
+	1100.1.1={
+		add_spouse=188355
+	}
+	1107.1.1={
+		death=yes
+	}
+}
+
+188355 = {
+	name="Hamun" #attempted to usurp the throne after the death of Sanghar
+	dynasty=1044306 # Gujar
+	female=yes
+	religion="hindu"
+	culture="rajput"
+	father=1240013
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	1084.1.1={
+		birth=yes
+	}
+	1107.1.1={ #?
+		death={
+			death_reason=death_execution
+			killer=188357
+		}
+	}
+}
+
+188356 = {
+	name="Phatoo" #aided Hamun's attempt to usurp the throne after the death of Sanghar
+	dynasty=1044306 # Gujar
+	religion="hindu"
+	culture="rajput"
+	father=1240013
+	trait="kshatriya"
+	trait="vaishnavist_hindu"
+	1086.1.1={
+		birth=yes
+	}
+	1107.1.1={ #?
+		death={
+			death_reason=death_execution
+			killer=188357
+		}
+	}
+}
+
+188357 = {
+	name="Hafif" # the II
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188352 #was 188356
+	trait="sympathy_indian"
+	1084.1.1={
+		birth=yes
+	}
+	1142.1.1={ #ruled for 33 years? 36 years?
+		death=yes
+	}
+}
+
+188358 = {
+	name="Unar"
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188357 #?
+	trait="sympathy_indian"
+	1105.1.1={
+		birth=yes
+	}
+	1181.1.1={ #ruled for 40 years
+		death=yes
+	}
+}
+
+188359 = {
+	name="Dodo" # the III, killed Khafif and Unar and claimed the throne according to one account (Khafif and Unar are brothers in that account)
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188360 #?
+	trait="sympathy_indian"
+	1124.1.1={
+		birth=yes
+	}
+	1194.1.1={
+		death=yes
+	}
+}
+
+188360 = {
+	name="Hafif" # fictitious
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	mother=188353 # fictitious
+	trait="sympathy_indian"
+	1100.1.1={
+		birth=yes
+	}
+	1150.1.1={
+		death=yes
+	}
+}
+
+188361 = {
+	name="Unar" # fictitious
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188360
+	trait="sympathy_indian"
+	1125.1.1={
+		birth=yes
+	}
+	1175.1.1={
+		death=yes
+	}
+}
+
+188362 = {
+	name="Bhoongar" # the II
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188359 #?
+	trait="sympathy_indian"
+	1150.1.1={
+		birth=yes
+	}
+	1195.1.1 = {
+		religion="sunni"
+	}
+	1226.1.1={
+		death=yes
+	}
+}
+
+188363 = {
+	name="Gunero"
+	dynasty=1042090 # Sumra
+	religion="ismaili"
+	culture="sindhi"
+	father=188362 # unclear if true
+	trait="sympathy_indian"
+	1178.1.1={
+		birth=yes
+	}
+	1195.1.1 = {
+		religion="sunni"
+	}
+	1237.1.1={
+		death=yes
+	}
+}
+
+
+188364 = {
+	name="Muhammad-Tur"
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188363
+	trait="sympathy_indian"
+	1200.1.1={
+		birth=yes
+	}
+	1251.1.1={
+		death=yes
+	}
+}
+
+188365 = {
+	name="Gunero" # the II
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188364 # conjecture
+	trait="sympathy_indian"
+	1220.1.1={
+		birth=yes
+	}
+	1267.1.1={ #? tried to reclaim the throne from Doda
+		death=yes
+	}
+}
+
+188366 = {
+	name="Doda" # the IV
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188364 #foster borhter of Gunero (188365)
+	trait="sympathy_indian"
+	1228.1.1={
+		birth=yes
+	}
+	1273.1.1={
+		death=yes
+	}
+}
+
+188367 = {
+	name="Tai"
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	trait="sympathy_indian"
+	father=188366
+	1254.1.1={
+		birth=yes
+	}
+	1296.1.1={
+		death=yes
+	}
+}
+
+188368 = {
+	name="Chanesar"
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188366
+	trait="sympathy_indian"
+	1256.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+
+188369 = {
+	name="Bhoongar"
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188368 
+	trait="sympathy_indian"
+	1276.1.1={
+		birth=yes
+	}
+	1315.1.1={
+		death=yes
+	}
+}
+
+188370 = {
+	name="Hafif" # the III
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188369
+	trait="sympathy_indian"
+	1296.1.1={
+		birth=yes
+	}
+	1333.1.1={
+		death=yes
+	}
+}
+
+188371 = {
+	name="Dodo" # the IV
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188369
+	trait="sympathy_indian"
+	1300.1.1={
+		birth=yes
+	}
+	1350.1.1={
+		death=yes
+	}
+}
+
+188372 = {
+	name="Hamir"
+	dynasty=1042090 # Sumra
+	religion="sunni"
+	culture="sindhi"
+	father=188371
+	trait="sympathy_indian"
+	1330.1.1={
+		birth=yes
+	}
+	1355.1.1={
+		death=yes
+	}
+}
+#188556 = {
+#	name="Taghlak" # fictional
+#	dynasty=1041116
+#	religion="buddhist"
+#	culture="sindhi"
+#	trait=kshatriya
+#	trait=mahayana_buddhist
+#	735.1.1={
+#		birth=yes
+#	}
+#	790.1.1={
+#		death=yes
+#	}
+#}
+
+188557 = {
+	name="Sikandar" # fictional
+	dynasty=1041115
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaktist_hindu
+	742.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188558 = {
+	name="Munzir" # fictional
+	dynasty=1041117
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaktist_hindu
+	728.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+
+188559 = {
+	name="Shahabuddin" # fictional
+	dynasty=1041117
+	religion="hindu"
+	culture="sindhi"
+	father=188558
+	trait=kshatriya
+	trait=shaktist_hindu
+	755.1.1={
+		birth=yes
+	}
+	805.1.1={
+		death=yes
+	}
+}
+
+188560 = {
+	name="Genhra" # fictional
+	dynasty=1041118
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=vaishnavist_hindu
+	737.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188561 = {
+	name="Banhbina" # fictional
+	dynasty=1041114
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=smartist_hindu
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188562 = {
+	name="Doda" # fictional
+	dynasty=1041113
+	religion="buddhist"
+	culture="sindhi"
+	trait=kshatriya
+	trait=mahayana_buddhist
+	732.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+#188563 = {
+#	name="Chanesar" # fictional
+#	dynasty=1041112
+#	religion="buddhist"
+#	culture="sindhi"
+#	trait=kshatriya
+#	trait=mahayana_buddhist
+#	724.1.1={
+#		birth=yes
+#	}
+#	780.1.1={
+#		death=yes
+#	}
+#}
+
+188564 = {
+	name="Arnel" # fictional
+	dynasty=1041111
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaivist_hindu
+	745.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+261105 = {
+	name = "Thakur"
+	dynasty = 1062541
+	religion = sunni
+	culture = sindhi
+	904.1.1 = {
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}

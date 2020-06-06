@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1178 - Yarkand
+
+# County Title
+title = c_yarkand
+
+# Settlements
+max_settlements = 4
+
+b_yarkand = castle
+b_pishan = city
+b_karghalik = temple
+#b_guma = castle
+
+# Misc
+culture = saka
+religion = buddhist
+
+# History
+1030.1.1 = {	religion = sunni }
+1060.1.1 = {	culture = karluk }

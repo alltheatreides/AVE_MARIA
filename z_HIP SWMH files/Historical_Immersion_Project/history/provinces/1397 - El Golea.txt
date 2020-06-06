@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1397 - El Golea
+
+# County Title
+title = c_elgolea
+
+# Settlements
+max_settlements = 2
+b_elgolea = tribal
+
+#b_taursit = city
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+#1070.1.1 = { b_elgolea = city }
+
+

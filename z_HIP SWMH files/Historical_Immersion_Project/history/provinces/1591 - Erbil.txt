@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1591 - Erbil
+
+# County Title
+title = c_erbil
+
+# Settlements
+max_settlements = 4
+b_arbil = castle
+b_shaqlawa = city
+b_darabad = temple
+#b_tellhaftun = city
+
+#Misc
+culture = kurdish
+religion = nestorian
+
+# History
+867.1.1 = { religion = sunni }
+1200.1.1 = {
+	religion = yazidi
+}

@@ -1,0 +1,22 @@
+# -*- ck2.history.wars -*-
+
+name = "The Revenge of the Sons of Lodbrok"
+
+casus_belli = {
+	actor = 163111 # Ivar the Boneless
+	recipient = 163103 # Aella of Northumberland
+	casus_belli=rivalry_cb
+	date=865.1.1
+}
+
+865.1.1 = {
+	add_attacker = 163111  # Ivar the Boneless
+	add_attacker = 163112 # Halfdan Ragnarsson
+	add_defender = 163103
+}
+
+867.3.21 = {
+	rem_attacker = 163111
+	rem_attacker = 163112
+	rem_defender = 163103
+}

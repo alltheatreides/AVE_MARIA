@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1197 - Medina del Campo
+
+# County Title
+title = c_medina_del_campo
+
+# Settlements
+max_settlements = 3
+b_tordesillas = castle
+#b_medinadelcampo = city
+#b_portillo = castle
+
+# Misc
+culture = castillan
+religion = catholic
+
+# History
+
+867.1.1 = { 
+	b_tordesillas = ca_keep_1
+	b_tordesillas = ca_wall_1
+}

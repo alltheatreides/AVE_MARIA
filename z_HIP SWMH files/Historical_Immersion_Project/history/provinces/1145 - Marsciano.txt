@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1145 - Marsciano
+
+# County Title
+title = c_marsciano
+
+# Settlements
+max_settlements = 4
+
+b_marsciano = castle
+b_perugia = city
+b_todi = temple
+b_alviano = castle
+
+
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = forest
+# History

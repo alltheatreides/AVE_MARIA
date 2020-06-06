@@ -1,0 +1,67 @@
+159716 = {
+	name="Sarak"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father = 194121
+	830.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+
+
+160069 = {
+	name="Pudak"
+	religion="finnish_pagan"
+	culture=samoyed
+	dynasty=1029139
+	father=159716
+	852.1.1={
+		birth=yes
+	}
+	920.1.1={
+		death=yes
+	}
+}
+
+194119 = {
+	name = "Alik"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+194120 = {
+	name = "Noumea"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194119
+	770.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}
+194121 = {
+	name = "Yadne"
+	dynasty = 1029139
+	religion = finnish_pagan
+	culture = samoyed
+	father = 194120
+	810.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,25 @@
+# 1957 - Salm
+
+# County Title
+title = c_salm
+
+# Settlements
+max_settlements = 4
+
+b_vielsalm = castle
+b_stablo = temple
+b_malmedy = city
+
+#b_franchimont = castle
+
+#b_sprimont = castle
+#b_logne = castle
+#b_herve = city 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1155.1.1 = { b_franchimont = castle }
+1170.1.1 = { culture = german }

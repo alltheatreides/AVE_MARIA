@@ -1,0 +1,97 @@
+# -*- ck2.history.provinces -*-
+
+# 693 - Baghdad
+
+# County Title
+title = c_baghdad
+
+# Settlements
+max_settlements = 7
+
+b_qalatbaghdad = castle
+b_bagdad = temple # holy_site = sunni, nestorian
+b_madain = city
+b_muhawwal = castle
+b_baradan = temple
+b_sabat_baghdad = city
+b_awana = city
+
+#Misc
+culture = levantine_arabic
+religion = sunni
+terrain = plains
+
+# History
+
+#Continuous development of the House of Wisdom is here reflected by the gradual increase in stage
+#Several galleries for each branch of science were built by Caliph al_Mamun (813-833)
+769.1.1 = {
+	build_wonder = wonder_house_of_wisdom
+	set_wonder_stage = 1
+}
+
+780.1.1 = {
+	set_wonder_stage = 2
+}
+
+813.1.1 = {
+	set_wonder_stage = 3
+}
+
+815.1.1 = {
+	set_wonder_stage = 4
+}
+820.1.1 = {
+	build_wonder_upgrade = upgrade_collection_drama
+}
+
+822.1.1 = {
+	build_wonder_upgrade = upgrade_collection_math
+}
+
+824.1.1 = {
+	build_wonder_upgrade = upgrade_collection_architecture
+}
+
+826.1.1 = {
+	build_wonder_upgrade = upgrade_collection_science
+}
+
+828.1.1 = {
+	build_wonder_upgrade = upgrade_collection_history
+}
+
+833.1.1 = {
+	set_wonder_stage = 4
+}
+
+867.1.1 = { 
+	b_qalatbaghdad = ca_keep_1
+	b_qalatbaghdad = ca_training_grounds_1
+	b_qalatbaghdad = ca_keep_2
+	b_qalatbaghdad = ca_stable_1
+	b_qalatbaghdad = ca_barracks_1
+	b_qalatbaghdad = ca_militia_barracks_1
+	b_qalatbaghdad = ca_wall_1
+	b_qalatbaghdad = ca_wall_2
+	b_qalatbaghdad = ca_wall_3
+	b_madain = ct_wall_1
+	b_madain = ct_barracks_1
+	b_bagdad = tp_monastery_1
+	b_bagdad = tp_monastery_2
+	b_bagdad = tp_wall_1
+	b_bagdad = tp_barracks_1
+	b_muhawwal = ca_keep_1
+	b_muhawwal = ca_training_grounds_1
+	b_muhawwal = ca_stable_1
+	b_muhawwal = ca_militia_barracks_1
+	b_muhawwal = ca_wall_1
+	b_muhawwal = ca_wall_2
+}
+1258.2.20 = { # Failing irrigation system + Mongol invasion
+	remove_settlement = b_baradan
+	destroy_wonder = wonder_house_of_wisdom
+}
+1300.1.1 = { #Uninhabited by early 14th century
+	remove_settlement = b_madain
+}

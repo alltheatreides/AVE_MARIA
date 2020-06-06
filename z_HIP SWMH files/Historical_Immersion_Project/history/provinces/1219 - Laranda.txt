@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1219 - Laranda
+
+# County Title
+title = c_laranda
+
+# Settlements
+max_settlements = 3
+b_laranda = castle
+b_barata = city
+#b_derbe = temple
+
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1097.1.1 = { culture = turkmen }
+1097.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }

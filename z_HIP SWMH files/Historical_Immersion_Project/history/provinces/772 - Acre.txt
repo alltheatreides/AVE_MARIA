@@ -1,0 +1,46 @@
+# -*- ck2.history.provinces -*-
+
+# 772 - Acre
+
+# County Title
+title = c_acre
+
+# Settlements
+max_settlements = 6
+
+b_castellumregis = castle
+b_acre = city
+b_tyrus = temple
+#b_adelon = castle
+#b_scandelon = castle
+#b_haifa = castle
+
+
+
+# Misc
+culture = levantine_arabic
+religion = orthodox
+
+# History
+
+867.1.1 = { 
+	b_acre = ct_wall_1
+	b_acre = ct_barracks_1
+        b_acre = ct_training_grounds_1
+        b_acre = ct_port_1
+	b_acre = ct_marketplace_1
+
+} 
+
+1099.1.1 = { b_haifa = castle } # lordship of Haifa
+1104.1.1 = { religion = catholic
+	b_acre = ct_barracks_2
+	b_acre = ct_wall_2 
+        b_acre = ct_training_grounds_2
+	b_acre = ct_port_2
+        b_acre = ct_port_3
+           }
+1116.1.1 = { b_scandelon = castle } # lordship of Scandaleon
+1198.1.1 = { b_adelon = castle } # lordship of Adelon
+1244.1.1 = { trade_post = b_contarini }
+1295.1.1 = { religion = sunni } 

@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 628 - Bukhara
+
+# County Title
+title = c_bukhara
+
+# Settlements
+max_settlements = 7
+
+b_bukhara = castle
+b_ramitan = temple
+b_paykend = castle
+b_tavaris = city 
+b_varaksha = city
+
+#b_vardana = castle
+#b_ghijduvan = temple
+
+
+# Misc
+culture = sogdian
+religion = sunni #was zoroastrian - for gameplay reasons switched to sunni
+terrain = steppe
+
+# History
+990.1.1 = { religion = sunni }
+1000.1.1 = { culture = tajik }
+
+#1220.10.10 = {
+#      remove_settlement = b_varaksha
+#      remove_settlement = b_tavaris
+#      }

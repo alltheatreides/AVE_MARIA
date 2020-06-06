@@ -1,0 +1,28 @@
+# 1184 - Eppenstein
+
+# County Title
+title = c_eppenstein
+
+# Settlements
+max_settlements = 4
+
+b_eppenstein = castle
+b_bruck = city
+ 
+#b_admont = temple 
+#b_pranckh = castle 
+
+#b_leoben = city 
+#b_seckau = temple
+#b_pernegg = castle 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+955.1.1 = { culture = bavarian }
+1074.1.1 = { b_admont = temple }
+1135.1.1 = { b_pranckh = castle }
+1170.1.1 = { culture = german }
+#1218.1.1 = { b_seckau = temple }

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1239 - Mardin
+
+# County Title
+title = c_mardin
+
+# Settlements
+max_settlements = 5
+
+b_maridin = castle								
+b_resaina = city
+b_dunaysir = temple
+b_dairodmorhannanyo = temple
+#b_alsywaydaturkey = castle
+	
+# Misc
+culture = assyrian
+religion = nestorian
+
+# History

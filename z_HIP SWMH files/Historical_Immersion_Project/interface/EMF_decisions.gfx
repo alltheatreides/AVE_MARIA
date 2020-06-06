@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_become_paulician_patriarch"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_manichean_create_leader"
+		texturefile = "gfx\\interface\\decision_icon_become_saoshyant.dds"
+	}
+}

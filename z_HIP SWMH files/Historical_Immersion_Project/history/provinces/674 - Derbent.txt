@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 674 - Derbent
+
+# County Title
+title = c_derbent
+
+# Settlements
+max_settlements = 4
+b_narinkala = castle
+b_derbent = city
+b_quba = city
+#b_juma = temple
+#b_chikkulkan = castle
+#b_kuli = castle
+#b_tarki = city
+#b_tayus = castle
+#b_datuna = temple
+
+# Misc
+culture = adhari
+religion = sunni
+
+# History
+
+651.1.1 = {
+    b_quba = ct_marketplace_1
+}
+1259.1.1 = { religion = shiite }

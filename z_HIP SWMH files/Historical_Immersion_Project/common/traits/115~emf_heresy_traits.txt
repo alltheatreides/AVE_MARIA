@@ -1,0 +1,16 @@
+# -*- ck2.traits -*-
+
+imamah_claimant = {
+	same_religion_opinion = 25
+	monthly_character_piety = 0.5
+	
+	cached = yes
+	random = no
+	customizer = no
+}
+
+saint = {
+	random = no
+	customizer = no
+}
+

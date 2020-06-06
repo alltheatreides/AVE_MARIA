@@ -1,0 +1,226 @@
+# -*- ck2.history.characters -*-
+
+#1144530 - 1144546
+#free - free
+
+
+1144530 = {
+	name="War Ndyabe" #War Jabi b. Rabis
+	dynasty=1000053580 #actually unknown as to whether he belonged to the Manna
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1144547
+	981.1.1={
+		birth="981.1.1"
+	}
+	1002.1.1={
+		religion="sunni"
+	}
+	1040.5.1={
+		death="1040.5.1"
+	}
+}
+1144531 = {
+	name="Labi"
+	dynasty=1000053580
+	religion="sunni"
+	culture="wolof"
+	father=1144530
+	1011.12.12={
+		birth="1011.12.12"
+	}
+	1086.1.1={
+		death="1086.1.1"
+	}
+}
+1144532 = {
+	name="Ndyabe" #fictional Dya'ogo ruler of Takrur
+	dynasty=1000053586 #Dya'ogo is said to have been of "white" origin - Berber?
+	religion="ibadi"
+	culture="zanata" #?
+	838.12.12={
+		birth="838.12.12"
+	}
+	886.1.1={
+		death="886.1.1"
+	}
+}
+1144533 = {
+	name="Lamane" #fictional
+	dynasty=1000053586
+	religion="ibadi"
+	culture="zanata" #?
+	father=1144532
+	858.1.1={
+		birth="858.1.1"
+	}
+	906.1.1={
+		death="906.1.1"
+	}
+}
+1144540 = {
+	name="Ndyay"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1149000
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1098.1.1={
+		death="1098.1.1"
+	}
+}
+1144545 = {
+	name="Lamane"
+	dynasty=1000053582
+	religion="sunni"
+	culture="wolof"
+	1049.1.1={
+		birth="1049.1.1"
+	}
+	1101.1.1={
+		death="1101.1.1"
+	}
+}
+1144546 = {
+	name="Labi"
+	dynasty=1000053582
+	religion="west_african_pagan"
+	culture="wolof"
+	849.1.1={
+		birth="849.1.1"
+	}
+	901.1.1={
+		death="901.1.1"
+	}
+}
+1144547 = {
+	name="Rabis"
+	dynasty=1000053580
+	religion="west_african_pagan"
+	culture="wolof"
+	950.1.1={
+		birth="950.1.1"
+	}
+	1000.1.1={
+		death="1000.1.1"
+	}
+}
+1149000 = {
+	name="Zenku"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1149001	
+	1011.1.1={
+		birth=yes
+	}
+	1067.1.1={
+		death=yes
+	}
+}
+1149001 = {
+	name="Buur"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1149002	
+	975.1.1={
+		birth=yes
+	}
+	1034.1.1={
+		death=yes
+	}
+}
+1149002 = {
+	name="War"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	
+	940.1.1={
+		birth=yes
+	}
+	1003.1.1={
+		death=yes
+	}
+}
+1149003 = {
+	name="Zenku"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1144540
+	1071.1.1={
+		birth=yes
+	}
+	1122.1.1={
+		death=yes
+	}
+}
+1149004 = {
+	name="Ndyay"
+	dynasty=1000053581
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1149003
+	1104.1.1={
+		birth=yes
+	}
+	1155.1.1={
+		death=yes
+	}
+}
+1149005 = {
+	name="Ndyabe" #fictional
+	dynasty=1000053586
+	religion="ibadi"
+	culture="zanata" #?
+	father=1144533
+	890.1.1={
+		birth=yes
+	}
+	947.1.1={
+		death=yes
+	}
+}
+1149006 = {
+	name="Labi" #fictional
+	dynasty=1000053586
+	religion="ibadi"
+	culture="zanata" #?
+	father=1149005
+	928.1.1={
+		birth=yes
+	}
+	975.1.1={
+		death=yes
+	}
+}
+1149007 = {
+	name="Rabis"
+	dynasty=1000053582
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1144546
+	886.1.1={
+		birth=yes
+	}
+	939.1.1={
+		death=yes
+	}
+}
+1149008 = {
+	name="Zenku"
+	dynasty=1000053582
+	religion="west_african_pagan"
+	culture="wolof"
+	father=1149007
+	921.1.1={
+		birth=yes
+	}
+	986.1.1={
+		death=yes
+	}
+}

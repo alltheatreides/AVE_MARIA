@@ -1,0 +1,52 @@
+# -*- ck2.history.titles -*-
+
+# Qara-Bay
+20.1.1 = {
+	historical_nomad = yes
+}
+864.1.1 = {
+	liege = k_pechenegs
+	holder = 1231784 # fictional father of Kajdan, chief of Qara-Bay at the time of the 893 expulsion
+}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+895.1.1 = {
+	holder = 1231785 # Kajdan, chief of Qara-Bay at the time of the 893 expulsion
+}
+923.1.1 = {
+	holder = 1231787
+}
+943.1.1 = {
+	holder = 1231789
+}
+989.1.1 = {
+	holder = 1231791
+}
+1012.1.1 = {
+	holder = 1231793
+}
+1024.1.1 = {
+	holder = 1231795
+}
+#1040.1.1 = {
+#	holder = 1231795
+#	liege = k_pechenegs
+#}
+1047.1.1 = {
+	holder = 1231797 # Selte
+}
+1068.1.1 = {
+	holder = 1231799 # Kazar
+}
+# Tugorkan and Boniak subdue the north of the danube.
+1094.1.1 = {
+	liege = k_cuman
+}
+# Qipchaq loses the war against the Russians. Pechenegs in the west brakes free.
+1103.4.1 = {
+	liege = 0
+}
+1123.1.1 = {
+	holder = 0 # last invasion of the byzzies, Pechenegs wiped out.
+}

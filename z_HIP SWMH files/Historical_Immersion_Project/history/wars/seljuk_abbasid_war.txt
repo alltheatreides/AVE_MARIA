@@ -1,0 +1,23 @@
+# -*- ck2.history.wars -*-
+
+name = "Seljuk-Abbasid Vassalization War"
+
+casus_belli = {
+	actor = 144054
+	recipient = 144062
+	casus_belli=force_vassalization
+	landed_title=d_sunni
+	date=1157.1.1
+}
+
+1157.1.1 = {
+	add_attacker = 144054
+	add_attacker = 1234864
+	add_defender = 144062
+}
+
+1158.1.1 = {
+	rem_attacker = 144054
+	rem_attacker = 1234864
+	rem_defender = 144062
+}

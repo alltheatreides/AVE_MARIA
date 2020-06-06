@@ -1,0 +1,29 @@
+# 306 - Rostock
+
+# County Title
+title = c_rostock
+
+# Settlements
+max_settlements = 3
+
+b_kessin = tribal
+b_rostock = city
+
+#b_doberan = temple
+
+#b_kalen =city 
+#b_ribnitz = temple 
+#b_linstow = castle
+#b_kropelin = city
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1167.1.1 = { b_kessin = castle } #Pribislaw restored
+1167.1.1 = { religion = catholic }
+1167.1.1 = { b_doberan = temple }
+1230.1.1 = { culture = low_german } 
+1233.1.1 = { b_ribnitz = castle } 
+1240.1.1 = { trade_post = b_bardewik }

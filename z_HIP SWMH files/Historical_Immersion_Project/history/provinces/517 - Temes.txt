@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 517 - Temes
+
+# County Title
+title = c_temes
+
+# Settlements
+max_settlements = 3
+b_temesvar = tribal
+#b_keve= castle
+#b_lugos = city
+#b_rekas = temple
+
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+926.1.1 = { culture = old_hungarian }
+1004.1.1 = { b_temesvar = castle }
+1004.1.1 = { b_keve = castle }
+1043.1.1 = {
+	religion = catholic
+	culture = hungarian
+}
+1300.1.1 = { b_lugos = city }
+
+

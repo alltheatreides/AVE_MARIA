@@ -1,0 +1,29 @@
+# 1032 - Oettingen
+
+# County Title
+title = c_oettingen
+
+# Settlements
+max_settlements = 4
+
+b_dillingen = castle
+
+#b_bopfingen = city
+#b_neresheim = temple 
+#b_oettingen = castle
+
+#b_flochberg = castle
+#b_thannhausen = castle 
+#b_bissingen = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1095.1.1 = { b_neresheim = temple }
+#1138.1.1 = { b_flochberg = castle }
+1147.1.1 = { b_oettingen = castle }
+1147.1.1 = { capital = b_oettingen }
+1153.1.1 = { b_bopfingen = city }
+1170.1.1 = { culture = german }

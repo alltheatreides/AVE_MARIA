@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Qawurd's Claim on Persia War"
+
+casus_belli = {
+	actor = 3041
+	recipient = 3042
+	casus_belli=claim
+	landed_title=e_persia
+	date=1072.11.1
+}
+
+1072.11.1 = {
+	add_attacker = 3041
+	add_defender = 3042
+}
+
+1073.4.17 = {
+	rem_attacker = 3041
+	rem_defender = 3042
+}

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 416 - West Dvina
+
+# County Title
+title = c_west_dvina
+
+# Settlements
+max_settlements = 3
+
+b_rezekene = tribal
+#b_ludza = city
+#b_daugavpils = castle
+
+
+# Misc
+culture = lettigallish
+religion = baltic_pagan
+
+# History
+
+1202.1.1= { b_rezekene = castle 
+b_ludza = city
+} #Principality of Jeriska
+1275.1.1 = { b_daugavpils = castle }

@@ -1,0 +1,7 @@
+spriteTypes = {
+	# Convert to Gothic (Geat)
+	spriteType = {
+		name = "GFX_swmh_convert_to_gothic"
+		texturefile = "gfx/interface/decision_icon_convert_to_swedish.dds"
+	}
+}

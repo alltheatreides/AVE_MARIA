@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 754 - Sozopolis
+
+# County Title
+title = c_sozopolis
+
+# Settlements
+max_settlements = 5
+
+b_sozopolis = castle
+b_baris = castle
+b_akrotiri = city
+b_polydorion = city
+#b_sublaion = castle
+#b_apameia_cibotus = temple #Bishopric and Small City in the Byzantine Era
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1175.1.1 = { b_sublaion = castle }
+1180.1.1 = { remove_settlement = b_sublaion }
+1185.1.1 = { culture = turkmen }
+1185.1.1 = { religion = sunni }
+1185.1.1 = { capital = b_baris }
+1185.1.1 = { remove_settlement = b_sozopolis }
+1185.1.1 = { b_polydorion = city }
+1256.1.1 = { culture = turkish }

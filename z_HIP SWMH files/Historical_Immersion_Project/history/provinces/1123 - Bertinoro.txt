@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1123 - Bertinoro
+
+# County Title
+title = c_bertinoro
+
+# Settlements
+max_settlements = 5
+
+b_bertinoro = castle
+b_forli = city
+#b_polenta = castle
+b_castrocaro = castle
+b_forlimpopoli = temple
+
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands # could be marshland
+# History
+1160.1.1 = { b_polenta = castle}
+1245.1.1 = { b_forli = castle}
+1257.1.1= { capital = b_forli }
+				

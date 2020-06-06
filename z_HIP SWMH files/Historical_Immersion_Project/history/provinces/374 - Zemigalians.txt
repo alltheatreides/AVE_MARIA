@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 374 - Zemigalians
+
+# County Title
+title = c_zemigalians
+
+# Settlements
+max_settlements = 5
+
+b_pilssala = tribal
+b_jelgava = city
+#b_tervete = castle
+
+#b_mezotne = temple
+#b_dobele = castle
+#b_saldus = city
+
+# Misc
+culture = lettigallish
+religion = baltic_pagan
+
+# History
+1199.1.1 = { b_tervete = castle }
+1199.1.1 = { b_pilssala = castle }
+1226.1.1 = { b_mezotne = temple } # Bishopery of Zemigalia
+1231.1.1 = { capital = b_mezotne } # Viestards dies, crusaders asserts themselves.
+1231.1.1 = { b_pilssala = castle }
+1231.1.1 = { b_jelgava = city }
+1251.3.3 = { capital = b_tervete } # Zemigalian revolt, Bishopery moved to Kurzeme.
+1281.1.1 = { capital = b_pilssala } # To the Livonian order. 
+1281.1.1 = { b_tervete = castle }
+1281.1.1 = { religion = catholic } # To the Livonian order.
+1281.1.1 = { remove_settlement = b_tervete } # Destroyed by the order.

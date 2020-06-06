@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 590 - Chuvash # Sura
+
+# County Title
+title = c_chuvash
+
+# Settlements
+max_settlements = 3
+b_cheboksary = tribal
+
+#b_yadrin = castle
+#b_tsivislsk = castle
+#b_kurmysh = city
+
+# Misc
+culture = mordvin
+religion = finnish_pagan
+
+# History
+#1200.1.1 = { b_kurmysh = city }
+
+

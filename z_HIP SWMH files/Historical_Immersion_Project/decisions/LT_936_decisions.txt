@@ -1,0 +1,226 @@
+# -*- ck2 -*-
+
+decisions = {
+	kievan_rus_local_traditions = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			has_landed_title = k_ruthenia
+			has_landed_title = c_kiev
+			OR = {
+				religion = norse_pagan
+				culture = norse
+			}
+			dynasty = 705
+			year <= 1000
+			start_date = 936.8.7
+			is_alternate_start = no
+		}
+		allow = {
+			independent = yes
+			war = no
+			NOT = { trait = incapable }
+			year <= 1000
+			prestige = 300
+			capital_scope = {
+				province_id = 547
+			}
+			
+		}
+		effect = {
+			prestige = -300
+			if = {
+				limit = {
+					religion = norse_pagan
+				}
+				religion = slavic_pagan
+			}
+			if = {
+				limit = {
+					culture = norse
+				}
+				culture = russian
+			}
+			any_close_relative = {
+				if = {
+					limit = {
+						religion = norse_pagan
+					}
+					religion = slavic_pagan
+				}
+				if = {
+					limit = {
+						culture = norse
+					}
+					culture = russian
+				}
+			}
+		}
+	}
+	shiite_caliphate_cairo_decision = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			has_landed_title = d_ismaili
+			has_landed_title = k_egypt
+			OR = {
+				has_landed_title = c_cairo
+				any_realm_character = {
+					has_landed_title = c_cairo
+				}
+			}
+			b_cairo = { has_holder = no }
+			#796 = { # SWMH's Cairo has 7 holding slots
+			#	NOT = { num_of_max_settlements = 7 }
+			#}
+			is_alternate_start = no
+			NOT = { has_global_flag = established_cairo }
+		}
+		allow = {
+			prestige = 500
+			wealth = 500
+			has_landed_title = d_ismaili
+			has_landed_title = k_egypt
+			OR = {
+				has_landed_title = c_cairo
+				any_realm_character = {
+					has_landed_title = c_cairo
+				}
+			}
+		}
+		effect = {
+			set_global_flag = established_cairo
+			wealth = -500
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { province = 796 }
+					}
+				}
+				custom_tooltip = { text = cairo_decision_TT }
+			}
+			if = {
+				limit = {
+					NOT = { has_landed_title = c_cairo }
+				}
+				c_cairo = {
+					show_scope_change = no
+					grant_title_no_opinion = root
+				}
+			}
+			c_cairo = {
+				set_name = "PROV796"
+			}
+			796 = {
+				show_scope_change = no
+				#if = {
+				#	limit = {
+				#		796 = {
+				#			NOR = {
+				#				num_of_max_settlements = 6
+				#				num_of_max_settlements = 7
+				#			}
+				#		}
+				#	}
+				#	add_holding_slot = 2
+				#}
+				#else_if = {
+				#	limit = {
+				#		796 = {
+				#			num_of_max_settlements = 6
+				#		}
+				#	}
+				#	add_holding_slot = 1
+				#}
+				build_holding = {
+					title = b_cairo
+					type = castle
+					holder = ROOT
+				}
+				hidden_tooltip = {
+					b_cairo = { 
+						province_capital = yes
+						root = { capital = PREV } 
+						add_building = ca_wall_q_1
+						add_building = ca_wall_q_2
+						add_building = ca_wall_1
+						add_building = ca_wall_2
+						add_building = ca_keep_1
+						add_building = ca_keep_2
+						add_building = ca_militia_barracks_1
+						add_building = ca_militia_barracks_2
+						add_building = ca_training_grounds_1
+						add_building = ca_barracks_1
+						add_building = ca_barracks_2
+						add_building = ca_stable_1
+						add_building = ca_town_1
+						add_building = ca_town_2
+					}
+				}
+			}
+		}
+	}
+	establishing_habsburg = {
+		is_high_prio = yes
+		only_independent = yes
+		ai_check_interval = 60
+
+		potential = {
+			dynasty = 664
+			culture_group = central_germanic
+			has_landed_title = c_aargau
+			242 = {
+				NOT = { num_of_max_settlements = 7 }
+			}
+			is_alternate_start = no
+			NOT = { has_global_flag = established_habsburg }
+		}
+		allow = {
+			wealth = 500
+		}
+		effect = {
+			wealth = -500
+			prestige = 500
+			custom_tooltip = { text = establishing_habsburg_family }
+			242 = {
+				#build_holding = {
+				#	title = b_habsburg
+				#	type = castle
+				#	holder = root
+				#}
+			}
+			hidden_tooltip = {
+				dynasty = 51
+				any_child_even_if_dead = {
+					dynasty = 51
+					any_child_even_if_dead = {
+						dynasty = 51
+						any_child_even_if_dead = {
+							dynasty = 51
+						}
+					}
+				}
+				b_habsburg = { 
+					add_building = ca_wall_q_1
+					add_building = ca_wall_q_2
+					add_building = ca_wall_1
+					add_building = ca_wall_2
+					add_building = ca_keep_1
+					add_building = ca_keep_2
+					add_building = ca_militia_barracks_1
+					add_building = ca_militia_barracks_2
+					add_building = ca_training_grounds_1
+					add_building = ca_barracks_1
+					add_building = ca_barracks_2
+					add_building = ca_stable_1
+					add_building = ca_town_1
+					add_building = ca_town_2
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1247 - Görz
+
+# County Title
+title = c_gorz
+
+# Settlements
+max_settlements = 3
+
+b_gorz = castle
+b_farra = temple
+#b_kanal = castle
+#b_monfalcone = castle
+#b_cormons = city 
+
+#b_trussio = castle 
+#b_stanjel = castle 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+
+1175.1.1 = { b_cormons = city }

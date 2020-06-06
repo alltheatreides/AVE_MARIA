@@ -1,0 +1,566 @@
+# -*- ck2.minor_titles -*-
+
+#######################################
+# HRE special titles by Aasmul
+#######################################
+
+title_archchancellor_of_germany = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = no
+
+	monthly_prestige = 0.005
+	
+
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		is_theocracy = yes
+		religion_group  = christian
+		OR = {
+			has_landed_title = d_mainz
+			AND = {
+				has_landed_title = c_mainz
+				NOT = { 
+					any_vassal = { has_landed_title = d_mainz }
+				}	
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archchancellor_of_burgundy = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = no
+
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		is_theocracy = yes
+		religion_group  = christian
+		OR = {
+			has_landed_title = d_trier
+			AND = {
+				has_landed_title = c_trier
+				NOT = { 
+					any_vassal = { has_landed_title = d_trier }
+				}	
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archchancellor_of_italy = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = no
+
+	monthly_prestige = 0.005
+
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		is_theocracy = yes
+		religion_group  = christian
+		OR = {
+			has_landed_title = d_koln 
+			AND = {
+				has_landed_title = c_koln 
+				NOT = { 
+					any_vassal = { has_landed_title = d_koln  }
+				}	
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archcupbearer_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = {
+			has_landed_title = k_bohemia 
+			AND = {
+				OR = {
+					has_landed_title = d_bohemia
+					has_landed_title = k_bavaria     
+					has_landed_title = d_bavaria 
+				}	
+				NOT = { 
+					any_vassal = { has_landed_title = k_bohemia }
+				}	
+			}
+			AND = {
+				OR = {
+					has_landed_title = d_oberbayern
+					has_landed_title = d_niederbayern
+				}				
+				NOT = { 
+					any_vassal = { has_landed_title = k_bohemia }
+					OR = {
+						any_vassal = { has_landed_title = k_bavaria }
+						any_vassal = { has_landed_title = d_bavaria}
+					}	
+				}			
+			}		
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archsteward_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = { 
+			has_landed_title = d_pfalz			
+			has_landed_title = d_franconia
+			has_landed_title = k_franconia
+			AND = {
+				OR = {
+					has_landed_title = k_bavaria     
+					has_landed_title = d_bavaria 
+				}	
+				any_vassal = { has_landed_title = k_bohemia }
+			}		
+			AND = {
+				OR = {
+					has_landed_title = d_rheinfranken
+					has_landed_title = d_ostfranken
+				}	
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = d_pfalz }
+						any_vassal = { has_landed_title = k_franconia }
+						any_vassal = { has_landed_title = d_franconia}
+					}	
+				}			
+			}
+			AND = {
+				OR = {
+					has_landed_title = d_oberbayern
+					has_landed_title = d_niederbayern
+				}
+				any_vassal = { has_landed_title = k_bohemia }
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = d_pfalz }
+						any_vassal = { has_landed_title = k_bavaria }
+						any_vassal = { has_landed_title = d_bavaria}
+					}	
+				}			
+			}		
+        }
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archmarshal_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = { 
+			has_landed_title = d_saxony
+			has_landed_title = k_saxony  
+			AND = {
+				OR = {
+					has_landed_title = d_saxewittenberg
+					has_landed_title = d_lauenburg
+				}	
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = d_saxony }
+						any_vassal = { has_landed_title = k_saxony }
+					}	
+				}			
+			}		
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archchamberlain_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = { 
+			has_landed_title = d_brandenburg
+			has_landed_title = k_schwaben
+			AND = {
+				has_landed_title = d_swabia
+				NOT = { 
+					any_vassal = { has_landed_title = k_schwaben}
+				}			
+			}
+			AND = {
+				has_landed_title = k_pomerania
+				has_landed_title = d_brandenburg
+			}					
+        }			
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archtreasurer_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = { 
+			has_landed_title = d_pfalz 
+			has_landed_title = d_brunswick
+			has_landed_title = d_franconia
+			has_landed_title = k_franconia
+			has_landed_title = k_lower_lorraine
+			has_landed_title = k_upper_lorraine  
+			has_landed_title = k_lotharingia
+			has_landed_title = k_frisia
+			AND = {
+				OR = {
+					has_landed_title = d_upper_lorraine
+					has_landed_title = d_lower_lorraine
+					has_landed_title = d_brabant
+					has_landed_title = d_limburg
+				}	
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = k_lower_lorraine }
+						any_vassal = { has_landed_title = k_upper_lorraine }
+						any_vassal = { has_landed_title = k_lotharingia }
+						any_vassal = { has_landed_title = k_frisia }
+					}	
+				}			
+			}
+			AND = {
+				OR = {
+					has_landed_title = d_rheinfranken
+					has_landed_title = d_ostfranken
+				}	
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = d_pfalz }
+						any_vassal = { has_landed_title = k_franconia }
+						any_vassal = { has_landed_title = d_franconia}
+					}	
+				}			
+			}		
+		}
+	}	
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_archbannerbearer_of_hre = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = yes
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = { 
+			has_landed_title = d_brunswick			
+			has_landed_title = k_frisia	
+			has_landed_title = k_lower_lorraine
+			has_landed_title = k_upper_lorraine  
+			has_landed_title = k_lotharingia
+			AND = {
+				OR = {
+					has_landed_title = d_upper_lorraine
+					has_landed_title = d_lower_lorraine
+					has_landed_title = d_brabant
+					has_landed_title = d_limburg
+				}	
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = k_lower_lorraine }
+						any_vassal = { has_landed_title = k_upper_lorraine }
+						any_vassal = { has_landed_title = k_lotharingia }
+						any_vassal = { has_landed_title = k_frisia }
+					}	
+				}			
+			}
+			AND = {
+				OR = {
+					has_landed_title = d_swabia
+					has_landed_title = k_schwaben
+				}
+				any_vassal = { has_landed_title = d_brandenburg }	
+			}
+			AND = {
+				OR = {
+					has_landed_title = d_teck
+					has_landed_title = d_burgau
+				}
+				any_vassal = { has_landed_title = d_brandenburg }
+				NOT = { 
+					OR = {
+						any_vassal = { has_landed_title = k_schwaben }
+						any_vassal = { has_landed_title = d_swabia }
+					}	
+				}			
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+#Rector of burgundy by hansa_LP89
+title_rector_of_burgundy = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 10
+	show_as_title = yes
+	realm_in_name = no
+
+	monthly_prestige = 0.005
+	
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+        OR = {
+			has_landed_title = d_zahringen		
+			AND = {
+				has_landed_title = d_baden 
+				NOT = { 
+					any_vassal = { has_landed_title = d_zahringen }
+				}	
+			}
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+# Archduke of Austria, and archmaster of the hunt by Ruwaard
+
+title_archmaster_of_the_hunt_of_hre = {
+    dignity = 0.05
+    grant_limit = 1
+    opinion_effect = 10
+    show_as_title = yes
+    realm_in_name = yes
+    monthly_prestige = 0.005
+    
+	allowed_to_grant = {
+			is_feudal = yes
+			has_landed_title = e_hre
+        }
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		OR = {
+			has_landed_title = d_osterreich
+            has_landed_title = d_meissen
+			has_landed_title = d_carinthia	
+			has_landed_title = k_carinthia
+			has_landed_title = k_austria
+			has_landed_title = k_pomerania
+			AND = {
+				has_landed_title = d_brandenburg
+				OR = {
+					any_vassal = { has_landed_title = d_swabia }
+					any_vassal = { has_landed_title = k_schwaben }
+					any_vassal = { has_landed_title = d_teck }	
+					any_vassal = { has_landed_title = d_burgau }	
+				}				
+			}
+        }      
+    }
+    
+    gain_effect = {
+    }
+    lose_effect = {
+    }
+
+    message = yes
+}
+#title_erzherzog_of_osterreich = {
+#    dignity = 3
+#    grant_limit = 1
+#    opinion_effect = 10
+#    show_as_title = yes
+#   realm_in_name = no
+#
+#    monthly_prestige = 0.02
+#    
+#    allow = {
+#        is_female = no
+#        FROM = {
+#            is_feudal = yes
+#            has_landed_title = e_hre
+#        }
+#      AND = {
+#        has_landed_title = d_osterreich
+#        OR = {    
+#            has_landed_title = d_carinthia
+#            has_landed_title = d_styria
+#            has_landed_title = d_tyrol
+#        }    
+# }
+#}    
+#    gain_effect = {
+#    }
+#    lose_effect = {
+#    }
+#
+#    message = yes
+#}

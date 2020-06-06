@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 344 - Taranto # Nardo
+
+# County Title
+title = c_taranto
+
+# Settlements
+max_settlements = 4
+
+b_taranto = castle
+#b_grottaglie= temple
+b_nardo = castle
+b_gallipoli_puglia = city
+
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = plains
+
+# History
+1078.1.1 = { trade_post = b_ziani }
+1140.1.1={ culture = neapolitan }

@@ -1,0 +1,29 @@
+# 438 - Hradec
+
+# County Title
+title = c_hradec
+
+# Settlements
+max_settlements = 6
+
+b_hradeckralove = castle
+b_chrudim = city
+
+#b_opatovice = temple 
+#b_jaromer = city
+#b_caslav = castle
+#b_zeliv = temple 
+
+#b_vartemberka = castle #Wartenberg
+
+
+# Misc
+culture = bohemian
+religion = slavic_pagan
+
+# History
+883.1.1 = { religion = catholic }
+1073.1.1 = { b_opatovice = temple }
+1130.1.1 = { b_caslav = castle }
+1139.1.1 = { b_zeliv = temple }
+1253.1.1 = { b_jaromer = city }

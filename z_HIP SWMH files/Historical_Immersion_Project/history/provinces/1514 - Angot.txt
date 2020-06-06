@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1514 - Angot
+
+# County Title
+title = c_angot
+
+# Settlements
+max_settlements = 5
+b_adafa = castle
+b_lalibela = temple #Roha; construction of major temples began during Lalibela's reign
+#b_debre_egziabeher = temple
+#b_berakit = temple
+
+#b_gashena = city
+#b_arbit = castle
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History
+950.1.1 = { b_debre_egziabeher = temple } #towards the end of Solomonic rule in mid-10th century
+1100.1.1 = { b_berakit = temple } #? post-Axum period

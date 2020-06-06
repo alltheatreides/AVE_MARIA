@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 275 - Trøndelag # Strind
+
+# County Title
+title = c_trondelag
+
+# Settlements
+max_settlements = 5
+
+b_lade = tribal # Hlaðir
+#b_trondheim = temple # Niðaróss
+b_longtun = city # Lagatýn
+#b_leksvik = castle # Ljoxa
+#b_vaernes = castle # Varnes
+#b_alstadhaug = castle # Aalvishaugr
+#b_sverresborg = castle # Sverrirborg
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1030.1.1 = { b_lade = castle
+b_trondheim = temple } # Fat Olav
+1031.1.1 = { religion = catholic } # Pushing Christianization of Tröndelag back
+1035.1.1 = { culture = norwegian } 
+1182.1.1 = { b_sverresborg = castle } 
+1182.1.1 = { capital = b_sverresborg }
+1182.1.1 = { remove_settlement = b_lade }

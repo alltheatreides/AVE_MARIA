@@ -1,0 +1,32 @@
+# 977 - Waldburg
+
+# County Title
+title = c_waldburg
+
+# Settlements
+max_settlements = 5
+
+b_ravensburg = castle
+b_kempten = temple
+ 
+#b_biberach = city 
+#b_waldburg = castle
+#b_weingarten = temple
+
+#b_pfullendorf = castle
+#b_schmalegg = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1056.1.1 = { b_weingarten = temple } 
+#1066.1.1 = { b_pfullendorf = castle } 
+1170.1.1 = { culture = german }
+1181.1.9 = { b_waldburg = castle }
+#1181.1.9 = { remove_settlement = b_pfullendorf }
+1226.1.1 = { b_biberach = city }
+#1251.5.21 = { capital = b_waldburg }
+#1251.5.21 = { remove_settlement = b_ravensburg }
+#1251.5.21 = { b_trauchburg = castle } 

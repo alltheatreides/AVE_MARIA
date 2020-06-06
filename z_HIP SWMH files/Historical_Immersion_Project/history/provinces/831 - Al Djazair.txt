@@ -1,0 +1,39 @@
+# -*- ck2.history.provinces -*-
+
+# 831 - Al Djazair
+
+# County Title
+title = c_al_djazair
+
+# Settlements
+max_settlements = 6
+
+b_sharshal = castle
+#b_algiers = castle
+#b_miliana = temple
+b_blida = city #Mitija
+
+#b_elachour = castle
+#b_aintorki = castle
+
+#b_aindefla = temple
+#b_tipasa = city
+#b_chiffa = temple
+#b_rhedadoua = castle
+#b_tirourda = castle
+#b_elRdair = castle
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History
+
+930.1.1 = {
+	b_algiers = castle
+	capital = b_algiers
+}
+950.1.1 = { b_miliana = temple } #foundation attributed to Ziri b. Manad
+#1187.1.1 = { b_elachour = castle }
+1226.1.1 = { remove_settlement = b_blida } #Mitija devastated by Banu Ghaniya invasion
+

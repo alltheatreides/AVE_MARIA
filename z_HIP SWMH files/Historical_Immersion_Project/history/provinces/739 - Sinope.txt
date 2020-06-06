@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 739 - Sinope
+
+# County Title
+title = c_sinope
+
+# Settlements
+max_settlements = 3
+
+b_kastronsinope = castle
+b_sinope = city
+b_leontopolis = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+
+1222.1.1 = { trade_post = b_spinola }

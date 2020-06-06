@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1157 - Comminges
+
+# County Title
+title = c_comminges
+
+# Settlements
+max_settlements = 5
+
+b_muret = castle
+b_stbertrand = temple
+b_stgaudens = city
+b_aspet = castle
+b_chateaumirabat = castle
+
+#b_saintlizier = temple
+#b_chateaudeseix = city
+#b_saintgirons = city
+#b_barousse = temple
+#b_barbazan = city
+#b_aurignac = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+# History

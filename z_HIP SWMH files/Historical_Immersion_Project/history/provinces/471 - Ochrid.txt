@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 471 - Ochrid
+
+# County Title
+title = c_ochrid
+
+# Settlements
+max_settlements = 5
+
+b_ohrid = castle
+b_prespa = castle
+b_bitola = temple
+#b_kastoria = city
+#b_edessa_voden = city
+#b_resen = city
+
+
+# Misc
+culture = bulgarian
+religion = orthodox
+
+# History
+
+1084.1.1 = { b_ohrid = temple }
+1107.1.1 = { b_ohrid = castle }
+
+
+

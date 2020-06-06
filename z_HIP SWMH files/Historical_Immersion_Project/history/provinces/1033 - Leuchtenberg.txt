@@ -1,0 +1,29 @@
+# 1033 - Leuchtenberg
+
+# County Title
+title = c_leuchtenberg
+
+# Settlements
+max_settlements = 4
+
+b_leuchtenberg = castle
+
+#b_cheb = city
+#b_waldsassen = temple
+#b_sternstein = castle 
+
+#b_waldeck_bayern = castle
+#b_neumarkt = city
+#b_speinshart = temple
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1100.1.1 = { b_sternstein = castle }
+#1124.1.1 = { b_waldeck_bayern = castle }
+1133.1.1 = { b_waldsassen = temple }
+#1145.1.1 = { b_speinshart = temple }
+1170.1.1 = { culture = german }
+1179.1.1 = { b_cheb = city }

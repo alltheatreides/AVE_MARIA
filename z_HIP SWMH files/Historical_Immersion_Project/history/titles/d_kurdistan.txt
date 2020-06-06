@@ -1,0 +1,73 @@
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+	liege = e_arabia
+	holder = 163132
+}
+877.1.1 = {
+	liege = 0
+	holder = 0
+}
+920.1.1 = {
+	holder = 1231434
+}
+960.1.1 = {
+	holder = 1231435
+}
+961.1.1 = { #Hasanuya becomes lord of many fortresses in Kurdistan in exchange for his support for the Buyids against the Ayshani/Ishani Kurds
+	set_tribute_suzerain = {
+		who = k_mesopotamia
+		percentage = 0.4
+	}
+	holder = 1231401
+}
+978.1.1 = { #977-978 Hasanuya supports Izz al-Dawla against Azod al-Dawla
+	clear_tribute_suzerain = k_mesopotamia
+}
+979.1.1 = {
+	set_tribute_suzerain = { #subjugated by Azod al-Dawla
+		who = k_mesopotamia
+		type = permanent
+	}
+	holder = 1231402 # Badr b. Hasanuya, installed by Azod al-Dawla
+}
+987.1.1 = { # Badr b. Hasanuya begins to act independently, meddling in Buyid disputes like his father had
+	clear_tribute_suzerain = k_mesopotamia
+}
+1014.1.1 = {
+	holder = 159198
+}
+1046.1.1 = {
+	holder = 93196
+}
+1050.1.1 = {
+	liege = k_persia
+}
+1055.1.1 = {
+	holder = 159199
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1070.1.1 = {
+	holder = 20691
+}
+1102.1.1 = {
+	holder = 144057
+}
+1116.1.1 = {
+	holder = 93198
+}
+1118.4.18 = {
+	liege = k_persia
+}
+1148.1.1 = {
+	liege = 0
+	holder = 0
+}
+1193.3.4 = {
+	holder = 1230166
+}
+1233.1.1 = {
+	holder = 0
+}

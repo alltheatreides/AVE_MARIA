@@ -1,0 +1,30 @@
+# -*- ck2.dynasties -*-
+
+######################################
+#Saka and Baloch Dynasties
+######################################
+#
+#
+######################################
+#Saka and Baloch dynasties
+#Range: 1000102300 - 1000102349
+#Characters: 1231300 - 1231399
+######################################
+
+1000102300 = {
+	name="Rutbil"
+	culture = khalaj
+	coat_of_arms=
+	{
+		data=
+		{
+0 0 0 2 0 10 10 			}
+		religion="buddhist"
+	}
+}
+1000102301 = {
+	name="Khaljí"
+	culture = khalaj
+	religion="sunni"
+}
+

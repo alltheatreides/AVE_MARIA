@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1682 - Kanyakubja
+
+# County Title
+title = c_kanyakubja
+
+# Settlements
+max_settlements = 6
+b_kanyakubja = castle
+b_jajmau = city
+b_bithor = temple
+b_etawah = city
+#b_swargdwari = castle #1339
+#b_kampil = temple
+#b_jai_chandra = castle
+
+# Misc
+culture = hindustani
+religion = buddhist
+
+# History

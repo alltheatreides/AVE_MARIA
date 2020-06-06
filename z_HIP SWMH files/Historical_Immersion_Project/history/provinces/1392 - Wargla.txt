@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1392 - Wargla
+
+# County Title
+title = c_wargla
+
+# Settlements
+max_settlements = 5
+
+b_ouargla = tribal
+#b_tukkurt = castle
+#b_sadrata = city
+#b_taghyart = castle
+#b_karima = castle
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+908.1.1 = { b_sadrata = city }
+

@@ -1,0 +1,28 @@
+# 85 - Ostfriesland
+
+# County Title
+title = c_ostfriesland
+
+# Settlements
+max_settlements = 5
+
+b_norden = castle
+b_aurich = city
+
+#b_ihlow = temple 
+#b_emden = city 
+#b_jever = castle
+
+#b_oestringfelde = temple 
+#b_leer = city
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+
+1101.1.1 = { capital = b_aurich }
+#1175.1.1 = { b_oestringfelde = temple }
+1224.1.1 = { b_emden = city }
+1228.1.1 = { b_ihlow = temple }

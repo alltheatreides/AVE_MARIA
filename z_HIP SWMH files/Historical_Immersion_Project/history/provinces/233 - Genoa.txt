@@ -1,0 +1,46 @@
+# -*- ck2.history.provinces -*-
+
+# 233 - Genoa
+
+# County Title
+title = c_genoa
+
+# Settlements
+max_settlements = 7
+
+b_genoa = city
+b_rapallo = city
+b_lavagna = castle
+b_sarzana = temple
+b_la_spezia = city
+#b_portovenere = castle
+#b_chivari = castle
+#b_pietra_ligure = castle
+
+
+# Misc
+culture = ligurian
+religion = catholic
+terrain = farmlands
+# History
+
+1000.1.1 = { 
+	b_genoa = ct_wall_1
+	b_genoa = ct_wall_2
+	b_genoa = ct_port_1
+	b_genoa = ct_port_2
+	b_genoa = ct_port_3
+	b_genoa = ct_marketplace_1
+	b_genoa = ct_marketplace_2
+	b_genoa = ct_wall_q_1
+	b_genoa = ct_barracks_1
+	b_genoa = ct_training_grounds_1
+	b_lavagna = ca_keep_1
+	b_lavagna = ca_stable_1
+	b_lavagna = ca_militia_barracks_1
+	b_lavagna = ca_wall_1
+	b_lavagna = ca_wall_2
+        trade_post = b_doria
+        b_pietra_ligure = castle
+}
+

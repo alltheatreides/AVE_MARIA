@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 1150 - Bars
+
+# County Title
+title = c_bars
+
+# Settlements
+max_settlements = 5
+
+b_bars = tribal
+#b_privigye = city
+#b_garamszentbenedek = temple
+#b_bajmoc = castle
+#b_kormocbanya = city
+#b_zolyom = temple
+#b_leva = castle
+#b_teplice = castle
+#b_besztercebanya = castle
+#b_szaszko = city
+
+
+
+
+
+# Misc
+culture = slovieni
+religion = catholic
+
+# History
+
+1000.1.1 = { 
+	b_bars = castle
+	b_garamszentbenedek = temple
+	b_privigye = city
+}
+

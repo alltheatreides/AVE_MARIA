@@ -1,0 +1,28 @@
+# 257 - Braunschweig
+
+# County Title
+title = c_braunschweig
+
+# Settlements
+max_settlements = 5
+
+b_wolfenbuttel = castle
+b_braunschweig = city
+b_lutter = temple 
+
+#b_suepplingenburg = castle 
+#b_helmstedt = city 
+#b_st_ludgeri = temple 
+
+#b_asseburg = castle 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1000.1.1 = { b_suepplingenburg = castle  }
+1100.1.1 = { culture = low_german }
+#1118.1.1 = { b_wolfenbuttel = castle }
+1137.12.4 = { capital = b_suepplingenburg }
+1247.1.1 = { b_helmstedt = city }

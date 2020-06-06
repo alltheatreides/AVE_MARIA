@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 541 - Peresechen #Ponyzzia/Podolia/Aq-Su
+
+# County Title
+title = c_peresechen
+
+# Settlements
+max_settlements = 3
+
+b_bakota_ponyzzia = tribal
+#b_braclav = city
+#b_sokolak = castle
+
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1055.1.1 = {religion = orthodox}
+1060.1.1 = { religion = tengri_pagan }
+1060.1.1 = { culture = oghuz }
+
+
+
+
+

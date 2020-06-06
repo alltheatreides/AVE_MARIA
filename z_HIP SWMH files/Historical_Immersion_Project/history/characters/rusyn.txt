@@ -1,0 +1,112 @@
+# -*- ck2.history.characters -*-
+
+74045 = {
+	name = "Gostomil"
+	dynasty = 12284
+	religion = "catholic"
+	culture = "russian"
+	father = 146179
+	826.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+74046 = {
+	name = "Ljutomisl"
+	dynasty = 12284
+	religion = "catholic"
+	culture = "russian"
+	father = 74045
+	851.1.1 = {
+		birth = yes
+	}
+	918.1.1 = {
+		death = yes
+	}
+}
+
+146179 = {
+	name = "Vitimir"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	father = 146180
+	798.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		death = yes
+	}
+}
+
+146180 = {
+	name = "Drzislav"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	father = 146181
+	777.1.1 = {
+		birth = yes
+	}
+	833.1.1 = {
+		death = yes
+	}
+}
+
+146181 = {
+	name = "Sebeslav"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	father = 146182
+	759.1.1 = {
+		birth = yes
+	}
+	818.1.1 = {
+		death = yes
+	}
+}
+
+146182 = {
+	name = "Hranislav"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	father = 146184
+	741.1.1 = {
+		birth = yes
+	}
+	804.1.1 = {
+		death = yes
+	}
+}
+
+146183 = {
+	name = "Dragomir"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	father = 146184
+	743.1.1 = {
+		birth = yes
+	}
+	807.1.1 = {
+		death = yes
+	}
+}
+
+146184 = {
+	name = "Tvrdoslav"
+	dynasty = 12284
+	religion = "slavic_pagan"
+	culture = "russian"
+	719.1.1 = {
+		birth = yes
+	}
+	781.1.1 = {
+		death = yes
+	}
+}

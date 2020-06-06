@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 338 - Reggio # Gerace
+
+# County Title
+title = c_reggio
+
+# Settlements
+max_settlements = 3
+b_gerace = castle
+b_reggio = city
+b_mileto = temple
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+1084.1.2 = { trade_post = b_ziani }
+1187.1.1={ culture = sicilian }
+1187.1.1={ religion = catholic }

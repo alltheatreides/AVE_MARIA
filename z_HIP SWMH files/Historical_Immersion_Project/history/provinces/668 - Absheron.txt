@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 668 - Absheron
+
+# County Title
+title = c_absheron
+
+# Settlements
+max_settlements = 4
+b_baku = castle
+b_lankaran = city
+b_absheron = temple
+#b_shakhriyar = castle 
+#b_khizirzinda = temple
+#b_salyan = castle
+#b_altiagay = city
+
+# Misc
+culture = adhari
+religion = zoroastrian
+
+# History
+651.1.1 = {
+	b_baku = ca_town_1
+	b_lankaran = ct_marketplace_1
+	b_absheron = tp_town_1
+}
+
+900.1.1 = { religion = sunni }
+1187.1.1 = { b_shakhriyar = castle }
+1320.1.1 = { religion = shiite }

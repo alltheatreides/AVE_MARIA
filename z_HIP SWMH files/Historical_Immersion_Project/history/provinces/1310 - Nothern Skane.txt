@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1310 - Northern Skane
+
+# County Title
+title = c_northern_skane
+
+# Settlements
+max_settlements = 3
+
+b_krapperup = tribal
+#b_helsingborg = city
+#b_tomarp = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+terrain = hills
+
+# History
+1000.1.1 = {
+b_krapperup = castle
+b_helsingborg= city
+} 
+1005.1.1 = { religion = catholic } 
+1035.1.1 = { culture = danish } 
+1066.1.1 = {
+	b_krapperup = ca_keep_1
+	b_krapperup = ca_militia_barracks_1
+	b_krapperup = ca_wall_1   
+}
+1250.1.1 = { b_tomarp = castle } 

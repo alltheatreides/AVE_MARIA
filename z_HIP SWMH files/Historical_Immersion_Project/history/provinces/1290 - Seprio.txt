@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1290 - Seprio
+
+# County Title
+title = c_seprio
+
+# Settlements
+max_settlements = 5
+
+b_seprio = castle
+b_gallerate = castle
+b_angera = temple
+b_varese = city
+b_massino = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History
+1287.1.1 = { capital = b_gallerate}
+1287.1.1 = { remove_settlement = b_seprio}

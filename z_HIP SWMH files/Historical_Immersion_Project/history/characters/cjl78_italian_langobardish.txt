@@ -1,0 +1,892 @@
+# -*- ck2.history.characters -*-
+
+########
+#CJL78 Langobard Italians 1.000.167.110-1.000.167.129
+
+#Taken for Longobardisch
+#Characters: 1227501 - 1227549
+########
+
+########
+#Conti di Aquino
+########
+
+1167110 = {
+	name="Atenulf" #Atenulf IV
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227520	
+	989.1.1 = {
+		birth=yes
+	}
+	1042.3.1 = {
+		death=yes
+	}
+}
+
+1167111 = {
+	name="Atenulf" #Atenulf V
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167110
+	1015.1.1 = {
+		birth=yes
+	}
+	1062.1.1 = {
+		death=yes
+	}
+}
+
+1167112 = {
+	name="Atenulf" #Atenulf VI of Gaeta
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167111
+	1040.1.1 = {
+		birth="1040.1.1" 
+	}
+	1062.1.1 = {
+		add_claim="c_gaeta"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+
+1167113 = {
+	name="Emilia"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167111
+	female=yes
+	1042.1.1 = {
+		birth=yes 
+	}
+	1060.1.1 = {
+		add_spouse=30858 #Landolf di Salerno
+	}
+	1092.1.1 = {
+		death="1092.1.1"
+	}
+}
+
+#1167114 = {}
+
+#1167115 = {}
+
+#1167116 = {}
+
+#1167117 = {}
+
+#1167118 = {}
+
+1167119 = {
+	name="Lando" #Landone IV
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=73350 #incomplete records after XI century
+	1070.1.1 = {
+		birth="1070.1.1" 
+	}
+	1130.1.1 = {
+		death="1130.1.1" 
+	}
+}
+
+1167120 = {
+	name="Pandulf"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167119 #incomplete records after XI century
+	1100.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes
+	}
+}
+
+1167121 = {
+	name="Atenulf" # Adenolfo III, conte di Alvito
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227532 #Got a new father
+	1156.1.1 = {
+		birth=yes 
+	}
+	1207.1.1 = {
+		death=yes
+	}
+}
+
+1167122 = {
+	name="Tommaso" # Tommaso, son of Adenolfo III, conte di Accera. imperial vicar of Cremona 1232.
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167121 #incomplete records after XI century
+	1180.1.1 = {
+		birth="1180.1.1" 
+	}
+	1210.1.1 = {
+		culture="neapolitan"		
+	}		
+	1251.2.27 = {
+		death=yes
+	}
+}
+#Byzantine Admiral during the late 11th and Early 12th Century. Of Italian origin, can't narrow it down more than that
+1167123 = {
+	name="Landulf"
+	dynasty=1000035573
+	religion="catholic"
+	culture="langobardisch"
+
+	1044.1.1 = {
+		birth="1044.1.1" 
+	}
+	1111.1.1 = {
+		death="1111.1.1" 
+	}
+}
+1167124 = {
+	name="Melus"
+	dynasty=1000035581
+	religion="catholic"
+	culture="langobardisch"
+
+	983.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes 
+	}
+}
+1167125 = {
+	name="Argyrus"
+	dynasty=1000035581
+	religion="catholic"
+	culture="langobardisch"
+	father=1167124
+	1002.1.1 = {
+		birth=yes
+	}
+	1068.1.1 = {
+		death=yes 
+	}
+}
+########
+#Prince-Bishop of Trent - not much info available
+########
+1167126 = {
+	name="Udalrich"
+	religion="catholic"
+	culture="langobardisch"
+	983.1.1 = {
+		birth=yes
+	}
+	1055.1.1 = {
+		death=yes 
+	}
+}
+1167127 = {
+	name="Argyritzus" #Medlands actually have an entry for Melus and his family. A mention of him in Lupus Protospatharius, Argirichi filii Ioannaci. If he is of the same line as Argyros, Ioannakes is likely to be the same person as the very famous Argyrus
+	dynasty=1000035581
+	religion="catholic"
+	culture="langobardisch"
+	father=1167125
+	1037.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes 
+	}
+}
+1227501 = {
+	name="Mabilia"
+	female=yes
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	father=30858
+	mother=1167113
+	1063.1.1 = {
+		birth=yes
+	}
+	1126.1.1 = {
+		death=yes
+	}
+}
+1227502 = {
+	name="Sica"
+	female=yes
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	father=30858
+	mother=1167113
+	1065.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1227503 = {
+	name="Sichelgarda"
+	female=yes
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	father=30858
+	mother=1167113
+	1067.1.1 = {
+		birth=yes
+	}
+	1124.1.1 = {
+		death=yes
+	}
+}
+1227504 = {
+	name="Atenulf" # Adenolfo, son of Tommaso I, imperial capitano generale of Lombardy
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167122
+	1199.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		name="Adenolfo"	
+		culture="neapolitan"		
+	}		
+	1243.1.1 = {
+		death=yes
+	}
+}
+1227505 = {
+	name="Tommaso" # Tommasso II, son of Adenolfo, conte di Accera 1251-1273
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227504
+	1222.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		add_spouse=30763
+	}	
+	1273.3.15 = {
+		death=yes
+	}
+}
+1227506 = {
+	name="Cubitosa"
+	female=yes
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1251.1.1 = {
+		birth=yes
+	}	
+	1309.1.1 = {
+		death=yes
+	}
+}
+1227507 = {
+	name="Adenolfo" # Adenolfo IV, conte di Accera
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1252.1.1 = {
+		birth=yes
+	}	
+	1293.11.22 = {
+		death=yes
+	}
+}
+1227508 = {
+	name="Cristoforo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1254.1.1 = {
+		birth=yes
+	}	
+	1298.1.1 = {
+		death=yes
+	}
+}
+1227509 = {
+	name="Giovanna"
+	female=yes
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1257.1.1 = {
+		birth=yes
+	}	
+	1300.8.1 = {
+		death=yes
+	}
+}
+1227510 = {
+	name="Landolfo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1258.1.1 = {
+		birth=yes
+	}	
+	1299.1.1 = {
+		death=yes
+	}
+}
+1227511 = {
+	name="Isabella"
+	female=yes
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1260.1.1 = {
+		birth=yes
+	}	
+	1303.1.1 = {
+		death=yes
+	}
+}
+1227512 = {
+	name="Enrico"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227505
+	mother=30763
+	1260.1.1 = {
+		birth=yes
+	}	
+	1294.1.1 = {
+		death=yes
+	}
+}
+1227513 = {
+	name="Giacopo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227504
+	1233.1.1 = {
+		birth=yes
+	}	
+	1306.1.1 = {
+		death=yes
+	}
+}
+1227514 = {
+	name="Federico"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227513
+	1251.1.1 = {
+		birth=yes
+	}	
+	1266.1.1 = {
+		death=yes
+	}
+}
+1227515 = {
+	name="Tommaso"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227513
+	1252.1.1 = {
+		birth=yes
+	}	
+	1284.6.1 = {
+		death=yes
+	}
+}
+1227516 = {
+	name="Giacopo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227515
+	1270.1.1 = {
+		birth=yes
+	}	
+	1306.1.6 = {
+		death=yes
+	}
+}
+1227517 = {
+	name="Landulf"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167122
+	1202.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		name="Landolfo"	
+		culture="neapolitan"		
+	}		
+	1241.1.1 = {
+		death=yes
+	}
+}
+1227518 = {
+	name="Margherita"
+	female=yes
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227517
+	1223.1.1 = {
+		birth=yes
+	}		
+	1276.1.1 = {
+		death=yes
+	}
+}
+1227519 = {
+	name="Gentile"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227517
+	1225.1.1 = {
+		birth=yes
+	}		
+	1268.8.23 = {
+		death=yes
+	}
+}
+1227520 = {
+	name="Atenulf" #Atenulf III
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227521	
+	957.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes
+	}
+}
+1227521 = {
+	name="Atenulf" #Atenulf II
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	926.1.1 = {
+		birth=yes
+	}
+	982.1.1 = {
+		death=yes
+	}
+}
+1227522 = {
+	name="Wido" #Guido I
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227521	
+	949.1.1 = {
+		birth=yes
+	}
+	988.1.1 = {
+		death=yes
+	}
+}
+1227523 = {
+	name="Landulf" #Landulf
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227521	
+	951.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes
+	}
+}
+1227524 = {
+	name="Siconulf" #Siconulf
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227521	
+	954.1.1 = {
+		birth=yes
+	}
+	1006.1.1 = {
+		death=yes
+	}
+}
+1227525 = {
+	name="Landenulf" #Landenulf I
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227524
+	983.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes
+	}
+}
+1227526 = {
+	name="Lando" #Landone
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227524
+	988.1.1 = {
+		birth=yes
+	}
+	1019.1.1 = {
+		death=yes
+	}
+}
+1227527 = {
+	name="Landulf" #Landulf II
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227524
+	990.1.1 = {
+		birth=yes
+	}
+	1019.1.1 = {
+		death=yes
+	}
+}
+1227528 = {
+	name="Lando" #Landone
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227522	
+	983.1.1 = {
+		birth=yes
+	}
+	1037.1.1 = {
+		death=yes
+	}
+}
+1227529 = {
+	name="Wido" #Guido II Conte di Pontecorvo
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227528	
+	1005.1.1 = {
+		birth=yes
+	}
+	1044.1.1 = {
+		death=yes
+	}
+}
+1227530 = {
+	name="Peter" #Pietro di Pontecorvo
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227528	
+	1008.1.1 = {
+		birth=yes
+	}
+	1033.1.1 = {
+		death=yes
+	}
+}
+1227531 = {
+	name="Ioann" #Giovanni di Pontecorvo
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227528	
+	1009.1.1 = {
+		birth=yes
+	}
+	1026.1.1 = {
+		death=yes
+	}
+}
+1227532 = {
+	name="Landulf"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167120 #Missing a generation in CJL's tree
+	1131.1.1 = {
+		birth=yes 
+	}
+	1198.1.1 = {
+		death=yes
+	}
+}
+1227533 = {
+	name="Landulf" #Landulf III
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167110
+	1013.1.1 = {
+		birth=yes
+	}
+	1049.2.1 = {
+		death=yes
+	}
+}
+1227534 = {
+	name="Peter" #Peter d'Aquino
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167110
+	1016.1.1 = {
+		birth=yes
+	}
+	1054.2.1 = {
+		death=yes
+	}
+}
+1227535 = {
+	name="Siconulf" #Siconulf d'Aquino
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167110
+	1017.1.1 = {
+		birth=yes
+	}
+	1047.1.1 = {
+		death=yes
+	}
+}
+1227536 = {
+	name="Rinaldo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1167119 #incomplete records after XI century
+	1105.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		add_spouse=1230863
+	}	
+	1169.1.1 = {
+		death=yes
+	}
+}
+1227537 = {
+	name="Riccardo" # conte di Accera, attested 1171 and 1196. married Cecilia di Medania(sister to previous count)
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227536
+	mother=1230863
+	1148.1.1 = {
+		birth=yes
+	}	
+	1197.1.1 = {
+		death=yes
+	}
+}
+1227538 = {
+	name="Sibilla"
+	female=yes
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="langobardisch"
+	father=1227536
+	mother=1230863
+	1150.1.1 = {
+		birth=yes
+	}	
+	1205.1.1 = {
+		death=yes
+	}
+}
+1227539 = {
+	name="Cristoforo"
+	dynasty=12243 #di Aquino
+	religion="catholic"
+	culture="neapolitan"
+	father=1227508
+	1273.1.1 = {
+		birth=yes
+	}	
+	1308.1.1 = {
+		death=yes
+	}
+}
+1227540 = {
+	name="Udalrich"
+	religion="catholic"
+	culture="langobardisch"
+	961.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes 
+	}
+}
+1227541 = {
+	name="Jacinta" #Mentioned as Jacinthæ Archyrizzi nobilis filliam. The daughter of the leader of the pro-Norman party in Bari
+	female=yes
+	dynasty=1000035581
+	religion="catholic"
+	culture="langobardisch"
+	father=1167127
+	1060.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes 
+	}
+}
+1227542 = {
+	name="Radoald" #Rodoaldo, Patriarch of Aquileia 964-984
+	religion="catholic"
+	culture="langobardisch"
+	927.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes 
+	}
+}
+1227543 = {
+	name="Gaitelgrima"
+	female=yes
+	dynasty=7184
+	religion="catholic"
+	culture="langobardisch"
+	father=73324
+	983.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+1227544 = {
+	name="Ioann"
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	946.1.1 = {
+		birth=yes
+	}	
+	999.10.1 = {
+		death=yes
+	}
+}
+1227545 = {
+	name="Wido"
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	father=1227544	
+	968.1.1 = {
+		birth=yes
+	}	
+	988.1.1 = {
+		death=yes
+	}
+}
+1227546 = {
+	name="Ioann"
+	dynasty=100336
+	religion="catholic"
+	culture="langobardisch"
+	father=1227544	
+	972.1.1 = {
+		birth=yes
+	}	
+	1031.11.1 = {
+		death=yes
+	}
+}
+1227547 = {
+	name="Lupus" #Lupus, Patriarch of Aquileia 932-944
+	religion="catholic"
+	culture="langobardisch"
+	898.1.1 = {
+		birth=yes
+	}
+	944.1.1 = {
+		death=yes 
+	}
+}
+1227548 = {
+	name="Lantram" #Bishop of Trent
+	religion="catholic"
+	culture="langobardisch"
+	904.1.1 = {
+		birth=yes
+	}
+	963.1.1 = {
+		death=yes 
+	}
+}
+1227549 = {
+	name="Arimond" #Bishop of Trent
+	religion="catholic"
+	culture="langobardisch"
+	930.1.1 = {
+		birth=yes
+	}
+	992.1.1 = {
+		death=yes 
+	}
+}
+1973000 = {
+	name="Raimondo" #Bishop of Trent
+	religion="catholic"
+	culture="italian"
+	946.1.1 = {
+		birth=yes
+	}
+	1004.1.1 = {
+		death=yes 
+	}
+}
+############################################################################################################
+#### Viscido di Nocera, Langobard family from southern italy. Were not related to the Transalgardi.
+#Landenolfo
+#Alfano son of Landenolfo, attested 1042 and 1043, conte(of what?). married Porpra daughter of Leone Sergio.
+#Pietro brother of Romualdo
+#Romualdo son of Alfano,
+#Aloara daughter of Romualdo
+#Alfano II, son of Pietro
+#Transelgardo son of Pietro

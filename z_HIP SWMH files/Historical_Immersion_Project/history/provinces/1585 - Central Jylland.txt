@@ -1,0 +1,41 @@
+# -*- ck2.history.provinces -*-
+
+# 1585 - Central Jylland
+
+# County Title
+title = c_central_jylland
+
+# Settlements
+max_settlements = 3
+
+b_jelling = tribal
+#b_varde = castle
+#b_vejle = city
+#b_kolding = city
+#b_skodborg = castle
+
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+867.1.1 = { b_jelling = tb_shipyard_1 }
+1020.1.1 = { religion = catholic 
+b_jelling = castle
+b_kolding = city
+b_kolding = ct_port_1}
+1035.1.1 = { culture = danish } 
+1047.10.25 = {
+        b_vejle = castle
+        capital = b_vejle
+	remove_settlement = b_jelling
+}
+1066.1.1 = {
+        b_varde = castle
+        capital = b_varde
+        b_vejle = city 
+}
+#1300.1.1 = { b_skodborg = castle } 
+

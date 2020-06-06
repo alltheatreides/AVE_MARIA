@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 885 - Matamma
+
+# County Title
+title = c_matamma
+
+# Settlements
+max_settlements = 3
+
+b_wacha = tribal
+
+#b_bonga = city
+#b_chiri = castle
+#b_yadeta = castle
+#b_kaffa = city
+#b_garo = castle
+
+# Misc
+culture = ethiopian
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+1187.1.1 = { b_wacha = castle } 

@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1120 - Luni
+
+# County Title
+title = c_luni
+
+# Settlements
+max_settlements = 5
+
+b_mulazzo = castle
+b_luna_ligure = temple
+b_carrara_ligure = city
+#b_fosdinovo = castle
+#b_villafranca = castle
+#b_massa_ligure = castle
+#b_verrucola = castle
+# Misc
+culture = ligurian
+religion = catholic
+terrain = forest
+# History
+1185.1.1 = { b_fosdinovo = castle}
+1186.1.1 = { capital = b_fosdinovo }
+1194.1.1 = { b_villafranca = castle}
+#1204.1.1 = { remove = b_luna_ligure}
+1335.1.1 = { b_massa_ligure = castle}
+1335.1.1 = { capital = b_massa_ligure}
+
+

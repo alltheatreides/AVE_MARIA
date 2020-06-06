@@ -1,0 +1,396 @@
+# -*- ck2.buildings -*-
+
+# Irish Gallowglass
+castle = {
+	ca_culture_irish_1 = {
+		desc = ca_culture_irish_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = norsegaelic
+				has_building = ca_culture_irish_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		heavy_infantry = 30
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.05
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_irish_2 = {
+		desc = ca_culture_irish_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = norsegaelic
+				has_building = ca_culture_irish_1
+				has_building = ca_culture_irish_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		upgrades_from = ca_culture_irish_1
+		gold_cost = 300
+		build_time = 1095
+		heavy_infantry = 40
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.05
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_irish_3 = {
+		desc = ca_culture_irish_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = norsegaelic
+				has_building = ca_culture_irish_1
+				has_building = ca_culture_irish_2
+				has_building = ca_culture_irish_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		upgrades_from = ca_culture_irish_2
+		gold_cost = 400
+		build_time = 2190
+		heavy_infantry = 50
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.05
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_irish_4 = {
+		desc = ca_culture_irish_1_desc
+		potential = {
+			OR = {
+				culture = irish
+				culture = norsegaelic
+				has_building = ca_culture_irish_1
+				has_building = ca_culture_irish_2
+				has_building = ca_culture_irish_3
+				has_building = ca_culture_irish_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = irish
+					culture = norsegaelic
+				}
+			}
+		}
+		upgrades_from = ca_culture_irish_3
+		gold_cost = 500
+		build_time = 2190
+		heavy_infantry = 60
+		heavy_infantry_offensive = 0.1
+		heavy_infantry_morale = 0.05
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	# Scottish Schiltron
+	ca_culture_scottish_1 = {
+		desc = ca_culture_scottish_1_desc
+		potential = {
+			OR = {
+				culture = scottish
+				has_building = ca_culture_scottish_1
+			}
+		}
+		is_active_trigger = { ROOT = { culture = scottish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = { culture = scottish }
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 30
+		pikemen_defensive = 0.15
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scottish_2 = {
+		desc = ca_culture_scottish_1_desc
+		potential = {
+			OR = {
+				culture = scottish
+				has_building = ca_culture_scottish_1
+				has_building = ca_culture_scottish_2
+			}
+		}
+		is_active_trigger = { ROOT = { culture = scottish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = { culture = scottish }
+		}
+		upgrades_from = ca_culture_scottish_1
+		gold_cost = 300
+		build_time = 1095
+		pikemen = 40
+		pikemen_defensive = 0.15
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scottish_3 = {
+		desc = ca_culture_scottish_1_desc
+		potential = {
+			OR = {
+				culture = scottish
+				has_building = ca_culture_scottish_1
+				has_building = ca_culture_scottish_2
+				has_building = ca_culture_scottish_3
+			}
+		}
+		is_active_trigger = { ROOT = { culture = scottish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = { culture = scottish }
+		}
+		upgrades_from = ca_culture_scottish_2
+		gold_cost = 400
+		build_time = 2190
+		pikemen = 60
+		pikemen_defensive = 0.15
+		ai_creation_factor = 99
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_scottish_4 = {
+		desc = ca_culture_scottish_1_desc
+		potential = {
+			OR = {
+				culture = scottish
+				has_building = ca_culture_scottish_1
+				has_building = ca_culture_scottish_2
+				has_building = ca_culture_scottish_3
+				has_building = ca_culture_scottish_4
+			}
+		}
+		is_active_trigger = { ROOT = { culture = scottish } }
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = { culture = scottish }
+		}
+		upgrades_from = ca_culture_scottish_3
+		gold_cost = 500
+		build_time = 2190
+		pikemen = 80
+		pikemen_defensive = 0.15
+		ai_creation_factor = 98
+		extra_tech_building_start = 0.8
+	}
+
+	# Welsh and Cumbric Longbow archery range
+	ca_culture_welsh_cumbric_1 = {
+		desc = ca_culture_welsh_cumbric_1_desc
+		potential = {
+			OR = {
+				culture = cumbric
+				culture = welsh
+				has_building = ca_culture_welsh_cumbric_1
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 0
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		archers_offensive = 0.15
+		archers = 60
+		ai_creation_factor = 101
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_welsh_cumbric_2 = {
+		desc = ca_culture_welsh_cumbric_1_desc
+		potential = {
+			OR = {
+				culture = cumbric
+				culture = welsh
+				has_building = ca_culture_welsh_cumbric_1
+				has_building = ca_culture_welsh_cumbric_2
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 1
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		upgrades_from = ca_culture_welsh_cumbric_1
+		gold_cost = 300
+		build_time = 1095
+		archers_offensive = 0.15
+		archers = 80
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_welsh_cumbric_3 = {
+		desc = ca_culture_welsh_cumbric_1_desc
+		potential = {
+			OR = {
+				culture = cumbric
+				culture = welsh
+				has_building = ca_culture_welsh_cumbric_1
+				has_building = ca_culture_welsh_cumbric_2
+				has_building = ca_culture_welsh_cumbric_3
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 2
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		upgrades_from = ca_culture_welsh_cumbric_2
+		gold_cost = 400
+		build_time = 2190
+		archers_offensive = 0.15
+		archers = 100
+		ai_creation_factor = 99
+		extra_tech_building_start = 0.8
+	}
+
+	ca_culture_welsh_cumbric_4 = {
+		desc = ca_culture_welsh_cumbric_1_desc
+		potential = {
+			OR = {
+				culture = cumbric
+				culture = welsh
+				has_building = ca_culture_welsh_cumbric_1
+				has_building = ca_culture_welsh_cumbric_2
+				has_building = ca_culture_welsh_cumbric_3
+				has_building = ca_culture_welsh_cumbric_4
+			}
+		}
+		is_active_trigger = {
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		trigger = {
+			TECH_CASTLE_CONSTRUCTION = 4
+			ROOT = {
+				OR = {
+					culture = cumbric
+					culture = welsh
+				}
+			}
+		}
+		upgrades_from = ca_culture_welsh_cumbric_3
+		gold_cost = 500
+		build_time = 2190
+		archers_offensive = 0.15
+		archers = 120
+		ai_creation_factor = 98
+		extra_tech_building_start = 0.8
+	}
+}

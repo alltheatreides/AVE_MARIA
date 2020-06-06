@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 423 - Sudovia
+
+# County Title
+title = c_sudovia
+
+# Settlements
+max_settlements = 4
+
+
+b_elk = tribal
+#b_rajgrod = castle
+#b_sejny = temple
+#b_olecko = city
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+1253.6.30  = { b_elk = castle } # Granduchy of Lithuania formed
+1253.6.30  = { b_rajgrod = castle }

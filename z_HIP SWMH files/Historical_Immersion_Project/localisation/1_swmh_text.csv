@@ -1,0 +1,34 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#### TOOLTIPS ####
+BYZANTINE_LOCKOUT_TRIGGER_TT;Is NOT in the Byzantine Empire\n;;;;;;;;;;;;;x
+EMF_TRIGGER_TT;The §MEMF§! module is activated\n;;;;;;;;;;;;;x
+EMF_TRIGGER_NOT_TT;The §MEMF§! module is NOT activated\n;;;;;;;;;;;;;x
+ENGLAND_BECOMES_DE_JURE_TT;§Y[From.GetFullBaseName]§! becomes de jure suzerain to the §YEngland§! region.\n;;;;;;;;;;;;;x
+CONTROLS_HALF_OF_ENGLISH_REGION_TT;Controls more than half (22+) of the provinces in the §YEngland§! region.\n;;;;;;;;;;;;;x
+#### MODIFIER DEFINITIONS ####
+oghuz_opinion;[oghuz.GetName] Opinion;Opinion [oghuz.GetName];[oghuz.GetName]e Meinung;;Parecer [oghuz.GetName];;;;;;;;;x
+turkmen_opinion;[turkmen.GetName] Opinion;Opinion [turkmen.GetName];[turkmen.GetName]e Meinung;;Parecer [turkmen.GetName];;;;;;;;;x
+anglonorse_opinion;[anglonorse.GetName] Opinion;Opinion [anglonorse.GetName];[anglonorse.GetName]e Meinung;;Parecer [anglonorse.GetName];;;;;;;;;x
+danish_opinion;[danish.GetName] Opinion;Opinion [danish.GetName];[danish.GetName]e Meinung;;Parecer [danish.GetName];;;;;;;;;x
+pahlavi_opinion;[pahlavi.GetName] Opinion;Opinion [pahlavi.GetName];[pahlavi.GetName]e Meinung;;Parecer [pahlavi.GetName];;;;;;;;;x
+khorasani_opinion;[khorasani.GetName] Opinion;Opinion [khorasani.GetName];[khorasani.GetName]e Meinung;;Parecer [khorasani.GetName];;;;;;;;;x
+daylamite_opinion;[daylamite.GetName] Opinion;Opinion [daylamite.GetName];[daylamite.GetName]e Meinung;;Parecer [daylamite.GetName];;;;;;;;;x
+zanata_opinion;[zanata.GetName] Opinion;Opinion [zanata.GetName];[zanata.GetName]e Meinung;;Parecer [zanata.GetName];;;;;;;;;x
+tagelmust_opinion;[tagelmust.GetName] Opinion;Opinion [tagelmust.GetName];[tagelmust.GetName]e Meinung;;Parecer [tagelmust.GetName];;;;;;;;;x
+ismaili_opinion;[ismaili.GetName] Opinion;Opinion [ismaili.GetName];[ismaili.GetName]e Meinung;;Parecer [ismaili.GetName];;;;;;;;;x
+soninke_opinion;[soninke.GetName] Opinion;Opinion [soninke.GetName];[soninke.GetName]e Meinung;;Parecer [soninke.GetName];;;;;;;;;x
+karluk_opinion;[karluk.GetName] Opinion;Opinion [karluk.GetName];[karluk.GetName]e Meinung;;Parecer [karluk.GetName];;;;;;;;;x
+serbian_opinion;[serbian.GetName] Opinion;Opinion [serbian.GetName];[serbian.GetName]e Meinung;;Parecer [serbian.GetName];;;;;;;;;x
+rajput_opinion;[rajput.GetName] Opinion;Opinion [rajput.GetName];[rajput.GetName]e Meinung;;Parecer [rajput.GetName];;;;;;;;;x
+hindustani_opinion;[hindustani.GetName] Opinion;Opinion [hindustani.GetName];[hindustani.GetName]e Meinung;;Parecer [hindustani.GetName];;;;;;;;;x
+low_german_opinion;[low_german.GetName] Opinion;Opinion [low_german.GetName];[low_german.GetName]e Meinung;;Parecer [low_german.GetName];;;;;;;;;x
+low_saxon_opinion;[low_saxon.GetName] Opinion;Opinion [low_saxon.GetName];[low_saxon.GetName]e Meinung;;Parecer [low_saxon.GetName];;;;;;;;;x
+thuringian_opinion;[thuringian.GetName] Opinion;Opinion [thuringian.GetName];[thuringian.GetName]e Meinung;;Parecer [thuringian.GetName];;;;;;;;;x
+franconian_opinion;[franconian.GetName] Opinion;Opinion [franconian.GetName];[franconian.GetName]e Meinung;;Parecer [franconian.GetName];;;;;;;;;x
+swabian_opinion;[swabian.GetName] Opinion;Opinion [swabian.GetName];[swabian.GetName]e Meinung;;Parecer [swabian.GetName];;;;;;;;;x
+bavarian_opinion;[bavarian.GetName] Opinion;Opinion [bavarian.GetName];[bavarian.GetName]e Meinung;;Parecer [bavarian.GetName];;;;;;;;;x
+yemeni_opinion;[yemeni.GetName] Opinion;Opinion [yemeni.GetName];[yemeni.GetName]e Meinung;;Parecer [yemeni.GetName];;;;;;;;;x
+masmuda_opinion;[masmuda.GetName] Opinion;Opinion [masmuda.GetName];[masmuda.GetName]e Meinung;;Parecer [masmuda.GetName];;;;;;;;;x
+italian_group_opinion;[italian_group.GetGroupName] Opinion;Opinion [italian_group.GetGroupName];[italian_group.GetGroupName]e Meinung;;Opinión [italian_group.GetGroupName];;;;;x
+magyar_opinion;[magyar.GetGroupName] Opinion;Opinion [magyar.GetGroupName];[magyar.GetGroupName]e Meinung;;Opinión [magyar.GetGroupName];;;;;x
+bloodline_effect_ismaili_leader;§Y[ismaili.GetName] Leadership§!;§YGouvernance [ismaili.GetName]§!;§Y[ismaili.GetName]e Führung§!;;§YLiderazgo [ismaili.GetName]§!;;;;;x

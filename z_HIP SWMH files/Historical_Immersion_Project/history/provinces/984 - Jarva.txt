@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 984 - Jarva
+
+# County Title
+title = c_jarva
+
+# Settlements
+max_settlements = 3
+
+b_paide = tribal
+#b_keava = tribal
+#b_pilistvere = castle
+
+
+
+# Misc
+culture = ugricbaltic
+
+religion = finnish_pagan
+
+# History
+1219.1.1 = { 
+b_paide = castle 
+b_keava = castle
+} # Danish conquest
+1290.1.1 = { religion = catholic }

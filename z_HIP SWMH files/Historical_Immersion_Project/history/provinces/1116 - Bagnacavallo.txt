@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1116 - Bagancavallo
+
+# County Title
+title = c_bagnacavallo
+
+# Settlements
+max_settlements = 4
+
+b_bagnacavallo = castle
+b_cunio = castle
+b_barbiano = castle
+#b_lugo_cunio = city
+
+# Misc
+culture = italian
+religion = catholic
+terrain = plains # should be marshlands
+# History

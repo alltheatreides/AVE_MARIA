@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1421 - Kintyre
+
+# County Title
+title = c_kintyre
+
+# Settlements
+max_settlements = 2
+
+b_kinlochkilkerran = tribal
+#b_saddell = temple
+
+# Misc
+culture = norsegaelic
+religion = norse_pagan
+terrain = hills
+
+# History
+867.1.1 = {
+	b_kinlochkilkerran = tb_shipyard_1
+}
+1015.1.1 = { religion = catholic }

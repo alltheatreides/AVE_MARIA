@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 398 - Ugra # Mezen
+
+# County Title
+title = c_ugra
+
+# Settlements
+max_settlements = 2
+b_mezen_pechora = tribal
+#b_yurom = city
+
+
+# Misc
+culture = vepsian
+religion = finnish_pagan
+terrain = arctic
+
+# History

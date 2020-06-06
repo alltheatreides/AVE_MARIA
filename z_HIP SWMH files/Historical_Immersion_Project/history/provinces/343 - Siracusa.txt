@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 343 - Siracusa # Paterno
+
+# County Title
+title = c_siracusa
+
+# Settlements
+max_settlements = 6
+
+b_catania = castle #were the Muslim centre before the conquest of Taormina, and still remained important afterwards
+b_taormina = city #could really be both a city and a castle during the Byzantine period. But it was a big city, so its strong defenses has to take a secondary role
+b_messina = city
+#b_milazzo = city
+#b_agosta = city
+b_paterno = castle
+b_rometta = city
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+1072.1.1={ capital = b_paterno }
+1072.1.1={ b_catania = temple }
+1085.1.1={ culture = sicilian }
+1085.1.1={ religion = catholic }
+1089.1.1 = { trade_post = b_ziani }
+1116.1.1={ culture = sicilian }
+1116.1.1={ religion = catholic }
+
+1232.1.1 = { b_agosta = city}

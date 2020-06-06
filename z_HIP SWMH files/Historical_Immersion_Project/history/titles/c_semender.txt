@@ -1,0 +1,79 @@
+# -*- ck2.history.titles -*-
+
+654.1.1 = {
+	historical_nomad = yes
+}
+860.1.1 = {
+	liege = k_khazaria
+	holder = 1233284
+}
+900.1.1 = {
+	holder = 1233285
+}
+930.1.1 = {
+	holder = 1233286
+}
+966.1.1 = {
+	liege = d_itil
+	holder = 1233295 # Barjik Kuma, placeholder
+}
+997.1.1 = {
+	holder = 1233296 # Kamaj Kuma, placeholder
+}
+# Oghuz takes over
+1001.1.1 = {
+	liege = k_uzes
+	holder = 1231994
+}
+1032.1.1 = {
+	holder = 1231995
+}
+# Cumans arrive
+# Badach
+1050.1.1 = {
+	liege = d_badach
+	holder = 1233235
+}
+1069.1.1 = {
+	holder = 1233236
+}
+1090.1.1 = {
+	holder = 1233237
+}
+1121.1.1 = {
+	holder = 1233238
+}
+1128.1.1 = {
+	holder = 1233239
+}
+1157.1.1 = {
+	holder = 1233240
+}
+1183.1.1 = {
+	holder = 1233241
+}
+1214.1.1 = {
+	holder = 1233242
+}
+1227.1.1 = {
+	holder = 1233243
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1241.12.11 = {
+	liege = d_ustyurt
+	holder = 125534
+}
+1275.1.2 = {
+	holder = 125540
+}
+1304.1.2 = {
+	holder = 125541
+}
+1327.1.2 = {
+	liege = d_itil
+	holder = 125546
+}

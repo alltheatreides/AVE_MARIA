@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Abú-Kálíjár's Claim on Persia War"
+
+casus_belli = {
+	actor = 1231078
+	recipient = 1231074
+	casus_belli=claim
+	landed_title=k_persia
+	date=1027.6.1
+}
+
+1027.6.1 = {
+	add_attacker = 1231078
+	add_defender = 1231074
+}
+
+1037.1.1 = {
+	rem_attacker = 1231078
+	rem_defender = 1231074
+}

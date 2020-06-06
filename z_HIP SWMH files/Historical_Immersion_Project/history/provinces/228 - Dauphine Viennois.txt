@@ -1,0 +1,25 @@
+# 228 - Dauphine Viennois # Albon
+
+# County Title
+title = c_dauphine_viennois
+
+# Settlements
+max_settlements = 5
+b_albon = castle
+b_vienne = temple
+b_annonay = city 
+
+#b_latourdupin = castle 
+#b_chateaudeclermont = castle 
+#b_bressieux = castle
+#b_romans_sur_isere = city
+#b_bonnevaux = temple
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1003.1.1 = { b_latourdupin = castle }
+1094.1.1 = { b_chateaudeclermont = castle }

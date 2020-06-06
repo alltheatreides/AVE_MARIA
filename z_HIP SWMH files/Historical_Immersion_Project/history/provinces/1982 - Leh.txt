@@ -1,0 +1,29 @@
+# County Title
+title = c_leh
+
+# Settlements
+max_settlements = 5
+
+b_leh = castle
+b_shey = castle
+#b_nyarma = temple
+#b_alchi = temple
+#b_lamayuru = temple
+#b_padum = castle
+#b_keylong = city
+
+# Misc
+culture = zhangzhung
+religion = bon
+
+# History
+850.1.1 = {
+	culture = bodpa
+	religion = buddhist
+} # Ladakh begins the process of Tibetanization under Nyimagon
+1050.1.1 = {
+	b_nyarma = temple
+}
+1180.1.1 = {
+	b_alchi = temple
+}

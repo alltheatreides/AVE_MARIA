@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 979 - Deltuva
+
+# County Title
+title = c_deltuva
+
+# Settlements
+max_settlements = 5
+
+b_deltuva = tribal
+#b_ukmerge = tribal
+b_giedraiciai = temple
+#b_sesuoliai = city
+#b_dubingiai = castle
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1253.6.30  = { b_deltuva = castle } # Granduchy of Lithuania formed
+1253.6.30  = { b_ukmerge = castle }

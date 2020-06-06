@@ -1,0 +1,159 @@
+# -*- ck2.events -*-
+
+# The Anglo-Norse Melting Pot
+
+namespace = woody
+
+# Norse influence spreads
+character_event = {
+	id = woody.102
+	desc = "EVTDESCwoody.102"
+	picture = GFX_evt_stone_church
+	
+	only_rulers = yes
+	
+	trigger = {
+		year = 900
+		OR = {
+			culture_group = north_germanic
+			culture = anglonorse
+		}
+		any_demesne_province = {
+			region = custom_england
+			OR = {
+				culture = saxon
+				culture_group = north_germanic
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = "EVTOPTAwoody.102"
+		random_demesne_province = {
+			limit = {
+				region = custom_england
+				OR = {	
+					culture = saxon
+					culture_group = north_germanic
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = anglonorse
+		}
+	}
+}
+
+#Make my court speak a Norse influenced dialect of Old English
+character_event = {
+	id = woody.103
+	desc = "EVTDESCwoody.103"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+
+	trigger = {
+		year = 900
+		OR = {
+			culture_group = north_germanic
+			culture = anglonorse
+		}
+		any_demesne_province = {
+			region = custom_england
+			}
+		any_courtier = {
+			OR = {
+				culture = saxon
+				culture_group = north_germanic
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = "EVTOPTAwoody.103"
+		random_courtier = {
+			limit = {
+				OR = {	
+					culture = saxon
+					culture_group = north_germanic
+				}
+			}
+			culture = anglonorse
+			hidden_tooltip = {
+				character_event = { id = woody.105 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak English
+character_event = {
+	id = woody.104
+	desc = "EVTDESCwoody.104"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+
+	trigger = {
+		year = 900
+		OR = {
+			culture_group = north_germanic
+			culture = anglonorse
+		}
+		
+		any_demesne_province = {
+			region = custom_england
+			}
+		any_vassal = {
+			OR = {
+				culture = saxon
+				culture_group = north_germanic
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = "EVTOPTAwoody.104"
+		random_vassal = {
+			limit = {
+				OR = {	
+					culture = saxon
+					culture_group = north_germanic
+				}
+			}
+			culture = anglonorse
+			hidden_tooltip = {
+				character_event = { id = woody.105 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = woody.105
+	desc = "EVTDESCwoody.105"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAwoody.105"
+		culture = anglonorse
+	}
+}

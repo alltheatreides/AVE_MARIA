@@ -1,0 +1,26 @@
+# 1056 - Namur
+
+# County Title
+title = c_namur
+
+# Settlements
+max_settlements = 4
+
+b_namur = castle
+b_bouvignes_sur_meuse = city
+b_florennes = castle
+
+#b_floreffe = temple
+
+#b_dhuy = castle 
+#b_agimont = castle 
+#b_andenne = temple 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1121.1.1 = { b_floreffe = temple }
+1170.1.1 = { culture = german }
+#1273.1.1 = { b_dhuy = castle }

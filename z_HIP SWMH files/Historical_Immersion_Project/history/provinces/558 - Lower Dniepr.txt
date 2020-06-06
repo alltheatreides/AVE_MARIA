@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 558 - Lower Dniepr
+
+# County Title
+title = c_lower_dniepr
+
+# Settlements
+max_settlements = 3
+
+b_chyhyryn = tribal
+#b_tomakiv = castle
+#b_mykytyn_nikopol = castle
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+833.1.1 = { culture = old_hungarian }
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol } 
+
+

@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1511 - Lasta
+
+# County Title
+title = c_lasta
+
+# Settlements
+max_settlements = 5
+b_kubar = castle
+b_debredamo = temple
+b_bugena = city
+b_sekota = castle #capital of Wag
+#b_wokro_meskale_christos = temple
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History
+1200.1.1 = { b_wokro_meskale_christos = temple } #likely during Lalibela's reign
+  

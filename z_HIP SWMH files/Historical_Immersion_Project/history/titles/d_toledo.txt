@@ -1,0 +1,115 @@
+# -*- ck2.history.titles -*-
+
+#866.1.1 = { #Middle March was arguably the most independent area of al-Andalus, submitting to the Umayyads only ca. 837, soon reasserting autonomy
+#	liege = k_andalusia
+#	holder = 73931
+#}
+903.1.1 = {
+	liege = k_andalusia
+	holder = 73824
+}
+906.1.1 = {
+	holder = 73823
+}
+920.1.1 = {
+	liege = k_andalusia #Toledo submits to Abd al-Rahman III
+}
+933.1.1 = {
+	holder = 1235122 # Qand al-Siqlabi, Persian Ghulam
+}
+949.1.1 = {
+	holder = 1235087 # Ghalib b. Abd al-Rahman al-Siqlabi
+}
+981.7.10 = {
+	holder = 3206 # Almanzor
+}
+1002.8.10 = {
+	holder = 1235054 # Abd-al-Malik al-Muzaffar, Almanzor's son and chosen successor
+}
+1008.10.20 = {
+	holder = 73226 # Abd-ar-Rahman Sanchuelo, Succeeded his brother. His death started the ball rolling towards disaster for Andalus
+}
+1009.3.3 = {
+	liege = 0 #Wadih attempts to install his caliphal candidate, al-Mahdi
+	holder = 1235094 # Wadih al-Siqlabi
+}
+1010.7.23 = { #Wadih murders al-Mahdi and installs Hisham II instead
+	liege = k_andalusia
+}
+1011.11.1 = { #in or after 1012, date given by J. D. Wasserstein (2000); there were several notables of Toledo who preceded or shared power with Ya'ish
+	liege = 0
+	holder = 1235026
+}
+1027.1.1 = { #conflicting accounts; Isma'il was appointed wazir by Caliph Sulayman (1013-1016), and there exists an inscription of Isma'il with the title al-Zafir from 1032, so the takeover must have taken place sometime before 1032. J. D. Wasserstein (2000) gives 1027 as his late estimate
+	holder = 3922
+}
+1043.1.1 = {
+	holder = 3924
+}
+1062.1.1 = { #sometime before 1065
+	set_tribute_suzerain = {
+		who = k_leon
+		percentage = 0.4
+	}
+}
+1072.1.12 = { #?
+	clear_tribute_suzerain = k_leon
+}
+1074.1.1 = {
+	set_tribute_suzerain = {
+		who = k_leon
+		percentage = 0.4
+	}
+}
+1075.1.1 = {
+	holder = 3926
+}
+1080.1.1 = {
+	holder = 3902
+}
+1081.1.1 = {
+	holder = 3926
+}
+1085.5.25 = {
+	clear_tribute_suzerain = k_leon
+	liege = k_castille
+	holder = 108500
+	law = succ_primogeniture
+	law = cognatic_succession
+}
+1109.6.30 = {
+	holder = 207660
+}
+1126.3.8 = {
+	holder = 207500
+}
+1157.8.21 = {
+	holder = 207520
+}
+1158.8.31 = {
+	holder = 207510
+}
+1170.1.1 = {
+	de_jure_liege = k_castille
+}
+1214.10.8 = {
+	holder = 70230
+}
+1217.6.6 = {
+	holder = 457651
+}
+1217.8.31 = {
+	holder = 457620
+}
+1252.5.30 = {
+	holder = 457540
+}
+1284.4.4 = {
+	holder = 457530
+}
+1295.4.25 = {
+	holder = 457520
+}
+1312.9.7 = {
+	holder = 457500
+}

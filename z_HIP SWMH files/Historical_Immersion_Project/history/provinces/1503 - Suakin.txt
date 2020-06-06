@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1503 - Suakin
+
+# County Title
+title = c_suakin
+
+# Settlements
+max_settlements = 3
+
+b_sawakin = tribal
+#b_sinkat = city #possibly identical with medieval Sinja
+
+#b_shafia = temple
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+1070.1.1 = { b_sawakin = castle }
+#1066.1.1 = { trade_post = b_suakini }
+1230.1.1 = { religion = sunni } #Muslim rulers of Sawakin since the 13th century

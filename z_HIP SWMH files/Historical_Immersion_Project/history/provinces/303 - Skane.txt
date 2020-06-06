@@ -1,0 +1,60 @@
+# -*- ck2.history.provinces -*-
+
+# 303 - Skåne # Western Skane
+
+# County Title
+title = c_skane
+
+# Settlements
+max_settlements = 7
+b_borgeby = tribal
+#b_trelleborg = castle
+b_lomma = city
+b_lund = temple
+#b_bollerup = castle
+#b_malmo = city
+#b_ystad = city
+#b_skaneor = city
+
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+
+867.1.1 = {
+	b_borgeby = tb_shipyard_1
+        b_lomma = ct_port_1
+	b_lund = tp_wall_1
+}
+1000.1.1 = { 
+b_borgeby = castle
+b_trelleborg = castle	
+        b_borgeby = ca_keep_1
+	b_borgeby = ca_militia_barracks_1
+	b_borgeby = ca_wall_1
+	b_lund = tp_monastery_1
+	b_lund = tp_wall_2
+} 
+1005.1.1 = { religion = catholic } 
+1035.1.1 = { culture = danish } 
+1066.1.1 = { 
+        #b_lomma = city
+        b_lomma = ct_marketplace_1
+        b_lomma = ct_wall_1
+	b_lomma = ct_port_1
+	b_lomma = ct_barracks_1 
+        b_skaneor = city
+        b_skaneor = ct_marketplace_1
+        b_skaneor = ct_marketplace_2
+        b_skaneor = ct_wall_1
+	b_skaneor = ct_port_1   
+	b_skaneor = ct_port_2   
+}
+
+1104.1.1= { capital = b_lund }
+1150.1.1 = { b_bollerup = castle }
+1262.1.1 = { b_malmo = city }
+1299.1.1 = { trade_post = b_bardewik }

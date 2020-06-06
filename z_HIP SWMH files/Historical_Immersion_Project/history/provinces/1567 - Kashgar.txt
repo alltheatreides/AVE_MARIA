@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1567 - Kashgar
+
+# County Title
+title = c_kashgar
+
+# Settlements
+max_settlements = 5
+b_kashgar = castle
+b_ulugqat = city
+b_akqi = temple
+b_yengisar = city
+#b_artux = temple
+
+# Misc
+culture = saka
+religion = manichean
+
+# History
+900.1.1 = { b_artux = temple }
+1020.1.1 = {	religion = sunni } #major Buddhist revolt ca. 970
+1060.1.1 = {	culture = karluk }

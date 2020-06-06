@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 271 - Vestfold
+
+# County Title
+title = c_vestfold
+
+# Settlements
+max_settlements = 4
+
+b_tonsberg = tribal # Túnsberg
+b_skiringssal = city # Skíringssalr
+#b_horten = castle # Holtar
+#b_kaupang = city # Kaupangr
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+867.1.1 = {
+	b_tonsberg = tb_shipyard_1
+	b_skiringssal = ct_port_1
+	b_skiringssal = ct_marketplace_1
+} 
+995.1.1 = { religion = catholic }
+999.1.1 = { trade_post = b_odenbel }
+1024.1.1 = { 
+b_tonsberg = castle
+b_tonsberg = ca_shipyard_1
+}
+1035.1.1 = { culture = norwegian }
+

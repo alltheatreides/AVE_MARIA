@@ -1,0 +1,24 @@
+#Cinque Ports family
+1066.10.14 = {
+	holding_dynasty = 1000100167 # de Fiennes - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066901 # John de Fiennes
+}
+1085.1.1 = {
+	holder = 1066902 # James de Fiennes
+}
+1111.1.1 = {
+	holder = 1066903 # John II de Fiennes
+}
+1138.1.1 = {
+	holder = 1066904 # Alan I de Fiennes
+}
+1189.1.1 = {
+#	holder = 1066905 # James II de Fiennes
+	holder = 0
+	liege=0
+}
+#1199.1.1 = {
+#	holder = 0
+#	liege=0
+#}

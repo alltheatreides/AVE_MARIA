@@ -1,0 +1,24 @@
+name = "Almoravid Claim on Fas War"
+
+casus_belli = {
+	actor = 32965 # Yusuf b. Tashfin of the Almoravids
+	recipient = 155015 # Mu'ansir b. Hammad of the Maghrawa
+	casus_belli=claim
+	landed_title=d_fes
+	date=1063.1.1
+}
+
+1063.1.1 = {
+	add_attacker = 32965
+	add_defender = 155015
+}
+
+1068.1.1 = {
+	rem_defender = 155015
+	add_defender = 155016
+}
+
+1070.3.18 = {
+	rem_attacker = 32965
+	rem_defender = 155016
+}

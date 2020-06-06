@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 476 - Achaia
+
+# County Title
+title = c_achaia
+
+# Settlements
+max_settlements = 5
+
+b_patras = castle
+b_vostitza = city
+b_chalandritza = city
+
+#b_andravida = temple
+#b_glarentza = city
+#b_khlemoutsi = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+1099.1.1 = { trade_post = b_morosini }
+1195.1.1 = { b_andravida = temple
+	b_glarentza = city
+	b_khlemoutsi = castle }
+
+1195.1.1 = { remove_settlement = b_chalandritza }

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1257 - Steinkjer
+
+# County Title
+title = c_steinkjer
+
+# Settlements
+max_settlements = 3
+
+b_egge = tribal # Egg
+#b_steinkjer = city # Steinker
+b_maere = temple # Mærin
+#b_stormoen = castle # Stafr
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1030.1.1 = { b_egge = castle
+b_steinkjer = city }
+1031.1.1 = { religion = catholic } # Pushing Christianization of Tröndelag back
+1035.1.1 = { culture = norwegian } 

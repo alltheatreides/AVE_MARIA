@@ -1,0 +1,41 @@
+# -*- ck2.history.provinces -*-
+
+# 643 - Mandistán
+
+# County Title
+title = c_mandistan
+
+# Settlements
+max_settlements = 5
+b_nadjiram = castle
+b_khurmuj = city
+b_djur = temple #fire temple
+#b_djahrum = castle
+b_ghundidjan = city
+
+# Misc
+culture = pahlavi
+religion = zoroastrian
+
+# History
+
+867.1.1 = { 
+	b_nadjiram = ca_keep_1
+	b_nadjiram = ca_stable_1
+	b_nadjiram = ca_militia_barracks_1
+	b_nadjiram = ca_wall_1
+	b_nadjiram = ca_wall_2
+}
+
+957.1.1 = { culture = persian }
+957.1.1 = { religion = sunni }
+#1062.1.1 = { b_nadjiram = tribal }
+#1062.1.1 = {
+#      remove_settlement = b_djur
+#      }
+#1062.1.1 = { culture = kurdish }
+1072.1.1 = { #refortified by Nizam al-Mulk at some point
+	b_djahrum = castle
+}
+#1110.1.1 = { b_nadjiram = castle }
+#1148.1.1 = { b_nadjiram = castle }

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1142 - Valassina
+
+# County Title
+title = c_valassina
+
+# Settlements
+max_settlements = 5
+
+b_lecco = castle
+b_como = temple
+#b_locarno = city
+b_chiavenna = castle
+#b_sondrio = castle
+b_martesana = castle
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = mountain
+# History
+
+1164.1.1 = { b_locarno = city }

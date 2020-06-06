@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 172 - Castellon
+
+# County Title
+title = c_castellon
+
+# Settlements
+max_settlements = 4
+b_castellon = castle
+#b_vinaros = castle
+b_burriana = city
+b_segorbe = temple
+#b_morella = city
+#b_nules = temple
+#b_vilarreal = city
+#b_alcalaten = castle
+
+# Misc
+culture = andalusian_arabic
+religion = sunni
+
+# History
+1095.1.1 = { trade_post = b_fieschi }
+1248.1.1 = { culture = catalan }
+1248.1.1 = { religion = catholic }

@@ -1,0 +1,75 @@
+# -*- ck2.history.technology -*-
+
+#THE STEPPES
+
+technology = {
+	titles = {
+		d_itil
+		d_sarkel
+		d_yaik
+		d_crimea
+		d_alania
+		d_azov
+		d_bulgar
+		d_cherson
+		d_zaporizhia
+		d_saray
+		d_podonye
+		d_tmutarakan
+		d_samara
+		d_ustyurt        
+		d_dasht-i-qipchaq
+		d_jand           
+		d_zhetysu        
+		d_ayaguz         
+		d_vorksla
+		d_podolia
+		d_zichia
+		d_sarir
+		d_bashkirs
+	}
+
+	769 = {
+		military = 0.5
+		economy = 0.2
+		culture = 0.1
+    	TECH_CAVALRY = 1.9
+    	TECH_SKIRMISH = 1.9
+	}
+	
+	1337 = {
+		military = 3.8
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+#SOGDIA + TARIM
+
+technology = {
+	titles = {
+		d_soghd     
+		d_ustrushana
+		d_ferghana  
+		d_shash     
+		d_khwarazm
+		d_kashgar
+		d_karashar
+		d_khotan
+	}  
+
+	769 = {
+		military = 1.2
+		economy = 1.1
+		culture = 1.1
+    	TECH_CAVALRY = 1.5
+    	TECH_SKIRMISH = 1.5
+	}
+		
+	1337 = {
+		military = 4.3
+		economy = 4.3
+		culture = 4.1
+	}
+}
+

@@ -1,0 +1,21 @@
+# -*- ck2.history.titles -*-
+
+#Forced to pay tribute as a part of the East March
+932.1.1 = {
+	set_tribute_suzerain = {
+		who = d_saxon_ostmark
+		percentage = 0.4
+	}
+	holder = 1227063 # Tegomir 
+}
+940.5.25 = {
+	holder = 1227064
+}
+971.1.1 = {
+	holder = 1227065 
+}
+#Regained their independence in the Great Slav Rising of 983
+983.1.1 = {
+	clear_tribute_suzerain = d_saxon_ostmark
+	holder = 0 
+}

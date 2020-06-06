@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1471 - Buellt
+
+# County Title
+title = c_buellt
+
+# Settlements
+max_settlements = 2
+b_rhayader = tribal
+#b_llanafan_fawr = temple
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+
+1000.1.1={	b_rhayader = castle }

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 2053 - Kaliopolis
+
+# County Title
+title = c_kaliopolis
+
+# Settlements
+max_settlements = 4
+b_gallipoli = castle
+b_hexamilion = castle
+b_madyta = city
+#b_tzympe = castle
+#b_sestos_choiridokastron = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1194.1.1 = { trade_post = b_ziani }
+# Catalan Company ravages the province
+
+1374.1.1 = { culture = turkish }
+1374.1.1 = { religion = sunni }

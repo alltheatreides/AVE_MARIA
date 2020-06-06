@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1014 - Corfu
+
+# County Title
+title = c_corfu
+
+# Settlements
+max_settlements = 3
+
+b_palaiofrourio = castle
+b_corfu = city 
+b_kassiopi = castle
+
+#b_angelokastro = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+980.1.1 = { trade_post = b_morosini } #was 1066.1.1
+1160.1.1 = { remove_settlement = b_kassiopi }
+1160.1.1 = { b_angelokastro = castle }
+1207.1.1 = { religion = catholic }

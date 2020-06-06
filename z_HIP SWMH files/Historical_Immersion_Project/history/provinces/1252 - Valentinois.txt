@@ -1,0 +1,29 @@
+# 1252 - Valentinois
+
+# County Title
+title = c_valentinois
+
+# Settlements
+max_settlements = 5
+
+b_valence = castle
+b_die = temple
+b_nyons = city
+#b_grignan = castle
+#b_mevouillon = castle
+#b_montauban_valentionis = castle
+#b_montelimar = castle
+
+
+# Misc
+culture = occitan
+religion = catholic
+
+# History
+1030.1.1 = { b_grignan = castle }
+1166.1.1 = { b_mevouillon = castle }
+
+
+
+
+

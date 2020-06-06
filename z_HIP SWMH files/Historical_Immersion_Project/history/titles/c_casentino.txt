@@ -1,0 +1,100 @@
+# -*- ck2.history.titles -*-
+
+812.1.1 = {
+	holder = 167896
+}
+823.10.5 = {
+	holder = 167897
+}
+838.1.1 = {
+	holder = 163070
+}
+846.1.1 = {
+	liege = d_toscana
+}
+886.1.1 = {
+	holder = 167902
+}
+915.9.10 = {
+	holder = 167905
+}
+#Guidi, conti di Modigliana, Casentino e palatini di Toscana.
+924.1.1 = {
+	liege = 0
+	holder = 1091000 # Teudegrimo I
+}
+931.1.1 = {
+	liege = d_toscana
+}
+942.1.1 = {
+	holder = 1091001 # Ranieri I
+}
+967.1.1 = {
+	holder = 1091002 # Guido I
+}
+980.1.1 = {
+	holder = 1091003 # Teudegrimo II
+}
+992.1.1 = {
+	holder = 1091004 # Guido II
+}
+1029.1.1 = {
+	holder = 1091006 # Guido III
+}
+1043.1.1 = {
+	holder = 1091005 # Teudegrimo III
+}
+1055.1.1 = {
+	holder = 1091007 # Guido IV
+}
+1065.1.1 = {
+	holder = 1091008 # Guido V
+}
+1103.1.1 = {
+	holder = 1091009 # Guido Guerra I
+}
+1131.1.1 = {
+	holder = 1091011 # Guido Guerra II
+}
+1186.1.1 = {
+	holder = 1091012 # Guido Guerra III
+}
+1197.9.28 = {
+    liege=0
+}
+1197.11.11 = {
+	liege=k_tuscan_league
+}
+#Modigliana subbranch, conti di Battifolle e Poppi
+1220.1.1 = {
+	holder = 1091013 # Guido Guerra IV
+}
+1245.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1246.1.1 = {
+   liege=d_firenze_republic  
+	holder = 1091019 # Simone I, conte di Modigliana(co ruler with his elder brother)
+}
+1248.1.1 = {
+    liege=k_tuscany #under imperial vicar of Tuscany
+}
+1250.12.13 = {
+   liege=d_firenze_republic  
+}
+1269.1.1 = {
+    liege=d_arezzo_republic     
+}
+1275.1.1 = {
+	holder = 1065070 # Guido di Battifolle I
+}
+#Poppi branch
+1317.1.1 = {
+	holder = 1065073 # Simone II
+}
+1325.1.1 = {
+    liege=d_firenze_republic     
+}
+1356.1.1 = {  
+	holder = 1065074 # Roberto
+}

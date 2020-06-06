@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 562 - Korchev
+
+# County Title
+title = c_korchev
+
+# Settlements
+max_settlements = 3
+
+b_kerch = tribal
+#b_kimmerikon = city
+#b_nymphaion_korchev = city # no decent alternative sadly.
+
+# Misc
+culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
+religion = orthodox #Christian and Muslim Volga Bulgars were a known quantity in Crimea
+
+# History
+#808.1.1 = { religion = jewish }
+#950.1.1 = { religion = orthodox }
+1016.1.1 = {
+	b_kerch = castle
+	culture = russian
+}
+1115.8.1 = { b_kerch = tribal }
+1214.1.1 = { culture = greek }
+1250.1.1 = { trade_post = b_grimaldi }

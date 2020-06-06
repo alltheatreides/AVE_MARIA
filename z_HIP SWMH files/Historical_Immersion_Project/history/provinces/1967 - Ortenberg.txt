@@ -1,0 +1,28 @@
+# 1967 - Ortenburg
+
+# County Title
+title = c_ortenberg
+
+# Settlements
+max_settlements = 4
+
+b_ortenberg = castle
+
+#b_landau = city 
+#b_aldersbach = temple
+#b_leonberg = castle
+
+#b_muhldorf = city
+#b_harbach = castle 
+#b_osterhofen = temple 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1120.1.1 = { b_aldersbach = temple }
+1170.1.1 = { culture = german }
+1180.1.1 = { b_leonberg = castle }
+1224.1.1 = { b_landau = city }
+#1281.1.1 = { b_muhldorf = city }

@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1555 - Rasht
+
+# County Title
+title = c_rasht
+
+# Settlements
+max_settlements = 3
+b_shuman = castle
+b_vashgird = temple
+b_afridhan = city
+
+# Misc
+culture = sogdian
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

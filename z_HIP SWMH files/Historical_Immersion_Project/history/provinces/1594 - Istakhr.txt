@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1594 - Istakhr
+
+# County Title
+title = c_istakhr
+
+# Settlements
+max_settlements = 6
+b_istakhr = castle
+b_mayin = city
+b_abarquh = temple
+b_unas = castle
+b_budanjan = city
+#b_kamin = city
+
+# Misc
+culture = pahlavi
+religion = sunni
+
+# History
+870.1.1 = { culture = persian }
+#999.1.1 = { remove_settlement = b_istakhr } #Buyid Samsam al-Dawla's army razes Istakhr

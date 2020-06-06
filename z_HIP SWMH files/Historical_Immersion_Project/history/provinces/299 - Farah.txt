@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 299 - Farrah
+
+# County Title
+title = c_farah
+
+# Settlements
+max_settlements = 5
+b_farah = castle
+b_qarnin = temple
+b_khvash = city
+b_djiza = city
+b_uq = castle
+
+#b_djuvayn = city
+
+
+culture = afghan
+religion = kharijite
+
+# History
+900.1.1 = { religion = sunni }
+900.1.1 = { culture = khorasani }

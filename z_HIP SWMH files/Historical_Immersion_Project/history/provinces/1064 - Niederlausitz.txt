@@ -1,0 +1,30 @@
+# 1064 - Niederlausitz
+
+# County Title
+title = c_niederlausitz
+
+# Settlements
+max_settlements = 4
+
+b_luckau = tribal
+#b_cottbus = city
+#b_dobrilugk = temple
+
+#b_piensk = castle #Penzig
+
+#b_finsterwalde = castle 
+#b_lubben = city #Lübben
+#b_guben = city 
+
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+926.1.1 = { b_luckau = castle } # Geronen
+926.1.1 = { b_cottbus = city }
+937.1.1 = { religion = catholic }
+1165.5.1 = { culture = german } 
+#1220.1.1 = { culture = german } 
+1268.1.1 = { b_piensk = castle }

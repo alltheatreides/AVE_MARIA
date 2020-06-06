@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1327 - Amastris
+
+# County Title
+title = c_amastris
+
+# Settlements
+max_settlements = 3
+
+b_amastris = castle
+b_ionopolis = city
+b_parthenios = city
+#b_kotyron = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+# The Seljuks take over Anatolia
+
+1261.1.1 = { culture = turkish }
+1261.1.1 = { religion = sunni }
+
+
+

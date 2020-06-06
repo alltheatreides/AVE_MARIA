@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 490 - Thessalonike
+
+# County Title
+title = c_thessalonike
+
+# Settlements
+max_settlements = 6
+b_kastronthessalonika = castle
+b_hagiosdemetrios = temple
+b_thessaloniki = city
+b_thesedessa = city
+#b_langadas = city
+b_gynaikokastron = castle
+#b_sthlanitza = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1165.1.1 = { trade_post = b_dandolo }
+
+# Under the Zealot Movement
+
+#1342.1.1 = { religion = miaphysite }
+
+# Byzantine rule, restored
+
+#1349.1.1 = { religion = orthodox }
+
+

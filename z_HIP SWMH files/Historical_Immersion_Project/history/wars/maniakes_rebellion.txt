@@ -1,0 +1,20 @@
+# -*- ck2.history.wars -*-
+#
+#name = "Rebellion of George Maniakes"
+#
+#casus_belli = {
+#	actor = 1232274
+#	recipient = 1726
+#	casus_belli= claim_on_liege_plot
+#	landed_title= e_byzantium
+#	date=1042.9.1
+#}
+#
+#1042.9.1 = {
+#	add_attacker = 1232274
+#	add_defender = 1726
+#}
+#1043.3.1 = {
+#	rem_attacker = 1232274
+#	rem_defender = 1726
+#}

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 591 - Mountain Cheremisa # Pilna
+
+# County Title
+title = c_mountain_cheremisa
+
+# Settlements
+max_settlements = 2
+
+b_alatyr = tribal
+#b_saransk = tribal
+
+
+# Misc
+culture = mordvin
+religion = finnish_pagan
+terrain = plains
+
+# History
+1300.1.1 = { b_saransk = tribal }

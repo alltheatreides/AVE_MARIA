@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1114 - Aquino
+
+# County Title
+title = c_aquino
+
+# Settlements
+max_settlements = 5
+
+b_aquino = castle
+b_alvito = castle
+#b_sora = city
+b_montecassino = temple
+b_pontecorvo = castle
+
+
+# Misc
+culture = laziale
+religion = catholic
+terrain = hills
+# History

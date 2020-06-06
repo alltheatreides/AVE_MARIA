@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1297 - Pomesania
+
+# County Title
+title = c_pomesania
+
+# Settlements
+max_settlements = 4
+
+b_dzierzgon = tribal
+b_prabuty = temple
+#b_marienwerder = castle
+#b_malbork = castle
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+1231.1.1= { b_dzierzgon = castle }
+1231.1.1 = { b_marienwerder = castle }
+1231.1.1 = { capital = b_marienwerder }
+1248.1.1 = { religion = catholic } #bishopery of pomesania
+1274.1.1 = { b_malbork = castle }
+1274.1.1 = { capital = b_malbork }
+1274.1.1 = { b_marienwerder = city}

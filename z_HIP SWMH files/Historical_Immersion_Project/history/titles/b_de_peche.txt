@@ -1,0 +1,19 @@
+#Cinque Ports family
+1295.1.1 = {
+	holding_dynasty = 1000100178 # de Peche - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1067013 #John II de Peche
+}
+1335.1.1 = {
+	holder = 1067015 #John III de Peche
+}
+1350.1.1 = {
+	holder = 1067015 #Nicholas I de Peche
+}
+1355.1.1 = {
+	holder = 1067018 #Thomas I de Peche
+}
+1360.1.1= {
+	holder = 0
+	liege=0
+}

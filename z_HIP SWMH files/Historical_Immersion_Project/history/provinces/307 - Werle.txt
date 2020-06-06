@@ -1,0 +1,33 @@
+# 307 - Werle
+
+# County Title
+title = c_werle
+
+# Settlements
+max_settlements = 5
+
+
+b_werle = tribal
+
+#b_waren = city
+#b_dargunabbey = temple
+#b_gustrow = city
+#b_land_stargard = castle #Stargard
+
+#b_bellin_werle = castle 
+#b_gentzkow = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1167.1.1 = { b_werle = castle } #Pribislaw restored
+1167.1.1 = { religion = catholic }
+1171.1.1 = { b_dargunabbey = temple }
+1226.1.1 = { b_gustrow = city }
+1230.1.1 = { culture = low_german } 
+1250.1.1 = { b_waren = city }
+1292.1.1 = { b_land_stargard = castle }
+
+

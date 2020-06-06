@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1568 - Aqsu
+
+# County Title
+title = c_aksu
+
+# Settlements
+max_settlements = 5
+b_aqsu = castle
+b_uchaqsu = city
+b_tumshuk = temple
+b_kalpin = castle
+
+# b_jam = city
+
+# Misc
+culture = saka
+religion = manichean
+
+# History
+1160.1.1 = {
+	culture = karluk
+	religion = sunni
+}

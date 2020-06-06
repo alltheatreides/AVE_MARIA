@@ -1,0 +1,25 @@
+# 229 - Forcalquier
+
+# County Title
+title = c_forcalquier
+
+# Settlements
+max_settlements = 5
+ 
+b_forcalquier = castle
+b_gap = city
+b_embrun = temple
+#b_agoult = castle
+#b_apt = temple
+#b_montorcier = castle
+#b_montmaur = castle
+#b_sisteron = city
+
+
+
+# Misc
+culture = occitan
+religion = catholic
+
+# History
+1009.1.1 = { b_agoult = castle }

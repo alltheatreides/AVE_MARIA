@@ -1,0 +1,198 @@
+# -*- ck2.history.characters -*-
+###################################################
+#SWMH Aragonese characters range: 1238700-1238999
+###################################################
+
+1238700 = {
+	name="Pedro Jordan"
+	dynasty=1000053266 #de Urries (y Lascaris di Ventimiglia)
+	religion="catholic"
+	culture="aragonese"
+	father=1238701
+	mother=1237069
+	1304.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes
+	}
+}
+1238701 = {
+	name="Pedro Jordan"
+	dynasty=1000053266 #de Urries
+	religion="catholic"
+	culture="aragonese"
+
+	1275.1.1 = {
+		birth=yes
+	}
+	1296.1.1 = {
+		add_spouse = 1237069
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1238702 = {
+	name="Unifredo" #Count of Ribagorca 970-979
+	dynasty=10024
+	religion="catholic"
+	culture="aragonese"
+	father=70269
+	
+	944.1.1 = {
+		birth=yes
+	}
+	979.1.1 = {
+		death=yes
+	}
+}
+1238703 = {
+	name="Arnaldo" #Count of Ribagorca 979-990
+	dynasty=10024
+	religion="catholic"
+	culture="aragonese"
+	father=70269
+	
+	947.1.1 = {
+		birth=yes
+	}
+	990.1.1 = {
+		death=yes
+	}
+}
+1238704 = {
+	name="Isarn" #Count of Ribagorca 990-1003
+	dynasty=10024
+	religion="catholic"
+	culture="aragonese"
+	father=70269
+	
+	949.1.1 = {
+		birth=yes
+	}
+	1003.1.1 = {
+		death=yes
+	}
+}
+1238705 = {
+	name="Guillen" # Guillermo Isarnez, Illegitimate son of Isarn, Count of Ribagorca 1010-1017
+	dynasty=10024
+	religion="catholic"
+	culture="aragonese"
+	add_trait="legit_bastard"
+	father=1238704
+	
+	988.1.1 = {
+		birth=yes
+	}
+	1017.1.1 = {
+		death=yes
+	}
+}
+1238706={
+	name="Isarn" # Son of Raymond of Ribagorca-Pallars, brother of Raimundo, Miro and Lope
+	dynasty=10024 # de Ribagorca
+	religion=catholic
+	culture=aragonese
+	father=70272
+	
+	895.1.1={
+		birth = yes
+	}
+	953.9.13={
+		death = yes
+	}
+}
+1238707={
+	name="Miro" # Son of Raymond of Ribagorca-Pallars, brother of Raimundo, Isarn and Lope
+	dynasty=10024 # de Ribagorca
+	religion=catholic
+	culture=aragonese
+	father=70272
+	
+	898.1.1={
+		birth = yes
+	}
+	954.7.3={
+		death = yes
+	}
+}
+1238708={
+	name="Ramon" #Eldest son of Lope de Pallars and Gotruda de Cerdanya. Count of Pallars together with his brothers until his death
+	dynasty=10028
+	religion=catholic
+	culture=catalan
+	father=70278
+	mother=70279
+
+	936.1.1={
+		birth = yes
+	}
+	995.1.1={
+		death = yes
+	}
+}
+1238709={
+	name="Borrell" #Middle son of Lope de Pallars and Gotruda de Cerdanya. Count of Pallars together with his brothers until his death
+	dynasty=10028
+	religion=catholic
+	culture=catalan
+	father=70278
+	mother=70279
+
+	938.1.1={
+		birth = yes
+	}
+	995.1.1={
+		death = yes
+	}
+}
+1238710 = {
+	name="Bernat"
+	dynasty=10028
+	religion="catholic"
+	culture="catalan"
+	father=70183
+	mother=70182
+	1022.1.1={
+		birth=yes
+	}
+	1049.1.1={
+		death=yes
+	}
+}
+1238711={
+	name="Sunifredo"
+	dynasty=10019
+
+	father=70154
+	mother=70155
+
+	religion=catholic
+	culture=catalan
+
+	915.1.1={
+		birth = yes
+	}
+	968.1.1={
+		death = yes
+	}
+}
+1238712={
+	name="Miron"
+	dynasty=10019
+
+	father=70154
+	mother=70155
+
+	religion=catholic
+	culture=catalan
+
+	920.1.1={
+		birth = yes
+	}
+	984.1.22={
+		death = yes
+	}
+}

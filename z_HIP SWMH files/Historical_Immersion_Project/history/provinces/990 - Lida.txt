@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 990 - Lida
+
+# County Title
+title = c_lida
+
+# Settlements
+max_settlements = 2
+
+b_lida = tribal
+#b_astryna = city
+#b_shchuchyn = city
+
+
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1253.6.30  = { b_lida = castle } # Granduchy of Lithuania formed

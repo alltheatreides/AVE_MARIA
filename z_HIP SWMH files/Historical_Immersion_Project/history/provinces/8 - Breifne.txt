@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 8 - Breifne # aka Leitrim
+
+# County Title
+title = c_breifne
+
+# Settlements
+max_settlements = 3
+
+b_dromahair = tribal
+#b_leitrim = city
+#b_carrickonshannon = castle
+#b_fenagh = temple
+
+# Misc
+culture = irish
+religion = catholic
+terrain = hills
+
+# History
+

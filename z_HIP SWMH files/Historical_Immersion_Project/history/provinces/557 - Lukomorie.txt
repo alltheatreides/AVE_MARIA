@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 557 - Lukomorie
+
+# County Title
+title = c_lukomorie
+
+# Settlements
+max_settlements = 3
+b_kakhovka = tribal
+#b_melitopol= city
+#b_kalmius = castle
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+terrain = steppe
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol } 

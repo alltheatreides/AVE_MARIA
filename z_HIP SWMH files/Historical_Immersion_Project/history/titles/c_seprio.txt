@@ -1,0 +1,120 @@
+# -*- ck2.history.titles -*-
+
+800.1.1 = {
+	liege = d_lombardia
+	holder = 1065750 # Alpicario di Seprio ca 800-840
+}
+840.1.1 = {
+	holder = 1065744 # Giovanni di Milano, conte di Seprio 840-841
+}
+841.1.1 = {
+	holder = 1065627 # Roteno di Martesana gastaldo di seprio 842
+}
+858.1.1 = {
+	holder = 1065629 # Wadelrico/Valderico visconte e gestaldo di Milano.  Visconte(859-860ish) e Gastaldo(under Alberico from 864) di Milano 870
+}
+871.1.1 = {
+	holder = 1065630 # Amelrico visconte di Milano 871 and 876
+}
+888.1.1 = {
+	holder = 1065653  #Manfredo/Mainfredo/Maginfredo III Manfredenghi, conte del Seprio 888-896
+}
+896.12.1 = {
+	holder = 0
+}
+#Della Seprio, conti di Seprio
+945.1.1 = {
+	holder = 1064525 # Rostanno
+}
+960.1.1 = {
+	holder = 1064526 # Nantelmo
+}
+990.1.1 = {
+	holder = 1064530 # Vifredo I
+}
+1022.1.1 = {
+	holder = 1064531 # Rodolfo II
+}
+1026.3.31 = {
+	liege = k_italy
+}
+1032.1.1 = {
+	liege = e_hre
+}
+1035.1.1 = {
+	holder = 1064532 # Vifredo II
+}
+1039.6.4 = {
+	liege=e_hre
+}
+1046.12.25 = {
+	liege=k_italy
+}
+1056.10.5 = {
+	liege=e_hre
+}
+1060.1.1 = {
+	holder = 1064533 # Rodolfo III
+}
+1080.1.1 = {
+	liege=k_italy
+}
+1090.1.1 = {
+	holder = 1064533 # Rodolfo IV aka Maldavello
+}
+1115.7.24 = {
+	liege = e_hre
+}
+1125.1.1 = {
+	holder = 1064537 # Vifredo IV
+}
+1125.5.23 = {
+	liege=k_italy
+}
+1137.12.4 = {
+	liege = e_hre
+}
+#Turn toward comunal style rule from ca 1140.
+#liege = d_lombardia
+1141.1.1 = {	
+	holder = 1064540 # Olrico, conte di Seprio 1142.
+}
+#di Castiglione
+1147.1.1 = {
+	holder = 1064552 # Arderico, consul of Seprio 1148
+}
+#Della Seprio
+1150.1.1 = {
+	holder = 1064539 # Alberto, conte e consul del seprio.
+}
+1154.12.1 = {
+	liege= k_italy
+}
+#Goswin von Heinsberg-Valkenburg conte del Seprio e Martesana 1158-?
+#di Castiglione
+1158.1.1 = {
+	holder = 1064553 # Guarnerio, consul of Seprio 1165
+}
+#Della Pusterla
+1167.1.1 = {
+	holder = 1064597 # Obizzione, podesta of Seprio 1167-1176 and 1225-1226
+}
+1167.4.7 = {
+liege=k_lombard_league
+}
+1212.7.5 = {
+liege = d_milano_republic
+}
+#di Castiglione
+1226.1.1 = {
+	holder = 1064559 # Corrado
+}
+1281.1.1 = {
+	holder = 1064560 # Guido, conte del Seprio 1284-1286.
+}
+1288.1.1 = {
+	holder = 1064561 # Cristoforo, signore di Castiglione.
+}
+1311.8.1 = {
+	liege = d_lombardia
+}

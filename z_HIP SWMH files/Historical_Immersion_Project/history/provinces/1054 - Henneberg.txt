@@ -1,0 +1,26 @@
+# 1054 - Henneberg
+# County Title
+title = c_henneberg
+
+# Settlements
+max_settlements = 5
+
+b_henneberg = castle
+b_fulda = temple
+b_schweinfurt = city
+
+#b_meiningen = city 
+#b_bibra = castle 
+
+#b_schmalkalden = city 
+#b_wiltberg = castle 
+
+#Misc
+religion = catholic
+culture = franconian
+
+# History
+1119.1.1 = { b_bibra = castle }
+1123.1.1 = { b_wiltberg = castle }
+1170.1.1 = { culture = german }
+1230.1.1 = { b_meiningen = city }

@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 898 - Sibir
+
+# County Title
+title = c_sibir
+
+# Settlements
+max_settlements = 3
+b_tobol = tribal
+b_isilkul = temple
+#b_kostanay = tribal
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History
+
+1230.1.1 = { culture = mongol } 

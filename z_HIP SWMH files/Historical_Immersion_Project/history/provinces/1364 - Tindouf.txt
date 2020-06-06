@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1364 - Tindouf
+
+# County Title
+title = c_tindouf
+
+# Settlements
+max_settlements = 2
+
+b_tindouf = tribal
+
+#b_birumgrein = city
+
+# Misc
+culture = tagelmust
+religion = ibadi
+
+# History
+1030.1.1 = { religion = sunni }

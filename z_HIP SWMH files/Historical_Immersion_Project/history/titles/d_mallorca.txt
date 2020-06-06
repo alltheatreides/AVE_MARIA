@@ -1,0 +1,97 @@
+# -*- ck2.history.titles -*-
+
+711.1.1 = {
+	de_jure_liege = k_valencia
+}
+1010.1.1 = {
+	holder = 85008 # Muyahid Amirid
+}
+1018.1.1 = {
+	liege = 0
+}
+1045.1.1 = {
+	holder = 20869 # Ali Amirid
+}
+1076.1.1 = {
+	holder = 33053 # Abdallah Aglabid
+}
+1093.1.1 = {
+	holder = 33054 # Mubashir
+}
+1115.1.1 = {
+	holder = 33055 # Suleyman Lubbunid
+}
+1116.1.1 = {
+	liege = k_mauretania
+	holder = 73229 # Wannur b. Bakr
+}
+1126.1.1 = {
+	holder = 32973 # Muhammad Massufid
+}
+1147.1.1 = {
+	liege = 0
+}
+1155.1.1 = {
+	holder = 32974 # Ishaq Massufid
+}
+1183.1.1 = {
+	holder = 32975 # Muhammad II Massufid
+}
+#Muhammad submits to the Almohads, then the Majorcans revolt and relegate power to Ali
+1184.1.1 = {
+	holder = 32976 # Ali Massufid
+}
+#1185.1.1 = {
+#	holder = 32975 # Muhammad II Massufid
+#}
+#1186.1.1 = {
+#	holder = 73230 # Tashfin Massufid
+#}
+#1187.1.1 = { # Abdallah becomes the amir of Majorca as a "junior" amir to his brother Ali in Ifriqiya
+#	holder = 73231 # Abdallah Massufid
+#}
+1188.1.1 = {
+	holder = 32977 # Yahya Massufid
+}
+1195.1.1 = { # Only set in this year when Yahya holds d_tripolitania in SWMH
+	set_tribute_suzerain = {
+		who = d_tripolitania
+		type = permanent
+	}
+	holder = 73231 # Abdallah Massufid
+}
+1203.1.1 = {
+	clear_tribute_suzerain = d_tripolitania
+	liege = k_maghreb
+	holder = 73233 # Abdallah Madinid
+}
+1207.1.1 = {
+	holder = 1228891 # Abu Abd Allah Muhammad b. Abi Hafs, sometime before 1211
+}
+1211.1.1 = {
+	holder = 20871 # Abu Muhammad b. Hawt Allah, former qadi of Murcia
+}
+1230.1.1 = {
+	de_jure_liege = k_aragon
+	liege = k_aragon
+	holder = 460600 # Jaume I de Barcelona
+	law = agnatic_succession
+	law = succ_primogeniture
+}
+1276.7.27 = {
+	liege = 0
+	holder = 460602 # Jaume II de Barcelona
+	law = cognatic_succession
+}
+1285.1.1 = {
+	liege = k_aragon
+}
+1295.1.1 = {
+	liege = 0
+}
+1311.5.29 = {
+	holder = 460604 # Sanç Jaume de Barcelona
+}
+1324.9.4 = {
+	holder = 460620 # Jaume III de Barcelona
+}

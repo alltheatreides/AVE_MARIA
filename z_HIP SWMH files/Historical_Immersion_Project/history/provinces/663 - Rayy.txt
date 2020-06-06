@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 663 - Rayy
+
+# County Title
+title = c_rayy
+
+# Settlements
+max_settlements = 7
+
+b_rayy = castle
+b_varamin = city 
+b_sava = temple # holy_site = nestorian
+b_tehran = city
+b_khuvar = temple
+
+b_damavand = city
+#b_fakhrabad = castle
+
+# Misc
+culture = persian
+religion = zaydi
+
+# History
+990.1.1 = { 
+	b_fakhrabad = castle
+}
+1225.1.1 = { remove_settlement = b_sava }

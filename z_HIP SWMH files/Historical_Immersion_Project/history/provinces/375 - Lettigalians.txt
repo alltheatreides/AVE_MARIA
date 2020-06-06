@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 375 - Lettigalians
+
+# County Title
+title = c_lettigalians
+
+# Settlements
+max_settlements = 5
+
+b_beverina = tribal
+#b_wolmar = city
+#b_rauna = tribal
+
+#b_trikata = = castle
+#b_vecpiebalga = castle
+
+# Misc
+culture = lettigallish
+religion = baltic_pagan
+
+# History
+1224.1.1 = { 
+b_beverina = castle
+b_wolmar = city
+b_rauna = castle} # Annexed by the order
+
+1290.1.1 = { religion = catholic }

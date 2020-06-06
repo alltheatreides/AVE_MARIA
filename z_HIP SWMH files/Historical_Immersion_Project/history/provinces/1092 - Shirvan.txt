@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1092 - Shirvan
+
+# County Title
+title = c_shirvan
+
+# Settlements
+ max_settlements = 4
+b_ahemakha = castle 
+b_gulistan = city
+b_bardij = city
+#b_arabsaki = castle
+#b_agsu = castle
+ 
+# Misc
+culture = udi
+religion = zoroastrian
+
+# History
+900.1.1 = { 
+	culture = adhari
+	religion = sunni }
+1320.1.1 = { religion = shiite }

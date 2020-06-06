@@ -1,0 +1,52 @@
+# -*- ck2.history.titles -*-
+
+# Qabuqsin-Yula
+20.1.1 = {
+	historical_nomad = yes
+}
+870.1.1 = {
+	liege = k_pechenegs
+	holder = 1231740 # Qorqutay, cheif of Qabuqsin-Yula at the time of expulsion from Yaik.
+}
+#893.1.1 = {
+#	liege = 0 # expulsion from Yaik
+#}
+914.1.1 = {
+	holder = 1231742
+}
+940.1.1 = {
+	holder = 1231744
+}
+942.1.1 = {
+	holder = 1231745
+}
+956.1.1 = {
+	holder = 1231747 # Kurya/Küre
+}
+1000.1.1 = {
+	holder = 1231749
+}
+1035.1.1 = {
+	holder = 1231751
+}
+# Tiraq unites the east
+#1040.1.1 = {
+#	liege = k_pechenegs
+#}
+1046.1.1 = {
+	holder = 1231755 # Soultzous
+}
+# Tugorkan and Boniak subdue the north of the danube.
+1094.1.1 = {
+	liege = k_cuman
+}
+1095.1.1 = {
+	holder = 1231759
+}
+# Qipchaq loses the war against the Russians. Pechenegs in the west brakes free.
+1103.4.1 = {
+	liege = 0
+}
+1123.1.1 = {
+	holder = 0 # last invasion of the byzzies, Pechenegs wiped out.
+}

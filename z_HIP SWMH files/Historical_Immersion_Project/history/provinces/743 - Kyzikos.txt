@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 743 - Kyzikos
+
+# County Title
+title = c_kyzikos
+
+# Settlements
+max_settlements = 3
+b_pegai = castle
+b_artake = city
+b_kyzikos = temple
+
+#b_panormos = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+1209.1.1 = { trade_post = b_ziani }
+1326.1.1 = { culture = turkish }
+1326.1.1 = { religion = sunni }
+1326.1.1 = { remove_settlement = b_kyzikos }
+1326.1.1 = { b_panormos = city }

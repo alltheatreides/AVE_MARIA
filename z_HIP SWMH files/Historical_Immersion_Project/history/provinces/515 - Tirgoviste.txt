@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+## 515 - Tirgoviste
+
+# County Title
+title = c_tirgoviste
+
+# Settlements
+max_settlements = 5
+
+b_targoviste = tribal
+#b_campulung = city
+#b_curteadearges = temple
+#b_poenari = castle
+#b_pitesti = city
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+
+1220.1.1 = { b_targoviste = castle
+b_campulung = city
+b_curteadearges = temple}
+1300.1.1 = {
+b_poenari = castle}

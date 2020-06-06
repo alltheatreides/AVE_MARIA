@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1318 - Bosco
+
+# County Title
+title = c_bosco
+
+# Settlements
+max_settlements = 5
+
+b_bosco = castle
+b_acqui = city
+b_ponzone = castle
+#b_alessandria = city
+b_sezzadio = castle
+#b_loreto_costiglione = castle
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History
+1168.1.1 = { b_alessandria = city }

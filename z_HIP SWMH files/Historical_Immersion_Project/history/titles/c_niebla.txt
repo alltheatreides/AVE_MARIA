@@ -1,0 +1,154 @@
+# -*- ck2.history.titles -*-
+
+756.3.16 = {
+	liege = k_andalusia
+	holder = 73679 # Abd al-Rahman I Umayyad
+}
+788.10.7 = {
+	holder = 73680 # Hisham I Umayyad
+}
+796.6.12 = {
+	holder = 73681 # al-Hakam I Umayyad
+}
+822.5.21 = {
+	holder = 73682 # Abd al-Rahman II Umayyad
+}
+852.9.22 = {
+	holder = 73683 # Muhammad I Umayyad
+}
+886.1.1 = {
+	holder = 73684 # al-Mundir Umayyad
+}
+888.6.24 = {
+	holder = 73685 # Abdallah Umayyad
+}
+912.10.15 = {
+	holder = 3200 # Abd al-Rahman III Umayyad
+}
+961.10.15 = {
+	holder = 3202 # al-Hakam II Umayyad
+}
+967.10.16 = {
+	holder = 1235077 # Ayyub bin al-Bakri. Local lord of Saltes and Huelva under the Umayyads
+}
+989.1.1 = {
+	holder = 1235078 # Abu Zayd Muhammad al-Bakri (Saltes and Huelva). The Bakrids were established local elites in Saltes and Huelva, and who apparently just continued governing the locality after the collapse of Central authority.
+}
+1008.1.1 = {
+	liege = 0
+}
+1012.1.1 = {
+	holder = 1235079 # Abd al-Aziz al-Bakri (Saltes and Huelva)
+}
+1023.1.1 = {
+	holder = 200262 # Ahmad Yahsubid
+}
+1042.1.1 = {
+	holder = 200264 # Muhammad Yahsubid
+}
+1051.1.1 = {
+	holder = 200266 # Fath Yahsubid
+}
+1053.1.1 = {
+	liege = d_sevilla
+	holder = 3212 # Abbad Abbadid
+}
+1069.1.15 = {
+	holder = 3214 # Muhammad II Abbadid
+}
+1083.1.1 = {
+	holder = 73216 # Abd al-Yabbar Abbadid
+}
+1091.1.1 = {
+	#liege = k_mauretania
+	holder = 155036 # Sir Abu-Bakrid
+}
+1114.1.1 = {
+	holder = 1600586 # Ibrahim b. Yusuf. Tashfin
+}
+1121.1.1 = {
+	holder = 32967 # Tamim b. Yusuf b. Tashfin
+}
+1122.1.1 = {
+	holder = 73206
+}
+1136.1.1 = {
+	holder = 73224 # Ayyub Yaafarid
+}
+1141.1.1 = { #already a governor by 1145
+	holder = 1235104
+}
+1145.1.1 = {
+	liege = 0
+}
+1147.4.1 = { #1146-1147 Niebla submits to Barraz al-Masufi
+	liege = d_sevilla
+}
+1149.1.1 = { #?
+	holder = 1235105
+}
+1171.1.1 = { #?
+	holder = 1230062 # Abu Ibrahim Isma'il b. Abd al-Ma'mun
+}
+1172.1.1 = {
+	holder = 224000 # Abu Ya'qub Yusuf makes Seville his second capital
+}
+1176.1.1 = {
+	holder = 1230063 # Abu Ali al-Husayn b. Abd al-Mu'min, 1176-?
+}
+1183.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1186.1.1 = { #?
+	holder = 224020
+}
+1188.1.1 = {
+	holder = 1230028 # Abu Yusuf Ya'qub b. Abi Hafs by 1189
+}
+1191.1.1 = {
+	holder = 1230057 #Abu Yahya b. Abu Ya'qub Yusuf 1191-1195
+}
+1195.7.18 = { #?
+	holder = 73611
+}
+1203.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1208.1.1 = {
+	holder = 1230068 # Abu Ishaq Ibrahim b. Abu Yusuf Ya'qub
+}
+1211.1.1 = {
+	holder = 1230055 # Abu Ishaq b. Abu Ya'qub Yusuf
+}
+1215.1.1 = {
+	holder = 1230031 # Abu 'l-Ala b. Yusuf, sometime before 1221
+}
+1221.1.1 = {
+	holder = 1230017 # Abu Muhammad Abd Allah al-Bayasi, appointed governor of Seville at some point during al-Mustansir's reign
+}
+1224.3.1 = {
+	holder = 32985 # Idris (future al-Ma'mun), appointed governor of Seville by his brother Abd al-Rahman (al-Adil)
+}
+1232.10.1 = {
+	holder = 73632 # Su'ayb b. Muhammad b. Mahfuz
+}
+1234.1.1 = {
+	liege = 0
+}
+1237.1.1 = {
+	set_tribute_suzerain = {
+		who = k_castille
+		type = permanent
+	}
+}
+1262.1.1 = {
+	clear_tribute_suzerain = k_castille
+	liege = k_castille
+	holder = 73130 # Pedro Guillén de Guzmán
+}
+1296.1.1 = {
+	holder = 458007 # Alfonso Pérez de Guzmán
+}
+1309.9.9 = {
+	holder = 458011 # Juan Alfonso de Guzmán
+}

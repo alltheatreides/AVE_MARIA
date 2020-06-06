@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 805 - Tobruk
+
+# County Title
+title = c_tobruk
+
+# Settlements
+max_settlements = 4
+
+b_tobruk = tribal
+b_lakka = city
+#b_derna = castle
+
+#b_bardia = temple
+#b_alqardabah = castle
+#b_martuba = temple
+
+#b_acroma = castle
+#b_zanzur = castle
+#b_kambut = castle
+#b_rukbah = castle
+
+# Misc
+culture = zanata
+religion = sunni
+
+# History
+
+1066.1.1 = { culture = bedouin_arabic }

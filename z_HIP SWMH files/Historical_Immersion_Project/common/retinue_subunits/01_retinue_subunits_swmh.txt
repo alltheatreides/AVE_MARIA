@@ -1,0 +1,1745 @@
+# -*- ck2.retinue_subunits -*-
+
+########################
+#Italian group
+########################
+
+RETTYPE_CUL_ROMAN = 
+{
+        first_type = 1
+	first_amount = 500
+	potential = {
+	is_nomadic = no	
+	culture = roman
+        }
+	
+	modifier = {
+		heavy_infantry_defensive = 0.6
+	}
+}
+RETTYPE_CUL_ITA = 
+{
+        first_type = 4
+	first_amount = 300
+
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no	
+	culture = italian
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+RETTYPE_CUL_SARDINIAN = 
+{
+	first_type = 4
+	first_amount = 300
+
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no	
+	culture = sardinian
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+RETTYPE_CUL_SICILIAN = 
+{
+	first_type = 4
+	first_amount = 300
+
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no		
+	culture = sicilian
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+#RETTYPE_CUL_CORSICAN = 
+#{
+#	first_type = 4
+#	first_amount = 300
+#
+#	second_type = 3
+#	second_amount = 200
+#	
+#	potential = {	
+#	is_nomadic = no	
+#	culture = corsican
+#        }
+#	
+#	modifier = {
+#		knights_defensive = 0.6
+#	}
+#}
+RETTYPE_CUL_CENTRAL_ITALIAN = 
+{
+	first_type = 4
+	first_amount = 300
+
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	OR = {
+		culture = laziale
+		culture = umbrian
+		}
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+#RETTYPE_CUL_SOUTHER_ITALIAN = 
+#{
+#	first_type = 4
+#	first_amount = 300
+#
+#        second_type = 3
+#	second_amount = 200
+#	
+#	potential = {	
+#	is_nomadic = no	
+#	culture = southern_italian
+#        }
+#	
+#	modifier = {
+#		knights_defensive = 0.6
+#	}
+#}
+RETTYPE_CUL_NEAPOLITAN = 
+{	
+
+        first_type = 4
+	first_amount = 300
+
+        second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = neapolitan
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+RETTYPE_CUL_TUSCAN = 
+{
+	first_type = 4
+	first_amount = 300
+
+        second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no		
+	culture = tuscan
+        }
+	
+	modifier = {
+		knights_defensive = 0.6
+	}
+}
+RETTYPE_CUL_LIGURIAN = 
+{
+	first_type = 5
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = ligurian
+        }
+	
+	modifier = {
+		archers_offensive = 0.2
+                archers_defensive = 0.4
+	}
+}
+RETTYPE_CUL_VENETIAN = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	OR = {
+		culture = venetian
+		culture = dalmatian
+		}
+        }
+	
+	modifier = {
+                heavy_infantry_defensive = 0.6
+	}
+}
+RETTYPE_CUL_LANGOBARDISCH = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = langobardisch
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+########################
+#West Slavic group
+########################
+RETTYPE_CUL_BOHEMIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = bohemian
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_CARANTANIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = carantanian
+        }
+	
+	modifier = {
+		knights_defensive = 0.3
+		light_cavalry_defensive = 0.3
+	}
+}
+RETTYPE_CUL_MORAVIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = slovieni
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_POLISH = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = polish
+        }
+	
+	modifier = {
+		knights_defensive = 0.3
+		light_cavalry_defensive = 0.3
+	}
+}
+RETTYPE_CUL_POMMERANIAN = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = pommeranian
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+########################
+#South Slavic group
+########################
+
+RETTYPE_CUL_CROATIAN = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = croatian
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_BOSNIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = bosnian
+        }
+	
+	modifier = {
+		knights_offensive = 0.3
+		light_cavalry_offensive = 0.3
+	}
+}
+RETTYPE_CUL_SERBIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no		
+	culture = serbian
+        }
+	
+	modifier = {
+                   knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_BULGARIAN = 
+{
+	first_type = 1
+	first_amount = 500	
+	
+	potential = {	
+	is_nomadic = no	
+	culture = bulgarian
+        }
+	
+	modifier = {
+                 heavy_infantry_defensive = 0.6
+	}
+}
+RETTYPE_CUL_ROMANIAN = 
+{
+	first_type = 3
+	first_amount = 400
+
+	second_type = 6
+	second_amount = 100
+	
+	potential = {	
+	is_nomadic = no	
+        culture = romanian
+        }
+
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+########################
+#Magyar group
+########################
+RETTYPE_CUL_HUNG = 
+{
+	first_type = 3
+	first_amount = 300
+	
+	second_type = 4
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture_group = magyar
+        }
+	
+	modifier = {
+		knights_offensive = 0.3
+                knights_defensive = 0.3
+	}
+}
+########################
+#East Slavic group
+########################
+RETTYPE_CUL_RUS = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 6
+	second_amount = 200
+
+	special_troops = horse_archers
+	
+	potential = {	
+	is_nomadic = no	
+	culture = russian
+        }
+
+	modifier = {
+		knights_offensive = 0.3
+		horse_archers_offensive = 0.3
+	}
+}
+########################
+#Baltic group
+########################
+RETTYPE_CUL_BALT = 
+{
+	
+	first_type = 1
+	first_amount = 300
+       
+       	second_type = 0
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+		OR = {	
+	culture = livonian
+        culture = lettigallish
+        }
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_LITHUANIAN = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+		OR = {	
+	culture = lithuanian
+        culture = prussian
+        }
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+########################
+#Finno_ugric group
+########################
+RETTYPE_CUL_FINNO_UGRIC = 
+{
+	first_type = 5
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+		OR = {	
+	culture = finnish
+        culture = lappish
+        culture = komi
+        culture = mordvin
+        culture = samoyed
+        }
+        }
+	
+	modifier = {
+		archers_offensive = 0.3
+                archers_defensive = 0.3
+	}
+}
+RETTYPE_CUL_ESTONIAN = 
+{
+	first_type = 1
+	first_amount = 300
+       
+       	second_type = 0
+	second_amount = 200 
+	
+	potential = {	
+	is_nomadic = no	
+	culture = ugricbaltic
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.3
+                heavy_infantry_defensive = 0.3
+	}
+}
+########################
+#Celtic group
+########################
+RETTYPE_CUL_BRETTON = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no		
+	culture = breton
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_CORNISH = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = cornish
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_IRISH = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {
+	is_nomadic = no		
+	culture = irish
+        }
+	
+	modifier = {
+		heavy_infantry_defensive = 0.6
+	}
+}
+RETTYPE_CUL_WELSH = 
+{
+	first_type = 5
+	first_amount = 500
+	
+	potential = {
+	is_nomadic = no	
+		OR = {		
+        culture = cumbric
+	culture = welsh
+        }
+        }
+	
+	modifier = {
+		archers_offensive = 0.6
+	}
+}
+RETTYPE_CUL_NORSEGAELIC = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = norsegaelic
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_SCOT = 
+{
+	first_type = 2
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = scottish
+        }
+	
+	modifier = {
+		pikemen_defensive = 0.6
+	}
+}
+########################
+#French group
+########################
+RETTYPE_CUL_FRANKISH = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+
+	potential = {	
+	is_nomadic = no	
+	culture = frankish
+        }
+
+	modifier = {
+		knights_offensive = 0.3
+                knights_defensive = 0.3
+	}
+}
+RETTYPE_CUL_NORMAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = norman
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+RETTYPE_CUL_ARPITAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+	culture = arpitan
+        }
+	
+	modifier = {
+		knights_offensive = 0.3
+                knights_defensive = 0.3
+	}
+}
+########################
+#Iberian group
+########################
+RETTYPE_CUL_PORTUGESE = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no	
+	culture = portuguese
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_BASQUE = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {
+	is_nomadic = no		
+	culture = basque
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.3
+                heavy_infantry_defensive = 0.3
+	}
+}
+RETTYPE_CUL_ARAGONESE = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	culture = aragonese
+	is_nomadic = no	
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_GALICIAN = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+        culture = galician
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_LEONESE = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = leonese
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_CASTILLIAN = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = castillan
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_CATALAN = 
+{
+	first_type = 0
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = catalan
+        }
+	
+	modifier = {
+                light_infantry_offensive = 1.0
+		light_infantry_defensive = 0.8
+	}
+}
+RETTYPE_CUL_ANDALUSIAN = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = andalusian_arabic
+        }
+	
+	modifier = {
+		light_cavalry_defensive = 0.6
+	}
+}
+RETTYPE_CUL_OCCTIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no		
+	culture = occitan
+        }
+	
+	modifier = {
+		knights_offensive = 0.3
+                knights_defensive = 0.3
+	}
+}
+########################
+#Norse group
+########################
+
+RETTYPE_CUL_NORSE = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	OR = {
+		culture = norse
+		culture = icelandic
+		}
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}RETTYPE_CUL_DANISH = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = danish
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_GOTHIC = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = gothic
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+
+RETTYPE_CUL_NORWEGIAN = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = norwegian
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_SWEDISH = 
+{
+	first_type = 1
+	first_amount = 500     
+	
+	potential = {	
+	is_nomadic = no		
+	culture = swedish
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+########################
+#West Germanic group
+########################
+RETTYPE_CUL_ANGLONORSE = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = anglonorse
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_FRISIAN = 
+{
+	first_type = 0
+	first_amount = 300
+	
+	second_type = 2
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no		
+	culture = frisian
+        }
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		pikemen_offensive = 0.3
+	}
+}
+RETTYPE_CUL_ENG = 
+{
+	first_type = 5
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = english
+        }
+	
+	modifier = {
+		archers_offensive = 0.6
+	}
+}
+RETTYPE_CUL_SAXON = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture = saxon
+        }
+	
+	modifier = {
+		heavy_infantry_offensive = 0.2
+                heavy_infantry_defensive = 0.4
+	}
+}
+########################
+#Central Germanic group
+########################
+
+RETTYPE_CUL_DUTCH = 
+{
+	first_type = 0
+	first_amount = 300
+	
+	second_type = 2
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no	
+		OR = {
+			culture = low_frankish
+			culture = dutch
+		}
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		pikemen_offensive = 0.3
+	}
+}
+RETTYPE_CUL_GERMAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no	
+		OR = {
+			culture = german
+			culture = low_german
+			culture = low_saxon
+			culture = thuringian
+			culture = franconian
+			culture = swabian
+			culture = bavarian
+		}	
+	}
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+########################
+#Byzantine group
+########################
+RETTYPE_CUL_BYZ = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 6
+	second_amount = 200
+
+	special_troops = horse_archers
+  
+	potential = {	
+	is_nomadic = no	
+		OR = {		
+	culture = alan
+        culture = greek
+		culture = udi
+		culture = caucasian_avar
+		culture = crimean_gothic
+        }
+        }
+
+	modifier = {
+		knights_offensive = 0.3
+		horse_archers_offensive = 0.3
+	}
+}
+RETTYPE_CUL_ARMENIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 6
+	second_amount = 200
+
+	special_troops = horse_archers
+  
+	potential = {	
+	is_nomadic = no		
+	culture = armenian
+        }
+
+	modifier = {
+		knights_offensive = 0.3
+		horse_archers_offensive = 0.3
+	}
+}
+RETTYPE_CUL_ALBANIAN = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+        culture = arberian
+        }
+
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+RETTYPE_CUL_GEORGIAN = 
+{
+	first_type = 4
+	first_amount = 300
+	
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no			
+	culture = georgian
+        }
+	
+	modifier = {
+		knights_offensive = 0.6
+	}
+}
+
+########################
+#Iranian group
+########################
+RETTYPE_CUL_IRANIAN = 
+{
+	first_type = 6
+	first_amount = 260
+	
+	second_type = 3
+	second_amount = 240
+
+	special_troops = horse_archers
+	
+	potential = {	
+	is_nomadic = no		
+	culture_group = iranian
+        }
+	
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_DAYLAMITE = 
+{
+	first_type = 2
+	first_amount = 260
+	
+	second_type = 0
+	second_amount = 240
+	
+	potential = {	
+	is_nomadic = no		
+		OR = {	
+        culture = daylamite
+        culture = afghan
+        culture = qufs
+        }
+        }
+	
+	modifier = {
+		pikemen_defensive = 0.6
+		light_infantry_morale = 0.3
+	}
+}
+
+########################
+#Altaic group
+########################
+RETTYPE_CUL_ALTAIC = 
+{
+	first_type = 6
+	first_amount = 130
+	
+	second_type = 3
+	second_amount = 120
+
+	special_troops = horse_archers
+	
+	potential = {	
+	is_nomadic = yes
+		OR = {	
+	culture = cuman
+        culture = khazar
+		culture = khavar
+        culture = pecheneg
+        }
+        }
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_AVAR = 
+{
+	first_type = 3
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	potential = {
+	is_nomadic = yes			
+	culture = avar
+        }
+modifier = {
+		knights_defensive = 0.6
+		horse_archers_offensive = 0.3
+	}
+}
+RETTYPE_CUL_TURKISH = 
+{
+	first_type = 6
+	first_amount = 130
+	
+	second_type = 3
+	second_amount = 120
+
+	special_troops = horse_archers
+	
+	potential = {	
+	is_nomadic = no		
+	culture = turkish
+        }
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_MONGOL = 
+{
+	first_type = 6
+	first_amount = 130
+	
+	second_type = 3
+	second_amount = 120
+
+	special_troops = horse_archers
+	
+	potential = {	
+	is_nomadic = yes	
+	culture = mongol
+        }
+
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_morale = 0.2
+	}
+}
+RETTYPE_CUL_ORDU = 
+{
+	first_type = 6
+	first_amount = 150
+	
+	second_type = 3
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	potential = {
+	is_nomadic = yes		
+		OR = {	
+					culture = turkmen
+					culture = oghuz
+					culture = turkish
+					culture = uyghur
+					culture = mongol
+					culture = pecheneg
+					culture = khazar
+					culture = khavar
+					culture = bolghar
+					culture = karluk
+					culture = cuman
+					culture = kirghiz
+					culture = khitan
+        }
+    }
+	modifier = {
+		horse_archers_offensive = 0.4
+		horse_archers_morale = 0.2
+	}
+}
+
+########################
+#Arabic group
+########################
+RETTYPE_CUL_ARAB = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture_group = arabic
+        }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+
+########################
+#North African group
+########################
+RETTYPE_CUL_N_AFR = 
+{
+	first_type = 3
+	first_amount = 500
+	
+	potential = {	
+	is_nomadic = no		
+	culture_group = north_african
+	NOT = { culture = canarian }
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+
+########################
+#West African group
+########################
+RETTYPE_CUL_W_AFR = 
+{
+	first_type = 0
+	first_amount = 300
+	
+	second_type = 5
+	second_amount = 200
+	
+	potential = {
+	is_nomadic = no			
+	culture_group = west_african
+        }
+	
+	modifier = {
+		light_infantry_offensive = 0.6
+	}
+}
+
+########################
+#East African group
+########################
+RETTYPE_CUL_E_AFR = 
+{
+	first_type = 0
+	first_amount = 300
+	
+	second_type = 5
+	second_amount = 200
+	
+	potential = {	
+	is_nomadic = no		
+	culture_group = east_african
+        }
+	
+	modifier = {
+		light_infantry_offensive = 0.6
+	}
+}
+############################
+#Kosher
+############################
+RETTYPE_CUL_JEWISH = 
+{
+	first_type = 1
+	first_amount = 500
+	
+	potential = {
+	is_nomadic = no	
+		culture_group = israelite
+		religion_group = jewish_group
+	}
+	
+	modifier = {
+		heavy_infantry_defensive = 0.6
+	}
+}
+
+
+########################
+#Mesoamerican group
+########################
+
+RETTYPE_CUL_NAHUA = 
+{
+	first_type = 0
+	first_amount = 250
+	second_type = 1
+	second_amount = 250
+	
+	potential = {
+	is_nomadic = no			
+		culture = nahuatl
+        }
+	
+	modifier = {
+		light_infantry_offensive = 0.3
+		heavy_infantry_offensive = 0.3
+	}
+}
+
+########################
+#Bedouin nomads group
+########################
+RETTYPE_CUL_BEDOUIN_NOMAD = 
+{
+	first_type = 6
+	first_amount = 375
+	
+	second_type = 3
+	second_amount = 125
+
+	special_troops = camel_cavalry
+	
+	potential = {
+	is_nomadic = no	
+    OR = {		
+  		culture = tagelmust
+  		culture = tuareg
+  		culture = zanata
+  		culture = beja
+  		culture = bedouin_arabic
+  		culture = afar
+  		culture = zaghawa
+  		culture = somali
+      }
+    }
+	
+	modifier = {
+		light_cavalry_offensive = 0.6
+	}
+}
+
+RETTYPE_CUL_INDIAN = 
+{
+	first_type = 5
+	first_amount = 470
+	second_type = 6
+	second_amount = 30
+	
+	special_troops = war_elephants
+	
+	potential = {
+	is_nomadic = no	
+		OR = {
+			culture_group = indo_aryan_group
+			culture_group = dravidian_group
+		}
+	}
+	
+	modifier = {
+		archers_offensive = 0.6
+	}
+}
+
+########
+#Bland vanilla
+########
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Special troops
+
+RETTYPE_INF1 =
+{
+	first_type = 1
+	first_amount = 200
+	second_type = 5
+	second_amount = 50
+	
+	potential = {
+		is_nomadic = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
+	}
+}
+
+RETTYPE_INF2 =
+{
+	first_type = 2
+	first_amount = 200
+	second_type = 5
+	second_amount = 50
+	
+	potential = {
+		is_nomadic = no
+	}
+	
+	modifier = {
+		archers_defensive = 0.2
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+	}
+}
+
+RETTYPE_CAV1 =
+{
+	first_type = 4
+	first_amount = 50
+	second_type = 3
+	second_amount = 200
+	
+	potential = {
+		is_nomadic = no
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+	}
+}
+
+RETTYPE_SKIR1 = 
+{
+	first_type = 5
+	first_amount = 200
+	second_type = 1
+	second_amount = 50
+	
+	potential = {
+		is_nomadic = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+		heavy_infantry_defensive = 0.1
+	}
+}
+
+RETTYPE_SKIR2 = 
+{
+	first_type = 5
+	first_amount = 125
+	second_type = 0
+	second_amount = 375
+	
+	potential = {
+		is_nomadic = no
+	}
+	
+	modifier = {
+		archers_offensive = 0.2
+		archers_defensive = 0.1
+		light_infantry_defensive = 0.2
+		light_infantry_morale = 0.2
+	}
+}
+#Nomadic
+HORDE_RETTYPE_CAV1 = 
+{
+	first_type = 3
+	first_amount = 250
+	
+	hire_cost = 30
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.54
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV2 = 
+{
+	first_type = 3
+	first_amount = 225
+	second_type = 6
+	second_amount = 25
+
+	special_troops = horse_archers
+	
+	hire_cost = 75
+	costs_prestige = yes
+	
+	maintenance_multiplier = 0.789
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV3 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+
+	special_troops = horse_archers
+	
+	hire_cost = 25
+	
+	maintenance_multiplier = 0.25
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV4 =
+{
+	first_type = 3
+	first_amount = 150
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.357
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV5 =
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 4
+	second_amount = 50
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.3405
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV6 =
+{
+	first_type = 3
+	first_amount = 100
+	second_type = 4
+	second_amount = 150
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.375
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_CAV7 =
+{
+	first_type = 6
+	first_amount = 250
+	
+	special_troops = horse_archers
+	
+	hire_cost = 75
+	
+	maintenance_multiplier = 0.45
+	
+	potential = {
+		is_nomadic = yes
+	}
+}
+
+HORDE_RETTYPE_INDIAN = 
+{
+	first_type = 3
+	first_amount = 200
+	second_type = 6
+	second_amount = 50
+	
+	special_troops = war_elephants
+
+	hire_cost = 100
+	
+	maintenance_multiplier = 0.625
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			region = world_india
+		}
+	}
+}
+
+HORDE_RETTYPE_DESERT = {
+	first_type = 3
+	first_amount = 100
+	second_type = 6
+	second_amount = 150
+	
+	special_troops = camel_cavalry
+	
+	hire_cost = 50
+	
+	maintenance_multiplier = 0.624
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			terrain = desert
+		}
+	}
+}
+
+HORDE_RETTYPE_EUROPE = {
+	first_type = 4
+	first_amount = 250
+	
+	hire_cost = 100
+	
+	maintenance_multiplier = 0.555
+	
+	potential = {
+		is_nomadic = yes
+		capital_scope = {
+			OR = {
+				region = world_europe_west
+				region = world_europe_south
+			}
+		}
+	}
+}
+
+RETTYPE_CUL_HAN =
+{
+	first_type = 5
+	first_amount = 350
+	second_type = 2
+	second_amount = 150
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = han
+			culture = khitan
+		}
+	}
+	
+	modifier = {
+		archers_defensive = 0.2
+		pikemen_offensive = 0.1
+	}
+}
+
+RETTYPE_CUL_TIBET = 
+{
+	first_type = 0
+	first_amount = 375
+	
+	second_type = 3
+	second_amount = 125
+	
+	potential = {
+		is_nomadic = no
+		culture_group = tibetan_group
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.5
+		light_infantry_defensive = 0.3
+		light_infantry_morale = 0.1
+		light_cavalry_offensive = 0.2
+		light_cavalry_defensive = 0.2
+		light_cavalry_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_JURCHEN =
+{
+	first_type = 4
+	first_amount = 150
+	second_type = 3
+	second_amount = 350
+
+	potential = {
+		is_nomadic = no
+		culture = jurchen
+	}
+	
+	modifier = {
+		light_cavalry_offensive = 0.1
+		light_cavalry_morale = 0.1
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+	}
+}

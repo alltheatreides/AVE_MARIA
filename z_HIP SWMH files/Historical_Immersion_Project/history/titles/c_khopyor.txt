@@ -1,0 +1,102 @@
+# -*- ck2.history.titles -*-
+
+825.1.1 = {
+	liege = k_pechenegs
+	holder = 1231704
+}
+830.1.1 = {
+	holder = 1231706
+}
+# Suru-Külbej
+864.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231760
+}
+# Pechengs expulsed by Khazars.
+893.1.1 = {
+	liege = 0
+	holder = 0
+}
+916.1.1 = {
+	liege = k_khazaria
+	holder = 146188
+}
+920.1.1 = {
+	holder = 146189
+}
+928.1.1 = {
+	holder = 146190
+}
+945.1.1 = {
+	holder = 146191
+}
+# Sarkel destroyed, goes to oghuz turks.
+966.1.1 = {
+	liege = k_uzes
+	holder = 1231869
+}
+1010.1.1 = {
+	holder = 1231871
+}
+1035.1.1 = {
+	holder = 1231873
+}
+# Cumans consolidation complete, push westwards intensifies.
+# Terteroba
+1050.1.1 = {
+	liege = d_terteroba
+	holder = 1233087 # Sokal
+}
+1065.1.1 = {
+	holder = 1233089 # Togortac/TUgorkhan
+}
+1096.7.19 = {
+	holder = 1233093 # Osaluka-Khan/Asalup/Asaduk
+}
+1120.1.1 = {
+	holder = 1233095
+}
+1140.1.1 = {
+	holder = 1233097
+}
+1170.1.1 = {
+	holder = 1233099
+}
+1175.1.1 = {
+	holder = 1233101 # Gza/Kzak
+}
+1190.1.1 = {
+	holder = 1233103 # Roman
+}
+1220.1.1 = {
+	holder = 1233105 # Köten/Kotian/Kuthen/Johan
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
+}

@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 419 - Polotsk
+
+# County Title
+title = c_polotsk
+
+# Settlements
+max_settlements = 5
+b_polotsk = tribal
+b_liepiel = temple
+#b_dzisna = city
+#b_obol = castle
+
+#b_selco = castle
+#b_nekoloc = castle
+#b_stryzhava = castle
+#b_novalukoml = castle
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+988.1.1 = {religion = orthodox }
+988.1.1 = {b_polotsk = castle
+b_dzisna = city
+b_obol = castle }
+1337.1.1 = { b_selco = castle }
+

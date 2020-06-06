@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 2058 - Marib - Al-Jawf
+
+# County Title
+title = c_marib
+
+# Settlements
+max_settlements = 4
+b_marib = castle
+b_bayhan = city
+b_baraqish = city
+#b_harib = city
+#b_main = city
+
+# Misc
+culture = yemeni
+religion = ibadi
+
+# History
+850.1.1 = { religion = zaydi }
+

@@ -1,0 +1,91 @@
+# -*- ck2.history.titles -*-
+
+750.1.1={
+	liege=d_swabia
+}
+750.1.1={
+	holder = 190365 #Berthilo
+}
+787.1.1={
+	holder = 190366 #Berthold
+}
+802.1.1={
+	holder = 190355 #Wado
+}
+805.1.1={
+	holder = 190356 #Chadalhoh
+}
+819.1.1={
+	holder = 190357 #Berthold
+}
+847.1.1={
+	holder = 0
+}
+854.1.1={
+	liege=k_germany
+}
+854.1.1={
+	holder = 161744
+}
+895.1.1={
+	liege = d_swabia
+	holder = 1236782 # Udalrich von Bregenz aka. Udalrichinger
+}
+926.4.29 = {
+	holder = 7957 # Burchard Hunfridinger, Count of Thurgau and Zürichgau, later Duke of Swabia
+}
+955.1.1 = {
+	holder = 1604008 # Manegold von Zürichgau
+}
+991.1.1 = {
+	holder = 1236700 # Eberhard von Zürichgau
+}
+1024.7.3 = {
+	liege = e_hre
+}
+1030.1.1 = {
+	holder = 1236699 # Eberhard von Zürichgau/Nellenburg
+}
+1040.8.22 = {
+	holder = 1236664 # Adalbert von Winterthur
+}
+#Adalbert dies at the Battle of Civitate leaving only a daughter to inherit him
+1053.6.18 = {
+	holder = 40571 # Adelheid von Winterthur
+}
+#Takes over Winterthur by marrying Adelheid
+1065.1.1 = {
+	holder = 20286 # Hartmann von Dillingen
+}
+1120.4.16 = {
+	holder = 213160 # Adalbert von Dillingen
+}
+1151.9.12 = {
+	holder = 33618 # Hartmann von Dillingen
+}
+#The Dillingen lands are split up in two with Ulrich von Dillingen inheriting Kyburg
+1180.8.31 = {
+	holder = 213162 # Ulrich von Dillingen
+}
+1227.1.1 = {
+	holder = 7647 # Werner von Dillingen
+}
+1228.1.1 = {
+	holder = 7649 # Hartmann von Dillingen
+}
+#A Habsburg branch inherits the County of Kyburg
+1263.9.3 = {
+	holder = 7630 # Eberhard von Habsburg
+}
+1268.10.29 = {
+	liege = e_hre
+}
+1284.1.1 = {
+	holder = 33636 # Hartmann von Habsburg
+}
+1301.3.29 = {
+	holder = 33637 # Hartmann von Habsburg
+}
+1322.10.31 = {
+	holder = 33638 # Eberhard von Habsburg
+}

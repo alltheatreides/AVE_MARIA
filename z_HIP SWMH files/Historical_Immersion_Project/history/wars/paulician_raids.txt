@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Paulician Raids against Anatolia"
+
+casus_belli = {
+	actor = 1232103
+	recipient = 1700
+	casus_belli=claim
+	landed_title=c_tzamandos
+	date=866.1.1
+}
+
+866.1.1 = {
+	add_attacker = 1232103
+	add_defender = 1700
+}
+
+873.1.1 = {
+	rem_attacker = 1232103
+	rem_defender = 1700
+}

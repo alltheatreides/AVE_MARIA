@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 1091 - Svaneti
+
+# County Title
+title = c_svaneti
+
+# Settlements
+ max_settlements = 2
+b_lentekhi = castle
+b_seti = city
+#b_leksuri = city
+ 
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History

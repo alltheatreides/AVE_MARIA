@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1395 - Wallen
+
+# County Title
+title = c_wallen
+
+# Settlements
+max_settlements = 2
+b_wallen = tribal
+#b_insalah = city
+
+# Misc
+culture = tuareg
+religion = ibadi
+
+# History
+
+#islamization
+#970.1.1 = { religion = ibadi }

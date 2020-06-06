@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 2013 - Pallars
+
+# County Title
+title = c_pallars
+
+# Settlements
+max_settlements = 4
+
+b_sort = castle
+b_tremp = city
+b_lladorre = castle
+b_llorda = castle
+#b_llimiana = castle
+#b_pallars_jussa = castle
+
+# Misc
+culture = catalan
+religion = catholic
+terrain = mountain
+
+# History
+1010.1.1 = { remove_settlement = b_tremp }
+1010.1.1 = { b_pallars_jussa = castle }
+1192.1.1 = { remove_settlement = b_pallars_jussa }
+1192.1.1 = { b_tremp = city }

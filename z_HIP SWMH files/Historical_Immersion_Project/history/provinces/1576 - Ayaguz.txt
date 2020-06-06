@@ -1,0 +1,18 @@
+# -*- ck2.history.provinces -*-
+
+# 1576 - Ayaguz
+
+# County Title
+title = c_ayaguz
+
+# Settlements
+max_settlements = 2
+b_ayaguz = tribal
+#b_karasu_ayaguz = castle
+
+# Misc
+culture = cuman
+religion = tengri_pagan
+
+# History
+1240.1.1 = { culture = mongol }

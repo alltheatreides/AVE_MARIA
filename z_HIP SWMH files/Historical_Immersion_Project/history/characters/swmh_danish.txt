@@ -1,0 +1,1153 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+# New SWMH Danish Characters
+###############################################################
+#Range: 1227850 - 1227999
+###############################################################
+#
+########################################
+#Bodils ætten
+########################################
+1227850 = {
+	name="Bodil"
+	dynasty=1000053823 #487 # of royal Danish blood
+	religion="catholic"
+	culture="danish"
+        female=yes
+        father=101521 # Erik Ejegod, Speculative
+	1085.1.1 = {
+		birth = yes
+	}
+	1100.1.1={
+		add_spouse=1227851
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+1227851 = {
+	name="Asser"# Made up, needs to be here so that Bodils sons can be linked.
+	religion="catholic"
+	culture="danish"
+	1069.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+1227852 = {
+	name="Peder"# Peder Bodilsen, biggest landholder in southern Sjælland. Main advesary of the sons of Skjalm Hvide.
+        dynasty=1000053823
+	religion="catholic"
+	culture="danish"
+        father=1227851
+        mother=1227850
+	1101.1.1 = {
+		birth = yes
+	}
+	1128.1.1={
+		add_spouse=1227855 #Una Knuds daughter.
+	}
+	1150.1.1 = { 
+		death=yes #died sometime after 1142
+	}
+}
+1227853 = {
+	name="Hemming"# Hemming Bodilsen
+        dynasty=1000053823
+	religion="catholic"
+	culture="danish"
+        father=1227851
+        mother=1227850
+	1103.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+1227854 = {
+	name="Jørgen"# Jørgen Bodilsen, jarl of Smålandene(aka both Lolland, Møn and Falster) 1134-?
+        dynasty=1000053823
+	religion="catholic"
+	culture="danish"
+        father=1227851
+        mother=1227850
+	1102.1.1 = {
+		birth = yes
+	}
+	1160.8.2 = {
+		death = yes
+	}
+}
+1227855 = {
+	name="Una"
+	dynasty=487 # of royal Danish blood
+	religion="catholic"
+	culture="danish"
+        female=yes
+	1108.1.1 = {
+		birth = yes
+	}
+	1155.1.1 = {
+		death = yes
+	}
+}
+1227856 = {
+	name="Jørgen"# Jørgen son of Peder?
+        dynasty=1000053823
+	religion="catholic"
+	culture="danish"
+        father=1227852
+        mother=1227855
+	1130.1.1 = {
+		birth = yes
+	}
+
+	1185.1.1 = {
+		death = yes
+	}
+}
+########################################
+#House of Ørn/Glob/Due
+########################################
+1227860 = {
+	name="Peder" #Peder Nielsen Ørn #
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+	1129.1.1 = {
+		birth = yes
+	}
+	1157.1.1={
+		add_spouse=201522 #Ingefred daughter of Asser Hvide.
+	}
+	1185.1.1 = {
+		death = yes
+	}
+}
+1227861 = {
+	name="Alexander" #Alexander Falster, son of Peder Nielsen Ørn, knighted in 1185
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227860
+        mother=201522
+	1160.1.1 = {
+		birth = yes
+	}
+	1189.1.1={
+		add_spouse=1227863 #Margrete of Denmark
+	}
+	1191.1.1 = {
+		trait=crusader#Ventured on crusade 1191-1192
+	}
+	1221.1.1 = {
+		death = yes
+	}
+}
+1227862 = {
+	name="Asser" #Asser Stabularus son of Peder Nielsen Ørn
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227860
+        mother=201522
+	1161.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+1227863 = {
+	name="Margrete"
+	dynasty=487 # of royal Danish blood
+	religion="catholic"
+	culture="danish"
+        female=yes
+	1161.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+1227864 = {
+	name="Niels" #Niels son of Alexander, master of the royal stables.
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227861
+        mother=1227863
+	1180.1.1 = {
+		birth = yes
+	}
+	1269.1.1 = {
+		death = yes
+	}
+}
+1227865 = {
+	name="Absalon" #Absalon Rød son of Alexander.
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227861
+        mother=1227863
+	1183.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+1227866 = {
+	name="Gunhild" #Gunhild daughter of Alexander. Married Tyge Pust(of Hvitting)
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227861
+        mother=1227863
+        female=yes
+	1185.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+1227867 = {
+	name="Astrad" #Astrad Frakke son of Niels?, Høvedsmand of Svendborg, later became a monk and imporant conemporary scholar, was closely tied with the franciscans.
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        #father=1227864 #? need to have this confirmed.
+	1200.1.1 = {
+		birth = yes
+	}
+	1269.1.1 = {
+		death = yes
+	}
+}
+1227868 = {
+	name="Anders" #Anders Due son of Niels, First too asume the Due Name.
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227864
+	1222.1.1 = {
+		birth = yes
+	}
+	1285.1.1 = {
+		death = yes
+	}
+}
+1227869 = {
+	name="Elisabeth" #Daughter of Niels. Married Jon Ranesen(son of the First Rani)
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227864
+        female=yes
+	1224.1.1 = {
+		birth = yes
+	}
+	1285.1.1 = {
+		death = yes
+	}
+}
+1227870 = {
+	name="Estrid" #Daughter of Niels. Married Peder Erlandsen
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227864
+        female=yes
+	1224.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+1227871 = {
+	name="Ingefred" #Daughter of Niels. Married Anders Erlandsen Høvedsmand of Bornholm.
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227864
+        female=yes
+	1235.1.1 = {
+		birth = yes
+	}
+	1285.1.1 = {
+		death = yes
+	}
+}
+1227878 = {
+	name="Niels" # Niels Andersen Due
+        dynasty=1000035878
+	religion="catholic"
+	culture="danish"
+        father=1227868
+	1260.1.1 = {
+		birth = yes
+	}
+	1333.1.1 = {
+		death = yes
+	}
+}
+##############
+#Jarls of Smålandene(Lolland, Falster and Mön) with their families
+1227872 = {
+	name="Ulf" # Ulf/Ubbe Esbernsen jarl of Lolland 1117-1133, who Esbern was is a good question. Could he have been Asbjørn Estridsen? Ulf is claimed to have been decending from Knud the great which isn't possible but Asbjørn is as close related as Svend was. Would also fit with Ulf being named after his grandfather.
+        dynasty=1000100938
+	religion="catholic"
+	culture="danish"
+	father=101536 #Asbjørn Ulfsøn, very specualtive.
+	1075.1.1 = {
+		birth = yes
+	}
+	1105.1.1={
+		add_spouse=1227873 # Ingerid illegetimate daughter of Niels Svendsen.
+	}
+	1133.1.1 = { 
+		death=yes # Hanged
+	}
+}
+1227873 = {
+	name="Ingerid" # Illegetimate daughter of Niels Svendsen.
+        dynasty=487
+	religion="catholic"
+	culture="danish"
+        trait=bastard
+        father=101530
+        female=yes
+	1090.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+1227874 = {
+	name="Esbern" # Esbern Ulfsen
+        dynasty=502
+	religion="catholic"
+	culture="danish"
+        father=1227872
+        mother=1227873
+	1106.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+1227875 = {
+	name="Hagen" # Hagen Ulfsen
+        dynasty=502
+	religion="catholic"
+	culture="danish"
+        father=1227872
+        mother=1227873
+	1108.1.1 = {
+		birth = yes
+	}
+	1162.1.1 = {
+		death = yes
+	}
+}
+###
+1227876 = {
+	name="Erik" # Erik Folke "of Götaland", Jarl Falster 1104-1134 possibly intermediate Jarl in Sønderjylland 1134-1146
+        dynasty=1000053901
+	religion="catholic"
+	culture="gothic"
+	1080.1.1 = {
+		birth = yes
+	}
+	1104.1.1={
+		add_spouse=101551 # Cecilia Knudsdatter
+	}
+	1146.1.1 = {
+		death = yes
+	}
+}
+############
+#Gøye
+1227877 = {
+	name="Mathias" # Mathias til Flårup, Drost 1262
+        dynasty=100263
+	religion="catholic"
+	culture="danish"
+	1228.1.1 = {
+		birth = yes
+	}
+	1268.1.1 = { 
+		death=yes # died in Estland
+	}
+}
+#Need to get some better info.
+#########
+###Ulfeldt
+1227879 = {
+	name="Strange" # Strange "Stallare", royal Marsk.
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	1140.1.1 = {
+		birth=yes # uncertain
+	}
+	1190.1.1 = { 
+		death=yes # Sometime after 1186.
+	}
+}
+#Niels's branch
+1227880 = {
+	name="Niels" # Niels Strangesen, second son of Strange
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227879 # Marsk Strange
+	1175.1.1 = {
+		birth=yes # nothing known
+	}
+	1255.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227890 = {
+	name="Stig" # Stig Nielsen, first son of Niels
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227880 # Niels Strangesen
+	1205.1.1 = {
+		birth=yes # nothing known
+	}
+	1280.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227891 = {
+	name="Niels" # Niels Nielsen, second son of Niels
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227880 # Niels Strangesen
+	1210.1.1 = {
+		birth=yes # nothing known
+	}
+	1260.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227892 = {
+	name="Absalon" # Absalon Nielsen, third son of Niels
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227880 # Niels Strangesen
+	1240.1.1 = {
+		birth=yes # nothing known
+	}
+	1305.1.1 = {
+		death = yes
+	}
+}
+1227893 = {
+	name="Peder" # Peder "Væder/Wæther" Nielsen, son of Absalon
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227892 # Absalon Nielsen
+	1265.1.1 = {
+		birth=yes # nothing known
+	}
+	1330.1.1 = { 
+		death=yes # sometime after 1326
+	}
+}
+1227894 = {
+	name="Stig" # Stig Pedersen til Løitved, first son of Peder Væder
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227893 # Peder "Væder/Wæther" Nielsen
+	1295.1.1 = {
+		birth=yes # nothing known
+	}
+	1350.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227895 = {
+	name="Niels" # Niels Pedersen, second son of Peder Væder
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227893 # Peder "Væder/Wæther" Nielsen
+	1305.1.1 = {
+		birth=yes # nothing known
+	}
+	1359.9.28 = {
+		death = yes
+	}
+}
+1227896 = {
+	name="Aage" # Aage Stigsen, first son of Stig
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227894 # Stig Pedersen til Løitved
+	1320.1.1 = {
+		birth=yes # nothing known
+	}
+	1369.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227897 = {
+	name="Tyge" # Tyge Stigsen, second son of Stig
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227894 # Stig Pedersen til Løitved
+	1325.1.1 = {
+		birth=yes # nothing known
+	}
+	1370.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227898 = {
+	name="Aage" # Aage Nielsen, first son of Niels
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227895 # Niels Pedersen
+	1355.1.1 = {
+		birth = yes
+	}
+	1425.1.1 = { 
+		death=yes # after 1424
+	}
+}
+1227899 = {
+	name="Axel" # Axel Nielsen, second son of Niels
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227895 # Niels Pedersen
+	1360.1.1 = {
+		birth = yes
+	}
+	1422.1.1 = { 
+		death=yes # after 1421
+	}
+}
+# Anders's branch
+1227881 = {
+	name="Anders" # Anders Grosen Strangesen, third son of Strange
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227879 # Marsk Strange
+	1178.1.1 = {
+		birth=yes # nothing known
+	}
+	1199.1.1={
+		add_spouse=1227883 # Cecilia Esbernsdatter
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+1227882 = {
+	name="Johannes" # Johannes Andersen
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227881 # Anders Grosen Strangesen
+        mother=1227883 # Cecilia Esbernsdatter
+	1210.1.1 = {
+		birth=yes # nothing known
+	}
+	1265.1.1 = { 
+		death=yes # sometime after 1259
+	}
+}
+1227884 = {
+	name="Lucie" # Lucie/Lucia wife of Johannes
+	religion="catholic"
+	culture="danish"
+        female=yes
+	1225.1.1 = {
+		birth=yes # nothing known
+	}
+	1280.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227885 = {
+	name="Absalon" # Absalon Johansen, til Broholm
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227882 # Johannes Andersen
+        mother=1227884 # Lucie
+	1245.1.1 = {
+		birth=yes # nothing known
+	}
+	1328.1.1 = { 
+		death=yes # sometime after 1326
+	}
+}
+1227886 = {
+	name="Jacob" # Jacob Absalonsen, til Veddinge(bought from his brother-in-law Stig Pedersen Hak in 1323)
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227885 # Absalon Johansen, til Broholm
+	1275.1.1 = {
+		birth=yes # nothing known
+	}
+	#1310.1.1={
+	#	add_spouse=Kirstine Pedersdatter (Hak)
+	#}
+	1345.1.1 = { 
+		death=yes # sometime before 1346
+	}
+}
+1227887 = {
+	name="Johannes" # Johannes Absalonsen,second son of Absalon
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227885 # Absalon Johansen, til Broholm
+	1305.1.1 = {
+		birth=yes # nothing known
+	}
+	1380.1.1 = { 
+		death=yes # sometime after 1378
+	}
+}
+1227888 = {
+	name="Absalon" # Absalon Jakobsen, First son of Jakob
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227886 # Jacob Absalonsen, til Veddinge
+       #mother=Kirstine Pedersdatter (Hak)
+	1314.1.1 = {
+		birth=yes # nothing known
+	}
+	#1340.1.1={
+	#	add_spouse=Cecilie Jensdatter (Galen)
+	#}
+	1380.1.1 = { 
+		death=yes # sometime before 1383
+	}
+}
+1227889 = {
+	name="Anders" # Anders Jakobsen, second son of Jakob
+        dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+        father=1227886 # Jacob Absalonsen, til Veddinge
+       #mother=Kirstine Pedersdatter (Hak)
+	1318.1.1 = {
+		birth=yes # nothing known
+	}
+	#1340.1.1={
+	#	add_spouse=Mette Rixtorp
+	#}
+	1381.1.1 = { 
+		death=yes # sometime before 1383
+	}
+}
+
+#########
+### Hvide
+#########
+
+1227883 = {
+	name="Cecilia" #Esbernsdatter, second daughter of Esbern Snarre
+	female = yes
+	dynasty=482
+	religion="catholic"
+	culture="danish"
+	father=201521 # Esbern Snare
+	mother=202045 # Helena Guttormsdatter
+	1185.1.1={
+		birth=yes # nothing known
+	}
+	1245.1.1={
+		death=yes # nothing known
+	}
+}
+
+1227914 = {
+	name="Absalon" #Absalon Bælg, first son of Esbern Snarre.
+
+	dynasty=482
+	religion="catholic"
+	culture="danish"
+	father=201521 # Esbern Snare
+	mother=202045 # Helena Guttormsdatter
+	1180.1.1={
+		birth=yes # nothing known
+	}
+	1231.1.1={
+		death=yes # Died childless
+	}
+}
+1227915 = {
+	name="Johannes" #Johannes, second son of Esbern Snarre.
+
+	dynasty=482
+	religion="catholic"
+	culture="danish"
+	father=201521 # Esbern Snare
+	mother=202045 # Helena Guttormsdatter
+	1184.1.1={
+		birth=yes # nothing known
+	}
+	1213.1.1={
+		death=yes # Died childless in Lübeck
+	}
+}
+1227916 = {
+	name="Niels" #Niels Mule, third son of Esbern Snarre.
+
+	dynasty=482
+	religion="catholic"
+	culture="danish"
+	father=201521 # Esbern Snare
+	mother=202045 # Helena Guttormsdatter
+	1184.1.1={
+		birth=yes # nothing known
+	}
+	1233.1.1={
+		death=yes # Dead by 1233 no decendents known. Likely died childless as the estate went to his oldest sister.
+	}
+}
+########### Decendents of Ingeborg and Peder Strangesen 
+1227917 = {
+	name="Magga" #Pedersdatter
+	female=yes
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1221.1.1 = {
+		birth="1220.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+1227918 = {
+	name="Margrethe" #Pedersdatter
+	female=yes
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1222.1.1 = {
+		birth="1220.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+1227919 = {
+	name="Marina" #Pedersdatter
+	female=yes
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1223.1.1 = {
+		birth="1220.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+
+1227920 = {
+	name="Marina" #Pedersdatter
+	female=yes
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1224.1.1 = {
+		birth="1220.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+1227921 = {
+	name="Ingeborg" #Pedersdatter married count Ernst IV of Gleichen
+	female=yes
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1226.1.1 = {
+		birth="1220.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+1227922 = {
+	name="Andreas" #Pedersøn. Marsk(marshall) of the Denmark 
+	dynasty=1025003 #Ulfeldt
+	religion="catholic"
+	culture="danish"
+	father=170022 # Peder Strangesen
+	mother=201525 # Ingeborg Esbernsdatter
+	1219.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes # unknown but after 1261
+	}
+}
+#Galen branch
+1227923 = {
+	name="Peder" #Nielsen of Tåsinge
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	trait="tough_soldier"
+	father=151009 # Niels Erlandsen
+	mother=151010 # Elisabeth Pedersdatter
+	1267.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes
+	}
+}
+1227924 = {
+	name="Peder" #Peder Stygge Pedersen of Tåsinge
+	dynasty=760 #Galen
+	religion="catholic"
+	culture="danish"
+	trait="tough_soldier"
+	father=1227923 # Peder Nielsen of Tåsinge
+        # Mother = Ingefred of Nebbe
+	1300.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+#1227923-50 spares for Hvide
+#########
+#Brahe/Bragde
+1227900 = {
+	name="Verner" # First known member.
+        dynasty=1005 #Bragde
+	religion="catholic"
+	culture="danish"
+	1233.1.1 = {
+		birth=yes # nothing known, but attested 1280 as holder of Gyllebo castle.
+	}
+	1300.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227901 = {
+	name="Niels" # Niels Brahe, til Gyllebo
+        dynasty=1005 #Bragde
+	religion="catholic"
+	culture="danish"
+        #mother= Inger Pedersdatter Egeteside
+        father=1227900 # Verner Brahe
+	1270.1.1 = {
+		birth=yes # nothing known
+	}
+	1330.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227902 = {
+	name="Torkild" # Torkild Brahe, til Gyllebo
+        dynasty=1005 #Bragde
+	religion="catholic"
+	culture="danish"
+        father=1227901 # Niels Brahe
+        #mother= Anna Grim/Has til Skabersjö
+	1300.1.1 = {
+		birth=yes # nothing known
+	}
+	1360.1.1 = { 
+		death=yes # nothing known
+	}
+}
+##########
+#Urne
+1227903 = {
+	name="Kjeld" # Kjeld/Ketil Urne
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+	1150.1.1 = {
+		birth=yes # nothing known
+	}
+	1210.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227904 = {
+	name="Mattis" # Mattis Kjeldsen
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227903 # Kjeld/Ketil Urne
+	1190.1.1 = {
+		birth=yes # nothing known
+	}
+	1250.1.1 = { 
+		death=yes # sometime after 1245
+	}
+}
+1227905 = {
+	name="Johannes" # Johannes Mattisen
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227904# Mattis Kjeldsen
+	1220.1.1 = {
+		birth=yes # nothing known
+	}
+	1290.1.1 = { 
+		death=yes # sometime after 1288
+	}
+}
+1227906 = {
+	name="Mattis" # Mattis Johannesen, first son of Johannes
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227905# Johannes Mattisen
+	1240.1.1 = {
+		birth=yes # nothing known
+	}
+	1318.1.1 = { 
+		death=yes # sometime after 1315
+	}
+}
+1227907 = {
+	name="Jakob" # Jakob Johannesen, second son of Johannes
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227905# Johannes Mattisen
+	1242.1.1 = {
+		birth=yes # nothing known
+	}
+	1317.1.1 = { 
+		death=yes # sometime before 1321
+	}
+}
+1227908 = {
+	name="Johannes" # Johannes Johannesen, third son of Johannes
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227905# Johannes Mattisen
+	1254.1.1 = {
+		birth=yes # nothing known
+	}
+	1324.1.1 = { 
+		death=yes # sometime after 1321
+	}
+}
+1227909 = {
+	name="Nicolaus" # Nicolaus/Niels Johannesen, fourth son of Johannes
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227905# Johannes Mattisen
+	1275.1.1 = {
+		birth=yes # nothing known
+	}
+	1356.1.1 = { 
+		death=yes # sometime after 1355
+	}
+}
+1227910 = {
+	name="Johanne" # Johanne Johannesdatter, daughter of Johannes Johannesen
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227908# Johannes Johannesen
+        female=yes
+	1280.1.1 = {
+		birth=yes # nothing known
+	}
+ 	#1310.1.1={
+	#	add_spouse= Jens Begere
+	#}
+	1356.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227911 = {
+	name="Nicolaus" # Nicolaus/Niels Nicolausen, first son of Nicolaus
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227909# Nicolaus Johannesen
+	1300.1.1 = {
+		birth=yes # nothing known
+	}
+	1384.1.1 = { 
+		death=yes # sometime between 1383-1385
+	}
+}
+1227912 = {
+	name="Jakob" # Jakob Nicolausen, second son of Nicolaus
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227909# Nicolaus Johannesen
+	1305.1.1 = {
+		birth=yes # nothing known
+	}
+	1367.1.1 = { 
+		death=yes # sometime after 1365
+	}
+}
+1227913 = {
+	name="Lage" # Lage Nicolausen, third son of Nicolaus
+        dynasty=1000053804 #Urne
+	religion="catholic"
+	culture="danish"
+        father=1227909# Nicolaus Johannesen
+	1310.1.1 = {
+		birth=yes # nothing known
+	}
+	1360.1.1 = { 
+		death=yes # sometime after 1355
+	}
+}
+#######
+#Krognos
+#######
+#
+1227951 = {
+	name="Holger" 
+        dynasty=1000053813 # krognos
+	religion="catholic"
+	culture="danish"
+	1255.1.1 = {
+		birth=yes # nothing known
+	}
+	1300.1.1 = { 
+		death=yes # nothing known
+	}
+}
+1227952 = {
+	name="Niels" # Niels Holgersen
+        dynasty=1000053813 # krognos
+	religion="catholic"
+	culture="danish"
+        father=1227951 # Holger
+	1280.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = { 
+		death=yes 
+	}
+}
+1227953 = {
+	name="Peder" # Peder Holgersen.
+        dynasty=1000053813 # krognos
+	religion="catholic"
+	culture="danish"
+        father=1227951 # Holger
+	1280.1.1 = {
+		birth=yes 
+	}
+	1300.1.1 = { 
+		death=yes 
+	}
+}
+1227954 = {
+	name="Tue" # Tue Holgersen.
+        dynasty=1000053813 # krognos
+	religion="catholic"
+	culture="danish"
+        father=1227951 # Holger
+	1280.1.1 = {
+		birth=yes 
+	}
+	1300.1.1 = { 
+		death=yes 
+	}
+}
+1227955 = {
+	name="Jacob" # Jacob Holgersen.
+        dynasty=1000053813 # krognos
+	religion="catholic"
+	culture="danish"
+        father=1227951 # Holger
+	1280.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = { 
+		death=yes 
+	}
+}
+1227956 = {
+	name="Oluf"
+	#Oluf Haraldsson. Son of Harald Kesja, grandson of King Erik Ejegod. Proclaimed King of the Skånelands in 1139/1140 and remained in that position until his death at the Battle of Tudebro in 1143
+	dynasty=487
+	martial=8
+	diplomacy=4
+	intrigue=7
+	stewardship=4
+	religion="catholic"
+	culture="danish"
+	trait="tough_soldier"
+	father=201516
+    mother=167013
+	1108.1.1={
+		birth = yes
+	}
+	1143.1.1={
+		death = yes
+	}
+}
+1227957 = {
+	name="Kirstin" # Kirstin Knudsdatter. One of the three daughters of Knud Lavard. Shortlived wife of King Magnus the Blind of Norway.
+	female=yes
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=201513 # Knud Lavard
+	mother=222593
+	1118.1.1={
+		birth=yes
+	}
+	1139.1.1={
+		death=yes
+	}
+}

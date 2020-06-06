@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1564 - Nasyá
+
+# County Title
+title = c_nasya
+
+# Settlements
+max_settlements = 3
+b_marghinan = castle
+b_rishtan = temple
+
+#b_kokand = castle
+
+# Misc
+culture = sogdian
+religion = zoroastrian
+
+# History
+1005.1.1 = {	culture = tajik }
+1005.1.1 = {	religion = sunni }

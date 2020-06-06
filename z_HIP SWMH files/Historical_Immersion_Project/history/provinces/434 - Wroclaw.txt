@@ -1,0 +1,35 @@
+# 434 - Wroclaw
+
+# County Title
+
+title = c_wroclaw
+
+# Settlements
+max_settlements = 6
+b_wroclaw = tribal 
+b_sleza = temple
+#b_niemcza = castle 
+
+#b_olesnica = castle 
+#b_brzeg_slaski = city  
+#b_trzebnica = temple
+#b_henrykow = temple 
+#b_ziebice = castle 
+#b_pogorzela = castle 
+#b_nysa_slaski = city
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+990.1.1 = { religion = catholic 
+b_wroclaw = city
+b_niemcza = castle
+remove_settlement = b_sleza
+}
+990.1.1 = { capital = b_niemcza }
+1180.1.1 = { b_pogorzela = castle  }
+1189.1.1 = { b_olesnica = castle }
+
+1250.1.1 = { b_brzeg_slaski = city }
+1260.1.1 = { culture = german } #German settlers

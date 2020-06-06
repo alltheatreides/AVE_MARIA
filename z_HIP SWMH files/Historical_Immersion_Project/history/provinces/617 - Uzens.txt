@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 617 - Uzens # Uzens/Qaraösen
+
+# County Title
+title = c_uzens
+
+# Settlements
+max_settlements = 2
+
+b_uzens = tribal
+#b_saratov = city
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+825.1.1 = { culture = pecheneg } 
+893.1.1 = { culture = oghuz } 
+
+1040.1.1 = { culture = cuman } 
+1040.1.1 = { religion = tengri_pagan } 
+
+1100.1.1 = { religion = sunni } 
+
+1227.1.1 = { culture = mongol } 
+1227.1.1 = { b_saratov = temple } 
+
+

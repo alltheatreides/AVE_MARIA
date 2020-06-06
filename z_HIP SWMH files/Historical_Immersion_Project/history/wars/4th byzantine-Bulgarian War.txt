@@ -1,0 +1,26 @@
+# -*- ck2.history.wars -*-
+
+name = "Byzantine-Bulgarian War 1014-1018" 
+
+casus_belli = {
+	actor = 1716 # Basil II
+	recipient = 722 # Ivan Vladislav
+	landed_title=d_ohrid
+	landed_title=d_dyrrachion
+	landed_title=d_macva	
+	landed_title=c_branicevo	
+	landed_title=c_syrmia
+	landed_title=c_upper_wallachia
+	date=1015.10.1
+	date = 1018.2.1
+}
+
+1015.10.1 = {
+	add_attacker = 1716 # Basil II
+	add_defender = 722 # Ivan Vladislav
+}
+
+1018.2.1 = {
+	rem_attacker = 1716 # Basil II
+	rem_defender = 722 # Ivan Vladislav
+}

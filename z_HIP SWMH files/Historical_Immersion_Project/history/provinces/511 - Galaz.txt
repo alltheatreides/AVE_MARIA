@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 511 - Galaz
+
+# County Title
+title = c_galaz
+
+# Settlements
+max_settlements = 3
+
+b_cetaealba = tribal
+#b_tigheci = city
+#b_oblucita = temple
+
+
+# Misc
+culture = bulgarian
+religion = tengri_pagan
+
+
+# History
+854.1.1 = { culture = khavar }
+895.1.1 = { culture = bulgarian }
+927.1.1 = { culture = pecheneg }
+1125.1.1 = {
+	culture = romanian
+	religion = orthodox
+}
+1237.1.1 = { trade_post = b_grimaldi }
+1280.1.1 = {
+	b_cetaealba = castle
+	b_tigheci = city
+	b_oblucita = temple
+}

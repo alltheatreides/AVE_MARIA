@@ -1,0 +1,26 @@
+# 1017 - Hamaland
+title = c_hamaland
+
+# Settlements
+max_settlements = 5
+
+b_arnhem = castle
+b_nijmegen = city
+
+#b_marienwaerdt = temple 
+#b_tiel = city 
+#b_buren = castle
+
+#b_rheden = castle 
+#b_elburg = city
+
+# Misc
+culture = low_frankish #northern parts could be low_saxon
+religion = catholic
+
+# History
+994.1.1 = { b_buren = castle }
+1129.1.1 = { b_marienwaerdt = temple }
+1150.1.1 = { culture = dutch }
+1191.1.1 = { b_tiel = city }
+1212.1.1 = { b_rheden = castle }

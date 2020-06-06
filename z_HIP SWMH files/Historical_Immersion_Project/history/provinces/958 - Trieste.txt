@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 958 - Trieste
+
+# County Title
+title = c_trieste
+
+# Settlements
+max_settlements = 5
+
+b_pula = castle
+b_triest = city
+#b_duino = castle
+b_koper = temple
+#b_pirano = city
+
+#b_rovinj = city 
+#b_umag = city 
+
+# Misc
+culture = dalmatian
+religion = catholic
+
+# History
+1077.1.1 = { b_duino = castle }
+1077.1.1 = { capital = b_duino } 
+1077.1.1 = { b_pula = city }
+1209.1.1 = { capital = b_koper } # To Aquileia

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 857 - Bayda
+
+# County Title
+title = c_bayda
+
+# Settlements
+max_settlements = 5
+b_qalatzabid = castle
+b_zabid = city
+b_mahjam = castle
+b_mocha = temple
+#b_hodeida = castle
+
+# Misc
+culture = yemeni
+religion = sunni
+
+# History
+1200.1.1 = { 
+	religion = shiite
+}

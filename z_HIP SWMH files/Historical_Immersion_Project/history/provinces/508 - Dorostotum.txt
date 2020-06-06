@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 508 - Dorostotum # Preslav
+
+# County Title
+title = c_dorostotum
+
+# Settlements
+max_settlements = 5
+
+b_pliska = castle
+b_preslav = castle
+b_silistra = temple
+#b_shumen = city
+#b_cherven_bulgaria = castle
+#b_ivanovo = temple
+
+
+# Misc
+culture = bulgarian
+religion = tengri_pagan
+
+# History
+
+893.1.1 = { capital = b_preslav }
+900.1.1 = { religion = orthodox }
+972.1.1 = { remove_settlement = b_pliska } # Demolished by the Byzzies
+1046.1.1 = { culture = pecheneg }
+1046.1.1 = { religion = sunni}
+1091.4.29 = { culture = bulgarian }
+1091.4.29 = { religion = orthodox }

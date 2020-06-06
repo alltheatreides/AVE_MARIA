@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 1415 - York Moors/ North York ridding
+
+# County Title
+title = c_york_moors
+
+# Settlements
+max_settlements = 5
+
+b_scarborough = castle
+b_topcliffe = castle
+#b_bedale = city
+#b_malton = castle
+#b_pickering = castle
+b_whitby = temple
+#b_helmsley = castle
+#b_rievaulx = temple
+#b_gisborough = city
+#b_middlesbrough = temple
+
+# Misc
+
+culture = saxon
+religion = catholic
+
+# History
+870.1.1 = { remove_settlement = b_whitby } # burnt by the Danes
+876.1.1 = { culture = norse } # Danes settle down
+876.1.1 = { religion = norse_pagan } # Danes settle down
+931.1.1 = { religion = catholic } # Wulfstan becomes Archbishop of York
+931.1.1 = { culture = anglonorse }
+1078.1.1 = { b_whitby = temple } # restored by de Percy
+1100.11.11 = { culture = english } 

@@ -1,0 +1,60 @@
+# -*- ck2.history.technology -*-
+
+#SCANDINAVIA
+
+technology = {
+	titles = {
+		d_uppland
+		d_ostergotland
+		d_vastergotland
+		d_norrland
+		d_sodermandland
+		d_skane
+		d_sjaelland
+		d_slesvig
+		d_holstein
+		d_iceland
+		d_orkney
+		d_vestlandet
+		d_ostlandet
+		d_trondelag
+		d_jamtland
+		d_karelia
+		d_finland
+		d_esthonia
+		d_halland    
+		d_jylland    
+		d_bornholm   
+		d_halsingland
+		d_gotland    
+		d_viipuri    
+		d_ingria     
+		d_opplandene 
+		d_more       
+		d_halogaland 
+		d_faereyar
+		d_nordfrisland
+	}
+
+	769 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+		
+		TECH_NAVAL = 0.1
+	}
+	
+	867 = {
+		military = 1.0
+		economy = 0.6
+		culture = 0.6
+		
+		TECH_NAVAL = 2.0
+	}	
+	
+	1337 = {
+		military = 3.7
+		economy = 3.5
+		culture = 3.7
+	}
+}

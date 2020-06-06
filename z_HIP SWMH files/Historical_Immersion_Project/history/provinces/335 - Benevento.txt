@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 335 - Benevento # Bounalbergo
+
+# County Title
+title = c_benevento
+
+# Settlements
+max_settlements = 6
+b_buonalbergo = castle
+b_lauro = castle
+b_benevento = temple
+b_montemarono = city
+#b_ariano = castle
+#b_gesualdo = castle
+#b_montella = castle
+
+# Misc
+culture = langobardisch
+
+religion = catholic
+terrain=plains
+# History
+
+1050.1.1={ b_ariano = castle }
+1105.1.1={ b_gesualdo = castle }
+1140.1.1={ culture = neapolitan }

@@ -1,0 +1,27 @@
+# 117 - Leuven
+
+# County Title
+title = c_brabant
+
+# Settlements
+max_settlements = 5
+
+b_leuven = castle
+b_diest = castle
+
+#b_tienen = city 
+#b_gembloux = temple 
+#b_aarschot = castle 
+
+#b_leeuw = city
+#b_leefdaal = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+935.1.1= { b_gembloux = temple }
+1013.1.1= { b_tienen = city }
+1150.1.1 = { culture = dutch }
+1284.1.1= { b_aarschot = castle }

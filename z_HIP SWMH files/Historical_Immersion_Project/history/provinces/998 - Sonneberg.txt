@@ -1,0 +1,28 @@
+# 998 - Sonneberg
+
+# County Title
+title = c_sonneberg
+
+# Settlements
+max_settlements = 5
+
+b_plassenburg = castle
+
+#b_bayreuth = city
+#b_banz = temple
+#b_sonneberg = castle
+
+#b_giech = castle
+#b_redwitz = castle
+#b_hof = city 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1070.1.1 = { b_banz = temple }
+1135.1.1 = { b_sonneberg = castle }
+#1137.1.1 = { b_giech = castle }
+1170.1.1 = { culture = german }
+1231.1.1 = { b_bayreuth = city }

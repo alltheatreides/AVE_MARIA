@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 401 - Hlynov #Vyatka
+
+# County Title
+title = c_hlynov
+
+# Settlements
+max_settlements = 3
+
+b_kirov = tribal
+#b_kaigorod = tribal
+b_bolvansky = temple
+#b_kotelnich = city
+# Misc
+culture = mari
+religion = finnish_pagan
+
+# History
+1181.1.1 = { b_kirov = castle } #Russian settlement in Viatka
+1181.1.1 = { b_kotelnich = city }
+1250.1.1 = { culture = russian }
+1250.1.1 = { religion = orthodox }
+#1250.1.1 = { b_kotelnich = city }

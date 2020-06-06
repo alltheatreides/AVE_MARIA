@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 616 - Pecheneg # Sakmar/Haqmar
+
+# County Title
+title = c_pecheneg
+
+# Settlements
+max_settlements = 2
+
+b_kasra_sakmar = tribal
+#b_masra_sakmar = city
+
+# Misc
+culture = bashkir
+religion = tengri_pagan
+terrain = hills
+
+# History
+975.1.1 = { religion = sunni } 
+
+

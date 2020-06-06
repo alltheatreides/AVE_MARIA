@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 397 - Samoyeds # Izhma
+
+# County Title
+title = c_samoyeds
+
+# Settlements
+max_settlements = 2
+
+b_izhma = tribal
+
+#b_ust_izhma = city
+
+# Misc
+culture = samoyed
+religion = finnish_pagan
+terrain = arctic
+
+# History

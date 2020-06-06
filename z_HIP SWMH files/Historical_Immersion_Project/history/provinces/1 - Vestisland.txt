@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1 - Vestisland
+
+# County Title
+title = c_vestisland
+
+# Settlements
+max_settlements = 2
+
+b_husavik = tribal
+#b_borgarnes = city
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+867.1.1 = {
+	b_husavik = tb_shipyard_1
+}
+1000.1.1 = { religion = catholic } 
+1035.1.1 = { culture = norwegian 
+b_husavik = castle
+	b_husavik = ca_shipyard_1
+} 
+

@@ -1,0 +1,613 @@
+# -*- ck2.events -*-
+
+########################## Tajikization ##########################
+
+# Islamization of Soghdians etc.
+
+namespace = SWMH
+
+character_event = {
+	id = SWMH.5
+	desc = "EVTDESCSWMH.5"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 850
+		culture = sogdian
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+				}
+			}
+			culture = sogdian
+			religion_group = muslim
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+	}
+
+	option = {
+		name = "EVTOPTASWMH.5"
+		culture = tajik
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_khorasan
+						title = k_mavarannahr
+						title = k_kafarestan
+					}
+				}
+				culture = sogdian
+				religion_group = muslim
+			}
+			culture = tajik
+		}
+	}
+}
+
+# Tajik is spreading
+character_event = {
+	id = SWMH.6
+	desc = "EVTDESCSWMH.6"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 850
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_khorasan
+					title = k_mavarannahr
+					title = k_kafarestan
+				}
+			}
+			culture = sogdian
+			religion_group = muslim
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.6"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_khorasan
+						title = k_mavarannahr
+						title = k_kafarestan
+					}
+				}
+				culture = sogdian
+				religion_group = muslim
+			}
+			culture = tajik
+		}
+	}
+}
+
+#Make my court speak Tajik
+character_event = {
+	id = SWMH.7
+	desc = "EVTDESCSWMH.7"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 850
+		culture = tajik
+		OR = {
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_khorasan
+							title = k_mavarannahr
+							title = k_kafarestan
+						}
+					}
+				}
+			}
+		}
+		any_courtier = {
+			religion_group = muslim
+			culture = sogdian
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.7"
+		random_courtier = {
+			limit = {
+				culture = sogdian
+				religion_group = muslim
+			}
+			culture = tajik
+			hidden_tooltip = {
+				character_event = { id = SWMH.9 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Tajik
+character_event = {
+	id = SWMH.8
+	desc = "EVTDESCSWMH.8"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 850
+		culture = tajik
+		OR = {
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_khorasan
+							title = k_mavarannahr
+							title = k_kafarestan
+							title = k_khwarezmia
+						}
+					}
+				}
+			}
+		}
+		any_vassal = {
+			religion_group = muslim
+			culture = sogdian
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.8"
+		random_vassal = {
+			limit = {
+				culture = sogdian
+				religion_group = muslim
+			}
+			culture = tajik
+			hidden_tooltip = {
+				character_event = { id = SWMH.9 days = 3 }
+			}
+		}
+	}
+}
+
+# Let him speak Tajik
+character_event = {
+	id = SWMH.9
+	desc = "EVTDESCSWMH.9"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.9"
+		culture = tajik
+	}
+}
+################## Pahlavi -> Farsi #########################
+
+# Islamization of Pahlavi Persians
+#character_event = {
+#	id = SWMH.25
+#	desc = "EVTDESCSWMH.25"
+#	picture = GFX_evt_stone_church
+#	
+#	trigger = {
+#		year = 651
+#  	religion_group = muslim
+#		any_demesne_province = {
+#			culture = pahlavi
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 120
+#	}
+#
+#	option = {
+#		name = "EVTOPTASWMH.25"
+#		culture = persian
+#		random_demesne_province = {
+#			limit = {
+#  			culture = pahlavi
+#      	religion_group = muslim
+#			}
+#			culture = persian
+#		}
+#	}
+#}
+
+# Farsi is spreading
+character_event = {
+	id = SWMH.26
+	desc = "EVTDESCSWMH.26"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 651
+		any_demesne_province = {
+			culture = pahlavi
+			religion_group = muslim
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.26"
+		random_demesne_province = {
+			limit = {
+				culture = pahlavi
+				religion_group = muslim
+			}
+			culture = persian
+		}
+	}
+}
+
+#Make my court speak Farsi
+character_event = {
+	id = SWMH.27
+	desc = "EVTDESCSWMH.27"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 651
+		culture = persian
+		OR = {
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_persia
+							title = k_khorasan
+							title = k_mavarannahr
+							title = k_kafarestan
+							title = k_khwarezmia
+						}
+					}
+				}
+			}
+		}
+		any_courtier = {
+			religion_group = muslim
+			culture = pahlavi
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.27"
+		random_courtier = {
+			limit = {
+				culture = pahlavi
+				religion_group = muslim
+			}
+			culture = persian
+			hidden_tooltip = {
+				character_event = { id = SWMH.29 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Farsi
+character_event = {
+	id = SWMH.28
+	desc = "EVTDESCSWMH.28"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 651
+		culture = persian
+		OR = {
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_persia
+							title = k_khorasan
+							title = k_mavarannahr
+							title = k_kafarestan
+							title = k_khwarezmia
+						}
+					}
+				}
+			}
+		}
+		any_vassal = {
+			religion_group = muslim
+			culture = pahlavi
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTASWMH.28"
+		random_vassal = {
+			limit = {
+				culture = pahlavi
+				religion_group = muslim
+			}
+			culture = persian
+			hidden_tooltip = {
+				character_event = { id = SWMH.29 days = 3 }
+			}
+		}
+	}
+}
+
+# Let him speak Farsi
+character_event = {
+	id = SWMH.29
+	desc = "EVTDESCSWMH.29"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.29"
+		culture = persian
+	}
+}
+
+##################### afghanization of the Khalaj #####################
+
+# Islamization of the khalaj
+character_event = {
+	id = SWMH.30
+	desc = "EVTDESCSWMH.30"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 850
+		culture = khalaj
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_sistan
+					title = k_kafarestan
+				}
+			}
+			culture = khalaj
+			religion_group = muslim
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 900
+	}
+
+	option = {
+		name = "EVTOPTASWMH.30"
+		culture = afghan
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_sistan
+						title = k_kafarestan
+					}
+				}
+				culture = khalaj
+				religion_group = muslim
+			}
+			culture = afghan
+		}
+	}
+}
+
+# Afghan is spreading
+character_event = {
+	id = SWMH.31
+	desc = "EVTDESCSWMH.31"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 850
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_sistan
+					title = k_kafarestan
+				}
+			}
+			culture = khalaj
+			religion_group = muslim
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.31"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						title = k_sistan
+						title = k_kafarestan
+					}
+				}
+				culture = khalaj
+				religion_group = muslim
+			}
+			culture = afghan
+		}
+	}
+}
+
+#Make my court speak Afghan
+character_event = {
+	id = SWMH.32
+	desc = "EVTDESCSWMH.32"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 850
+		culture = afghan
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_sistan
+							title = k_kafarestan
+						}
+					}
+				}
+			}
+		}
+		any_courtier = {
+			religion_group = muslim
+			culture = khalaj
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.32"
+		random_courtier = {
+			limit = {
+				culture = khalaj
+				religion_group = muslim
+			}
+			culture = afghan
+			hidden_tooltip = {
+				character_event = { id = SWMH.34 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak afghan
+character_event = {
+	id = SWMH.33
+	desc = "EVTDESCSWMH.33"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 850
+		culture = afghan
+		OR = { 
+			independent = yes
+			AND = {
+				independent = no
+				top_liege = {
+					primary_title = {
+						OR = {
+							title = e_persia
+							title = k_sistan
+							title = k_kafarestan
+						}
+					}
+				}
+			}
+		}
+		any_vassal = {
+			religion_group = muslim
+			culture = khalaj
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = "EVTOPTASWMH.33"
+		random_vassal = {
+			limit = {
+				culture = khalaj
+				religion_group = muslim
+			}
+			culture = afghan
+			hidden_tooltip = {
+				character_event = { id = SWMH.34 days = 3 }
+			}
+		}
+	}
+}
+
+# Let him speak afghan
+character_event = {
+	id = SWMH.34
+	desc = "EVTDESCSWMH.34"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTASWMH.34"
+		culture = afghan
+	}
+}

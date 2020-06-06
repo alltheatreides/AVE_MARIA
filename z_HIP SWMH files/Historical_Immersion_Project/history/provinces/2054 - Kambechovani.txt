@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 2054 - Kambechovani
+
+# County Title
+title = c_kambechovani
+
+# Settlements
+ max_settlements = 3
+b_khornabuji = castle
+b_bodbe = temple
+b_vezhini = castle
+
+# Misc
+culture = udi
+religion = apostolic
+
+# History
+
+950.1.1 = {
+	culture = georgian
+	religion = orthodox
+}

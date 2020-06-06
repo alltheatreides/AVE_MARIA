@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1011 - Arbanon
+
+# County Title
+title = c_arbanon
+
+# Settlements
+max_settlements = 4
+
+b_kruje = tribal
+b_berat = castle
+b_petrela = city
+
+#b_hiskampis = temple
+#b_glavinitza = temple
+
+
+# Misc
+culture = arberian
+religion = orthodox
+terrain = mountain
+
+# History
+
+980.1.1 = { b_kruje = castle }

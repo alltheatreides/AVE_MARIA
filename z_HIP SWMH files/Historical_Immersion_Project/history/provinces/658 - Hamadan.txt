@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 658 - Hamadan
+
+# County Title
+title = c_hamadan
+
+# Settlements
+max_settlements = 6
+b_hamadan = castle
+#b_bahar = castle
+b_asadabad = city
+b_karadj = temple
+b_darguzin = city
+b_saruk = city
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+
+867.1.1 = { 
+	b_hamadan = ca_keep_1
+	b_hamadan = ca_training_grounds_1
+	b_hamadan = ca_keep_2
+	b_hamadan = ca_stable_1
+	b_hamadan = ca_barracks_1
+	b_hamadan = ca_militia_barracks_1
+	b_hamadan = ca_wall_1
+	b_hamadan = ca_wall_2
+}
+1160.1.1 = { b_bahar = castle } #Built during Sulayman Shah's reign

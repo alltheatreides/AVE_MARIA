@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Buyid Conquest of Jiruft"
+
+casus_belli = {
+	actor = 1231064
+	recipient = 1230777
+	casus_belli=muslim_county_conquest
+	landed_title=c_jiruft
+	date=935.1.1
+}
+
+935.1.1 = {
+	add_attacker = 1231064
+	add_defender = 1230777
+}
+
+936.12.1 = {
+	rem_attacker = 1231064
+	rem_defender = 1230777
+}

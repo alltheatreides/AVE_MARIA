@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1087 - Klarjeti
+
+# County Title
+title = c_klarjeti
+
+# Settlements
+ max_settlements = 4
+b_artanuji = castle
+b_artvini = city
+b_akhiza = temple
+#b_doliskana = temple
+#b_parekhi = temple
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History

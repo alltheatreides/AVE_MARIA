@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 750 - Nikaea
+
+# County Title
+title = c_nikaea
+
+# Settlements
+max_settlements = 7
+b_malagina = castle
+b_nikaia = city
+b_basilinopolis = temple
+b_pylai = city
+b_kios = city
+b_leukai = castle
+
+#b_angelokomis = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = plains
+
+# History
+
+
+1331.1.1 = { culture = turkish }
+1331.1.1 = { religion = sunni }
+1331.1.1 = { remove_settlement = b_basilinopolis }
+1331.1.1 = { remove_settlement = b_leukai }

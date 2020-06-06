@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 377 - Livs
+
+# County Title
+title = c_livs
+
+# Settlements
+max_settlements = 4
+
+b_viljandi = tribal
+b_karksi = temple
+#b_ruhja = castle
+#b_newpernau = city
+
+
+# Misc
+culture = livonian
+religion = finnish_pagan
+
+# History
+1224.1.1 = { b_viljandi = castle } # annexed by the order
+1224.1.1 = { b_karksi = castle } 
+1250.1.1 = { b_newpernau = city }
+1290.1.1 = { religion = catholic }

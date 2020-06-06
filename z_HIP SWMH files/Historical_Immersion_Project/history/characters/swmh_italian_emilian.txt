@@ -1,0 +1,5171 @@
+# -*- ck2.history.characters -*-
+
+#Emilian Italy (taken from Arpady range)
+#Characters: 1061901- 1062200
+#Dynasties: 1000020071 - 1000020100
+#Emilian/Po valley 3nd range (taken from Arpady range)
+#Characters: 1064350 - 1064499
+########
+#Di Lucca; di Parma(Attonidi/Attoni), Canossa, della Palude, Iattoni, Baratti and Guiberti etc
+########
+1061903 = {
+	name="Atto" # name unknown, but since Adalberto-Atto is reffered to as Atto secundus in the first appareance of him, then Atto seems a good bet.
+	religion="catholic"
+	culture="tuscan"
+    dynasty=100323 # di lucca
+	852.1.1 = {
+		birth=yes
+	}
+	910.1.1 = {
+		death=yes
+	}
+}
+1061904 = {
+	name="Sigifredo" #  Sigifredo di Lucca
+	religion="catholic"
+	culture="tuscan"
+        dynasty=101556
+        father=1061903
+	890.1.1 = {
+		birth=yes
+	}
+	943.1.1 = {
+		death=yes
+	}
+}
+1061902 = {
+	name="Giuditta" # Giuditta, daughter of Arduino, married Alberto son of Rufo. 
+	dynasty=1000035308 
+	religion="catholic"
+	culture="italian"
+    female=yes
+	father=71285 
+	1030.1.1 = {
+		birth=yes
+	}
+	1089.1.1 = {
+		death=yes
+	}
+}
+###Attoni, conti di Parma
+1167017 = {
+	name="Atto" # Atto I, attested 918, brother of Sigifredo di Lucca(1st Canossa)
+	dynasty=1000035308 
+	religion="catholic"
+	culture="tuscan"
+        father=1061903
+	903.1.1 = {
+		birth=yes
+	}
+	965.1.1 = {
+		death=yes
+	}
+}
+1167016 = {
+	name="Atto" # Atto II
+	dynasty=1000035308 
+	religion="catholic"
+	culture="italian"
+	father=1167017 
+	945.1.1 = {
+		birth=yes
+	}
+	1015.1.1 = {
+		death=yes
+	}
+}
+1061901 = {
+	name="Gherardo" # son of Atto II
+	dynasty=1000035308 
+	religion="catholic"
+	culture="italian"
+	father=1167016 
+	980.1.1 = {
+		birth=yes
+	}
+	1042.1.1 = {
+		death=yes
+	}
+}
+###di Canossa, conti di Canossa, marhesi di Toscana, Reggio e Spoleto.
+1061905 = {
+	name="Alberto Azzo" #  Adalberto Atto, 1st son of Sigifredo I, first count of Canossa. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061904 
+	921.1.1 = {
+		birth=yes
+	}
+	988.2.13 = {
+		death=yes
+	}
+}
+1061908 = {
+	name="Prangarda" #  married Manfred I of Susa
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061905
+    female=yes 
+	948.1.1 = {
+		birth=yes
+	}
+	1001.1.1 = {
+		death=yes
+	}
+}
+1061909 = {
+	name="Gottifredo" #  bishop of Brescia
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061905
+	956.1.1 = {
+		birth=yes
+	}
+	998.1.1 = {
+		death=yes
+	}
+}
+1061910 = {
+	name="Rudolpho" 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061905
+	957.1.1 = {
+		birth=yes
+	}
+	987.1.1 = {
+		death=yes
+	}
+}
+7926 = {
+	name="Teodaldo" # aka Tedald, count of Brescia.
+	dynasty=101556
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion="catholic"
+	culture="italian"
+        father=1061905
+	950.1.1 = {
+		birth="950.1.1"
+	}
+	970.1.1 = {
+		add_spouse=7927
+	}
+	1012.1.1 = {
+		death="1012.1.1"
+	}
+}
+1061911 = {
+	name="Teodaldo" # Teodaldo II, bishop of Arezzo
+	dynasty=101556
+	religion="catholic"
+	culture="italian"
+	father=7926
+	mother=7927
+	990.1.2 = {
+		birth=yes
+	}
+	1036.6.12 = {
+		death=yes
+	}
+}
+1061916 = {
+	name="Corrardo" # Corrardo, youngest son of Tealdo di canossa. attested 1022, died 1030. was at odds with his elder brother, but reconciled. One of the possible ancestors of the post Mathilda Canossa, but no marriage or children is recorded.
+	dynasty=101556
+	religion="catholic"
+	culture="italian"
+	father=7926
+	mother=7927
+	992.1.1 = {
+		birth=yes
+	}
+	1030.1.1 = {
+		death=yes
+	}
+}
+7756 = {
+	name="Bonifacio" # Marchesse di Toscana e Reggio, Conte di Canossa e Brescia
+	dynasty=101556
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=4
+	religion="catholic"
+	culture="italian"
+	father=7926
+	mother=7927
+	985.1.2 = {
+		birth="985.1.2"
+	}
+	1052.5.6 = {
+		death="1052.5.6"
+	}
+}
+7758 = {
+	name="Federigo"
+	dynasty=101556
+	religion="catholic"
+	culture="italian"
+	father=7756
+	mother=7755
+	1047.1.1 = {
+		birth="1047.1.1"
+	}
+	1055.7.1 = {
+		death="1055.7.1"
+	}
+}
+7757 = {
+	name="Matilda"
+	dna = fabmmzztpmr
+	properties = cl0cjd0000000000000000000000000
+	female=yes
+	dynasty=101556
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="italian"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	father=7756
+	mother=7755
+	1046.1.1 = {
+		birth="1046.1.1"
+	}
+	1115.7.24 = {
+		death="1115.7.24"
+	}
+}
+###Guiberti
+1061907 = {
+	name="Gherardo" #  Gherardo , son of Sigifredo I, genisis of the Guiberti dynasty
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061904 
+	923.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes
+	}
+}
+###Baratti
+1061906 = {
+	name="Sigifredo" #  Sigifredo II, son of Sigifredo I, genisis of the Iattoni and Baratti dynasties
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061904 
+	922.1.1 = {
+		birth=yes
+	}
+	973.1.1 = { # attested 972
+		death=yes
+	}
+}
+1061912 = {
+	name="Alchinda" # daughter of Sigifredo II, married Ugo di Belusco brother of Odalrico count of Bergamo. Attested in 973 and 975.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061906 
+	female=yes
+	954.1.1 = {
+		birth=yes
+	}
+	1000.1.1 = {
+		death=yes
+	}
+}
+1061913 = {
+	name="Sigfredo" # Sigefredo III son of Sigifredo II. Bishop of parma 981-1015
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061906 
+	959.1.1 = {
+		birth=yes
+	}
+	1015.1.1 = {
+		death=yes
+	}
+}
+1061914 = {
+	name="Richelda" # daughter of Sigifredo II, married Wido di Antescia, son of Adam di Antescia.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061906 
+	female=yes
+	970.1.1 = {
+		birth=yes
+	}
+	1035.1.1 = {
+		death=yes # kast attested 1034
+	}
+}
+1061915 = {
+	name="Barato" # son of Sigefredo II, first of the di Baratti.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1061906 
+	958.1.1 = {
+		birth=yes
+	}
+	1000.1.1 = {
+		death=yes
+	}
+}
+#Gherardo Barrati, son of Barato?
+#Alberto, son of Ghereardo attested 1080.
+###################################
+#da Canossa
+###################################
+#Signori e conti di Bianello, signori di Canossa e Gesso. Also Patricans of Reggio. Disputed whether directly related to Mathilda's family(Eithe via Corrardo and an unnamed wife or through a naturalised bastard of Mathilda's father. The alternative version is via marriage to Egina and Coalia who in turn isn't confirmed explicetly named being of the Canossa family either so can't see how that proves jack), but in either case they gained a lot of her propperties in Reggio. Im going with the Theoaldo-Orlando theory as timewise that one makes most sense imo.
+1064350 = { #Orlando, natural son of Bonifacio. No date on the mention, but from context(which is a bit tricky since it jumps around a lot) it looks like later than 1030 but whether that means 1040 or somthing else is a tossup. There is also a refference for 1144 but that could just be a typo for Rolando I suppose.
+	name="Orlando"
+	dynasty=101556
+	religion="catholic"
+	culture="italian"
+	trait="bastard"
+	father=7756
+	1040.1.1 = {
+		birth=yes
+	}
+	1115.1.1 = {
+		death=yes
+	}
+}
+1064351 = {
+	name="Marsilla" #Marsiglia/Marsilia(aka Mathilda), "niece" of Mathilde di Canossa, married Guglielmo di Traversari
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 # speculative
+	female=yes
+	1070.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+#Conti di Bianello line
+1064352 = {
+	name="Rolando" #Rolando di Canossa died before 1159. Scholar's can't seem to agree whether he decend from Corrardo the brother of Bonifacio, Orlando the natural son of Bonifacio or whether he married into the estate(through Egina or Coalia, but info on those two is limited to them being confirmed to the ownership of Bianello)
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 #speculative
+	1077.1.1 = {
+		birth=yes
+	}
+	1149.1.1 = {
+		death=yes
+	}
+}
+1064353 = {
+	name="Guido" #Guido da Canossa, son of Rolando. attested 1159(podesta of bologna), 1160, 1165(podesta of bologna), 1185, consul of Reggio 1186, 1197, 1200, 1215 and 1221. conte di Bianello(in 1160) e Canossa.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064352 
+	1134.1.1 = {
+		birth=yes
+	}
+	1222.1.1 = {
+		death=yes
+	}
+}
+1064354 = {
+	name="Rolandino" #Rolandino, son of Rolando
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064352 
+	1135.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death=yes
+	}
+}
+1064355 = {
+	name="Albertino" #Albertino, son of Rolando. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064352 
+	1094.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+1064356 = {
+	name="Egina" # Egina, attested in 1147 owning part of Bianello.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 #speculative
+	female=yes
+	1115.1.1 = {
+		birth=yes
+	}
+	1175.1.1 = {
+		death=yes
+	}
+}
+1064357 = {
+	name="Coalia" # Coalia, attested in 1147, owning part of Bianello.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 # speculative
+	female=yes
+	1119.1.1 = {
+		birth=yes
+	}
+	1173.1.1 = {
+		death=yes
+	}
+}
+#
+1064358 = {
+	name="Beatrice" #Beatrice, daughter of Albertino. married Uberto Pallavicinio I
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064355 
+	female=yes
+	1110.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+#
+1064359 = {
+	name="Rolando" #Rolando/Rolandino, son of Guido, attested 1221.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064353 
+	1165.1.1 = {
+		birth=yes
+	}
+	1244.1.1 = {
+		death=yes
+	}
+}
+1064360 = {
+	name="Fredenzono" #Fredenzono, son of Guido, attested 1224
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064353 
+	1162.1.1 = {
+		birth=yes
+	}
+	1227.1.1 = {
+		death=yes
+	}
+}
+#
+1064361 = {
+	name="Guglielmo" #Guglielmo, son of Rolandino, attested 1228
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064359 
+	1199.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064362 = {
+	name="Bonifacio" #Bonifacio, son of Rolandino, attested 1228. married Giovanna da Monte. died 5th of april 1286(killed by Scarabello da Canossa)
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064359 
+	1217.1.1 = {
+		birth=yes
+	}
+	1286.4.5 = {
+		death={
+			death_reason=death_murder
+			killer=1064387
+		}
+	}
+}
+1064363 = {
+	name="Guido" #Guido, son of Rolandino. died 5th of april 1286.(killed by Scarabello da Canossa)
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064359 
+	1225.1.1 = {
+		birth=yes
+	}
+	1286.4.5 = {
+		death={
+			death_reason=death_murder
+			killer=1064387
+		}
+	}
+}
+1064364 = {
+	name="Albertino" #Albertino, son of Guido. captiano di Parma 1317 and Podesta di bologna 1318
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064363 
+	1260.1.1 = {
+		birth=yes
+	}
+	1333.1.1 = {
+		death=yes
+	}
+}
+#
+1065039 = {
+	name="Guglielmo" #Guglielmo, son of Bonifacio. conte di Bianello, attested 1296, 1308, 1309, 1311, 1334. died before 1348.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064362
+	1262.1.1 = {
+		birth=yes
+	}
+	1335.1.1 = {
+		death=yes
+	}
+}
+1065040 = {
+	name="Albertino" #Albertino, son of Bonifacio. conte di Bianello(co ruler) attested 1311. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064362
+	1259.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1064365 = {
+	name="Gabriotto" #Gabriotto, son of Albertino, conte di Bianello(co ruler until Guglilmo died, and then alone) attested 1334, 1348. died 1360.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065040
+	1280.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1064366 = {
+	name="Alberto" #Alberto, son of Gabriotto
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064365
+	1300.1.1 = {
+		birth=yes
+	}
+	1351.1.1 = {
+		death=yes
+	}
+}
+1064367 = {
+	name="Baccarino" #Baccarino, son of Gabriotto, conte di Bianello. attested 1312 and 1360
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064365
+	1292.1.1 = {
+		birth=yes
+	}
+	1367.1.1 = {
+		death=yes
+	}
+}
+1064368 = {
+	name="Simone" #Simone di Baccarino, son of Baccarino. attested 1414 conte di Bianello
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064367
+	1335.1.1 = {
+		birth=yes
+	}
+	1415.1.1 = {
+		death=yes
+	}
+}
+1064369 = {
+	name="Baccarino" #Baccarino II, son of Simone. attested 1434 and 1449. conte di Bianello
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064368
+	1379.1.1 = {
+		birth=yes
+	}
+	1450.1.1 = {
+		death=yes
+	}
+}
+#
+1064370 = {
+	name="Niccolò" #Niccolò, son of Guglilelmo.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	1300.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes
+	}
+}
+1064371 = {
+	name="Bonifacio" #Bonifacio, son of Guglilelmo.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	1297.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1064372 = {
+	name="Giovanni" #Giovanni, son of Guglilelmo.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	1303.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes
+	}
+}
+1064373 = {
+	name="Mabilia" #Mabilia, daughter of Guglilelmo. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	female=yes
+	1283.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1064374 = {
+	name="Flandrina" #Flandrina, daughter of Guglilelmo.  
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	female=yes
+	1281.1.1 = {
+		birth=yes
+	}
+	1336.1.1 = {
+		death=yes
+	}
+}
+1064375 = {
+	name="Agnesina" #Agnesina, daughter of Guglilelmo. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1065039
+	female=yes
+	1289.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+#
+1064376 = {
+	name="Gherardo" #Gherardo di Bianello, son of?, died before 1163.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 #speculative
+	1109.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+1064377 = {
+	name="Rainero" #Rainero, son of Gherardo. attested 1163
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064376 
+	1135.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1064378 = {
+	name="Guidotto" #Guidotto, son of Rainero. attested 1163
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064376 
+	1130.1.1 = {
+		birth=yes
+	}
+	1177.1.1 = {
+		death=yes
+	}
+}
+1064379 = {
+	name="Arrigo" #Arrigo, son of Rainero. attested 1163
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064376 
+	1140.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		death=yes
+	}
+}
+###### Canossa line
+#Signori di Canossa
+1064380 = {
+	name="Corrado" #Corrado di Canossa, dead before 1176
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064350 # speculative
+	1109.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+1064381 = {
+	name="Giovanni" #Gioanni/Giovanni, son of Corrado attested 1176 and 1197, 1217-1218(podesta of Bologna, the refference is to G. di canossa and some assume its old Guido instead).
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064380
+	1143.1.1 = {
+		birth=yes
+	}
+	1225.1.1 = {
+		death=yes
+	}
+}
+1064382 = {
+	name="Bonifacio" #Bonifacio, son of Giovanni. seized Canossa castle, podesta di padova in 1255(thrown out of Canossa by Adalberto), 1267, died 1272 in Reggio. 
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064381
+	1191.1.1 = {
+		birth=yes
+	}
+	1272.1.1 = {
+		death=yes
+	}
+}
+1064383 = {
+	name="Turisendo" #Turisendo, son of Giovanni. attested 1197 and 1255.(thrown out of Canossa by Adalberto)
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064381
+	1180.1.1 = {
+		birth=yes
+	}
+	1255.1.1 = {
+		death=yes
+	}
+}
+###### Gessi Line aka "di Gessi"
+#Signori di Gessi e Canossa
+1064384 = {
+	name="Gherardo" #Gerardino/Gherardo, brother of Gianello, attested 1197 and 1210
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064380 # speculative
+	1145.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1064385 = {
+	name="Gianello" #Giannello, brother of Gerardino, attested 1197
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064380 # speculative
+	1139.1.1 = {
+		birth=yes
+	}
+	1198.1.1 = {
+		death=yes
+	}
+}
+1064386 = {
+	name="Adalberto" #Adalberto, brother or son of Gherardo attested 1210, seized and demolished Canossa castle in 1255.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064384
+	1180.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1064387 = {
+	name="Guglilmo Scarabello" #Guglielmo Scarabello da Canossa, son of Adalberto, knighted by Azzo di Este, 1276(podesta of Siena), 1279(podesta of bologna), 1280(podesta of Perugia), 1286, 1294(leading troopes agaisnt Parma for Azzo di este),1296(back in Reggio, podesta?), 1297(appointed siege commander of Argenta castle by the archbishop of Ravenna) died 1300. renowed warrior.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064386
+	1215.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1064388 = {
+	name="Rolandino"#Rolando/Rolandino, son of Guglielmo, nephew of Bonifacio?. attested 1272(podesta of Reggio) 1287, 1292, 1293, 1294. Died before 1308. married Gigliola daughter of Arrigo da Sesso.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064387
+	1237.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		death=yes
+	}
+}
+1064389 = {
+	name="Bartolino"#Bartolino, son of Rolandino.
+	religion="catholic"
+	culture="italian"
+    dynasty=101556
+    father=1064388
+	1270.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+70677 = {
+	name="Raniero" # Ranierio, son of Rolandino. Podesta of Perugia 1280-1281, podesta of Bologna 1312, Pretura di Padova 1317.
+	dynasty=101556
+	martial=6
+	diplomacy=4
+	intrigue=5
+	stewardship=7
+	religion="catholic"
+	culture="italian"
+	add_trait="diligent"
+	add_trait="falconer"
+	add_trait="thrifty_clerk"
+	father=1064388
+	1263.1.1 = {
+		birth=yes
+	}
+	1295.1.1 = {
+		add_spouse=70675
+	}
+	1319.1.1 = {
+		death=yes
+	}
+}
+#-424 reserved
+###################################
+#Palu aka da Palude
+###################################
+#Major landholders in Reggio, Mantua and Parma region. One of the most important vassal families to mathilda of Canossa. Conti della Palude, Reggio e signori di Crovara. Possibly related to  Gandolfingi(counts of Piacenza, but I have yet to identify what the possible link could be), the counts of Parma, maybe the Canossa and possibly also the later Rossi family.
+### The possible link with the Canossa
+#Attone I. Brother of a Sigifredo. Attested 918.
+#Sigifredo I. Sigifredo di Lucca genisis of the Canossa.
+#Sigifredo II, son of Sigifredo I.
+##Parma branch
+#Attone II, son of Attone I. Died before the 2. november 1062. Count of Parma. Seemed to have been married to Giulitta.
+#Arduino(aka Ardecione), son of Attone II. Attested the 2nd of November 1062. Count of Parma.
+#Giuditta, daughter of Arduino, married Alberto son of Rufo. 
+#Gisla, daughter of Arduino ?
+#Uberto son of Aruidno I, attested in 1096.
+#Uberto II son of Uberto I, attested 1136.
+#Gherardo, son of Attone II.
+#### Della Palude propper
+1061920 = {
+	name="Gandolfo" # Gandolfo. Son of Attone I, genisis.
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1167017 
+	946.1.1 = {
+		birth=yes
+	}
+	1010.1.1 = {
+		death=yes
+	}
+}
+1061921 = {
+	name="Ugo" # Ugo, son of Gandolfo.
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061920
+	969.1.1 = {
+		birth=yes
+	}
+	1029.1.1 = {
+		death=yes
+	}
+}
+1061922 = {
+	name="Arduino" #Arduino, son of Gandolfo
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061920
+	973.1.1 = {
+		birth=yes
+	}
+	1024.1.1 = {
+		death=yes
+	}
+}
+#Da Palude
+1061923 = {
+	name="Guido" ##Guido di Gandolfo aka Guido di Palude founder of dynasty. Son of Gandolfo. Accused of nicking a pile of dough from the church of Reggio in 1032-1040. Conti di Reggio. Presumably given the title by Mathilda's father since it had been in the Canossa family beforehand and Bonifazio was known to favor the family. Dead before 10th April 1073. Married "Aldegarda" who were the mother of all his sons.
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061920
+	994.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+1061924 = { #Guido II, son of Guido I. Attested 10th of April 1073.
+	name="Guido"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061923
+	1036.1.1 = {
+		birth=yes
+	}
+	1089.1.1 = {
+		death=yes
+	}
+}
+1061925 = { #Oddone, son of Guido I. Attested 10th of April 1073.
+	name="Oddone"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061923
+	1045.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes
+	}
+}
+1061926 = { #Gerado, son of Guido I. Dead before 10th April 1073.
+	name="Gherardo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061923
+	1042.1.1 = {
+		birth=yes
+	}
+	1104.1.1 = {
+		death=yes
+	}
+}
+1061927 = { #Arduino da Palu, son of Guido I. Strongman and "Capitano" of Mathilda at least since 1101. Attested first in April 1073 and last on the 6th of May 1116. Conti di Palude. There is a wikipage claiming he was leading troops in 1061 during the repression of an antipapal rebellion in Rome, but I can't find other sources backing it up and that would make him really really old when he fought Mathilda's wars for her.
+	name="Arduino"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061923
+	1035.1.1 = {
+		birth=yes
+	}
+	1116.5.6 = {
+		death=yes
+	}
+}
+1061928 = { ##Cecilia. daughter of Arduino. Was married to Ugo III Caldolingi since ca 1108 to 13. February 1113. She then remarried to Tancredi di Alberti. She died before 1136.
+	name="Cecilia"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061927
+	female=yes
+	1086.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes
+	}
+}
+1061929 = { #Aldigarda/Aldegarda, daughter of Arudino da Palu. Attested in 1128 and 1142. Married Alberto III di Alberti. 
+	name="Aldigarda"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061927
+	female=yes
+	1087.1.1 = {
+		birth=yes
+	}
+	1143.1.1 = {
+		death=yes
+	}
+}
+1061930 = { #Gherado II, son of Arduino. Attested in March 1108. 
+	name="Gherardo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061927
+	1068.1.1 = {
+		birth=yes
+	}
+	1111.1.1 = {
+		death=yes
+	}
+}
+1061931 = { #Guido III, son of Arduino. Attested in March 1108 and 1139. Dead by 14th october 1145. Married "Gisla"
+	name="Guido"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061927
+	1084.1.1 = {
+		birth=yes
+	}
+	1145.10.13 = {
+		death=yes
+	}
+}
+1061932 = { #Uberto son of Guido III, attested in 1214.
+	name="Uberto"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061931
+	1130.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1061933 = { #Iacopo, son of Guido III, attested 1198 and 1208. 
+	name="Iacopo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061931
+	1137.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes
+	}
+}
+1061934 = { #Sigifredo, son of Guido III. Guifredo aka Sigifredo, attested 1155 and 1186. 
+	name="Sigifredo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061931
+	1120.1.1 = {
+		birth=yes
+	}
+	1187.1.1 = {
+		death=yes
+	}
+}
+1061935 = { #Petronio, son of Sigifredo.
+	name="Petronio"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061934
+	1143.1.1 = {
+		birth=yes
+	}
+	1194.1.1 = {
+		death=yes
+	}
+}
+1061936 = { ##Guandalino aka Gualandino, son of Sigifredo. Attested 1188. Married Cittadina.
+	name="Guandalino"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061934
+	1146.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		death=yes
+	}
+}
+1061937 = { #Giberto, son of Sigifredo. Attested 1200. Married "Oriza". 
+	name="Giberto"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061934
+	1154.1.1 = {
+		birth=yes
+	}
+	1208.1.1 = {
+		death=yes
+	}
+}
+1061938 = { #Barnaba, son of Giberto. Attested in 1200, named as main heir in a will that year. 
+	name="Barnaba"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061937
+	1183.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes
+	}
+}
+1061939 = { ##Cecilia, daughter of Giberto. Attested 1200.
+	name="Cecilia"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061937
+	female=yes
+	1184.1.1 = {
+		birth=yes
+	}
+	1237.1.1 = {
+		death=yes
+	}
+}
+######The rest of the known family branches have uncertain relations to the above.
+#
+1061940 = { #Rolandino brother of Artemisio.
+	name="Rolandino"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061931  #speculative
+	1121.1.1 = {
+		birth=yes
+	}
+	1168.1.1 = {
+		death=yes
+	}
+}
+1061941 = { #Artemisio. Attested 1168 and 1169.
+	name="Artemisio"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061931 # speculative
+	1128.1.1 = {
+		birth=yes
+	}
+	1186.1.1 = {
+		death=yes
+	}
+}
+1061942 = { #Iacopo. son of Artemisio. Attested 1209. Died in war during the year of 1224.
+	name="Iacopo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061941
+	1162.1.1 = {
+		birth=yes
+	}
+	1224.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1061943 = { #Gerado. Attestedin 1209. son of Artemisio.
+	name="Gherardo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061941
+	1167.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+###
+1061944 = { 
+	name="Corrado" # father of Alberto
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061925 #speculative
+	1100.1.1 = {
+		birth=yes
+	}
+	1159.1.1 = {
+		death=yes
+	}
+}
+1061945 = { #Alberto Caro, Signori di Montezane e Crovara. attested in 1188. Son of a Corrado?. Died during the third crusade.
+	name="Alberto Caro"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061944
+	1141.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1061946 = { #Joannis, son of Alberto? Bishop in 1296(where?)
+	name="Joannis"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061955 # speculative
+	1264.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1061947 = { #Giovanni, son of Alberto?. Lord of Crovara and the other castles in 1296.
+	name="Giovanni"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061955 # speculative
+	1278.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+### Republican branch
+1061948 = { #Giacomo I. Died 1224
+	name="Giacomo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061936 # speculative
+	1167.1.1 = {
+		birth=yes
+	}
+	1224.1.1 = {
+		death=yes
+	}
+}
+1061949 = { #Arverio, son of Giacomo I
+	name="Arverio"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061948	
+	1195.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1061950 = { #Guido, son of Giacomo I
+	name="Guido"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061948	
+	1193.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes
+	}
+}
+1061951 = { #Gifredo, Brother of Giacomo I
+	name="Gifredo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061936 # speculative	
+	1164.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes
+	}
+}
+1061952 = { #Giacomo II(aka Giacomono), son of Gifredo. Same as Iacopino attested 1247?
+	name="Giacomo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061951
+	1198.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		death=yes
+	}
+}
+1061953 = { #Bonaccorso, son of Giacomo I. Podesta of Ravenna 1236, Siena 1238-1239, Verona 1239, 1243 Pisa, Pavia 20. May - 13. #december 1246. Loyal Ghibeline. Assaniated on the behest of Barnabò Malaspina, and the commune of Lucca in 1249(he was #particiapting in an offensive against them).
+	name="Bonaccorso"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061948
+	1195.1.1 = {
+		birth=yes
+	}
+	1249.1.1 = {
+		death=yes
+	}
+}
+1061954 = { #Beatrice, daughter of Bonaccorso. Married Costello son of Giberto Della Gente podesta of Parma in October 1232.
+	name="Beatrice"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061953
+	female=yes
+	1215.1.1 = {
+		birth=yes
+	}
+	1261.1.1 = {
+		death=yes
+	}
+}
+1061955 = { #Gifredo( aka Gifredino), son of Bonaccorso.Podesta of Vicenza 1254-1256. Attested first in 1247 representing his father, #and last 1269. He married "Caracosa" who was last attested 1293.
+	name="Gifredo"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061953
+	1223.1.1 = {
+		birth=yes
+	}
+	1290.1.1 = {
+		death=yes
+	}
+}
+1061956 = { #Guido, son of Bonaccorso, went into church service. Abbot of Marola monestary 1248-1250(he was appointed by the emperor but the Pope replaced him)
+	name="Guido"
+	dynasty=1000020004
+	religion="catholic"
+	culture="italian"
+	father=1061953
+	1224.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+#-60 reserved
+###################################
+#da Fogliano
+###################################
+#Lords of Baiso, consuls of Reggio. Leaders of the Guelphs of Reggio.
+1061961 = { # Consul in Reggio ca 1180.
+	name="Alberto"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	1130.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death=yes
+	}
+}
+1061962 = { # Guido I, lord of Baiso, consul of Reggio 1206-1209. Son of Alberto. Died 1230. Married Verde Fieschi(sister of Pope Innocens IV)
+	name="Guido"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061961
+	1175.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1061963 = { # Guido II, Podesta of Reggio(when?), son of Guido I.
+	name="Guido"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	1219.1.1 = {
+		birth=yes
+	}
+	1288.1.1 = {
+		death=yes 
+	}
+}
+1061964 = { # Ugolino, Podesta of Perugia and Cremona(when?), son of Guido I.
+	name="Ugolino"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	1212.1.1 = {
+		birth=yes
+	}
+	1277.1.1 = {
+		death=yes 
+	}
+}
+1061965 = { # Matteo, son of Guido I. podesta of Firenze 1286
+	name="Matteo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	1231.1.1 = {
+		birth=yes
+	}
+	1290.1.1 = {
+		death=yes 
+	}
+}
+1061966 = { # Guglielmo , son of Guido I. Bishop of Reggio October 1243-1283(damn that is a long time :_).
+	name="Guglielmo "
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	1220.1.1 = {
+		birth=yes
+	}
+	1283.8.5 = {
+		death=yes 
+	}
+}
+1061967 = { # Bonifazio, son of Guido I. Became a monk or prior? 
+	name="Bonifazio"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	1224.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes 
+	}
+}
+1061968 = { # Tommaso, son of Guido I. aka Tommaso dalla Marca. Conte di Romagna. attested 1259 along side his wife. married Traversara Traversari. Podesta of Reggio? attempted to take control of the Traversara castle and the Traversari domains in Ravenna on behalf of his wife.
+	name="Tommaso"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061962
+	trait="skilled_tactician"
+	trait="ambitious"
+	1195.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		add_spouse =1063464
+	}
+	1260.1.1 = {
+		death=yes 
+	}
+}
+#Parte di Sopra branch(Ugolino's side)
+1061969 = { # Niccolò, son of Ugolino I. Lord of Reggio 1329-? Leader of the Parte di Sopra against the Parte di Sotto. Got the upper hand in 1287(hostilies began in 1283). Married Caterina della Scala daughter of Alberto I.
+	name="Niccolò"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061964
+	1260.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes 
+	}
+}
+1061970 = { # Tomasso, son of Niccolò. became monk or priest?
+	name="Tommaso"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1297.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes 
+	}
+}
+1061971 = { # Guidoriccio , son of Niccolò. podesta of Firenze 1312?, Famous condottiero. fought for Siena 1327-1333. In the service of his brother 1333-1335 and della Scala 1337-1351(became podesta of Padua in 1337 and 1348 in Verona). Went to serve Siena again in 1351 and died the following year.
+	name="Guidoriccio "
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1280.1.1 = {
+		birth=yes
+	}
+	1352.6.16 = {
+		death=yes 
+	}
+}
+1061972 = { # Giberto, son of Niccolò. lord of Reggio ?-1335. Della Scala buys Reggio and grant it as a feif to Luigi Gonzaga in 1335. Giberto possibly went with Guidoriccio?
+	name="Giberto"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1289.1.1 = {
+		birth=yes
+	}
+	1369.1.1 = {
+		death=yes 
+	}
+}
+1061973 = { # Giovan Riccio, son of Niccolò. Condottiero, served the Gonzaga.
+	name="Giovan Riccio"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1295.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+1061974 = { # Matteo, son of Niccolò. Father of Guido Savina.
+	name="Matteo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1279.1.1 = {
+		birth=yes
+	}
+	1309.1.1 = {
+		death=yes 
+	}
+}
+1061975 = { # Paolo, son of Niccolò.
+	name="Paolo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061969
+	1279.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes 
+	}
+}
+1061976 = { # Guido Savino, son of Matteo. Guelph podesta of Modena 1310-1311, Firenze in 1317-19 Bologna. 
+	name="Guido Savina"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061974
+	1290.1.1 = {
+		birth=yes
+	}
+	1330.5.24 = {
+		death=yes 
+	}
+}
+1061977 = { # Bartolomeo, son of Matteo. 
+	name="Bartolomeo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061974
+	1291.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes 
+	}
+}
+1061978 = { # Niccolò, son of Matteo. 
+	name="Niccolò"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061974
+	1292.1.1 = {
+		birth=yes
+	}
+	1339.1.1 = {
+		death=yes 
+	}
+}
+1061979 = { # Guglielmo, son of Matteo. 
+	name="Guglielmo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061974
+	1294.1.1 = {
+		birth=yes
+	}
+	1333.1.1 = {
+		death=yes 
+	}
+}
+1061980 = { # Matteo, son of Guido Savino. 
+	name="Matteo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061976
+	1310.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+1061981 = { # Ugolino, son of Guido Savino. 
+	name="Ugolino"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061976
+	1317.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		death=yes 
+	}
+}
+1061982 = { # Pinello, son of Guido Savino. 
+	name="Pinello"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061976
+	1320.1.1 = {
+		birth=yes
+	}
+	1370.1.1 = {
+		death=yes 
+	}
+}
+1061983 = { # Bonifazio, son of Guido Savino. 
+	name="Bonifazio"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061976
+	1320.1.1 = {
+		birth=yes
+	}
+	1370.1.1 = {
+		death=yes 
+	}
+}
+#
+1061984 = { # Guido Savino II, son of Giberto, married Camilla da Canossa.
+	name="Guido Savino"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061972
+	1330.1.1 = {
+		birth=yes
+	}
+	1398.1.1 = {
+		death=yes 
+	}
+}
+1061985 = { # Carlo, son of Guido Savino II, Famous condottiero.
+	name="Carlo"
+	dynasty=1000020071
+	religion="catholic"
+	culture="italian"
+	father=1061984
+	1331.1.1 = {
+		birth=yes
+	}
+	1426.1.1 = {
+		death=yes 
+	}
+}
+#-89 reserved
+###################################
+#Da Correggio
+###################################
+1061990 = { # genisis, lombard nobleman who traveld to Reggio and went into service of da Canossa.
+	name="Guido"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	920.1.1 = {
+		birth=yes
+	}
+	985.1.1 = {
+		death=yes 
+	}
+}
+1061991 = { # Frogerio, son of Guido. Attested 1009. 1st lord of Correggio. Was dead before 1029.
+	name="Frogerio"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061990
+	959.1.1 = {
+		birth=yes
+	}
+	1028.1.1 = {
+		death=yes 
+	}
+}
+1061992 = { # Adalberto, son of Guido. Attested 1009. 
+	name="Adalberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061990
+	970.1.1 = {
+		birth=yes
+	}
+	1038.1.1 = {
+		death=yes 
+	}
+}
+1061993 = { # Guido, son of Frogerio. Lord of Correggio, Ramoscello and Sorbara. Died withtout issue.
+	name="Guido"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061991
+	978.1.1 = {
+		birth=yes
+	}
+	1038.1.1 = {
+		death=yes 
+	}
+}
+1061994 = { # Gherardo I, son of Frogerio. Lord of Correggio.
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061991
+	1005.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes 
+	}
+}
+1061995 = { # Alberto I, son of Gherardo. Lord of Correggio.
+	name="Alberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061994
+	1040.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes 
+	}
+}
+1061996 = { # Agelburga, daughter of Gherardo(have another source which makes her daughter of  Frogerio). Married Gherardo da Montecuccoli of Frignano.
+	name="Agelburga"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061994
+	female=yes
+	1076.1.1 = {
+		birth=yes
+	}
+	1136.1.1 = {
+		death=yes 
+	}
+}
+1061997 = { # Gherardo II son of Agelburga(must have been Alberto, somthing isn't quite right else). Lord of Correggio ca 1085-1109 and count(of what?)
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061995
+	1060.1.1 = {
+		birth=yes
+	}
+	1109.1.1 = {
+		death=yes 
+	}
+}
+1061998 = { # Matteo, son of Gherardo II. Lord of Correggio. Died before 1141.
+	name="Matteo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061997
+	1082.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes 
+	}
+}
+1061999 = { # Gherardo III, son of Matteo. Lord of Correggio. Last attested 1150
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061998
+	1106.1.1 = {
+		birth=yes
+	}
+	1161.1.1 = {
+		death=yes 
+	}
+}
+1062000 = { # Corrado, son of Matteo. 
+	name="Corrado"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061998
+	1109.1.1 = {
+		birth=yes
+	}
+	1151.1.1 = {
+		death=yes 
+	}
+}
+##
+1062001 = { # Alberto II, son of Gherardo III. Lord of Correggio. 
+	name="Alberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061999
+	1142.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes 
+	}
+}
+1062002 = { # Gherardo IV, son of Gherardo III. Lord of Correggio. 
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061999
+	1143.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		death=yes 
+	}
+}
+1062003 = { # Beatrice, daughter of Gherardo III. last attested in 1190.Nonne
+	name="Beatrice"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1061999
+	female=yes
+	1146.1.1 = {
+		birth=yes
+	}
+	1194.1.1 = {
+		death=yes 
+	}
+}
+#####branch of Albret II
+1062004 = { # Tommaso, youngest son of Alberto II received Castelnovo di Sotto by the bishop of Parma. Appointed podesta of Ravenna in 1224.
+	name="Tommaso"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062001
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1062005 = { # Alberto, third son of Albrto II. Died 1189.
+	name="Alberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062001
+	1172.1.1 = {
+		birth=yes
+	}
+	1189.1.1 = {
+		death=yes 
+	}
+}
+1062006 = { # Frogerio, second son of Albrto II.
+	name="Frogerio"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062001
+	1163.1.1 = {
+		birth=yes
+	}
+	1218.1.1 = {
+		death=yes 
+	}
+}
+1062007 = { # Guidotto, son of Frogerio. Elected to bishop of Mantua. Assianated in a monestary by  Uguccione di Altofoglia.
+	name="Guidotto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062006
+	1181.1.1 = {
+		birth=yes
+	}
+	1233.5.17 = {
+		death=yes 
+	}
+}
+1062008 = { # Sofia, daughter of Frogerio. 
+	name="Sofia"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062006
+	female=yes
+	1180.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes 
+	}
+}
+1062009 = { # Matteo II, oldest son of Albrto II. lord of Corregio and Campagnola. Patricia in Parma. invested with castelnouvo di Sotto by the bishop of Parma. Podesta of Bologna (1196, 1197 and 1213), podesta of Parma 1203,  Pisa 1208, Cremona 1210, Modena 1216, Verona 1217 and Pavia 1219.
+	name="Matteo "
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062001
+	1161.1.1 = {
+		birth=yes
+	}
+	1221.1.1 = {
+		death=yes 
+	}
+}
+1062010 = { # Frogerio II, son of Matteo II. lord of Corregio and Campagnola. Patricia in Parma. Podesta of Modena 1211 and 1216. Podesta of Ravenna 1214.
+	name="Frogerio"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062009
+	1181.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1062011 = { # Giberto  II, son of Frogerio II lord of Corregio and Campagnola. Patricia in Parma. 
+	name="Giberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062010
+	1200.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes 
+	}
+}
+1062012 = { # Guido  III, son of Giberto. Patricia in Parma. Podesta in Manuta 1239-1242, podesta in Faenza 1252, podesta in Orvieto 1257 and podesta in di Lucca.
+	name="Guido"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1218.1.1 = {
+		birth=yes
+	}
+	1263.1.1 = {
+		death=yes 
+	}
+}
+1062013 = { # Jacopo I, son of Giberto. Patricia in Parma. Murdered by Pinuccio di Senaza in Parma
+	name="Jacopo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1239.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		death={ death_reason=death_murder } 
+	}
+}
+1062014 = { # Matteo IV, son of Giberto. Podesta of Treviso in 1270.
+	name="Matteo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1230.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes 
+	}
+}
+1062015 = { # Guidotto, son of Giberto. Patricia in Parma.
+	name="Guidotto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1220.1.1 = {
+		birth=yes
+	}
+	1272.1.1 = {
+		death=yes 
+	}
+}
+#
+1062016 = { # Giocondo, son of Guidotto. Patricia in Parma.
+	name="Giocondo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062015
+	1245.1.1 = {
+		birth=yes
+	}
+	1297.1.1 = {
+		death=yes 
+	}
+}
+1062017 = { # Bartolomeo, son of Giocondo. Patricia in Reggio.
+	name="Bartolomeo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062016
+	1286.1.1 = {
+		birth=yes
+	}
+	1352.1.1 = {
+		death=yes 
+	}
+}
+1062018 = { # Bartolomeo, son of Guidotto. Patricia in Parma.
+	name="Bartolomeo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062015
+	1248.1.1 = {
+		birth=yes
+	}
+	1294.1.1 = {
+		death=yes 
+	}
+}
+#
+1062019 = { # Guglielmo, son of Giberto. Patricia in Parma.
+	name="Guglielmo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1224.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes 
+	}
+}
+1062020 = { # Bernardo, son of Guglielmo. Patricia in Parma. invested with Castelnuovo di Sotto by the bishop of Trent in 1281.
+	name="Bernardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1248.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes 
+	}
+} 
+1062021 = { # Guglielmo II, son of Bernardo I. Patricia in Parma. Gave Corrado Obizzo his part of the Correggio feif in 1297.
+	name="Guglielmo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062020
+	1268.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes 
+	}
+}
+1062022 = { # Ettore, son of Bernardo I. Patricia in Parma. Also gave Corrado Obizzo his part of the Correggio feif in 1297.
+	name="Ettore"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062020
+	1266.1.1 = {
+		birth=yes
+	}
+	1309.1.1 = {
+		death=yes 
+	}
+}
+#
+1062023 = { # Obizzio, son of Giberto. Patricia in Parma. Podesta of Reggio in 1241?
+	name="Obizzio"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1226.1.1 = {
+		birth=yes
+	}
+	1283.1.1 = {
+		death=yes 
+	}
+}
+1062024 = { # Corrado (Obizzio), son of Obizzio. Patricia in Parma. Lord of Corregio. Podesta of Reggio in 1297 and Piacenza in 1304
+	name="Corrado"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062023
+	1252.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes 
+	}
+}
+#
+1062025 = { # Gherardo, son of Giberto. Became a priest in Reggio.
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062011
+	1240.1.1 = {
+		birth=yes
+	}
+	1299.1.1 = {
+		death=yes 
+	}
+}
+##### Branch of Gherardo IV
+1062026 = { # Giberto , son of Gherardo IV
+	name="Giberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062002
+	1172.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1062027 = { # Flordia, daughter of Giberto. Married Roberto di Collalto III count of Treviso and Collalto.
+	name="Florida"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062026
+	female=yes
+	1200.1.1 = {
+		birth=yes
+	}
+	1269.1.1 = {
+		death=yes 
+	}
+}
+1062028 = { # Gherardo V , son of Giberto. Podesta of Modena in 1236, Parma 1238 and 1247, Reggio in 1240 and Genova in 1250. High profile Guelph. married Adelasia Rossi daughter of Sigifredo Gazzan Rossi
+	name="Gherardo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062026
+	1200.1.1 = {
+		birth=yes
+	}
+	1258.1.1 = {
+		death=yes 
+	}
+}
+1062029 = { # Matteo III, son of Gherardo V. Podesta of Piacenza 1250, Firenze 1257, Padova (1258 , 1263 and 1269), Bologna 1261 and 1282, Treviso 1265 and 1266, Mantua 1269, Cremona 1272, Modena 1274 and 1283, Perugia 1278, Pistoia 1286 and Reggio 1288 , capitano di popoli of Padua 1279.
+	name="Matteo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062028
+	1235.1.1 = {
+		birth=yes
+	}
+	1297.1.1 = {
+		death=yes 
+	}
+}
+1062030 = { # Guido II, son of Gherardo V. Podesta of Bologna 1270. Captain of the floretine armye 1277, Podesta of Mantua 1283 and Modena 1284. 1285 captain in command of the Parmese army. married Mabilia della Gente.
+	name="Guido"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062028
+	1220.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		add_spouse=1064484	
+	}	
+	1299.1.15 = {
+		death=yes 
+	}
+}
+1062031 = { # Matteo V , son of Guido II, lord of Castelnuovo di Sotto. Podesta of Parma and Reggio 1303-1306. Married Agnese Fogliani, daughter of Matteo Fogliani, signore di Querzola. fought a lot against his brother.
+	name="Matteo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062030
+	1270.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes 
+	}
+}
+1062032 = { # Giberto III , son of Guido II. Lord of Corregio. Capitano di popoli of Parma 1303-1308(expelled), lord of Piacenza 1304(but expelled shortly after), Imperial vicar in Reggio 1311-1312. capitano generale of Parma and Cremona 1314.
+	name="Giberto"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062030
+	1269.1.1 = {
+		birth=yes
+	}
+	1321.7.25 = {
+		death=yes 
+	}
+}
+1062033 = { # Simone, son of Guido II
+	name="Simone"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062030
+	1278.1.1 = {
+		birth=yes
+	}
+	1344.1.1 = {
+		death=yes 
+	}
+}
+1062034 = { # Giacomina, daguhter of Guido II. wife of Ubertino da Carrara, mistress of alberto della scala.
+	name="Giacomina"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062030
+	1280.1.1 = {
+		birth=yes
+	}
+	1356.1.1 = {
+		death=yes 
+	}
+}
+1062035 = { # Azzo, son of Giberto III. Lord of Parma 1331-1334, lord of Corregio. Condottiero.
+	name="Azzo"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062032
+	1303.1.1 = {
+		birth=yes
+	}
+	1362.1.1 = {
+		death=yes 
+	}
+}
+1062036 = { # Vannina, daughter of Giberto III. married Francesco Bonalcosi.
+	name="Vannina"
+	dynasty=13064
+	religion="catholic"
+	culture="italian"
+	father=1062032
+	female=yes
+	1286.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes 
+	}
+}
+#-39 reserved
+###################################
+#da Montecuccoli
+###################################
+# leaders of the ghibelines of Frignano, lords and counts of Frignano
+1062040 = { # Gherardo. fl 1110-1130. Married Agelburga da Correggio.
+	name="Gherardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	1070.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		add_spouse=1061996
+	}
+	1130.1.1 = {
+		death=yes 
+	}
+}
+1062041 = { #Bernardo. son of Gherardo. attested 1157 and 1160. Brave and ambitious. 
+	name="Bernardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062040
+	mother=1061996
+	1101.1.1 = {
+		birth=yes
+	}
+	1163.1.1 = {
+		death=yes 
+	}
+}
+1062042 = { # Gherardo II. aka Gherardino. Son of Bernardo attested 1170
+	name="Gherardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062041
+	1130.1.1 = {
+		birth=yes
+	}
+	1172.1.1 = {
+		death=yes 
+	}
+}
+1062043 = { #Gherardo III. aka Gherardino. Son of Gherardo II attested 1170 and 1173
+	name="Gherardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062042
+	1150.1.1 = {
+		birth=yes
+	}
+	1187.1.1 = {
+		death=yes 
+	}
+}
+1062044 = { #Arrigo, son of Gherardo III. attested 1188. lord of Crespellano.
+	name="Arrigo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062043
+	1168.1.1 = {
+		birth=yes
+	}
+	1220.1.1 = {
+		death=yes 
+	}
+}
+1062045 = { #Serrafinello. Son of Gherardo II attested 1170 and 1173
+	name="Serrafinello"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062042
+	1154.1.1 = {
+		birth=yes
+	}
+	1174.1.1 = {
+		death=yes 
+	}
+}
+1062046 = { #Alberto. Son of Gherardo II attested 1172 and 1184
+	name="Alberto"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062042
+	1149.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death=yes 
+	}
+}
+1062047 = { #Bonaccorso, son of Alberto attested 1197.
+	name="Bonaccorso"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062046
+	1172.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes 
+	}
+}
+#
+1062048 = { #Raniero, son of Bonaccorso attested 1214 and 1234. died 1243 in bologna.
+	name="Raniero"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062047
+	1190.1.1 = {
+		birth=yes
+	}
+	1243.1.1 = {
+		death=yes 
+	}
+}
+1062049 = { #Lanzalotto, Lanccelotto son of Raniero. attested 1234.
+	name="Lanzalotto"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062048
+	1212.1.1 = {
+		birth=yes
+	}
+	1256.1.1 = {
+		death=yes 
+	}
+}
+1062050 = { #Marcuccio, son of Ranniero attested 1234.
+	name="Marcuccio"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062048
+	1211.1.1 = {
+		birth=yes
+	}
+	1249.1.1 = {
+		death=yes 
+	}
+}
+#
+1062051 = { #Bernardo, aka Bernardino, third son of Bonaccorso I.
+	name="Bernardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062047
+	1193.1.1 = {
+		birth=yes
+	}
+	1241.1.1 = {
+		death=yes 
+	}
+}
+1062052 = { #Tommasino, son of Bernardino. attested 1234.
+	name="Tommasino"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062047
+	1212.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes 
+	}
+}
+1062053 = { #Guidnello I, son of Bonaccorso I. condottiero. attested 1213 and 1229. died after 1265.
+	name="Guidnello"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062047
+	1189.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes 
+	}
+}
+1062054 = { #Bernardo, Bernardo II aka Bernardino, son of Guidnello?
+	name="Bernardo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062053 # speculative
+	1215.1.1 = {
+		birth=yes
+	}
+	1262.1.1 = {
+		death=yes 
+	}
+}
+1062055 = { #Guidnello, son of Bernardo II. Attsted 1265 and 1272. contottiero, captain of the sienese army 1268.
+	name="Guidnello"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062054
+	1243.1.1 = {
+		birth=yes
+	}
+	1273.1.1 = {
+		death=yes 
+	}
+}
+1062056 = { #Ghirla, daughter of Bernardo II. attested september 1280.
+	name="Ghirla"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062054
+	female=yes
+	1235.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes 
+	}
+}
+1062057 = { #Bonaccorso, son of Bernardo II. attested 1265
+	name="Bonaccorso"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062054
+	1236.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes 
+	}
+}
+1062058 = { #Matteo I son of Bonaccorso II, attested 1279
+	name="Matteo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062057
+	1250.1.1 = {
+		birth=yes
+	}
+	1299.1.1 = {
+		death=yes 
+	}
+}
+1062059 = { #Parisello, son of Bonaccorso II
+	name="Parisello"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062057
+	1257.1.1 = {
+		birth=yes
+	}
+	1278.1.1 = {
+		death=yes 
+	}
+}
+1062060 = { #Corsino, son of Bonaccorso II, attested 1279 and 1283.
+	name="Corsino"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062057
+	1254.1.1 = {
+		birth=yes
+	}
+	1318.1.1 = {
+		death=yes 
+	}
+}
+1062061 = { #Mattiolo, son of Corsino. Attested 1343.
+	name="Mattiolo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062060
+	1291.1.1 = {
+		birth=yes
+	}
+	1344.1.1 = {
+		death=yes 
+	}
+}
+1062062 = { #Tordino, son of Mattiolo.
+	name="Tordino"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062061
+	1318.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes 
+	}
+}
+1062063 = { #Alberguccio, son of Corsino. attested 1347.
+	name="Alberguccio"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062060
+	1288.1.1 = {
+		birth=yes
+	}
+	1348.1.1 = {
+		death=yes 
+	}
+}
+1062064 = { #Corsino II, son of Alberguccio.
+	name="Corsino"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062063
+	1319.1.1 = {
+		birth=yes
+	}
+	1389.1.1 = {
+		death=yes 
+	}
+}
+1062065 = { #Lanzalotto, II son of Corsino II. died 1408
+	name="Lanzalotto"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062064
+	1352.1.1 = {
+		birth=yes
+	}
+	1408.1.1 = {
+		death=yes 
+	}
+}
+1062066 = { #Ettore, son of Lanzalotto II
+	name="Ettore"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062064
+	1382.1.1 = {
+		birth=yes
+	}
+	1430.1.1 = {
+		death=yes 
+	}
+}
+1062067 = { #Richildina, daughter of Bonaccorso II. attested 1281. Married Tullio son of Guido del fu Aliotto Binti da Barca.
+	name="Richildina"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062057
+	female=yes
+	1258.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes 
+	}
+}
+1062068 = { #Guglielmo, son of Matteo attested 1337 and 1343. knighted by emperor Charles IV von Luxembourg. Died 1364.
+	name="Guglielmo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062058
+	1288.1.1 = {
+		birth=yes
+	}
+	1364.1.1 = {
+		death=yes 
+	}
+}
+1062069 = { #Baldassarre, son of Guglielmo. attested 1343 and 1370.
+	name="Baldassarre"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062068
+	1320.1.1 = {
+		birth=yes
+	}
+	1374.1.1 = {
+		death=yes 
+	}
+}
+1062070 = { #Tuccio, son of Matteo. attested 1347.
+	name="Tuccio"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062058
+	1283.1.1 = {
+		birth=yes
+	}
+	1347.1.1 = {
+		death=yes 
+	}
+}
+1062071 = { #Bernardino, son of Matteo.
+	name="Bernardino"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062058
+	1270.1.1 = {
+		birth=yes
+	}
+	1298.1.1 = {
+		death=yes 
+	}
+}
+1062072 = { #Guidinello III, son of Matteo. attested 1312 and 1321. lord of Frignano. condottiero. Leader of the ghibelines in Frignano. Allied with Bologna. Fought against the Bonalcosi of Modena 1312-1321 and managed to keep them out of Frignano.
+	name="Guidniello"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062058
+	1269.1.1 = {
+		birth=yes
+	}
+	1322.1.1 = {
+		death=yes 
+	}
+}
+1062073 = { #Bartolomeo, son of Guidnello III. attested 1346.
+	name="Bartolomeo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062072
+	1304.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes 
+	}
+}
+1062074 = { #Alberguccio, son of Baldassarre. attested 1390
+	name="Alberguccio"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062069
+	1350.1.1 = {
+		birth=yes
+	}
+	1392.1.1 = {
+		death=yes 
+	}
+}
+1062075 = { #Niccolò, son of Baldassarre. Married Catarina Malaspina.
+	name="Niccolò"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062069
+	1352.1.1 = {
+		birth=yes
+	}
+	1405.1.1 = {
+		death=yes 
+	}
+}
+1062076 = { #Guglielmo, son of Baldasarre.
+	name="Guglielmo"
+	dynasty=1000020072 
+	religion="catholic"
+	culture="italian"
+	father=1062069
+	1358.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes 
+	}
+}
+#-79 reserved
+###################################
+#Sessi
+###################################
+#Leading family of the ghibelines of Reggio. Bitter rivals of the da Fogliano. Langobard origin.
+1062080 = { #Ugo I, genisis.
+	name="Ugo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	1047.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes 
+	}
+}
+1062081 = { #Ugo II, son of Ugo I. attested 1104 in Reggio and again in 1134.
+	name="Ugo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062080
+	1080.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		death=yes 
+	}
+}
+1062082 = { #Arduino, son of Ugo I. attested 1104 in Reggio.
+	name="Arduino"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062080
+	1079.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes 
+	}
+}
+1062083 = { #Arrigo, son of Arduino I. attested first 1146. 
+	name="Arrigo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062082
+	1119.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes 
+	}
+}
+1062084 = { #Ugo/Ugolino, son of Arduino I. attested first 1146, Consul of Reggio in 1169. He was also consul 1184, 1200 andd 1208. 
+	name="Ugo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062082
+	1138.1.1 = {
+		birth=yes
+	}
+	1209.1.1 = {
+		death=yes 
+	}
+}
+1062085 = { #Bianca, daughter of Arduino I. attested first 1146. 
+	name="Bianca"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062082
+	female=yes
+	1131.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		death=yes 
+	}
+}
+1062086 = { #Raimondo, son of Arduino I. attested first 1146. consul 1205, 1210 and 1226.
+	name="Raimondo"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062082
+	1140.1.1 = {
+		birth=yes
+	}
+	1227.1.1 = {
+		death=yes 
+	}
+}
+1062087 = { #Guido, son of Ugo II(lack of alternatives). attested 1153-1173. 
+	name="Guido"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062081
+	1130.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death=yes 
+	}
+}
+1062088 = { #Gherardo, son of Ugo II(lack of alternatives). attested 1193. 
+	name="Gherardo"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062081
+	1142.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes 
+	}
+}
+# links between the above and below is uncertain.
+1062089 = { #Bernardo. Podesta of Arezzo 1242. last attested 1262 in reggio. 
+	name="Bernardo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062088
+	1195.1.1 = {
+		birth=yes
+	}
+	1262.1.1 = {
+		death=yes 
+	}
+}
+1062090 = { #Gigliolo, brother of Bernardo. attested 1255
+	name="Giglio"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062088
+	1191.1.1 = {
+		birth=yes
+	}
+	1256.1.1 = {
+		death=yes 
+	}
+}
+1062091 = { #Jacopo, son of Gigliolo. Podesta of reggio (when?)
+	name="Jacopo"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062090
+	1220.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes 
+	}
+}
+1062092 = { #Matteo, brother of Bernardo. Podesta of Modena 1247
+	name="Matteo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062088
+	1193.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes 
+	}
+}
+1062106 = { #Ugolino, brother of Bernardo. Podesta of Siena 1246, captiano generale di reggio 1271.
+	name="Ugolino"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062088
+	1208.1.1 = {
+		birth=yes
+	}
+	1272.1.1 = {
+		death=yes 
+	}
+}
+#
+1062093 = { #Guido. attested 1236 and 1247. podesta of Firenze 1236. fell in battle 1249.
+	name="Guido"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062087
+	1193.1.1 = {
+		birth=yes
+	}
+	1249.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1062107 = { #Pietro Monaco, son of Guido, was appointed an abbot in 1250. eleceted bishop of Reggio?
+	name="Pietro"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062093
+	1220.1.1 = {
+		birth=yes
+	}
+	1272.1.1 = {
+		death=yes 
+	}
+}
+1062094 = { #Gherardo, brother of Guido. died in the autumn 1250. 
+	name="Gherardo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062087
+	1188.1.1 = {
+		birth=yes
+	}
+	1250.10.1 = {
+		death=yes 
+	}
+}
+1062095 = { #Giuliano, attested 1249.
+	name="Giuliano"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062094
+	1208.1.1 = {
+		birth=yes
+	}
+	1273.1.1 = {
+		death=yes 
+	}
+}
+1062096 = { #Palmerio, was knighted by Azzo d'este 1294.
+	name="Palermio"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062095
+	1234.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes 
+	}
+}
+1062097 = { #Ugolino, podesta of Verona 1318. 
+	name="Ugo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062096
+	1263.1.1 = {
+		birth=yes
+	}
+	1321.1.1 = {
+		death=yes 
+	}
+}
+1062098 = { #Prevostino, married "Beatrice". son of Ugolino?
+	name="Prevostino"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062097
+	1282.1.1 = {
+		birth=yes
+	}
+	1326.1.1 = {
+		death=yes 
+	}
+}
+1062099 = { #Rodolfino. son of Prevostino. attested 1327.
+	name="Rodolfino"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062098
+	1299.1.1 = {
+		birth=yes
+	}
+	1339.1.1 = {
+		death=yes 
+	}
+}
+1062100 = { #Gerarduzzo, brother of Rodolfino.
+	name="Gerarduzzo"
+	dynasty=1042011 
+	religion="catholic"
+	culture="italian"
+	father=1062098
+	1303.1.1 = {
+		birth=yes
+	}
+	1341.1.1 = {
+		death=yes 
+	}
+}
+1062101 = { #Giglio, brother of Rodolfino
+	name="Giglio"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062098
+	1305.1.1 = {
+		birth=yes
+	}
+	1348.1.1 = {
+		death=yes 
+	}
+}
+1062102 = { #Gottifredo, Podesta of Parma 1335 and Milan 1341. Son of Rodolfino?
+	name="Gottifredo"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062099
+	1314.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes 
+	}
+}
+1062103 = { #Fregnano, tried to take control of Pisa 1342.
+	name="Fregnano"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062097
+	1298.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes 
+	}
+}
+1062104 = { #Azzo, son of Fregnano.
+	name="Azzo"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062103
+	1320.1.1 = {
+		birth=yes
+	}
+	1372.1.1 = {
+		death=yes 
+	}
+}
+1062105 = { #Palmerio, brother of Fregnano. in the service of della scal 1337
+	name="Palmerio"
+	dynasty=1042011
+	religion="catholic"
+	culture="italian"
+	father=1062097
+	1299.1.1 = {
+		birth=yes
+	}
+	1363.1.1 = {
+		death=yes 
+	}
+}
+#Guido, son of Ardonio, attested 1270(so there must have been a Ardonio II,)
+#-08 reserved
+###################################
+#da Reggio
+###################################
+1062109 = { #Caco da reggio. Leader of the ghibelines of Reggio, murderd 1265.
+	name="Caco"
+	dynasty=1000020076 
+	religion="catholic"
+	culture="italian"
+	1220.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes 
+	}
+}
+#############################################################################
+#Rossi
+############################################################################# 
+#Signori e conti di Berceto/Berta, Parma e San Secondo. patricians of Parma. ghibeline tendencies.
+1062125 = { #Orlando first attested member, died before 1174. signore di San secondo. attested 1147, 1164 and 1170
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	1103.1.1 = {
+		birth=yes
+	}
+	1171.1.1 = {
+		death=yes 
+	}
+}
+1062126 = { #Bernardo, son of Orlando. attested 1164, Signore di Gazzano.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062125
+	1120.1.1 = {
+		birth=yes
+	}
+	1179.1.1 = {
+		death=yes 
+	}
+}
+1062127 = { #Sigifredo, son of Bernardo attested 1184 as consul of Parma
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062126
+	1152.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062128 = { #Orlando, son of Bernardo. podesta di Parma, 1180, 1182, 1198, 1199, and 1201. also podesta di bologna in 1200 and Modena 1207 and 1212, podesta of cremona 1213.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062126
+	1151.1.1 = {
+		birth=yes
+	}
+	1214.1.1 = {
+		death=yes 
+	}
+}
+1062129 = { #Bernardo, son of Orlando. podesta of Modena 1213, 1214 and 1226. Podesta of siena 1224, Cremona 1230, Asti 1231, Arezzo 1235, Firenze 1236(and 1244?), Bergamo, 1238, Mantua 1239 and Parma 1247-1250 . married Maddalena Fieschi in 1224. last attested 1251. Initally a prominent ghibeline, but when his wife's relative became pope his alligiance switched.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062128
+	1183.1.1 = {
+		birth=yes
+	}
+	1251.1.1 = {
+		death=yes 
+	}
+}
+1062130 = { #Orlando, son of bernardo, podesta di Siena 1277.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062129
+	1225.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes 
+	}
+}
+1062131 = { #Giacomo, son of bernardo. Podesta di Mantova 1264, capitano di Popoli of Modena 1274.
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062129
+	1213.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes 
+	}
+}
+1062132 = { #Ugolino, son of Giacomo. Podesta di Lucca, 1282, 1295 and 1302. podesta of Perugia(when?), Milano 1285 and Modena 1286. married Elena Cavalcabò, daughter di Cavalcabò Cavalcabò Signore di Viadana
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062131
+	1236.1.1 = {
+		birth=yes
+	}
+	1305.1.1 = {
+		death=yes 
+	}
+}
+1062133 = { #Andreasio, son of Ugolino. podesta of Piacenza 1325, bassano 1340, Bergamo 1349 and Firenze 1350. married Vannina Sanvitale, daughter of Gian Quirico Sanvitale, signore di Belforte and Podesta of Parma and Antonia da Corregio.
+	name="Andreasio"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062132
+	1280.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		death=yes 
+	}
+}
+1062134 = { #Bernardo, son of ugolino. Married Alessandra Ruggeri di Felino.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062132
+	1269.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes 
+	}
+}
+1062135 = { #Ugolino, son of Bernardo. attested 1344. signore di felino
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062134
+	1294.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes 
+	}
+}
+1062143 = { #Maddalena, daughter of bernardo. Married Giacomo di Sanvitale. attested 1305
+	name="Maddalena"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062129
+	female=yes
+	1230.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes 
+	}
+}
+1062144 = { # Guglielmo, son of Giacomo. Podesta di Modena 1281, Milano 1284, Lucca 1290, Bologna 1291, Lucca again in 1293. Signore di San Secondo. Was Knighted by the count of Lavagna in 1282. Married Donella da Carrera daughter of Pietro signore di Padova in 1282.
+	name="Guglielmo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062131
+	1240.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes 
+	}
+}
+1062145 = { # Rolando, son of Guglielmo. Conte di Berceto, signore di San Secondo. Imperial vicar of Parma 1329-1331 and Lucca 1333. last attested 1345, married Agnese Ruggeri, daughter of Guido di Felino.
+	name="Rolando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062144
+	1260.1.1 = {
+		birth=yes
+	}
+	1345.1.1 = {
+		death=yes 
+	}
+}
+1062146 = { # Bertrando, son of Rolando. Signore di Felino.
+	name="Bertrando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062145
+	1300.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+1062147 = { # Giacomo, son of Rolando. Conte di San Secondo, signore di Felino 1355
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062145
+	1310.1.1 = {
+		birth=yes
+	}
+	1400.1.1 = {
+		death=yes 
+	}
+}
+1062148 = { # Pietro, son of Guglielmo. Conte di Berceto, knighted by John of Luxembourg. Imperial vicar of Parma 1329 and lucca 1333. married Ginella Fieschi, daughter of Carlo Fieschi.
+	name="Pietro"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062144
+	1262.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes 
+	}
+}
+###################################
+1062136 = { #Sigifredo son of Orlando I. Signore di Gazzano. attested. died 1176
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062125
+	1122.1.1 = {
+		birth=yes
+	}
+	1176.1.1 = {
+		death=yes 
+	}
+}
+1062137 = { #Bernardo, son of Sigefredo. signore di Gazzano attested 1176.
+	name="Bernardo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062136
+	1140.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062138 = { #Sigifredo, of Bernardo. signore di Gazzano. consul of Parma 1197.
+	name="Sigifredo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062137
+	1158.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes 
+	}
+}
+1062139 = { #Ugo il Vecchio. son of Sigifredo. Podesta di Modena 1209 and Verona 1240. conte di romagna, parma e Berta(Berceto) in 1227
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062138
+	1179.1.1 = {
+		birth=yes
+	}
+	1242.1.1 = {
+		death=yes 
+	}
+}
+1062140 = { #Orlando, son of Ugo, podesta of Cremona 1224, Pavia 1227, modena 1233, Rimini 1234 and Mantova 1238.
+	name="Orlando"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062139
+	1198.1.1 = {
+		birth=yes
+	}
+	1239.1.1 = {
+		death=yes 
+	}
+}
+1062141 = { #Giacomo, son of Orlando. podesta of Reggio 1266 and Padova 1277.
+	name="Giacomo"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062140
+	1223.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes 
+	}
+}
+1062142 = { #Ugolino, son of ugo, podesta di Ferrara 1227, cremona 1237, Pisa 1242 and Firenze 1243. Conte di Romagna 1243. signore di Berceto.
+	name="Ugolino"
+	dynasty=101841
+	religion="catholic"
+	culture="italian"
+	father=1062139
+	1203.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes 
+	}
+}
+#49 reserved
+###################################
+#da Montegarullo
+###################################
+#Guelphs of Frignano. Rivals of da Montecuccoli and allies of the Gualandelli. Lords of the Pelago valley.
+#to be done another time
+###################################
+#Gualandelli 
+###################################
+#Guelphs of Frignano. Rivals of da Montecuccoli. Lords of Montecreto.
+#to be done another time.
+###################################
+#Sanvitale
+###################################
+# signori di Montechiarugolo, patricians of Parma. guelph tendencies. Also a Piemonte branch, in Ceva, Mondovi, Torricella
+1064450 = {
+	name="Giovanni" #Giovanni Sanvitale, features in one source with donations made in 1005 and 1066, but everywhere else Ugo seems to be the first featured by name. Another source does say that lords of Sanvitale existed already in 920, but names no early members and in that source later members is all jumpled togther in it so does not seem very trustworthy.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	1040.1.1 = {
+		birth=yes
+	}
+	1110.1.1 = {
+		death=yes
+	}
+}
+1064451 = {
+	name="Ugo" #Ugo Vitalesi, attested 1122. first recorded memeber which is widely confirmed.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064450 # speculative
+	1080.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1064452 = {
+	name="Pietro" # Pietro, became a priest in 1134
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064450 # specualtive
+	1100.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1064453 = {
+	name="Gherardo" #Gherardo sanvitale attested 1196
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064451 # speculative
+	1120.1.1 = {
+		birth=yes
+	}
+	1197.1.1 = {
+		death=yes
+	}
+}
+1064454 = {
+	name="Anselmo" #Anselmo attested 1201, 1211, 1215 and 1216, married Imelda. consul of Parma.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064453 # speculative
+	1150.1.1 = {
+		birth=yes
+	}
+	1217.1.1 = {
+		death=yes
+	}
+}
+1064455 = {
+	name="Giacopino" #Giacopino, son of Anselmo
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064454
+	1189.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1064456 = {
+	name="Guarino" #Guarino, son of Anselmo. signore di Carpi. attested 1219(podesta of Bologna) and 1229. married margherita fieschi. renowned warrior.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064454
+	1175.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064457 = {
+	name="Cecilia" #Cecilia, daughter of Guarino. attested 1235.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	female=yes
+	1210.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1064458 = {
+	name="Alberto" #Alberto/Anselmo, son of Guarino. bishops of Parma 1243-1257
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	1215.1.1 = {
+		birth=yes
+	}
+	1257.1.1 = {
+		death=yes
+	}
+}
+1064459 = {
+	name="Obizzio" #Obizzio, son of Guarino. died 12th of september 1303. avocato and later bishop of parma
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	1220.1.1 = {
+		birth=yes
+	}
+	1303.9.12 = {
+		death=yes
+	}
+}
+1065030 = {
+	name="Guglielmo" #Guglielmo, son of Guarino. died at the age of 25.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	1200.1.1 = {
+		birth=yes
+	}
+	1225.1.1 = {
+		death=yes
+	}
+}
+1064460 = {
+	name="Tedisio" #Teseo/Tedisio, son of Guarino attested 1258, podesta of Milan 1276, Ferrara 1277 and 1278(vicar of Firenze for Charles of Anjou) married Adelmota da Cornazzano in 1258.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	1220.1.1 = {
+		birth=yes
+	}
+	1258.1.1 = {
+		add_spouse=1064445
+	}	
+	1289.1.1 = {
+		death=yes
+	}
+}
+1064461 = {
+	name="Gian Quirico" #Gian Quirico/Gianquirico, son of Tedisio. podesta of Piacenza and Cremona. expelled from parma by Andreasio Rossi in 1322. died before 1345 in parma. married Antonia di Correggio)
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064460
+	mother=1064445
+	1260.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+1064462 = {
+	name="Giberto" #Giberto, son of Gian Quirico
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064461
+	1290.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+#
+1065034 = {
+	name="Ugo" #Ugo II, son of Guarino. signore di Carpi e Montebaranzone. also consul of Modena(in 1255 so after the arbitration, this is also last account of him). attested 1243, capitano di Popolo of Parma and Podesta of Parma, no date is given(it does say he only held either office briefly though). He commanded the defence of Parma against Enzio of Sardinia on the 27th of June( either 1247 or 1248). Had a long conflict with the republic of Modean(they siezed Carpi and he had to go through the church's arbitration to sort matters out)
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064456
+	1195.1.1 = {
+		birth=yes
+	}
+	1256.1.1 = {
+		death=yes
+	}
+}
+1065031 = {
+	name="Antonio" #Antonio, son of Ugo II. cavalry officer of Azzo III di Este. died 1294.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1065034
+	1220.1.1 = {
+		birth=yes
+	}
+	1294.1.1 = {
+		death=yes
+	}
+}
+1065032 = {
+	name="Alberto" #Alberto, son of Antonio
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1065031
+	1245.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1065033 = {
+	name="Giovanni" #Giovanni, son of Alberto. attested 1303 and 1306. signore di Montechiarugolo. died without issue.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1065032
+	1270.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+#
+1064466 = {
+	name="Pietro" #Pietro, son of Ugo II, cavalary officer for Azzo III di Este.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1065034
+	1225.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1064467 = {
+	name="Giovanni" #Giovanni, son of Pietro. Fought against the Rossi of Parma in 1313, but was defeated.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064466
+	1250.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes
+	}
+}
+#### Piemonte branch, signori di Mondovi, conti di Toricella.
+1064468 = {
+	name="Zangro" #Zangro, son of Anselmo. attested 1202.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064454
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1064469 = {
+	name="Azzone" #Azzone/Azzo, son of Zangaro. married Viride della Scala the daughter of Mastino della scala. died while defending Parma against Enzio of Sardinia.
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064468
+	1205.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1065035 = {
+	name="Mastino" #Mastino/Mastinello, son of Azzone, slain by Guglielmo Rossi in 1308 near Parma..
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064469
+	1237.1.1 = {
+		birth=yes
+	}
+	1308.1.1 = {
+		death={
+			death_reason=death_battle
+			killer=1062144
+		}
+	}
+}
+#First ones bound for Piemonte
+1064470 = {
+	name="Giacomo Antonio" #Giacopo/Giacomo Antonio son of Azzone, attested 1261, 1263 and 1288. Moved to Mondovi where he founded the Piemonte branch(active in mainly in Ceva and Mondovi).
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064468
+	1230.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+1064471 = {
+	name="Rosso" #Rosso, son of Giacomo attesed 1298
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064470
+	1260.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+1064472 = {
+	name="Bartolommeo" #Bartolommeo, son of Rosso attested 1345
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064471
+	1285.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+1064473 = {
+	name="Lorenzo" #Lorenzo, son of Bartolommeo. attested 1347
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064472
+	1300.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1064474 = {
+	name="Simonino" #Simonino, son of Bartolommeo. attested 1347
+    dynasty=1000020080 	
+	religion="catholic"
+	culture="italian"
+	father=1064472
+	1305.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+#-79 reserved
+###################################
+#Della Gente
+###################################
+#Patricians of Parma, mostly guelph. signori di Compegine.
+1064480 = {
+	name="Egidiolo" #Egidio/Egidiolo da Panna, podesta of Modena 1220, cremona 1228-1229, Reggio 1233, Vercelli 1240 married Agnese
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	1190.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1064481 = {
+	name="Guido" #Guido, son of Egidio. podesta of reggio 1265
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064480
+	1215.1.1 = {
+		birth=yes
+	}
+	1265.1.1 = {
+		death=yes
+	}
+}
+1064482 = {
+	name="Guglilmo" #Guglilmo. son of Egidio, became an abbot
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064480
+	1220.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1064483 = {
+	name="Giberto" #Giberto, son of Egidio, podesta of Parma 1253-1259, pisa 1261, podesta of parma again ca 1262-1264 died 1270. was guelp through most of his lifte but switched to ghibeline around 1265.
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064480
+	1210.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes
+	}
+}
+1064484 = {
+	name="Mabilia" #Mabilia, daughter of Giberto married Guido da Correggio. attested 1250  
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064483
+	female=yes
+	1232.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1064485 = {
+	name="Lombardino" #Lombardino, son of Giberto. attested 1262. died 1298
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064483
+	1236.1.1 = {
+		birth=yes
+	}
+	1298.1.1 = {
+		death=yes
+	}
+}
+1064486 = {
+	name="Pinone" #Pinone, son of Gibero. died 1287
+    dynasty=1000020081 	
+	religion="catholic"
+	culture="italian"
+	father=1064483
+	1245.1.1 = {
+		birth=yes
+	}
+	1287.1.1 = {
+		death=yes
+	}
+}
+#-1064489 reserved
+###################################
+#Da Cornazzano and Terzi families
+###################################
+# signori di Pizzo e san secondo, conti di Tizzano, patricians of Parma. both ghibeline tendendcies
+1064425 = {
+	name="Gherardo" #Gerardo I da Cornazzano first attested member. dead before 1051
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+	1000.1.1 = {
+		birth=yes
+	}
+	1050.1.1 = {
+		death=yes
+	}
+}
+1064426 = {
+	name="Oddone" #Oddone I, son of Gerardo. attested 1051-55 and 1099. signore di castello di Pizzo. vassal of Bonifacio and Mathilda.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064425
+	1030.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes
+	}
+}
+1064427 = {
+	name="Gandolfo" #Gandolfo, son of ?
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064425 # specualtive
+	1035.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes
+	}
+}
+1064428 = {
+	name="Lanfranco" #Lanfranco, son of Gandolfo. Canonico of the church of Parma late 11th century.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064427
+	1060.1.1 = {
+		birth=yes
+	}
+	1127.1.1 = {
+		death=yes
+	}
+}
+1064429 = {
+	name="Gherardo" #Gherardo II, nephew of oddone. vassal of Mathilda attested 1081, 1099 and 1116(listed among the powerfull vassal present when Mathilda's will was read in 1116). co ruler with his uncle.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064427
+	1057.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1064430 = {
+	name="Oddone" #Oddone II, son of Gherardo. attested 1136.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064429
+	1095.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1064431 = {
+	name="Giacopo" #Giacopo, son of? attested ca. 1165-1170 judging by context. same as Giacomo recotor of the Parmese army in 1179?
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064430 # speculative
+	1130.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1064432 = {
+	name="Gandolfo" #Gandolfo, son of, died before 1182.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064430 # speculative
+	1113.1.1 = {
+		birth=yes
+	}
+	1175.1.1 = {
+		death=yes
+	}
+}
+1064433 = {
+	name="Armanno" #Armanno, son of Gandolfo. attested 1182.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064432
+	1139.1.1 = {
+		birth=yes
+	}
+	1202.1.1 = {
+		death=yes
+	}
+}
+#
+1064434 = {
+	name="Gherardo" #Gherardo III, son of Gherardo II. attested 1136, 1140(consul of Parma) and 1162(led the Parmese army against Milano in the sevice of the emperor)
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064429
+	1093.1.1 = {
+		birth=yes
+	}
+	1172.8.26 = {
+		death=yes
+	}
+}
+1064435 = {
+	name="Aicardo" #Aicardo, brother or otherwise very close relative of Gherardo III. attested 1146, 1149, 1151 1152 and 1158. cardinal 1160, bishop of Parma 1162-1170. last attested 1178
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064429 # speculative
+	1115.1.1 = {
+		birth=yes
+	}
+	1178.1.1 = {
+		death=yes
+	}
+}
+1064436 = {
+	name="Gherardo" #Gherardo IV, son of Gherardo III, podesta of Parma 1192 and 1213, podesta of Reggio 1216, podesta of Cremona 1218, podesta of Pavia 1224, podesta of Reggio again in 1226. last attested 1229.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064434
+	1155.1.1 = {
+		birth=yes
+	}
+	1229.1.1 = {
+		death=yes
+	}
+}
+1064437 = {
+	name="Manfredo" #Manfredo, son of Gherardo IV, attested 1192, podesta of parma 1224, 1237, podesta of Lucca 1239-1240(siezed arezzo for the ghibleine cause also), 1244 podesta of Cremona, exiled from Parma in 1247(togther with the other ghiblines) died in battle agaisnst the guelphs of Parma later that year.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064436
+	1174.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1064438 = {
+	name="Oddone" #Oddone III, son of Gherardo IV
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064436
+	1158.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+1064439 = {
+	name="Auda" #Auda, daughter of Gherardo IV. married Bertolo Tabernario(podesta of Parma 1247)
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064436
+	female=yes
+	1205.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1064440 = {
+	name="Gherardo" #Gherardo V, son of Gherardo IV.
+    dynasty=1000020078 	
+	religion="catholic"
+	culture="italian"
+    father=1064436
+	1159.1.1 = {
+		birth=yes
+	}
+	1204.1.1 = {
+		death=yes
+	}
+}
+#Terzi
+1064441 = {
+	name="Pietro" #Pietro, son of Gherardo V.
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064440
+	1187.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1064442 = {
+	name="Bernardo" #Bernardo/Gherardo Terzo son of Pietro, attested 1238 and 1246. married Mabilia Franceschi(daughter of Gherardo Francheschi)
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064441
+	1212.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1064443 = {
+	name="Guido" #Guido, son of Bernardo. attested 1248, 1311 and 1328. podesta di Parma
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	1232.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes
+	}
+}
+1064444 = {
+	name="Filippo" #Fillipo, son of Bernardo attested 1328
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	1250.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes
+	}
+}
+1064445 = {
+	name="Adelmota" #Adelmota daughter of Bernardo, attested 1258(married Tedisio Sanvitale)
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064442
+	female=yes
+	1228.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1064446 = {
+	name="Giacomo" #Giacomo, podesta of Lucca 1317
+    dynasty=101846 	
+	religion="catholic"
+	culture="italian"
+    father=1064443 #specualtive
+	1265.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes
+	}
+}
+#-49 reserved
+###################################
+#Franceschi
+###################################
+#Patrician family in Parma, Orvieto and Rome
+#Giouanni de Franceschi, cardinal in Parma
+###################################
+#Scotti
+###################################
+#Patrician family in Piacenza
+###################################
+#Bonalcosi
+###################################
+#Signori di Mantova e Modena. Ghibeline leaning family. 50-69  
+1062150 = { #Otolino de Bonacosa attested 1168(in San martino). first known member of the dynasty.
+	name="Otolino"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	1130.1.1 = {
+		birth=yes
+	}
+	1199.1.1 = {
+		death=yes 
+	}
+}
+1062151 = { #Gandolfo, son of Otolino. attested 1168(in San Martino), consul of Mantova 1200.
+	name="Gandolfo"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062150
+	1150.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes 
+	}
+}
+1062152 = { #Martino, son of gandolfo. Imperial rector of Mantova 1233.
+	name="Martino"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062151
+	1180.1.1 = {
+		birth=yes
+	}
+	1255.1.1 = {
+		death=yes 
+	}
+}
+1062153 = { #Pinamonte, son of Martino?. Capitano del popolo of Mantova 1276-1291. died 1293. singore di Mantova
+	name="Pinamonte"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062152
+	1210.1.1 = {
+		birth=yes
+	}
+	1293.1.1 = {
+		death=yes 
+	}
+}
+1062154 = { #Bardellone, son of Pinamonte. Capitano del popolo of  1291-1299. died 1300. signore di Mantova
+	name="Bardellone"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062153
+	1235.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes 
+	}
+}
+1062156 = { #Giovanni/Zagnino, son of Pinamonte
+	name="Giovanni"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062153
+	1230.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes 
+	}
+}
+1062157 = { #Guido detto Botesella, oldest son of Giovanni. Capitano del popolo of Mantova 2nd of july 1299-1309. signore di Mantova. died 24th of january 1309. his first wife was Franceschina Maggi(no issue), second marriage was to Costanza della Scala
+	name="Guido"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062156
+	1250.1.1 = {
+		birth=yes
+	}
+	1309.1.24 = {
+		death=yes 
+	}
+}
+1062158 = { #Agnese, daughter of Guido and Constanza
+	name="Agense"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062157
+	female=yes
+	1280.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes 
+	}
+}
+1062159 = { #Fiordaliso, daughter of Guido and Constanza
+	name="Fiordaliso"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062157
+	female=yes
+	1285.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes 
+	}
+}
+#
+1062160 = { #Berardo, third child of Giovanni.attested 1273 and 1297. signore di Villimpenta
+	name="Berardo"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062156
+	1254.1.1 = {
+		birth=yes
+	}
+	1302.1.1 = {
+		death=yes 
+	}
+}
+#
+1062161 = { #Samaritana, daughter of Giovanni. married Niccolò della Scala.
+	name="Samaritana"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062156
+	female=yes
+	1252.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes 
+	}
+}
+#
+1062162 = { #Bonaventura detto Butirrone, son of Giovanni Imperial vicar of Modena(co ruler with his brother who was the dominant). died 1326 married Bonella Cavalcabò, daughter of Cavalcabò maquis di Viadana.
+	name="Bonaventura"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062156
+	1258.1.1 = {
+		birth=yes
+	}
+	1326.1.1 = {
+		death=yes 
+	}
+}
+1062163 = { #Guido, son of Bonaventura.
+	name="Guido"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062162
+	1270.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes 
+	}
+}
+1062164 = { #Pinamonte II, son of Bonaventura.
+	name="Pinamonte"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062162
+	1277.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes 
+	}
+}
+1062165 = { #Ziliola/Giliola, youngest son of Bonaventura. died 1349. sole surviver of the 1328 purge by the Gonzaga, went into exile in Viadana.
+	name="Ziliola"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062162
+	1285.1.1 = {
+		birth=yes
+	}
+	1349.1.1 = {
+		death=yes 
+	}
+}
+#
+1062166 = { #Rinaldo detto Passerino, son of Giovanni. Capitano del popolo of Mantova 1309-1311. signore di Mantova. Imperial vicar of Mantova 1311-,  signore di Modena 1312-1326. signore di Carpi 1317-1326. died 1328. married Alisa di Este, daughter of Aldobrandino signore di Ferrara.
+	name="Rinaldo"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062156
+	1255.1.1 = {
+		birth=yes
+	}
+	1328.1.1 = {
+		death=yes 
+	}
+}
+1062167 = { #Giovanni,  natural(legit bastard) son of Rinaldo. imprisioned the 16th of august 1328, died of starvation shortly after.
+	name="Giovanni"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062166
+	1280.1.1 = {
+		birth=yes
+	}
+	1328.10.1 = {
+		death=yes 
+	}
+}
+1062168 = { #Francesco,  natural(legit bastard) son of Rinaldo. imprisioned the 16th of august 1328, died of starvation shortly after. married Vannina da Correggio the daugther of Giberto III.
+	name="Francesco"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062166
+	1285.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		add_spouse = 1062036
+	}	
+	1328.10.1 = {
+		death={ death_reason=death_dungeon } 
+	}
+}
+1062169 = { #Berardo, natural(legit bastard) son of Rinaldo.
+	name="Berardo"
+	dynasty=101820
+	religion="catholic"
+	culture="italian"
+	father=1062166
+	1295.1.1 = {
+		birth=yes
+	}
+	1328.9.1 = {
+		death=yes 
+	}
+}
+###################################
+#Adelardi/Marcheselli
+###################################
+#Comital family from Ferrara, patricians of Ferrara. Guelph tendencies.
+1062170 = { #Adelardo. Unnamed link between Guglilmo I and Guarino I.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	875.1.1 = {
+		birth=yes
+	}
+	935.1.1 = {
+		death=yes 
+	}
+}
+1062171 = { #Guglielmo I.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062170
+	905.1.1 = {
+		birth=yes
+	}
+	955.1.1 = {
+		death=yes 
+	}
+}
+1062172 = { #Adelardo I, son of Guglielmo I attested 969 and 973.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062171
+	925.1.1 = {
+		birth=yes
+	}
+	975.1.1 = {
+		death=yes 
+	}
+}
+1062173 = { #Guarino I, brother of Guglielmo I, conte di ferrera . attested 960. died before 984.
+	name="Guarino"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062170
+	925.1.1 = {
+		birth=yes
+	}
+	984.1.1 = {
+		death=yes 
+	}
+}
+1062174 = { #Guarino II, son of Guarino I, attested 970
+	name="Guarino"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062173
+	950.1.1 = {
+		birth=yes
+	}
+	1020.1.1 = {
+		death=yes 
+	}
+}
+1062175 = { #Bulgaro, son of Guarino II. atttested 1000. 
+	name="Bulgaro"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062174
+	975.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes 
+	}
+}
+1062176 = { #Bulgaro, son of ?. atttested 1089 as signore di Ferrara. married Marchesella, possibly a daughter of the count of Ancona, but its just guessing(seems to be a few theories leaning in that direction but nothing firmer than her name to support it )
+	name="Bulgaro"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062175
+	1015.1.1 = {
+		birth=yes
+	}
+	1090.1.1 = {
+		death=yes 
+	}
+}
+1062177 = { #Adelardo III(or II depending on source), son of Burclusson/Bulgaro and Marchesella. signore di ferrera in 1095.
+	name="Adelardo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062176
+	1034.1.1 = {
+		birth=yes
+	}
+	1104.1.1 = {
+		death=yes 
+	}
+}
+1062178 = { #Marchesello I, son of Bulgaro. attested 1113(Capitano di Ferrara)
+	name="Marchesello"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062176
+	1050.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes 
+	}
+}
+1062179 = { #Guglielmo II son of Bulgaro, married Adelasia (di este?),she died 1154. attested 1083, 1106, 1120, died 11th of september 1146. signore di ferrara.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062176
+	1070.1.1 = {
+		birth=yes
+	}
+	1146.9.11 = {
+		death=yes 
+	}
+}
+1062180 = { #Guglielmo III, son of Guglielmo II, attested 1147(participated in the crusade for Edessa), 1155, 1160 1162, 1167 and 1183(his will). Capitano del popoli of Ferrara.
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062179
+	1105.1.1 = {
+		birth=yes
+	}
+	1184.1.1 = {
+		death=yes 
+	}
+}
+1062181 = { #Marchesella, daughter of Guglielmo III. the only child. attested 1183. Was bethroed first to Arriverio Torelli at the age of 7, and after the este takeover to Azzo IV di Este but died before the marriage.
+	name="Marchesella"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062180
+	female=yes
+	1175.1.1 = {
+		birth=yes
+	}
+	1199.1.1 = {
+		death=yes 
+	}
+}
+1062182 = { #Adelardo, younger son of Guglielmo II. attested 1140, 1155 and 1183?
+	name="Guglielmo"
+	dynasty=1000035711 
+	religion="catholic"
+	culture="italian"
+	father=1062179
+	1120.1.1 = {
+		birth=yes
+	}
+	1187.1.1 = {
+		death=yes 
+	}
+}
+#-84 reserved
+###################################
+#Giocoli
+###################################
+#Patricians of Ferrara, guelph tendencies.
+###################################
+#Turc
+###################################
+#Patricians of Ferrara, guelph tendencies.
+###################################
+#Torelli
+###################################
+#Patricians of Ferrara, ghibeline tendencies. 85-99
+1062185 = { #Pietro Torreli, attested 1083 and 1119. first member of dynasty
+	name="Pietro"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	1070.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes 
+	}
+}	
+1062186 = { #Salinguerra I attested 1120. died 1163. capitano di ferrara 1120.
+	name="Salinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062185
+	1090.1.1 = {
+		birth=yes
+	}
+	1163.1.1 = {
+		death=yes 
+	}
+}	
+1062187 = { #Torello attested 1164, died 1195. senatore e console di ferrara.
+	name="Torello"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062186
+	1120.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death=yes 
+	}
+}	
+1062188 = { #Sanlinguerra II. attested 1160. died 1245. Signore di Ferrara.
+	name="Sanlinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062186
+	1149.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes 
+	}
+}
+1062189 = { #Bartolommea, daughter of Salinguerra II. married Guglielmo Rangoni of Modena.
+	name="Bartolommea"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062188
+	female=yes
+	1176.1.1 = {
+		birth=yes
+	}
+	1229.1.1 = {
+		death=yes 
+	}
+}
+1062190 = { #Ariverio, son of Salinguerra II. attested 1212
+	name="Ariverio"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062188
+	1180.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes 
+	}
+}
+1062191 = { #Tommaso, son of Salinguerra II. attested 1227
+	name="Tommaso"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062188
+	1185.1.1 = {
+		birth=yes
+	}
+	1233.1.1 = {
+		death=yes 
+	}
+}
+1065044 = { #Giacomo, son of Salinguerra II. attested 1245
+	name="Giacomo"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062188
+	1199.1.1 = {
+		birth=yes
+	}
+	1270.1.1 = {
+		death=yes 
+	}
+}
+1062192 = { #Sanlinguerra III, son of Salinguerra II. attested 1240, died before 1339. married giovanna Palavicini. signore di ferrara 1309.
+	name="Sanlinguerra"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062188
+	1225.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes 
+	}
+}
+1062193 = { #Tommaso, natual son of Salinguerra III. attested 1339
+	name="Tommaso"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062192
+	1273.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes 
+	}
+}
+1062194 = { #Pisano,son of Salinguerra III. died before 1339
+	name="Pisano"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062192
+	1250.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes 
+	}
+}
+1062195 = { #Anna, only fully legitamte child of Salinguerra III. attested 1339
+	name="Anna"
+	dynasty=101848 
+	religion="catholic"
+	culture="italian"
+	father=1062192
+	female=yes
+	1279.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes 
+	}
+}
+#-99 reserved
+###################################
+#Cavalcabò 
+###################################
+#Patricians of Cremona, signori e marchesi di Viadana.
+###################################
+#di Sospiro
+###################################
+#conti di Sospiro(not far from Cremona)
+#Anselmo di Sospiro, attested 1081
+#Uberto di Sospiro, attested 1081
+###################################
+#Rangoni
+###################################
+#signori e conti di Bomporto, particians of Modena. guelph tendencies.
+1062110 = { #Gherardo, first attested member. minor noble in the service of mathilda 1092.
+	name="Gherardo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	1066.1.1 = {
+		birth=yes
+	}
+	1129.1.1 = {
+		death=yes 
+	}
+}
+1062111 = { #Guglielmo, son og Gherardo attested 1130 and 1145 in the service of the bishop of Modena, and podesta di Modena 1149.
+	name="Guglielmo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062110
+	1098.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes 
+	}
+}
+1062112 = { #Gherardo, son of Guglielmo imperial vicar of Modena 1156-1167(as ghibeline) and 1168-?(became guelph) podesta and consul of Modena. last attested 1176
+	name="Gherardo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062111
+	1120.1.1 = {
+		birth=yes
+	}
+	1177.1.1 = {
+		death=yes 
+	}
+}
+1062113 = { #Guglielmo II, son of gherardo. podesta of Modena 1202-1208, podesta of Verona 1209, podesta of Bologna 1215. died 1215
+	name="Guglielmo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062112
+	1145.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		add_spouse=1062189
+	}		
+	1215.1.1 = {
+		death=yes 
+	}
+}
+1062114 = { #Jacopino, son of gherardo. last attested 1213
+	name="Jacopino"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062112
+	1149.1.1 = {
+		birth=yes
+	}
+	1214.1.1 = {
+		death=yes 
+	}
+}
+1062115 = { #Gherardo, son of Guglielmo II. died in battle 1240. podesta of Regio 1202, Pistoia 1222, Bologna 1226, verona 1230, Siena 1232, Pavia 1234 and podesta of Mantua 1240
+	name="Gherardo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062113
+	mother=1062189
+	1196.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1062116 = { #Rolandino, son of Gherardo Podesta of Modena 1240
+	name="Rolandino"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062115
+	1216.1.1 = {
+		birth=yes
+	}
+	1253.1.1 = {
+		death=yes 
+	}
+}
+1062117 = { #Lanfranco, son of Rolandino. Podesta of Modena 1253. Was the one that offered Modena to Obizio di este in 1288.
+	name="Lanfranco"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062116
+	1233.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes 
+	}
+}
+1062118 = { #Tobia, son of Rolandino, podesta di Reggio 1284. married Caracosa, daughter of Ugolino Lupi di Soragna
+	name="Tobia"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062116
+	1235.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		death=yes 
+	}
+}
+1062119 = { #Alda, daughter of Tobia. married Aldobrandino II di Este.
+	name="Alda"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062118
+	female=yes
+	1270.1.1 = {
+		birth=yes
+	}
+	1330.1.1 = {
+		death=yes 
+	}
+}
+1062120 = { #Jacopino II, son of Guglielmo II. attested 1223, consul of Firenze 1260, podesta of Regio 1265, modena 1269 and cremona 1271
+	name="Jacopino"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062113
+	mother=1062189	
+	1201.1.1 = {
+		birth=yes
+	}
+	1272.1.1 = {
+		death=yes 
+	}
+}
+1062121 = { #Gherardo III, podesta di  Milano 1251.
+	name="Gherardo"
+	dynasty=8726
+	religion="catholic"
+	culture="italian"
+	father=1062115 # speculative
+	1220.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes 
+	}
+}
+#-24 reserved

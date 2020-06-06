@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1113 - Manopello
+
+# County Title
+title = c_manopello
+
+# Settlements
+max_settlements = 5
+
+b_manopello = castle
+#b_montedorisio = castle
+b_chieti = city
+b_ortona = temple
+#b_pescara = city
+
+
+# Misc
+religion = catholic
+culture = umbrian
+terrain = plains
+# History
+
+990.1.1 = {b_montedorisio = castle }
+1066.1.1 = { trade_post = b_dandolo }
+1140.1.1 = {culture = neapolitan }

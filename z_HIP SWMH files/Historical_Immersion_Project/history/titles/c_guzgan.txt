@@ -1,0 +1,132 @@
+# -*- ck2.history.titles -*-
+
+865.1.1 = {
+	#liege = d_herat
+	holder = 1230300
+}
+895.1.1 = {
+	holder = 1230301
+}
+897.1.1 = {
+	liege = k_mavarannahr
+}
+935.1.1 = {
+	liege = d_guzgan
+	holder = 1230302
+}
+983.1.1 = {
+	holder = 1230303
+}
+1000.1.1 = {
+	holder = 1230304
+}
+1006.1.1 = {
+	holder = 1230305
+}
+#1011.1.1 = {
+#	holder = 1230306
+#}
+1011.1.1 = { #by 1018, given as a fief by his father Mahmud
+	liege = k_kafarestan
+	holder = 144126
+}
+1030.1.1 = { #?
+	liege = d_herat
+	holder = 144127 # Musud
+}
+1040.5.30 = {
+	liege = d_merv
+	holder = 3036
+}
+1060.1.1 = {
+	liege = d_balkh
+	holder = 3040
+}
+1066.1.1 = {
+	holder = 93130
+}
+#1068.1.1 = {
+#	holder = 1230141
+#}
+1072.11.1 = {
+	holder = 1229921
+}
+1073.7.7 = {
+	holder = 1229922
+}
+1084.1.1 = {
+	holder = 1229923
+}
+1092.11.1 = {
+	holder = 93121
+}
+1097.1.17 = {
+	liege = d_merv
+	holder = 144015
+}
+#1153.1.1 = {
+#	holder = 93126
+#}
+1157.5.8 = {
+	liege = d_ghuzz
+	holder = 1230154
+}
+#1162.1.1 = {
+#	holder = 1230168
+#}
+#1174.1.1 = {
+#	holder = 1230169
+#}
+1172.1.1 = {
+	liege = d_ghor
+	holder = 144141
+}
+1175.1.1 = {
+	liege = d_herat
+}
+1181.1.1 = { #was 1187
+	liege = d_merv
+	holder = 93050 # Mahmud Sultan holds  land in Khorasan asindependent
+}
+1193.1.1 = {
+	holder = 93052
+}
+1210.1.1 = {
+	holder = 1230173
+}
+#1220.1.1 = {
+#	liege = d_merv
+#	holder = 194303
+#}
+1221.1.1 = {
+	liege = e_mongol_empire
+	holder = 125501
+}
+1227.12.2 = {
+	holder = 172005
+}
+1233.1.1 = {
+	liege = d_merv
+	holder = 1229824
+}
+1242.1.1 = {
+	holder = 217220
+}
+1248.4.20={
+	holder = 248204
+}
+1259.8.11={
+	liege=e_il-khanate
+}
+1260.1.1={
+	holder = 248205
+}
+1290.1.1={
+	holder = 248207
+}
+1318.1.1={
+	holder = 248209
+}
+1336.4.10 = {
+	liege = 0
+}

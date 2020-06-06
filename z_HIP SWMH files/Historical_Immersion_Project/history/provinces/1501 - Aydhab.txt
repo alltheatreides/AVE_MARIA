@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1501 - Aydhab
+
+# County Title
+title = c_aydhab
+
+# Settlements
+max_settlements = 3
+
+b_aydhab = tribal
+#b_gebeit = city #gold mine
+#b_halaib = city
+
+#b_birshalatayn = temple
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+950.1.1 = {
+	b_aydhab = castle
+}
+1050.1.1 = { religion = sunni }

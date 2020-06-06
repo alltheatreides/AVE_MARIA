@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 794 - Aswan
+
+# County Title
+title = c_aswan
+
+# Settlements
+max_settlements = 5
+b_aswan = castle
+b_udfu = city
+b_armant = temple
+b_isna = city
+
+#b_elefantina = temple
+#b_veset = castle
+#b_girge = city
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+1171.1.1 = { culture = egyptian_arabic }
+1250.1.1 = { religion = sunni }
+

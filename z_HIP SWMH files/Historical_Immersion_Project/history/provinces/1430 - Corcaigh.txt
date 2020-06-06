@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1430 - Cork
+
+# County Title
+title = c_cork
+
+# Settlements
+max_settlements = 4
+
+b_dunboy = tribal
+b_cork = city
+#b_cloyne = temple
+
+#b_youghal = city
+#b_dunlough = castle 
+#b_dunasead = castle
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+867.1.1 = {
+	b_dunboy = tb_shipyard_1
+}
+1047.10.25 = { culture = norsegaelic }

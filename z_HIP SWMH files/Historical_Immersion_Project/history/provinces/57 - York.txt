@@ -1,0 +1,41 @@
+# -*- ck2.history.provinces -*-
+
+# County Title
+title = c_york # West York ridding/York vale
+
+# Settlements
+max_settlements = 6
+
+b_conisbrough = castle
+b_york = temple
+b_doncaster = city
+b_selby = city
+#b_pontefract = castle
+#b_tickhill = city
+#b_tickhillcastle = castle
+#b_skipton = castle
+#b_kirkstall = temple
+#b_leeds = city
+#b_sheffield = castle
+#b_almondbury = city
+#b_huddersfield = city
+#b_ripon = temple
+#b_halifax = city
+#b_knaresborough = castle
+
+# Misc
+
+culture = saxon
+religion = catholic
+
+# History
+#867.1.1 = {
+#	b_conisbrough = ca_shipyard_1
+#}
+876.1.1 = { culture = norse } # Danes settle down
+876.1.1 = { religion = norse_pagan } # Danes settle down
+931.1.1 = { religion = catholic } # Wulfstan becomes Archbishop of York
+931.1.1 = { culture = anglonorse } 
+1066.10.14 = { b_pontefract = castle } # Should really be around 1070 following the harrying, but moved inorder to acommidate the second bookmark.
+1100.1.1 = { b_tickhillcastle = castle }
+1100.11.11 = { culture = english } 

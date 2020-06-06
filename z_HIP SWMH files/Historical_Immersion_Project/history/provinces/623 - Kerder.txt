@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 623 - Kerder
+
+# County Title
+title = c_kerder
+
+# Settlements
+max_settlements = 3
+b_gurganj = castle
+b_madminiya = city
+b_barategin = temple
+
+
+# Misc
+culture = khwarezmi
+religion = zoroastrian
+terrain = steppe
+
+# History
+1070.1.1 = { culture = turkmen }
+1100.1.1 = { religion = sunni } 
+
+#Mongol invasion
+
+1221.1.1 = { remove_settlement = b_barategin }
+
+1337.1.1 = { b_barategin = temple } 

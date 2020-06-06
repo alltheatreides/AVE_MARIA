@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1619 - Dipalpur
+
+# County Title
+title = c_dipalpur
+
+# Settlements
+max_settlements = 5
+b_dipalpur = castle
+b_abohar = city
+b_ajodhan = temple
+#b_satghara = city
+#b_chichawatni = city
+
+# Misc
+culture = panjabi
+religion = hindu
+terrain = jungle
+
+# History

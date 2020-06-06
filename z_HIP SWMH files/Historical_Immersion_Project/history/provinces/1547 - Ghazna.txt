@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1547 - Ghazna
+
+# County Title
+title = c_ghazna
+
+# Settlements
+max_settlements = 6
+b_ghazna = castle
+b_gardiz = city
+b_sukawand = temple
+b_istakh = castle
+#b_arus-al-falak = temple
+
+#b_nay = castle
+#b_nawabad = city
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+947.1.1 = {	religion = sunni }
+#1007.1.1 = {	culture = afghan }
+1018.1.1 = { b_arus-al-falak = temple }
+1020.1.1 = { b_nay = castle } #?
+1152.1.1 = { remove_settlement = b_arus-al-falak }
+1163.1.1 = { remove_settlement = b_nay } #?

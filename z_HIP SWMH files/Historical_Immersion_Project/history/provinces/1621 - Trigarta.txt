@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1621 - Trigarta
+
+# County Title
+title = c_trigarta
+
+# Settlements
+max_settlements = 6
+b_jalandhar = castle
+b_kangra = castle
+#b_kaparthula = city
+b_rahon = temple
+b_pathankot = city
+#b_nurpur = temple
+#b_milwat = castle
+#b_sarwmanpur = temple
+
+# Misc
+culture = panjabi
+religion = buddhist
+
+# History
+950.1.1 = { capital = b_kangra } #sometime after the 9th century?
+1040.1.1 = { b_kaparthula = city } #early 11th century

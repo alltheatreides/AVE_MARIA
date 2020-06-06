@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1115 - Arezzo
+
+# County Title
+title = c_arezzo
+
+# Settlements
+max_settlements = 6
+
+b_monte_santa_maria = castle
+#b_peitramala = castle
+b_arezzo = temple
+b_cortona = city
+#b_montecchio = castle
+b_mammi = castle
+
+
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = forest
+# History
+1025.1.1 = { b_peitramala = castle }
+1080.1.1 = { b_montecchio = castle }
+1167.9.12 = { capital = b_mammi}
+1327.10.21 = { capital = b_peitramala} 

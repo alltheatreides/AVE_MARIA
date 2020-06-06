@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Third Karakhanid Holy War for Khotan" 
+
+casus_belli = {
+	actor = 3002
+	recipient = 166689
+	casus_belli=religious
+	landed_title=d_khotan
+	date = 999.1.1
+}
+
+999.1.1 = { #in reality, skirmishes continued for decades
+	add_attacker = 3002
+	add_defender = 166689
+}
+
+1006.1.1 = {
+	rem_attacker = 3002
+	rem_defender = 166689
+}

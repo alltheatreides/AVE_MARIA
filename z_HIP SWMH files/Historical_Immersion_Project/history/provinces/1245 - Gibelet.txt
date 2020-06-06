@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1245 - Gibelet
+
+# County Title
+title = c_gibelet
+
+# Settlements
+max_settlements = 4
+
+b_gibeletcastle = castle
+b_gibelet = city
+b_boutron = temple
+#b_besmedin = castle
+#b_msheilfort = castle
+
+
+
+
+
+# Misc
+culture = assyrian
+religion = maronite
+
+# History
+
+1030.1.1 = { 
+	culture = levantine_arabic
+}
+1220.1.1 = { b_besmedin = castle }

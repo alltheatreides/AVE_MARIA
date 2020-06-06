@@ -1,0 +1,30 @@
+# County Title
+title = c_tsaparang
+
+# Settlements
+max_settlements = 5
+
+b_tsaparang = castle
+b_tholing = city
+#b_tholinggompa = temple
+#b_mangnang = { #temple
+#b_dungkar = castle
+
+#b_mangga = 
+#b_gartok = {
+
+# Misc
+culture = zhangzhung
+religion = bon
+
+#History
+845.1.1 = {
+	culture = bodpa
+	religion = buddhist
+} # Parts of Guge begin the process of Tibetanization
+997.1.1 = {
+	b_tholinggompa = temple
+} #Tholing Monastery established by King Yeshe-Ö/Khori of Guge
+1060.1.1 = {
+	b_mangnang = temple
+}

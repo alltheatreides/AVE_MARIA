@@ -1,0 +1,82 @@
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+	holder = 178018
+}
+899.1.1 = {
+	holder = 1230951
+}
+#908.1.1 = {
+#	liege = k_sistan
+#}
+940.1.1 = {
+	holder = 1230952
+}
+955.1.1 = { #Isa b. Ma'dan became a Saffarid tributary at some point
+	set_tribute_suzerain = {
+		who = d_sistan
+		percentage = 0.4
+	}
+}
+972.1.1 = { #Buyid expedition into Makran
+	clear_tribute_suzerain = d_sistan
+	set_tribute_suzerain = {
+		who = k_persia
+		percentage = 0.4
+	}
+}
+979.1.1 = {
+	clear_tribute_suzerain = k_persia
+	set_tribute_suzerain = {
+		who = d_zabulistan
+		percentage = 0.4
+	}
+}
+980.1.1 = {
+	holder = 188544
+}
+999.6.1 = {
+	clear_tribute_suzerain = d_zabulistan
+	set_tribute_suzerain = {
+		who = k_kafarestan
+		percentage = 0.4
+	}
+}
+#1010 - ruler of Quzdar becomes Ghaznavid tributary
+1026.1.1 = {
+	holder = 188545
+}
+1029.1.1 = {
+	clear_tribute_suzerain = k_kafarestan # Isa's rebellion
+}
+1031.1.1 = {
+	holder = 188546
+	set_tribute_suzerain = {
+		who = k_kafarestan
+		type = permanent
+	}
+}
+1059.1.1 = {
+	holder = 188547
+}
+1085.1.1 = {
+	holder = 188548 # ? Ma'danid
+}
+1105.1.1 = {
+	holder = 188549 # ? Ma'danid
+}
+1130.1.1 = {
+	holder = 188550 # ? Ma'danid
+}
+1150.1.1 = {
+	holder = 1230972
+}
+1153.1.1 = {
+	clear_tribute_suzerain = k_kafarestan
+}
+1183.1.1 = {
+	holder = 1230973
+}
+1187.1.1 = {
+	holder = 0
+}

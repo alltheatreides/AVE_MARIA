@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1027 - Western Sjaelland
+
+# County Title
+title = c_western_sjaelland
+
+# Settlements
+max_settlements = 5
+
+b_kalundborg = tribal
+#b_taarnborg = city
+#b_soroe = temple
+#b_antvorskov = temple
+#b_skarsholm = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1005.1.1 = { religion = catholic } 
+1020.1.1 = { b_kalundborg = castle
+b_taarnborg = city
+b_soroe = temple} 
+1035.1.1 = { culture = danish }
+#1142.1.1 = { b_sorø = temple }
+1170.1.1 = { b_antvorskov = temple }
+1190.1.1 = { b_skarsholm = castle }
+
+
+
+

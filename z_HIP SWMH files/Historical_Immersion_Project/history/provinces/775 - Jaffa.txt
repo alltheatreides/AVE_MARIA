@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 775 - Jaffa
+
+# County Title
+title = c_jaffa
+
+# Settlements
+max_settlements = 5
+b_qula = castle
+b_lydda = temple
+b_mirabel = castle
+b_jaffa = city
+b_ramleh = castle
+#b_yazur = city
+#b_beitdejan = castle
+#b_kharruba = castle
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+
+1231.1.1 = { trade_post = b_faliero }
+

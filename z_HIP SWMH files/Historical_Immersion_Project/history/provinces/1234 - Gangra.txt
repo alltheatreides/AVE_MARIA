@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1234 - Gangra
+
+# County Title
+title = c_gangra
+
+# Settlements
+max_settlements = 2
+
+b_gangra = castle
+b_dokeia = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+# The Seljuks take over Anatolia
+
+1097.1.1 = { culture = turkmen }
+1097.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }
+
+
+

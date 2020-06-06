@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1132 - Marsi
+
+# County Title
+title = c_marsi
+
+# Settlements
+max_settlements = 5
+
+b_celano = castle
+b_valva = castle
+b_albe = castle
+b_avezzano = city
+#b_carsoli = castle
+#b_tagliacozzo = temple
+#b_anticoli = castle
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = forest
+# History
+1250.12.12={ b_anticoli = castle }

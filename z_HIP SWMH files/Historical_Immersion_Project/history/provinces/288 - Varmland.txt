@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 288 - Värmland
+
+# County Title
+title = c_varmland
+
+# Settlements
+max_settlements = 3
+
+b_saxholm = tribal
+
+#b_arvika = city
+#b_nordmark = temple
+#b_josse = castle
+#b_fryksdal = castle
+#b_kil = castle
+#b_vase = castle
+#b_gillberg = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+terrain = forest
+
+# History
+1022.1.7 = {
+	b_saxholm = castle
+	b_arvika = city
+}
+1035.1.1 = { culture = swedish } 
+1060.8.2 = {
+	religion = catholic
+}

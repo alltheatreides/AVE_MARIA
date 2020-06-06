@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1528 - Upper_wallachia
+
+# County Title
+title = c_upper_wallachia
+
+# Settlements
+max_settlements = 4
+b_kalabaka = castle
+b_trikala = city
+b_grevena = temple
+#b_porta = city
+
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+

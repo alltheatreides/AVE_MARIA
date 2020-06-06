@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 915 - Djenné
+
+# County Title
+title = c_djenne
+
+# Settlements
+max_settlements = 6
+b_dioboro = castle
+#b_djenne = city #gold route transit
+b_algasba = temple
+b_bandiagara = castle 
+
+#b_kaniana = castle 
+#b_hambarketolo = castle 
+
+# Misc
+culture = soninke
+religion = west_african_pagan
+
+# History
+1250.1.1 = { b_djenne = city }
+1300.1.1 = { religion = sunni }

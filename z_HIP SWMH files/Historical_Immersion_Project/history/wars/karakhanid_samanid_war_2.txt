@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Second Karakhanid Invasion of Mavár-an-Nahr" 
+
+casus_belli = {
+	actor = 3002
+	recipient = 1230621
+	casus_belli=muslim_invasion
+	landed_title=k_mavarannahr
+	date = 999.8.1
+}
+
+999.8.1 = {
+	add_attacker = 3002
+	add_defender = 1230621
+}
+
+999.10.23 = {
+	rem_attacker = 3002
+	rem_defender = 1230621
+}

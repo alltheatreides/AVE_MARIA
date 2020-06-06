@@ -1,0 +1,1450 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  Tuscan characters
+###############################################################
+
+##############################################################################################
+# d'Appiano
+20323 = {
+	name="Gentile"
+	dynasty=13026
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="underhanded_rogue"
+        father=1061183
+	1029.1.1 = {
+		birth="1029.1.1"
+	}
+	1085.1.1 = {
+		death="1085.1.1"
+	}
+}
+##############################################################################################
+# Piccolomini
+
+##############################################################################################
+#di Baggio
+
+2022 = {
+	name="Anselmo" 
+	dynasty=13014
+	religion="catholic"
+	culture="italian" # family from Milano
+	father=1061619
+	1020.1.1 = {
+		birth=yes
+	}
+	1086.3.1 = {
+		death=yes
+	}
+}
+##############################################################################################
+#di Guidoti
+70637 = {
+	name="Asedisio"
+	dynasty=8675
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="strong"
+	add_trait="hunter"
+	add_trait="tough_soldier"
+	mother=70656
+	
+	1215.1.1 = {
+		birth="1215.1.1"
+	}
+	1280.1.1 = {
+		death="1280.1.1"
+	}
+}
+##############################################################################################
+#Botticelli
+70801 = {
+	name="Guido"
+	dynasty=8678
+	martial=6
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="charitable"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	1265.1.1 = {
+		birth="1265.1.1"
+	}
+	1265.1.1 = {
+	employer=70794
+	}
+	1299.7.19 = {
+		add_spouse=70800
+	}
+	1318.1.1 = {
+		death="1318.1.1"
+	}
+}
+##############################################################################################
+#di Battifolle
+70699 = {
+	name="Simone"
+	dynasty=8699
+	martial=7
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="brave"
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	
+	1292.1.1 = {
+		birth="1292.1.1"
+	employer=70669
+	}
+	1311.1.1 = {
+		add_spouse=70698
+	}
+	1347.1.1 = {
+		death="1347.1.1"
+	}
+}
+##############################################################################################
+#degli Ubaldini
+73463 = {
+	name="Ruggiero"
+	dynasty=12248
+	religion="catholic"
+	culture="tuscan"
+	1221.1.1={
+		birth="1221.1.1"
+	}
+	1288.7.1={
+		death="1288.7.1"
+	}
+}
+##############################################################################################
+#Torrelli
+73505 = {
+	name="Salinguerra" # Sanlinguerra II
+	dynasty=12252
+	religion="catholic"
+	culture="tuscan"
+	1160.1.1={
+		birth=yes
+	}
+	1244.1.1={
+		death=yes
+	}
+}
+##############################################################################################
+#da Soana
+2010 = {
+	name="Ildebrando"
+	# AKA: Hildebrand
+	dynasty=8783
+	martial=4
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	add_trait="chaste"
+	add_trait="diligent"
+	add_trait="honest"
+	add_trait="just"
+	add_trait="kind"
+	add_trait="humble"
+	add_trait="zealous"
+	add_trait="patient"
+	add_trait="temperate"
+	add_trait="brave"
+	add_trait="mastermind_theologian"
+	1022.1.1 = {
+		birth="1022.1.1"
+	}
+	1073.4.21 = {
+		name="Gregorius"
+		# AKA: Hildebrand
+	}
+	1085.5.25 = {
+		trait = "saint"
+		give_nickname = nick_the_saint
+		death = "1085.5.25"
+	}
+}
+##############################################################################################
+#Paganelli
+
+71807 = {
+	name="Bernardo"
+	dynasty=8786
+	martial=3
+	diplomacy=5
+	intrigue=4
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+	add_trait="humble"
+	add_trait="gregarious"
+	add_trait="scholarly_theologian"
+	1080.1.1 = {
+		birth="1080.1.1"
+	}
+	1145.2.15 = {
+		name="Eugenius"
+		# AKA: Bernardo
+	}
+	1153.7.8 = {
+		trait = "saint"
+		death = "1153.7.8"
+		give_nickname =  nick_the_saint
+	}
+}
+##############################################################################################
+#Allucingolli
+71811 = {
+	name="Ubaldo"
+	dynasty=8789
+	martial=3
+	diplomacy=4
+	intrigue=3
+	stewardship=4
+	religion="catholic"
+	culture="tuscan"
+	add_trait="slothful"
+	add_trait="content"
+	add_trait="scholarly_theologian"
+	
+	1100.1.1 = {
+		birth="1100.1.1"
+	}
+	1181.8.30 = {
+	name="Lucius"
+	# AKA: Ubaldo
+	}
+	1185.5.25 = {
+		death="1185.5.25"
+	}
+}
+##############################################################################################
+#della Gherardesca
+
+71177 = {
+	name="Guelfo" # conti di Settimo
+	dynasty=13031 #della Gherardesca
+	religion="catholic"
+	culture="tuscan"
+	father=73454
+	1235.1.1 = {
+		birth=yes
+	}
+	1251.1.1 = {
+		add_spouse=71173
+	}
+	1294.1.1 = {
+		death=yes
+	}
+}
+73451 = {
+	name="Raniero"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=463450
+	1316.1.1={
+		birth="1316.1.1"
+	}
+	1347.1.1={
+		death="1347.1.1"
+	}
+}
+73452 = {
+	name="Raniero"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73455
+	1284.1.1={
+		birth="1284.1.1"
+	}
+	1325.1.1={
+		death="1325.1.1"
+	}
+}
+73453 = {
+	name="Enrico"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73454
+	1239.1.1={
+		birth="1239.1.1"
+	}
+	1290.1.1={
+		death="1290.1.1"
+	}
+}
+73454 = {
+	name="Ugolino"
+	# Took control of Pisa after the fall of the republican navy against Genoa. Count of Donoratico in Dante's Inferno. Was of the Settimo line instead(no link to Donoratico at all) and had his main base was actually on Sardinia.
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73462
+	mother=180185
+	1218.1.1={
+		birth=yes
+	}
+	1245.1.1={
+		add_spouse=180186
+	}
+	1258.1.1={
+		add_spouse=180187
+	}
+	1289.3.1={
+		death=yes
+	}
+}
+
+73455 = {
+	name="Gaddo"
+	# starved to death
+	dynasty=13031
+	religion="catholic"
+	culture="italian"
+	father=73454
+	mother=180186
+	1248.1.1={
+		birth=yes
+	}
+	1289.3.1={
+		death=yes
+	}
+}
+73456 = {
+	name="Ugoccione"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73454
+	1246.1.1={
+		birth="1246.1.1"
+	}
+	1289.3.1={
+		death="1289.3.1"
+	}
+}
+73457 = {
+	name="Ugolino"
+	# starved to death
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73456
+	1270.1.1={
+		birth="1270.1.1"
+	}
+	1289.3.1={
+		death="1289.3.1"
+	}
+}
+73458 = {
+	name="Anselmuccio"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73456
+	1272.1.1={
+		birth="1272.1.1"
+	}
+	1289.3.1={
+		death="1289.3.1"
+	}
+}
+73459 = {
+	name="Erminia"
+	# wife of Giovanni Visconti, Giudice of Gallura
+	female=yes
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73462
+	mother=180185
+	1227.1.1={
+		birth="1227.1.1"
+	}
+	1290.1.1={
+		death="1290.1.1"
+	}
+}
+463450 = {
+	name="Bonifacio"
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=73455
+	1289.1.1 = {
+		birth="1289.1.1"
+	}
+	1340.1.1 = {
+		death="1340.1.1"
+	}
+}
+73460 = {
+	name="Ugolino"
+	# Giudice of Gallura
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=73461
+	mother=73459
+	1246.1.1={
+		birth="1246.1.1"
+	}
+	1295.1.1={
+		add_spouse=463142
+	}
+	1298.1.9={
+		death="1298.1.9"
+	}
+}
+
+73461 = {
+	name="Giovanni"
+	# Giudice of Gallura
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71166
+	mother=71162
+	1229.1.1={
+		birth=yes
+	}
+	1245.1.1={
+		add_spouse=73459
+	}
+	1275.1.1={
+		death=yes
+	}
+}
+
+73462 = {
+	name="Guelfo"
+	# Count of Settimo
+	dynasty=13031
+	religion="catholic"
+	culture="tuscan"
+	father=180046
+	mother=180509
+	1192.1.1={
+		birth=yes
+	}
+	1217.1.1={
+		add_spouse=180185
+	}
+	1247.1.1={
+		death=yes
+	}
+}
+##Wifes
+180502 = {
+	name="Candida"	# fictional placeholder
+	# wife of Guido II della Gherardesca
+	female=yes
+	religion="catholic"
+	culture="tuscan"
+	1047.1.1={
+		birth="1047.1.1"
+	}
+	1108.1.1={
+		death="1108.1.1"
+	}
+}
+180503 = {
+	name="Erminia"	# fictional placeholder
+	# wife of Ugolino della Gherardesca, Count of Forcoli
+	female=yes
+	dynasty=1042035
+	religion="catholic"
+	culture="tuscan"
+	1120.1.1={
+		birth="1120.1.1"
+	}
+	1174.1.1={
+		death="1174.1.1"
+	}
+}
+180504 = {
+	name="Caterina"	# fictional placeholder
+	# wife of Tancredi della Gherardesca
+	female=yes
+	dynasty=1042025
+	religion="catholic"
+	culture="tuscan"
+	1135.1.1={
+		birth="1135.1.1"
+	}
+	1194.1.1={
+		death="1194.1.1"
+	}
+}
+180505 = {
+	name="Stefania"
+	# wife of Gerardo V della Gherardesca
+	female=yes
+	dynasty=100334
+	religion="catholic"
+	culture="tuscan"
+	1060.1.1={
+		birth="1060.1.1"
+	}
+	1102.1.1={
+		death="1102.1.1"
+	}
+}
+180506 = {
+	name="Ermilia"
+	# wife of Raineri della Gherardesca, count of Donoratico
+	female=yes
+	dynasty=1042028
+	religion="catholic"
+	culture="tuscan"
+	1110.1.1={
+		birth="1110.1.1"
+	}
+	1163.1.1={
+		death="1163.1.1"
+	}
+}
+180507 = {
+	name="Berta"
+	# wife of Gerardo IV della Gherardesca, dynasty fictitious
+	female=yes
+	dynasty=1042033
+	religion="catholic"
+	culture="tuscan"
+	1031.1.1={
+		birth="1031.1.1"
+	}
+	1080.1.1={
+		death="1080.1.1"
+	}
+}
+180508 = {
+	name="Ghinga"
+	# wife of Ludovico della Gherardesca, count of Castagneto
+	female=yes
+	dynasty=1042023
+	religion="catholic"
+	culture="tuscan"
+	1311.1.1={
+		birth="1311.1.1"
+	}
+	1374.1.1={
+		death="1374.1.1"
+	}
+}
+180509 = {
+	name="Contelda"
+	# wife of Ugolino, Count of Settimo, dynasty fictitious
+	female=yes
+	dynasty=1042034
+	religion="catholic"
+	culture="tuscan"
+	1168.1.1={
+		birth="1168.1.1"
+	}
+	1205.1.1={
+		death="1205.1.1"
+	}
+}
+180510 = {
+	name="Erminia"
+	# wife of Pepo della Gherardesca
+	female=yes
+	dynasty=1042030
+	religion="catholic"
+	culture="tuscan"
+	1100.1.1={
+		birth="1100.1.1"
+	}
+	1134.1.1={
+		death="1134.1.1"
+	}
+}
+180511 = {
+	name="Matilda"	# fictional placeholder
+	# wife of Tedice IV della Gherardesca
+	female=yes
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180210
+	mother=180501
+	1071.1.1={
+		birth="1071.1.1"
+	}
+	1123.1.1={
+		death="1123.1.1"
+	}
+}
+180512 = {
+	name="Filomena"	# fictional placeholder
+	# wife of Tedice VI della Gherardesca
+	female=yes
+	dynasty=1042031
+	religion="catholic"
+	culture="tuscan"
+	1154.1.1={
+		birth="1154.1.1"
+	}
+	1197.1.1={
+		death="1197.1.1"
+	}
+}
+##############################################################################################
+#
+231022 = {
+	name="Paolo"
+	dynasty=13046
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+	add_trait="chaste"
+	add_trait="zealous"
+	add_trait="martial_cleric"
+	1152.1.2 = {
+		birth="1152.1.2"
+	}
+	1202.1.2 = {
+		death="1202.1.2"
+	}
+}
+71813 = {
+	name="Paolino"
+	dynasty=13046
+	martial=6
+	diplomacy=4
+	intrigue=7
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+	add_trait="just"
+	add_trait="trusting"
+	add_trait="scholarly_theologian"
+	
+	1130.1.1 = {
+		birth="1130.1.1"
+	}
+	1187.12.17 = {
+	name="Clemens"
+	# AKA: Paolino
+	}
+	1191.3.20 = {
+		death="1191.3.20"
+	}
+}
+##############################################################################################
+#di Firenze
+213014 = {
+	name="Giberto"
+	dynasty=100328
+	martial=6
+	diplomacy=5
+	intrigue=7
+	stewardship=7
+	religion="catholic"
+	culture="tuscan"
+	add_trait="martial_cleric"
+	1150.1.1 = {
+		birth="1150.1.1"
+	}
+	1200.1.1 = {
+		death="1200.1.1"
+	}
+}
+##############################################################################################
+#di Siena
+413017 = {
+	name="Rodolfo"
+	dynasty=100330
+	martial=8
+	diplomacy=6
+	intrigue=8
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="slothful"
+	add_trait="tough_soldier"
+	1290.1.1 = {
+		birth="1290.1.1"
+	}
+	1348.1.1 = {
+		death="1348.1.1"
+	}
+}
+71810 = {
+	name="Orlando"
+	dynasty=100330
+	martial=3
+	diplomacy=8
+	intrigue=5
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	add_trait="diligent"
+	add_trait="temperate"
+	add_trait="mastermind_theologian"
+	
+	1105.1.1 = {
+		birth="1105.1.1"
+	}
+	1159.9.1 = {
+	name="Alexander"
+	# AKA: Orlando
+	}
+	1181.8.30 = {
+		death="1181.8.30"
+	}
+}
+##############################################################################################
+#Antelminelli
+#73426 = {
+#	name="Castruccio"
+#	dynasty=101817
+#	religion="catholic"
+#	culture="tuscan"
+#	1260.1.1={
+#		birth="1260.1.1"
+#	}
+#	1328.9.1={
+#		death="1328.9.1"
+#	}
+#}
+#
+#73427 = {
+#	name="Enrico"
+#	dynasty=101817
+#	religion="catholic"
+#	culture="tuscan"
+#	father=73426
+#	1284.1.1={
+#		birth="1284.1.1"
+#	}
+#	1328.11.1={
+#		death="1328.11.1"
+#	}
+#}
+#
+#73428 = {
+#	name="Francesco"
+#	dynasty=101817
+#	religion="catholic"
+#	culture="tuscan"
+#	father=73426
+#	1286.1.1={
+#		birth="1286.1.1"
+#	}
+#	1329.4.1={
+#		death="1329.4.1"
+#	}
+#}
+##############################################################################################
+#Malaspina
+70668 = {
+	name="Isnardo"
+	dynasty=1000035002
+	martial=6
+	diplomacy=7
+	intrigue=4
+	stewardship=5
+	religion="catholic"
+	culture="italian"
+	add_trait="arbitrary"
+	add_trait="falconer"
+	add_trait="brilliant_strategist"
+	father=1061636	
+	1225.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		add_spouse=70667
+	}
+	1277.1.1 = {
+		death=yes
+	}
+}
+##############################################################################################
+#Pico della Mirandola
+70816 = {
+	name="Agnese"
+	female=yes
+	dynasty=101834
+	martial=6
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="charitable"
+	add_trait="fair"
+	add_trait="fortune_builder"
+	1300.1.1 = {
+		birth="1300.1.1"
+	}
+	1334.1.5 = {
+		death="1334.1.5"
+	}
+}
+##############################################################################################
+#Farnese
+213050 = {
+	name="Prudencio"
+	dynasty=13047
+	martial=7
+	diplomacy=8
+	intrigue=5
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	1113.1.1 = {
+		birth="1113.1.1"
+	}
+	1170.1.1 = {
+		death="1170.1.1"
+	}
+}
+213051 = {
+	name="Ranuccio"
+	dynasty=13047
+	martial=8
+	diplomacy=8
+	intrigue=5
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	add_trait="chaste"
+	add_trait="slothful"
+	add_trait="proud"
+	add_trait="skilled_tactician"
+	father=213050
+	1146.1.1 = {
+		birth="1146.1.1"
+	}
+	1196.1.1 = {
+		death="1196.1.1"
+	}
+}
+213052 = {
+	name="Pietro"
+	dynasty=13047
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="diligent"
+	add_trait="proud"
+	add_trait="skilled_tactician"
+	father=213050
+	1147.1.1 = {
+		birth="1147.1.1"
+	}
+	1197.1.1 = {
+		death="1197.1.1"
+	}
+}
+213053 = {
+	name="Pepone"
+	dynasty=13047
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="catholic"
+	culture="tuscan"
+	add_trait="diligent"
+	add_trait="humble"
+	add_trait="skilled_tactician"
+	father=213052
+	1166.1.1 = {
+		birth="1166.1.1"
+	}
+	1216.1.1 = {
+		death="1216.1.1"
+	}
+}
+213054 = {
+	name="Ranuccio"
+	dynasty=13047
+	martial=5
+	diplomacy=5
+	intrigue=8
+	stewardship=5
+	religion="catholic"
+	culture="tuscan"
+	add_trait="gluttonous"
+	add_trait="proud"
+	add_trait="tough_soldier"
+	father=213052
+	1168.1.1 = {
+		birth="1168.1.1"
+	}
+	1218.1.1 = {
+		death="1218.1.1"
+	}
+}
+463300 = {
+	name="Niccolò"
+	dynasty=13047
+	martial=6
+	diplomacy=4
+	intrigue=4
+	stewardship=8
+	religion="catholic"
+	culture="tuscan"
+	father=73556
+	add_trait="diligent"
+	add_trait="temperate"
+	add_trait="skilled_tactician"
+	1249.1.1 = {
+		birth="1249.1.1"
+	}
+	1339.2.6 = {
+		death="1339.2.6"
+	}
+}
+73521 = {
+	name="Pietro"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=463300
+	1273.1.1={
+		birth="1273.1.1"
+	}
+	1363.6.20={
+		death="1363.6.20"
+	}
+}
+73522 = {
+	name="Ranuccio"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=463300
+	1275.1.1={
+		birth="1275.1.1"
+	}
+	1375.1.1={
+		death="1375.1.1"
+	}
+}
+73523 = {
+	name="Petruccio"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=463300
+	1277.1.1={
+		birth="1277.1.1"
+	}
+	1345.1.1={
+		death="1345.1.1"
+	}
+}
+73524 = {
+	name="Pepone"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=73521
+	1297.1.1={
+		birth="1297.1.1"
+	}
+	1352.1.1={
+		death="1352.1.1"
+	}
+}
+73525 = {
+	name="Niccolò"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=73521
+	1299.1.1={
+		birth="1299.1.1"
+	}
+	1360.1.1={
+		death="1360.1.1"
+	}
+}
+73526 = {
+	name="Anastasia"
+	female=yes
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=73521
+	1301.1.1={
+		birth="1301.1.1"
+	}
+	1375.1.1={
+		death="1375.1.1"
+	}
+}
+73527 = {
+	name="Bartolomeo"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=73522
+	1315.1.1={
+		birth="1315.1.1"
+	}
+	1405.1.1={
+		death="1405.1.1"
+	}
+}
+
+73528 = {
+	name="Bertoldo"
+	dynasty=13047
+	religion="catholic"
+	culture="tuscan"
+	father=73522
+	1316.1.1={
+		birth="1316.1.1"
+	}
+	1390.1.1={
+		death="1390.1.1"
+	}
+}
+#################################
+#Gherardesca
+##################################
+#Pisan/Sardinian Visconti branch
+##################################
+#
+180200 = {
+	name="Sicheri"
+	dynasty=1042014
+	religion="catholic"	
+        culture="tuscan"
+        father=1061182 
+	1003.1.1={
+		birth="1003.1.1"
+	}
+	1062.1.1={
+		death="1062.1.1"
+	}
+}
+180201 = {
+	name="Ermingarde"
+	female=yes
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180200
+	1027.1.1={
+		birth="1027.1.1"
+	}
+	1083.1.1={
+		death="1083.1.1"
+	}
+}
+180202 = {
+	name="Ildebrando"
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180200
+	1023.1.1={
+		birth="1023.1.1"
+	}
+	1039.1.1={
+		add_spouse=180301
+	}
+	1078.1.1={
+		death="1078.1.1"
+	}
+}
+180203 = {
+	name="Gerardo"
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180202
+	mother=180301
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1062.1.1={
+		add_spouse=180500
+	}
+	1084.1.1={
+		death="1084.1.1"
+	}
+}
+180204 = {
+	name="Adalasic"
+	# wife of Raineri della Gherardesca, Count of Forcoli, aka Ghenna?
+	female=yes
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180203
+	mother=180500
+	1084.1.1={
+		birth="1084.1.1"
+	}
+	1130.1.1={
+		death="1130.1.1"
+	}
+}
+180205 = {
+	name="Ugo"
+	# Viscount of Pisa circa 1082
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180202
+	mother=180301
+	1041.1.1={
+		birth="1041.1.1"
+	}
+	1064.1.1={
+		add_spouse=180300
+	}
+	1099.1.1={
+		death="1099.1.1"
+	}
+}
+180206 = {
+	name="Ugo"
+	# died in expedition to Africa
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180205
+	mother=180300
+	1065.1.1={
+		birth="1065.1.1"
+	}
+	1085.1.1={
+		add_spouse=180515
+	}
+	1088.1.1={
+		death= { death_reason=death_battle }
+	}
+}
+180207 = {
+	name="Ugo"
+	# Viscount of Pisa circa 1134
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180206
+	mother=180515
+	1088.1.1={
+		birth="1088.1.1"
+	}
+	1142.1.1={
+		death="1142.1.1"
+	}
+}
+180208 = {
+	name="Ildebrando"
+	# fought in Balearic War
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180205
+	mother=180300
+	1069.1.1={
+		birth="1069.1.1"
+	}
+	1135.1.1={
+		death="1135.1.1"
+	}
+}
+180209 = {
+	name="Enrico"
+	# fought in Balearic War
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180205
+	mother=180300
+	1067.1.1={
+		birth="1067.1.1"
+	}
+	1132.1.1={
+		death="1132.1.1"
+	}
+}
+180210 = {
+	name="Pietro"
+	# Viscount of Pisa circa 1090
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180202
+	mother=180301
+	1046.1.1={
+		birth="1046.1.1"
+	}
+	1069.1.1={
+		add_spouse=180501
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+180211 = {
+	name="Ugo"
+	# cardinal of San Susanna
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180210
+	1075.1.1={
+		birth="1075.1.1"
+	}
+	1121.12.1={
+		death="1121.12.1"
+	}
+}
+180212 = {
+	name="Ugolino"
+	# conjectured son of Pietro Visconti
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180210
+	mother=180501
+	1070.1.1={
+		birth="1070.1.1"
+	}
+	1094.1.1={
+		add_spouse=180513
+	}
+	1138.1.1={
+		death="1138.1.1"
+	}
+}
+180213 = {
+	name="Guido"
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180212
+	mother=180513
+	1096.1.1={
+		birth="1096.1.1"
+	}
+	1120.1.1={
+		add_spouse=180514
+	}
+	1151.1.1={
+		death="1151.1.1"
+	}
+}
+180222 = {
+	name="Giovanna"
+	# Giudicessa of Gallura, 1298-1339
+	female=yes
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=73460
+	mother=463142
+	1297.1.1={
+		birth="1297.1.1"
+	}
+	1339.1.1={
+		death="1339.1.1"
+	}
+}
+180250 = {
+	name="Aldigarda"
+	# wife of Alberto Visconti
+	female=yes
+	dynasty=1042007
+	religion="catholic"
+	culture="tuscan"
+	1129.1.1={
+		birth="1129.1.1"
+	}
+	1187.1.1={
+		death="1187.1.1"
+	}
+}
+180253 = {
+	name="Dionisia"# haven't come across her :_
+	# wife of Tedice III, Count of Castagneto
+	female=yes
+	dynasty=1042017
+	religion="catholic"
+	culture="tuscan"
+	father=1061407 
+	1031.1.1={
+		birth="1031.1.1"
+	}
+	1079.1.1={
+		death="1079.1.1"
+	}
+}
+71163 = {
+	name="Ubaldo"
+	# Ubaldo II, Giudice of Gallura
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71164
+	mother=180411
+	1203.1.1={
+		birth="1203.1.1"
+	}
+	1219.1.1={
+		add_spouse=71162
+	}
+	1238.1.1={
+		death="1238.1.1"
+	}
+}
+
+71164 = {
+	name="Lamberto"
+	# Giudice of Gallura
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71165
+	mother=180405
+	1177.1.1={
+		birth="1177.1.1"
+	}
+	1207.1.1={
+		add_spouse=180411
+	}
+	1220.1.1={
+		add_spouse=144530
+	}
+	1225.1.1={
+		death="1225.1.1"
+	}
+}
+
+71165 = {
+	name="Eldizio"
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71168
+	mother=180250
+	1149.1.1={
+		birth="1149.1.1"
+	}
+	1175.1.1={
+		add_spouse=180405
+	}
+	1211.1.1={
+		death="1211.1.1"
+	}
+}
+
+71166 = {
+	name="Ubaldo"
+	# Ubaldo I, Giudice of Cagliari 1217-1230
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71165
+	mother=180405
+	1178.1.1={
+		birth="1178.1.1"
+	}
+	1228.1.1 ={
+		add_spouse=71162
+	}
+	1230.1.1={
+		death="1230.1.1"
+	}
+}
+
+71167 = {
+	name="Diana"
+	# wife of Peter II of Arborea
+	female=yes
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=71165
+	mother=180405
+	1176.1.1={
+		birth="1176.1.1"
+	}
+	1266.1.1={
+		death="1266.1.1"
+	}
+}
+
+71168 = {
+	name="Alberto"
+	dynasty=1042014
+	religion="catholic"
+	culture="tuscan"
+	father=180213
+	mother=180514
+	1122.1.1={
+		birth="1122.1.1"
+	}
+	1146.1.1={
+		add_spouse=180250
+	}
+	1174.1.1={
+		death="1174.1.1"
+	}
+}
+##############################################################################################
+#Borghese dynasty=13008
+##############################################################################################
+#Capponi dynasty=13012
+##############################################################################################
+#Castracani dynasty=13013
+##############################################################################################
+#Concini dynasty=13020
+##############################################################################################
+#de' Medici dynasty=13030
+##############################################################################################
+#Bandinelli dynasty=13033
+##############################################################################################
+#Strozzi dynasty=13084
+##############################################################################################
+#Chigi dynasty=20068
+##############################################################################################
+#di Livorno dynasty=100327
+##############################################################################################
+#di Piombino dynasty=100331
+##############################################################################################
+##############################################################################################
+#Massa dynasty=102017
+

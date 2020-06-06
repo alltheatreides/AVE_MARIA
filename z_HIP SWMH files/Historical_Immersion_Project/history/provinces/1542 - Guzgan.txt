@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1542 - Guzgán
+
+# County Title
+title = c_guzgan
+
+# Settlements
+max_settlements = 6
+b_anbar = castle
+b_gurzuvan = castle
+b_faryab = castle
+b_yahudan = city
+b_taleqan = temple
+b_ushburqan = city
+#b_andkhud = castle
+
+#b_naryan = city
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+
+960.1.1 = {	religion = sunni }
+1221.1.1 = { remove_settlement = b_taleqan }
+#1221.1.1 = { remove_settlement = b_faryab }

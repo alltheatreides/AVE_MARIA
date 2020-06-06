@@ -1,0 +1,122 @@
+# -*- ck2.history.titles -*-
+
+691.1.1 = {
+	liege = k_khazaria
+	holder = 74007
+}
+715.1.1 = {
+	holder = 74008
+}
+731.1.1 = {
+	holder = 74009
+}
+749.1.1 = {
+	holder = 74012
+}
+#Major Volga Bulgar population
+865.1.1 = {
+	holder = 1233391
+}
+#Oghuz garrison at some point after the Volga Bulgars
+930.1.1 = {
+	holder = 1232030
+}
+953.1.1 = {
+	holder = 1232031
+}
+
+# Suru-Külbej
+966.1.1 = {
+	liege = d_suru_kulbej
+	holder = 1231768
+}
+970.1.1 = {
+	holder = 1231769
+}
+989.1.1 = {
+	holder = 1231771
+}
+# Bula-Chopan pushed west by the Oghuz.
+1001.1.1 = {
+	liege = d_bula_chopan
+	holder = 1231848
+}
+1006.1.1 = {
+	holder = 1231850
+}
+1027.1.1 = {
+	holder = 1231852
+}
+#1040.1.1 = {
+#	liege = d_bula_chopan
+#}
+# Oghuz takes over
+1044.1.1 = {
+	liege = d_tekule
+	holder = 1231951
+}
+# Cumans arrive
+# Toqsoba
+1060.1.1 = {
+	liege = d_toqsoba
+	holder = 1229732
+}
+1065.1.1 = {
+	holder = 1229733 # Sharukan
+}
+1107.1.1 = {
+	holder = 1233001 # Sugr
+}
+# Monomakh rises to the Kievan throne
+#1113.4.16 = { #?
+#	liege = k_ruthenia
+#}
+1116.1.1 = {
+	holder = 1229736 # Sirçan remains behind, while Ötrök leaves for Georgia
+}
+1125.5.19 = {
+	liege = d_toqsoba
+	# Monomakh dies Ötrök returns
+	holder = 1229735 # Ötrök
+}
+1140.1.1 = {
+	holder = 1229736 # Sirçan
+}
+1159.1.1 = {
+	holder = 1229737 # Künçek
+}
+1203.1.1 = {
+	holder = 1229739 # Yugri
+}
+1223.5.31 = {
+	holder = 1233212 # Akkabul
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1255.1.2 = {
+	holder = 125505
+}
+1256.1.2 = {
+	holder = 125506
+}
+1257.1.2 = {
+	holder = 125504
+}
+1266.1.2 = {
+	holder = 125508
+}
+1280.1.2 = {
+	holder = 125509
+}
+1287.1.2 = {
+	holder = 125511
+}
+1291.1.2 = {
+	holder = 125512
+}
+1312.1.2 = {
+	holder = 480000
+}

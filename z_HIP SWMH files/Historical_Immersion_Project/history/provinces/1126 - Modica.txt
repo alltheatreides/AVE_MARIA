@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1126 - Modica/Ragusa
+
+# County Title
+title = c_modica
+
+# Settlements
+max_settlements = 6
+
+b_ragusa_sicily = castle
+b_modica = city
+b_syracusa = city
+#b_noto = city
+#b_buccheri = castle
+#b_mineo = castle
+
+
+
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+888.1.1={ culture = maghreb_arabic }
+888.1.1={ religion = sunni }
+960.1.1={ culture = sicilian_arabic }
+1088.1.1={ b_buccheri = castle }
+1116.1.1={ culture = sicilian }
+1116.1.1={ religion = catholic }

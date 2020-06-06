@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1423 - Obar Dheathain
+
+# County Title
+title = c_obardheathain
+
+# Settlements
+max_settlements = 5
+
+b_aiberdeen = tribal
+b_ellon = city
+#b_st_machar = temple
+#b_inverurie = castle
+#b_fyvie = castle
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+
+1066.1.1 = { 
+	b_aiberdeen = tb_hillfort_1
+	b_aiberdeen = tb_training_grounds_1
+	b_aiberdeen = tb_war_camp_1
+}
+
+1146.1.1 = { b_aiberdeen = castle } 

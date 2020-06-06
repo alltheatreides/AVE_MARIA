@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1285 - Lutsk
+# County Title
+title = c_lutsk
+
+# Settlements
+max_settlements = 5
+
+b_lutsk = tribal
+#b_zvenyhorod = city
+b_pidhirtsi = temple
+#b_kremenets = castle
+#b_brody = city
+#b_lvov = city
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1000.1.1 = {religion = orthodox }
+1000.1.1 = { b_lutsk = castle
+b_zvenyhorod = city
+b_pidhirtsi = temple
+b_kremenets = castle }
+1240.1.1 = { b_lvov = city }
+#1240.1.1 = { name = "Lviv" }

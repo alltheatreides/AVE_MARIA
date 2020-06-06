@@ -1,0 +1,345 @@
+# -*- ck2.dynasties -*-
+
+###################################################################
+# Berber
+
+
+#1027011 = {
+#	name="Riyahdid"
+#	culture = sanhaja
+#}
+
+#################################
+1000101124 = {
+	name="Haskúra"   # sedentary tribe High Atlas mountains, originaly among Sanhaja
+	culture = masmuda
+}
+# 1000101261 - 1000101264 taken from Zanata
+1000101261 = {
+	name="Ganfisa"
+	culture = masmuda
+}
+1000101262 = {
+	name="Gadmiwa"
+	culture = masmuda
+}
+1000101263 = {
+	name="Hintata"
+	culture = masmuda
+	religion = sunni
+}
+1000101264 = {
+	name="Hazrája"
+	culture = masmuda
+	religion = sunni
+}
+1000053593 = {
+	name="Hargha"
+	culture = masmuda
+	religion = sunni
+}
+1001000001= {
+	name="al-Adanísí"        # Banu Danis, Banu Adanis. Berber Masmuda family active in Portugal. Governors over extensive areas, and after the end of the rebellions around 930 governors over Alcacer do Sal (Qasr Abi Danis) and Setubal
+	culture = masmuda
+	religion = sunni
+}
+1000053598 = {
+	name="Darir" # somewhat fictional dynasty name for Musa al-Darir, a Masmuda chief in Tinmal
+	culture = masmuda
+	religion = sunni
+}
+1000053599= {
+	name="al-Tímmalí"
+	culture = masmuda
+	religion = sunni
+}
+#################################
+# Tagelmust or Dark Sanhaja
+#7274 = {
+#	name="Almoravid"
+#	culture = tagelmust
+#}
+#1000053590 = {
+#	name="Tumart"
+#	culture = tagelmust
+#}
+1000053591 = {
+	name="Hezmira"
+	culture = tagelmust
+}
+1000053592 = {
+	name="Tehlawa"
+	culture = tagelmust
+	religion = sunni
+}
+1000054001= {
+	name="Massúfa"
+	culture = tagelmust
+	religion = sunni
+}
+1000054002 = {
+	name="Lamtúna"
+	culture = tagelmust
+	religion = sunni
+}
+1000054003 = {
+	name="Lamta"
+	culture = tagelmust
+	religion = sunni
+}
+1000054004 = {
+	name="Guddala"
+	culture = tagelmust
+	religion = sunni
+}
+1000054005 = {
+	name="Gazzúla"
+	culture = tagelmust
+	religion = sunni
+}
+1000101120= {
+	name="Tánmak"   # Sanhaja/Tagelmust rulers over Tadmekka's Zanáta Berbers
+	culture = tagelmust
+	religion = west_african_pagan
+}
+1000101125= {
+	name="Kunta"   
+	culture = tagelmust
+}
+1000101127= {
+	name="Tamrust"   
+	culture = tagelmust
+	religion = sunni
+}
+1000101128= {
+	name="al-Jazzúlí"   
+	culture = tagelmust
+	religion = sunni
+}
+
+#################################
+# Sanhaja
+1000053595 = {
+	name="Kutama"   # sedentary tribe Kabá'il (Kabylia)
+	culture = sanhaja
+	religion = sunni
+}
+1000054000= {
+	name="Rand"
+	culture = sanhaja
+	religion = ismaili
+}
+1000101121= {
+	name="Azger"
+	culture = sanhaja
+	religion = west_african_pagan
+}
+1000101122= {
+	name="Wárith"
+	culture = sanhaja
+}
+1000101123 = {
+	name="Talkáta"   # sedentary tribe Aurés mts., tribe of the Zirid dynasty
+	culture = sanhaja
+}
+1000101126 = {
+	name="Awrába"   # sedentary tribe area around Fes
+	culture = sanhaja
+}
+1000101192 = {
+	name="al-Walmiya"
+	culture = sanhaja
+	religion = sunni
+}
+1000101195 = {
+	name="'Isám" # Banu 'Isám
+	culture = sanhaja #?
+	religion = sunni
+}
+1000101198 = {
+	name="Mazghanna" # Banu Mazghanna
+	culture = sanhaja #?
+	religion = sunni
+}
+1001000000= {
+	name="al-Bakkarí"        # Tamsalat of Tripoli
+	culture = sanhaja
+}
+1001000002= {
+	name="al-Ballutí"        # Mundhir the Qadi
+	culture = sanhaja
+}
+
+#################################
+# Zanata
+1000053594 = {
+	name="al-Khattábí"
+	culture = zanata
+	religion = ibadi
+}
+1000053596 = {
+	name="Matghara"
+	culture = zanata
+	religion = ibadi
+}
+1000054006= {
+	name="Abid"
+	culture = zanata
+	religion = ibadi
+}
+1000054007= {
+	name="Maqqarí"
+	culture = zanata
+	religion = ibadi
+}
+1000054008= {
+	name="Massiní"
+	culture = zanata
+	religion = sunni
+}
+1000054009= {
+	name="Lawáta"
+	culture = zanata
+	religion = sunni
+}
+1000054010= {
+	name="Mazáta"  # tribe in Surt and Waddán in Tripolitania
+	culture = zanata
+	religion = ibadi
+}
+1000101140= {
+	name="Hawwára"  # tribe in central Tripolitania
+	culture = zanata
+	religion = ibadi
+}
+1000101141= {
+	name="Askár"  # tribe south of Ghadámes
+	culture = zanata
+}
+1000101142= {
+	name="Tanáta"  # tribe near (east of) Ghadámes, related to Banú Idráj
+	culture = zanata
+	religion = ibadi
+}
+1000101143= {
+	name="al-Abdún"  # dynasty of Lawáta tribe in Dakhla (al-Wahát/Egypt)
+	culture = zanata
+	religion = ibadi
+}
+1000101144= {
+	name="Mzab"  # tribe in Mzab - mu'tazilite, since 11th century ibadi; Mus'ab in Arabicized form
+	culture = zanata
+	religion = ibadi
+}
+1000101145= {
+	name="as-Samh"  # dynasty in Fezzan in 9th century
+	culture = zanata
+	religion = ibadi
+}
+1000101146= {
+	name="Kaldín"  # tribe in Fezzan, related to Hawwára
+	culture = zanata
+}
+1000101147= {
+	name="Idráj"  # tribe in Jerid
+	culture = zanata
+}
+1000101148= {
+	name="Zanára"  # dynasty of Lawáta tribe in Buhayra
+	culture = zanata
+	religion = sunni
+}
+1000101149= {
+	name="Rígha"  # A Maghráwa Zanáta tribe ruling in Wádí Rígh (Arígh to Wargla)
+	culture = zanata
+	religion = ibadi
+}
+1000101260= {
+	name="Warjílán"  # A Zanáta branch, founders of Wargla
+	culture = zanata
+}
+1000101265= {
+	name="al-Midrarí"  # Sijilmasa
+	culture = zanata
+	religion = sunni
+}
+1000101266= {
+	name="Ífran"  # Sala
+	culture = zanata
+	religion = sunni
+}
+1000101267= {
+	name="Iwalaten"  # fictional - Walata
+	culture = zanata
+	religion = ibadi
+}
+1000101268= {
+	name="Khazrún"  # Tripolitania
+	culture = zanata
+	religion = ibadi
+}
+1000101269= {
+	name="Másila"  # east of Barqa
+	culture = zanata
+	religion = ibadi
+}
+1000101270= {
+	name="al-Barghawatí"  # Suqut al-Barghawati
+	culture = zanata
+	religion = sunni
+}
+1000101193 = {
+	name="Infúsen" # Nafusa
+	culture = zanata
+	religion = ibadi
+}
+1000101196 = {
+	name="al-Azdájí"
+	culture = zanata #?
+	religion = sunni
+}
+
+#################################
+# Tuareg
+
+1000100880= {
+	name="Targa"
+	culture = tuareg
+	religion = west_african_pagan
+}
+1000100881= {
+	name="Saghmára"     # tribe NE living of Tadmekka
+	culture = tuareg
+	religion = west_african_pagan
+}
+1000100882= {
+	name="Asabat"       # Tuareg pagan tribe from Hoggar
+	culture = tuareg
+	religion = west_african_pagan
+}
+1000100883= {
+	name="Tútak"        # Sanhája/Tuareg tribe in Tamanrasset
+	culture = tuareg
+}
+1000100884= {
+	name="Tawárik"        # AKA Tarqa sometimes considered as (Veiled) Sanhaja
+	culture = tuareg
+}
+1000101190= {
+	name="Azbin"        # AKA Tarqa sometimes considered as (Veiled) Sanhaja
+	culture = tuareg
+	religion = west_african_pagan
+}
+1000101191= {
+	name="Tikarkarín"        # AKA Tarqa sometimes considered as (Veiled) Sanhaja
+	culture = tuareg
+}
+1000101197= {
+	name="Gobiri" 
+	culture = tuareg
+	religion = sunni
+}
+
+#1000100884 - last free Tuareg dynasty used
+#1000101199 - formerly Hausa dynasties freed for Tuaregs
+

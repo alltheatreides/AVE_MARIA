@@ -1,0 +1,59 @@
+# -*- ck2.history.provinces -*-
+
+# 802 - Alexandria
+
+# County Title
+title = c_alexandria
+
+# Settlements
+max_settlements = 5
+
+b_hammam = castle
+b_abukir = city
+b_alexandria = temple
+b_marabout = city
+
+#b_dukhayla = castle
+#b_naucratis = castle
+#b_elkanoun = castle
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+1.1.1 = {
+	build_wonder = wonder_lighthouse_alexandria
+	set_wonder_stage = 4
+}
+
+867.1.1 = { 
+	b_hammam = ca_keep_1
+	b_hammam = ca_training_grounds_1
+	b_hammam = ca_stable_1
+	b_hammam = ca_wall_1
+	b_hammam = ca_wall_2
+	b_hammam = ca_militia_barracks_1
+	b_abukir = ct_port_1
+	b_abukir = ct_wall_1
+	b_abukir = ct_barracks_1
+	b_alexandria = tp_monastery_1
+	b_alexandria = tp_monastery_2
+	b_alexandria = tp_wall_1
+	b_alexandria = tp_barracks_1
+}
+1100.1.1 = { culture = egyptian_arabic }
+
+1303.1.1 = {
+	set_wonder_damaged = yes
+	set_wonder_stage = 2
+}
+
+1323.1.1 = {
+	set_wonder_stage = 1
+}
+
+1480.1.1 = {
+	destroy_wonder = yes
+}
+

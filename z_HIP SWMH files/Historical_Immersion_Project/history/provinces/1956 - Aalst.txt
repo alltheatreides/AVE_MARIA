@@ -1,0 +1,26 @@
+# - Aalst
+
+# County Title
+title = c_aalst 
+
+# Settlements
+max_settlements = 4
+b_aalst = castle
+
+#b_geraardsbergen = city 
+#b_ename = temple 
+#b_dendermonde = castle 
+
+#b_oudenaarde = city 
+#b_boelare = castle 
+#b_gavere = castle 
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+1062.1.1 = { b_ename = temple } 
+1068.1.1 = { b_geraardsbergen = city } 
+1087.1.1 = { b_dendermonde = castle } 
+1150.1.1 = { culture = dutch }

@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 900 - Jand
+
+# County Title
+title = c_jand
+
+# Settlements
+max_settlements = 5
+b_jand = tribal
+#b_yangikent = city
+#b_khuwara = temple # Tengri Holy Site
+#b_barchkent = city
+#b_syganak = temple
+
+# Misc
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+890.1.1 = { b_yangikent = city }
+930.1.1 = { b_khuwara = temple }
+1000.1.1 = { remove_settlement = b_khuwara }
+1030.1.1 = { religion = sunni } 
+1030.1.1 = { culture = turkmen } 
+1077.1.1 = { b_jand = castle }
+1077.1.1 = { b_barchkent = temple }
+
+
+#1152.1.1 = { b_jand = castle} 
+1220.1.1 = { remove_settlement = b_yangikent }
+1225.1.1 = { remove_settlement = b_barchkent }
+1230.1.1 = { culture = mongol } 
+1300.1.1 = { b_syganak = temple }

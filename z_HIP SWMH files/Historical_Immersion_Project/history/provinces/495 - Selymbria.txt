@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 495 - Selymbria
+
+# County Title
+title = c_selymbria
+
+# Settlements
+max_settlements = 7
+b_selymbria = castle
+b_raidestos = city
+b_herakleiaperinthos = temple
+b_ainos = city
+b_tzouroulos = city
+b_chariopolis = temple
+#b_kypsela = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1194.1.1 = { trade_post = b_ziani }
+# Catalan Company ravages the province
+
+1374.1.1 = { culture = turkish }
+1374.1.1 = { religion = sunni }

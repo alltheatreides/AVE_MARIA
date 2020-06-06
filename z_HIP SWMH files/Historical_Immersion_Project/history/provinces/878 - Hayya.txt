@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 878 - Hayya
+
+# County Title
+title = c_hayya
+
+# Settlements
+max_settlements = 3
+
+b_badi = tribal #abandoned in the 13th century
+#b_barakat = city #gold mine
+#b_ini = city
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+

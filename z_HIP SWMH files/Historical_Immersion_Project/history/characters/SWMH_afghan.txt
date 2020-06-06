@@ -1,0 +1,241 @@
+# -*- ck2.history.characters -*-
+
+
+##############################################
+#SWMH Afghan characters
+
+#Dynasties: 1000102300 - 1000102349
+#Characters: 1231300 - 1231399
+
+1231300 = {
+	name=Samantadeva
+	dynasty=1043006
+	religion=hindu
+	culture=panjabi
+	trait=kshatriya
+	father=175060 #?
+	845.1.1={
+		birth = yes
+	}
+	903.1.1={ #? deposed in ca. 900
+		death = yes
+	}
+}
+
+1231301 = {
+	name="Abu-Bakr"  # Lawik
+	dynasty=1062597
+	religion=sunni
+	culture=afghan #heritage unknown, but Pashto characters are rare so making him one
+	920.1.1={
+		birth = yes
+	}
+	973.1.1={ #? fled to India with his son in 962
+		death = yes
+	}
+}
+1231302 = {
+	name="Beyan"  # fantasy daughter of Kallar
+  female=yes
+	dynasty=1043006
+	religion=hindu
+	culture=panjabi
+	trait=kshatriya
+  father=175060
+	846.1.1={
+		birth = yes
+	}
+#	866.1.1={
+#		add_spouse=188712
+#	}
+	895.1.1={
+		death = yes
+	}
+}
+1231303 = {
+	name=Mohammad
+	religion=sunni
+	culture=afghan
+	829.1.1={
+		birth = yes
+	}
+	878.1.1={
+		death = yes
+	}
+}
+1231304 = {
+	name=Îsmaîl
+	religion=sunni
+	culture=afghan
+	835.1.1={
+		birth = yes
+	}
+	888.1.1={
+		death = yes
+	}
+}
+1231305 = {
+	name="Ibrahim" # fictitious
+	dynasty=1042109
+	religion="sunni"
+	culture="afghan"
+	father=1231316
+	838.1.1={
+		birth = yes
+	}
+	889.1.1={
+		death = yes
+	}
+}
+1231306 = {
+	name="Muhammad" # fictitious
+	dynasty=1042109
+	religion="sunni"
+	culture="afghan"
+	father=1231305
+	866.1.1={
+		birth = yes
+	}
+	922.1.1={
+		death = yes
+	}
+}
+1231307 = {
+	name="Abu-Ali"  # b. Abu-Bakr Lawik
+	dynasty=1062597
+	religion=sunni
+	culture=afghan #heritage unknown, but Pashto characters are rare so making him one
+	father=1231301
+	940.1.1={
+		birth = yes
+	}
+	977.1.1={ #Battle of Charkh
+		death = {
+			death_reason=death_battle
+			killer=144123
+		}
+	}
+}
+1231308 = {
+	name="Asad" # historical
+	dynasty=1062596
+	religion=sunni
+	culture=khorasani
+	father=261322 #?
+	942.1.1={
+		birth=yes # maybe
+	}
+	994.1.1={
+		death=yes # maybe
+	}
+}
+1231309 = {
+	name="Muhammad Abu Nasr" # historical
+	dynasty=1062596
+	religion=sunni
+	culture=khorasani
+	father=1231308
+	964.1.1={
+		birth=yes # maybe
+	}
+	1018.1.1={
+		death=yes # could have survived after Ghaznavid occupation of Gharchistan
+	}
+}
+1231310 = {
+	name="Muhammad" # historical
+	dynasty=1062596
+	religion=sunni
+	culture=khorasani
+	father=1231309
+	983.1.1={
+		birth=yes # maybe
+	}
+	1034.1.1={
+		death=yes # could have survived after Ghaznavid occupation of Gharchistan
+	}
+}
+1231311 = {
+	name="Abu-Yusuf" # fictitious
+	dynasty=1042109
+	religion="sunni"
+	culture="afghan"
+	father=1231306
+	896.1.1={
+		birth = yes
+	}
+	947.1.1={
+		death = yes
+	}
+}
+1231312 = {
+	name="Muhammad" # fictitious
+	dynasty=1042109
+	religion="sunni"
+	culture="afghan"
+	father=1231311
+	922.1.1={
+		birth = yes
+	}
+	982.1.1={
+		death = yes
+	}
+}
+1231313 = {
+	name="Ali" # fictitious
+	dynasty=1042109
+	religion="sunni"
+	culture="afghan"
+	father=1231312
+	945.1.1={
+		birth = yes
+	}
+	993.1.1={
+		death = yes
+	}
+}
+1231314 = {
+	name="Benesh" # name fictional; mother of Mahmud and Nasr b. Sebuktigin who is described as "daughter of the mayor of Zavolistan"
+	female=yes
+	dynasty=1000101829
+	religion="sunni"
+	culture="afghan"
+	950.1.1={ #?
+		birth = yes
+	}
+	968.1.1={
+		add_spouse=144123
+	}
+	1005.1.1={ #?
+		death = yes
+	}
+}
+1231315 = {
+	name="Shahpur" # fictitious
+	dynasty=1042109
+	religion="buddhist"
+	culture="afghan"
+	trait=kshatriya
+	trait=mahayana_buddhist
+	father=188572
+	770.1.1={
+		birth = yes
+	}
+	823.1.1={
+		death = yes
+	}
+}
+1231316 = {
+	name="Anoushiravan" # fictitious
+	dynasty=1042109
+	religion="sunni" #In the early 9th century, members of the ruling family from Bamiyan appear as caliphal governors
+	culture="afghan"
+	father=1231315
+	802.1.1={
+		birth = yes
+	}
+	857.1.1={
+		death = yes
+	}
+}
+

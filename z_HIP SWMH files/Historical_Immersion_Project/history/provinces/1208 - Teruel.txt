@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1208 - Teruel
+
+# County Title
+title = c_teruel
+
+# Settlements
+max_settlements = 5
+b_mora_de_rubielos = castle
+b_teruel = city
+b_alpuente = city
+b_hijar = temple
+#b_utrillas = temple
+#b_calamocha = castle
+#b_montalban = castle
+
+
+# Misc
+culture = andalusian_arabic
+religion = sunni
+
+# History
+867.1.1 = { 
+	#b_teruel = ca_keep_1
+	b_teruel = ct_wall_1
+}
+1150.1.1 = { culture = aragonese }
+1150.1.1 = { religion = catholic }

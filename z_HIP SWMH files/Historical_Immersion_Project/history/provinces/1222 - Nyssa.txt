@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1222 - Nyssa
+
+# County Title
+title = c_nyssa
+
+# Settlements
+max_settlements = 2
+
+b_nyssa = castle
+b_aspona = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = desert # Seems to be a particularly arid part of the central Anatolian plateau
+
+# History
+
+# The Seljuks take over Anatolia
+
+1097.8.26 = { culture = turkmen }
+1097.8.26 = { religion = sunni }
+1256.1.1 = { culture = turkish }
+
+
+

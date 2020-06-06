@@ -1,0 +1,27 @@
+# 124 - Pfalz
+
+# County Title
+title = c_pfalz
+
+# Settlements
+max_settlements = 5
+
+b_heidelberg = castle
+b_speyer = temple
+
+#b_annweiler = city
+#b_erbach = castle 
+#b_landau_pfalz = city 
+
+#b_bolanden = castle 
+#b_wersau = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1148.1.1 = { b_erbach = castle }
+1170.1.1 = { culture = german }
+1219.1.1 = { b_annweiler = city }
+1274.1.1 = { b_landau_pfalz = city }

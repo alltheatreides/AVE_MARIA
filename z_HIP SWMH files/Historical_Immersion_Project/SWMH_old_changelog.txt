@@ -1,0 +1,282 @@
+
+Changelog
+############################
+SWMH version 2.901:
+############################
+49 provinces removed. Sorry Ireland:_
+Highkings of Ireland now titular kings of Tara
+Removal of several cultural and religous title usurp/formation requirements, mainly in persia.
+New/updated namelist for Sicilian arabs, Crimean Goths and Sardinians
+Tweaked Sardinian nomenclature
+Cultural modifiers redone and reduced in scope.
+Moray firth is open for traffic again as it is no longer part of the russian river system.
+Fabled unit sinkhole in the Karakum desert fixed. Who will stop the mongols now?
+Events for Hashshahin, Hansa, Jomsvikings adapted to work propperly with the map.
+Geats now got their culturesplit from Norse event.
+Large pile of other bugs fixed.
+
+Changelog
+############################
+SWMH version 2.9(EE version):
+############################
+----------------------
+Geographic and other worldscope changes:
+- Map expanded eastwards to encompase westernparts of the Tarim Bassin and western India.
+- Baltic area adjusted(mainly affects DK and Holstein)
+- Climate regions has been defined to support weather mechanics.
+- Previously outnoted dynamic names have been reactivated(no more Anglo-Saxon ruled Richmondshire X'D). 
+- Redrawn seaprovinces.
+- Last bookmark is set to 1205 for now. Later bookmarks will be readded as the remaing history gaps gets filled(we are working on it atm).
+- Greatly expanded linking of names for multiple cultures in the namelist.
+- Updated for 2.43
+----------------------
+Scenes of change
+----------------------
+CA scene:
+- CA overhauled(west and east Turkestan). Completely re-done provinces, barrony, de jure, etc setup.
+- Khitan culture added (sinnic group)
+- Implemented dynamic Turkish cultural evolution(Oghuz to Turkmen and Turkish)
+- New flags for all titles.
+- New title and province history 860ish-1200ish.
+- Lots of historic new charcters and dynasties, aswell as some flavour ones (Soghdian merchants of various religious denominations)have been added. Fixed historical dynasties, special effort put on Karakhanids.
+- Added a big bunch of historic tribes.
+- Mongol invasion events adapted to the new map.
+- Khitan!
+
+Persian scene:
+- Persia overhauled with historical instead of anachronistic kingdoms. Completely re-done provinces, barrony, de jure, etc setup.
+- New flags for all titles(Including Daylam).
+- Completely new cultural setup - Persian cultural bock broke down to Khorasani/Tajik/Daylamite and other cultures. Dynamic cultural changes connected with islamization of Iran (pre-Islamic persian->modern Persian, Soghdian -> Tajik, Khalaj->Pashtun). Cultural retinues changed to reflect the nature of cultures (Daylamites are mountineers, Baloch are nomads etc.)
+- New title and province history 860ish-1170ish. Including merchant republics in the Indian ocean.
+- Lots of historic new charcters and dynasties, aswell as some flavour ones have been added.
+
+Western Steppe Scene:
+- Overhaul of the western steppes(Tauric steppes, Khazaria, Alania and Volga-Bulgaria). Completely re-done provinces, barrony, de jure, etc setup.
+- Dynamic names for the western steppes implmented. Slavic, different Turkish and Greek(mainly in the south), are the most expanded but lots of other period appropiate ones have also been added.
+- New title and province history 850ish-1240ish, migration of the differnt tribes now follow their historical patterns.
+- Lots of historic new charcters and dynasties, aswell as some flavour ones have been added.
+- Added a big bunch of historic tribes(Mostely Qipchaq, Pecheneg and Oghuz ones).
+- New flags for allmost all titles.
+- Bashkir, Kasogi, East Gothic, Caucasian Avar and Caucasian Albanian cultures added.
+
+HRE scene:
+- added Franconian, (continental)Saxon, Bavarian, Alemannian, Thuringian, Low Frankish and Low German cultures
+- added cultural events for Low Frankish/Dutch, Saxon/Low German, and events which merges Franconian, Thuringian, Alemannian and Bavarian into (High) German
+- expanded the number of Arpitan provinces in Burgundy, Aquitania and France
+- added dynasties for Franconian, (continental)Saxon, Bavarian, Alemannian, Thuringian, Low Frankish and Low German cultures
+- cultural setup for the HRE overhauled, some adjacent areas (mainly Flanders in France) are also affected.
+- a few changes to the de jure setup of the HRE and added scripted capitals
+- added a duchy of Engern (Angria) to Saxony and a (ducal tier) landgraviate of Hessen to Franconia
+- Lotharingia is de jure before 959 and after 1190; (royal tier) stemduchies of Upper and Lower Lorraine are de jure between 959 and 1190
+- added creation conditions for titular kingdoms (Germany and Lotharingia)
+
+ERE scene:
+
+New stuff:
+  - overhaul of the ERE (21 new counties, 5 new de-jure duchies and 2 new kingdoms)
+  - overhaul of the ERE (completely re-done barony setup to much better reflect historical reality)
+  - dozens of new dynasties and characters for Greek, Turkish, Armenian, Georgian, Frankish and Italian cultures
+  - Introduced an Italian Latin Culture for Dalmatia
+  - Added greek/roman dynamic names for the entire width of the Roman Empire and whatever Alexandrian ones i could find to the east of the Roman/Persian border
+  - Added Turkish dynamic names especially for the territory of modern Anatolian Turkey and for the Balkans in general
+  - Added Frankish and Italian dynamic names for areas with a lot of Crusader activity (both sides of the Aegean, Cyprus and the Levant)
+  - Added Georgian, Armenian and Kurdish dynamic names for Eastern Anatolia and the Caucasus as far as i could find them and they were relevant
+
+Changes, overhauls:
+867 ERE:
+  - many title history changes
+  - Scripted a war between the ERE and the Paulicians in 867
+  - Added event troops for the Paulicians in 867
+  - many tweaks to the religious setup in the Balkan for 867 (Paganism is introduced on the province level)
+  - Added the Narentine state in the Adriatic for 867
+  - Added the Paulician state around Tephrike for 867
+                                                                                  
+1066 and later ERE:
+  - many title history changes up until and including 1204 for the ERE and neighbours
+  - Scripted a war between the ERE and the Pechenegs between 1066 and 1091
+  - Added event troops for the Pechenegs between 1066 and 1091
+  - Scripted a war between the ERE and the Normans of Sicily between 1081 and 1085
+  - Scripted several ERE rebellions between 1066 and 1081
+  - Added a titular duchy for Rhodos for Leo Gavalas
+  - Added a titular Kingdom title for Philaretos Brachamios to be able to unify the lands of Southwestern Anatolia under Armenian rule without demoting everyone to count status
+
+General changes:
+  - many tweaks to the culture and religious changes in Anatolia up until and including 1204 (Turkification)
+  - Tweaked the amount of Event troops that the Latin Empire gets for it's first and second ruler
+  - Finally introduced the Sicilian Arabic culture that have been present in our files for a while now on both province and character level (Maghrebis and Maghrebi provinces in Sicily are now Siculo Arab from 960 and after now)
+  - Added a native localisation for the Romanian Culture
+  - Small change to the native Greek noble titles
+  - Introduced more native Armenian noble titles and did small fixes of current ones
+  - Introduced native Georgian noble titles
+  - Moved the Orthodox Holy site from Piraeus to Mount Athos in Chalkidike
+  - Locked the reformed Roman Empire from creating several Kingdoms (Nikaea, Trebizond, Byzantium and Epirus)
+  - Locked several Kingdoms under the Ecumenical Patriarch
+
+Other history fixes:
+  - Azim family is back as rulers of Makuria from 1066 and later
+  - Removed several duplicate baronies in Egypt, Syria, Jerusalem and Jazira
+  - Fixed general errors in the character history files for Greek, Turkish, Armenian, Frankish and Italian characters active on the territory of the Empire
+
+Vest and East slavic scene:
+  - Empire reshuffle for 867.
+  - Poland-Lithuania and Hungarian empire have been removed for 867, and Galich-Volhyina is part of the Russian de jure empire tier in 867.
+  - Added a several historic charcters and dynasties to Great Moravia.
+  - Wends can raid and travel rivers
+
+Finnc scene:
+- Overhaul of Finno Russia(Vepsia and Perm). Completely re-done provinces, barrony, de jure, etc setup.
+- New flags for allmost all titles.
+- New history for Finno-Russia 860ish-1400ish, Russian and Altaic progression into the finnic world now replicated
+- Lots of historic new charcters and dynasties, aswell as some flavour ones have been added.
+- Dynamic names for Finno Russia. Slavic and different Turkish ones are the most expanded but lots of other period appropiate ones have also been added.. 
+- New tribes for the whole Finnic scene. Go Kylfings! ^_^
+- Bjarmian and Ingrian culture merged into Vepsian and Estonian/Karelian. Samoyed culture has reapeared, and Khanty has been replaced with their Mansi cousins.
+- Holysites for Finns has been made more historical.
+- Estonians and Sami can raid and travel rivers.
+- Livonians and Mordvins can raid.
+
+Baltic scene:
+- Holysites for Balts has both been made more historical.
+- New flags for most of Prussia and Livonia
+- All Baltic cultures can raid.
+
+Balkan scene:
+- Dalmatian islands is connected via adjencies to the mainland.
+
+Scandinavian scene:
+ - Geographical tweaking mainly affecting Holstein and Sjælland.
+ - Full reoverhaul of Denmark for more coherent setup. Completely re-done provinces, barrony, de jure, etc setup. Denmark is not overpowered!
+ - 80%+ of barronies are now localised after their denomination in Liber Census Daniæ( aka King Valdemar's Jordebog(landbook)), the remaining all got names as attested in other sources between 1180-1340.
+ - New flags for all title within Scandinavia and Finland propper.
+ - Slightly expanded Danish history for mid and Late game.
+
+Carpathian scene:
+- reoverhaul of eastern Hungary(Transylvania, Bacs, Bihar, Csanad), Moldavia, and Wallachia. (Two new provinces, one in Wallachia and one in Transylvania). Redone barrony and province history setup for the whole area)
+- Dynamic names in the reoverhauled area. Romanian, Hungarian and German covering almost everything. Turkish, Greek and differnt Slavic ones are also reasonably developed but of smaller realtive scope.
+- Hungary cultural diversity and its evolution better represented.
+- Szekely culture added (magyar group)
+- New Wallachian history 1066-1300.
+- Couple of historic vlach charcters, aswell as some flavour ones have been added.
+- Two new Vlach tribes have been added.
+- Hungarian empire tier is now simply that, rather than Etelköz.
+
+Indian scene:
+ - Rajasthan added.
+
+British isles:
+- Some localisations and history tweaks for Lincoln. 
+- Selkirk and Peebles merged, now Tweedale.
+- titular kingdom of the old north added.
+
+Italian scene(outside the changes coverd under ERE):
+- New namelist for Sardinian culture.
+
+----------------------
+#Minor and mixed
+----------------------
+
+Couple of codetag changes:
+the Estonian culturetag "ugricbaltic" from vanilla has been restored, replacing "tsuddi" culturetag
+ingrian culture removed(split between karelian and ugricbaltic instead)
+samoyed now used for Samoyed(nenets) culture again rather than as a bjarmian culture tag(they are now a vepsian tribe instead).
+
+Bugs fixed:
+Bizillion bugs of pretty much every kind have been fixed. Especially title charcter history ones have been pruned in thousands.
+
+#####################################################################################################################################
+#Old stuff
+#####################################################################################################################################
+Version number 2.853 works with Ck2 version 2.0 (Ironman steamachievments not supported as SWMH changes the cheksum)
+
+SWMH 2.853 Changelog:
+Compability with patch(still no India).
+Redsea naviagble.
+Some fixes, and some minor changes.
+
+SWMH 2.852 changelog:
+
+Major:
+
+Redrawn projection for eastern part of the map.
+River and lake overhaul for the eastern part of the map, with a bizillion new and redrawn rivers.
+Overhaul of East Africa
+Overhaul of the Balkans and Istria.
+Dynamic naming for Balkans and Istria
+Initial rework of Persia and the Caucasus.
+Ruwaards dynamic names for the Lotharingen and the Lowlands.
+
+Minor(that isn't related to any of the major):
+Carinthian dynasties added.
+Russian corrections and tweaks.
+Bug fixes and countless other stuff we fogotten at the time of writing.
+
+
+A special thanks to:
+Ruwaard for the massive amount of dynamic names to the Lowlands region.
+theking1988 for advice on EA aswell as betatesting.
+Dragovit for advice on Russia
+SBolshevik for advice on the Balkan
+smederevo991 for advice on the Balkan
+Maestro Ugo for advice on the Balkan
+
+
+
+Some hoped for stuff sadly not included in this version(inorder to have it available in good time before ROI, but don't worry they will come):
+More navigable rivers, Dubrovnik republic.
+
+
+
+
+____
+
+Changelog:
+
+New stuff:
+- map of Africa extended to the Chad region and Darfur (3 new de jure kingdoms, 7 duchies, 22 counties)
+- overhaul of Nubia  (15 new counties, 5 de jure new duchies and 1 new kingdom)
+- 6 new African cultures in Central and East Africa - !!!! credits for Cybrxkhan
+- dozens of new dynasties and characters for Bohemian, Moravian and West African cultures
+- over 2 dozens of new tribes all over the Sahara, West and East Africa, vast majority (except 2-3) of them historical.
+
+Changes, overhauls:
+867 Africa:
+  - many de-facto changes
+  - created de jure kingdom of Takrur
+  - changes in cultures' and religions' spread in Africa
+  - character files of west african cultures splitted
+                                                                                  
+867 Central Europe:
+  - Moravia territory was made smaller - its territories to the north and west were made independent tribes.
+  - Bohemia chenged into tribe and made independent
+  - Silesia and Wendi tribes independent on Moravia
+  - Moravia was made de jure kingdom, Bohemia is 1-duchy kingdom with necessity to control Moravia or some other duchy.
+
+General changes:
+- overhaul of Berber culture group - 1 new culture, cultures now named in Berber language
+    - 2 "dark" cultures: Tuareg (Kel Tamashek) and Dark/Veiled Sanhaja (Tagelmust)
+    - 3 "light" cultures Zanáta (Aznáta), Masmúda, Sanhája (Znága)
+- changed d_shiite and d_sunni to k_, 1066 Fatimids are nof k_shiite instead of k_egypt
+- Canary islands changed culture (Zanata) and religion fixed to West african pagan (instead of plain Pagan)
+
+Other history fixes:
+  - Banu Hilal recreated in 1066
+  - Riyahid emirate of Tunis now independent from Zirid kingdom of Ifrikiya
+  - c_znojmo belongs to Bohemia/Moravia in its entire history
+
+ Other stuff
+ - decent sized mixed bag of bug fixing, tweaks and minor additions.
+ 
+Special thanks too:
+Cbrxkhan for african cultures (the 6 new for East and Central Africa) and for inspiration concerning that region
+theKing1988 for testing, and notes especially on Eastern Africa
+SlimG for inspirative discussion concerning Moravian new setup.
+Ruwaard for the Erzjägermeister title.
+
+
+
+
+
+
+
+
+

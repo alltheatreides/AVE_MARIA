@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 1288 - Lubny
+
+# County Title
+title = c_lubny
+
+# Settlements
+max_settlements = 3
+
+b_lubny = tribal
+#b_snityn = city
+#b_lukolm = castle
+#b_grosin = city
+#b_vosin = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+840.1.1 = {
+	culture = old_hungarian
+	religion = tengri_pagan
+}
+895.1.1 = {
+	culture = russian
+	religion = slavic_pagan
+}
+1025.1.1 = {religion = orthodox }
+1060.1.1 = { b_lubny = castle }
+#1060.1.1 = { religion = tengri_pagan }
+#1060.1.1 = { culture = oghuz }
+#1223.1.1 = {religion = orthodox }

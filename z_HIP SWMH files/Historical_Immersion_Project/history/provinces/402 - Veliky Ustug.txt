@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 402 - Veliky Ustyug
+
+# County Title
+title = c_veliky_ustug
+
+# Settlements
+max_settlements = 3
+
+b_gledenustyg = tribal
+#b_velikyustug = city
+
+#b_troitsegledenskymonastery = temple
+#b_dymkovskaya = city
+
+# Misc
+culture = vepsian
+religion = finnish_pagan
+
+# History
+1190.1.1 = { b_gledenustyg = castle }
+1220.1.1 = { b_velikyustug = city }
+1220.1.1 = { culture = russian }
+1220.1.1 = { religion = orthodox }

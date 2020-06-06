@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 2014 - Maysan
+
+# County Title
+title = c_maysan
+
+# Settlements
+max_settlements = 6
+b_almadar = castle
+b_maysan = city
+b_alfurat = temple
+b_abbadan = city
+b_abdasi = temple
+
+#b_bayan = temple
+#b_fasi = castle #in the sub-district of Abarqubadh
+#b_alhatra = city
+#b_albazzaz = city
+
+culture = levantine_arabic
+religion = sunni
+terrain = marsh
+
+# History
+1200.1.1 = { remove_settlement = b_alfurat } #in ruins by the time Yaqut was writing

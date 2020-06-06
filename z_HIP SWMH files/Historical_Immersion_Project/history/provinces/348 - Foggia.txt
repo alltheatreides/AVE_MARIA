@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 348 - Foggia # Monte'sant Angelo
+
+# County Title
+title = c_foggia
+
+# Settlements
+max_settlements = 6
+
+b_monte_sant_angelo = castle
+b_seponto = temple
+b_lavello = castle
+b_venosa = castle
+#b_foggia = city
+#b_troia = city
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = farmlands
+
+# History
+1000.1.1 = { b_foggia = city }
+1018.1.1 = { b_troia = city }
+1101.1.1 = { trade_post = b_dandolo }
+1140.1.1 = { culture = neapolitan }

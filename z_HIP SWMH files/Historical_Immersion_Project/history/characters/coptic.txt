@@ -1,0 +1,32 @@
+#Rebel leader in Delta area
+
+248242 = {
+	name="Pakhom" 
+	dynasty=1059071
+	religion="miaphysite"
+	culture="coptic"
+	trait=peasant_leader
+	trait=just
+	trait=tough_soldier
+	trait=flat_terrain_leader
+	trait=zealous
+	747.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+248243 = {
+	name="Shosi" 
+	dynasty=1059071
+	religion="miaphysite"
+	culture="coptic"
+	father=248242
+	768.1.1={
+		birth=yes
+	}
+	830.1.1={
+		death=yes # rebellion put down
+	}
+}

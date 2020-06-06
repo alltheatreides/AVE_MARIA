@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 350 - Ancona
+
+# County Title
+title = c_ancona
+
+# Settlements
+max_settlements = 6
+
+b_ancona = city
+b_jezi = temple
+b_fermo = castle
+b_osimo = city
+#b_macerata = city
+#b_loreto = castle
+
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = farmlands
+# History
+
+866.1.1 = { capital = b_fermo }
+870.1.1 = { capital = b_ancona }
+1000.1.1 = { trade_post = b_porto_ancona }
+#1149.1.1 = { capital = b_ancona }

@@ -1,0 +1,31 @@
+#Cinque Ports family
+1066.10.14 = {
+	holding_dynasty = 1000100172 # de Criol - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066955 # Robert de Criol
+}
+1100.1.1 = {
+	holder = 1066956 # Bartholomew de Criol
+}
+1124.1.1 = {
+	holder = 1066957 # #Nicholas de Criol
+}
+1139.1.1 = {
+	holder = 1066958 # Bartholomew II de Criol
+}
+1185.1.1 = {
+	holder = 1066959 # John I de Criol
+}
+1215.1.1 = {
+	holder = 1066960 # Bertram de Criol
+}
+1256.1.1 = {
+	holder = 1066966 # Nicholas II de Criol
+}
+1275.1.1 = {
+	holder = 1066967 # Nicholas III de Criol
+}
+1295.1.1 = {
+	holder = 0
+	liege=0
+}

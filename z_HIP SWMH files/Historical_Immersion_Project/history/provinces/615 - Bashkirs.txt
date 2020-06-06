@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 615 - Bashkirs # Belaya/Aghidhel
+
+# County Title
+title = c_bashkirs
+
+# Settlements
+max_settlements = 3
+
+b_ufa = tribal
+#b_nemzhan = city
+#b_gurkhan = temple
+
+
+
+# Misc
+culture = bashkir
+religion = tengri_pagan
+terrain = hills
+
+# History
+975.1.1 = { religion = sunni } 
+
+
+

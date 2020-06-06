@@ -1,0 +1,21 @@
+# -*- ck2.history.titles -*-
+
+1057.1.1 = { #Zirid al-Mu'izz's lieutenant Qa'id b. Maymun tasked with defending Kairwan; takes refuge in Mahdiyya three years later
+	liege = c_medjerda
+	holder = 1600561
+}
+1060.1.1 = {
+	liege = c_kairwan
+	holder = 0
+}
+1066.1.1 = { #Qa'id b. Maymun recovers Kairwan under the Zirid Tamim's order
+	liege = c_medjerda
+	holder = 1600561
+}
+1071.1.1 = { #Qa'id b. Maymun pays homage to the Hammadids
+	liege = c_setif
+}
+1085.1.1 = { #? Zirid Tamim attacks Kairwan and Qa'id b. Maymun flees to Qalat banu Hammad; Kairwan starts paying tribute to the Hilali
+	liege = c_kairwan
+	holder = 0
+}

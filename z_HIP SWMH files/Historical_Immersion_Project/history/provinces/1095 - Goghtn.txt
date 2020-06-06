@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1095 - Goghtn
+
+# County Title
+title = c_goghtn
+
+# Settlements
+ max_settlements = 3
+b_ordubad = castle 
+b_nakhichevan = city
+b_agarak = city
+#b_goghtn = castle
+#b_mtsghun = temple 
+#b_kartchavan = castle
+#b_noragerd = city
+#b_boghrut = castle
+
+# Misc
+culture = armenian
+religion = apostolic
+terrain = hills # Goghtn shouldn't be mountains, it is one of the main transport arteries into Armenia, exactly because it's in a VALLEY. Question is, should it be hills or plains
+
+# History
+1320.1.1 = { 
+	culture = kurdish 
+	religion = sunni 
+}

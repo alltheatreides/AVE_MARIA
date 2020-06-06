@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1072 - Fjadrundaland
+
+# County Title
+title = c_fjadrundaland
+
+# Settlements
+max_settlements = 3
+b_alsno = tribal
+
+#b_enkoping = city
+#b_hagaslot = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1022.1.7 = { b_alsno = castle
+b_enkoping = city } 
+1035.1.1 = { culture = swedish } 
+1090.1.1 = { religion = catholic }
+#1187.1.1 = { b_enkoping = city }

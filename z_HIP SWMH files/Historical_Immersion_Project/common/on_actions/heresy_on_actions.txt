@@ -1,0 +1,8 @@
+# -*- ck2.on_actions -*-
+
+on_death = {
+	events = {
+		emf_heresy.1970 # Isma'ili Imamah claimant passes on trait to heir
+	}
+}
+

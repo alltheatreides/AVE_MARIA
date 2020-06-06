@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 897 - Irgiz
+
+# County Title
+title = c_irgiz
+
+# Settlements
+max_settlements = 2
+b_irgiz = tribal
+
+#b_akespe = city
+
+culture = oghuz
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+810.1.1 = { culture = pecheneg } 
+833.1.1 = { culture = oghuz } 
+1015.1.1 = {	culture = cuman }
+1230.1.1 = { culture = mongol } 

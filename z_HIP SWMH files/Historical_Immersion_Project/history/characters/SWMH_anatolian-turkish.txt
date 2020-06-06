@@ -1,0 +1,294 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH Anatolian Turkish characters
+###############################################################
+# SWMH Character Range: 1.000.232.630 - 1.000.232.899
+##############################################################################################
+
+#12326300-1232632 unused
+
+#Unnamed daughter of Saif ad-Din Beg-Temür, mother of Ghias ad-Din, husband of Rusudan
+1232633 = {
+	name="Gumus"
+	female=yes
+	dynasty=1000102951
+	religion="sunni"
+	culture="turkmen"
+	father=1232634
+	1175.1.1 = {
+		birth=yes
+	}
+	1224.1.1 = {
+		death=yes
+	}
+}
+#A slave commander who took over the rule from the childless Sökmen II
+1232634 = {
+	name="Beg-Temür Saif ad-Din"
+	dynasty=1000102951
+	religion="sunni"
+	culture="turkmen"
+	1146.1.1 = {
+		birth="1146.1.1"
+	}
+	1193.1.1 = {
+		death="1193.1.1"
+	}
+}
+#Another slave commander
+1232635 = {
+	name="Aq-Sunqur Badr ad-Din"
+	dynasty=1000102965
+	religion="sunni"
+	culture="turkmen"
+	1149.1.1 = {
+		birth="1149.1.1"
+	}
+	1198.1.1 = {
+		death="1198.1.1"
+	}
+}
+#Another slave commander
+1232636 = {
+	name="Qutlugh Shuja ad-Din"
+	dynasty=1000102966
+	religion="sunni"
+	culture="turkmen"
+	1142.1.1 = {
+		birth = yes
+	}
+	1198.1.10 = {
+		death = yes
+	}
+}
+#Another slave commander
+1232637 = {
+	name="Malik al-Mansur Muhammad"
+	dynasty=1000102951
+	religion="sunni"
+	culture="turkmen"
+	father=1232634
+	1162.1.1 = {
+		birth=yes
+	}
+	1206.1.1 = {
+		death="1206.1.1"
+	}
+}
+#The last Ahlatshah ruler, appears to also have been a slave Commander
+1232638 = {
+	name="Balaban Izz ad-Din"
+	dynasty=1000102967
+	religion="sunni"
+	culture="turkmen"
+	1162.1.1 = {
+		birth="1162.1.1"
+	}
+	1207.8.1 = {
+		death="1207.8.1"
+	}
+}
+#A commander in the Seljuk army tasked with taking Harput/Elazig. Founded a principality based on his conquest in 1085. Was suceeded by his son
+1232639 = {
+	name="Cubuk"
+	dynasty=1000102952 #id taken from our file#
+	religion="sunni"
+	culture="turkmen"
+	1038.1.1 = {
+		birth="1038.1.1"
+	}
+	1092.1.1 = {
+		death="1092.1.1"
+	}
+}
+#The son of Cubuk, ruled Harput until 1112
+1232640 = {
+	name="Mehmet"
+	dynasty=1000102952 #id taken from our file#
+	religion="sunni"
+	culture="turkmen"
+	father=1232639
+	1065.1.1 = {
+		birth="1065.1.1"
+	}
+	1113.1.1 = {
+		death="1113.1.1"
+	}
+}
+#The son of Zülkarneyn and the last Emir of Malatya
+1232641 = {
+	name="Nâsireddin"
+	dynasty=101730
+	religion="sunni"
+	culture="turkmen"
+	father=34216
+	1140.1.1 = {
+		birth="1140.1.1"
+	}
+	1180.1.1 = {
+		death="1180.1.1"
+	}
+}
+#Supplanted Nasireddin for a short while as the ruler of Malatya
+1232642 = {
+	name="Fahreddin"
+	dynasty=101730
+	religion="sunni"
+	culture="turkmen"
+	father=34216
+	1141.1.1 = {
+		birth="1141.1.1"
+	}
+	1172.1.1 = {
+		death="1172.1.1"
+	}
+}
+#The Treacherous Seljuk envoy who pretended to serve the Empire only to take Sinope for himself
+1232643 = {
+	name="Karatekin"
+	dynasty=1000102958
+	religion="sunni"
+	culture="turkmen"
+	1049.1.1 = {
+		birth="1049.1.1"
+	}
+	1102.1.1 = {
+		death="1102.1.1"
+	}
+}
+#The Emir who preceded Thoros of Edessa as ruler of the city. Was overthrown by Tutush Seljuq
+1232644 = {
+	name="Bouzan"
+	dynasty=1000102959
+	religion="sunni"
+	culture="turkmen"
+	1049.1.1 = {
+		birth="1049.1.1"
+	}
+	1102.1.1 = {
+		death="1102.1.1"
+	}
+}
+#The Governor of Nikaea at the time of Suleymans defeat at Antioch in 1086. Declared himself Sultan but his authority was weak at best. It's at this point that the Danishmendids start to assert their own independence.
+1232645 = {
+	name="Abu'l-Qasim"
+	dynasty=7522
+	religion="sunni"
+	culture="turkmen"
+	father=1232649
+	1043.1.1 = {
+		birth="1043.1.1"
+	}
+	1094.1.1 = {
+		death="1094.1.1"
+	}
+}
+#Founded a Beylik based on Ephesus and Philadelphia. Seems like he was alternating between acknowledging Caka Bey, Abu'l Qasim and Kilij Arslan as his liege
+1232646 = {
+	name="Tanribermis"
+	dynasty=1000102960
+	religion="sunni"
+	culture="turkmen"
+	1043.1.1 = {
+		birth="1043.1.1"
+	}
+	1099.1.1 = {
+		death="1099.1.1"
+	}
+}
+#Founded a Beylik based on Ephesus and Philadelphia. Seems like he was alternating between acknowledging Caka Bey, Abu'l Qasim and Kilij Arslan as his liege
+1232647 = {
+	name="Elkhan-Beg" #Called Elchanes in the Alexiad, i'm calling him Elkhan-Beg Elchanes
+	dynasty=1000102961
+	religion="sunni"
+	culture="turkmen"
+	1043.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		religion="orthodox"
+	}
+	1084.1.1={
+		culture="greek"
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+#The brother of the Governor of Nikaea at the time of Suleymans defeat at Antioch in 1086.
+1232648 = {
+	name="Abu'l-Gazi"
+	dynasty=7522
+	religion="sunni"
+	culture="turkmen"
+	father=1232649
+	1044.1.1 = {
+		birth="1044.1.1"
+	}
+	1097.1.1 = {
+		death="1097.1.1"
+	}
+}
+#Abul-Qasim and Abul-Gazi's placeholder father
+1232649 = {
+	name="Ahmet"
+	dynasty=7522
+	religion="sunni"
+	culture="turkmen"
+	1018.1.1 = {
+		birth="1018.1.1"
+	}
+	1069.1.1 = {
+		death="1069.1.1"
+	}
+}
+#Turkoman who entered Byzantine Service
+1232650 = {
+	name="Nikephoros"
+	dynasty=1000102849
+	religion="orthodox"
+	culture="turkmen"
+
+	1101.1.1={
+		birth="1101.1.1"
+	}
+	1130.1.1={
+		culture="greek"
+	}
+	1159.1.1={
+		death="1159.1.1"
+	}
+}
+1232651 = {
+	name="Alexios"
+	dynasty=1000102871
+	religion="orthodox"
+	culture="turkmen"
+
+	1044.1.1={
+		birth = yes
+	}
+	1081.1.1={
+		culture="greek"
+	}
+	1092.1.1={
+		death = yes
+	}
+}
+1232652 = {
+	name="Ioannes"
+	dynasty=1000102846
+	religion="orthodox"
+	culture="turkmen"
+
+	1124.1.1={
+		birth = yes
+	}
+	1140.1.1={
+		culture="greek"
+	}
+	1177.1.1={
+		death = yes
+	}
+}

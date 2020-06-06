@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1378 - Massina
+
+# County Title
+title = c_massina
+
+# Settlements
+max_settlements = 3
+b_macina = castle
+b_dia = city
+
+#b_kabora = temple
+
+
+# Misc
+culture = soninke
+religion = west_african_pagan
+# History
+
+1200.1.1 = { religion = sunni }

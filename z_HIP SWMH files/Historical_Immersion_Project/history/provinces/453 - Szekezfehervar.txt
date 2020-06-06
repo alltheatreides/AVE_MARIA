@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 453 - Szekezfehervar #Csongrád
+
+# County Title
+title = c_szekezfehervar
+
+# Settlements
+max_settlements = 4
+
+b_csongrad = tribal
+#b_szeged = city
+#b_opusztaszer = temple
+#b_kecskemet = city
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = old_hungarian }
+1000.1.1 = { b_csongrad = castle }
+1025.1.1 = {
+	religion = catholic
+	culture = hungarian
+}
+1050.1.1 = { b_szeged = city }
+1150.1.1 = { b_opusztaszer = temple }
+1239.1.1 = { culture = cuman }
+
+

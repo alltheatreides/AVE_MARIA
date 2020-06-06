@@ -1,0 +1,102 @@
+# -*- ck2.minor_titles -*-
+
+#######################################
+# Heir apparent titles
+#######################################
+title_king_of_romans = {
+	dignity = 2
+	grant_limit = 1
+	opinion_effect = 10
+	realm_in_name = no
+	
+	monthly_prestige = 0.025
+
+	allowed_to_grant = {
+		is_feudal = yes
+		has_landed_title = e_hre
+	}
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		is_primary_heir = yes
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_dauphine_of_france = {
+	dignity = 2
+	grant_limit = 1
+	opinion_effect = 10
+	realm_in_name = no
+	
+	monthly_prestige = 0.015
+	
+	allowed_to_grant = {
+		is_feudal = yes
+		OR = {
+			has_landed_title = k_france
+			has_landed_title = e_hre_french
+		}
+	}
+
+	allowed_to_hold = {
+		OR = { 
+			is_female = no
+			liege = { gender_equality_trigger = yes }
+		}
+		c_dauphine_viennois = { owner_under_ROOT = yes }
+		is_primary_heir = yes
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+#title_baron_seymor = {
+#	grant_limit = 1
+#	opinion_effect = 10
+#	show_as_title = yes
+#	realm_in_name = no
+#	
+#	monthly_prestige = 0.005
+#
+#	allowed_to_grant = {
+#		is_feudal = yes
+#		has_landed_title = d_somerset
+#	}
+#
+#	allowed_to_hold = {
+#		is_female = no
+#		age = 16
+#		NOR = {
+#			culture = norwegian
+#			culture = danish
+#			culture = swedish
+#			culture = anglonorse
+#			culture = gothic
+#			culture = norse
+#			culture = norsegaelic
+#			culture = icelandic
+#			culture = saxon
+#		}
+#		is_primary_heir = yes
+#	}
+#	
+#	gain_effect = {
+#	}
+#	lose_effect = {
+#	}
+#
+#	message = yes
+#}

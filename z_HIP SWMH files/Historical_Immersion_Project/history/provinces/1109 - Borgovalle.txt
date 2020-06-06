@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1109 - Borgovalle
+
+# County Title
+title = c_borgovalle
+
+# Settlements
+max_settlements = 4
+
+b_luceoli = castle
+#b_cantiano = castle
+b_gubbio = temple
+b_citta_di_castello = city
+#b_montauto_anghira = castle
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = forest
+# History
+1040.1.1 = { b_montauto_anghira = castle } 
+1137.1.1 = { capital = b_montauto_anghira }
+1137.1.1 = { remove_settlement = b_luceoli } #Sacked by Lothair II
+1137.1.1 = { b_cantiano = castle } 
+1191.1.1 = { capital = b_cantiano}
+
+
+

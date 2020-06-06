@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 686 - Oromieh
+
+# County Title
+title = c_oromieh
+
+# Settlements
+max_settlements = 5
+b_oroumieh = castle
+b_khoy = city
+b_osnuye = city
+b_salmas = temple
+#b_shirakan = city #minor settlement, still settled today. Tübinger Atlas of the Near Orient (Map of Armenia and Georgia in the 10th-11th Century)
+#b_zarehawan = city #minor settlement, location today unknown. Tübinger Atlas of the Near Orient (Map of Armenia and Georgia around 1200)
+#b_zarawand = city #minor settlement, location today unknown. Mladjov Maps Caucasus 1064
+
+#Misc
+culture = kurdish
+religion = sunni
+terrain = hills # Urmia/Oromieh shouldn't be mountains either, Probably a bit too hilly to be plains, but hilly fits better than mountains
+
+# History

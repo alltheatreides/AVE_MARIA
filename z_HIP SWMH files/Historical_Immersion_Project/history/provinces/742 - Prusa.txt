@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 742 - Prusa
+
+# County Title
+title = c_prusa
+
+# Settlements
+max_settlements = 6
+
+b_lopadion = castle
+b_prusa = city
+b_miletopolis = temple
+b_apamea = city
+
+#b_apollonia = city
+#b_adrianoi = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1218.1.1 = { trade_post = b_ziani }
+1326.1.1 = { culture = turkish }
+1326.1.1 = { religion = sunni }
+1326.1.1 = { b_adrianoi = temple }

@@ -1,0 +1,170 @@
+# -*- ck2.history.technology -*-
+
+#MEDITERREAN
+
+technology = {
+	titles = {
+		d_alexandria
+		d_damietta
+		d_cairo
+		d_aswan
+	}  
+    
+	769 = {
+		military = 1.0
+		economy = 1.2
+		culture = 1.2
+		
+		TECH_CASTLE_CONSTRUCTION = 2.0
+		TECH_CITY_CONSTRUCTION = 2.0
+		TECH_LEGALISM = 2.0
+	}
+	   
+	1337 = {
+		military = 4.5
+		economy = 4.7
+		culture = 4.7
+	}  
+}   
+
+#NORTH AFRICA
+
+technology = {
+	titles = {
+		d_kabylia
+		d_qamuda
+		d_tripolitania
+		d_tlemcen
+		d_tunis
+		d_marrakech
+		d_sijilmasa
+		d_tangiers
+		d_fes
+		d_alger
+	}  
+    
+	769 = {
+		military = 0.8
+		economy = 1.0
+		culture = 1.0
+
+		TECH_CAVALRY = 1.7
+	}
+	   
+	1337 = {
+		military = 4.2
+		economy = 4.5
+		culture = 4.5
+	}  
+}
+
+#EAST AFRICA
+
+technology = {
+	titles = {
+		d_afar
+		d_gondar
+		d_damot
+		d_nobatia
+		d_nubia
+		d_sennar
+		d_berbera 
+		d_ifat    
+		d_tedjoura
+		d_amhara  
+		d_alodia  
+		d_badi
+		d_axum
+		d_aydhab
+		d_kassala       
+	}  
+    
+	769 = {
+		military = 0.3
+		economy = 0.2
+		culture = 0.2
+	}  
+	   
+	1337 = {
+		military = 3.5
+		economy = 3.7
+		culture = 3.9
+	}
+}   
+    
+#SAHARA
+    
+technology = {
+	titles = {
+		d_cyrenaica
+		d_zab
+		d_draa  
+		d_adrar   
+		d_taghaza 
+		d_alwahat  
+		d_darfur  
+		d_canarias
+		d_timbuktu
+		d_tanmak
+		d_tagant 
+		d_oualata
+		d_hoggar 
+		d_tuat   
+		d_mzab   
+		d_air    
+		d_fezzan
+		d_tibesti
+		d_wadai  
+		d_kawar  
+	}  
+	
+	769 = {
+		military = 0.6
+		economy = 0.2
+		culture = 0.1
+
+    	TECH_CAVALRY = 1.6
+    	TECH_MELEE = 1.0
+	}
+	
+	1337 = {
+		military = 3.9
+		economy = 3.7
+		culture = 3.5
+	}
+}
+
+#WEST AFRICA
+    
+technology = {
+	titles = {
+		d_ghana
+		d_mali
+		d_songhay
+		d_mema   
+		d_bambuk 
+		d_kala   
+		d_wolof  
+		d_takrur 
+		d_mossi  
+		d_bornu  
+		d_kanem  
+		d_kano   
+		d_kebbi  
+		d_gobir
+	}  
+	
+	769 = {
+		military = 0.1
+		economy = 0.7
+		culture = 0.3
+    
+    	TECH_TRADE_PRACTICES = 1.2
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.9
+		culture = 3.7
+	}
+}

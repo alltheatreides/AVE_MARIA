@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 793 - Makuria
+
+# County Title
+title = c_makuria
+
+# Settlements
+max_settlements = 6
+b_dongola = castle
+b_ghazali = temple
+b_hambukol = temple
+b_banganarti = temple
+
+#b_korti = castle
+#b_tumbus = temple
+#b_kerma = city
+#b_eddeba = castle
+#b_djebel_barka = temple
+
+#b_grnetti = castle
+#b_nuri = temple
+#b_kareima = city
+
+#b_tankasi = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History
+1337.1.1 = { b_korti = castle }

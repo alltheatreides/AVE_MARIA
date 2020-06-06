@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1136 - Catanzaro
+
+# County Title
+title = c_catanzaro
+
+# Settlements
+max_settlements = 6
+
+
+b_squillace = castle
+b_santa_severina = temple
+b_catanzaro = city
+#b_montelone = castle
+#b_ajello = castle
+b_crotone = city
+#b_martirano = temple
+
+
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+1066.1.1 = { trade_post = b_dandolo }
+1085.1.1={ culture = sicilian }
+1085.1.1={ religion = catholic }
+1085.1.1={ b_montelone = castle }
+1120.1.1={ b_ajello = castle }

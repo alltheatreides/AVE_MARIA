@@ -1,0 +1,41 @@
+# -*- ck2.history.provinces -*-
+
+# 31 - Cornwall
+
+# County Title
+title = c_cornwall
+
+# Settlements
+max_settlements = 4
+
+b_launceston = tribal
+b_bodmin = temple
+
+#b_restormel = castle
+#b_lostwithiel = castle
+#b_truro = castle
+#b_liskeard = castle
+#b_st_michael = temple
+#b_trematon = castle
+#b_bossiney = castle
+#b_cardinham = castle
+#b_helston = city
+#b_tintagel = castle
+#b_stgermains = temple
+
+
+# Misc
+culture = cornish
+religion = catholic
+
+
+# History
+1000.1.1 = { b_launceston = castle }
+1000.1.1 = { b_restormel = castle }
+1066.10.14 = {
+	trade_post = b_de_arsic
+}
+1230.1.1 = {
+	trade_post = b_de_northwode
+}
+1271.1.1 = { capital = b_restormel }

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1513 - Begemdir
+
+# County Title
+title = c_begemder
+
+# Settlements
+max_settlements = 3
+b_wayna_dega = castle
+b_sana = temple
+b_kibran = temple
+
+# Misc
+culture = falashim
+religion = jewish
+
+# History
+
+1270.1.1 = { culture = ethiopian }
+1270.1.1 = { religion = miaphysite }  

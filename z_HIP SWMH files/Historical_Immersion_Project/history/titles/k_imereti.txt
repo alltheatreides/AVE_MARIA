@@ -1,0 +1,22 @@
+# -*- ck2.history.titles -*-
+
+1259.1.1 = {
+	holder = 466519 # Davit Narin
+		set_tribute_suzerain = {
+		who = e_il-khanate
+		type = permanent
+	}
+}
+1293.1.15 = {
+	holder = 1234259 # Constantine of Imereti
+}
+1327.1.1 = {
+	holder = 466521 # Michael of Imereti
+}
+1329.1.1 = {
+	holder = 466520 # Bagrat Mtsire "the Minor"
+}
+1330.1.1 = {
+	holder = 0 # Imereti conquered by George V of Kartli-Kakheti, re-establishing a unified Georgian Kingdom
+	clear_tribute_suzerain = e_il-khanate
+}

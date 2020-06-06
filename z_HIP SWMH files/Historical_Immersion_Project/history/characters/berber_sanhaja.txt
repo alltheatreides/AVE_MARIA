@@ -1,0 +1,1647 @@
+# -*- ck2.history.characters -*-
+
+# includes also Dark Sanhaja (formerly Masmuda)
+
+#Salihids
+168253 = {
+	name="Mansur"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	660.1.1 = {
+		birth="660.1.1"
+	}
+	710.1.1 = {
+		death="710.1.1"
+	}
+}
+
+168254 = {
+	name="Salih"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168253
+	690.1.1 = {
+		birth="690.1.1"
+	}
+	749.1.1 = {
+		death="749.1.1"
+	}
+}
+
+168255 = {
+	name="al-Mu'tasim"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168254
+	710.1.1 = {
+		birth="710.1.1"
+	}
+	755.1.1 = {
+		death="755.1.1"
+	}
+}
+
+168256 = {
+	name="Idris"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168254
+	718.1.1 = {
+		birth="718.1.1"
+	}
+	760.1.1 = {
+		death="760.1.1"
+	}
+}
+
+168257 = {
+	name="Sa'id"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168256
+	745.1.1 = {
+		birth="745.1.1"
+	}
+	803.1.1 = {
+		death="803.1.1"
+	}
+}
+
+168258 = {
+	name="Salih"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168257
+	790.1.1 = {
+		birth="790.1.1"
+	}
+	864.1.1 = {
+		death="864.1.1"
+	}
+}
+
+
+168259 = {
+	name="Sa'id"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	trait="fortune_builder"
+	father=168258
+	830.1.1 = {
+		birth="830.1.1"
+	}
+	916.1.1 = {
+		death="916.1.1"
+	}
+}
+
+168260 = {
+	name="Salih"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168259
+	855.1.1 = {
+		birth="855.1.1"
+	}
+	927.1.1 = {
+		death="927.1.1"
+	}
+}
+
+168261 = {
+	name="Abd-al-Badi"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168258
+	838.1.1 = {
+		birth="838.1.1"
+	}
+	890.1.1 = {
+		death="890.1.1"
+	}
+}
+
+168262 = {
+	name="Abd-ar-Rahman"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168259
+	860.1.1 = {
+		birth="860.1.1"
+	}
+	910.1.1 = {
+		death="910.1.1"
+	}
+}
+
+168263 = {
+	name="Abd-al-Malik"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168262
+	880.1.1 = {
+		birth="880.1.1"
+	}
+	925.1.1 = {
+		death="925.1.1"
+	}
+}
+
+168264 = {
+	name="Isma'il"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168263
+	900.1.1 = {
+		birth="900.1.1"
+	}
+	935.1.1 = {
+		death={ death_reason=death_battle } #Died during a siege led by Fatimid saqlabi general Sandal
+	}
+}
+
+168265 = {
+	name="Qurra"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168255
+	745.1.1 = {
+		birth="745.1.1"
+	}
+	800.1.1 = {
+		death="800.1.1"
+	}
+}
+
+168266 = {
+	name="Muhammad"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168265
+	790.1.1 = {
+		birth="790.1.1"
+	}
+	850.1.1 = {
+		death="850.1.1"
+	}
+}
+
+168267 = {
+	name="Rumi"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168266
+	840.1.1 = {
+		birth="840.1.1"
+	}
+	900.1.1 = {
+		death="900.1.1"
+	}
+}
+
+168268 = {
+	name="Musa"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168267
+	880.1.1 = {
+		birth="880.1.1"
+	}
+	940.1.1 = {
+		death="940.1.1"
+	}
+}
+
+168269 = {
+	name="Idris"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168258
+	835.1.1 = {
+		birth="835.1.1"
+	}
+	885.1.1 = {
+		death="885.1.1"
+	}
+}
+
+168270 = {
+	name="Jurthum"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168269
+	855.1.1 = {
+		birth="855.1.1"
+	}
+	905.1.1 = {
+		death="905.1.1"
+	}
+}
+
+168271 = {
+	name="Adb-as-Sami"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168270
+	885.1.1 = {
+		birth="885.1.1"
+	}
+	947.1.1 = {
+		death="947.1.1"
+	}
+}
+
+
+
+168272 = {
+	name="Sa'id"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168269
+	860.1.1 = {
+		birth="860.1.1"
+	}
+	910.1.1 = {
+		death="910.1.1"
+	}
+}
+
+
+168273 = {
+	name="Ziyadet"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168272
+	880.1.1 = {
+		birth="880.1.1"
+	}
+	930.1.1 = {
+		death="930.1.1"
+	}
+}
+
+168274 = {
+	name="Jurthum"
+	dynasty=9575
+	religion="sunni"
+	culture="sanhaja"
+	father=168282
+	920.1.1 = {
+		birth="920.1.1"
+	}
+	971.10.1 = {
+		death="971.10.1"
+	}
+}
+#end Salihids
+
+20825 = {
+	name="Tamim" #Tunis 1062 - 1108
+	dynasty=595
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="lustful"
+	add_trait="fortune_builder"
+	add_trait="cynical"
+	add_trait="charitable"
+	add_trait="fair"
+	father=20935
+	mother=1600511
+	1027.1.1 = {
+		birth="1027.1.1"
+	}
+	1049.1.1 = {
+		religion="sunni"
+		add_trait="sympathy_christendom" #great lover of "Byzantine" girls and Chrstian ceremonies
+		add_trait="poet"
+	}
+	1062.1.1 = {
+		effect = { add_weak_claim = c_kairwan }
+	}
+	1108.1.1 = {
+		death="1108.1.1"
+	}
+}
+
+20832 = {
+	name="Ayyub"
+	dynasty=595
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="diligent"
+	add_trait="deceitful"
+	add_trait="scholarly_theologian"
+	father=20825
+	1045.1.1 = {
+		birth="1045.1.1"
+	}
+	1089.1.1 = {
+		death="1089.1.1"
+	}
+}
+
+20834 = {
+	name="an-Nasir" #Alger 1062-1088
+	# AKA: al
+	dynasty=575
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="diligent"
+	add_trait="wroth"
+	add_trait="intricate_webweaver"
+	mother=20937
+	1042.1.1={
+		birth="1042.1.1"
+	}
+	1078.1.1={
+		add_spouse=155090
+	}
+	1088.1.1={
+		death="1088.1.1"
+	}
+}
+
+20930 = {
+	name="Manad"
+	dynasty=595 
+	martial=4
+	diplomacy=4
+	intrigue=5
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	870.1.1 = {
+		birth="870.1.1"
+	}
+	920.1.1 = {
+		death="920.1.1"
+	}
+}
+
+20931 = {
+	name="Ziri" #Tunis 920 - 971
+	dynasty=595 #banu Ziri
+	martial=6
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="tough_soldier"
+	father=20930
+	910.1.1 = {
+		birth="910.1.1"
+	}
+	971.7.1 = {
+		death={
+			death_reason=death_battle
+			killer=1300103
+		}
+	}
+}
+
+20932 = {
+	name="Buluggin" #Tunis 973-984
+	dynasty=595
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="skilled_tactician"
+	father=20931
+	931.1.1 = {
+		birth="931.1.1"
+	}
+	984.1.1 = {
+		death="984.1.1"
+	}
+}
+
+20933 = {
+	name="al-Mansur" #Tunis 984 - 995
+	# AKA: Abu
+	dynasty=595
+	martial=5
+	diplomacy=5
+	intrigue=6
+	stewardship=5
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="tough_soldier"
+	add_trait="ambitious"
+	father=20932
+	948.1.1 = {
+		birth="948.1.1"
+	}
+	995.1.1 = {
+		death="995.1.1"
+	}
+}
+
+20934 = {
+	name="Badis" #Tunis 995 - 1016
+	dynasty=595
+	martial=4
+	diplomacy=5
+	intrigue=9
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	father=20933
+	965.1.1 = {
+		birth="965.1.1"
+	}
+	1016.1.1 = {
+		death="1016.1.1"
+	}
+}
+
+20935 = {
+	name="al-Muizz" #Tunis 1015 - 1062
+	# AKA: al
+	dynasty=595
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="fortune_builder"
+	father=20934
+	1008.1.1 = { #less than 9 years old when his father died
+		birth="1008.1.1"
+	}
+	1025.1.1 = {
+		add_spouse = "1600511"
+	}	
+	1049.1.1 = {
+		religion="sunni"
+	}
+	1057.1.1 = {
+		add_claim = c_kairwan
+	}
+	1062.1.1 = {
+		death="1062.1.1"
+	}
+}
+
+20936 = {
+	name="Hammad" #Alger 1014-1028
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="skilled_tactician"
+	add_trait="ambitious"
+	father=20932
+	965.1.1 = {
+		birth="965.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1028.1.1 = {
+		death="1028.1.1"
+	}
+}
+
+20937 = {
+	name="'Alennas"
+	# AKA: Alennas
+        female = yes
+	dynasty=595 
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	father=20936
+	1000.1.1 = {
+		birth="1000.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575 #nam Hammad
+		religion="sunni"
+	}
+	1062.1.1 = {
+		death="1062.1.1"
+	}
+}
+
+3210 = {
+	name="Ali" #Tunis 1116-1121
+	dynasty=595
+	martial=5
+	diplomacy=3
+	intrigue=5
+	stewardship=4
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="honest"
+	add_trait="cynical"
+	add_trait="tough_soldier"
+	father=3906
+	1080.1.1 = {
+		birth="1080.1.1"
+	}
+	1121.1.1 = {
+		death="1121.1.1"
+	}
+}
+
+3211 = {
+	name="Abdul-Hasan"
+	dynasty=595
+	martial=5
+	diplomacy=3
+	intrigue=5
+	stewardship=4
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="flamboyant_schemer"
+	father=3210
+	1100.1.1={
+		birth="1100.1.1"
+	}
+	1163.1.1={
+		death="1163.1.1"
+	}
+}
+
+3906 = {
+	name="Yahya" #Tunis 1108-1116
+	dynasty=595
+	martial=6
+	diplomacy=6
+	intrigue=8
+	stewardship=5
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="skilled_tactician"
+	father=20825
+	1062.1.1 = {
+		birth="1062.1.1"
+	}
+	1103.1.1 = {
+		add_spouse = "1600513"
+	}	
+	1116.1.1 = {
+		death={
+			death_reason=death_murder
+			killer=1600512 #his brothers who had been exiled
+		}
+	}
+}
+
+45014 = {
+	name="Zawi"
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="skilled_tactician"
+	add_trait="just"
+	add_trait="wroth"
+	father=20931
+	950.1.1 = {
+		birth="950.1.1"
+	}
+	1020.1.1 = {
+		death="1020.1.1"
+	}
+}
+
+45015 = {
+	name="Habus"
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="charismatic_negotiator"
+	father=45017
+	978.1.1 = {
+		birth="978.1.1"
+	}
+	1038.1.1 = {
+		death="1038.1.1"
+	}
+}
+
+45016 = {
+	name="Badis"
+	dynasty=595
+	martial=4
+	diplomacy=5
+	intrigue=9
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="charismatic_negotiator"
+	add_trait="greedy"
+	add_trait="arbitrary"
+	father=45015
+	1006.1.1 = {
+		birth="1006.1.1"
+	}
+	1073.1.1 = {
+		death="1073.1.1"
+	}
+}
+
+45017 = {
+	name="Maksan"
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	father=20931
+	952.1.1 = {
+		birth="952.1.1"
+	}
+	1018.1.1 = {
+		death="1018.1.1"
+	}
+}
+
+45018 = {
+	name="al-Qaid" #Alger 1028 - 1054
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="underhanded_rogue"
+	father=20936
+	985.1.1 = {
+		birth="985.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1054.1.1 = {
+		death="1054.1.1"
+	}
+}
+
+45019 = {
+	name="Yusuf"
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="underhanded_rogue"
+	father=20936
+	990.1.1 = {
+		birth="990.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1062.1.1 = {
+		death="1062.1.1"
+	}
+}
+
+45020 = {
+	name="Ouighlan" #Mahdia
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="underhanded_rogue"
+	father=20936
+	995.1.1 = {
+		birth="995.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1088.1.1 = {
+		death="1088.1.1"
+	}
+}
+
+45021 = {
+	name="Muhsin" #Alger 1054-1055
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=2
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	add_trait="amateurish_plotter"
+	add_trait="cruel"
+	father=45018
+	1005.1.1 = {
+		birth="1005.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1055.1.1 = {
+		death={
+			death_reason=death_murder
+			killer=45023
+		}
+	}
+}
+
+45022 = {
+	name="Muhammad"
+	dynasty=595
+	martial=4
+	diplomacy=4
+	intrigue=4
+	stewardship=6
+	religion="ismaili"
+	culture="sanhaja"
+	father=20936
+	991.1.1 = {
+		birth="991.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1040.1.1 = {
+		death="1040.1.1"
+	}
+}
+
+45023 = {
+	name="Buluggin" #Alger 1055-1062
+	dynasty=575
+	martial=4
+	diplomacy=4
+	intrigue=6
+	stewardship=4
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="elusive_shadow"
+	add_trait="paranoid"
+	add_trait="ambitious"
+	father=45022
+	1025.1.1 = {
+		birth="1025.1.1"
+	}
+	1062.1.1 = {
+		death={
+			death_reason=death_murder
+			killer=20834
+		}
+	}
+}
+
+45024 = {
+	name="al-Mansur" #Alger 1088-1105
+	dynasty=575
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="sunni"
+	culture="sanhaja"
+	add_trait="diligent"
+	add_trait="thrifty_clerk"
+	father=20834
+	1065.1.1 = {
+		birth="1065.1.1"
+	}
+	1110.1.1 = {
+		death="1110.1.1"
+	}
+}
+
+32991 = {
+	name="Buluggin"
+	dynasty=595
+	religion="sunni"
+	culture="sanhaja"
+	father=45016
+	1039.1.1 = {
+		birth="1039.1.1"
+	}
+	1065.1.1 = {
+		death="1065.1.1"
+	}
+}
+
+32951 = {
+	name="Tamim"
+	dynasty=595
+	religion="sunni"
+	culture="sanhaja"
+	father=32991
+	1055.1.1 = {
+		birth="1055.1.1"
+	}
+	#1073.1.1 = {
+	#	add_claim = d_zaragoza
+	#	add_claim = d_valencia
+	#	add_claim = d_mallorca
+	#	add_claim = d_murcia
+	#	add_claim = d_toledo
+	#	add_claim = d_cordoba
+	#	add_claim = d_badajoz
+	#	add_claim = d_sevilla
+	#	add_claim = d_granada
+	#}
+	#1085.5.25 = {
+	#	remove_claim = d_toledo
+	#}
+	1090.1.1 = {
+		death="1090.1.1"
+	}
+}
+
+32952 = {
+	name="Abdallah"
+	dynasty=595
+	religion="sunni"
+	culture="sanhaja"
+	father=32991
+	1057.1.1 = {
+		birth="1057.1.1"
+	}
+	#1073.1.1 = {
+	#	add_claim = d_zaragoza
+	#	add_claim = d_valencia
+	#	add_claim = d_mallorca
+	#	add_claim = d_murcia
+	#	add_claim = d_toledo
+	#	add_claim = d_cordoba
+	#	add_claim = d_badajoz
+	#	add_claim = d_sevilla
+	#	add_claim = d_granada
+	#}
+	#1085.5.25 = {
+	#	remove_claim = d_toledo
+	#}
+	#1090.1.1 = {
+	#	add_claim = d_granada
+	#}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+
+32953 = {
+	name="Abu-Yakni" #Constantine
+	dynasty=575
+	religion="sunni"
+	culture="sanhaja"
+	father=45021
+	1045.1.1 = {
+		birth="1045.1.1"
+	}
+	1094.1.1 = {
+		death="1094.1.1"
+	}
+}
+
+32954 = {
+	name="Badis" #Alger 1105-1106
+	dynasty=575
+	religion="sunni"
+	culture="sanhaja"
+	father=45024
+	1085.1.1 = {
+		birth="1085.1.1"
+	}
+	1106.1.1 = {
+		death="1106.1.1"
+	}
+}
+
+32955 = {
+	name="Abd-al-Aziz" #Alger 1106-1121
+	dynasty=575
+	religion="sunni"
+	culture="sanhaja"
+	father=45024
+	1090.1.1 = {
+		birth="1090.1.1"
+	}
+	1121.1.1 = {
+		death="1121.1.1"
+	}
+}
+
+32956 = {
+	name="Yahya" #Alger 1121-1152
+	dynasty=575
+	religion="sunni"
+	culture="sanhaja"
+	father=32955
+	1110.1.1 = {
+		birth="1110.1.1"
+	}
+	1163.1.1 = {
+		death="1163.1.1"
+	}
+}
+
+73313 = {
+	name="Abdul-Qadir"
+	dynasty = 595
+	religion="ismaili"
+	culture="sanhaja"
+	father=45018
+	1010.1.1 = {
+		birth="1010.1.1"
+	}
+	1015.1.1 = {
+		dynasty=575
+		religion="sunni"
+	}
+	1087.1.1 = {
+		death="1087.1.1"
+	}
+}
+
+155056 = {
+	name="Bahiyya" #bint Sharif-ad-Dawla al-Muizz
+	#placeholder
+	female=yes
+	dynasty=595
+	religion="ismaili"
+	culture="sanhaja"
+	father=20935
+	mother=1600511	
+	1041.1.1 = {
+		birth="1041.1.1"
+	}
+	1049.1.1 = {
+		religion="sunni"
+	}
+	1062.1.1 = {
+		effect = { add_weak_claim = c_kairwan }
+	}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+
+155089 = {
+	name="Umar" #ibn Al-Muizz
+	dynasty=595
+	religion="sunni"
+	culture="sanhaja"
+	father=20935
+	mother=1600511	
+	1045.1.1 = {
+		birth="1045.1.1"
+	}
+	1049.1.1 = {
+		religion="sunni"
+	}
+	1062.1.1 = {
+		effect = { add_weak_claim = c_kairwan }
+	}
+	1098.1.1 = {
+		death="1098.1.1"
+	}
+}
+
+155090 = {
+	name="Ballara" #ibn Tamim
+	female=yes
+	dynasty=595
+	religion="sunni"
+	culture="sanhaja"
+	father=20825
+	1060.1.1 = {
+		birth="1060.1.1"
+	}
+	1088.1.1 = {
+		death="1088.1.1"
+	}
+}
+
+################################################
+######## Dark Sanhaja (formerly Masmuda) #######
+################################################
+
+32957 = {
+	name="Umar"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=32963
+	998.1.1 = {
+		birth="998.1.1"
+	}
+	1051.1.1 = {
+		death="1051.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+}
+
+32958 = {
+	name="Yahya" #Mauretania 1055-1057
+	dynasty=1000054002
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="sunni"
+	culture="tagelmust"
+	trait="skilled_tactician"
+	trait="zealous"
+	trait="ambitious"
+	father=32957
+	mother=1600570
+	1022.1.1 = {
+		birth="1022.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1057.1.1 = {
+		death="1057.1.1"
+	}
+}
+
+32962 = {
+	name="Tashfin"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=32963
+	1000.1.1 = { #?
+		birth=yes
+	}
+	1040.1.1 = { #?
+		death=yes
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+}
+
+32963 = {
+	name="Ibrahim"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=155077
+	980.1.1 = {
+		birth="980.1.1"
+	}
+	1025.1.1 = {
+		death="1025.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+}
+
+32964 = {
+	name="Yahya" #Gudala
+	dynasty=1000054004
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	religion="sunni"
+	culture="tagelmust"
+	father=1228875
+	trait="martial_cleric"
+	trait="just"
+	1000.1.1 = {
+		birth="1000.1.1"
+	}
+	1048.1.1 = {
+		death="1048.1.1"
+	}
+}
+
+32965 = {
+	name="Yusuf" #Mauretania 1071-1106
+	dynasty=1000054002
+	martial=9
+	diplomacy=8
+	intrigue=5
+	stewardship=7
+	religion="sunni"
+	culture="tagelmust"
+	father=32962
+	mother=1600606 #same mother as his cousin Tashfin b. Ali b. Ibrahim
+	add_trait="zealous"
+	add_trait="diligent"
+	add_trait="brave"
+	add_trait="patient"
+	add_trait="just"
+	add_trait="proud"
+	add_trait="skilled_tactician"
+	1025.1.1 = { #?
+		birth=yes
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1060.1.1 = {
+		add_claim = d_tangiers
+		add_claim = d_fes
+		add_claim = d_tlemcen
+	}
+	1071.1.1 = {
+		add_spouse = 3856		
+	}
+	1078.10.8 = {
+		add_claim = d_sevilla
+		add_claim = d_granada
+		add_claim = d_murcia
+	}
+	1088.10.8 = {
+		add_claim = d_zaragoza
+		add_claim = d_valencia
+		add_claim = d_mallorca
+		add_claim = d_toledo
+		add_claim = d_cordoba
+		add_claim = d_badajoz
+	}
+	1091.1.1={
+		effect = {
+			c_3214 = {
+				imprison = ROOT
+			}
+		}
+	}
+	1106.1.1 = {
+		death="1106.1.1"
+	}
+}
+
+32966 = {
+	name="al-Mu'izz" #eldest son of Yusuf and Zaynab
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=32965
+	mother=3856
+	1071.1.1 = {
+		birth="1071.1.1"
+	}
+	
+	1122.1.1 = {
+		death="1122.1.1"
+	}
+}
+
+32967 = {
+	name="Tamim" #Abu 'l Tahir, son of Yusuf and Zaynab; governor of Granada (1107, ca. 1121), Tlemcen (1110), Seville (1121-1122), and Cordoba
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=32965
+	mother=3856
+	1075.1.1 = {
+		birth="1075.1.1"
+	}
+	1127.1.1 = { #Led army in Granada in 1126
+		death="1127.1.1"
+	}
+}
+
+32968 = {
+	name="Abu-Bakr" #Fez
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=32965
+	1065.1.1 = { #?
+		birth="1065.1.1"
+	}
+	1110.1.1 = { #? still alive when his father died in 1106
+		death="1110.1.1"
+	}
+}
+
+32969 = {
+	name="Ali" #Mauretania 1106-1143
+	dynasty=7274
+	religion="sunni"
+	culture="sanhaja" #born to a Christian captive of Yusuf; giving him a non-veiled Sanhaja ethnicity to make him look lighter in skin color
+	father=32965
+	1084.1.1 = {
+		birth="1084.1.1"
+		culture="tagelmust"
+	}
+	
+	1143.1.1 = {
+		death="1143.1.1"
+	}
+}
+
+32970 = {
+	name="Ishaq" #Mauretania 1145-1147
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=32969
+	1131.1.1 = { #around 16 years old in 1147
+		birth=yes
+	}
+	
+	1147.4.1 = {
+		death={ death_reason=death_murder } #murdered by one of his own commanders
+	}
+}
+
+32971 = {
+	name="Tashfin" #Mauretania 1143-1145
+	dynasty=7274
+	religion="sunni"
+	culture="andalusian_arabic" #born to a Christian slave; making him Andalusian ethnicity to give him a lighter skin tone
+	father=32969
+	1103.1.1 = {
+		birth="1103.1.1"
+		culture="tagelmust"
+	}
+	
+	1145.1.1 = {
+		death={
+			death_reason=death_accident_fall #fell off a cliff after having been chased off by the Almohad army
+		}
+	}
+}
+
+32972 = {
+	name="Ibrahim" #Mauretania 1145-1145
+	dynasty=7274
+	religion="sunni"
+	culture="sanhaja" #would likely have been somewhat fair-skinned
+	father=32971
+	1135.1.1 = {
+		birth="1135.1.1"
+		culture="tagelmust"
+	}
+	1147.4.1 = {
+		death={ death_reason=death_murder } #likely killed after the fall of Marrakech
+	}
+}
+
+3853 = {
+	name="Abu-Bakr"
+	# AKA: Abu Bakr
+	dynasty=1000054002
+	martial=10
+	diplomacy=7
+	intrigue=4
+	stewardship=4
+	religion="sunni"
+	culture="tagelmust"
+	add_trait="skilled_tactician"
+	add_trait="patient"
+	add_trait="just"
+	add_trait="diligent"
+	add_trait="zealous"
+	father=32957
+	mother=1600570
+	1026.1.1={
+		birth="1026.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1058.1.1 = {
+		add_spouse=3856
+	}
+	#1060.1.1={
+	#	add_claim = d_tangiers
+	#	add_claim = d_fes
+	#	add_claim = d_tlemcen
+	#	add_claim = d_sevilla
+	#	add_claim = d_granada
+	#	add_claim = d_murcia
+	#}
+	1071.1.1={
+		remove_spouse=3856
+	}
+	1076.1.1={ #Abu Bakr leaves the Maghreb in Yusuf b. Tashfin's hands
+		remove_claim=k_mauretania
+		remove_claim=k_maghreb
+	}
+	1087.1.1={ #or 1076; died while fighting against "black infidels" in the south
+		death={ death_reason=death_battle }
+	}
+}
+
+3855 = {
+	name="Ibrahim"
+	dynasty=7274
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="sunni"
+	culture="tagelmust"
+	add_trait="tough_soldier"
+	father=3853
+	1057.1.1 = {
+		birth="1057.1.1"
+	}
+	1107.1.1 = {
+		death="1107.1.1"
+	}
+}
+
+224013 = {
+	name="Yahya"
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	add_trait="patient"
+	add_trait="flamboyant_schemer"
+	father=32965
+	1080.1.1 = {
+		birth="1080.1.1"
+	}
+	1140.1.1 = {
+		death="1140.1.1"
+	}
+}
+
+155036 = {
+	name = "Syr" #ibn Abi-Bakr ibn Tashfin; governor of Meknes (ca. 1077), Granada (ca. 1090), and Seville (ca. 1094)
+	dynasty=7274
+	martial=9
+	religion="sunni"
+	culture="tagelmust"
+	add_trait="skilled_tactician"
+	father=155076
+	1053.1.1 = { #?
+		birth=yes
+	}
+	1114.1.1 = { #killed in battle in Andalusia
+		death={ death_reason=death_battle }
+	}
+}
+
+155069 = {
+	name="Ghaniya"
+	female=yes
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=155036 #speculative
+	mother=1236350 #speculative
+	1080.1.1 = {
+		birth="1080.1.1"
+	}
+	1125.1.1 = {
+		death="1125.1.1"
+	}
+}
+
+155073 = {
+	name="Muhammad"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=155077
+	1000.1.1 = {
+		birth="1000.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1066.1.1 = {
+		death="1066.1.1"
+	}
+}
+155074 = {
+	name="al-Hajj"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=155073
+	1040.1.1 = {
+		birth="1040.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+155075 = {
+	name="Muhammad" #ibn al-Hajj, governor of Fes, Granada (ca. 1105), and later Zaragoza (ca. 1110)
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=155074
+	trait="skilled_tactician"
+	1062.1.1 = { #was an active general by 1090
+		birth=yes
+	}
+	1114.1.1 = { #ambushed by the Christians near Barcelona
+		death={ death_reason=death_battle }
+	}
+}
+155076 = {
+	name="Abi-Bakr"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=32962
+	1032.1.1 = { #?
+		birth=yes
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1066.1.1 = {
+		death="1066.1.1"
+	}
+}
+
+155077 = {
+	name="Turgut"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=1236339
+	960.1.1 = {
+		birth="960.1.1"
+	}
+	1040.1.1 = {
+		death="1040.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+		create_bloodline = {
+			type = almoravid
+			has_dlc = "Holy Fury"
+		}
+	}
+}
+155078 = {
+	name="Hamid"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=155077
+	990.1.1 = {
+		birth="990.1.1"
+	}
+	1035.1.1 = {
+		death="1035.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+}
+155079 = {
+	name="Tilankan"
+	dynasty=1000054002
+	religion="sunni"
+	culture="tagelmust"
+	father=155078
+	1020.1.1 = {
+		birth="1020.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1066.1.1 = {
+		death="1066.1.1"
+	}
+}
+155080 = {
+	name="Mazdali" #governor of Tlemcen (ca. 1102-1106), Granada, Cordoba, and Almeria
+	dynasty=1000054002
+	diplomacy=7
+	martial=7
+	religion="sunni"
+	culture="tagelmust"
+	father=155079
+	trait="skilled_tactician" #an able commander
+	trait="gregarious" #an able negotiator who averted Almoravid succession crisis twice
+	1050.1.1 = {
+		birth="1050.1.1"
+	}
+	1053.1.1 = {
+		dynasty=7274
+	}
+	1115.1.1 = {
+		death={ death_reason=death_battle } #died in a battle against the Castillans
+	}
+}
+155081 = {
+	name="Abd-'Allah" #governor of Granada succeeding his father
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=155080
+	1070.1.1 = { #?
+		birth="1070.1.1"
+	}
+	1118.1.1 = {
+		death="1118.1.1"
+	}
+}
+
+155082 = {
+	name="Abu-Bakr"
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=155080
+	1075.1.1 = { #?
+		birth="1075.1.1"
+	}
+	1147.1.1 = {
+		death="1147.1.1"
+	}
+}
+
+155083 = {
+	name="Yahya" #b. Abu Bakr
+	dynasty=7274
+	religion="sunni"
+	culture="tagelmust"
+	father=32968
+	#mother= #al-Sahrawiyya
+	1093.1.1 = { #?
+		birth=yes
+	}
+	1156.1.1 = {
+		religion="mahdiyya"
+	}
+	1158.1.1 = { #? attested in 1155
+		death=yes
+	}
+}
+
+#1236330-1236334 in swmh_zanata.txt
+
+#1236340 in swmh_zanata.txt
+
+# free characters 1228873 - 1228884

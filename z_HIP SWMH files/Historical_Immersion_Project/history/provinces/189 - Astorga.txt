@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 189 - Astorga
+
+# County Title
+title = c_astorga
+
+# Settlements
+max_settlements = 4
+b_ulver = castle
+b_astorga = temple
+b_villafrancadelbierzo = city
+#b_ponferrada = castle
+#b_villablino = city
+#b_carracedo = temple
+
+# Misc
+culture = leonese
+religion = catholic
+
+# History
+
+867.1.1 = { 
+	b_ulver = ca_keep_1
+	b_ulver = ca_wall_1
+}

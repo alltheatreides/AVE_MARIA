@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1139 - Sabionetta
+
+# County Title
+title = c_sabionetta
+
+# Settlements
+max_settlements = 4
+
+b_marcaria = castle
+b_sabbioneta = city
+b_leno = temple
+#b_redondesco = castle
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History
+

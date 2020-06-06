@@ -1,0 +1,26 @@
+# 118 - Trier
+
+# County Title
+title = c_trier
+
+# Settlements
+max_settlements = 6
+
+b_trier = temple
+b_coblenz = city
+b_andernach = city
+
+b_st_maximin = temple
+b_veldenz = castle
+
+#b_virneburg = castle 
+
+#b_cochem = city 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1170.1.1 = { culture = german }
+1192.1.1 = { b_virneburg = castle }

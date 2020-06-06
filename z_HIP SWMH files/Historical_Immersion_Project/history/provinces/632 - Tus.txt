@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 632 - Tus
+
+# County Title
+title = c_tus
+
+# Settlements
+max_settlements = 5
+b_tus = castle
+b_dizbad = city
+b_sandabad = temple
+
+b_radkan = castle
+#b_khuchan = castle
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+980.1.1 = { religion = sunni }

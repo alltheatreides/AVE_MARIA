@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 950 - Southern Jylland
+
+# County Title
+title = c_southern_jylland
+
+# Settlements
+max_settlements = 5
+
+b_sonderborg = tribal
+b_ribe = temple
+#b_aabenraa city
+#b_haderslev = castle
+#b_tonder = city
+
+######
+#b_gram = castle
+#b_toerning = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History 
+1000.1.1 = { religion = catholic }
+1020.1.1 = { b_sonderborg = castle }
+1035.1.1 = { culture = danish } 
+1066.1.1 = { b_tonder = city }
+1231.1.1 = { b_haderslev = castle }
+
+

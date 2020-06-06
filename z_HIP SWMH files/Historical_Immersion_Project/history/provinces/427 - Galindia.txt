@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 427 - Galindia
+
+# County Title
+title = c_galindia
+
+# Settlements
+max_settlements = 3
+
+b_lotzen = tribal
+#b_sensburg = city
+#b_angersburg = castle
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+1284.1.1=  {b_lotzen = castle}
+1284.1.1=  {b_sensburg = city}
+1284.1.1 = { religion = catholic }
+1284.1.1 = { culture = lithuanian }

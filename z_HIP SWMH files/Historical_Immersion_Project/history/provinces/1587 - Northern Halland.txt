@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1587 - Northern Halland
+
+# County Title
+title = c_northern_halland
+
+# Settlements
+max_settlements = 3
+
+b_varberg = tribal
+#b_gedekaer = city
+
+#b_aas = temple
+#######
+#b_hunehals = castle
+# Misc
+culture = norse
+religion = norse_pagan
+terrain = forest
+
+# History
+1000.1.1 = { b_varberg = castle
+b_gedekaer = city } 
+1010.1.1 = { religion = catholic } 
+1035.1.1 = { culture = danish } 
+1191.1.1 = { b_aas = temple }
+#1280.1.1 = { b_hunehals = castle }
+

@@ -1,0 +1,28 @@
+#Cinque Ports family
+1066.10.14 = {
+	holding_dynasty = 1000100169 # de Arsic - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066920 # William d'Arsic
+}
+1101.1.1 = {
+	holder = 1066921 #Manasser I d'Arsic
+}
+1125.1.1 = {
+	holder = 1066922 #Robert I d'Arsic
+}
+1162.1.1 = {
+	holder = 1066923 #Manasser II d'Arsic
+}
+1194.1.1 = {
+	holder = 1066924 #Alexander d'Arsic
+}
+1201.1.1 = {
+	holder = 1066925 #John d'Arsic
+}
+1205.1.1 = {
+	holder = 1066926 #Robert d'Arsic
+}
+1230.1.1 = {
+	holder = 0
+	liege=0
+}

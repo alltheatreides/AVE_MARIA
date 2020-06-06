@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 1360 - Nakur
+
+# County Title
+title = c_nakur
+
+# Settlements
+max_settlements = 5
+
+b_nakur = castle
+b_tamsaman = temple
+b_melilla = castle
+b_midar = temple
+
+#b_alhoceima = city
+#b_driouch = castle
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+
+# History
+1066.1.1 = { religion = nabawiyya }
+1084.1.1 = {
+	remove_settlement = b_nakur
+	capital = b_melilla
+}
+1090.1.1 = { religion = sunni }
+
+
+
+

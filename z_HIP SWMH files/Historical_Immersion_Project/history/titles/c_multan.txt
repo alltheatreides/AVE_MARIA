@@ -1,0 +1,150 @@
+# -*- ck2.history.titles -*-
+
+712.1.1 = {
+	liege = d_multan
+}
+# 712-750: Umayyad governors
+# 750-863: Abbasid governors
+863.1.1 = {
+	holder = 188532 # Muhammad banu Sama
+}
+# 863-985: banu Sama rule
+910.1.1 = {
+	holder = 1240008
+}
+915.1.1 = {
+	holder = 1240009
+}
+939.1.1 = {
+	holder = 1240010
+}
+960.1.1 = {
+	holder = 1240011
+}
+985.1.1 = {
+	holder = 1300105
+}
+988.1.1 = {
+	holder = 1300106
+}
+997.1.1= {
+	holder = 1300108
+}
+# 985-1010: Ismaili rule
+# 1010-ca 1040: Ghaznavid rule
+1010.4.1 = {
+	liege = d_multan
+	holder = 1600018 #Turkish general put in charge
+}
+1030.1.1 = {
+	liege = k_kafarestan
+	holder = 144126
+}
+1031.1.1 = {
+	holder = 144127
+}
+# 1041: brief occupation of Mutan by the Isimaili led by Da'ud b. Naser
+1041.1.1 = {
+	liege = d_multan
+	holder = 1300109
+}
+1042.1.1 = {
+	holder = 1230359
+}
+# renewed Ismaili independence (date is an estimate)
+1051.1.1 = {
+	holder = 1240050 # Rajpal
+}
+1054.1.1 = {
+	holder = 188538 # ? Karmatia
+}
+1065.1.1 = {
+	holder = 188539 # ? Karmatia
+}
+1090.1.1 = {
+	holder = 188540 # ? Karmatia
+}
+1120.1.1 = {
+	holder = 188541 # ? Karmatia
+}
+1145.1.1 = {
+	holder = 188542 # ? Karmatia
+}
+1170.1.1 = {
+	holder = 188543 # ? Karmatia
+}
+# Ghurid conquest, massacre of Ismaili sultans
+1178.1.1 = {
+	holder = 1228198
+}
+1198.1.1 = {
+	liege = k_sindh
+	holder = 1228199
+}
+1210.11.4 = { #Qabacha takes over Multan shortly after the death of Aibak
+	liege = d_multan
+	holder = 170300
+}
+1215.1.1 = {
+	holder = 170302 # Yildoz
+}
+1216.2.15 = {
+	holder = 194187 # Bahram Shah b. Qabacha
+}
+1228.5.30 = {
+	holder = 170193 # Iltutmish
+}
+1236.5.1 = {
+	holder = 170194 # Firuz I
+}
+1236.11.20 = {
+	holder = 170195 # Raziyya
+}
+1239.10.1 = {
+	holder = 170198 # Bahram
+}
+1242.5.15 = {
+	holder = 170199 # Masud
+}
+1246.6.11 = {
+	holder = 170201 # Mahmud
+}
+1266.2.19 = {
+	holder = 170204 # Ghiyasuddin Balban
+}
+1270.1.1 = {
+	holder = 170210 # Muhammad b. Balban
+}
+1286.1.1 = {
+	holder = 170213 # Muizz ud-din Qaiqabad
+}
+1290.10.1 = {
+	holder = 170243 # Jalal ud din Firuz Khilji
+}
+1296.7.21 = {
+	holder = 170245 # Ibrahim
+}
+1296.11.1 = {
+	holder = 170246 # Ala-ud-din Muhammad
+}
+1316.1.3 = {
+	holder = 170247 # Umar
+}
+1316.4.1 = {
+	holder = 170248 # Mubarak
+}
+#1318.1.1 = {
+#	holder = 170250 # Mahmud
+#}
+#1318.6.1 = {
+#	holder = 170248 # Mubarak
+#}
+1320.6.1 = {
+	holder = 170251 # Husraw Kushru
+}
+1320.10.1 = {
+	holder = 170257 # Ghiyath al-Din Tughluq
+}
+1325.2.1 = {
+	holder = 170258 # Muhammad
+}

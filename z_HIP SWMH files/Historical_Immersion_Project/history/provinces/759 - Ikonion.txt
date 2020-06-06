@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 759 - Ikonion
+
+# County Title
+title = c_ikonion
+
+# Settlements
+max_settlements = 5
+
+b_ikonion = castle
+b_mistheia = city
+b_lisdra = temple
+b_amblada = city
+#b_isauria = castle
+#b_ouasada = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = plains # The central anatolian plateau shouldn't really be all mountains
+
+# History
+
+900.8.26 = { remove_settlement = b_mistheia }
+1085.8.26 = { culture = turkmen }
+1085.8.26 = { religion = sunni }
+
+1100.8.26 = { b_mistheia = city }
+1256.1.1 = { culture = turkish }

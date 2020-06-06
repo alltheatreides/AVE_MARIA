@@ -1,0 +1,127 @@
+# -*- ck2.history.titles -*-
+
+685.1.1 = {
+	liege = k_hungary
+	holder = 146143
+}
+725.1.1 = {
+	holder = 146144
+}
+736.1.1 = {
+	holder = 146145
+}
+750.1.1 = {
+	holder = 146146
+}
+762.1.1 = {
+	holder = 146147
+}
+771.1.1 = {
+	holder = 146148
+}
+795.1.1 = {
+	holder = 146150
+}
+800.1.1 = {
+	holder = 146151
+}
+804.1.1 = {
+	liege = k_bulgaria
+}
+812.1.1 = {
+	holder = 146152
+}
+852.1.1 = {
+	holder = 168069
+}
+895.1.1 = {
+	liege = k_magyar
+	holder = 159141 # Teteny, tribal chief in Magyar Confederation
+}
+907.7.4 = {
+	liege = k_hungary
+}
+915.1.1 = {
+	holder = 70370 # Bogat the Horka, son of Teteny and father of Zombor (mistakenly believed to have a brother Gyula)
+}
+#The Gyulas of Transylvania seems to have been a part of the Magyar confederation before Lechfeld, made them a tributary
+935.1.1 = {
+	set_tribute_suzerain = {
+		who = k_hungary
+		type = permanent
+	}
+	liege = 0
+	holder = 70372 # Zombor, the Gyula of Transylvania
+}
+955.8.15 = {
+	clear_tribute_suzerain = k_hungary
+}
+976.1.1 = {
+	holder = 70373 # Prokuj Gyula, the Gyula of Transylvania
+}
+1003.1.1 = {
+	liege = k_hungary
+	holder = 482
+}
+1038.8.15 = {
+	holder = 497
+}
+1040.1.1 = {
+	holder = 20365
+}
+1063.12.1 = {
+	holder = 474
+}
+1095.7.29 = {
+	holder = 480
+}
+1116.2.3 = {
+	holder = 231065
+}
+1131.4.2 = {
+	holder = 219530
+}
+1141.2.13 = {
+	holder = 219510
+}
+1162.5.31 = {
+	holder = 219511
+}
+1162.7.15 = {
+	holder = 98000
+}
+1163.1.14 = {
+	holder = 98001
+}
+1163.6.19 = {
+	holder = 219511
+}
+1172.3.4 = {
+	holder = 219500
+}
+1196.4.23 = {
+	holder = 93751
+}
+1226.1.1 = {
+	holder = 93753
+}
+1233.1.1 = {
+	holder = 93752
+}
+1241.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = e_golden_horde
+		type = nomadic
+	}
+}
+1276.1.1 = {
+	holder = 93754
+}
+1288.1.1 = {
+	clear_tribute_suzerain = e_golden_horde
+}
+1315.1.1 = {
+	liege = k_hungary
+	holder = 470040
+}

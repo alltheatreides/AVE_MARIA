@@ -1,0 +1,31 @@
+# 1075 - Wittenberg
+
+# County Title
+title = c_wittenberg
+
+# Settlements
+max_settlements = 4
+
+b_kemberg = tribal
+#b_wittenberg = city
+#b_zinna = temple 
+#b_juterbog = city 
+
+#b_richow = castle 
+#b_dahme = castle 
+#b_lichtenburg = temple 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+937.1.1 = { 
+b_kemberg = castle
+b_wittenberg = city }
+937.1.1 = { religion = catholic }
+950.1.1 = { culture = thuringian } 
+1100.1.1 = { religion = catholic } 
+1170.1.1 = { culture = german } 
+1170.1.1 = { b_zinna = temple }
+1174.1.1 = { b_juterbog = city }

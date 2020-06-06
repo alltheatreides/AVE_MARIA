@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 648 - Ahwáz
+
+# County Title
+title = c_ahwaz
+
+# Settlements
+max_settlements = 5
+
+b_ahwaz = castle
+b_dawraq = temple
+b_mahruban = city
+
+b_dawraqistan = castle
+#b_huwayza = city
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+1020.1.1 = { b_huwayza = city } #?

@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Rutbil Revolt Against the Saffarids"
+
+casus_belli = {
+	actor = 163101
+	recipient = 188710
+	casus_belli=force_vassalization
+	landed_title=c_rukhadj
+	date=867.1.1
+}
+
+867.1.1 = {
+	add_attacker = 163101
+	add_defender = 188710
+}
+
+867.6.1 = {
+	rem_attacker = 163101
+	rem_defender = 188710
+}

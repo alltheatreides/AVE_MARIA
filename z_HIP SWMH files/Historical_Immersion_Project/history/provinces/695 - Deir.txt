@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 695 - Deir
+
+# County Title
+title = c_deir
+
+# Settlements
+max_settlements = 4
+b_anbar_iraq = castle
+b_haditha_anbar = city
+b_hit = city
+b_anah = city
+
+#Misc
+culture = levantine_arabic
+religion = sunni
+
+# History

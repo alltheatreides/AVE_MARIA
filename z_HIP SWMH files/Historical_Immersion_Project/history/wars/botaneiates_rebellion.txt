@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+#
+#name = "Rebellion of Nikephoros Botaneiates"
+#
+#casus_belli = {
+#	actor = 1740
+#	recipient = 1736
+#	casus_belli= claim_on_liege_plot
+#	landed_title= e_byzantium
+#	date=1078.1.1
+#}
+#
+#1078.1.1 = {
+#	add_attacker = 1740
+#	add_defender = 1736
+#}
+#
+#1078.3.31 = {
+#	rem_attacker = 1740
+#	rem_defender = 1736
+#}

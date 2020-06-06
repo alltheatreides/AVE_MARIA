@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 520 - Bihar
+
+# County Title
+title = c_bihar
+
+# Settlements
+max_settlements = 5
+
+b_bihar = tribal
+#b_szekelyhid = city
+#b_varad = temple
+
+#b_krasznavar = castle
+#b_valkovar = castle
+#b_elesd = castle
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = khavar }
+1000.1.1 = { b_varad = temple }
+1000.1.1 = { b_bihar = castle }
+1041.1.1 = { religion = catholic }
+1041.1.1 = { culture = szekely }
+1041.1.1 = { b_krasznavar = castle }
+1130.1.1 = { b_szekelyhid = city }
+1249.1.1 = { remove_settlement = b_krasznavar} # Krasna county seat moved.
+1249.1.1 = { b_valkovar = castle }
+

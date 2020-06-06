@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1666 - Sripatha
+
+# County Title
+title = c_sripatha
+
+# Settlements
+max_settlements = 4
+b_sripatha = castle #Thangir/Tahangarh 
+b_dhavalapuri = city #Dholpur
+#b_bayana = castle
+#b_dholeshwar_mahadev = temple
+#b_abanhagari = city
+
+# Misc
+culture = hindustani
+religion = jain
+
+# History
+1200.1.1 = { b_bayana = castle } #built by Baha al-Din Toghril

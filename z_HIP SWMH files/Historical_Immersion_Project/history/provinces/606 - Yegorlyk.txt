@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 606 - Yegorlyk
+
+# County Title
+title = c_yegorlyk
+
+# Settlements
+max_settlements = 2
+b_yegorlyk = tribal
+#b_kalaus = castle
+
+culture = alan
+religion = zoroastrian
+
+# History
+1050.1.1 = { religion = tengri_pagan } 
+1238.1.1= { culture=mongol }
+1313.1.1= { religion = sunni } 

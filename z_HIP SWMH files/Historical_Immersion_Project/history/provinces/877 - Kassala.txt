@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 877 - Kassala
+
+# County Title
+title = c_kassala
+
+# Settlements
+max_settlements = 2
+
+b_djarin = tribal
+#b_kassala = castle
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+

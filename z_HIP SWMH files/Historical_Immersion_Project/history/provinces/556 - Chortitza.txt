@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 556 - Chortitza #Kortitsa
+
+# County Title
+title = c_chortitza
+
+# Settlements
+max_settlements = 2
+
+b_kodak = tribal
+#b_khortytsia = temple
+
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+terrain = steppe
+
+# History
+
+893.1.1 = { culture = pecheneg }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol } 
+#1238.1.1 = { remove_settlement = b_khortytsia } #monestary sacked by Mongols

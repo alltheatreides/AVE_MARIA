@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1309 - Vaiga
+
+# County Title
+title = c_vaiga
+
+# Settlements
+max_settlements = 2
+
+b_poltsamaa = tribal
+#b_puurmani = castle
+
+# Misc
+culture = ugricbaltic
+religion = finnish_pagan
+
+# History
+1223.1.1 = { b_poltsamaa = castle }
+1224.1.1 = { religion = catholic }

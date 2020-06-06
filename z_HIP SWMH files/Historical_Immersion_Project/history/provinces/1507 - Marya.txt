@@ -1,0 +1,18 @@
+# -*- ck2.history.provinces -*-
+
+# 1507 - Marya
+
+# County Title
+title = c_marya
+
+# Settlements
+max_settlements = 2
+b_marya = tribal
+#b_bogos = city
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+  

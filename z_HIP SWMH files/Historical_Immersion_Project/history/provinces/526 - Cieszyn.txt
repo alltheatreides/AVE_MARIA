@@ -1,0 +1,28 @@
+# 526 - Cieszyn # Raciborz
+
+# County Title
+title = c_cieszyn
+
+# Settlements
+max_settlements = 5
+
+b_raciborz = tribal
+#b_zator = city
+#b_orlowa = temple 1268 
+#b_cieszyn = castle
+#b_oswiecim = castle
+#b_zory = city
+#b_pzczyna = castle
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+990.1.1 = { religion = catholic 
+b_raciborz = castle
+}
+1172.1.1 = { b_cieszyn = castle } 
+1179.1.1 = { b_oswiecim = castle }
+1268.1.1 = { b_orlowa = temple }
+1292.1.1 = { b_zator = city }

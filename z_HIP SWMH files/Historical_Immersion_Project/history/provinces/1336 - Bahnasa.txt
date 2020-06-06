@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1336 - Bahnasa
+
+# County Title
+title = c_bahnasa
+
+# Settlements
+max_settlements = 6
+b_bahnasa = castle
+b_dalas = temple
+b_alqays = city
+
+b_ansina = castle
+b_ahnas = temple
+#b_taha = city
+
+# Misc
+culture = egyptian_arabic
+religion = sunni
+
+# History 
+1300.1.1 = { b_taha = city } #by 1313

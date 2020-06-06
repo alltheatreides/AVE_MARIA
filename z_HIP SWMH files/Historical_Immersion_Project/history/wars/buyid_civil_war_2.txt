@@ -1,0 +1,22 @@
+# -*- ck2.history.wars -*-
+
+name = "Shirdil's Claim on Iraq and Persia War"
+
+casus_belli = {
+	actor = 1231071
+	recipient = 1231070
+	casus_belli=claim_all
+	landed_title=k_mesopotamia
+	landed_title=k_persia
+	date=983.3.3
+}
+
+983.3.3 = {
+	add_attacker = 1231071
+	add_defender = 1231070
+}
+
+987.1.1 = {
+	rem_attacker = 1231071
+	rem_defender = 1231070
+}

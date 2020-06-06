@@ -1,0 +1,175 @@
+# -*- ck2.history.titles -*-
+
+630.1.1 = {
+	liege = e_arabia
+}
+840.1.1 = {
+	holder = 33932
+}
+866.1.1 = {
+	liege = 0
+}
+870.1.1 = {
+	holder = 1236080 # Husayn
+}
+926.1.1 = {
+	holder = 1236081 # Muhammad
+}
+944.1.1 = { #Muhammad al-Ikhshid granted governorship of Hijaz
+	set_tribute_suzerain = {
+		who = k_egypt
+		type = permanent
+	}
+}
+953.1.1 = { #sometime between 951-968
+	holder = 1236082 # Ja'far
+}
+969.7.1 = {
+	clear_tribute_suzerain = k_egypt
+}
+972.1.1 = { # joint expedition from Egypt and Medina
+	liege = e_egypt
+}
+974.1.1 = {
+	holder = 1236083 # Isa
+}
+984.1.1 = {
+	holder = 1236084 # Hassan
+}
+#1010.1.1 = {
+#	holder = 1236090 # Dawud
+#}
+1011.1.1 = {
+	liege = 0 #Abu 'l-Futh Hassan declares himself caliph
+	#holder = 1236084 # Hassan
+}
+1012.1.1 = { #Upon losing power in Mecca to his relative, Abu 'l-Futh Hassan submits to the Fatimid caliph al-Hakim
+	liege = e_egypt
+}
+1039.1.1 = {
+	holder = 1236085 # Muhammad-Sukr
+}
+1061.1.1 = {
+	liege = 0
+	holder = 1236092 # Hamza
+}
+1063.1.1 = {
+	holder = 1236097 # Muhammad
+	set_tribute_suzerain = {
+		who = k_yemen
+		percentage = 0.4
+	}
+}
+1067.9.25 = {
+	clear_tribute_suzerain = k_yemen
+}
+1069.8.1 = { # khutba read in the name of the Abbasid caliph for 4 years and 5 months
+	set_tribute_suzerain = {
+		who = e_persia
+		percentage = 0.4
+	}
+}
+# 1071-1072, Muhammad b. Ja'far complies with the Abbasid caliph's Sunni-line religious request
+1074.1.1 = {
+	clear_tribute_suzerain = e_persia
+	set_tribute_suzerain = {
+		who = e_egypt
+		percentage = 0.4
+	}
+}
+1076.8.1 = { # khutba read in the name of the Abbasid caliph again
+	clear_tribute_suzerain = e_egypt
+	set_tribute_suzerain = {
+		who = e_persia
+		percentage = 0.4
+	}
+}
+1078.1.1 = { # khutba read in the name of the Fatimid caliph again
+	clear_tribute_suzerain = e_persia
+	set_tribute_suzerain = {
+		who = e_egypt
+		percentage = 0.4
+	}
+}
+1086.1.1 = { # khutba read in the name of the Abbasid caliph again
+	clear_tribute_suzerain = e_egypt
+	set_tribute_suzerain = {
+		who = e_persia
+		percentage = 0.4
+	}
+}
+1092.11.1 = {
+	clear_tribute_suzerain = e_persia
+}
+1094.1.1 = {
+	holder = 1236098 # Qasim
+}
+1124.1.1 = {
+	holder = 1236099 # Fulaytah
+}
+1133.1.1 = {
+	holder = 1236100 # Hashim
+}
+1154.1.1 = {
+	holder = 1236101 # Qasim
+}
+1161.1.1 = {
+	holder = 1236102 # Isa
+}
+1173.1.1 = { # Ayyubid Turanshah recognizes Isa as the sharif of Mecca on his way to Yemen
+	liege = k_egypt
+}
+1174.1.1 = {
+	holder = 1236103 # Dawud
+}
+1175.1.1 = {
+	holder = 1236104 # Mukattir
+}
+1176.1.1 = {
+	holder = 1236103 # Dawud
+}
+1189.1.1 = {
+	holder = 1236104 # Mukattir
+}
+1194.1.1 = {
+	holder = 1236105 # Mansur
+}
+1200.1.1 = {
+	holder = 34051 # Qatada - Emir of Mecca
+}
+1220.1.1 = {
+	holder = 34052 # Hasan - Emir of Mecca
+}
+1232.1.1 = {
+	holder = 34053
+}
+1239.1.1 = {
+	holder = 34054
+}
+1240.1.1 = {
+	holder = 34053
+}
+1241.1.1 = {
+	holder = 34055
+}
+1245.1.1 = {
+	holder = 34053
+}
+1254.1.1 = {
+	holder = 34057
+}
+1255.1.1 = {
+	holder = 34058
+}
+1270.1.1 = {
+	holder = 34056
+}
+1301.1.1 = {
+	holder = 34060
+}
+1302.1.1 = {
+	holder = 34062
+}
+1314.1.1 = {
+	holder = 34060
+}

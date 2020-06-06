@@ -1,0 +1,29 @@
+# -*- ck2.history.wars -*-
+
+name = "Pecheneg Invasion of the Balkans"
+
+casus_belli = {
+	
+
+	actor = 1231756 # Tzegul	
+	recipient = 1740	
+	casus_belli=tribal_invasion
+	landed_title=k_bulgaria
+	date = 
+1078.3.31
+}
+
+
+
+1078.3.31 = {
+	add_attacker = 1231756
+	add_defender = 1740
+}
+
+
+
+1081.4.1 = {
+	rem_attacker = 1231756	
+	rem_defender = 1740
+}
+

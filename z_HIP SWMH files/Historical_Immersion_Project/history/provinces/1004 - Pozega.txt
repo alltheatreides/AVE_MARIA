@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 1004 - Pozega
+
+# County Title
+title = c_pozega
+
+# Settlements
+max_settlements = 3
+
+b_pozega = castle
+b_brod = city
+#b_kutjevo = temple
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History

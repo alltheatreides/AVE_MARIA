@@ -1,0 +1,4494 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH Venetian characters
+###############################################################
+# SWMH Character Range: 1226700 - 1226708 
+#			1226718 - 1226899
+#           1065800 - 1066199
+##############################################################################################
+
+#Navigajoso family. Possibly of part Greek, part Venetian origin
+#First known member, Filocalo Navigajoso, Lord of Lemnos and Megadux of the Latin Empire#
+1226704 = {
+	name="Filocalo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	1154.1.1 = {
+		birth = yes
+	}
+	1214.1.1 = {
+		death = yes
+	}
+}
+#Son of Filocalo# 
+1226705 = {
+	name="Leonardo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1226704
+       	1191.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1226706 = {
+	name="Paolo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1226705
+       	1220.1.1 = {
+		birth = yes
+	}	
+	1241.1.1 = {
+		add_spouse = 1226822	
+	}	
+	1277.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1226707 = {
+	name="Filippo"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1226705
+       	1222.1.1 = {
+		birth = yes
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+#Son of Leonardo# 
+1226708 = {
+	name="Nicolao"
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1226705
+       	1223.1.1 = {
+		birth = yes
+	}
+	1277.1.1 = {
+		death = yes
+	}
+}
+#Ancestor of the Romano/Ezzelini
+1226718 = {
+	name="Arpo"
+	dynasty=13025
+	religion="catholic"
+	culture="swabian"
+
+       	994.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+#Ancestor of the Romano/Ezzelini
+1226719 = {
+	name="Ezzelo"
+	dynasty=13025
+	religion="catholic"
+	culture="swabian"
+	father=1226718
+       	1019.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		culture = venetian
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226720 = {
+	name="Ezzelo"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	trait="scholarly_theologian"
+	father=1226719
+       	1065.1.1 = {
+		birth = yes
+		trait = "bastard" #Had a career in the church
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226721 = {
+	name="Alberigo"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226719
+       	1066.1.1 = {
+		birth = yes
+	}
+	1153.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226722 = {
+	name="Ezzelino"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226721
+       	1109.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226723 = {
+	name="Giovanni"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226722
+       	1140.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226724 = {
+	name="Ezzelino"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226722
+       	1150.1.1 = {
+		birth = yes
+	}
+	1191.1.1 = {
+		add_spouse=223598
+	}
+	1200.1.1 = {
+	remove_spouse=223598
+	}
+	1235.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226725 = {
+	name="Cunizza"
+	female=yes
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226722
+       	1152.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+#Romano/Ezzelini
+1226726 = {
+	name="Ezzelino"
+	dynasty=13025
+	religion="catholic"
+	culture="venetian"
+	father=1226724
+	mother=223598
+       	1194.1.1 = {
+		birth = yes
+	}
+	1259.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226727 = {
+	name="Tisolino"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+
+       	1141.1.1 = {
+		birth = yes
+	}
+	1169.1.1 = {
+		add_spouse=1226725
+	}
+	1199.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226728 = {
+	name="Tiso"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226727
+	mother=1226725
+       	1170.1.1 = {
+		birth = yes
+	}
+	1234.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226729 = {
+	name="Gherardo"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226727
+	mother=1226725
+       	1171.1.1 = {
+		birth = yes
+	}
+	1222.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226730 = {
+	name="Giacomo"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226728
+
+       	1191.1.1 = {
+		birth = yes
+	}
+	1228.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226731 = {
+	name="Tiso"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226728
+
+       	1227.1.1 = {
+		birth = yes
+	}
+	1266.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226732 = {
+	name="Guglielmo"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226730
+
+       	1213.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226733 = {
+	name="Tiso"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226731
+
+       	1260.1.1 = {
+		birth = yes
+	}
+	1312.1.1 = {
+		death = yes
+	}
+}
+#Camposampiero
+1226734 = {
+	name="Tiso"
+	dynasty=1000035222
+	religion="catholic"
+	culture="venetian"
+	father=1226733
+
+       	1291.1.1 = {
+		birth = yes
+	}
+	1333.1.1 = {
+		death = yes
+	}
+}
+1226735 = {
+	name="Rambaldo"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	add_trait="tough_soldier"
+	
+	942.1.1 = {
+		birth=yes
+	}
+	995.1.1 = {
+		death=yes
+	}
+}
+1226736 = {
+	name="Bianchino"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	add_trait="tough_soldier"
+	father=1226735	
+	974.1.1 = {
+		birth="995.1.1"
+	}
+	1016.1.1 = {
+		death="1038.8.11"
+	}
+}
+1226737 = {
+	name="Ansedisio"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=20352
+	mother=71246
+	
+	1066.1.1 = {
+		birth=yes
+	}
+	1119.1.1 = {
+		death=yes
+	}
+}
+1226738 = {
+	name="Guido"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=20352
+	mother=71246
+	
+	1068.1.1 = {
+		birth=yes
+	}
+	1113.1.1 = {
+		death=yes
+	}
+}
+1226739 = {
+	name="Alberto"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226737
+	
+	1091.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1226740 = {
+	name="Rambaldo" #placeholder to get to right number of Rambaldos. No info on him
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226739
+	
+	1112.1.1 = {
+		birth=yes
+	}
+	1165.1.1 = {
+		death=yes
+	}
+}
+1226741 = {
+	name="Rambaldo"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226740
+	
+	1147.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes
+	}
+}
+1226742 = {
+	name="Giuliana" # Was beatified by the Pope
+	female=yes
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	add_trait="mastermind_theologian"
+	father=1226741
+	
+	1184.1.1 = {
+		birth=yes
+	}
+	1262.9.1 = {
+		death=yes
+	}
+}
+1226743 = {
+	name="Schenella"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226741
+	
+	1186.1.1 = {
+		birth=yes
+	}
+	1248.1.1 = {
+		death=yes
+	}
+}
+1226744 = {
+	name="Rambaldo"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226743
+	
+	1215.1.1 = {
+		birth=yes
+	}
+	1273.1.1 = {
+		death=yes
+	}
+}
+1226745 = {
+	name="Ansedisio"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226744
+	
+	1241.1.1 = {
+		birth=yes
+	}
+	1297.1.1 = {
+		death=yes
+	}
+}
+1226746 = {
+	name="Rambaldo"
+	dynasty=1000035251
+	religion="catholic"
+	culture="venetian"
+	father=1226745
+	
+	1269.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+###########################################
+#Sanbonifacio
+###########################################
+#conti di Ronco, San Bonifacio e Verona. guelph hardline.
+1226747 = {
+	name="Egelrico"#Enrico I/Egelrico II, son of Egelrico I Manfredinghi. Founder of the Sanbonifacio, conte di Ronco.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1065659		
+	960.1.1 = {
+		birth=yes
+	}
+	1004.1.1 = {
+		death=yes
+	}
+}
+1226748 = {
+	name="Ugone"#Ugone, close relative(probably a son or nephew) of Egelrico II, attested 1062
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226747		
+	985.1.1 = {
+		birth=yes
+	}
+	1065.1.1 = {
+		death=yes
+	}
+}
+1226749 = {
+	name="Milone"#Milone, son of Ugone, attested 1062.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226748		
+	1020.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1226750 = {
+	name="Uberto"#Uberto I/II, likely the son of Enrico, conte di Verona 1005
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226747		
+	980.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes
+	}
+}
+1226751 = {
+	name="Egelrico"#Enrico II/III, son of Uberto I/II, conte di Verona 1055
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226750		
+	1005.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+1226752 = {
+	name="Uberto"#Uberto, III/IV son of Uberto I/II, conte di Verona after his brother(no date given)
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226750		
+	1010.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		death=yes
+	}
+}
+1226753 = {
+	name="Bonifacio"#Bonifacio son of Uberto III/IV, attested as count of Verona 1071, 1082, 1095 and 1109.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226752		
+	1035.1.1 = {
+		birth=yes
+	}
+	1109.1.1 = {
+		death=yes
+	}
+}
+1226754 = {
+	name="Alberto"#Alberto, son of Bonifacio, count of Verona ?-1135(also noted as marchese di Verona in several place), died 1135.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226753		
+	1060.1.1 = {
+		birth=yes
+	}
+	1135.1.1 = {
+		death=yes
+	}
+}
+1226755 = {
+	name="Marco"# Marco, son of? conte di Sambonifacio, died 1142.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226754# speculative
+	1088.1.1 = {
+		birth=yes
+	}
+	1142.1.1 = {
+		death=yes
+	}
+}
+1226756 = {# Scauro, son of ?, conte di Sambonifacio, elected podesta/capitano of Verona 1163, rasied to count of Verona 1164 by the emperor, killed 1195.
+	name="Scauro" 
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226755	 # speculative
+	1117.1.1 = {
+		birth=yes
+	}
+	1195.1.1 = {
+		death={ death_reason=death_murder }
+	}
+}
+1226757 = {
+	name="Bonifacio"# Bonifacio, son of ?, conte di Sambonifacio 1206, arrested by the emperor 1209.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226756# specualtive
+	1144.1.1 = {
+		birth=yes
+	}
+	1209.1.1 = {
+		death=yes
+	}
+}
+1226758 = {
+	name="Pietro"# Pietro, conte di Sambonifacio, died battle against Ezzelino on 25th of august 1212
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226757# speculative
+	1162.1.1 = {
+		birth=yes
+	}
+	1212.8.25 = {
+		death={ death_reason=death_battle }
+	}
+}
+1226759 = {
+	name="Gisla" # Gisla, sister of Rizzardo, marry Ezzlini da Romano in 1221. 
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226758 # speculative
+    female=yes	
+	1199.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1226760 = { # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233. Attested 1221(married Cunizza da Romano sister of Ezzillino. He beats her and when they visit the court of Sordello Visconti in 1224 she falls in love with him. After their return to Veronia she is aided by her brothers to runaway to Sordello in 1226). Rizzardo gets aid from Mantova but falls captive against Ezzelini in 1230. Mantova demands that Rizzardo is restored in 1231. In july 1231 the rector of the Lombard league rules that Rizzardo has to be released. When Ezzelini fails to comply Mantova invades, defeating Ezzelini on the 27th of july 1232 forcing the release of Rizzardo. A peace treaty is signed in August 28. but in 1233 the war is back on and the Rizzardo makes gains. 1239 Rizzardo refuse to change sides to the ghibelines against the league. In feburary 1240 Ezzelini leaves the league for the imperial cause. Died in Brescia during february 1254. 
+	name="Rizzardo"
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226757# speculative
+	1182.1.1 = {
+		birth=yes
+	}
+	1254.2.1 = {
+		death=yes
+	}
+}
+1226761 = { # Ludovico, son of Rizzardo, attested 1220 as capitano del popolo of Mantova.
+	name="Ludovico"
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226760	
+	1198.1.1 = {
+		birth=yes
+	}
+	1239.1.1 = {
+		death=yes
+	}
+}
+1226762 = {
+	name="Pietro"# Pietro, son of?, podesta of Ravenna 1240
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226761	#speculative
+	1216.1.1 = {
+		birth=yes
+	}
+	1264.1.1 = {
+		death=yes
+	}
+}
+1226763 = { # Leonisio, son of Rizzardo and Cunizza, attested 1243 when he and his mother surrender to Ezzilini(apparently they are happy to see each other).
+	name="Leonisio"
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226760	
+	1197.1.1 = {
+		birth=yes
+	}
+	1259.1.1 = {
+		death=yes
+	}
+}
+1226764 = {
+	name="Ludovico"# Ludovico, son of Leonisio, conte di Sambonifacio by the 11th of June 1259, podesta of Verona 1262. Exiled by della Scala in 1263. Arrives in Padova 1264 and the family settles there. attested again 1269
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226763	
+	1229.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1226765 = {
+	name="Vinciguerra"# Vinciguerra son of Ludovico, Signore di Lendinara. Married Capellina di Scrovegni. Rival of Cangrande della scalla, led a padovan army against della Scalla near vicenza(trying to capitalize on the tuscan and romagna gulphs offensive), was captured on 22th of may. He was taken to the Palazzo della Signoria and treated for his wounds but he died a few weeks later.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226764	
+	1265.1.1 = {
+		birth=yes
+	}
+	1317.6.1 = {
+		death=yes
+	}
+}
+1226766 = {
+	name="Mabilia"#Mabilia, daughter of Vinciguerra, she first married Rizzardo III da Camino(died 1313). She remarried to Guecellone da Camino(his will is dated the 12th of june 1324) son of Gherardo. She died 1338 having had two children with Guecellone called Gherardo and Rizzardo.
+	dynasty=101842
+	religion="catholic"
+	culture="venetian"
+	father=1226765	
+	female=yes
+	1294.1.1 = {
+		birth=yes
+	}
+	1338.1.1 = {
+		death=yes
+	}
+}
+# Rizzardo, son of?, conte di Sambonifacio podesta of Padova 1375-1381 and again 1390-1391. He might be a da Camino of Mabilla and Guecellone's line since da Camino actually got the castle.
+########################################################################
+1226768 = {
+	name="Olderico"
+	dynasty=1000035266
+	religion="catholic"
+	culture="venetian"
+	
+	1134.1.1 = {
+		birth=yes
+	}
+	1211.1.1 = {
+		death=yes
+	}
+}
+1226769 = {
+	name="Miglioranza"
+	dynasty=1000035266
+	religion="catholic"
+	culture="venetian"
+	father=1226768	
+	1177.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1226800 = {
+	name="Bartolomeo" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226802	
+	1229.1.1 = {
+		birth=yes
+	}
+	1303.1.1 = {
+		death=yes
+	}
+}
+1226801 = {
+	name="Filippo" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226803	
+	1210.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		add_spouse=1226807
+	}	
+	1278.1.1 = {
+		death=yes
+	}
+}
+1226802 = {
+	name="Andrea" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226803	
+	1212.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1226803 = {
+	name="Andrea" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226805	
+	1184.1.1 = {
+		birth=yes
+	}
+	1266.1.1 = {
+		death=yes
+	}
+}
+1226804 = {
+	name="Geremia" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226805	
+	1186.1.1 = {
+		birth=yes
+	}
+	1247.1.1 = {
+		death=yes
+	}
+}
+1226805 = {
+	name="Filippo" #placeholder father 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+
+	1158.1.1 = {
+		birth=yes
+	}
+	1203.1.1 = {
+		death=yes
+	}
+}
+1226806 = {
+	name="Marchesina" 
+	female=yes
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226804	
+	1221.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1226807 = {
+	name="Isabetta" 
+	female=yes
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226804	
+	1225.1.1 = {
+		birth=yes
+	}
+	1279.1.1 = {
+		death=yes
+	}
+}
+1226808 = {
+	name="Giovanni" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226801
+	mother=1226807	
+	1252.1.1 = {
+		birth=yes
+	}	
+	1309.1.1 = {
+		death=yes
+	}
+}
+1226809 = {
+	name="Nicolo" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=1226801
+	mother=1226807	
+	1254.1.1 = {
+		birth=yes
+	}	
+	1291.1.1 = {
+		death=yes
+	}
+}
+1226810 = {
+	name="Giacomo"
+	dynasty=13006
+	religion="catholic"
+	culture="venetian"
+	father=32127
+	mother=1226806	
+	1240.1.1 = {
+		birth=yes
+	}	
+	1301.1.1 = {
+		death=yes
+	}
+}
+1226811 = {
+	name="Piero"
+	dynasty=13006
+	religion="catholic"
+	culture="venetian"
+	father=32127
+	mother=1226806	
+	1243.1.1 = {
+		birth=yes
+	}	
+	1298.1.1 = {
+		death=yes
+	}
+}
+1226812 = {
+	name="Marino" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=31496
+	mother=31495
+	1282.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1226813 = {
+	name="Giorgio" 
+	dynasty=7218 #Ghisi
+	religion="catholic"
+	culture="venetian"
+	father=31497
+	1297.1.1 = {
+		birth=yes
+	}
+	1337.1.1 = {
+		add_spouse = 461556
+	}	
+	1358.1.1 = {
+		death=yes
+	}
+}
+1226814 = {
+	name="Licario" 
+	dynasty=1000035326
+	religion="catholic"
+	culture="venetian"
+	martial=9
+	intrigue=7	
+	add_trait="wroth"
+	add_trait="ambitious"
+	add_trait="brave"
+	add_trait="greedy"	
+	add_trait="brilliant_strategist"	
+	1229.1.1 = {
+		birth=yes
+	}
+	1296.1.1 = {
+		death=yes
+	}
+}
+#Daughter of Paolo Navigajoso# 
+1226815 = {
+	name="Maria"
+	female=yes
+	dynasty=8720
+	religion="catholic"
+	culture="venetian"
+	father=1226706
+	mother=1226822	
+    1243.1.1 = {
+	birth = yes
+	}
+	1313.1.1 = {
+		death = yes
+	}
+}
+1226816 = {
+	name="Guglielmo"
+	dynasty=68
+	religion="catholic"
+	culture="venetian"
+	father=31477
+	mother=1226815	
+	1258.1.1 = {
+		birth=yes
+	}
+	1262.1.1 = {
+		death=yes
+	}
+}
+1226817 = {
+	name="Francesco"
+	dynasty=68
+	religion="catholic"
+	culture="venetian"
+	father=31477
+	mother=1226815	
+	1259.1.1 = {
+		birth=yes
+	}
+	1264.1.1 = {
+		death=yes
+	}
+}
+1226818 = {
+	name="Grapella"
+	dynasty=68
+	religion="catholic"
+	culture="venetian"
+	father=31481
+	1227.1.1 = {
+		birth=yes
+	}
+	1263.1.1 = {
+		death=yes
+	}
+}
+1226819 = {
+	name="Marino"
+	dynasty=13027
+	religion="catholic"
+	culture="venetian"
+	father=32121
+	1175.1.1 = {
+		birth=yes
+	}
+	1243.1.1 = {
+		death=yes
+	}
+}
+1226820 = {
+	name="Bajamonte"
+	dynasty=13006
+	religion="catholic"
+	culture="venetian"
+	father=1226810
+	
+	1271.1.1 = {
+		birth=yes
+	}	
+	1329.1.1 = {
+		death=yes
+	}
+}
+1226821 = {
+	name="Filippa" 
+	dynasty=7218 #Ghisi
+	female=yes
+	religion="catholic"
+	culture="venetian"
+	father=31496
+	mother=31495
+	1284.1.1 = {
+		birth=yes
+	}
+	1345.1.1 = {
+		death=yes
+	}
+}
+1226822 = {
+	name="Francesca" #Unnamed sister of Marco Sanudo. Wife of Paolo Navigajoso. I have a chronological feeling that Medlands is failing me, by putting her as a sister of his son Angelo instead
+	dynasty=102020 #Sanudo
+	female=yes
+	religion="catholic"
+	culture="venetian"
+	father=31421
+	1221.1.1 = {
+		birth=yes
+	}
+	1280.1.1 = {
+		death=yes
+	}
+}
+1226823 = {
+	name="Guglielmo" 
+	dynasty=102020 #Sanudo
+	religion="catholic"
+	culture="venetian"
+	father=31426
+	1299.1.1 = {
+		birth=yes
+	}
+	1362.1.1 = {
+		death=yes
+	}
+}
+1226824 = {
+	name="Nicolo" 
+	dynasty=102020 #Sanudo
+	religion="catholic"
+	culture="venetian"
+	father=1226823
+	1323.1.1 = {
+		birth=yes
+	}
+	1374.1.1 = {
+		death=yes
+	}
+}
+1226825 = {
+	name="Fiorenza"
+	dynasty=102020 #Sanudo
+	female=yes
+	religion="catholic"
+	culture="venetian"
+	father=31428
+	1318.1.1 = {
+		birth=yes
+	}
+	1371.1.1 = {
+		death=yes
+	}
+}
+################################
+#Carraresi
+################################
+#Signori e principi di Carrera, conti di Anguillara e Papafava, patricians of Padova and Vicenza. Guelph tendencies.
+1226830 = {
+	name="Luitolfo"# Luitolfo I, genisis. fl. 900, German origin.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	834.1.1 = {
+		birth=yes
+	}
+	902.1.1 = {
+		death=yes
+	}
+}
+1226831 = {
+	name="Rodolfo"# Rodolfo I, son of Luitolfo I
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226830
+	855.1.1 = {
+		birth=yes
+	}
+	900.1.1 = {
+		death=yes
+	}
+}
+1226832 = {
+	name="Milone"# Milone I, son of Luitolfo I
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226830
+	850.1.1 = {
+		birth=yes
+	}
+	912.1.1 = {
+		death=yes
+	}
+}
+1226833 = {
+	name="Marisilio"# Marisilio I, son of Milone I, attested 913
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226832
+	868.1.1 = {
+		birth=yes
+	}
+	923.1.1 = {
+		death=yes
+	}
+}
+1226834 = {
+	name="Gumberto"# Gumberto I, son of Milone I.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226832
+	871.1.1 = {
+		birth=yes
+	}
+	920.1.1 = {
+		death=yes
+	}
+}
+1226835 = {
+	name="Vulcano"# Vulcano I, son of Gumberto I, attested 924
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226834
+	890.1.1 = {
+		birth=yes
+	}
+	929.1.1 = {
+		death=yes
+	}
+}
+1226836 = {
+	name="Federico"# Federico I, son of Vulcano I, attested 930
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226835
+	908.1.1 = {
+		birth=yes
+	}
+	965.1.1 = {
+		death=yes
+	}
+}
+1226837 = {
+	name="Gumberto"# Gumberto II, son of Federico I, died 980, married Rogenbrude
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226836
+	933.1.1 = {
+		birth=yes
+	}
+	980.1.1 = {
+		death=yes
+	}
+}
+1226838 = {
+	name="Luitolfo"# Luitolfo II, son of Gumbero II, attested 1027(first time an identified primary source records a member)
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226837
+	964.1.1 = {
+		birth=yes
+	}
+	1038.1.1 = {
+		death=yes
+	}
+}
+1226839 = {
+	name="Gumberto"# Gumberto III, son of Luitolfo II, attested 1077 with a donation to a monestary.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226838
+	995.1.1 = {
+		birth=yes
+	}
+	1078.1.1 = {
+		death=yes
+	}
+}
+1226840 = {
+	name="Artuicio"# Artuicio I, son of Luitolfo II, attested 1068 and 1077 both times it was donations to a monestary.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226838
+	1009.1.1 = {
+		birth=yes
+	}
+	1085.1.1 = {
+		death=yes
+	}
+}
+1226841 = {
+	name="Enrico"# Enrico I, son of Luitolfo II, attested 1095.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226838
+	1018.1.1 = {
+		birth=yes
+	}
+	1097.1.1 = {
+		death=yes
+	}
+}
+1226842 = {
+	name="Milone"# Milone II, son of Luitolfo II, attested 1095.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226838
+	1024.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes
+	}
+}
+1226843 = {
+	name="Luitolfo"# Luitolfo III, son of Luitolfo II, attested 1117.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226838
+	1035.1.1 = {
+		birth=yes
+	}
+	1117.1.1 = {
+		death=yes
+	}
+}
+# N.N son of Luitolfo III, attested 1114.(had three sons : Enrico, Luitolfo and Gumberto all attested 1114)
+1226844 = {
+	name="Marsilio"# Marsilio II, son of Luitolfo III
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226843
+	1055.1.1 = {
+		birth=yes
+	}
+	1100.1.1 = {
+		death=yes
+	}
+}
+1226845 = {
+	name="Milone"# Milone III, son of Luitolfo III, attested 1108, married Richelda.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226843
+	1060.1.1 = {
+		birth=yes
+	}
+	1110.1.1 = {
+		death=yes
+	}
+}
+1226846 = {
+	name="Ugone"# Ugone I, son of Milone III, attested 1114.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226845
+	1090.1.1 = {
+		birth=yes
+	}
+	1130.1.1 = {
+		death=yes
+	}
+}
+1226847 = {
+	name="Uberto"# Uberto I, son of Milone III, attested 1114.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226845
+	1089.1.1 = {
+		birth=yes
+	}
+	1152.1.1 = {
+		death=yes
+	}
+}
+1226848 = {
+	name="Enrico"# Enrico II, son of Milone III, attested 1114, married Adelara.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226845
+	1085.1.1 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		death=yes
+	}
+}
+1226849 = {
+	name="Marsilio"# Marsilio III, son of Milone III, attested 1109(donation to a monestary) and 1114.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226845
+	1080.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		death=yes
+	}
+}
+1226850 = {
+	name="Marco"# Marco I, son of Marsilio III, attested 1182.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226849
+	1115.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1226851 = {
+	name="Marsilio"# Marsilio IV, son of Marsilio III, attested 1152, married Galeapia.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226849
+	1105.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1226852 = {
+	name="Iacopino"# Iacopino I, son of Marsilio IV, attested 1191, married Maria da Baone
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226851
+	1125.1.1 = {
+		birth=yes
+	}
+	1192.1.1 = {
+		death=yes
+	}
+}
+1226853 = {
+	name="Alberto"# Alberto II, son of Iacopino I, attested 1192.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226852
+	1165.1.1 = {
+		birth=yes
+	}
+	1199.1.1 = {
+		death=yes
+	}
+}
+1226854 = {
+	name="Uguccio"# Uguccio I, son of Iacopino I, attested 1192
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226852
+	1163.1.1 = {
+		birth=yes
+	}
+	1205.1.1 = {
+		death=yes
+	}
+}
+##Pietro-Conte branch
+1226855 = {
+	name="Pietro Conte"# Pietro Conte I, son of Iacopino I, attested 1192.
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226852
+	1158.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+1226856 = {
+	name="Bonifacio"# Bonifacio I, son of Pietro Conte I, died 1215
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226855
+	1175.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1226857 = {
+	name="Albricioleone"# Albricioleone I, son of Pietro Conte I, died 1230, married Berda di Candiano
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226855
+	1177.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1226858 = {
+	name="Pietro Conte"# Pietro Conte II, son of Albricioleone I, died 1274
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226857
+	1202.1.1 = {
+		birth=yes
+	}
+	1274.1.1 = {
+		death=yes
+	}
+}
+1226859 = {
+	name="Francesco"# Francesco I, son of Pietro Conte II, attested 1298
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226858
+	1229.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1226860 = {
+	name="Albricioleone"# Albricioleone III, son of Francesco I, attested 1298
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226859
+	1260.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1226861 = {
+	name="Enrico"# Enrico IV, son of Albricioleone I, died 1275.
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226857
+	1204.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1226862 = {
+	name="Albricioleone"# Albricioleone II, son of Enrico IV, attested 1285.
+	dynasty=1000035202
+	religion="catholic"
+	culture="venetian"
+	father=1226861
+	1233.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+## Marsilio branch
+1226863 = {
+	name="Marsilio"# Marsilio V, son of Iacopone I, died 1208
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226852
+	1155.1.1 = {
+		birth=yes
+	}
+	1208.1.1 = {
+		death=yes
+	}
+}
+## Marsilio/Papafava branch
+1226864 = {
+	name="Albertino"# Albertino III, son of Marsilio, died 1214
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226863
+	1172.1.1 = {
+		birth=yes
+	}
+	1214.1.1 = {
+		death=yes
+	}
+}
+1226865 = {
+	name="Iacopino"# Iacopino VI, son of Albertino III, podesta of Vicenza 1269, first signore di Papafava, died 1289.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226864
+	1205.1.1 = {
+		birth=yes
+	}
+	1289.1.1 = {
+		death=yes
+	}
+}
+1226866 = {
+	name="Bonifacio"# Bonifacio IV, son of Iacopino VI died 1310
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226865
+	1235.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1226867 = {
+	name="Brusco"# Brusco I, son of Bonifacio IV, attested 1325
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226866
+	1269.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1226868 = {
+	name="Marsilio"# Marsilio IX, son of Iacopino VI., signore di Papafava.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226865
+	1228.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1226869 = {
+	name="Obizzio"# Obizzio I, son of Marsilio IX, died 1329, fought alongside Niccolò da Carrara as co. leader in the 1314 uprising., signore di Papafava.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226868
+	1255.1.1 = {
+		birth=yes
+	}
+	1329.1.1 = {
+		death=yes
+	}
+}
+1226870 = {
+	name="Albertino"# Albertino VII, son of Iacopino VI, married Adelaide Scrovegni
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226865
+	add_trait="ugly"
+	add_trait="wroth"
+	add_trait="tough_soldier"	
+	1235.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1226871 = {
+	name="Marsilio"# Marsilio X/Marsilietto di Papafava, son of Albertino VII, married Agnese Visconti, died the 6th of may 1345(murderd by Iacopo x who succeded him) . Was made heir of Ubertino VIII da Carrara in 1337, became lord of Padova 27. of march 1345 ., signore di Papafava.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226870
+	add_trait="charitable"
+	add_trait="stutter"
+	add_trait="scholarly_theologian"	
+	1268.1.1 = {
+		birth=yes
+	}
+	1345.5.6 = {
+		death=yes
+	}
+}
+1226872 = {
+	name="Lieta"# Lieta daughter of Marsilio X, married Niccolò Maltraversi
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226871
+	female=yes
+	1300.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1226873 = {
+	name="Rinaldo"# Rinaldo I, son of Albertino VII, married Farlava Scrovegni, Pavafava counts was continued through his line.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226870
+	1270.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1226874 = {
+	name="Iacopino"# Iacopino XII, son of Rinaldo I, married Aica da Camino, signore di Papafava.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226873
+	1305.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+1226875 = {
+	name="Albertino"# Albertino X, son of Iacopino XII, married Cattarina da Raveloni, signore di Papafava.
+	dynasty=1000035203
+	religion="catholic"
+	culture="venetian"
+	father=1226874
+	1325.1.1 = {
+		birth=yes
+	}
+	1370.1.1 = {
+		death=yes
+	}
+}
+## Marsilio/Carrara branch
+1226876 = {
+	name="Iacopino"# Iacopino III, son of Marsilio V, died 1240.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226863
+	1185.1.1 = {
+		birth=yes
+	}
+	1240.1.1 = {
+		death=yes
+	}
+}
+1226877 = {
+	name="Bonifacio"# Bonifacio II, son of Iacopo III, died 1300, married Maria Gonzaga.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226876
+	1215.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+##
+1226878 = {
+	name="Iacopino"# Iacopino VII, son of Bonifacio II, died 1319, married Fina.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226877
+	1242.1.1 = {
+		birth=yes
+	}
+	1319.1.1 = {
+		death=yes
+	}
+}
+1226879 = {
+	name="Ubertino"# Ubertino VIII aka Ubertino Novello, son of Iacopino VII, attested 1338 as signore di Padova, died 27. of march 1345. first marriage was to Giacomina da Correggio, second was to Anna Malatesta(remarried in 1340 after his divorce from Giacomina), he had a naturalised daughter called Gentile but otherwise no issue.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226878
+	1269.1.1 = {
+		birth=yes
+	}
+	1345.3.27 = {
+		death=yes
+	}
+}
+1226880 = {
+	name="Ubertino"# Ubertino VI, son of Bonifacio II or Marsilio VIII?, married Buona Femina(srrsly????)
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=70808
+	1243.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1226881 = {
+	name="Niccolo"# Niccolo I, son of Ubertino VI, married Elina della Torre(daughter of Salvino the podesta of Parma), died 1344. 
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226880
+	add_trait="charitable"
+	add_trait="brave"
+	add_trait="tough_soldier"	
+	1280.1.1 = {
+		birth=yes
+	}
+	1344.1.1 = {
+		death=yes
+	}
+}
+1226882 = {
+	name="Iacopino"# Iacopino XI, son of Niccolo died 1372. prince of Padova 1350-1355(co ruler with his nephew Francesco) was captured sometime between the summer of 1355 and 1357 by Francesco's soldiers after having plotted to kill his nephew. Was imprisioned until his death, first in San Martino and later in Monselice.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226881
+	add_trait="patient"
+	add_trait="hunter"
+	add_trait="skilled_tactician"	
+	1320.1.1 = {
+		birth=yes
+	}
+	1372.1.1 = {
+		death=yes
+	}
+}
+1226883 = {
+	name="Enselgarde"# Enselgarde, daughter of Niccolo.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226881
+	female=yes
+	1305.1.1 = {
+		birth=yes
+	}
+	1345.1.1 = {
+		death=yes
+	}
+}
+1226884 = {
+	name="Beatrice"# Beatrice, daughter of Niccolo.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226881
+	female=yes
+	1310.1.1 = {
+		birth=yes
+	}
+	1350.1.1 = {
+		death=yes
+	}
+}
+1226885 = {
+	name="Iacopo"# Iacopo X, son of Niccolo, died 19. december 1350(murdered by Guglielmo da Carrara), signore di Padova after Marsilio X/Marsilietto di Papafava(murderd him).
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226881
+	add_trait="underhanded_rogue"	
+	1300.1.1 = {
+		birth=yes
+	}
+	1350.12.19 = {
+		death=yes
+	}
+}
+#1226886 = {
+#	name="Francesco"# Francesco VI, son of Iacopo X, signore di Padova 1350, died 1393
+#	dynasty=101823
+#	religion="catholic"
+#	culture="venetian"
+#	father=1226885
+#	1320.1.1 = {
+#		birth=yes
+#	}
+#	1393.1.1 = {
+#		death=yes
+#	}
+#}
+1226887 = {
+	name="Margherita"# Margherita, daughter of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	female=yes
+	1318.1.1 = {
+		birth=yes
+	}
+	1370.1.1 = {
+		death=yes
+	}
+}
+1226888 = {
+	name="Giulia"# Giulia, daughter of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	female=yes
+	1319.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1226889 = {
+	name="Marsilio"# Marsilio, son of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	1328.1.1 = {
+		birth=yes
+	}
+	1360.1.1 = {
+		death=yes
+	}
+}
+1226890 = {
+	name="Carrarese"# Carrarese, daughter of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	female=yes
+	1324.1.1 = {
+		birth=yes
+	}
+	1368.1.1 = {
+		death=yes
+	}
+}
+1226891 = {
+	name="Catterina"# Catterina, daughter of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	female=yes
+	1323.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes
+	}
+}
+1226892 = {
+	name="Bonifacio"# Bonifacio VI, son of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	1327.1.1 = {
+		birth=yes
+	}
+	1355.1.1 = {
+		death=yes
+	}
+}
+1226893 = {
+	name="Niccolò"# Niccolò II, son of Iacopo X.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226885
+	1322.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes
+	}
+}
+## Iacopino II branch
+1226894 = {
+	name="Iacopino"# Iacopino II, son of Iacopino I, died before 1262.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226852
+	1154.1.1 = {
+		birth=yes
+	}
+	1230.1.1 = {
+		death=yes
+	}
+}
+1226895 = {
+	name="Giovanni"# Giovanni I, son of Iacopino II, attested 1242
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226894
+	1180.1.1 = {
+		birth=yes
+	}
+	1245.1.1 = {
+		death=yes
+	}
+}
+1226896 = {
+	name="Iacopino"# Iacopino/Iacopo V, son of Iacopino II, attested 1252 and 1282.
+	dynasty=101823
+	religion="catholic"
+	culture="venetian"
+	father=1226894
+	1200.1.1 = {
+		birth=yes
+	}
+	1283.1.1 = {
+		death=yes
+	}
+}
+# the line in vanilla decend from Iacopo V.
+################################characters 1065800 - 1066199
+#de'Conti(not related to the Lazio ones), with their clusterfuck of subbranches like Maltraversi etc
+################################
+####Conti di Padova, Vicenza, Montebello e Arzignano etc, later patricians in Padova and Viacenza
+#Counts of Padova(relies heavily on Historia della famiglia Conti da Padova, di Vicenza, e delle discendenti da essa, con l'albero by Giovanni Andrea Salici from 1605 and should for early period in particular(but also for some of the later) be taken with a grain of salt. Storia del territorio vicentino by Girolamo Macc?have utilised when possible aswell)
+1065800 = {
+	name="Alarico"# Alarico di Friuli, fl. 700, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	690.1.1 = {
+		birth=yes
+	}
+	740.1.1 = {
+		death=yes
+	}
+}
+1065801 = {
+	name="Predeo"# Predeo, son of Alarico, fl 740, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	father=1065800
+	715.1.1 = {
+		birth=yes
+	}
+	775.1.1 = {
+		death=yes
+	}
+}
+1065802 = {
+	name="Alberto"# Alberto, son of Predeo attested 778, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	father=1065801
+	745.1.1 = {
+		birth=yes
+	}
+	810.1.1 = {
+		death=yes
+	}
+}
+1065803 = {
+	name="Maltraverso"# Maltraverso son of Alberto, fl 820, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	father=1065802
+	775.1.1 = {
+		birth=yes
+	}
+	850.1.1 = {
+		death=yes
+	}
+}
+1065804 = {
+	name="Alfariso"# Alfariso, son of Maltraverso, attested 857, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	father=1065803
+	805.1.1 = {
+		birth=yes
+	}
+	875.1.1 = {
+		death=yes
+	}
+}
+1065805 = {
+	name="Romoaldo"# Romoaldo, son of Alfariso, fl 880, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="langobardisch"
+	father=1065804
+	835.1.1 = {
+		birth=yes
+	}
+	910.1.1 = {
+		death=yes
+	}
+}
+1065806 = {
+	name="Manfredo"# Manfredo I. fl 920, unsure if its Romoaldo or an unknown brother who were his father., conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065805
+	870.1.1 = {
+		birth=yes
+	}
+	940.1.1 = {
+		death=yes
+	}
+}
+1065807 = {
+	name="Manfredo"# Manfredo II, son of Manfredo I. fl 950. he was succeded by his brother, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065806
+	895.1.1 = {
+		birth=yes
+	}
+	960.1.1 = {
+		death=yes
+	}
+}
+1065808 = {
+	name="Ighelfredo"# Ighelfredo son of Manfredo I. fl 963, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065806
+	915.1.1 = {
+		birth=yes
+	}
+	980.1.1 = {
+		death=yes
+	}
+}
+1065809 = {
+	name="Alberto"# Alberto, son of Ighelfredo. fl 990, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065808
+	935.1.1 = {
+		birth=yes
+	}
+	995.1.1 = {
+		death=yes
+	}
+}
+1065810 = {
+	name="Gilberto"# Gilberto, son of Alberto. fl. 1000. died without issue.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065809
+	965.1.1 = {
+		birth=yes
+	}
+	1005.1.1 = {
+		death=yes
+	}
+}
+1065811 = {
+	name="Engolfo"# Engolfo, son of Alberto. Padova branch continues with him. Fl 1000.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065809
+	960.1.1 = {
+		birth=yes
+	}
+	1012.1.1 = {
+		death=yes
+	}
+}
+1065812 = {
+	name="Todelo"# Todelo, son of Engolfo, attested 1013.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065809
+	985.1.1 = {
+		birth=yes
+	}
+	1040.1.1 = {
+		death=yes
+	}
+}
+1065813 = {
+	name="Alberto"# Alberto, son of Engolfo. Both Baone lines and Schinelli branch descend from him. attested 1077.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065811
+	1010.1.1 = {
+		birth=yes
+	}
+	1080.1.1 = {
+		death=yes
+	}
+}
+1065814 = {
+	name="Maltraverso"# Maltraverso, son of Alberto. fl. 1000, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065809
+	955.1.1 = {
+		birth=yes
+	}
+	1022.1.1 = {
+		death=yes
+	}
+}
+1065815 = {
+	name="Bernardo"# Bernardo "the blessed", son of Maltraverso, attested 1026, 1049 and 1058, bishop of Padova November 1048 - ca 1060(last attested in 1058, new bishop appointed in 1060).
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065814
+	985.1.1 = {
+		birth=yes
+	}
+	1060.1.1 = {
+		death=yes
+	}
+}
+1065816 = {
+	name="Gherardo"# Gherardo, son of Maltraverso, attested 1024, conte di Padova.
+	dynasty=1000035204
+	religion="catholic"
+	culture="venetian"
+	father=1065814
+	975.1.1 = {
+		birth=yes
+	}
+	1058.1.1 = {
+		death=yes
+	}
+}
+###Maltraversi 
+1065817 = {
+	name="Maltraverso"# Maltraverso Terzo, son of Maltraverso. attested 1059( and 1125?), conte di Padova. 
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065814
+	1005.1.1 = {
+		birth=yes
+	}
+	1070.1.1 = {
+		death=yes
+	}
+}
+1065818 = {
+	name="Conone"# Conone, son of Maltraverso Terzo, signore di Cerro. Married Berta di Este. fl 1105. 
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065817
+	1035.1.1 = {
+		birth=yes
+	}
+	1110.1.1 = {
+		death=yes
+	}
+}
+###Vicenza branch
+1065819 = {
+	name="Uberto"# Uberto, son of Maltraverso Terzo, consul of Vicenza 1115
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065817
+	1045.1.1 = {
+		birth=yes
+	}
+	1120.1.1 = {
+		death=yes
+	}
+}
+1065820 = {
+	name="Uguccione"# Uguccione, son of Uberto, attested 1076?, podesta of Vicenza 1136, capitano general 1154.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065819
+	1090.1.1 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		death=yes
+	}
+}
+1065821 = {
+	name="Uberto"# Uberto II/Umberto, son of Uberto, cannon to the bishop of Padova and later became bishop of Vicenza 1158-1161.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065819
+	1092.1.1 = {
+		birth=yes
+	}
+	1161.1.1 = {
+		death=yes
+	}
+}
+1065822 = {
+	name="Albertino"# Albertino, son of Uguccione. fl 1170
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065820
+	1125.1.1 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+1065823 = {
+	name="Guidone"# Guidone, son of Albertino fl 1240.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065822
+	1170.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1065824 = {
+	name="Beroaldo"# Beroaldo, son of Guidone. attested 1288
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065823
+	1205.1.1 = {
+		birth=yes
+	}
+	1290.1.1 = {
+		death=yes
+	}
+}
+1065825 = {
+	name="Alberto"# Alberto, son of Beroaldo. died 1282
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065824
+	1230.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes
+	}
+}
+1065826 = {
+	name="Melchior Boverio"# Melchior(???) Boverio, son of Beroaldo, attested 1311.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065824
+	1250.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+## di Montebello
+1065827 = {
+	name="Alberico"# Alberico detto Branca/Albertino son of Maltraverso Terzo, attested 1137 , conte di Montebello.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065817
+	1055.1.1 = {
+		birth=yes
+	}
+	1138.1.1 = {
+		death=yes
+	}
+}
+1065828 = {
+	name="Alberto"# Alberto/Albertino Maltraverso son of Alberico detto Branca. Attested 1137, was confirmed to the honor of count of Montebello 1154 by Friedrich I.fl 1165
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065827
+	1090.1.1 = {
+		birth=yes
+	}
+	1166.1.1 = {
+		death=yes
+	}
+}
+1065829 = {
+	name="Aldrighetto"# Aldrighetto, son of Alberto. succeded his father. fl 1200.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065828
+	1130.1.1 = {
+		birth=yes
+	}
+	1215.1.1 = {
+		death=yes
+	}
+}
+1065830 = {
+	name="Niccolo"# Niccolo, son of?(disputed heritage), cannon of the bishop of Padova 1200, became bishop of Reggio 1211, 1213 the Vicenza see was joined to his see of Reggio for the rest of his life, died august 1243. Was a busy papal legate.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065829 # speculative, Francesco Scipione Dondi dall'Orologio put him to be of Montebello stock so that more or less only leaves Aldrighetto.
+	1185.1.1 = {
+		birth=yes
+	}
+	1243.8.20 = { # was buried on the 24th. Had been on a papal mission to Melfi where he were to negotiate with the emperor.
+		death=yes
+	}
+}
+1065831 = {
+	name="Pietro"# Pietro son of Aldrighetto, count of Montebello 1254, probably guelph,captured by the emperor 1239, was taken to Padova. was offered to be released 1242 if he would sell montebello(or just half?) to the Ezzelini. His will is dated 1259 in Padova.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065829
+	1180.1.1 = {
+		birth=yes
+	}
+	1259.1.1 = {
+		death=yes
+	}
+}
+1065832 = {
+	name="Gilberto"# Gilberto son of Aldrighetto, siezed Montebello 1239. Ghibeline. fl 1255
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065829
+	1184.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		death=yes
+	}
+}
+1065833 = {
+	name="Guido"# Guido/Guidone, son of Gilberto, allied with Verona 1265, but then sold the castle of Montebello to the commune of Vicenza in 1267. 70671 in vanilla?. See also Guido Capello which some historians equal with him.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	add_trait="deceitful"
+	add_trait="duelist"
+	add_trait="flamboyant_schemer"
+	father=1065832
+	1220.1.1 = {
+		birth=yes
+	}
+	1260.1.1 = {
+		add_spouse=70670
+	}	
+	1267.1.1 = {
+	employer=70661
+	}
+	1287.1.1 = {
+		death=yes
+	}
+}
+1065834 = {
+	name="Federico"# Federico, son of Gilberto?(Salici, but as I don't agree with his take on Guido I will make him son of Guido instead), attested 1312, fought the Scaglieri as mercenary for Padova. died without issue
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065833
+	mother=70670
+	1261.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes
+	}
+}
+1065835 = {
+	name="Bartolomeo"# Bartolomeo, son of Gilberto(Salici, but as I don't agree with his take on Guido I will make him son of Guido instead), signore di Lumignano, attested 1266 and 1312 in Vicenza. Inherited the title as count of Montebello(even without the castle)
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065833
+	mother=70670	
+	1260.1.1 = {
+		birth=yes
+	}
+	1320.1.1 = {
+		death=yes
+	}
+}
+1065836 = {
+	name="Silvestro"# Silvestro, son of Bartolomeo. fl 1340, signore di Lumignano after his father.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065835
+	1280.1.1 = {
+		birth=yes
+	}
+	1342.1.1 = {
+		death=yes
+	}
+}
+1065837 = {
+	name="Gregorio"# Gregorio, son of Bartolomeo. fl 1360, signore di Lumignano after his brother.
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065835
+	1290.1.1 = {
+		birth=yes
+	}
+	1365.1.1 = {
+		death=yes
+	}
+}
+1065838 = {
+	name="Catterina"# Catterina, daughter of Silvestro. fl. 1380
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065836
+	female=yes
+	1310.1.1 = {
+		birth=yes
+	}
+	1380.1.1 = {
+		death=yes
+	}
+}
+1065839 = {
+	name="Margherita"# Margherita, daughter of Gregorio. died 1404
+	dynasty=8708
+	religion="catholic"
+	culture="venetian"
+	father=1065837
+	female=yes
+	1325.1.1 = {
+		birth=yes
+	}
+	1404.1.1 = {
+		death=yes
+	}
+}
+###da Lozzo, conti di Lozzo e signori di Valbona
+1065840 = {
+	name="Guizolo"# Guizolo Lozzo son of Alberico detto Branca. attested 1196, conte di Lozzo.
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065827
+	1115.1.1 = {
+		birth=yes
+	}
+	1196.1.1 = {
+		death=yes
+	}
+}
+1065841 = {
+	name="Guidone"# Guidone da Lozzo, son of Guizolo, attested 1196.
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065840
+	1150.1.1 = {
+		birth=yes
+	}
+	1225.1.1 = {
+		death=yes
+	}
+}
+1065842 = {
+	name="Agnese"# Agnese daughter of Guidone, attested 1226.
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065841
+	female=yes
+	1175.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1065843 = {
+	name="Niccolo"# Niccolo, son of Guidone. attested 1236
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065841
+	1180.1.1 = {
+		birth=yes
+	}
+	1255.1.1 = {
+		death=yes
+	}
+}
+1065844 = {
+	name="Ottone"# Ottone, son of Niccolo. got his head chopped off in 1257.
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065843
+	1200.1.1 = {
+		birth=yes
+	}
+	1257.1.1 = {
+		death=yes
+	}
+}
+1065845 = {
+	name="Guidone"# Guidone, son of Niccolo, attested 1281
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065843
+	1215.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1065846 = {
+	name="Juspatronato"# Juspatronato, relative of Guidone da Lozzo or Pietro, priest in the church of Montebello 1290, presbyrite and chancellor to the bishop of Vicenza, attested 1303 and 1313
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065843 # speculative
+	1235.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes
+	}
+}
+1065847 = {
+	name="Niccolo"# Niccolo, son of Guidone, attested 1282
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065845
+	1240.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1065848 = {
+	name="Antonio"# Antonio, son of Niccolo, attested 1324
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065847
+	1275.1.1 = {
+		birth=yes
+	}
+	1325.1.1 = {
+		death=yes
+	}
+}
+1065849 = {
+	name="Guidone"# Guidone, second son of Niccolo, attested 1316
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065847
+	1276.1.1 = {
+		birth=yes
+	}
+	1317.1.1 = {
+		death=yes
+	}
+}
+1065850 = {
+	name="Enrico"# Enrico, son of Guidone, attested 1345
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065849
+	1300.1.1 = {
+		birth=yes
+	}
+	1346.1.1 = {
+		death=yes
+	}
+}
+1065851 = {
+	name="Francesco"# Francesco, son of Guidone, attested 1345
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065849
+	1310.1.1 = {
+		birth=yes
+	}
+	1353.1.1 = {
+		death=yes
+	}
+}
+1065852 = {
+	name="Niccolo"# Niccolo, son of Guidone, attested 1345
+	dynasty=1000035205
+	religion="catholic"
+	culture="venetian"
+	father=1065849
+	1315.1.1 = {
+		birth=yes
+	}
+	1361.1.1 = {
+		death=yes
+	}
+}
+###di Arzignano 
+# Their arms were silver with red horizontal band
+1065853 = {
+	name="Guidone"# Guidone son of Uguccione, conte da Arzignano by 1194, dead by 1236.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065820
+	1152.1.1 = {
+		birth=yes
+	}
+	1235.1.1 = {
+		death=yes
+	}
+}
+1065854 = {
+	name="Egano"# Egano/Eganus, son of Guidone, conte da Arzignano(he was the one that had gotten the castle in the inheritance of their father) 1262 and 1264, guelph. Was murderd by his brothers family in 1266. Ghibeline.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065853
+	1185.1.1 = {
+		birth=yes
+	}
+	1266.1.1 = {
+		death=yes
+	}
+}
+1065855 = {
+	name="Aldobrandino" # Aldobrandino, son of Egano, attested 1313 and 1315(his will), married Beretina da Sarego.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065854
+	1220.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+1065856 = {
+	name="Giacomina" # Giacomina, daughter of Egano, became a nun.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065854
+	female=yes
+	1235.1.1 = {
+		birth=yes
+	}
+	1310.1.1 = {
+		death=yes
+	}
+}
+1065857 = {
+	name="Singhelfredo"# Singofredo/Singhelfredo il vecchio, son of Guidone, conte da Arzignano, attested 1231, 1236(as count). Guelph, heavily involved in the commune of Vicenza.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065853
+	1186.1.1 = {
+		birth=yes
+	}
+	1275.1.1 = {
+		death=yes
+	}
+}
+1065858 = {
+	name="Azzolino"# Azzolino, son of Singofredo, attested 1266
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065857
+	1230.1.1 = {
+		birth=yes
+	}
+	1283.1.1 = {
+		death=yes
+	}
+}
+1065859 = {
+	name="Giacomo"# Giacomo il Rosso, oldest son of Singofredo/Singhelfredo I, conte di Arzignano, fl 1280. selw his uncle in 1266.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065857
+	1225.1.1 = {
+		birth=yes
+	}
+	1300.1.1 = {
+		death=yes
+	}
+}
+1065860 = {
+	name="Singhelfredo"# Singofredo/Singhelfredo II, son of Rosso Giacomo attested 1311. Ghibeline. died 1322.
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065859
+	1260.1.1 = {
+		birth=yes
+	}
+	1322.1.1 = {
+		death=yes
+	}
+}
+1065861 = {
+	name="Giacomo"# Giacomo/Giacomino son of Singofredo II, conte di Arzignano, attested 1312(made captain of the resistance movement against della Scalla in the Vicenza region), 1336 and 1339(finally defeated by della Scala).
+	dynasty=1000035206
+	religion="catholic"
+	culture="venetian"
+	father=1065860
+	1285.1.1 = {
+		birth=yes
+	}
+	1339.1.1 = {
+		death=yes
+	}
+}
+###di Ganzera 
+#Conti di Ganzera
+1065862 = {
+	name="Pietro"# Pietro second son of Albertino, attested 1239
+	dynasty=1000035207
+	religion="catholic"
+	culture="venetian"
+	father=1065822
+	1175.1.1 = {
+		birth=yes
+	}
+	1255.1.1 = {
+		death=yes
+	}
+}
+1065863 = {
+	name="Novello"# Novello, son of Pietro, attested 1290
+	dynasty=1000035207
+	religion="catholic"
+	culture="venetian"
+	father=1065862
+	1215.1.1 = {
+		birth=yes
+	}
+	1295.1.1 = {
+		death=yes
+	}
+}
+1065864 = {
+	name="Singhelfredo"# Singofredo/Singhelfredo, son of Novello attested 1312
+	dynasty=1000035207
+	religion="catholic"
+	culture="venetian"
+	father=1065863
+	1250.1.1 = {
+		birth=yes
+	}
+	1315.1.1 = {
+		death=yes
+	}
+}
+###Malacapelli
+#Signori di Cologna, patricians of Padova. Ghibelines tendencies.
+1065865 = {
+	name="Guidone"# Guidone, son of Uberto di Vicenza, attested 1164
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065819
+	1100.1.1 = {
+		birth=yes
+	}
+	1185.1.1 = {
+		death=yes
+	}
+}
+1065866 = {
+	name="Malacapella"# Malacapella, son of Guidone, attested 1194 in Vicenza.
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065865
+	1130.1.1 = {
+		birth=yes
+	}
+	1210.1.1 = {
+		death=yes
+	}
+}
+1065867 = {
+	name="Enrico"# Henrico, son of Malacapella, attested 1242
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065866
+	1175.1.1 = {
+		birth=yes
+	}
+	1250.1.1 = {
+		death=yes
+	}
+}
+1065868 = {
+	name="Capellina"# Capellina, daughter of Henrico, attested 1280, married Rainaldo Scrovegni
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065867
+	female=yes
+	1220.1.1 = {
+		birth=yes
+	}
+	1285.1.1 = {
+		death=yes
+	}
+}
+1065869 = {
+	name="Capella"# Capella, son of Henrico, attested 1280
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065867
+	1210.1.1 = {
+		birth=yes
+	}
+	1282.1.1 = {
+		death=yes
+	}
+}
+1065870 = {
+	name="Luigi"# Luigi, son of Capella, attested 1312
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065869
+	1230.1.1 = {
+		birth=yes
+	}
+	1314.1.1 = {
+		death=yes
+	}
+}
+1065871 = {
+	name="Ludovico"# Ludovico, son of Capella, attested 1312
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065869
+	1239.1.1 = {
+		birth=yes
+	}
+	1313.1.1 = {
+		death=yes
+	}
+}
+1065872 = {
+	name="Enrico"# Henrico, son of Capella, attested 1312
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065869
+	1259.1.1 = {
+		birth=yes
+	}
+	1340.1.1 = {
+		death=yes
+	}
+}
+1065873 = {
+	name="Guido"# Guido Capello. The heritage of this guy is contested, some historians( Salici, Barbarano and Angiolgabriello) make him son of Gilberto di Montebello and Cappello on his mothers side. Which doesn't fit at all with Guido son of Gilberto being a military force more than 80 years before he supposedly died as bishop.... Making him son of Capella instead which seems much more plausible imo, fits both with name and the family having good relations with d'este. Bishop of Ferrara from the 3rd of april 1304-1332. Also papal legate.
+	dynasty=1000035208
+	religion="catholic"
+	culture="venetian"
+	father=1065869
+	1270.1.1 = {
+		birth=yes
+	}
+	1332.1.1 = {
+		death=yes
+	}
+}
+###da Baone
+#conti di Baone et Abano 1st line, 
+1065874 = {
+	name="Riccardo"# Riccardo, son of Alberto(Padova), conte di Baone.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065813
+	1050.1.1 = {
+		birth=yes
+	}
+	1125.1.1 = {
+		death=yes
+	}
+}
+1065875 = {
+	name="Auria"# Auria, daughter of Riccardo, fl. 1150, married Ezzelino da Romano. 
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065874
+	female=yes
+	1095.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		death=yes
+	}
+}
+1065876 = {
+	name="Manfredo"# Manfredo, son of Riccardo, attested 1150, conte di Baone
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065874
+	1070.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1065877 = {
+	name="Ugolino"# Ugolino, son of Riccardo, attested 1149
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065874
+	1085.1.1 = {
+		birth=yes
+	}
+	1151.1.1 = {
+		death=yes
+	}
+}
+1065878 = {
+	name="Alberto"# Alberto, son of Manfredo, attested 1145, predeceased his father?
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065876
+	1086.1.1 = {
+		birth=yes
+	}
+	1145.1.1 = {
+		death=yes
+	}
+}
+1065879 = {
+	name="Cecilia"# Cecilia, daughter of Manfredo attested 1175
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065876
+	female=yes
+	1140.1.1 = {
+		birth=yes
+	}
+	1190.1.1 = {
+		death=yes
+	}
+}
+1065880 = {
+	name="Ugone"# Ugone, son of Alberto, attested 1116
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065878
+	1102.1.1 = {
+		birth=yes
+	}
+	1150.1.1 = {
+		death=yes
+	}
+}
+1065881 = {
+	name="Alberto"# Alberto, son of Ugone, attested 1165
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065880
+	1125.1.1 = {
+		birth=yes
+	}
+	1170.1.1 = {
+		death=yes
+	}
+}
+1065882 = {
+	name="Azzone"# Azzone, son of Alberto, attested 1191, went to Rome with babarossa.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065880
+	1135.1.1 = {
+		birth=yes
+	}
+	1191.1.1 = {
+		death=yes
+	}
+}
+#conti di Baone 2nd line
+1065883 = {
+	name="Ugone"# Ugone, son of Alberto(Pavia), Schinelli and 2nd Baone line decend from him
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065813
+	1055.1.1 = {
+		birth=yes
+	}
+	1130.1.1 = {
+		death=yes
+	}
+}
+1065884 = {
+	name="Alberto"# Alberto, son of Ugone.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065883
+	1080.1.1 = {
+		birth=yes
+	}
+	1155.1.1 = {
+		death=yes
+	}
+}
+1065885 = {
+	name="Alberto"# Alberto, son of Alberto. Inherited Baone from the Riccardo line.(married Cecilia?)
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065883
+	1130.1.1 = {
+		birth=yes
+	}
+	1160.1.1 = {
+		add_spouse=1065879 # says he got the title through her....
+	}		
+	1210.1.1 = {
+		death=yes
+	}
+}
+1065886 = {
+	name="Daria"# Daria, daughter of Alberto, attested 1251, married Gherardo di Camposampiero.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065883
+	mother=1065879
+	female=yes
+	1172.1.1 = {
+		birth=yes
+	}	
+	1255.1.1 = {
+		death=yes
+	}
+}
+1065887 = {
+	name="Maria"# Maria, daughter of Alberto, attested 1264, married Giacobino da Carrara 
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065883
+	mother=1065879
+	female=yes
+	1175.1.1 = {
+		birth=yes
+	}	
+	1265.1.1 = {
+		death=yes
+	}
+}
+1065888 = {
+	name="Albertino"# Albertino, son of Alberto, attested 1230.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065883
+	mother=1065879
+	1165.1.1 = {
+		birth=yes
+	}	
+	1240.1.1 = {
+		death=yes
+	}
+}
+1065889 = {
+	name="Aldourando"# Aldourando, son of Albertino, attested 1281
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065888
+	1200.1.1 = {
+		birth=yes
+	}	
+	1285.1.1 = {
+		death=yes
+	}
+}
+1065890 = {
+	name="Alberto"# Alberto, son of Albertino, attested 1281
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065888
+	1205.1.1 = {
+		birth=yes
+	}	
+	1282.1.1 = {
+		death=yes
+	}
+}
+1065891 = {
+	name="Ugolino"# Ugolino, son of Albertino, attested 1281
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065888
+	1215.1.1 = {
+		birth=yes
+	}	
+	1284.1.1 = {
+		death=yes
+	}
+}
+1065892 = {
+	name="Pietro Paolo"# Pietro Paolo, grandson of Albertino.
+	dynasty=1000035209
+	religion="catholic"
+	culture="venetian"
+	father=1065891 # specualtive
+	1250.1.1 = {
+		birth=yes
+	}	
+	1340.1.1 = {
+		death=yes
+	}
+}
+#-98 reserved
+###################################################3
+###two characters who ruled Montebello but who are possibly not related(silly complicated juggleing these sources)
+#Manfredo/Monfredo father of Ugone. Was a castle and count of Montebello without the name mentioned which were attested in 1022 and 1024.
+#Ugone son of Manfredo di Montebello, became count in 1067
+#####################################################
+#Transalgardi, da Forzatè( aka Sforzare/Sforza-Tè), Capodilista(aka Capitibus Listae), Capinegri and Picacavra(shortlived branch that died out before thte 10th century)
+#####################################################
+#conti di Montemerlo, signori di Saccisica(sometimes they are confused with Sacco/Zacco, Saccisica is the same Pieve di Sacco), Torreglia e Mandria(supposedly since CM but castle not built before 904).
+###first four is of semi mythical nature and should be taken with a grain of salt. Note that important characters called Carlotto Capodilista and Giovanni Forzaté both appear several centuries later so its quite possible that the actual divisions between the two branches actually happend in the 12th and 13th century.
+1065967 = {
+	name="Transalgardo" #NN(was probably called Transelgardo), segnieur de Mont Merlè(montemerlo is supposedly named after their ancestral lands back home in the French alps). First mention of them relates to somthing happening in 736.
+	dynasty=1000035229
+	religion="catholic"
+	culture="old_frankish"
+	715.1.1 = {
+		birth=yes
+	}	
+	780.1.1 = {
+		death=yes
+	}
+}
+1065968 = {
+	name="Transalgardo"#Transelgardo, son of NN, soldier under CM, was granted a castle in Avignone? 
+	dynasty=1000035229
+	religion="catholic"
+	culture="old_frankish"
+	father=1065967
+	740.1.1 = {
+		birth=yes
+	}	
+	775.1.1 = {
+		death=yes
+	}
+}
+1065969 = {
+	name="Giovanni" #Giovanni Forzatè, son of NN, soldier under CM, was awarded Montemerlo together with his brother. 
+	dynasty=1000035229
+	religion="catholic"
+	culture="old_frankish"
+	father=1065967
+	755.1.1 = {
+		birth=yes
+	}	
+	810.1.1 = {
+		death=yes
+	}
+}
+1065970 = {
+	name="Carlotto" #Carlotto Capodilista, son of NN, soldier under CM, was awarded Montemerlo together with his brother.
+	dynasty=1000035229
+	religion="catholic"
+	culture="old_frankish"
+	father=1065967
+	765.1.1 = {
+		birth=yes
+	}	
+	830.1.1 = {
+		death=yes
+	}
+}
+1065971 = {
+	name="Transalgardo" #placeholder
+	dynasty=1000035229
+	religion="catholic"
+	culture="old_frankish"
+	father=1065970	
+	800.1.1 = {
+		birth=yes
+	}	
+	850.1.1 = {
+		death=yes
+	}
+}
+1065972 = {
+	name="Giovanni" #placeholder
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065971		
+	835.1.1 = {
+		birth=yes
+	}	
+	890.1.1 = {
+		death=yes
+	}
+}
+1065899 = {
+	name="Transalgardo" #placeholder
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065972		
+	870.1.1 = {
+		birth=yes
+	}	
+	935.1.1 = {
+		death=yes
+	}
+}
+1065900 = {
+	name="Forzate" #placeholder
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065899	
+	905.1.1 = {
+		birth=yes
+	}	
+	960.1.1 = {
+		death=yes
+	}
+}
+1065901 = {
+	name="Giovanni" #placeholder
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065900
+	950.1.1 = {
+		birth=yes
+	}	
+	1010.1.1 = {
+		death=yes
+	}
+}
+###Capodilista(arms were a red rampant deer/ram on gold with blue branch in the mouth)
+1065902 = {
+	name="Carlotto" # Carlotto di Transalgardi
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065901	
+	985.1.1 = {
+		birth=yes
+	}	
+	1060.1.1 = {
+		death=yes
+	}
+}
+1065903 = {
+	name="Transelgardo"#Transelgardo son of Carlotto,
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065902
+	1030.1.1 = {
+		birth=yes
+	}	
+	1094.1.1 = {
+		death=yes
+	}
+}
+1065904 = {
+	name="Forzatè"#Forzatè son of Transelgardo,
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065903
+	1054.1.1 = {
+		birth=yes
+	}	
+	1130.1.1 = {
+		death=yes
+	}
+}
+1065905 = {
+	name="Transelgardino"#Transelgardino, son of Forzatè
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065904
+	1105.1.1 = {
+		birth=yes
+	}	
+	1176.1.1 = {
+		death=yes
+	}
+}
+1065906 = {
+	name="Federico"#Federico, son of Transelgardino,
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065905
+	1140.1.1 = {
+		birth=yes
+	}	
+	1200.1.1 = {
+		death=yes
+	}
+}
+1065907 = {
+	name="Giovanni"#Giovanni, son of Federico. 
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065906
+	1170.1.1 = {
+		birth=yes
+	}	
+	1230.1.1 = {
+		death=yes
+	}
+}
+1065908 = {
+	name="Antonio"#Antonio son of Federico
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065906
+	1192.1.1 = {
+		birth=yes
+	}	
+	1245.1.1 = {
+		death=yes
+	}
+}
+1065909 = {
+	name="Rolando"#Rolando son of Federico, same as Rolandino consul of Padova 1174?
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065906
+	1150.1.1 = {
+		birth=yes
+	}	
+	1215.1.1 = {
+		death=yes
+	}
+}
+#
+1065910 = {
+	name="Leonardo"#Leonardo, son of Transelgardino
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065905
+	1165.1.1 = {
+		birth=yes
+	}	
+	1235.1.1 = {
+		death=yes
+	}
+}
+1065911 = {
+	name="Rolando"#Rolando, son of Leonardo
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065910
+	1185.1.1 = {
+		birth=yes
+	}	
+	1255.1.1 = {
+		death=yes
+	}
+}
+#
+1065912 = {
+	name="Forzatè"#Forzatè II son of Transelgardino
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065905
+	1160.1.1 = {
+		birth=yes
+	}	
+	1225.1.1 = {
+		death=yes
+	}
+}
+1065913 = {
+	name="Carlotto"#Carlotto II, son of Forzatè II
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065912
+	1195.1.1 = {
+		birth=yes
+	}	
+	1255.1.1 = {
+		death=yes
+	}
+}
+1065914 = {
+	name="Gabriele"#Gabriele son of Carlotto II
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065913
+	1230.1.1 = {
+		birth=yes
+	}	
+	1260.1.1 = {
+		death=yes
+	}
+}
+1065915 = {
+	name="Federico"#Federico, son of Carlotto II
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065913
+	1212.1.1 = {
+		birth=yes
+	}	
+	1295.1.1 = {
+		death=yes
+	}
+}
+1065916 = {
+	name="Giovanni"#Giovanni, son of Federico
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065915
+	1228.1.1 = {
+		birth=yes
+	}	
+	1290.1.1 = {
+		death=yes
+	}
+}
+1065917 = {
+	name="Federico"#Carlotto III, son of Carlotto II
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065913
+	1235.1.1 = {
+		birth=yes
+	}	
+	1290.1.1 = {
+		death=yes
+	}
+}
+1065918 = {
+	name="Forzate"#Forzate III, son of Carlotto III
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065913
+	1270.1.1 = {
+		birth=yes
+	}	
+	1320.1.1 = {
+		death=yes
+	}
+}
+1065919 = {
+	name="Pisano"#Pisano, son of Forzatè
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065918
+	1300.1.1 = {
+		birth=yes
+	}	
+	1355.1.1 = {
+		death=yes
+	}
+}
+1065920 = {
+	name="Antonico"#Antonico, son of Pisano
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065919
+	1335.1.1 = {
+		birth=yes
+	}	
+	1370.1.1 = {
+		death=yes
+	}
+}
+1065921 = {
+	name="Giovanni"#Giovanni, son of Pisano
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065919
+	1340.1.1 = {
+		birth=yes
+	}	
+	1395.1.1 = {
+		death=yes
+	}
+}
+1065922 = {
+	name="Alvise"#Alvise, son of Giovanni, attested 1441
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065921
+	1370.1.1 = {
+		birth=yes
+	}	
+	1441.1.1 = {
+		death=yes
+	}
+}
+1065923 = {
+	name="Francesco"#Francesco son of Giovanni
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065921
+	1375.1.1 = {
+		birth=yes
+	}	
+	1420.1.1 = {
+		death=yes
+	}
+}
+1065924 = {
+	name="Giovanni"#Giovanni son of Giovanni
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065921
+	1360.1.1 = {
+		birth=yes
+	}	
+	1400.1.1 = {
+		death=yes
+	}
+}
+#
+1065925 = {
+	name="Pietro"#Pietro son of Carlotto III
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065913
+	1262.1.1 = {
+		birth=yes
+	}	
+	1320.1.1 = {
+		death=yes
+	}
+}
+1065926 = {
+	name="Carlotto"#Carlotto IV son of Pietro
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065925
+	1280.1.1 = {
+		birth=yes
+	}	
+	1330.1.1 = {
+		death=yes
+	}
+}
+1065927 = {
+	name="Federico"#Federico son of Carlotto IV, podesta of Vicenza 1331.
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065926
+	1300.1.1 = {
+		birth=yes
+	}	
+	1360.1.1 = {
+		death=yes
+	}
+}
+1065928 = {
+	name="Pietro"#Pietro son of Carlotto IV
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065926
+	1305.1.1 = {
+		birth=yes
+	}	
+	1345.1.1 = {
+		death=yes
+	}
+}
+1065929 = {
+	name="Leonardo"#Leonardo son of Carlotto IV
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065926
+	1310.1.1 = {
+		birth=yes
+	}	
+	1360.1.1 = {
+		death=yes
+	}
+}
+1065930 = {
+	name="Galasso"#Galasso son of Leonardo
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065929
+	1334.1.1 = {
+		birth=yes
+	}	
+	1390.1.1 = {
+		death=yes
+	}
+}
+1065931 = {
+	name="Paolo"#Paolo sono of Leonardo
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065929
+	1337.1.1 = {
+		birth=yes
+	}	
+	1375.1.1 = {
+		death=yes
+	}
+}
+#
+1065932 = {
+	name="Francesco"#Francesco, son of Pietro
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065925
+	1315.1.1 = {
+		birth=yes
+	}	
+	1395.1.1 = {
+		death=yes
+	}
+}
+1065933 = {
+	name="Annibale"#Annibale son of Francesco, priest at the Padovan cathedral
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065932
+	1355.1.1 = {
+		birth=yes
+	}	
+	1410.1.1 = {
+		death=yes
+	}
+}
+1065934 = {
+	name="Rafaele"#Rafaele son of GF
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065933
+	1395.1.1 = {
+		birth=yes
+	}	
+	1440.1.1 = {
+		death=yes
+	}
+}
+1065935 = {
+	name="Gabriele"#Gabriele son of GF
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065933
+	1415.1.1 = {
+		birth=yes
+	}	
+	1470.1.1 = {
+		death=yes
+	}
+}
+1065936 = {
+	name="Francesco"#Francesco son of GF, govenor of Milano Filippo Maria sforza.
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065933
+	1400.1.1 = {
+		birth=yes
+	}	
+	1485.1.1 = {
+		death=yes
+	}
+}
+1065937 = {
+	name="Annibale"#Annibale, son of Francesco, attested 1466
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065936
+	1420.1.1 = {
+		birth=yes
+	}	
+	1475.1.1 = {
+		death=yes
+	}
+}
+1065938 = {
+	name="Sigismondo"#Sigismondo son of Francesco
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065936
+	1425.1.1 = {
+		birth=yes
+	}	
+	1490.1.1 = {
+		death=yes
+	}
+}
+#
+1065939 = {
+	name="Rolando"#Rolando son of Pietro, attested 1325
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065925
+	1300.1.1 = {
+		birth=yes
+	}	
+	1350.1.1 = {
+		death=yes
+	}
+}
+1065940 = {
+	name="Federico"#Federico son of Rolando
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065939
+	1320.1.1 = {
+		birth=yes
+	}	
+	1360.1.1 = {
+		death=yes
+	}
+}
+1065941 = {
+	name="Giovanni Federico"#Giovanni Federico son of Federico
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065940
+	1355.1.1 = {
+		birth=yes
+	}	
+	1430.1.1 = {
+		death=yes
+	}
+}
+#
+### Forzatè/da Montemerlo
+1065942 = {
+	name="Riccardino"#Riccardino/Aciardo, son of?, attested 1095, fell in battle during the first crusade in 1099 on the last strech to jerusalem.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065904
+	1070.1.1 = {
+		birth=yes
+	}	
+	1099.6.1 = {
+		death={ death_reason=death_battle }
+	}
+}
+1065943 = {
+	name="Turingio"#Turingio di Montemerlo, son of?, attested 1106 on the 6th of april.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065942	#speculative
+	1085.1.1 = {
+		birth=yes
+	}	
+	1130.1.1 = {
+		death=yes
+	}
+}
+1065944 = {
+	name="Giordano"#Giordano Forzatè, son of ?,constructed the castle of Montemerlo.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065943	#speculative
+	1105.1.1 = {
+		birth=yes
+	}	
+	1160.1.1 = {
+		death=yes
+	}
+}
+1065945 = {
+	name="Vaccinone"#Uguccione/Vaccinone Forzatè, attested at the peace of Constanze (1183) and confirmed to Montemerlo by Babarossa
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065944	#speculative
+	1130.1.1 = {
+		birth=yes
+	}	
+	1190.1.1 = {
+		death=yes
+	}
+}
+1065946 = {
+	name="Giordano"#Giordano/Jordàn Forzatè, son of ?, born 1158, attested 1174, and again 1195 now as a bendictine cleric, 1203, 1211 appointed bishop of Ferrara but refused the honor, papal legate in Padova from 1213, ran for abbot of the bendictince monestary of Monaco in 1229 but failed, instead founded his own order, died on the 7th of august 1248. Was declared a saint.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065945	#speculative
+	1158.1.1 = {
+		birth=yes
+	}	
+	1248.8.7 = {
+		death=yes
+		give_nickname = nick_the_saint
+		add_trait="saint"
+	}
+}
+1065947 = {
+	name="Forzate"#Forzate, son of ?, father of Giovanni Battista
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065945	#speculative
+	1157.1.1 = {
+		birth=yes
+	}	
+	1220.1.1 = {
+		death=yes
+	}
+}
+1065948 = {
+	name="Giovanni Battista"#Giovanni Battista son of Forzatè, born the 24th of june 1207 bishop of Padova 1250-1283 24. of june,  same as the Giovanni who in 1220 held the palazzo di Capodilista?
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065947
+	1207.6.24 = {
+		birth=yes
+	}	
+	1283.6.24 = {
+		death=yes
+	}
+}
+1065949 = {
+	name="Arrigo"#Arrigo/Enrico Forzatè, son or grandson of Uguccione. succeded to Montemerlo, he was among the 16 nobles who accepted Azzolino da Romano as Imperial Vicar of Padova on the 25th of february 1237.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065947	#speculative
+	1185.1.1 = {
+		birth=yes
+	}	
+	1250.1.1 = {
+		death=yes
+	}
+}
+1065950 = {
+	name="Marzio"#Marzio/Marcio I, son of?, captain of the Padovan forces in 1258 against da Romano attested again october 1260 leading troops alongside Beraldo son of Guidone de'conti.  
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065949 # specualtive
+	1215.1.1 = {
+		birth=yes
+	}	
+	1290.1.1 = {
+		death=yes
+	}
+}
+1065951 = {
+	name="Marzio"#Marzio II Forzatè, son of ?, conte di Montemerlo 1318.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065950 # speculative
+	1250.1.1 = {
+		birth=yes
+	}	
+	1325.1.1 = {
+		death=yes
+	}
+}
+1065952 = {
+	name="Lieta"#Lieta, daughter of Marzio, married Jacopo da Carrara in 1318
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065951
+	female=yes
+	1290.1.1 = {
+		birth=yes
+	}	
+	1325.1.1 = {
+		death=yes
+	}
+}
+1065953 = {
+	name="Alvise"#Alvise, son of Marzio, became captain of Padovan forces under Jacopo da Carrara, he was executed by Francesco I da Carrara.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065951
+	1280.1.1 = {
+		birth=yes
+	}	
+	1351.1.1 = {
+		death=yes
+	}
+}
+1065954 = {
+	name="Transelgardo"#Transelgardo, constable of Capodistra for the venetians 1334 and 1337.
+	dynasty=8670
+	religion="catholic"
+	culture="venetian"
+	father=1065951 # speculative
+	1280.1.1 = {
+		birth=yes
+	}	
+	1351.1.1 = {
+		death=yes
+	}
+}
+###Saccia
+1065956 = {
+	name="Giovanni"#Giovanni da Tado attested 1132(as lord of Saccia and vassal of Padovan bishop) and 1138
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065903	#speculative
+	1072.1.1 = {
+		birth=yes
+	}	
+	1139.1.1 = {
+		death=yes
+	}
+}
+1065957 = {
+	name="Pietro"#Pietro di Transelgardo, father of Marcoardo
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065903	#speculative
+	1071.1.1 = {
+		birth=yes
+	}	
+	1123.1.1 = {
+		death=yes
+	}
+}
+1065958 = {
+	name="Marcoardo"#Marcoardo di Transelgardo, son of Pietro, attested in 1124, attested 1142 as consul and again in 1144. married Inglerada.
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065957
+	1090.1.1 = {
+		birth=yes
+	}	
+	1145.1.1 = {
+		death=yes
+	}
+}
+1065959 = {
+	name="India"#India, daughter of Pietro. Mother of Litolfo da Rovelone?
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065957
+	female=yes
+	1087.1.1 = {
+		birth=yes
+	}	
+	1150.1.1 = {
+		death=yes
+	}
+}
+1065960 = {
+	name="Pietro"#Pietro, son of Pietro attested 1130 and again 1138 alongside Transelgardo.
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065957
+	1092.1.1 = {
+		birth=yes
+	}	
+	1145.1.1 = {
+		death=yes
+	}
+}
+1065961 = {
+	name="Transelgardino"#Losco Transelgardino(maybe NN below?),attested 1174 seemingly quarreld with Giordano Forzate. Their spat supposedly ended up with half of Paodva getting torched.
+	dynasty=1000035229
+	religion="catholic"
+	culture="venetian"
+	father=1065958 # specualtive
+	1111.1.1 = {
+		birth=yes
+	}	
+	1178.1.1 = {
+		death=yes
+	}
+}
+#NN, son of Marcoardo. Married  a daughter(Richelda?) of Milone( son of Giovanni Punga di Fontaniva, ( who was possibly a son of Uberto da Fontivana attested 1079?) in 1124.
+### Picavara/Picacavram conti di Rovelone/Rouolone e pieve di Sacco(Saccisica)
+1065962 = {
+	name="Giovanni" #placeholder
+	dynasty=1000035224
+	religion="catholic"
+	culture="venetian"
+	father=1065899	
+	885.1.1 = {
+		birth=yes
+	}	
+	950.1.1 = {
+		death=yes
+	}
+}
+1065963 = {
+	name="Pietro" #Pietro Picacapra, bishop, attested 938 and 940
+	dynasty=1000035224
+	religion="catholic"
+	culture="venetian"
+	father=1065962	
+	908.1.1 = {
+		birth=yes
+	}	
+	950.1.1 = {
+		death=yes
+	}
+}
+1065964 = {
+	name="Gauslino" #Gauslino, cardinal bishop of Paodva 961, 970
+	dynasty=1000035224
+	religion="catholic"
+	culture="venetian"
+	father=1065962	
+	925.1.1 = {
+		birth=yes
+	}	
+	970.1.1 = {
+		death=yes
+	}
+}
+1065965 = {
+	name="Giovanni" #Giovanni brother of Gauslino, quarrled with the see of Paodva after his brothers death over land he had received while his brother was bishop.
+	dynasty=1000035224
+	religion="catholic"
+	culture="venetian"
+	father=1065962	
+	924.1.1 = {
+		birth=yes
+	}	
+	980.1.1 = {
+		death=yes
+	}
+}
+1065966 = {
+	name="Pietro" #Pietro de'Picavara, son of?, probably also a bishop, ambassador to the byzzies. Catholic Patriach of constantinople?
+	dynasty=1000035224
+	religion="catholic"
+	culture="venetian"
+	father=1065965	
+	960.1.1 = {
+		birth=yes
+	}	
+	1030.1.1 = {
+		death=yes
+	}
+}
+#-74
+################################
+#da Rovelone
+################################
+#Conti di Rovelone, possibly decending from the Transalgardi(seems likely of the Picavaram branch if so)
+#Litolfo, conte di Rovelone 1138
+###########################################
+#da Prata and di Porcia
+###########################################
+#Signori e conti di Prata, Ceneda, Brugnera e Porcia. Held the office as Avogari for the bishops of Ceneda from 1181 and onwards. Most adventures Friulian family.
+1065975 = {
+	name="Gabriele" #Gabriele I da Prata, attested 1112
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	1080.1.1 = {
+		birth=yes
+	}	
+	1140.1.1 = {
+		death=yes
+	}
+}
+1065976 = {
+	name="Guecello" #Guecello, son of Gabriele I, led the army Belluno and Aquila against Ezzilino in 1164 but was captured. Released in september the year after. Married Gisla daughter of Ezzilino I. Was present at the peace negotians in Venice between the lombard leage, papal seat and the emeperor in 1177. Podesta of Treviso 1179-1181. Awarded Ceneda castle by the bishop in 1181. Fought for Aquila against Treviso 1190-1193(succesfully). Hostilities resumed 1198 and Guecello bore the brunt of the Treviso efforts. The 15th of June 1199 he submitted and became a citizen of Trevsio. Died before 1214(assumed 1203). 
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065975
+	1120.1.1 = {
+		birth=yes
+	}	
+	1203.1.1 = {
+		death=yes
+	}
+}
+1065977 = {
+	name="Ottonello" #Ottonello, son of Gabriele I, attested 1192 alongside his brother.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065975
+	1130.1.1 = {
+		birth=yes
+	}	
+	1195.1.1 = {
+		death=yes
+	}
+}
+1065978 = {
+	name="Gabriele" #Gabriele/Gabriello II, son of Guecello, signore di Prata e Brugnera. attested 1214, allied with bishops of Feltre and Belluno against Treviso in 1220. Died before 1224.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065976
+	1155.1.1 = {
+		birth=yes
+	}	
+	1223.1.1 = {
+		death=yes
+	}
+}
+1065979 = {
+	name="Guecello" #Guecello II, son of Gabriele II recognized as lord of Prata by the Patriach of Aquila in 1224. Podesta of Padova 1247-1249, aligned with Ezzelino II against the patriach in 1250. Had to agree to agree to harsh demands when sueing the patriach for peace after Ezzelino died in 1259.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065978
+	1190.1.1 = {
+		birth=yes
+	}	
+	1260.1.1 = {
+		death=yes
+	}
+}
+1065980 = {
+	name="Guecello" #Guecelletto III, son of Guecello II, attested 1259
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065979
+	1230.1.1 = {
+		birth=yes
+	}	
+	1280.1.1 = {
+		death=yes
+	}
+}
+1065981 = {
+	name="Gabriele" #Gabriele III, son of Guecello II, attested 1259
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065979
+	1225.1.1 = {
+		birth=yes
+	}	
+	1290.1.1 = {
+		death=yes
+	}
+}
+1065982 = {
+	name="Guecello" #Guecellone IV, son of Gabriele III. Was granted some land by the bishop of Ceneda which was confirmed by the emperor.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065981
+	1260.1.1 = {
+		birth=yes
+	}	
+	1320.1.1 = {
+		death=yes
+	}
+}
+1065983 = {
+	name="Alberto" #Alberto, son of?
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065982 # speculative
+	1295.1.1 = {
+		birth=yes
+	}	
+	1365.1.1 = {
+		death=yes
+	}
+}
+1065984 = {
+	name="Guglielmino" #Guglielmino/Guglielmo, son of Alberto, last conte di Prata, attested 1409(hosted the pope), exlied 1419 after the city declared itself ar republic.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065983
+	1345.1.1 = {
+		birth=yes
+	}	
+	1419.1.1 = {
+		death=yes
+	}
+}
+1065985 = {
+	name="Niccolo" #Niccolo, brother of Guglielmino went to Venice after his brother lost hist lands.
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065983
+	1350.1.1 = {
+		birth=yes
+	}	
+	1425.1.1 = {
+		death=yes
+	}
+}
+##Di Porcia
+1065986 = {
+	name="Federico" #Federico son of Guecello. Founded the di Porcia branch. Signore di Porcia e Ceneda(Brugnera somhow drifted into this branch possesion but it must have been a few generations after at least). attested 1214
+	dynasty=1000035246
+	religion="catholic"
+	culture="venetian"
+	father=1065976
+	1160.1.1 = {
+		birth=yes
+	}	
+	1235.1.1 = {
+		death=yes
+	}
+}
+1065987 = {
+	name="Giovanni Francesco"#Giovanni Francesco son of Francesco, born ca 1380. Made Paodvan ambassdor to venice in 1405 where Padova reconigzed venice as liege. Later became venetian ambassador to the emperor. died 1456.
+	dynasty=1000035232
+	religion="catholic"
+	culture="venetian"
+	father=1065932
+	1370.1.1 = {
+		birth=yes
+	}	
+	1456.1.1 = {
+		death=yes
+	}
+}
+################################
+#Scrovegni 
+################################
+# patricians in Padua
+################################
+#Zacco
+################################
+# signore di monselice, patricians di Padua(in oppositions to da Romano) later also in venice, podesta di vicenza. arms were cheeckerd blue and white.
+#Zacco, founder of the dynasty attested 1080 in monselice.
+#Mainerio di Monselice, attested 1137.
+#Henrico di zacco. decapitated in 1234. alongside Bonifacio di Panigo by the Ezzelini. the two had served as captains in the bolongese army.

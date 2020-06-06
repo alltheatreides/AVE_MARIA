@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1561 - Shásh
+
+# County Title
+title = c_shash
+
+# Settlements
+max_settlements = 6
+b_shash = castle
+b_benaket = city
+b_tunket = temple
+b_shuturket = castle
+
+#b_kharashket = castle
+#b_nuket = temple
+
+# Misc
+culture = sogdian
+religion = manichean
+
+# History
+980.1.1 = {	culture = tajik }
+1005.1.1 = {	religion = sunni }
+1220.10.10 = {
+	remove_settlement = b_benaket
+}

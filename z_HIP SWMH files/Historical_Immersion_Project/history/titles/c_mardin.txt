@@ -1,0 +1,104 @@
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+	liege = d_diyareast
+	holder = 1500061
+}
+877.1.1 = {
+	holder = 0
+}
+936.7.1 = {
+	liege = d_diyareast
+	holder = 260824 # Sayf al-Dawla restores control to the rebellious Diyar Bakr and Edessa regions and are granted them as governor for his brother
+}
+944.1.1 = {
+	liege = d_aleppo
+}
+967.1.1 = {
+	holder = 1234874
+}
+980.1.1 = {
+	liege = d_amida
+}
+983.1.1 = {
+	holder = 159143
+}
+990.1.1 = {
+	holder = 159145
+}
+997.1.1 = {
+	holder = 159146
+}
+1011.1.1 = {
+	holder = 159147
+}
+1061.1.1 = {
+	holder = 20738
+}
+1079.1.1 = {
+	holder = 93419
+}
+1085.1.1 = {
+	holder = 1234943
+}
+1090.1.1 = {
+	holder = 1234944
+}
+1091.1.1 = {
+	holder = 1234945
+}
+1097.1.1 = {
+	holder = 144067
+}
+1104.1.1 = {
+	holder = 144066
+}
+1122.1.1 = {
+	holder = 34249
+}
+1125.1.1 = {
+	holder = 34250
+}
+1176.1.1 = {
+	holder = 34251
+}
+1183.1.1 = {
+	liege = k_egypt
+}
+1184.1.1 = {
+	holder = 34252
+}
+1203.1.1 = {
+	holder = 34253
+}
+1239.1.1 = {
+	holder = 34254
+}
+1250.5.1 = {
+	liege = 0
+}
+1258.1.1 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1260.1.1 = {
+	holder = 34255
+}
+1289.1.1 = {
+	holder = 248127 #Arghun appoints Taj-al-Din Isa of Arbela, son of Mukhtas, as governor
+}
+1291.1.1 = {
+	holder = 34256
+}
+1312.1.1 = {
+	holder = 34258
+}
+1336.4.10 = {
+	liege = 0
+}

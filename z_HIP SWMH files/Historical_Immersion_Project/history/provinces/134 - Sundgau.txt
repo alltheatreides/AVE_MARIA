@@ -1,0 +1,27 @@
+# 134 - Sundgau
+
+# County Title
+title = c_sundgau
+
+# Settlements
+max_settlements = 4
+
+b_ferette = castle
+b_murbach = temple
+
+#b_kolmar = city
+#b_rappoltstein = castle
+
+#b_mulhouse = city 
+#b_landser = castle 
+#b_altkirch = castle
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1084.1.1 = { b_rappoltstein = castle }
+#1135.1.1 = { b_altkirch = castle } #Habsburg landgraves of Upper Alsace
+1170.1.1 = { culture = german }
+1226.1.1 = { b_kolmar = city }

@@ -1,0 +1,85 @@
+# -*- ck2.history.titles -*-
+
+# Earldormen of Giani
+765.1.1 = {
+	liege = d_hereford
+	holder = 1226335 # Esne
+}
+814.1.1 = {
+	holder = 1226336 # Mucel
+}
+848.1.1 = {
+	holder = 1226337 # Æthelred Mucel
+}
+#####
+879.1.1 = {
+	liege = d_york # Danes take out the last Mercian king
+	holder = 0
+}
+936.1.1 = {
+	liege = d_norfolk
+	holder = 252380 # Ælfwynn lady of the Mercians 12th june 918 - december 918
+}
+985.1.1 = {
+	liege = k_england
+	holder = 1226361 # Ælfwine son of Ælfric Cild
+}
+991.1.1 = {
+	holder = 1226362 # Godwine son of Ælfric Cild, Ealdorman of Lindsey
+}
+1016.10.18 = {
+	liege = d_hereford
+	holder = 161276 # Eadric Streona earldorman of Mercia 1007-1017
+}
+1017.12.25 = {
+	liege = d_fivebouroughs
+	holder = 1226266 # Making Thuri a placeholder early on, so Haakon Eiriksson doesn't have quite that many provinces to govern himself
+}
+1028.1.1 = {
+	liege = d_hereford
+}
+1038.1.1 = {
+	liege = d_fivebouroughs
+	# Earl Thuri
+}
+1041.1.1 = {
+	holder = 161425 # Earl Beorn
+}
+1049.1.1 = {
+	liege = d_hereford
+	holder = 5640 # Leofric earl of Mercia 1017-1057
+}
+1057.10.30 = {
+	holder = 5642 # Ælfgar earl of Mercia 1057-1062
+}
+1062.1.1 = {
+	holder = 5644 # Eadwin
+}
+1066.10.14 = {
+	liege = k_england
+	holder = 204596 # Robert (I) de Beaumont
+}
+1118.6.5 = {
+	holder = 204590 # Robert (II) de Beaumont
+}
+1168.4.5 = {
+	holder = 204580 # Robert (III) de Beaumont
+}
+1190.1.1 = {
+	holder = 204582 # Robert (IV) de Beaumont
+}
+1204.10.21 = {
+	holder = 204586 # Simon (I) de Montfort
+}
+1218.6.25 = {
+	holder = 7465 # Simon (II) de Montfort
+}
+1265.8.4 = {
+	holder = 454523 # Edmund
+}
+1296.6.5 = {
+	holder = 129037 # Thomas
+}
+1322.3.22 = {
+	holder = 454525 # Henry
+}

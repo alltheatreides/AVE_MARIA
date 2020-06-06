@@ -1,0 +1,153 @@
+# -*- ck2.history.titles -*-
+#Commune founded
+1135.1.1 = {
+	law = succ_feudal_elective
+    liege=k_italy
+	holder = 1065717 # Riprando III Gandolfingi del Palazzo
+}
+1137.12.4 = {
+    liege = e_hre
+}
+1139.1.1 = {
+	holder = 1226755 # Marco Sambonifacio
+}
+1142.1.1 = {
+	holder = 1226756 # Scauro, capitano/podesta of Verona 1163, conte di Verona 1164-95
+}
+1154.12.1 = {
+    liege= k_italy
+}
+1167.4.7 = {
+liege=k_lombard_league
+}
+#Gandolfingi del Palazzo
+1195.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+#da Mandello
+1205.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello aka il Carroccio, podesta of Verona 1205-1206
+}
+#Gandolfingi del Palazzo
+1207.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+#Sambonifacio
+1210.1.1 = {
+	holder = 1226757 # Bonifacio, conte di Sambonifacio 1206, podesta of Verona 1211
+}
+#Gandolfingi del Palazzo
+1212.1.1 = {
+	holder = 1065723 # Bartolomeo Gandolfingi del Palazzo, consul of Verona 1195 and 1210, 1212 podesta of Verona. 
+}
+1214.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207.
+}
+#Sambonifacio
+1221.1.1 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+#Gandolfingi del Palazzo
+1224.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+}
+#Da Romano
+1225.1.1 = {
+	holder = 1226726 # Ezzelino III da Romano, "podesta" of Verona 1225-1230.
+}
+#Sambonifacio
+1227.1.1 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+#Gandolfingi del Palazzo
+1230.1.1 = {
+	holder = 1065724 # Gioavnni Gandolfingi del Palazzo, consul of Verona 1207. 
+}
+#Sambonifacio
+1232.7.27 = {
+	holder = 1226760 # Rizzardo, conte di Sambonifacio, podesta of Verona 1222 and 1233
+}
+1250.12.13 = {
+    liege=0
+}
+1254.2.1 = {
+	holder = 1226763 # Leonosio
+}
+1259.1.1 = {
+	holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+}
+#Scalieri	
+1259.5.1 = {
+	holder = 70794
+}
+#Sambonifacio
+1262.1.1 = {
+	holder = 1226764 # Ludovico, conte di Sambonifacio pre 1259, podesta of Verona 1262
+}
+#Scalieri	
+1263.1.1 = {
+	holder = 70794
+}
+#Suardi
+1270.1.1 = {
+	holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+}
+1275.1.1 = {
+	holder = 1065606 # Merino Suardi, Imperial rector of Verona 1275
+}
+#Scalieri
+1277.10.17 = {
+	holder = 70798
+}
+#Saurdi
+1280.1.1 = {
+	holder = 1064977 # Alberico Suardi, podesta of Verona 1268 and 1280.
+}
+#Scalieri
+1282.1.1 = {
+	holder = 70798
+}
+1301.1.1 = {
+	holder = 70802
+}
+1304.1.1 = {
+	holder = 412070
+}
+1305.1.1 = {
+	liege = 0
+	holder=0
+}
+###Podesta di Verona
+#Sanlinguerra Torelli, podesta of Verona 1200(first podesta). 
+#Egidio di Cortenova, podesta of Verona 1203
+#Drudo Marchilione, podesta of Verona 1204
+#Alberico di Faenza, podesta of Verona 1205
+#Rubaconte da Mandello aka il Carroccio/ Robaconte Buzzacarino, podtesta of verona 1206
+#Azzo d'este podesta of Verona 1207-1208
+#Guglielmo Rangoni, podesta di Verona 1209
+#Realdo dalle Carceri, podesta di Verona 1210
+#Bonifacio di Sambonifacio, podesta di Verona 1211
+#Bartolomeo di Palazzo(Gandolfingi), podesta of Verona 1212
+#Aldobrandino di este, podesta of Verona 1213
+#Gherardo di Campesco, podesta of Verona 1214
+#Rufino di Pontenovo, podesta of Verona 1219
+#Ugone di Crecenzi(Verona family not related to any other central italian ones), podesta of Verona 1220
+#Lambertin Brumarello, podesta of verona 1221
+#Rizzardo di Ridonesco/Ronco(Sambonifacio), podesta of verona 1222 and 1233
+#Lamberto Lambertini di Bologna, podesta of Verona 1224
+#Manfredo di Cortenova, podesta of Verona 1227
+#Ranierio Zeno, podesta of Verona 1230
+#Guido da Roda/Rho di Milano, podesta of Veriona 1232
+#Rizzardo di Ridonesco/Ronco(Sambonifacio), podesta of verona 1222 and 1233
+#Ranierio Bulgarello da Perugia, podest of Verona 1235-1236
+#Gherardo da Dovara, podesta of verona 1237
+#Bonacorso da Parma, podesta of verona 1238
+#Francseco Ribaldi, podesta of verona 1239-1240
+#Enrico da Egna aka il Gioavne, podesta of Verona 1246-1247
+#Arnaldo da Ponticello, podesta of verona 1249
+#Ugo da s. Guiliana, podesta of Verona 1251-1252
+#Buzzacarino di Buzzacarini, imperial vicar of Verona 1253-1254
+#Mastino della scala, podesta of Verona 1260
+#Andrea Zeno, podesta of verona 1261.
+#Marco Orso(two venetian patricans in a row thats pretty odd) podesta of Verona in second half of 1261
+#Mastino della Scala capitano del popolo of verona 1263

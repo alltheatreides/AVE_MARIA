@@ -1,0 +1,33 @@
+# 954 - Groitzsch
+
+# County Title
+title = c_groitzsch
+
+# Settlements
+max_settlements = 4
+
+b_groitzsch = tribal
+#b_leisnig = tribal
+#b_zeitz = city
+#b_naumburg = temple 
+#b_colditz = castle 
+
+#b_altenburg = city 
+#b_waldenburg = castle 
+#b_starkenberg = castle 
+ 
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+929.1.1 = {
+    b_groitzsch = castle
+	b_leisnig = castle
+	b_zeitz = city
+}
+929.1.1 = { culture = thuringian }
+929.1.1 = { religion = catholic }
+968.1.1 = { b_naumburg = temple }
+1170.1.1 = { culture = german } 
+#1158.1.1 = { b_colditz = castle }

@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 639 - Kerman
+
+# County Title
+title = c_kerman
+
+# Settlements
+max_settlements = 6
+b_kerman = castle
+b_bam = castle
+b_zarand = city
+b_khabis = city
+b_mahan = temple
+b_rayin = temple
+
+#b_kuhbanan = city
+#b_bihabad = city
+#b_djardjin = temple
+
+# Misc
+culture = persian
+religion = zoroastrian
+
+# History
+950.1.1 = {	religion = sunni }
+#1060.1.1 = { culture = persian } 

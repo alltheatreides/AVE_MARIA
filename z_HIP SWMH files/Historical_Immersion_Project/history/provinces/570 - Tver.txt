@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 570 - Tver
+
+# County Title
+title = c_tver
+
+# Settlements
+max_settlements = 5
+
+b_dubna = tribal
+#b_tver = city
+#b_starica = temple
+#b_tvergorodok = castle
+#b_sesatver = temple
+#b_vertjazin = city
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+
+1040.1.1 = {religion = orthodox }
+1040.1.1 = { b_dubna = castle }
+1040.1.1 = { b_tver = city }
+1134.1.1 = {#b_dubna = castle
+#b_tver = city
+b_starica = temple}
+1135.1.1 = { b_tvergorodok = castle }
+
+

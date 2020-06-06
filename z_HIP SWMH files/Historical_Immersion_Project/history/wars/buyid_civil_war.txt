@@ -1,0 +1,25 @@
+# -*- ck2.history.wars -*-
+
+name = "Pannáh Khosrow's Claim on Iraq War"
+
+casus_belli = {
+	actor = 1231065
+	recipient = 1231067
+	casus_belli=claim
+	landed_title=k_mesopotamia
+	date=977.1.1
+}
+
+977.1.1 = {
+	add_attacker = 1231065
+	add_defender = 1231067
+	add_defender = 1231066
+	add_defender = 1231401
+}
+
+978.1.1 = {
+	rem_attacker = 1231065
+	rem_defender = 1231067
+	rem_defender = 1231066
+	rem_defender = 1231401
+}

@@ -1,0 +1,58 @@
+#248124 = {
+#	name="Pappa" # unknown father
+#	dynasty=1059018 
+#	religion="nestorian"
+#	culture="assyrian" #Armenian descent but made Assyrian
+#	1190.1.1={
+#		birth=yes
+#	}
+#	1257.1.1={
+#		death=yes
+#	}
+#}
+#
+#248125 = {
+#	name="Mukhtas"
+#	dynasty=1059018 
+#	religion="nestorian"
+#	culture="assyrian" #Armenian descent but made Assyrian
+#	father=248124
+#	1216.1.1={
+#		birth=yes
+#	}
+#	1280.1.1={
+#		death=yes
+#	}
+#}
+#248126 = {
+#	name="Safi"
+#	dynasty=1059018 
+#	religion=shiite
+#	culture="assyrian" #Armenian descent but made Assyrian
+#	trait=sympathy_christendom
+#	trait=physician
+#	trait=scholarly_theologian
+#	father=248124
+#	1220.1.1={
+#		birth=yes
+#	}
+#	1257.1.1={
+#		employer=93316
+#	}
+#	1281.1.1={
+#		death=yes
+#	}
+#}
+#248127 = {
+#	name="Taj al-Din Isa"
+#	dynasty=1059018 
+#	religion="nestorian"
+#	culture="assyrian" #Armenian descent but made Assyrian
+#	father=248125
+#	1245.1.1={
+#		birth=yes
+#	}
+#	1291.1.1={
+#		death=yes # possibly murdered
+#	}
+#}

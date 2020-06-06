@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 929 - Aprutium # Aprutio
+
+# County Title
+title = c_aprutium
+
+# Settlements
+max_settlements = 4
+
+b_montorio = castle
+b_atri = city
+b_teramo = temple
+#b_ascoli = castle
+#b_penne_aprutio = city
+#b_san_valentino = castle
+
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = hills
+# History
+
+1014.1.1 = { b_atri = castle }
+1014.1.1 = { b_penne_aprutio = city }

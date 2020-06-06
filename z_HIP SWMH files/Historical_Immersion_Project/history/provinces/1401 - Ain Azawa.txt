@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1401 - Ain Azawa
+
+# County Title
+title = c_ainazawa
+
+# Settlements
+max_settlements = 2
+b_azawa = tribal
+#b_hamra = city
+
+# Misc
+culture = tuareg
+religion = west_african_pagan
+
+# History
+
+#islamization
+950.1.1 = { religion = ibadi }
+1130.1.1 = { religion = sunni }

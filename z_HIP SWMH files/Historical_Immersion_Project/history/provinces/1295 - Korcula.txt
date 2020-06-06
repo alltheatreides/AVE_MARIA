@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1295 - Korcula
+
+# County Title
+title = c_korcula
+
+# Settlements
+max_settlements = 3
+
+b_korcula = castle
+b_blato = city
+#b_lastovo = city
+
+
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History

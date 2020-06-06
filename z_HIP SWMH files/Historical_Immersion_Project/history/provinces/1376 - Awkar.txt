@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1376 - Awkar
+
+# County Title
+title = c_awkar
+
+# Settlements
+max_settlements = 2
+b_awkar = tribal
+
+#b_tirka = city
+
+# Misc
+culture = soninke
+religion = west_african_pagan
+
+# History
+
+#berber colonization
+980.1.1 = { culture = zanata }
+#980.1.1 = { remove_settlement = b_awkar }
+#980.1.1 = { b_awkar = tribal }
+
+#islamization
+1000.1.1 = { religion = sunni }

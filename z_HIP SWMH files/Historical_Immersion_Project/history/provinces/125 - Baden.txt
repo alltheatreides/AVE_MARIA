@@ -1,0 +1,27 @@
+# 125 - Baden
+
+# County Title
+title = c_baden
+
+# Settlements
+max_settlements = 5
+
+b_hohenbaden = castle
+b_schwarzach = temple
+
+#b_baden = city 
+#b_sulz = castle 
+#b_eberstein = castle 
+
+#b_geroldseck = castle 
+#b_wolfach = city 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+910.1.1= { b_sulz = castle }
+1085.1.1= { b_eberstein = castle }
+1170.1.1 = { culture = german }
+1250.1.1= { b_baden = city }

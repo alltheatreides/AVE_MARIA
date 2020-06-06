@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 276 - Hedmark
+
+# County Title
+title = c_hedmark
+
+# Settlements
+max_settlements = 4
+
+b_ringsaker = tribal #Hringisakr
+#b_ringnes = tribal # Hringanes
+#b_hamarhus = temple # Hamarr
+#b_lillehammer = city # Skógr/Lilþlæ Hama
+b_flikkeshaug = temple # Fylkishaugr
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1000.1.1 = { remove_settlement = b_flikkeshaug }
+1018.1.1 = { religion = catholic }
+1024.1.1 = { b_ringsaker = castle
+b_ringnes = castle} # Fat Olav 
+1025.1.1 = { b_hamarhus = temple } 
+1035.1.1 = { culture = norwegian }
+
+

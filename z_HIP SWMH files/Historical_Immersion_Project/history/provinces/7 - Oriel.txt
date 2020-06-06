@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 7 - Oriel
+
+# County Title
+title = c_oriel
+
+# Settlements
+max_settlements = 4
+
+b_dundalk = tribal
+#b_annagassan = tribal
+b_armagh = temple
+#b_newry = castle
+#b_ardee = castle
+
+
+# Misc
+culture = irish
+religion = catholic
+
+# History

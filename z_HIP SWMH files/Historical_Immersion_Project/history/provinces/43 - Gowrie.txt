@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 43 - Gowrie
+
+# County Title
+title = c_gowrie
+
+# Settlements
+max_settlements = 6
+b_scone = tribal
+#b_dunkeld = temple
+b_perth = city
+#b_forteviot = tribal
+#b_dundee = city
+#b_clunie = castle
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+
+1066.1.1 = {
+	b_scone = tb_hillfort_1
+	b_scone = tb_hillfort_2
+	b_scone = tb_training_grounds_1
+	b_scone = tb_war_camp_1
+}
+1146.1.1 = { 
+	b_scone = castle
+	b_dunkeld = temple
+} 

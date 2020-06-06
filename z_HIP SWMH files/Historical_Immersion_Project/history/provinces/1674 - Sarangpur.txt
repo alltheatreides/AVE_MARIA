@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1674 - Sarangpur
+
+# County Title
+title = c_sarangpur
+
+# Settlements
+max_settlements = 4
+b_sarangpur = castle #mid-14th century
+b_ashta = city
+#b_sidhhapur = temple
+#b_gagraun = castle
+#b_rajgarh = city
+#b_jhalawar = castle
+
+# Misc
+culture = hindustani
+religion = jain
+
+# History
+1066.1.1 = {
+	religion = hindu
+}

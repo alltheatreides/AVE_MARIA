@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1557 - Ustrushana
+
+# County Title
+title = c_ustrushana
+
+# Settlements
+max_settlements = 4
+
+b_bunjiket = castle
+b_zamin = city
+b_sabat = temple
+b_dizak_ustrushana = temple
+
+# Misc
+culture = sogdian
+religion = zoroastrian
+
+# History
+990.1.1 = { religion = sunni }
+
+1000.1.1 = { culture = tajik }

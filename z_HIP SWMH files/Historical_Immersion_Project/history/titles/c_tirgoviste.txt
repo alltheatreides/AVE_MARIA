@@ -1,0 +1,90 @@
+# -*- ck2.history.titles -*-
+
+681.1.1 = {
+	liege = d_wallachia
+	holder = 145934
+}
+721.1.1 = {
+	holder = 145940
+}
+737.1.1 = {
+	holder = 145941
+}
+753.1.1 = {
+	holder = 145946
+}
+756.1.1 = {
+	holder = 145949
+}
+767.1.1 = {
+	holder = 145950
+}
+852.1.1 = {
+	holder = 70382 # Boris
+}
+860.1.1 = {
+	holder = 168066
+}
+################## add Vlach
+# Yazi-Qapan
+895.1.1 = {
+	liege = d_yazi_qapan
+	holder = 1231820 # Yazi
+}
+902.1.1 = {
+	holder = 1231822
+}
+943.1.1 = {
+	holder = 1231824
+}
+968.1.1 = {
+	holder = 1231826
+}
+990.1.1 = {
+	holder = 1231828
+}
+1018.1.1 = {
+	holder = 1231830
+}
+#1040.1.1 = {
+#	liege = d_yazi_qapan
+#}
+1049.1.1 = {
+	holder = 1231832
+}
+# Brodniks
+1060.1.1 = {
+	liege = d_brodniks
+	holder = 1233266
+}
+1106.1.1 = {
+	holder = 1233267
+}
+1150.1.1 = {
+	holder = 1233268
+}
+1180.1.1 = {
+	holder = 1233269
+}
+1220.1.1 = {
+	holder = 228027 # Seneslau
+}
+# Qor migrate to Hungary after defeat
+1238.1.1 = {
+	liege = d_wallachia
+}
+# Seneslau dies, Litvoi crosses the Olt
+1277.1.1 = {
+	holder = 34800 # Litvoi
+}
+# Litvoi dead
+1279.1.1 = {
+	liege = k_hungary
+	holder = 475560 # Tihomir
+}
+1300.1.2 = {
+	liege = d_wallachia
+}
+1310.1.1 = {
+	holder = 475550 # Basarab
+}

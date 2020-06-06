@@ -1,0 +1,22 @@
+# -*- ck2.history.titles -*-
+
+
+#b_montfaucon only
+1025.1.1 = { holder = 1226525 } #Conon de Montfaucon
+1050.2.1 = { holder = 1226526 } #Richard Ier de Montfaucon
+1085.2.1 = { holder = 1226527 } #Amédée Ier de Montfaucon
+1110.1.1 = { holder = 161764 } #Richard II de Montfaucon #becomes count of Montbeliard consort 1124
+#b_montfaucon+c_montbeliard
+1150.1.1 = { holder = 161765 } #Amedee II de Montfaucon
+1195.5.1 = { holder = 161767 } #Richard III de Montfaucon
+#b_montfaucon only
+1227.6.17 = { holder = 161770 } #Amédée III de Montfaucon #should be 1230 but vanilla makes his predecessor dying earlier
+1280.1.15 = { holder = 1226528 } #Jean Ier de Montfaucon Jean Ier de Montfaucon (fils du précédent).
+1306.9.1 = { holder = 161771 } #Gauthier II de Montfaucon, no mention of a Gauthier I anywhere
+1309.5.1 = { holder = 161773 } #Jean II de Montfaucon
+1318.9.17 = { holder = 0 } #?
+#b_montfaucon+c_montbeliard
+1339.1.1 = { holder = 161774 } #Henri de Montfaucon
+1367.12.5 = { holder = 161775 } #Etienne de Montfaucon
+#1367.12.5 = { holder = not coded } #Etienne de Montfaucon+Henriette d'Orbe-Montfaucon
+#1397.11.2 = #end of male line

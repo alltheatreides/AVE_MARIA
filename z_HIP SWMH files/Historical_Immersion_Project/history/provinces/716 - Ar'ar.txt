@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 716 - Ar'ar
+
+# County Title
+title = c_ar_ar
+
+# Settlements
+max_settlements = 3
+
+b_maridfortress = tribal
+b_sakakah = city
+#b_dumat_al_jundal = city
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

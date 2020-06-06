@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 961 - Branicevo
+
+# County Title
+title = c_branicevo
+
+# Settlements
+max_settlements = 5
+
+b_ram_branicevo = castle
+b_branicevo = city
+b_cuprija_ravno = city
+#b_krusevac = city
+#b_golubac = castle
+#b_kucevo = castle
+
+
+# Misc
+culture = bulgarian
+religion = slavic_pagan
+
+# History
+
+900.1.1 = { religion = orthodox } 
+1250.1.1 = { b_zdrelo = castle }

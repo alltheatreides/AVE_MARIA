@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1138 - Biserno
+
+# County Title
+title = c_biserno
+
+# Settlements
+max_settlements = 4
+b_biserno = castle
+#b_forcoli = castle
+b_volterra = temple
+b_st_gimignano = city
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = forest
+# History
+1005.1.1 = { 
+	b_forcoli = castle
+}

@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 662 - Mazandarán
+
+# County Title
+title = c_mazandaran
+
+# Settlements
+max_settlements = 5
+
+b_amul = castle
+b_alhum = city
+b_lafur = castle
+b_mamtir = temple
+#b_wimah = city
+
+# Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+651.1.1 = {
+	b_amul = ca_town_1
+	b_amul = ca_wall_1
+	b_amul = ca_keep_1
+	b_amul = ca_militia_barracks_1
+	b_alhum = ct_marketplace_1
+	b_mamtir = tp_town_1
+}
+
+887.1.1 = { religion = zaydi } 

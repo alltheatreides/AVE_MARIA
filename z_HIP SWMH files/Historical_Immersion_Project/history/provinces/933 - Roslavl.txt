@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 933 - Roslavl
+
+# County Title
+title = c_roslavl
+
+# Settlements
+max_settlements = 3
+
+b_roslavl = tribal
+#b_mitishkino = castle
+#b_elnya = temple
+#b_pacynrostislvl = city
+#b_spass_demensk city
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1025.1.1 = {religion = orthodox }
+1025.1.1 = {b_roslavl = castle }
+

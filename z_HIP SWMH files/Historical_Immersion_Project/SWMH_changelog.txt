@@ -1,0 +1,366 @@
+SWMH 3.41 [2020-03-06]
+	*CHANGES:*
+		Decision changes:
+			Three vanilla decisions have been incorporated: "Embrace Local Traditions" (changes Rurikid characters' culture to Russian), "Establish Cairo", and "Establish Castle Habsburg".
+		Bloodline changes:
+			Historical bloodlines of Alfred and Abu Sa'id Jannabid added.
+			Historical bloodline of Vortigern and Bahram VI removed.
+		Map changes:
+			Added a passable border between the provinces of Zemplén and Galich, representing the Veretsky Pass.
+			Renamed the province of Karasu to the more period-appropriate Balkhan.
+			The empire title containing the kingdoms of Hungary, Wallachia, Moldova, Croatia, and Bosnia is now called "Carpathia" instead of "Magyarország", and is no longer flagged as a principally Hungarian title.
+				This title contains a multitude of different cultures, all of which could potentially end up forming this empire title (and if a player is starting in 867, the Magyars may potentially not even move into the Carpathian Basin), so having its name be derived purely from Hungary's could break immersion. 
+		Other changes:
+			Added equivalencies to some Turkic names (e.g. Toghril, Timur)
+			Removed names deriving from Baghatur, as the term only became a personal name in the post-Mongol era
+			The Holy Roman Empire will now always start with *Princely Elective Succession* instead of only taking effect when Heinrich II is crowned in 1002.
+			Added Arabic and Iranian dynamic cultural localization to the Kingdom of Georgia.
+			The province and duchy of Cairo are now called Fustat before 969.
+	*FIXES:*
+		Database errors:
+			Fixed the wrong entry for one of the Miaphysite holy sites.
+			The kingdoms of Wallachia, Moldova, Croatia, and Bosnia are now de jure part of the empire of Carpathia before 25th December 1000 instead of not being part of any de jure empire.
+			The kingdom of Great Moravia remains a de jure part of the Wendish Empire in the 936 start instead of not being part of any de jure empire.
+			The duchy of Urgell now properly has the same, extra creation requirements as other duchies.
+		Map errors:
+			The port for the province of Mora is no longer located in the middle of Russia.
+		Localization errors:
+			Magyar opinion boost is now correctly localized.
+		History errors:
+			Duchy of Kerman is no longer landless between 1024 and 1028.
+			Duchy of Fars is now a vassal of the kingdom of Iraq between 1050 and 1054 as it should be.
+			Khazar princess is now married to the current Oghuz ruler in 867.
+	*HISTORY SETUP:*
+		Non-period specific changes:
+			Reviewed the Buyid setup, so that the Buyids are now more often disunited in the late 10th century and early 11th century.
+			Lutici, Obotrite, and Pomeranian tribal kingdoms have been reverted to duchies.
+			Bulanids of Khazaria no longer descend from the Ashina clan and therefore no longer has the Ashina bloodline.
+				Bulan is recorded as a "king" (referred to as Ishad or Bek) of the Khazars who relegated the Kaghan to a ceremonial role and became the secular ruler of Khazaria. None of the extant sources points to his Kaghanal lineage.
+			Revised the birth and date dates of Bulanid rulers of Khazaria to reflect post-1980s Khazar scholarship.
+			Corrected the wrong parents of several Saffarid characters.
+			Some more historical details added to the Ma'munids of Khwarezmia.
+			Provinces in southern Crimea and along the Lower Don River where historically the Khazars garrisoned and populated with Volga Bulgars and Oghuz Turks are now ruled by placeholder Volga Bulgar and Oghuz characters.
+			Provinces of Mangyshlak and Balkhan stay Oghuz up to the Mongol invasion.
+			More detailed Qarakhanid setup, particularly around 1010 and 1100.
+			Provinces of Shash and Otrar are now Manichean until the early 10th century.
+			Provinces of Kashgar and Aqsu are now Manichean until the late 12th century.
+			Provinces of Ferghana and Khaylam are now Buddhist until the early 11th century.
+			Sajid dynasty is no longer related to the Karakani dynasty.
+			Replaced a lot of completely fictional Old Hungarian (Moger) and Khavar (Qavar) characters in the 867 and 936 starts with characters who are either semi-mythological, historically plausible, and/or are at least historically correct w.r.t. to they dynasty/tribe ruling over their specified area. A few of these corrections also end up being relevant for Hungary starts up to around 1038.
+			Mazyadid characters of al-Hilla now start out as Bedouin Arabic until 1102.
+			The first two generations of Mirdasid and Numayrid characters are now Bedouin Arabic.
+			Numayrid characters are now Shiite.
+			Shihna (prefect) of Baghdad under the Seljuks (1060-1138) now owns the duchy of Samarra rather than the duchy of Tigris.
+			Province of Al-Hilla's religion has been changed to Shia.
+			Province of Maysan's religion has been changed to Sunni.
+			Hasanid characters of Mecca are now Zaydi.
+			Husaynid characters of Medina are now Shia.
+		867:
+			Much of Ferghana is now ruled by an independent Samanid character (brother of the two other landed Samanid characters).
+			Ferghana is now ruled by an independent Karluk character.
+			Saffarids now control the Walishtan provinces rather than being at war.
+			Chrobatia and its rulers are now Rusisku (Russian, technically Rusyn) instead of Hrvatski (Croatian). The underlying provinces now also stay Rusisku in all start dates instead of flipping to Moravský, Moger, Magyar, and/or Beçenek at various points in the game.
+			Borsod is now Avar and Tengri instead of Hrvatski and Catholic, and it is now ruled by Great Moravia instead of by Chrobatia.
+			Ros' is now ruled by a character from Hetumoger instead of a placeholder, Russian (Rusisku) character.
+			Basarabia is now Khavar (Qavar) and ruled by the Khavar chief within Hetumoger.
+			The provinces of Przemysl, Chelm, and Belz now all start and stay as Rusisku instead of starting as Polski and then switching to Rusisku in the late 10th century.
+			Hasan ibn Zayd of Tabarestan no longer holds the Zaydi religious head title.
+		936:
+			Al-Baridi of Ahwaz are now independent.
+			Wendish tribes that were vassals of the Billung March are now tributaries.
+			Zamindavar and Rukhkhaj are now owned by the Saffarids.
+			Added traits and stats to the three Buyid brothers.
+			Added a fictional mother to the three Buyid brothers to make them a bit more cooperative.
+			Fictional Alan rulers of the middle Don River under Khazaria have been separated from the Os dynasty of Yegorlyk to prevent succession.
+			Vukova is now ruled by Croatia instead of Hungary, and Srem/Syrmia is now ruled by Bulgaria instead of Hungary.
+			The provinces of Spis/Szepes, Trencin, and Orava are now directly ruled by Hungary instead of being owned by placeholder Moravian characters in a tributary relationship with Hungary.
+		10th century:
+			Abivard is owned by the Simjurids of Nishapur for much of the late 10th century.
+			Afrighids of Khwarezmia are now a tributary of the Samanids of Transoxiana for much of the 10th century.
+		11th century:
+			Tutush of Damascus is now at war with the Seljuk empire of Persia between 1092 and 1095.
+			Removed some duplicate Qarakhanid characters.
+			Better historically informed death dates of the Muzaffarid rulers of Chaghaniyan.
+			Muzafarids of Chaghaniyan remain a Western Qarakhanid vassal until 1039, then come under Seljuk control in 1044.
+			Qawurd is now at war with the Seljuks of Persia between 1072 and 1074 over the empire of Persia.
+			Added some historical iqta holders of Basra and Wasit in the late 11th century.
+			Added some more historical shihna (prefect) of Baghdad under the Seljuks.
+			Abu Nasr ibn al-Haytham of al-Batiha (1040s-1076) is now Levantine Arabic.
+			Added historical rulers of al-Batiha between 1076 and mid-12th century.
+			Added historical rulers of Tikrit between 1050s and 1100s.
+		12th century:
+			Seljuk sultan of Persia is now at war with the Abbasid caliphate in 1157-1158.
+			Ildeguzids of Azerbaijan are independent, 1156-1161.
+			Seljuk sultanate of Persia controls the entire of duchy of Jebal until 1161.
+			Some historical details to the Ildeguzids.
+			Hazaraspid dynasty of Idhaj now becomes landed and independent in 1156.
+			Removed a duplicate Aqsonqur al-Bursuqi, who was the shihna of Baghdad and governor of Mosul in the early 12th century.
+		13th century:
+			Castle of Ždrelo added to Branicevo in 1250.
+			Oljeitu is now born Nestorian rather than Catholic, and he converts to Buddhism rather than Tengri in his youth.
+			Sharifate of Medina continues to be ruled by the Husaynids until the last playable start date of 1337.
+			Ninawa and, later, Shahrazur is ruled by a separate branch of the Zengids between 1211 and 1236.
+
+
+SWMH 3.4 [2019-12-20]
+	*HIGHLIGHTS:*
+		Introduced the Iron Century Bookmark (936).
+		Introduced the 993-1018 timeline.
+		Added 39 new provinces in South India.
+		Added 11 new provinces.
+	*CHANGES:*
+		Map changes:
+			Added 11 new provinces: Maysan in southern Iraq; Sus in southern Persia; Shapurkhwast in western Persia; Dzoraget and Kambechovani in the Caucasus; Selymbria in Thrace; Bampur in Makran; Dathina and Marib in Yemen; Ardabil in Azerbaijan; Qurta in northern Nubia.
+			Replaced the province of Larestan with Istakhr in western Persia.
+			Replaced the province of El-Rif (to the north of Fez) with the province of Tadla (south of Fez).
+			2 provinces merged in Nubia (into Dongola and Soba).
+			Added an extra sea zone in South India (Konkan Coast).
+			Made some adjustments to the Trans-Saharan Trade Route.
+			Adjusted the borders around Nishapur to better reflect historical roads.
+			Slight Zoroastrian holy site changes.
+		Province setup changes:
+			Duchy of Luristan added in western Persia.
+			The island of Socotra is now a de jure duchy belonging to the kingdom of Yemen.
+			Ardabil is now de jure capital of the duchy of Azerbaijan until 1186.
+			Shuffled around the barony setup in Susa and Sfax and changed the province border accordingly (no change in the total number of baronies).
+			Reduced the number of barony slots in some Siberian provinces where baronies are named after settlements that were built after the CK2 timeframe.
+			Revised the barony setup in Ethiopia, Persia, Maghreb, Hungary and western Anatolia.
+			The province of Kharraqan moved under the duchy of Rayy for a more historically sound setup.
+			Maximum barony counts for Balasaghun and Yulduz increased to 5.
+		Mechanic changes:
+			[EMF+SWMH] The HRE can now be created like a normal title if it isn't titular. Previously, it could only be peacefully usurped with EMF+SWMH (peaceful usurpation implying that it's not titular as well) -- not created.
+			[EMF+SWMH] Ensured that the Byzantine Empire cannot be created if, for various possible reasons, Constantinople is no longer a de jure part of its territory.
+			[EMF+SWMH] Improved title creation/usurpation tooltips for historically de jure empires which have extra requirements upon your realm size (number of holdings in realm) that can be bypassed if the title has or will have *High Crown Authority* or higher. This includes the *Holy* Roman Empire, the Roman Empire, the Persian Empire, and the Arabian Empire.
+			Incorporated vanilla decisions to form the Kingdoms of Leon, Castile, Aragon, and Portugal.
+			Eastern Iberia now falls under a placeholder de jure kingdom of Valencia until mid-13th century.
+			There are no longer any foreigner opinion penalties between Parsig characters and Pársí ones, and there are no longer any foreigner opinion penalties between Sogdian characters and Tajik ones.
+			The base population gained per empty holding for nomads is now 1550 (from 1400). This number leads to closer parity with the population gained from similarly-sized territories in the vanilla map than before (i.e. it compensates for there being fewer provinces in the Steppes regions better than before).
+			Arctic terrain now has a baseline 30% Narrow Flank chance (from 15%) and a -33.33% movement speed modifier (from -16.67%). These stats were previously only present when LTM (a mod many assumed to only be a graphical one) was installed alongside SWMH, but they have now been incorporated into the SWMH mod proper.
+			The Kingdom of Kiev is no longer renamed Kievan Rus upon startup.
+		Culture setup changes:
+			Standardized and corrected many Hungarian and Székely cultural names and adjectives. They now all use modern Hungarian spellings (e.g. Kozár -> Kazár, Sikhiya -> Szícsia), but old/medieval Hungarian names (e.g. Zágreb -> Gréc, Nyitra -> Felföld, Belgrád -> Nándorfehérvár).
+			Added a new culture to the Magyar cultural group called Moger. Moger represents pagan Magyars with a semi-nomadic culture and lifestyle, while Magyar now represents Christian Magyars with a more settled lifestyle.
+				Mogers use cultural names similar to Magyars', but spelled using Old Hungarian instead of modern Hungarian. This is to differentiate between the two cultures more easily.
+				All Magyar characters and provinces who start as pagan will now start as Moger instead of Magyar.
+				Steppe Barracks and Steppe Stables buildings are now only available to Mogers in the Magyar cultural group.
+				Magyars can no longer raid by default, as this feature has now been moved to Mogers.
+				Moger rulers will eventually become Magyars if they are Christian, are not nomadic, and have provinces in their demesne that are not Steppes. Their Moger courtiers will quickly follow suit if their capital is also not in a Steppe province.
+			Added a new culture to the Altaic cultural group called Qavar (alternatively known as Kabar, Qabar, or Khavar). Qavar represents the Qasar/Khazar tribes who rebelled against the confederation, were exiled as punishment, and ended up joining forces with the Magyars.
+				Qavars are almost identical to Qasars/Khazars, but their dynasty names tend to have less Jewish influence. This represents the suspect coincidence of the Qasars/Khazars' conversion to Judaism and the Qavar rebellion.
+				Rulers and provinces under Moger/Magyar domain that used to be Qasar will now be Qavar instead.
+				Christian Qavars under a Magyar top liege and Christian Qavar provinces under Magyar owners will eventually become Székely. Practically speaking, this is the only real mechanical difference betweens Qasars and Qavars, and is the reason for having Qavar as a separate culture in the first place.
+			Replaced Roman-derived Berber names with more period-appropriate ones, based on historical figures'.
+		Bloodline changes:
+			Blood of Árpád is now active for all characters in the Magyar cultural group, not just Magyars, and provides an opinion bonus from all cultures in the Magyar cultural group, not just Magyars.
+			Changed the effects of Eleanor of Aquitaine, Arwa, and Basil, and Alexander Nevsky bloodlines.
+			The Solomonid bloodline now confers opinion bonus from Miaphysite characters only.
+			The Muhammad Nasrid bloodline now confers opinion bonus from Andalusian Arabic characters only.
+		Localization changes:
+			Added native Berber tribal titles.
+			Added native Hungarian feudal, city, and temple titles.
+			African tribal titles no longer use the Ra'is title.
+			Afghan count title changed to Shar (used by the historical rulers of Gharchistan and Bamiyan).
+			Corrected native localization of Sanhaja, Soghdian, Tajik, and Mongol cultures.
+			Kingdom of Malwa has been renamed Malava (Sanskrit).
+			The province of Vyazma has been renamed Rzhev.
+			Replaced the remaining instances of the Arabic dj with j in province and title names.
+		Other setup changes:
+			Added 4 new bookmarks since 993: "The Age of Kings" (993), "Battle of Spercheios" (997), A New Millenium (1000), and "The Taifa Kings" (1032).
+			Berber mercenary companies now employ Light Cavalry in addition to Camel Cavalry.
+			Mamluk mercenary company now employs Light Cavalry, Horse Archers, and Heavy Cavalry instead of Camel Cavalry.
+			Persian Caravan Guards mercenary company now employs Horse Archers instead of Camel Cavalry.
+	*FIXES:*
+		Database errors:
+			Otto I now historically starts his bloodline in 962 when he became the Holy Roman Emperor.
+			Adhari dynasties no longer use duplicate ID range of Frisian dynasties.
+			Fixed a bug where the provinces of Krain and Windische Mark lacked technology before 1188.
+			Kingdom of Kiev is no longer ownerless in 1018.
+			Duchy of Arran/Albania is no longer ownerless between 1031 and 1034.
+		Map fixes:
+			The strait between Saaremaa and Läänemaa will now properly say it goes across the Gulf of Riga, not the Gulf of Danzig.
+			The inland province of Savolax in Finland no longer has a port.
+	*HISTORY SETUP:*
+		Non-period specific changes:
+			Incorporated historical character, province, and title setup from Qutb87's Turks, Mongols, and Mamluks submod.
+			The Rashtrakuta historical bloodline added.
+			Miknasa characters changed to the Zanata culture as they should be.
+			Added or modified historical Imams of Oman.
+			The Barghawata retain the Nabawite Malikate title until they disppear in the 1050s.
+			Kingdoms of Galicia and Asturias start out as de jure kingdoms until their successor kingdoms appear.
+			The Rawwadids now own Tabriz rather than Muqan as they should (they originally roamed the area between Tabriz and Ahar).
+			The province of Muqan now has a unique set of owners between 867 and 1073.
+			Tahart is now de jure capital of the duchy of Tahart.
+			Bukhara is now de jure capital of the duchy of Soghd and kingdom of Mavar-an-Nahr until 1040.
+			Hindu Shahi characters now have the Kshatriya trait rather than the Brahmin trait (there are more historical records indicating them to be Kshatriya than Brahmin)
+			Merged the vanilla and SWMH lines of Bamiyani rulers.
+			Added Nasirvand rulers of Gilan from the mid-11th century onward.
+		867:
+			Vimara Vimaranes of Porto now starts out at war with Sa'dun al-Surunbaqi over Porto in 867.
+			Added several historical governors in Andalusia in 867, some of whom are independent or tributaries of the kingdom of Andalusia.
+			Slight historical setup change in Sicily and the Aghlabid-Byzantine war in 867.
+			Better historically informed Idrisid setup in 867.
+			The province of Nyitra/Nitra will now stay Moravský/Moravian and Catholic in starts before 1041 instead of being Qasar/Khaar and/or Tengri depending on the date.
+			The province of Bacau will now start as Orthodox in 867 instead of Tengri.
+			The province of Naissus/Niš will now start as Bálgarski/Bulgarian in 867 instead of Rumân/Romanian.
+			The province of Birlad/Barlad will now start as Orthodox Rumân/Romanian in 867 instead of Tengri Bálgarski/Bulgarian.
+			Umayyad characters are now Levantine Arabic in 867.
+			Sawdan, the emir of Bari in 867, now has event troops.
+			Emperor Yizong of the Tang dynasty is back to Taoist, but with the Sympathy for Eastern Religions trait.
+			Reduced the size of spawned troops that Tirdádh of Gilan starts out with in 867.
+		10th century:
+			The kingdom of Andalusia has many council empowerment laws enacted after 976 to reflect the historical rise of Almanzor as the real power behind the throne.			
+			The barony of Satrata in Wargla is now constructed in its historical founding date of 908.
+		11th century:
+			Taifa (Andalusian) realms of Andalusia now pay tribute to the Christian Iberian kingdoms between the 1040s and 1090s.
+			Reverted the Uqaylids to be a vassal of the Seljuk Empire in 1066.
+			Oghuz Turks south of Kiev are now permanent tributaries of Kiev until 1140.
+			Historical setup overhaul in Nubia since the 11th century (e.g. Nubia is a unified realm since 1037).
+			More detailed tributary relation history between the Ghaznavids and the Hindu Shahi between 1001 and 1018.
+		12th century:
+			Added or landed historical Almoravid and Almohad governors in North Africa and Andalusia.
+			The unheld Kingdom of Lotharingia no longer makes a sudden comeback as a de jure kingdom within the HRE on September 24, 1190.
+		13th century:
+			The Western Qarakhanid and Khwarezmian rulers now have marriage ties between 1210 and 1212.
+
+
+SWMH 3.31 [2019-11-08]
+	*FIXES:*
+		Fixed port position for Bordeaux (no longer sits on the Garonne river).
+
+
+SWMH 3.30 [2019-10-24]
+	*CHANGES*:
+		Expanded on and corrected Nahua localizations from vanilla CK2.
+		The Aztec Empire will now be called Aztecatlatocayotl.
+
+
+SWMH 3.29 [2019-09-06]
+	*CHANGES:*
+		The Kingdom of Navarra, the Duchy of Navarra, and the Counties of Alava, Guizpuzcoa, Labourd, Navarra, and Viscaya all adopt *Primogeniture* when they are historically taken over by Basque characters. The county of Labourd reverts back to *Gavelkind* succession in 985 due to being inherited by an Occitan character.
+		The Kingdom of Poland will have *Elective Monarchy* succession starting from 1291.
+		The Kingdom of Novgorod will now start with *Elective Monarchy* succession from its founding in 1136.
+		The historical bloodline Blood of Roger I will now give bonuses to opinions from characters belonging to the Italian cultural group instead of those belonging to the Latin cultural group.
+		Abdullah -- the eleventh Ismaili Imam and first Fatimid Caliph -- now historicallly starts the Fatimid bloodline in 909, when he became the new master of Ifriqiya.
+	*FIXES:*
+		Pagan barons of some cultures will no longer have the literal title *baron_pagan_group*. You will not see "baron_pagan_group Chad of Berlin" as a titled ruler name or the like again!
+		The Arabian Empire will no longer sometimes appear as the "Empire of Arabian Empire" in game text.
+		Fixed a `noculture` Mashriq character.
+		Fixed the erroneous port positions of the following provinces: Korcula, Klarjeti, Samsoe, Al-Ahsa, Al-Qatif, Qulzum, Qusayr, Aydhab, Nekhel, Jabal Katrina, Elim, and Saone.
+		The cultural conversion events for Tajik, Persian, and Afghan cultures will now properly trigger for independent rulers, will now properly trigger for vassals under the Persian Empire, and will now properly be restricted to the territories in which they are supposed to trigger.
+		Added the missing decision to form the Dralha's Children holy order under the appropriate circumstances.
+		Improved Arabic dynamic localization for Iberian titles where possible.
+
+
+SWMH 3.28 [2019-07-23]
+	*CHANGES:*
+		The de jure capital county of the Kingdom of Sicilia has been changed to Palermo from Napoli.
+
+
+SWMH 3.27 [2019-05-30]
+	*FIXES:*
+		Fixed missing Notre Dame great wonder to Ile de France during later start dates.
+
+
+SWMH 3.26 [2019-05-18]
+	*FIXES:*
+		Fixed port position for the Channel Isles (no longer shows up in Africa).
+		Preexisting Jerusalem at the start of a campaign (i.e., not dynamically created after a Crusade) will now have proper *High Crown Authority* and *Protected Inheritance*.
+
+
+SWMH 3.25 [2019-04-23]
+	*FIXES:*
+		Removed duplicate Mausoleum of Halicarnassus from Lykia.
+		Removed all of the on-map unit & councillor model reductions in scale from the previous release. Users without all of those DLCs were experiencing crashes, and when it comes to such on-map models, they really must be all of the same relative scale.
+			We hope to have the HIP Installer only include scaled-down files referencing DLC assets for players' owned DLCs in the future, but in any case, we had to revert our previous changes to on-map unit & councillor scale for now.
+
+
+SWMH 3.24 [2019-04-22]
+	*CHANGES:*
+		In accordance with the previous version's reduction in scale for many unit models and councillors (a change of -35%), the following additional on-map units' and councillors' scale have also changed by -35%. We, um, missed a few the first time -- all from DLCs except the war elephants and camel cavalry:
+			Camel cavalry (arabicgfx, africangfx)
+			War elephants (indiangfx, westerngfx)
+			*Holy Fury* DLC:
+				All units (arabicgfx, berbergfx, levantinegfx)
+				Indian female councillors (indiangfx, hindugfx, buddhistgfx, jaingfx)
+				Female version of the Jewish Rabbi (jewishgfx)
+				Muslim female councillors (muslimgfx)
+				Norse female councillors and Norse male court chaplain (norsegfx)
+				Pagan councillors (pagangfx)
+			Chinese units from the *Jade Dragon* DLC (chinesegfx)
+			*Monks and Mystics Content Pack* DLC:
+				English units (englishgfx)
+				German units (germangfx)
+			*The Reaper's Due Content Pack* DLC:
+				African councillors, male and female, as well as Orthodox and Muslim variants of them (africangfx)
+				Eastern and Orthodox female councillors
+			*Conclave Content Pack* DLC:
+				Newer Mongol councillors, male and female (mongolgfx)
+				Western female councillors (westerngfx)
+			Italian units from the *Italian Unit Pack* DLC
+			Early-era variants of German units (shown before 950 AD) from the *Early Germanic Unit Pack* DLC
+			Early-era variants of Frankish units (shown before 950 AD) from the *Early Frankish Unit Pack* DLC
+			Newer Mongol units from the *Mongol Unit Pack* DLC (mongolgfx)
+			Units from the *Iberian Unit Pack* DLC (southerngfx)
+			All early-era unit model variants (shown before 950 AD) from the *Charlemagne* DLC (westerngfx, muslimgfx, occitangfx, byzantinegfx, easterngfx, easternslavicgfx, englishgfx, frankishgfx, germangfx, normangfx, southerngfx, turkishgfx, westernslavicgfx)
+			Persian units from the *Persian Unit Pack* DLC (persiangfx)
+			Turkish units from the *Turkish Unit Pack* DLC (turkishgfx)
+			Indian units and councillors from the *Rajas of India* DLC (indiangfx, hindugfx, jaingfx, buddhistgfx)
+			Finno-Ugric units from the *Finno-Ugric Unit Pack* DLC (ugricgfx)
+			Saxon units from the *Saxon Unit Pack* DLC (saxongfx)
+			All [Christian] holy order units from the *Military Orders Unit Pack* DLC (holygfx)
+			*Warriors of Faith Unit Pack* DLC:
+				Aztec holy order units (aztecholygfx)
+				Baltic holy order units (balticholygfx)
+				Bektashi holy order units (bektashigfx)
+				Finno-Ugric holy order units (finnishholygfx)
+				Hashshashin holy order units (hashshashingfx)
+				Immortals holy order units (immortalsgfx)
+				Jewish holy order units (jewishholygfx)
+				Jomsvikings holy order units (norseholygfx)
+				Orthodox holy order units (orthodoxholygfx)
+				Slavic holy order units (slavicholygfx)
+				West African holy order units (westafricanholygfx)
+			Celtic units from the *Celtic Unit Pack* DLC (celticgfx)
+			Norse units from the *Norse Unit Pack* DLC (norsegfx)
+			Norse councillors from *The Old Gods* DLC (norsegfx)
+			Aztec units from the *Sunset Invasion* DLC (mesoamericangfx)
+			Russian units from the *Russian Unit Pack* DLC (russiangfx)
+			Byzantine units from the *Byzantine Unit Pack* DLC (byzantinegfx)
+			Orthodox councillors from the *Legacy of Rome* DLC
+			African units and councillors from the *African Unit Pack* DLC (africangfx)
+			Muslim councillors from the *Sworm of Islam* DLC
+			Older Mongol units and councillors from the *Mongol Face Pack* DLC (mongolgfx)
+	*FIXES:*
+		Fixed a number of on-map positions for Wonders
+		Fixed a number of port positions on the map (mostly affected: the Levant and East Africa)
+
+
+SWMH 3.23 [2019-04-15]
+	*CHANGES:*
+		Compatibility patch for CKII v3.1 (Great Works).
+		All provinces now have hand-positioned Great Works wonder and wonder-in-water on-map locations.
+		A finer-grained map than vanilla calls for finer-grained on-map visual elements:
+			City sprawl has been reduced to 30% of the vanilla setting to accomodate for SWMH's much smaller provinces. Users of SWMH with EMF or ARKOpack Armoiries were already inheriting smaller citysprawl values than vanilla, so the relative difference is not as great as -70% in practice (much less dramatic).
+			All unit and councillor models have changed in scale by -35%.
+			Inland trade post models have been reduced in scale by a third (-33.3% change).
+			Coastal trade post models have changed in scale by -25%.
+		The vanilla-only Featured Ruler system, which cannot work for any map/history overhaul mod, has been disabled for SWMH.
+	*FIXES:*
+		Fixed the broken Gautske and Ulfing family / dynasty trees.
+
+
+SWMH 3.22 [2019-03-29]
+	*NEW FEATURES:*
+		Finnish pagan characters can now intermarry with characters following norse, baltic, and slavic pagan faiths (SWMH without EMF).
+	*FIXES:*
+		Fixed the HRE turning Republic after 1166.
+		Fixed the broken Miercisc, Gautske, Beornicisc, and Eardwulfing family trees.
+		Unreformed Hellenics now have the proper graphical culture specified for their religion (SWMH without EMF).
+		Bon pagans' home province modifier is now in line with the rest of the defensive pagan religions (SWMH without EMF).
+		The titular HRE stem duchy titles (d_swabia, d_saxony, d_saxewittenberg, d_lower_lorraine, d_franconia, and d_bavaria) no longer inappropriately start the game with Primogeniture succession at all start dates.
+		ERE now starts out with the same laws as in vanilla.
+	*HISTORY SETUP:*
+		Zvonimir bloodline repurposed into Tomislav bloodline.
+		Banu Kanz and Hadariba realms are now unified between 943-1174.
+		Seljuks no longer start out at war with the Byzantines without a break between 1066 and 1072.
+		Added a war between the Seljuks and Buyids in 1055.

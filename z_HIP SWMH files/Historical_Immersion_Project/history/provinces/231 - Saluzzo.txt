@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 231 - Saluzzo # Auriate
+
+# County Title
+title = c_saluzzo
+
+# Settlements
+max_settlements = 5
+
+b_saluzzo = castle
+b_auriate = temple
+b_cuneo = city
+#b_busca = castle
+#b_monticello = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = mountain
+# History
+
+1123.1.1 = {b_busca = castle }
+1150.1.1 = {b_monticello = castle }
+

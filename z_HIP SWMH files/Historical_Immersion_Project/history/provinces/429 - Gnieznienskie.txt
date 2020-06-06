@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 429 - Gnieznienskie
+
+# County Title
+title = c_gnieznienskie
+
+# Settlements
+max_settlements = 5
+b_gniezno = tribal
+#b_srem_wielkopolska = city
+#b_znin = temple
+#b_giecz = castle
+#b_pyzdry = city
+#b_trzemezno = temple
+#b_kcynia = city
+#b_gasawa = city
+#b_biechowo = castle
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+962.1.1 = {
+	religion = catholic
+	b_gniezno = temple
+        b_giecz = castle
+}
+1136.1.1 = { b_srem_wielkopolska = city 
+b_znin = castle}
+1148.1.1 = { b_znin = temple}
+1232.1.1 = { b_pyzdry = city }
+1331.1.1 = { remove_settlement = b_giecz }

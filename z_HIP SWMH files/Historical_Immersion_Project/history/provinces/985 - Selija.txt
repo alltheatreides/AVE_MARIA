@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 985 - Selija
+
+# County Title
+title = c_selija
+
+# Settlements
+max_settlements = 3
+
+b_selpils = tribal
+#b_jaunjelgava = city
+#b_aizkraukle = castle
+# Misc
+culture = lettigallish
+religion = baltic_pagan
+
+# History
+1209.1.1 = { b_selpils = temple } # To Livonian order
+1209.1.1 = { b_aizkraukle = castle } # To Livonian order
+1209.1.1 = { capital = b_aizkraukle } 
+1218.1.1 = { capital = b_selpils } # Bishopery of Selija
+1218.1.1 = { religion = catholic } # Bishopery of Selija
+1226.1.1 = { capital = b_aizkraukle } # To Livonian order
+1226.1.1 = { b_jaunjelgava = city }
+

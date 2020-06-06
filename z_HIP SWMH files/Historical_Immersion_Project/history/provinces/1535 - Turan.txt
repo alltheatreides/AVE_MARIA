@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 1535 - Turán
+
+# County Title
+title = c_turan
+
+# Settlements
+max_settlements = 4
+b_kizkanan = castle
+b_quzdar = city
+b_sura = temple
+
+#b_bodein = city
+
+# Misc
+culture = brahui
+religion = sunni
+
+# History
+879.6.5 = {
+	b_kizkanan = tribal
+	remove_settlement = b_sura
+}
+960.1.1 = {	religion = kharijite }
+1050.1.1 = { religion = sunni }
+1140.1.1 = {	culture = baloch }
+1187.1.1 = {
+	b_kizkanan = castle
+	b_sura = temple
+}

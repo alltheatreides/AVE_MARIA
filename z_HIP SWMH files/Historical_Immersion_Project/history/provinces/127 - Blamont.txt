@@ -1,0 +1,26 @@
+# 127 - Blamont
+
+# County Title
+title = c_blamont
+
+# Settlements
+max_settlements = 5
+
+b_nancy = castle
+b_bonmoutier = temple 
+
+#b_sarrebourg = city
+#b_luneville = castle 
+#b_blamont = castle 
+
+#b_salm_en_vosge = castle 
+#b_lenoncourt = castle 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+982.1.1 = { b_luneville = castle }
+1205.1.1 = { b_blamont = castle } #Obersalm
+1240.1.1 = { b_sarrebourg = city }

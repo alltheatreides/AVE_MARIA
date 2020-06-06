@@ -1,0 +1,78 @@
+# Lega di San Genesio/Societas inter Civitates Tuscie. Guelph confederation 
+#Acerbo di Firenze, rettore della lega San Genesio 1197
+#Ildebrando Pannocchieschi di Volterra, capitano dell lega San Genesio 1199
+#Amadeus di Perugia, pretore della lega San Genesio 1203
+1197.11.11 = {
+	law = succ_feudal_elective
+	holder = 1065280 # Uguccione Gherardini, consul of Firenze 1197 and 1198
+}
+1199.1.1 = {
+	holder = 1065086 # Arrigo di Capraia(Alberti), podesta of Firenze 1196, consul of Firenze 1199
+}
+1200.1.1 = {
+	holder = 1065348 # Paganello di Montemagno(Fraolmi), podesta of firenze 1200-1201
+}
+1202.1.1 = {
+	holder = 1065254 # Ranieri Uberti, consul of Firenze 1202
+}
+1203.1.1 = {
+	holder = 1065412 # Vinciguerra Donati, consul of Firenze 1204
+}
+1204.1.1 = {
+	holder = 1065255 # Guido Uberti, consul of Frienze 1204
+}
+1205.1.1 = {
+	holder = 1065089 # Rodolfo/Ridolfo di Capraia(Alberti), podesta of Firenze 1205, 1212 and 1249
+}
+1209.1.1 = {
+    liege = e_hre
+}
+1212.12.5 = {
+    liege = 0
+}
+1213.1.1 = {
+	holder = 1062428 # Uguccio di Pietroleoni podesta of Firenze 1213
+}
+1218.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1218
+}
+1219.1.1 = {
+	holder = 1064818 # Alberto da Mandello, podesta of Firenze 1219
+}
+1220.12.9 = {
+    liege = e_hre
+}
+1222.1.1 = {
+	holder = 1064819 # Otto da Mandello, podesta of Firenze 1230	
+}
+1226.12.5 = {
+    liege = e_hre
+}
+1236.1.1 = {
+	holder = 1062129 # Bernardo Rossi podesta of Firenze 1236
+}
+1237.1.1 = {
+	holder = 1064821 # Rubaconte da Mandello, podesta of Firenze 1237
+}
+1239.1.1 = {
+	holder = 1062093 # Guido da Sesso podesta of Firenze 1239
+}
+1241.1.1 = {
+	holder = 1064657 # Goffredo di Langosco(Lomello), imperial vicar of firenze 1241 and 1242
+}
+1243.1.1 = {
+	holder = 1062142 # Ugolino Rossi, podesta of Firenze 1243
+}
+1244.1.1 = {
+	holder = 1062129 # Bernardino Rossi, podesta of Firenze 1244
+}
+1245.1.1 = {
+    liege = 0
+	holder = 0 # k_tuscany #under imperial vicar of Tuscany
+}
+1248.1.1 = {
+	holder = 1065322 # Guiscardo da Pietrasanta podesta of Firenze 1254
+}
+1250.12.13 = {
+    holder = 0
+}

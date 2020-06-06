@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 243 - Orvieto # Viterbo
+
+# County Title
+title = c_orvieto
+
+# Settlements
+max_settlements = 5
+
+b_civitavecchia = castle
+b_viterbo = city
+#b_anguillara = castle
+b_orvieto = city
+b_sutri = temple
+
+
+
+# Misc
+culture = laziale
+religion = catholic
+terrain = plains
+# History
+
+920.1.1 = { b_anguillara = castle}

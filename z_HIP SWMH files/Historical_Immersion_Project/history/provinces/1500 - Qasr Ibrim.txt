@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1500 - Qasr Ibrim
+
+# County Title
+title = c_qasribrim
+
+# Settlements
+max_settlements = 3
+b_qasribrim = castle
+b_arminna = city
+
+#b_mahareaka = temple
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History
+
+1100.1.1 = { remove_settlement = b_arminna }
+1300.1.1 = { religion = sunni }

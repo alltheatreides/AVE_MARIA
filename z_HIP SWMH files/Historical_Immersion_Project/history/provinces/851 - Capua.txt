@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 815 - Capua #Aversa
+
+# County Title
+title = c_capua
+
+# Settlements
+max_settlements = 5
+b_aversa = castle
+b_capua = castle
+b_nola = temple
+#b_teano = castle
+b_caserta = castle
+
+
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = farmlands
+# History
+#1078.1.1 = { b_capua = city }
+1140.1.1={ culture = neapolitan }
+1229.1.1 = { b_teano = castle}
+1293.1.1 = { b_nola = castle}

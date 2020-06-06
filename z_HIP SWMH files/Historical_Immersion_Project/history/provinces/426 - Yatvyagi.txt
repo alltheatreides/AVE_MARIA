@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 426 - Yatvyagi #Dainava
+
+# County Title
+title = c_yatvyagi
+
+# Settlements
+max_settlements = 4
+
+b_kymundsdorf = tribal
+b_gardinas = city
+#b_druskieniki = castle
+#b_mastai = city
+#b_skidlius = castle
+
+
+
+
+
+# Misc
+culture = lithuanian
+religion = baltic_pagan
+
+# History
+
+1253.6.30  = { b_kymundsdorf = castle } # Granduchy of Lithuania formed

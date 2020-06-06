@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1350 - Samtskhe
+
+# County Title
+title = c_samtskhe
+
+# Settlements
+max_settlements = 5
+b_odzrakhe = castle
+b_akhaltsikhe = city
+b_zarzma = temple
+b_tori = castle
+#b_atskuri = castle
+
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History
+
+970.1.1 = { b_atskuri = castle }
+1191.1.1 = { capital = b_atskuri }
+1191.1.1 = { remove_settlement = b_odzrakhe }

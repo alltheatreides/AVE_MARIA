@@ -1,0 +1,27 @@
+# 255 - Thüringen
+
+# County Title
+title = c_thuringen
+
+# Settlements
+max_settlements = 5
+
+b_wartburg = castle
+b_gleichen = castle
+
+#b_muhlhausen = city 
+#b_reinhardsbrunn = temple 
+#b_eisenach = city 
+
+#b_salza = castle 
+#b_heiligenstadt = city 
+
+# Misc
+culture = thuringian
+religion = catholic
+
+# History
+1085.1.1 = { b_reinhardsbrunn = temple }
+1135.1.1 = { b_muhlhausen = city }
+1170.1.1 = { culture = german }
+1246.1.1 = { b_eisenach = city }

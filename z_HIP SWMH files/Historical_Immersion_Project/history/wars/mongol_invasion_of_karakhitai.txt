@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Mongol Invasion of Kara Khitai"
+
+casus_belli = {
+	actor = 125501
+	recipient = 1231514
+	casus_belli=tribal_invasion
+	landed_title=e_khitan
+	date=1217.1.1
+}
+
+1217.1.1 = {
+	add_attacker = 125501
+	add_defender = 1231514
+}
+
+1218.1.1 = {
+	rem_attacker = 125501
+	rem_defender = 1231514
+}

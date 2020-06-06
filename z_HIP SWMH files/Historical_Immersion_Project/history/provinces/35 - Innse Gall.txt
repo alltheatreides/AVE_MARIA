@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 35 - Innse Gall
+
+# County Title
+title = c_innse_gall
+
+# Settlements
+max_settlements = 3
+b_dunvegan = tribal
+#b_trotternish = city
+#b_baghnahuamh = castle
+
+# Misc
+culture = norsegaelic
+religion = norse_pagan
+terrain = hills
+
+# History
+867.1.1 = {
+	b_dunvegan = tb_shipyard_1
+}
+1015.1.1 = { religion = catholic
+}
+1266.1.1 = {
+	b_dunvegan = castle
+	b_dunvegan = ca_shipyard_1
+}

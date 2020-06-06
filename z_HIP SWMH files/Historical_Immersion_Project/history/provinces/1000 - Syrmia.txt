@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1000 - Syrmia
+
+
+# County Title
+title = c_syrmia
+
+
+# Settlements
+max_settlements = 3
+
+
+b_petrovaradin = tribal
+b_sremska_mitrovica = temple
+#b_morovic = city
+#b_slankamen = castle
+
+
+# Mis
+
+culture = bulgarian
+religion = tengri_pagan
+
+
+# History
+950.1.1 = { b_petrovaradin = castle }
+988.1.1 = { religion = catholic }
+1150.1.1 = { culture = hungarian }
+1282.1.1 = { culture = serbian }
+1282.1.1 = { religion = orthodox }
+

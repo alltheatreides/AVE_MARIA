@@ -1,0 +1,136 @@
+# -*- ck2.history.technology -*-
+
+
+#LEVANT
+
+technology = {
+	titles = {
+		d_ascalon
+		d_jerusalem
+		d_galilee
+		d_aleppo
+		d_antioch
+		d_tripoli
+		d_damascus
+		d_acre     
+		d_homs     
+	}  
+
+	769 = {
+		military = 0.8
+		economy = 1.5
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.2
+		economy = 4.7
+		culture = 4.7
+	}
+}
+
+#ARABIA
+
+technology = {
+	titles = {
+		d_arabia_petrae
+		d_medina
+		d_sanaa
+		d_zabid
+		d_hadramaut
+		d_socotra
+		d_oman
+		d_nefoud
+		d_amman
+		d_sinai
+		d_jordan
+		d_oultrejourdain
+	}  
+
+	769 = {
+		military = 0.7
+		economy = 0.9
+		culture = 1.0
+
+		TECH_CAVALRY = 1.7
+		TECH_MELEE = 1.7
+	}
+		
+	1337 = {
+		military = 4.1
+		economy = 4.3
+		culture = 4.5
+	}
+}
+#PERSIA_WEST
+
+technology = {
+	titles = {
+		d_tigris
+		d_kurdistan
+		d_baghdad
+		d_luristan
+		d_kufa
+		d_samarra
+		d_diyareast  
+		d_jazira
+		d_rayy     
+		d_jebal     
+		d_fars
+		d_ahwaz     
+		d_tabarestan
+		d_kumis
+		d_gilan     
+		d_shirvan
+		d_azerbaijan
+		d_gurgan
+	}  
+
+	769 = {
+		military = 1.0
+		economy = 1.4
+		culture = 1.5
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.7
+		culture = 4.7
+	}
+}
+#PERSIA_KHORASAN
+
+technology = {
+	titles = {
+		d_sistan
+		d_kerman
+		d_nishapur  
+		d_herat     
+		d_guzgan
+		d_balkh     
+		d_qohistan
+		d_baluchistan    
+		d_zabulistan
+		d_kabul
+		d_khottal
+		d_walishtan
+		d_merv
+	}  
+
+	769 = {
+		military = 1.1
+		economy = 1.0
+		culture = 1.5
+
+		TECH_LEGALISM = 2.0
+    	TECH_CAVALRY = 1.3
+    	TECH_SKIRMISH = 1.3
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.7
+	}
+}
+

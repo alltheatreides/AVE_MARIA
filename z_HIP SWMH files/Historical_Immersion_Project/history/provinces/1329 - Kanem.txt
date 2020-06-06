@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1329 - Kanem
+
+# County Title
+title = c_kanem
+
+# Settlements
+max_settlements = 4
+b_kanem = tribal
+#b_mao = temple
+
+b_djimi = city
+#b_manan = temple
+
+# Misc
+culture = kanuri
+religion = west_african_pagan
+
+# History
+1068.1.1 = { b_kanem = castle }
+1100.1.1 = { religion = sunni }

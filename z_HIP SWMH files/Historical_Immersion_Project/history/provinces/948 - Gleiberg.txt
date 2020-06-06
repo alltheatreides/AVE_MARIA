@@ -1,0 +1,28 @@
+#  948 - Gleiberg
+
+# County Title
+title = c_gleiberg
+
+# Settlements
+max_settlements = 5
+
+b_marburg = castle
+b_gleiberg = castle 
+b_wetzlar = city
+
+#b_altenberg = temple 
+#b_solms = castle 
+
+#b_giessen = city
+#b_alsfeld = city 
+
+ 
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1100.1.1 = { b_solms = castle }
+1170.1.1 = { culture = german }
+1170.1.1 = { b_altenberg = temple }
+#1248.1.1 = { b_giessen = city }

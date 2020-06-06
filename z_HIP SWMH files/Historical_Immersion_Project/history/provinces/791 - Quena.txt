@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 791 - Quena
+
+# County Title
+title = c_quena
+
+# Settlements
+max_settlements = 3
+b_kosseir = tribal
+#b_marsaalam = temple
+#b_safaga = city
+
+#b_troglodytica = castle
+#b_abughusun = castle
+#b_ummrus = castle
+
+# Misc
+culture = beja
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+1000.1.1 = { b_kosseir = castle }
+1078.1.1 = { religion = sunni }
+1250.1.1 = { culture = egyptian_arabic } 

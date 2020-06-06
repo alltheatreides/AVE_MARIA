@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 1141 - Ventimiglia
+
+# County Title
+title = c_ventimiglia
+
+# Settlements
+max_settlements = 4
+
+b_tenda = castle
+b_ventimiglia = city
+b_monaco = castle
+#b_dolceacqua = castle
+
+# Misc
+culture = ligurian
+religion = catholic
+terrain = hills
+# History

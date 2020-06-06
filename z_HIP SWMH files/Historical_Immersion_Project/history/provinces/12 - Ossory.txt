@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 12 - Ossory
+
+# County Title
+title = c_ossory
+
+# Settlements
+max_settlements = 5
+
+b_gowran = tribal
+b_kilkenny = city
+#b_aghaboe = temple
+#b_dunamase = tribal
+#b_jerpoint = temple
+#b_callan = city
+#b_grannagh = castle
+#b_grennan = castle
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+

@@ -1,0 +1,104 @@
+# -*- ck2.history.titles -*-
+
+644.1.1 = {
+	holder = 160190 # Máel Cobo
+	law = agnatic_succession
+	law = succ_elective_gavelkind
+	law = investiture_law_1
+}
+647.1.1 = {
+	holder = 160191 # Blathmac
+}
+692.1.1 = {
+	holder = 160192 # Bécc Bairrche
+}
+708.1.1 = {
+	holder = 160193 # Aed Róin
+}
+750.1.1 = {
+	holder = 160194 # Fiachnae
+}
+789.1.1 = {
+	holder = 1226437 # Tommaltach Dál nAraidi
+}
+790.1.1 = {
+	holder = 160195 # Eochaid
+}
+857.1.1 = {
+	holder = 163114 # Cathalan (Blathmac?)
+}
+871.1.1 = {
+	holder = 1226435 # Lethlobar Dál nAraidi
+}
+882.1.1 = {
+	holder = 160207 # Eochocán
+}
+898.1.1 = {
+	holder = 6199 # Áed
+}
+920.1.1 = {
+	holder = 6200 # Matudán
+}
+950.1.1 = {
+	holder = 6201 # Ardgal
+}
+972.1.1 = {
+	holder = 6202 # Eochaid
+}
+# Brian took 10 years to subdue Ulster to his rule. Anywhere between 1002-1012, Ulster Kingdoms submits
+1011.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ireland_titular
+		type = permanent
+	}
+}
+# Brian Boru dies at Clontarf
+1014.4.23 = {
+	clear_tribute_suzerain = k_ireland_titular
+}
+1016.1.1 = {
+	holder = 6203 # Niall
+}
+1065.1.1 = {
+	holder = 6180 # Cú Uladh
+}
+1071.1.1 = {
+	holder = 6205
+}
+1091.1.1 = {
+	holder = 6206
+}
+1114.1.1 = {
+	holder = 7280
+}
+1122.1.1 = {
+	holder = 7283
+}
+1127.1.1 = {
+	holder = 7282
+}
+1166.1.1 = {
+	holder = 7281
+}
+1177.6.1 = {
+	holder = 0
+}
+1205.5.1 = {
+	liege = k_england
+	holder = 204022
+}
+1242.12.26 = {
+	holder = 0
+}
+1264.1.1 = {
+	holder = 454154
+}
+1271.7.28 = {
+	holder = 454106
+}
+1329.7.29 = {
+	holder = 454613
+}
+1333.6.6 = {
+	holder = 454614
+}

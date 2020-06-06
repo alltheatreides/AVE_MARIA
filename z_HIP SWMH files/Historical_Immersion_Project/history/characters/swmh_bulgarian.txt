@@ -1,0 +1,383 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH Bulgarian characters
+###############################################################
+# Characters: 1501201 - 1501500
+##############################################################################################
+
+1501201 = {
+	name="Kubasar"
+	dynasty=1000103010
+	religion="orthodox"
+	culture="cuman"
+
+	1209.1.1={
+		birth = yes
+	}
+	1262.1.1={
+		death = yes
+	}
+}
+1501202 = {
+	name="Darman"
+	dynasty=1000103010
+	religion="orthodox"
+	culture="cuman"
+
+	1243.1.1={
+		culture="bulgarian"	
+		birth = yes
+	}
+	1291.1.1={
+		death = yes
+	}
+}
+1501203 = {
+	name="Kudelin"
+	dynasty=1000103010
+	religion="orthodox"
+	culture="cuman"
+
+	1245.1.1={
+		culture="bulgarian"		
+		birth = yes
+	}
+	1291.1.1={
+		death = yes
+	}
+}
+1501204 = {
+	name="Krakra"
+	dynasty=1000101409
+	religion="orthodox"
+	culture="bulgarian"
+	father=1501211
+	970.1.1={	
+		birth = yes
+	}
+	1029.1.1={
+		death = yes
+	}
+}
+1501205 = {
+	name="David"
+	dynasty=702
+	religion="orthodox"
+	culture="bulgarian"
+	father=70381
+	mother=1501228
+	938.1.1={
+		birth=yes
+	}
+	976.6.1={
+		death=yes
+	}
+}
+1501206 = {
+	name="Moisei"
+	dynasty=702
+	religion="orthodox"
+	culture="bulgarian"
+	father=70381
+	mother=1501228
+	939.1.1={
+		birth=yes
+	}
+	976.6.1={
+		death=yes
+	}
+}
+1501207 = {
+	name="Anastazya" #Unnamed third daughter of Samuel. Reported in some places that she was called Anastazya and that she was married to Vazul of Hungary
+	female = yes
+	dynasty=702
+	religion="orthodox"
+	culture="bulgarian"
+	father=728
+	mother=1500425	
+	984.1.1={
+		birth=yes
+	}
+	1031.1.1={
+		death=yes
+	}
+}
+1501208 = {
+	name="Dragomouzos" #Surrendered Seres and Strumica to the Byzantines in 1018 and was rewarded with the title of Patrician, signifying that he became a governor immediately. Lets just keep him in his home region
+	dynasty=1000101417
+	religion="orthodox"
+	culture="bulgarian"
+
+	977.1.1={	
+		birth = yes
+	}
+	1032.1.1={
+		death = yes
+	}
+}
+1501209 = {
+	name="Samuil" #An unnamed son of Krakra is mentioned in connection with his surrender to Basil in Skylitzes
+	dynasty=1000101409
+	religion="orthodox"
+	culture="bulgarian"
+	father=1501204
+	993.1.1={	
+		birth = yes
+	}
+	1035.1.1={
+		death = yes
+	}
+}
+1501210 = {
+	name="Petar" #An unnamed brother of Krakra is mentioned in connection with his surrender to Basil in Skylitzes
+	dynasty=1000101409
+	religion="orthodox"
+	culture="bulgarian"
+	father=1501211
+	974.1.1={	
+		birth = yes
+	}
+	1038.1.1={
+		death = yes
+	}
+}
+1501211 = {
+	name="Simeon" #Placeholder father of Krakra
+	dynasty=1000101409
+	religion="orthodox"
+	culture="bulgarian"
+
+	940.1.1={	
+		birth = yes
+	}
+	996.1.1={
+		death = yes
+	}
+}
+1501212 = {
+	name="Nikulitsa" #Known grandfather of the later Nikoulitzas. Was one of the few Generals who wished to continue resistance in the Summer of 1018. Finally surrendered when the odds became downright hopeless and he was put under house arrest afterwards.
+	dynasty=1000102822
+	religion="orthodox"
+	culture="bulgarian"
+
+	969.1.1={
+		birth = yes
+	}
+	1021.1.1={
+		death = yes
+	}
+}
+1501213 = {
+	name="Karaton" #fictional
+	dynasty=8636
+	religion="tengri_pagan"
+	culture="bulgarian"
+	father=159126
+	805.1.1={
+		birth="805.1.1"
+	}
+	859.1.1={
+		death="859.1.1"
+	}
+}
+1501214 = {
+	name="Islivan" #fictional
+	dynasty=8636
+	religion="tengri_pagan"
+	culture="bulgarian"
+	father=1501213
+	822.1.1={
+		birth="822.1.1"
+	}
+	866.1.1={
+		death="866.1.1"
+	}
+}
+1501215 = {
+	name="Ekaterina" #unnamed daughter of Boris, engaged to Basil for a short period of time, long before he became senior Emperor
+	female=yes
+	dynasty=8636
+	religion="orthodox"
+	culture="bulgarian"
+	father=716
+	959.1.1={
+		birth=yes
+	}
+	983.1.1={
+		death=yes
+	}
+}
+1501216 = {
+	name="Maria" #unnamed daughter of Boris, engaged to Constantine for a short period of time, before he married the daughter of Alypios instead
+	female=yes
+	dynasty=8636
+	religion="orthodox"
+	culture="bulgarian"
+	father=716
+	961.1.1={
+		birth=yes
+	}
+	986.1.1={
+		death=yes
+	}
+}
+1501217 = {
+	name="David" #Bulgarian noble and General, one of the most skilled Bulgarian Commanders during the final 1000-1018 war with the Byzantines
+	dynasty=1000101418	
+	martial=7	
+	religion="orthodox"
+	culture="bulgarian"
+	trait="skilled_tactician"	
+	970.1.1={
+		birth=yes
+	}
+	1026.1.1={
+		death=yes
+	}
+}
+1501218 = {
+	name="Elemag" #Bulgarian noble and General, took part in the Battle of Thessalonica in 995. Surrendered Bellegrada to the Byzzies in 1018. Given Arta as a placeholder, instead of just giving him a barony
+	dynasty=1000101419		
+	religion="orthodox"
+	culture="bulgarian"
+	trait="skilled_tactician"	
+	964.1.1={
+		birth=yes
+	}
+	1032.1.1={
+		death=yes
+	}
+}
+1501219 = {
+	name="Boris" #Boris, recorded Tarkan of Belgrade in 885 by Runciman
+	dynasty=1000101427
+	religion="orthodox"
+	culture="bulgarian"
+
+	845.1.1={
+		birth=yes
+	}
+	899.1.1={
+		death=yes
+	}
+}
+1501220 = {
+	name="Taridin" #Taridin, recorded in Theophylact's Historia Martyrii story as the local "count" in the Tiberioupolis area. Runciman is quoting this book. A bit fuzzy Chronology, but it is either late 880'ies or early 890'ies.
+	dynasty=1000101425
+	religion="orthodox"
+	culture="bulgarian"
+
+	848.1.1={
+		birth=yes
+	}
+	903.1.1={
+		death=yes
+	}
+}
+1501221 = {
+	name="Stazis" #Stazis, recorded as Ichirgu-boil during the council of Constantinople in 870
+	dynasty=1000101424	
+	religion="orthodox"
+	culture="bulgarian"
+
+	830.1.1={
+		birth=yes
+	}
+	879.1.1={
+		death=yes
+	}
+}
+1501222 = {
+	name="Sundika" #Sundika, recorded as Bagatur during the council of Constantinople in 870
+	dynasty=1000101428	
+	religion="orthodox"
+	culture="bulgarian"
+
+	831.1.1={
+		birth=yes
+	}
+	883.1.1={
+		death=yes
+	}
+}
+1501223 = {
+	name="Iliya" #Iliya, recorded as Tarkan during the council of Constantinople in 870
+	dynasty=1000101426	
+	religion="orthodox"
+	culture="bulgarian"
+
+	834.1.1={
+		birth=yes
+	}
+	889.1.1={
+		death=yes
+	}
+}
+1501224 = {
+	name="Dometian" #Dometian the Kavhan. Recorded as Kavhan in 1014, served for an unknown number of years before this
+	dynasty=1000101429	
+	religion="orthodox"
+	culture="bulgarian"
+	father=1501226
+	972.1.1={
+		birth=yes
+	}
+	1015.1.1={
+		death=yes
+	}
+}
+1501225 = {
+	name="Teodor" #Teodor the Kavhan. Apparently succeeded his brother and apparently deserted to the Empire
+	dynasty=1000101429	
+	religion="orthodox"
+	culture="bulgarian"
+	father=1501226
+	977.1.1={
+		birth=yes
+	}
+	1026.1.1={
+		death=yes
+	}
+}
+1501226 = {
+	name="Simeon" #Unnamed father of Dometian and Teodor
+	dynasty=1000101429	
+	religion="orthodox"
+	culture="bulgarian"
+
+	948.1.1={
+		birth=yes
+	}
+	993.1.1={
+		death=yes
+	}
+}
+1501227 = {
+	name="Alexios" #Alexios Hunol, recorded as Sampsis during the council of Constantinople in 870
+	dynasty=1000101430	
+	religion="orthodox"
+	culture="bulgarian"
+
+	836.1.1={
+		birth=yes
+	}
+	890.1.1={
+		death=yes
+	}
+}
+1501228 = {
+	name="Hripsime"
+	female=yes
+
+	religion="orthodox"
+	culture="armenian"
+
+	921.1.1={
+		birth=yes
+		culture="bulgarian"
+	}
+	973.1.1={
+		death=yes
+	}
+}

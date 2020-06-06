@@ -1,0 +1,76 @@
+# -*- ck2.history.titles -*-
+
+866.1.1 = {
+	holder = 73838
+}
+# Banu Salim removed from the Middle March in 920
+933.1.1 = {
+	liege = d_toledo
+	holder = 1235122 # Qand al-Siqlabi, Persian Ghulam
+}
+957.1.1 = {
+	holder = 1235087 # Ghalib b. Abd al-Rahman al-Siqlabi
+}
+981.7.10 = {
+	holder = 3206 # Almanzor
+}
+991.1.1 = {
+	holder = 1235054 # Abd-al-Malik al-Muzaffar, Almanzor's son and chosen successor. Almanzor already had him lined up as successor when he made him Hajib in 991
+}
+1008.10.20 = {
+	holder = 73226 # Abd-ar-Rahman Sanchuelo, Succeeded his brother. His death started the ball rolling towards disaster for Andalus
+}
+1009.3.3 = {
+	holder = 1235094 # Wadih al-Siqlabi
+}
+1011.11.1 = {
+	holder = 1235026
+}
+1027.1.1 = {
+	holder = 3922
+}
+1043.1.1 = {
+	holder = 3924
+}
+1075.1.1 = {
+	holder = 3926
+}
+1080.1.1 = {
+	liege = 0
+	holder = 1235520 # 'Azzun b. Ghalbun, before El Cid's conquest of Valencia
+}
+1085.5.25 = { #Likely under suzerainty of Castille before Molina de Aragon was taken over by Alfonso I
+	set_tribute_suzerain = {
+		who = k_castille
+		percentage = 0.4
+	}
+}
+1129.1.1 = {
+	clear_tribute_suzerain = k_castille
+	liege = d_toledo
+	holder = 207539
+}
+1130.10.16 = {
+	holder = 207541
+}
+1164.7.9 = {
+	holder = 207540
+}
+1202.1.1 = {
+	holder = 207544
+}
+1238.4.6 = {
+	holder = 71427
+}
+1244.9.1 = {
+	holder = 457660
+}
+1272.1.6 = {
+	holder = 71429
+}
+1292.12.5 = {
+	holder = 457666
+}
+1321.1.1 = {
+	holder = 457500
+}

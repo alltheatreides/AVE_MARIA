@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 379 - Dorpat
+
+# County Title
+title = c_dorpat
+
+# Settlements
+max_settlements = 5
+
+b_otepaa = tribal
+b_tartu = temple
+#b_karknaabbey = temple
+#b_kirumpaa = castle
+#b_kavilda = castle
+
+
+
+# Misc
+culture = ugricbaltic
+religion = finnish_pagan
+
+# History
+#1224.1.1 = { b_tartu = temple }
+1224.1.1 = { b_otepaa = castle }
+1224.1.1 = { capital = b_tartu } # Bishop take over
+1224.1.1 = { b_karknaabbey = temple }
+1224.1.1 = { religion = catholic }

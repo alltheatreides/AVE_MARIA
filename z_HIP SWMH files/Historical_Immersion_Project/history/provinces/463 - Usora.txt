@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 463 - Usora
+
+# County Title
+title = c_usora
+
+# Settlements
+max_settlements = 3
+
+b_dobojgrad = castle
+#b_tesanj = castle
+b_tolisa = city
+
+
+
+
+ 
+
+# Misc
+culture = bosnian
+religion = catholic
+
+# History
+
+1232.1.1= { religion = bogomilist } 
+1300.1.1= { b_tesanj = castle } 

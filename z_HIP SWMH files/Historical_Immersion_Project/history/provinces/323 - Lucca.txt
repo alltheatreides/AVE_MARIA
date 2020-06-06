@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 323 - Lucca
+
+# County Title
+title = c_lucca
+
+# Settlements
+max_settlements = 6
+
+b_vivinaia = castle
+b_corvaia = castle
+#b_montemagno = castle
+b_lucca = city
+#b_altopascio = temple
+b_pescia = city
+#b_montecarloluccaveryniceplaceforaholiday = castle
+#b_poggio = castle
+# Misc
+terrain = hills
+culture = tuscan
+religion = catholic
+
+# History
+960.1.1 = { b_montemagno = castle}
+1056.5.28 = { b_altopascio = temple }
+1056.5.28 = { capital = b_altopascio }
+1081.1.1  = { capital = b_vivinaia }
+1097.8.18 = { capital = b_altopascio }
+1119.7.10= { capital = b_vivinaia }
+#1314.1.1 = { remove_settlement = b_vivinaia } 
+#1314.1.1 = { b_montecarloluccaveryniceplaceforaholiday = castle }
+#1314.1.1 = { capital = b_montecarloluccaveryniceplaceforaholiday} # ca
+

@@ -1,0 +1,1 @@
+Hello, copy the HIP mod files inside z_HIP SWMH files to your /mod directory and launch the game with AVE MARIA AND Historical Immersion project

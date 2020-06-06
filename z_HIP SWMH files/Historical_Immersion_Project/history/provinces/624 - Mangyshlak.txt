@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 624 - Mangyshlak # Mangyshlak
+
+# County Title
+title = c_mangyshlak
+
+# Settlements
+max_settlements = 2
+
+b_mangyshlak = tribal
+#b_zhetybay = tribal
+#b_munayshi = city
+
+# Misc
+culture = oghuz #uninhabited until Oghuz arrival
+religion = tengri_pagan
+terrain = desert
+
+# History
+#951.1.1 = { culture = oghuz } #Oghuz migration
+
+#1020.1.1 = {religion = sunni}
+1200.1.1 = { culture = turkmen }
+1200.1.1 = {religion = sunni}
+

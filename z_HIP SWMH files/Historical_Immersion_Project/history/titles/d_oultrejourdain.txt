@@ -1,0 +1,70 @@
+# -*- ck2.history.titles -*-
+
+1118.4.2 = {
+	liege = k_jerusalem
+	holder = 93000
+	#law = cognatic_succession
+	#law = succ_primogeniture
+}
+1126.1.1 = {
+	holder = 93003
+}
+1147.1.1 = {
+	holder = 93005
+}
+1161.1.1 = {
+	holder = 232700
+}
+1168.1.1 = {
+	holder = 223561
+}
+1173.1.1 = {
+	holder = 93009
+}
+1174.10.1 = {
+	holder = 223592
+}
+#1176.1.1 = {
+#	holder = 223590
+#}
+1187.7.4 = {
+	holder = 223560
+}
+# Known by the muslims as Kerak
+#1187.10.2 = {
+#	liege = k_egypt
+#	holder = 226052
+#}
+#1218.8.1 = {
+#	holder = 144077
+#}
+#1227.1.1 = {
+#	holder = 144078
+#}
+#1248.1.1 = {
+#	holder = 93034
+1250.5.2 = {
+    liege = 0
+	holder = 93034 # Independent realm of Ayyubid rebel al-Mughith
+}
+1263.1.1 = {
+    liege = k_egypt  # From 1263 Karak-Shawbak was incorporated into the government structure of the Mamluk empire.
+	holder = 8000480 # al-Mughith defeated and executed by Baibars. Izz al-Din new governor. In at least 1265 he is still governor based on iqta lists.
+}
+1271.1.1 = {
+    holder = 8000461 # Aydakin al-Fakhri
+}
+# The deposed al-Said Baraka stays here until his useful death.
+1279.1.1 = {
+	holder = 32950 # Khidr son of Baibars al-Zahir
+}
+# Aybak al-Mawsili for governs for a time in 1286
+1286.1.1 = {
+	holder = 34986 # Baibars al-Mansuri Dewadar
+}
+1291.1.1 = {
+	holder = 8000467 # Aqqush al-Ashrafi
+}
+1309.1.1 = {
+	holder = 0 
+}

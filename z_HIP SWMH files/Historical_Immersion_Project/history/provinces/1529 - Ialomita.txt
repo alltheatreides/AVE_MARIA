@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1529 - Ialomita
+
+# County Title
+title = c_ialomita
+
+# Settlements
+max_settlements = 2
+
+b_braila = tribal
+#b_piua_petrii = city
+
+# Misc
+culture = bulgarian
+religion = tengri_pagan
+
+
+# History
+900.1.1 = { religion = orthodox culture = romanian }
+927.1.1 = { culture = pecheneg }
+927.1.1 = { religion = manichean }
+1125.1.1 = { culture = romanian }
+1125.1.1 = { religion = orthodox }
+1299.1.2 = { b_braila = castle
+b_piua_petrii = city}
+

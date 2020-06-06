@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1550 - Kábul
+
+# County Title
+title = c_kabul
+
+# Settlements
+max_settlements = 6
+b_kabul = castle
+b_pervan = temple
+b_chitral = castle
+b_jarbaya = city
+#b_mundjan = city
+b_panjhir = temple
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+#1007.1.1 = {	culture = afghan }

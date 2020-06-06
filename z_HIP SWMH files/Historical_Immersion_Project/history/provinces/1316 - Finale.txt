@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1316 - Finale
+
+# County Title
+title = c_finale
+
+# Settlements
+max_settlements = 5
+
+b_finale = castle
+#b_carretto = castle
+b_savona = city
+#b_oneglia = city
+b_albenga = temple
+
+
+
+# Misc
+culture = ligurian
+religion = catholic
+terrain = farmlands
+# History
+961.1.1 = { b_carretto = castle }
+

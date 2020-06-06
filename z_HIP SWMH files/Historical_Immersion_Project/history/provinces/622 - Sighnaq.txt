@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 622 - Sighnáq
+
+# County Title
+title = c_sighnaq 
+
+# Settlements
+max_settlements = 4
+b_sighnaq = tribal
+#b_uzgend-sighnaq = city
+#b_sawran = temple
+
+#b_shavgar = castle
+
+# Misc
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+930.1.1 = { b_sawran = city }
+1020.1.1 = { religion = sunni } 
+1020.1.1 = { culture = turkmen } 
+1060.1.1 = {
+	culture = cuman
+	religion = tengri_pagan
+} 
+#1141.6.6 = { b_sighnaq = castle } 
+
+#1187.1.1 = { b_shavgar = castle } 
+
+1221.1.1 = { culture = mongol }
+#1221.1.1 = { remove_settlement = b_shavgar }
+ 

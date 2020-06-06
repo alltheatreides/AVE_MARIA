@@ -1,0 +1,33 @@
+# 1066 - Kiel
+
+# County Title
+title = c_kiel
+
+# Settlements
+max_settlements = 5
+
+b_plon = tribal
+b_oldenburgeast = city  
+#b_preetz = temple 
+#b_kiel = castle 
+#b_segeberg = castle
+#b_cismar = temple 
+#b_rantzau = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+terrain = forest
+
+# History 
+1066.1.1 = { b_plon = castle } 
+1127.1.1 = { b_segeberg = castle }
+1143.1.1 = { religion = catholic } 
+1143.1.1 = { culture = low_german }
+1185.1.1 = { b_cismar = temple }
+1203.1.1 = { capital = b_segeberg}
+1242.1.1 = { b_kiel = castle }
+1261.7.8 = { capital = b_kiel}
+
+
+

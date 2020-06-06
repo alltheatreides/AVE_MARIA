@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 284 - Herjedalen
+
+# County Title
+title = c_herjedalen
+
+# Settlements
+max_settlements = 2
+b_sveg = tribal # Sveigr
+#b_lillhardal = city
+
+
+# Misc
+culture = lappish
+religion = finnish_pagan
+
+# History
+890.1.1 = { culture = norse } 
+890.1.1 = { religion = norse_pagan } 
+1035.1.1 = { b_sveg = castle} #Fat Olav
+1035.1.1 = { culture = norwegian } 
+1090.1.1 = { religion = catholic }

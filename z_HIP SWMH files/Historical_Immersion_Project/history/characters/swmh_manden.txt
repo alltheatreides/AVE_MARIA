@@ -1,0 +1,405 @@
+# -*- ck2.history.characters -*-
+
+#1144620 - 1144625 (free 1144625-1144629)
+#1144640 (free 1144641-1144649)
+#1144650 (free 1144651-1144659)
+
+#############################################################
+################ SWMH NEW CHARACTERS ########################
+#############################################################
+
+#Konate rulers of Malal
+1144620 = {
+	name="Yabaghte"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	1024.1.1={
+		birth=yes
+	}
+	1098.1.1={
+		death=yes
+	}
+}
+1144621 = {
+	name="Mango"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144620
+	1063.1.1={
+		birth=yes
+	}
+	1120.1.1={
+		death=yes
+	}
+}
+1144622 = {
+	name="Watara"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144621
+	1095.3.3={
+		birth="1095.3.3"
+	}
+	1150.1.1={
+		death="1150.1.1"
+	}
+}
+1144623 = {
+	name="Kamara"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144622
+	1121.3.3={
+		birth = yes
+	}
+	1175.1.1={
+		death = yes
+	}
+}
+1144624 = {
+	name="Yabaghte"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144623
+	1150.3.3={
+		birth="1150.3.3"
+	}
+	1205.1.1={
+		death="1205.1.1"
+	}
+}
+#####TOG for this dynasty
+
+1144625 = {
+	name="Birama"
+	dynasty=1000053570
+	religion="west_african_pagan"
+	culture="manden"
+	845.1.1={
+		birth="845.1.1"
+	}
+	862.1.1={
+		add_spouse=1144627
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+1144626 = {
+	name="Watara"
+	dynasty=1000053570
+	father=1144625
+	mother=1144627
+	religion="west_african_pagan"
+	culture="manden"
+	863.1.1={
+		birth="863.1.1"
+	}
+	908.1.1={
+		death="908.1.1"
+	}
+}
+1144627 = {
+	name="Deye"
+	female=yes
+	religion="west_african_pagan"
+	culture="manden"
+	846.1.1={
+		birth="846.1.1"
+	}
+	862.1.1={
+		add_spouse=1144625
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+
+#Kamara rulers of Sibi
+1144640 = {
+	name="Demba"
+	#placeholder
+	dynasty=1000053572
+	father=1144656
+	religion="west_african_pagan"
+	culture="manden"
+	1039.1.1={
+		birth=yes
+	}
+	1101.1.1={
+		death=yes
+	}
+}
+
+#Kone rulers of Bambuk
+1144647 = {
+	name="Kaya"
+	#placeholder
+	dynasty=1000053573
+	religion="west_african_pagan"
+	culture="manden"
+	973.1.1={
+		birth="973.1.1"
+	}
+	1028.1.1={
+		death="1028.1.1"
+	}
+}
+1144648 = {
+	name="Birama"
+	#placeholder
+	dynasty=1000053573
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144647
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1053.1.1={
+		death="1053.1.1"
+	}
+}
+1144649 = {
+	name="Dauman"
+	#placeholder
+	dynasty=1000053573
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144648
+	1023.1.1={
+		birth="1023.1.1"
+	}
+	1066.1.1={
+		death="1066.1.1"
+	}
+}
+1144650 = {
+	name="Bunama"
+	#placeholder
+	dynasty=1000053573
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144649
+	1049.1.1={
+		birth="1049.1.1"
+	}
+	1101.1.1={
+		death="1101.1.1"
+	}
+}
+
+#####TOG
+
+
+#ancestors of the Keita dynasty
+1144651 = {
+	name="Lawalo Keita" #Lawalo Keita, eponymous semi-mythical founder of the Keita dynasty (mythical ancestor being Bilal Bounama)
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	830.1.1={
+		birth="830.1.1"
+	}
+	850.1.1={
+		add_spouse=1144652
+	}
+	875.1.1={
+		death="875.1.1"
+	}
+}
+1144652 = {
+	name="Fatoumata"
+  female=yes
+	religion="west_african_pagan"
+	culture="manden"
+	832.1.1={
+		birth="832.1.1"
+	}
+	850.1.1={
+		add_spouse=1144651
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+1144653 = {
+	name="Tekhaye" #fictional
+  female=yes
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144651
+	mother=1144652
+	851.1.1={
+		birth="851.1.1"
+	}
+	902.1.1={
+		death="902.1.1"
+	}
+}
+1144654 = {
+	name="Latal Kalabi"
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144651
+	mother=1144652
+	853.1.1={
+		birth="853.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+#1144655 in SWMH_masmuda.txt
+#Kamara rulers of Sibi
+1144656 = {
+	name="Tekhaye"
+	#placeholder
+	dynasty=1000053572
+	religion="west_african_pagan"
+	culture="manden"
+	father=1149100
+	1015.1.1={
+		birth=yes
+	}
+	1077.1.1={
+		death=yes
+	}
+}
+1144669 = {
+	name="Damul Kalabi"
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144654
+	884.1.1={
+		birth="884.1.1"
+	}
+	941.1.1={
+		death="941.1.1"
+	}
+}
+1144670 = {
+	name="Lahilatoul" #fictional
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144669
+	916.1.1={
+		birth="916.1.1"
+	}
+	978.1.1={
+		death="978.1.1"
+	}
+}
+1144671 = {
+	name="Demba" #fictional
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144670
+	943.1.1={
+		birth="943.1.1"
+	}
+	997.1.1={
+		death="997.1.1"
+	}
+}
+1144672 = {
+	name="Kon" #fictional
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144671
+	970.1.1={
+		birth="970.1.1"
+	}
+	1021.1.1={
+		death="1021.1.1"
+	}
+}
+1144673 = {
+	name="Damul" #fictional
+	dynasty=1030002
+	religion="west_african_pagan"
+	culture="manden"
+	father=1144672
+	994.1.1={
+		birth="994.1.1"
+	}
+	1040.1.1={
+		death="1040.1.1"
+	}
+}
+1144674 = {
+	name="Kani Simbon" #son of Mamadi Kani
+	dynasty=1030002
+	religion="sunni"
+	culture="manden"
+	father=161013
+	1112.1.1={
+		birth="1112.1.1"
+	}
+	1158.1.1={
+		death="1158.1.1"
+	}
+}
+1144675 = {
+	name="Kamignogo Simbon" #son of Mamadi Kani
+	dynasty=1030002
+	religion="sunni"
+	culture="manden"
+	father=161013
+	1116.1.1={
+		birth="1116.1.1"
+	}
+	1166.1.1={
+		death="1166.1.1"
+	}
+}
+1144676 = {
+	name="Kabala Simbon" #son of Mamadi Kani
+	dynasty=1030002
+	religion="sunni"
+	culture="manden"
+	father=161013
+	1121.1.1={
+		birth="1121.1.1"
+	}
+	1169.1.1={
+		death="1169.1.1"
+	}
+}
+1149100 = {
+	name="Bunama"
+	#placeholder
+	dynasty=1000053572
+	religion="west_african_pagan"
+	culture="manden"
+	father=1149101	
+	985.1.1={
+		birth=yes
+	}
+	1032.1.1={
+		death=yes
+	}
+}
+1149101 = {
+	name="Kani"
+	#placeholder
+	dynasty=1000053572
+	religion="west_african_pagan"
+	culture="manden"
+	953.1.1={
+		birth=yes
+	}
+	1007.1.1={
+		death=yes
+	}
+}

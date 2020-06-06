@@ -1,0 +1,37 @@
+# -*- ck2.history.titles -*-
+
+935.1.1 = {
+	set_tribute_suzerain = {
+		who = k_hungary
+		type = permanent
+	}
+	holder = 1233325 # Placeholder Prince of the Banat. Can be discussed, still preferable to me rather than Glad
+}
+952.1.1 = {
+	holder = 1233340 # Placeholder to connect to Ajtony
+}
+955.8.15 = {
+	clear_tribute_suzerain = k_hungary
+}
+989.1.1 = {
+	holder = 1233341 # Ajtony
+}
+1008.1.1 = {
+	liege = k_hungary
+	holder = 4379
+}
+1031.1.1 = {
+	holder = 4383
+}
+1057.1.1 = {
+	holder = 20364
+}
+1083.1.1 = {
+	holder = 4386
+}
+1098.1.1 = {
+	holder = 4387
+}
+1117.1.1 = {
+	holder = 0
+}

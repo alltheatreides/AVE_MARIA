@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1396 - Tuat
+
+# County Title
+title = c_tuat
+
+# Settlements
+max_settlements = 5
+b_reggane = tribal
+b_timmi = temple
+#b_tamentit = city
+
+#b_tabalbala = city
+#b_adrar = city
+#b_bouda = castle
+
+# Misc
+culture = tagelmust
+religion = ibadi
+
+# History
+
+#islamization
+910.1.1 = { religion = sunni }
+1100.1.1 = { culture = zanata }

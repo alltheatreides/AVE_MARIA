@@ -1,0 +1,29 @@
+# 1047 - Marseille
+
+# County Title
+title = c_marseille
+
+# Settlements
+max_settlements = 6
+
+
+b_trets = castle
+b_arles = temple
+b_marseille = city
+#b_baux = castle
+#b_fos_sur_mer = castle
+#b_porcellets = castle
+#b_salondeprovence = city
+
+
+
+
+# Misc
+culture = occitan
+religion = catholic
+
+# History
+970.1.1 = { b_fos_sur_mer = castle }
+970.1.1 = { b_porcellets = castle }
+981.1.1 = { b_baux = castle }
+

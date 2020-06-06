@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 601 - Imeretia
+
+# County Title
+title = c_imeretia
+
+# Settlements
+ max_settlements = 6
+b_geguti = castle
+b_kutaisi = city
+b_bagrati = temple
+b_khoni = city
+b_shorapani = castle
+#b_tsikhegoji = castle
+#b_ghelati = temple
+#b_motsameta = temple
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History

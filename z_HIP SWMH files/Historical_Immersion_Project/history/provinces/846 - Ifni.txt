@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 846 - Núl
+
+# County Title
+title = c_ifni
+
+# Settlements
+max_settlements = 3 
+
+b_taghjizat = tribal
+#b_nullamta = city
+#b_tamdult = city
+
+#b_guelmim = temple
+
+#b_ouaouteit = temple
+#b_rgab = castle
+#b_mihrleft = castle
+#b_belkassem = castle
+#b_tizgui = castle
+#b_ifni = city
+
+# Misc
+culture = tagelmust
+religion = ibadi
+
+# History
+1030.1.1 = { religion = sunni }
+1060.1.1 = { b_tamdult = city }
+1140.1.1 = { religion = mahdiyya }
+1260.1.1 = { religion = sunni }
+
+

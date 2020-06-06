@@ -1,0 +1,125 @@
+# -*- ck2.history.titles -*-
+
+654.1.1 = {
+	liege = d_itil
+	holder = 74004
+}
+682.1.1 = {
+	holder = 74007
+}
+715.1.1 = {
+	holder = 74008
+}
+731.1.1 = {
+	holder = 74009
+}
+749.1.1 = {
+	holder = 74012
+}
+810.1.1 = {
+	holder = 74018 # "King" of Khazaria under the Kaghan; Possibly converted to Judaism ca. 805
+}
+836.1.1 = {
+	holder = 146186
+}
+846.1.1 = {
+	holder = 74019
+}
+874.1.1 = {
+	holder = 74020
+}
+878.1.1 = {
+	holder = 74021
+}
+886.1.1 = {
+	holder = 74022
+}
+889.1.1 = {
+	holder = 74023
+}
+897.1.1 = {
+	holder = 74024
+}
+902.1.1 = {
+	holder = 74025
+}
+904.1.1 = {
+	holder = 74026
+}
+911.1.1 = {
+	holder = 146187
+}
+916.1.1 = {
+	holder = 146188
+}
+920.1.1 = {
+	holder = 146189
+}
+928.1.1 = {
+	holder = 146190
+}
+945.1.1 = {
+	holder = 146191
+}
+#969.1.1 = { #Svyatoslav of Kiev sacks Itil
+#	liege = 0
+#	holder = 0
+#}
+966.1.1 = {
+	liege = d_itil
+	holder = 1233295 # Barjik Kuma, placeholder
+}
+997.1.1 = {
+	holder = 1233296 # Kamaj Kuma, placeholder
+}
+# Oghuz takes over
+1001.1.1 = {
+	liege = k_uzes
+	holder = 1231994
+}
+1032.1.1 = {
+	holder = 1231995
+}
+# Cumans arrive
+# Ölberli
+1050.1.1 = {
+	liege = d_olberlig
+	holder = 1229750 #was 20663, Isaac Doganin
+}
+1080.1.1 = {
+	holder = 1229751 # Bönek I
+}
+1112.1.1 = {
+	holder = 1229752 # Sevenç
+}
+1151.1.1 = {
+	holder = 1233002 # Bönek II
+}
+1167.1.1 = {
+	holder = 1233003
+}
+1195.1.1 = {
+	holder = 1233004
+}
+1210.1.1 = {
+	holder = 1233005 # Bachman
+}
+# Mongols put down revolt
+1239.1.1 = {
+	liege = e_golden_horde
+	holder = 125503
+}
+1241.12.11 = {
+	liege = d_ustyurt
+	holder = 125534
+}
+1275.1.2 = {
+	holder = 125540
+}
+1304.1.2 = {
+	holder = 125541
+}
+1327.1.2 = {
+	liege = d_itil
+	holder = 125546
+}

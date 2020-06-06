@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1400 - Djado
+
+# County Title
+title = c_djado
+
+# Settlements
+max_settlements = 4
+
+b_djado = tribal
+
+#b_ioudjelin = city
+#b_temougouet = city
+#b_tummo = city
+
+# Misc
+culture = tuareg
+religion = west_african_pagan
+
+# History
+
+#islamization
+920.1.1 = { religion = sunni }
+

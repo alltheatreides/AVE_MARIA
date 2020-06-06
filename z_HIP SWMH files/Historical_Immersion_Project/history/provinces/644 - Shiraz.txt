@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 644 - Shíráz
+
+# County Title
+title = c_shiraz
+
+# Settlements
+max_settlements = 6
+b_shiraz = castle
+b_bayda_shiraz = temple
+b_kazarun = city
+b_nawbandajan = city
+b_khubdhan = castle
+b_khabr = temple
+
+# Misc
+culture = pahlavi
+religion = zoroastrian
+
+# History
+937.1.1 = { culture = persian }
+937.1.1 = { religion = sunni }
+

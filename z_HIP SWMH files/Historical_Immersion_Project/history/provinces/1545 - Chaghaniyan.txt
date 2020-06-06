@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1545 - Chaghániyán
+
+# County Title
+title = c_chaghaniyan
+
+# Settlements
+max_settlements = 5
+b_chaghaniyan = castle
+b_charmangan = temple
+b_basand = city
+b_darzangi = temple
+
+b_hashimgird = castle
+#b_hamvaran = city
+
+# Misc
+culture = sogdian
+religion = buddhist
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

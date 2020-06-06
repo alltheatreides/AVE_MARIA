@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1549 - Karasu (Balkhan)
+
+# County Title
+title = c_karasu
+
+# Settlements
+max_settlements = 2
+b_karasu = tribal
+
+#b_gazanjyk = city
+
+
+# Misc
+culture = khwarezmi
+religion = zoroastrian
+terrain = steppe
+
+# History
+950.1.1 = { culture = oghuz }
+950.1.1 = { religion = tengri_pagan }
+#1020.1.1 = {religion = sunni}
+1200.1.1 = { culture = turkmen }
+1200.1.1 = {religion = sunni}

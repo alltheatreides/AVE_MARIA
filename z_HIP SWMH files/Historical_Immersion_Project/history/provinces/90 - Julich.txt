@@ -1,0 +1,27 @@
+# 90 - Jülich
+
+# County Title
+title = c_julich
+
+# Settlements
+max_settlements = 5
+
+b_julich = castle
+b_duren = city
+
+#b_steinfeld = temple 
+#b_zulpich = city 
+#b_arenberg = castle
+
+#b_hengebach = castle
+#b_schleiden = castle
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1070.1.1= { b_steinfeld = temple }
+1166.1.1= { b_arenberg = castle }
+1170.1.1 = { culture = german }
+1278.1.1= { b_zulpich = city }

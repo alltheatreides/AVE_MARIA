@@ -1,0 +1,24 @@
+# -*- ck2.history.wars -*-
+
+name = "Ghaznavid War for Khorasan"
+
+casus_belli = {
+	actor = 144125
+	recipient = 1600023
+	casus_belli=claim_all
+	landed_title=d_nishapur
+	landed_title=d_merv
+	date=998.1.1
+}
+
+998.1.1 = {
+	add_attacker = 144125
+	add_defender = 1600023
+	add_defender = 1231621
+}
+
+999.6.1 = {
+	rem_attacker = 144125
+	rem_defender = 1600023
+	rem_defender = 1231621
+}

@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 1055 - Inowroclaw
+
+# County Title
+title = c_inowroclaw
+
+# Settlements
+max_settlements = 5
+
+b_inowroclaw = tribal
+#b_gniwekowo = city
+#b_kruszwica = temple
+#b_wyszogrod_bydgoszcz = castle
+#b_dobrzyn = castle
+#b_bydoszcz = city
+#b_slonsk_ciechocinek = castle
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = {
+    religion = catholic 
+    b_inowroclaw = castle
+    b_kruszwica = temple
+    b_wyszogrod_bydgoszcz = castle
+}
+1185.1.1 = { b_gniwekowo = city }
+1228.1.1 = { b_dobrzyn = castle }

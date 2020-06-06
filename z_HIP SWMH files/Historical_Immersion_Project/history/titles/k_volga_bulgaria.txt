@@ -1,0 +1,57 @@
+# -*- ck2.history.titles -*-
+
+700.1.1 = {
+	de_jure_liege = e_khazaria
+}
+932.1.1 = {
+	holder = 125602
+}
+943.1.2 = {
+	holder = 41417
+}
+966.1.1 = {
+	# Paradox history script bugs -> can't use de_jure_liege = 0
+	de_jure_liege = e_null # fall of Sarkel.
+}
+976.1.2 = {
+	holder = 125603
+}
+980.1.2 = {
+	holder = 41418
+}
+1004.1.2 = {
+	holder = 3500
+}
+1006.1.2 = {
+	holder = 125604
+}
+1025.1.2 = {
+	holder = 41419
+}
+1025.7.2 = {
+	holder = 3502
+}
+1028.1.2 = {
+	holder = 41419
+}
+1061.1.2 = {
+	holder = 3504
+}
+1071.1.2 = {
+	holder = 41420
+}
+1118.1.2 = {
+	holder = 125605
+}
+1135.1.2 = {
+	holder = 125606
+}
+1164.1.2 = {
+	holder = 125607
+}
+1185.1.2 = {
+	holder = 125608
+}
+1236.9.1 = {
+	holder = 0 # Mongol campaign was launched in Feburary or March and was not concluded until August-September.
+}

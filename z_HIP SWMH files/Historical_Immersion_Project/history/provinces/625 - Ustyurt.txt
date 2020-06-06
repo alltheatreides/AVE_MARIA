@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 625 - Ustyurt
+
+# County Title
+title = c_ustyurt
+
+# Settlements
+max_settlements = 2
+b_ustyurt = tribal
+
+#b_aqkol = city
+
+# Misc
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+#900.1.1 = { culture = oghuz }
+1020.1.1 = { religion = sunni } 
+1060.1.1 = {
+	religion = tengri_pagan
+	culture = cuman
+}
+1250.1.1 = { culture = mongol }
+

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 322 - Modena # Canossa
+
+# County Title
+title = c_modena
+
+# Settlements
+max_settlements = 5
+
+b_canossa = castle
+b_correggio = castle
+b_nonatola = temple
+b_modena = city
+#b_sassuolo = city
+#b_bomporto = castle
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History

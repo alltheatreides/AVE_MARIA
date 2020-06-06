@@ -1,0 +1,26 @@
+# 1317 - Celje
+
+# County Title
+title = c_celje
+
+# Settlements
+max_settlements = 4
+
+b_sanneck = castle
+
+#b_maribor = city
+#b_lavant = temple
+#b_pettau = castle
+
+#b_windisch_graetz = castle 
+#b_celje = castle #Cilli
+#b_zalec = city #Sachsenfeld 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+1132.1.1 = { b_pettau = castle }
+1228.1.1 = { b_lavant = temple }
+1254.1.1 = { b_maribor = city }

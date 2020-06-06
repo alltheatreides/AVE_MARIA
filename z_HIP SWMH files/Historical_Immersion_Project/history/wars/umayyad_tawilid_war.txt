@@ -1,0 +1,19 @@
+name = "Umayyad-Tawilid Vassalization War"
+
+casus_belli = {
+	actor = 3200 # Abd al-Rahman III of Cordoba
+	recipient = 1235117 # Furtun ibn Tawil
+	casus_belli=force_vassalization
+	landed_title=c_huesca
+	date=935.1.1
+}
+
+935.1.1 = {
+	add_attacker = 3200
+	add_defender = 1235117
+}
+
+937.1.1 = {
+	rem_attacker = 3200
+	rem_defender = 1235117
+}

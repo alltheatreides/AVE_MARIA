@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1622 - Sakala
+
+# County Title
+title = c_sakala
+
+# Settlements
+max_settlements = 4
+b_sakala = castle
+b_jammu = city
+b_bhuttar = temple #should be in Trigarta
+#b_bahu = castle #should be in Trigarta
+#b_vallapura = castle
+#b_puran_nagar = city
+#b_pasrur = city
+
+# Misc
+culture = panjabi
+religion = buddhist
+
+# History

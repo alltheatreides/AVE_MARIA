@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 465 - Zadar 
+
+# County Title
+title = c_zadar
+
+# Settlements
+max_settlements = 4
+
+b_obrovac = castle
+b_zadar = city
+b_nin = temple
+#b_pag = city
+
+
+# Misc
+culture = dalmatian
+religion = catholic
+
+# History
+1050.1.1 = { trade_post = b_de_guzzei }
+1066.1.1 = {trade_post = b_silvio}
+1084.1.2 = { trade_post = b_de_guzzei } # should first rebel from venetians in 1183 if strictly dogmatic
+1150.1.1 = { culture = croatian }
+1244.1.1= { b_pag = city }

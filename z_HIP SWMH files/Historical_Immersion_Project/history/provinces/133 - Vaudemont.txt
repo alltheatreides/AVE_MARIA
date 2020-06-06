@@ -1,0 +1,27 @@
+# 133 - Vaudemont
+
+# County Title
+title = c_vaudemont
+
+# Settlements
+max_settlements = 5
+
+b_chatenois = castle 
+b_remiremont = temple 
+
+#b_epinal = city
+#b_chatelet = castle
+#b_vaudemont = castle
+
+#b_st_die = city
+#b_mirecourt = castle 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1000.1.1 = { b_vaudemont = castle }
+1000.1.1 = { capital = b_vaudemont}
+1050.1.1 = { b_epinal = city }
+1206.1.1 = { b_chatelet = castle }

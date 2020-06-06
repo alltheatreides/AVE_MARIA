@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1603 - Mansura
+
+# County Title
+title = c_mansura
+
+# Settlements
+max_settlements = 5
+b_mansura_mansura = castle
+b_nerunkot = city #possibly identical with Nirun? Both Nerunkot and Nirun are noted as modern Hyderabad
+b_mirpur_khas = temple
+b_nasarpur = city
+#b_hala = city
+#b_amarkot = castle
+#b_matiari = temple
+
+
+# Misc
+culture = sindhi
+religion = sunni
+
+# History
+1040.1.1 = { religion = ismaili }
+1200.1.1 = { b_amarkot = castle } #by 1226
+1220.1.1 = { religion = sunni }
+1300.1.1 = {
+	capital = b_amarkot
+	remove_settlement = b_mansura_mansura
+} #in ruins by the time Abu 'l-Fida and Ibn Battuta were writing

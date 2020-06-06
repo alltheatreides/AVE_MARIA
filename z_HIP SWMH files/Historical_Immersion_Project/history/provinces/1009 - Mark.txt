@@ -1,0 +1,25 @@
+# 1009 - Mark
+# County Title
+title = c_mark
+
+# Settlements
+max_settlements = 5
+
+b_altena = castle
+b_dortmund = city 
+b_essen = temple
+
+#b_hoevel = castle #Hövel
+#b_bilstein = castle 
+
+#b_recklinghausen = city 
+#b_volmarstein = castle 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+983.1.1 = { b_hoevel = castle }
+1100.1.1 = { culture = low_german }
+1141.1.1 = { b_bilstein = castle }

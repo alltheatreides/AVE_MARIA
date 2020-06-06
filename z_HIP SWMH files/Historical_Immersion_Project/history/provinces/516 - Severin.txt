@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 516 - Severin
+
+# County Title
+title = c_severin
+
+# Settlements
+max_settlements = 5
+
+b_severin = tribal
+#b_craiova = city
+#b_vodita = temple
+#b_strehaia = castle
+#b_calafat = castle
+
+
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+
+1046.1.1 = { culture = pecheneg }
+1046.1.1 = { religion = tengri_pagan }
+1125.1.1 = { culture = romanian }
+1125.1.1 = { religion = orthodox }
+1220.1.1 = { b_severin = castle
+b_craiova = city }

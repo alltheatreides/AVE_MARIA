@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1969 - Bamiyan
+
+# County Title
+title = c_bamiyan
+
+# Settlements
+max_settlements = 3
+b_bamiyan = castle
+b_basghurfand = city
+b_lakhrab = temple
+
+# Misc
+culture = afghan
+religion = buddhist
+
+# History
+947.1.1 = {	religion = sunni }
+#1007.1.1 = {	culture = afghan }
+1222.1.1 = {
+	remove_settlement = b_basghurfand
+}

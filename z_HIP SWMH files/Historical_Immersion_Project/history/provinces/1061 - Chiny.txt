@@ -1,0 +1,24 @@
+# 1061 - Chiny
+# County Title
+title = c_chiny
+
+# Settlements
+max_settlements = 5
+
+b_chiny = castle
+b_orval = temple
+b_yvois = city 
+
+#b_longwy = city 
+#b_virton = city
+
+#b_montmedy = castle 
+#b_mouzon = temple 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1270.1.1 = { b_virton = city }
+1281.1.1 = { b_longwy = city }

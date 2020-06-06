@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 567 - Novgorod-Seversky
+
+# County Title
+title = c_novgorod_seversky
+
+# Settlements
+max_settlements = 5
+
+b_novgorodseversky = tribal
+#b_sosnytsia = city
+#b_glukhov = city
+#b_putyvl = castle
+#b_sevsk = city
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+990.1.1 = {
+b_novgorodseversky = castle
+b_glukhov = city
+b_putyvl = castle
+b_sevsk = city }
+1025.1.1 = {religion = orthodox }
+1187.1.1 = { b_sosnytsia = city }
+1239.1.1 = { remove_settlement = b_sosnytsia } #Mongol invasion

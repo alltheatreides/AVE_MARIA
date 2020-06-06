@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 302 - Halland # Southern Halland
+
+# County Title
+title = c_halland
+
+# Settlements
+max_settlements = 3
+
+b_laholm = tribal
+#b_halmstad = temple
+#b_falkenberg = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+terrain = forest
+
+# History
+1000.1.1 = { b_laholm = castle
+b_halmstad = temple } 
+1005.1.1 = { religion = catholic } 
+1035.1.1 = { culture = danish } 
+1250.1.1 = { trade_post = b_warendorp }
+1291.1.1 = { b_falkenberg = castle }

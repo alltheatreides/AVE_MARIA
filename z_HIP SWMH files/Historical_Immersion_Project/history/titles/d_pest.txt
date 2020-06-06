@@ -1,0 +1,48 @@
+# -*- ck2.history.titles -*-
+
+20.1.1 = {
+	historical_nomad = yes
+}
+805.1.1 = {
+	holder = 146172
+	set_tribute_suzerain = {
+		who = k_bulgaria
+		type = permanent
+	}
+}
+808.1.1 = {
+	holder = 146173
+}
+813.1.1 = {
+	holder = 194000
+}
+830.1.1 = {
+	holder = 168071
+}
+858.1.1 = {
+	holder = 168072
+}
+884.1.1 = {
+	holder = 168073
+}
+891.1.1 = {
+	holder = 168074
+}
+895.1.1 = {
+	liege = k_magyar
+	holder = 0
+	clear_tribute_suzerain = k_bulgaria
+	historical_nomad = no
+}
+907.7.4 = {
+	liege = k_hungary
+}
+1299.1.1 = {
+	holder = 93794
+}
+1301.1.1 = {
+	holder = 93796
+}
+1325.1.1 = {
+	holder = 469500
+}

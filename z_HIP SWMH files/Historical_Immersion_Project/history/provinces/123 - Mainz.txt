@@ -1,0 +1,28 @@
+# 123 - Mainz
+
+# County Title
+title = c_mainz
+
+# Settlements
+max_settlements = 5
+
+b_mainz = temple
+b_bingen = city
+b_ingelheim = castle
+
+#b_rheinberg = castle
+#b_eberbach = temple 
+
+#b_oppenheim = city 
+#b_stromburg = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1136.1.1 = { b_eberbach = temple  }
+1165.1.1 = { b_rheinberg = castle }
+1170.1.1 = { culture = german }
+#1190.1.1 = { b_hausen = temple }
+#1225.1.1 = { b_oppenheim = city }

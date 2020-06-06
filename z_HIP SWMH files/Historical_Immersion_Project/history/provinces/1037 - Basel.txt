@@ -1,0 +1,29 @@
+# 1037 - Basel
+
+# County Title
+title = c_basel
+
+# Settlements
+max_settlements = 3
+
+b_basel = temple
+ 
+#b_biel = city
+#b_thierstein = castle
+
+#b_buchburg = castle 
+#b_porrentruy = city 
+#b_bellelay = temple 
+#b_farnsburg = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+ 
+1090.5.18 = { b_thierstein = castle } 
+1170.1.1 = { culture = german }
+1275.1.1= { b_biel = city }
+
+

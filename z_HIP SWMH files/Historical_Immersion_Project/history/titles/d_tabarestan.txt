@@ -1,0 +1,212 @@
+# -*- ck2.history.titles -*-
+
+660.1.1={
+	holder = 216023 # Dabuya
+}
+712.1.1={
+	holder = 216021 # Farrukhan the Great
+}
+728.1.1={
+	holder = 216020 # Dadhburzmihr Dabuyid
+}
+740.1.1={
+	holder = 216013 # Khurshid Dabuyid
+}
+755.1.1={
+	holder = 0
+}
+800.1.1={ #?
+	holder = 188651 #Abdallah b. Khazim
+}
+810.1.1={ #?
+	holder = 0
+}
+862.1.1 = {
+	holder = 163161
+}
+864.1.1 = {
+	holder = 45108 # Hasan ibn Zayd
+}
+884.11.1 = {
+	holder = 163166
+}
+914.1.1 = {
+	holder = 1500143
+}
+923.1.1 = {
+	holder = 1500149
+}
+925.1.1 = {
+	holder = 1500151
+}
+925.6.1 = {
+	holder = 1500150
+}
+925.8.1 = {
+	holder = 1500152
+}
+926.1.1 = {
+	holder = 1500158 #Hasan restored
+}
+929.1.1 = {
+	holder = 1500152
+}
+930.1.1 = {
+	holder = 1500151 #Tabarestan conquered by Makan b. Kaki, Isma'il restored
+}
+931.1.1 = {
+	holder = 166989
+}
+935.1.19 = {
+	holder = 166990
+}
+940.1.1 = {
+	set_tribute_suzerain = {
+		who = k_mavarannahr
+		type = permanent
+	}
+}
+967.1.1 = {
+	clear_tribute_suzerain = k_mavarannahr
+	holder = 166992
+}
+#970.1.1 = {
+#	set_tribute_suzerain = {
+#		who = k_persia
+#		percentage = 0.4
+#	}
+#}
+977.8.6 = {
+	holder = 166993
+}
+#980.1.1 = {
+#	clear_tribute_suzerain = k_mesopotamia
+#}
+982.1.1 = { #Gurgan and Tabarestan occupied by the Buyid Mu'ayyad ad-Dawla
+	liege = k_persia
+	holder = 1231068
+}
+984.1.1 = { #Fakhr al-Dawla proclaims himself Shahanshah
+	liege = 0
+	holder = 1231066
+}
+997.1.1 = { #Qabus returns to Gurgan
+	holder = 166993
+}
+1012.6.11 = {
+	liege = k_kafarestan
+	holder = 166994
+}
+1029.1.2 = {
+	holder = 1231165
+}
+1037.1.1 = {
+	liege = 0
+}
+1042.1.1 = {
+	liege = k_khorasan
+	holder = 166995
+}
+1050.1.1 = {
+	holder = 20703
+}
+1055.12.18 = {
+	liege = e_persia
+}
+1057.1.1 = {
+	liege = 0
+	holder = 0
+}
+#ca 1030-1037 Ghaznavid vassal
+1063.9.4 = {
+	liege = e_persia
+	holder = 3040
+}
+# SWMH history
+1066.1.1 = {
+	holder = 1229909
+}
+# vanilla again
+1074.1.1 = {
+	liege = k_persia
+	holder = 3042
+}
+1090.1.1 = {
+	holder = 41606
+}
+1114.1.1 = {
+	holder = 93162
+}
+1117.1.1 = {
+	holder = 93163
+}
+1118.1.1 = {
+	holder = 93164
+}
+1120.1.1 = {
+	liege = e_persia
+}
+1142.1.1 = {
+	holder = 93165
+}
+1156.1.1 = {
+	liege = 0
+}
+1165.1.1 = {
+	holder = 93166
+}
+1173.1.1 = {
+	holder = 93167
+}
+1206.1.1 = {
+	holder = 93168
+}
+1210.1.1 = {
+	liege = k_khwarezmia
+	holder = 1230173
+}
+1221.1.1 = {
+	liege = 0
+	holder = 93054
+}
+1223.1.1 = {
+	liege = k_khwarezmia
+}
+1229.1.1 = {
+	holder = 93053
+}
+1231.1.1 = {
+	liege = 0
+	holder = 0
+}
+1238.1.1 = {
+	liege = e_china_west_governor
+	holder = 93169
+}
+1249.1.1 = {
+	holder = 93170
+}
+1259.8.11 = {
+	liege = e_il-khanate
+}
+1267.1.1 = {
+	holder = 93171
+}
+1271.1.1 = {
+	holder = 93172
+}
+1300.1.1 = {
+	holder = 93173
+}
+1310.1.1 = {
+	holder = 93174
+}
+1328.1.1 = {
+	holder = 93175
+}
+1334.1.1 = {
+	holder = 93176
+}
+1336.4.10 = {
+	liege = k_daylam
+}

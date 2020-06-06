@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 281 - Ångermanland
+
+# County Title
+title = c_angermanland
+
+# Settlements
+max_settlements = 3
+
+b_bjartra = tribal
+
+#b_ulvo = city
+
+#b_natra = temple
+#b_skulnas
+#b_solleftea
+#b_harnosand
+#b_ornskoldsvik
+#b_biedsta
+
+
+# Misc
+culture = lappish
+religion = finnish_pagan
+
+# History
+800.1.1 = {
+	b_bjartra = tb_shipyard_1
+}
+#885.1.1 = { culture = norse } 
+#885.1.1 = { religion = norse_pagan } 
+1229.1.1 = { culture = swedish }
+1229.1.1 = { religion = catholic }
+1229.1.1 = { b_bjartra = castle }

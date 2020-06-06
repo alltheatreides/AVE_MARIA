@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1341 - Kharija
+
+# County Title
+title = c_kharija
+
+# Settlements
+max_settlements = 3
+b_kharija = tribal
+#b_alkasr = temple
+#b_ins = city
+
+# Misc
+culture = coptic
+religion = miaphysite 
+
+# History
+
+1030.1.1 = { culture = zanata }
+1030.1.1 = { religion = sunni }
+

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 474 - Cephalonia
+
+# County Title
+title = c_cephalonia
+
+# Settlements
+max_settlements = 3
+
+b_kefalonia = castle
+b_lefkas = temple
+
+#b_agiosgeorgios = castle
+#b_zante = castle
+#b_ithaca = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+
+1050.1.1 = { trade_post = b_caboga }
+#foundation of the bishopric of Kefalonia
+1207.1.1 = { religion = catholic }
+

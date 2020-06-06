@@ -1,0 +1,40 @@
+# -*- ck2.history.provinces -*-
+
+# 1540 - Ghór
+
+# County Title
+title = c_ghor
+
+# Settlements
+max_settlements = 6
+b_ahangaran = tribal
+#b_firuzkuh = castle
+#b_khasht = temple
+#b_khust = city
+#b_ribat-i-karvan = city
+#b_khaysar = castle
+
+#b_kharkhiz = city
+
+# Misc
+culture = khorasani
+religion = buddhist
+
+# History
+#1000.1.1 = { culture = tajik }
+1060.1.1 = {	religion = sunni } #was 987
+1105.1.1 = { #was 1172
+	b_ahangaran = castle
+	b_khasht = temple
+	b_khust = city
+}
+1149.1.1 = {
+	b_firuzkuh = castle
+	capital = b_firuzkuh
+}
+1222.1.1 = {
+	remove_settlement = b_firuzkuh
+	remove_settlement = b_ahangaran
+	b_khaysar = castle
+	capital = b_khaysar
+}

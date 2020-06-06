@@ -1,0 +1,73 @@
+# -*- ck2.history.titles -*-
+
+732.1.1={
+	liege = d_swabia
+}
+732.1.1={
+	holder = 190361 #Hadrad
+}
+760.1.1={
+	holder = 190362 #Rothard
+}
+796.1.1={
+	holder = 7985 #Welf
+}
+820.1.1={
+	liege = "k_lotharingia"
+	holder = 161483 #Hugo Ier Etichonen
+}
+837.10.27={
+	holder = 163055 #Liutfried III Etichonen
+}
+864.1.1={
+	holder = 163095 #Liutfried Etichonen -should be Hugo II ?
+}
+898.1.1 = {
+	holder = 1326 # Hugo Etichonen, Count of Nordgau, placeholder in Sundgau too
+}
+925.1.1= { liege = "d_swabia" }
+940.1.1 = {
+	holder = 1328 # Hugo Etichonen, Count of Nordgau, son of Hugo, placeholder in Sundgau too
+}
+972.12.18 = {
+	holder = 1330
+}
+986.1.1 = {
+	holder = 144959
+}
+#1012.1.1 = { liege = "e_hre" } #suppression of d_alsace title
+1016.1.1 = {
+	holder = 1332
+}
+1046.1.1 = {
+	holder = 1336
+}
+1049.1.1 = {
+	holder = 1340
+}
+1057.1.1= { holder = 11000 } #Ludwig #Scarponnois count of Montbeliard and ferrette
+1073.1.1= { holder = 20250 } #Thierry #the 1st Scarponnois
+#Ferrette branch
+1103.1.2 = { holder = 7656 } #Friedrich 1st de ferrette
+
+1160.8.19={ holder = 7658 } #Ludwig I died at 3rd crusade
+1180.1.1={ holder = 34321 } #Ulrich I
+1186.1.1 = { liege = "e_hre" } #split alsace from swabia again // creation of the landgraviate circa 1180
+#1194.1.1= { holder = 34325 } #Ludwig II seemingly co-count with is older brother Ulrich I
+1198.9.27= { holder = 7659 }#Friedrich II
+1234.1.1= { holder = 7661 } #Ulrich II
+
+#Habsburg become the major power when Ferrete vassalized to Basel
+
+1271.1.1={ holder = 462021 } #Rudolf
+1278.8.26 = {
+	liege = d_osterreich
+}
+1282.1.1 = {
+	liege = e_hre
+}
+1291.7.15 = {
+	liege = d_osterreich
+	holder = 462023 #Albrecht I
+}
+1324.11.3= { holder = 462020 } #Albrecht II von Habsburg the wise married to 462033 Jeanne de Ferrete daughter of Ulrich the 3rd

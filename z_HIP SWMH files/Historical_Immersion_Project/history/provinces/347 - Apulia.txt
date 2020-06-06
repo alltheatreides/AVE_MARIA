@@ -1,0 +1,40 @@
+# -*- ck2.history.provinces -*-
+
+# 347 - Apulia# Melfi
+
+# County Title
+title = c_apulia
+
+# Settlements
+max_settlements = 6
+
+b_tricarico = castle
+b_avigliano = castle
+b_melfi = city
+b_acerenza = temple
+#b_potenza = city
+#b_montepeloso = castle
+
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = hills
+# History
+867.1.1 = { 
+	b_melfi = ct_wall_1
+	b_melfi = ct_wall_2
+	b_melfi = ct_marketplace_1
+	b_melfi = ct_marketplace_2
+	b_melfi = ct_wall_q_1
+	b_melfi = ct_barracks_1
+	b_melfi = ct_training_grounds_1
+	b_tricarico = ca_keep_1
+	b_tricarico = ca_stable_1
+	b_tricarico = ca_wall_1
+}
+1066.1.1 = {
+	b_melfi = ct_wall_3
+}
+1140.1.1={ culture = neapolitan }

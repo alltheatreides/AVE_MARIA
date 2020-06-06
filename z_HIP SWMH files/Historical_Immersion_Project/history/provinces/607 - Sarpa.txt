@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 607 - Sarpa
+
+# County Title
+title = c_sarpa
+
+# Settlements
+max_settlements = 2
+
+b_sarpa = tribal
+#b_ergeni = tribal
+
+culture = khazar
+religion = tengri_pagan
+
+# History
+1060.1.1 = { culture = oghuz } # an unspecified oghuz tribe settled near Saqsin, under Qipchaq overlordship after their defeat.
+
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol }

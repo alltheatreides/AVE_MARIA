@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1070 - Vithynion
+
+# County Title
+title = c_vithynion
+
+# Settlements
+max_settlements = 3
+b_modrene = castle
+b_flaviopolis = city
+
+b_klaudiopolis = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+# The Seljuks take over Anatolia
+
+1205.1.1 = { culture = turkmen }
+1205.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }

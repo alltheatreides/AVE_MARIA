@@ -1,0 +1,26 @@
+# 94 - Hainaut
+
+# County Title
+title = c_hainaut
+
+# Settlements
+max_settlements = 5
+
+b_mons = castle
+b_lobbes = temple
+b_soignies = city
+
+#b_enghien = castle 
+#b_chimay = castle 
+
+#b_beaumont_hainaut = castle 
+#b_ath = city 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+#1049.1.1= { b_beaumont_hainaut = castle }
+1065.1.1= { b_enghien = castle }
+1065.1.1= { b_chimay = castle }

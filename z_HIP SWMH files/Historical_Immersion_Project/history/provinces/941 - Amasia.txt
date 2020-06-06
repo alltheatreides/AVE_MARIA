@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 941 - Amasia
+
+# County Title
+title = c_amasia
+
+# Settlements
+max_settlements = 5
+
+b_amaseia = castle
+b_sebastopolis = city
+b_zela = temple
+b_ibora = temple
+#b_komanapontica = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+
+
+
+1099.1.1 = { culture = turkmen }
+1099.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }

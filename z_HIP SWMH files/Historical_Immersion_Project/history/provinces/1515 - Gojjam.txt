@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1515 - Gojjam
+
+# County Title
+title = c_gojjam
+
+# Settlements
+max_settlements = 3
+b_guihon = tribal
+#b_mertulematiam = temple #ca. 1400
+
+#b_dima = temple #ca. 1400
+
+# Misc
+culture = ethiopian
+religion = west_african_pagan # WAS: pagan, then east_african_pagan, now west_african_pagan just means "African"
+
+# History
+
+  

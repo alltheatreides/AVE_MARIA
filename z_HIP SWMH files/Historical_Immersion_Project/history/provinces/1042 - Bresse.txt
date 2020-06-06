@@ -1,0 +1,25 @@
+# 1042 - Bresse
+
+# County Title
+title = c_bresse
+
+# Settlements
+max_settlements = 5
+
+b_bauge = castle 
+b_ambronay = temple 
+b_bourg = city
+#b_coligny = castle 
+#b_thoire = castle 
+#b_varey = castle
+#b_colombier = castle
+#b_grolee = castle
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+910.1.1 = { b_coligny = castle }
+1080.1.1 = { b_thoire = castle }

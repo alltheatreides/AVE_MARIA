@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1544 - Nakhshab
+
+# County Title
+title = c_nakhshab
+
+# Settlements
+max_settlements = 5
+
+b_nakhshab = castle
+b_kasba = city
+b_nawqad-kureysh = temple
+b_bezda = castle
+b_subakh = city
+#b_kandak = temple
+#b_qarshi = castle
+
+
+# Misc
+culture = sogdian
+religion = sunni
+terrain = steppe
+
+# History
+990.1.1 = { religion = sunni }
+
+1000.1.1 = { culture = tajik }

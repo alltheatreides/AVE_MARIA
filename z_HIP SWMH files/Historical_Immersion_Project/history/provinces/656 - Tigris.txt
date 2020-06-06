@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 656 - Tigris
+
+# County Title
+title = c_tigris
+
+# Settlements
+max_settlements = 6
+b_wasit = castle
+b_kaskar = temple
+b_fammassilh = city
+b_arrushafa = city
+b_alfarut = temple
+b_nahrsabus = city
+
+#Misc
+culture = levantine_arabic
+religion = shiite # mixed Sunni-Shia population attested
+
+# History
+1200.1.1 = { remove_settlement = b_nahrsabus } #the canals of Sabus and Zab in much ruin by the time Yaqut was writing

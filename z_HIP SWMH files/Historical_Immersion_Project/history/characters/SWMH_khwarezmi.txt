@@ -1,0 +1,416 @@
+# -*- ck2.history.characters -*-
+
+######################################
+#Khwarezmi Characters
+######################################
+#Khwarezmi characters
+#Dynasties: 1000102250 - 1000102299
+#Characters: 1231200 - 1231299
+
+######################################
+#Yalavach
+
+1231200 = {
+	name="Abu-Bakr"
+	dynasty=1059024
+	religion="sunni"
+	culture="khwarezmi"
+	father=248166
+	1231.1.1={
+		birth=yes
+	}
+	1298.6.1={
+		death=yes
+	}
+}
+1231201 = {
+	name="Satilmish-Beg"
+	dynasty=1059024
+	religion="sunni"
+	culture="khwarezmi"
+	father=248166
+	1236.1.1={
+		birth=yes
+	}
+	1303.1.1={
+		death=yes
+	}
+}
+1231202 = {
+	name="Suyunich"
+	dynasty=1059024
+	religion="sunni"
+	culture="khwarezmi"
+	father=248166
+	1242.1.1={
+		birth=yes
+	}
+	1308.1.1={ #?
+		death=yes
+	}
+}
+#1231201 = {
+#	name="Baghra"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231200
+#	450.1.1={
+#		birth = yes
+#	}
+#	499.1.1={
+#		death = yes
+#	}
+#} 
+#1231202 = {
+#	name="Sakhassak"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231201
+#	470.1.1={
+#		birth = yes
+#	}
+#	516.1.1={
+#		death = yes
+#	}
+#} 
+#1231203 = {
+#	name="Askajamuk"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231202
+#	488.1.1={
+#		birth = yes
+#	}
+#	531.1.1={
+#		death = yes
+#	}
+#} 
+#1231204 = {
+#	name="Azkajavar"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231203
+#	506.1.1={
+#		birth = yes
+#	}
+#	540.1.1={
+#		death = yes
+#	}
+#} 
+#1231205 = {
+#	name="Sakhr"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231204
+#	522.1.1={
+#		birth = yes
+#	}
+#	570.1.1={
+#		death = yes
+#	}
+#} 
+#1231206 = {
+#	name="Savosh"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231205
+#	545.1.1={
+#		birth="545.1.1"
+#	}
+#	596.1.1={
+#		death="596.1.1"
+#	}
+#} 
+#1231207 = {
+#	name="Khamgri"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231206
+#	570.1.1={
+#		birth="570.1.1"
+#	}
+#	611.1.1={
+#		death="611.1.1"
+#	}
+#} 
+#1231208 = {
+#	name="Buzkar"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231207
+#	590.1.1={
+#		birth="590.1.1"
+#	}
+#	644.1.1={
+#		death="644.1.1"
+#	}
+#} 
+#1231209 = {
+#	name="Arsamukh"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231208
+#	620.1.1={
+#		birth="620.1.1"
+#	}
+#	680.1.1={
+#		death="680.1.1"
+#	}
+#} 
+#1231210 = {
+#	name="Sabri"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231209
+#	650.1.1={
+#		birth="650.1.1"
+#	}
+#	710.1.1={
+#		death="710.1.1"
+#	}
+#} 
+#1231211 = {
+#	name="Azkajavar"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231210
+#	677.1.1={
+#		birth="677.1.1"
+#	}
+#	728.1.1={
+#		death="728.1.1"
+#	}
+#} 
+#1231212 = {
+#	name="Askajamuk"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231211
+#	700.1.1={
+#		birth="700.1.1"
+#	}
+#	743.1.1={
+#		death="743.1.1"
+#	}
+#} 
+#1231213 = {
+#	name="Shavoshfar"
+#	dynasty=1000102250
+#	religion="zoroastrian"
+#	culture="khwarezmi"
+#	father = #1231212
+#	725.1.1={
+#		birth="725.1.1"
+#	}
+#	779.1.1={
+#		death="779.1.1"
+#	}
+#} 
+#1231214 = {
+#	name="Torkasba'a"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231213
+#	754.1.1={
+#		birth="754.1.1"
+#	}
+#	803.1.1={
+#		death="803.1.1"
+#	}
+#} 
+#1231215 = {
+#	name="'Abdallah"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231214
+#	781.1.1={
+#		birth="781.1.1"
+#	}
+#	838.1.1={
+#		death="838.1.1"
+#	}
+#} 
+#1231216 = {
+#	name="Mansur"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231215
+#	817.1.1={
+#		birth = yes
+#	}
+#	880.1.1={
+#		death = yes
+#	}
+#} 
+#1231217 = {
+#	name="'Eraq"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231216
+#	848.1.1={
+#		birth = yes
+#	}
+#	917.1.1={
+#		death = yes
+#	}
+#} 
+#1231218 = {
+#	name="Mohammad"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231217
+#	882.1.1={
+#		birth = yes
+#	}
+#	945.1.1={
+#		death = yes
+#	}
+#} 
+#1231219 = {
+#	name="Ahmad"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231218
+#	919.1.1={
+#		birth = yes
+#	}
+#	970.1.1={
+#		death = yes
+#	}
+#} 
+#1231220 = {
+#	name="Abu-'Abdallah Mohammad"
+#	dynasty=1000102250
+#	religion="sunni"
+#	culture="khwarezmi"
+#	father = #1231219
+#	943.1.1={
+#		birth = yes
+#	}
+#	995.1.1={
+#		death = yes
+#	}
+#}
+
+#Al-e Ma'mun
+1231221 = {
+	name="Ma'mun" # Ma'mun I, Founder of Ma'munid dynasty
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	father = 1231222
+	trait="fortune_builder" #fame as a builder
+	trait="charitable" #famous for his cultured court, where al-Biruni once belonged
+	trait="ambitious"
+	955.1.1={
+		birth = yes
+	}
+	997.1.1={
+		death = { death_reason=death_murder }
+	}
+}
+1231222 = {
+	name="Muhammad"
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	father = 1231223
+	930.1.1={
+		birth = yes
+	}
+	980.1.1={
+		death = yes
+	}
+}
+1231223 = {
+	name="Ahmad"
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	900.1.1={
+		birth = yes
+	}
+	955.1.1={
+		death = yes
+	}
+}
+1231224 = {
+	name="'Ali"  # Abu’l-Hasan 
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	father = 1231221
+	trait="charitable" #famous for his cultured court
+	973.1.1={
+		birth = yes
+	}
+	1009.1.1={
+		death = yes
+	}
+}
+1231225 = {
+	name="Mohammad" # Abu’l-Haret
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	father = 1231224
+	1000.1.1={ #17 when raised to the throne
+		birth = yes
+	}
+	1017.7.7={
+		death = yes
+	}
+}
+#Sohaylí
+1231227 = {
+	name="Ahmad Sohayli" # Abu’l-Hosayn
+	dynasty=1000102252
+	religion="sunni"
+	culture="khwarezmi"
+	stewardship=9
+	trait="fortune_builder"
+	978.1.1={
+		birth = yes
+	}
+	1037.8.8={
+		death = yes
+	}
+}
+1231228 = {   # Ma'mun II, deposed in 1017
+	name="Ma'mun"
+	dynasty=1000102251
+	religion="sunni"
+	culture="khwarezmi"
+	father = 1231221
+	984.1.1={ #25 in 1009
+		birth = yes
+	}
+	999.1.1={
+		add_spouse=1230134
+	}
+	1017.3.17={
+		death = {
+			death_reason=death_murder
+			killer=1600027
+		}
+	}
+}
+

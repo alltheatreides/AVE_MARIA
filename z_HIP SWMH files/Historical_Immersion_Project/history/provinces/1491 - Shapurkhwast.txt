@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1491 - Shapurkhwast
+
+# County Title
+title = c_shapurkhwast
+
+# Settlements
+max_settlements = 3
+b_shapurkhwast = castle
+b_burujerd = city
+#b_khurramabad = castle
+
+#Misc
+culture = persian
+religion = sunni
+
+# History
+1250.1.1 = {
+	b_khurramabad = castle
+}

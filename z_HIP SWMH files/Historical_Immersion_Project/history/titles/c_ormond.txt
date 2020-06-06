@@ -1,0 +1,71 @@
+# -*- ck2.history.titles -*-
+
+853.1.1 = {
+	liege = d_western_isles
+	holder = 40608 # Sigtrygg, viking of Waterford
+}
+936.1.1 = {
+	liege = 0
+	holder = 1237011 # Gudfrid of Waterford, placeholder
+}
+979.1.1 = {
+	holder = 1237012 # Ivar of Waterford
+}
+# Brian and Mael Sechnaill reaches a compromise on their struggle, giving Brian control over Leinster
+996.1.1 = {
+	set_tribute_suzerain = {
+		who = d_munster
+		type = permanent
+	}
+}
+1000.1.1 = {
+	holder = 1237014 # Ragnall of Waterford
+}
+1002.1.1 = {
+	clear_tribute_suzerain = d_munster
+}
+# Brian supplants Mael Sechnaill as High King. Circumstances so unsure that it is basically up to guesswork as how it went down. Meath and Connacht entered similar relationships as Leinster under Brian
+1002.1.1 = {
+	set_tribute_suzerain = {
+		who = k_ireland_titular
+		type = permanent
+	}
+}
+# Brian Boru dies at Clontarf
+1014.4.23 = {
+	clear_tribute_suzerain = k_ireland_titular
+}
+1018.1.1 = {
+	holder = 1237015 # Sihtric of Waterford
+}
+1022.1.1 = {
+	holder = 1237016 # Ragnall of Waterford
+}
+1035.1.1 = {
+	liege = d_leinster
+	holder = 83368
+}
+1038.1.1 = {
+	holder = 1226424 # Wadter, viking of Waterford
+}
+1090.1.1 = {
+	holder = 1237017 # Ragnall of Waterford
+}
+1172.1.1 = {
+	holder = 204500 # Henry II
+}
+1185.1.1 = {
+	holder = 204514 # John
+}
+1216.10.18 = {
+	holder = 454522 # Henry III
+}
+1272.11.16 = {
+	holder = 454520 # Edward I Longshanks
+}
+1307.7.7 = {
+	holder = 454510 # Edward II of England
+}
+1327.2.1 = {
+	holder = 454500 # Edward III
+}

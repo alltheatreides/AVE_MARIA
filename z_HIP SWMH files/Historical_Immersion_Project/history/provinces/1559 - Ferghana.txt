@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1559 - Ferghana
+
+# County Title
+title = c_ferghana
+
+# Settlements
+max_settlements = 5
+b_uzgend = castle
+b_osh = city
+b_qubaferghana = temple
+#b_andijan = castle
+
+#b_naqad = castle
+
+# Misc
+culture = sogdian
+religion = buddhist
+
+# History
+980.1.1 = {	culture = karluk }
+1005.1.1 = {	religion = sunni }
+1030.1.1 = { b_andijan = castle }
+1221.1.1 = { remove_settlement = b_andijan } #major destruction caused by the Mongol invasion
+1280.1.1 = { b_andijan = castle } #rebuilt by Du'a and Kaidu
+1295.1.1 = { capital = b_andijan } #during Kaidu's reign

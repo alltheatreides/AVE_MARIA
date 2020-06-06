@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 184 - Badajoz
+
+# County Title
+title = c_badajoz
+
+# Settlements
+max_settlements = 5
+#b_badajoz = castle
+b_zafra = castle
+b_jerezdeloscaballeros = temple
+b_olivenza = city
+#b_alburquerque = castle
+#b_montijo = city
+
+# Misc
+culture = andalusian_arabic
+religion = sunni
+
+# History
+875.1.1 = {
+	b_badajoz = castle
+	capital = b_badajoz
+}
+1245.3.19 = { culture = castillan }
+1245.3.19 = { religion = catholic }

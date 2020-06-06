@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1300 - Nadruvia
+
+# County Title
+title = c_nadruvia
+
+# Settlements
+max_settlements = 3
+
+b_insterburg = tribal
+#b_velowe = castle
+b_romuva = temple
+
+
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+
+1259.1.1= { b_velowe = castle }
+1274.8.1 = { b_insterburg = castle }
+1274.8.1 = { capital = b_velowe }
+1290.1.1 = { religion = catholic }

@@ -1,0 +1,20 @@
+# -*- ck2.history.provinces -*-
+
+# 967 - Cerdanya
+
+# County Title
+title = c_cerdanya
+
+# Settlements
+max_settlements = 3
+
+b_llivia = castle
+b_puigcerda = castle
+#b_meranges = castle
+
+# Misc
+culture = catalan
+religion = catholic
+terrain = mountain
+
+# History

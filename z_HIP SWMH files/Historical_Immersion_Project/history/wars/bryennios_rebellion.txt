@@ -1,0 +1,29 @@
+# -*- ck2.history.wars -*-
+#
+#name = "Rebellion of Nikephoros Bryennios the Elder"
+#
+#casus_belli = {
+#	actor = 20502
+#	recipient = 1736
+#	casus_belli= claim_on_liege_plot
+#	landed_title= e_byzantium
+#	date=1077.9.1
+#}
+#
+#1077.9.1 = {
+#	add_attacker = 20502
+#	add_defender = 1736
+#}
+#
+#1078.3.31 = {
+#	rem_defender = 1736
+#}
+#
+#1078.3.31 = {
+#	add_defender = 1740
+#}
+#
+#1078.6.1 = {
+#	rem_attacker = 20502
+#	rem_defender = 1740
+#}

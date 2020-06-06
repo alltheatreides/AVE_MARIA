@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 884 - Antalo
+
+# County Title
+title = c_antalo
+
+# Settlements
+max_settlements = 3
+
+b_entoto = castle
+b_hayq = temple #Debre Hayq/Hayq Estifanos
+
+#b_bale = city
+#b_oromos = castle
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History
+
+1187.1.1 = { b_bale = city } 

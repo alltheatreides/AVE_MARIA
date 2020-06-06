@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 3 - Tyrconnell
+
+# County Title
+title = c_tyrconnell
+
+# Settlements
+max_settlements = 4
+
+b_donegal = tribal
+b_raphoe = city
+#b_devenish = temple
+
+#b_moville = temple
+#b_ballymacswiney = temple
+#b_fahan = temple
+#b_ballyshannon = temple
+#b_kilmacrenan = temple
+#b_gartan = temple
+
+# Misc
+culture = irish
+religion = catholic
+terrain = hills
+
+# History
+

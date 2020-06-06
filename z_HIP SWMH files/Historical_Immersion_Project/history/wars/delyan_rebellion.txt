@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Rebellion of Peter Delyan"
+
+casus_belli = {
+	actor = 1722
+	recipient = 732
+	casus_belli=invasion
+	landed_title=k_bulgaria
+	date=1040.1.1
+}
+
+1040.1.1 = {
+	add_attacker = 1722
+	add_defender = 732
+}
+
+1041.1.1 = {
+	rem_attacker = 1722
+	rem_defender = 732
+}

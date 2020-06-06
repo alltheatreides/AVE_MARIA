@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 621 - Buzachi
+
+# County Title
+title = c_buzachi
+
+# Settlements
+max_settlements = 2
+b_koshagyl = tribal
+
+#b_aqtaw = city
+
+# Misc
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+#1020.1.1 = { religion = sunni } 
+1060.1.1 = {
+	culture = cuman
+}
+1250.1.1 = { culture = mongol } 

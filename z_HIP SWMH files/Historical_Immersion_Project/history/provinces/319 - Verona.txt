@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 319 - Verona
+
+# County Title
+title = c_verona
+
+# Settlements
+max_settlements = 6
+b_sirmione = castle
+b_san_bonifacio = castle
+b_verona = temple
+#b_bevilacuqa = castle
+b_cerea = city
+#b_isola = castle
+#b_garda = castle
+# Misc
+culture = venetian
+religion = catholic
+terrain = plains
+# History
+961.1.1 = { b_isola = castle }
+1145.1.1 = { b_bevilacuqa = castle }

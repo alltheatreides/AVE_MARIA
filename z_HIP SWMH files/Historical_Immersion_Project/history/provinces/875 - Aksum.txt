@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 875 - Aksum
+
+# County Title
+title = c_aksum
+
+# Settlements
+max_settlements = 5
+
+b_aksum = castle #severely destroyed by ca. 850, possibly losing its status as capital
+b_adwa = temple # Miaphysite Holy Site (Abba Garima)
+#b_goh = temple #Guerealta
+#b_mekele = city
+
+#b_adigrat = castle
+#b_yeha = temple #ancient archaeological site
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History
+1000.1.1 = { b_goh = temple }

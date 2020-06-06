@@ -1,0 +1,22 @@
+# 1039 - Dole
+
+# County Title
+title = c_dole
+
+# Settlements
+max_settlements = 5
+
+b_gray = castle
+b_dole = city
+b_saint_oyand = temple
+b_salins = castle
+#b_acey = temple
+#b_poligny = city
+#b_arlay = castle
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1136.1.1 = { b_acey = temple }

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 679 - Kartli
+
+# County Title
+title = c_kartli
+
+# Settlements
+max_settlements = 6
+b_uplistsikhe = castle
+b_mtskheta = city
+b_svetitskhoveli = temple
+#b_gori = castle 
+#b_surami = castle
+b_djvari = temple
+b_ateni = castle 
+#b_urbnisi = temple
+
+# Misc
+culture = georgian
+religion = orthodox
+
+# History
+1170.1.1 = { b_surami = castle }
+1230.1.1 = { b_mtskheta = castle }
+1230.1.1 = { capital = b_mtskheta }
+1230.1.1 = { remove_settlement = b_uplistsikhe }
+1230.1.1 = { b_gori = city }

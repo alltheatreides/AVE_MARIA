@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1476 - Bornu
+
+# County Title
+title = c_bornu
+
+# Settlements
+max_settlements = 6
+b_bornu = tribal
+#b_zamtam = castle
+#b_sao = temple
+b_ngazargamu = city
+
+#b_diaka = temple
+#b_yao = city
+#b_fika = castle
+
+# Misc
+culture = kanuri
+religion = west_african_pagan
+
+# History
+1070.1.1 = {
+	b_bornu = castle
+	b_zamtam = castle
+}
+1100.1.1 = { religion = sunni }
+1120.1.1 = { b_yao = city }

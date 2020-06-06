@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 232 - Monferrato # Asti
+
+# County Title
+title = c_asti
+
+# Settlements
+max_settlements = 5
+
+b_moncalvo = castle
+b_asti = temple
+b_casale = city
+b_serralunga = castle
+#b_ferrere = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History
+1162.1.1 = { b_ferrere = castle }

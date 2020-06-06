@@ -1,0 +1,27 @@
+#Sulzbach
+
+# County Title
+title = c_sulzbach
+
+# Settlements
+max_settlements = 5
+
+b_hohenburg = castle
+b_sulzbach = castle
+b_cham = city
+
+#b_reichenbach = temple
+#b_kastl = temple
+
+#b_amberg = city
+#b_trausnitz = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1098.1.1 = { b_kastl = temple }
+1118.1.1 = { b_reichenbach = temple }
+1170.1.1 = { culture = german }
+#1294.1.1 = { b_amberg = city }

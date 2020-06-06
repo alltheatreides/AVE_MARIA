@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1342 - Dakhila
+
+# County Title
+title = c_dakhila
+
+# Settlements
+max_settlements = 3
+b_dakhila = tribal
+#b_farfarun = city
+#b_alkasr_dakhila = city
+
+#b_alkalamun = city
+
+# Misc
+culture = zanata
+religion = miaphysite
+
+# History
+
+1030.1.1 = { religion = sunni }
+

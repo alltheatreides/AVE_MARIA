@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1284 - Ostrog
+
+# County Title
+title = c_dorogobuzh
+
+# Settlements
+max_settlements = 4
+
+b_dorohobuzh = tribal
+#b_ostroh = tribal
+#b_shumsk = city
+#b_izyaslav = temple
+#b_rovno = city
+#b_peresopnytsya = temple
+
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1005.1.1 = {religion = orthodox }
+1005.1.1 = {
+b_dorohobuzh = castle
+b_shumsk = castle
+b_ostroh = city
+}

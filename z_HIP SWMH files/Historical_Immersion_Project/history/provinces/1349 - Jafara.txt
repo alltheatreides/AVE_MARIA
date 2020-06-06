@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1349 - Jafara
+
+# County Title
+title = c_jafara
+
+# Settlements
+max_settlements = 4
+
+b_manu = tribal
+#b_zuwara = city
+#b_jarjis = castle
+#b_aljamil = castle
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+950.1.1 = { b_manu = castle }
+1052.1.1 = { b_manu = tribal }
+1171.1.1 = { religion = sunni }

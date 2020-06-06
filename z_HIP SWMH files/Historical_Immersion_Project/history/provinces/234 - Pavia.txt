@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 234 - Pavia #County palatine of Pavia/Lomello
+
+# County Title
+title = c_pavia
+
+# Settlements
+max_settlements = 5
+
+b_lomello = castle
+b_pavia = city
+b_vigevano = city
+b_montebello = temple
+#b_sparvara = castle
+#b_langosco = castle
+#b_mortara = castle
+
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+# History
+
+1100.1.1 = { b_montebello = castle }
+1146.1.1 = { b_langosco = castle }
+1146.1.1 = { capital = b_montebello }
+1164.2.19 = { capital = b_lomello }
+1254.1.1 = { capital = b_montebello }
+1284.1.1 = { capital = b_langosco }
+1289.1.1 = { capital = b_montebello }
+1301.1.1 = { capital = b_langosco }
+1315.10.6 = { capital = b_montebello }
+1322.1.1 = { capital = b_langosco }
+1330.1.1 = { capital = b_montebello }

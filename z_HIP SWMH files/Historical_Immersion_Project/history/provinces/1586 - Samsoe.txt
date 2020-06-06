@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1586 - Samsoe
+
+# County Title
+title = c_samsoe
+
+# Settlements
+max_settlements = 2
+
+b_samsoe = tribal
+#b_hjelm = castle
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+867.1.1 = { b_samsoe = tb_shipyard_1 }
+1000.1.1 = { b_samsoe = castle }  
+1010.1.1 = { religion = catholic } 
+1035.1.1 = { culture = danish }
+1200.1.1 = { b_hjelm = castle }  
+

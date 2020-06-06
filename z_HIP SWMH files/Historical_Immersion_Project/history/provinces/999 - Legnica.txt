@@ -1,0 +1,30 @@
+# 999 - Legnica
+# County Title
+title = c_legnica
+
+# Settlements
+max_settlements = 5
+
+b_legnica = tribal
+
+#b_jawor = city 
+#b_legnickie_pole = temple
+#b_lewowek_slaski = city 
+#b_swidnica = castle 
+#b_lubin = castle 
+#b_boslawiec = city 
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+990.1.1 = { religion = catholic 
+b_legnica = castle
+b_jawor = city
+}
+1217.1.1 = { b_lewowek_slaski = city }
+1224.1.1 = { b_legnickie_pole = temple
+}
+1241.1.1 = { culture = german } # German Settlers
+1243.1.1 = { b_swidnica = castle }

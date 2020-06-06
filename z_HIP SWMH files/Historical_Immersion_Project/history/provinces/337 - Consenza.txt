@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 337 - Consenza # Tarsia
+
+# County Title
+title = c_consenza
+
+# Settlements
+max_settlements = 5
+b_tarsia_calabria = castle
+b_cosenza = city
+b_rossano = temple
+#b_corgiliano = castle
+#b_laino = castle
+#b_castrovillari = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+1073.1.1 = { b_corgiliano = castle }
+1085.1.1={ culture = sicilian }
+1085.1.1={ religion = catholic }
+1119.1.1 = { trade_post = b_visconti }
+1227.1.1 = { b_laino = castle }
+1318.7.27  = { trade_post = b_da_mare }
+

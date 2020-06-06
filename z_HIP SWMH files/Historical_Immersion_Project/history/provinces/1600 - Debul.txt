@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1600 - Debul
+
+# County Title
+title = c_debul
+
+# Settlements
+max_settlements = 6
+b_debul = castle
+b_banbhore = temple #site of an "idol temple"
+#b_landhi = temple
+b_thatta = castle
+b_makli = city #Sammanagar/Samui/Samuiya, located below the Makli hills
+#b_shahbandar = city
+#b_lari_bandar = city
+#b_kolachi = city
+
+# Misc
+culture = sindhi
+religion = hindu
+
+# History
+#950.1.1 = { religion = sunni }
+#1066.1.1 = { trade_post = b_lafti }
+#1060.1.1 = { religion = ismaili }
+1230.1.1 = { religion = sunni } #"idol temple" as late as in the 1220s
+1300.1.1 = { b_lari_bandar = city } #by Muhammad Tughluq's reign; also visited by Ibn Battuta in 1333

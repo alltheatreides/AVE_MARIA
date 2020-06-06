@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 351 - Ravenna
+
+# County Title
+title = c_ravenna
+
+# Settlements
+max_settlements = 6
+
+b_cervia = castle
+b_ravenna = temple
+b_traversara = castle
+b_donigallia = castle
+#b_cotignola = castle
+b_comacchio = city
+
+
+
+# Misc
+culture = italian
+religion = catholic
+terrain = plains # should be marsh
+# History
+1110.1.1 = { capital = b_traversara}
+1119.3.19 = { capital = b_cervia}
+1137.1.1 = { capital = b_traversara}
+1145.1.1 = { capital = b_cervia}
+1160.1.1 = { b_comacchio = castle }
+1179.1.1 = { capital = b_traversara }
+1199.1.1 = { capital = b_cervia}
+1201.1.1 = { capital = b_traversara }
+1219.1.1 = { capital = b_cervia}
+1229.1.1 = { capital = b_traversara }
+1240.8.8 = { capital = b_comacchio }
+1260.1.1 = { capital = b_traversara }
+1275.1.1 = { capital = b_cervia }

@@ -1,0 +1,30 @@
+# 313 - Bamberg
+
+# County Title
+title = c_bamberg 
+
+# Settlements
+max_settlements = 4
+
+b_babenberg = castle 
+b_forchheim = city
+
+#b_schlusselberg = castle 
+#b_bamberg = temple
+
+#b_pottenstein = castle
+#b_erlangen = city
+#b_weissenohe = temple 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1007.1.1 = { b_bamberg = temple }
+1007.1.1 = {
+	capital = b_bamberg
+}
+#1057.1.1 = { b_pottenstein = castle }
+#b_schlusselberg = castle 
+1170.1.1 = { culture = german }

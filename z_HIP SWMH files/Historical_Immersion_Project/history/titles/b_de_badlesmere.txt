@@ -1,0 +1,13 @@
+#Cinque Ports family
+1308.1.1 = {
+	holding_dynasty = 1000100179 # de Badlesmere - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1067024 # Bartholomew II de Badlesmere
+}
+1322.4.14 = {
+	holder = 1067028 #Giles de Badlesmere
+}
+1338.6.7 = {
+	holder = 0
+	liege=0
+}

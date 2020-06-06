@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 579 - Mordva 
+# County Title
+title = c_mordva
+
+# Settlements
+max_settlements = 3
+
+b_mokshi= tribal
+#b_tambov = castle
+#b_michurinsk = castle
+
+# Misc
+culture = mordvin
+religion = finnish_pagan
+
+# History
+1313.1.1 = { b_mokshi= castle}

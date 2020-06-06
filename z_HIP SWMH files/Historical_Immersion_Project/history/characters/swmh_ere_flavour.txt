@@ -1,0 +1,348 @@
+# -*- ck2.history.characters -*-
+
+###############################################################
+#  SWMH ERE Flavour characters
+###############################################################
+#Dynasties: 1000103000 - 1000103005
+#Characters: 1232900 - 1232940
+##############################################################################################
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+#1232900 = {
+#	name="Boutros"
+#	dynasty=1000103000
+#	religion="monothelite"
+#	culture="levantine_arabic"
+#	833.1.1 = {
+#		birth="833.1.1"
+#	}
+#	852.1.1 = {
+#		culture="greek"
+#	}
+#	891.1.1 = {
+#		death="891.1.1"
+#	}
+#}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1232901 = {
+	name="Biktor"
+	#dynasty=1063559
+	religion="maronite"
+	culture="levantine_arabic"
+	829.1.1 = {
+		birth="829.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	887.1.1 = {
+		death=yes
+	}
+}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1232902 = {
+	name="Gabri’el"
+	dynasty=100715
+	religion="maronite"
+	culture="levantine_arabic"
+	828.1.1 = {
+		birth="828.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	880.1.1 = {
+		death="880.1.1"
+	}
+}
+
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1232903 = {
+	name="Androus"
+	dynasty=1000103001
+	religion="maronite"
+	culture="levantine_arabic"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	852.1.1 = {
+		culture="greek"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder leader of the Serbian settlers in Galatia
+1232904 = {
+	name="Konstantin"
+	dynasty=1000103002
+	religion="orthodox"
+	culture="serbian"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Slavs in the Peloponnese
+1232905 = {
+	name="Vuk"
+	dynasty=1000103003
+	religion="slavic_pagan"
+	culture="bulgarian"
+	832.1.1 = {
+		birth="832.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 867
+1232906 = {
+	name="Mihai"
+	dynasty=1000103004
+	religion="orthodox"
+	culture="romanian"
+	834.1.1 = {
+		birth="834.1.1"
+	}
+	888.1.1 = {
+		death="888.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 1066
+1232907 = {
+	name="Gheorghe"
+	dynasty=1000103004
+	religion="orthodox"
+	culture="romanian"
+	1038.1.1 = {
+		birth="1038.1.1"
+	}
+	1085.1.1 = {
+		death="1085.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Narentines
+1232908 = {
+	name="Milorad"
+	dynasty=1000103005
+	religion="slavic_pagan"
+	culture="serbian"
+	829.1.1 = {
+		birth="829.1.1"
+	}
+	890.1.1 = {
+		death="890.1.1"
+	}
+}
+
+#Placeholder tribal leader of the Albanians in 1066
+#1232909 = {
+#	name="Besnik"
+#	dynasty=20071
+#	religion="orthodox"
+#	culture="arberian"
+#	1038.1.1 = {
+#		birth="1038.1.1"
+#	}
+#	1085.1.1 = {
+#		death="1085.1.1"
+#	}
+#}
+#
+#Placeholder tribal leader of the Albanians in 1085
+#1232910 = {
+#	name="Blerim"
+#	dynasty=20071
+#	father=1232909
+#	religion="orthodox"
+#	culture="arberian"
+#	1064.1.1 = {
+#		birth="1064.1.1"
+#	}
+#	1135.1.1 = {
+#		death="1135.1.1"
+#	}
+#}
+#
+#Placeholder tribal leader of the Albanians in 1135
+#1232911 = {
+#	name="Valon"
+#	dynasty=20071
+#	father=1232910
+#	religion="orthodox"
+#	culture="arberian"
+#	1091.1.1 = {
+#		birth="1091.1.1"
+#	}
+#	1163.1.1 = {
+#		death="1163.1.1"
+#	}
+#}
+
+#Placeholder tribal leader of the Vlachs in Thessaly for 1066
+1232912 = {
+	name="Vasile"
+	dynasty=1000100532
+	religion="orthodox"
+	culture="romanian"
+	1044.1.1 = {
+		birth="1044.1.1"
+	}
+	1099.1.1 = {
+		death="1099.1.1"
+	}
+}
+#Tuscan Adventurer in Byzantine service. Commanded Attaleia before 1204. Became an independent Magnate after the Fourth Crusade.
+1232913 = {
+	name="Francesco"
+	dynasty=1000103006
+	religion="catholic"
+	culture="tuscan"
+	1149.1.1 = {
+		birth="1149.1.1"
+	}
+	1208.1.1 = {
+		death="1208.1.1"
+	}
+}
+#Placeholder tribal leader of the Vlachs in Thessaly for 1066, Strategos of Larissa 1037
+1232914 = {
+	name="Teodor"
+	dynasty=101216
+	religion="orthodox"
+	culture="romanian"
+	father=1232917
+	1017.1.1 = {
+		birth=yes
+	}
+	1067.1.1 = {
+		death=yes
+	}
+}
+1232915 = {
+	name="Tura" # Fictional sister of Tzegul, second wife of Traulos is mentioned as the daughter of a Pecheneg leader
+	female=yes
+	dynasty=1000100504 # Suru-Külbej
+	religion="orthodox"
+	culture="pecheneg"
+    father=1231778
+    mother=1231779
+	1050.1.1={
+		birth = yes
+	}
+	1102.1.1={
+		death = yes
+	}
+}
+1232916 = {
+	name="Aleksandra" #unnamed daughter who is recorded to have married Romanos Kourkouas, who was said to have conspired with his brother-in-law Presian against Konstantinos VIII leading to his first exile
+	female = yes
+	dynasty=702
+	religion="orthodox"
+	culture="bulgarian"
+	father=722
+	1006.1.1={
+		birth=yes
+	}
+	1059.1.1={
+		death=yes
+	}
+}
+#Placeholder tribal leader of the Vlachs in Thessaly until 1037
+1232917 = {
+	name="Vasile"
+	dynasty=101216
+	religion="orthodox"
+	culture="romanian"
+	981.1.1 = {
+		birth=yes
+	}
+	1037.1.1 = {
+		death=yes
+	}
+}
+#Local Boyar from Prilep, appears have been left in place by Basil II. Most likely the son of the Boyar Ivats, the last of the Bulgarian nobles to surrender in 1018, even after the Emperor, only to then treacherously be blinded
+1232918 = {
+	name="Manuil"
+	dynasty=1000103007
+	religion="orthodox"
+	culture="bulgarian"
+	father=1232919	
+	998.1.1 = {
+		birth=yes
+	}
+	1042.1.1 = {
+		death=yes
+	}
+}
+#Served 3 Bulgarian Emperors and was the last Bulgarian Noble to surrender in 1018
+1232919 = {
+	name="Ivats"
+	dynasty=1000103007
+	religion="orthodox"
+	culture="bulgarian"
+	965.1.1 = {
+		birth=yes
+	}
+	1018.8.1 = {
+		death=yes
+	}
+}
+#Local Boyar from Triaditsa/Sredets, appears have been left in place by Basil II. Mentioned as Boktos by Kekaumenos which is undoubtably a Hellenization. Led the doomed defense of Triaditsa after the decisive Battle at Ostrovo
+1232920 = {
+	name="Botko"
+	dynasty=1000103008
+	religion="orthodox"
+	culture="bulgarian"
+	
+	993.1.1 = {
+		birth=yes
+	}
+	1041.6.1 = {
+		death=yes
+	}
+}
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1232921 = {
+	name="Gabri’el"
+	#dynasty=1063559
+	religion="maronite"
+	culture="levantine_arabic"
+	father=1232901
+	866.1.1 = {
+		birth=yes
+	}
+	866.1.1 = {
+		culture="greek"
+	}
+	919.1.1 = {
+		death=yes
+	}
+}
+#Placeholder character meant to represent the Mardaite rowers in the Byzantine navy
+1232922 = {
+	name="Boutros"
+	dynasty=1063559
+	religion="maronite"
+	culture="levantine_arabic"
+	father=1232921
+	901.1.1 = {
+		birth=yes
+	}
+	901.1.1 = {
+		culture="greek"
+	}
+	950.1.1 = {
+		death=yes
+	}
+}

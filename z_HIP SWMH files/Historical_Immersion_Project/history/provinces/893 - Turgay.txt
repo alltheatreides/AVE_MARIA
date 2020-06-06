@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 893 - Turgay
+
+# County Title
+title = c_turgay
+
+# Settlements
+max_settlements = 2
+b_aralsulfat = tribal
+#b_turgay = city
+
+# Misc
+culture = oghuz
+religion = tengri_pagan
+
+# History
+
+810.1.1 = { culture = pecheneg } 
+825.1.1 = { culture = oghuz } 
+1030.1.1 = { culture = cuman } 
+1230.1.1 = { culture = mongol } 

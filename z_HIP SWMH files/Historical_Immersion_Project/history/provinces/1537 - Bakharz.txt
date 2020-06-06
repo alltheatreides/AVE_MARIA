@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 1537 - Bákharz
+
+# County Title
+title = c_bakharz
+
+# Settlements
+max_settlements = 4
+b_malin-bakharz = castle
+b_zavzan = temple
+b_kundur = city
+b_khwaf = city
+
+#b_bunabid = castle
+#b_zava = city
+
+# Misc
+culture = khorasani
+religion = zoroastrian
+
+# History
+980.1.1 = { religion = sunni }
+1120.1.1 = {
+	religion = ismaili
+}
+1256.1.1 = {
+	remove_settlement = b_khwaf
+}
+1300.1.1 = {
+	religion = sunni
+}
+1320.1.1 = {
+	b_khwaf = city
+}

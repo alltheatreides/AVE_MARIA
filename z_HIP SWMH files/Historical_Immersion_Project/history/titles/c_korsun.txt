@@ -1,0 +1,102 @@
+# -*- ck2.history.titles -*-
+
+861.1.1 = {
+	liege = k_magyar
+	holder = 159141
+}
+895.1.1 = {
+	liege = d_kiev
+	holder = 40606
+}
+912.1.2 = {
+	holder = 600
+}
+936.1.1 = {
+	holder = 1601027
+}
+972.1.1 = {
+	holder = 604
+}
+978.1.2 = {
+	holder = 608
+}
+1015.7.15 = {
+	holder = 610
+}
+1016.1.2 = {
+	holder = 612
+}
+1018.1.2 = {
+	holder = 610
+}
+1019.1.2 = {
+	holder = 612
+}
+1054.2.20 = {
+	holder = 626
+}
+# Cumans arrive, Black hats formed
+1060.1.1 = {
+	liege = 0
+	set_tribute_suzerain = {
+		who = d_kiev
+		type = permanent
+	}
+	holder = 1231889
+}
+1094.1.1 = {
+	holder = 1231891
+}
+1107.1.1 = {
+	holder = 1231893
+}
+1132.1.1 = {
+	holder = 1231895
+}
+# Berendi returns to the steppes, joins the Black hats.
+1139.1.1 = {
+	clear_tribute_suzerain = d_kiev
+	liege = d_kiev
+	holder = 1232000 # Bastey
+}
+1148.1.1 = {
+	holder = 1232002
+}
+1178.1.1 = {
+	holder = 1232004
+}
+1220.1.1 = {
+	holder = 1232006
+}
+1240.1.1 = {
+	#historical_nomad = no
+	liege = d_kiev
+	holder = 125154
+}
+1240.1.2 = {
+	holder = 125114
+}
+1241.1.2 = {
+	holder = 222654
+}
+1243.1.2 = {
+	holder = 472885
+}
+1246.9.30 = {
+	holder = 472844
+}
+1263.11.14 = {
+	holder = 125074
+}
+1265.1.2 = {
+	holder = 125075
+}
+1285.1.2 = {
+	holder = 125076
+}
+1303.1.2 = {
+	holder = 125077
+}
+1325.1.2 = {
+	holder = 472100
+}

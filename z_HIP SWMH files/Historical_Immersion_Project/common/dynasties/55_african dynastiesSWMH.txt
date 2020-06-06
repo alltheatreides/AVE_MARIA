@@ -1,0 +1,218 @@
+# -*- ck2.dynasties -*-
+
+###################################################################
+###################################################################
+# Elvain's West African dynasties
+###################################################################
+###################################################################
+
+
+#1030000 - Cisse (Soninke)
+#1030001 - Kante (Soninke/Sosso)
+#161009-161010 1144680-1144685 - characters
+#1030002 - Keita (Manden)
+#1030003 - Bereté
+#161019, 
+#1030010 - Traore (Manden)
+#161085-161093
+
+#1000053560 - Niakhate (Soninke)
+#1144500-1144509 - characters
+#1000053561 - Tunkara (Soninke)
+#1144520-1144519 - characters
+#1000053562
+#1000053563
+
+#1000053570 - Konate (Manden)
+#1144620-1144629 - characters
+#1000053571 - Toure (Manden)
+#1144630-1144639 - characters
+#1000053572 - Kamara (Manden)
+#1144640-1144649 - characters
+#1000053573 - Kone (Manden)
+#1144650-1144655 - characters
+
+#1000053580 - Torodbe (Wolof)
+#1000144530-1000144537
+#1000053581 - Walo (Wolof)
+#1144540-1144544 - characters
+#1000053582 - Silla (Wolof)
+#1144545-1144549 - characters
+#1000053590-1000053599 - Berber dynasties
+#1000054000-1000054049 - Berber dynasties
+#1144550-1144619 - characters
+#1144656-1144679 - Elvain's flavour characters
+
+# Soninke-original
+
+#1030000 = {
+#	name="Cisse"
+#	culture = soninke
+#}
+#1030001 = {
+#	name="Diarisso"
+#	culture = soninke
+#}
+#1030007 = {
+#	name="Sonni"
+#	culture = soninke
+#}
+#1030008 = {
+#	name="Askiya"
+#	culture = soninke
+#}
+#1030016 = {
+#	name="Mossi"
+#	culture = soninke
+#}
+
+###################################################################
+# Soninke-new
+
+1000053560 = {
+	name="Berte" #one of the five Soninke muslim scholarly clans under the Empire of Mali
+	culture = soninke
+}
+1000053561 = {
+	name="Turé" #one of the five Soninke muslim scholarly clans under the Empire of Mali
+	culture = soninke
+}
+1000053562 = {
+	name="Saghanogho" #one of the five Soninke muslim scholarly clans under the Empire of Mali
+	culture = soninke
+}
+1000053563 = {
+	name="Jane" #one of the five Soninke muslim scholarly clans under the Empire of Mali
+	culture = soninke
+}
+
+# 1000100885 - 1000100889
+
+###################################################################
+# Manden
+
+#1030002 = {
+#	name="Keita"
+#	culture = manden
+#}
+#1030003 = {
+#	name="Bereté"
+#	culture = manden
+#}
+#1030010 = {
+#	name="Traoré"
+#	culture = manden
+#}
+1000053570 = {
+	name="Konaté"
+	culture = manden
+	religion = west_african_pagan
+}
+1000053571 = {
+	name="Touré"
+	culture = manden
+}
+1000053572 = {
+	name="Koné"
+	culture = manden
+	religion = west_african_pagan
+}
+1000053573 = {
+	name="Kamara"
+	culture = manden
+	religion = west_african_pagan
+}
+1000053574 = {
+	name="Diakhanke" # of Bambuk
+	culture = manden
+}
+
+###################################################################
+# Wolof
+
+1000053580 = {
+	name="Manna" #"black" dynasty that overthrew the Dya'ogo
+	culture = wolof #or Soninke?
+	religion = west_african_pagan
+}
+1000053581 = {
+	name="Walo"
+	culture = wolof
+	religion = west_african_pagan
+}
+1000053582 = {
+	name="Silla"
+	culture = wolof
+	religion = sunni
+}
+1000053583 = {
+	name="Joof"
+	culture = wolof
+}
+1000053584 = {
+	name="Njie"
+	culture = wolof
+}
+1000053585 = {
+	name="Faal"
+	culture = wolof
+}
+1000053586 = {
+	name="Dya'ogo"
+	culture = wolof
+	religion = ibadi
+}
+1000053587 = {
+	name="Torodbe" #name for religious clans in Takrur
+	culture = wolof
+}
+1000053588 = {
+	name="Tondyon" #ruling dynasty of Takrur in the 14th century
+	culture = wolof #Serer
+}
+
+
+###################################################################
+# Kanuri
+
+#1000101100-1000101101 free
+1000101102 = {
+	name="Kay"       # a Kanuri clan, which lived towards Bornu
+	culture = kanuri
+	religion = west_african_pagan
+}
+#1000101103-1000101105 free
+1000101106 = {
+	name="Tunjur"
+	culture = kanuri
+	religion = sunni
+}
+
+#1000101106 - 1000101119 - free Kanuri dynasties
+
+###################################################################
+# Zaghawa
+
+#1000101130 - 1000101139 - free Zaghawa dynasties
+
+
+###################################################################
+# Hausa
+
+#1000101150-1000101179 - free Hausa dynasties
+
+###################################################################
+# Songhai
+
+1000101180= {
+	name="Zuwa" #Za
+	culture = songhay
+	religion = west_african_pagan
+}
+1000101181= {
+	name="Sonni" #Sunni/Si/Shi
+	culture = songhay
+}
+
+#1000101182 - 1000101189 - free Songhai dynasties
+#1000101190 - 1000101199 - used for Tuaregs

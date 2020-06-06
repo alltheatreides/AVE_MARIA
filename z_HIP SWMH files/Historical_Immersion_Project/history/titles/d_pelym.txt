@@ -1,0 +1,68 @@
+# -*- ck2.history.titles -*-
+
+867.1.1 = {
+	holder = 1227682
+}
+905.1.1 = {
+	holder = 1227683
+}
+959.1.1 = {
+	holder = 1227684
+}
+986.1.1 = {
+	holder = 1227685
+}
+1013.1.1 = {
+	holder = 1227686
+}
+1054.1.1 = {
+	holder = 1227687
+}
+1091.1.1 = {
+	holder = 1227688
+}
+1133.1.1 = {
+	holder = 1227689
+}
+1161.1.1 = {
+	holder = 1227690
+}
+1199.1.1 = {
+	holder = 1227691
+}
+1218.1.1 = {
+	set_tribute_suzerain = {  # Bolghar subjugation of southwestern Yugra.
+		who = k_volga_bulgaria
+		type = permanent
+	}
+}
+1228.1.1 = {
+	holder = 1227692
+}
+1236.9.1 = {
+	clear_tribute_suzerain = k_volga_bulgaria # Fall of V-B
+}
+1261.1.1 = {
+	holder = 1227693
+}
+1288.1.1 = {
+	holder = 1227694
+}
+1304.1.1 = {
+	holder = 1227695
+}
+1346.1.1 = {
+	holder = 1227696
+}
+1379.1.1 = {
+	holder = 1227697
+}
+1415.1.1 = {
+	holder = 1227698
+}
+1450.1.1 = {
+	holder = 1227699 # Asyka
+}
+1483.4.1 = {
+	holder = 0
+}

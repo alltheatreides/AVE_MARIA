@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 988 - Atzele
+
+# County Title
+title = c_atzele
+
+# Settlements
+max_settlements = 3
+
+b_gaujiena = tribal
+#b_aluksne = city
+#b_gulbene = castle
+
+
+
+# Misc
+culture = lettigallish
+religion = baltic_pagan
+
+# History
+1240.1.1 = {
+b_gaujiena = castle
+b_aluksne = city
+} # annexed by Riga after unrest
+1290.1.1 = { religion = catholic }

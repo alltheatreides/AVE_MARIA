@@ -1,0 +1,38 @@
+# -*- ck2.history.provinces -*-
+
+# 641 - Hormuz
+
+# County Title
+title = c_hormuz
+
+# Settlements
+max_settlements = 6
+b_hormuz = castle #"Old Hormuz"
+b_manujan = city
+b_darahqan = temple #mentioned by Ibn Hawqal and al-Maqdisi
+b_shahruva = city #a fishing borough according to Hudud al-'Alam
+#b_qeshm = city #island
+#b_kishqeshmi = castle #island
+
+#b_larak = city #island
+#b_jarun = city #Island of Hormuz, where "New Hormuz" was built
+#b_laft = city #northern Qeshm
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+950.1.1 = {
+	b_kishqeshmi = castle
+	capital = b_kishqeshmi
+}
+1056.1.1 = { b_qeshm = city }
+#1066.1.1 = { trade_post = b_hormuzi }
+#1180.1.1 = { b_jarun = city }
+1229.1.1 = { capital = b_hormuz }
+#1296.1.1 = {
+#	b_jarun = castle
+#	capital = b_jarun
+#}
+

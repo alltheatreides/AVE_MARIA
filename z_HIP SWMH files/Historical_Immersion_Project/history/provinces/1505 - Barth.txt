@@ -1,0 +1,27 @@
+# 1505 - Barth
+
+# County Title
+title = c_barth
+
+# Settlements
+max_settlements = 4
+b_barth = tribal
+#b_stralsund = city
+#b_gristow = castle 
+#b_eldenaabbey = temple 
+#b_neuenkamp = temple
+#b_divitz = castle 
+#b_lobnitz = castle #Löbnitz
+
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+# Christianity only arrived with the Danish king Valdemar I
+1168.1.1={ b_barth = castle }
+1168.1.1 = { religion = catholic }
+1198.1.1 = { b_eldenaabbey = temple  }
+1220.1.1 = { culture = low_german } # German colonists
+1220.1.1 = { b_stralsund = city }
+1234.1.1 = { trade_post = b_bardewik }
+1249.1.1 = { b_gristow = castle }

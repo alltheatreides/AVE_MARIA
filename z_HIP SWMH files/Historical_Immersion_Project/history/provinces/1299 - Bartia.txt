@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1299 - Bartia
+
+# County Title
+title = c_bartia
+
+# Settlements
+max_settlements = 5
+
+b_reszel = tribal
+b_heilsberg = temple
+#b_gierdawy = castle
+
+#b_rastembork = city
+#b_bartenstein = castle
+
+
+# Misc
+culture = prussian
+religion = baltic_pagan
+
+# History
+
+1240.1.1= { b_reszel = castle } 
+1242.5.1= { b_reszel = tribal } # revolt
+1242.5.1= { b_gierdawy = castle }
+1250.1.1 = { b_bartenstein = castle } # Kommende  of Balga
+1252.8.1= { b_reszel = castle } # revolt put down
+1273.4.1 = { religion = catholic } #death of Diwanus

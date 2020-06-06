@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 738 - Amisos
+
+# County Title
+title = c_amisos
+
+# Settlements
+max_settlements = 3
+b_kastronamisos = castle
+b_amisos = city
+b_paurai = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = plains
+
+# History
+
+
+
+1214.1.1 = { culture = turkmen }
+1214.1.1 = { religion = sunni }
+1256.1.1 = { culture = turkish }

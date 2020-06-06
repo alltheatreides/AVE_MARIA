@@ -1,0 +1,27 @@
+# 1078 - Schwarzburg
+
+# County Title
+title = c_schwarzburg
+
+# Settlements
+max_settlements = 4
+
+b_schwarzburg = castle
+
+#b_georgenthal = temple 
+#b_saalfeld = city 
+#b_lobdaburg = castle 
+
+#b_jena = city 
+#b_kafernburg = castle 
+#b_lauenstein = castle 
+
+# Misc
+culture = thuringian
+religion = catholic
+
+# History
+1152.1.1 = { b_georgenthal = temple }
+1166.1.1 = { b_lobdaburg = castle }
+1170.1.1 = { culture = german }
+1208.1.1 = { b_saalfeld = city }

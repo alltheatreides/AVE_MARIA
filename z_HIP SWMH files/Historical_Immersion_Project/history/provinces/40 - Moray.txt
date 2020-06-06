@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 40 - Moray
+
+# County Title
+title = c_moray
+
+# Settlements
+max_settlements = 5
+b_forres = tribal
+b_elgin = temple
+#b_kinloss = city
+#b_lochindorb = castle
+#b_cawdor = tribal
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+
+1066.1.1 = {
+	b_forres = tb_hillfort_1
+	b_forres = tb_hillfort_2
+	b_forres = tb_training_grounds_1
+	b_forres = tb_war_camp_1
+}
+1146.1.1 = { 
+	b_forres = castle
+	#b_elgin = temple
+} 

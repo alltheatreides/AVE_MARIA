@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 707 - Melitene
+
+# County Title
+title = c_melitene
+
+# Settlements
+max_settlements = 5
+b_melitene = castle
+b_arca = temple
+b_samosata = city
+b_qlaudia = temple
+#b_gubos = temple
+
+# Misc
+culture = assyrian # Had a substantial Western Syriac population, both in the city and definetely in the countryside. The cities probably had either a large Muslim minorty or a small Muslim majority, with the Countryside massively Christian
+religion = syriac
+
+# History
+
+#Brought in Greek and Armenian settlers to replace the Muslim population being expelled from the city
+935.1.1 = { 
+	culture = armenian
+	religion = apostolic
+}
+1121.1.1 = { 
+	culture = turkmen
+	religion = sunni
+}
+1256.1.1 = { culture = turkish }

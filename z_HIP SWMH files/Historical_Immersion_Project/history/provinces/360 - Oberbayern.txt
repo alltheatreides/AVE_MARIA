@@ -1,0 +1,26 @@
+# 315 - Scheyern
+
+# County Title
+title = c_oberbayern
+
+# Settlements
+max_settlements = 5
+
+b_wittelsbach = castle 
+b_dachau = castle
+b_freising = temple
+
+#b_munchen = city
+#b_inglostadt = city
+
+#b_erding = city 
+#b_fraunberg = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1158.1.1 = { b_munchen = city }
+1170.1.1 = { culture = german }
+1250.1.1 = { b_inglostadt = city }

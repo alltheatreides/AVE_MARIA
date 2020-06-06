@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1695 - Philan/Filan
+
+# County Title
+title = c_philan
+
+# Settlements
+max_settlements = 4
+
+b_varachan = tribal # Varach'an/Varshan/Khaydaq/Qahtan
+#b_ur_karakh = city # Karakh
+b_aqusha = city # Shandan
+#b_kubachi = city # Zirih-garan
+
+# Misc
+culture = caucasian_avar
+religion = tengri_pagan
+
+# History
+#910.1.1 = { capital = b_aqusha } #?
+940.1.1 = { b_varachan = castle }
+940.1.1 = { b_aqusha = castle }
+#1040.1.1 = { capital = b_varachan } #?
+1040.1.1 = { remove_settlement = b_aqusha } # Shandan detroyed
+1040.1.1 = { b_ur_karakh = city }
+1317.1.1 = {
+	religion = sunni	
+}

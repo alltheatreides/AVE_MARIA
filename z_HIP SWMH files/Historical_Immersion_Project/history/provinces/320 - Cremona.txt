@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 320 - Camisano
+
+# County Title
+title = c_cremona
+
+# Settlements
+max_settlements = 4
+
+b_camisano = castle
+b_crema = city
+b_cremona = temple
+b_soncino = city
+#b_sospiro = castle
+#b_viadana = castle
+# Misc
+culture = italian
+religion = catholic
+terrain = farmlands
+
+# History

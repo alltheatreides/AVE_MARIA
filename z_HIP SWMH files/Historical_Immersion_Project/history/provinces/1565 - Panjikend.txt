@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1565 - Panjikend
+
+# County Title
+title = c_panjikend
+
+# Settlements
+max_settlements = 3
+
+b_panjikend = castle
+b_kesh = city
+b_varaghser = temple
+
+
+# Misc
+culture = sogdian
+religion = zoroastrian
+
+# History
+990.1.1 = { religion = sunni }
+
+1000.1.1 = { culture = tajik }

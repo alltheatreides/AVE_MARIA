@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 642 - Irahistan
+
+# County Title
+title = c_larestan
+
+# Settlements
+max_settlements = 6
+b_kuran = castle
+b_siraf = city
+b_naband = city
+#b_huzu = castle
+b_kariyan = temple
+b_hisn-ibn-umara = castle
+
+#b_laghir = temple
+#b_lawan = city
+#b_djuyum = city
+
+
+# Misc
+culture = pahlavi
+religion = zoroastrian
+terrain = hills # Not that mountainous compared to the area north of it
+
+# History
+950.1.1 = { b_huzu = castle }
+977.1.1 = { culture = persian }
+977.1.1 = { religion = sunni }
+1065.1.1 = { #977 earthquake, 1060s-1070s occupation by Kish
+      remove_settlement = b_siraf
+      }
+#1100.10.10 = {
+#      remove_settlement = b_lawan
+#      }
+1200.1.1 = { remove_settlement = b_huzu } #in ruins at the time of Yaqut's writing

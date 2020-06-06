@@ -1,0 +1,155 @@
+# -*- ck2.history.characters -*-
+
+# Mercs
+# Characters: 1.000.140.050 - 1.000.140.099
+
+1140050 = {
+	name="Sir Robbin"
+	dynasty=1000053150
+	easter_egg=yes
+	martial=6
+	diplomacy=7
+	intrigue=3
+	stewardship=4
+	religion="catholic"
+	culture="english"
+	add_trait="weak"
+	add_trait="craven"
+	add_trait="naive_appeaser"
+	1036.11.1 = {
+		birth="1036.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+1140051 = {
+	name="Sir Lancelot"
+	dynasty=1000053150
+	easter_egg=yes
+	martial=14
+	diplomacy=5
+	intrigue=3
+	stewardship=4
+	religion="catholic"
+	culture="english"
+	add_trait="possessed"
+        add_trait="zealous"
+	add_trait="strong"
+	add_trait="misguided_warrior"
+	1036.11.1 = {
+		birth="1036.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+1140055 = {
+	name="Eirikr"
+	dynasty=1000053151
+	easter_egg=yes
+	martial=10
+	diplomacy=2
+	intrigue=10
+	stewardship=7
+	religion="catholic"
+	culture="english"
+	add_trait="wroth"
+        add_trait="greedy"
+	add_trait="has_measles"
+	add_trait="fortune_builder"
+	950.11.1 = {
+		birth="950.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+1140056 = {
+	name="Sigvaldi"
+	dynasty=1000053152
+	easter_egg=yes
+	martial=16
+	diplomacy=6
+	intrigue=14
+	stewardship=4
+	religion="norse_pagan"
+	culture="danish"
+	add_trait="wroth"
+        add_trait="greedy"
+        add_trait="envious"
+        add_trait="proud"
+        add_trait="brave"
+        add_trait="deceitful"
+	add_trait="intricate_webweaver"
+	952.11.1 = {
+		birth="952.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+1140057 = {
+	name="Pier Gerlofs"
+	dynasty=1000053153
+	easter_egg=yes
+	martial=16
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="catholic"
+	culture="frisian"
+	add_trait="wroth"
+        add_trait="proud"
+        add_trait="brave"
+        add_trait="strong"
+	add_trait="skilled_tactician"
+	1046.11.1 = {
+		birth="1046.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+1140058 = {
+	name="Jötunn"
+	dynasty=1000053154
+	easter_egg=yes
+	martial=12
+	diplomacy=5
+	intrigue=3
+	stewardship=4
+	religion="norse_pagan"
+	culture="gothic"
+	add_trait="possessed"
+        add_trait="zealous"
+	add_trait="strong"
+	add_trait="misguided_warrior"
+	830.11.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+1140059 = {
+	name="Şorbjörn"
+	dynasty=1000053155
+	easter_egg=yes
+	martial=9
+	diplomacy=15
+	intrigue=12
+	stewardship=5
+	religion="norse_pagan"
+	culture="norwegian"
+	add_trait="quick"
+        add_trait="poet"
+	add_trait="proud"
+	add_trait="grey_eminence"
+	850.11.1 = {
+		birth="850.11.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}

@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1308 - Duvzare
+
+# County Title
+title = c_duvzare
+
+# Settlements
+max_settlements = 3
+
+b_impiltis = tribal
+b_grobina = city
+#b_liepaja = city
+
+
+# Misc
+culture = lettigallish
+
+religion = baltic_pagan
+
+# History
+867.1.1 = {
+	b_impiltis = tb_shipyard_1
+}
+
+1242.1.1 = { b_impiltis = castle } # to the order
+1242.1.1 = {
+	b_impiltis = ca_shipyard_1
+}
+1290.1.1 = { religion = catholic }

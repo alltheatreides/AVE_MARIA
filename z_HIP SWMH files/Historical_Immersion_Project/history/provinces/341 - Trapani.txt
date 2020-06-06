@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 341 - Trapani # Aderno
+
+# County Title
+title = c_trapani
+
+# Settlements
+max_settlements = 4
+
+b_aderno = castle
+b_caltanisetta = castle
+#b_aidone = castle
+b_castrogiovanni = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+
+940.1.1={ culture = maghreb_arabic }
+940.1.1={ religion = sunni }
+960.1.1={ culture = sicilian_arabic }
+
+1085.1.1={ culture = sicilian }
+1085.1.1={ religion = catholic }
+1118.1.1={ b_aidone = castle }

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1573 - Yeti-su
+
+# County Title
+title = c_yeti-su
+
+# Settlements
+max_settlements = 4
+b_qayaliq = tribal
+#b_illbaliq = city
+#b_ala_qamaq = city
+#b_sarqand = temple
+
+# Misc
+culture = karluk
+religion = tengri_pagan
+
+# History
+#1100.1.1 = { b_illbaliq = city }
+1150.1.1 = { religion = sunni }
+1218.1.1 = { b_illbaliq = city }
+1248.1.1 = { culture = mongol }

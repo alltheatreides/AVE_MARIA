@@ -1,0 +1,21 @@
+# -*- ck2.history.wars -*-
+
+name = "Bahram Shah's Claim on Punjab War"
+
+casus_belli = {
+	actor = 144137
+	recipient = 144136
+	casus_belli=claim
+	landed_title=k_punjab
+	date=1118.1.1
+}
+
+1118.1.1 = {
+	add_attacker = 144137
+	add_defender = 144136
+}
+
+1118.10.1 = {
+	rem_attacker = 144137
+	rem_defender = 144136
+}

@@ -1,0 +1,143 @@
+# -*- ck2.history.titles -*-
+
+# Dulafids or Ejlids
+840.10.10 = {
+	liege = d_jebal
+	holder = 163098
+}
+860.10.10 = {
+	holder = 163151
+}
+864.1.1 = {
+	liege = d_ahwaz
+	holder = 1234931
+}
+868.10.10 = {
+	liege = d_jebal
+	holder = 1230541
+}
+936.1.1 = {
+	liege = d_ahwaz
+	holder = 261010 # Abu Abdallah Baridi
+}
+944.6.1 = {
+	holder = 1231062
+}
+949.12.12 = {
+	liege = d_tigris
+	holder = 1231064
+}
+967.4.8 = {
+	holder = 1231067
+}
+978.1.1 = {
+	holder = 1231065
+}
+983.3.3 = {
+	holder = 1231070
+}
+987.1.1 = {
+	holder = 1231071
+}
+989.6.9 = {
+	holder = 1231072
+}
+990.1.1 = { #Samsam al-Dawla captures Basra and Khuzistan
+	liege = d_fars
+	holder = 1231070
+}
+998.12.1 = {
+	liege = d_tigris
+	holder = 1231072
+}
+1001.1.1 = {
+	holder = 1230524 # Ibn Ustadh-Hormuz, Governor of Iraq
+}
+1011.1.1 = {
+	holder = 1231072
+}
+1012.12.22 = {
+	holder = 1235969 # Abu'l-Qasem Ja'far ibn Fasanjas, Vizier for Sultan al Dawla
+}
+1021.1.1 = {
+	holder = 1235964 # Abu Sa'd Abd al-Wahid ibn Ahmad ibn Ja'far ibn Makula, Vizier for Jalal al Dawla
+}
+1024.12.12 = {
+	liege = k_persia
+	holder = 1231074
+}
+1027.6.1 = {
+	liege = d_fars
+	holder = 1231078
+}
+1048.1.1 = {
+	liege = d_baghdad
+	holder = 1231078
+}
+1048.10.10 = {
+	holder = 1231079
+}
+1050.1.1 = {
+	liege = d_ahwaz
+	holder = 1231083
+}
+1056.12.12 = {
+	holder = 1230552
+}
+1064.1.1 = {
+	liege = d_jebal
+	holder = 1230242 # Bursuq, who held iqta in Tustar
+}
+1097.1.1 = {
+	holder = 1600057
+}
+1116.1.1 = {
+	holder = 1600059
+}
+1124.1.1 = {
+	holder = 1600061
+}
+1136.1.1 = {
+	holder = 1600062
+}
+1138.1.1 = {
+	holder = 1600063
+}
+1155.1.1 = {
+	holder = 93200
+}
+1156.1.1 = {
+	liege = 0
+}
+1203.1.1 = {
+	holder = 93201
+}
+1230.1.1 = {
+	holder = 93202
+}
+1257.1.1 = {
+	set_tribute_suzerain = {
+		who = e_china_west_governor
+		type = offmap
+	}
+}
+1259.1.1 = {
+	holder = 93203
+}
+1259.8.11 = {
+	clear_tribute_suzerain = e_china_west_governor
+	liege = e_il-khanate
+}
+1275.1.1 = {
+	liege = d_ahwaz
+	holder = 93204
+}
+1288.1.1 = {
+	holder = 93205
+}
+1296.1.1 = {
+	holder = 93206
+}
+1333.1.1 = {
+	holder = 93207
+}

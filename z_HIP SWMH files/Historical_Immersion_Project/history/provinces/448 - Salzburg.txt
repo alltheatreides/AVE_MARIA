@@ -1,0 +1,26 @@
+# 448 - Salzburg
+
+# County Title
+title = c_salzburg
+
+# Settlements
+max_settlements = 5
+
+b_salzburg = temple
+b_plain = castle 
+b_stift_sankt_peter = temple
+
+#b_radstadt = city 
+#b_goldegg = castle
+
+#b_toerring = castle 
+#b_lebenau = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1100.1.1 = { b_goldegg = castle }
+1170.1.1 = { culture = german }
+1289.1.1 = { b_radstadt = city }

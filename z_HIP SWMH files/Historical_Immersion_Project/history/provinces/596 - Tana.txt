@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 596 - Tana # Vorskla
+
+# County Title
+title = c_tana
+
+# Settlements
+max_settlements = 2
+
+b_hotmysl = tribal
+#b_belgorod_vorskla = castle
+
+
+culture = old_hungarian
+religion = tengri_pagan
+
+# History
+893.1.1 = { culture = pecheneg }
+#1044.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1223.1.1 = { religion = orthodox }
+1320.1.1 = { religion = sunni }
+

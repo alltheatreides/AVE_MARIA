@@ -1,0 +1,19 @@
+#Cinque Ports family
+1189.1.1 = {
+	holding_dynasty = 1000100173 # de Sandwich - makes this a FAMILY_PALACE type Holding
+	liege = d_cinque_ports
+	holder = 1066970 # Henry de Sandwich
+}
+1192.1.1 = {
+	holder = 1066971 # Simon de Sandwich
+}
+1224.1.1 = {
+	holder = 1066972 # Henry II de Sandwich
+}
+1265.1.1 = {
+	holder = 1066977 # Ralph de Sandwich
+}
+1308.1.1 = {
+	holder = 0
+	liege=0
+}

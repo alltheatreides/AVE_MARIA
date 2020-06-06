@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 887 - Sarisu
+
+# County Title
+title = c_sarisu
+
+# Settlements
+max_settlements = 3
+b_sarisu = tribal
+#b_karsakbay = city
+#b_zhezdi_sarisu = temple
+
+
+# Misc
+culture = pecheneg
+religion = tengri_pagan
+
+# History
+
+810.1.1 = { culture = oghuz } 
+1040.1.1 = { culture = cuman } 
+#1040.1.1 = { religion = sunni } 
+
+1230.1.1 = { culture = mongol } 

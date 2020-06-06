@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 808 - Benghazi
+
+# County Title
+title = c_benghazi
+
+# Settlements
+max_settlements = 5
+b_barca = castle
+b_benghazi = city
+#b_oriana = temple
+
+#b_baydabenghazi = castle
+#b_susabenghazi = castle
+
+#b_tulmaytath = castle
+#b_tansulukh = castle
+#b_daryanah = castle
+#b_jardinah = castle
+
+# Misc
+culture = egyptian_arabic
+religion = sunni
+
+# History
+1052.1.1 = { b_barca = tribal }
+1052.1.1 = { culture = bedouin_arabic }
+1172.1.1 = { b_barca = castle }

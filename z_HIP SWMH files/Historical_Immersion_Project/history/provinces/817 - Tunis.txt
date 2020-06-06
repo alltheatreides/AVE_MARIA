@@ -1,0 +1,42 @@
+# -*- ck2.history.provinces -*-
+
+# 817 - Tunis
+
+# County Title
+title = c_tunis
+
+# Settlements
+max_settlements = 6
+
+b_tunis = castle
+b_membressa = city
+#b_zaytuna = temple
+b_shiqqabanariya = castle #Shiqqa Banariya
+#b_hammamet = city
+#b_kelibia = castle
+
+#b_cartaghe = city
+#b_zaghouan = castle
+#b_benarous = castle
+#b_ariana = temple
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+# History
+
+864.1.1 = { b_zaytuna = temple }
+867.1.1 = {
+	b_tunis = ca_keep_1
+	b_tunis = ca_training_grounds_1
+	b_tunis = ca_keep_2
+	b_tunis = ca_stable_1
+	b_tunis = ca_barracks_1
+	b_tunis = ca_militia_barracks_1
+	b_tunis = ca_wall_1
+	b_tunis = ca_wall_2
+}
+1005.1.1 = { trade_post = b_alliata }
+1150.1.1 = { b_hammamet = city }
+1285.1.1 = { trade_post = b_spinola }

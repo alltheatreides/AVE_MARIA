@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 461 - Zagreb
+
+# County Title
+title = c_zagreb
+
+# Settlements
+max_settlements = 5
+
+b_medvedgrad = castle
+#b_kasina = castle
+b_gradec_zagreb = city
+b_kaptol = temple
+b_sisak = temple
+
+# Misc
+culture = croatian
+religion = catholic
+
+# History
+1242.1.1 = { b_kasina = castle} 

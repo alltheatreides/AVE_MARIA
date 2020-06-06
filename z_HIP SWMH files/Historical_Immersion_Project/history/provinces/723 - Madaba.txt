@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 723 - Madaba
+
+# County Title
+title = c_madaba
+
+# Settlements
+max_settlements = 5
+
+b_aljun = castle
+b_irbid = city
+b_qasr_al_hallabat = castle
+b_jerash = city
+#b_russeifa = city
+#b_deir_alla = temple
+#b_muwaqqar = castle
+
+
+
+
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+
+974.1.1 = { remove_settlement = b_jerash culture = bedouin_arabic } #Tribalisation/Nomadization of al-Urdunn
+974.1.1 = { remove_settlement = b_qasr_al_hallabat } #Tribalisation/Nomadization of al-Urdunn
+974.1.1 = { b_aljun = tribal } #Tribalisation/Nomadization of al-Urdunn

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 721 - Tabuk
+
+# County Title
+title = c_tabuk
+
+# Settlements
+max_settlements = 3
+b_tabuk = castle
+b_alawnid = city
+#b_muwaylih = city
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History
+
+974.1.1 = { remove_settlement = b_alawnid culture = bedouin_arabic } #Tribalisation/Nomadization of al-Urdunn (and Tabuk)
+974.1.1 = { b_tabuk = tribal } #Tribalisation/Nomadization of al-Urdunn (and Tabuk)

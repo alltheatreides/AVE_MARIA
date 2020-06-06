@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 1572 - Balasaghun
+
+# County Title
+title = c_balasaghun
+
+# Settlements
+max_settlements = 5
+b_suyab = tribal
+#b_balasaghun = city
+#b_saryg = city
+#b_dzhul = castle
+#b_nevaket = city
+
+
+# Misc
+culture = pecheneg
+religion = tengri_pagan
+
+# History
+
+810.1.1 = {
+	culture = karluk
+	religion = manichean
+}
+930.1.1 = {
+	b_balasaghun = city #first attested in the early 940s
+}
+950.1.1 = {
+	b_suyab = castle #abandoned in the 11th century, but we need a captital barony besides Balasaghun
+}
+1050.1.1 = { religion = sunni }
+1134.1.1 = { b_suyab = tribal }

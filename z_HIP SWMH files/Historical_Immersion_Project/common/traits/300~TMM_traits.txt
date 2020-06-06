@@ -1,0 +1,27 @@
+# -*- ck2.traits -*-
+
+mamluk = {
+	customizer = no
+	random = no
+	hidden = yes
+}
+bahriyya_mamluk = {
+	customizer = no
+	random = no
+	hidden = yes
+}
+burji_mamluk = {
+	customizer = no
+	random = no
+	hidden = yes
+}
+anatolian_mamluk = {
+	customizer = no
+	random = no
+	hidden = yes
+}
+no_inherit = {
+	customizer = no
+	random = no
+	hidden = yes
+}

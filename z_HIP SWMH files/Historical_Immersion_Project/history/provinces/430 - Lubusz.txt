@@ -1,0 +1,32 @@
+# 430 - Lubusz
+
+# County Title
+title = c_lubusz
+
+# Settlements
+max_settlements = 4
+
+b_kostrzyn = tribal 
+b_lubusz = temple
+
+#b_frankfurt_oder = city 
+#b_torzym = castle 
+
+#b_osno_lubuskie = city #Drossen
+#b_slonsk = castle #Sonnenburg
+#b_selchow = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+
+1000.1.1 = { culture = polish 
+b_kostrzyn = castle
+}
+1000.1.1 = { religion = catholic }
+1125.1.1 = { capital = b_lubusz }
+1253.1.1 = { culture = german }
+1253.1.1 = { b_frankfurt_oder = city }
+1266.1.1 = { b_torzym = castle }

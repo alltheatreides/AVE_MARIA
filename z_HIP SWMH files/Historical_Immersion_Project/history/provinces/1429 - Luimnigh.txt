@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1429 - Limerick
+
+# County Title
+title = c_limerick
+
+# Settlements
+max_settlements = 3
+
+b_limerick_castle = tribal
+#b_limerick = city
+
+#b_askeaton = castle
+#b_adare = city
+#b_croom = castle
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+867.1.1 = {
+	b_limerick_castle = tb_shipyard_1
+}
+1047.10.25 = { culture = norsegaelic }

@@ -1,0 +1,25 @@
+# 930 - Bar
+
+# County Title
+title = c_bar
+
+# Settlements
+max_settlements = 6
+
+b_barleduc = castle
+b_pontamousson = castle
+b_toul = temple
+#b_commercy = city
+#b_apremont = castle
+
+#b_sampigny = castle
+#b_neufchateau = city
+#b_ligny = castle  
+#b_bourmont_mousson = castle 
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1080.1.1 = { b_apremont = castle }
+1324.1.1 = { b_commercy = city }

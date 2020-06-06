@@ -1,0 +1,13 @@
+# -*- ck2.dynasties -*-
+
+# Overrides certain vanilla croatian dynasties so that they are of the proper culture and name
+
+
+######################################
+#Name and Culture overrides
+######################################
+
+12284= # "Bijelahrvatskic"
+{
+	culture="russian" # Was croatian
+}

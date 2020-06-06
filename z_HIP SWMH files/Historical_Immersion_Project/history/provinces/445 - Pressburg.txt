@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 445 - Pressburg
+
+# County Title
+title = c_pressburg
+
+# Settlements
+max_settlements = 5
+b_pressburg = tribal
+#b_stomfa = city
+#b_nagyszombat = temple
+
+b_modor = castle
+#b_malacka = castle
+#b_szakolca = city
+#b_deveny = castle
+#b_bazin= castle
+
+# Misc
+culture = slovieni
+religion = catholic
+
+# History
+
+1000.1.1 = { 
+	b_pressburg = castle
+	b_stomfa = temple
+	b_nagyszombat = city
+}

@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 332 - Orbetello # Pitgliano
+
+# County Title
+title = c_orbetello
+
+# Settlements
+max_settlements = 3
+
+b_pitgliano = castle
+b_sovana = castle
+b_orbetello = city
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = forest
+# History
+1096.1.1 = { trade_post = b_della_gherardesca }
+1285.1.1 = { trade_post = b_doria }
