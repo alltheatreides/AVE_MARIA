@@ -1,0 +1,26 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_varangian.1 - AVE_MARIA_varangian.499           			    		   #
+#                               													   #
+########################################################################################
+
+# Written by DELTA
+
+namespace = AVE_MARIA_varangian
+
+character_event = {
+	id = AVE_MARIA_varangian.1
+	hide_window = yes
+	
+	trigger = {
+		has_landed_title =  k_varangian_guard
+		NOT = { trait = varangian}
+	}
+	
+	immediate = {
+		add_trait = varangian
+	}
+}
