@@ -485,3 +485,12 @@ So one way this might work is through the implementation of an expanded economy 
 05/06/20
 - Donner le trait varègue au nouveau titre
 - ugh need to put tax exemption on the high offices
+
+06/06/20
+- Joli bug sur le name official, ça detruit le titre au bout d'un jour-> ne pas donner le choix et l'event au char et directement transferer
+- Réécrire encore le starting event pour marcher avec les titres dynamiques je suppose, sigh
+- Apparement les salaires des minor_title créent de l'argent magique suuuuper. Bon donc: un premier event qui compte le nombre de titres salariés, puis qui l'exporte sur la variable, puis un event mensuel qui retirer l'argent au basileus + un modifier de localisation qui print la global var
+- Pour les musulmans: un système presque similaire aux romains, excepté qu'il n'y a pas de terme aux office. Le calife/sultan/qadi nomme / garde des mecs/gouverneurs si il les aime bien
+
+07/06/20
+- Réécrire l'event startup pour créer des titres familiaux génériques plutot que statiques

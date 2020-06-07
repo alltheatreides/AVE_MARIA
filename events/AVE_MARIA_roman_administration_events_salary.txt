@@ -1,0 +1,716 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_roman_administration.1 - AVE_MARIA_roman_administration.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_roman_administration_salary
+
+##NOTES:
+## Maintenance Events, ideally all the hidden stuff regulating the functionning of the roman administration should be put here, might need to migrate all the early stuff from the plain AVE_MARIA_roman_administration event file
+
+## Count of the number of salaried officials and export it to global variable - Should be calculated at the start of the game and when required like when a new title is added ; monthly might be another calculation burden ?
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+	}
+	
+	immediate = {
+		set_variable = { which = global_roman_administration_tagma_king_title_count value = 0 }
+		set_variable = { which = global_roman_administration_strategos_king_title_count value = 0 }
+		any_vassal = { # Tagma count
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes
+					}
+				}
+				set_variable = { which = roman_administration_tagma_king_title_count value = 0 }  #reset of values
+				export_to_variable = {
+					which = roman_administration_tagma_king_title_count
+					value = num_of_king_titles
+				}
+				# subtract_variable = { which = roman_administration_tagma_king_title_count value = -1 }
+				# export_to_variable = {
+					# which = global_roman_administration_tagma_king_title_count
+					# value = num_of_king_titles
+				# }
+				# set_variable = { which = global_roman_administration_tagma_king_title_count value = 0 }  #reset of values
+				change_variable = { which = global_roman_administration_tagma_king_title_count which = roman_administration_tagma_king_title_count }
+				# change_variable = { which = roman_administration_tagma_king_title_count value = -1 } # Title holders always have two King title: family and job
+			}			
+		}
+		any_vassal = { # Strategos count
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				set_variable = { which = roman_administration_strategos_king_title_count value = 0 }  #reset of values
+				export_to_variable = {
+					which = roman_administration_strategos_king_title_count
+					value = num_of_king_titles
+				}
+				subtract_variable = { which = roman_administration_strategos_king_title_count value = 1 }
+				# export_to_variable = {
+					# which = global_roman_administration_strategos_king_title_count
+					# value = num_of_king_titles
+				# }
+				# set_variable = { which = global_roman_administration_strategos_king_title_count value = 0 }  #reset of values
+				change_variable = { which = global_roman_administration_strategos_king_title_count which = roman_administration_strategos_king_title_count }
+				# subtract_variable = { which = global_roman_administration_strategos_king_title_count value = -1 } # Title holders always have two King title: family and job
+			}			
+		}		
+		
+		set_variable = { which = roman_administration_tagma_salary_cost value = 0 }  #reset of values
+		subtract_variable = { which = roman_administration_tagma_salary_cost which = global_roman_administration_tagma_king_title_count }
+		multiply_variable = {
+			which = roman_administration_tagma_salary_cost
+			value = 10 # Amount of monthly gold received
+		}		
+		set_variable = { which = roman_administration_strategos_salary_cost value = 0 }  #reset of values
+		subtract_variable = { which = roman_administration_strategos_salary_cost which = global_roman_administration_strategos_king_title_count }
+		multiply_variable = {
+			which = roman_administration_strategos_salary_cost
+			value = 5 # Amount of monthly gold received/removed
+		}		
+		
+		# set_variable = { which = roman_administration_total_salary_cost value = 0 }  #reset of values
+		change_variable = { which = roman_administration_total_salary_cost which = roman_administration_strategos_salary_cost }
+		change_variable = { which = roman_administration_total_salary_cost which = roman_administration_tagma_salary_cost }
+		
+		add_character_modifier = {
+			name = roman_administration_salary_cost
+			days = -1
+		}
+	}
+	
+}	
+
+## Call out to the others events
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.14
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 0 #January
+	}
+	
+	immediate = {
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.2
+			days = 1
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.3
+			days = 31
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.4
+			days = 62
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.5
+			days = 93
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.6
+			days = 124
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.7
+			days = 155
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.8
+			days = 186
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.9
+			days = 217
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.10
+			days = 248
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.11
+			days = 279
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.12
+			days = 310
+		}
+		character_event = {
+			id = AVE_MARIA_roman_administration_salary.13
+			days = 341
+		}
+	}
+}
+
+## January pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 0 #January
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## February pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.3
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 1 #February
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## March pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.4
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 2 #March
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## April pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.5
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 3 #April
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## May pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.6
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 4 #May
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## June pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.7
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 5 #June
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## July pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.8
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 6 #July
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## August pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.9
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 7 #August
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## September pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.10
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 8 #September
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## October pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.11
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 9 #October
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## November pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.12
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 10 #November
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+
+## December pay out of the salary to the Military guys and withdrawal to the emperor
+character_event = {
+	id = AVE_MARIA_roman_administration_salary.13
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { # Event for the Emperor
+			OR = { 
+				title = e_byzantium
+				title = e_roman_empire
+			}
+			has_law = succ_byzantine_elective
+		}
+		month == 11 #December
+	}
+	
+	immediate = {
+		wealth = roman_administration_total_salary_cost # Emperor withdrawal
+		any_realm_character = { # Tagma handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_tagma_title_held_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_tagma
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}
+		any_realm_character = { # Strategos handout
+			if = {
+				limit = {
+					any_demesne_title = {
+						roman_administration_strategos_title_trigger = yes	
+					}
+				}
+				save_event_target_as = roman_administration_strategos
+			}
+			wealth = 5 # Living from paycheck to paycheck, feelsbadman
+		}			
+	}
+}
+

@@ -15,12 +15,15 @@ on_startup = {
 		AVE_MARIA_roman_administration.2
 		AVE_MARIA_roman_administration.3
 		# AVE_MARIA_roman_administration.4
+		AVE_MARIA_roman_administration_salary.1 # Variable calculation for salary
 	}
 }
 
 on_new_holder = {
 	events = {
 		AVE_MARIA_roman_administration.4
+		AVE_MARIA_roman_administration_salary.1 # Minor title Salary distribution when gaining the title
+		AVE_MARIA_roman_administration_varangian.1 #Adding the varangian trait to the new holder on title change
 	}
 }
 
@@ -28,6 +31,18 @@ on_yearly_pulse = {
 	events = {
 		AVE_MARIA_roman_administration.5
 		AVE_MARIA_roman_administration.6
+		# AVE_MARIA_roman_administration_salary.14	# Salary distribution	Janvier
+		# AVE_MARIA_roman_administration_salary.3	# Salary distribution	Fevrier
+		# AVE_MARIA_roman_administration_salary.4	# Salary distribution	Mars
+		# AVE_MARIA_roman_administration_salary.5	# Salary distribution	Avril
+		# AVE_MARIA_roman_administration_salary.6	# Salary distribution	Mai
+		# AVE_MARIA_roman_administration_salary.7	# Salary distribution	Juin
+		# AVE_MARIA_roman_administration_salary.8	# Salary distribution	Juillet
+		# AVE_MARIA_roman_administration_salary.9	# Salary distribution	Août
+		# AVE_MARIA_roman_administration_salary.10	# Salary distribution	Septembre
+		# AVE_MARIA_roman_administration_salary.11	# Salary distribution	Octobre
+		# AVE_MARIA_roman_administration_salary.12	# Salary distribution	Novembre
+		# AVE_MARIA_roman_administration_salary.13	# Salary distribution	Décembre
 	}
 }
 

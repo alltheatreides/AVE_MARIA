@@ -1863,6 +1863,8 @@ character_event = {
 	}
 	
 	immediate = {
+		save_event_target_as = target_tagma_commander
+		roman_administration_create_varangian_tagma = yes
 		k_megas_domestikos = {
 			set_title_flag = roman_administration_tagma_title
 			holder_scope = {
@@ -1921,7 +1923,7 @@ character_event = {
 				holder_scope = {
 					spawn_great_commander_effect = yes # Create a tagma - spawn commander
 					new_character = { save_event_target_as = target_tagma_commander }
-					roman_administration_create_varangian_tagma = yes
+					# roman_administration_create_varangian_tagma = yes
 					any_title_under = { # Give to the military guy the strategos title		
 						grant_title_no_opinion = event_target:target_tagma_commander			
 					}
@@ -3021,6 +3023,7 @@ letter_event = {
 		name = EVTOPT_A_AVE_MARIA_roman_administration.14
 		event_target:roman_administration_title_to_pass_up = {
 			holder_scope = {
+				save_event_target_as = roman_administration_previous_holder
 				set_variable = {
 					which = roman_administration_term_duration_count
 					value = 0
@@ -3039,12 +3042,12 @@ letter_event = {
 				}
 			}
 			grant_title_no_opinion = event_target:roman_administration_next_title_holder
-			any_de_jure_vassal_title = {
-				limit = {
-					holder = event_target:roman_administration_previous_holder
-				}
-				grant_title_no_opinion = event_target:roman_administration_next_title_holder
-			}
+			# any_de_jure_vassal_title = {
+				# limit = {
+					# holder = event_target:roman_administration_previous_holder
+				# }
+				# grant_title_no_opinion = event_target:roman_administration_next_title_holder
+			# }
 		}
 		opinion = {
 			modifier = opinion_roman_administration_granted_office
@@ -3190,17 +3193,111 @@ character_event = {
 			name = roman_administration_estates_1
 			days = -1
 		}
-		
-		capital_scope = {
-			add_province_modifier = {
-				name = orc_road_paved
-				duration = -1
+		# set_variable = { which = bob_saget value = 0 }
+		# export_to_variable = {
+			# which = bob_saget
+			# value = num_of_emperor_titles
+		# }
+		set_variable = { which = global_bob_saget value = 0 }
+		any_vassal = {
+			limit = {
+				primary_title = {
+					roman_administration_tagma_title_held_trigger = yes
+				}
 			}
-			add_province_modifier = {
-				name = orc_road
-				duration = -1
+			export_to_variable = {
+				which = bob_saget
+				value = num_of_king_titles
 			}
+			change_variable = { which = global_bob_saget which = bob_saget }
+				
 		}
+		treasury = global_bob_saget
+		
+		# capital_scope = {
+			# add_province_modifier = {
+				# name = orc_road_paved
+				# duration = -1
+			# }
+			# add_province_modifier = {
+				# name = orc_road
+				# duration = -1
+			# }
+		# }
+		
+		# create_title = { # Family Titular title - Create Family titular county title	
+			# tier = KING
+			# landless = yes
+			# temporary = no
+			# rebel = no
+			# capital = 496
+			# culture = greek
+			# name = Test_test
+			# holder = ROOT
+			# custom_created = yes
+			# mercenary = no
+			# adventurer = no
+			# ruler = "Eugeneios"
+			# ruler_female = "Eugeneia"
+			# foa = "My Eugeneios"
+		# }
+		# new_title = {
+			# save_event_target_as = target_king_family_title
+			# set_title_flag = created_family_king_title
+			# add_law = {		
+				# law = succ_my_test_law	
+				# cooldown = no 	
+				# opinion_effect = no	
+			# }		
+			# add_law = {		
+				# law = agnatic_succession	
+				# cooldown = no 	
+				# opinion_effect = no	
+			# }
+			# de_jure_liege = e_byzantium
+		# }
+		# create_title = {
+			# tier = DUKE
+			# landless = yes
+			# capital = 496
+			# temporary = no
+			# rebel = no
+			# culture = greek
+			# name = FAMILY_DUKE_TITLE
+			# holder = ROOT
+			# custom_created = yes
+			# mercenary = no
+			# adventurer = no
+			# ruler = "Eugeneios"
+			# ruler_female = "Eugeneia"
+			# foa = "My Eugeneios"
+		# }
+		# new_title = {
+			# set_title_flag = created_family_duke_title
+			# save_event_target_as = target_duke_family_title
+			# add_law = {		
+				# law = succ_byzantine_elective	
+				# cooldown = no 	
+				# opinion_effect = no	
+			# }		
+			# add_law = {		
+				# law = agnatic_succession	
+				# cooldown = no 	
+				# opinion_effect = no	
+			# }
+			# de_jure_liege = event_target:target_king_family_title
+		# }
+		# any_demesne_title = {
+			# limit = {
+				# has_title_flag = created_family_duke_title
+			# }
+			# activate_title = {
+				# title = THIS
+				# status = no
+			# }
+			# destroy_landed_title = THIS
+		# }
+		
 	}
 	
 	# option = {
