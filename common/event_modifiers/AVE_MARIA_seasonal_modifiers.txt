@@ -1,0 +1,12 @@
+## SEASONAL EVENT MODIFIERS
+
+#SEASONAL
+outlawed_brumalia_modifier = {
+	church_opinion = 10
+	rel_head_opinion = 5
+	monthly_character_piety = 0.5
+	hellenic_pagan_opinion = -10
+	hellenic_pagan_reformed_opinion = -10
+	general_opinion = -5
+	icon = 130
+}

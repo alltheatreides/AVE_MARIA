@@ -1,0 +1,157 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_seasonal_flavour.1 - AVE_MARIA_seasonal_flavour.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Lanceparte
+
+namespace = AVE_MARIA_seasonal_flavour
+
+##NOTES:
+
+long_character_event = {
+	id = AVE_MARIA_seasonal_flavour.1  #Sending cakes on Brumalia
+	border = GFX_event_long_frame_religion
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.1
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.1
+	picture = GFX_evt_ave_maria_seasonal_brumalia
+	
+	only_playable = yes
+	prisoner = no
+	capable_only = yes
+	min_age = 12
+	
+	
+	trigger = {
+		OR = {
+			NOT = { year = 1250 }
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+		check_variable = {
+			which = hexaco_personality_value_agreeableness 
+			value = -12
+		}
+		OR = {
+			culture = greek
+			society_member_of = roman_administration_imperial_court
+		}
+		month = 10
+	}
+	
+	mean_time_to_happen = { months = 4 }
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.1  # Send to Close Family
+		random_close_relative = { 
+		opinion = {
+			modifier = opinion_roman_administration_brumalia_cake
+			who = ROOT
+			months = 6
+			}
+		}		
+	}
+	
+	option = {
+		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.1  # Send to a Councilor
+		random_voter = { 
+            limit = {
+                is_theocracy = no
+            }		
+			opinion = {
+			modifier = opinion_roman_administration_brumalia_cake
+			who = ROOT
+			months = 6
+			}	
+		}		
+	}
+	
+	option = {
+		name = EVTOPT_C_AVE_MARIA_seasonal_flavour.1  # Send to your priest
+		random_vassal = {
+            limit = {
+                is_theocracy = yes
+            }
+            opinion = {
+                modifier = opinion_roman_administration_brumalia_cake
+                who = ROOT
+                months = 6
+            }
+        }
+	}
+	
+	option = {
+		name = EVTOPT_D_AVE_MARIA_seasonal_flavour.1  # This is Blasphemous!
+		
+		piety = 100
+		change_variable = {
+			which = hexaco_personality_value_agreeableness
+			value = -3
+		}
+		hexaco_personality_lvl_up = yes
+	}	
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.2  #Outlawing the Brumalia
+	border = GFX_event_normal_frame_religion
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.2
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.2
+	picture = GFX_evt_ave_maria_seasonal_brumalia
+	
+	only_playable = yes
+	prisoner = no
+	capable_only = yes
+	min_age = 16
+	
+	
+	trigger = {
+		OR = {
+			NOT = { year = 1250 }
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+		AND {	
+			check_variable = {
+				which = hexaco_personality_value_agreeableness 
+				value = -15
+			}
+			NOT = {
+				check_variable = {
+					which = hexaco_personality_value_agreeableness 
+					value = -11
+				}			
+			}
+		}
+		OR = {
+			culture = greek
+			society_member_of = roman_administration_imperial_court
+		}
+		month = 10
+	}
+	
+	mean_time_to_happen = { months = 4 }
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.2  # Outlaw the Practice of Brumalia for the time of your reign
+		add_character_modifier = {
+			name = outlawed_brumalia_modifier
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.2  # Let them have their fun
+
+		piety = -100
+		change_variable = {
+			which = hexaco_personality_value_agreeableness
+			value = 3
+		}
+		hexaco_personality_lvl_up = yes		
+	}
+}
