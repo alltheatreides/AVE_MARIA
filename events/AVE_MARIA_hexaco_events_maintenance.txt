@@ -3314,17 +3314,17 @@ character_event = {
 				}			
 				set_variable = { which = hexaco_personality_value_honesty_humility value = -15 }			
 			}				
-			# Emotionality stable			
-			if = {	# stable		
+			# Emotionality brave			
+			if = {	# brave		
 				limit = {			
-					trait = stable		
+					trait = brave		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = 15 }			
 			}				
-			# Emotionality selfassured			
-			if = {	# selfassured		
+			# Emotionality tough			
+			if = {	# tough		
 				limit = {			
-					trait = selfassured		
+					trait = tough		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = 12 }			
 			}				
@@ -3335,31 +3335,31 @@ character_event = {
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = 9 }			
 			}				
-			# Emotionality tough			
-			if = {	# tough		
+			# Emotionality selfassured			
+			if = {	# selfassured		
 				limit = {			
-					trait = tough		
+					trait = selfassured		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = 6 }			
 			}				
-			# Emotionality brave			
-			if = {	# brave		
+			# Emotionality stable			
+			if = {	# stable		
 				limit = {			
-					trait = brave		
+					trait = stable		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = 3 }			
 			}				
-			# Emotionality craven			
-			if = {	# craven		
+			# Emotionality vulnerable 			
+			if = {	# vulnerable 		
 				limit = {			
-					trait = craven		
+					trait = vulnerable	
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -3 }			
 			}				
-			# Emotionality sentimental			
-			if = {	# sentimental		
+			# Emotionality anxious			
+			if = {	# anxious		
 				limit = {			
-					trait = sentimental		
+					trait = anxious		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -6 }			
 			}				
@@ -3370,20 +3370,20 @@ character_event = {
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -9 }			
 			}				
-			# Emotionality anxious			
-			if = {	# anxious		
+			# Emotionality sentimental			
+			if = {	# sentimental		
 				limit = {			
-					trait = anxious		
+					trait = sentimental		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -12 }			
-			}				
-			# Emotionality vulnerable 			
-			if = {	# vulnerable 		
+			}	
+			# Emotionality craven			
+			if = {	# craven		
 				limit = {			
-					trait = vulnerable	
+					trait = craven		
 				}			
 				set_variable = { which = hexaco_personality_value_emotionality value = -15 }			
-			}				
+			}
 			# Extraversion outgoing			
 			if = {	# outgoing		
 				limit = {			

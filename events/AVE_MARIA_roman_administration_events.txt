@@ -1701,7 +1701,8 @@ character_event = {
 					}			
 					new_character = {			
 						save_event_target_as = civilian_theme_new_holder		
-						set_character_flag = civilian_theme_new_holder		
+						set_character_flag = civilian_theme_new_holder
+						# add_hexaco_trait = yes
 					}
 					any_title_under = { # Give to the civilian guy the vanilla ducal title and everything
 						limit = {
@@ -3189,30 +3190,30 @@ character_event = {
 	}
 	
 	immediate = {
-		add_character_modifier = {
-			name = roman_administration_estates_1
-			days = -1
-		}
+		# add_character_modifier = {
+			# name = roman_administration_estates_1
+			# days = -1
+		# }
 		# set_variable = { which = bob_saget value = 0 }
 		# export_to_variable = {
 			# which = bob_saget
 			# value = num_of_emperor_titles
 		# }
-		set_variable = { which = global_bob_saget value = 0 }
-		any_vassal = {
-			limit = {
-				primary_title = {
-					roman_administration_tagma_title_held_trigger = yes
-				}
-			}
-			export_to_variable = {
-				which = bob_saget
-				value = num_of_king_titles
-			}
-			change_variable = { which = global_bob_saget which = bob_saget }
+		# set_variable = { which = global_bob_saget value = 0 }
+		# any_vassal = {
+			# limit = {
+				# primary_title = {
+					# roman_administration_tagma_title_held_trigger = yes
+				# }
+			# }
+			# export_to_variable = {
+				# which = bob_saget
+				# value = num_of_king_titles
+			# }
+			# change_variable = { which = global_bob_saget which = bob_saget }
 				
-		}
-		treasury = global_bob_saget
+		# }
+		# treasury = global_bob_saget
 		
 		# capital_scope = {
 			# add_province_modifier = {
@@ -3297,6 +3298,8 @@ character_event = {
 			# }
 			# destroy_landed_title = THIS
 		# }
+		
+		hexaco_negative_gain_agreeableness = yes
 		
 	}
 	

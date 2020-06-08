@@ -394,6 +394,7 @@ set_dueling_weapon_effect = {
 	}
 }
 
+
 #### DUELING OUTCOME EVALUATION ### DO NOT TOUCH.
 # ROOT is challenger. From is target of duel.
 evaluate_duel_result_score_effect = {
@@ -693,6 +694,10 @@ set_potential_injury_flag_effect = {
 		random_list = {
 			10 = { #the eyes
 				trigger = { NOT = { trait = blinded } }
+				modifier = {
+					factor = 0.5
+					has_helmet_equipped_trigger = yes
+				}
 				if = { limit = { trait = one_eyed }
 					set_character_flag = injury_both_eyes
 				}
@@ -702,18 +707,34 @@ set_potential_injury_flag_effect = {
 			}
 			10 = {
 				trigger = { NOT = { trait = one_handed } }
+				modifier = {
+					factor = 0.5
+					has_armor_equipped_trigger = yes
+				}
 				set_character_flag = injury_hand
 			}
 			10 = {
 				trigger = { NOT = { trait = one_legged } }
+				modifier = {
+					factor = 0.5
+					has_armor_equipped_trigger = yes
+				}
 				set_character_flag = injury_leg
 			}
 			2 = {
 				trigger = { NOT = { trait = disfigured } }
+				modifier = {
+					factor = 0.5
+					has_helmet_equipped_trigger = yes
+				}
 				set_character_flag = injury_face
 			}
 			1 = {
 				trigger = { NOT = { trait = mangled } }
+				modifier = {
+					factor = 0.5
+					has_armor_equipped_trigger = yes
+				}
 				set_character_flag = injury_mangled_body
 			}
 			10 = { #Only in case you already have ALL the other maimed traits?
@@ -735,6 +756,10 @@ set_potential_injury_flag_effect = {
 						factor = 0.01
 						event_target:combatant_1 = { has_character_flag = injury_eye }
 					}
+					modifier = {
+						factor = 0.5
+						has_helmet_equipped_trigger = yes
+					}
 					if = { limit = { trait = one_eyed }
 						set_character_flag = injury_both_eyes
 					}
@@ -748,6 +773,10 @@ set_potential_injury_flag_effect = {
 						factor = 0.01
 						event_target:combatant_1 = { has_character_flag = injury_hand }
 					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
+					}
 					set_character_flag = injury_hand
 				}
 				10 = {
@@ -755,6 +784,10 @@ set_potential_injury_flag_effect = {
 					modifier = {
 						factor = 0.01
 						event_target:combatant_1 = { has_character_flag = injury_leg }
+					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
 					}
 					set_character_flag = injury_leg
 				}
@@ -764,6 +797,10 @@ set_potential_injury_flag_effect = {
 						factor = 0.01
 						event_target:combatant_1 = { has_character_flag = injury_face }
 					}
+					modifier = {
+						factor = 0.5
+						has_helmet_equipped_trigger = yes
+					}
 					set_character_flag = injury_face
 				}
 				1 = {
@@ -771,6 +808,10 @@ set_potential_injury_flag_effect = {
 					modifier = {
 						factor = 0.01
 						event_target:combatant_1 = { has_character_flag = injury_mangled_body }
+					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
 					}
 					set_character_flag = injury_mangled_body
 				}
@@ -987,6 +1028,10 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 				}
 				factor = 6
 			}
+			
+			# modifier = {
+				
+			# }
 
 			if = { #this fight is taking place on the battlefield!
 				limit = {
@@ -1148,8 +1193,16 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 							factor = 0.01
 							has_character_flag = mock_duel
 						}
+						modifier = {
+							factor = 0.5
+							has_armor_equipped_trigger = yes
+						}
+						modifier = {
+							factor = 0.5
+							has_helmet_equipped_trigger = yes
+						}
 						set_character_flag = actually_injured
-
+						
 						random = { #Chance no limbs are actually chopped off, adding *only* Severely Injured trait...
 							chance = 65
 							set_character_flag = severely_injured
@@ -1274,6 +1327,14 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 					modifier = {
 						factor = 0.01
 						has_character_flag = mock_duel
+					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
+					}
+					modifier = {
+						factor = 0.5
+						has_helmet_equipped_trigger = yes
 					}
 					set_character_flag = actually_injured
 
@@ -1509,6 +1570,14 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 						factor = 0.01
 						has_character_flag = mock_duel
 					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
+					}
+					modifier = {
+						factor = 0.5
+						has_helmet_equipped_trigger = yes
+					}
 					set_character_flag = actually_injured
 					
 					random = { #Chance no limbs are actually chopped off, adding *only* Severely Injured trait...
@@ -1543,6 +1612,14 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 						modifier = {
 							factor = 0.01
 							has_character_flag = mock_duel
+						}
+						modifier = {
+							factor = 0.5
+							has_armor_equipped_trigger = yes
+						}
+						modifier = {
+							factor = 0.5
+							has_helmet_equipped_trigger = yes
 						}
 						set_character_flag = actually_injured
 
@@ -1604,16 +1681,16 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 			}
 			modifier = {
 				duel_result_score_low_group_trigger = yes #Score group: low (outmatched)
-				value = 2
+				factor = 2
 			}
 			modifier = {
 				duel_result_score_decent_trigger = yes #Score: fairly evenly matched
-				value = 2
+				factor = 2
 			}
 			modifier = { #Both have highest skill
 				is_the_best_duelist_trigger = yes
 				event_target:combatant_2 = { is_the_best_duelist_trigger = yes }
-				value = 2
+				factor = 2
 			}
 			modifier = { #Both have the worst skill
 				is_the_worst_duelist_trigger = yes
@@ -1636,6 +1713,14 @@ send_duel_result_event_effect = { # Runs via the attacker/combatant_1
 					modifier = {
 						factor = 0.01
 						has_character_flag = mock_duel
+					}
+					modifier = {
+						factor = 0.5
+						has_armor_equipped_trigger = yes
+					}
+					modifier = {
+						factor = 0.5
+						has_helmet_equipped_trigger = yes
 					}
 					set_character_flag = actually_injured
 					event_target:combatant_2 = { set_character_flag = actually_injured }

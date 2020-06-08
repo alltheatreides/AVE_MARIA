@@ -1,0 +1,129 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Artifacts																			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+
+#############################
+#######    Armors   #########
+#############################
+
+armor_hauberk = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor hauberk }
+	stacking = no
+	picture = "GFX_armor_hauberk"
+	slot = torso
+}
+
+armor_lamellar = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor lamellar }
+	stacking = no
+	picture = "GFX_armor_lamellar"
+	slot = torso
+}
+
+armor_scale_golden = {
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor scale }
+	stacking = no
+	picture = "GFX_armor_scale_golden"
+	slot = torso
+}
+
+armor_scale = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor scale }
+	stacking = no
+	picture = "GFX_armor_scale"
+	slot = torso
+}
+
+#############################
+#######    Helmet   #########
+#############################
+
+helmet_mail = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet mail }
+	stacking = no
+	picture = "GFX_helmet_mail"
+	slot = head
+}
+
+helmet_nasal = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet nasal }
+	stacking = no
+	picture = "GFX_helmet_nasal"
+	slot = head
+}
+
+helmet_kettle = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet kettle }
+	stacking = no
+	picture = "GFX_helmet_kettle"
+	slot = head
+}
+
+helmet_early_helm = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet early_helm }
+	stacking = no
+	picture = "GFX_helmet_early_helm"
+	slot = head
+}
+
+helmet_early_helm_2 = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet early_helm }
+	stacking = no
+	picture = "GFX_helmet_early_helm_2"
+	slot = head
+}
+
+helmet_full_helm = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet full_helm }
+	stacking = no
+	picture = "GFX_helmet_full_helm"
+	slot = head
+}

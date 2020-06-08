@@ -321,7 +321,8 @@ add_hexaco_trait = {
 			}				
 		}					
 	}						
-
+	
+	hexaco_personality_variable_set_up = yes
 }
 
 add_hexaco_trait_martial_arts_1 = {
@@ -1239,6 +1240,430 @@ remove_hexaco_traits_all_martial_arts = {
 #############################################
 # XP effects								#
 #############################################
+
+hexaco_personality_variable_set_up = {
+	# Honesty-Humility faithful	
+	if = {	# faithful		
+		limit = {			
+			trait = faithful		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = 15 }			
+	}				
+	# Honesty-Humility honest			
+	if = {	# honest		
+		limit = {			
+			trait = honest		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = 12 }			
+	}				
+	# Honesty-Humility sincere			
+	if = {	# sincere		
+		limit = {			
+			trait = sincere		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = 9 }			
+	}				
+	# Honesty-Humility generous			
+	if = {	# generous		
+		limit = {			
+			trait = generous		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = 6 }			
+	}				
+	# Honesty-Humility humble			
+	if = {	# humble		
+		limit = {			
+			trait = humble		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = 3 }			
+	}				
+	# Honesty-Humility pretentious			
+	if = {	# pretentious		
+		limit = {			
+			trait = pretentious		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = -3 }			
+	}				
+	# Honesty-Humility greedy			
+	if = {	# greedy		
+		limit = {			
+			trait = greedy		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = -6 }			
+	}				
+	# Honesty-Humility inconstant			
+	if = {	# inconstant		
+		limit = {			
+			trait = inconstant		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = -9 }			
+	}				
+	# Honesty-Humility deceitful			
+	if = {	# deceitful		
+		limit = {			
+			trait = deceitful		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = -12 }			
+	}				
+	# Honesty-Humility hypocritical			
+	if = {	# hypocritical		
+		limit = {			
+			trait = hypocritical		
+		}			
+		set_variable = { which = hexaco_personality_value_honesty_humility value = -15 }			
+	}	
+	# Emotionality brave			
+	if = {	# brave		
+		limit = {			
+			trait = brave		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = 15 }			
+	}				
+	# Emotionality tough			
+	if = {	# tough		
+		limit = {			
+			trait = tough		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = 12 }			
+	}				
+	# Emotionality independent			
+	if = {	# independent		
+		limit = {			
+			trait = independent		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = 9 }			
+	}				
+	# Emotionality selfassured			
+	if = {	# selfassured		
+		limit = {			
+			trait = selfassured		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = 6 }			
+	}				
+	# Emotionality stable			
+	if = {	# stable		
+		limit = {			
+			trait = stable		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = 3 }			
+	}				
+	# Emotionality vulnerable 			
+	if = {	# vulnerable 		
+		limit = {			
+			trait = vulnerable	
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = -3 }			
+	}				
+	# Emotionality anxious			
+	if = {	# anxious		
+		limit = {			
+			trait = anxious		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = -6 }			
+	}				
+	# Emotionality fearful			
+	if = {	# fearful		
+		limit = {			
+			trait = fearful		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = -9 }			
+	}				
+	# Emotionality sentimental			
+	if = {	# sentimental		
+		limit = {			
+			trait = sentimental		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = -12 }			
+	}	
+	# Emotionality craven			
+	if = {	# craven		
+		limit = {			
+			trait = craven		
+		}			
+		set_variable = { which = hexaco_personality_value_emotionality value = -15 }			
+	}				
+	# Extraversion outgoing			
+	if = {	# outgoing		
+		limit = {			
+			trait = outgoing		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = 15 }			
+	}				
+	# Extraversion lively			
+	if = {	# lively		
+		limit = {			
+			trait = lively		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = 12 }			
+	}				
+	# Extraversion sociable			
+	if = {	# sociable		
+		limit = {			
+			trait = sociable		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = 9 }			
+	}				
+	# Extraversion talkative			
+	if = {	# talkative		
+		limit = {			
+			trait = talkative		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = 6 }			
+	}				
+	# Extraversion cheerful			
+	if = {	# cheerful		
+		limit = {			
+			trait = cheerful		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = 3 }			
+	}				
+	# Extraversion passive			
+	if = {	# passive		
+		limit = {			
+			trait = passive		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = -3 }			
+	}				
+	# Extraversion withdrawn			
+	if = {	# withdrawn		
+		limit = {			
+			trait = withdrawn		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = -6 }			
+	}				
+	# Extraversion introverted			
+	if = {	# introverted		
+		limit = {			
+			trait = introverted		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = -9 }			
+	}				
+	# Extraversion quiet			
+	if = {	# quiet		
+		limit = {			
+			trait = quiet		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = -12 }			
+	}				
+	# Extraversion reserved			
+	if = {	# reserved		
+		limit = {			
+			trait = reserved		
+		}			
+		set_variable = { which = hexaco_personality_value_extraversion value = -15 }			
+	}				
+	# Agreeableness patient			
+	if = {	# patient		
+		limit = {			
+			trait = patient		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = 15 }			
+	}				
+	# Agreeableness tolerant			
+	if = {	# tolerant		
+		limit = {			
+			trait = tolerant		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = 12 }			
+	}				
+	# Agreeableness agreeable			
+	if = {	# agreeable		
+		limit = {			
+			trait = agreeable		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = 9 }			
+	}				
+	# Agreeableness mild			
+	if = {	# mild		
+		limit = {			
+			trait = mild		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = 6 }			
+	}				
+	# Agreeableness gentle			
+	if = {	# gentle		
+		limit = {			
+			trait = gentle		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = 3 }			
+	}				
+	# Agreeableness illtempered			
+	if = {	# illtempered		
+		limit = {			
+			trait = illtempered		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = -3 }			
+	}				
+	# Agreeableness quarrelsome			
+	if = {	# quarrelsome		
+		limit = {			
+			trait = quarrelsome		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = -6 }			
+	}				
+	# Agreeableness stubborn			
+	if = {	# stubborn		
+		limit = {			
+			trait = stubborn		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = -9 }			
+	}				
+	# Agreeableness intolerant			
+	if = {	# intolerant		
+		limit = {			
+			trait = intolerant		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = -12 }			
+	}				
+	# Agreeableness wroth			
+	if = {	# wroth		
+		limit = {			
+			trait = wroth		
+		}			
+		set_variable = { which = hexaco_personality_value_agreeableness value = -15 }			
+	}				
+	# Conscientiousness organized			
+	if = {	# organized		
+		limit = {			
+			trait = organized		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = 15 }			
+	}				
+	# Conscientiousness diligent			
+	if = {	# diligent		
+		limit = {			
+			trait = diligent		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = 12 }			
+	}				
+	# Conscientiousness careful			
+	if = {	# careful		
+		limit = {			
+			trait = careful		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = 9 }			
+	}				
+	# Conscientiousness thorough			
+	if = {	# thorough		
+		limit = {			
+			trait = thorough		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = 6 }			
+	}				
+	# Conscientiousness precise			
+	if = {	# precise		
+		limit = {			
+			trait = precise		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = 3 }			
+	}				
+	# Conscientiousness sloppy			
+	if = {	# sloppy		
+		limit = {			
+			trait = sloppy		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = -3 }			
+	}				
+	# Conscientiousness negligent			
+	if = {	# negligent		
+		limit = {			
+			trait = negligent		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = -6 }			
+	}				
+	# Conscientiousness reckless			
+	if = {	# reckless		
+		limit = {			
+			trait = reckless		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = -9 }			
+	}				
+	# Conscientiousness lazy			
+	if = {	# lazy		
+		limit = {			
+			trait = lazy		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = -12 }			
+	}				
+	# Conscientiousness irresponsible			
+	if = {	# irresponsible		
+		limit = {			
+			trait = irresponsible		
+		}			
+		set_variable = { which = hexaco_personality_value_conscientiousness value = -15 }			
+	}				
+	# Openness to Experience intellectual			
+	if = {	# intellectual		
+		limit = {			
+			trait = intellectual		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = 15 }			
+	}				
+	# Openness to Experience creative			
+	if = {	# creative		
+		limit = {			
+			trait = creative		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = 12 }			
+	}				
+	# Openness to Experience unconventional			
+	if = {	# unconventional		
+		limit = {			
+			trait = unconventional		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = 9 }			
+	}				
+	# Openness to Experience innovative			
+	if = {	# innovative		
+		limit = {			
+			trait = innovative		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = 6 }			
+	}				
+	# Openness to Experience thoughtful			
+	if = {	# thoughtful		
+		limit = {			
+			trait = thoughtful		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = 3 }			
+	}				
+	# Openness to Experience shallow			
+	if = {	# shallow		
+		limit = {			
+			trait = shallow		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = -3 }			
+	}				
+	# Openness to Experience unimaginative			
+	if = {	# unimaginative		
+		limit = {			
+			trait = unimaginative		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = -6 }			
+	}				
+	# Openness to Experience conventional			
+	if = {	# conventional		
+		limit = {			
+			trait = conventional		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = -9 }			
+	}				
+	# Openness to Experience uninspired			
+	if = {	# uninspired		
+		limit = {			
+			trait = uninspired		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = -12 }			
+	}				
+	# Openness to Experience simple			
+	if = {	# simple		
+		limit = {			
+			trait = simple		
+		}			
+		set_variable = { which = hexaco_personality_value_openness_to_experience value = -15 }			
+	}				
+
+}
 
 hexaco_education_lvl_up = {
 	#	Level 3 martial_arts				
@@ -2285,7 +2710,7 @@ hexaco_personality_lvl_up = {
 	# 	Honesty-Humility hypocritical			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_honesty_humility value <= -15 }		
+			is_variable_equal = { which = hexaco_personality_value_honesty_humility value >= -15 }		
 			OR = {
 				trait = faithful
 				trait = honest
@@ -2304,29 +2729,28 @@ hexaco_personality_lvl_up = {
 		remove_hexaco_honesty_humility_traits = yes			
 		add_trait = hypocritical			
 	}				
-	# 	Emotionality stable			
+	# 	Emotionality brave			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_emotionality value >= 15 }		
-			
+			is_variable_equal = { which = hexaco_personality_value_emotionality value => 15 }		
 			NOT = {		
-				trait = stable	
+				trait = brave	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = stable			
-	}				
-	# 	Emotionality selfassured			
+		add_trait = brave			
+	}	
+	# 	Emotionality tough			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = 12 }		
 			NOT = {		
-				trait = selfassured	
+				trait = tough	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = selfassured			
-	}				
+		add_trait = tough			
+	}	
 	# 	Emotionality independent			
 	if = {				
 		limit = {			
@@ -2337,50 +2761,51 @@ hexaco_personality_lvl_up = {
 		}			
 		remove_hexaco_emotionality_traits = yes			
 		add_trait = independent			
-	}				
-	# 	Emotionality tough			
+	}		
+	# 	Emotionality selfassured			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = 6 }		
 			NOT = {		
-				trait = tough	
+				trait = selfassured	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = tough			
-	}				
-	# 	Emotionality brave			
+		add_trait = selfassured			
+	}	
+	# 	Emotionality stable			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = 3 }		
+			
 			NOT = {		
-				trait = brave	
+				trait = stable	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = brave			
+		add_trait = stable			
 	}				
-	# 	Emotionality craven			
+	# 	Emotionality vulnerable 			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = -3 }		
 			NOT = {		
-				trait = craven	
+				trait = vulnerable
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = craven			
+		add_trait = vulnerable			
 	}				
-	# 	Emotionality sentimental			
+	# 	Emotionality anxious			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = -6 }		
 			NOT = {		
-				trait = sentimental	
+				trait = anxious	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = sentimental			
+		add_trait = anxious			
 	}				
 	# 	Emotionality fearful			
 	if = {				
@@ -2393,28 +2818,28 @@ hexaco_personality_lvl_up = {
 		remove_hexaco_emotionality_traits = yes			
 		add_trait = fearful			
 	}				
-	# 	Emotionality anxious			
+	# 	Emotionality sentimental			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value = -12 }		
 			NOT = {		
-				trait = anxious	
+				trait = sentimental	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = anxious			
+		add_trait = sentimental			
 	}				
-	# 	Emotionality vulnerable 			
+	# 	Emotionality craven			
 	if = {				
 		limit = {			
 			is_variable_equal = { which = hexaco_personality_value_emotionality value <= -15 }		
 			NOT = {		
-				trait = vulnerable
+				trait = craven	
 			}		
 		}			
 		remove_hexaco_emotionality_traits = yes			
-		add_trait = vulnerable			
-	}				
+		add_trait = craven			
+	}	
 	# 	Extraversion outgoing			
 	if = {				
 		limit = {			
@@ -2857,3 +3282,56 @@ hexaco_personality_lvl_up = {
 	}				
 
 }
+
+## Positive gain in one category CAREFUL DUE TO EARLY MISTAKE EMOTIONALITY SCALE IS REVERSED: The negative maximum is the worst trait whereas for all the others the negative maximum is the best trait.
+hexaco_positive_gain_honesty_humility = {							
+	change_variable = { which = hexaco_personality_value_honesty_humility value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}							
+hexaco_positive_gain_emotionality = {							
+	change_variable = { which = hexaco_personality_value_emotionality value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}							
+hexaco_positive_gain_extraversion = {							
+	change_variable = { which = hexaco_personality_value_extraversion value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}							
+hexaco_positive_gain_agreeableness = {							
+	change_variable = { which = hexaco_personality_value_agreeableness value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}							
+hexaco_positive_gain_conscientiousness = {							
+	change_variable = { which = hexaco_personality_value_conscientiousness value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}							
+hexaco_positive_gain_openness_to_experience = {							
+	change_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }						
+	hexaco_personality_lvl_up = yes						
+}			
+
+## Negative gain in one category
+hexaco_negative_gain_honesty_humility = {						
+	subtract_variable = { which = hexaco_personality_value_honesty_humility value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+hexaco_negative_gain_emotionality = {						
+	subtract_variable = { which = hexaco_personality_value_emotionality value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+hexaco_negative_gain_extraversion = {						
+	subtract_variable = { which = hexaco_personality_value_extraversion value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+hexaco_negative_gain_agreeableness = {						
+	subtract_variable = { which = hexaco_personality_value_agreeableness value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+hexaco_negative_gain_conscientiousness = {						
+	subtract_variable = { which = hexaco_personality_value_conscientiousness value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+hexaco_negative_gain_openness_to_experience = {						
+	subtract_variable = { which = hexaco_personality_value_openness_to_experience value = 1 }					
+	hexaco_personality_lvl_up = yes					
+}						
+				

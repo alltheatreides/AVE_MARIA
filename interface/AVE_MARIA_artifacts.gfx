@@ -1,0 +1,116 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA Traits																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# GFX											                       				   #
+#                               													   #
+########################################################################################
+
+## Written by Atreides
+
+##GFX artifacts
+spriteTypes = {
+	
+	## ARMORS
+	## Hauberk
+	spriteType = {
+		name = "GFX_armor_hauberk"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_hauberk.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_hauberk_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_hauberk_small.dds"
+	}	
+
+	## Lamellar
+	spriteType = {
+		name = "GFX_armor_lamellar"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_lamellar.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_lamellar_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_lamellar_small.dds"
+	}
+	
+	## Scale
+	spriteType = {
+		name = "GFX_armor_scale"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_scale.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_scale_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_scale_small.dds"
+	}
+	
+	## Scale Golden
+	spriteType = {
+		name = "GFX_armor_scale_golden"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_scale_golden.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_scale_golden_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_scale_golden_small.dds"
+	}
+	
+	## HELMETS
+	## Mail coif
+	spriteType = {
+		name = "GFX_helmet_mail"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_mail_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail_small.dds"
+	}	
+
+	## Nasal Helmet
+	spriteType = {
+		name = "GFX_helmet_nasal"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_small.dds"
+	}
+	
+	## Kettle
+	spriteType = {
+		name = "GFX_helmet_kettle"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_kettle_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_small.dds"
+	}
+	
+	## helmet_early_helm
+	spriteType = {
+		name = "GFX_helmet_early_helm"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_early_helm_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_small.dds"
+	}
+	
+	## helmet_early_helm 2
+	spriteType = {
+		name = "GFX_helmet_early_helm_2"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_early_helm_2_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2_small.dds"
+	}
+	
+	## Full Helm
+	spriteType = {
+		name = "GFX_helmet_full_helm"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_full_helm_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm_small.dds"
+	}
+}

@@ -1,0 +1,43 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Triggers																	   #
+#                               													   #
+########################################################################################
+
+## Written by Atreides
+
+#############################################
+# From Character Scope						#
+#############################################
+
+has_armor_equipped_trigger = {
+	any_artifact = {
+		is_artifact_equipped = yes
+		has_artifact_flag = armor
+		OR = {
+			has_artifact_flag = hauberk
+			has_artifact_flag = lamellar
+			has_artifact_flag = scale
+			has_artifact_flag = plate
+			has_artifact_flag = mail
+		}
+	}
+}
+
+has_helmet_equipped_trigger = {
+	any_artifact = {
+		is_artifact_equipped = yes
+		has_artifact_flag = helmet
+		OR = {
+			has_artifact_flag = mail
+			has_artifact_flag = nasal
+			has_artifact_flag = kettle
+			has_artifact_flag = early_helm
+			has_artifact_flag = full_helm
+			has_artifact_flag = bascinet
+		}
+	}
+}
