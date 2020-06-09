@@ -14,6 +14,17 @@
 #######    Armors   #########
 #############################
 
+armor_light_mail = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor hauberk }
+	stacking = no
+	picture = "GFX_armor_light_mail"
+	slot = torso
+}
+
 armor_hauberk = {
 	quality = 1
 	active = {
@@ -25,6 +36,17 @@ armor_hauberk = {
 	slot = torso
 }
 
+armor_hauberk_magnificent = {
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor hauberk }
+	stacking = no
+	picture = "GFX_armor_hauberk_magnificent"
+	slot = torso
+}
+
 armor_lamellar = {
 	quality = 1
 	active = {
@@ -33,6 +55,17 @@ armor_lamellar = {
 	flags = { armor_set armor lamellar }
 	stacking = no
 	picture = "GFX_armor_lamellar"
+	slot = torso
+}
+
+armor_lamellar_golden = {
+	quality = 5
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set armor lamellar }
+	stacking = no
+	picture = "GFX_armor_lamellar_golden"
 	slot = torso
 }
 
@@ -84,6 +117,50 @@ helmet_nasal = {
 	slot = head
 }
 
+helmet_nasal_steppe = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet nasal }
+	stacking = no
+	picture = "GFX_helmet_nasal_steppe"
+	slot = head
+}
+
+helmet_nasal_anglo = {
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet nasal }
+	stacking = no
+	picture = "GFX_helmet_nasal_anglo"
+	slot = head
+}
+
+helmet_nasal_byzantine = {
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet nasal }
+	stacking = no
+	picture = "GFX_helmet_nasal_byzantine"
+	slot = head
+}
+
+helmet_nasal_steppe_q_3 = {
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet nasal }
+	stacking = no
+	picture = "GFX_helmet_nasal"
+	slot = head
+}
+
 helmet_kettle = {
 	quality = 1
 	active = {
@@ -95,6 +172,17 @@ helmet_kettle = {
 	slot = head
 }
 
+helmet_kettle_byzantine = {
+	quality = 1
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet kettle byzantine }
+	stacking = no
+	picture = "GFX_helmet_kettle_byzantine"
+	slot = head
+}
+
 helmet_early_helm = {
 	quality = 1
 	active = {
@@ -103,6 +191,17 @@ helmet_early_helm = {
 	flags = { armor_set helmet early_helm }
 	stacking = no
 	picture = "GFX_helmet_early_helm"
+	slot = head
+}
+
+helmet_early_helm_anglo_q_3 = {
+	quality = 3
+	active = {
+		is_adult = yes
+	}
+	flags = { armor_set helmet early_helm anglo }
+	stacking = no
+	picture = "GFX_helmet_early_helm_anglo"
 	slot = head
 }
 

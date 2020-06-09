@@ -13,6 +13,15 @@
 spriteTypes = {
 	
 	## ARMORS
+	## Mail shirt light
+	spriteType = {
+		name = "GFX_armor_light_mail"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_light_mail.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_light_mail_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_light_mail_small.dds"
+	}
 	## Hauberk
 	spriteType = {
 		name = "GFX_armor_hauberk"
@@ -21,7 +30,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_armor_hauberk_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_hauberk_small.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_armor_hauberk_magnificent"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_hauberk_magnificent.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_hauberk_magnificent_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_hauberk_magnificent_small.dds"
+	}
 
 	## Lamellar
 	spriteType = {
@@ -31,6 +48,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_armor_lamellar_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_lamellar_small.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_lamellar_golden"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_lamellar_golden.dds"
+	}
+	spriteType = {
+		name = "GFX_armor_lamellar_golden_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\armor_lamellar_golden_small.dds"
 	}
 	
 	## Scale
@@ -74,12 +99,36 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_small.dds"
 	}
 	spriteType = {
-		name = "GFX_helmet_nasal"
+		name = "GFX_helmet_nasal_steppe"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_steppe_q_1.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_small_steppe"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_steppe_q_1_small.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_byzantine"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_byzantine.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_byzantine_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_byzantine_small.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_anglo"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_anglo.dds"
 	}
 	spriteType = {
-		name = "GFX_helmet_nasal_small"
+		name = "GFX_helmet_nasal_anglo_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_anglo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_steppe_q_3"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_steppe.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_steppe_q_3_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_steppe_small.dds"
 	}
 	
 	## Kettle
@@ -91,6 +140,14 @@ spriteTypes = {
 		name = "GFX_helmet_kettle_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_q_1_small.dds"
 	}
+	spriteType = {
+		name = "GFX_helmet_kettle_byzantine"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_q_1_byzantine.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_kettle_byzantine_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_q_1_byzantine_small.dds"
+	}
 	
 	## helmet_early_helm
 	spriteType = {
@@ -100,6 +157,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_helmet_early_helm_small"
 		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_q_1_small.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_early_helm_anglo"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_q_3_anglo.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_early_helm_anglo_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_q_3_anglo_small.dds"
 	}
 	
 	## helmet_early_helm 2

@@ -9,16 +9,254 @@
 
 # Written by Atreides
 
-namespace = AVE_MARIA_ADMC_distance
+namespace = AVE_MARIA_de_re_militari_events_equipment
 
 ##NOTES:
 ## 
-
 ## Fired from the decision to order an armor
-# Helmet choice
-# Quality of what you are offered is determined by your rank, higher tier should be "forced" to buy beautiful equipment as befitting their rank
-# body armor choice
-# Quality of what you are offered is determined by your rank, higher tier should be "forced" to buy beautiful equipment as befitting their rank
+character_event = {
+	id = AVE_MARIA_de_re_militari_events_equipment.1
+    desc = EVT_DESC_AVE_MARIA_de_re_militari_events_equipment.1
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+    		has_dlc = "Mystics"
+    		has_dlc = "Jade Dragon"
+    	}
+		has_character_flag = de_re_military_armorsmith
+	}
+	
+	##Helmet
+	option = { #Helmet
+		name = EVTOPT_A_AVE_MARIA_de_re_militari_events_equipment.1
+		hidden_tooltip = {
+			character_event = {
+				id = AVE_MARIA_de_re_militari_events_equipment.2
+			}
+		}
+	}
+	##Armor
+	option = { #Armor
+		name = EVTOPT_B_AVE_MARIA_de_re_militari_events_equipment.1
+		hidden_tooltip = { 
+			character_event = {
+				id = AVE_MARIA_de_re_militari_events_equipment.3
+			}
+		}
+	}
+}
+
+## Helmet choice
+## Quality of what you are offered is determined by your rank, higher tier should be "forced" to buy beautiful equipment as befitting their rank
+character_event = {
+	id = AVE_MARIA_de_re_militari_events_equipment.2
+    desc = EVT_DESC_AVE_MARIA_de_re_militari_events_equipment.2
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = { #Top quality Helmet
+		name = EVTOPT_A_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			OR = {
+				tier = KING
+				tier = EMPEROR
+			}
+		}
+		wealth = -50
+		trigger_switch = {
+			on_trigger = culture_group
+			byzantine = { add_artifact = helmet_nasal_byzantine }
+			north_germanic = { add_artifact = helmet_early_helm_anglo_q_3 }
+			west_germanic = { add_artifact = helmet_early_helm_anglo_q_3 }
+			central_germanic = { add_artifact = helmet_early_helm_2 }
+			latin = { add_artifact = helmet_early_helm_2 }
+			iberian = { add_artifact = helmet_early_helm_2 }
+			celtic = { add_artifact = helmet_early_helm_2 }
+			finno_ugric = { add_artifact = helmet_early_helm_2 }
+			baltic = { add_artifact = helmet_early_helm_2 }
+			altaic = { add_artifact = helmet_nasal_steppe_q_3 }
+			arabic = { add_artifact = helmet_nasal_steppe_q_3 }
+			east_slavic = { add_artifact = helmet_early_helm_2 }
+			west_slavic = { add_artifact = helmet_early_helm_2 }
+			south_slavic = { add_artifact = helmet_early_helm_2 }
+			magyar = { add_artifact = helmet_early_helm_2 }
+			iranian = { add_artifact = helmet_early_helm_2 }
+			east_african = { add_artifact = helmet_early_helm_2 }
+			central_african = { add_artifact = helmet_early_helm_2 }
+			west_african = { add_artifact = helmet_early_helm_2 }
+			mesoamerican = { add_artifact = helmet_early_helm_2 }
+			israelite = { add_artifact = helmet_early_helm_2 }
+			indo_aryan_group = { add_artifact = helmet_early_helm_2 }
+			dravidian_group = { add_artifact = helmet_early_helm_2 }
+			chinese_group = { add_artifact = helmet_early_helm_2 }
+			tibetan_group = { add_artifact = helmet_early_helm_2 }
+		}
+	}
+	option = { #Good quality Helmet
+		name = EVTOPT_B_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			OR = {
+				tier = COUNT
+				tier = DUKE
+				tier = KING
+			}
+		}
+		wealth = -35
+		trigger_switch = {
+			on_trigger = culture_group
+			byzantine = { add_artifact = helmet_kettle_byzantine }
+			north_germanic = { add_artifact = helmet_nasal_anglo }
+			west_germanic = { add_artifact = helmet_nasal_anglo }
+			central_germanic = { add_artifact = helmet_early_helm_2 }
+			latin = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			iberian = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			celtic = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			finno_ugric = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			baltic = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			altaic = { add_artifact = helmet_nasal_steppe }
+			arabic = { add_artifact = helmet_nasal_steppe }
+			east_slavic = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			west_slavic = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			south_slavic = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			magyar = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			iranian = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			east_african = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			central_african = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			west_african = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			mesoamerican = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			israelite = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			indo_aryan_group = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			dravidian_group = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			chinese_group = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+			tibetan_group = { random_list = { 25 = { add_artifact = helmet_kettle } 25 = { add_artifact = helmet_nasal } 25 = { add_artifact = helmet_early_helm } 25 = { add_artifact = helmet_early_helm_2 } } }
+		}
+	}
+	option = { #Basic Helmet
+		name = EVTOPT_B_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			NOT = {
+				OR = {
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+		}
+		wealth = -25
+		add_artifact = helmet_mail
+	}
+}
+
+## Body Armor choice
+## Quality of what you are offered is determined by your rank, higher tier should be "forced" to buy beautiful equipment as befitting their rank
+character_event = {
+	id = AVE_MARIA_de_re_militari_events_equipment.3
+    desc = EVT_DESC_AVE_MARIA_de_re_militari_events_equipment.3
+    picture = GFX_evt_weaponsmith
+    border = GFX_event_normal_frame_economy
+	
+	is_triggered_only = yes
+	
+	option = { #Top quality Armor
+		name = EVTOPT_A_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			OR = {
+				trait = ambitious
+				tier = KING
+				tier = EMPEROR
+			}
+		}
+		wealth = -100
+		trigger_switch = {
+			on_trigger = culture_group
+			byzantine = { add_artifact = armor_scale_golden }
+			north_germanic = { add_artifact = armor_hauberk_magnificent }
+			west_germanic = { add_artifact = armor_hauberk_magnificent }
+			central_germanic = { add_artifact = armor_hauberk_magnificent }
+			latin = { add_artifact = armor_hauberk_magnificent }
+			iberian = { add_artifact = armor_hauberk_magnificent }
+			celtic = { add_artifact = armor_hauberk_magnificent }
+			finno_ugric = { add_artifact = armor_hauberk_magnificent }
+			baltic = { add_artifact = armor_hauberk_magnificent }
+			altaic = { add_artifact = armor_lamellar_golden }
+			arabic = { add_artifact = armor_lamellar_golden }
+			east_slavic = { add_artifact = armor_scale_golden }
+			west_slavic = { add_artifact = armor_hauberk_magnificent }
+			south_slavic = { add_artifact = armor_hauberk_magnificent }
+			magyar = { add_artifact = armor_lamellar_golden }
+			iranian = { add_artifact = armor_lamellar_golden }
+			east_african = { add_artifact = armor_hauberk_magnificent }
+			central_african = { add_artifact = armor_hauberk_magnificent }
+			west_african = { add_artifact = armor_hauberk_magnificent }
+			mesoamerican = { add_artifact = armor_hauberk_magnificent }
+			israelite = { add_artifact = armor_lamellar_golden }
+			indo_aryan_group = { add_artifact = armor_lamellar_golden }
+			dravidian_group = { add_artifact = armor_lamellar_golden }
+			chinese_group = { add_artifact = armor_lamellar_golden }
+			tibetan_group = { add_artifact = armor_lamellar_golden }
+		}
+	}
+	option = { #Good quality Armor
+		name = EVTOPT_B_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			OR = {
+				tier = COUNT
+				tier = DUKE
+				tier = KING
+			}
+		}
+		wealth = -75
+		trigger_switch = {
+			on_trigger = culture_group
+			byzantine = { add_artifact = armor_scale }
+			north_germanic = { add_artifact = armor_hauberk }
+			west_germanic = { add_artifact = armor_hauberk }
+			central_germanic = { add_artifact = armor_hauberk }
+			latin = { add_artifact = armor_hauberk }
+			iberian = { add_artifact = armor_hauberk }
+			celtic = { add_artifact = armor_hauberk }
+			finno_ugric = { add_artifact = armor_hauberk }
+			baltic = { add_artifact = armor_hauberk }
+			altaic = { add_artifact = armor_lamellar }
+			arabic = { add_artifact = armor_lamellar }
+			east_slavic = { add_artifact = armor_scale_golden }
+			west_slavic = { add_artifact = armor_hauberk }
+			south_slavic = { add_artifact = armor_hauberk }
+			magyar = { add_artifact = armor_lamellar }
+			iranian = { add_artifact = armor_lamellar }
+			east_african = { add_artifact = armor_hauberk }
+			central_african = { add_artifact = armor_hauberk }
+			west_african = { add_artifact = armor_hauberk }
+			mesoamerican = { add_artifact = armor_hauberk }
+			israelite = { add_artifact = armor_lamellar }
+			indo_aryan_group = { add_artifact = armor_lamellar }
+			dravidian_group = { add_artifact = armor_lamellar }
+			chinese_group = { add_artifact = armor_lamellar }
+			tibetan_group = { add_artifact = armor_lamellar }
+		}
+	}
+	option = { #Basic Armor
+		name = EVTOPT_B_AVE_MARIA_de_re_militari_events_equipment.2
+		trigger = {
+			NOT = {
+				OR = {
+					tier = DUKE
+					tier = KING
+					tier = EMPEROR
+				}
+			}
+		}
+		wealth = -50
+		add_artifact = armor_light_mail
+	}
+}
+
 
 ## Fired from the decision to order a weapon
 # Lance
