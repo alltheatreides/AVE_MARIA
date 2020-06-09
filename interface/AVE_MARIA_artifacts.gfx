@@ -57,60 +57,68 @@ spriteTypes = {
 	## Mail coif
 	spriteType = {
 		name = "GFX_helmet_mail"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_mail_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_mail_q_1_small.dds"
 	}	
 
 	## Nasal Helmet
 	spriteType = {
 		name = "GFX_helmet_nasal"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_nasal_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_small.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_anglo.dds"
+	}
+	spriteType = {
+		name = "GFX_helmet_nasal_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_3_anglo_small.dds"
 	}
 	
 	## Kettle
 	spriteType = {
 		name = "GFX_helmet_kettle"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_kettle_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_kettle_q_1_small.dds"
 	}
 	
 	## helmet_early_helm
 	spriteType = {
 		name = "GFX_helmet_early_helm"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_early_helm_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_q_1_small.dds"
 	}
 	
 	## helmet_early_helm 2
 	spriteType = {
 		name = "GFX_helmet_early_helm_2"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_early_helm_2_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_early_helm_2_q_1_small.dds"
 	}
 	
 	## Full Helm
 	spriteType = {
 		name = "GFX_helmet_full_helm"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm_q_1.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_full_helm_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_full_helm_q_1_small.dds"
 	}
 }
