@@ -6,3 +6,27 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_seasonal_roman_celebration"
+		texturefile = "gfx\\event_pictures\ave_maria_seasonal_roman_celebration.dds"
+		allwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_seasonal_hippodrome"
+		texturefile = "gfx\\event_pictures\ave_maria_seasonal_hippodrome.dds"
+		allwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_seasonal_roman_monks"
+		texturefile = "gfx\\event_pictures\ave_maria_seasonal_roman_monks.dds"
+		allwaystransparent = yes
+	}
+}

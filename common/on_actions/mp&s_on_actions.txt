@@ -1,0 +1,5 @@
+on_startup = {
+	events = {
+		mp&s_events.100
+	}
+}

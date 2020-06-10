@@ -1,0 +1,393 @@
+namespace = mp&s_events
+character_event = {
+	id = mp&s_events.100
+	hide_window = yes
+	is_triggered_only = yes
+	
+	ai = no
+	
+	trigger = {
+		OR = {
+			has_game_rule = { name = moon_phases value = yes }
+			has_game_rule = { name = seasons value = yes }
+		}
+	}
+	
+	immediate = {
+		export_to_variable = { which = global_year value = year }
+		export_to_variable = { which = global_month value = month }
+		export_to_variable = { which = global_day value = day }
+		
+		IF = {
+			limit = { check_variable = { which = global_month value == 0 } }
+			set_variable = { which = global_day_of_year value = 1 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 1 } }
+			set_variable = { which = global_day_of_year value = 32 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 2 } }
+			set_variable = { which = global_day_of_year value = 60 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 3 } }
+			set_variable = { which = global_day_of_year value = 91 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 4 } }
+			set_variable = { which = global_day_of_year value = 121 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 5 } }
+			set_variable = { which = global_day_of_year value = 152 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 6 } }
+			set_variable = { which = global_day_of_year value = 182 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 7 } }
+			set_variable = { which = global_day_of_year value = 213 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 8 } }
+			set_variable = { which = global_day_of_year value = 244 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 9 } }
+			set_variable = { which = global_day_of_year value = 274 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE_IF = {
+			limit = { check_variable = { which = global_month value == 10 } }
+			set_variable = { which = global_day_of_year value = 305 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		ELSE = {
+			set_variable = { which = global_day_of_year value = 335 }
+			change_variable = { which = global_day_of_year value = global_day }
+		}
+		
+		IF = {
+			limit = {
+				NOR = {
+					has_global_flag = spring
+					has_global_flag = summer
+					has_global_flag = fall
+					has_global_flag = winter
+				}
+				check_variable = { which = global_day_of_year value >= 79 }
+				check_variable = { which = global_day_of_year value < 172 }
+			}
+			set_global_flag = spring
+		}
+		IF = {
+			limit = {
+				NOR = {
+					has_global_flag = spring
+					has_global_flag = summer
+					has_global_flag = fall
+					has_global_flag = winter
+				}
+				check_variable = { which = global_day_of_year value >= 172 }
+				check_variable = { which = global_day_of_year value < 266 }
+			}
+			set_global_flag = summer
+		}
+		IF = {
+			limit = {
+				NOR = {
+					has_global_flag = spring
+					has_global_flag = summer
+					has_global_flag = fall
+					has_global_flag = winter
+				}
+				check_variable = { which = global_day_of_year value >= 266 }
+				check_variable = { which = global_day_of_year value < 355 }
+			}
+			set_global_flag = fall
+		}
+		IF = {
+			limit = {
+				NOR = {
+					has_global_flag = spring
+					has_global_flag = summer
+					has_global_flag = fall
+					has_global_flag = winter
+				}
+				OR = {
+					check_variable = { which = global_day_of_year value >= 355 }
+					check_variable = { which = global_day_of_year value < 79 }
+				}
+			}
+			set_global_flag = winter
+		}
+		
+		IF = {
+			limit = { has_game_rule = { name = moon_phases value = yes } }
+			repeat_event = { id = mp&s_events.101 }
+			repeat_event = { id = mp&s_events.102 }
+			repeat_event = { id = mp&s_events.103 }
+			repeat_event = { id = mp&s_events.104 }
+		}
+		IF = {
+			limit = { has_game_rule = { name = seasons value = yes } }
+			repeat_event = { id = mp&s_events.105 }
+			repeat_event = { id = mp&s_events.106 }
+			repeat_event = { id = mp&s_events.107 }
+			repeat_event = { id = mp&s_events.108 }
+		}
+		
+		repeat_event = { id = mp&s_events.100 days = 1 }
+	}
+}
+
+character_event = {															# New Moons
+	id = mp&s_events.101
+	hide_window = yes
+	desc = EVTDESCmp&s_events.101
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = moon_phases value = yes }
+		new_moon_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = new_moon
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# First Quarter Moons
+	id = mp&s_events.102
+	hide_window = yes
+	desc = EVTDESCmp&s_events.102
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = moon_phases value = yes }
+		first_quarter_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = first_quarter
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Full Moons
+	id = mp&s_events.103
+	hide_window = yes
+	desc = EVTDESCmp&s_events.103
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = moon_phases value = yes }
+		full_moon_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = full_moon
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Last Quarter Moons
+	id = mp&s_events.104
+	hide_window = yes
+	desc = EVTDESCmp&s_events.104
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = moon_phases value = yes }
+		last_quarter_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = last_quarter
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Vernal Equinoxes
+	id = mp&s_events.105
+	hide_window = yes
+	desc = EVTDESCmp&s_events.105
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = seasons value = yes }
+		vernal_equinox_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = vernal_equinox
+		clr_global_flag = winter
+		set_global_flag = spring
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Estival Solstices
+	id = mp&s_events.106
+	hide_window = yes
+	desc = EVTDESCmp&s_events.106
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = seasons value = yes }
+		estival_solstice_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = estival_solstice
+		clr_global_flag = spring
+		set_global_flag = summer
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Autumnal Equinoxes
+	id = mp&s_events.107
+	hide_window = yes
+	desc = EVTDESCmp&s_events.107
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = seasons value = yes }
+		autumnal_equinox_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = autumnal_equinox
+		clr_global_flag = summer
+		set_global_flag = fall
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {															# Hibernal Solstices
+	id = mp&s_events.108
+	hide_window = yes
+	desc = EVTDESCmp&s_events.108
+	is_triggered_only = yes
+	
+	trigger = {
+		has_game_rule = { name = seasons value = yes }
+		hibernal_solstice_trigger = yes
+	}
+	
+	immediate = {
+		set_global_flag = hibernal_solstice
+		clr_global_flag = fall
+		set_global_flag = winter
+		repeat_event = { id = mp&s_events.109 days = 1 }
+	}
+	
+	option = {
+		name = EVTOPTAmp&s_events
+	}
+}
+
+character_event = {
+	id = mp&s_events.109
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_game_rule = { name = moon_phases value = yes }
+				OR = {
+					has_global_flag = new_moon
+					has_global_flag = first_quarter
+					has_global_flag = full_moon
+					has_global_flag = last_quarter
+				}
+			}
+			AND = {
+				has_game_rule = { name = seasons value = yes }
+				OR = {
+					has_global_flag = vernal_equinox
+					has_global_flag = estival_solstice
+					has_global_flag = autumnal_equinox
+					has_global_flag = hibernal_solstice
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		IF = {
+			limit = { has_global_flag = new_moon }
+			clr_global_flag = new_moon
+		}
+		IF = {
+			limit = { has_global_flag = first_quarter }
+			clr_global_flag = first_quarter
+		}
+		IF = {
+			limit = { has_global_flag = full_moon }
+			clr_global_flag = full_moon
+		}
+		IF = {
+			limit = { has_global_flag = last_quarter }
+			clr_global_flag = last_quarter
+		}
+		IF = {
+			limit = { has_global_flag = vernal_equinox }
+			clr_global_flag = vernal_equinox
+		}
+		IF = {
+			limit = { has_global_flag = estival_solstice }
+			clr_global_flag = estival_solstice
+		}
+		IF = {
+			limit = { has_global_flag = autumnal_equinox }
+			clr_global_flag = autumnal_equinox
+		}
+		IF = {
+			limit = { has_global_flag = hibernal_solstice }
+			clr_global_flag = hibernal_solstice
+		}
+	}
+}

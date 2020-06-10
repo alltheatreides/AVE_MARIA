@@ -1,0 +1,29 @@
+moon_phases = {												# Determines whether or not moon phases are active
+	name = "RULE_MOON_PHASES"
+	group = "RULE_GROUP_MOON_PHASES_AND_SEASONS"
+	option = {												# Moon phases are not active
+		name = no
+		text = "MOON_PHASES_NO"
+		desc = "MOON_PHASES_NO_DESC"
+	}
+	option = {												# Moon phases are active
+		name = yes
+		text = "MOON_PHASES_YES"
+		desc = "MOON_PHASES_YES_DESC"
+	}
+}
+
+seasons = {													# Determines whether or not seasons are active
+	name = "RULE_SEASONS"
+	group = "RULE_GROUP_MOON_PHASES_AND_SEASONS"
+	option = {												# Seasons are not active
+		name = no
+		text = "SEASONS_NO"
+		desc = "SEASONS_NO_DESC"
+	}
+	option = {												# Seasons are active
+		name = yes
+		text = "SEASONS_YES"
+		desc = "SEASONS_YES_DESC"
+	}
+}

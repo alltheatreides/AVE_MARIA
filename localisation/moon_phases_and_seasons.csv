@@ -1,0 +1,21 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESCmp&s_events.101;There is a New Moon tonight.;;;;;;;;;;;;;
+EVTDESCmp&s_events.102;There is a First Quarter Moon tonight.;;;;;;;;;;;;;
+EVTDESCmp&s_events.103;There is a Full Moon tonight.;;;;;;;;;;;;;
+EVTDESCmp&s_events.104;There is a Last Quarter Moon tonight.;;;;;;;;;;;;;
+EVTDESCmp&s_events.105;The Vernal Equinox is today.;;;;;;;;;;;;;
+EVTDESCmp&s_events.106;The Estival Solstice is today.;;;;;;;;;;;;;
+EVTDESCmp&s_events.107;The Autumnal Equinox is today.;;;;;;;;;;;;;
+EVTDESCmp&s_events.108;The Hibernal Solstice is today.;;;;;;;;;;;;;
+EVTOPTAmp&s_events;Very well.;;;;;;;;;;;;;
+MOON_PHASES_NO;No;;;;;;;;;;;;;
+MOON_PHASES_NO_DESC;Moon phases are inactive.;;;;;;;;;;;;;
+MOON_PHASES_YES;Yes;;;;;;;;;;;;;
+MOON_PHASES_YES_DESC;Moon phases are active.;;;;;;;;;;;;;
+RULE_GROUP_MOON_PHASES_AND_SEASONS;Moon Phases & Seasons;;;;;;;;;;;;;
+RULE_MOON_PHASES;Moon Phases;;;;;;;;;;;;;
+RULE_SEASONS;Seasons;;;;;;;;;;;;;
+SEASONS_NO;No;;;;;;;;;;;;;
+SEASONS_NO_DESC;Seasons are inactive.;;;;;;;;;;;;;
+SEASONS_YES;Yes;;;;;;;;;;;;;
+SEASONS_YES_DESC;Seasons are active.;;;;;;;;;;;;;

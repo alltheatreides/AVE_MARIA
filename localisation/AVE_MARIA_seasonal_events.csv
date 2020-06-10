@@ -8,6 +8,35 @@ EVTOPT_D_AVE_MARIA_seasonal_flavour.1;I won't be celebrating any pagan holidays,
 opinion_roman_administration_brumalia_cake;Received a Brumalia Cake;;;;;;;;;;;;;x
 EVTTITLE_AVE_MARIA_seasonal_flavour.2;Distasteful Brumalians;;;;;;;;;;;;;x
 EVTDESC_AVE_MARIA_seasonal_flavour.2;You begin to walk across the street towards the church to attend this evening's service of Vespers. The air is cool and smells of Autumn. You find it to be distinctly solemn and peaceful. That is, until a door is opened across the street and you hear the merriment of a party! Could it be, that good Christians are still holding Brumalia banquets instead of going to Vespers?;;;;;;;;;;;;;x
-EVTOPT_A_AVE_MARIA_seasonal_flavour.2;Its about time someone put an end to this!;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.2;It's about time someone put an end to this!;;;;;;;;;;;;;x
 EVTOPT_B_AVE_MARIA_seasonal_flavour.2;Well, I suppose they're not hurting anyone;;;;;;;;;;;;;x
 outlawed_brumalia_modifier;Outlawed Brumalia;;;;;;;;;;;;;x
+opinion_vota_tie;We tied together in the Vota;;;;;;;;;;;;;x
+won_the_vota_modifier;Won the Vota;;;;;;;;;;;;;x
+lost_the_vota_modifier;Lost the Vota;;;;;;;;;;;;;x
+EVTTITLE_AVE_MARIA_seasonal_flavour.3;Running the Vota;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.3;One of the most popular events of the Kalendae Ianuariae every year is the Ludus Votivus, but most just call it the Vota. Charioteers and other contestants compete in a foot race to help celebrate the coming of the new year. One of your advisors reminds you that the Vota is coming up soon, would you like to watch?;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.3;This year, I shall go watch the runners of the Vota;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_seasonal_flavour.3;I have more important things to do than watch sports;;;;;;;;;;;;;x
+EVTOPT_C_AVE_MARIA_seasonal_flavour.3;Watch the Vota? I want to participate!;;;;;;;;;;;;;x
+EVTTITLE_AVE_MARIA_seasonal_flavour.4;The Vota;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.4;You revel in the noise and applause of the crowds behind you as you watch the contestants race down the track. It appears to be a tight race between the two frontrunners until finally one of them pulls ahead to the raucus cheers of those watching.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.4;Congratulations to this year's winner of the Vota!;;;;;;;;;;;;;x
+EVTTITLE_AVE_MARIA_seasonal_flavour.5;Vota Victrix;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.5;All eyes are on you as you take your place at the starting line. After the race begins you manage to keep pace with your opponents for most of the laps. There are a few times where the other contestants manage to get the edge over you, but it's you who is in first when the race reaches the finish line. A bolt of adrenaline bursts through you as you realize you came in first.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.5;I did it!;;;;;;;;;;;;;x
+EVTTITLE_AVE_MARIA_seasonal_flavour.6;The Vota Tie;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.6;The race starts with a thunder of feet on the arena track. You push yourself to the limit, but somehow you just can't shake one of your competitors. They keep pace with you the whole race until it is neck and neck on the final stretch. You pass each other several times before finishing right beside each other. Astonishingly, its a tie.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.6;Good Game;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_seasonal_flavour.6;I'll get you next time!;;;;;;;;;;;;;x
+EVTTITLE_AVE_MARIA_seasonal_flavour.7;A Humiliating Vota;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.7;You think the race is off to a great start! Your feet are moving, the air is drifting past your face, you feel the adulation of the crowd. Then, all of a sudden you fall face first into the track, you must have tripped on something. Try as you might, you cannot catch up with the rest of the contestants. Even worse, you can hear the audience laughing.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.7;I guess pride does go before the fall;;;;;;;;;;;;;x
+EVTTOOLTIP_seasonal_001;The race goes well;;;;;;;;;;;;;x
+EVTTOOLTIP_seasonal_002;The race is close;;;;;;;;;;;;;x
+EVTTOOLTIP_seasonal_003;The race does not go so well;;;;;;;;;;;;;x
+
+EVTTITLE_AVE_MARIA_seasonal_flavour.8;Encomiastic Beggars;;;;;;;;;;;;;x
+EVTDESC_AVE_MARIA_seasonal_flavour.8;While many monks and priests are well off and well fed, that is not true of all of them. The Kalendai, the Roman New Year, is a time of banquets and when employers would often pay their workers. Without a wage to receive, some begging monks have arrived at your door singing songs of praise and offering to recite scripture.;;;;;;;;;;;;;x
+EVTOPT_A_AVE_MARIA_seasonal_flavour.8;Well, lets bring them the Figgy Pudding!;;;;;;;;;;;;;x
+EVTOPT_B_AVE_MARIA_seasonal_flavour.8;I hope no one tells them I'm here;;;;;;;;;;;;;x

@@ -88,10 +88,7 @@ long_character_event = {
 		name = EVTOPT_D_AVE_MARIA_seasonal_flavour.1  # This is Blasphemous!
 		
 		piety = 100
-		change_variable = {
-			which = hexaco_personality_value_agreeableness
-			value = -3
-		}
+		hexaco_negative_gain_agreeableness = yes
 		hexaco_personality_lvl_up = yes
 	}	
 }
@@ -148,10 +145,363 @@ character_event = {
 		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.2  # Let them have their fun
 
 		piety = -100
-		change_variable = {
-			which = hexaco_personality_value_agreeableness
-			value = 3
+		hexaco_positive_gain_agreeableness = yes	
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.3  #Running the Vota
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.3
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.3
+	picture = GFX_evt_ave_maria_seasonal_roman_celebration
+	
+	only_playable = yes
+	prisoner = no
+	capable_only = yes
+	min_age = 16
+	
+	
+	trigger = {
+		
+		AND = {
+			OR = {
+				culture = greek
+				society_member_of = roman_administration_imperial_court
+			}
+			OR = {
+				trait = martial_arts_roman_1
+				trait = martial_arts_roman_2			
+				trait = martial_arts_roman_3
+				trait = martial_arts_roman_4
+				trait = martial_arts_roman_5
+			}
 		}
-		hexaco_personality_lvl_up = yes		
+		AND = {
+			month = 0
+			NOT = { month = 1 }
+		}
+	}
+	
+	mean_time_to_happen = { months = 6 }
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.3  # I should go watch the Vota
+		character_event = { id = AVE_MARIA_seasonal_flavour.4 }
+	}
+
+	option = {
+		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.3  # I have more important things to do
+		prestige = -30
+		hexaco_negative_gain_extraversion = yes
+	}
+	
+	option = {
+		name = EVTOPT_C_AVE_MARIA_seasonal_flavour.3  # I will run the Vota myself!
+		tooltip_info = outgoing
+		trigger = {
+			check_variable = {
+				which = hexaco_personality_value_extraversion
+				value = 0
+			}
+		}
+		random_list = {
+			30 = { # I won!
+				mult_modifier = {
+					factor = 1.5
+					trait = martial_arts_roman_2
+				}
+				mult_modifier = {
+					factor = 2
+					trait = martial_arts_roman_3
+				}
+				mult_modifier = {
+					factor = 2.5
+					trait = martial_arts_roman_4
+				}
+				mult_modifier = {
+					factor = 3
+					trait = martial_arts_roman_5
+				}
+				
+				ROOT = { 
+					character_event = { 
+						id = AVE_MARIA_seasonal_flavour.5 
+						tooltip = EVTTOOLTIP_seasonal_001
+					}
+				}			
+			} 
+			20 = { # We tied
+				ROOT = {
+					character_event = { 
+						id = AVE_MARIA_seasonal_flavour.6 
+						tooltip = EVTTOOLTIP_seasonal_002
+					}
+				}
+			} 
+			50 = { # I lost 
+				mult_modifier = {
+					factor = 2
+					trait = martial_arts_roman_1
+				}
+				ROOT = { 
+					character_event = { 
+						id = AVE_MARIA_seasonal_flavour.7 
+						tooltip = EVTTOOLTIP_seasonal_003
+					}
+				}
+			} 
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.4  #Watching The Vota
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.4
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.4
+	picture = GFX_evt_ave_maria_seasonal_hippodrome
+	
+	is_triggered_only = yes
+
+	trigger = {
+		
+		AND = {
+			OR = {
+				culture = greek
+				society_member_of = roman_administration_imperial_court
+			}
+			OR = {
+				trait = martial_arts_roman_1
+				trait = martial_arts_roman_2			
+				trait = martial_arts_roman_3
+				trait = martial_arts_roman_4
+				trait = martial_arts_roman_5
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.4  # Congratulate the winner!
+		random_courtier_or_vassal = {
+			limit = {
+				martial = 10
+			}
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1
+			}	
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.5  #I won the Vota!
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.5
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.5
+	picture = GFX_evt_ave_maria_seasonal_hippodrome
+	
+	is_triggered_only = yes
+
+	trigger = {
+		
+		AND = {
+			OR = {
+				culture = greek
+				society_member_of = roman_administration_imperial_court
+			}
+			OR = {
+				trait = martial_arts_roman_1
+				trait = martial_arts_roman_2			
+				trait = martial_arts_roman_3
+				trait = martial_arts_roman_4
+				trait = martial_arts_roman_5
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.5  # Congratulate the winner!
+		ROOT = { 
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1	
+			}
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.6  #We tied the Vota
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.6
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.6
+	picture = GFX_evt_ave_maria_seasonal_hippodrome
+	
+	is_triggered_only = yes
+
+	trigger = {
+		
+		AND = {
+			OR = {
+				culture = greek
+				society_member_of = roman_administration_imperial_court
+			}
+			OR = {
+				trait = martial_arts_roman_1
+				trait = martial_arts_roman_2			
+				trait = martial_arts_roman_3
+				trait = martial_arts_roman_4
+				trait = martial_arts_roman_5
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.6  # Well run!
+		random_courtier_or_vassal = {
+			limit = {
+				martial = 10
+			}
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1
+			}
+			opinion = {
+				modifier = opinion_vota_tie
+				who = ROOT
+				years = 1
+				}	
+			reverse_opinion = {
+				modifier = opinion_vota_tie
+				who = ROOT
+				years = 1
+				}				
+		}
+		hexaco_negative_gain_emotionality = yes
+		add_character_modifier = {
+			name = won_the_vota_modifier
+			years = 1	
+		}
+	}
+	option = {
+		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.6  # I can't believe I didn't really win
+		random_courtier_or_vassal = {
+			limit = {
+				martial = 10
+			}
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1
+			}
+			add_rival = ROOT				
+		}
+		hexaco_positive_gain_emotionality = yes
+		ROOT = {
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1	
+			}
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.7  #I lost the Vota, booo
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.7
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.7
+	picture = GFX_evt_humiliation_prisoner
+	
+	is_triggered_only = yes
+
+	trigger = {
+		
+		AND = {
+			OR = {
+				culture = greek
+				society_member_of = roman_administration_imperial_court
+			}
+			OR = {
+				trait = martial_arts_roman_1
+				trait = martial_arts_roman_2			
+				trait = martial_arts_roman_3
+				trait = martial_arts_roman_4
+				trait = martial_arts_roman_5
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.7  # Alright how bad did you lose
+		random_courtier_or_vassal = {
+			limit = {
+				martial = 10
+			}
+			add_character_modifier = {
+				name = won_the_vota_modifier
+				years = 1
+			}	
+		}
+		add_character_modifier = {
+			name = lost_the_vota_modifier
+			years = 1	
+		}
+		random_list = {
+			80 = {
+				ROOT = {
+					hexaco_positive_gain_honesty_humility = yes
+					hexaco_negative_gain_extraversion = yes
+				}
+			}
+			25 = {
+				ROOT = {
+					hexaco_positive_gain_honesty_humility = yes
+					hexaco_negative_gain_extraversion = yes
+					add_character_modifier = {
+						name = swollen_ankle
+						months = 1	
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_seasonal_flavour.8  # Caroling Monks
+	desc = EVTDESC_AVE_MARIA_seasonal_flavour.8
+	title = EVTTITLE_AVE_MARIA_seasonal_flavour.8
+	picture = GFX_evt_ave_maria_seasonal_roman_monks
+	
+	only_playable = yes
+	prisoner = no
+	capable_only = yes
+	min_age = 16
+	
+	
+	trigger = {	
+		OR = {
+			culture = greek
+			society_member_of = roman_administration_imperial_court
+			}
+	AND = {
+		month = 0
+		NOT = { month = 1 }
+		}
+	}
+	
+	mean_time_to_happen = { months = 12 }
+
+	option = {
+		name = EVTOPT_A_AVE_MARIA_seasonal_flavour.8  # Sure, I'll give them some change
+		hexaco_positive_gain_extraversion = yes
+		scaled_wealth = {
+			value = -0.02
+			min = -20
+			max = -1
+		}
+	}
+
+	option = {
+		name = EVTOPT_B_AVE_MARIA_seasonal_flavour.8  # Please no one tell them I'm here
+		piety = -30
+		hexaco_negative_gain_extraversion = yes
 	}
 }
