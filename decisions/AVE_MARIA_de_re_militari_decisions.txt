@@ -42,7 +42,7 @@ decisions = {
 		only_playable = yes
 		ai_check_interval = 36
 		potential = {
-			NOT = { government = order_government }
+			NOT = { is_theocracy = yes }
 			OR = {
 				has_dlc = "Mystics"
 				has_dlc = "Jade Dragon"
@@ -82,18 +82,15 @@ decisions = {
 		effect = {
 			custom_tooltip = {
 				text = de_re_military_armorsmith_tt
-				hidden_effect = {
-					character_event = { id = AVE_MARIA_de_re_militari_events_equipment.1 }
-					add_character_modifier = {
-						name = de_re_military_armorsmith_tt_cd
-						hidden = yes
-						months = 2
-					}
-				}
 			}
 			hidden_effect = {
 				character_event = { id = AVE_MARIA_de_re_militari_events_equipment.1 }
 				set_character_flag = de_re_military_armorsmith
+				add_character_modifier = {
+					name = de_re_military_armorsmith_tt_cd
+					hidden = yes
+					months = 2
+				}
 			}
 		}
 		revoke_allowed = {

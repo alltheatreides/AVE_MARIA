@@ -1,0 +1,29 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA modifiers																   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Modifiers														  				 	   #
+#                               													   #
+########################################################################################
+
+christian_flavour_requiem_mass_family = {
+  dynasty_opinion = 5
+  icon = 17
+}
+
+christian_flavour_requiem_mass_soldiers = {
+  land_morale = 0.05
+  icon = 17
+}
+
+christian_flavour_requiem_mass_poor = {
+  town_opinion = 5
+  icon = 17
+}
+
+christian_flavour_requiem_mass_clergy = {
+  church_opinion = 5
+  monthly_character_piety = 0.10
+  icon = 17
+}

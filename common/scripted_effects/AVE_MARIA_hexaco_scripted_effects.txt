@@ -841,6 +841,24 @@ add_hexaco_education_traits = {
 
 }
 
+add_stress_level = {
+	change_variable = { which = hexaco_stress_level value = 1 }
+	if = {
+		limit = {
+			check_variable = { which = hexaco_stress_level value = 5 }
+			NOT = { trait = stressed }
+		}
+		add_trait = stressed
+	}
+	if = {
+		limit = {
+			check_variable = { which = hexaco_stress_level value = 10 }
+			NOT = { trait = depressed }
+		}
+		add_trait = depressed
+	}
+}
+
 #############################################
 # Remove effects							#
 #############################################
@@ -1235,6 +1253,24 @@ remove_hexaco_traits_all_martial_arts = {
 	remove_hexaco_trait_martial_arts_3 = yes
 	remove_hexaco_trait_martial_arts_4 = yes
 	remove_hexaco_trait_martial_arts_5 = yes
+}
+
+remove_stress_level = {
+	subtract_variable = { which = hexaco_stress_level value = 1 }
+	if = {
+		limit = {
+			check_variable = { which = hexaco_stress_level value < 5 }
+			trait = stressed
+		}
+		remove_trait = stressed
+	}
+	if = {
+		limit = {
+			check_variable = { which = hexaco_stress_level value < 10 }
+			trait = depressed
+		}
+		remove_trait = depressed
+	}
 }
 
 #############################################

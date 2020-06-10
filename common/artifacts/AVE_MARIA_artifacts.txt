@@ -37,7 +37,7 @@ armor_hauberk = {
 }
 
 armor_hauberk_magnificent = {
-	quality = 5
+	quality = 4
 	active = {
 		is_adult = yes
 	}
@@ -59,7 +59,7 @@ armor_lamellar = {
 }
 
 armor_lamellar_golden = {
-	quality = 5
+	quality = 4
 	active = {
 		is_adult = yes
 	}
@@ -70,7 +70,7 @@ armor_lamellar_golden = {
 }
 
 armor_scale_golden = {
-	quality = 5
+	quality = 4
 	active = {
 		is_adult = yes
 	}
@@ -157,7 +157,7 @@ helmet_nasal_steppe_q_3 = {
 	}
 	flags = { armor_set helmet nasal }
 	stacking = no
-	picture = "GFX_helmet_nasal"
+	picture = "GFX_helmet_nasal_steppe_q_3"
 	slot = head
 }
 

@@ -1,0 +1,17 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# On Actions Christian Flavour														   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+
+on_death = {
+	events = {
+		AVE_MARIA_christian_mass.1 #Death of current ruler and choice for the heir for the requiem mass and burial ceremony
+	}
+}

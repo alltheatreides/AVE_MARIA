@@ -15,7 +15,7 @@ roman_administration_imperial_court = {
 	devil_worshipper = no
 	
 	opinion_to_other_members = 0
-	opinion_per_rank_above = +2
+	opinion_per_rank_above = +0
 
 	society_ranks_gfx = imperial_ranks
 	sound = monastic_orders_interface
@@ -65,7 +65,7 @@ roman_administration_imperial_court = {
 	
 	society_rank = { # Provincial noble or lower level administrator
 		level = 1
-		limit = 500 
+		limit = 500
 		startup_limit = 500
 		modifier = {
 			monthly_character_prestige = 0.1
@@ -79,7 +79,7 @@ roman_administration_imperial_court = {
 	society_rank = { # Provincial Official holding a title at the current moment
 		level = 2
 		limit = 50
-		startup_limit = 6
+		startup_limit = 0
 		modifier = { 
 			monthly_character_prestige = 0.25
 		}
@@ -91,7 +91,7 @@ roman_administration_imperial_court = {
 	society_rank = { # Capital City Noble or Official
 		level = 3
 		limit = 25 
-		startup_limit = 3
+		startup_limit = 0
 		modifier = {
 			monthly_character_prestige = 0.5
 		}
@@ -102,20 +102,20 @@ roman_administration_imperial_court = {
 
 	society_rank = { # High Official
 		level = 4
-		limit = 5
-		startup_limit = 15
+		limit = 15
+		startup_limit = 0
 		modifier = { 
-			monthly_character_piety = 0.5
+			monthly_character_prestige = 0.5
 		}
 		decisions = {
 			
 		}
 	}
 	
-	society_rank = { # High Official
+	society_rank = { # Emperor
 		level = 5
 		limit = 1
-		startup_limit = 1
+		startup_limit = 0
 		modifier = { 
 			monthly_character_prestige = 1
 		}
@@ -134,7 +134,7 @@ roman_administration_imperial_court = {
     	
 	}
 
-	member_score_per_attribute = 3
+	member_score_per_attribute = 0
 	member_score_per_rank = 100
 
 	member_score = {

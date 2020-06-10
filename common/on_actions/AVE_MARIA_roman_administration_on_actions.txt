@@ -24,6 +24,7 @@ on_new_holder = {
 		AVE_MARIA_roman_administration.4
 		AVE_MARIA_roman_administration_salary.1 # Minor title Salary distribution when gaining the title
 		AVE_MARIA_roman_administration_varangian.1 #Adding the varangian trait to the new holder on title change
+		## Call up event for new roman administration on newly conquered territories
 	}
 }
 

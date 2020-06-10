@@ -100,11 +100,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_helmet_nasal_steppe"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_steppe_q_1.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_steppe.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_nasal_small_steppe"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_steppe_q_1_small.dds"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\helmet_nasal_q_1_steppe_small.dds"
 	}
 	spriteType = {
 		name = "GFX_helmet_nasal_byzantine"

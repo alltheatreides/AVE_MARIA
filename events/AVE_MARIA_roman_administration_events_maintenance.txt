@@ -1,0 +1,22 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_roman_administration.1 - AVE_MARIA_roman_administration.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_roman_administration_maintenance
+
+##NOTES:
+## Maintenance Events, ideally all the hidden stuff regulating the functionning of the roman administration should be put here, might need to migrate all the early stuff from the plain AVE_MARIA_roman_administration event file
+
+## On new conquered terrritory / new title for the emperor - event for the emperor on what to do of the territories
+## Option A : Do the usual and do an administrative distribution of the title / favoured if the emperor is not military inclined (High martial arts)
+### Triggers a second event, who gets the title, scopes to the unemployed members with only a family title and offer them a job if the emperor likes them enough
+## Option B: Give it to a military administration / higher chance if the emperor is military inclined (high martial and or High martial arts
+### Scope to a strategos that has a nearby juridiscition first option
+### Create a new strategos office titular and give it to someone unemployed or to a rando guy
