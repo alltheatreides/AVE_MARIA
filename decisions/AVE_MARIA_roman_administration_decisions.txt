@@ -106,7 +106,7 @@ decisions = {
 			war = no
 			has_regent = no
 			piety = 25
-			scaled_wealth = 1.0
+			# scaled_wealth = 1.0
 			is_adult = yes
 			NOT = { trait = excommunicated }
 		}

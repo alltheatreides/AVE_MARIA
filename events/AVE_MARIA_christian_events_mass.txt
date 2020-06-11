@@ -15,7 +15,7 @@ namespace = AVE_MARIA_christian_mass
 ## 
 
 ### Ceremony for a dead christian ruler
-### On Actions from on_death
+
 ### Setting up event, fires on the dead ruler (on_death)
 character_event = {
 	id = AVE_MARIA_christian_mass.1
@@ -40,13 +40,12 @@ character_event = {
     		set_character_flag = hated_dead_ruler_@ROOT
     	}
 
-
-
     	current_heir = {
     		character_event = { id = AVE_MARIA_christian_mass.2 days = 1 }
     	}
     }
 }
+
 #### Choose how big the ceremony will be
 character_event = {
 	id = AVE_MARIA_christian_mass.2
@@ -78,26 +77,27 @@ character_event = {
 		custom_tooltip = { text = EVTOPTA_AVE_MARIA_christian_mass.2_TT }
 		scaled_wealth = { value = -0.5 min = -100 max = -400}
 		set_character_flag = big_burial
-		character_event = { id = AVE_MARIA_christian_mass.3  days = 10 }
+		character_event = { id = AVE_MARIA_christian_mass.3  days = 5 } # Ask a priest to officiate the ceremony
 	}
 	option = { #A Reasonable amount 
 		name = EVTOPT_B_AVE_MARIA_christian_mass.2
 		custom_tooltip = { text = EVTOPT_B_AVE_MARIA_christian_mass.2_TT }
 		scaled_wealth = { value = -0.3 min = -50 max = -200}
 		set_character_flag = normal_burial
-		character_event = { id = AVE_MARIA_christian_mass.3  days = 5 }
+		character_event = { id = AVE_MARIA_christian_mass.3  days = 3 } # Ask a priest to officiate the ceremony
 	}
 	option = { #The cheapest
 		name = EVTOPT_C_AVE_MARIA_christian_mass.2
 		scaled_wealth = { value = -0.1 min = -10 max = -100}
 		prestige = -20
 		piety = 10
+		character_event = { id = AVE_MARIA_christian_mass.3  days = 1 } # Ask a priest to officiate the ceremony
 	}
 	option = { #S/He does not deserve proper burial
 		name = EVTOPT_D_AVE_MARIA_christian_mass.2
 		custom_tooltip = { text = EVTOPT_D_AVE_MARIA_christian_mass.2_TT }
-		prestige = -50
-		piety = -50
+		scaled_prestige = -0.5
+		scaled_piety = -0.5
 		hidden_effect = {
 			any_realm_character = {
 				limit = { has_character_flag = liked_dead_ruler_@FROM }
@@ -127,14 +127,368 @@ character_event = {
 		}
 	}
 }
-#### Requiem Speech
+
+#### Choose who will officiate the ceremony
 character_event = {
 	id = AVE_MARIA_christian_mass.3
-	title = EVT_TITLE_AVE_MARIA_christian_mass.3
 	desc = EVT_DESC_AVE_MARIA_christian_mass.3
 	picture = GFX_evt_treasure_chamber
-	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = { #Ask a powerful Bishop
+		name = EVTOPT_A_AVE_MARIA_christian_mass.3
+		trigger = {
+			NOT = { trait = excommunicated }
+			any_realm_character = {
+				is_theocracy = yes 
+				any_liege = { character = ROOT }
+				religion = ROOT
+				NOT = { block_general_event_trigger = yes }
+				NOT = { has_character_flag = decision_to_officiate_no }
+				OR = { 
+					higher_tier_than = BARON  
+					has_minor_title = title_cardinal
+					has_minor_title = title_fraticelli_cardinal
+					any_claim = { title = k_papal_state } #Antipope
+					any_claim = { title = d_fraticelli } #Antipope
+				}
+				NOT = { has_landed_title = k_papal_state }
+				NOT = { has_landed_title = d_fraticelli }
+			}
+		}
+		custom_tooltip = { text = EVT_AVE_MARIA_christian_mass.3_TT }
+		if = { #If Pope is available but he's snubbed by an Emperor, he'll get mad.
+			limit = { 
+				tier = EMPEROR
+				religion_head = { 
+					is_alive = yes 
+					OR = { 
+						has_landed_title = k_papal_state
+						has_landed_title = d_fraticelli
+					} 
+				}
+			}
+			custom_tooltip = { text = scorned_the_pope }
+			hidden_tooltip = { 
+				religion_head = { 		
+					show_scope_change = no	
+					opinion = {
+						modifier = opinion_offended
+						years = 30
+						who = ROOT
+					} 
+				} 
+			}
+		}
+		
+		random_realm_character = { 
+			limit = { 
+				is_theocracy = yes 
+				any_liege = { character = ROOT }
+				religion = ROOT
+				NOT = { block_general_event_trigger = yes }
+				NOT = { has_character_flag = decision_to_officiate_no }
+				OR = { 
+					higher_tier_than = BARON  
+					has_minor_title = title_cardinal
+					has_minor_title = title_fraticelli_cardinal
+					any_claim = { title = k_papal_state } #Antipope
+					any_claim = { title = d_fraticelli } #Antipope
+				}
+				NOT = { has_landed_title = k_papal_state }
+				NOT = { has_landed_title = d_fraticelli }
+			}
+			preferred_limit = { #First search for a possible antipopes.
+				any_claim = { title = k_papal_state } 
+			}
+			preferred_limit = { 
+				any_claim = { title = d_fraticelli } 
+			}
+			preferred_limit = { 
+				has_minor_title = title_cardinal
+			}
+			preferred_limit = { 
+				has_minor_title = title_fraticelli_cardinal
+			}
+			hidden_tooltip = { letter_event = { id = AVE_MARIA_christian_mass.4 days = 1 random = 5 } } 
+			break = yes
+		}
+		ai_chance = { 
+			factor = 30
+			modifier = { 
+				factor = 1
+			} 
+		}
+	}
+	
+	option = { #Ask a priest
+		name = EVTOPT_B_AVE_MARIA_christian_mass.3
+		trigger = {
+			lower_tier_than = KING
+			any_realm_character = { 
+				is_theocracy = yes 
+				any_liege = { character = ROOT }
+				lower_tier_than = COUNT
+				religion = ROOT
+				NOR = { 
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+					higher_real_tier_than = BARON 
+					has_minor_title = title_cardinal
+					has_minor_title = title_fraticelli_cardinal
+					any_claim = { title = k_papal_state } #Antipope
+					any_claim = { title = d_fraticelli } #Antipope
+				}
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPCHF20200 }
+		if = { #Emperors not crowned by Pope or Antipope receive an additional penalty
+			limit = { tier = EMPEROR }
+			prestige = -300
+			piety = -75
+		}
+		if = { #If Pope is available but he's snubbed by an Emperor, he'll get mad.
+			limit = { 
+				tier = EMPEROR
+				religion_head = { 
+					is_alive = yes 
+					OR = { 
+						has_landed_title = k_papal_state
+						has_landed_title = d_fraticelli
+					} 
+				}
+			}
+			custom_tooltip = { text = scorned_the_pope }
+			hidden_tooltip = { 
+				religion_head = { 		
+					show_scope_change = no	
+					opinion = {
+						modifier = opinion_offended
+						years = 30
+						who = ROOT
+					} 
+				} 
+			}
+		}
+		if = { #If powerful theocrats are available but player picks random priest, the other theocrats will be mad.
+			limit = { 
+				OR = { 
+					lower_tier_than = EMPEROR
+					primary_title = { has_law = investiture_law_1 }
+				} 
+				NOT = { trait = excommunicated }
+				any_realm_character = { 
+					is_theocracy = yes 
+					religion = ROOT
+					any_liege = { character = ROOT }
+					NOT = { block_general_event_trigger = yes }
+					OR = { 
+						higher_real_tier_than = BARON 
+						has_minor_title = title_cardinal
+						has_minor_title = title_fraticelli_cardinal
+						any_claim = { title = k_papal_state } #Antipope
+						any_claim = { title = d_fraticelli } 
+					}
+					NOT = { has_landed_title = k_papal_state }
+					NOT = { has_landed_title = d_fraticelli }
+				}
+			}
+			custom_tooltip = { text = scorned_powerful_theocrats }
+			hidden_tooltip = { 
+				any_realm_character = { 
+					limit = {
+						is_theocracy = yes 
+						religion = ROOT
+						any_liege = { character = ROOT }
+						NOT = { block_general_event_trigger = yes }
+						OR = { 
+							higher_real_tier_than = BARON 
+							has_minor_title = title_cardinal
+							has_minor_title = title_fraticelli_cardinal
+							any_claim = { title = k_papal_state } #Antipope
+							any_claim = { title = d_fraticelli } 
+						}
+						NOT = { has_landed_title = k_papal_state }
+						NOT = { has_landed_title = d_fraticelli }
+					}			
+					opinion = {
+						modifier = opinion_offended
+						years = 10
+						who = ROOT
+					} 
+				}
+			}
+		}
+		random_realm_character = { 
+			limit = {
+				is_theocracy = yes 
+				lower_tier_than = COUNT
+				religion = ROOT
+				any_liege = { character = ROOT }
+				NOT = { block_general_event_trigger = yes }
+				NOR = { 
+					has_landed_title = k_papal_state
+					has_landed_title = d_fraticelli
+					higher_real_tier_than = BARON 
+					has_minor_title = title_cardinal
+					has_minor_title = title_fraticelli_cardinal
+					any_claim = { title = k_papal_state } #Antipope
+					any_claim = { title = d_fraticelli } 
+				}
+			}
+			preferred_limit = { 
+				opinion = { 
+					who = ROOT
+					value = 50 
+				}
+			}
+			preferred_limit = { 
+				opinion = { 
+					who = ROOT
+					value = 20 
+				}
+			}
+			hidden_tooltip = { letter_event = { id = AVE_MARIA_christian_mass.4 days = 1 random = 5 } } 
+			break = yes
+		}
+		ai_chance = { 
+			factor = 10
+			modifier = {
+				factor = 1.5
+				trait = lazy
+			}
+			modifier = {
+				factor = 1.5
+				trait = irresponsible
+			}
+			modifier = {
+				factor = 1.25
+				trait = negligent
+			}
+			modifier = {
+				factor = 0.7
+				trait = reckless
+			}
+			modifier = {
+				factor = 0.7
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.7
+				tier = EMPEROR
+			}
+			modifier = {
+				factor = 0.5
+				has_landed_title = e_hre
+			}
+		}
+	}
+	
+}
 
+#### Chosen priest decides if he goes for the funeral or not
+letter_event = {
+	id = AVE_MARIA_christian_mass.4
+	desc = EVT_DESC_AVE_MARIA_christian_mass.4
+	
+	is_triggered_only = yes
+	
+	option = { #For random priest
+		name = EVTOPT_A_AVE_MARIA_christian_mass.4
+		trigger = { 
+			NOR = { 
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+				higher_real_tier_than = BARON 
+				has_minor_title = title_cardinal
+				has_minor_title = title_fraticelli_cardinal
+				any_claim = { title = k_papal_state } #Antipope
+				any_claim = { title = d_fraticelli } 
+			}
+		}
+		set_character_flag = decision_to_officiate_yes
+		FROM = { letter_event = { id = AVE_MARIA_christian_mass.5 } } #Priest always proceeds with the funeral.
+	}
+	option = { #For powerful theocrat
+		name = EVTOPTBHF20201
+		trigger = { 
+			NOR = { 
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+			}
+			OR = { 
+				has_landed_title = k_papal_state
+				has_landed_title = d_fraticelli
+				higher_real_tier_than = BARON 
+				has_minor_title = title_cardinal
+				has_minor_title = title_fraticelli_cardinal
+				any_claim = { title = k_papal_state } #Antipope
+				any_claim = { title = d_fraticelli } 
+			}
+		}
+		random_list = { 
+			95 = { # Proceeds with the ceremony if he likes the dead ruler
+				set_character_flag = decision_to_officiate_yes
+				FROM = { letter_event = { id = AVE_MARIA_christian_mass.5 } } # Proceeds with the ceremony
+			} 
+			5 = { # Refuse to proceed if he hated the dead ruler
+				set_character_flag = decision_to_officiate_no
+				FROM = {
+					letter_event = { id = AVE_MARIA_christian_mass.5 } # Refuses to proceeds with the ceremony
+				} 
+			} 
+			
+		}
+	}
+		
+}
+
+#### Letter event for liege informing of refusal/accepting decision
+letter_event = {
+	id = AVE_MARIA_christian_mass.5
+	desc = EVT_DESC_AVE_MARIA_christian_mass.5
+	# border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_A_AVE_MARIA_christian_mass.5
+		trigger = {
+			FROM = { has_character_flag = decision_to_officiate_yes }
+		}
+		hidden_effect = {
+			character_event = { id = AVE_MARIA_christian_mass.6 days = 3 }
+		}		
+		opinion = {
+			modifier = opinion_christian_flavour_accepted_funeral_ceremony
+			who = FROM
+			years = 1
+		}
+	}
+	
+	option = {
+		name = EVTOPT_B_AVE_MARIA_christian_mass.5
+		trigger = {
+			FROM = { has_character_flag = decision_to_officiate_no }
+		}
+		opinion = {
+			modifier = opinion_christian_flavour_refused_funeral_ceremony
+			who = FROM
+			years = 1
+		}
+		hidden_effect = {
+			character_event = { id = AVE_MARIA_christian_mass.3 } #Loop to choose someone else
+		}
+	}
+}
+
+#### Requiem Speech choice
+character_event = {
+	id = AVE_MARIA_christian_mass.6
+	desc = EVT_DESC_AVE_MARIA_christian_mass.6
+	picture = GFX_evt_treasure_chamber
+	
 	is_triggered_only = yes
 
 	trigger = {
@@ -150,49 +504,36 @@ character_event = {
 	
 	### Praise his family virtues
 	option = {
-		name = {
-			text = EVTOPT_A_AVE_MARIA_christian_mass.3
-		}
-		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.3 }
-		if = {
-			limit = { has_character_flag = big_burial }
-			prestige = 150
-			piety = 50
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
-					}
+		name = EVTOPT_A_AVE_MARIA_christian_mass
+		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.6 }
+		random_list = {
+			80 = {
+				set_character_flag = praise_family_virtue_success
+				modifier = {
+					factor = 1.5
+					diplomacy >= 12
 				}
-				any_realm_character = {
-					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_hated_ruler
-						who = ROOT
-					}
+				modifier = {
+					factor = 1.5
+					has_positive_extraversion_trait = yes
 				}
 			}
-		}
-		else_if = {
-			prestige = 50
-			piety = 100
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
-						years = 1
-					}
+			20 = {
+				set_character_flag = praise_family_virtue_failure
+				modifier = {
+					factor = 1.5
+					diplomacy <= 5
+				}
+				modifier = {
+					factor = 1.5
+					has_negative_extraversion_trait = yes
 				}
 			}
+		}		
+		character_event = {
+			id = AVE_MARIA_christian_mass.7
 		}
-		add_character_modifier = {
-			name = requiem_mass_dynasty
-			months = 12
-		}
+		
 	}
 	
 	### Praise his soldierly virtues
@@ -207,49 +548,60 @@ character_event = {
 				}
 			}
 		}
-		name = {
-			text = EVTOPT_B_AVE_MARIA_christian_mass.3
-		}
-		custom_tooltip = { text = EVTOPT_B_AVE_MARIA_christian_mass.3 }
-		if = {
-			limit = { has_character_flag = big_burial }
-			prestige = 150
-			piety = 50
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
+		name = EVTOPT_B_AVE_MARIA_christian_mass.6
+		custom_tooltip = { text = EVTOPT_B_AVE_MARIA_christian_mass.6 }
+		random_list = {
+			80 = {
+				set_character_flag = praise_soldierly_virtue_success
+				modifier = {
+					factor = 1.5
+					diplomacy >= 12
+				}
+				modifier = {
+					factor = 1.5
+					has_positive_extraversion_trait = yes
+				}
+				modifier = {
+					factor = 1.1
+					martial >= 12
+					OR = {
+						has_martial_arts_lvl_3_trait_trigger = yes
+						has_martial_arts_lvl_4_trait_trigger = yes
+						has_martial_arts_lvl_5_trait_trigger = yes
 					}
 				}
-				any_realm_character = {
-					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_hated_ruler
-						who = ROOT
+				modifier = {
+					factor = 1.5
+					has_positive_extraversion_trait = yes
+				}
+			}
+			20 = {
+				set_character_flag = praise_soldierly_virtue_failure
+				modifier = {
+					factor = 1.5
+					diplomacy <= 5
+				}
+				modifier = {
+					factor = 1.5
+					has_negative_extraversion_trait = yes
+				}
+				modifier = {
+					factor = 1.05
+					martial <= 5
+				}
+				modifier = {
+					factor = 1.05
+					OR = {
+						has_martial_arts_lvl_1_trait_trigger = yes
+						has_martial_arts_lvl_2_trait_trigger = yes
 					}
 				}
 			}
 		}
-		else_if = {
-			prestige = 50
-			piety = 100
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
-						years = 1
-					}
-				}
-			}
+		character_event = {
+			id = AVE_MARIA_christian_mass.7
 		}
-		add_character_modifier = {
-			name = christian_flavour_requiem_mass_soldiers
-			months = 12
-		}
+		
 	}
 	
 	### Praise his charitable virtues
@@ -258,56 +610,38 @@ character_event = {
 			event_target:target_dead_ruler = {
 				OR = {
 					has_character_flag = christian_generous_to_the_poor
-					trait = faithful
-					trait = honest
-					trait = sincere
-					trait = generous
-					trait = humble
+					has_positive_honesty_humility_trait = yes
 				}
 			}
 		}
-		name = {
-			text = EVTOPT_C_AVE_MARIA_christian_mass.3
-		}
-		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.3 }
-		if = {
-			limit = { has_character_flag = big_burial }
-			prestige = 150
-			piety = 50
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
-					}
+		name = EVTOPT_C_AVE_MARIA_christian_mass.6
+		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.6 }
+		random_list = {
+			80 = {
+				set_character_flag = praise_charitable_virtue_success
+				modifier = {
+					factor = 1.5
+					diplomacy >= 12
 				}
-				any_realm_character = {
-					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_hated_ruler
-						who = ROOT
-					}
+				modifier = {
+					factor = 1.5
+					has_positive_extraversion_trait = yes
+				}
+			}
+			20 = {
+				set_character_flag = praise_charitable_virtue_failure
+				modifier = {
+					factor = 1.5
+					diplomacy <= 5
+				}
+				modifier = {
+					factor = 1.5
+					has_negative_extraversion_trait = yes
 				}
 			}
 		}
-		else_if = {
-			prestige = 50
-			piety = 100
-			hidden_effect = {
-				any_realm_character = {
-					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					opinion = {
-						modifier = opinion_did_honor_the_dead
-						who = ROOT
-						years = 1
-					}
-				}
-			}
-		}
-		add_character_modifier = {
-			name = christian_flavour_requiem_mass_poor
-			months = 12
+		character_event = {
+			id = AVE_MARIA_christian_mass.7
 		}
 	}
 	
@@ -317,19 +651,58 @@ character_event = {
 			event_target:target_dead_ruler = {
 				OR = {
 					has_character_flag = christian_generous_to_the_poor
-					trait = faithful
-					trait = honest
-					trait = sincere
-					trait = generous
-					trait = humble
+					has_positive_honesty_humility_trait = yes
 					has_benevolent_trait_trigger = yes
 				}
 			}
 		}
-		name = {
-			text = EVTOPT_C_AVE_MARIA_christian_mass.3
+		name = EVTOPT_C_AVE_MARIA_christian_mass.6
+		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.6 }
+		random_list = {
+			80 = {
+				set_character_flag = praise_christian_virtue_success
+				modifier = {
+					factor = 1.5
+					diplomacy >= 12
+				}
+				modifier = {
+					factor = 1.5
+					has_positive_extraversion_trait = yes
+				}
+			}
+			20 = {
+				set_character_flag = praise_christian_virtue_failure
+				modifier = {
+					factor = 1.5
+					diplomacy <= 5
+				}
+				modifier = {
+					factor = 1.5
+					has_negative_extraversion_trait = yes
+				}
+			}
 		}
-		custom_tooltip = { text = EVTOPT_A_AVE_MARIA_christian_mass.3 }
+		character_event = {
+			id = AVE_MARIA_christian_mass.7
+		}		
+	}
+
+}
+
+#### Requiem mass proper - Resolution and success of speech choice
+narrative_event = {
+	id = AVE_MARIA_christian_mass.7
+	title = EVT_TITLE_AVE_MARIA_christian_mass.7
+	desc = EVT_DESC_AVE_MARIA_christian_mass.7
+	picture = GFX_evt_ave_maria_christian_funeral_procession
+
+	is_triggered_only = yes
+
+	option = { ### Praise his family virtues success
+		name = EVTOPT_A_AVE_MARIA_christian_mass.7
+		trigger = {
+			has_character_flag = praise_family_virtue_success
+		}
 		if = {
 			limit = { has_character_flag = big_burial }
 			prestige = 150
@@ -366,14 +739,202 @@ character_event = {
 			}
 		}
 		add_character_modifier = {
-			name = christian_flavour_requiem_mass_clergy
+			modifier = christian_flavour_requiem_mass_family
 			months = 12
+		}
+	}
+
+	option = { ### Praise his soldierly virtues success
+		name = EVTOPT_B_AVE_MARIA_christian_mass.7
+		trigger = {
+			has_character_flag = praise_soldierly_virtue_success
+		}
+		if = {
+			limit = { has_character_flag = big_burial }
+			prestige = 150
+			piety = 50
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+					}
+				}
+				any_realm_character = {
+					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_hated_ruler
+						who = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			prestige = 50
+			piety = 100
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+						years = 1
+					}
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier = christian_flavour_requiem_mass_soldiers
+			months = 12
+		}
+	}
+
+	option = { ### Praise his charitable virtues success
+		name = EVTOPT_C_AVE_MARIA_christian_mass.7
+		trigger = {
+			has_character_flag = praise_charitable_virtue_success
+		}
+		if = {
+			limit = { has_character_flag = big_burial }
+			prestige = 150
+			piety = 50
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+					}
+				}
+				any_realm_character = {
+					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_hated_ruler
+						who = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			prestige = 50
+			piety = 100
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+						years = 1
+					}
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier =  christian_flavour_requiem_mass_poor
+			months = 12
+		}
+	}
+
+	option = { ### Praise his christian virtues success
+		name = EVTOPT_D_AVE_MARIA_christian_mass.7
+		trigger = {
+			has_character_flag = praise_christian_virtue_success
+		}
+		if = {
+			limit = { has_character_flag = big_burial }
+			prestige = 150
+			piety = 50
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+					}
+				}
+				any_realm_character = {
+					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_hated_ruler
+						who = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			prestige = 50
+			piety = 100
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+						years = 1
+					}
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier =  christian_flavour_requiem_mass_clergy
+			months = 12
+		}
+	}
+
+	option = { ### Speech fell flat
+		name = EVTOPT_D_AVE_MARIA_christian_mass.7
+		trigger = {
+			OR = {
+				has_character_flag = praise_soldierly_virtue_failure
+				has_character_flag = praise_family_virtue_failure
+				has_character_flag = praise_charitable_virtue_failure
+				has_character_flag = praise_christian_virtue_failure
+			}
+		}
+		if = {
+			limit = { has_character_flag = big_burial }
+			prestige = 150
+			piety = 50
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+					}
+				}
+				any_realm_character = {
+					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_hated_ruler
+						who = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			prestige = 50
+			piety = 100
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+						years = 1
+					}
+				}
+			}
 		}
 	}
 
 	after = {
 		clear_flags_with_prefix = liked_dead_ruler_
+		clear_flags_with_prefix = decision_to_officiate_
+		clear_flags_with_prefix = praise_
 		clr_character_flag = big_burial
 		clr_character_flag = normal_burial
 	}
+
 }
