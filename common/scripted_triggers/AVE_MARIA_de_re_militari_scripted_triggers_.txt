@@ -41,3 +41,8 @@ has_helmet_equipped_trigger = {
 		}
 	}
 }
+
+has_all_armor_equipped = {
+	has_helmet_equipped_trigger = yes
+	has_armor_equipped_trigger = yes
+}

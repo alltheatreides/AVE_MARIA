@@ -160,6 +160,129 @@ has_martial_arts_lvl_5_trait_trigger = {
 	}
 }
 
+#	honesty_humility		
+has_positive_honesty_humility_trait = {			
+	OR = {		
+		trait = faithful	
+		trait = honest	
+		trait = sincere	
+		trait = generous	
+		trait = humble	
+	}		
+}			
+#	emotionality		
+has_positive_emotionality_trait = {			
+	OR = {		
+		trait = brave	
+		trait = tough	
+		trait = independent	
+		trait = selfassured	
+		trait = stable	
+	}		
+}			
+#	extraversion		
+has_positive_extraversion_trait = {			
+	OR = {		
+		trait = outgoing	
+		trait = lively	
+		trait = sociable	
+		trait = talkative	
+		trait = cheerful	
+	}		
+}			
+#	agreeableness		
+has_positive_agreeableness_trait = {			
+	OR = {		
+		trait = patient	
+		trait = tolerant	
+		trait = agreeable	
+		trait = mild	
+		trait = gentle	
+	}		
+}			
+#	conscientiousness		
+has_positive_conscientiousness_trait = {			
+	OR = {		
+		trait = organized	
+		trait = diligent	
+		trait = careful	
+		trait = thorough	
+		trait = precise	
+	}		
+}			
+#	openness_to_experience		
+has_positive_openness_to_experience_trait = {			
+	OR = {		
+		trait = intellectual	
+		trait = creative	
+		trait = unconventional	
+		trait = innovative	
+		trait = thoughtful	
+	}		
+}
+
+#	honesty_humility		
+has_negative_honesty_humility_trait = {			
+	OR = {		
+		trait = pretentious	
+		trait = greedy	
+		trait = inconstant	
+		trait = deceitful	
+		trait = hypocritical	
+	}		
+}			
+#	emotionality		
+has_negative_emotionality_trait = {			
+	OR = {		
+		trait = vulnerable	
+		trait = anxious	
+		trait = fearful	
+		trait = sentimental	
+		trait = craven	
+	}		
+}			
+#	extraversion		
+has_negative_extraversion_trait = {			
+	OR = {		
+		trait = passive	
+		trait = withdrawn	
+		trait = introverted	
+		trait = quiet	
+		trait = reserved	
+	}		
+}			
+#	agreeableness		
+has_negative_agreeableness_trait = {			
+	OR = {		
+		trait = illtempered	
+		trait = quarrelsome	
+		trait = stubborn	
+		trait = intolerant	
+		trait = wroth	
+	}		
+}			
+#	conscientiousness		
+has_negative_conscientiousness_trait = {			
+	OR = {		
+		trait = sloppy	
+		trait = negligent	
+		trait = reckless	
+		trait = lazy	
+		trait = irresponsible	
+	}		
+}			
+#	openness_to_experience		
+has_negative_openness_to_experience_trait = {			
+	OR = {		
+		trait = shallow	
+		trait = unimaginative	
+		trait = conventional	
+		trait = uninspired	
+		trait = simple	
+	}		
+}			
+			
+
 
 #############################################
 # Education XP triggers						#

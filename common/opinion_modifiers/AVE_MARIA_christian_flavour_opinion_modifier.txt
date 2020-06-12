@@ -1,0 +1,21 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Opinion Modifiers										                          	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+
+# 
+opinion_christian_flavour_refused_funeral_ceremony = {
+	opinion = -10
+}
+
+#Accepted godparenthood
+opinion_christian_flavour_accepted_funeral_ceremony = {
+	opinion = 10
+}

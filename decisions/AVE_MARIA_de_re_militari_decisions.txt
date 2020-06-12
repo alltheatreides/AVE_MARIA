@@ -61,10 +61,7 @@ decisions = {
 			# is_lowborn = no
 			
 			# Block player from action if they have already gotten all of the artifacts which they can obtain from this action
-			NAND = {
-				have_all_armorsmith_artifacts_all_flags_trigger = yes
-				have_all_weaponsmith_artifacts_all_flags_trigger = yes
-			} 
+			NOT = { has_all_armor_equipped = yes }
 		}
 		allow = {
 			hidden_trigger = {
@@ -84,8 +81,8 @@ decisions = {
 				text = de_re_military_armorsmith_tt
 			}
 			hidden_effect = {
-				character_event = { id = AVE_MARIA_de_re_militari_events_equipment.1 }
 				set_character_flag = de_re_military_armorsmith
+				character_event = { id = AVE_MARIA_de_re_militari_events_equipment.1 }				
 				add_character_modifier = {
 					name = de_re_military_armorsmith_tt_cd
 					hidden = yes
@@ -130,7 +127,7 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.1
-				trait = content
+				has_negative_conscientiousness_trait = yes
 			}
 			modifier = {
 				factor = 0
