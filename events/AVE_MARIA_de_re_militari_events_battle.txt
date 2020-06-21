@@ -1,0 +1,31 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_de_re_militari_siege_events.1-499			           				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_de_re_militari_siege_events
+
+##NOTES:
+## More narrative based siege events and less EU4 tick down system 
+## Attacker decision on how to approach the siege:negotiate, wait and starve, assault immediatly, prepare siege equipment for an assault, mine the walls
+## Defender reacts to attacker decision: accept negotiations, refuse negotiations, sortie to harass, sortie to destroy siege equipment, counter mining, do nothing
+
+character_event = {
+	id = AVE_MARIA_de_re_militari_siege_events.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+		
+	}
+}

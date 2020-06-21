@@ -11,11 +11,12 @@
 
 on_startup = {
 	events = {
+		AVE_MARIA_roman_administration_maintenance.1 ## Family King Title distribution
 		AVE_MARIA_roman_administration.1
 		AVE_MARIA_roman_administration.2
 		AVE_MARIA_roman_administration.3
 		# AVE_MARIA_roman_administration.4
-		AVE_MARIA_roman_administration_salary.1 # Variable calculation for salary
+		AVE_MARIA_roman_administration_salary.1 # Variable calculation for salary		
 	}
 }
 

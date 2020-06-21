@@ -1,0 +1,72 @@
+### TODO - GFX ###
+# upgrade_cow_district_generic.dds
+
+#####################################################################
+############################ INDEX ##################################
+#####################################################################
+### ANYONE ADDING UPGRADES(features): Keep this updated, please!
+###
+### Template:
+###
+###		upgrade_example_name
+###			picture = GFX_upgrade_icon_crates
+###			show_in_history = yes
+###			allow = { }
+###			potential = { }
+###			active = { }
+###			flags = { }
+###			build_time = 20
+###			gold_cost_flat = 450
+###			gold_cost_ticking = 1
+###			local_modifier = { }
+###			owner_modifier = { }
+###		}
+###
+
+# Note: Names are reference points, but likely displayed differently in game
+# Upgrades are referred to as "features" in game
+# Scopes: ROOT is the character, FROM is the upgrade, FROMFROM the wonder, and FROMFROMFROM the province.
+
+################### Available Upgrades ###########################
+
+
+upgrade_district_theodosian_walls = {
+	picture = GFX_upgrade_district_grand_walls
+	
+	potential = {
+		FROMFROMFROM = {
+			province_id = 496 # Byzantion
+			NOT = { has_wonder_upgrade = upgrade_district_grand_walls }
+		}
+	}
+	active = {
+	}
+	allow = { 
+		FROMFROMFROM = {
+			TECH_FORTIFICATIONS_CONSTRUCTION = 4
+			TECH_CONSTRUCTION = 4
+			province_id = 496 # Byzantion
+			NOT = { has_wonder_upgrade = upgrade_district_grand_walls }
+		}	
+	}
+
+	flags = {
+		is_historical
+		defensive
+		cost_high
+	}
+	build_time = 350
+	gold_cost_flat = 3000
+	gold_cost_ticking = 6
+
+	local_modifier = {
+		fort_level = 1.5
+		siege_defence = 0.05
+	}
+	owner_modifier = {
+		monthly_character_prestige = 0.2
+	}
+	ai_will_do = {
+		factor = 1
+	}	
+}
