@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1332 - Akhyraous
+
+# County Title
+title = c_akhyraous
+
+# Settlements
+max_settlements = 4
+b_poimanenos = castle
+b_akhyraous = city
+b_synaos = castle
+
+#b_pegadia = city
+#b_lentiana = city
+#b_adrianeia = temple
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+1326.1.1 = { culture = turkish }
+1326.1.1 = { religion = sunni }
+1326.1.1 = { b_akhyraous = castle }
+1326.1.1 = { capital = b_akhyraous }

@@ -1,0 +1,25 @@
+# 1022 - Valenciennes
+
+# County Title
+title = c_valenciennes
+
+# Settlements
+max_settlements = 4
+
+b_valenciennes = castle
+b_maroilles = temple
+
+#b_maubeuge = city
+#b_avesnes = castle
+
+#b_conde = castle 
+#b_bavay = city
+#b_landrecies = castle 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1000.1.1= { b_avesnes = castle }
+1182.1.1= { b_maubeuge = city }

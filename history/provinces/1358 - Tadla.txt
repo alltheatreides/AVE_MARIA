@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1358 - Tadla
+
+# County Title
+title = c_tadla
+
+# Settlements
+max_settlements = 4
+
+b_dai = castle #referred to as a stronghold (hisn) by al-Bakri, who nonetheless notes the town's rich resources
+b_tadla = city
+#b_tagrart = castle
+#b_afza = castle # mentioned by Leo Africanus
+
+# Misc
+culture = sanhaja
+religion = sunni
+
+
+# History
+1000.1.1 = { culture = zanata } #Maghrawa migration
+1100.1.1 = { b_tagrart = castle } #under Almoravid rule
+
+
+

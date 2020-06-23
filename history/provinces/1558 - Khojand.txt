@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1558 - Khojand
+
+# County Title
+title = c_khojand
+
+# Settlements
+max_settlements = 4
+b_khojand = castle
+b_kend-i-badam = temple
+b_asht = city
+
+#b_kurkath = city
+
+# Misc
+culture = sogdian
+religion = zoroastrian
+
+# History
+987.1.1 = {	religion = sunni }
+1007.1.1 = {	culture = tajik }

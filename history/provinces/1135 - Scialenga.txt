@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1135 - Scialenga
+
+# County Title
+title = c_scialenga
+
+# Settlements
+max_settlements = 4
+
+b_asciano = castle
+b_chiusi = temple
+b_bibbiano = castle
+b_radicofani = castle
+#b_san_salvatore_mt_amita = temple
+#b_sinalunga = city
+#b_sarteano = castle
+# Misc
+culture = tuscan
+religion = catholic
+terrain = plains
+
+# History
+
+

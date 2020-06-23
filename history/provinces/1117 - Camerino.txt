@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1117 - Camerino
+
+# County Title
+title = c_camerino
+
+# Settlements
+max_settlements = 4
+
+b_camerino = castle
+b_ascoli_piceno = temple
+b_tolentino = city
+#b_pergola = city
+#b_matelica = castle
+
+# Misc
+culture = umbrian
+religion = catholic
+terrain = hills
+# History
+946.1.1 = { b_matelica = castle } 
+1057.1.1 = { capital = b_matelica}
+1057.1.1 = { b_camerino = city}
+1259.1.1 = { b_camerino = castle}
+1259.1.1 = { capital = b_camerino}

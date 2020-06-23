@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 278 - Hålogaland - Hereyja
+
+# County Title
+title = c_halogaland
+
+# Settlements
+max_settlements = 4
+
+b_tjoetta = tribal # Tjøtta
+#b_doenna = castle # Sandnes
+#b_sandnessjoeen = city # Sandnes
+#b_torgar = city  # Torgar
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+
+882.1.1 = { b_sandnessjoeen = tribal } # Bård Brynjulfson dies, gives everything to Torolv Kveldulvson who moves the seat to Sandenes.
+882.1.1 = { capital = b_sandnessjoeen } # Bård Brynjulfson dies, gives everything to Torolv Kveldulvson who moves the seat to Sandenes.
+920.1.1 = { capital = b_tjoetta } #Hårek of Tjøtta is born
+975.1.1 = { b_doenna = tribal }
+1031.1.1 = { religion = catholic }
+1035.1.1 = {
+	b_tjoetta = castle 
+	b_doenna = castle
+	b_sandnessjoeen = city
+}
+1035.1.1 = { culture = norwegian }

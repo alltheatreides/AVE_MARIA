@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 428 - Kujawy
+
+# County Title
+title = c_kujawy
+
+# Settlements
+max_settlements = 4
+
+b_brzesc = tribal
+b_wloclawek = temple
+#b_radziejow = castle
+#b_moglino = temple
+#b_kowal = castle
+#b_strzelno = city
+#b_przedecz = city
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = { religion = catholic }
+999.7.1 = { 
+b_brzesc = castle 
+b_wloclawek = temple
+}
+1045.1.1 = { b_moglino = temple }
+1141.1.1 = { b_radziejow = castle }

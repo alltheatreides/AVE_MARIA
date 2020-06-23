@@ -1,0 +1,26 @@
+# 1058 - Zutphen
+
+# County Title
+title = c_zutphen
+
+# Settlements
+max_settlements = 4
+
+b_zutphen = castle
+b_doetinchem = city
+
+#b_bielheim = temple
+#b_bergh = castle 
+
+#b_bronckhorst = castle
+#b_doesburg = city
+#b_borculo = castle 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1100.1.1 = { culture = low_german }
+1125.1.1 = { b_bergh = castle }
+1200.1.1 = { b_bielheim = temple }

@@ -1,0 +1,25 @@
+# 241 - Neuchatel
+
+# County Title
+title = c_neuchatel
+
+# Settlements
+max_settlements = 4
+b_neuchatel = castle
+b_stimier = temple
+
+#b_avenches = city
+#b_grandson = castle
+
+#b_strassberg = castle 
+#b_nidau = city
+#b_erlach = temple 
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1050.1.1= { b_grandson = castle }
+1259.1.1= { b_avenches = city }
+

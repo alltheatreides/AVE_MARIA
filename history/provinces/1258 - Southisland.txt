@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1258 - Southisland
+
+# County Title
+title = c_southisland
+
+# Settlements
+max_settlements = 4
+
+b_alftanes = tribal
+#b_reykjavik = city
+b_skalholt = temple
+#b_pingvellir = castle
+#b_kjalarnes = castle
+#b_hvamm = castle
+#b_hlidarendi = castle
+#b_kirkjubaer = castle
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+867.1.1 = {
+	#b_reykjavik = ct_shipyard_1
+}
+1000.1.1 = { religion = catholic } 
+1035.1.1 = {
+	culture = norwegian 
+	b_alftanes = castle
+} 

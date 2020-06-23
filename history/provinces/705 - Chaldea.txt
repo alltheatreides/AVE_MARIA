@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 705 - Chaldea
+
+# County Title
+title = c_chaldea
+
+# Settlements
+max_settlements = 4
+b_kerasous = castle
+b_kotyora = city
+b_polemonion = temple
+#b_tripolischaldea = castle
+#b_oinoe = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1238.1.1 = { trade_post = b_spinola }
+1264.1.1 = { culture = turkish }
+1264.1.1 = { religion = sunni }

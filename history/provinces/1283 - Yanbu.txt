@@ -1,0 +1,19 @@
+# -*- ck2.history.provinces -*-
+
+# 1283 - Yanbu
+
+# County Title
+title = c_yanbu
+
+# Settlements
+max_settlements = 4
+b_yanbu = castle
+b_aljar = city
+b_alhawra = city
+#b_rabig = city
+
+# Misc
+culture = hijazi
+religion = sunni
+
+# History

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 708 - Tell Bashir
+
+# County Title
+title = c_tell_bashir
+
+# Settlements
+max_settlements = 4
+b_turbessel = castle
+b_kyrrhos = temple
+b_nizip = city
+#b_trihalet = castle
+
+
+# Misc
+culture = assyrian
+religion = syriac
+
+# History
+1030.1.1 = { 
+	culture = levantine_arabic
+}
+1070.1.1 = { religion = sunni }
+

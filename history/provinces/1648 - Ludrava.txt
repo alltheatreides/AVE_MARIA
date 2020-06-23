@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1648 - Ludrava
+
+# County Title
+title = c_ludrava
+
+# Settlements
+max_settlements = 4
+b_ludrava = castle
+b_phalavardhika = temple
+b_lanela = city
+#b_jaisalmer = castle
+#b_kiradu = temple
+
+# Misc
+culture = rajput
+religion = jain
+
+# History
+1156.1.1 = { b_jaisalmer = castle }

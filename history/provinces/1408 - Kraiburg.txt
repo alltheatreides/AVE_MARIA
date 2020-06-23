@@ -1,0 +1,26 @@
+# 1408 - Kraiburg
+
+# County Title
+title = c_kraiburg
+
+# Settlements
+max_settlements = 4
+
+b_kraiburg = castle
+b_traunstein = castle #Traunstein
+
+#b_wasserburg = city
+#b_berchtesgaden = temple
+
+#b_reichenhall = city 
+#b_marquartstein = castle 
+#b_massing = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1102.1.1 = { b_berchtesgaden = temple }
+1170.1.1 = { culture = german }
+1245.1.1 = { b_wasserburg = city }

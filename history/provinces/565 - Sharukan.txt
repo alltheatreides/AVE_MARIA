@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 565 - Sharukan
+
+# County Title
+title = c_sharukan
+
+# Settlements
+max_settlements = 4
+b_sharukan = tribal
+#b_chuhuiv = castle
+#b_merefa = tribal
+#b_isjum = castle
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+terrain = steppe
+
+# History
+893.1.1 = { culture = pecheneg }
+1044.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol }

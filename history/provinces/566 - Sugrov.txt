@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 566 - Sugrov #Donets
+
+# County Title
+title = c_sugrov
+
+# Settlements
+max_settlements = 4
+b_balin = tribal
+b_sugrov = temple
+#b_bakhmut = tribal
+#b_sviatohirsk = temple
+
+
+# Misc
+culture = old_hungarian
+religion = tengri_pagan
+terrain = steppe
+# History
+
+
+893.1.1 = { culture = pecheneg }
+893.1.1 = { religion = manichean }
+1035.1.1 = { religion = sunni }
+1044.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman } 
+1060.1.1 = { religion = tengri_pagan } 
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol }

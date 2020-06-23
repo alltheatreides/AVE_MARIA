@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1508 - Adulis
+
+# County Title
+title = c_adulis
+
+# Settlements
+max_settlements = 4
+b_adulis = tribal
+#b_masawwa = city
+#b_debarwa = castle
+
+#b_qohaito = castle #ancient archaeological site
+#b_sembel = temple #ancient archaeological site
+
+# Misc
+culture = beja
+religion = miaphysite
+
+# History
+950.1.1 = { b_masawwa = city }
+#1066.1.1 = { trade_post = b_masawwa }
+1127.1.1 = { #was 1093
+	b_debarwa = castle
+	capital = b_debarwa
+	remove_settlement = b_adulis
+} 

@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 532 - Sacz
+
+# County Title
+title = c_sacz
+
+# Settlements
+max_settlements = 4
+b_sacz = tribal
+#b_biecz = castle
+#b_szczyrzycz = temple
+#b_bochnia = city
+#b_nowy_targ = city
+#b_brzesko = city
+#b_krosno = city
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = { religion = catholic 
+b_sacz = castle}
+1198.1.1 = { b_bochnia = city }
+1234.1.1 = { b_szczyrzycz = temple }

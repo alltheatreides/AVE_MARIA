@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 443 - Nitra
+
+# County Title
+title = c_nitra
+
+# Settlements
+max_settlements = 4
+b_nyitra = tribal
+b_tapolcsany = city
+b_zobor = temple
+
+#b_surany = castle
+#b_galanta = castle
+#b_komjat = castle
+#b_sempte = castle
+#b_galgoc = castle
+
+# Misc
+culture = slovieni
+religion = catholic
+
+# History
+# Though there is evidence of some Székely presence (and therefore Qavar, by extension of SWMH's mechanics) in the upper Nitra area in the 10th century, it is rather fleeting, making it suspect that presence outnumbered the local, Slavic population enough to have it be represented as a change in the province's culture and religion
+#895.1.1 = {
+#	culture = khavar 
+#	religion = tengri_pagan
+#}
+1000.1.1 = {
+#	culture = szekely
+#	religion = catholic
+	b_nyitra = castle	
+}
+#1041.1.1 = { culture = slovieni }

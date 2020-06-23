@@ -1,0 +1,32 @@
+# 978 - Landsberg
+
+# County Title
+title = c_landsberg
+
+# Settlements
+max_settlements = 4
+
+b_duben = tribal #Düben, Dewin/Dibni
+#b_merseburg = temple
+#b_leipzig = city
+#b_landsberg = castle 
+
+#b_torgau = castle 
+#b_eilenburg = castle 
+#b_muhlberg = city #Mühlberg 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+880.1.1 = { 
+	b_duben = castle
+	b_leipzig = city 
+} 
+880.1.1 = { culture = thuringian } 
+880.1.1 = { religion = catholic } 
+968.1.1 = { b_merseburg = temple }
+1160.1.1 = { b_landsberg = castle }
+1160.1.1 = { capital = b_landsberg }
+1170.1.1 = { culture = german }

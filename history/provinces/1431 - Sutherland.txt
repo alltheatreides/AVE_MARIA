@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1431 - Sutherland
+
+# County Title
+title = c_sutherland
+
+# Settlements
+max_settlements = 4
+
+b_dornoch = tribal
+b_durness = temple
+#b_dunrobin = castle
+#b_golspie = city
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+
+1146.1.1 = { b_dornoch = castle } 

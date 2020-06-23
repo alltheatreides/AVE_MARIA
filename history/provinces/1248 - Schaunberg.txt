@@ -1,0 +1,27 @@
+# 1248 - Schaunberg
+
+# County Title
+title = c_schaunberg
+
+# Settlements
+max_settlements = 4
+
+b_schaunberg = castle
+b_mondsee = temple 
+
+#b_linz = city
+#b_starhemberg = castle 
+
+#b_eferding = city 
+#b_wilhering = temple 
+#b_kammer = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+#1046.1.1 = { b_lambach = temple }
+1170.1.1 = { culture = german }
+1198.1.1 = { b_starhemberg = castle }
+1240.1.1 = { b_linz = city }

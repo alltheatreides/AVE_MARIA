@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1137 - Prato
+
+# County Title
+title = c_prato
+
+# Settlements
+max_settlements = 4
+
+b_prato = castle
+b_empoli = city
+b_certaldo = castle
+#b_vernio = castle
+
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = farmlands
+# History
+
+1107.1.1 = { b_vernio = castle }

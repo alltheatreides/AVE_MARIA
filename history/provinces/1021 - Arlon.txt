@@ -1,0 +1,27 @@
+# 1021 - Arlon
+
+# County Title
+title = c_arlon
+
+# Settlements
+max_settlements = 4
+
+b_arlon = castle
+
+#b_wiltz = city 
+#b_clairfontaine_arlon = temple
+#b_useldange = castle
+
+#b_esch = city 
+#b_herbeumont = castle
+#b_autelbas = castle
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1100.1.1 = { b_useldange = castle }
+1170.1.1 = { culture = german }
+1240.1.1 = { b_wiltz = city }
+1247.1.1 = { b_clairfontaine_arlon = temple }

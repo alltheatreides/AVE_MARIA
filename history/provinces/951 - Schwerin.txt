@@ -1,0 +1,31 @@
+# 951 - Schwerin
+
+# County Title
+title = c_schwerin
+
+# Settlements
+max_settlements = 4
+
+b_crivitz = tribal
+b_schwerin = temple
+
+#b_boizenburg = castle 
+#b_wittenburg = castle 
+#b_neustadt_glewe =city
+ 
+#b_zarrentin = temple 
+#b_lehsen = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1160.8.2={ b_boizenburg = castle } #Niklot slain.
+1160.8.2 = { capital = b_boizenburg }
+1160.8.2 = { remove_settlement = b_crivitz }
+1160.8.2={ b_wittenburg = castle  } 
+1160.8.2= { religion=catholic }
+1230.1.1= { culture= low_german } 
+1248.1.1={ b_neustadt_glewe = city  } 
+

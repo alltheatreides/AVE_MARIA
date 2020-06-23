@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 756 - Limisol
+
+# County Title
+title = c_limisol
+
+# Settlements
+max_settlements = 4
+
+
+b_paphos = castle
+b_limmassol = city
+b_solia = temple
+#b_kolossi = castle
+#b_kykkos = temple
+#b_arsinoecyprus = temple
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+1090.1.1 = { remove_settlement = b_solia }
+1090.1.1 = { b_kykkos = temple }
+1141.1.1 = { trade_post = b_faliero }
+1214.1.1 = { b_kolossi = castle }

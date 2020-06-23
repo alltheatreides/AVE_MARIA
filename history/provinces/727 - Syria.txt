@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 727 - Daraa #Former Syria
+
+# County Title
+title = c_syria
+
+# Settlements
+max_settlements = 4
+
+b_daraa = castle
+b_nawasyria = temple
+b_izra = city
+b_sanamayn = city
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+

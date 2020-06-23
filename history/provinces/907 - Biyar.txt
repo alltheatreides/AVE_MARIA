@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 907 - Biyár
+
+# County Title
+title = c_biyar
+
+# Settlements
+max_settlements = 4
+
+b_biyar = castle
+b_bistam = temple
+b_badhash = city
+
+#b_kharkan = castle
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+900.1.1 = { religion = sunni }

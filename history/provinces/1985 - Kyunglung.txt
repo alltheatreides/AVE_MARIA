@@ -1,0 +1,24 @@
+# County Title
+title = c_kyunglung
+
+# Settlements
+max_settlements = 4
+
+b_kyunglung = castle #(Capital fortress of the Zhangzhung Kingdom)
+b_gurugem = temple #(Ancient Bon Monastery)
+b_tirthapuri = temple #(Ancient hotsprings and Bon Monastery)
+#b_dolchu = { #temple
+
+#b_monicer = city
+#b_xalazakung = {
+#b_gyanyima = {
+
+
+# Misc
+culture = zhangzhung
+religion = bon
+
+#History
+1100.1.1 = {
+	culture =  bodpa
+}# Zhangzhung culture holds out longest in the Guge Kingdom in its ancient capital

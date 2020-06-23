@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 296 - Viken # Ranrike
+
+# County Title
+title = c_viken
+
+# Settlements
+max_settlements = 4
+
+b_ragnhildsholm = tribal # Ragnildarholmir
+#b_kungahalla = city # Konungahella
+#b_dragmark = temple
+#b_marstrand = city
+#b_bohus = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+995.1.1 = { religion = catholic }
+1000.1.1 = { b_ragnhildsholm = castle
+b_kungahalla = city } #to Denmark
+1035.1.1 = { culture = norwegian } 
+
+1260.1.1 = { trade_post = b_warendorp }

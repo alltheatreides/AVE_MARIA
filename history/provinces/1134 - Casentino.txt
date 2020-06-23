@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 1134 - Casentino
+
+# County Title
+title = c_casentino
+
+# Settlements
+max_settlements = 4
+
+b_poppi = castle
+#b_romena = castle
+#b_porciano = castle
+b_monevarchi = city
+#b_battifolle = castle
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = forest
+
+# History
+1008.1.1 = { b_romena = castle}
+1054.1.1 = { b_porciano = castle}

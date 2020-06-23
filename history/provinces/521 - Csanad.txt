@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 521 - Csanad
+
+# County Title
+title = c_csanad
+
+# Settlements
+max_settlements = 4
+
+b_makohungary = tribal
+#b_zombor = castle
+b_csanad = temple
+#b_besenyo = city
+
+
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+926.1.1 = { culture = old_hungarian }
+1000.1.1 = { b_zombor = castle }
+1000.1.1 = { capital = b_zombor }
+1000.1.1 = { b_makohungary = city }
+1043.1.1 = { 
+	religion = catholic
+	culture = hungarian
+}
+

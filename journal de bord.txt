@@ -519,4 +519,9 @@ So one way this might work is through the implementation of an expanded economy 
 -
 
 21/06/20
-- Add new events from focus for the unlanded romans
+- Add new events from focus for the unlanded romans ?
+
+23/06/20
+- Logique pour la refonte économique: calculer d'abord la capacité de population de la province selon son type de terrain puis répartir la population dans les différents holdings
+- Pour le start_up: calculer la population totale d'une région à partir des estimations, calculer les grands centres ensuite et enfin le reste à distribuer.
+- Need a script that goes into all the history files, get the terrain and print: name, id, terrain type and baronies

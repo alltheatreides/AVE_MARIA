@@ -1,0 +1,27 @@
+# 361 - Bogen
+
+# County Title
+title = c_niederbayern
+
+# Settlements
+max_settlements = 4
+
+b_bogen = castle
+b_metten = temple
+
+#b_straubing = city
+#b_sattelbogen = castle 
+
+#b_degenberg = castle 
+#b_deggendorf = city 
+#b_windberg = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1130.1.1 = { b_sattelbogen = castle  }
+1170.1.1 = { culture = german }
+#1186.1.1 = { b_degenberg = castle  }
+1218.1.1 = { b_straubing = city }

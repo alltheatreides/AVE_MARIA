@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1082 - Hereti
+
+# County Title
+title = c_hereti
+
+# Settlements
+ max_settlements = 4
+b_lagodekhi = castle
+b_shaki = city
+b_gishi = temple
+#b_areshi = castle
+#b_nekresi = temple
+
+# Misc
+culture = udi
+religion = apostolic
+
+# History
+
+950.1.1 = {
+	culture = georgian
+	religion = orthodox
+}

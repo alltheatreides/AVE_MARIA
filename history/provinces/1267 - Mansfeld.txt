@@ -1,0 +1,27 @@
+# 1267 - Mansfeld
+
+# County Title
+title = c_mansfeld
+
+# Settlements
+max_settlements = 4
+
+b_mansfeld = castle
+
+#b_nordhausen = city 
+#b_walkenried = temple 
+#b_hohnstein = castle 
+
+#b_sangerhausen = city 
+#b_querfurt = castle 
+#b_arnstein = castle 
+
+# Misc
+culture = thuringian
+religion = catholic
+
+# History
+1127.1.1 = { b_walkenried = temple }
+1170.1.1 = { culture = german }
+1182.1.1 = { b_hohnstein = castle }
+1198.1.1 = { b_nordhausen = city }

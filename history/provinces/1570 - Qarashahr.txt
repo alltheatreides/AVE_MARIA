@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1570 - Qarashahr
+
+# County Title
+title = c_karashar
+
+# Settlements
+max_settlements = 4
+
+b_qarashahr = castle
+b_korla = city 
+b_ushak-tal = temple
+#b_charchi = castle
+
+#b_qocho = castle
+
+# Misc
+culture = uyghur
+religion = buddhist
+
+# History
+#915.1.1 = {	culture = uyghur }

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1111 - Andria
+
+# County Title
+title = c_andria
+
+# Settlements
+max_settlements = 4
+
+b_andria = castle
+b_trani = city
+b_canosa = temple
+b_barletta = city
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = plains
+# History
+
+1140.1.1={ culture = neapolitan}
+

@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 1344 - Adramyttion
+
+# County Title
+title = c_adramyttion
+
+# Settlements
+max_settlements = 4
+
+b_adramyttion = castle
+b_pergamon = city
+b_antandros = temple
+
+#b_pitane = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+
+1200.1.1 = { remove_settlement = b_antandros }
+
+1213.1.1 = { trade_post = b_dandolo }
+1326.1.1 = { culture = turkish }
+1326.1.1 = { religion = sunni }
+
+
+
+
+

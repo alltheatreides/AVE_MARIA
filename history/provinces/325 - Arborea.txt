@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 325 - Arborea
+
+# County Title
+title = c_arborea
+
+# Settlements
+max_settlements = 4
+
+b_cabras = castle
+#b_terralba = temple
+b_oristano = city
+b_tharros = temple
+#b_usellus = castle
+
+# Misc
+culture = sardinian
+religion = catholic
+terrain = mountain
+
+# History
+
+1070.1.1 = { remove_settlement = b_tharros }
+1144.1.1 = { b_terralba = temple }
+1200.1.1 = { b_usellus = castle}
+1241.1.1 = { capital = b_usellus}
+1264.1.1 = { capital = b_cabras }
+

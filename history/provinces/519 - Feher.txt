@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 519 - Feher
+
+# County Title
+title = c_feher
+
+# Settlements
+max_settlements = 4
+b_gyulafehervar = tribal
+
+#b_maros = city
+#b_vajdahunyad = castle
+#b_nagyenyed = city
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+
+1020.1.1 = { b_gyulafehervar = castle } 
+1060.1.1 = { b_nagyenyed = city } 
+1200.1.1 = { b_maros = temple } 
+1300.1.1 = { b_vajdahunyad = castle } 

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 78 - Brugge
+
+# County Title
+title = c_brugge
+
+# Settlements
+max_settlements = 7
+b_aardenburg = castle
+b_brugge = city
+b_torhout = temple
+
+#b_oostende = city 
+#b_oudenburg = temple 
+#b_wijnendale = castle 
+#b_male = castle
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+1084.1.1 = { b_oudenburg = temple }
+1127.1.1 = { b_wijnendale = castle }
+1150.1.1 = { culture = dutch }
+1187.1.1 = { b_male = castle }
+1267.1.1 = { b_oostende = city }

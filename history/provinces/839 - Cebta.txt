@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 839 - Cebta
+
+# County Title
+title = c_cebta
+
+# Settlements
+max_settlements = 4
+
+b_cueta = castle
+b_tetouan = castle
+b_kasrsaghir = city
+#b_afrag = castle
+
+#b_mdiq = temple
+#b_martil = castle
+
+#b_aulef = castle
+#b_Xauen = temple
+#b_babtaza = castle
+#b_targuist = castle
+
+# Misc
+culture = maghreb_arabic
+religion = sunni
+
+# History
+1330.1.1 = { b_afrag = castle }
+
+

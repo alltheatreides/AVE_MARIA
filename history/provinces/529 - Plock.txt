@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 529 - Plock
+
+# County Title
+title = c_plock
+
+# Settlements
+max_settlements = 4
+
+b_plock = tribal
+#b_sierpc = city
+#b_gostynin = city
+#b_lowicz = temple
+#b_wyszogrod_mazovia = castle
+#b_szrensk = city
+#b_ciechanow = temple
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = { religion = catholic 
+b_plock = castle
+b_ciechanow = temple
+}
+1065.1.1 = {b_wyszogrod_mazovia = castle}
+1252.1.1 = {b_gostynin = city}
+1254.1.1 = {b_ciechanow = castle}

@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 899 - Pandjgúr
+
+# County Title
+title = c_pandjgur
+
+# Settlements
+max_settlements = 4
+b_pandjgur = castle
+b_kiz = city
+b_armabil = temple
+#b_khawr = temple
+
+# Misc
+culture = brahui
+religion = hindu
+
+# History
+879.6.5 = {
+	b_pandjgur = tribal
+	remove_settlement = b_armabil
+}
+990.1.1 = {	religion = sunni }
+
+#1066.1.1 = { trade_post = b_qeshmi }
+1090.1.1 = {	culture = baloch }
+1183.1.1 = {
+	b_pandjgur = castle
+	b_armabil = temple
+}

@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 937 - Marsico
+
+
+# County Title
+title = c_marsico
+
+# Settlements
+max_settlements = 4
+b_san_severino_lucano = castle
+b_marsico = city
+#b_chiaromonte = castle
+#b_lauria = castle
+
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = forest
+# History
+1087.1.1={ b_chiaromonte = castle }
+1144.1.1={ culture = neapolitan }
+1170.1.1={ b_lauria = castle }

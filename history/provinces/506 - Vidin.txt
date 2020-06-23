@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 506 - Vidin
+
+# County Title
+title = c_vidin
+
+# Settlements
+max_settlements = 4
+
+b_svrljig = castle
+b_vidin = city
+#b_kozal = castle
+b_archar = temple
+#b_belogradchik= temple
+
+# Misc
+culture = bulgarian
+religion = slavic_pagan
+
+# History
+900.1.1 = { religion = orthodox } 
+1044.1.1 = { culture = pecheneg }
+1087.1.1 = { culture = bulgarian }
+
+ 

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1584 - Northeastern Jylland
+
+# County Title
+title = c_northeastern_jylland
+
+# Settlements
+max_settlements = 4
+
+b_hald = tribal
+#b_viborg = temple
+b_aalborg = city
+#b_vitskoel = temple
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+985.1.1= { trade_post = b_giaethning }
+1000.1.1 = { religion = catholic } 
+1020.1.1 = { b_hald = castle 
+b_viborg = temple} 
+1035.1.1 = { culture = danish } 
+1158.1.1 = { b_vitskoel = temple } 
+1362.1.1 = { trade_post = -1 }

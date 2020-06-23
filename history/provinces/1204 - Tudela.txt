@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1204 - Tudela
+
+# County Title
+title = c_tudela
+
+# Settlements
+max_settlements = 4
+b_tudela = castle
+b_cascante = city
+b_carcastillo = temple
+#b_valtierra = city
+
+# Misc
+culture = aragonese
+religion = sunni
+
+# History
+
+867.1.1 = { 
+	b_tudela = ca_town_1
+	b_tudela = ca_wall_1
+}
+1131.1.1 = { religion = catholic }

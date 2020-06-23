@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1211 - Beja
+
+# County Title
+title = c_beja
+
+# Settlements
+max_settlements = 4
+b_beja = castle
+b_aljustrel = city
+b_almodovar = temple
+#b_alvito_beja = castle
+#b_odemira = castle
+#b_ourique = castle
+
+
+# Misc
+culture = andalusian_arabic
+religion = sunni
+
+# History
+
+1235.1.1 = { culture = portuguese }
+1235.1.1 = { religion = catholic }

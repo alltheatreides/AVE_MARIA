@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 2012 - Sari
+
+# County Title
+title = c_sari
+
+max_settlements = 4
+b_sari = castle
+b_firrim = city
+b_sahmar = temple
+b_tammisha = castle
+
+# Misc
+culture = daylamite
+religion = zoroastrian
+
+# History
+651.1.1 = {
+	b_sari = ca_town_1
+	b_sari = ca_wall_1
+	b_sari = ca_keep_1
+	b_sari = ca_militia_barracks_1
+	b_firrim = ct_marketplace_1
+	b_sahmar = tp_town_1
+}
+
+887.1.1 = { religion = zaydi } 

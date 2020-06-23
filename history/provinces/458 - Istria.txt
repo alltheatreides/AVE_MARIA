@@ -1,0 +1,25 @@
+# 458 - Istria
+
+# County Title
+title = c_istria
+
+# Settlements
+max_settlements = 4
+
+b_mitterburg = castle
+b_labin = city
+b_pican = temple
+
+#b_waxenstein = castle #Kozljak
+
+#b_buzet = city #Piguente
+#b_motovun = city 
+#b_posert = castle 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+1110.1.1 = { trade_post = b_contarini }
+1234.1.1 = { b_waxenstein = castle }

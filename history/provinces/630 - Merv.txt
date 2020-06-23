@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 630 - Merv
+
+# County Title
+title = c_merv
+
+# Settlements
+max_settlements = 7
+b_merv = castle
+b_zarq = castle
+b_diza = city
+b_panjih = temple
+b_barakdiz = castle
+
+#b_hurmuzferra = city
+b_kirang = city
+
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+
+960.1.1 = {
+	religion = sunni
+}
+
+#1230.1.1 = { culture = turkish }

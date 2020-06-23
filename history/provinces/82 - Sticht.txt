@@ -1,0 +1,29 @@
+# 82 - Sticht
+
+# County Title
+title = c_sticht
+
+# Settlements
+max_settlements = 4
+
+b_utrecht = temple
+b_ijsselstein = castle
+
+#b_oudewater = city
+#b_woerden = castle 
+b_dorestad = city
+
+##
+#b_vianen = castle
+#b_amersfoort = city
+
+# Misc
+culture = low_frankish
+religion = catholic
+
+# History
+864.1.1 = { remove_settlement = b_dorestad }
+1150.1.1 = { culture = dutch }
+1165.1.1 = { b_woerden = castle }
+1265.1.1 = { b_oudewater = city }
+1311.1.1 = { trade_post = b_warendorp }

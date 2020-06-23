@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1539 - Ganj Rustáq
+
+# County Title
+title = c_ganj-rustaq
+
+# Settlements
+max_settlements = 4
+b_baban = castle
+b_baghshur = city
+b_djebel-fidda = city
+b_dihistan-ganj = castle
+
+# Misc
+culture = khorasani
+religion = zoroastrian
+
+# History
+990.1.1 = { religion = sunni }
+

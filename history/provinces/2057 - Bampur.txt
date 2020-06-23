@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 2057 - Bampur
+
+# County Title
+title = c_bampur
+
+# Settlements
+max_settlements = 4
+
+b_bampur = tribal
+b_fahraj = city
+#b_khwash = castle
+#b_iskaf = temple
+
+# Misc
+culture = baloch
+religion = kharijite
+
+# History
+1090.1.1 = { religion = sunni }
+1209.1.1 = {
+	b_bampur = castle
+	b_khwash = castle
+}

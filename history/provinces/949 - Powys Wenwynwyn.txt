@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 949 - Powys Wenwynwyn
+
+# County Title
+title = c_powys_wenwynwyn
+
+# Settlements
+max_settlements = 4
+b_mathrafal = tribal
+b_welshpool = city
+#b_llanfyllin = temple
+#b_caersws = castle
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+
+942.1.1 = {
+	b_mathrafal = castle
+	b_llanfyllin = temple
+}
+#1066.1.1 = { 
+#	b_mathrafal = tb_hillfort_1
+#	b_mathrafal = tb_training_grounds_1
+#	b_mathrafal = tb_war_camp_1
+#}
+
+1283.9.29={
+	b_mathrafal = castle
+}

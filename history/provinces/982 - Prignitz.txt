@@ -1,0 +1,30 @@
+# 982 - Prignitz
+
+# County Title
+title = c_prignitz
+
+# Settlements
+max_settlements = 4
+
+b_putlitz = tribal
+
+#b_wittstock = city
+#b_havelberg = temple
+#b_ruppin = castle
+
+#b_perleberg = city 
+#b_dossow = castle  
+#b_kyritz = city 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+1056.1.1 = { b_putlitz = castle }
+1056.1.1 = { b_wittstock = city }
+1129.1.1 = { religion = catholic }
+1129.1.1 = { b_havelberg = temple }
+1160.1.1 = { culture = low_german } 
+1214.1.1 = { b_ruppin = castle }
+1214.1.1 = { capital = b_ruppin }

@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1287 - Mologa
+
+# County Title
+title = c_mologa
+
+# Settlements
+max_settlements = 4
+
+b_mologa = tribal
+#b_vesyegonsk = city
+
+#b_holopojgorodokmologa = city
+#b_sheksna = city
+
+# Misc
+culture = vepsian
+religion = finnish_pagan
+
+# History
+1015.1.1 = {
+	culture = russian
+	religion = orthodox
+}
+1015.1.1 = {
+b_mologa = castle
+b_vesyegonsk = city
+}

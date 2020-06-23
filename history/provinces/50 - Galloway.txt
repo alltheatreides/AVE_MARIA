@@ -1,0 +1,38 @@
+# -*- ck2.history.provinces -*-
+
+# 50 - Galloway
+
+# County Title
+title = c_galloway
+
+# Settlements
+max_settlements = 4
+b_dunragit = tribal
+b_kirkcudbright = city
+#b_whithorn = temple
+#b_wigtown = castle
+#b_threave = castle
+#b_glenluce = temple
+
+# Misc
+culture = scottish
+religion = catholic
+terrain = hills
+
+# History
+400.1.1 = { culture = cumbric } 
+#803.1.1 = { remove_settlement = b_whithorn } # see of Withorn disolved
+1000.1.1 = { b_threave = tribal } # lords of Galloway
+1000.1.1 = { capital = b_threave }
+1000.1.1 = { remove_settlement = b_dunragit }  
+1000.1.1 = { culture = scottish }  
+1066.1.1 = { 
+	b_threave = tb_hillfort_1
+	b_threave = tb_training_grounds_1
+	b_threave = tb_war_camp_1
+}
+1128.1.1 = { b_whithorn = temple} # See of Withorn restored
+1146.1.1 = { 
+	b_dunragit = castle
+	b_threave = castle
+} 

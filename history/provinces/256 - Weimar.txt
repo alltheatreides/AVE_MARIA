@@ -1,0 +1,26 @@
+# 256 - Weimar
+
+# County Title
+title = c_weimar
+
+# Settlements
+max_settlements = 4
+
+b_weimar = castle
+b_erfurt = city
+
+#b_memleben = temple
+#b_beichlingen = castle 
+
+#b_rudolstadt = city 
+#b_orlamunde = castle
+#b_rabenswalde = castle 
+
+# Misc
+culture = thuringian
+religion = catholic
+
+# History
+979.1.1 = { b_memleben = temple }
+1080.1.1 = { b_beichlingen = castle }
+1170.1.1 = { culture = german }

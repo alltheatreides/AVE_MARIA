@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1107 - Modigliana 
+
+# County Title
+title = c_modigliana
+
+# Settlements
+max_settlements = 4
+
+b_modigliana = castle
+#b_pila_modigliana = castle
+#b_del_trebbio = castle
+b_dovadola = castle
+
+# Misc
+culture = tuscan
+religion = catholic
+terrain = forest
+# History
+1000.1.1={ b_pila_modigliana = castle }
+1043.1.1={ b_del_trebbio = castle}
+1289.6.11 = { capital = b_dovadola }

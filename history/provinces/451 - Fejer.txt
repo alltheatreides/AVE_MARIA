@@ -1,0 +1,43 @@
+# -*- ck2.history.provinces -*-
+
+# 451 - Fejer
+
+# County Title
+title = c_fejer
+
+# Settlements
+max_settlements = 4
+
+b_szekesfehervar = tribal
+#b_adony = temple
+#b_sarbogard = city
+#b_dunafoldvar = city
+#b_mor = castle
+#b_val = temple
+#b_jasd = city
+#b_ercsi = city
+#b_solt = temple
+#b_kalocsa = castle
+#b_kiskunhalas = castle
+#b_palota = castle
+#b_rackeve = castle
+
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = old_hungarian }
+1000.1.1 = { 
+	b_szekesfehervar = castle 
+	b_adony = temple
+	b_dunafoldvar = city
+}
+1000.12.25 = {
+	religion = catholic
+	culture = hungarian
+}
+1091.4.29 = { culture = pecheneg }
+
+

@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 270 - Telemark
+
+# County Title
+title = c_telemark
+
+# Settlements
+max_settlements = 4
+
+b_fivlavollen = tribal # Tiflavellir
+#b_bratsberg = castle # Bratsberg
+#b_eidsborg = castle # Eiðsborg
+#b_skien = city # Skiða
+#b_gimsoy = temple
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+
+925.1.1 = { b_eidsborg = tribal }
+925.1.1 = { capital = b_eidsborg }
+925.1.1 = { remove_settlement = b_fivlavollen } # Cheif Aasgrim slain, and his son Torstein leaves for Iceland 
+995.1.1 = { religion = catholic }
+1024.1.1 = { 
+b_skien = city 
+b_eidsborg = castle
+b_bratsberg = castle}
+1035.1.1 = { culture = norwegian } 
+1280.1.1 = { trade_post = b_warendorp }

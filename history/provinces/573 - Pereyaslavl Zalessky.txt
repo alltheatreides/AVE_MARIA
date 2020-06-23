@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 573 - Pereyaslavl Zalessky
+
+# County Title
+title = c_pereyaslavl_zalessky
+
+# Settlements
+max_settlements = 4
+
+b_pereyaslavlzalessky = tribal
+#b_rybinsk = city
+#b_nikitskij = temple
+#b_yaroslavka = city
+
+# Misc
+culture = mari
+religion = finnish_pagan
+
+# History
+1000.1.1 = {
+	culture = russian
+	religion = slavic_pagan
+}
+1000.1.1 = {
+b_pereyaslavlzalessky = castle
+b_rybinsk = city
+b_nikitskij = temple
+}
+1025.1.1 = {
+	religion = orthodox
+}
+

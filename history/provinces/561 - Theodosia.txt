@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 561 - Theodosia
+
+# County Title
+title = c_theodosia
+
+# Settlements
+max_settlements = 4
+b_sukdak = castle
+b_theodosia = city
+b_alushta = castle
+#b_partenit = city
+
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+861.1.1 = {religion = orthodox} # saint Cyril and the oak
+1168.1.1 = { trade_post = b_grimaldi }
+# 4th Crusade: Under Venetian or Genovese rule
+
+1204.5.16= { capital = b_theodosia  }
+1204.5.16= { b_partenit = city }
+
+
+# Conquered by the Mongols
+

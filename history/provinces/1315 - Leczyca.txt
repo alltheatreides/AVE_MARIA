@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 1315 - Leczyca
+
+# County Title
+title = c_leczyca
+
+# Settlements
+max_settlements = 4
+
+b_leczyca = tribal
+#b_sulejow = castle
+#b_tum = temple
+#b_inowlodz = city
+#b_zgierz = city
+#b_uniejow = temple
+#b_przedborz = city
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = { religion = catholic 
+b_leczyca = castle}
+1045.1.1 = { b_tum = temple 
+b_sulejow = castle}

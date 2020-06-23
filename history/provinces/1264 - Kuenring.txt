@@ -1,0 +1,29 @@
+# 1264 - Kuenring
+
+# County Title
+title = c_kuenring
+
+# Settlements
+max_settlements = 4
+
+b_raabs = castle
+
+#b_kuhenring = castle
+#b_krems = city 
+#b_zwettl = temple 
+
+#b_waidhofen_an_der_thaya = city 
+#b_poigen = castle 
+#b_hardegg = castle 
+
+# Misc
+culture = bohemian
+religion = catholic
+
+# History
+#1050.1.1 = { b_raabs = castle } 
+1100.1.1 = { culture = bavarian }
+1132.1.1 = { b_kuhenring = castle } 
+1138.1.1 = { b_zwettl = temple }
+1170.1.1 = { culture = german }
+1305.1.1 = { b_krems = city }

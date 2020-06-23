@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 1043 - Lolland
+
+# County Title
+title = c_lolland
+
+# Settlements
+max_settlements = 4
+
+b_stege = tribal
+#b_refshale = castle
+#b_nykobing = city
+#b_nakskov = temple
+
+######
+#b_aalholm = castle
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History 
+1010.1.1 = { religion = catholic }
+1020.1.1 = { b_stege = castle
+b_refshale = castle
+b_nykobing = city }
+1035.1.1 = { culture = danish } 
+1200.1.1 = { b_nakskov = temple }

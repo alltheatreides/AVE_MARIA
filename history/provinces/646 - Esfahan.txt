@@ -1,0 +1,44 @@
+# -*- ck2.history.provinces -*-
+
+# 646 - Esfahan # Isfahan
+
+# County Title
+title = c_esfahan
+
+# Settlements
+max_settlements = 7
+b_esfahan = castle
+b_jay = city
+b_firuzan = city
+b_qumisha = castle
+b_gulpayagan = temple
+b_sarvistan = temple
+b_abada = castle
+
+#b_yazdikhwast = castle
+
+# Misc
+culture = persian
+religion = sunni
+
+# History
+
+867.1.1 = { 
+	b_esfahan = ca_keep_1
+	b_esfahan = ca_training_grounds_1
+	b_esfahan = ca_keep_2
+	b_esfahan = ca_stable_1
+	b_esfahan = ca_barracks_1
+	b_esfahan = ca_militia_barracks_1
+	b_esfahan = ca_wall_1
+	b_esfahan = ca_wall_2
+	b_jay = ct_wall_1
+	b_jay = ct_barracks_1
+	b_gulpayagan = tp_monastery_1
+	b_gulpayagan = tp_monastery_2
+	b_gulpayagan = tp_wall_1
+	b_gulpayagan = tp_barracks_1
+}
+1250.1.1 = {
+	remove_settlement = b_jay
+}

@@ -1,0 +1,26 @@
+# 980 - Everstein
+
+# County Title
+title = c_everstein
+
+# Settlements
+max_settlements = 4
+
+b_everstein = castle 
+b_hildesheim = temple
+
+#b_goslar = city
+#b_dassel = castle
+
+#b_wohldenberg = castle 
+#b_alfeld = city 
+#b_homburg = castle 
+
+# Misc
+culture = low_saxon
+religion = catholic
+
+# History
+1009.1.1 = { b_goslar = city }
+1100.1.1 = { culture = low_german }
+1113.1.1 = { b_dassel = castle }

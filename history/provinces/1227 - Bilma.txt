@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1227 - Bilma
+
+# County Title
+title = c_bilma
+
+# Settlements
+max_settlements = 4
+
+b_bilma = tribal
+b_dirku = city
+#b_sakadame = temple
+#b_fachi = city
+
+
+# Misc
+culture = tuareg
+religion = west_african_pagan
+
+# History
+
+#islamization
+960.1.1 = { religion = sunni }
+1068.1.1 = { b_bilma = castle } #was 960

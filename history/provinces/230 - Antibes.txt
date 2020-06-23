@@ -1,0 +1,27 @@
+# 230 - Antibes
+
+# County Title
+title = c_antibes
+
+# Settlements
+max_settlements = 4
+
+
+b_grasse = castle 
+b_nizza = city
+b_antibes = temple
+#b_vence = city
+#b_berre = castle
+#b_lerins = temple
+#b_barcelonette  = city 
+
+
+
+# Misc
+culture = ligurian
+religion = catholic
+
+
+# History
+1030.1.1 = { trade_post = b_spinola }
+1215.1.1 = { b_vence = city}

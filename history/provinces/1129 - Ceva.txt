@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1129 - Ceva
+
+# County Title
+title = c_ceva
+
+# Settlements
+max_settlements = 4
+
+b_ceva = castle
+b_mondovi = city
+b_clavesana = castle
+b_alba = temple
+
+
+# Misc
+culture = ligurian
+religion = catholic
+terrain = forest
+# History
+
+

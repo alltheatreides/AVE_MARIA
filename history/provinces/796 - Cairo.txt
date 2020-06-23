@@ -1,0 +1,61 @@
+# -*- ck2.history.provinces -*-
+
+# 796 - Cairo
+
+# County Title
+title = c_cairo
+
+# Settlements
+max_settlements = 7
+#b_cairo = castle
+b_fustat = castle
+#b_alazhar = temple         #al-Azhar
+b_amr = temple
+b_qalyub = city
+b_helwan = city
+
+#b_ain_shams = castle
+
+#b_maadi = castle
+#b_tekkekyahudiyya = castle
+#b_merimdabenisalama = castle
+
+# Misc
+culture = egyptian_arabic
+religion = sunni
+
+# History
+867.1.1 = { 
+	b_fustat = ca_keep_1
+	b_fustat = ca_training_grounds_1
+	b_fustat = ca_stable_1
+	b_fustat = ca_wall_1
+	b_fustat = ca_wall_2
+	b_fustat = ca_militia_barracks_1
+	b_helwan = ct_wall_1
+	b_helwan = ct_barracks_1
+}
+970.1.1 = {
+	religion = ismaili
+	b_cairo = castle
+	capital = b_cairo
+	b_cairo = ca_keep_1
+	b_cairo = ca_training_grounds_1
+	b_cairo = ca_stable_1
+	b_cairo = ca_wall_1
+	b_cairo = ca_wall_2
+	b_cairo = ca_militia_barracks_1
+}
+972.1.1 = {
+	b_alazhar = temple
+	b_alazhar = tp_monastery_1
+	b_alazhar = tp_monastery_2
+	b_alazhar = tp_wall_1
+	b_alazhar = tp_barracks_1
+}
+975.1.1 = { b_ain_shams = castle } #Caliph al-'Aziz builds castles in Ayn Shams
+1100.1.1 = { remove_settlement = b_ain_shams } #Castles in Ayn Shams fall into disrepair
+1171.1.1 = { religion = sunni }
+
+#1171.1.1 = { b_helwan = castle }
+#1250.1.1 = { b_ghayfa = castle }

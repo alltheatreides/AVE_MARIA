@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 10 - Kildare
+
+# County Title
+title = c_kildare
+
+# Settlements
+max_settlements = 4
+
+b_naas = tribal
+b_kildare = city
+#b_maynooth = castle
+#b_old_leighlin = temple
+
+#b_dunaulin = castle # out of use by the 7th century
+
+# Misc
+culture = irish
+religion = catholic
+
+# History
+
+#1156.1.1 = { b_naas = castle } 
+1176.1.1 = { b_maynooth = castle } 
+1176.1.1 = { capital = b_maynooth } 
+1176.1.1 = { remove_settlement = b_naas } #?

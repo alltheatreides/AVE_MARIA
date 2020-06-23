@@ -1,0 +1,26 @@
+# 250 - Breisgau
+
+# County Title
+title = c_breisgau
+
+# Settlements
+max_settlements = 4
+
+b_zahringen = castle
+b_stblasien = temple
+
+#b_freiburg = city
+#b_hachberg = castle
+
+#b_sausenberg = castle 
+#b_triberg = city 
+#b_badenweiler = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1120.1.1= { b_freiburg = city }
+1127.1.1= { b_hachberg = castle }
+1170.1.1 = { culture = german }

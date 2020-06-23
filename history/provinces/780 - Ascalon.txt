@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 780 - Ascalon/Ibelin
+
+# County Title
+title = c_ascalon
+
+# Settlements
+max_settlements = 4
+
+b_ibelin = castle
+b_latrun = temple
+b_montgisard = castle
+b_ascalon = city
+#b_karatiyya = castle
+#b_laforbie = castle
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+

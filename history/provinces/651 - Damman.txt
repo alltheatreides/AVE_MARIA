@@ -1,0 +1,18 @@
+# -*- ck2.history.provinces -*-
+
+# 651 - Damman
+
+# County Title
+title = c_damman
+
+# Settlements
+max_settlements = 4
+b_qatif = tribal
+b_darin = city
+#b_zara = castle 
+#b_safwan = city
+
+culture = bedouin_arabic
+religion = sunni
+
+# History

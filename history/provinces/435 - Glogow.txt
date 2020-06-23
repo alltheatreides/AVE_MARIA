@@ -1,0 +1,29 @@
+# 435 - Glogow
+
+title = c_glogow
+
+# Settlements
+max_settlements = 4
+
+b_glogow = tribal
+
+#b_krosno_odrzanskie = city
+#b_lubiaz = temple
+
+#b_zagan = castle
+#b_gora = city
+#b_scinawa = city
+#b_wolow = castle
+#b_wierzbna = castle
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+990.1.1 = { religion = catholic 
+b_glogow = castle
+}
+1175.1.1 = { b_lubiaz = temple }
+1214.1.1 = { b_wierzbna = castle }
+1230.1.1 = { b_krosno_odrzanskie = city }
+1250.1.1 = { culture = german }

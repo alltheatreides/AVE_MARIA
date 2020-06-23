@@ -1,0 +1,26 @@
+# 942- Saarbrucken
+
+# County Title
+title = c_saarbrucken
+
+# Settlements
+max_settlements = 4
+
+b_homburg_saar = castle
+b_saarbrucken = city
+b_tholey = temple
+
+#b_forbach = castle 
+
+#b_merzig = city
+#b_bouzonville = temple 
+#b_wallerfangen = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1029.1.1 = { b_bouzonville = temple }
+1170.1.1 = { culture = german }
+1257.1.1 = { b_bouzonville = temple }

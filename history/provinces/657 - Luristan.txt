@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 657 - Luristan
+
+# County Title
+title = c_luristan
+
+# Settlements
+max_settlements = 4
+b_sirawan = castle
+b_saimara = city
+
+#b_tarhan = city
+#b_koohdasht = city
+#b_poledokhtar = castle
+#b_abdanan = city
+
+#Misc
+culture = persian
+religion = sunni
+
+# History
+
+867.1.1 = {
+	b_sirawan = ca_keep_1
+	b_sirawan = ca_training_grounds_1
+	b_sirawan = ca_keep_2
+	b_sirawan = ca_stable_1
+	b_sirawan = ca_barracks_1
+	b_sirawan = ca_militia_barracks_1
+	b_sirawan = ca_wall_1
+	b_sirawan = ca_wall_2
+}

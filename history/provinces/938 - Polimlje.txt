@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 938 - Polimlje
+
+# County Title
+title = c_polimlje
+
+# Settlements
+max_settlements = 4
+
+b_brskovo = castle
+b_prijepolje = city
+#b_foca = city
+#b_mileseva = temple
+ 
+b_berane = temple 
+
+
+# Misc
+culture = serbian
+religion = slavic_pagan
+
+# History
+
+880.1.1 = { religion = orthodox }
+
+
+

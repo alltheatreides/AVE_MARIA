@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 500 - Serdica
+
+# County Title
+title = c_serdica
+
+# Settlements
+max_settlements = 4
+
+b_serdica = castle
+b_vratsa = city
+#b_etropole = temple
+#b_breznik = castle
+#b_samundzhievo = castle
+
+# Misc
+culture = bulgarian
+religion = orthodox
+
+# History
+

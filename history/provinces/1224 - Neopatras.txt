@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1224 - Neopatras
+
+# County Title
+title = c_neopatras
+
+# Settlements
+max_settlements = 4
+b_zetounion = castle
+b_pharsalos = city
+b_neopatras = temple
+#b_domokos = temple
+#b_siderokastronthessaly = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1155.1.1 = { trade_post = b_dandolo }
+
+1268.1.1 = { b_neopatras = castle b_pharsalos = temple b_zetounion = city }
+1268.1.1 = { capital = b_neopatras }
+
+
+

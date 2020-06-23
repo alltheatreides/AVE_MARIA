@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 700 - Bira
+
+# County Title
+title = c_bira
+
+# Settlements
+max_settlements = 4
+b_nasibin = castle
+b_araban = city
+b_dara = temple
+
+#b_amuda = castle
+
+#Misc
+	culture = assyrian
+	religion = nestorian
+
+# History
+
+1070.1.1 = { 
+	culture = levantine_arabic
+	religion = sunni
+}

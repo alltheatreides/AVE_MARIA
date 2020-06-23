@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1386 - Kiri
+
+# County Title
+title = c_kiri
+
+# Settlements
+max_settlements = 4
+b_kiri = tribal
+b_diakha = temple
+
+#b_tabon = castle
+#b_kita = city
+
+# Misc
+culture = manden
+religion = west_african_pagan
+
+# History
+1070.1.1 = { b_kita = city }
+1070.1.1 = { b_kiri = castle }

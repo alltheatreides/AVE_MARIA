@@ -1,0 +1,24 @@
+# 1060 - La roche
+
+# County Title
+title = c_laroche
+
+# Settlements
+max_settlements = 4
+
+b_laroche = castle
+b_durbuy = castle
+b_st_hubert = temple
+
+#b_bastogne = city
+
+#b_houffalize = castle 
+#b_marche_en_famenne = city 
+#b_mirwart = castle 
+
+# Misc
+culture = frankish
+religion = catholic
+
+# History
+1102.6.22   = { b_bastogne = city }

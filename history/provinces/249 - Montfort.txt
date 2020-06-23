@@ -1,0 +1,28 @@
+# 249 - Montfort
+
+# County Title
+title = c_montfort
+
+# Settlements
+max_settlements = 4
+
+b_montfort = castle
+b_bregenz = city
+b_lindau = temple
+
+#b_hohenems = castle
+
+#b_werdenberg = castle 
+#b_feldkirch = city 
+#b_sax = castle 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+
+#800.1.1 = { name = "Bregenz" }
+#1000.1.1 = { name = "Montfort" }
+1170.1.1 = { culture = german }
+1170.1.1= { b_hohenems = castle }

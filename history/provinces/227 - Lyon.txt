@@ -1,0 +1,26 @@
+# 227 - Lyon
+
+# County Title
+title = c_lyon
+
+# Settlements
+max_settlements = 4
+
+b_pusignan = castle
+b_lyon = temple
+b_jarez = castle
+b_venissieux = city
+#b_bron = castle
+#b_chandieu = castle
+#b_givors = castle
+
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1193.1.1 = { #was 1202.11.28
+	capital = b_lyon
+}
+#1248.1.1 = {b_bron = castle}

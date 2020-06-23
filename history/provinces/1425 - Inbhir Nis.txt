@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1425 - Inbhir Nis
+
+# County Title
+title = c_inbhirnis
+
+# Settlements
+max_settlements = 4
+b_eilean_donan = tribal
+b_inverness = city
+#b_invergarry = temple
+#b_urquhart = castle
+
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+
+1146.1.1 = { b_eilean_donan = castle } 

@@ -1,0 +1,26 @@
+# 1044 - Dagsburg
+
+# County Title
+title = c_dagsburg
+
+# Settlements
+max_settlements = 4
+
+b_dagsburg = castle 
+b_saarwerden = castle
+
+#b_zabern = city 
+#b_herbitzheim = temple 
+
+#b_lutzelstein = castle
+#b_lichtenberg = castle
+#b_neuwiller = temple
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+870.1.1 = { b_herbitzheim = temple }
+1170.1.1 = { culture = german }
+1286.1.1 = { b_zabern = city }

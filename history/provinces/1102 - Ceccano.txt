@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1102 - Ceccano
+
+# County Title
+title = c_ceccano
+
+# Settlements
+max_settlements = 4
+
+b_ceccano = castle
+b_supino = castle
+#b_ferentino = city
+b_alatri = temple
+#b_moloro = castle
+
+
+# Misc
+culture = laziale
+religion = catholic
+terrain = plains
+
+# History

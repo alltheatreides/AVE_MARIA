@@ -1,0 +1,24 @@
+# 1263 - Opava
+
+# County Title
+title = c_opava
+# Settlements
+max_settlements = 4
+
+b_opava = castle
+#b_bruntal = city
+#b_krnov = temple 
+#b_odry = castle 
+
+#b_hlubcice = city #Leobschütz/Glubczyce
+#b_edelstejn = castle #Edelstein
+#b_hlucin = city #Hultschin 
+
+# Misc
+culture = slovieni
+religion = catholic
+
+# History
+1210.1.1 = { b_bruntal = city }
+1253.1.1 = { b_odry = castle }
+1273.1.1 = { b_krnov = temple }

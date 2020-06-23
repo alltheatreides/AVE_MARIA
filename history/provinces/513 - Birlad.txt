@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+## 513 - Birlad
+
+# County Title
+title = c_birlad
+
+# Settlements
+max_settlements = 4
+
+b_barladmoldavia  = tribal
+#b_galati = city
+#b_putna = temple
+#b_adjud = castle
+#b_ceatea_craciuna = castle
+
+# Misc
+culture = romanian
+religion = orthodox
+
+# History
+927.1.1 = {
+	culture = pecheneg
+	religion = tengri_pagan
+}
+1125.1.1 = {
+	culture = romanian
+	religion = orthodox
+}
+1280.1.1 = {
+	b_barladmoldavia  = castle
+	b_galati = city
+	b_putna = temple
+} 

@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 478 - Monemvasia
+
+# County Title
+title = c_monemvasia
+
+# Settlements
+max_settlements = 4
+b_monemvasia = castle
+b_lacedaemonia = city
+b_elos = temple
+
+#b_geraki = city
+#b_mistra = castle
+#b_passavas = castle
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = hills
+
+# History
+1121.1.1 = { trade_post = b_morosini }
+1194.1.1 = { remove_settlement = b_elos }
+1204.1.1 = { b_passavas = castle }
+1204.1.1 = { b_geraki = city }
+1259.1.1 = { remove_settlement = b_lacedaemonia }
+1259.1.1 = { b_mistra = castle }
+1259.1.1 = { capital = b_mistra }
+ 
+

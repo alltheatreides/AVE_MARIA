@@ -1,0 +1,25 @@
+# 1417 Windische Mark
+
+# County Title
+title = c_windische_mark
+
+# Settlements
+max_settlements = 4
+
+b_altenburg_krain = castle 
+b_sittich = temple
+
+#b_konstanjevica = city #german = Landstrass
+#b_weichselberg = castle 
+
+#b_trebnje = castle #Treffen
+#b_graben = castle 
+#b_rudolphswerth = city #Novo mesto 
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+1136.1.1 = { b_weichselberg = castle }
+1210.1.1 = { b_konstanjevica = city }

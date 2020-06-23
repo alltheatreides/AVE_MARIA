@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 484 - Naxos
+
+# County Title
+title = c_naxos
+
+# Settlements
+max_settlements = 4
+
+b_naxos = castle
+b_paros = city
+
+#b_thera = temple
+#b_andros = city
+#b_syros = castle
+#b_mykonos = city
+
+# Misc
+culture = greek
+religion = orthodox
+terrain = mountain
+
+# History
+1154.1.1 = { trade_post = b_morosini }
+1200.1.1 = { b_andros = castle }
+1200.1.1 = { b_mykonos = castle }
+#4th Crusade
+
+#1205.1.1 = { religion = catholic } 
+
+

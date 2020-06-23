@@ -1,0 +1,28 @@
+# 251 - Fürstenberg
+
+# County Title
+title = c_furstenberg
+
+# Settlements
+max_settlements = 4
+
+b_furstenberg = castle
+
+#b_sanktgeorgen = temple #Sankt Georgen
+#b_villingen = city
+#b_lupfen = castle
+
+#b_stuhlingen = castle 
+#b_kussenberg = castle 
+#b_braunlingen = city #Bräunlingen
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1065.1.1 = { b_lupfen = castle } 
+1086.1.1 = { b_sanktgeorgen = temple } 
+1170.1.1 = { culture = german }
+1218.1.1 = { b_villingen = city }
+

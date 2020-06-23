@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 681 - Ani
+
+# County Title
+title = c_ani
+
+# Settlements
+max_settlements = 7
+b_kumayri = castle
+b_ani = city
+b_erazgewors = city
+b_surpasdvadzadzin = temple
+b_marmashen = temple
+b_tekor = city
+b_horomos = temple
+
+# Misc
+culture = armenian
+religion = apostolic
+terrain = hills # Got some mountains in the east, but most of the holdings in the province lies in the Shirak VALLEY, demoting the province to hills
+
+# History

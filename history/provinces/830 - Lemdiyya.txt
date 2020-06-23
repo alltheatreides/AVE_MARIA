@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 830 - Lemdiyya # Achir
+
+# County Title
+title = c_lemdiyya  # Achir
+
+# Settlements
+max_settlements = 4
+
+b_achir = tribal
+b_lemdiyya = city
+
+#b_djelfa = city
+#b_elyourh = temple
+#b_selmana = castle
+#b_ainzmila = castle
+
+#b_elrhenb = castle
+#b_sidimohammed = castle
+#b_elhachem = castle
+
+# Misc
+culture = zanata
+religion = ibadi
+
+# History
+940.1.1 = { b_achir = castle } #Ziri b. Manad constructs citadel of Ashir
+
+
+

@@ -1,0 +1,27 @@
+# 115 - Vianden
+
+# County Title
+title = c_vianden
+
+# Settlements
+max_settlements = 4
+
+b_vianden = castle
+b_prum = temple
+
+#b_gerolstein = city
+#b_reifferscheid = castle 
+
+#b_hamm = castle
+#b_clerf = castle 
+#b_blankenheim = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+#1026.1.1 = { b_hamm = castle }
+1170.1.1 = { culture = german }
+1173.1.1 = { b_reifferscheid = castle }
+1336.1.1 = { b_gerolstein = city }

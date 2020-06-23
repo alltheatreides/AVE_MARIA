@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1337 - Manfalut
+
+# County Title
+title = c_manfalut
+
+# Settlements
+max_settlements = 4
+b_manfalut = castle
+b_qusqam = temple #Qús Qám
+b_ushmun = city  #al-Ushmún
+b_saft = temple #Saft al-Muhallabi
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+1035.1.1 = { culture = egyptian_arabic religion = sunni }

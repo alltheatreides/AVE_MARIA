@@ -1,0 +1,34 @@
+# -*- ck2.history.provinces -*-
+
+# 1307 - Bandava
+
+# County Title
+title = c_bandava
+
+# Settlements
+max_settlements = 4
+
+b_embute = tribal
+#b_kuldiga = city
+#b_piltene = temple
+#b_edole = temple
+
+# Misc
+culture = lettigallish
+
+religion = baltic_pagan
+
+# History
+1219.1.1 = {
+b_piltene = castle
+} # tiny Danish foothold
+1230.1.1 = {
+b_embute = castle
+b_kuldiga = city
+b_piltene = temple
+} # Livonian order
+1251.3.3 = {
+	capital = b_piltene
+	b_piltene= temple
+} #bishoperic of Kurland
+1290.1.1 = { religion = catholic }

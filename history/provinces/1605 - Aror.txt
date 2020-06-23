@@ -1,0 +1,22 @@
+# -*- ck2.history.provinces -*-
+
+# 1605 - Aror
+
+# County Title
+title = c_aror
+
+# Settlements
+max_settlements = 4
+b_aror = castle
+b_sukkur = city
+#b_chak = temple
+#b_basmak = city
+#b_siraj_ji_takri = temple
+#b_allah_abad = temple
+
+# Misc
+culture = sindhi
+religion = hindu
+
+# History
+1220.1.1 = { religion = sunni }

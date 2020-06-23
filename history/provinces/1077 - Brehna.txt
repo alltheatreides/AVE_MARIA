@@ -1,0 +1,32 @@
+# 1077 - Brehna
+
+# County Title
+
+title = c_brehna
+
+# Settlements
+max_settlements = 4
+
+b_wettin = tribal
+
+#b_halle = city 
+#b_brehna = castle 
+#b_lauterberg = temple 
+
+#b_bitterfeld = city 
+#b_herzberg = castle 
+#b_pretzsch = castle 
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+937.1.1 = { religion = catholic }
+937.1.1 = { 
+b_wettin = castle
+b_halle = city }
+1053.1.1= { b_brehna = castle } 
+1100.1.1 = { culture = thuringian } 
+1124.1.1= { b_lauterberg = temple } 
+1170.1.1 = { culture = german } 

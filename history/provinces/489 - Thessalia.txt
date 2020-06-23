@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 489 - Thessalia
+
+# County Title
+title = c_thessalia
+
+# Settlements
+max_settlements = 4
+b_larissa = castle
+b_elasson = city
+b_platamon = castle
+#b_domenikon = castle
+#b_tyrnavos = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1155.1.1 = { trade_post = b_dandolo }
+
+
+

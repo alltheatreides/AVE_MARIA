@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 594 - Sarkel
+
+# County Title
+title = c_sarkel
+
+# Settlements
+max_settlements = 4
+
+b_tsimlyansk = tribal
+b_sarkel = city
+#b_upper_saltov = tribal
+#b_starobilsk = castle
+
+
+ 
+# Misc
+culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
+religion = tengri_pagan
+terrain = steppe
+# History
+
+# History
+966.1.1 = { culture = pecheneg }
+1044.1.1 = { culture = oghuz }
+1060.1.1 = { culture = cuman }
+
+1227.1.1 = { religion = sunni } 
+
+1238.1.1 = { culture = mongol }
+
+

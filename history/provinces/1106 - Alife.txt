@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1106 - Alife
+
+# County Title
+title = c_alife
+
+# Settlements
+max_settlements = 4
+
+b_alife = castle
+b_caiazzo = temple
+#b_altavilla_irpina = castle
+#b_avellino = castle
+
+
+
+
+
+# Misc
+culture = langobardisch
+religion = catholic
+terrain = forest
+# History
+1100.1.1={ b_avellino = castle }
+1140.1.1={ culture = neapolitan }
+1230.1.1={ b_altavilla_irpina = castle }

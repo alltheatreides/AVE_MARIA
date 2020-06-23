@@ -1,0 +1,27 @@
+# 981 - Truhendingen
+
+# County Title
+title = c_truhendingen
+
+# Settlements
+max_settlements = 4
+
+b_abenberg = castle
+b_feuchtwangen = temple
+
+#b_ansbach = city
+#b_truhendingen = castle
+
+#b_dornberg = castle 
+#b_gunzenhausen = city 
+#b_spielberg = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1129.1.1 = { b_truhendingen = castle }
+1170.1.1 = { culture = german }
+1221.1.1 = { b_ansbach = city }
+1248.1.1 = { capital = b_truhendingen }

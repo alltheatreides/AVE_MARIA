@@ -28,8 +28,23 @@ spriteTypes = {
 	
 }
 
-
-
+#FACTIONS
+spriteTypes = {
+	spriteType = {
+		name = "GFX_roman_administration_faction_powerful_man_2"
+		texturefile = "gfx/interface/roman_administration_faction_powerful_man_2_icon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_faction_court"
+		texturefile = "gfx/interface/roman_administration_faction_powerful_man_2_icon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
 
 ##DECISIONS
 spriteTypes = {

@@ -1,0 +1,28 @@
+# 1031 - Zollern
+
+# County Title
+title = c_zollern
+
+# Settlements
+max_settlements = 4
+
+
+b_zollern = castle
+b_rottweil = city
+
+#b_stetten = temple
+#b_hohenberg = castle
+
+#b_hechingen = city 
+#b_stauffenberg = castle 
+#b_balingen = city 
+
+# Misc
+culture = swabian
+religion = catholic
+
+# History
+1170.1.1 = { culture = german }
+1179.1.1 = { b_hohenberg = castle } 
+1261.1.1 = { b_stetten = temple } 
+

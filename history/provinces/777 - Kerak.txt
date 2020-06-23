@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 777 - Kerak
+
+# County Title
+title = c_kerak
+
+# Settlements
+max_settlements = 4
+b_krakdemoab = castle
+b_kerak = city
+b_tafila = temple
+#b_syrdibban = city
+#b_syralrabbah = temple
+
+
+
+
+
+# Misc
+culture = levantine_arabic
+religion = sunni
+
+# History
+
+974.1.1 = { remove_settlement = b_tafila culture = bedouin_arabic } #Tribalisation/Nomadization of al-Urdunn
+974.1.1 = { b_krakdemoab = tribal } #Tribalisation/Nomadization of al-Urdunn
+1115.1.1 = { b_tafila = temple } #Crusader Conquest
+1115.1.1 = { b_krakdemoab = castle } #Crusader Conquest
+1187.10.2 = { b_krakdemoab = tribal } #Falls to the Ayyubids
+1187.10.2 = { remove_settlement = b_tafila } #Falls to the Ayyubids
+1250.5.2 = { b_krakdemoab = castle }
+1309.1.1 = { b_krakdemoab = tribal } 

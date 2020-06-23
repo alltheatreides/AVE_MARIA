@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1275 - Novosil
+
+# County Title
+title = c_novosil
+
+# Settlements
+max_settlements = 4
+
+b_novosil = tribal
+#b_mtsensk = city
+#b_kolpny = temple
+
+#b_korsev = castle
+#b_livny = city
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+1025.1.1 = {religion = orthodox }
+1025.1.1 = {b_novosil = castle
+b_mtsensk = city
+b_kolpny = temple }

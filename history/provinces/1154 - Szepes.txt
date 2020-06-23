@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 1154 - Szepes
+
+# County Title
+title = c_szepes
+
+# Settlements
+max_settlements = 4
+
+b_szepes = tribal
+b_szepesbela = city
+b_kesmark = castle
+
+#b_csutortokhely = temple
+#b_hybbe = temple
+#b_lublo = castle
+#b_hethars = castle
+#b_locse = castle
+
+# Misc
+culture = russian # White Croats
+religion = catholic
+
+# History
+
+1033.1.1 = { b_szepes = castle }

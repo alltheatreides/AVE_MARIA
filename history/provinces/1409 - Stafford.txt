@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1409 - Stafford # Shropshire
+
+# County Title
+title = c_stafford
+
+# Settlements
+max_settlements = 4
+
+b_stafford = castle
+b_tamworth = city
+b_leichfield = temple
+#b_wolverhampton = temple
+#b_burton_upon_trent = temple
+#b_tutbury = castle
+#b_chartley = castle
+
+
+# Misc
+culture = saxon
+religion = catholic
+
+# History
+
+1071.1.1={
+	b_tutbury = castle
+}
+1071.1.1 = { remove_settlement = b_leichfield }
+1100.11.11 = { culture = english }

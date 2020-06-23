@@ -1,0 +1,33 @@
+# -*- ck2.history.provinces -*-
+
+# 687 - Kirkuk
+
+# County Title
+title = c_kirkuk
+
+# Settlements
+max_settlements = 4
+b_daquq = castle
+b_kirkuk = city
+b_hanijar = temple
+#b_lashom = temple
+
+#Misc
+culture = persian
+religion = sunni
+
+# History
+
+867.1.1 = { 
+	b_daquq = ca_keep_1
+	b_daquq = ca_training_grounds_1
+	b_daquq = ca_keep_2
+	b_daquq = ca_stable_1
+	b_daquq = ca_barracks_1
+	b_daquq = ca_militia_barracks_1
+	b_daquq = ca_wall_1
+	b_daquq = ca_wall_2
+}
+910.1.1 = {
+	culture = kurdish
+}

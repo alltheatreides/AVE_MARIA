@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 749 - Dorylaion
+
+# County Title
+title = c_dorylaion
+
+# Settlements
+max_settlements = 4
+
+b_dorylaion = castle
+b_kotyaion = city
+b_nakoleia = temple
+#b_midaion = city
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+
+
+1185.1.1 = { culture = turkmen }
+1185.1.1 = { religion = sunni }
+1250.1.1 = { b_kotyaion = castle }
+1250.1.1 = { b_dorylaion = city }
+1250.1.1 = { capital = b_kotyaion }
+1256.1.1 = { culture = turkish }

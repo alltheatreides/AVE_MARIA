@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 528 - Sieradzko-Leczyckie
+
+# County Title
+title = c_sieradzko-leczyckie
+
+# Settlements
+max_settlements = 4
+b_sieradz = tribal
+#b_radomsko = city
+#b_wolborz = temple
+#b_warta = city
+#b_piotrkow = city
+#b_konin = city
+#b_kolo = city
+
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+999.7.1 = { religion = catholic 
+b_sieradz = castle
+b_radomsko = city}
+1065.1.1 = { b_wolborz = temple }
+1187.1.1 = { b_warta = city }

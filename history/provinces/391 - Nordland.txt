@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 391 - Nordland # Nordmøre
+
+# County Title
+title = c_nordland
+
+# Settlements
+max_settlements = 4
+
+b_austraat = tribal # Austrátt
+#b_uthaug = city # Upphaughr
+#b_bjerkestrand = tribal # Birkistrond
+#b_selva = castle # Solvi
+#b_rissa = castle # Rein
+
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+1015.1.1 = { 
+b_austraat = castle
+b_bjerkestrand = castle
+b_rissa = castle } #Fat Olav
+1024.1.1 = { religion = catholic }
+1035.1.1 = { culture = norwegian } 
+
+
+

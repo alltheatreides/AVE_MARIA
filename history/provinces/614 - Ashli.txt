@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 614 - Ashli
+
+# County Title
+title = c_ashli
+
+# Settlements
+max_settlements = 4
+
+b_ashli = tribal
+#b_buinsk = castle
+#b_tetyushi = city
+#b_sviyazhsk = castle
+
+# Misc
+culture = bolghar
+religion = tengri_pagan
+terrain = steppe
+
+# History
+923.1.1 = { religion = sunni } 
+923.1.1 = { b_sviyazhsk = castle } 
+923.1.1 = { capital = b_sviyazhsk }
+923.1.1 = { b_ashli = temple } 

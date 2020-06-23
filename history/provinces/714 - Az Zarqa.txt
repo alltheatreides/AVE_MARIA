@@ -1,0 +1,24 @@
+# -*- ck2.history.provinces -*-
+
+# 714 - Az Zarqa
+# reused as Azraq
+# County Title
+title = c_az_zarqa
+
+# Settlements
+max_settlements = 4
+
+b_amrah = tribal
+b_azraq = city
+#b_kharana = castle
+#b_tuba = castle
+#b_mshatta = castle
+#b_amratamad = city
+
+#
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

@@ -1,0 +1,35 @@
+# -*- ck2.history.provinces -*-
+
+# 19 - Glamorgan
+
+# County Title
+title = c_glamorgan
+
+# Settlements
+max_settlements = 4
+b_neath = tribal
+b_cardiff = city
+#b_llandaff = temple
+#b_caerphilly = castle
+
+
+# Misc
+culture = welsh
+religion = catholic
+terrain = hills
+
+# History
+
+930.1.1 = {
+	b_neath = castle
+}
+#1066.1.1 = { 
+#	b_neath = tb_hillfort_1
+#	b_neath = tb_hillfort_2
+#	b_neath = tb_training_grounds_1
+#	b_neath = tb_war_camp_1
+#}
+1090.1.1={
+	#b_cardiff = city
+	b_llandaff = temple
+}

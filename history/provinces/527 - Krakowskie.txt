@@ -1,0 +1,31 @@
+# -*- ck2.history.provinces -*-
+
+# 527 - Krakowskie
+
+# County Title
+title = c_krakowskie
+
+# Settlements
+max_settlements = 7
+b_wawel = tribal
+#b_krakow = city
+b_tyniec = temple
+#b_olkusz = castle
+#b_mstow = temple
+#b_lelow = castle
+#b_kazimierz = city
+#b_czestochowa = temple
+
+
+# Misc
+culture = polish
+religion = slavic_pagan
+
+# History
+990.1.1 = { religion = catholic 
+b_wawel = castle
+b_krakow = city
+}
+1193.1.1 = { b_lelow = castle 
+b_mstow = temple}
+1257.1.1 = { b_olkusz = city }

@@ -1,0 +1,28 @@
+# -*- ck2.history.provinces -*-
+
+# 685 - Nineveh
+
+# County Title
+title = c_nineveh
+
+# Settlements
+max_settlements = 7
+b_bartella = castle
+b_karamlish = temple # Yazidi Holy Place
+b_bakhdida = city
+b_baqofah = castle
+b_duhok = city
+b_aqra = temple
+#b_maaltha = temple
+#b_marmattai = temple
+
+#Misc
+culture = assyrian
+religion = nestorian
+terrain = plains # Should either be plains or hills. Probably a bit more plains (in the south) than hills (in the north)
+
+# History
+1375.1.1 = {
+	culture = kurdish
+	religion = yazidi
+}

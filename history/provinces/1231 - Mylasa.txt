@@ -1,0 +1,40 @@
+# -*- ck2.history.provinces -*-
+
+# 1231 - Mylasa
+
+# County Title
+title = c_mylasa
+
+# Settlements
+max_settlements = 4
+
+b_halikarnassos = castle
+b_mylasa = city
+b_knidos = temple
+
+#b_strobilos = castle
+
+# Misc
+culture = greek
+religion = orthodox
+
+# History
+1.1.1 = {
+	build_wonder = wonder_mausoleum_halicarnassus
+	set_wonder_stage = 4
+	build_wonder_upgrade = upgrade_quadriga_statue
+}
+1090.1.1 = { b_strobilos = castle }
+1175.1.1 = { trade_post = b_morosini }
+# Exact destruction date unknown, probably between 1200-1300, probably by earthquake
+1200.1.1 = {
+	set_wonder_stage = 2
+	destroy_wonder_upgrade = upgrade_quadriga_statue
+	set_wonder_damaged = yes
+}
+1290.1.1 = { remove_settlement = b_knidos }
+1290.1.1 = { remove_settlement = b_strobilos }
+1290.1.1 = { b_mylasa = castle }
+1290.1.1 = { capital = b_mylasa }
+1305.1.1 = { culture = turkish }
+1305.1.1 = { religion = sunni }

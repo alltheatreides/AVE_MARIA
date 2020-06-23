@@ -1,0 +1,30 @@
+# -*- ck2.history.provinces -*-
+
+# 1351 - Nafzawa
+
+# County Title
+title = c_nafzawa
+
+# Settlements
+max_settlements = 4
+
+b_nafzawa = castle
+b_turra = city
+#b_alqalah = temple
+b_tamulast = city #extreme southeast of Jabal Dammar
+
+#b_kebili = city
+#b_souf = city
+
+# Misc
+culture = sanhaja
+religion = ibadi
+
+# History
+930.1.1 = { religion = ismaili }
+1052.1.1 = { religion = sunni }
+1052.1.1 = { culture = bedouin_arabic }
+1052.1.1 = { b_nafzawa = tribal }
+1100.1.1 = { culture = maghreb_arabic }
+1146.1.1 = { b_nafzawa = castle }
+

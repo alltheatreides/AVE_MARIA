@@ -1,0 +1,25 @@
+# 960 - Wertheim
+
+# County Title
+title = c_wertheim
+
+# Settlements
+max_settlements = 4
+
+b_wertheim = castle
+b_mosbach = temple
+b_heilbronn = city
+
+#b_lauffen = castle 
+
+#b_wimpfen = city
+#b_durn = castle 
+#b_weinsberg = castle 
+
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1011.1.1 = { b_lauffen = castle }
+1170.1.1 = { culture = german }

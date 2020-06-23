@@ -1,0 +1,28 @@
+# 81 - Westfriesland
+
+# County Title
+title = c_westfriesland
+
+# Settlements
+max_settlements = 4
+
+b_alkmaar = castle
+b_egmond = temple
+ 
+#b_medemblik = city 
+#b_schagen = castle
+
+##
+#b_egmond_aan_den_hof = castle
+#b_hoorn = city
+#b_enkhuizen = city
+
+# Misc
+culture = frisian
+religion = catholic
+
+# History
+#1200.1.1 = { culture = dutch }
+1250.1.1 = { b_schagen = castle }
+1255.1.1 = { trade_post = b_vorrade }
+1289.1.1 = { b_medemblik = city }

@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1140 - Bobbio/Gavi
+
+# County Title
+title = c_gavi
+
+# Settlements
+max_settlements = 4
+
+b_gavi = castle
+b_bobbio = temple
+b_tortona = city
+b_voghera = castle
+
+
+
+# Misc
+culture = ligurian
+religion = catholic
+terrain = forest
+# History
+1202.1.1 = { capital = b_voghera } 

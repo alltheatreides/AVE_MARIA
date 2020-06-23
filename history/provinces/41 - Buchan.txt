@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 41 - Buchan
+
+# County Title
+title = c_buchan
+
+# Settlements
+max_settlements = 4
+b_banff = tribal
+b_mortlach = temple
+#b_gamrie = city
+#b_keith = castle
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+1146.1.1 = { b_banff = castle } 

@@ -1,0 +1,27 @@
+# 1965 - Hirschberg
+
+# County Title
+title = c_hirschberg
+
+# Settlements
+max_settlements = 4
+
+b_hirschberg = castle
+b_eichstatt = temple
+
+#b_weissenburg_am_sand = city
+#b_lechsgemund = castle
+
+#b_pappenheim = castle
+#b_heideck = castle 
+#b_plankstetten = temple 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1035.1.1 = { b_lechsgemund = castle }
+#1141.1.1 = { b_pappenheim = castle }
+1170.1.1 = { culture = german }
+1188.1.1 = { b_weissenburg_am_sand = city }

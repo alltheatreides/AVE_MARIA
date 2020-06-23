@@ -1,0 +1,32 @@
+# 1028 - Gutzkow
+
+# County Title
+title = c_gutzkow
+
+# Settlements
+max_settlements = 4
+
+b_gutzkow = tribal
+b_demmin = city
+
+#b_stolpe= temple
+#b_loitz = city 
+#b_greifswald = city
+
+#b_jarmen = city
+#b_kemnitz = city
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan
+
+# History
+
+1128.1.1 = { b_gutzkow = castle }# To Pomerania
+1128.1.1 = { b_demmin = city }
+
+1128.1.1 = { religion = catholic } # Otto of Bamberg
+1153.1.1 = { b_stolpe = temple }
+1250.1.1 = { culture = low_german } 
+1250.1.1 = { b_greifswald = city } 
+1290.1.1 = { trade_post = b_bardewik }

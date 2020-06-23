@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 713 - Druz
+
+# County Title
+title = c_druz
+
+# Settlements
+max_settlements = 4
+b_qalattagrit = castle
+b_tagrit = temple
+b_jabulta = city
+#b_barimma = temple
+
+# Misc
+culture = assyrian
+religion = syriac
+
+# History
+995.1.1 = { 
+	culture = levantine_arabic
+	religion = sunni
+}

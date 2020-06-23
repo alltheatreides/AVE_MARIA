@@ -1,0 +1,26 @@
+# 457 - Krain
+
+# County Title
+title = c_krain
+
+# Settlements
+max_settlements = 4
+
+b_krainburg = castle
+
+#b_laibach = city
+#b_seiz = temple
+#b_auersperg = castle
+
+#b_kamnik = city #Stein
+#b_gamberk = castle #Gallenberg
+#b_postojna = city #Adelsberg
+
+# Misc
+culture = carantanian
+religion = catholic
+
+# History
+955.1.1 = { b_auersperg = castle }
+1165.1.1 = { b_seiz = temple }
+1220.1.1 = { b_laibach = city }

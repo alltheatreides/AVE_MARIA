@@ -1,0 +1,27 @@
+# -*- ck2.history.provinces -*-
+
+# 913 - Ghana
+
+# County Title
+title = c_ghana #Wagadu
+
+# Settlements
+max_settlements = 7
+b_koumbi_saleh = castle
+b_samakanda = city #Sama/Samakanda
+b_ghanata = temple
+b_goumbou = castle
+
+#b_kusata = castle 
+#b_nema = castle 
+#b_daligumbe = castle
+#b_el_ghaba = castle
+
+# Misc
+culture = soninke
+religion = west_african_pagan
+
+# History
+
+#islamization
+1067.1.1 = { religion = sunni }

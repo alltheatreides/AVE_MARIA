@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 734 - Aintab
+
+# County Title
+title = c_aintab
+
+# Settlements
+max_settlements = 4
+b_ravendan = castle
+b_aintab = city
+#b_duluk = castle
+#b_killiz = = city
+#b_tulupe = castle
+
+
+# Misc
+culture = assyrian
+religion = syriac
+
+# History
+1030.1.1 = { 
+	culture = armenian 
+	religion = apostolic
+}
+1177.1.1 = { 
+	culture = kurdish 
+	religion = sunni
+}
+1320.1.1 = { culture = levantine_arabic }
+
+

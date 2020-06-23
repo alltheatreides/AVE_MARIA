@@ -1,0 +1,26 @@
+# 359 - Lienz/Unterinntal
+
+# County Title
+title = c_lienz
+
+# Settlements
+max_settlements = 4
+
+b_bruck_an_der_drava = castle 
+b_innichen = temple # italian = San Candido
+
+#b_lienz = city
+#b_matrei = castle
+
+#b_heinfels = castle
+#b_lengberg = castle  
+#b_anras = castle 
+
+# Misc
+culture = bavarian
+religion = catholic
+
+# History
+1160.1.1 = { b_matrei = castle }
+1170.1.1 = { culture = german }
+1242.1.1 = { b_lienz = city }

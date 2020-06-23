@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1479 - Tweedale
+
+# County Title
+title = c_tweedale
+
+# Settlements
+max_settlements = 4
+b_neidpath = castle
+b_stobo = temple
+#b_peebles = city
+b_selkirk = castle
+#b_stow_of_wedale = temple
+
+
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+700.1.1 = { culture = saxon }
+955.1.1 = { b_neidpath = tribal }
+1097.1.1 = { b_neidpath = castle }
+1100.11.11 = { culture = english }

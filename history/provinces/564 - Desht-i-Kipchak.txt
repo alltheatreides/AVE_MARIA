@@ -1,0 +1,37 @@
+# -*- ck2.history.provinces -*-
+
+# 564 - Desht-i-Kipchak # Oskol/Esen
+
+# County Title
+title = c_desht-i-kipchak
+
+# Settlements
+max_settlements = 4
+
+b_mayaki = tribal
+#b_osen = city
+#b_stary_oskol = tribal
+#b_korshev = castle
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+825.1.1 = { culture = pecheneg } 
+#825.1.1 = { religion = manichean } 
+895.1.1 = { culture = alan } # was garnisioned by alans.
+895.1.1 = { religion = zoroastrian }
+966.1.1 = { culture = oghuz } 
+966.1.1 = { religion = tengri_pagan } 
+1050.1.1 = { culture = cuman } 
+1050.1.1 = { religion = tengri_pagan } 
+1200.1.1 = { religion = orthodox } 
+1200.1.1 = { culture = russian } 
+1200.1.1 = { b_stary_oskol = castle } 
+#1200.1.1 = { capital = b_stary_oskol }
+#1200.1.1 = { remove_settlement = b_mayaki}
+1236.1.1 = { religion = sunni } 
+1236.1.1 = { culture = cuman } 
+1236.1.1 = { b_stary_oskol = tribal }
+1236.1.1 = { remove_settlement = b_mayaki}

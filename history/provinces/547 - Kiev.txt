@@ -1,0 +1,46 @@
+# -*- ck2.history.provinces -*-
+
+# 547 - Kiev
+# Tweaked b_churchofthetithes
+
+# County Title
+title = c_kiev
+
+# Settlements
+max_settlements = 7
+
+b_kiev = tribal
+#b_vyshhorod= castle
+#b_podol = city
+b_bilohorodka = temple
+#b_churchofthetithes = temple
+#b_kanevkievskij = city
+#b_vasylkiv = castle
+
+#b_trypillya = castle
+#b_gorodeckievskij = city
+#b_svjatopolc = city
+#b_zarub = city
+#b_berestovocchurchquarter = temple
+
+# Misc
+culture = russian
+religion = slavic_pagan
+
+# History
+940.1.1 = { b_podol = city }
+988.1.1 = {religion = orthodox }
+988.1.1 = {
+b_kiev = castle
+b_bilohorodka = castle
+#b_vyshhorod= castle
+b_churchofthetithes = temple
+b_kanevkievskij = city
+b_vasylkiv = castle }
+1169.1.1 = { remove_settlement = b_vasylkiv } #sacked by Andrey Bogolyubsky
+#1240.1.1 = { remove_settlement = b_vyshhorod } #sacked by Mongols
+1241.1.2 = { #sacked by Mongols
+	remove_settlement = b_bilohorodka
+	remove_settlement = b_churchofthetithes
+}
+

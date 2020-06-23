@@ -1,0 +1,26 @@
+# -*- ck2.history.provinces -*-
+
+# 1538 - Sarakhs
+
+# County Title
+title = c_sarakhs
+
+# Settlements
+max_settlements = 4
+b_sarakhs = castle
+b_mayhana = city
+b_dandankan = city
+
+#b_mazduran = temple
+
+
+# Misc
+culture = khorasani
+religion = sunni
+
+# History
+
+960.1.1 = {	religion = sunni }
+
+#1020.1.1 = { b_dandankan = city }
+1210.1.1 = { remove_settlement = b_dandankan } #abandoned due to desertification

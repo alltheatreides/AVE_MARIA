@@ -1,0 +1,25 @@
+# -*- ck2.history.provinces -*-
+
+# 1658 - Delhi
+
+# County Title
+title = c_delhi
+
+# Settlements
+max_settlements = 7
+b_lalkot = castle #alternatively, ca. 1052
+b_indraprastha = castle #Delhi/Dihli/Dhilika
+b_mehrauli = temple
+b_narela = city
+#b_siri = castle
+#b_jahanpanah = city
+#b_tughlakabad = city
+
+# Misc
+culture = hindustani
+religion = buddhist
+
+# History
+1192.1.1 = { capital = b_indraprastha }
+1303.1.1 = { b_siri = castle }
+1327.1.1 = { b_jahanpanah = city }

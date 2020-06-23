@@ -1,0 +1,29 @@
+# -*- ck2.history.provinces -*-
+
+# 406 - Vologda
+
+# County Title
+title = c_vologda
+
+# Settlements
+max_settlements = 4
+#b_vologda = tribal
+b_totma = tribal
+
+
+#b_spasopreobrazenskij = temple
+#b_veksenga = city
+
+
+# Misc
+culture = vepsian
+religion = finnish_pagan
+
+# History
+1137.1.2 = {
+b_totma = castle
+b_vologda = city }
+1250.1.1 = { religion = orthodox }
+1250.1.1 = { b_spasopreobrazenskij = temple } #city of Vologda founded
+
+

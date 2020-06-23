@@ -1,0 +1,23 @@
+# -*- ck2.history.provinces -*-
+
+# 1424 - Cinn Chardainn
+
+# County Title
+title = c_cinnchardainn
+
+# Settlements
+max_settlements = 4
+
+b_dunnottar = tribal
+b_stonehaven = city
+#b_ecclesgreig = temple
+#b_inverbervie = castle
+
+# Misc
+culture = scottish
+religion = catholic
+
+# History
+1146.1.1 = { 
+	b_dunnottar = castle
+} 

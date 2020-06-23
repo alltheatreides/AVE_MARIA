@@ -1,0 +1,26 @@
+# 1961 - Gudensberg
+
+# County Title
+title = c_gudensberg
+
+# Settlements
+max_settlements = 4
+
+b_gudensberg = castle 
+b_hersfeld = temple 
+
+#b_kassel = city  
+#b_boyneburg = castle 
+
+#b_sontra = city 
+#b_breitenau = temple 
+#b_dornberg = castle #Dörnberg 
+ 
+# Misc
+culture = franconian
+religion = catholic
+
+# History
+1107.1.1 = { b_boyneburg = castle  }
+1170.1.1 = { culture = german }
+1189.1.1 = { b_kassel = city }

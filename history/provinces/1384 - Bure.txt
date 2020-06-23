@@ -1,0 +1,21 @@
+# -*- ck2.history.provinces -*-
+
+# 1384 - Bure
+
+# County Title
+title = c_bure
+
+# Settlements
+max_settlements = 4
+b_boure = tribal #gold mine
+b_siguiri = city
+
+#b_kouroussa = temple
+#b_kankan = castle
+
+# Misc
+culture = manden
+religion = west_african_pagan
+
+# History
+1080.1.1 = { b_boure = castle }

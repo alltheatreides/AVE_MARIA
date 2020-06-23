@@ -1,0 +1,23 @@
+# 239 - Geneve
+
+# County Title
+title = c_geneve
+
+# Settlements
+max_settlements = 4
+
+b_annecy = castle 
+b_geneve = temple
+b_nyon = city
+
+#b_gex = castle
+#b_viry = castle
+#b_pragins = castle
+#b_menthon = castle 
+
+# Misc
+culture = arpitan
+religion = catholic
+
+# History
+1124.1.1 = { b_gex = castle }

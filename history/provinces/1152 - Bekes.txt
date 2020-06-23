@@ -1,0 +1,32 @@
+# -*- ck2.history.provinces -*-
+
+# 1152 - Bekes
+
+# County Title
+title = c_bekes
+
+# Settlements
+max_settlements = 4
+
+b_bekes = tribal
+#b_szeghalom = city
+#b_gyula = temple
+#b_bekescsaba = castle
+
+# Misc
+culture = avar
+religion = tengri_pagan
+
+# History
+950.1.1 = { culture = old_hungarian }
+1000.1.1 = { 
+	b_bekes = castle 
+	b_szeghalom = city
+}
+1015.1.1 = {
+	religion = catholic
+	culture = hungarian
+}
+1300.1.1 = { b_gyula = temple }
+
+
