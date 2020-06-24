@@ -1,0 +1,8259 @@
+# -*- ck2.history.characters -*-
+
+131700 = {
+	name="Bleidud"
+	dynasty=20172
+	martial=3
+	diplomacy=4
+	intrigue=5
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="mastermind_theologian"
+	trait="just"
+	1020.1.2={
+		birth="1020.1.2"
+	}
+	1070.1.2={
+		death="1070.1.2"
+	}
+}
+
+131701 = {
+	name="Elystan" # "Glodrydd"
+	# AKA: Elystan Glodrydd
+	dynasty=200067
+	martial=9
+	diplomacy=2
+	intrigue=7
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=184125 #Cuhelyn
+	950.1.1={
+		birth="950.1.1"
+	}
+	1010.1.1={
+		death="1010.1.1"
+	}
+}
+
+131702 = {
+	name="Madog" #ap Idnerth
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=8187 #Idnerth ap Madog
+	1050.1.1={
+		birth="1050.1.1"
+	}
+	1140.1.1={
+		death="1140.1.1"
+	}
+}
+
+131703 = {
+	name="Caduallon" #ap Madog
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=131702
+	1118.1.1={
+		birth="1118.1.1"
+	}
+	1171.1.1={
+		add_spouse=138445 #Efa Mathrafal
+	}
+	1179.1.1={
+		death="1179.1.1"
+	}
+}
+
+131704 = {
+	name="Bledin"
+	dynasty=1042817
+	martial=4
+	diplomacy=7
+	intrigue=7
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=159312
+	mother=159374
+	trait="cynical"
+	trait="underanded_rogue"
+	1040.1.2={
+		birth="1040.1.2"
+	}
+	1090.1.2={
+		death="1090.1.2"
+	}
+}
+
+204051 = {
+	name="Angharad"
+	female = yes
+	dynasty=101905
+	religion="catholic"
+	culture="welsh"
+	father=204056 # Gerald de uindsor
+	mother=204057  # Nest ferch Rys
+	1126.1.1={
+		birth="1126.1.1"
+	}
+	1176.1.1={
+		death="1176.1.1"
+	}
+}
+
+204057 = {
+	name="Nest" #ferch Rys
+	female = yes
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	trait="bastard"
+	father=81816 #Rys ap Teudr
+	1085.1.1={
+		birth="1085.1.1"
+	}
+	1136.1.1={
+		death="1136.1.1"
+	}
+}
+
+205830 = {
+	name="Andreu"
+	dynasty=310
+	martial=7
+	diplomacy=6
+	intrigue=6
+	steuardship=6
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=205831
+	mother=205840
+	1150.1.2={
+		birth="1150.1.2"
+	}
+	1183.1.2={
+	add_spouse=205785
+	}
+	1200.1.2={
+		death="1200.1.2"
+	}
+}
+
+205831 = {
+	name="Ronan"
+	dynasty=310
+	martial=4
+	diplomacy=8
+	intrigue=8
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="scholarly_theologian"
+	1118.1.2={
+		birth="1118.1.2"
+	}
+	1148.1.2={
+	add_spouse=205840
+	}
+	1173.1.31={
+		death="1173.1.31"
+	}
+}
+
+214700 = {
+	name="Dauyd"
+	# AKA: Dauyd ab Ouain
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	trait="kinslayer"
+	father=214710 #Ouain ap Gruffydd
+	mother=214808 #Crisiant ferch Gronu
+	1134.1.1={
+		birth="1134.1.1"
+	}
+	1173.1.1={
+		add_spouse=204499 #Emma d'Anjou
+	}
+	1203.1.1={
+		death="1203.1.1"
+	}
+}
+
+214701 = {
+	name="Ouain"
+	# AKA: Ouain ap Dauyd
+	dynasty=101920
+	martial=7
+	diplomacy=8
+	intrigue=5
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="deceitful"
+	trait="humble"
+	trait="tough_soldier"
+	father=214700
+	mother=204499
+	1174.1.2={
+		birth="1174.1.2"
+	}
+	1224.1.2={
+		death="1224.1.2"
+	}
+}
+
+214702 = {
+	name="Guenhuyuar"
+	# AKA: Guenhuyfar ferch Dauyd
+	female = yes
+	dynasty=101920
+	martial=8
+	diplomacy=8
+	intrigue=7
+	steuardship=7
+	religion="catholic"
+	culture="welsh"
+	trait="craven"
+	trait="thrifty_clerk"
+	father=214700
+	mother=204499
+	1175.1.2={
+		birth="1175.1.2"
+	}
+	1225.1.2={
+		death="1225.1.2"
+	}
+}
+
+214703 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Dauyd
+	female = yes
+	dynasty=101920
+	martial=5
+	diplomacy=6
+	intrigue=6
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="chaste"
+	trait="arbitrary"
+	trait="thrifty_clerk"
+	father=214700
+	mother=204499
+	1176.1.2={
+		birth="1176.1.2"
+	}
+	1226.1.2={
+		death="1226.1.2"
+	}
+}
+
+214704 = {
+	name="Einion"
+	# AKA: Einion ap Dauyd
+	dynasty=101920
+	martial=6
+	diplomacy=8
+	intrigue=5
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="brave"
+	trait="tough_soldier"
+	father=214700
+	mother=204499
+	1177.1.2={
+		birth="1177.1.2"
+	}
+	1227.1.2={
+		death="1227.1.2"
+	}
+}
+
+214710 = {
+	name="Ouain"
+	# AKA: Ouain ap Gruffydd
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81031 #Gruffyd ap Cynan
+	mother=214814 #Angharad ferch Ouain
+	trait="lustful"
+	1100.1.1={
+		birth="1100.1.1"
+	}
+	1130.1.1={
+		add_spouse=214711 #Guladys Aberffrau
+	}
+	1135.1.1={
+		remove_spouse=214711
+	}
+	1136.1.1={
+		add_spouse=214808 #Crisiant ferch Gronu
+	}
+	1169.11.1={
+		death="1169.11.1"
+	}
+}
+
+214711 = {
+	name="Guladus" #ferch Llyuarch
+	# AKA: Guladys
+	dynasty=20158 #Aruystli
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=138478 # Llyuarch ap Trahaiarn
+	1100.1.1={
+		birth="1100.1.1" #unknoun
+	}
+	#married Ouain ap Gruffydd of Guynedd
+	1161.1.1={
+		death="1161.1.1"
+	}
+}
+
+214712 = {
+	name="Ioruerth Druynduyn" #flatnose
+	# AKA: Ioruerth ap Ouain
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214710 #Ouain ap Gruffydd
+	mother=214711 #Guladys Aberffrau
+	trait="ugly"
+	1132.1.1={
+		birth="1132.1.1"
+	}
+	1167.1.1={
+		add_spouse=214717 #Marared of Pouys
+	}
+	1174.1.1={
+		death="1174.1.1"
+	}
+}
+
+214714 = {
+	name="Llyuelyn"
+	# AKA: Llyuelyn ab Ioruerth
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214712 #Ioruerth ap Ouain
+	mother=214717 #Marared of Pouys
+	give_nickname=nick_the_great
+	1173.1.1={
+		birth="1173.1.1"
+	}
+	1205.4.16={
+		add_spouse=138451 # Joan of England
+	}
+	1237.1.1={
+		trait="incapable"
+	}
+	1240.4.11={
+		death="1240.4.11"
+	}
+}
+
+214715 = {
+	name="Run"
+	# AKA: run ab Ouain
+	dynasty=101920
+	martial=9
+	diplomacy=7
+	intrigue=8
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="brave"
+	trait="diligent"
+	trait="just"
+	trait="patient"
+	father=214710
+	mother=214713
+	1130.1.2={
+		birth="1130.1.2"
+	}
+	1146.1.8={
+		death="1146.1.8"
+	}
+}
+
+214716 = {
+	name="Hyuel"
+	# AKA: Hyuel ab Ouain
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214710 #Ouain ap Gruffydd
+	mother=214713
+	trait="legit_bastard"
+	1131.1.1={
+		birth="1131.1.1"
+	}
+	1170.1.1={
+		death="1170.1.1"
+	}
+}
+
+214717 = {
+	name="Marared" 
+	# AKA: Marared ferch Madog
+	female = yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	#mother Susann of Guynedd
+	1150.1.1={
+		birth="1150.1.1"
+	}
+	#married Ioruerth Druynduyn
+	1207.1.1={
+		death="1207.1.1"
+	}
+}
+
+214718 = {
+	name="Madog"
+	# AKA: Madog ap Maredudd
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6360 #Maredudd ap Bleddyn
+	1070.1.1={
+		birth="1070.1.1" #unknoun
+	}
+	1126.1.1={
+		add_spouse=138449 #Susann ferch Gruffydd of Guynedd
+	} 
+	1159.1.1={
+		death="1159.1.1"
+	}
+}
+
+214720 = {
+	name="Ouain Cyfeiliog" #ap Gruffydd
+	# AKA: Ouain Cyfelloig
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214722 #Gruffyd ap Maredudd
+	#mother Guerfyl daughter of Gurgeno ap Hyuel
+	1125.1.1={
+		birth="1125.1.1"
+	}
+	1156.1.1={
+		add_spouse = 214721 #Guenllian of Guynedd
+	}
+	1195.1.1={
+		death="1195.1.1"
+	}
+}
+
+214721 = {
+	name="Guenllian" #of Guynedd
+	# AKA: Guenllian ferch Ouain ap Gruffydd
+	female = yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214710 # Ouain ap Gruffydd
+	trait="bastard"
+	1140.1.1={
+		birth="1140.1.1" #unknoun
+	}
+	1180.1.1={
+		death="1180.1.1" #unknoun
+	}
+}
+
+214722 = {
+	name="Grufyd" #Gruffyd ap Maredudd
+	# AKA: Gruffydd ap Madog can't be as he died in 1191
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6360 #Maredudd ap Bleddyn
+	1064.1.1={
+		birth="1064.1.1"
+	}
+	#married Guerfyl daughter of Gurgeno ap Hyuel
+	1128.1.1={
+		death="1128.1.1"
+	}
+}
+
+214724 = {
+	name="Madog"
+	# AKA: Guenuynuyn
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=81854 #Gruffydd Maelor ap Madog
+	#mother Angharad of Guynedd
+	1175.1.1={
+		birth="1175.1.1" #unknoun
+	}
+	1236.1.1={
+		death="1236.1.1"
+	}
+}
+
+214800 = {
+	name="Rys"
+	# AKA: 	Rys ap Gruffydd
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214810 #Gruffydd ap Rys
+	mother=214811 #Guenllian ferch Gruffydd
+	1132.1.2={
+		birth="1132.1.2"
+	}
+	1153.1.1={
+		add_spouse = 214801 #Guenllian ferch Ouain of Pouys
+	}
+	1197.4.28={
+		death="1197.4.28"
+	}
+}
+
+214801 = {
+	name="Guenllian" #Guenllian ferch Madog
+	# AKA: Guenllian ferch Ouain - urong
+	female = yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	mother=138449 #Susann ferch Gruffydd 
+	1136.1.1={
+		birth="1136.1.1"
+	}
+	1186.1.1={
+		death="1186.1.1"
+	}
+}
+
+214802 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Rys
+	female = yes
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214800 #Rys ap Gruffydd
+	mother=214801 #Guenllian ferch Ouain
+	1162.1.1={
+		birth="1162.1.1"
+	}
+	#married Ednyfed ap Cynurig
+	1236.1.1={
+		death="1236.1.1"
+	}
+}
+
+214803 = {
+	name="Grufyd"
+	# AKA: Gruffydd ap Rys
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214800 #Rys ap Gruffydd
+	mother=214801 #Guenllian ferch Ouain
+	1164.1.1={
+		birth="1164.1.1"
+	}
+	1189.1.1={
+		add_spouse=204010 #Matilda de Briouse
+	}
+	1201.8.1={
+		death="1201.8.1"
+	}
+}
+
+214804 = {
+	name="Rys" #the Hoarse
+	# AKA: Rys 'Gryg' ap Rys
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214800
+	mother=214801
+	1166.1.2={
+		birth="1166.1.2"
+	}
+	#1219 married Mathilda de Clare
+	1234.1.1={
+		death="1234.1.1"
+	}
+}
+
+214805 = {
+	name="Nest"
+	# AKA: Nest ferch Rys
+	female = yes
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214800 #Rys ap Gruffydd
+	mother=214801 #Guenllian ferch Ouain
+	1167.1.1={
+		birth="1167.1.1"
+	}
+	1217.1.1={
+		death="1217.1.1"
+	}
+}
+
+214806 = {
+	name="Catrin" 
+	# AKA: Catrin ferch Rys
+	female = yes
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	trait="bastard"
+	father=214800 #Rys ap Gruffydd
+	1172.1.1={
+		birth="1172.1.1"
+	}
+	1222.1.1={
+		death="1222.1.1"
+	}
+}
+
+214807 = {
+	name="Angharad"
+	# AKA: Anghared ferch Rys
+	female = yes
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=214800 #Rys ap Gruffydd
+	mother=214801 #Guenllian ferch Ouain
+	1172.1.1={
+		birth="1172.1.1"
+	}
+	#married uilliam de Martin
+	1226.1.1={
+		death="1226.1.1"
+	}
+}
+
+214808 = {
+	name="Crisiant" #ferch Gronu
+	# AKA: Cristen ferch Goronuy
+	female = yes
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=214809 #Gronu ap Ouain
+	1118.1.1={
+		birth="1118.1.1"
+	}
+	1161.1.2={
+		death="1161.1.2"
+	}
+}
+
+214809 = {
+	name="Goronuy" #Gronu ab Ouain
+	# AKA: Goronuy ab Ouain
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=214815 #Ouain ap Eduin
+	1063.1.1={
+		birth="1063.1.1" #unknoun
+	}
+	1124.1.1={
+		death="1124.1.1"
+	}
+}
+
+214810 = {
+	name="Gruffydd"
+	# AKA: Gruffydd ap Rys
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=81816 #Rys ap Teudr
+	mother=40506 #Guladys ap Riuallon
+	1090.1.1={
+		birth="1090.1.1"
+	}
+	1120.1.1={
+		add_spouse=214811 #Guenllian ferch Gruffydd
+	}
+	1137.1.1={
+		death="1137.1.1"
+	}
+}
+
+214811 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Gruffydd
+	female = yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81031 #Gruffyd ap Cynan
+	mother=214814 #Angharad ferch Ouain
+	1105.1.1={
+		birth="1105.1.1"
+	}
+	#1116 married Gruffyd ap Rys of Dyfed
+	1136.1.1={
+		death="1136.1.1"
+	}
+}
+
+214814 = {
+	name="Angharad"
+	# AKA: Angharad ferch Ouain
+	female = yes
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=214815 #Ouain ap Eduin
+	1065.1.1={
+		birth="1065.1.1"
+	}
+	#1095 married Gruffydd ap Cynan 81031
+	1161.1.1={
+		death="1161.1.1"
+	}
+}
+
+214815 = {
+	name="Ouain" #ap Eduin
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=40508 #Eduin ap Goronuy
+	mother=40505 #Iueryd ap Cynfyn
+	1044.1.1={
+		birth="1044.1.1"
+	}
+	1100.1.1={
+		trait="pneumonic"
+	}
+	1102.1.1={
+		death="1102.1.1"
+	}
+}
+
+232002 = {
+	name="Rodri"
+	# AKA: Rodri ab Ouain
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	trait="kinslayer"
+	father=214710 #Ouain ap Gruffydd
+	mother=214808 #Crisiant ferch Gronu
+	1136.1.1={
+		birth="1136.1.1"
+	}
+	1179.1.1={
+		add_spouse=214805 #Nest of Deheubarth
+	}
+	1195.1.1={
+		death="1195.1.1"
+	}
+}
+
+232003 = {
+	name="Tomas"
+	# AKA: Tomas ap Rodri
+	dynasty=101920
+	religion="catholic"
+	culture="welsh"
+	father=232002 #Rodri ab Ouain
+	1179.1.1={
+		birth="1179.1.1"
+	}
+	1229.1.1={
+		death="1229.1.1"
+	}
+}
+
+232004 = {
+	name="Grufyd"
+	# AKA: Gruffyd ap Rodri
+	dynasty=101920
+	religion="catholic"
+	culture="welsh"
+	father=232002 #Rodri ab Ouain
+	1180.1.1={
+		birth="1180.1.1"
+	}
+	1230.1.1={
+		death="1230.1.1"
+	}
+}
+
+232005 = {
+	name="Einion"
+	# AKA: Einion ap Rodri
+	dynasty=101920
+	religion="catholic"
+	culture="welsh"
+	father=232002 #Rodri ab Ouain
+	1181.1.1={
+		birth="1181.1.1"
+	}
+	1231.1.1={
+		death="1231.1.1"
+	}
+}
+
+332039 = {
+	name="Maelgun"
+	# AKA: Maelgun ap Rys
+	dynasty=101919
+	religion="catholic"
+	culture="welsh"
+	father=214800 #Rys ap Gruffydd
+	mother=214801 #Guenllian ferch Ouain
+	1170.1.1={
+		birth="1170.1.1"
+	}
+	1231.1.1={
+		death="1231.1.1"
+	}
+}
+
+40500 = {
+	name="Llyuelyn" #ap Seisyll of Guynedd
+	dynasty=14278 # Seisyll
+	religion="catholic"
+	culture="welsh"
+	father=81820 #Seisyll of Guynedd
+	mother=159042 # Praust ferch Elisedd ap Anaraud
+	978.1.1={
+		birth="978.1.1" #after 980
+	}
+	994.1.1={
+		add_spouse = 40501 #Angharad of Guynedd
+	}
+	1023.1.1={
+		death="1023.1.1"
+	}
+}
+
+40501 = {
+	name="Angharad" #of Guynedd
+	female = yes
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=81821 #Maredudd ab Ouain (Deheubarth)
+	978.1.1={
+		birth="978.1.1" #982
+	}
+	#994 married Llyuelyn ap Seisyll of Guynedd 40500
+	#1023 married Cynfyn ap Guerstan of Pouys
+	1025.7.4={
+		death="1025.7.4" #?
+	}
+}
+
+40502 = {
+	name="Grufyd" #ap Llyuelyn
+	dynasty=14278 # Seisyll
+	religion="catholic"
+	culture="welsh"
+	father=40500 #Llyuelyn ap Seisyll of Guynedd
+	mother=40501 # Angharad Dinefur
+	1003.1.1={
+		birth="1003.1.1"
+	}
+	1044.1.1 = {
+		add_consort = 1228319 #seizes Hyuel's uife
+	}
+	1053.1.2={
+		add_spouse = 123 #Ealdgyth of Mercia
+	}
+	1063.1.1={
+		death={
+			death_reason=death_battle
+			killer=122
+		}
+	}
+}
+
+
+40503 = {
+	name="Cynuyn" #ap Guerstan
+	#dynasty=100065 #Gruffyd of Pouys
+	dynasty=548
+	religion="catholic"
+	culture="welsh"
+	father=138444 #Guerstan
+	978.1.1={
+		birth="978.1.1" #unknoun
+	}
+	1023.1.1={
+		add_spouse = 40501 #Angharad of Guynedd
+	}
+	1025.1.1={
+		death="1025.1.1"
+	}
+}
+
+40504 = {
+	name="Riuallon" #ap Cynfyn
+	dynasty=548 #Mathrafal
+	religion="catholic"
+	culture="welsh"
+	father=40503 #Cynfyn ap Guerstan
+	mother=40501 #Angharad of Guynedd
+	trait="tough_soldier"
+	1025.1.1={
+		birth="1025.1.1"
+	}
+    1069.1.2={
+        death={
+            death_reason=death_battle
+            killer=81841
+        }
+    }
+}
+
+40505 = {
+	name="Iueryd" #ap Cynfyn
+	# AKA: Eferydd
+	female = yes
+	dynasty=548 #Mathrafal
+	religion="catholic"
+	culture="welsh"
+	father=40503 #Cynfyn ap Guerstan
+	mother=40501 #Angharad of Guynedd
+	1023.1.1={
+		birth="1023.1.1"
+	}
+	#married Eduin ap Gronu
+	1073.1.1={
+		death="1073.1.1"
+	}
+}
+
+40506 = {
+	name="Guladus" #verch Riuallon
+	# AKA: Guladys
+	female = yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=40504 #Riuallon ap Cynfyn
+	1049.1.1={
+		birth="1049.1.1" #unknoun
+	}
+	#1080 married Rys ap Tuedr 81816
+	1099.1.1={
+		death="1099.1.1" #unknoun
+	}
+}
+
+40507 = {
+	name="Haer" #ferch Cillin
+	female = yes
+	dynasty=20146 #Efionydd
+	religion="catholic"
+	culture="welsh"
+	#father Cillin ap Yplaidd
+	1030.1.1={
+		birth="1030.1.1" #unknoun 
+	}
+	1065.1.1={
+		death="1065.1.1" #unknoun 
+	}
+}
+
+40508 = {
+	name="Eduyn" #ap Goronuy
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=138482 #Goronuy ap Einion
+	1014.1.1={
+		birth="1014.1.1" #unknoun
+	}
+	1040.1.1={
+		add_spouse = 40505 #Iueryd ap Cynfyn
+	}
+	1073.1.1={
+		death="1073.1.1" #unknoun
+	}
+}
+
+40510 = {
+	name="Ouain"
+	dynasty=547
+	martial=3
+	diplomacy=8
+	intrigue=6
+	steuardship=9
+	religion="catholic"
+	culture="welsh"
+	father=159107
+	trait="tough_soldier"
+	950.1.2={
+		birth="950.1.2"
+	}
+	1001.1.2={
+		death="1001.1.2"
+	}
+}
+
+40511 = {
+	name="Rys"
+	dynasty=547
+	martial=4
+	diplomacy=7
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=40510
+	968.1.2={
+		birth="968.1.2"
+	}
+	1035.1.2={
+		death="1035.1.2"
+	}
+}
+
+40512 = {
+	name="Hyuel"
+	dynasty=547
+	martial=4
+	diplomacy=7
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=40510
+	969.1.2={
+		birth="969.1.2"
+	}
+	1043.1.2={
+		death="1043.1.2"
+	}
+}
+
+40513 = {
+	name="Meurig" #ap Hyuel
+	dynasty=547 #Morgan
+	religion="catholic"
+	culture="welsh"
+	father=40512
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1065.1.1={
+		death="1065.1.1"
+	}
+}
+
+40514 = {
+	name="Ithel Ddu"
+	# AKA: Ithel Ddu
+	dynasty=547
+	martial=4
+	diplomacy=7
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=40510
+	970.1.2={
+		birth="970.1.2"
+	}
+	1041.1.2={
+		death="1041.1.2"
+	}
+}
+
+40515 = {
+	name="Gurgant" #ap Ithel Ddu
+	dynasty=547 #Morgan
+	religion="catholic"
+	culture="welsh"
+	father=40514 #Ithel Ddu ap Ouain
+	1010.1.1={
+		birth="1010.1.1"
+	}
+	1060.1.1={
+		death="1060.1.1"
+	}
+}
+
+40516 = {
+	name="Angharad"
+	female = yes
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="naive_appeaser"
+	1045.1.2={
+		birth="1045.1.2"
+	}
+	1066.1.2={
+		death="1066.1.2"
+	}
+}
+
+40517 = {
+	name="Caradog"
+	dynasty=547
+	martial=6
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="thrifty_clerk"
+	father=6376
+	mother=40516
+	1061.1.2={
+		birth="1061.1.2"
+	}
+	1111.1.2={
+		death="1111.1.2"
+	}
+}
+
+40518 = {
+	name="Madog"
+	dynasty=547
+	martial=6
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=6376
+	mother=40516
+	1062.1.2={
+		birth="1062.1.2"
+	}
+	1112.1.2={
+		death="1112.1.2"
+	}
+}
+
+40519 = {
+	name="Rys"
+	dynasty=547
+	martial=6
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=6376
+	mother=40516
+	1063.1.2={
+		birth="1063.1.2"
+	}
+	1113.1.2={
+		death="1113.1.2"
+	}
+}
+
+40520 = {
+	name="Morgan"
+	dynasty=547
+	martial=6
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=6376
+	mother=40516
+	1064.1.2={
+		birth="1064.1.2"
+	}
+	1114.1.2={
+		death="1114.1.2"
+	}
+}
+
+40521 = {
+	name="Nest"
+	female = yes
+	dynasty=547
+	martial=6
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=6376
+	mother=40516
+	1065.1.2={
+		birth="1065.1.2"
+	}
+	1115.1.2={
+		death="1115.1.2"
+	}
+}
+
+40522 = {
+	name="Eue"
+	# AKA: Efet
+	female = yes
+	dynasty=547
+	martial=7
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="amateurish_plotter"
+	father=40515
+	1047.1.2={
+		birth="1047.1.2"
+	}
+	1097.1.2={
+		death="1097.1.2"
+	}
+}
+
+40523 = {
+	name="Nest"
+	female = yes
+	dynasty=547
+	martial=7
+	diplomacy=5
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="naive_appeaser"
+	father=40515
+	1049.1.2={
+		birth="1049.1.2"
+	}
+	1099.1.2={
+		death="1099.1.2"
+	}
+}
+
+420000 = {
+	name="Gruffydd" #ap Llyuelyn
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214714 #Llyuelyn ab Ioruerth
+	trait="bastard"
+	1204.1.1={
+		birth="1204.1.1"
+	}
+	1244.3.1={
+		death="1244.3.1" 
+	}
+}
+
+420001  = {
+	name="Llyuelyn" #ap Gruffydd
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=420000 #Gruffydd ap Llyuelyn
+	1234.1.1={
+		birth="1234.1.1"
+	}
+	1278.10.13={
+		add_spouse=144182 #Eleanor de Montfort
+	}
+	1282.12.10={
+		death="1282.12.10" 
+	}
+}
+
+420002 = {
+	name="Dauyd" #ap Gruffydd
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=420000 #Gruffydd ap Llyuelyn
+	1235.1.1={
+		birth="1235.1.1"
+	}
+	#married Elizabeth Ferrers
+	1283.9.29={
+		death="1283.9.29" 
+	}
+}
+
+420003 = {
+	name="Ouain" #ap Gruffyd
+	# AKA: Ouain Goch
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	give_nickname=nick_the_red
+	father=420000 #Gruffydd ap Llyuelyn
+	1221.1.1={
+		birth="1221.1.1"
+	}
+	1282.1.1={
+		death="1282.1.1"
+	}
+}
+
+
+420004 = {
+	name="Rodri" #ap Gruffyd
+	# AKA: Rodri ap Llyuelyn
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=420000 #Gruffydd ap Llyuelyn
+	1231.1.1={
+		birth="1231.1.1"
+	}
+	1315.1.1={
+		death="1315.1.1"
+	}
+}
+
+420005 = {
+	name="Tomas" 
+	# AKA: Tomas ap Rodri
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=420004 #Rodri ap Gruffyd
+	1300.1.1={
+		birth="1300.1.1"
+	}
+	1363.1.1={
+		death="1363.1.1"
+	}
+}
+
+420006 = {
+	name="Ouain"
+	# AKA: Ouain Laugoch
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=420005 #Tomas ap Gruffyd
+	1330.1.1={
+		birth="1330.1.1"
+	}
+	1380.1.1={
+		death="1380.1.1"
+	}
+}
+
+420007 = {
+	name="Guenuynuyn"
+	# AKA: Guenuynuyn ab Ouain Cyfelloig
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214720 #Ouain Cyfelloig ap Gruffydd 
+	mother=214721 #Guenllian ferch Ouain ap Gruffydd
+	1162.1.1={
+		birth="1162.1.1"
+	}
+	#married Mary Corbet
+	1216.1.1={
+		death="1216.1.1"
+	}
+}
+
+420008 = {
+	name="Grufyd"
+	# AKA: Gruffydd ap Guenuynuyn
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420007 #Guenuynuyn ab Ouain
+	1212.1.1={
+		birth="1212.1.1"
+	}
+	#1242.2.24 married Hauise daughter of John III of Knockin
+	1286.1.1={
+		death="1286.1.1"
+	}
+}
+
+420009 = {
+	name="Ouain" 
+	# AKA: Ouain ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1257.1.1={
+		birth="1257.1.1"
+	}
+	#married Johanna Corbet
+	1293.9.1={
+		death="1293.9.1"
+	}
+}
+
+420010 = {
+	name="Grufyd"
+	# AKA: Gruffydd ap Ouain
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420009 #Ouain ap Gruffydd
+	1285.1.1={
+		birth="1285.1.1"
+	}
+	1307.1.1 = {
+		add_spouse = 161690 #Ela d'Audley
+	}
+	1309.6.1={
+		death="1309.6.1"
+	}
+}
+
+454211 = {
+	name="Hauis"
+	# AKA: Hauis ferch Ouain
+	female = yes
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420009 #Ouain ap Gruffydd
+	1290.7.25={
+		birth="1290.7.25"
+	}
+	#1309.7.26 married John de Cherleton
+	1353.1.1={
+		death="1353.1.1"
+	}
+}
+
+6358 = {
+	name="Bledin" #ap Cynfyn
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=40503 #Cynfyn ap Guerstan
+	mother=40501 #Angharad of Guynedd
+	trait="kind"
+	trait="lustful"
+	1025.1.1={
+		birth="1025.1.1"
+	}
+	1040.1.1={
+		add_spouse = 81849 #Branduen Nurcelyn 1st spouse
+	}
+	1042.1.1 = {
+		add_consort = 1228320 #unknoun second spouse. uas 81853
+	}
+	1044.1.1={
+		add_consort = 40507 #Haer Efionydd 3rd spouse
+	}
+	1052.1.1={
+		add_consort = 81856 #Morien Maelienydd 4th spouse
+	}
+	1075.1.1={
+		death="1075.1.1"
+	}
+}
+
+6360 = {
+	name="Maredud" #ap Bleddyn
+	dynasty=548 #Mathrafal
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=40507 #Haer Efionydd
+	trait="skilled_tactician"
+	1047.1.1={
+		birth="1047.1.1"
+	}
+	#married Hunedd ferch Einudd
+	#mistress Cristin ferch Bledrus
+	1111.1.1={
+		employer=138452 #Ouain ap Cadugan
+	}
+	1132.2.9={
+		death="1132.2.9"
+	}
+}
+
+6362 = {
+	name="Cadugan" #ap Meurig
+	dynasty=547 #Morgan
+	religion="catholic"
+	culture="welsh"
+	father=40513 #Meurig ap Hyuel
+	1042.1.1={
+		birth="1042.1.1"
+	}
+	1074.1.1={
+		death="1074.1.1"
+	}
+}
+
+#6368 = {
+#	name="Traheaern Dyfnallt"
+#	# AKA: Traheaern Dyfnallt
+#	dynasty=20158
+#	martial=8
+#	diplomacy=5
+#	intrigue=5
+#	steuardship=4
+#	religion="catholic"
+#	culture="welsh"
+#	trait="slothful"
+#	trait="greedy"
+#	trait="patient"
+#	trait="charismatic_negotiator"
+#	father=8189
+#	1036.1.2={
+#		birth="1036.1.2"
+#	}
+#	1086.1.2={
+#		death="1086.1.2"
+#	}
+#}
+
+6376 = {
+	name="Iestyn" #ap Gurgant
+	dynasty=547 #Morgan
+	religion="catholic"
+	culture="welsh"
+	father=40515 #Gurgant ap Ithel Ddu 
+	1045.1.1={
+		birth="1045.1.1"
+	}
+	1061.1.1={
+		add_spouse=40516 #Angharad ?
+	}
+	1093.1.1={
+		death="1093.1.1"
+	}
+}
+
+6378 = {
+	name="Cadugan" #ap Bleddyn
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=81849 #Branduen Nurcelyn
+	trait="skilled_tactician"
+	trait="lustful"
+	1041.1.1={
+		birth="1041.1.1"
+	}
+	#married Sanan 4th spouse
+	#married Ellyu daughter of Cedivor ap Colluyn 5th spouse
+	1098.1.1={
+		add_spouse=81853 #Guenllian ferch Gruffydd 6th spouse
+	}
+	#married Euron daughter of Hoedlyu ap Cadugan 7th spouse
+	1111.1.1={
+		death={
+			death_reason=death_execution
+			killer=138446
+		}
+	}
+}
+
+6382 = {
+	name="Rys"
+	dynasty=547
+	martial=7
+	diplomacy=8
+	intrigue=8
+	steuardship=7
+	religion="catholic"
+	culture="welsh"
+	father=40513 #Meurig ap Hyuel
+	trait="diligent"
+	trait="zealous"
+	trait="martial_cleric"
+	1053.1.2={
+		birth="1053.1.2"
+	}
+	1103.1.2={
+		death="1103.1.2"
+	}
+}
+
+6384 = {
+	name="Rys"
+	dynasty=101724
+	martial=8
+	diplomacy=6
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	997.1.1={
+		birth="997.1.1"
+	}
+	1047.1.2={
+		death="1047.1.2"
+	}
+}
+
+81030 = {
+	name="Cynan" #ap Iago
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81825 #Iago ap Idual
+	1014.1.1={
+		birth="1014.1.1"
+	}
+	1038.1.1={
+		add_spouse = 1029 #Ragnhild dghtr of Olav King of Dublin
+	}
+	1063.1.1={
+		death="1063.1.1"
+	}
+}
+
+81031 = {
+	name="Grufyd" #ap Cynan
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81030 # Cynan ap Iago
+	mother=1029 #Ragnhild erv Olav
+	1055.1.1={
+		birth="1055.1.1"
+		add_claim = d_guynedd
+		add_claim = c_dublin
+	}
+	1095.1.1={
+		add_spouse=214814 #Angharad ferch Ouain
+	}	
+	1137.1.1={
+		death="1137.1.1"
+	}
+}
+
+81811 = {
+	name="Sulien"
+	# AKA: Sulien
+	dynasty=20181
+	martial=3
+	diplomacy=4
+	intrigue=5
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="mastermind_theologian"
+	trait="scholar"
+	trait="just"
+	1020.1.2={
+		birth="1020.1.2"
+	}
+	1070.1.2={
+		death="1070.1.2"
+	}
+}
+
+81812 = {
+	name="rygyfarch"
+	dynasty=20181
+	martial=4
+	diplomacy=6
+	intrigue=6
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="diligent"
+	trait="patient"
+	trait="honest"
+	trait="scholarly_theologian"
+	father=81811
+	1045.1.2={
+		birth="1045.1.2"
+	}
+	1095.1.2={
+		death="1095.1.2"
+	}
+}
+
+81813 = {
+	name="Ieuan"
+	dynasty=20181
+	martial=4
+	diplomacy=6
+	intrigue=6
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="diligent"
+	trait="honest"
+	trait="scholarly_theologian"
+	father=81811
+	1050.1.2={
+		birth="1050.1.2"
+	}
+	1100.1.2={
+		death="1100.1.2"
+	}
+}
+
+81814 = {
+	name="Maredudd" #ap Gruffydd
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=214810 #Gruffydd ap Rys
+	1130.1.1={
+		birth="1130.1.1"
+	}
+	1157.1.1={
+		death="1157.1.1"
+	}
+}
+
+81815 = {
+	name="Rys" #ap Ouain 
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138494 #Ouain ap Eduin
+	1011.1.1={
+		birth="1011.1.1" #unknoun
+	}
+	1076.1.1={
+		death="1076.1.1" 
+	}
+}
+
+81816 = {
+	name="Rys" # ap Teudur
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	trait="charitable"
+	father=138488 #Teudur ap Cadell
+	997.1.1={
+		birth="997.1.1" #unknoun
+	}
+	1080.1.1={
+		add_spouse=40506 #Guladys ap Riuallon
+	} 
+	1093.4.1={
+		death="1093.4.1"
+	}
+}
+
+81817 = {
+	name="ririd" #ap Ouain
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=214815 #Ouain ap Eduin ap Goronuy
+	1064.1.1={
+		birth="1064.1.1" #unknoun
+	}
+	1124.1.1={
+		death="1124.1.1"
+	}
+}
+
+81818 = {
+	name="Teudur" #ap Eduin
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=40508 #Eduin ap Goronuy
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1094.1.1={
+		death="1094.1.1"
+	}
+}
+
+81819 = {
+	name="Eduyn" #ap Hyuel
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=81823 #Hyuel Dda
+	mother=159355 #Elen of Dyfed
+	906.1.1={
+		birth="906.1.1"
+	}
+	954.1.1={
+		death="954.1.1" 
+	}
+}
+
+81820 = {
+	name="Seisyll" #Seisyll of Guynedd
+	dynasty=14278 #Seisyll
+	religion="catholic"
+	culture="welsh"
+	father=159055 #Ednyuain ap Pyll
+	940.1.1={
+		birth="940.1.1" #unknoun
+	}
+	970.1.2={
+		add_spouse=159042 #married Praust of Guynedd daughter of Elisedd ap Anaraud
+	}
+	1010.1.1={
+		death="1010.1.1" #unknoun
+	}
+}
+
+81821 = {
+	name="Maredudd" #ap Ouain of Deheubarth
+	dynasty=101919 #Dinefur
+	religion="catholic"
+	culture="welsh"
+	father=81822 #Ouain of Deheubarth
+	938.1.1={
+		birth=yes
+	}
+	999.1.1={
+		death="999.1.1"
+	}
+}
+
+81822 = {
+	name="Ouain" #ap Hyuel
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=81823 #Hyuel Dda
+	mother=159355 #Elen of Dyfed
+	905.1.1={
+		birth="905.1.1"
+	}
+	987.1.1={
+		death="987.1.1"
+	}
+}
+
+81823 = {
+	name="Hyuel" # the Good
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	trait="just"
+	give_nickname=nick_the_good
+	father=81824 #Cadell ap Rodri
+	880.1.1={
+		birth="880.1.1"
+	}
+	904.1.1={
+		add_spouse=159355 #Elen of Dyfed
+	}
+	950.1.1={
+		death="950.1.1"
+	}
+}
+
+81824 = {
+	name="Cadell" #ap Rodri King of Seisyllug
+	dynasty=101920
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	mother=159802
+	853.1.1={
+		birth="853.1.1"	#unknoun
+	}
+	880.1.1={
+		dynasty = 101919 #Dinefru
+	}
+	935.1.1={
+		death="935.1.1"
+	}
+}
+
+81825 = {
+	name="Iago" #ap Idual
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81826 #Idual ap Meuric
+	970.1.1={
+		birth="970.1.1"	#unknoun
+	}
+	1039.1.1={
+		death="1039.1.1"
+	}
+}
+
+81826 = {
+	name="Idual" # ap Meuric
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81827 # Meuric ap Idual
+	940.1.1={
+		birth="940.1.1"	#unknoun
+	}
+	996.1.1={
+		death="996.1.1"
+	}
+}
+
+81827 = {
+	name="Meuric" #ap Idual
+	# AKA: Meurig
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=138466 #Idual ap Rodri
+	920.1.1={
+		birth="920.1.1"	#unknoun
+	}
+	986.1.1={
+		death="986.1.1"
+	}
+}
+
+81828 = {
+	name="Idual Ieuaf" # Idual Ieuaf ap Idual Foel the Younger
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81829 #Idual Foel
+	921.1.1={
+		birth="921.1.1"
+	}
+	969.1.1={
+		death="969.1.1"
+	}
+}
+
+81829 = {
+	name="Idual Foel" #the Bald ap Anaraud
+	# AKA: Idual Foel
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81830 #Anaraud ap Rodri
+	885.1.1={
+		birth="885.1.1"	#unknoun
+	}
+	942.1.1={
+		death="942.1.1"
+	}
+}
+
+81830 = {
+	name="Anaraud" #ap Rodri
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	mother=159802
+	trait="skilled_tactician"
+	850.1.1={
+		birth="850.1.1"	#unknoun
+	}
+	915.1.1={
+		death="915.1.1"
+	}
+}
+
+81831 = {
+	name="Rodri" #Maur ap Merfyn
+	# AKA: Rodri Maur
+	dynasty=101920 #Aberffrau for tree appearance
+	#uas dynasty=101922 #Manau
+	religion="catholic"
+	culture="welsh"
+	give_nickname="nick_the_great"
+	father=159027
+	mother=159088
+	820.1.1={
+		birth="820.1.1"
+		remove_claim = d_the_isles
+	}
+	840.1.1={
+		add_spouse=159802
+	}
+	878.1.1={
+		death="878.1.1"
+	}
+}
+
+81841 = {
+	name="Maredudd"
+	dynasty=14278
+	martial=4
+	diplomacy=7
+	intrigue=7
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="cynical"
+	trait="thrifty_clerk"
+	father=40502
+	mother=1228319
+	1048.1.2={
+		birth=yes
+	}
+    1069.1.2={
+        death={
+            death_reason=death_battle
+            killer=6358
+        }
+    }
+}
+
+81842 = {
+	name="Idual"
+	dynasty=14278
+	martial=4
+	diplomacy=5
+	intrigue=7
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=40502
+	mother=1228319
+	1049.1.2={
+		birth=yes
+	}
+    1069.1.2={
+        death={
+            death_reason=death_battle
+            killer=40504
+        }
+    }
+}
+
+81843 = {
+	name="Nest"
+	female = yes
+	dynasty=14278
+	martial=5
+	diplomacy=6
+	intrigue=7
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="patient"
+	trait="martial_cleric"
+	father=40502
+	mother=123
+	1055.1.2={
+		birth="1055.1.2"
+	}
+	1105.1.2={
+		death="1105.1.2"
+	}
+}
+
+81846 = {
+	name="Caradog" #ap Gruffydd
+	dynasty=1029004 #Guynllug
+	religion="catholic"
+	culture="welsh"
+	father=81862 #Gruffydd ap rydderch
+	1046.1.1={
+		birth="1046.1.1"
+	}
+    1065.1.1 = {
+        add_spouse=138443 # Guenllian
+    }	
+	1081.1.1={
+		death="1081.1.1"
+	}
+}
+
+81847 = {
+	name="Madog" #ap Bleddyn
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=1228320 #Unknoun 2nd uife
+	1043.1.1={
+		birth="1043.1.1" #unknoun
+	}
+	1087.1.1={
+		death="1087.1.1"
+	}
+}
+
+81848 = {
+	name="ririd" #ririd ap Bleddyn
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=1228320 #Unknoun 2nd uife
+	1043.1.1={
+		birth="1043.1.1" #unknoun
+	}
+	1087.1.1={
+		death="1087.1.1"
+	}
+}
+
+81849 = {
+	name="Branuen" #? Nurcelyn
+	female = yes
+	dynasty=20138 #Nurcelyn
+	religion="catholic"
+	culture="welsh"
+	#father Brockuell ap Moelyn of Nurcelyn
+	1025.1.1={
+		birth="1025.1.1"
+	}
+	1052.1.1={
+		death="1052.1.1"
+	}
+}
+
+81850 = {
+	name="Hunydd" #ap Bleddyn
+	female = yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=81849 #Branduen Nurcelyn
+	1042.1.1={
+		birth="1042.1.1" #unknoun
+	}
+	1100.1.1={
+		death="1100.1.1" #unknoun
+	}
+}
+
+81851 = {
+	name="Llyuelyn" #ap Madog
+	# AKA: Llyuarch
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	#mother Susann of Guynedd
+	1130.1.1={
+		birth="1130.1.1"
+	}
+	1161.1.1={
+		death="1161.1.1"
+	}
+}
+
+81853 = {
+	name="Guenllian" #Guenllian ferch Gruffydd
+	female = yes
+	religion="catholic"
+	culture="welsh"
+	#father Gruffydd ap Cynan
+	1080.1.1={
+		birth="1080.1.1"
+	}
+	#1098 married Cadugan ap Bleddyn
+	#1116 married Gruffyd ap Rys
+	1136.1.1={
+		death="1136.1.1"
+	}
+}
+
+81854 = {
+	name="Grufyd Maelor" #ap Madog
+	# AKA: Maelog
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	#mother Susann of Guynedd
+	1154.1.1={
+		birth="1154.1.1"
+	}
+	#married Angharad of Guynedd verch Ouain Guynedd
+	1191.1.1={
+		death="1191.1.1"
+	}
+}
+
+81855 = {
+	name="riryd" #ap Ioruerth
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=81857 #Ioruerth ap Bleddyn
+	1100.1.1={
+		birth="1100.1.1" #unknoun
+	}
+	1175.1.1={
+		death="1175.1.1" #unknoun
+	}
+}
+
+81856 = {
+	name="Morien" #ferch Idnerth
+	female=yes
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=8187
+	1036.1.1={
+		birth="1036.1.1" #unknoun
+	}
+	1088.1.1={
+		death="1088.1.1" #unknoun
+	}
+}
+
+81857 = {
+	name="Ioruerth" #ap Bleddyn
+	dynasty=548 #Mathrafal
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=81856 #Morien Maelienydd
+	1053.1.1={
+		birth="1053.1.1"
+	}
+	1108.1.1={
+		death="1108.1.1"
+	}
+}
+
+81859 = {
+	name="Meilys" #ap Riuallon
+	# AKA: Meilyr
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=40504 #Riuallon ap Cynfyn
+	1047.1.1={
+		birth="1047.1.1" #unknoun
+	}
+	1081.1.1={
+		death="1081.1.1" #unknoun
+	}
+}
+
+81860 = {
+	name="Sioned" #verch Riuallon
+	female = yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=40504 #Riuallon ap Cynfyn
+	1048.1.1={
+		birth="1048.1.1" #unknoun
+	}
+	#married Ednyfed
+	1098.1.1={
+		death="1098.1.1" #unknoun
+	}
+}
+
+81861 = {
+	name="Ouain"
+	dynasty=1029004 #Guynllug
+	martial=4
+	diplomacy=5
+	intrigue=7
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=81846
+	mother=138443
+	1066.1.2={
+		birth="1066.1.2"
+	}
+	1106.1.2={
+		death="1106.1.2"
+	}
+}
+
+81862 = {
+	name="Grufyd"
+	dynasty=1029004 #Guynllug
+	martial=8
+	diplomacy=8
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="humble"
+	father=81863
+	1026.1.2={
+		birth="1026.1.2"
+	}
+	1055.1.2={
+		death="1055.1.2"
+	}
+}
+
+81863 = {
+	name="rydderch"
+	dynasty=547 # Morgan
+	martial=8
+	diplomacy=8
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="humble"
+	father = 159003
+	1003.1.1={
+		birth="1003.1.1"
+	}
+	1033.1.1={
+		death="1033.1.1"
+	}
+}
+
+81864 = {
+	name="rydderch Ieuaf"
+	# AKA: rydderch Ieuaf
+	dynasty=547 # Morgan
+	martial=5
+	diplomacy=4
+	intrigue=7
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=81863
+	1020.1.2={
+		birth="1020.1.2"
+	}
+	1070.1.2={
+		death="1070.1.2"
+	}
+}
+
+81865 = {
+	name="Hyuel"
+	dynasty=547 # Morgan
+	martial=4
+	diplomacy=5
+	intrigue=6
+	steuardship=6
+	religion="catholic"
+	culture="welsh"
+	trait="patient"
+	trait="temperate"
+	father=81863
+	1022.1.2={
+		birth="1022.1.2"
+	}
+	1072.1.2={
+		death="1072.1.2"
+	}
+}
+
+81866 = {
+	name="Rys"
+	dynasty=547 # Morgan
+	martial=8
+	diplomacy=5
+	intrigue=5
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="arbitrary"
+	trait="flamboyant_schemer"
+	father=81863
+	1023.1.2={
+		birth="1023.1.2"
+	}
+	1073.1.2={
+		death="1073.1.2"
+	}
+}
+
+81867 = {
+	name="Meirchion"
+	dynasty=547 # Morgan
+	martial=8
+	diplomacy=4
+	intrigue=8
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="thrifty_clerk"
+	father=81866
+	1055.1.2={
+		birth="1055.1.2"
+	}
+	1105.1.2={
+		death="1105.1.2"
+	}
+}
+
+81868 = {
+	name="Caradog"
+	dynasty=547 # Morgan
+	martial=4
+	diplomacy=6
+	intrigue=7
+	steuardship=7
+	religion="catholic"
+	culture="welsh"
+	trait="honest"
+	trait="tough_soldier"
+	father=81863
+	1024.1.2={
+		birth="1024.1.2"
+	}
+	1074.1.2={
+		death="1074.1.2"
+	}
+}
+
+81869 = {
+	name="rydderch"
+	dynasty=547 # Morgan
+	martial=7
+	diplomacy=7
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	trait="lustful"
+	trait="tough_soldier"
+	father=81868
+	1044.1.2={
+		birth="1044.1.2"
+	}
+	1094.1.2={
+		death="1094.1.2"
+	}
+}
+
+8187 = {
+	name="Idnerth" #ap Cadugon
+	dynasty=200067 #Maelienydd
+	father=184126 #Cadugon ap Elystan
+	religion="catholic"
+	culture="welsh"
+	1027.1.1={
+		birth=yes
+	}
+	1068.1.1={
+		death=yes
+	}
+}
+
+81871 = {
+	name="Neiniad"
+	dynasty=20148
+	martial=5
+	diplomacy=4
+	intrigue=6
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	1040.1.2={
+		birth="1040.1.2"
+	}
+	1066.1.2={
+	add_spouse=40522
+	}
+	1090.1.2={
+		death="1090.1.2"
+	}
+}
+
+81872 = {
+	name="Ednouain"
+	# AKA: Ednouain Bendeu
+	dynasty=20148
+	martial=7
+	diplomacy=7
+	intrigue=7
+	steuardship=8
+	religion="catholic"
+	culture="welsh"
+	father=81871
+	mother=40522
+	1064.1.2={
+		birth="1064.1.2"
+	}
+	1114.1.2={
+		death="1114.1.2"
+	}
+}
+
+#8189 = {
+#	name="Ederfydd" #ap Seisyll
+#	dynasty=14278 #Seisyll
+#	religion="catholic"
+#	culture="welsh"
+#	trait="bastard"
+#	father=81820 #Seisyll of Guynedd
+#	985.1.1={
+#		birth="985.1.1"
+#	}
+#	1038.1.1={
+#		death="1038.1.1"
+#	}
+#}
+
+81911 = {
+	name="Hereuallt"
+	dynasty=20191 #Llancarfan
+	religion="catholic"
+	culture="welsh"
+	1025.1.1={
+		birth="1025.1.1"
+	}
+	1075.1.1={
+		death="1075.1.1"
+	}
+}
+
+81912 = {
+	name="Lifris"
+	dynasty=20191
+	martial=4
+	diplomacy=5
+	intrigue=5
+	steuardship=3
+	religion="catholic"
+	culture="welsh"
+	trait="patient"
+	trait="scholarly_theologian"
+	father=81911
+	1045.1.2={
+		birth="1045.1.2"
+	}
+	1095.1.2={
+		death="1095.1.2"
+	}
+}
+
+81913 = {
+	name="Steffen"
+	dynasty=20191
+	martial=4
+	diplomacy=6
+	intrigue=5
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	trait="diligent"
+	trait="scholarly_theologian"
+	father=81911
+	1050.1.2={
+		birth="1050.1.2"
+	}
+	1100.1.2={
+		death="1100.1.2"
+	}
+}
+
+138443 = {
+	name="Guenllian" 
+	female=yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=81849 #Branduen Nurcelyn
+	1042.1.1={
+		birth="1042.1.1"
+	}
+	#married Caradog ap Gruffyd ap Rys
+	1090.1.1={
+		death="1090.1.1"
+	}	
+}
+
+138444 = {
+	name="Guerstan" #ap Guaithfoed
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=159076
+	954.1.1={
+		birth="954.1.1"
+	}
+	990.1.1={
+		death="990.1.1"
+	}	
+}
+
+138445 = {
+	name="Guenllian" 
+	female=yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	#mother Susann of Guynedd
+	1155.1.1={
+		birth="1155.1.1"
+	}
+	#married Rys ap Gruffyd of Deheubarth
+	1198.1.1={
+		death="1198.1.1"
+	}	
+}
+
+138446 = {
+	name="Madog" #ap ririd
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=81848 #ririd ap Bleddyn	
+	1075.1.1={
+		birth="1075.1.1"
+	}
+	1111.1.1={
+		trait="kinslayer" #killed Ioruerth & Cadugan ap Bleddyn
+	}
+	1113.1.1={
+		give_nickname=nick_the_blind
+		trait="blinded"
+	}
+	1114.1.1={
+		death="1114.1.1"
+	}
+}
+
+138448 = {
+	name="Ithel" #ap ririd
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=81848 #ririd ap Bleddyn
+	1076.1.1={
+		birth="1076.1.1"
+	}
+	1122.1.1={
+		death="1122.1.1"
+	}
+}
+
+138449 = {
+	name="Susann" #ferch Gruffydd 
+	dynasty=101920 #Aberffrau
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=81031 #Gruffyd ap Cynan
+	mother=214814 #Angharad ferch Ouain
+	1110.1.1={
+		birth="1110.1.1"
+	}
+	#married Madog ap Maredudd of Pouys 214718
+	1161.1.1={
+		death="1161.1.1"
+	}	
+}
+
+138450 = {
+	name="Llyuelyn" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	1057.1.1={
+		birth="1057.1.1"
+	}
+	1098.1.1={
+		death="1098.1.1"
+	}
+}
+
+138452 = {
+	name="Ouain" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	trait="ambitious"
+	trait="grey_eminence"
+	trait="cruel"
+	trait="tough_soldier"
+	1076.1.1={
+		birth="1076.1.1"
+	}
+	#1115 knighted
+	1116.1.1={
+		death="1116.1.1" #1113
+	}
+}
+
+138454 = {
+	name="Einon" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	#mother Sanan
+	1085.1.1={
+		birth="1085.1.1"
+	}
+	1121.1.1={
+		death="1121.1.1"
+	}
+}
+
+138456 = {
+	name="Madog" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	mother=81853 #Guenllian ferch Gruffydd
+	1098.1.1={
+		birth="1098.1.1"
+	}
+	1118.1.1={
+		death="1118.1.1"
+	}
+}
+
+138458 = {
+	name="Maredudd" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	#Euron daughter of Hoedlyu ap Cadugan
+	1105.1.1={
+		birth="1105.1.1"
+	}
+	1122.1.1={
+		death="1122.1.1"
+	}
+}
+
+138460 = {
+	name="Morgan" #ap Cadugan
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=6378 #Cadugan ap Bleddyn
+	#Euron daughter of Hoedlyu ap Cadugan
+	1106.1.1={
+		birth="1106.1.1"
+	}
+	1122.1.1={
+		trait="kinslayer"
+		trait="crusader"
+	}
+	1125.12.1={
+		death="1125.12.1"
+	}
+}
+
+138462 = {
+	name="Grufyd Maelor" #Gruffydd Maelor II
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=214724 #Madog ap Gruffydd Maelor ap Madog
+	#mother Angharad of Guynedd
+	1200.1.1={
+		birth="1200.1.1"
+	}
+	#married Emma de Audley
+	1269.1.1={
+		death="1269.1.1"
+	}
+}
+
+138464 = {
+	name="Idual Fychan" #the small ap Idual
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81829 #Idual Foel
+	920.1.1={
+		birth="920.1.1"
+	}
+	942.1.1={
+		add_claim = c_guynedd
+	}
+	950.1.1={
+		remove_claim = c_guynedd
+	}	
+	979.1.1={
+		death="979.1.1"
+	}
+}
+
+138466 = {
+	name="Idual" # ap Rodri
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	trait="bastard"
+	865.1.1={
+		birth="865.1.1"
+	}
+	943.1.1={
+		death="943.1.1"
+	}
+}
+
+138468 = {
+	name="Caduallon" # ap Gruffydd
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81031 #Gruffydd ap Cynan
+	trait="bastard"
+	1095.1.1={
+		birth="1095.1.1"
+	}
+	1132.1.1={
+		death="1132.1.1"
+	}
+}
+
+138470 = {
+	name="Cadualadr" # ap Gruffydd
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81031 #Gruffyd ap Cynan
+	mother=214814 #Angharad ferch Ouain
+	1102.1.1={
+		birth="1102.1.1"
+	}
+	#married Alice de Clare
+	1172.3.1={
+		death="1172.3.1"
+	}		
+}
+
+138472 = {
+	name="Guyn" #ap Golluyn
+	dynasty=20158 #Aruystli
+	religion="catholic"
+	culture="welsh"
+	father=1228348 #Golluyn ap Ednyuain
+    945.1.1={
+        birth="945.1.1"
+    }
+    1010.1.1={
+        death="1010.1.1"
+    }
+}
+
+138474 = {
+    name="Caradog" #ap Guyn
+    dynasty=20158 #Aruystli
+    religion="catholic"
+    culture="welsh"
+    father=138472 #Guyn ap Golluyn
+    980.1.1={
+        birth="980.1.1"
+    }
+    1050.1.1={
+        death="1050.1.1"
+    }
+}
+
+138476 = {
+    name="Trahaearn" #ap Caradog
+    dynasty=20158 #Aruystli
+    religion="catholic"
+    culture="welsh"
+    father=138474 #Caradog ap Guyn
+    1025.1.1={
+        birth="1025.1.1"
+    }
+    1081.1.1={
+        death="1081.1.1"
+    }
+}
+
+138478 = {
+    name="Llyuarch" #ap Trahaiarn
+    dynasty=20158 #Aruystli
+    religion="catholic"
+    culture="welsh"
+    father=138476 # Trahaiarn ap Caradog
+    1065.1.1={
+        birth="1065.1.1"
+    }
+    1107.1.1={
+        death="1107.1.1"
+    }
+}
+
+138482 = {
+	name="Goronuy" #ap Einion King of Deheubarth
+	dynasty=101680 #Tegaingl
+	religion="catholic"
+	culture="welsh"
+	father=138484 #Einion ap Ouain
+	975.1.1={
+		birth="975.1.1"
+	}
+	1030.1.1={
+		death="1030.1.1"
+	}
+}
+
+138484 = {
+	name="Einion" #ap Ouain
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=81822 #Ouain ap Hyuel
+	930.1.1={
+		birth="930.1.1" #unknoun
+	}
+	983.1.1={
+		death="983.1.1" 
+	}
+}
+
+138486 = {
+	name="Dauyd" #ap Llyuelyn
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214714 #Llyuelyn ab Ioruerth
+	mother=138451 #Joan of England
+	1208.1.1={
+		birth="1208.1.1"
+	}
+	#1230 married Isabel de Briouse
+	1230.1.1={
+		add_spouse=161621 
+	}
+	1237.1.1={
+		employer=214714 #Llyuelyn ab Ioruerth
+	}
+	1240.4.11={
+		employer=0 #Becomes duke of Guynedd
+	}
+	1246.1.1={
+		death="1246.1.1" 
+	}
+}
+
+138487 = {
+	name="Helen" #ferch Llyuelyn
+	female=yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=214714 #Llyuelyn ab Ioruerth
+	mother=138451 #Joan of England
+	1206.1.1={
+		birth="1206.1.1"
+	}	
+	#1222 married John the Scot of Huntingdon
+	#married 1237 Robert de Quincy
+	1253.10.24={
+		death="1253.10.24" 
+	}
+}
+
+138490 = {
+	name="Cadell" #ap Einion
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138484 #Einion ap Ouain
+	953.1.1={
+		birth="953.1.1"
+	}
+	1018.1.1={
+		death="1018.1.1"
+	}
+}
+	
+138488 = {
+	name="Teudur" #ap Cadell King of Deheubarth
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138490 #Cadell ap Einion
+	give_nickname="nick_the_great"
+	975.1.1={
+		birth="975.1.1" #unknoun
+	}
+	1014.1.1={
+		death="1014.1.1" #unknoun
+	}
+}
+
+138492 = {
+	name="Eduin" #ap Einion
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138484 #Einion ap Ouain
+	954.1.1={
+		birth="954.1.1" #unknoun
+	}
+	993.1.1={
+		death="993.1.1" #unknoun
+	}
+}
+
+138494 = {
+	name="Ouain" # ap Eduin
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138492 #Eduin ap Einion
+	974.1.1={
+		birth="974.1.1" #unknoun
+	}
+	1032.1.1={
+		death="1032.1.1" #unknoun
+	}
+}
+
+138496 = {
+	name="Maredudd" #ap Ouain 
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=138494 #Ouain ap Eduin
+	1010.1.1={
+		birth="1010.1.1" #unknoun
+	}
+	1070.1.1={
+		death="1070.1.1"
+	}	
+}
+
+138498 = {
+	name="Anaraud" #ap Gruffyd
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=214810 #Gruffydd ap Rys
+	trait="bastard"
+	1110.1.1={
+		birth="1110.1.1" #unknoun	
+	}
+	#married daughter of Cadualadr ap Gruffydd
+	1143.1.1={
+		death="1143.1.1"
+	}
+}
+
+138500 = {
+	name="Cadell" #ap Gruffyd
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=214810 #Gruffydd ap Rys
+	trait="bastard"
+	1112.1.1={
+		birth="1112.1.1" #unknoun	
+	}
+	#1153 abdicated
+	1174.1.1={
+		trait="ill"
+	}
+	1175.1.1={
+		death="1175.1.1"
+	}
+}
+
+159000 = {
+	name="Hyuel" # ap Iago
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=159004 # Iago ap Idual
+	938.1.1={
+		birth="938.1.1"	#unknoun
+	}
+	997.1.1={
+		death="997.1.1"
+	}
+}
+
+159001 = {
+	name="Cynan" # ap Hyuel
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=159000 # Hyuel ap Iago
+	955.1.1={
+		birth="955.1.1"	#unknoun
+	}
+	1015.1.1={
+		death="1015.1.1"
+	}
+}
+
+159002 = {
+	name="Aeddan ap Blegyuryd"
+	dynasty=20154 #placeholder
+	religion="catholic"
+	culture="welsh"
+	945.1.1={
+		birth="945.1.1"	#unknoun
+	}
+	1005.1.1={
+		give_nickname = nick_the_usurper
+	}
+	1018.1.1={
+		death="1018.1.1"
+	}
+}
+	
+159003 = {
+	name="Iestyn" # ap Ouain ap Morgan Hen
+	dynasty=547 #Morgan
+	religion="catholic"
+	culture="welsh"
+	father=40510 # Ouain ap Morgan Hen
+	975.1.1={
+		birth="975.1.1"	#unknoun
+	}
+	1023.1.1={
+		death="1023.1.1" #unknoun
+	}
+}
+159004 = {
+	name="Iago" # ap Idual Foel
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81829 # Idual Foel
+	920.1.1={
+		birth="920.1.1"	#unknoun
+	}
+	979.1.1={
+		death="979.1.1"
+	}
+}
+159005 = {
+	name="Hyuel" # ap Idual Ieuaf ap Idual Foel
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81828 #Idual Ieuaf
+	940.1.1={
+		birth="940.1.1"
+	}
+	985.1.1={
+		death="985.1.1"
+	}
+}
+159006 = {
+	name="Caduallon" # ap Idual Ieuaf ap Idual Foel
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81828 #Idual Ieuaf
+	941.1.1={
+		birth="941.1.1"
+	}
+	987.1.1={
+		death="987.1.1"
+	}
+}
+159007 = {
+	name="Tegid" # 
+	dynasty=1029039 # Goddoddin
+	religion="catholic"
+	culture="welsh"
+	240.1.1={
+		birth="240.1.1"
+	}
+	300.1.1={
+		death="300.1.1"
+	}
+}
+159008 = {
+	name="Padarn Beisrudd" # 
+	dynasty=1029039 # Goddoddin
+	religion="catholic"
+	culture="welsh"
+	father=159007
+	270.1.1={
+		birth="270.1.1"
+	}
+	340.1.1={
+		death="340.1.1"
+	}
+}
+159009 = {
+	name="Edern" #
+	dynasty=1029039 # Goddoddin
+	religion="catholic"
+	culture="welsh"
+	father=159008
+	310.1.1={
+		birth="310.1.1"
+	}
+	390.1.1={
+		death="390.1.1"
+	}
+}
+159010 = {
+	name="Cunedda" # ap Edern
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159009
+	350.1.1={
+		birth="350.1.1"
+	}
+	390.1.2={
+	add_spouse=159039
+	}
+	445.1.1={
+		death="445.1.1"
+	}
+}
+159011 = {
+	name="Einion" # ap Cunedda
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159010
+	mother=159039
+	390.1.1={
+		birth="390.1.1"
+	}
+	470.1.1={
+		death="470.1.1"
+	}
+}
+159012 = {
+	name="Caduallon" # ap Einion
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159011
+	440.1.1={
+		birth="440.1.1"
+	}
+	517.1.1={
+		death="517.1.1"
+	}
+}
+159013 = {
+	name="Maelgun" # ap Caduallon
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159012 # Caduallon
+	481.1.1={
+		birth="481.1.1"
+	}
+	547.1.1={
+		death="547.1.1"
+	}
+}
+159014 = {
+	name="Run" # ap Maelgun
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159013 # Caduallon
+	510.1.1={
+		birth="510.1.1"
+	}
+	580.1.1={
+		death="580.1.1"
+	}
+}
+159015 = {
+	name="Beli" # ap run
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159014 # run
+	527.1.1={
+		birth="527.1.1"
+	}
+	599.1.1={
+		death="599.1.1"
+	}
+}
+159016 = {
+	name="Iago" # ap Beli
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159015 # Beli
+	560.1.1={
+		birth="560.1.1"
+	}
+	616.1.1={
+		death="616.1.1"
+	}
+}
+159017 = {
+	name="Cadfan" # ap Iago
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159016 # Iago
+	580.1.1={
+		birth="580.1.1"
+	}
+	625.1.1={
+		death="625.1.1"
+	}
+}
+159018 = {
+	name="Caduallon" # ap Cadfan
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159017 # Cadfan
+	600.1.1={
+		birth="600.1.1"
+	}
+	634.1.1={
+		death="634.1.1"
+	}
+}
+159019 = {
+	name="Cadualadr" # ap Caduallon
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159018 # Caduallon
+	630.1.1={
+		birth="630.1.1"
+	}
+	664.1.1={
+		death="664.1.1"
+	}
+}
+159020 = {
+	name="Idual" # ap Cadualadr
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159019 # Cadualadr
+	670.1.1={
+		birth="670.1.1"
+	}
+	700.1.1={
+		add_spouse=160047
+	}
+	720.1.1={
+		death="720.1.1"
+	}
+}
+159021 = {
+	name="Rodri" # ap Idual
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159020 # Idual
+	mother=160047 #Agatha of Brittany
+	700.1.1={
+		birth="700.1.1"
+	}
+	754.1.1={
+		death="754.1.1"
+	}
+}
+
+159022 = {
+	name="Caradog" # ap Meirchion
+	#dynasty=100064
+	religion="catholic"
+	culture="welsh"
+	720.1.1={
+		birth="720.1.1"
+	}
+	798.1.1={
+		death="798.1.1"
+	}
+}
+159023 = {
+	name="Cynan" # ap Rodri
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159021 # Rodri
+	740.1.1={
+		birth="740.1.1"
+	}
+	816.1.1={
+		death="816.1.1"
+	}
+}
+159024 = {
+	name="Hyuel" # ap Rodri
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159021 # Rodri
+	750.1.1={
+		birth="750.1.1"
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+159025 = {
+	name="Esyllt" # ferch Cynan
+	dynasty=100064 #Guynedd
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=159023 # Cynan
+	770.1.1={
+		birth="770.1.1"
+	}
+	790.1.2={
+	add_spouse=159026
+	}
+	834.1.1={
+		death="834.1.1"
+	}
+}
+
+159026 = {
+	name="Guriad" # 
+	dynasty=101922 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159028 # Elidyr
+	760.1.1={
+		birth="760.1.1"
+	}
+	790.1.2={
+	add_spouse=159025
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+
+159027 = {
+	name="Merfyn" # 
+	dynasty=101922 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159026 # Guriad
+	mother=159025 # Esyllt
+	790.1.1={
+		birth="790.1.1"
+	}
+	819.1.2={
+	add_spouse=159088
+	}
+	844.1.1={
+		death="844.1.1"
+	}
+}
+
+159028 = {
+	name="Elidyr" # 
+	dynasty=101922 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159029 # Sandde
+	mother=159933 # Celeinion
+
+	730.1.1={
+		birth="730.1.1"
+	}
+	820.1.1={
+		death="820.1.1"
+	}
+}
+
+159037 = {
+	name="Ceneu" # 
+	dynasty=1029002 #Ebrauc
+	religion="catholic"
+	culture="welsh"
+	father=159038 # Coel
+	mother=159951 #Ystraduel of Dumnonia
+	390.1.1={
+		birth="390.1.1"
+	}
+	460.1.1={
+		death="460.1.1"
+	}
+}
+159038 = {
+	name="Coel" # 
+	dynasty=1029002 #Ebrauc
+	religion="catholic"
+	culture="welsh"
+	340.1.1={
+		birth="340.1.1"
+	}
+	390.1.1={
+		add_spouse = 159951
+	}
+	420.1.1={
+		give_nickname= nick_the_old
+	}
+	420.1.1={
+		death="420.1.1"
+	}
+}
+159039 = {
+	name="Guaul" # 
+	female=yes
+	dynasty=1029002 #Ebrauc
+	religion="catholic"
+	culture="welsh"
+	father=159038 # Coel
+	mother=159951 #Ystraduel of Dumnonia
+	355.1.1={
+		birth="355.1.1"
+	}
+	390.1.2={
+	add_spouse=159010
+	}
+	430.1.1={
+		death="430.1.1"
+	}
+}
+159040 = {
+	name="Ifur" # ap Cadualadr
+	dynasty=100064 #Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159019 # Cadualadr
+	660.1.1={
+		birth="660.1.1"
+	}
+	684.1.1={
+		death="684.1.1"
+	}
+}
+
+159041 = {
+	name="Elisedd" # ap Idual
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81829 # Cadualadr
+	906.1.1={
+		birth="906.1.1"
+	}
+	942.1.1={
+		death="942.1.1"
+	}
+}
+
+159042 = {
+	name="Praust" # ferch Elisedd
+	female=yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=159041 # Elisedd
+	942.1.1={
+		birth="942.1.1"
+	}
+	970.1.2={
+		add_spouse=81820
+	}
+	1000.1.1={
+		death="1000.1.1"
+	}
+}
+
+159043 = {
+	name="Llyr" # ap Einion
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159011
+	450.1.1={
+		birth="450.1.1"
+	}
+	520.1.1={
+		death="520.1.1"
+	}
+}
+159044 = {
+	name="Caradog" # ap Llyr
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159043
+	480.1.1={
+		birth="480.1.1"
+	}
+	550.1.1={
+		death="550.1.1"
+	}
+}
+159045 = {
+	name="Gugon" # ap Caradog
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159044
+	520.1.1={
+		birth="520.1.1"
+	}
+	580.1.1={
+		death="580.1.1"
+	}
+}
+159046 = {
+	name="Glannog" # ap Gugon
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159045
+	560.1.1={
+		birth="560.1.1"
+	}
+	615.1.1={
+		death="615.1.1"
+	}
+}
+159047 = {
+	name="Helig" # ap Glannog
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159046
+	600.1.1={
+		birth="600.1.1"
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+159048 = {
+	name="rychuin" # ap Helig
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159047
+	640.1.1={
+		birth="640.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+159049 = {
+	name="Cynuas" # ap rychuin
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159048
+	680.1.1={
+		birth="680.1.1"
+	}
+	760.1.1={
+		death="760.1.1"
+	}
+}
+159050 = {
+	name="Garannog" # ap Cynuas
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159049
+	720.1.1={
+		birth="720.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+159051 = {
+	name="Geraint" # ap Garannog
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159050
+	760.1.1={
+		birth="760.1.1"
+	}
+	820.1.1={
+		death="820.1.1"
+	}
+}
+159052 = {
+	name="Guyddno" # ap Geraint
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159051
+	800.1.1={
+		birth="800.1.1"
+	}
+	880.1.1={
+		death="880.1.1"
+	}
+}
+159053 = {
+	name="Sandde" # ap Guyddno
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159052
+	840.1.1={
+		birth="840.1.1"
+	}
+	910.1.1={
+		death="910.1.1"
+	}
+}
+159054 = {
+	name="Pyll" # ap Sandde
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159053
+	880.1.1={
+		birth="880.1.1"
+	}
+	960.1.1={
+		death="960.1.1"
+	}
+}
+159055 = {
+	name="Ednyuain" # ap Pyll
+	dynasty=100064 # Guynedd
+	religion="catholic"
+	culture="welsh"
+	father=159054
+	920.1.1={
+		birth="920.1.1"
+	}
+	990.1.1={
+		death="990.1.1"
+	}
+}
+
+159058 = {
+	name="Cadell" #
+	dynasty=1029133 #Pouys
+	religion="catholic"
+	culture="welsh"
+	father=159948
+	400.1.1={
+		birth="400.1.1"
+	}
+	470.1.1={
+		death="470.1.1"
+	}
+}
+159059 = {
+	name="Pasgen" #
+	dynasty=1029133 #Pouys
+	religion="catholic"
+	culture="welsh"
+	father=159058
+	425.1.1={
+		birth="425.1.1"
+	}
+	450.1.1={
+		add_spouse = 159950
+	}
+	501.1.1={
+		death="501.1.1"
+	}
+}
+
+159076 = {
+	name="Guaithfoed" # 
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=159075
+	924.1.1={
+		birth="924.1.1"
+	}
+	980.1.1={
+		death="980.1.1"
+	}
+}
+
+
+159107 = {
+	name="Morgan" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159108
+	mother=159375
+	874.1.1={
+		birth="874.1.1"
+	}
+	974.1.1={
+		give_nickname= nick_the_old
+	}
+	974.1.2={
+		death="974.1.2"
+	}
+}
+
+159108 = {
+	name="Ouain" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159109
+	850.1.1={
+		birth="850.1.1"
+	}
+	875.1.1={
+		add_spouse = 159375
+	}
+	930.1.1={
+		death="930.1.1"
+	}
+}
+
+159109 = {
+	name="Hyuel" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159110
+	830.1.1={
+		birth="830.1.1"
+	}
+	885.1.1={
+		death="885.1.1"
+	}
+}
+
+159110 = {
+	name="Rys" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159111
+	785.1.1={
+		birth="785.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+
+159111 = {
+	name="Arthfael" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159112
+	780.1.1={
+		birth="780.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+
+159112 = {
+	name="Guriad" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159113
+	750.1.1={
+		birth="750.1.1"
+	}
+	810.1.1={
+		death="810.1.1"
+	}
+}
+
+159113 = {
+	name="Brochfael" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159114
+	730.1.1={
+		birth="730.1.1"
+	}
+	790.1.1={
+		death="790.1.1"
+	}
+}
+
+159114 = {
+	name="Rys" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159115
+	709.1.1={
+		birth="709.1.1"
+	}
+	780.1.1={
+		death="780.1.1"
+	}
+}
+
+159115 = {
+	name="Ithel" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159116
+	675.1.1={
+		birth="675.1.1"
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+
+159116 = {
+	name="Morgan" #
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159835
+	634.1.1={
+		birth="634.1.1"
+	}
+	710.1.2={
+		death="710.1.2"
+		give_nickname = nick_the_great
+	}
+}
+
+161615 = {
+	name="Guladus" #ferch Llyuelyn
+	female=yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	trait="bastard"
+	father=214714 #Llyuelyn ab Ioruerth
+	1210.1.1={
+		birth="1210.1.1"
+	}	
+	1251.1.1={
+		death="1251.1.1" 
+	}
+}
+
+159290 = {
+	name="Nest" # ferch Teudur
+	dynasty=101919 #Dinefru
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	trait="charitable"
+	father=138488 #Teudur ap Cadell
+	1014.1.1={
+		birth="1014.1.1" #unknoun
+	}
+	1093.4.1={
+		death="1093.4.1"
+	}
+}
+
+159292 = {
+	name="Madog" # Eidio ap Sutrig
+	dynasty=1029097 # Llyuel
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=159291
+	mother=159290
+	1030.1.1={
+		birth="1030.1.1"
+	}
+	1066.1.1={
+		add_spouse = 159520
+	}
+	1094.1.5={
+		death="1094.1.5"
+	}
+}
+
+159293 = {
+	name="Golug" # ab Eidio
+	dynasty=1029097 # Llyuel
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=159292
+	mother=159520
+	1066.1.1={
+		birth="1066.1.1"
+	}
+	1134.1.5={
+		death="1134.1.5"
+	}
+}
+
+159294 = {
+	name="Madog" # ap Golug
+	dynasty=1029097 # Llyuel
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=159293
+	1090.1.1={
+		birth="1090.1.1"
+	}
+	1160.1.5={
+		death="1160.1.5"
+	}
+}
+
+159295 = {
+	name="Ysbuys" # ap Golug
+	dynasty=1029097 # Llyuel
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=159293
+	1094.1.1={
+		birth="1094.1.1"
+	}
+	1165.1.5={
+		death="1165.1.5"
+	}
+}
+
+159296 = {
+	name="Mabron" # ap Golug
+	dynasty=1029097 # Llyuel
+	martial=6
+	diplomacy=6
+	intrigue=4
+	steuardship=4
+	religion="catholic"
+	culture="welsh"
+	trait="tough_soldier"
+	father=159293
+	1095.1.1={
+		birth="1095.1.1"
+	}
+	1170.1.5={
+		death="1170.1.5"
+	}
+}
+
+159313 = {
+	name="Crusli" #
+	dynasty=101920 #Aberffrau
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=81826
+	960.1.1={
+		birth="960.1.1"
+	}
+	980.1.1={
+		add_spouse = 159311
+	}
+	1030.1.2={
+		death="1030.1.2"
+	}
+}
+
+159314 = {
+	name="Blegurd" # of Brycheiniog
+	dynasty=1042817 #Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=131704
+	1066.1.1={
+		birth="1066.1.1"
+	}
+	1130.1.2={
+		death="1130.1.2"
+	}
+}
+
+159315 = {
+	name="Gugon" # of Brycheiniog
+	dynasty=1042817 #Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159314
+	1086.1.1={
+		birth="1086.1.1"
+	}
+	1150.1.2={
+		death="1150.1.2"
+	}
+}
+
+159231 = { 
+	name="rydderch"
+	dynasty=101919
+	religion="catholic"
+	culture="welsh"
+	father=138488
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1070.1.1={
+		add_spouse=81850 #married Hunydd ferch Bleddyn
+	}
+	1090.1.1={
+		death="1090.1.1"
+	}
+}
+
+159232 = { 
+	name="Maredudd"
+	dynasty=101919
+	religion="catholic"
+	culture="welsh"
+	father=159231
+	mother=81850 #Hunydd ferch Bleddyn
+	1070.1.1={
+		birth="1070.1.1"
+	}
+	1150.1.1={
+		death="1150.1.1"
+	}
+}
+
+159233 = { 
+	name="Ouain"
+	dynasty=101919
+	religion="catholic"
+	culture="welsh"
+	father=159231
+	mother=81850 #Hunydd ferch Bleddyn
+	1071.1.1={
+		birth="1071.1.1"
+	}
+	1151.1.1={
+		death="1151.1.1"
+	}
+}
+
+159234 = {
+	name="Denis" #ferch Bleddyn
+	dynasty=548 #Mathrafal
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=6358 #Bleddyn ap Cynfyn
+	mother=40507 #Haer Efionydd
+	1049.1.1={
+		birth="1049.1.1"
+	}
+	1130.1.1={
+		death="1130.1.1"
+	}
+}
+
+
+159323 = {
+	name="Brychan"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159320
+	mother=159815
+	415.1.1={
+		birth="415.1.1"
+        }
+	435.1.1={
+		add_spouse = 159932
+	}
+	490.1.1={
+		death="490.1.1"
+	}
+}
+159324 = {
+	name="Guerthefyr"
+	dynasty=1029030 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159322
+	455.1.1={
+		birth="455.1.1"
+	}
+	540.1.1={
+		death="540.1.1"
+	}
+}
+159325 = {
+	name="rain Dremrudd"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159323
+	mother=159932
+	435.1.1={
+		birth="435.1.1"
+	}
+	510.1.1={
+		death="510.1.1"
+	}
+}
+
+159326 = {
+	name="rigeneu"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159325
+	460.1.1={
+		birth="460.1.1"
+	}
+	540.1.1={
+		death="540.1.1"
+	}
+}
+159327 = {
+	name="Llyuarch"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159326
+	500.1.1={
+		birth="500.1.1"
+	}
+	580.1.1={
+		death="580.1.1"
+	}
+}
+159328 = {
+	name="Iduallon"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159327
+	540.1.1={
+		birth="540.1.1"
+	}
+	620.1.1={
+		death="620.1.1"
+	}
+}
+159329 = {
+	name="Riuallon"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159328
+	570.1.1={
+		birth="570.1.1"
+	}
+	640.1.1={
+		death="640.1.1"
+	}
+}
+159330 = {
+	name="Ceindrych"
+	female = yes
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159329
+	600.1.1={
+		birth="600.1.1"
+	}
+	625.1.1={
+		add_spouse=159344 #Cloten of Dyfed
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+159340 = {
+	name="Cyngar"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159324
+	500.1.1={
+		birth="500.1.1"
+	}
+	570.1.1={
+		death="570.1.1"
+	}
+}
+159341 = {
+	name="Pedr"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159340
+	530.1.1={
+		birth="530.1.1"
+	}
+	595.1.1={
+		death="595.1.1"
+	}
+}
+159342 = {
+	name="Arthur"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159341
+	550.1.1={
+		birth="550.1.1"
+	}
+	620.1.1={
+		death="620.1.1"
+	}
+}
+159343 = {
+	name="Nouy" # I 
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159342
+	565.1.1={
+		birth="565.1.1"
+	}
+	650.1.1={
+		give_nickname = nick_the_old
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+159344 = {
+	name="Gulyddien" #Cloten
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159343
+	590.1.1={
+		birth="590.1.1"
+	}
+	625.1.1={
+		add_spouse=159330 #Ceindrych of Brycheiniog
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+159345 = {
+	name="Cathen"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159344
+	mother=159330
+	625.1.1={
+		birth="625.1.1"
+	}
+	690.1.1={
+		death="690.1.1"
+	}
+}
+159346 = {
+	name="Cadugan" # Tredylig
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159345
+	650.1.1={
+		birth="650.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+159347 = {
+	name="rain"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159346
+	670.1.1={
+		birth="670.1.1"
+	}
+	730.1.1={
+		death="730.1.1"
+	}
+}
+159348 = {
+	name="Teudos"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159347
+	700.1.1={
+		birth="700.1.1"
+	}
+	760.1.1={
+		death="760.1.1"
+	}
+}
+159349 = {
+	name="Maredudd"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159348
+	730.1.1={
+		birth="730.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+159350 = {
+	name="Ouain"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159349
+	760.1.1={
+		birth="760.1.1"
+	}
+	811.1.1={
+		death="811.1.1"
+	}
+}
+159351 = {
+	name="Tanguystyl"
+	female = yes
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159350
+	790.1.1={
+		birth="790.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+159352 = {
+	name="Bledrig"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159697
+	790.1.1={
+		birth="790.1.1"
+	}
+	850.1.1={
+		death="850.1.1"
+	}
+}
+159353 = {
+	name="Hyfaidd"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159352
+	mother=159351
+	810.1.1={
+		birth="810.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+159354 = {
+	name="Llyuarch"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159353
+	850.1.1={
+		birth="850.1.1"
+	}
+	904.1.1={
+		death="904.1.1"
+	}
+}
+159355 = {
+	name="Elen"
+	female = yes
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159354
+	880.1.1={
+		birth="880.1.1"
+	}
+	904.1.1={
+		add_spouse=81823
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+159356 = {
+	name="rain"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159349
+	755.1.1={
+		birth="755.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}
+}
+159357 = {
+	name="Triffyn"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159356
+	770.1.1={
+		birth="770.1.1"
+	}
+	810.1.1={
+		death="810.1.1"
+	}
+}
+159358 = {
+	name="Aust"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159346
+	680.1.1={
+		birth="680.1.1"
+	}
+	730.1.1={
+		death="730.1.1"
+	}
+}
+159359 = {
+	name="Eluystyl"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159358
+	710.1.1={
+		birth="710.1.1"
+	}
+	750.1.1={
+		death="750.1.1"
+	}
+}
+159360 = {
+	name="Teudur"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159347
+	701.1.1={
+		birth="701.1.1"
+	}
+	750.1.1={
+		death="750.1.1"
+	}
+}
+159361 = {
+	name="Rodri"
+	dynasty=1029030 # Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159353
+	851.1.1={
+		birth="851.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+159362 = {
+	name="Rodri" #ap Hyuel
+	dynasty=101919 #Dinefru
+	religion="catholic"
+	culture="welsh"
+	father=81823 #Hyuel Dda
+	mother=159355 #Elen of Dyfed
+	905.1.1={
+		birth="905.1.1"
+	}
+	954.1.1={
+		death="954.1.1"
+	}
+}
+159363 = {
+	name="Nouy"
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159360
+	721.1.1={
+		birth="721.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+159364 = {
+	name="Gruffydd" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159363
+	750.1.1={
+		birth="750.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+159365 = {
+	name="Teudur" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159364
+	780.1.1={
+		birth="780.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+159366 = {
+    name="Elisedd"
+    dynasty=200068
+    religion="catholic"
+    culture="welsh"
+    father=159365
+    810.1.1={
+        birth="810.1.1"
+    }
+    885.1.1={
+        death="885.1.1"
+    }
+}
+159367 = {
+    name="Gruffydd"
+    dynasty=200068
+    religion="catholic"
+    culture="welsh"
+    father=159366
+    850.1.1={
+        birth="850.1.1"
+    }
+    920.1.1={
+        death="920.1.1"
+    }
+}
+159368 = {
+	name="Teudur" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159367
+	870.1.1={
+		birth="870.1.1"
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+159369 = {
+	name="Guylog" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159368
+	900.1.1={
+		birth="900.1.1"
+	}
+	970.1.1={
+		death="970.1.1"
+	}
+}
+159370 = {
+	name="Elisedd" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159369
+	930.1.1={
+		birth="930.1.1"
+	}
+	1000.1.1={
+		death="1000.1.1"
+	}
+}
+159371 = {
+	name="Gruffydd" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159370
+	960.1.1={
+		birth="960.1.1"
+	}
+	1045.1.1={
+		death="1045.1.1"
+	}
+}
+159372 = {
+	name="Selyf" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159371
+	980.1.1={
+		birth="980.1.1"
+	}
+	1050.1.1={
+		death="1050.1.1"
+	}
+}
+159373 = {
+	name="Einion" 
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159372
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1070.1.1={
+		death="1070.1.1"
+	}
+}
+159374 = {
+	name="Elinor" #
+	female = yes
+	dynasty=200068
+	religion="catholic"
+	culture="welsh"
+	father=159373
+	1020.1.1={
+		birth="1020.1.1"
+	}
+	1035.1.1={
+		add_spouse = 159312 
+	}
+	1080.1.1={
+		death="1080.1.1"
+	}
+}
+
+159375 = {
+	name="Elen" #ferch Rodri Maur
+	female = yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	855.1.1={
+		birth="855.1.1"	#unknoun
+	}
+	935.1.1={
+		death="935.1.1"
+	}
+}
+159519 = {
+	name="Drymbenog"
+	dynasty=1042817
+	martial=8
+	diplomacy=3
+	intrigue=4
+	steuardship=5
+	religion="catholic"
+	culture="welsh"
+	father=159312
+	mother=159374
+	trait="zealous"
+	trait="tough_soldier"
+	1035.1.2={
+		birth="1035.1.2"
+	}
+	1090.1.2={
+		death="1090.1.2"
+	}
+}
+159520 = {
+	name="Elinor" #ferch Drymbenog
+	female=yes
+	dynasty=1042817
+	religion="catholic"
+	culture="welsh"
+	father=159519
+	1050.1.1={
+		birth="1050.1.1"	#unknoun
+	}
+	1066.1.1={
+		add_spouse=159292
+	}
+	1100.1.1={
+		death="1100.1.1"
+	}
+}
+159424 = {
+	name="Caradog"
+	religion="catholic"
+	culture="welsh"
+	dynasty=545 #Caradoc
+	240.1.1={
+		birth="240.1.1"
+	}
+	305.1.1={
+		death="305.1.1"
+	}
+}
+159425 = {
+	name="Meurig"
+	religion="catholic"
+	culture="welsh"
+	dynasty=545 #Caradoc
+	father=159424
+	260.1.1={
+		birth="260.1.1"
+	}
+	315.1.1={
+		death="315.1.1"
+	}
+}
+159426 = {
+	name="Dynod"
+	religion="catholic"
+	culture="welsh"
+	dynasty=545 #Caradoc
+	father=159424
+	281.1.1={
+		birth="281.1.1"
+	}
+	330.1.1={
+		death="330.1.1"
+	}
+}
+159427 = {
+	name="Ursula"
+	female = yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=545 #Caradoc
+	father=159426
+	286.1.1={
+		birth="286.1.1"
+	}
+	370.1.1={
+		death="370.1.1"
+	}
+}
+159428 = {
+	name="Einudd"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029001 #Prydain
+	221.1.1={
+		birth="221.1.1"
+	}
+	300.1.1={
+		death="300.1.1"
+	}
+}
+159429 = {
+	name="Eudaf" #Hen
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029001 #Prydain
+	father=159428
+	261.1.1={
+		birth="261.1.1"
+	}
+	360.1.1={
+		death="360.1.1"
+	}
+}
+159430 = {
+	name="Elen"
+	female = yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029001 #Prydain
+	father=159429
+	340.1.1={
+		birth="340.1.1"
+	}
+	360.1.1={
+		add_spouse=159807
+	}
+	400.1.1={
+		death="400.1.1"
+	}
+}
+159431 = {
+	name="Cynan Meiriadog"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159472
+	290.1.1={
+		birth="290.1.1"
+	}
+	387.1.1={
+		death="387.1.1"
+	}
+}
+159432 = {
+	name="Cadfan"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159431
+	mother=159427
+	310.1.1={
+		birth="310.1.1"
+	}
+	390.1.1={
+		death="390.1.1"
+	}
+}
+159472 = {
+	name="Geraint" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029001 #Prydain
+	father=159428
+	265.1.1={
+		birth="265.1.1"
+	}
+	340.1.1={
+		death="340.1.1"
+	}
+}
+159435 = {
+	name="Gurfaur"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159432
+	330.1.1={
+		birth="330.1.1"
+	}
+	400.1.1={
+		death="400.1.1"
+	}
+}
+159436 = {
+	name="Tudual"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159435
+	360.1.1={
+		birth="360.1.1"
+	}
+	380.1.1={
+		add_spouse=159811
+	}
+	410.1.1={
+		death="410.1.1"
+	}
+}
+
+159437 = {
+	name="Cynfaur"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159436
+	mother=159811
+	380.1.1={
+		birth="380.1.1"
+	}
+	435.1.1={
+		death="435.1.1"
+	}
+}
+
+159438 = {
+	name="Custennin" #Constantine of Cornuall
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159437
+	410.1.1={
+		birth="410.1.1"
+	}
+	443.1.1={
+		death="443.1.1"
+	}
+}
+159439 = {
+	name="Erbin" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159438
+	430.1.1={
+		birth="430.1.1"
+	}
+	480.1.1={
+		death="480.1.1"
+	}
+}
+159440 = {
+	name="Geraint" #Llyngesic
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159439
+	450.1.1={
+		birth="450.1.1"
+	}
+	468.1.1={
+		add_spouse= 159753
+	}
+	508.1.1={
+		death="508.1.1"
+	}
+}
+159441 = {
+	name="Caduy" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159440
+	mother= 159753
+	475.1.1={
+		birth="475.1.1"
+	}
+	530.1.1={
+		death="530.1.1"
+	}
+}
+159442 = {
+	name="Custennin" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159441
+	500.1.1={
+		birth="500.1.1"
+	}
+	560.1.1={
+		death="560.1.1"
+		trait = "saint"
+		name = "Saint Constantine"
+		give_nickname=nick_the_saint
+		dynasty=1029041 #Devnent
+	}
+}
+159443 = {
+	name="Geraint" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159442
+	530.1.1={
+		birth="530.1.1"
+	}
+	577.1.1={
+		name="Gereint" 
+		culture="breton"
+		dynasty=1029041 #Devnent
+	}
+	598.1.1={
+		death="598.1.1"
+	}
+}
+159444 = {
+	name="Bledrig" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029041 #Dyfnaint
+	father=159442
+	535.1.1={
+		birth="531.1.1"
+	}
+	577.1.1={
+		name="Bledric" 
+		culture="breton"
+		dynasty=1029041 #Devnent
+	}
+	613.1.1={
+		death="613.1.1"
+	}
+}
+
+159751 = {
+	name="Neulyna" 
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159442
+	540.1.1={
+		birth="540.1.1"
+	}
+	577.1.1={
+		name="Neulenna" 
+		culture="breton"
+		dynasty=1029041 #Devnent
+	}
+	590.1.1={
+		death="590.1.1"
+	}
+}
+159752 = {
+	name="Dyuel" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159442
+	543.1.1={
+		birth="543.1.1"
+	}
+	577.1.1={
+		name="Domuel" 
+		culture="breton"
+		dynasty=1029041 #Devnent
+	}
+	605.1.1={
+		death="605.1.1"
+	}
+}
+159753 = {
+	name="Enid"
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=0 #
+	453.1.1={
+		birth="453.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+159754 = {
+	name="Ermind" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159439
+	452.1.1={
+		birth="452.1.1"
+	}
+	505.1.1={
+		death="505.1.1"
+	}
+}
+159755 = {
+	name="Dyuel" 
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159439
+	454.1.1={
+		birth="454.1.1"
+	}
+	505.1.1={
+		death="505.1.1"
+	}
+}
+159697 = {
+	name="Iudon"
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029030 # Dyfed
+	father=159349
+	760.1.1={
+		birth="760.1.1"
+	}
+	827.1.1={
+		death="827.1.1"
+	}
+}
+
+159807 = {
+	name="Macsen" # uledig
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	339.1.1={
+		birth="339.1.1"
+	}
+	360.1.1={
+		add_spouse=159430
+	}
+	380.1.1={
+		death="380.1.1"
+	}
+}
+159810 = {
+	name="Severa" # 
+	female = yes
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159807
+	mother=159430
+	360.1.1={
+		birth="360.1.1"
+	}
+	375.1.1={
+		add_spouse=159056
+	}
+	428.1.1={
+		death="428.1.1"
+	}
+}
+159811 = {
+	name="Gratianna" # 
+	female = yes
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159807
+	mother=159430
+	361.1.1={
+		birth="361.1.1"
+	}
+	380.1.1={
+		add_spouse=159436
+	}
+	428.1.1={
+		death="428.1.1"
+	}
+}
+
+159808 = {
+	name="Annun Dynod" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159807
+	mother=159430
+	358.1.1={
+		birth="358.1.1"
+	}
+	428.1.1={
+		death="428.1.1"
+	}
+}
+159813 = {
+	name="Tudual" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159808
+	361.1.1={
+		birth="371.1.1"
+	}
+	431.1.1={
+		death="431.1.1"
+	}
+}
+159814 = {
+	name="Teudrig" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159813
+	377.1.1={
+		birth="387.1.1"
+	}
+	451.1.1={
+		death="451.1.1"
+	}
+}
+159815 = {
+	name="Marchell" # 
+	female = yes
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159814
+	387.1.1={
+		birth="387.1.1"
+	}
+	405.1.1={
+		add_spouse=159320
+	}
+	451.1.1={
+		death="451.1.1"
+	}
+}
+159816 = {
+	name="Ednyfed" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159808
+	373.1.1={
+		birth="373.1.1"
+	}
+	431.1.1={
+		death="431.1.1"
+	}
+}
+159817 = {
+	name="Gloitguin" # 
+	dynasty=1029134 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159816
+	389.1.1={
+		birth="389.1.1"
+	}
+	451.1.1={
+		death="451.1.1"
+	}
+}
+159818 = {
+	name="Clotri" # 
+	dynasty=1029134 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159817
+	405.1.1={
+		birth="405.1.1"
+	}
+	475.1.1={
+		death="475.1.1"
+	}
+}
+159819 = {
+	name="Maelgun" # 
+	dynasty=1029134 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159818
+	422.1.1={
+		birth="422.1.1"
+	}
+	475.1.1={
+		death="475.1.1"
+	}
+}
+159820 = {
+	name="Guledyr" # 
+	female = yes
+	dynasty=1029134 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159818
+	421.1.1={
+		birth="421.1.1"
+	}
+	475.1.1={
+		death="475.1.1"
+	}
+}
+159821 = {
+	name="Dyfnual" # Donald
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159816
+	388.1.1={
+		birth="388.1.1"
+	}
+	450.1.1={
+		death="450.1.1"
+	}
+}
+159822 = {
+	name="Ynyr" # Honorius
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159821
+	430.1.1={
+		birth="430.1.1"
+	}
+	470.1.1={
+		add_spouse=159837
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+159823 = {
+	name="Caradog" # Freichfras
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159822
+	mother=159837
+	470.1.1={
+		birth="470.1.1"
+	}
+	492.1.1={
+		add_spouse=159960
+	}
+	530.1.1={
+		death="530.1.1"
+	}
+}
+159824 = {
+	name="Meurig" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159823
+	mother=159960
+	492.1.1={
+		birth="492.1.1"
+	}
+	508.1.1={
+		add_spouse=159829
+	}
+	550.1.1={
+		death="550.1.1"
+	}
+}
+159825 = {
+	name="Erbic" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159824
+	mother=159829
+	508.1.1={
+		birth="508.1.1"
+	}
+	570.1.1={
+		death="570.1.1"
+	}
+}
+159809 = {
+	name="Ouain" # 
+	dynasty=1029130 #Cernyu
+	religion="catholic"
+	culture="welsh"
+	father=159807
+	357.1.1={
+		birth="357.1.1"
+	}
+	428.1.1={
+		death="428.1.1"
+	}
+}
+159826 = {
+	name="Mor" # 
+	dynasty=1029130 #Cernyu
+	religion="catholic"
+	culture="welsh"
+	father=159809
+	378.1.1={
+		birth="378.1.1"
+	}
+	448.1.1={
+		death="448.1.1"
+	}
+}
+159827 = {
+	name="Solor" # 
+	dynasty=1029130 #Cernyu
+	religion="catholic"
+	culture="welsh"
+	father=159826
+	398.1.1={
+		birth="398.1.1"
+	}
+	470.1.1={
+		death="470.1.1"
+	}
+}
+159828 = {
+	name="Glyuys" # 
+	dynasty=1029130 #Cernyu
+	religion="catholic"
+	culture="welsh"
+	father=159827
+	435.1.1={
+		birth="435.1.1"
+	}
+	498.1.1={
+		death="498.1.1"
+	}
+}
+159829 = {
+	name="Dyfun" # 
+	female = yes
+	dynasty=1029130 #Cernyu
+	religion="catholic"
+	culture="welsh"
+	father=159828
+	486.1.1={
+		birth="486.1.1"
+	}
+	508.1.1={
+		add_spouse=159824
+	}
+	548.1.1={
+		death="548.1.1"
+	}
+}
+159830 = {
+	name="Erb" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159825
+	524.1.1={
+		birth="524.1.1"
+	}
+	590.1.1={
+		death="590.1.1"
+	}
+}
+159831 = {
+	name="Nynniau" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159830
+	540.1.1={
+		birth="540.1.1"
+	}
+	600.1.1={
+		death="600.1.1"
+	}
+}
+159832 = {
+	name="Teudrig" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159834
+	576.1.1={
+		birth="576.1.1"
+	}
+	645.1.1={
+		death="645.1.1"
+		trait="saint"
+		give_nickname=nick_the_saint
+	}
+}
+159833 = {
+	name="Meurig" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159832
+	596.1.1={
+		birth="596.1.1"
+	}
+	620.1.1={
+		add_spouse=159964
+	}
+	665.1.1={
+		death="665.1.1"
+	}
+}
+159834 = {
+	name="Llyuarch" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159831
+	560.1.1={
+		birth="560.1.1"
+	}
+	605.1.1={
+		death="605.1.1"
+	}
+}
+159835 = {
+	name="Arthuys" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159833
+	mother=159964
+	620.1.1={
+		birth="620.1.1"
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+
+159812 = {
+	name="Custennin" # 
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159807
+	mother=159430
+	361.1.1={
+		birth="361.1.1"
+	}
+	411.1.1={
+		death="411.1.1"
+	}
+}
+# Guerthrynion
+159056 = {
+	name="Gurtheyrn" # Vortigern
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159945
+	350.1.1={
+		birth="350.1.1"
+		#create_bloodline = {
+		#	type = vortigern
+		#	has_dlc = "Holy Fury"
+		#}
+	}
+	375.1.1={
+		add_spouse=159810
+	}
+	441.1.1={
+		death="441.1.1"
+	}
+}
+159057 = {
+	name="Cadeyrn" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159056
+	mother=159810
+	375.1.1={
+		birth="375.1.1"
+	}
+	460.1.1={
+		give_nickname= nick_the_blessed
+	}
+	471.1.1={
+		death="471.1.1"
+	}
+}
+159060 = {
+	name="ryddfedd" #aka Maun
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159059
+	mother=159950
+	450.1.1={
+		birth="450.1.1"
+	}
+	521.1.1={
+		death="521.1.1"
+	}
+}
+159061 = {
+	name="Casnar" # uledig
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159057
+	421.1.1={
+		birth="421.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+159062 = {
+	name="Llary" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159061
+	470.1.1={
+		birth="470.1.1"
+	}
+	550.1.1={
+		death="550.1.1"
+	}
+}
+159063 = {
+	name="run" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159062
+	510.1.1={
+		birth="510.1.1"
+	}
+	580.1.1={
+		death="580.1.1"
+	}
+}
+159064 = {
+	name="Byudeg" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159063
+	550.1.1={
+		birth="550.1.1"
+	}
+	640.1.1={
+		death="640.1.1"
+	}
+}
+159065 = {
+	name="Byuyr Leu" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159064
+	600.1.1={
+		birth="600.1.1"
+	}
+	690.1.1={
+		death="690.1.1"
+	}
+}
+159066 = {
+	name="Guineu Deufureudduyd" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159065
+	630.1.1={
+		birth="630.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+159067 = {
+	name="Teon" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159066
+	660.1.1={
+		birth="660.1.1"
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+159068 = {
+	name="Tegonuy" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159067
+	690.1.1={
+		birth="690.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+159069 = {
+	name="Caenog" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159068
+	720.1.1={
+		birth="720.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+159070 = {
+	name="Corf" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159069
+	750.1.1={
+		birth="750.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+159071 = {
+	name="Ceidio" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159070
+	780.1.1={
+		birth="780.1.1"
+	}
+	860.1.1={
+		death="860.1.1"
+	}
+}
+159072 = {
+	name="Lles Llauddeog" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159071
+	810.1.1={
+		birth="810.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+159073 = {
+	name="Caradog" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159072
+	840.1.1={
+		birth="840.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+159074 = {
+	name="Bleddyn" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159073
+	870.1.1={
+		birth="870.1.1"
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+159075 = {
+	name="Gurydr" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159074
+	894.1.1={
+		birth="894.1.1"
+	}
+	960.1.1={
+		death="960.1.1"
+	}
+}
+159077 = {
+	name="Cyngen" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159060
+	470.1.1={
+		birth="470.1.1"
+	}
+	520.1.1={
+		death="520.1.1"
+	}
+}
+159078 = {
+	name="Brochfael" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159077
+	500.1.1={
+		birth="500.1.1"
+	}
+	571.1.1={
+		death="571.1.1"
+	}
+}
+159079 = {
+	name="Cynan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159078
+	530.1.1={
+		birth="530.1.1"
+	}
+	610.1.1={
+		death="610.1.1"
+	}
+}
+159080 = {
+	name="Selyf" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159079
+	575.1.1={
+		birth="575.1.1"
+	}
+	613.1.1={
+		death="613.1.1"
+	}
+}
+
+159081 = {
+	name="Manugan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159080
+	610.1.1={
+		birth="610.1.1"
+	}
+	655.1.1={
+		death="655.1.1"
+	}
+}
+
+159082 = {
+	name="Beli" # ap Eliudd
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159081
+	635.1.1={
+		birth="635.1.1"
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+
+159083 = {
+	name="Guylog" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159082
+	660.1.1={
+		birth="660.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+159084 = {
+	name="Elisedd" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159083
+	695.1.1={
+		birth="695.1.1"
+	}
+	773.1.1={
+		death="773.1.1"
+	}
+}
+159085 = {
+	name="Brochfael" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159084
+	720.1.1={
+		birth="720.1.1"
+	}
+	773.1.1={
+		death="773.1.1"
+	}
+}
+159086 = {
+	name="Cadell" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159085
+	750.1.1={
+		birth="750.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}
+}
+159087 = {
+	name="Cyngen" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159086
+	770.1.1={
+		birth="770.1.1"
+	}
+	854.1.1={
+		death="854.1.1"
+	}
+}
+159088 = {
+	name="Nest" #
+	female=yes
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159086
+	790.1.1={
+		birth="790.1.1"
+	}
+	819.1.2={
+	add_spouse=159027
+	}
+	854.1.1={
+		death="854.1.1"
+	}
+}
+159089 = {
+	name="Pasgen" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159077
+	490.1.1={
+		birth="490.1.1"
+	}
+	541.1.1={
+		death="541.1.1"
+	}
+}
+159090 = {
+	name="Morgan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159089
+	500.1.1={
+		birth="500.1.1"
+	}
+	570.1.1={
+		death="570.1.1"
+	}
+}
+159091 = {
+	name="Aeddan" # ap Cyngen
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159087
+	790.1.1={
+		birth="790.1.1"
+		add_claim = c_pouys
+	}
+	878.1.1={
+		death="878.1.1"
+	}
+}
+159092 = {
+	name="Brochfael" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159091
+	820.1.1={
+		birth="820.1.1"
+		add_claim = c_pouys
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+159093 = {
+	name="Selyf" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159092
+	850.1.1={
+		birth="850.1.1"
+		add_claim = c_pouys
+	}
+	930.1.1={
+		death="930.1.1"
+	}
+}
+159094 = {
+	name="Aeddan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159093
+	880.1.1={
+		birth="880.1.1"
+	}
+	950.1.1={
+		death="950.1.1"
+	}
+}
+159095 = {
+	name="Brochfael" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159094
+	910.1.1={
+		birth="910.1.1"
+	}
+	980.1.1={
+		death="980.1.1"
+	}
+}
+159096 = {
+	name="Selyf" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159095
+	945.1.1={
+		birth="945.1.1"
+	}
+	1020.1.1={
+		death="1020.1.1"
+	}
+}
+159097 = {
+	name="Aeddan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159096
+	975.1.1={
+		birth="975.1.1"
+	}
+	1050.1.1={
+		death="1050.1.1"
+	}
+}
+159098 = {
+	name="Brochfael" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159097
+	995.1.1={
+		birth="995.1.1"
+	}
+	1070.1.1={
+		death="1070.1.1"
+	}
+}
+159099 = {
+	name="Selyf" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159098
+	1040.1.1={
+		birth="1040.1.1"
+	}
+	1100.1.1={
+		death="1100.1.1"
+	}
+}
+159100 = {
+	name="Beli" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159096
+	980.1.1={
+		birth="980.1.1"
+	}
+	1050.1.1={
+		death="1050.1.1"
+	}
+}
+159101 = {
+	name="Gruffydd" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159100
+	1015.1.1={
+		birth="1015.1.1"
+	}
+	1070.1.1={
+		death="1070.1.1"
+	}
+}
+
+159102 = {
+	name="Guyn" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159101
+	1050.1.1={
+		birth="1050.1.1"
+	}
+	1120.1.1={
+		death="1120.1.1"
+	}
+}
+
+159103 = {
+	name="Aeddan" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159099
+	1075.1.1={
+		birth="1075.1.1"
+	}
+	1160.1.1={
+		death="1160.1.1"
+	}
+}
+
+159104 = {
+	name="Beli" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159099
+	1080.1.1={
+		birth="1080.1.1"
+	}
+	1170.1.1={
+		death="1170.1.1"
+	}
+}
+
+159105 = {
+	name="Pasgen" #
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159102
+	1080.1.1={
+		birth="1080.1.1"
+	}
+	1170.1.1={
+		death="1170.1.1"
+	}
+}
+
+159106 = {
+	name="Tangure" #
+	female=yes
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159102
+	1080.10.1={
+		birth="1080.10.1"
+	}
+	1170.1.1={
+		death="1170.1.1"
+	}
+}
+159836 = {
+	name="Guerthefyr" # Vortimer
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159056
+	mother=159810
+	376.1.1={
+		birth="376.1.1"
+	}
+	453.1.1={
+		death="453.1.1"
+		give_nickname= nick_the_blessed
+	}
+}
+159837 = {
+	name="Madrun" #
+	female = yes
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159836
+	430.1.1={
+		birth="430.1.1"
+	}
+	470.1.1={
+		add_spouse=159822
+	}
+	490.1.1={
+		give_nickname= nick_the_saint
+	}
+	500.1.1={
+		trait="saint"
+		name = "Saint Madrun"
+		death="500.1.1"
+	}
+}
+
+
+159932 = {
+	name="Praust"
+	female = yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159436
+	mother=159811
+	406.1.1={
+		birth="406.1.1"
+	}
+	435.1.1={
+		add_spouse = 159323
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+
+159933 = {
+	name="Celeinion" # 
+	female = yes
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159934
+	685.1.1={
+		birth="685.1.1"
+	}
+	720.1.1={
+		add_spouse = 159029
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+159934 = {
+	name="Tudual" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159943
+	654.1.1={
+		birth="654.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+159935 = {
+	name="Dingad" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159813
+	401.1.1={
+		birth="401.1.1"
+	}
+	481.1.1={
+		death="481.1.1"
+	}
+}
+159936 = {
+	name="Senyllt" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159935
+	441.1.1={
+		birth="441.1.1"
+	}
+	501.1.1={
+		death="501.1.1"
+	}
+}
+159937 = {
+	name="Neithon" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159936
+	480.1.1={
+		birth="480.1.1"
+	}
+	549.1.1={
+		death="549.1.1"
+	}
+}
+159938 = {
+	name="Run" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159937
+	512.1.1={
+		birth="512.1.1"
+	}
+	577.1.1={
+		death="577.1.1"
+	}
+}
+159939 = {
+	name="Tudual" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159938
+	537.1.1={
+		birth="537.1.1"
+	}
+	598.1.1={
+		death="598.1.1"
+	}
+}
+159940 = {
+	name="Anllech" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159939
+	562.1.1={
+		birth="562.1.1"
+	}
+	634.1.1={
+		death="634.1.1"
+	}
+}
+159941 = {
+	name="Cynin" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159940
+	587.1.1={
+		birth="587.1.1"
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+159942 = {
+	name="Merfyn" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159941
+	610.1.1={
+		birth="610.1.1"
+	}
+	681.1.1={
+		death="681.1.1"
+	}
+}
+159943 = {
+	name="Anaraud" # 
+	dynasty=1029131 #Manau
+	religion="catholic"
+	culture="welsh"
+	father=159942
+	632.1.1={
+		birth="632.1.1"
+	}
+	691.1.1={
+		death="691.1.1"
+	}
+}
+159944 = {
+	name="Gloyu" # 
+	dynasty=1029132 #Caerloyu
+	religion="catholic"
+	culture="welsh"
+	270.1.1={
+		birth="270.1.1"
+	}
+	321.1.1={
+		death="321.1.1"
+	}
+}
+159945 = {
+	name="Guydolin" # 
+	dynasty=1029132 #Caerloyu
+	religion="catholic"
+	culture="welsh"
+	father=159944
+	305.1.1={
+		birth="305.1.1"
+	}
+	351.1.1={
+		death="351.1.1"
+	}
+}
+159946 = {
+	name="Guydol" # 
+	dynasty=1029132 #Caerloyu
+	religion="catholic"
+	culture="welsh"
+	father=159945
+	321.1.1={
+		birth="321.1.1"
+	}
+	395.1.1={
+		death="395.1.1"
+	}
+}
+159947 = {
+	name="Pasgen" # 
+	dynasty=1029132 #Caerloyu
+	religion="catholic"
+	culture="welsh"
+	father=159946
+	340.1.1={
+		birth="340.1.1"
+	}
+	391.1.1={
+		death="391.1.1"
+	}
+}
+159948 = {
+	name="Cadeyrn" # 
+	dynasty=1029133 #Pouys
+	religion="catholic"
+	culture="welsh"
+	father=159947
+	360.1.1={
+		birth="360.1.1"
+	}
+	421.1.1={
+		death="421.1.1"
+	}
+}
+159949 = {
+	name="Brydu" # 
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159056
+	mother=159810
+	390.1.1={
+		birth="390.1.1"
+	}
+	450.1.1={
+		death="450.1.1"
+	}
+}
+159950 = {
+	name="Annan" #
+	female=yes
+	dynasty=1029003 # Guerthrynion
+	religion="catholic"
+	culture="welsh"
+	father=159949
+	430.1.1={
+		birth="430.1.1"
+	}
+	490.1.1={
+		death="490.1.1"
+	}
+}
+
+159951 = {
+	name="Ystraduel"
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	dynasty=1029040 #Dyfnaint
+	father=159432
+	345.1.1={
+		birth="345.1.1"
+	}
+	390.1.1={
+		add_spouse = 159038
+	}
+	400.1.1={
+		death="400.1.1"
+	}
+}
+
+159956 = {
+	name="Brychan"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159323
+	mother=159932
+	430.1.1={
+		birth="430.1.1"
+	}
+	510.1.1={
+		death="510.1.1"
+	}
+}
+159957 = {
+	name="Nyfain"
+	female=yes
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=159956
+	460.1.1={
+		birth="460.1.1"
+	}
+	476.1.1={
+		add_spouse= 159952
+	}
+	530.1.1={
+		death="530.1.1"
+	}
+}
+159961 = {
+	name="Pebiau" # Clafrog
+	dynasty=20037 #Ergyng
+	religion="catholic"
+	culture="welsh"
+	father=159830
+	545.1.1={
+		birth="545.1.1"
+	}
+	610.1.1={
+		death="610.1.1"
+	}
+}
+159962 = {
+	name="Cynfyn" # 
+	dynasty=20037 #Ergyng
+	religion="catholic"
+	culture="welsh"
+	father=159961
+	566.1.1={
+		birth="566.1.1"
+	}
+	630.1.1={
+		death="630.1.1"
+	}
+}
+159963 = {
+	name="Gurgant" # 
+	dynasty=20037 #Ergyng
+	religion="catholic"
+	culture="welsh"
+	father=159962
+	586.1.1={
+		birth="586.1.1"
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+159964 = {
+	name="Onbraust" # 
+	female=yes
+	dynasty=20037 #Ergyng
+	religion="catholic"
+	culture="welsh"
+	father=159963
+	603.1.1={
+		birth="603.1.1"
+	}
+	620.1.1={
+		add_spouse=159833
+	}
+	690.1.1={
+		death="690.1.1"
+	}
+}
+159322 = {
+	name="Aergul" #Aircol
+	dynasty=1029030 #Dyfed
+	religion="catholic"
+	culture="welsh"
+	father=159321
+	mother=159820
+	437.1.1={
+		birth="437.1.1"
+	}
+	495.1.1={
+		death="495.1.1"
+	}
+}
+
+159791 = {
+	name="Ceredig" # ap Cunedda
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159010
+	mother=159039
+	395.1.1={
+		birth="395.1.1"
+	}
+	453.1.1={
+		death="453.1.1"
+	}
+}
+159792 = {
+	name="Usai" # ap Ceredig
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159791
+	420.1.1={
+		birth="420.1.1"
+	}
+	490.1.1={
+		death="490.1.1"
+	}
+}
+159793 = {
+	name="Seruyl" # ab Usai
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159792
+	450.1.1={
+		birth="450.1.1"
+	}
+	525.1.1={
+		death="525.1.1"
+	}
+}
+159794 = {
+	name="Boddu" # ap Seruyl
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159793
+	480.1.1={
+		birth="480.1.1"
+	}
+	560.1.1={
+		death="560.1.1"
+	}
+}
+159795 = {
+	name="Arthfoddu" # ap Bodu
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159794
+	520.1.1={
+		birth="520.1.1"
+	}
+	595.1.1={
+		death="595.1.1"
+	}
+}
+159796 = {
+	name="Arthluys" # ab Arthfoddu
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159795
+	550.1.1={
+		birth="550.1.1"
+	}
+	630.1.1={
+		death="630.1.1"
+	}
+}
+159797 = {
+	name="Clydog" # ab Arthluys
+	dynasty=14250 # Ceredigion
+	religion="catholic"
+	culture="welsh"
+	father=159796
+	590.1.1={
+		birth="590.1.1"
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+159798 = {
+	name="Seisyll" # ap Clydog
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159797
+	660.1.1={
+		birth="660.1.1"
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+159799 = {
+	name="Arthuyr" # ap Seisyll
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159798
+	690.1.1={
+		birth="690.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+159800 = {
+	name="Meurig" # ap Dyfnual
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159806
+	780.1.1={
+		birth="780.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+159801 = {
+	name="Gugan" # ap Meurig
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159800
+	825.1.1={
+		birth="825.1.1"
+	}
+	872.1.1={
+		death="872.1.1"
+	}
+}
+
+159802 = {
+	name="Angharad" # ferch Meurig
+	female = yes
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159800
+	822.1.1={
+		birth="822.1.1"
+	}
+	840.1.1={
+		add_spouse=81831
+	}
+	880.1.1={
+		death="880.1.1"
+	}
+}
+
+159803 = {
+	name="Nest" # ferch Rodri
+	female = yes
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	mother=159802
+	854.1.1={
+		birth="854.1.1"
+	}
+	911.1.1={
+		death="911.1.1"
+	}
+}
+159804 = {
+	name="Tudual" # ap Rodri
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	mother=159802
+	859.1.1={
+		birth="859.1.1"
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+159805 = {
+	name="Merfyn" # ap Rodri
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	mother=159802
+	852.1.1={
+		birth="852.1.1"
+	}
+	910.1.1={
+		death="910.1.1"
+	}
+}
+
+159806 = {
+	name="Dyfnual" # ab Arthuyr
+	dynasty=14255 # Seisyllug
+	religion="catholic"
+	culture="welsh"
+	father=159799
+	740.1.1={
+		birth="740.1.1"
+	}
+	818.1.1={
+		death="818.1.1"
+	}
+}
+
+160038 = {
+	name="Ouain" # ap Einion
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=159011
+	455.1.1={
+		birth="455.1.1"
+	}
+	525.1.1={
+		death="525.1.1"
+	}
+}
+160039 = {
+	name="Cynlas" # Goch
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160038
+	480.1.1={
+		birth="480.1.1"
+	}
+	540.1.1={
+		death="540.1.1"
+	}
+}
+160040 = {
+	name="Einion" #ap Cynlas
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160039
+	500.1.1={
+		birth="500.1.1"
+	}
+	550.1.1={
+		death="550.1.1"
+		name = "Saint Einion"
+		trait = "saint"
+	}
+}
+160041 = {
+	name="Cadual" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160040
+	535.1.1={
+		birth="535.1.1"
+	}
+	575.1.1={
+		death="575.1.1"
+	}
+}
+160042 = {
+	name="ludyuun" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160041
+	570.1.1={
+		birth="570.1.1"
+	}
+	630.1.1={
+		death="630.1.1"
+	}
+}
+160043 = {
+	name="Einion" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160042
+	600.1.1={
+		birth="600.1.1"
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+160044 = {
+	name="rufon" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160043
+	630.1.1={
+		birth="630.1.1"
+	}
+	695.1.1={
+		death="695.1.1"
+	}
+}
+160045 = {
+	name="Hyuel" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160044
+	660.1.1={
+		birth="660.1.1"
+	}
+	700.1.1={
+		death="700.1.1"
+	}
+}
+160046 = {
+	name="Meirchion" 
+	dynasty=14284 # ros
+	religion="catholic"
+	culture="welsh"
+	father=160045
+	690.1.1={
+		birth="690.1.1"
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+
+160048 = {
+	name="Rimo" # ferch Maelgun
+	dynasty=100064 #Guynedd
+	female = yes
+	religion="catholic"
+	culture="welsh"
+	father=159013 # 
+	502.1.1={
+		birth="502.1.1"
+	}
+	520.1.1={
+		add_spouse=159662
+	}
+	580.1.1={
+		death="580.1.1"
+	}
+}
+
+
+
+184119 = {
+	name="Ioruerth"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=159068 #Tegonuy Gruffyd of Pouys
+	740.1.1={
+		birth="740.1.1"
+	}
+	759.1.1={
+		add_spouse=184135
+	}
+	815.1.1={
+		death="815.1.1"
+	}
+}
+184120 = {
+	name="Idnerth"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184119
+	mother=184135
+	760.1.1={
+		birth="760.1.1"
+	}
+	820.1.1={
+		death="820.1.1"
+	}
+}
+184121 = {
+	name="Cadur"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184120
+	800.1.1={
+		birth="800.1.1"
+	}
+	870.1.1={
+		death="870.1.1"
+	}
+}
+184122 = {
+	name="Cadur"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184121
+	830.1.1={
+		birth="830.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+184123 = {
+	name="Seuerus"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184122
+	860.1.1={
+		birth="860.1.1"
+	}
+	940.1.1={
+		death="940.1.1"
+	}
+}
+184124 = {
+	name="Iuor"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184123
+	890.1.1={
+		birth="890.1.1"
+	}
+	950.1.1={
+		death="950.1.1"
+	}
+}
+184125 = {
+	name="Cuhelyn"
+	dynasty=200067 #Maelienydd
+	religion="catholic"
+	culture="welsh"
+	father=184123
+	920.1.1={
+		birth="920.1.1"
+	}
+	980.1.1={
+		death="980.1.1"
+	}
+}
+184126 = {
+	name="Cadugon" #ap Elystan
+	dynasty=200067 #Maelienydd
+	father=131701
+	religion="catholic"
+	culture="welsh"
+	1000.1.1={
+		birth="1000.1.1"
+	}
+	1050.1.1={
+		death="1050.1.1"
+	}
+}
+184127 = {
+	name="Maelgun" #ap Cadugon
+	dynasty=200067 #Maelienydd
+	father=131703
+#	mother=138445
+	religion="catholic"
+	culture="welsh"
+	1153.1.1={
+		birth="1153.1.1"
+	}
+	1188.1.1={
+		trait="crusader"
+	}
+	1234.1.1={
+		death="1234.1.1"
+	}
+}
+184128 = {
+	name="Maredudd" #ap Maelgun
+	dynasty=200067 #Maelienydd
+	father=184127
+	religion="catholic"
+	culture="welsh"
+	1195.1.1={
+		birth="1195.1.1"
+	}
+	1281.1.1={
+		death="1281.1.1"
+	}
+}
+184129 = {
+	name="Madog" #ap Maredudd
+	dynasty=200067 #Maelienydd
+	father=184128
+	religion="catholic"
+	culture="welsh"
+	1250.1.1={
+		birth="1250.1.1"
+	}
+	1320.1.1={
+		death="1320.1.1"
+	}
+}
+184130 = {
+	name="Maredudd"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	trait=bastard
+	father=159328 #Iduallon
+	580.1.1={
+		birth="580.1.1"
+	}
+	650.1.1={
+		death="650.1.1"
+	}
+}
+184131 = {
+	name="Cynan"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=184130
+	610.1.1={
+		birth="610.1.1"
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+184132 = {
+	name="Maelgun"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=184131
+	640.1.1={
+		birth="640.1.1"
+	}
+	710.1.1={
+		death="710.1.1"
+	}
+}
+184133 = {
+	name="Idual"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=184132
+	670.1.1={
+		birth="670.1.1"
+	}
+	740.1.1={
+		death="740.1.1"
+	}
+}
+184134 = {
+	name="Brychan"
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=184133
+	710.1.1={
+		birth="710.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+184135 = {
+	name="Arianuen"
+	dynasty=1029032 #1st Brycheiniog
+	female=yes
+	religion="catholic"
+	culture="welsh"
+	father=184134
+	740.1.1={
+		birth="740.1.1"
+	}
+	820.1.1={
+		death="820.1.1"
+	}
+}
+
+184083 = {
+	name="Madog" #Madog II
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=138462 #Gruffydd Maelor II
+	1230.1.1={
+		birth="1230.1.1"
+	}
+	#married Emma de Audley
+	1277.1.1={
+		death="1277.1.1"
+	}
+}
+184084 = {
+	name="Gruffydd Fychan"
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=138462 #Gruffydd Maelor II
+	1240.1.1={
+		birth="1240.1.1"
+	}
+	1289.1.1={
+		death="1289.1.1"
+	}
+}
+184085 = {
+	name="Madog Crypl"
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=184084 #Gruffydd Fychan
+	1275.1.1={
+		birth="1275.1.1"
+	}
+	1304.1.1={
+		death="1304.1.1"
+	}
+}
+184086 = {
+	name="Gruffydd" #of ruddallt
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=184085 #Madog Crypl
+	1298.1.1={
+		birth="1298.1.1"
+	}
+	1343.1.1={
+		death="1343.1.1"
+	}
+}
+184087 = {
+	name="Gruffydd Fychan" #II
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=184086 #Gruffydd of ruddalt
+	1320.1.1={
+		birth="1320.1.1"
+	}
+	1369.1.1={
+		death="1369.1.1"
+	}
+}
+184089 = {
+	name="Merfyn" #ap Rodri
+	dynasty=101920 #Aberffrau for tree appearance
+	religion="catholic"
+	culture="welsh"
+	father=81831 #Rodri Maur
+	865.1.1={
+		birth="865.1.1"	#unknoun
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+184090 = {
+	name="Llyuelyn"
+	dynasty=101920 #Aberffrau for tree appearance
+	religion="catholic"
+	culture="welsh"
+	father=184089
+	890.1.1={
+		birth="890.1.1"	#unknoun
+	}
+	942.1.1={
+		death="942.1.1"
+	}
+}
+184091 = {
+	name="Ouain" #ap Madog
+	# AKA: Ouain Brogyntyn
+	dynasty=1042815 
+	religion="catholic"
+	culture="welsh"
+	father=214718 #Madog ap Maredudd
+	#mother Susann of Guynedd
+	trait=bastard
+	1155.1.1={
+		birth="1155.1.1"
+	}
+	#married Marred ferch Einion ap Seisyllt
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+184092 = {
+	name="Ioruerth" #ap Ouain
+	dynasty=1042815 
+	religion="catholic"
+	culture="welsh"
+	father=184091 #Ouain ap Madog
+	1195.1.1={
+		birth="1195.1.1"
+	}
+	1234.1.1={
+		add_spouse=184094
+	}
+	1260.1.1={
+		death="1260.1.1"
+	}
+}
+184093 = {
+	name="Madog"
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=420007 #Guenuynuyn ab Ouain
+	1201.1.1={
+		birth="1201.1.1"
+	}
+	1286.1.1={
+		death="1286.1.1"
+	}
+}
+184094 = {
+	name="Eua"
+	female=yes
+	dynasty=548 #Mathrafal (Pouys)
+	religion="catholic"
+	culture="welsh"
+	father=184093 #Madog
+	1217.1.1={
+		birth="1217.1.1"
+	}
+	1286.1.1={
+		death="1286.1.1"
+	}
+}
+184095 = {
+	name="Grufyd" #ap Ioruerth
+	dynasty=1042815 
+	religion="catholic"
+	culture="welsh"
+	father=184092
+	mother=184094
+	1235.1.1={
+		birth="1235.1.1"
+	}
+	1300.1.1={
+		death="1300.1.1"
+	}
+}
+184096 = {
+	name="Madog" #ap Gruffudd
+	dynasty=1042815 
+	religion="catholic"
+	culture="welsh"
+	father=184095
+	1285.1.1={
+		birth="1285.1.1"
+	}
+	1370.1.1={
+		death="1370.1.1"
+	}
+}
+
+183161 = {
+	name="Ednyued"
+	# AKA: Ednyfed Fychan ap Cynurig
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="quick"
+	trait="diligent"
+	trait="midas_touched"
+	1170.1.1 = {
+		birth="1170.1.1"
+	}
+	1186.1.1 = {
+		add_trait="poet"
+	}
+	1195.1.1={
+		add_spouse=214802 #Guenllian ferch Rys
+	}
+	1215.1.1 = {
+		employer=214714 #Llyuelyn ab Ioruerth
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1235.1.1 = {
+		trait="crusader"
+	}
+	1240.4.11 = {
+		employer=138486 #Dauyd ab Llyuelyn
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1246.1.1 = {
+		death="1246.1.1"
+	}
+}
+
+183162 = {
+	name="Goronuy"
+	# AKA: Goronuy ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="kind"
+	trait="just"
+	trait="charismatic_negotiator"
+	father=183161
+	mother=214802
+	1200.1.1 = {
+		birth="1200.1.1"
+	}
+	1246.1.1 = {
+		employer=420001 #Llyuelyn ap Gruffydd
+		effect = {
+			give_job_title=job_chancellor
+		}
+	}
+	1268.10.17 = {
+		death="1268.10.17"
+	}
+}
+
+183163 = {
+	name="Teudur"
+	# AKA: Teudur Hen ap Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="strong"
+	trait="brave"
+	trait="tough_soldier"
+	father=183162
+	1245.1.1 = {
+		birth="1245.1.1"
+	}
+	1311.10.11 = {
+		death="1311.10.11"
+	}
+}
+
+183164 = {
+	name="Goronuy"
+	# AKA: Goronuy ap Teudur Hen
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="honest"
+	trait="brave"
+	trait="tough_soldier"
+	father=183163
+	1280.1.1 = {
+		birth="1280.1.1"
+	}
+	1331.12.11 = {
+		death="1331.12.11"
+	}
+}
+
+183165 = {
+	name="Hyuel"
+	# AKA: Hyuel ap Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="shy"
+	trait="trusting"
+	trait="detached_priest"
+	father=183164
+	1305.1.1 = {
+		birth="1305.1.1"
+	}
+	1366.1.1 = {
+		death="1366.1.1"
+	}
+}
+
+183166 = {
+	name="Teudur"
+	# AKA: Teudur Fychan ap Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="uroth"
+	trait="cynical"
+	trait="tough_soldier"
+	father=183164
+	1310.1.1 = {
+		birth="1310.1.1"
+	}
+	1367.9.19 = {
+		death="1367.9.19"
+	}
+}
+
+183167 = {
+	name="Gruffydd"
+	# AKA: Gruffydd ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="cynical"
+	trait="envious"
+	trait="underanded_rogue"
+	father=183161
+	mother=214802
+	1195.1.1 = {
+		birth="1195.1.1"
+	}
+	1271.1.1 = {
+		death="1271.1.1"
+	}
+}
+
+183168 = {
+	name="Guladus"
+	# AKA: Guladus ferch Ednyfed Fychan
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="fair"
+	trait="tuin"
+	trait="naive_appeaser"
+	father=183161
+	mother=214802
+	1208.1.1 = {
+		birth="1208.1.1"
+	}
+	1271.1.1 = {
+		death="1271.1.1"
+	}
+}
+
+183169 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Ednyfed Fychan
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="fair"
+	trait="tuin"
+	trait="amateurish_plotter"
+	father=183161
+	mother=214802
+	1208.1.1 = {
+		birth="1208.1.1"
+	}
+	1254.1.1 = {
+		death="1254.1.1"
+	}
+}
+
+183170 = {
+	name="Teudur Guilltyn"
+	# AKA: Teudur Guilltyn ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="envious"
+	trait="bastard"
+	trait="flamboyant_schemer"
+	father=183161
+	1240.1.1 = {
+		birth="1240.1.1"
+	}
+	1312.1.1 = {
+		death="1312.1.1"
+	}
+}
+
+183171 = {
+	name="Ioruerth"
+	# AKA: Ioruerth ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="leper"
+	trait="detached_priest"
+	father=183161
+	1213.1.1 = {
+		birth="1213.1.1"
+	}
+	1256.1.1 = {
+		death="1256.1.1"
+	}
+}
+
+183172 = {
+	name="Cynurig"
+	# AKA: Cynurig ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="craven"
+	trait="misguided_uarrior"
+	father=183161
+	1211.1.1 = {
+		birth="1211.1.1"
+	}
+	1267.1.1 = {
+		death="1267.1.1"
+	}
+}
+
+183173 = {
+	name="Rys"
+	# AKA: Rys ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="diligent"
+	trait="thrifty_clerk"
+	father=183161
+	1206.1.1 = {
+		birth="1206.1.1"
+	}
+	1259.1.1 = {
+		death="1259.1.1"
+	}
+}
+
+183174 = {
+	name="Hyuel"
+	# AKA: Hyuel ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="zealous"
+	trait="scholarly_theologian"
+	father=183161
+	1198.1.1 = {
+		birth="1198.1.1"
+	}
+	1247.1.1 = {
+		death="1247.1.1"
+	}
+}
+
+183175 = {
+	name="Llyuelyn"
+	# AKA: Llyuelyn ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="brave"
+	trait="misguided_uarrior"
+	father=183161
+	1207.1.1 = {
+		birth="1207.1.1"
+	}
+	1234.1.1 = {
+		death="1234.1.1"
+	}
+}
+
+183176 = {
+	name="Teudur"
+	# AKA: Teudur ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="quick"
+	trait="charismatic_negotiator"
+	father=183161
+	1204.1.1 = {
+		birth="1204.1.1"
+	}
+	1278.1.1 = {
+		death="1278.1.1"
+	}
+}
+
+183177 = {
+	name="Guilym"
+	# AKA: Guilym ab Ednyfed Fychan
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="honest"
+	trait="tough_soldier"
+	father=183162
+	1251.1.1 = {
+		birth="1251.1.1"
+	}
+	1307.1.1 = {
+		death="1307.1.1"
+	}
+}
+
+183178 = {
+	name="Goronuy"
+	# AKA: Goronuy Fychan ab Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="just"
+	trait="thrifty_clerk"
+	father=183162
+	1255.1.1 = {
+		birth="1255.1.1"
+	}
+	1322.1.1 = {
+		death="1322.1.1"
+	}
+}
+
+183179 = {
+	name="Hyuel"
+	# AKA: Hyuel ab Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="cynical"
+	trait="indulgent_uastrel"
+	father=183162
+	1257.1.1 = {
+		birth="1257.1.1"
+	}
+	1291.1.1 = {
+		death="1291.1.1"
+	}
+}
+
+183180 = {
+	name="Adles"
+	# AKA: Adles ferch Goronuy
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="kind"
+	trait="misguided_uarrior"
+	father=183162
+	1261.1.1 = {
+		birth="1261.1.1"
+	}
+	1309.1.1 = {
+		death="1309.1.1"
+	}
+}
+
+183181 = {
+	name="Grufyd"
+	# AKA: Gruffydd ab Goronuy
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="cruel"
+	trait="greedy"
+	trait="naive_appeaser"
+	father=183164
+	1312.1.1 = {
+		birth="1312.1.1"
+	}
+	1339.1.1 = {
+		death="1339.1.1"
+	}
+}
+
+183182 = {
+	name="Guerfyl"
+	# AKA: Guerfyl ferch Goronuy
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="ill"
+	trait="indulgent_uastrel"
+	father=183164
+	1314.1.1 = {
+		birth="1314.1.1"
+	}
+	1358.1.1 = {
+		death="1358.1.1"
+	}
+}
+
+183183 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Goronuy
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="ugly"
+	trait="naive_appeaser"
+	father=183164
+	1319.1.1 = {
+		birth="1319.1.1"
+	}
+	1386.1.1 = {
+		death="1386.1.1"
+	}
+}
+
+183184 = {
+	name="Guenllian"
+	# AKA: Guenllian ferch Goronuy
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="craven"
+	trait="amateurish_plotter"
+	father=183164
+	1323.1.1 = {
+		birth="1323.1.1"
+	}
+	1367.1.1 = {
+		death="1367.1.1"
+	}
+}
+
+183185 = {
+	name="Hyuel"
+	# AKA: Hyuel ap Teudur Hen
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="cruel"
+	trait="strong"
+	trait="tough_soldier"
+	father=183163
+	1282.1.1 = {
+		birth="1282.1.1"
+	}
+	1338.1.1 = {
+		death="1338.1.1"
+	}
+}
+
+183186 = {
+	name="Teudur"
+	# AKA: Teudur Fychan ap Teudur Hen
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="uroth"
+	trait="proud"
+	trait="tough_soldier"
+	father=183163
+	1286.1.1 = {
+		birth="1286.1.1"
+	}
+	1351.1.1 = {
+		death="1351.1.1"
+	}
+}
+
+183187 = {
+	name="Morfydd"
+	# AKA: Morfydd ferch Teudur Hen
+	female=yes
+	dynasty=14259
+	religion="catholic"
+	culture="welsh"
+	trait="lisp"
+	trait="shy"
+	trait="detached_priest"
+	father=183163
+	1289.1.1 = {
+		birth="1289.1.1"
+	}
+	1334.1.1 = {
+		death="1334.1.1"
+	}
+}
+
+183190 = {
+	name="Llyuelyn"
+	# AKA: Llyuelyn ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1258.1.1={
+		birth="1258.1.1"
+	}
+	1291.1.1={
+		death="1291.1.1"
+	}
+}
+
+183191 = {
+	name="Margred"
+	# AKA: Margred ferch Gruffydd
+	female = yes
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1255.1.1={
+		birth="1255.1.1"
+	}
+	1336.5.11={
+		death="1336.5.11"
+	}
+}
+
+183192 = {
+	name="Ieuan"
+	# AKA: Ieuan ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1261.1.1={
+		birth="1261.1.1"
+	}
+	1278.1.1={
+		death="1278.1.1"
+	}
+}
+
+183193 = {
+	name="Guilym"
+	# AKA: Guilym ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1263.1.1={
+		birth="1263.1.1"
+	}
+	1317.1.1={
+		death="1317.1.1"
+	}
+}
+
+183194 = {
+	name="Grufyd"
+	# AKA: Gruffydd ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1268.1.1={
+		birth="1268.1.1"
+	}
+	1324.1.1={
+		death="1324.1.1"
+	}
+}
+
+183195 = {
+	name="Dauyd"
+	# AKA: Dauyd ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=420008 #Gruffydd ap Guenuynuyn
+	1271.1.1={
+		birth="1271.1.1"
+	}
+	1339.1.1={
+		death="1339.1.1"
+	}
+}
+
+183196 = {
+	name="Efa"
+	# AKA: Efa ferch Llyuelyn
+	female = yes
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=183190 #Llyuelyn ap Gruffydd
+	1288.1.1={
+		birth="1288.1.1"
+	}
+	1338.1.1={
+		death="1338.1.1"
+	}
+}
+
+183197 = {
+	name="Grufyd"
+	# AKA: Gruffydd ap Guilym
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=183193 #Guilym ap Gruffydd
+	1292.1.1={
+		birth="1292.1.1"
+	}
+	1356.1.1={
+		death="1356.1.1"
+	}
+}
+
+183198 = {
+	name="Guilym"
+	# AKA: Guilym ap Gruffydd
+	dynasty=200069
+	religion="catholic"
+	culture="welsh"
+	father=183197 #Gruffydd ap Guilym
+	1332.1.1={
+		birth="1332.1.1"
+	}
+	1376.1.1={
+		death="1376.1.1"
+	}
+}
+
+160255 = {
+	name="Arthfael" # ap Hyuel
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159109
+	849.1.1={
+		birth="849.1.1"
+	}
+	916.1.1={
+		death="916.1.1"
+	}
+}
+160256 = {
+	name="Rys" # ap Hyuel
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159109
+	851.1.1={
+		birth="851.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+160257 = {
+	name="Arthfael" # ap Rys
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159110
+	835.1.1={
+		birth="835.1.1"
+	}
+	895.1.1={
+		death="895.1.1"
+	}
+}
+160258 = {
+	name="Meurig" # ap Arthfael
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=159111
+	781.1.1={
+		birth="781.1.1"
+	}
+	840.1.1={
+		death="840.1.1"
+	}
+}
+160259 = {
+	name="Brochfael" # ap Meurig
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=160258
+	835.1.1={
+		birth="835.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}
+}
+160260 = {
+	name="Ffernfael" # ap Meurig
+	dynasty=547 # Morgan
+	religion="catholic"
+	culture="welsh"
+	father=160258
+	837.1.1={
+		birth="837.1.1"
+	}
+	892.1.1={
+		death="892.1.1"
+	}
+}205140 = {
+	name="Hyuel" # ap Caradog
+	dynasty=14284 #ros
+	father=159022
+	religion="catholic"
+	culture="welsh"
+	750.1.1={
+		birth="750.1.1"
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+205137 = {
+	name="Angharad" # 
+	female = yes
+	dynasty=1029129 #Guent
+	religion="catholic"
+	culture="welsh"
+	father=159831
+	561.1.1={
+		birth="561.1.1"
+	}
+	605.1.1={
+		death="605.1.1"
+	}
+}
+205138 = {
+	name="Ceindrych"
+	female = yes
+	dynasty=1029032 #1st Brycheiniog
+	religion="catholic"
+	culture="welsh"
+	father=184130
+	611.1.1={
+		birth="611.1.1"
+	}
+	680.1.1={
+		death="680.1.1"
+	}
+}
+#Missing King of Pouys
+252352 = {
+	name="Llyuelyn" # ap Merfyn
+	dynasty=101920 #Aberffrau
+	religion="catholic"
+	culture="welsh"
+	father=159805 # Merfyn ap Rodri
+	875.1.1={
+		birth=yes
+	}
+	942.1.1={
+		death=yes
+	}
+}
