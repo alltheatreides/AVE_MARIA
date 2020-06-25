@@ -3243,7 +3243,7 @@ character_event = {
 		# }
 		# treasury = global_bob_saget
 		
-		# capital_scope = {
+		capital_scope = {
 			# add_province_modifier = {
 				# name = orc_road_paved
 				# duration = -1
@@ -3252,7 +3252,23 @@ character_event = {
 				# name = orc_road
 				# duration = -1
 			# }
-		# }
+			add_province_modifier = {
+				name = orc_forest_flat
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_forest_hill
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_forest_mountains
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_forest_highlands
+				duration = -1
+			}
+		}
 		
 		# create_title = { # Family Titular title - Create Family titular county title	
 			# tier = KING
@@ -3327,7 +3343,7 @@ character_event = {
 			# destroy_landed_title = THIS
 		# }
 		
-		hexaco_negative_gain_agreeableness = yes
+		# hexaco_negative_gain_agreeableness = yes
 		
 	}
 	
