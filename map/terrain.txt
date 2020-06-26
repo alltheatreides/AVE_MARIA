@@ -1,0 +1,451 @@
+terrain = 25
+
+categories =  {
+
+	pti = {
+		color = { 210 210 210 }
+	}
+
+	ocean = {
+		movement_cost = 1.0
+		is_water = yes
+		color = { 255 255 255 }
+	}
+
+	inland_ocean = {
+		movement_cost = 1.0
+		is_water = yes
+		color = { 0 0 200 }
+	}
+
+	arctic = {
+		movement_cost = 1.5
+		max_attrition = 0.1
+		color = { 235 235 235 }
+		supply_limit = 1
+		bottleneck_chance = 30
+	}
+
+	farmlands = {
+		movement_cost = 1.1
+		max_attrition = -0.01
+		color = { 137 104 165  }
+		
+		supply_limit = 5
+		bottleneck_chance = 5
+	}
+	
+	forest = {
+		movement_cost = 1.4
+		max_attrition = 0.025
+		color = { 91 123 45 }
+
+		supply_limit = 3
+		bottleneck_chance = 20
+	}
+	
+	hills = {
+		movement_cost = 1.3
+		defence = 2 # AI-force strength evaluation | 20% stronger
+		max_attrition = 0.025
+		color = { 135 70 0 }
+
+		supply_limit = 3
+		bottleneck_chance = 25
+	}
+
+	woods = {
+		movement_cost = 1.1
+		max_attrition = 0.025
+		color = { 165 205 108 }
+		supply_limit = 3
+		bottleneck_chance = 20
+	}
+	
+	mountain = {
+		movement_cost = 1.5
+		defence = 4 # AI-force strength evaluation | 40% stronger
+		max_attrition = 0.1
+		color = { 117 108 119 }
+		supply_limit = 2
+		bottleneck_chance = 50
+	}
+
+	impassable_mountains = {
+		color = { 128 128 128 }
+		movement_cost = 2.0
+		bottleneck_chance = 50
+	}
+
+	steppe = {
+		movement_cost = 1.0
+		max_attrition = 0.05
+		color = { 211 201 184 }
+		supply_limit = 4
+		bottleneck_chance = 5
+	}
+	
+	plains = {
+		movement_cost = 1.1
+		color = { 241 221 184 }
+		supply_limit = 5
+		bottleneck_chance = 5
+	}
+
+	jungle = {
+		movement_cost = 1.4
+		defence = 1.5 # AI-force strength evaluation | 15% stronger
+		max_attrition = 0.1
+		color = { 40 180 149 }
+		supply_limit = 2
+		bottleneck_chance = 35
+	}	
+	
+	marsh = {
+		movement_cost = 1.4
+		max_attrition = 0.05
+		color = { 76 112 105 }
+
+		supply_limit = 2
+		bottleneck_chance = 40
+	}
+	
+	desert = {
+		movement_cost = 1.2
+		max_attrition = 0.1
+		color = { 220 210 0 }
+	
+		supply_limit = 1
+		bottleneck_chance = 5
+	}
+	
+	coastal_desert = {
+		movement_cost = 1.0
+		max_attrition = 0.05
+		color = { 200 128 0 }
+
+		supply_limit = 2
+		bottleneck_chance = 5
+	}	
+	
+	###NEW TERRAIN TYPES###
+	##	forest_flat
+	orc_forest_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 1.5
+		max_attrition = 0.015
+		supply_limit = 7
+		bottleneck_chance = 20
+		defence = 0
+	}	
+	##	forest_hill
+	orc_forest_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 1.83
+		max_attrition = 0.025
+		supply_limit = 6
+		bottleneck_chance = 24
+		defence = 2
+	}	
+	##	forest_mountains
+	orc_forest_mountains = {	
+		color = { 137 104 165  }
+		movement_cost = 2.25
+		max_attrition = 0.2
+		supply_limit = 5
+		bottleneck_chance = 30
+		defence = 4
+	}	
+	##	forest_highlands
+	orc_forest_highlands = {	
+		color = { 137 104 165  }
+		movement_cost = 2
+		max_attrition = 0.035
+		supply_limit = 6
+		bottleneck_chance = 25
+		defence = 3
+	}	
+	##	woods_flat
+	orc_woods_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 1.25
+		max_attrition = 0.01
+		supply_limit = 7.5
+		bottleneck_chance = 25
+		defence = 0
+	}	
+	##	woods_hill
+	orc_woods_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 1.58
+		max_attrition = 0.025
+		supply_limit = 6.5
+		bottleneck_chance = 30
+		defence = 2
+	}	
+	##	woods_mountains
+	orc_woods_mountains = {	
+		color = { 137 104 165  }
+		movement_cost = 2
+		max_attrition = 0.2
+		supply_limit = 5.5
+		bottleneck_chance = 37.5
+		defence = 4
+	}	
+	##	woods_highlands
+	orc_woods_highlands = {	
+		color = { 137 104 165  }
+		movement_cost = 1.75
+		max_attrition = 0.03
+		supply_limit = 6.5
+		bottleneck_chance = 31.25
+		defence = 3
+	}	
+	##	shrub_flat
+	orc_shrub_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 1.15
+		max_attrition = -0.01
+		supply_limit = 7.5
+		bottleneck_chance = 5
+		defence = 0
+	}	
+	##	shrub_hill
+	orc_shrub_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 1.5
+		max_attrition = 0.025
+		supply_limit = 6.5
+		bottleneck_chance = 6
+		defence = 2
+	}	
+	##	shrub_mountains
+	orc_shrub_mountains = {	
+		color = { 137 104 165  }
+		movement_cost = 1.85
+		max_attrition = 0.2
+		supply_limit = 5.5
+		bottleneck_chance = 7.5
+		defence = 4
+	}	
+	##	shrub_highlands
+	orc_shrub_highlands = {	
+		color = { 137 104 165  }
+		movement_cost = 1.65
+		max_attrition = 0.03
+		supply_limit = 6.5
+		bottleneck_chance = 6.25
+		defence = 3
+	}	
+	##	grass_flat
+	orc_grass_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 1
+		max_attrition = -0.01
+		supply_limit = 8
+		bottleneck_chance = 5
+		defence = 0
+	}	
+	##	grass_hill
+	orc_grass_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 1.33
+		max_attrition = 0.01
+		supply_limit = 7
+		bottleneck_chance = 6
+		defence = 2
+	}	
+	##	grass_mountains
+	orc_grass_mountains = {	
+		color = { 137 104 165  }
+		movement_cost = 1.75
+		max_attrition = 0.2
+		supply_limit = 6
+		bottleneck_chance = 7.5
+		defence = 4
+	}	
+	##	grass_highlands
+	orc_grass_highlands = {	
+		color = { 137 104 165  }
+		movement_cost = 1.5
+		max_attrition = 0.025
+		supply_limit = 6
+		bottleneck_chance = 6.25
+		defence = 3
+	}	
+	##	desert_flat
+	orc_desert_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 2
+		max_attrition = 0
+		supply_limit = 5
+		bottleneck_chance = 5
+		defence = 0
+	}	
+	##	desert_hill
+	orc_desert_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 2.33
+		max_attrition = 0.1
+		supply_limit = 4
+		bottleneck_chance = 6
+		defence = 2
+	}	
+	##	desert_mountains
+	orc_desert_mountains = {	
+		color = { 137 104 165  }
+		movement_cost = 2.75
+		max_attrition = 0.2
+		supply_limit = 3
+		bottleneck_chance = 7.5
+		defence = 4
+	}	
+	##	desert_highlands
+	orc_desert_highlands = {	
+		color = { 137 104 165  }
+		movement_cost = 2.5
+		max_attrition = 0.025
+		supply_limit = 4
+		bottleneck_chance = 6.25
+		defence = 3
+	}	
+	##	jungle_flat
+	orc_jungle_flat = {	
+		color = { 137 104 165  }
+		movement_cost = 2
+		max_attrition = 0.1
+		supply_limit = 4
+		bottleneck_chance = 35
+		defence = 0
+	}	
+	##	jungle_hill
+	orc_jungle_hill = {	
+		color = { 137 104 165  }
+		movement_cost = 2.33
+		max_attrition = 0.025
+		supply_limit = 4
+		bottleneck_chance = 42
+		defence = 2
+	}	
+	##	floodplains
+	orc_floodplains = {	
+		color = { 137 104 165  }
+		movement_cost = 1.25
+		max_attrition = -0.025
+		supply_limit = 9
+		bottleneck_chance = 35
+		defence = 0
+	}	
+	##	alpine_tundra
+	orc_alpine_tundra = {	
+		color = { 137 104 165  }
+		movement_cost = 4
+		max_attrition = 0.3
+		supply_limit = 5
+		bottleneck_chance = 35
+		defence = 0
+	}	
+	##	marsh
+	orc_marsh = {	
+		color = { 137 104 165  }
+		movement_cost = 2.5
+		max_attrition = 0.05
+		supply_limit = 6
+		bottleneck_chance = 40
+		defence = 0
+	}	
+	##	taiga
+	orc_taiga = {	
+		color = { 137 104 165  }
+		movement_cost = 2
+		max_attrition = 0.05
+		supply_limit = 5
+		bottleneck_chance = 15
+		defence = 0
+	}	
+	##	tundra
+	orc_tundra = {	
+		color = { 137 104 165  }
+		movement_cost = 3
+		max_attrition = 0.05
+		supply_limit = 5
+		bottleneck_chance = 5
+		defence = 0
+	}	
+	##	small_island
+	orc_small_island = {	
+		color = { 137 104 165  }
+		movement_cost = 1.5
+		max_attrition = 0.01
+		supply_limit = 6
+		bottleneck_chance = 5
+		defence = 0
+	}	
+
+
+}
+
+text_0	= { type = plains				color = {	0	 } priority = 	0	 }
+text_1	= { type = farmlands			color = {	1	 } priority = 	1	 }
+text_2	= { type = plains				color = { 	2	 } priority = 	2	 }
+text_3	= { type = desert   			color = { 	3	 } priority = 	3	 }
+text_4	= { type = hills	 			color = { 	4	 } priority = 	4	 }
+
+text_5	= { type = steppe   			color = { 	5	 } priority = 	5	 }
+text_6	= { type = arctic   			color = { 	6	 } priority = 	6	 }
+text_7	= { type = mountain 			color = { 	7	 } priority = 	7	 }
+text_8	= { type = hills    			color = { 	8	 } priority = 	8	 }
+text_9	= { type = mountain 			color = { 	9	 } priority = 	9	 }
+
+text_10	= { type = mountain 			color = { 	10	 } priority = 	10	 }
+text_11	= { type = mountain 			color = { 	11	 } priority = 	11	 }
+text_12	= { type = jungle 				color = { 	12	 } priority = 	12	 }
+text_13	= { type = marsh 				color = { 	13	 } priority = 	13	 }
+text_14	= { type = marsh 				color = { 	14	 } priority = 	14	 }
+
+text_15	= { type = coastal_desert 		color = { 	15	 } priority = 	15	 }
+text_16	= { type = steppe 				color = { 	16	 } priority = 	16	 }
+text_17	= { type = hills	 			color = { 	17	 } priority = 	17	 }
+text_18	= { type = mountain				color = { 	18	 } priority = 	18	 }
+text_19	= { type = hills				color = { 	19	 } priority = 	19	 }
+
+text_20	= { type = hills	 			color = { 	20	 } priority = 	20	 }
+text_21	= { type = mountain	 			color = { 	21	 } priority = 	21	 }
+text_22	= { type = hills 				color = { 	22	 } priority = 	22	 }
+text_23	= { type = marsh				color = { 	23	 } priority = 	23	 }
+text_24	= { type = plains 				color = { 	24	 } priority = 	24	 }
+
+text_25	= { type = forest 				color = { 	25	 } priority = 	25	 }
+
+
+
+text_26	= { type = orc_forest_flat			color = {	26	 } priority = 	26	 }
+text_27	= { type = orc_forest_hill			color = {	27	 } priority = 	27	 }
+text_28	= { type = orc_forest_mountains			color = {	28	 } priority = 	28	 }
+text_29	= { type = orc_forest_highlands			color = {	29	 } priority = 	29	 }
+text_30	= { type = orc_woods_flat			color = {	30	 } priority = 	30	 }
+text_31	= { type = orc_woods_hill			color = {	31	 } priority = 	31	 }
+text_32	= { type = orc_woods_mountains			color = {	32	 } priority = 	32	 }
+text_33	= { type = orc_woods_highlands			color = {	33	 } priority = 	33	 }
+text_34	= { type = orc_shrub_flat			color = {	34	 } priority = 	34	 }
+text_35	= { type = orc_shrub_hill			color = {	35	 } priority = 	35	 }
+text_36	= { type = orc_shrub_mountains			color = {	36	 } priority = 	36	 }
+text_37	= { type = orc_shrub_highlands			color = {	37	 } priority = 	37	 }
+text_38	= { type = orc_grass_flat			color = {	38	 } priority = 	38	 }
+text_39	= { type = orc_grass_hill			color = {	39	 } priority = 	39	 }
+text_40	= { type = orc_grass_mountains			color = {	40	 } priority = 	40	 }
+text_41	= { type = orc_grass_highlands			color = {	41	 } priority = 	41	 }
+text_42	= { type = orc_desert_flat			color = {	42	 } priority = 	42	 }
+text_43	= { type = orc_desert_hill			color = {	43	 } priority = 	43	 }
+text_44	= { type = orc_desert_mountains			color = {	44	 } priority = 	44	 }
+text_45	= { type = orc_desert_highlands			color = {	45	 } priority = 	45	 }
+text_46	= { type = orc_jungle_flat			color = {	46	 } priority = 	46	 }
+text_47	= { type = orc_jungle_hill			color = {	47	 } priority = 	47	 }
+text_26	= { type = orc_floodplains			color = {	48	 } priority = 	48	 }
+text_49	= { type = orc_alpine_tundra			color = {	49	 } priority = 	49	 }
+text_50	= { type = orc_marsh			color = {	50	 } priority = 	50	 }
+text_51	= { type = orc_taiga			color = {	51	 } priority = 	51	 }
+text_52	= { type = orc_tundra			color = {	52	 } priority = 	52	 }
+text_53	= { type = orc_small_island			color = {	53	 } priority = 	53	 }
+
+
