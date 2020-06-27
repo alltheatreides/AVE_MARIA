@@ -62,3 +62,23 @@ orc_floodplains_desc;Floodplain terrain represents an area of land adjacent to a
 orc_marsh;Marsh;;;;;;;;;;;;;x
 orc_marsh_desc;Marsh terrain represents tracts of wetland dominated by grasses or low-growing shrubs.  Marshes have always been difficult to traverse until raised roads are lifted above the water.\n\nMarshy terrain takes 6 * province size amount of days to travel across, and is considered §Rrugged§! terrain.\n\nEach level of road network decreases travel time across this province by a factor depending also on the province size.\nMovement cost compared to Grass Flats : §R+150%§!\n;;;;;;;;;;;;;x
 orc_arctic_desc;Arctic terrain represents the snow and ice covered areas close to the North Pole.  Such terrain has always been very difficult and dangerous to cross, and remains so today.\n\nArctic terrain increases CE distance by 1, this cannot be reduced.\nMovement cost compared to Grass Flats : §R+100%§!\n;;;;;;;;;;;;;x
+orc_great_estuary;[This.GetName]'s Estuary ;;;;;;;;;;;;;x
+orc_estuary;Estuary;;;;;;;;;;;;;x
+orc_delta;Delta;;;;;;;;;;;;;x
+orc_great_harbour;Important Natural Harbour;;;;;;;;;;;;;x
+orc_harbour;Natural Harbour;;;;;;;;;;;;;x
+orc_no_harbour;Lack of Natural Harbour;;;;;;;;;;;;;x
+orc_strait;Strait;;;;;;;;;;;;;x
+orc_confluence;Confluence;;;;;;;;;;;;;x
+orc_road_paved;Paved Road;;;;;;;;;;;;;x
+orc_road;Dirt Road;;;;;;;;;;;;;x
+orc_great_estuary_desc;Controlling this important river junction strengthens our hold of the trade in the region.;;;;;;;;;;;;;x
+orc_estuary_desc;Controlling this important river junction strengthens our hold of the trade in the region.;;;;;;;;;;;;;x
+orc_delta_desc;Controlling this important river junction strengthens our hold of the trade in the region.;;;;;;;;;;;;;x
+orc_great_harbour_desc;This province is naturally suited to become a local Centre of Trade and controlling it will help control trade in the region.;;;;;;;;;;;;;x
+orc_harbour_desc;A natural harbour is a landform where a part of a body of water is protected and deep enough to furnish anchorage. Natural harbours have long been of great strategic naval and economic importance, and many great cities of the world are located on them. §YNatural Harbour §! is required for building a §GGrand Shipyard§!.;;;;;;;;;;;;;x
+orc_no_harbour_desc;Some coasts are naturally ill-suited for having proper ports and it is difficult and expensive to build proper naval facilities in such areas.;;;;;;;;;;;;;x
+orc_strait_desc;A strait is a naturally formed, narrow, typically navigable waterway that connects two larger bodies of water. Most commonly it is a channel of water that lies between two land masses. Controlling them allows a better control of the trade in the region.;;;;;;;;;;;;;x
+orc_confluence_desc;[This.GetName] is located at the confluence of several rivers, granting the owner of this province an advantage in trade.;;;;;;;;;;;;;x
+orc_road_paved_desc;Paved Road allow greater speed of movement for armies and facilitate trade.;;;;;;;;;;;;;x
+orc_road_desc;Roads allow greater speed of movement for armies and facilitate trade.;;;;;;;;;;;;;x

@@ -18,6 +18,7 @@ b_pempton = city
 #b_vlanga = castle
 
 # Misc
+terrain = orc_grass_flat
 culture = greek
 religion = orthodox
 
@@ -67,3 +68,5 @@ religion = orthodox
 1262.1.1 = { b_hieron = city }
  
 1337.1.1 = { b_deuteron = castle }
+
+

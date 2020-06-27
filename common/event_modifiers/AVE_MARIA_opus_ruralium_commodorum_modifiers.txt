@@ -9,186 +9,227 @@
 
 # Written by Atreides
 
-### PROVINCE TERRAIN TYPE
-##	forest_flat	
-orc_forest_flat = {		
-	local_movement_speed = -0.25	
-	supply_limit = -0.1	
-	siege_defence = 0
+### PROVINCE TERRAIN TYPE MODIFIERS LOCALIZED UNDER ARABLE LAND
+##	forest_flat
+orc_forest_flat = {	
 	icon = 153
-}		
-##	forest_hill	
-orc_forest_hill = {		
-	local_movement_speed = -0.415	
-	supply_limit = -0.2	
-	siege_defence = 0.2
+	
+	
+}	
+##	forest_hill
+orc_forest_hill = {	
 	icon = 154
-}		
-##	forest_mountains	
-orc_forest_mountains = {		
-	local_movement_speed = -0.625	
-	supply_limit = -0.3	
-	siege_defence = 0.4
+	
+	
+}	
+##	forest_mountains
+orc_forest_mountains = {	
 	icon = 155
-}		
-##	forest_highlands	
-orc_forest_highlands = {		
-	local_movement_speed = -0.5	
-	supply_limit = -0.2	
-	siege_defence = 0.3	
+	
+	
+}	
+##	forest_highlands
+orc_forest_highlands = {	
 	icon = 156
-}		
-##	woods_flat	
-orc_woods_flat = {		
-	local_movement_speed = -0.125	
-	supply_limit = -0.05	
-	siege_defence = 0	
+	
+	
+}	
+##	woods_flat
+orc_woods_flat = {	
 	icon = 157
-}		
-##	woods_hill	
-orc_woods_hill = {		
-	local_movement_speed = -0.29	
-	supply_limit = -0.15	
-	siege_defence = 0.2	
+	
+	
+}	
+##	woods_hill
+orc_woods_hill = {	
 	icon = 158
-}		
-##	woods_mountains	
-orc_woods_mountains = {		
-	local_movement_speed = -0.5	
-	supply_limit = -0.25	
-	siege_defence = 0.4	
+	
+	
+}	
+##	woods_mountains
+orc_woods_mountains = {	
 	icon = 159
-}		
-##	woods_highlands	
-orc_woods_highlands = {		
-	local_movement_speed = -0.375	
-	supply_limit = -0.15	
-	siege_defence = 0.3	
+	
+	
+}	
+##	woods_highlands
+orc_woods_highlands = {	
 	icon = 160
-}		
-##	shrub_flat	
-orc_shrub_flat = {		
-	local_movement_speed = -0.075	
-	supply_limit = -0.05	
-	siege_defence = 0	
+	
+	
+}	
+##	shrub_flat
+orc_shrub_flat = {	
 	icon = 161
-}		
-##	shrub_hill	
-orc_shrub_hill = {		
-	local_movement_speed = -0.25	
-	supply_limit = -0.15	
-	siege_defence = 0.2	
-}		
-##	shrub_mountains	
-orc_shrub_mountains = {		
-	local_movement_speed = -0.425	
-	supply_limit = -0.25	
-	siege_defence = 0.4	
-}		
-##	shrub_highlands	
-orc_shrub_highlands = {		
-	local_movement_speed = -0.325	
-	supply_limit = -0.15	
-	siege_defence = 0.3	
-}		
-##	grass_flat	
-orc_grass_flat = {		
-	local_movement_speed = 0	
-	supply_limit = 0	
-	siege_defence = 0	
-}		
-##	grass_hill	
-orc_grass_hill = {		
-	local_movement_speed = -0.165	
-	supply_limit = -0.1	
-	siege_defence = 0.2	
-}		
-##	grass_mountains	
-orc_grass_mountains = {		
-	local_movement_speed = -0.375	
-	supply_limit = -0.2	
-	siege_defence = 0.4	
-}		
-##	grass_highlands	
-orc_grass_highlands = {		
-	local_movement_speed = -0.25	
-	supply_limit = -0.2	
-	siege_defence = 0.3	
-}		
-##	desert_flat	
-orc_desert_flat = {		
-	local_movement_speed = -0.5	
-	supply_limit = -0.3	
-	siege_defence = 0	
-}		
-##	desert_hill	
-orc_desert_hill = {		
-	local_movement_speed = -0.665	
-	supply_limit = -0.4	
-	siege_defence = 0.2	
-}		
-##	desert_mountains	
-orc_desert_mountains = {		
-	local_movement_speed = -0.875	
-	supply_limit = -0.5	
-	siege_defence = 0.4	
-}		
-##	desert_highlands	
-orc_desert_highlands = {		
-	local_movement_speed = -0.75	
-	supply_limit = -0.4	
-	siege_defence = 0.3	
-}		
-##	jungle_flat	
-orc_jungle_flat = {		
-	local_movement_speed = -0.5	
-	supply_limit = -0.4	
-	siege_defence = 0	
-}		
-##	jungle_hill	
-orc_jungle_hill = {		
-	local_movement_speed = -0.665	
-	supply_limit = -0.4	
-	siege_defence = 0.2	
-}		
-##	floodplains	
-orc_floodplains = {		
-	local_movement_speed = -0.125	
-	supply_limit = 0.1	
-	siege_defence = 0
-	icon = 153
-}		
-##	alpine_tundra	
-orc_alpine_tundra = {		
-	local_movement_speed = -1.5	
-	supply_limit = -0.3	
-	siege_defence = 0	
-}		
-##	marsh	
-orc_marsh = {		
-	local_movement_speed = -0.75	
-	supply_limit = -0.2	
-	siege_defence = 0	
-}		
-##	taiga	
-orc_taiga = {		
-	local_movement_speed = -0.5	
-	supply_limit = -0.3	
-	siege_defence = 0	
-}		
-##	tundra	
-orc_tundra = {		
-	local_movement_speed = -1	
-	supply_limit = -0.3	
-	siege_defence = 0	
-}		
-##	small_island	
-orc_small_island = {		
-	local_movement_speed = -0.25	
-	supply_limit = -0.2	
-	siege_defence = 0	
-}		
+	
+	
+}	
+##	shrub_hill
+orc_shrub_hill = {	
+	icon = 162
+	
+	
+}	
+##	shrub_mountains
+orc_shrub_mountains = {	
+	icon = 163
+	
+	
+}	
+##	shrub_highlands
+orc_shrub_highlands = {	
+	icon = 164
+	
+	
+}	
+##	grass_flat
+orc_grass_flat = {	
+	icon = 165
+	
+	
+}	
+##	grass_hill
+orc_grass_hill = {	
+	icon = 166
+	
+	
+}	
+##	grass_mountains
+orc_grass_mountains = {	
+	icon = 167
+	
+	
+}	
+##	grass_highlands
+orc_grass_highlands = {	
+	icon = 168
+	
+	
+}	
+##	desert_flat
+orc_desert_flat = {	
+	icon = 169
+	
+	
+}	
+##	desert_hill
+orc_desert_hill = {	
+	icon = 170
+	
+	
+}	
+##	desert_mountains
+orc_desert_mountains = {	
+	icon = 171
+	
+	
+}	
+##	desert_highlands
+orc_desert_highlands = {	
+	icon = 172
+	
+	
+}	
+##	jungle_flat
+orc_jungle_flat = {	
+	icon = 173
+	
+	
+}	
+##	jungle_hill
+orc_jungle_hill = {	
+	icon = 174
+	
+	
+}	
+##	floodplains
+orc_floodplains = {	
+	icon = 175
+	
+	
+}	
+##	alpine_tundra
+orc_alpine_tundra = {	
+	icon = 176
+	
+	
+}	
+##	marsh
+orc_marsh = {	
+	icon = 177
+	
+	
+}	
+##	taiga
+orc_taiga = {	
+	icon = 178
+	
+	
+}	
+##	tundra
+orc_tundra = {	
+	icon = 179
+	
+	
+}	
+##	small_island
+orc_small_island = {	
+	icon = 180
+	
+	
+}	
 
+
+### PROVINCE TERRAIN FEATURES
+## Estuaries and Deltas
+orc_great_estuary = {
+	tradevalue = 20
+	galleys_perc = 0.2
+	icon = 181
+}
+
+orc_estuary = {
+	tradevalue = 10
+	galleys_perc = 0.1
+	icon = 182
+}
+
+orc_delta = {
+	tradevalue = 5
+	galleys_perc = 0.05
+	icon = 183
+}
+
+## Harbours
+orc_great_harbour = {
+	tradevalue = 2
+	galleys_perc = 0.2
+	icon = 184
+}
+
+orc_harbour = {
+	tradevalue = 10
+	galleys_perc = 0.1
+	icon = 185
+}
+
+orc_no_harbour = {
+	galleys_perc = -1
+	icon = 186
+}
+
+## Straits
+orc_strait = {
+	tradevalue = 20
+	galleys_perc = 0.25
+	icon = 187
+}
+
+## Confluence
+orc_confluence = {
+	tradevalue = 10
+	icon = 189
+}
 
 ## Roads
 orc_road_paved = {

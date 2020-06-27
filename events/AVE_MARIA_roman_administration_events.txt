@@ -3244,28 +3244,29 @@ character_event = {
 		# treasury = global_bob_saget
 		
 		capital_scope = {
-			# add_province_modifier = {
-				# name = orc_road_paved
-				# duration = -1
-			# }
+			add_province_modifier = {
+				name = orc_road_paved
+				duration = -1
+			}
 			# add_province_modifier = {
 				# name = orc_road
 				# duration = -1
 			# }
+			
 			add_province_modifier = {
-				name = orc_forest_flat
+				name = orc_grass_flat
 				duration = -1
 			}
 			add_province_modifier = {
-				name = orc_forest_hill
+				name = orc_strait
 				duration = -1
 			}
 			add_province_modifier = {
-				name = orc_forest_mountains
+				name = orc_great_harbour
 				duration = -1
 			}
 			add_province_modifier = {
-				name = orc_forest_highlands
+				name = orc_road_paved
 				duration = -1
 			}
 		}

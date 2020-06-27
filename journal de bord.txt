@@ -525,3 +525,19 @@ So one way this might work is through the implementation of an expanded economy 
 - Logique pour la refonte économique: calculer d'abord la capacité de population de la province selon son type de terrain puis répartir la population dans les différents holdings
 - Pour le start_up: calculer la population totale d'une région à partir des estimations, calculer les grands centres ensuite et enfin le reste à distribuer.
 - Need a script that goes into all the history files, get the terrain and print: name, id, terrain type and baronies
+- Pour calculer combien coute les troupes: quand les realm levies sont levés, exporter le max holdin raisable levy et le holding total levy pour avoir les realm levies sur le champ et faire des calculs
+
+24/06/20
+- Pour le mécanisme économique de la demande cf mindmap
+- Province modifier pour le terrain?
+- 
+
+25/06/20
+- issues with adding new terrian type: moving things to terrain modifers
+
+26/06/20
+- nvm managed to make it into terrain type
+
+27/06/20
+- Make the terrain modifiers into arable land max
+- Pour le sicones: faire les positifs en vert, négatif en rouge, et les lettre de chaque catégorie ne bas à droite
