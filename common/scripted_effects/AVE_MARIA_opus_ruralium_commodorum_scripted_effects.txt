@@ -1,0 +1,833 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Effects																	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+
+#############################################
+# Pop Count effects							#
+#############################################
+
+#############################################
+# Pop Modifer effects						#
+#############################################
+
+orc_set_pop_modifier = {
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 1 }	
+			check_variable = { which = orc_holding_total_pop value < 5 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_1	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 5 }	
+			check_variable = { which = orc_holding_total_pop value < 10 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_5	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 10 }	
+			check_variable = { which = orc_holding_total_pop value < 15 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_10	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 15 }	
+			check_variable = { which = orc_holding_total_pop value < 20 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_15	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 20 }	
+			check_variable = { which = orc_holding_total_pop value < 25 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_20	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 25 }	
+			check_variable = { which = orc_holding_total_pop value < 30 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_25	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 30 }	
+			check_variable = { which = orc_holding_total_pop value < 35 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_30	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 35 }	
+			check_variable = { which = orc_holding_total_pop value < 40 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_35	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 40 }	
+			check_variable = { which = orc_holding_total_pop value < 45 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_40	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 45 }	
+			check_variable = { which = orc_holding_total_pop value < 50 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_45	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 50 }	
+			check_variable = { which = orc_holding_total_pop value < 55 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_50	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 55 }	
+			check_variable = { which = orc_holding_total_pop value < 60 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_55	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 60 }	
+			check_variable = { which = orc_holding_total_pop value < 65 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_60	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 65 }	
+			check_variable = { which = orc_holding_total_pop value < 70 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_65	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 70 }	
+			check_variable = { which = orc_holding_total_pop value < 75 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_70	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 75 }	
+			check_variable = { which = orc_holding_total_pop value < 80 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_75	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 80 }	
+			check_variable = { which = orc_holding_total_pop value < 85 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_80	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 85 }	
+			check_variable = { which = orc_holding_total_pop value < 90 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_85	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 90 }	
+			check_variable = { which = orc_holding_total_pop value < 95 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_90	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 95 }	
+			check_variable = { which = orc_holding_total_pop value < 100 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_95	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 100 }	
+			check_variable = { which = orc_holding_total_pop value < 105 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_100	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 105 }	
+			check_variable = { which = orc_holding_total_pop value < 110 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_105	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 110 }	
+			check_variable = { which = orc_holding_total_pop value < 115 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_110	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 115 }	
+			check_variable = { which = orc_holding_total_pop value < 120 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_115	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 120 }	
+			check_variable = { which = orc_holding_total_pop value < 125 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_120	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 125 }	
+			check_variable = { which = orc_holding_total_pop value < 130 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_125	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 130 }	
+			check_variable = { which = orc_holding_total_pop value < 135 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_130	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 135 }	
+			check_variable = { which = orc_holding_total_pop value < 140 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_135	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 140 }	
+			check_variable = { which = orc_holding_total_pop value < 145 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_140	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 145 }	
+			check_variable = { which = orc_holding_total_pop value < 150 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_145	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 150 }	
+			check_variable = { which = orc_holding_total_pop value < 155 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_150	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 155 }	
+			check_variable = { which = orc_holding_total_pop value < 160 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_155	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 160 }	
+			check_variable = { which = orc_holding_total_pop value < 165 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_160	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 165 }	
+			check_variable = { which = orc_holding_total_pop value < 170 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_165	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 170 }	
+			check_variable = { which = orc_holding_total_pop value < 175 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_170	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 175 }	
+			check_variable = { which = orc_holding_total_pop value < 180 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_175	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 180 }	
+			check_variable = { which = orc_holding_total_pop value < 185 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_180	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 185 }	
+			check_variable = { which = orc_holding_total_pop value < 190 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_185	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 190 }	
+			check_variable = { which = orc_holding_total_pop value < 195 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_190	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 195 }	
+			check_variable = { which = orc_holding_total_pop value < 200 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_195	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 200 }	
+			check_variable = { which = orc_holding_total_pop value < 205 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_200	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 205 }	
+			check_variable = { which = orc_holding_total_pop value < 210 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_205	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 210 }	
+			check_variable = { which = orc_holding_total_pop value < 215 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_210	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 215 }	
+			check_variable = { which = orc_holding_total_pop value < 220 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_215	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 220 }	
+			check_variable = { which = orc_holding_total_pop value < 225 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_220	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 225 }	
+			check_variable = { which = orc_holding_total_pop value < 230 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_225	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 230 }	
+			check_variable = { which = orc_holding_total_pop value < 235 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_230	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 235 }	
+			check_variable = { which = orc_holding_total_pop value < 240 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_235	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 240 }	
+			check_variable = { which = orc_holding_total_pop value < 245 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_240	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 245 }	
+			check_variable = { which = orc_holding_total_pop value < 250 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_245	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 250 }	
+			check_variable = { which = orc_holding_total_pop value < 255 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_250	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 255 }	
+			check_variable = { which = orc_holding_total_pop value < 260 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_255	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 260 }	
+			check_variable = { which = orc_holding_total_pop value < 265 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_260	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 265 }	
+			check_variable = { which = orc_holding_total_pop value < 270 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_265	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 270 }	
+			check_variable = { which = orc_holding_total_pop value < 275 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_270	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 275 }	
+			check_variable = { which = orc_holding_total_pop value < 280 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_275	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 280 }	
+			check_variable = { which = orc_holding_total_pop value < 285 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_280	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 285 }	
+			check_variable = { which = orc_holding_total_pop value < 290 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_285	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 290 }	
+			check_variable = { which = orc_holding_total_pop value < 295 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_290	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 295 }	
+			check_variable = { which = orc_holding_total_pop value < 300 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_295	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 300 }	
+			check_variable = { which = orc_holding_total_pop value < 305 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_300	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 305 }	
+			check_variable = { which = orc_holding_total_pop value < 310 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_305	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 310 }	
+			check_variable = { which = orc_holding_total_pop value < 315 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_310	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 315 }	
+			check_variable = { which = orc_holding_total_pop value < 320 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_315	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 320 }	
+			check_variable = { which = orc_holding_total_pop value < 325 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_320	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 325 }	
+			check_variable = { which = orc_holding_total_pop value < 330 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_325	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 330 }	
+			check_variable = { which = orc_holding_total_pop value < 335 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_330	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 335 }	
+			check_variable = { which = orc_holding_total_pop value < 340 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_335	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 340 }	
+			check_variable = { which = orc_holding_total_pop value < 345 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_340	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 345 }	
+			check_variable = { which = orc_holding_total_pop value < 350 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_345	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 350 }	
+			check_variable = { which = orc_holding_total_pop value < 355 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_350	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 355 }	
+			check_variable = { which = orc_holding_total_pop value < 360 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_355	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 360 }	
+			check_variable = { which = orc_holding_total_pop value < 365 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_360	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 365 }	
+			check_variable = { which = orc_holding_total_pop value < 370 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_365	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 370 }	
+			check_variable = { which = orc_holding_total_pop value < 375 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_370	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 375 }	
+			check_variable = { which = orc_holding_total_pop value < 380 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_375	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 380 }	
+			check_variable = { which = orc_holding_total_pop value < 385 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_380	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 385 }	
+			check_variable = { which = orc_holding_total_pop value < 390 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_385	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 390 }	
+			check_variable = { which = orc_holding_total_pop value < 395 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_390	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 395 }	
+			check_variable = { which = orc_holding_total_pop value < 400 }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_395	
+			years = -1	
+		}		
+	}			
+	if = {			
+		limit = {		
+			check_variable = { which = orc_holding_total_pop value >= 400 }	
+			# check_variable = { which = orc_holding_total_pop value <  }	
+		}		
+		add_holding_modifier = {		
+			modifier = orc_holding_population_400	
+			years = -1	
+		}		
+	}			
+
+}

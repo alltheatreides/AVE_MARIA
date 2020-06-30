@@ -87,3 +87,18 @@
 1330.1.1 = {
 	holder = 461550
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_small_island
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_harbour
+				duration = -1
+			}
+		}
+	}
+}

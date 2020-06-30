@@ -102,3 +102,18 @@
 	liege = d_lyon
 	holder = 138442 # ArchBishop Guillaume I de Sure
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_grass_flat
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_confluence
+				duration = -1
+			}
+		}
+	}
+}

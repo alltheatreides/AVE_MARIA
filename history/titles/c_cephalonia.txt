@@ -103,3 +103,14 @@
 1335.9.22 = {
 	holder = 32543 # Leonardo Tocco
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_small_island
+				duration = -1
+			}
+		}
+	}
+}

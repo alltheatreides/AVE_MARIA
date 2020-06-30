@@ -1,6 +1,6 @@
 ########################################################################################
 #                                         											   #
-# AVE MARIA Factions																   #
+# AVE MARIA Modifiers																   #
 # A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
 #                                         											   #
 # OPUS RURALIUM COMMODORUM MODIFIERS												   #
@@ -8,6 +8,18 @@
 ########################################################################################
 
 # Written by Atreides
+
+## Roads
+orc_road_paved = {
+	supply_limit = 0.15
+	local_movement_speed = 0.15
+	icon = 143
+}
+orc_road = {
+	supply_limit = 0.1
+	local_movement_speed = 0.1
+	icon = 144
+}
 
 ### PROVINCE TERRAIN TYPE MODIFIERS LOCALIZED UNDER ARABLE LAND
 ##	forest_flat
@@ -231,15 +243,253 @@ orc_confluence = {
 	icon = 189
 }
 
-## Roads
-orc_road_paved = {
-	supply_limit = 0.15
-	local_movement_speed = 0.15
-	icon = 143
+
+### PROVINCE POPULATION IN THOUSANDS
+orc_population_display = { #POP DISPLAY FOR PROVINCE
+	icon = 190
 }
-orc_road = {
-	supply_limit = 0.1
-	local_movement_speed = 0.1
-	icon = 144
-}
+orc_holding_population_1 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 191
+}	
+orc_holding_population_5 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 192
+}	
+orc_holding_population_10 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 193
+}	
+orc_holding_population_15 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 194
+}	
+orc_holding_population_20 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 195
+}	
+orc_holding_population_25 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 196
+}	
+orc_holding_population_30 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 197
+}	
+orc_holding_population_35 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 198
+}	
+orc_holding_population_40 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 199
+}	
+orc_holding_population_45 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 200
+}	
+orc_holding_population_50 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 201
+}	
+orc_holding_population_55 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 202
+}	
+orc_holding_population_60 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 203
+}	
+orc_holding_population_65 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 204
+}	
+orc_holding_population_70 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 205
+}	
+orc_holding_population_75 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 206
+}	
+orc_holding_population_80 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 207
+}	
+orc_holding_population_85 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 208
+}	
+orc_holding_population_90 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 209
+}	
+orc_holding_population_95 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 210
+}	
+orc_holding_population_100 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 211
+}	
+orc_holding_population_105 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 212
+}	
+orc_holding_population_110 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 213
+}	
+orc_holding_population_115 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 214
+}	
+orc_holding_population_120 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 215
+}	
+orc_holding_population_125 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 216
+}	
+orc_holding_population_130 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 217
+}	
+orc_holding_population_135 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 218
+}	
+orc_holding_population_140 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 219
+}	
+orc_holding_population_145 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 220
+}	
+orc_holding_population_150 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 221
+}	
+orc_holding_population_155 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 222
+}	
+orc_holding_population_160 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 223
+}	
+orc_holding_population_165 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 224
+}	
+orc_holding_population_170 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 225
+}	
+orc_holding_population_175 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 226
+}	
+orc_holding_population_180 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 227
+}	
+orc_holding_population_185 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 228
+}	
+orc_holding_population_190 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 229
+}	
+orc_holding_population_195 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 230
+}	
+orc_holding_population_200 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 231
+}	
+orc_holding_population_205 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 232
+}	
+orc_holding_population_210 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 233
+}	
+orc_holding_population_215 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 234
+}	
+orc_holding_population_220 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 235
+}	
+orc_holding_population_225 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 236
+}	
+orc_holding_population_230 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 237
+}	
+orc_holding_population_235 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 238
+}	
+orc_holding_population_240 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 239
+}	
+orc_holding_population_245 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 240
+}	
+orc_holding_population_250 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 241
+}	
+orc_holding_population_255 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 242
+}	
+orc_holding_population_260 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 243
+}	
+orc_holding_population_265 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 244
+}	
+orc_holding_population_270 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 245
+}	
+orc_holding_population_275 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 246
+}	
+orc_holding_population_280 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 247
+}	
+orc_holding_population_285 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 248
+}	
+orc_holding_population_290 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 249
+}	
+orc_holding_population_295 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 250
+}	
+orc_holding_population_300 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 251
+}	
+orc_holding_population_305 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 252
+}	
+orc_holding_population_310 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 253
+}	
+orc_holding_population_315 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 254
+}	
+orc_holding_population_320 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 255
+}	
+orc_holding_population_325 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 256
+}	
+orc_holding_population_330 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 257
+}	
+orc_holding_population_335 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 258
+}	
+orc_holding_population_340 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 259
+}	
+orc_holding_population_345 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 260
+}	
+orc_holding_population_350 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 261
+}	
+orc_holding_population_355 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 262
+}	
+orc_holding_population_360 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 263
+}	
+orc_holding_population_365 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 264
+}	
+orc_holding_population_370 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 265
+}	
+orc_holding_population_375 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 266
+}	
+orc_holding_population_380 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 267
+}	
+orc_holding_population_385 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 268
+}	
+orc_holding_population_390 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 269
+}	
+orc_holding_population_395 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 270
+}	
+orc_holding_population_400 = { #POP DISPLAY FOR HOLDINGS	
+	icon = 271
+}	
+			
 

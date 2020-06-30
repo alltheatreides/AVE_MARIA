@@ -28,6 +28,15 @@ spriteTypes = {
 	
 }
 
+# spriteTypes = {
+	# spriteType = {
+		# name = "GFX_settlement_temple_byzantinegfx_norsegfx"
+		# texturefile = "gfx\\interface\\placeholder_temple_hellenic_byzantine.tga"
+		# noOfFrames = 1
+		# norefcount = yes
+	# }
+# }
+
 #FACTIONS
 spriteTypes = {
 	spriteType = {

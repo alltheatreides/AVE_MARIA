@@ -1,0 +1,68 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	piety_cost = piety cost to build the building
+ #	prestige_cost = prestige cost to build the building
+ #	Be aware that you can only use one of gold, piety, and prestige cost
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+
+ 
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ORC Buildings																		   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+## SHARED BUILDINGS ##
+castle = {
+	## Agricultural Land
+	rich_agricultural_land = {
+		desc = rich_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 9999
+		build_time = 9999
+		tax_income = 10
+	}
+	average_agricultural_land = {
+		desc = average_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 9999
+		build_time = 9999
+		tax_income = 5
+	}
+	marginal_agricultural_land = {
+		desc = marginal_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 9999
+		build_time = 9999
+		tax_income = 3
+	}
+	
+	
+	## Manorial Buildings
+	c_manor = {
+		
+	}
+	c_stone_manor = {
+		
+	}
+	c_fortified_manor = {
+		
+	}
+	c_magnificent_manor = {
+		
+	}
+}

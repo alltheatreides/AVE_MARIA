@@ -107,3 +107,14 @@
 1334.1.1 = {
 	holder = 1500415
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_shrub_hill
+				duration = -1
+			}
+		}
+	}
+}

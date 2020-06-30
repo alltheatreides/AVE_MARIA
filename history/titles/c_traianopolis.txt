@@ -137,3 +137,14 @@
 1328.5.24 = {
 	holder = 465530
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_shrub_highlands
+				duration = -1
+			}
+		}
+	}
+}

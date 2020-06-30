@@ -1390,53 +1390,53 @@ chaste = {
 	female_insult_adj = INSULT_PRUDISH
 	child_insult_adj = INSULT_STUPID
 }
-# gluttonous = {
-	# personality = yes
-	# opposites =  {
-		# temperate
-	# }
+gluttonous = {
+	personality = yes
+	opposites =  {
+		temperate
+	}
 	
-	# vice = yes
+	vice = yes
 	
-	# sex_appeal_opinion = -15
-	# church_opinion = -5
-	# same_opinion = 5
+	sex_appeal_opinion = -15
+	church_opinion = -5
+	same_opinion = 5
 	
 	# stewardship = -2
 	
-	# ai_greed = 20
-	# ai_zeal = -10
+	ai_greed = 20
+	ai_zeal = -10
 	
-	# male_insult = INSULT_GLUTTON
-	# male_insult_adj = INSULT_GORGING
-	# female_insult = INSULT_GLUTTON
-	# female_insult_adj = INSULT_GORGING
-	# child_insult = INSULT_PIGFACE
-	# child_insult_adj = INSULT_FLABBY
-# }
-# temperate = {
-	# personality = yes
-	# opposites =  {
-		# gluttonous
-	# }
+	male_insult = INSULT_GLUTTON
+	male_insult_adj = INSULT_GORGING
+	female_insult = INSULT_GLUTTON
+	female_insult_adj = INSULT_GORGING
+	child_insult = INSULT_PIGFACE
+	child_insult_adj = INSULT_FLABBY
+}
+temperate = {
+	personality = yes
+	opposites =  {
+		gluttonous
+	}
 	
-	# virtue = yes
+	virtue = yes
 	
-	# church_opinion = 5
-	# opposite_opinion = -5
-	# same_opinion = 5
+	church_opinion = 5
+	opposite_opinion = -5
+	same_opinion = 5
 	
 	# stewardship = 2
 	
-	# ai_greed = -20
-	# ai_zeal = 10
+	ai_greed = -20
+	ai_zeal = 10
 	
-	# male_insult = INSULT_BORE
-	# female_insult = INSULT_BORE
-	# male_compliment_adj = COMPL_LEVELHEADED
-	# female_compliment_adj = COMPL_PLEASANT
-	# child_compliment_adj = COMPL_NICE
-# }
+	male_insult = INSULT_BORE
+	female_insult = INSULT_BORE
+	male_compliment_adj = COMPL_LEVELHEADED
+	female_compliment_adj = COMPL_PLEASANT
+	child_compliment_adj = COMPL_NICE
+}
 # greedy = {
 	# personality = yes
 	# opposites =  {

@@ -1,0 +1,76 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_opus_ruralium_commodorum.1 - AVE_MARIA_opus_ruralium_commodorum.499	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_opus_ruralium_commodorum
+
+##NOTES:
+##
+
+## Set Up called from main player/MP host
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum.1
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_save_game = no
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		496 = {
+			capital_holding = {
+				set_variable = { which = orc_rural_peasant_pop_christian value = 4 }
+				set_variable = { which = orc_rural_elite_pop_christian value = 1 }
+				set_variable = { which = orc_urban_lower_class_pop_christian value = 20 }
+				set_variable = { which = orc_urban_elite_pop_christian value = 6 }
+				set_variable = { which = orc_holding_total_pop value = 0 }
+				change_variable = { which = orc_holding_total_pop which = orc_rural_peasant_pop_christian }
+				change_variable = { which = orc_holding_total_pop which = orc_rural_elite_pop_christian }
+				change_variable = { which = orc_holding_total_pop which = orc_urban_lower_class_pop_christian }
+				change_variable = { which = orc_holding_total_pop which = orc_urban_elite_pop_christian }
+				orc_set_pop_modifier = yes
+			}
+		}
+		any_province = {
+			limit = {
+				has_owner = yes
+				NOT = { province = 496 }
+			}
+			
+			if = { # ERE
+				limit = {
+					region = world_asia_minor
+				}
+				any_province_holding = {
+					limit = { NOT = { holding_type = nomad } }
+					set_variable = { which = orc_rural_peasant_pop_christian value = 7 }
+					set_variable = { which = orc_rural_elite_pop_christian value = 1 }
+					set_variable = { which = orc_urban_lower_class_pop_christian value = 1 }
+					set_variable = { which = orc_urban_elite_pop_christian value = 1 }
+					set_variable = { which = orc_holding_total_pop value = 0 }
+					change_variable = { which = orc_holding_total_pop which = orc_rural_peasant_pop_christian }
+					change_variable = { which = orc_holding_total_pop which = orc_rural_elite_pop_christian }
+					change_variable = { which = orc_holding_total_pop which = orc_urban_lower_class_pop_christian }
+					change_variable = { which = orc_holding_total_pop which = orc_urban_elite_pop_christian }
+					orc_set_pop_modifier = yes
+				}
+			}
+			
+			add_province_modifier = {
+				name = orc_population_display
+				duration = -1
+			}
+		}
+	}
+}

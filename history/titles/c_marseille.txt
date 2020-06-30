@@ -77,3 +77,23 @@
 1321.1.1 = {
 	holder = 32530 # Hugues IV des Baux, 9th Seigneur de baux, viscomte de marseille, comte de Avellino
 }
+
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_shrub_hill
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_estuary
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_harbour
+				duration = -1
+			}
+			
+		}
+	}
+}
