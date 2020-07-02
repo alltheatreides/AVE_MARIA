@@ -4,6 +4,8 @@ feudal_governments = {
 		preferred_holdings = { CASTLE }
 		allowed_holdings = { 
 			CASTLE 
+			TEMPLE
+			CITY
 			FORT
 			HOSPITAL
 		}
@@ -85,6 +87,7 @@ feudal_governments = {
 		allowed_holdings = { 
 			CASTLE
 			TEMPLE
+			CITY
 			FORT
 			HOSPITAL
 		}
@@ -511,6 +514,7 @@ feudal_governments = {
 		preferred_holdings = { CASTLE CITY }
 		allowed_holdings = {
 			CASTLE
+			TEMPLE
 			CITY
 			FORT
 			HOSPITAL

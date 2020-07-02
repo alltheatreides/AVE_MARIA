@@ -36,7 +36,7 @@ tribal = {
 		archers = 30
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_saxon_english_2 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -74,7 +74,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_saxon_english_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_saxon_english_3 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -111,7 +111,7 @@ tribal = {
 		archers = 50
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_saxon_english_4 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -151,7 +151,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_saxon_english_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Scottish Schiltron
@@ -181,7 +181,7 @@ tribal = {
 		pikemen_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_scottish_2 = {
 		desc = ca_culture_scottish_1_desc
@@ -212,7 +212,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_scottish_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_scottish_3 = {
 		desc = ca_culture_scottish_1_desc
@@ -242,7 +242,7 @@ tribal = {
 		pikemen_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_scottish_4 = {
 		desc = ca_culture_scottish_1_desc
@@ -275,7 +275,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_scottish_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}	
 	
 	#Baltic tribes Heavy Infantry camps
@@ -312,7 +312,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_baltic_2 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -350,7 +350,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_baltic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_baltic_3 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -387,7 +387,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_baltic_4 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -427,7 +427,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_baltic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Altaic horse breeders (and Persian)
@@ -511,7 +511,7 @@ tribal = {
 		horse_archers_morale = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_altaic_2 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -596,7 +596,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_altaic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_altaic_3 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -680,7 +680,7 @@ tribal = {
 		horse_archers_morale = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_altaic_4 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -767,7 +767,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_altaic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Frankish, Occitan, Norman and German Lists (and Breton)
@@ -818,7 +818,7 @@ tribal = {
 		light_cavalry = 7
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_frank_norman_german_2 = {
 		desc = tb_culture_frank_norman_german_1_desc
@@ -870,7 +870,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_frank_norman_german_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_frank_norman_german_3 = {
 		desc = tb_culture_frank_norman_german_1_desc
@@ -921,7 +921,7 @@ tribal = {
 		light_cavalry = 13
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_frank_norman_german_4 = {
 		desc = tb_culture_frank_norman_german_1_desc
@@ -975,7 +975,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_frank_norman_german_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}	
 	
 	#Iberian Fast horse breeders
@@ -1005,7 +1005,7 @@ tribal = {
 		light_cavalry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_iberian_2 = {
 		desc = ca_culture_group_iberian_1_desc
@@ -1034,7 +1034,7 @@ tribal = {
 		light_cavalry_offensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_group_iberian_1
 	}
@@ -1066,7 +1066,7 @@ tribal = {
 		light_cavalry_offensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_iberian_4 = {
 		desc = ca_culture_group_iberian_1_desc
@@ -1097,7 +1097,7 @@ tribal = {
 		light_cavalry_offensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_group_iberian_2
 	}
@@ -1136,7 +1136,7 @@ tribal = {
 		pikemen_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_italian_2 = {
 		desc = ca_culture_italian_1_desc
@@ -1172,7 +1172,7 @@ tribal = {
 		pikemen_morale = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_italian_1
 	}
@@ -1211,7 +1211,7 @@ tribal = {
 		pikemen_morale = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_italian_4 = {
 		desc = ca_culture_italian_1_desc
@@ -1249,7 +1249,7 @@ tribal = {
 		pikemen_morale = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_italian_2
 	}
@@ -1281,7 +1281,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_russian_2 = {
 		desc = ca_culture_russian_1_desc
@@ -1310,7 +1310,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_russian_1
 	}
@@ -1342,7 +1342,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_russian_4 = {
 		desc = ca_culture_russian_1_desc
@@ -1373,7 +1373,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 		
 		convert_to_castle = ca_culture_russian_2
 	}
@@ -1418,7 +1418,7 @@ tribal = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_north_germanic_2 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1462,7 +1462,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_north_germanic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_north_germanic_3 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1505,7 +1505,7 @@ tribal = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_north_germanic_4 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1551,7 +1551,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_north_germanic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Hungarian Hussars (and West Slavic)
@@ -1588,7 +1588,7 @@ tribal = {
 		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_hungarian_2 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1626,7 +1626,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_hungarian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_hungarian_3 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1663,7 +1663,7 @@ tribal = {
 		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_hungarian_4 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1703,7 +1703,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_hungarian_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Arabian Camel Cavalry
@@ -1743,7 +1743,7 @@ tribal = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_arabic_2 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1784,7 +1784,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_arabic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_arabic_3 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1824,7 +1824,7 @@ tribal = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_arabic_4 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1867,7 +1867,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_arabic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Byzantine Cataphracts
@@ -1907,7 +1907,7 @@ tribal = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_byzantine_2 = {
 		desc = tb_culture_group_byzantine_1_desc
@@ -1948,7 +1948,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_byzantine_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_byzantine_3 = {
 		desc = tb_culture_group_byzantine_1_desc
@@ -1988,7 +1988,7 @@ tribal = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_byzantine_4 = {
 		desc = tb_culture_group_byzantine_1_desc
@@ -2031,7 +2031,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_byzantine_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Irish Gallowglass
@@ -2061,7 +2061,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_irish_2 = {
 		desc = ca_culture_irish_1_desc
@@ -2092,7 +2092,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_irish_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_irish_3 = {
 		desc = ca_culture_irish_1_desc
@@ -2122,7 +2122,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_irish_4 = {
 		desc = ca_culture_irish_1_desc
@@ -2155,7 +2155,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_irish_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Ethiopian Light Infantry Drilling Ground
@@ -2185,7 +2185,7 @@ tribal = {
 		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_ethiopian_2 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2216,7 +2216,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_ethiopian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_ethiopian_3 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2246,7 +2246,7 @@ tribal = {
 		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_ethiopian_4 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2279,7 +2279,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_ethiopian_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Somali Light Infantry Barracks
@@ -2309,7 +2309,7 @@ tribal = {
 		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_somali_2 = {
 		desc = ca_culture_somali_1_desc
@@ -2340,7 +2340,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_somali_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_somali_3 = {
 		desc = ca_culture_somali_1_desc
@@ -2370,7 +2370,7 @@ tribal = {
 		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_somali_4 = {
 		desc = ca_culture_somali_1_desc
@@ -2403,7 +2403,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_somali_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# West African Free Warrior Lodge
@@ -2444,7 +2444,7 @@ tribal = {
 		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_west_african_2 = {
 		desc = ca_culture_west_african_1_desc
@@ -2486,7 +2486,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_west_african_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_west_african_3 = {
 		desc = ca_culture_west_african_1_desc
@@ -2527,7 +2527,7 @@ tribal = {
 		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_west_african_4 = {
 		desc = ca_culture_west_african_1_desc
@@ -2571,7 +2571,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_west_african_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# South Slavic Cavalry
@@ -2601,7 +2601,7 @@ tribal = {
 		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_south_slavic_2 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2632,7 +2632,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_south_slavic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_south_slavic_3 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2662,7 +2662,7 @@ tribal = {
 		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_group_south_slavic_4 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2695,7 +2695,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_group_south_slavic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Dutch Urban Militia
@@ -2727,7 +2727,7 @@ tribal = {
 		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_dutch_2 = {
 		desc = ca_culture_dutch_1_desc
@@ -2760,7 +2760,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_dutch_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_dutch_3 = {
 		desc = ca_culture_dutch_1_desc
@@ -2792,7 +2792,7 @@ tribal = {
 		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_dutch_4 = {
 		desc = ca_culture_dutch_1_desc
@@ -2827,7 +2827,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_dutch_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Aztec Jaguar Warriors
@@ -2857,7 +2857,7 @@ tribal = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nahuatl_2 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2888,7 +2888,7 @@ tribal = {
 		
 		convert_to_castle = ct_wall_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nahuatl_3 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2918,7 +2918,7 @@ tribal = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nahuatl_4 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2951,7 +2951,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_nahuatl_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	# Jewish Heavy Infantry
 	tb_culture_jewish_1 = {
@@ -2980,7 +2980,7 @@ tribal = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_jewish_2 = {
 		desc = ca_culture_jewish_1_desc
@@ -3011,7 +3011,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_jewish_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_jewish_3 = {
 		desc = ca_culture_jewish_1_desc
@@ -3041,7 +3041,7 @@ tribal = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_jewish_4 = {
 		desc = ca_culture_jewish_1_desc
@@ -3074,7 +3074,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_jewish_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	# Indian war elephant pens
 	tb_culture_indian_1 = {
@@ -3110,7 +3110,7 @@ tribal = {
 		war_elephants_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_indian_2 = {
 		desc = ca_culture_indian_2_desc
@@ -3149,7 +3149,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_indian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_indian_3 = {
 		desc = ca_culture_indian_3_desc
@@ -3187,7 +3187,7 @@ tribal = {
 		war_elephants_defensive = 0.10
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_indian_4 = {
 		desc = ca_culture_indian_4_desc
@@ -3228,7 +3228,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_indian_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Nubian warrior barracks
@@ -3260,7 +3260,7 @@ tribal = {
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nubian_2 = {
 		desc = ca_culture_nubian_1_desc
@@ -3293,7 +3293,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_nubian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nubian_3 = {
 		desc = ca_culture_nubian_1_desc
@@ -3325,7 +3325,7 @@ tribal = {
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_nubian_4 = {
 		desc = ca_culture_nubian_1_desc
@@ -3360,7 +3360,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_nubian_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Germanic Heavy Infantry Barracks
@@ -3397,7 +3397,7 @@ tribal = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_germanic_2 = {
 		desc = ca_culture_germanic_1_desc
@@ -3435,7 +3435,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_germanic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_germanic_3 = {
 		desc = ca_culture_germanic_1_desc
@@ -3472,7 +3472,7 @@ tribal = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_germanic_4 = {
 		desc = ca_culture_germanic_1_desc
@@ -3512,7 +3512,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_germanic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Pictish Hall of War
@@ -3543,7 +3543,7 @@ tribal = {
 		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_pictish_2 = {
 		desc = ca_culture_pictish_1_desc
@@ -3575,7 +3575,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_pictish_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_pictish_3 = {
 		desc = ca_culture_pictish_1_desc
@@ -3606,7 +3606,7 @@ tribal = {
 		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_pictish_4 = {
 		desc = ca_culture_pictish_1_desc
@@ -3640,7 +3640,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_pictish_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Suebi free warriors
@@ -3672,7 +3672,7 @@ tribal = {
 		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_suebi_2 = {
 		desc = ca_culture_suebi_1_desc
@@ -3705,7 +3705,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_suebi_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_suebi_3 = {
 		desc = ca_culture_suebi_1_desc
@@ -3737,7 +3737,7 @@ tribal = {
 		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_suebi_4 = {
 		desc = ca_culture_suebi_1_desc
@@ -3772,7 +3772,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_suebi_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Moorish Cavalry Barracks
@@ -3812,7 +3812,7 @@ tribal = {
 		light_cavalry_morale = 0.1
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_moors_2 = {
 		desc = ca_culture_moors_1_desc
@@ -3853,7 +3853,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_moors_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_moors_3 = {
 		desc = ca_culture_moors_1_desc
@@ -3893,7 +3893,7 @@ tribal = {
 		light_cavalry_morale = 0.1
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_moors_4 = {
 		desc = ca_culture_moors_1_desc
@@ -3936,7 +3936,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_moors_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Han Crossbow Range
@@ -3966,7 +3966,7 @@ tribal = {
 		archers = 40
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_chinese_han_2 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -3997,7 +3997,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_chinese_han_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_chinese_han_3 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -4027,7 +4027,7 @@ tribal = {
 		archers = 60
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_chinese_han_4 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -4060,7 +4060,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_chinese_han_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Jurchen Cavalry Barracks
@@ -4093,7 +4093,7 @@ tribal = {
 		light_cavalry_morale = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_altaic_jurchen_2 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4127,7 +4127,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_altaic_jurchen_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_altaic_jurchen_3 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4160,7 +4160,7 @@ tribal = {
 		light_cavalry_morale = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_altaic_jurchen_4 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4196,7 +4196,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_altaic_jurchen_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Tibetan Culture Group
@@ -4231,7 +4231,7 @@ tribal = {
 		
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_tibetan_2 = {
 		desc = ca_culture_tibetan_desc
@@ -4267,7 +4267,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_tibetan_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_tibetan_3 = {
 		desc = ca_culture_tibetan_desc
@@ -4302,7 +4302,7 @@ tribal = {
 		
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_tibetan_4 = {
 		desc = ca_culture_tibetan_desc
@@ -4340,7 +4340,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_tibetan_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Coptic Spearmen
@@ -4370,7 +4370,7 @@ tribal = {
 		pikemen_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_coptic_2 = {
 		desc = ca_culture_coptic_1_desc
@@ -4401,7 +4401,7 @@ tribal = {
 
 		convert_to_castle = ca_culture_coptic_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_coptic_3 = {
 		desc = ca_culture_coptic_1_desc
@@ -4431,7 +4431,7 @@ tribal = {
 		pikemen_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_coptic_4 = {
 		desc = ca_culture_coptic_1_desc
@@ -4464,7 +4464,7 @@ tribal = {
 
 		convert_to_castle = ca_culture_coptic_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Animal Farm
@@ -4519,7 +4519,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_animal_2 = {
 		desc = ca_culture_animal_desc
@@ -4575,7 +4575,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_animal_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_animal_3 = {
 		desc = ca_culture_animal_desc
@@ -4630,7 +4630,7 @@ tribal = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_animal_4 = {
 		desc = ca_culture_animal_desc
@@ -4688,7 +4688,7 @@ tribal = {
 		
 		convert_to_castle = ca_culture_animal_2
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Arberian cavalry
@@ -4719,7 +4719,7 @@ tribal = {
 		light_cavalry_offensive = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_arberian_2 = {
 		desc = tb_culture_arberian_1_desc
@@ -4751,7 +4751,7 @@ tribal = {
 
 		convert_to_castle = ca_culture_arberian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_arberian_3 = {
 		desc = ca_culture_arberian_1_desc
@@ -4782,7 +4782,7 @@ tribal = {
 		light_cavalry_offensive = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_arberian_4 = {
 		desc = ca_culture_arberian_1_desc
@@ -4814,7 +4814,7 @@ tribal = {
 		light_cavalry_offensive = 0.05
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 
 		convert_to_castle = ca_culture_arberian_2
 	}
@@ -4848,7 +4848,7 @@ tribal = {
 		archers_defensive = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_sardinian_2 = {
 		desc = ca_culture_sardinian_1_desc
@@ -4881,7 +4881,7 @@ tribal = {
 
 		convert_to_castle = ca_culture_sardinian_1
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_sardinian_3 = {
 		desc = ca_culture_sardinian_1_desc
@@ -4913,7 +4913,7 @@ tribal = {
 		archers_defensive = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	tb_culture_sardinian_4 = {
 		desc = ca_culture_sardinian_1_desc
@@ -4946,7 +4946,7 @@ tribal = {
 		archers_defensive = 0.05
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 
 		convert_to_castle = ca_culture_sardinian_2
 	}

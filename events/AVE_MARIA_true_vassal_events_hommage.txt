@@ -372,6 +372,16 @@ narrative_event = {
 		opinion = { modifier = opinion_true_vassal_luxurious_homage_ceremony who = suzerain years = 5 }
         remove_trait = travelling
         set_character_flag = gave_homage_to_liege
+		add_alliance = {
+			who = PREV
+			years = 999
+		}
+		PREV = {
+			add_alliance = {
+				who = ROOT
+				years = 999
+			}
+		}
     }
 	
 	# Give proper opinion malus for type of homage ceremony

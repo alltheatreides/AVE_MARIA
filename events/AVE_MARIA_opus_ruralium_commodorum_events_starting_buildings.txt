@@ -1,0 +1,68 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_opus_ruralium_commodorum.1 - AVE_MARIA_opus_ruralium_commodorum.499	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_opus_ruralium_commodorum_starting_building
+
+##NOTES:
+##
+
+## Set Up called from main player/MP host
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_starting_building.1
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_save_game = no
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		capital_scope = {
+			capital_holding = {
+				add_manorial_buildings_stone_quality = yes
+			}
+		}
+		any_province = {
+			if = {
+				limit = {
+					holder_scope = {
+						religion_group = christian
+						is_theocracy = no
+						culture_check_for_frankish_style_feudalism = yes
+					}					
+				}
+				any_province_holding = {
+					add_manorial_buildings_stone_quality = yes
+					add_building = c_manor
+					add_building = c_local_noble_1
+				}
+				
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						religion_group = christian
+						is_theocracy = yes
+						culture_check_for_frankish_style_feudalism = yes
+					}					
+				}
+				any_province_holding = {
+					add_bishop_buildings_stone_quality = yes
+					add_building = t_manor
+					add_building = t_local_noble_1
+				}				
+			}
+		}
+	}
+}

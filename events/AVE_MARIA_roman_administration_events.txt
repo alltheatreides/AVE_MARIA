@@ -3244,6 +3244,8 @@ character_event = {
 		# treasury = global_bob_saget
 		
 		set_variable = { which = true_vassal_troop_count value = 0 }
+		set_variable = { which = test_test_test value = 0 }
+		set_variable = { which = test_test_test_2 value = 0 }
 		any_demesne_province = {
 			any_province_holding = {
 				limit = {
@@ -3253,10 +3255,19 @@ character_event = {
 				ROOT = {
 					export_to_variable = { which = holding_true_vassal_troop_count value = holding_raisable_levy who = event_target:target_test_test }
 					change_variable = { which = true_vassal_troop_count which = holding_true_vassal_troop_count }
+					
+					export_to_variable = { which = test_test value = holding_tax_value who = event_target:target_test_test }
+					change_variable = { which = test_test_test which = test_test }
+					
+					
 				}
 			}
 		}
 		
+		capital_holding = {
+			change_variable = { which = orc_rural_elite_pop_christian value = 4 }
+			change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_christian }
+		}
 		
 		
 		# create_title = { # Family Titular title - Create Family titular county title	

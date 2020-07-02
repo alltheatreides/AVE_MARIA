@@ -8,7 +8,7 @@
  #	build_time = time to build, in days
  #	
  #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #	# extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
  #}
  
  # Castle
@@ -55,7 +55,7 @@ castle = {
 		archers = 60
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_saxon_english_2 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -91,7 +91,7 @@ castle = {
 		archers = 80
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_saxon_english_3 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -128,7 +128,7 @@ castle = {
 		archers = 100
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_saxon_english_4 = {
 		desc = ca_culture_saxon_english_1_desc
@@ -166,7 +166,7 @@ castle = {
 		archers = 120
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Scottish Schiltron
@@ -192,11 +192,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 30
-		heavy_infantry_defensive = 0.15
+		pikemen = 30
+		pikemen_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_scottish_2 = {
 		desc = ca_culture_scottish_1_desc
@@ -221,11 +221,11 @@ castle = {
 		upgrades_from = ca_culture_scottish_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_defensive = 0.15
+		pikemen = 40
+		pikemen_defensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_scottish_3 = {
 		desc = ca_culture_scottish_1_desc
@@ -251,11 +251,11 @@ castle = {
 		upgrades_from = ca_culture_scottish_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 60
-		heavy_infantry_defensive = 0.15
+		pikemen = 60
+		pikemen_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_scottish_4 = {
 		desc = ca_culture_scottish_1_desc
@@ -282,11 +282,11 @@ castle = {
 		upgrades_from = ca_culture_scottish_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 80
-		heavy_infantry_defensive = 0.15
+		pikemen = 80
+		pikemen_defensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}	
 	
 	#Baltic tribes Heavy Infantry camps
@@ -323,7 +323,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_baltic_2 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -359,7 +359,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_baltic_3 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -396,7 +396,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_baltic_4 = {
 		desc = ca_culture_group_baltic_1_desc
@@ -434,7 +434,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Altaic horse breeders (and Persian)
@@ -512,14 +512,14 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 10
+		light_cavalry = 10
 		knights = 5
 		horse_archers = 10
 		horse_archers_offensive = 0.1
 		horse_archers_morale = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_altaic_2 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -596,14 +596,14 @@ castle = {
 		upgrades_from = ca_culture_group_altaic_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 15
+		light_cavalry = 15
 		knights = 5
 		horse_archers = 15
 		horse_archers_offensive = 0.1
 		horse_archers_morale = 0.05
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_altaic_3 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -681,14 +681,14 @@ castle = {
 		upgrades_from = ca_culture_group_altaic_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 15
+		light_cavalry = 15
 		knights = 10
 		horse_archers = 15
 		horse_archers_offensive = 0.1
 		horse_archers_morale = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_altaic_4 = {
 		desc = ca_culture_group_altaic_1_desc
@@ -767,14 +767,14 @@ castle = {
 		upgrades_from = ca_culture_group_altaic_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 20
+		light_cavalry = 20
 		knights = 10
 		horse_archers = 20
 		horse_archers_offensive = 0.1
 		horse_archers_morale = 0.05
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Frankish, Occitan, Norman and German Lists (and Breton)
@@ -823,7 +823,7 @@ castle = {
 		knights_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_frank_norman_german_2 = {
 		desc = ca_culture_frank_norman_german_1_desc
@@ -871,7 +871,7 @@ castle = {
 		knights_offensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_frank_norman_german_3 = {
 		desc = ca_culture_frank_norman_german_1_desc
@@ -919,7 +919,7 @@ castle = {
 		knights_offensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_frank_norman_german_4 = {
 		desc = ca_culture_frank_norman_german_1_desc
@@ -969,7 +969,7 @@ castle = {
 		knights_offensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}	
 	
 	#Iberian Fast horse breeders
@@ -995,11 +995,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 30
-		knights_offensive = 0.15
+		light_cavalry = 30
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_iberian_2 = {
 		desc = ca_culture_group_iberian_1_desc
@@ -1024,11 +1024,11 @@ castle = {
 		upgrades_from = ca_culture_group_iberian_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 40
-		knights_offensive = 0.15
+		light_cavalry = 40
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_iberian_3 = {
 		desc = ca_culture_group_iberian_1_desc
@@ -1054,11 +1054,11 @@ castle = {
 		upgrades_from = ca_culture_group_iberian_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 50
-		knights_offensive = 0.15
+		light_cavalry = 50
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_iberian_4 = {
 		desc = ca_culture_group_iberian_1_desc
@@ -1085,11 +1085,11 @@ castle = {
 		upgrades_from = ca_culture_group_iberian_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 60
-		knights_offensive = 0.15
+		light_cavalry = 60
+		light_cavalry_offensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Italian Pike formations
@@ -1122,11 +1122,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 30
-		heavy_infantry_morale = 0.15
+		pikemen = 30
+		pikemen_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_italian_2 = {
 		desc = ca_culture_italian_1_desc
@@ -1157,11 +1157,11 @@ castle = {
 		upgrades_from = ca_culture_italian_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_morale = 0.15
+		pikemen = 40
+		pikemen_morale = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_italian_3 = {
 		desc = ca_culture_italian_1_desc
@@ -1194,11 +1194,11 @@ castle = {
 		upgrades_from = ca_culture_italian_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 50
-		heavy_infantry_morale = 0.15
+		pikemen = 50
+		pikemen_morale = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_italian_4 = {
 		desc = ca_culture_italian_1_desc
@@ -1232,11 +1232,11 @@ castle = {
 		upgrades_from = ca_culture_italian_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 60
-		heavy_infantry_morale = 0.15
+		pikemen = 60
+		pikemen_morale = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Russian Armories
@@ -1266,7 +1266,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_russian_2 = {
 		desc = ca_culture_russian_1_desc
@@ -1295,7 +1295,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_russian_3 = {
 		desc = ca_culture_russian_1_desc
@@ -1325,7 +1325,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_russian_4 = {
 		desc = ca_culture_russian_1_desc
@@ -1356,7 +1356,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Scandinavian Housecarls (and Saxon)
@@ -1399,7 +1399,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_north_germanic_2 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1441,7 +1441,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_north_germanic_3 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1484,7 +1484,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_north_germanic_4 = {
 		desc = ca_culture_group_north_germanic_1_desc
@@ -1528,7 +1528,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Hungarian Hussars (and West Slavic)
@@ -1561,11 +1561,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 30
-		knights_defensive = 0.15
+		light_cavalry = 30
+		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_hungarian_2 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1597,11 +1597,11 @@ castle = {
 		upgrades_from = ca_culture_hungarian_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 40
-		knights_defensive = 0.15
+		light_cavalry = 40
+		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_hungarian_3 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1634,11 +1634,11 @@ castle = {
 		upgrades_from = ca_culture_hungarian_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 50
-		knights_defensive = 0.15
+		light_cavalry = 50
+		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_hungarian_4 = {
 		desc = ca_culture_hungarian_1_desc
@@ -1672,11 +1672,11 @@ castle = {
 		upgrades_from = ca_culture_hungarian_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 60
-		knights_defensive = 0.15
+		light_cavalry = 60
+		light_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Arabian Camel Cavalry
@@ -1716,7 +1716,7 @@ castle = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_arabic_2 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1755,7 +1755,7 @@ castle = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_arabic_3 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1795,7 +1795,7 @@ castle = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_arabic_4 = {
 		desc = ca_culture_group_arabic_1_desc
@@ -1836,7 +1836,7 @@ castle = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Byzantine Cataphracts
@@ -1876,7 +1876,7 @@ castle = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_byzantine_2 = {
 		desc = ca_culture_group_byzantine_1_desc
@@ -1915,7 +1915,7 @@ castle = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_byzantine_3 = {
 		desc = ca_culture_group_byzantine_1_desc
@@ -1955,7 +1955,7 @@ castle = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_byzantine_4 = {
 		desc = ca_culture_group_byzantine_1_desc
@@ -1996,7 +1996,7 @@ castle = {
 		horse_archers_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Irish Gallowglass
@@ -2026,7 +2026,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_irish_2 = {
 		desc = ca_culture_irish_1_desc
@@ -2055,7 +2055,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_irish_3 = {
 		desc = ca_culture_irish_1_desc
@@ -2085,7 +2085,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_irish_4 = {
 		desc = ca_culture_irish_1_desc
@@ -2116,7 +2116,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Ethiopian Light Infantry Drilling Ground
@@ -2142,11 +2142,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		# light_infantry = 60
-		# light_infantry_offensive = 0.15
+		light_infantry = 60
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_ethiopian_2 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2171,11 +2171,11 @@ castle = {
 		upgrades_from = ca_culture_ethiopian_1
 		gold_cost = 300
 		build_time = 1095
-		# light_infantry = 80
-		# light_infantry_offensive = 0.15
+		light_infantry = 80
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_ethiopian_3 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2201,11 +2201,11 @@ castle = {
 		upgrades_from = ca_culture_ethiopian_2
 		gold_cost = 400
 		build_time = 2190
-		# light_infantry = 100
-		# light_infantry_offensive = 0.15
+		light_infantry = 100
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_ethiopian_4 = {
 		desc = ca_culture_ethiopian_1_desc
@@ -2232,11 +2232,11 @@ castle = {
 		upgrades_from = ca_culture_ethiopian_3
 		gold_cost = 500
 		build_time = 2190
-		# light_infantry = 120
-		# light_infantry_offensive = 0.15
+		light_infantry = 120
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Somali Light Infantry Barracks
@@ -2262,11 +2262,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		# light_infantry = 60
-		# light_infantry_defensive = 0.15
+		light_infantry = 60
+		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_somali_2 = {
 		desc = ca_culture_somali_1_desc
@@ -2291,11 +2291,11 @@ castle = {
 		upgrades_from = ca_culture_somali_1
 		gold_cost = 300
 		build_time = 1095
-		# light_infantry = 80
-		# light_infantry_defensive = 0.15
+		light_infantry = 80
+		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_somali_3 = {
 		desc = ca_culture_somali_1_desc
@@ -2321,11 +2321,11 @@ castle = {
 		upgrades_from = ca_culture_somali_2
 		gold_cost = 400
 		build_time = 2190
-		# light_infantry = 100
-		# light_infantry_defensive = 0.15
+		light_infantry = 100
+		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_somali_4 = {
 		desc = ca_culture_somali_1_desc
@@ -2352,11 +2352,11 @@ castle = {
 		upgrades_from = ca_culture_somali_3
 		gold_cost = 500
 		build_time = 2190
-		# light_infantry = 120
-		# light_infantry_defensive = 0.15
+		light_infantry = 120
+		light_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# West African Free Warrior Lodge
@@ -2392,12 +2392,12 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		# light_infantry = 30
+		light_infantry = 30
 		archers = 30
-		# light_infantry_offensive = 0.15
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_west_african_2 = {
 		desc = ca_culture_west_african_1_desc
@@ -2432,12 +2432,12 @@ castle = {
 		upgrades_from = ca_culture_west_african_1
 		gold_cost = 300
 		build_time = 1095
-		# light_infantry = 40
+		light_infantry = 40
 		archers = 40
-		# light_infantry_offensive = 0.15
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_west_african_3 = {
 		desc = ca_culture_west_african_1_desc
@@ -2473,12 +2473,12 @@ castle = {
 		upgrades_from = ca_culture_west_african_2
 		gold_cost = 400
 		build_time = 2190
-		# light_infantry = 50
+		light_infantry = 50
 		archers = 50
-		# light_infantry_offensive = 0.15
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_west_african_4 = {
 		desc = ca_culture_west_african_1_desc
@@ -2515,12 +2515,12 @@ castle = {
 		upgrades_from = ca_culture_west_african_3
 		gold_cost = 500
 		build_time = 2190
-		# light_infantry = 60
+		light_infantry = 60
 		archers = 60
-		# light_infantry_offensive = 0.15
+		light_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# South Slavic Cavalry
@@ -2547,12 +2547,12 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		knights = 5
-		knights = 20
+		light_cavalry = 20
 		knights_defensive = 0.075
-		knights_defensive = 0.075
+		light_cavalry_defensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_south_slavic_2 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2578,12 +2578,12 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		knights = 10
-		knights = 20
+		light_cavalry = 20
 		knights_defensive = 0.075
-		knights_defensive = 0.075
+		light_cavalry_defensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_south_slavic_3 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2610,12 +2610,12 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		knights = 15
-		knights = 20
+		light_cavalry = 20
 		knights_defensive = 0.075
-		knights_defensive = 0.075
+		light_cavalry_defensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_group_south_slavic_4 = {
 		desc = ca_culture_group_south_slavic_1_desc
@@ -2643,12 +2643,12 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		knights = 15
-		knights = 30
+		light_cavalry = 30
 		knights_defensive = 0.075
-		knights_defensive = 0.075
+		light_cavalry_defensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Dutch Urban Militia
@@ -2674,13 +2674,13 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 15
-		# light_infantry = 30
-		# light_infantry_offensive = 0.075
-		heavy_infantry_offensive = 0.075
+		pikemen = 15
+		light_infantry = 30
+		light_infantry_offensive = 0.075
+		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_dutch_2 = {
 		desc = ca_culture_dutch_1_desc
@@ -2705,13 +2705,13 @@ castle = {
 		upgrades_from = ca_culture_dutch_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 20
-		# light_infantry = 40
-		# light_infantry_offensive = 0.075
-		heavy_infantry_offensive = 0.075
+		pikemen = 20
+		light_infantry = 40
+		light_infantry_offensive = 0.075
+		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_dutch_3 = {
 		desc = ca_culture_dutch_1_desc
@@ -2737,13 +2737,13 @@ castle = {
 		upgrades_from = ca_culture_dutch_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 25
-		# light_infantry = 50
-		# light_infantry_offensive = 0.075
-		heavy_infantry_offensive = 0.075
+		pikemen = 25
+		light_infantry = 50
+		light_infantry_offensive = 0.075
+		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_dutch_4 = {
 		desc = ca_culture_dutch_1_desc
@@ -2770,13 +2770,13 @@ castle = {
 		upgrades_from = ca_culture_dutch_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 30
-		# light_infantry = 60
-		# light_infantry_offensive = 0.075
-		heavy_infantry_offensive = 0.075
+		pikemen = 30
+		light_infantry = 60
+		light_infantry_offensive = 0.075
+		pikemen_offensive = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Aztec Jaguar Warriors
@@ -2806,7 +2806,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nahuatl_2 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2835,7 +2835,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nahuatl_3 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2865,7 +2865,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nahuatl_4 = {
 		desc = ca_culture_nahuatl_1_desc
@@ -2896,7 +2896,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	# Jewish Heavy Infantry
 	ca_culture_jewish_1 = {
@@ -2925,7 +2925,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_jewish_2 = {
 		desc = ca_culture_jewish_1_desc
@@ -2954,7 +2954,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_jewish_3 = {
 		desc = ca_culture_jewish_1_desc
@@ -2984,7 +2984,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_jewish_4 = {
 		desc = ca_culture_jewish_1_desc
@@ -3015,7 +3015,7 @@ castle = {
 		heavy_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	# Indian war elephant pens
 	ca_culture_indian_1 = {
@@ -3051,7 +3051,7 @@ castle = {
 		war_elephants_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_indian_2 = {
 		desc = ca_culture_indian_2_desc
@@ -3088,7 +3088,7 @@ castle = {
 		war_elephants_defensive = 0.10
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_indian_3 = {
 		desc = ca_culture_indian_3_desc
@@ -3126,7 +3126,7 @@ castle = {
 		war_elephants_defensive = 0.10
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_indian_4 = {
 		desc = ca_culture_indian_4_desc
@@ -3165,7 +3165,7 @@ castle = {
 		war_elephants_defensive = 0.10
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Nubian warrior barracks
@@ -3192,12 +3192,12 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		heavy_infantry = 10
-		# light_infantry = 20
+		light_infantry = 20
 		archers = 20
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nubian_2 = {
 		desc = ca_culture_nubian_1_desc
@@ -3223,12 +3223,12 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		heavy_infantry = 15
-		# light_infantry = 25
+		light_infantry = 25
 		archers = 25
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nubian_3 = {
 		desc = ca_culture_nubian_1_desc
@@ -3255,12 +3255,12 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		heavy_infantry = 15
-		# light_infantry = 30
+		light_infantry = 30
 		archers = 30
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_nubian_4 = {
 		desc = ca_culture_nubian_1_desc
@@ -3288,12 +3288,12 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		heavy_infantry = 20
-		# light_infantry = 40
+		light_infantry = 40
 		archers = 40
 		archers_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Germanic Heavy Infantry Barracks
@@ -3330,7 +3330,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_germanic_2 = {
 		desc = ca_culture_germanic_1_desc
@@ -3366,7 +3366,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_germanic_3 = {
 		desc = ca_culture_germanic_1_desc
@@ -3403,7 +3403,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_germanic_4 = {
 		desc = ca_culture_germanic_1_desc
@@ -3441,7 +3441,7 @@ castle = {
 		heavy_infantry_offensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Pictish Hall of War
@@ -3467,12 +3467,12 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		# light_infantry = 30
+		light_infantry = 30
 		heavy_infantry = 15
-		# light_infantry_morale = 0.15
+		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_pictish_2 = {
 		desc = ca_culture_pictish_1_desc
@@ -3497,12 +3497,12 @@ castle = {
 		upgrades_from = ca_culture_pictish_1
 		gold_cost = 300
 		build_time = 1095
-		# light_infantry = 40
+		light_infantry = 40
 		heavy_infantry = 20
-		# light_infantry_morale = 0.15
+		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_pictish_3 = {
 		desc = ca_culture_pictish_1_desc
@@ -3528,12 +3528,12 @@ castle = {
 		upgrades_from = ca_culture_pictish_2
 		gold_cost = 400
 		build_time = 2190
-		# light_infantry = 50
+		light_infantry = 50
 		heavy_infantry = 25
-		# light_infantry_morale = 0.15
+		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_pictish_4 = {
 		desc = ca_culture_pictish_1_desc
@@ -3560,12 +3560,12 @@ castle = {
 		upgrades_from = ca_culture_pictish_3
 		gold_cost = 500
 		build_time = 2190
-		# light_infantry = 60
+		light_infantry = 60
 		heavy_infantry = 30
-		# light_infantry_morale = 0.15
+		light_infantry_morale = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Suebi free warriors
@@ -3591,13 +3591,13 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 15
-		# light_infantry = 30
-		# light_infantry_morale = 0.075
-		heavy_infantry_morale = 0.075
+		pikemen = 15
+		light_infantry = 30
+		light_infantry_morale = 0.075
+		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_suebi_2 = {
 		desc = ca_culture_suebi_1_desc
@@ -3622,13 +3622,13 @@ castle = {
 		upgrades_from = ca_culture_suebi_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 20
-		# light_infantry = 40
-		# light_infantry_morale = 0.075
-		heavy_infantry_morale = 0.075
+		pikemen = 20
+		light_infantry = 40
+		light_infantry_morale = 0.075
+		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_suebi_3 = {
 		desc = ca_culture_suebi_1_desc
@@ -3654,13 +3654,13 @@ castle = {
 		upgrades_from = ca_culture_suebi_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 25
-		# light_infantry = 50
-		# light_infantry_morale = 0.075
-		heavy_infantry_morale = 0.075
+		pikemen = 25
+		light_infantry = 50
+		light_infantry_morale = 0.075
+		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_suebi_4 = {
 		desc = ca_culture_suebi_1_desc
@@ -3687,13 +3687,13 @@ castle = {
 		upgrades_from = ca_culture_suebi_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 30
-		# light_infantry = 60
-		# light_infantry_morale = 0.075
-		heavy_infantry_morale = 0.075
+		pikemen = 30
+		light_infantry = 60
+		light_infantry_morale = 0.075
+		pikemen_morale = 0.075
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Moorish Cavalry Barracks
@@ -3726,14 +3726,14 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 15
+		light_cavalry = 15
 		horse_archers = 15
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-		knights_morale = 0.1
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_moors_2 = {
 		desc = ca_culture_moors_1_desc
@@ -3765,14 +3765,14 @@ castle = {
 		upgrades_from = ca_culture_moors_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 20
+		light_cavalry = 20
 		horse_archers = 20
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-		knights_morale = 0.1
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_moors_3 = {
 		desc = ca_culture_moors_1_desc
@@ -3805,14 +3805,14 @@ castle = {
 		upgrades_from = ca_culture_moors_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 25
+		light_cavalry = 25
 		horse_archers = 25
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-		knights_morale = 0.1
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_moors_4 = {
 		desc = ca_culture_moors_1_desc
@@ -3846,14 +3846,14 @@ castle = {
 		upgrades_from = ca_culture_moors_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 30
+		light_cavalry = 30
 		horse_archers = 30
-		knights_offensive = 0.1
-		knights_defensive = 0.1
-		knights_morale = 0.1
+		light_cavalry_offensive = 0.1
+		light_cavalry_defensive = 0.1
+		light_cavalry_morale = 0.1
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Han Crossbow Range
@@ -3883,7 +3883,7 @@ castle = {
 		archers = 80
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_chinese_han_2 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -3912,7 +3912,7 @@ castle = {
 		archers = 100
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_chinese_han_3 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -3942,7 +3942,7 @@ castle = {
 		archers = 120
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_chinese_han_4 = {
 		desc = ca_culture_chinese_han_1_desc
@@ -3973,7 +3973,7 @@ castle = {
 		archers = 150
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	#Jurchen Cavalry Barracks
@@ -3999,14 +3999,14 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 15
+		light_cavalry = 15
 		knights = 5
-		knights_offensive = 0.05
-		knights_defensive = 0.05
-		knights_morale = 0.05
+		light_cavalry_offensive = 0.05
+		light_cavalry_defensive = 0.05
+		light_cavalry_morale = 0.05
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_altaic_jurchen_2 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4031,14 +4031,14 @@ castle = {
 		upgrades_from = ca_culture_altaic_jurchen_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 20
+		light_cavalry = 20
 		knights = 5
-		knights_offensive = 0.05
-		knights_defensive = 0.05
-		knights_morale = 0.05
+		light_cavalry_offensive = 0.05
+		light_cavalry_defensive = 0.05
+		light_cavalry_morale = 0.05
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_altaic_jurchen_3 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4064,14 +4064,14 @@ castle = {
 		upgrades_from = ca_culture_altaic_jurchen_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 25
+		light_cavalry = 25
 		knights = 5
-		knights_offensive = 0.05
-		knights_defensive = 0.05
-		knights_morale = 0.05
+		light_cavalry_offensive = 0.05
+		light_cavalry_defensive = 0.05
+		light_cavalry_morale = 0.05
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_altaic_jurchen_4 = {
 		desc = ca_culture_altaic_jurchen_1_desc
@@ -4098,14 +4098,14 @@ castle = {
 		upgrades_from = ca_culture_altaic_jurchen_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 30
+		light_cavalry = 30
 		knights = 5
-		knights_offensive = 0.05
-		knights_defensive = 0.05
-		knights_morale = 0.05
+		light_cavalry_offensive = 0.05
+		light_cavalry_defensive = 0.05
+		light_cavalry_morale = 0.05
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Tibetan Culture Group
@@ -4132,15 +4132,15 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		
-		knights = 10
-		# light_infantry = 50
-		# light_infantry_offensive = 0.05
-		# light_infantry_defensive = 0.05
-		# light_infantry_morale = 0.05
+		light_cavalry = 10
+		light_infantry = 50
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		light_infantry_morale = 0.05
 		
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_tibetan_2 = {
 		desc = ca_culture_tibetan_desc
@@ -4166,15 +4166,15 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		
-		knights = 15
-		# light_infantry = 65
-		# light_infantry_offensive = 0.05
-		# light_infantry_defensive = 0.05
-		# light_infantry_morale = 0.05
+		light_cavalry = 15
+		light_infantry = 65
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		light_infantry_morale = 0.05
 		
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_tibetan_3 = {
 		desc = ca_culture_tibetan_desc
@@ -4201,15 +4201,15 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		
-		knights = 20
-		# light_infantry = 80
-		# light_infantry_offensive = 0.05
-		# light_infantry_defensive = 0.05
-		# light_infantry_morale = 0.05
+		light_cavalry = 20
+		light_infantry = 80
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		light_infantry_morale = 0.05
 		
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_tibetan_4 = {
 		desc = ca_culture_tibetan_desc
@@ -4237,15 +4237,15 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		
-		knights = 25
-		# light_infantry = 95
-		# light_infantry_offensive = 0.05
-		# light_infantry_defensive = 0.05
-		# light_infantry_morale = 0.05
+		light_cavalry = 25
+		light_infantry = 95
+		light_infantry_offensive = 0.05
+		light_infantry_defensive = 0.05
+		light_infantry_morale = 0.05
 		
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	#Roman Heavy Infantry camps
@@ -4271,12 +4271,12 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 30
-		heavy_infantry_defensive = 0.07
-		heavy_infantry_offensive = 0.07
+		pikemen = 30
+		pikemen_defensive = 0.07
+		pikemen_offensive = 0.07
 		ai_creation_factor = 101
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_2 = {
 		desc = ca_culture_roman_1_desc
@@ -4301,12 +4301,12 @@ castle = {
 		upgrades_from = ca_culture_roman_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_defensive = 0.07
-		heavy_infantry_offensive = 0.07
+		pikemen = 40
+		pikemen_defensive = 0.07
+		pikemen_offensive = 0.07
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_3 = {
 		desc = ca_culture_roman_1_desc
@@ -4332,12 +4332,12 @@ castle = {
 		upgrades_from = ca_culture_roman_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 50
-		heavy_infantry_defensive = 0.07
-		heavy_infantry_offensive = 0.07
+		pikemen = 50
+		pikemen_defensive = 0.07
+		pikemen_offensive = 0.07
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_roman_4 = {
 		desc = ca_culture_roman_1_desc
@@ -4364,12 +4364,12 @@ castle = {
 		upgrades_from = ca_culture_roman_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 60
-		heavy_infantry_defensive = 0.07
-		heavy_infantry_offensive = 0.07
+		pikemen = 60
+		pikemen_defensive = 0.07
+		pikemen_offensive = 0.07
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	ca_government_monastery_1 = {
@@ -4397,7 +4397,7 @@ castle = {
 		add_number_to_name = no
 		liege_piety = 0.05
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_government_monastery_2 = {
 		desc = ca_government_monastery_1_desc
@@ -4427,7 +4427,7 @@ castle = {
 		add_number_to_name = no
 		liege_piety = 0.05
 		
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	} 
 	ca_government_monastery_3 = {
 		desc = ca_government_monastery_1_desc
@@ -4457,7 +4457,7 @@ castle = {
 		add_number_to_name = no
 		liege_piety = 0.05
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	} 
 	ca_government_monastery_4 = {
 		desc = ca_government_monastery_1_desc
@@ -4488,7 +4488,7 @@ castle = {
 		add_number_to_name = no
 		liege_piety = 0.05
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	
 	# Coptic Spearmen
@@ -4514,11 +4514,11 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 30
-		heavy_infantry_defensive = 0.15
+		pikemen = 30
+		pikemen_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_2 = {
 		desc = ca_culture_coptic_1_desc
@@ -4543,11 +4543,11 @@ castle = {
 		upgrades_from = ca_culture_coptic_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 40
-		heavy_infantry_defensive = 0.15
+		pikemen = 40
+		pikemen_defensive = 0.15
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_3 = {
 		desc = ca_culture_coptic_1_desc
@@ -4573,11 +4573,11 @@ castle = {
 		upgrades_from = ca_culture_coptic_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 60
-		heavy_infantry_defensive = 0.15
+		pikemen = 60
+		pikemen_defensive = 0.15
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_coptic_4 = {
 		desc = ca_culture_coptic_1_desc
@@ -4604,11 +4604,11 @@ castle = {
 		upgrades_from = ca_culture_coptic_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 80
-		heavy_infantry_defensive = 0.15
+		pikemen = 80
+		pikemen_defensive = 0.15
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	
 	# Animal Farm
@@ -4663,7 +4663,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_animal_2 = {
 		desc = ca_culture_animal_desc
@@ -4717,7 +4717,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_animal_3 = {
 		desc = ca_culture_animal_desc
@@ -4772,7 +4772,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_animal_4 = {
 		desc = ca_culture_animal_desc
@@ -4828,7 +4828,7 @@ castle = {
 		heavy_infantry_defensive = 0.15
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Arberian cavalry
@@ -4854,12 +4854,12 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		knights = 30
-		knights_defensive = 0.10
-		knights_offensive = 0.10
+		light_cavalry = 30
+		light_cavalry_defensive = 0.10
+		light_cavalry_offensive = 0.10
 		ai_creation_factor = 101
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_arberian_2 = {
 		desc = ca_culture_arberian_1_desc
@@ -4884,12 +4884,12 @@ castle = {
 		upgrades_from = ca_culture_arberian_1
 		gold_cost = 300
 		build_time = 1095
-		knights = 40
-		knights_defensive = 0.10
-		knights_offensive = 0.10
+		light_cavalry = 40
+		light_cavalry_defensive = 0.10
+		light_cavalry_offensive = 0.10
 		ai_creation_factor = 100
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_arberian_3 = {
 		desc = ca_culture_arberian_1_desc
@@ -4915,12 +4915,12 @@ castle = {
 		upgrades_from = ca_culture_arberian_2
 		gold_cost = 400
 		build_time = 2190
-		knights = 50
-		knights_defensive = 0.10
-		knights_offensive = 0.10
+		light_cavalry = 50
+		light_cavalry_defensive = 0.10
+		light_cavalry_offensive = 0.10
 		ai_creation_factor = 99
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_arberian_4 = {
 		desc = ca_culture_arberian_1_desc
@@ -4947,12 +4947,12 @@ castle = {
 		upgrades_from = ca_culture_arberian_3
 		gold_cost = 500
 		build_time = 2190
-		knights = 60
-		knights_defensive = 0.10
-		knights_offensive = 0.10
+		light_cavalry = 60
+		light_cavalry_defensive = 0.10
+		light_cavalry_offensive = 0.10
 		ai_creation_factor = 98
 		
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 
 	# Sardinian Birrudo
@@ -4978,13 +4978,13 @@ castle = {
 		prerequisites = { ca_wall_2 }
 		gold_cost = 200
 		build_time = 730
-		heavy_infantry = 15
+		pikemen = 15
 		archers = 15
-		heavy_infantry_defensive = 0.10
+		pikemen_defensive = 0.10
 		archers_defensive = 0.10
 		ai_creation_factor = 101
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_sardinian_2 = {
 		desc = ca_culture_sardinian_1_desc
@@ -5009,13 +5009,13 @@ castle = {
 		upgrades_from = ca_culture_sardinian_1
 		gold_cost = 300
 		build_time = 1095
-		heavy_infantry = 20
+		pikemen = 20
 		archers = 20
-		heavy_infantry_defensive = 0.10
+		pikemen_defensive = 0.10
 		archers_defensive = 0.10
 		ai_creation_factor = 100
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_sardinian_3 = {
 		desc = ca_culture_sardinian_1_desc
@@ -5041,13 +5041,13 @@ castle = {
 		upgrades_from = ca_culture_sardinian_2
 		gold_cost = 400
 		build_time = 2190
-		heavy_infantry = 25
+		pikemen = 25
 		archers = 25
-		heavy_infantry_defensive = 0.10
+		pikemen_defensive = 0.10
 		archers_defensive = 0.10
 		ai_creation_factor = 99
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_culture_sardinian_4 = {
 		desc = ca_culture_sardinian_1_desc
@@ -5074,13 +5074,13 @@ castle = {
 		upgrades_from = ca_culture_sardinian_3
 		gold_cost = 500
 		build_time = 2190
-		heavy_infantry = 30
+		pikemen = 30
 		archers = 30
-		heavy_infantry_defensive = 0.10
+		pikemen_defensive = 0.10
 		archers_defensive = 0.10
 		ai_creation_factor = 98
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 }
 

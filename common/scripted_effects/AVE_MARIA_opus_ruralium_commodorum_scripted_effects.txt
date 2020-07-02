@@ -831,3 +831,25 @@ orc_set_pop_modifier = {
 	}			
 
 }
+
+#############################################
+# Building effects							#
+#############################################
+
+add_manorial_buildings_stone_quality = {
+	add_building = c_stone_manor
+	add_building = c_manor_motte
+	add_building = c_manor_moat
+	add_building = c_manor_stone_gatehouse
+	add_building = c_manor_stone_walls
+	add_building = c_manor_stone_tower
+}
+
+add_bishop_buildings_stone_quality = {
+	add_building = t_stone_bishop_palace
+	add_building = t_bishop_palace_motte
+	add_building = t_bishop_palace_moat
+	add_building = t_bishop_palace_stone_gatehouse
+	add_building = t_bishop_palace_stone_walls
+	add_building = t_bishop_palace_stone_tower
+}

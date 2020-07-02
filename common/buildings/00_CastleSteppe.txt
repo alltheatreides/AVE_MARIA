@@ -8,12 +8,12 @@
  #	build_time = time to build, in days
  #	
  #	ai_creation_factor = weight that the AI uses to determine what building to build
- #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #	# extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
  #}
  
  # Castle
 castle = {
-	# Steppe Barracks, gives less heavy infantry, no heavy_infantry, but some horsies
+	# Steppe Barracks, gives less heavy infantry, no pikemen, but some horsies
 	ca_steppe_barracks_1 = {
 		desc = ca_steppe_barracks_desc
 		potential = {
@@ -32,10 +32,10 @@ castle = {
 		gold_cost = 100
 		build_time = 365
 		heavy_infantry = 25
-		knights = 20
+		light_cavalry = 20
 		ai_creation_factor = 105
 		
-		extra_tech_building_start = 1.0
+		# extra_tech_building_start = 1.0
 	}
 	ca_steppe_barracks_2 = {
 		desc = ca_steppe_barracks_desc
@@ -57,10 +57,10 @@ castle = {
 		gold_cost = 120
 		build_time = 547
 		heavy_infantry = 35
-		knights = 20
+		light_cavalry = 20
 		ai_creation_factor = 104
 		
-		extra_tech_building_start = 1.8
+		# extra_tech_building_start = 1.8
 	}
 	ca_steppe_barracks_3 = {
 		desc = ca_steppe_barracks_desc
@@ -82,10 +82,10 @@ castle = {
 		gold_cost = 200
 		build_time = 730
 		heavy_infantry = 40
-		knights = 25
+		light_cavalry = 25
 		ai_creation_factor = 103
 
-		extra_tech_building_start = 3.0
+		# extra_tech_building_start = 3.0
 	}
 	ca_steppe_barracks_4 = {
 		desc = ca_steppe_barracks_desc
@@ -107,10 +107,10 @@ castle = {
 		gold_cost = 300
 		build_time = 1095
 		heavy_infantry = 45
-		knights = 30
+		light_cavalry = 30
 		ai_creation_factor = 102
 
-		extra_tech_building_start = 3.0
+		# extra_tech_building_start = 3.0
 	}
 	ca_steppe_barracks_5 = {
 		desc = ca_steppe_barracks_desc
@@ -131,10 +131,10 @@ castle = {
 		gold_cost = 400
 		build_time = 2190
 		heavy_infantry = 55
-		knights = 30
+		light_cavalry = 30
 		ai_creation_factor = 101
 
-		extra_tech_building_start = 2.0
+		# extra_tech_building_start = 2.0
 	}
 	ca_steppe_barracks_6 = {
 		desc = ca_steppe_barracks_desc
@@ -155,10 +155,10 @@ castle = {
 		gold_cost = 500
 		build_time = 2190
 		heavy_infantry = 60
-		knights = 35
+		light_cavalry = 35
 		ai_creation_factor = 100
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	
 	#Steppe Stable, gives light cavalry & horse archers
@@ -179,11 +179,11 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		knights = 25
+		light_cavalry = 25
 		horse_archers = 10
 		ai_creation_factor = 89
 		
-		extra_tech_building_start = 0.4
+		# extra_tech_building_start = 0.4
 	}
 	ca_steppe_stable_2 = {
 		desc = ca_steppe_stable_desc
@@ -204,11 +204,11 @@ castle = {
 		upgrades_from = ca_steppe_stable_1
 		gold_cost = 120
 		build_time = 547
-		knights = 25
+		light_cavalry = 25
 		horse_archers = 20
 		ai_creation_factor = 88
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_steppe_stable_3 = {
 		desc = ca_steppe_stable_desc
@@ -229,11 +229,11 @@ castle = {
 		upgrades_from = ca_steppe_stable_2
 		gold_cost = 200
 		build_time = 730
-		knights = 35
+		light_cavalry = 35
 		horse_archers = 20
 		ai_creation_factor = 87
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_steppe_stable_4 = {
 		desc = ca_steppe_stable_desc
@@ -253,12 +253,12 @@ castle = {
 		upgrades_from = ca_steppe_stable_3
 		gold_cost = 300
 		build_time = 1095
-		knights = 35
+		light_cavalry = 35
 		horse_archers = 20
 		knights = 5
 		ai_creation_factor = 86
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_steppe_stable_5 = {
 		desc = ca_steppe_stable_desc
@@ -278,12 +278,12 @@ castle = {
 		upgrades_from = ca_steppe_stable_4
 		gold_cost = 400
 		build_time = 2190
-		knights = 35
+		light_cavalry = 35
 		horse_archers = 20
 		knights = 10
 		ai_creation_factor = 85
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_steppe_stable_6 = {
 		desc = ca_steppe_stable_desc
@@ -303,12 +303,12 @@ castle = {
 		upgrades_from = ca_steppe_stable_5
 		gold_cost = 500
 		build_time = 2190
-		knights = 35
+		light_cavalry = 35
 		horse_archers = 20
 		knights = 20
 		ai_creation_factor = 85
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 
 	#Desert Stable, gives light cavalry & horse archers
@@ -328,11 +328,11 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 100
 		build_time = 365
-		knights = 25
+		light_cavalry = 25
 		camel_cavalry = 10
 		ai_creation_factor = 89
 		
-		extra_tech_building_start = 0.4
+		# extra_tech_building_start = 0.4
 	}
 	ca_desert_stable_2 = {
 		desc = ca_desert_stable_desc
@@ -352,11 +352,11 @@ castle = {
 		upgrades_from = ca_desert_stable_1
 		gold_cost = 120
 		build_time = 547
-		knights = 25
+		light_cavalry = 25
 		camel_cavalry = 20
 		ai_creation_factor = 88
 
-		extra_tech_building_start = 0.8
+		# extra_tech_building_start = 0.8
 	}
 	ca_desert_stable_3 = {
 		desc = ca_desert_stable_desc
@@ -376,11 +376,11 @@ castle = {
 		upgrades_from = ca_desert_stable_2
 		gold_cost = 200
 		build_time = 730
-		knights = 35
+		light_cavalry = 35
 		camel_cavalry = 20
 		ai_creation_factor = 87
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_desert_stable_4 = {
 		desc = ca_desert_stable_desc
@@ -399,12 +399,12 @@ castle = {
 		upgrades_from = ca_desert_stable_3
 		gold_cost = 300
 		build_time = 1095
-		knights = 35
+		light_cavalry = 35
 		camel_cavalry = 20
 		knights = 5
 		ai_creation_factor = 86
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_desert_stable_5 = {
 		desc = ca_desert_stable_desc
@@ -423,12 +423,12 @@ castle = {
 		upgrades_from = ca_desert_stable_4
 		gold_cost = 400
 		build_time = 2190
-		knights = 35
+		light_cavalry = 35
 		camel_cavalry = 20
 		knights = 10
 		ai_creation_factor = 85
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 	ca_desert_stable_6 = {
 		desc = ca_desert_stable_desc
@@ -447,11 +447,11 @@ castle = {
 		upgrades_from = ca_desert_stable_5
 		gold_cost = 500
 		build_time = 2190
-		knights = 35
+		light_cavalry = 35
 		camel_cavalry = 20
 		knights = 20
 		ai_creation_factor = 85
 
-		extra_tech_building_start = 0.2
+		# extra_tech_building_start = 0.2
 	}
 }

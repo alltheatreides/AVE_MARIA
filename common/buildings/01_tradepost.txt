@@ -21,7 +21,7 @@ trade_post = {
 		trade_route_wealth = 1	# Affects total value of trade route
 		tradevalue = 20
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_sahara_2 = {	# Saharan Trading Center
@@ -43,7 +43,7 @@ trade_post = {
 		tradevalue = 40
 		fort_level = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_sahara_3 = {	# Major Saharan Trading Center
@@ -65,7 +65,7 @@ trade_post = {
 		tradevalue = 60
 		fort_level = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	### GOLD MINE
@@ -91,7 +91,7 @@ trade_post = {
 		tradevalue = 100
 		monthly_character_prestige = 0.25
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_gold_mine_2 = {
@@ -118,7 +118,7 @@ trade_post = {
 		tradevalue = 150
 		monthly_character_prestige = 0.5
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_gold_mine_3 = {
@@ -145,7 +145,7 @@ trade_post = {
 		tradevalue = 200
 		monthly_character_prestige = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	### SALT MINE
@@ -171,7 +171,7 @@ trade_post = {
 		military_techpoints = 0.01
 		add_number_to_name = no
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	### CLOTH PRODUCTION
@@ -194,6 +194,6 @@ trade_post = {
 		economy_techpoints = 0.01
 		add_number_to_name = no
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 }

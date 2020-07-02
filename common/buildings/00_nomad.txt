@@ -12,7 +12,7 @@ nomad = {
 		gold_cost = 20
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		knights_defensive = 0.03
 		light_cavalry_defensive = 0.03
@@ -26,7 +26,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		knights_defensive = 0.03
 		light_cavalry_defensive = 0.03
@@ -40,7 +40,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		knights_defensive = 0.04
 		light_cavalry_defensive = 0.04
@@ -54,7 +54,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		knights_defensive = 0.05
 		light_cavalry_defensive = 0.05
@@ -68,7 +68,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		knights_defensive = 0.05
 		light_cavalry_defensive = 0.05
@@ -82,7 +82,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		knights_defensive = 0.05
 		light_cavalry_defensive = 0.05
@@ -96,7 +96,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		knights_defensive = 0.05
 		light_cavalry_defensive = 0.05
@@ -110,7 +110,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		knights_defensive = 0.05
 		light_cavalry_defensive = 0.05
@@ -125,7 +125,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		light_cavalry_offensive = 0.04
 		knights_offensive = 0.04
@@ -140,7 +140,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 480
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		light_cavalry_offensive = 0.04
 		knights_offensive = 0.04
@@ -155,7 +155,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 600
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		light_cavalry_offensive = 0.04
 		knights_offensive = 0.04
@@ -170,7 +170,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 720
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		light_cavalry_offensive = 0.05
 		knights_offensive = 0.05
@@ -185,7 +185,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 840
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		light_cavalry_offensive = 0.05
 		knights_offensive = 0.05
@@ -200,7 +200,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 960
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		light_cavalry_offensive = 0.05
 		knights_offensive = 0.05
@@ -215,7 +215,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 1080
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		light_cavalry_offensive = 0.06
 		knights_offensive = 0.06
@@ -230,7 +230,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 1200
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		light_cavalry_offensive = 0.06
 		knights_offensive = 0.06
@@ -245,7 +245,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		land_morale = 0.02
 		population_growth = 0.02
@@ -258,7 +258,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 485
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_airag_producer_1
 		
@@ -273,7 +273,7 @@ nomad = {
 		gold_cost = 100
 		build_time = 605
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_airag_producer_2
 		
@@ -288,7 +288,7 @@ nomad = {
 		gold_cost = 130
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_airag_producer_3
 		
@@ -303,7 +303,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 820
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_airag_producer_4
 		
@@ -318,7 +318,7 @@ nomad = {
 		gold_cost = 190
 		build_time = 910
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_airag_producer_5
 		
@@ -333,7 +333,7 @@ nomad = {
 		gold_cost = 220
 		build_time = 1100
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_airag_producer_6
 		
@@ -348,7 +348,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 1195
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_airag_producer_7
 		
@@ -363,7 +363,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		population_growth = 0.01
 		nomad_tax_modifier = 0.01
@@ -375,7 +375,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_1
 		
@@ -389,7 +389,7 @@ nomad = {
 		gold_cost = 100
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_2
 		
@@ -403,7 +403,7 @@ nomad = {
 		gold_cost = 125
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_3
 		
@@ -417,7 +417,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_4
 		
@@ -431,7 +431,7 @@ nomad = {
 		gold_cost = 175
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_5
 		
@@ -445,7 +445,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_6
 		
@@ -459,7 +459,7 @@ nomad = {
 		gold_cost = 230
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_cattle_pens_7
 		
@@ -475,7 +475,7 @@ nomad = {
 		gold_cost = 20
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		max_population = 2000
 		global_supply_limit = 0.02
@@ -490,7 +490,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		max_population = 2000
 		global_supply_limit = 0.02
@@ -505,7 +505,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		max_population = 2250
 		global_supply_limit = 0.02
@@ -520,7 +520,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		max_population = 2500
 		global_supply_limit = 0.03
@@ -535,7 +535,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		max_population = 3000
 		global_supply_limit = 0.03
@@ -550,7 +550,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		max_population = 3500
 		global_supply_limit = 0.03
@@ -565,7 +565,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		max_population = 4000
 		global_supply_limit = 0.04
@@ -580,7 +580,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		max_population = 5000
 		global_supply_limit = 0.06
@@ -595,7 +595,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		global_supply_limit = 0.05
 		horde_maintenence_cost = -0.04
@@ -609,7 +609,7 @@ nomad = {
 		gold_cost = 70
 		build_time = 511
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_meat_preserver_1
 		
@@ -625,7 +625,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 657
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_meat_preserver_2
 		
@@ -641,7 +641,7 @@ nomad = {
 		gold_cost = 110
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_meat_preserver_3
 		
@@ -657,7 +657,7 @@ nomad = {
 		gold_cost = 140
 		build_time = 803
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_meat_preserver_4
 		
@@ -673,7 +673,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 876
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_meat_preserver_5
 		
@@ -689,7 +689,7 @@ nomad = {
 		gold_cost = 230
 		build_time = 949
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_meat_preserver_6
 		
@@ -705,7 +705,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_meat_preserver_7
 		
@@ -721,7 +721,7 @@ nomad = {
 		gold_cost = 50
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		nomad_tax_modifier = 0.04
 	}
@@ -733,7 +733,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 1185
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		nomad_tax_modifier = 0.04
 	}
@@ -745,7 +745,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 1275
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		nomad_tax_modifier = 0.04
 	}
@@ -757,7 +757,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 1365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		nomad_tax_modifier = 0.04
 	}
@@ -769,7 +769,7 @@ nomad = {
 		gold_cost = 240
 		build_time = 1485
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		nomad_tax_modifier = 0.04
 	}
@@ -781,7 +781,7 @@ nomad = {
 		gold_cost = 320
 		build_time = 1605
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		nomad_tax_modifier = 0.05
 	}
@@ -793,7 +793,7 @@ nomad = {
 		gold_cost = 400
 		build_time = 1725
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		nomad_tax_modifier = 0.05
 	}
@@ -805,7 +805,7 @@ nomad = {
 		gold_cost = 500
 		build_time = 1825
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		nomad_tax_modifier = 0.05
 	}
@@ -818,7 +818,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		global_winter_supply = 0.4
 		nomad_tax_modifier = 0.02
@@ -831,7 +831,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 485
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_1
 		
@@ -848,7 +848,7 @@ nomad = {
 		gold_cost = 100
 		build_time = 605
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_2
 		
@@ -863,7 +863,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 725
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_3
 		
@@ -880,7 +880,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 845
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_4
 		
@@ -895,7 +895,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 965
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_5
 		
@@ -912,7 +912,7 @@ nomad = {
 		gold_cost = 210
 		build_time = 1085
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_6
 		
@@ -927,7 +927,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 1205
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_felt_crafter_7
 		
@@ -945,7 +945,7 @@ nomad = {
 		gold_cost = 35
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		max_population_mult = 0.03
 	}
@@ -957,7 +957,7 @@ nomad = {
 		gold_cost = 50
 		build_time = 850
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_1
 		
@@ -971,7 +971,7 @@ nomad = {
 		gold_cost = 70
 		build_time = 970
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_2
 		
@@ -985,7 +985,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_3
 		
@@ -999,7 +999,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 1190
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_4
 		
@@ -1013,7 +1013,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 1280
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_5
 		
@@ -1027,7 +1027,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 1370
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_6
 		
@@ -1041,7 +1041,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 1460
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_ger_crafter_7
 		
@@ -1055,7 +1055,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		land_morale = 0.03
 	}
@@ -1067,7 +1067,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		land_morale = 0.03
 	}
@@ -1079,7 +1079,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 365
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		land_morale = 0.03
 	}
@@ -1091,7 +1091,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		land_morale = 0.03
 	}
@@ -1103,7 +1103,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		land_morale = 0.04
 	}
@@ -1115,7 +1115,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		land_morale = 0.04
 	}
@@ -1127,7 +1127,7 @@ nomad = {
 		gold_cost = 210
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		land_morale = 0.04
 	}
@@ -1139,7 +1139,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		land_morale = 0.04
 	}
@@ -1151,7 +1151,7 @@ nomad = {
 		gold_cost = 50
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		population_growth = 0.03
 		liege_piety = 0.3
@@ -1164,7 +1164,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 455
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		population_growth = 0.03
 		liege_piety = 0.3
@@ -1177,7 +1177,7 @@ nomad = {
 		gold_cost = 110
 		build_time = 545
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		population_growth = 0.03
 		liege_piety = 0.4
@@ -1190,7 +1190,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 635
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		population_growth = 0.03
 		liege_piety = 0.4
@@ -1203,7 +1203,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 730
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		population_growth = 0.03
 		liege_piety = 0.4
@@ -1216,7 +1216,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 850
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		population_growth = 0.03
 		liege_piety = 0.4
@@ -1229,7 +1229,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 970
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		population_growth = 0.03
 		liege_piety = 0.5
@@ -1242,7 +1242,7 @@ nomad = {
 		gold_cost = 400
 		build_time = 1050
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		population_growth = 0.03
 		liege_piety = 0.5
@@ -1255,7 +1255,7 @@ nomad = {
 		gold_cost = 20
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 
 		horse_archers_offensive = 0.04
 	}
@@ -1267,7 +1267,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 90
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 
 		horse_archers_offensive = 0.04
 	}
@@ -1279,7 +1279,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 85
-		extra_tech_building_start = 3
+		# extra_tech_building_start = 3
 
 		horse_archers_offensive = 0.04
 	}
@@ -1291,7 +1291,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		horse_archers_offensive = 0.05
 	}
@@ -1303,7 +1303,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		horse_archers_offensive = 0.05
 	}
@@ -1315,7 +1315,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		horse_archers_offensive = 0.05
 	}
@@ -1327,7 +1327,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		horse_archers_offensive = 0.06
 	}
@@ -1339,7 +1339,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 80
-		extra_tech_building_start = 4
+		# extra_tech_building_start = 4
 
 		horse_archers_offensive = 0.06
 	}
@@ -1351,7 +1351,7 @@ nomad = {
 		gold_cost = 50
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		economy_techpoints = 0.04
 		tech_growth_modifier = 0.05
@@ -1364,7 +1364,7 @@ nomad = {
 		gold_cost = 70
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_1
 		
@@ -1378,7 +1378,7 @@ nomad = {
 		gold_cost = 100
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_2
 		
@@ -1393,7 +1393,7 @@ nomad = {
 		gold_cost = 130
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_3
 		
@@ -1407,7 +1407,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_4
 		
@@ -1422,7 +1422,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_5
 		
@@ -1436,7 +1436,7 @@ nomad = {
 		gold_cost = 240
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_6
 		
@@ -1451,7 +1451,7 @@ nomad = {
 		gold_cost = 280
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_yam_7
 		
@@ -1471,7 +1471,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 1460
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		military_techpoints = 0.03
 		land_morale = 0.02
@@ -1488,7 +1488,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 1640
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_1
 		
@@ -1508,7 +1508,7 @@ nomad = {
 		gold_cost = 160
 		build_time = 1820
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_2
 		
@@ -1527,7 +1527,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 2000
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_3
 		
@@ -1547,7 +1547,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 2200
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_4
 		
@@ -1566,7 +1566,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 2400
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_5
 		
@@ -1586,7 +1586,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 2600
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_6
 		
@@ -1605,7 +1605,7 @@ nomad = {
 		gold_cost = 400
 		build_time = 2800
 		ai_creation_factor = 97
-		extra_tech_building_start = 10
+		# extra_tech_building_start = 10
 		
 		upgrades_from = no_baghatur_council_7
 		
@@ -1628,7 +1628,7 @@ nomad = {
 		build_time = 600
 		galleys = 7
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		nomad_tax_modifier = 0.02
 	}
@@ -1646,7 +1646,7 @@ nomad = {
 		build_time = 700
 		galleys = 8
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_1
 		
@@ -1668,7 +1668,7 @@ nomad = {
 		build_time = 800
 		galleys = 9
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_2
 		
@@ -1688,7 +1688,7 @@ nomad = {
 		build_time = 900
 		galleys = 10
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_3
 		
@@ -1710,7 +1710,7 @@ nomad = {
 		build_time = 1000
 		galleys = 11
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_4
 		
@@ -1730,7 +1730,7 @@ nomad = {
 		build_time = 1100
 		galleys = 12
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_5
 		
@@ -1752,7 +1752,7 @@ nomad = {
 		build_time = 1200
 		galleys = 13
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_6
 		
@@ -1772,7 +1772,7 @@ nomad = {
 		build_time = 1300
 		galleys = 14
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_harbor_7
 		
@@ -1806,7 +1806,7 @@ nomad = {
 		gold_cost = 20
 		build_time = 180
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		population_growth = 0.01
 	}
@@ -1835,7 +1835,7 @@ nomad = {
 		gold_cost = 35
 		build_time = 240
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_1
 		
@@ -1866,7 +1866,7 @@ nomad = {
 		gold_cost = 50
 		build_time = 360
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_2
 		
@@ -1897,7 +1897,7 @@ nomad = {
 		gold_cost = 70
 		build_time = 480
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_3
 		
@@ -1927,7 +1927,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 540
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_4
 		
@@ -1957,7 +1957,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 600
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_5
 		
@@ -1987,7 +1987,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 660
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_6
 		
@@ -2017,7 +2017,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 720
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_fishing_village_7
 		
@@ -2031,7 +2031,7 @@ nomad = {
 		gold_cost = 70
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		archers_offensive = 0.1
 		horse_archers_offensive = 0.1
@@ -2043,7 +2043,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_1
 		
@@ -2057,7 +2057,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_2
 		
@@ -2071,7 +2071,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_3
 		
@@ -2085,7 +2085,7 @@ nomad = {
 		gold_cost = 180
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_4
 		
@@ -2099,7 +2099,7 @@ nomad = {
 		gold_cost = 220
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_5
 		
@@ -2113,7 +2113,7 @@ nomad = {
 		gold_cost = 260
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_6
 		
@@ -2127,7 +2127,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_composite_bow_crafter_7
 		
@@ -2142,7 +2142,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		light_infantry_defensive = 0.05
 		heavy_infantry_defensive = 0.05
@@ -2161,7 +2161,7 @@ nomad = {
 		gold_cost = 110
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_1
 		
@@ -2182,7 +2182,7 @@ nomad = {
 		gold_cost = 140
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_2
 		
@@ -2203,7 +2203,7 @@ nomad = {
 		gold_cost = 170
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_3
 		
@@ -2224,7 +2224,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_4
 		
@@ -2245,7 +2245,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_5
 		
@@ -2266,7 +2266,7 @@ nomad = {
 		gold_cost = 320
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_6
 		
@@ -2287,7 +2287,7 @@ nomad = {
 		gold_cost = 400
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_lamellar_armor_crafter_7
 		
@@ -2309,7 +2309,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		culture_techpoints = 0.04
 	}
@@ -2320,7 +2320,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minority_shrine_1
 		
@@ -2333,7 +2333,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minority_shrine_2
 		
@@ -2346,7 +2346,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minority_shrine_3
 		
@@ -2359,7 +2359,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minority_shrine_4
 		
@@ -2372,7 +2372,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minority_shrine_5
 		
@@ -2385,7 +2385,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_minority_shrine_6
 		
@@ -2398,7 +2398,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_minority_shrine_7
 		
@@ -2412,7 +2412,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 485
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		clan_sentiment = 2
 	}
@@ -2423,7 +2423,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 605
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_1
 		
@@ -2436,7 +2436,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_2
 		
@@ -2449,7 +2449,7 @@ nomad = {
 		gold_cost = 110
 		build_time = 803
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_3
 		
@@ -2462,7 +2462,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 876
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_4
 		
@@ -2475,7 +2475,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 949
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_5
 		
@@ -2488,7 +2488,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 1022
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_gathering_hall_6
 		
@@ -2501,7 +2501,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_gathering_hall_7
 		
@@ -2521,7 +2521,7 @@ nomad = {
 		gold_cost = 80
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		global_trade_route_wealth = 2
 		global_trade_route_value = 0.5
@@ -2540,7 +2540,7 @@ nomad = {
 		gold_cost = 110
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_1
 		
@@ -2561,7 +2561,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_2
 		
@@ -2582,7 +2582,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_3
 		
@@ -2603,7 +2603,7 @@ nomad = {
 		gold_cost = 250
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_4
 		
@@ -2624,7 +2624,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_5
 		
@@ -2645,7 +2645,7 @@ nomad = {
 		gold_cost = 500
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_6
 		
@@ -2666,7 +2666,7 @@ nomad = {
 		gold_cost = 650
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_minter_7
 		
@@ -2682,7 +2682,7 @@ nomad = {
 		gold_cost = 40
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		fort_level = 0.3
 		garrison_size = 0.6
@@ -2694,7 +2694,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camp_fortifications_1
 		
@@ -2710,7 +2710,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 475
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camp_fortifications_2
 		
@@ -2724,7 +2724,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 475
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_camp_fortifications_3
 		
@@ -2740,7 +2740,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_camp_fortifications_4
 		
@@ -2754,7 +2754,7 @@ nomad = {
 		gold_cost = 200
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_camp_fortifications_5
 		
@@ -2770,7 +2770,7 @@ nomad = {
 		gold_cost = 300
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_camp_fortifications_6
 		
@@ -2784,7 +2784,7 @@ nomad = {
 		gold_cost = 400
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 2
+		# extra_tech_building_start = 2
 		
 		upgrades_from = no_camp_fortifications_7
 		
@@ -2807,7 +2807,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		camel_cavalry_defensive = 0.1
 	}
@@ -2824,7 +2824,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 485
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_1
 		
@@ -2843,7 +2843,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 605
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_2
 		
@@ -2862,7 +2862,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_3
 		
@@ -2881,7 +2881,7 @@ nomad = {
 		gold_cost = 190
 		build_time = 803
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_4
 		
@@ -2900,7 +2900,7 @@ nomad = {
 		gold_cost = 230
 		build_time = 876
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_5
 		
@@ -2920,7 +2920,7 @@ nomad = {
 		gold_cost = 280
 		build_time = 949
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_6
 		
@@ -2940,7 +2940,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_camel_breeder_7
 		
@@ -2959,7 +2959,7 @@ nomad = {
 		gold_cost = 60
 		build_time = 365
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		war_elephants_defensive = 0.1
 	}
@@ -2974,7 +2974,7 @@ nomad = {
 		gold_cost = 90
 		build_time = 485
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_1
 		
@@ -2991,7 +2991,7 @@ nomad = {
 		gold_cost = 120
 		build_time = 605
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_2
 		
@@ -3008,7 +3008,7 @@ nomad = {
 		gold_cost = 150
 		build_time = 730
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_3
 		
@@ -3025,7 +3025,7 @@ nomad = {
 		gold_cost = 190
 		build_time = 803
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_4
 		
@@ -3042,7 +3042,7 @@ nomad = {
 		gold_cost = 230
 		build_time = 876
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_5
 		
@@ -3060,7 +3060,7 @@ nomad = {
 		gold_cost = 280
 		build_time = 949
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_6
 		
@@ -3078,7 +3078,7 @@ nomad = {
 		gold_cost = 350
 		build_time = 1095
 		ai_creation_factor = 97
-		extra_tech_building_start = 1
+		# extra_tech_building_start = 1
 		
 		upgrades_from = no_elephant_camp_7
 		

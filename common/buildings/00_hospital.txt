@@ -21,7 +21,7 @@ hospital = {
 		hospital_level = 1
 		disease_defence = 0.05
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	hospital_building_2 = {
@@ -38,7 +38,7 @@ hospital = {
 		hospital_level = 1
 		disease_defence = 0.1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	hospital_building_3 = {
@@ -55,7 +55,7 @@ hospital = {
 		hospital_level = 1
 		disease_defence = 0.15
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	hospital_building_4 = {
@@ -72,7 +72,7 @@ hospital = {
 		hospital_level = 1
 		disease_defence = 0.2
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	hospital_building_5 = {
@@ -89,7 +89,7 @@ hospital = {
 		hospital_level = 1
 		disease_defence = 0.25
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	leper_colony_1 = {
@@ -106,7 +106,7 @@ hospital = {
 		
 		disease_defence = 0.1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	soup_kitchen_1 = {
@@ -125,7 +125,7 @@ hospital = {
 		liege_piety = 0.10
 		church_opinion = 2
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	chapel_1 = {
@@ -144,7 +144,7 @@ hospital = {
 		liege_piety = 0.1
 		church_opinion = 2
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	translation_house_1 = {
@@ -162,7 +162,7 @@ hospital = {
 		liege_prestige = 0.25
 		economy_techpoints = 0.04
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	pilgrims_inn_1 = {
@@ -180,7 +180,7 @@ hospital = {
 		liege_prestige = 0.25
 		liege_piety = 0.10
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	library_1 = {
@@ -198,7 +198,7 @@ hospital = {
 		tech_growth_modifier = 0.25
 		culture_techpoints = 0.03
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	pharmacology_laboratory_1 = {
@@ -216,7 +216,7 @@ hospital = {
 		tech_growth_modifier = 0.25
 		disease_defence = 0.02
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	medical_academy_1 = {
@@ -239,7 +239,7 @@ hospital = {
 		economy_techpoints = 0.03
 		military_techpoints = 0.03
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	observatory_1 = {
@@ -260,6 +260,6 @@ hospital = {
 		culture_techpoints = 0.03
 		military_techpoints = 0.03
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 }

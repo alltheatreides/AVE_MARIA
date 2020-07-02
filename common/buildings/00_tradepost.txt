@@ -18,7 +18,7 @@ trade_post = {
 		
 		tradevalue = 10
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_port_2 = {
@@ -37,7 +37,7 @@ trade_post = {
 		
 		tradevalue = 15
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_port_3 = {
@@ -56,7 +56,7 @@ trade_post = {
 		
 		tradevalue = 20
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_enclave_1 = {
@@ -74,7 +74,7 @@ trade_post = {
 		
 		tax_income = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_enclave_2 = {
@@ -93,7 +93,7 @@ trade_post = {
 		
 		tax_income = 1.5
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_enclave_3 = {
@@ -113,7 +113,7 @@ trade_post = {
 		scouting = yes
 		tax_income = 2
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_garrison_1 = {
@@ -133,7 +133,7 @@ trade_post = {
 		garrison_size = 1.0
 		fort_level = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_garrison_2 = {
@@ -154,7 +154,7 @@ trade_post = {
 		garrison_size = 1.5
 		fort_level = 2
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_garrison_3 = {
@@ -175,7 +175,7 @@ trade_post = {
 		garrison_size = 2.0
 		fort_level = 3
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_silk_road_1 = {	# Silk Road Trading Post
@@ -195,7 +195,7 @@ trade_post = {
 		trade_route_wealth = 1	# Affects total value of trade route
 		tradevalue = 30
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_silk_road_2 = {	# Silk Road Market
@@ -217,7 +217,7 @@ trade_post = {
 		tradevalue = 50
 		fort_level = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	tr_silk_road_3 = {	# Major Silk Road City
@@ -239,7 +239,7 @@ trade_post = {
 		tradevalue = 70
 		fort_level = 1
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	trade_offices_1 = {
@@ -260,7 +260,7 @@ trade_post = {
 		monthly_character_prestige = 0.25
 		retinuesize = 50
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	trade_offices_2 = {
@@ -281,7 +281,7 @@ trade_post = {
 		monthly_character_prestige = 0.5
 		retinuesize = 100
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	trade_offices_3 = {
@@ -302,7 +302,7 @@ trade_post = {
 		monthly_character_prestige = 1.75
 		retinuesize = 150
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	mercenary_garrison_1 = {
@@ -322,7 +322,7 @@ trade_post = {
 		garrison_size = 3
 		tradevalue = 5
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	mercenary_garrison_2 = {
@@ -344,7 +344,7 @@ trade_post = {
 		fort_level = 1
 		tradevalue = 10
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	mercenary_garrison_3 = {
@@ -366,7 +366,7 @@ trade_post = {
 		fort_level = 1
 		tradevalue = 15
 		
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	radhanite_quarter_1 = {
@@ -396,7 +396,7 @@ trade_post = {
 		trade_route_wealth = 0.5
 		add_number_to_name = no
 
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	radhanite_quarter_2 = {
@@ -428,7 +428,7 @@ trade_post = {
 		trade_route_wealth = 1
 		add_number_to_name = no
 
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
 	radhanite_quarter_3 = {
@@ -460,6 +460,6 @@ trade_post = {
 		trade_route_wealth = 2
 		add_number_to_name = no
 
-		extra_tech_building_start = 10.0 # Never get at start of game
+		# extra_tech_building_start = 10.0 # Never get at start of game
 	}
 }

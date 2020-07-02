@@ -1,0 +1,26 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# On Actions OPUS RURALIUM COMMODORUM												   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_startup = {
+
+	events = {
+		AVE_MARIA_opus_ruralium_commodorum_starting_pop.1
+		AVE_MARIA_opus_ruralium_commodorum_starting_building.1
+	}
+}
+
+
+on_yearly_pulse = {
+	events = {
+		# AVE_MARIA_ADMC_maintenance.1
+	}
+}
+

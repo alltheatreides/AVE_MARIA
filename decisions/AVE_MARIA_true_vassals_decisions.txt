@@ -425,4 +425,53 @@ targetted_decisions = {
 			}
 		}
 	}
+	
+	decision_true_vassal_form_alliance = {
+		only_independent = yes
+
+		from_potential = {
+			independent = yes
+			is_landed = yes
+			higher_tier_than = FROM
+			NOR = {
+				is_nomadic = yes
+				primary_title = { 
+					OR = { 
+						title = e_byzantium
+						title = e_roman_empire
+					}
+					has_law = succ_byzantine_elective
+				}
+			}
+		}
+
+		potential = {			
+			independent = yes
+			NOT = {
+				tier = baron
+			}
+		}
+
+		allow = {
+			ROOT = {
+				opinion = { who = FROM value = 25 }
+			}
+			NOT = { is_inaccessible_trigger = yes }
+		}
+
+		effect = {
+			FROM = {
+				add_alliance = {
+					who = ROOT
+					days = 9999
+				}
+			}
+			ROOT = {
+				add_alliance = {
+					who = FROM
+					days = 9999
+				}
+			}
+		}
+	}
 }
