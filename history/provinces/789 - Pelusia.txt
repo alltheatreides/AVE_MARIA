@@ -6,7 +6,7 @@
 title = c_pelusia
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_ushmuntan = castle
 b_tinis = city
 
@@ -23,6 +23,7 @@ b_tinis = city
 # Misc
 culture = egyptian_arabic
 religion = sunni
+terrain = orc_marsh
 
 # History
 896.1.1 = { b_abbasa = castle }

@@ -128,3 +128,12 @@ spriteTypes = {
 
 
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_settlement_castle_iberiangfx"
+		texturefile = "gfx\\interface\\placeholder_temple_western_muslim.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+}

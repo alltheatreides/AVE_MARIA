@@ -20,11 +20,11 @@ religion = zoroastrian
 
 # History
 651.1.1 = {
-	b_lahidjan = ca_town_1
-	b_lahidjan = ca_wall_1
-	b_lahidjan= ca_wall_q_1
-	b_lahidjan = ca_keep_1
-	b_lahidjan = ca_militia_barracks_1
+	b_lahidjan = c_urban_center
+	b_lahidjan = c_manor_wooden_walls
+	b_lahidjan= c_manor_wooden_walls
+	b_lahidjan = c_local_noble_1
+	b_lahidjan = c_light_infantry_1
 	b_rasht_gilan = ct_marketplace_1
 	b_hawsam = tp_town_1
 }

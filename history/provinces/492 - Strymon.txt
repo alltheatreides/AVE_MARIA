@@ -6,7 +6,7 @@
 title = c_strymon
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_serres = castle
 b_kavala = city
@@ -19,6 +19,7 @@ b_philippi = city
 # Misc
 culture = greek
 religion = orthodox
+terrain = orc_shrub_hill
 
 # History
 

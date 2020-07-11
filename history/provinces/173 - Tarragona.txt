@@ -6,7 +6,7 @@
 title = c_tarragona
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_spantortosa = castle
 b_tarragona = temple
 b_reus = city
@@ -22,9 +22,7 @@ religion = sunni
 
 # History
 
-867.1.1 = { 
-	b_spantortosa = ca_keep_1
-	b_spantortosa = ca_wall_1
+867.1.1 = {
 }
 1081.1.1 = { trade_post = b_fieschi }
 1131.1.1 = { culture = catalan }

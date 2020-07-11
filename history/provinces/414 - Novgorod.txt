@@ -26,6 +26,7 @@ b_peryn = temple
 # Misc
 culture = russian
 religion = slavic_pagan
+terrain = orc_woods_flat
 
 # History
 867.1.1 = {
@@ -34,15 +35,7 @@ religion = slavic_pagan
 988.1.1 = {religion = orthodox }
 988.1.1 = {
 b_novgorodkremlin = castle
-b_novgorodkremlin = ca_shipyard_1
 b_sanktsophia = temple }
 1136.1.1 = { b_solcyn = city } #Novgorod republic founded
 1136.1.1 = { capital = b_novgorod }
 1150.1.1 = { b_yurievmonestary = temple }
-
-
-
-
-
-
-

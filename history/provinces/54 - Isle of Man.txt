@@ -6,7 +6,7 @@
 title = c_isle_of_man
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_rushen = tribal
 #b_peel = temple
 #b_douglas = city
@@ -16,18 +16,15 @@ b_rushen = tribal
 # Misc
 culture = norsegaelic
 religion = norse_pagan
-terrain = hills
+terrain = orc_small_island
 
 # History
 867.1.1 = {
 	b_rushen = tb_shipyard_1
 }
-1015.1.1 = { 
+1015.1.1 = {
 	religion = catholic
 }
 1266.1.1 = {
 	b_rushen = castle
-	b_rushen = ca_shipyard_1
 }
-
-

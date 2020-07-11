@@ -6,7 +6,7 @@
 title = c_gatinas
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_courtenay = castle
 b_montargis = temple
@@ -16,6 +16,7 @@ b_nemours = city
 
 culture = frankish
 religion = catholic
+terrain = orc_woods_flat
 
 # History
 

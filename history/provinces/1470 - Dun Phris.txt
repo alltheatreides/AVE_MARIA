@@ -6,7 +6,7 @@
 title = c_dunphris
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_annan = tribal
 #b_lochmaben = castle
@@ -16,6 +16,7 @@ b_annan = tribal
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_forest_mountains
 
 # History
 400.1.1 = { culture = cumbric } 

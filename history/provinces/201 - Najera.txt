@@ -1,12 +1,12 @@
 # -*- ck2.history.provinces -*-
 
-# 201 - Nájera
+# 201 - Nï¿½jera
 
 # County Title
 title = c_najera
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_najera = castle
 b_haro = city
 b_santodomingodelacalzada = temple
@@ -19,11 +19,5 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_najera = ca_town_1
-	b_najera = ca_keep_1
-	b_najera = ca_stable_1
-	b_najera = ca_militia_barracks_1
-	b_najera = ca_wall_1
-	b_najera = ca_wall_2
+867.1.1 = {
 }

@@ -6,7 +6,7 @@
 title = c_atheniai
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_akropolis_athen = castle
 b_athens = temple
@@ -20,6 +20,7 @@ b_oropos = city
 # Misc
 culture = greek
 religion = orthodox
+terrain = orc_grass_flat
 
 # History
 

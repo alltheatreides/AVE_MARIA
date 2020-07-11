@@ -6,7 +6,7 @@
 title = c_lemdiyya  # Achir
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_achir = tribal
 b_lemdiyya = city
@@ -23,6 +23,7 @@ b_lemdiyya = city
 # Misc
 culture = zanata
 religion = ibadi
+terrain = orc_shrub_highlands
 
 # History
 940.1.1 = { b_achir = castle } #Ziri b. Manad constructs citadel of Ashir

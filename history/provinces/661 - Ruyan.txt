@@ -18,10 +18,10 @@ religion = zoroastrian
 
 # History
 651.1.1 = {
-	b_kalar = ca_town_1
-	b_kalar = ca_wall_1
-	b_kalar = ca_keep_1
-	b_kalar = ca_militia_barracks_1
+	b_kalar = c_urban_center
+	b_kalar = c_manor_wooden_walls
+	b_kalar = c_local_noble_1
+	b_kalar = c_light_infantry_1
 	b_chalus_ruyan = tp_wall_1
 	b_chalus_ruyan = tp_town_1
 }

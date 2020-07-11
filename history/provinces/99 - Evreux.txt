@@ -23,25 +23,11 @@ b_honfleur = city
 # Misc
 culture = frankish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 911.1.1 = { # Viking takeover
-	b_evreux = ca_keep_1
-	b_evreux = ca_wall_1
-	b_evreux = ca_wall_2
-	b_evreux = ca_training_grounds_1
-	b_evreux = ca_barracks_1
-	b_evreux = ca_town_1
-    b_ivry = ca_keep_1
-	b_ivry = ca_wall_1
-	b_ivry = ca_wall_2
-	b_ivry = ca_training_grounds_1
-	b_ivry = ca_stable_1
-	b_ivry = ca_barracks_1
-	b_ivry = ca_town_1
-	b_honfleur = ct_port_1
-	b_honfleur = ct_port_2
-	b_honfleur = ct_port_3
+
 }
 960.1.1 = { culture = norman }
 1100.11.11 = { culture = frankish }

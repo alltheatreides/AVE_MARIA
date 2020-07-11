@@ -19,18 +19,11 @@ b_demnat = city #first acknowledged by Leo Africanus, though the settlement very
 # Misc
 culture = masmuda
 religion = sunni
+terrain = orc_shrub_hill
 
 # History
 
-867.1.1 = { 
-	b_aghmat = ca_keep_1
-	b_aghmat = ca_training_grounds_1
-	b_aghmat = ca_keep_2
-	b_aghmat = ca_stable_1
-	b_aghmat = ca_barracks_1
-	b_aghmat = ca_militia_barracks_1
-	b_aghmat = ca_wall_1
-	b_aghmat = ca_wall_2
+867.1.1 = {
 }
 1071.1.1 = {
 	b_marrakech = castle

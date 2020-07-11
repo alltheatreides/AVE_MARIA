@@ -26,6 +26,7 @@ b_saintlo = city
 # Misc
 culture = frankish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 911.1.1 = { # Viking takeover
@@ -34,12 +35,6 @@ religion = catholic
         b_cherbourg = castle
         b_coutances = temple
         b_saintlo = city
-
-	b_cherbourg = ca_keep_1
-	b_cherbourg = ca_training_grounds_1
-	b_cherbourg = ca_wall_1
-	b_cherbourg = ca_barracks_1
-	b_cherbourg = ca_town_1
 }
 960.1.1 = {
 	culture = norman

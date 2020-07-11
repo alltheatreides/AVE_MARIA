@@ -8,10 +8,10 @@ title = c_ile_de_france
 # Settlements
 max_settlements = 7
 b_melun = castle
-b_paris = castle
+b_paris = city
 b_stdenis = temple
 b_rambouillet = castle
-b_compiegne = castle
+b_compiegne = city
 b_chevreuse = castle
 #b_maurepas = castle
 #b_beynes = castle
@@ -24,34 +24,19 @@ religion = catholic
 
 # History
 1066.1.1 = {
-	b_melun = c_manor
-	b_melun = c_stone_manor
-	b_melun = c_fortified_manor
-	b_melun = c_manor_motte
-	b_melun = c_magnificent_manor
-	b_melun = c_large_urban_center
-	b_melun = c_stone_castle
-	b_melun = c_windmill
-	b_melun = c_stone_bridges
-	b_melun = c_priory_church
-	b_melun = c_local_noble_1
-	b_melun = c_monastery
-	b_melun = c_almhouse
-	b_melun = rich_agricultural_land
 }
 1123.1.1  = { b_etampes = castle }
 #1153.1.1  = { b_compiegne = city }
-1163.1.1 = { 
+1163.1.1 = {
 	build_wonder = wonder_cathedral_notre_dame
 	set_wonder_stage = 1
 }
 1190.1.1 = { set_wonder_stage = 2 }
-1250.1.1 = { 
-	set_wonder_stage = 3 
+1250.1.1 = {
+	set_wonder_stage = 3
 	build_wonder_upgrade = upgrade_stained_glass_window
 	build_wonder_upgrade = upgrade_gargoyles
 }
 1345.1.1 = { # Outside of game era
 	set_wonder_stage = 4
 }
-

@@ -6,7 +6,7 @@
 title = c_tethbae
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_athlone = tribal
 #b_longford = tribal
@@ -17,5 +17,6 @@ b_durrow = temple
 # Misc
 culture = irish
 religion = catholic
+terrain = orc_grass_flat
 
 # History

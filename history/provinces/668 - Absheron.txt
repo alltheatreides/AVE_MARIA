@@ -6,7 +6,7 @@
 title = c_absheron
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_baku = castle
 b_lankaran = city
 b_absheron = temple
@@ -21,7 +21,7 @@ religion = zoroastrian
 
 # History
 651.1.1 = {
-	b_baku = ca_town_1
+	b_baku = c_urban_center
 	b_lankaran = ct_marketplace_1
 	b_absheron = tp_town_1
 }

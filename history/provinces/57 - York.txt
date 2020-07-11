@@ -27,15 +27,16 @@ b_selby = city
 
 culture = saxon
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 #867.1.1 = {
-#	b_conisbrough = ca_shipyard_1
+#	b_conisbrough = c_commercial_port
 #}
 876.1.1 = { culture = norse } # Danes settle down
 876.1.1 = { religion = norse_pagan } # Danes settle down
 931.1.1 = { religion = catholic } # Wulfstan becomes Archbishop of York
-931.1.1 = { culture = anglonorse } 
+931.1.1 = { culture = anglonorse }
 1066.10.14 = { b_pontefract = castle } # Should really be around 1070 following the harrying, but moved inorder to acommidate the second bookmark.
 1100.1.1 = { b_tickhillcastle = castle }
-1100.11.11 = { culture = english } 
+1100.11.11 = { culture = english }

@@ -6,7 +6,7 @@
 title = c_buchan
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_banff = tribal
 b_mortlach = temple
 #b_gamrie = city
@@ -16,6 +16,7 @@ b_mortlach = temple
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 1146.1.1 = { b_banff = castle } 

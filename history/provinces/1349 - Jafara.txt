@@ -6,7 +6,7 @@
 title = c_jafara
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_manu = tribal
 #b_zuwara = city
@@ -16,6 +16,7 @@ b_manu = tribal
 # Misc
 culture = zanata
 religion = ibadi
+terrain = orc_shrub_flat
 
 # History
 950.1.1 = { b_manu = castle }

@@ -6,7 +6,7 @@
 title = c_lemos
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_monforte_de_lemos = castle
 b_ourense = city
 b_ribadavia = temple
@@ -19,7 +19,5 @@ culture = galician
 religion = catholic
 
 # History
-867.1.1 = { 
-	b_monforte_de_lemos = ca_keep_1
-	b_monforte_de_lemos = ca_wall_1
+867.1.1 = {
 }

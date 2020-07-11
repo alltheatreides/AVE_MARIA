@@ -1,12 +1,12 @@
 # -*- ck2.history.provinces -*-
 
-# 289 - Västmanland
+# 289 - Vï¿½stmanland
 
 # County Title
 title = c_vastmanland
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_kopingshus = tribal
 
 #b_vasteras = city
@@ -29,7 +29,7 @@ religion = norse_pagan
 	b_kopingshus = castle
 	b_vasteras = city
 
-	b_kopingshus = ca_shipyard_1
+	b_kopingshus = c_commercial_port
 	b_vasteras = ct_port_1
 }
 1035.1.1 = { culture = swedish }

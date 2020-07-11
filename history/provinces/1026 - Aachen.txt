@@ -4,15 +4,15 @@
 title = c_aachen
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_pfalzaachen = castle
 b_aachen = city
-b_kornelimunster = temple 
+b_kornelimunster = temple
 
-#b_schonau_aachen = castle 
+#b_schonau_aachen = castle
 
-#b_eschweiler = city 
+#b_eschweiler = city
 #b_stahlburg = castle
 #b_montjoie = castle
 
@@ -21,13 +21,8 @@ culture = franconian
 religion = catholic
 
 # History
-867.1.1 = { 
-	b_aachen = ct_wall_1
-	b_aachen = ct_wall_2
-	b_aachen = ct_marketplace_1
-	b_aachen = ct_barracks_1
-	b_aachen = ct_training_grounds_1	
+867.1.1 = {
 }
 #1166.1.1 = { capital = b_aachen }
 1170.1.1 = { culture = german }
-1244.1.1= { b_schonau_aachen = castle } 
+1244.1.1= { b_schonau_aachen = castle }

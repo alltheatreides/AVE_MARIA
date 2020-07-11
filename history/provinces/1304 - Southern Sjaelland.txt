@@ -5,7 +5,7 @@
 title = c_southern_sjaelland
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_vordingborg = tribal
 #b_naestved = temple
@@ -16,22 +16,16 @@ b_vordingborg = tribal
 # Misc
 culture = norse
 religion = norse_pagan
-terrain = farmlands
+terrain = orc_grass_flat
 
-# History 
+# History
 1005.1.1 = { religion = catholic }
-1020.1.1 = { 
+1020.1.1 = {
 b_vordingborg = castle
 b_naestved = temple
 b_jungshoved = castle }
-1035.1.1 = { culture = danish } 
-1066.1.1 = { 
-	b_vordingborg = ca_keep_1
-	b_vordingborg = ca_stable_1
-	b_vordingborg = ca_militia_barracks_1
-        b_vordingborg = ca_militia_barracks_2
-	b_vordingborg = ca_wall_1
-	b_vordingborg = ca_wall_2
+1035.1.1 = { culture = danish }
+1066.1.1 = {
 }
 #1135.1.1 = { b_naestved = temple }
 1200.1.1 = { b_heddinge = city }

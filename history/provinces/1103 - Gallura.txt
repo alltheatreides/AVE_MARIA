@@ -6,7 +6,7 @@
 title = c_gallura
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_olbia_civita =castle
 b_galtelli = temple
@@ -16,7 +16,7 @@ b_galtelli = temple
 # Misc
 culture = sardinian
 religion = catholic
-terrain = hills
+terrain = orc_shrub_mountains
 
 # History
 1180.1.1 = { b_posada = castle }

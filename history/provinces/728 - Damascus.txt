@@ -23,26 +23,9 @@ b_aldumay = castle
 # Misc
 culture = levantine_arabic
 religion = sunni
+terrain = orc_shrub_hill
 
 # History
 
-867.1.1 = { 
-	b_citadelofdamascus = ca_keep_1
-	b_citadelofdamascus = ca_training_grounds_1
-	b_citadelofdamascus = ca_stable_1
-	b_citadelofdamascus = ca_wall_1
-	b_citadelofdamascus = ca_wall_2
-	b_citadelofdamascus = ca_militia_barracks_1
-	b_damascus = ct_wall_1
-	b_damascus = ct_barracks_1
-	b_marsarkismoenstary = tp_monastery_1
-	b_marsarkismoenstary = tp_monastery_2
-	b_marsarkismoenstary = tp_wall_1
-	b_marsarkismoenstary = tp_barracks_1
-	b_aldumay = ca_keep_1
-	b_aldumay = ca_training_grounds_1
-	b_aldumay = ca_stable_1
-	b_aldumay = ca_wall_1
-	b_aldumay = ca_wall_2
-	b_aldumay = ca_militia_barracks_1
+867.1.1 = {
 }

@@ -6,7 +6,7 @@
 title = c_el_rif
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_taza = castle
 #b_sa = castle
@@ -19,6 +19,7 @@ b_debdou = city
 # Misc
 culture = zanata
 religion = sunni
+terrain = orc_shrub_highlands
 
 # History
 #1084.1.1 = { remove_settlement = b_guercif }

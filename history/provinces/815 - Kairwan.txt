@@ -20,14 +20,11 @@ b_subaytila = city
 # Misc
 culture = maghreb_arabic
 religion = sunni
+terrain = orc_shrub_hill
 
 # History
 
 867.1.1 = {
-	b_kairouan = tp_monastery_1
-	b_kairouan = tp_monastery_2
-	b_kairouan = tp_wall_1
-	b_kairouan = tp_barracks_1
 }
 876.1.1 = {
 	b_rakkada = castle

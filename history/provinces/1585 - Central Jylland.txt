@@ -19,14 +19,15 @@ b_jelling = tribal
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_grass_flat
 
 # History
 867.1.1 = { b_jelling = tb_shipyard_1 }
-1020.1.1 = { religion = catholic 
+1020.1.1 = { religion = catholic
 b_jelling = castle
 b_kolding = city
-b_kolding = ct_port_1}
-1035.1.1 = { culture = danish } 
+}
+1035.1.1 = { culture = danish }
 1047.10.25 = {
         b_vejle = castle
         capital = b_vejle
@@ -35,7 +36,6 @@ b_kolding = ct_port_1}
 1066.1.1 = {
         b_varde = castle
         capital = b_varde
-        b_vejle = city 
+        b_vejle = city
 }
-#1300.1.1 = { b_skodborg = castle } 
-
+#1300.1.1 = { b_skodborg = castle }

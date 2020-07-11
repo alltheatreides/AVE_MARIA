@@ -1,6 +1,6 @@
 # -*- ck2.history.provinces -*-
 
-# 303 - Skåne # Western Skane
+# 303 - Skï¿½ne # Western Skane
 
 # County Title
 title = c_skane
@@ -21,37 +21,21 @@ b_lund = temple
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_grass_hill
 
 # History
 
 867.1.1 = {
 	b_borgeby = tb_shipyard_1
-        b_lomma = ct_port_1
-	b_lund = tp_wall_1
 }
-1000.1.1 = { 
+1000.1.1 = {
 b_borgeby = castle
-b_trelleborg = castle	
-        b_borgeby = ca_keep_1
-	b_borgeby = ca_militia_barracks_1
-	b_borgeby = ca_wall_1
-	b_lund = tp_monastery_1
-	b_lund = tp_wall_2
-} 
-1005.1.1 = { religion = catholic } 
-1035.1.1 = { culture = danish } 
-1066.1.1 = { 
-        #b_lomma = city
-        b_lomma = ct_marketplace_1
-        b_lomma = ct_wall_1
-	b_lomma = ct_port_1
-	b_lomma = ct_barracks_1 
-        b_skaneor = city
-        b_skaneor = ct_marketplace_1
-        b_skaneor = ct_marketplace_2
-        b_skaneor = ct_wall_1
-	b_skaneor = ct_port_1   
-	b_skaneor = ct_port_2   
+b_trelleborg = castle
+}
+1005.1.1 = { religion = catholic }
+1035.1.1 = { culture = danish }
+1066.1.1 = {
+        b_lomma = city
 }
 
 1104.1.1= { capital = b_lund }

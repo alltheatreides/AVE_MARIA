@@ -6,7 +6,7 @@
 title = c_monemvasia
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_monemvasia = castle
 b_lacedaemonia = city
 b_elos = temple
@@ -18,7 +18,7 @@ b_elos = temple
 # Misc
 culture = greek
 religion = orthodox
-terrain = hills
+terrain = orc_shrub_flat
 
 # History
 1121.1.1 = { trade_post = b_morosini }

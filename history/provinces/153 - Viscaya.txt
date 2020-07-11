@@ -6,7 +6,7 @@
 title = c_viscaya
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_arteaga = castle
 b_sestao = temple
 b_guernica = city
@@ -19,9 +19,7 @@ culture = basque
 religion = catholic
 
 # History
-867.1.1 = { 
-	b_arteaga = ca_keep_1
-	b_arteaga = ca_wall_1
+867.1.1 = {
 }
 1245.1.1 = { trade_post = b_embriaco }
 1300.6.15 = { b_bilbao = castle }

@@ -257,7 +257,15 @@ castle = {
 		gold_cost = 50	
 		build_time = 50	
 			
-	}		
+	}	
+	c_commercial_port = {		
+		desc = c_commercial_port_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 3
+		galleys = 5
+	}	
 	
 	## URBAN BUILDINGS ##
 	c_urban_center = {		
@@ -438,6 +446,302 @@ castle = {
 		build_time = 1	
 		tax_income = -6
 		knights = 600
+	}
+	
+	c_heavy_infantry_1 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 1 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -1
+		heavy_infantry = 200
+	}
+	c_heavy_infantry_2 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 2 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -2
+		heavy_infantry = 400
+	}
+	c_heavy_infantry_3 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 3 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -3
+		heavy_infantry = 600
+	}
+	c_heavy_infantry_4 = {
+		desc = c_heavy_infantry
+		trigger = { always = no }	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -4
+		heavy_infantry = 800
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 4 }
+			}
+		}
+	}
+	c_heavy_infantry_5 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 5 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -5
+		heavy_infantry = 1000
+	}
+	c_heavy_infantry_6 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 6 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -6
+		heavy_infantry = 1200
+	}
+	
+	c_heavy_infantry_1 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 1 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -1
+		heavy_infantry = 200
+	}
+	c_heavy_infantry_2 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 2 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -2
+		heavy_infantry = 400
+	}
+	c_heavy_infantry_3 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 3 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -3
+		heavy_infantry = 600
+	}
+	c_heavy_infantry_4 = {
+		desc = c_heavy_infantry
+		trigger = { always = no }	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -4
+		heavy_infantry = 800
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 4 }
+			}
+		}
+	}
+	c_heavy_infantry_5 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 5 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -5
+		heavy_infantry = 1000
+	}
+	c_heavy_infantry_6 = {
+		desc = c_heavy_infantry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 6 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -6
+		heavy_infantry = 1200
+	}
+	
+	c_light_cavalry_1 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 1 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -1
+		light_cavalry = 200
+	}
+	c_light_cavalry_2 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 2 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -2
+		light_cavalry = 400
+	}
+	c_light_cavalry_3 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 3 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -3
+		light_cavalry = 600
+	}
+	c_light_cavalry_4 = {
+		desc = c_light_cavalry
+		trigger = { always = no }	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -4
+		light_cavalry = 800
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 4 }
+			}
+		}
+	}
+	c_light_cavalry_5 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 5 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -5
+		light_cavalry = 1000
+	}
+	c_light_cavalry_6 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 6 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -6
+		light_cavalry = 1200
+	}
+	
+	c_light_cavalry_1 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 1 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -1
+		light_cavalry = 200
+	}
+	c_light_cavalry_2 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 2 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -2
+		light_cavalry = 400
+	}
+	c_light_cavalry_3 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 3 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -3
+		light_cavalry = 600
+	}
+	c_light_cavalry_4 = {
+		desc = c_light_cavalry
+		trigger = { always = no }	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -4
+		light_cavalry = 800
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 4 }
+			}
+		}
+	}
+	c_light_cavalry_5 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 5 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -5
+		light_cavalry = 1000
+	}
+	c_light_cavalry_6 = {
+		desc = c_light_cavalry
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_lower_pop value >= 6 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -6
+		light_cavalry = 1200
 	}
 
 }
@@ -842,6 +1146,419 @@ temple = {
 		knights = 500
 	}
 	t_local_noble_6 = {
+		desc = c_local_noble
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 6 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -6
+		knights = 600
+	}
+
+}
+
+city = {
+	ct_rich_agricultural_land = {
+		desc = rich_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 50
+		build_time = 50
+		tax_income = 10
+	}
+	ct_average_agricultural_land = {
+		desc = average_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 50
+		build_time = 50
+		tax_income = 5
+	}
+	ct_marginal_agricultural_land = {
+		desc = marginal_agricultural_land_desc
+		trigger = { always = no }
+		gold_cost = 50
+		build_time = 50
+		tax_income = 3
+	}
+		
+	## Manorial Buildings ##
+	ct_manor = {
+		desc = c_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 150	
+		build_time = 180	
+		monthly_character_prestige = 0.05
+	}		
+	ct_stone_manor = {		
+		desc = c_stone_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 300	
+		build_time = 50	
+		prerequisites = { ct_manor }
+		upgrades_from = ct_manor	
+		monthly_character_prestige = 0.075
+	}		
+	ct_fortified_manor = {		
+		desc = c_fortified_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_stone_manor }
+		upgrades_from = ct_stone_manor		
+		monthly_character_prestige = 0.075
+	}		
+	ct_magnificenct_manor = {		
+		desc = c_magnificenct_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_fortified_manor }
+		monthly_character_prestige = 0.1
+	}
+	## Manorial Defensive Structures 
+	ct_manor_motte = {
+		desc = c_manor_motte_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { ct_manor }
+	}	
+	ct_manor_moat = {
+		desc = c_manor_moact_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { ct_manor }
+	}
+	ct_manor_water_moat = {
+		desc = c_manor_water_moact_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { ct_manor_moat }
+		upgrades_from = ct_manor_moat
+	}
+	ct_manor_wooden_gatehouse = {
+		desc = c_wooden_gatehouse_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_manor }
+	}	
+	ct_manor_stone_gatehouse = {
+		desc = c_stone_gatehouse_desc
+		gold_cost = 300
+		build_time = 730
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_wooden_gatehouse }
+		upgrades_from = ct_wooden_gatehouse
+	}
+	ct_manor_wooden_walls = {
+		desc = c_wooden_walls_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_manor }
+	}	
+	ct_manor_stone_walls = {
+		desc = c_stone_walls_desc
+		gold_cost = 300
+		build_time = 730
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_wooden_walls }
+		upgrades_from = ct_wooden_walls
+	}
+	ct_manor_wooden_tower = {
+		desc = c_wooden_tower_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_manor }
+		monthly_character_prestige = 0.025
+	}	
+	ct_manor_stone_tower = {
+		desc = c_stone_tower_desc
+		gold_cost = 300
+		build_time = 730
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_wooden_tower }
+		upgrades_from = ct_wooden_tower
+		monthly_character_prestige = 0.05
+	}
+
+	## RELIGIOUS BUILDINGS ##
+	ct_priory_church = {		
+		desc = c_priory_church_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}
+	
+	## Bishop Palace ##
+	ct_bishop_palace = {
+		desc = c_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 150	
+		build_time = 180	
+		monthly_character_prestige = 0.05
+		liege_piety = 0.05
+	}		
+	ct_stone_bishop_palace = {		
+		desc = c_stone_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 300	
+		build_time = 50	
+		prerequisites = { ct_bishop_palace }
+		upgrades_from = ct_bishop_palace	
+		monthly_character_prestige = 0.075
+		liege_piety = 0.05
+	}		
+	ct_fortified_bishop_palace = {		
+		desc = c_fortified_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_stone_bishop_palace }
+		upgrades_from = ct_stone_bishop_palace		
+		monthly_character_prestige = 0.075
+		liege_piety = 0.05
+	}		
+	ct_magnificenct_bishop_palace = {		
+		desc = c_magnificenct_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_fortified_bishop_palace }
+		upgrades_from = ct_fortified_bishop_palace	
+		monthly_character_prestige = 0.1
+		liege_piety = 0.05
+	}
+	ct_bishop_palace_wooden_walls = {
+		desc = c_wooden_walls_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_bishop_palace }
+	}	
+	ct_bishop_palace_stone_walls = {
+		desc = c_stone_walls_desc
+		gold_cost = 300
+		build_time = 730
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_wooden_walls }
+		upgrades_from = ct_wooden_walls
+	}
+	ct_bishop_palace_wooden_tower = {
+		desc = c_wooden_tower_desc
+		gold_cost = 50
+		build_time = 182
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_bishop_palace }
+		monthly_character_prestige = 0.025
+	}	
+	ct_bishop_palace_stone_tower = {
+		desc = c_stone_tower_desc
+		gold_cost = 300
+		build_time = 730
+		forct_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { ct_wooden_tower }
+		upgrades_from = ct_wooden_tower
+		monthly_character_prestige = 0.05
+	}
+	
+	ct_coastal_village = {		
+		desc = c_coastal_village_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	
+	## URBAN BUILDINGS ##
+	ct_urban_center = {		
+		desc = c_urban_center_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 3	
+	}
+	ct_large_urban_center = {		
+		desc = c_large_urban_center_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 5	
+	}	
+	
+	
+	ct_wooden_bridges = {		
+		desc = c_wooden_bridges_desc	
+		trigger = { borders_major_river	= yes }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	ct_stone_bridges = {		
+		desc = c_stone_bridges_desc	
+		trigger = { borders_major_river	= yes }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	ct_monastery_1 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	ct_monastery_2 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	ct_monastery_3 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	ct_townhall = {		
+		desc = c_townhall_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		# prerequisites = { c_wooden_castle }	
+	}		
+	ct_almhouse_1 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_monastery }
+		tax_income = -3
+	}
+	ct_almhouse_2 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_monastery }
+		tax_income = -3
+	}
+	ct_almhouse_3 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_monastery }
+		tax_income = -3
+	}
+	ct_fair = {		
+		desc = c_fair_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { ct_urban_center }
+		tax_income = 5
+	}		
+	ct_windmill = {		
+		desc = c_windmill_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 3	
+	}		
+	ct_watermill = {		
+		desc = c_watermill_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 5	
+	}	
+
+	## Troops
+	ct_local_noble_1 = {
+		desc = c_local_noble
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 1 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -1
+		knights = 100
+	}
+	ct_local_noble_2 = {
+		desc = c_local_noble
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 2 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -2
+		knights = 200
+	}
+	ct_local_noble_3 = {
+		desc = c_local_noble
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 3 }
+			}
+		}	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -3
+		knights = 300
+	}
+	ct_local_noble_4 = {
+		desc = c_local_noble
+		trigger = { always = no }	
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -4
+		knights = 400
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 4 }
+			}
+		}
+	}
+	ct_local_noble_5 = {
+		desc = c_local_noble
+		trigger = { 
+			any_province_holding = {
+				check_variable = { which = orc_holding_total_elite_pop value >= 5 }
+			}
+		}
+		gold_cost = 1	
+		build_time = 1	
+		tax_income = -5
+		knights = 500
+	}
+	ct_local_noble_6 = {
 		desc = c_local_noble
 		trigger = { 
 			any_province_holding = {

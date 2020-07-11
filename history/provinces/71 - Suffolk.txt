@@ -6,7 +6,7 @@
 title = c_suffolk
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_ipswich = castle
 b_dunwich = city
@@ -29,7 +29,7 @@ religion = catholic
 # History
 869.1.1 = { culture = norse } # Fall of East Anglia
 869.1.1 = { religion = norse_pagan } # Fall of East Anglia
-879.1.1 = { religion = catholic } # Guthrum becomes Æþelstan
+879.1.1 = { religion = catholic } # Guthrum becomes ï¿½ï¿½elstan
 918.11.13 = { culture = anglonorse } 
 1078.1.1 = { b_eye = temple }
 1100.11.11 = { culture = english }

@@ -6,7 +6,7 @@
 title = c_neopatras
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_zetounion = castle
 b_pharsalos = city
 b_neopatras = temple
@@ -16,6 +16,7 @@ b_neopatras = temple
 # Misc
 culture = greek
 religion = orthodox
+terrain = orc_shrub_mountains
 
 # History
 1155.1.1 = { trade_post = b_dandolo }

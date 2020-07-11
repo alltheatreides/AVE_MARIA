@@ -6,7 +6,7 @@
 title = c_northeastern_jylland
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_hald = tribal
 #b_viborg = temple
@@ -17,6 +17,7 @@ b_aalborg = city
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_grass_flat
 
 # History
 985.1.1= { trade_post = b_giaethning }

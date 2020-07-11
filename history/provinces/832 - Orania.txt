@@ -6,7 +6,7 @@
 title = c_orania
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_oran = castle
 b_marsafarukh = castle  # Marsa Farukh
@@ -21,6 +21,7 @@ b_kasribnsinan = city # Kasr ibn Sinan
 # Misc
 culture = maghreb_arabic
 religion = sunni
+terrain = orc_shrub_highlands
 
 # History
 

@@ -491,5 +491,20 @@ orc_holding_population_395 = { #POP DISPLAY FOR HOLDINGS
 orc_holding_population_400 = { #POP DISPLAY FOR HOLDINGS	
 	icon = 271
 }	
-			
 
+## GOODS
+orc_urban_good_metal_work = {
+	tax_income = 0.5
+	icon = 142
+}
+
+## OWNERSHIP
+orc_ownership_military_aristocracy = {
+	icon = 272
+}
+orc_ownership_clergy = {
+	icon = 273
+}
+orc_ownership_city_charter = {
+	icon = 274
+}

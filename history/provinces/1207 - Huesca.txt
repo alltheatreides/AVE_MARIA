@@ -6,7 +6,7 @@
 title = c_huesca
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_huesca = castle
 b_barbastro = city
 b_almudevar = temple
@@ -20,9 +20,7 @@ religion = sunni
 
 # History
 
-867.1.1 = { 
-	b_huesca = ca_keep_1
-	b_huesca = ca_wall_1
+867.1.1 = {
 }
 1131.1.1 = { culture = aragonese }
 1131.1.1 = { religion = catholic }

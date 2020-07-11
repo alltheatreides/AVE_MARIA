@@ -6,7 +6,7 @@
 title = c_guipuzcoa
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_irun = castle
 b_eibar = city
 b_sansebastian = temple
@@ -20,8 +20,5 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_irun = ca_town_1
-	b_irun = ca_keep_1
-	b_irun = ca_wall_1
+867.1.1 = {
 }

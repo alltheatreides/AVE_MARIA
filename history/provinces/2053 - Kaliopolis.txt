@@ -6,7 +6,7 @@
 title = c_kaliopolis
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_gallipoli = castle
 b_hexamilion = castle
 b_madyta = city
@@ -16,6 +16,7 @@ b_madyta = city
 # Misc
 culture = greek
 religion = orthodox
+terrain = orc_shrub_hill
 
 # History
 1194.1.1 = { trade_post = b_ziani }

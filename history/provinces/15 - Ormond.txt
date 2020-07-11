@@ -17,6 +17,7 @@ b_waterford = tribal
 # Misc
 culture = norsegaelic
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 867.1.1 = {
@@ -24,6 +25,6 @@ religion = catholic
 }
 1172.1.1 = { 
 	b_waterford = castle
-	b_waterford = ca_shipyard_1
+	b_waterford = c_commercial_port
 	culture = english
 }

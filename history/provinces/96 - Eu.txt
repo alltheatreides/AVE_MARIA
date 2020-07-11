@@ -17,18 +17,10 @@ b_forges = city
 # Misc
 culture = frankish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 911.1.1 = { # Viking takeover
-	b_eu = ca_keep_1
-	b_eu = ca_training_grounds_1
-	b_eu = ca_stable_1
-	b_eu = ca_wall_1
-	b_eu = ca_wall_2
-	b_eu = ca_militia_barracks_1
-	b_eu = ca_barracks_1
-	b_eu = ca_town_1
-	b_forges = ct_port_1
 }
 
 960.1.1 = {
@@ -36,9 +28,6 @@ religion = catholic
 }
 
 1066.1.1 = {
-	b_forges = ct_port_2
-	b_forges = ct_port_3
 }
 
 1100.11.11 = { culture = frankish }
-

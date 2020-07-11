@@ -7,7 +7,7 @@
 title = c_marsico
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_san_severino_lucano = castle
 b_marsico = city
 #b_chiaromonte = castle
@@ -18,7 +18,7 @@ b_marsico = city
 # Misc
 culture = langobardisch
 religion = catholic
-terrain = forest
+terrain = orc_woods_hill
 # History
 1087.1.1={ b_chiaromonte = castle }
 1144.1.1={ culture = neapolitan }

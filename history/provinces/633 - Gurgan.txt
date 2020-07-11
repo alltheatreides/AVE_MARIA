@@ -6,7 +6,7 @@
 title = c_gurgan
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_gurgan = castle
 b_astarabad = temple
 b_ribat-i-hafs = city
@@ -19,13 +19,13 @@ religion = zoroastrian
 
 # History
 651.1.1 = {
-	b_gurgan = ca_town_1
-	b_gurgan = ca_town_2
-	b_gurgan = ca_wall_q_1
-	b_gurgan = ca_wall_1
-	b_gurgan = ca_keep_1
-	b_gurgan = ca_militia_barracks_1
-	b_gurgan = ca_barracks_1
+	b_gurgan = c_urban_center
+	b_gurgan = c_large_urban_center
+	b_gurgan = c_manor_wooden_walls
+	b_gurgan = c_manor_wooden_walls
+	b_gurgan = c_local_noble_1
+	b_gurgan = c_light_infantry_1
+	b_gurgan = c_heavy_infantry_1
 	b_ribat-i-hafs = ct_marketplace_1
 	b_astarabad = tp_town_1
 }

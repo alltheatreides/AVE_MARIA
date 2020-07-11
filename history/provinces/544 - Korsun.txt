@@ -6,7 +6,7 @@
 title = c_korsun
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_korsun = tribal
 #b_tarashcha = city
@@ -19,6 +19,7 @@ b_korsun = tribal
 # Misc
 culture = russian
 religion = slavic_pagan
+terrain = orc_grass_flat
 
 # History
 988.1.1 = {religion = orthodox }

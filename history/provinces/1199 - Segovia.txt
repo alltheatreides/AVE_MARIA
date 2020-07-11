@@ -6,7 +6,7 @@
 title = c_segovia
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_segovia = castle
 #b_sepulveda = city
 #b_sacramenia = temple
@@ -20,9 +20,5 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_segovia = ca_keep_1
-	b_segovia = ca_wall_1
-	b_cuellar = ca_keep_1
-	b_cuellar = ca_wall_1
+867.1.1 = {
 }

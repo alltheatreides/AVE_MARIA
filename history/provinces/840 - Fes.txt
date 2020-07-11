@@ -28,22 +28,11 @@ b_qarawiyyin = temple
 # Misc
 culture = sanhaja # Awraba
 religion = sunni
+terrain = orc_shrub_highlands
 
 # History
 
 867.1.1 = {
-	b_fes = ca_keep_1
-	b_fes = ca_training_grounds_1
-	b_fes = ca_keep_2
-	b_fes = ca_stable_1
-	b_fes = ca_barracks_1
-	b_fes = ca_militia_barracks_1
-	b_fes = ca_wall_1
-	b_fes = ca_wall_2
-	b_qarawiyyin = tp_monastery_1
-	b_qarawiyyin = tp_monastery_2
-	b_qarawiyyin = tp_wall_1
-	b_qarawiyyin = tp_barracks_1
 }
 980.1.1 = { #constructed by the Yajfash of Banu Ifran in the late 10th century
 	b_qalat_mahdi = castle

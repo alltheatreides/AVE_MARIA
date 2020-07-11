@@ -6,7 +6,7 @@
 title = c_porhoet
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_porhoet = castle
 b_st_malo = temple
 b_gael = city
@@ -22,5 +22,5 @@ b_gael = city
 # Misc
 culture = breton
 religion = catholic
-terrain = forest
+terrain = orc_woods_flat
 # History

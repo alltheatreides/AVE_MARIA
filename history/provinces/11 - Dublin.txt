@@ -19,6 +19,7 @@ b_dublin = city
 # Misc
 culture = norsegaelic
 religion = norse_pagan
+terrain = orc_grass_flat
 
 # History
 867.1.1 = {
@@ -28,6 +29,6 @@ religion = norse_pagan
 1172.1.1 = { 
 	culture = english
 	b_dunleary = castle
-	b_dunleary = ca_shipyard_1
+	b_dunleary = c_commercial_port
 }
 1337.1.1 = { b_dublin_castle = castle } 

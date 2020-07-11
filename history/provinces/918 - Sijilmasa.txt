@@ -6,7 +6,7 @@
 title = c_sijilmasa
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_sijilmasa = castle
 b_bechar = city
 
@@ -26,6 +26,7 @@ b_bechar = city
 # Misc
 culture = tagelmust
 religion = ibadi
+terrain = orc_grass_highlands
 
 # History
 990.1.1 = { culture = zanata }

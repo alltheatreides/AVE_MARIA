@@ -6,7 +6,7 @@
 title = c_anti-atlas
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_tinmallal = castle
 b_ribatshakir = temple
@@ -28,6 +28,7 @@ b_igiradyatuf = city
 # Misc
 culture = masmuda
 religion = nabawiyya
+terrain = orc_shrub_hill
 
 # History
 1066.1.1 = { religion = sunni }

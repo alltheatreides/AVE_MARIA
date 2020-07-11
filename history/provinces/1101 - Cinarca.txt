@@ -6,7 +6,7 @@
 title = c_cinarca
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_cinarca = castle
 b_ajaccio = temple
@@ -16,6 +16,6 @@ b_bonifacio = city
 # Misc
 culture = tuscan
 religion = catholic
-terrain = hills
+terrain = orc_shrub_mountains
 
 # History

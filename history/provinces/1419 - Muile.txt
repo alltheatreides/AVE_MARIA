@@ -15,7 +15,7 @@ b_duart = tribal
 # Misc
 culture = norsegaelic
 religion = norse_pagan
-terrain = hills
+terrain = orc_small_island
 
 # History
 867.1.1 = {
@@ -24,5 +24,4 @@ terrain = hills
 1015.1.1 = { religion = catholic }
 1266.1.1 = {
 	b_duart = castle
-	b_duart = ca_shipyard_1
-} 
+}

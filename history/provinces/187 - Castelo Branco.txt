@@ -6,7 +6,7 @@
 title = c_castelo_branco
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_castelobranco = castle
 #b_covilha = city
 #b_belmonte = temple
@@ -23,9 +23,7 @@ religion = sunni
 
 # History
 
-867.1.1 = { 
-	b_castelobranco = ca_wall_1
-	b_castelobranco = ca_wall_2
+867.1.1 = {
 }
 1150.1.1 = { culture = portuguese }
 1150.1.1 = { religion = catholic }

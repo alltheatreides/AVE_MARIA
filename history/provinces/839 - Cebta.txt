@@ -6,7 +6,7 @@
 title = c_cebta
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_cueta = castle
 b_tetouan = castle
@@ -24,6 +24,7 @@ b_kasrsaghir = city
 # Misc
 culture = maghreb_arabic
 religion = sunni
+terrain = orc_woods_hill
 
 # History
 1330.1.1 = { b_afrag = castle }

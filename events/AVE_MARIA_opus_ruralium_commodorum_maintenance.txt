@@ -1,0 +1,126 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_opus_ruralium_commodorum.1 - AVE_MARIA_opus_ruralium_commodorum.499	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_opus_ruralium_commodorum_maintenance
+
+##NOTES:
+##
+
+## UPDATING OWNERSHIP VISUAL
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_maintenance.1
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+		any_demesne_province = {
+			any_province_holding = {
+				if = {
+					limit = {
+						holder_scope = {
+							is_theocracy = yes
+						}						
+					}
+					remove_holding_modifier = orc_ownership_city_charter
+					remove_holding_modifier = orc_ownership_military_aristocracy
+					add_holding_modifier = {
+						modifier = orc_ownership_clergy
+						years = -1
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							is_republic = yes
+						}
+					}
+					remove_holding_modifier = orc_ownership_clergy
+					remove_holding_modifier = orc_ownership_military_aristocracy
+					add_holding_modifier = {
+						modifier = orc_ownership_city_charter
+						years = -1
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							is_republic = no
+							is_theocracy = no
+						}
+					}
+					remove_holding_modifier = orc_ownership_clergy
+					remove_holding_modifier = orc_ownership_city_charter
+					add_holding_modifier = {
+						modifier = orc_ownership_military_aristocracy
+						years = -1
+					}
+				}
+			}
+		}
+	}
+}
+
+## SETTING UP PROVINCE MODIFIER VISUAL AND LOC
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_maintenance.2
+	
+	trigger = {
+		ai = no
+		is_multiplayer_host_character = yes
+		is_save_game = no
+	}
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_province = {
+			trigger_switch = {		
+				on_trigger = terrain	
+				orc_forest_flat = { add_province_modifier = { name = orc_forest_flat duration = -1 } }	
+				orc_forest_hill = { add_province_modifier = { name = orc_forest_hill duration = -1 } }	
+				orc_forest_mountains = { add_province_modifier = { name = orc_forest_mountains duration = -1 } }	
+				orc_forest_highlands = { add_province_modifier = { name = orc_forest_highlands duration = -1 } }	
+				orc_woods_flat = { add_province_modifier = { name = orc_woods_flat duration = -1 } }	
+				orc_woods_hill = { add_province_modifier = { name = orc_woods_hill duration = -1 } }	
+				orc_woods_mountains = { add_province_modifier = { name = orc_woods_mountains duration = -1 } }	
+				orc_woods_highlands = { add_province_modifier = { name = orc_woods_highlands duration = -1 } }	
+				orc_shrub_flat = { add_province_modifier = { name = orc_shrub_flat duration = -1 } }	
+				orc_shrub_hill = { add_province_modifier = { name = orc_shrub_hill duration = -1 } }	
+				orc_shrub_mountains = { add_province_modifier = { name = orc_shrub_mountains duration = -1 } }	
+				orc_shrub_highlands = { add_province_modifier = { name = orc_shrub_highlands duration = -1 } }	
+				orc_grass_flat = { add_province_modifier = { name = orc_grass_flat duration = -1 } }	
+				orc_grass_hill = { add_province_modifier = { name = orc_grass_hill duration = -1 } }	
+				orc_grass_mountains = { add_province_modifier = { name = orc_grass_mountains duration = -1 } }	
+				orc_grass_highlands = { add_province_modifier = { name = orc_grass_highlands duration = -1 } }	
+				orc_desert_flat = { add_province_modifier = { name = orc_desert_flat duration = -1 } }	
+				orc_desert_hill = { add_province_modifier = { name = orc_desert_hill duration = -1 } }	
+				orc_desert_mountains = { add_province_modifier = { name = orc_desert_mountains duration = -1 } }	
+				orc_desert_highlands = { add_province_modifier = { name = orc_desert_highlands duration = -1 } }	
+				orc_jungle_flat = { add_province_modifier = { name = orc_jungle_flat duration = -1 } }	
+				orc_jungle_hill = { add_province_modifier = { name = orc_jungle_hill duration = -1 } }	
+				orc_floodplains = { add_province_modifier = { name = orc_floodplains duration = -1 } }	
+				orc_alpine_tundra = { add_province_modifier = { name = orc_alpine_tundra duration = -1 } }	
+				orc_marsh = { add_province_modifier = { name = orc_marsh duration = -1 } }	
+				orc_taiga = { add_province_modifier = { name = orc_taiga duration = -1 } }	
+				orc_tundra = { add_province_modifier = { name = orc_tundra duration = -1 } }	
+				orc_small_island = { add_province_modifier = { name = orc_small_island duration = -1 } }	
+			}
+		}
+	}	
+}

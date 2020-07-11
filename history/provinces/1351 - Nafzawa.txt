@@ -6,7 +6,7 @@
 title = c_nafzawa
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_nafzawa = castle
 b_turra = city
@@ -19,6 +19,7 @@ b_tamulast = city #extreme southeast of Jabal Dammar
 # Misc
 culture = sanhaja
 religion = ibadi
+terrain = orc_desert_flat
 
 # History
 930.1.1 = { religion = ismaili }

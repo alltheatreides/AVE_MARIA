@@ -6,7 +6,7 @@
 title = c_setif
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_ikjan = castle
 #b_qalatbhammad = castle #Qal'at Bannu Hammad
@@ -16,6 +16,7 @@ b_setif = city
 # Misc
 culture = sanhaja
 religion = sunni
+terrain = orc_woods_highlands
 
 # History
 1008.1.1 = {

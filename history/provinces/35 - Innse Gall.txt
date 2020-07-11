@@ -14,7 +14,7 @@ b_dunvegan = tribal
 # Misc
 culture = norsegaelic
 religion = norse_pagan
-terrain = hills
+terrain = orc_small_island
 
 # History
 867.1.1 = {
@@ -24,5 +24,4 @@ terrain = hills
 }
 1266.1.1 = {
 	b_dunvegan = castle
-	b_dunvegan = ca_shipyard_1
 }

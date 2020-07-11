@@ -21,7 +21,7 @@ b_la_spezia = city
 # Misc
 culture = ligurian
 religion = catholic
-terrain = farmlands
+terrain = orc_grass_flat
 # History
 
 1000.1.1 = { 
@@ -35,11 +35,11 @@ terrain = farmlands
 	b_genoa = ct_wall_q_1
 	b_genoa = ct_barracks_1
 	b_genoa = ct_training_grounds_1
-	b_lavagna = ca_keep_1
-	b_lavagna = ca_stable_1
-	b_lavagna = ca_militia_barracks_1
-	b_lavagna = ca_wall_1
-	b_lavagna = ca_wall_2
+	b_lavagna = c_local_noble_1
+	b_lavagna = c_light_cavalry_1
+	b_lavagna = c_light_infantry_1
+	b_lavagna = c_manor_wooden_walls
+	b_lavagna = c_manor_wooden_walls
         trade_post = b_doria
         b_pietra_ligure = castle
 }

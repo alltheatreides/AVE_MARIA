@@ -6,7 +6,7 @@
 title = c_kildare
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_naas = tribal
 b_kildare = city
@@ -18,6 +18,7 @@ b_kildare = city
 # Misc
 culture = irish
 religion = catholic
+terrain = orc_grass_hill
 
 # History
 

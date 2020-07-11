@@ -6,7 +6,7 @@
 title = c_ribagorza
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_benabarre = castle
 b_graus = city
 b_laguarres = temple
@@ -19,12 +19,5 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_benabarre = ca_keep_1
-	b_benabarre = ca_wall_1
-	b_benabarre = ca_stable_1
-	b_benabarre = ca_militia_barracks_1
-	b_benabarre = ca_wall_2
-	b_benabarre = ca_barracks_1
+867.1.1 = {
 }
-

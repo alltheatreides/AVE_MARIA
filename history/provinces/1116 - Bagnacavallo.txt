@@ -6,7 +6,7 @@
 title = c_bagnacavallo
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_bagnacavallo = castle
 b_cunio = castle
@@ -16,5 +16,5 @@ b_barbiano = castle
 # Misc
 culture = italian
 religion = catholic
-terrain = plains # should be marshlands
+terrain = orc_grass_flat # should be marshlands
 # History

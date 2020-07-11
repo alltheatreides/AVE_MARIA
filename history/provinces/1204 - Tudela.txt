@@ -6,7 +6,7 @@
 title = c_tudela
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_tudela = castle
 b_cascante = city
 b_carcastillo = temple
@@ -18,8 +18,6 @@ religion = sunni
 
 # History
 
-867.1.1 = { 
-	b_tudela = ca_town_1
-	b_tudela = ca_wall_1
+867.1.1 = {
 }
 1131.1.1 = { religion = catholic }

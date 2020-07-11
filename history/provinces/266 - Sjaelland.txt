@@ -18,7 +18,7 @@ b_roskilde = temple
 # Misc
 culture = norse
 religion = norse_pagan
-terrain = farmlands
+terrain = orc_grass_flat
 
 # History
 867.1.1 = { b_soeborg = tb_shipyard_1 }
@@ -26,22 +26,9 @@ terrain = farmlands
 1020.1.1 = {
 b_soeborg = castle
 b_kobenhavn = city
-b_kobenhavn = ct_port_1 }
-1035.1.1 = { culture = danish } 
-1066.1.1 = {       
-	b_ringsted = ct_guard_1
-	b_ringsted = ct_training_grounds_1
-	b_ringsted = ct_barracks_1
-	b_ringsted = ct_wall_1
-	b_ringsted = ct_wall_2
-	b_kobenhavn = ct_wall_1
-	b_kobenhavn = ct_port_1
-	b_kobenhavn = ct_barracks_1
-        b_roskilde = tp_monastery_1
-	b_roskilde = tp_barracks_1
-        b_roskilde = tp_barracks_2
-	b_roskilde = tp_wall_1
-	b_roskilde = tp_town_1
+}
+1035.1.1 = { culture = danish }
+1066.1.1 = {
 }
 1151.1.1 = { b_esrum = temple }
 1180.1.1 = { b_holbaek = castle }

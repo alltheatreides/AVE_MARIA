@@ -6,7 +6,7 @@
 title = c_ross
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_tain = tribal
 b_rosemarkie = temple
 #b_dingwall = castle
@@ -16,6 +16,7 @@ b_rosemarkie = temple
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_grass_mountains
 
 # History
 1146.1.1 = { b_tain = castle }

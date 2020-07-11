@@ -6,7 +6,7 @@
 title = c_upper_wallachia
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_kalabaka = castle
 b_trikala = city
 b_grevena = temple
@@ -16,6 +16,7 @@ b_grevena = temple
 # Misc
 culture = romanian
 religion = orthodox
+terrain = orc_forest_mountains
 
 # History
 

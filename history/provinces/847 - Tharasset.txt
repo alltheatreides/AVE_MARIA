@@ -6,7 +6,7 @@
 title = c_tharasset
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_taroudaut = tribal
 b_massa = city
@@ -26,6 +26,7 @@ b_massa = city
 # Misc
 culture = tagelmust
 religion = sunni
+terrain = orc_grass_highlands
 
 # History
 888.1.1 = {

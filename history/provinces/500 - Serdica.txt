@@ -6,7 +6,7 @@
 title = c_serdica
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_serdica = castle
 b_vratsa = city
@@ -17,6 +17,7 @@ b_vratsa = city
 # Misc
 culture = bulgarian
 religion = orthodox
+terrain = orc_woods_hill
 
 # History
 

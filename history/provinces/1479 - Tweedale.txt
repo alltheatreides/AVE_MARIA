@@ -6,7 +6,7 @@
 title = c_tweedale
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_neidpath = castle
 b_stobo = temple
 #b_peebles = city
@@ -18,6 +18,7 @@ b_selkirk = castle
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_woods_hill
 
 # History
 700.1.1 = { culture = saxon }

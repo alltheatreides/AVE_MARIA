@@ -62,7 +62,10 @@ character_event = {
 			limit = {
 				has_owner = yes
 				NOT = { province = 496 }
-				religion_group = christian
+				holder_scope = {
+						religion_group = christian
+				}
+				
 			}
 			
 			if = { # ERE
@@ -84,6 +87,49 @@ character_event = {
 					change_variable = { which = orc_holding_total_pop which = orc_urban_lower_class_pop_christian }
 					change_variable = { which = orc_holding_total_pop which = orc_urban_elite_pop_christian }
 					orc_set_pop_modifier = yes
+				}
+			}
+			
+			any_province_holding = {
+				if = {
+					limit = {
+						holder_scope = {
+							is_theocracy = yes
+						}						
+					}
+					remove_holding_modifier = orc_ownership_city_charter
+					remove_holding_modifier = orc_ownership_military_aristocracy
+					add_holding_modifier = {
+						modifier = orc_ownership_clergy
+						years = -1
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							is_republic = yes
+						}
+					}
+					remove_holding_modifier = orc_ownership_clergy
+					remove_holding_modifier = orc_ownership_military_aristocracy
+					add_holding_modifier = {
+						modifier = orc_ownership_city_charter
+						years = -1
+					}
+				}
+				if = {
+					limit = {
+						holder_scope = {
+							is_republic = no
+							is_theocracy = no
+						}
+					}
+					remove_holding_modifier = orc_ownership_clergy
+					remove_holding_modifier = orc_ownership_city_charter
+					add_holding_modifier = {
+						modifier = orc_ownership_military_aristocracy
+						years = -1
+					}
 				}
 			}
 			

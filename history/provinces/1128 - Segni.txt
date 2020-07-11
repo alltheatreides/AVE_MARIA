@@ -6,7 +6,7 @@
 title = c_segni
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_segni = castle
 b_terracina = city
@@ -18,7 +18,7 @@ b_piperno = temple
 # Misc
 culture = laziale
 religion = catholic
-terrain = plains
+terrain = orc_grass_flat
 # History
 1042.1.1 = { b_anagni = castle }
 1106.1.1 = { trade_post = b_dappiano }

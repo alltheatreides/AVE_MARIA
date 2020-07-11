@@ -6,7 +6,7 @@
 title = c_andria
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_andria = castle
 b_trani = city
@@ -16,7 +16,7 @@ b_barletta = city
 # Misc
 culture = langobardisch
 religion = catholic
-terrain = plains
+terrain = orc_grass_flat
 # History
 
 1140.1.1={ culture = neapolitan}

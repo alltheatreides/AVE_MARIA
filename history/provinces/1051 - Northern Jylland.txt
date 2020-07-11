@@ -6,7 +6,7 @@
 title = c_northern_jylland
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_aggersborg = tribal
 #b_vestervig = temple
@@ -17,6 +17,7 @@ b_thisted = temple
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_grass_flat
 
 # History
 985.1.1= { trade_post = b_giaethning } 

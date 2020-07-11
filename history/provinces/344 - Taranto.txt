@@ -6,7 +6,7 @@
 title = c_taranto
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_taranto = castle
 #b_grottaglie= temple
@@ -18,7 +18,7 @@ b_gallipoli_puglia = city
 # Misc
 culture = langobardisch
 religion = catholic
-terrain = plains
+terrain = orc_grass_flat
 
 # History
 1078.1.1 = { trade_post = b_ziani }

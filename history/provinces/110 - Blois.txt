@@ -6,7 +6,7 @@
 title = c_blois
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_blois = castle
 b_staignan = temple
 b_romorantin = city
@@ -20,6 +20,7 @@ b_romorantin = city
 
 culture = frankish
 religion = catholic
+terrain = orc_woods_flat
 
 # History
 

@@ -6,7 +6,7 @@
 title = c_tadla
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_dai = castle #referred to as a stronghold (hisn) by al-Bakri, who nonetheless notes the town's rich resources
 b_tadla = city
@@ -16,6 +16,7 @@ b_tadla = city
 # Misc
 culture = sanhaja
 religion = sunni
+terrain = orc_shrub_highlands
 
 
 # History

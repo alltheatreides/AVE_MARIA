@@ -21,19 +21,12 @@ b_infa = city
 # Misc
 culture = masmuda
 religion = sunni
+terrain = orc_shrub_flat
 
 # History
 
 #987.1.1 = { b_chella = tribal }
 867.1.1 = {
-	b_chella = ca_keep_1
-	b_chella = ca_training_grounds_1
-	b_chella = ca_keep_2
-	b_chella = ca_stable_1
-	b_chella = ca_barracks_1
-	b_chella = ca_militia_barracks_1
-	b_chella = ca_wall_1
-	b_chella = ca_wall_2
 }
 1150.1.1 = {
 	b_rabat = castle

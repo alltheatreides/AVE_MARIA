@@ -3246,11 +3246,19 @@ character_event = {
 		set_variable = { which = true_vassal_troop_count value = 0 }
 		set_variable = { which = test_test_test value = 0 }
 		set_variable = { which = test_test_test_2 value = 0 }
+		
+		grant_title_no_opinion = b_compiegne
+		
 		any_demesne_province = {
+			add_province_modifier = {
+				name = orc_urban_good_metal_work
+				days = -1
+			}
 			any_province_holding = {
 				limit = {
 					holder = ROOT
 				}
+
 				save_event_target_as = target_test_test
 				ROOT = {
 					export_to_variable = { which = holding_true_vassal_troop_count value = holding_raisable_levy who = event_target:target_test_test }
@@ -3265,6 +3273,7 @@ character_event = {
 		}
 		
 		capital_holding = {
+			# convert_to = city
 			change_variable = { which = orc_rural_elite_pop_christian value = 4 }
 			change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_christian }
 		}

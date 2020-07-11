@@ -6,8 +6,8 @@
 title = c_rosello
 
 # Settlements
-max_settlements = 4
-b_castellrossello = castle 
+max_settlements = 7
+b_castellrossello = castle
 b_elna = temple
 b_perpinya = city
 #b_vallespir = castle
@@ -21,12 +21,6 @@ religion = catholic
 culture = catalan
 
 # History
-867.1.1 = { 
-	b_castellrossello = ca_keep_1
-	b_castellrossello = ca_wall_1
-	b_castellrossello = ca_stable_1
-	b_castellrossello = ca_militia_barracks_1
-	b_castellrossello = ca_wall_2
-	b_castellrossello = ca_barracks_1
-	}
+867.1.1 = {
+}
 1109.1.1 = { trade_post = b_grimaldi }

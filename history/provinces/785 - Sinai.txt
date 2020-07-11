@@ -6,7 +6,7 @@
 title = c_sinai
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_qalaatalgindi = castle
 b_rassidr = temple
@@ -16,5 +16,6 @@ b_nekhel = city
 # Misc
 culture = bedouin_arabic
 religion = sunni
+terrain = orc_desert_highlands
 
 # History

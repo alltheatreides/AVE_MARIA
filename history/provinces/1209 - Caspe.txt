@@ -6,7 +6,7 @@
 title = c_caspe
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_caspe = castle
 b_chiprana = city
 b_fabara = temple
@@ -19,9 +19,7 @@ culture = andalusian_arabic
 religion = sunni
 
 # History
-867.1.1 = { 
-	b_caspe = ca_keep_1
-	b_caspe = ca_wall_1
+867.1.1 = {
 }
 1131.1.1 = { culture = aragonese }
 1131.1.1 = { religion = catholic }

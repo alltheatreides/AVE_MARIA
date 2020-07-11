@@ -18,17 +18,18 @@ b_abercorn = temple
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 700.1.1 = { culture = saxon }
 973.1.1 = { b_dunbar = tribal }
 1097.1.1 = { b_dunbar = castle }
 1097.1.1 = { 
-	b_dunbar = ca_keep_1
+	b_dunbar = c_local_noble_1
 	b_dunbar = ca_training_grounds_1
-	b_dunbar = ca_stable_1
-	b_dunbar = ca_stable_2
-	b_dunbar = ca_wall_1
-	b_dunbar = ca_wall_2
+	b_dunbar = c_light_cavalry_1
+	b_dunbar = c_light_cavalry_2
+	b_dunbar = c_manor_wooden_walls
+	b_dunbar = c_manor_wooden_walls
 }
 1100.11.11 = { culture = english }

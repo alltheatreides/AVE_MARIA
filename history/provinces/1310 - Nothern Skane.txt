@@ -15,18 +15,15 @@ b_krapperup = tribal
 # Misc
 culture = norse
 religion = norse_pagan
-terrain = hills
+terrain = orc_grass_hill
 
 # History
 1000.1.1 = {
 b_krapperup = castle
 b_helsingborg= city
-} 
-1005.1.1 = { religion = catholic } 
-1035.1.1 = { culture = danish } 
-1066.1.1 = {
-	b_krapperup = ca_keep_1
-	b_krapperup = ca_militia_barracks_1
-	b_krapperup = ca_wall_1   
 }
-1250.1.1 = { b_tomarp = castle } 
+1005.1.1 = { religion = catholic }
+1035.1.1 = { culture = danish }
+1066.1.1 = {
+}
+1250.1.1 = { b_tomarp = castle }

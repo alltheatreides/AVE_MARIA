@@ -6,7 +6,7 @@
 title = c_coimbra
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_coimbra = castle
 b_cantanhede = temple
 #b_penela = castle
@@ -23,12 +23,6 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_coimbra = ca_town_1
-	b_coimbra = ca_keep_1
-	b_coimbra= ca_stable_1
-	b_coimbra = ca_militia_barracks_1
-	b_coimbra = ca_wall_1
-	b_coimbra = ca_wall_2
+867.1.1 = {
 }
 1133.1.1 = { trade_post = b_spinola }

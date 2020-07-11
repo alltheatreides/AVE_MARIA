@@ -6,7 +6,7 @@
 title = c_zamora
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_zamora = castle
 b_sanabria = city
 b_tabara = temple
@@ -19,12 +19,5 @@ religion = catholic
 
 # History
 
-867.1.1 = { 
-	b_zamora = ca_town_1
-	b_zamora = ca_keep_1
-	b_zamora = ca_stable_1
-	b_zamora = ca_militia_barracks_1
-	b_zamora = ca_wall_1
-	b_zamora = ca_wall_2
+867.1.1 = {
 }
-

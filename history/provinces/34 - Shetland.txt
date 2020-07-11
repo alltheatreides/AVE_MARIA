@@ -20,12 +20,12 @@ b_cunningsburgh = tribal
 # Misc
 culture = norse
 religion = norse_pagan
-terrain = hills
+terrain = orc_small_island
 
 # History
 867.1.1 = {
 	b_cunningsburgh = tb_shipyard_1
 }
-1015.1.1 = { religion = catholic } 
-1035.1.1 = { culture = norwegian } 
+1015.1.1 = { religion = catholic }
+1035.1.1 = { culture = norwegian }
 1334.1.1 = { culture = scottish }

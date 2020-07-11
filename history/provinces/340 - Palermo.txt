@@ -19,28 +19,15 @@ b_trapani = city
 # Misc
 culture = maghreb_arabic
 religion = sunni
+terrain = orc_shrub_hill
 
 # History
 
-867.1.1 = { 
-	b_palermo = ct_wall_1
-	b_palermo = ct_wall_2
-	b_palermo = ct_port_1
-	b_palermo = ct_marketplace_1
-	b_palermo = ct_marketplace_2
-	b_palermo = ct_wall_q_1
-	b_palermo = ct_barracks_1
-	b_palermo = ct_training_grounds_1
-	b_collesano = ca_keep_1
-	b_collesano = ca_stable_1
-	b_collesano = ca_militia_barracks_1
-	b_collesano = ca_wall_1
+867.1.1 = {
 }
 960.1.1={ culture = sicilian_arabic }
 983.1.1={ b_sclafani = castle}
 1066.1.1 = {
-	b_palermo = ct_port_2
-	b_palermo = ct_port_3
 }
 1072.1.1 = {
 	culture = sicilian

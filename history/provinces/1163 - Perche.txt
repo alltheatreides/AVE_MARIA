@@ -6,7 +6,7 @@
 title = c_perche
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_nogentlerotrou = castle
 b_belleme = castle
 b_authon = city
@@ -16,6 +16,7 @@ b_authon = city
 
 culture = frankish
 religion = catholic
+terrain = orc_woods_hill
 
 # History
 #1123.1.1  = { b_xxx = castle }

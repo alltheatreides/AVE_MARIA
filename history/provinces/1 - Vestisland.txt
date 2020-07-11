@@ -14,6 +14,7 @@ b_husavik = tribal
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_tundra
 
 # History
 867.1.1 = {
@@ -22,6 +23,6 @@ religion = norse_pagan
 1000.1.1 = { religion = catholic } 
 1035.1.1 = { culture = norwegian 
 b_husavik = castle
-	b_husavik = ca_shipyard_1
+	b_husavik = c_commercial_port
 } 
 

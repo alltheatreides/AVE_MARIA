@@ -17,14 +17,14 @@ b_seydifsjord = tribal
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_tundra
 
 # History
 867.1.1 = {
 	b_seydifsjord = tb_shipyard_1
 }
-1015.1.1 = { religion = catholic } 
-1035.1.1 = { 
-culture = norwegian 	
+1015.1.1 = { religion = catholic }
+1035.1.1 = {
+culture = norwegian
 b_seydifsjord = castle
-b_seydifsjord = ca_shipyard_1
-} 
+}

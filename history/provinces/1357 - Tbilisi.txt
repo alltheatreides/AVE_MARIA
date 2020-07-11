@@ -6,7 +6,7 @@
 title = c_tbilisi
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_narikala = castle
 b_tbilisi = city
 b_sioni = temple
@@ -15,6 +15,6 @@ b_rustavi = city
 # Misc
 culture = georgian
 religion = orthodox
-terrain = plains # pretty flat province, situated between the confluence of two rivers
+terrain = orc_grass_flat # pretty flat province, situated between the confluence of two rivers
 
 # History

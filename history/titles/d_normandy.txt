@@ -24,6 +24,10 @@
 }
 1035.7.3 = {
 	holder = 140 # Guillaume II le Conquérant
+	set_tribute_suzerain = {
+		who = k_france
+		type = true_vassal_duke_of_normandy
+	}
 }
 1066.10.14 = {
 	liege = k_england

@@ -5,7 +5,7 @@
 # County Title
 title = c_sari
 
-max_settlements = 4
+max_settlements = 7
 b_sari = castle
 b_firrim = city
 b_sahmar = temple
@@ -17,10 +17,10 @@ religion = zoroastrian
 
 # History
 651.1.1 = {
-	b_sari = ca_town_1
-	b_sari = ca_wall_1
-	b_sari = ca_keep_1
-	b_sari = ca_militia_barracks_1
+	b_sari = c_urban_center
+	b_sari = c_manor_wooden_walls
+	b_sari = c_local_noble_1
+	b_sari = c_light_infantry_1
 	b_firrim = ct_marketplace_1
 	b_sahmar = tp_town_1
 }

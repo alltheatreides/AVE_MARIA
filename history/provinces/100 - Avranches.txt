@@ -17,6 +17,7 @@ b_granville = city
 # Misc
 culture = frankish
 religion = catholic
+terrain = orc_grass_flat
 
 # History
 911.1.1 = { # Viking takeover
@@ -25,16 +26,6 @@ religion = catholic
         b_avranches = castle
         b_percy = castle
         b_granville = city
-
-	b_avranches = ca_keep_1
-	b_avranches = ca_training_grounds_1
-	b_avranches = ca_stable_1
-	b_avranches = ca_wall_1
-	b_avranches = ca_wall_2
-	b_avranches = ca_militia_barracks_1
-	b_avranches = ca_barracks_1
-	b_avranches = ca_town_1
-	b_granville = ct_port_1
 }
 
 960.1.1 = {

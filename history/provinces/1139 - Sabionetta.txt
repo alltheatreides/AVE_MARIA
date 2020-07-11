@@ -6,7 +6,7 @@
 title = c_sabionetta
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_marcaria = castle
 b_sabbioneta = city
@@ -17,6 +17,6 @@ b_leno = temple
 # Misc
 culture = italian
 religion = catholic
-terrain = farmlands
+terrain = orc_grass_flat
 # History
 

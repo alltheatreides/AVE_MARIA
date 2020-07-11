@@ -6,7 +6,7 @@
 title = c_dreux
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_dreux = castle
 b_montfortlamaury = castle
 #b_epernon = castle
@@ -17,6 +17,7 @@ b_montfortlamaury = castle
 
 culture = frankish
 religion = catholic
+terrain = orc_woods_hill
 
 # History
 

@@ -1,12 +1,12 @@
 # -*- ck2.history.provinces -*-
 
-# 472 - Épeiros
+# 472 - ï¿½peiros
 
 # County Title
 title = c_epeiros
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 
 b_butrint = castle
 b_ioannina = city
@@ -18,6 +18,7 @@ b_dryinoupolis = temple
 # Misc
 culture = greek
 religion = orthodox
+terrain = orc_shrub_highlands
 
 # History
 

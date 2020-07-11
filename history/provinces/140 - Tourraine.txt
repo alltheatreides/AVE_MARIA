@@ -6,7 +6,7 @@
 title = c_tourraine
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_tours = castle
 b_chinon = temple
 b_amboise = city
@@ -19,6 +19,7 @@ b_amboise = city
 
 culture = old_frankish
 religion = catholic
+terrain = orc_woods_flat
 
 # History
 790.1.1 = { culture = frankish }

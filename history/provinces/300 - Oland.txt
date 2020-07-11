@@ -23,16 +23,17 @@ b_borgholm = tribal
 # Misc
 culture = norse
 religion = norse_pagan
+terrain = orc_forest_flat
 
 # History
-867.1.1 = { b_borgholm = tb_shipyard_1 } 
-1022.1.7 = { 
+867.1.1 = { b_borgholm = tb_shipyard_1 }
+1022.1.7 = {
 b_borgholm = castle
 b_eketorp = castle
 b_hauldtorp = city
-b_borgholm = ca_shipyard_1 }
+}
 1022.1.7 = {religion = catholic}
-1035.1.1 = { culture = gothic } 
+1035.1.1 = { culture = gothic }
 
 
 1227.1.1 = { trade_post = b_pat_luneburg }

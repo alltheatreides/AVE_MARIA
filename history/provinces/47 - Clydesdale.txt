@@ -6,7 +6,7 @@
 title = c_clydesdale
 
 # Settlements
-max_settlements = 4
+max_settlements = 7
 b_kilmaurs = tribal
 #b_paisley = temple
 #b_renfrew = city
@@ -16,6 +16,7 @@ b_kilmaurs = tribal
 # Misc
 culture = scottish
 religion = catholic
+terrain = orc_grass_hill
 
 400.1.1 = { culture = cumbric } 
 1000.1.1 = { culture = scottish }
