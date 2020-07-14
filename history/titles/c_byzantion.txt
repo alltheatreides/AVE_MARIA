@@ -323,11 +323,6 @@
 				name = orc_great_harbour
 				duration = -1
 			}
-			add_province_modifier = {
-				name = orc_road_paved
-				duration = -1
-			}
-			
 		}
 	}
 }

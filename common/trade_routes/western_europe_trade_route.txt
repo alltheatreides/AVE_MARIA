@@ -1,0 +1,117 @@
+western_europe_trade_route = { # Western Europe
+	
+	wealth = 35.0		
+	
+	trade_post_display_trigger = {
+		OR = {		
+			province_id = 151	# Bayonne
+			province_id = 149	# Bordeaux
+			province_id = 138	# Orleans
+			province_id = 112	# Paris
+			province_id = 77	# Artois
+			province_id = 78	# Bruges
+			province_id = 1019	# Brussels
+			province_id = 81	# Utrecht
+			province_id = 1059	# Deventer
+			province_id = 119	# Cologne
+			province_id = 130	# Troyes
+			province_id = 1165	# Langres/Bar sur Aube
+			province_id = 227	# Lyon
+			province_id = 1047	# Marseille
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.06
+		city_tax_modifier = 0.06
+		temple_tax_modifier = 0.06
+		tribal_tax_modifier = 0.05
+		trade_route_value = 10.05
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.05
+		icon = 285
+	}
+
+	start = {	
+		1047 97 1037
+	}
+
+	### Inland route
+	path = { # Bayonne - Navarra
+		151 152
+	}
+	path = { # Bordeaux - Bayonne
+		149 150 151
+	}
+	path = { # Paris - Bordeaux
+		112 138 110 140 141 144 143 149
+	}
+	path = { # Toulouse - Bayonne
+		214 209 1253 151
+	}
+	path = { # Bordeaux - Toulouse
+		149 216 1188 214
+	}
+	path = { # Toulouse - Narbonne
+		214 213 212
+	}
+	path = { # Rouen - Paris
+		97 99 112
+	}
+	path = { # Marseile - Nimes
+		1047 1249
+	}
+	path = { # Narbonne - Nimes
+		212 1168 220 1249
+	}
+	path = { # Nimes - Macon
+		1249 223 228 227 224 225
+	}
+	path = { # Savoy - Macon
+		225 1042 237
+	}
+	path = { # Basel - Dijon
+		1037 1036 1045 136
+	}
+	path = { # Dijon - Troyes
+		136 130 1166 112
+	}
+	path = { 	# Dijon - Macon
+		136 240 225
+	}
+	path = { # Guines - Artois
+		77 74
+	}
+	path = { # Paris - Artois
+		112 1169 95 77
+	}
+	path = { # Artois - Rheims
+		77 113 114
+	}
+	path = { # Artois - Brussels
+		77 76 78 93 1019
+	}
+	path = { # Brussels - Antwerp
+		1019 92
+	}
+	path = { # Rheims - Trier
+		114 129 115 118
+	}
+	path = { # Trier - Frankfurt
+		118 1062 123 1007 952
+	}
+	path = { # Trier - Hamaland
+		118 119 90 89 1017
+	}
+	path = { # Trier - Brussels
+		118 1018 1957 116 1056 1019
+	}
+	path = { # Hamaland - Deventer
+		1017 1059
+	}
+	path = { # Hamaland - Utrecht
+		1017 82
+	}
+}
+
+

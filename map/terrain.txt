@@ -381,6 +381,26 @@ categories =  {
 		bottleneck_chance = 5
 		defence = 0
 	}	
+	
+	## FAMOUS CAPITALS
+	##	CONSTANTINOPLE
+	orc_constantinople = {	
+		color = { 137 104 165  }
+		movement_cost = 1.25
+		max_attrition = -0.025
+		supply_limit = 9
+		bottleneck_chance = 35
+		defence = 0
+	}
+	##	baghdad
+	orc_baghdad = {	
+		color = { 137 104 165  }
+		movement_cost = 1.25
+		max_attrition = -0.025
+		supply_limit = 9
+		bottleneck_chance = 35
+		defence = 0
+	}
 
 
 }
@@ -447,5 +467,5 @@ text_50	= { type = orc_marsh			color = {	50	 } priority = 	50	 }
 text_51	= { type = orc_taiga			color = {	51	 } priority = 	51	 }
 text_52	= { type = orc_tundra			color = {	52	 } priority = 	52	 }
 text_53	= { type = orc_small_island			color = {	53	 } priority = 	53	 }
-
-
+text_54	= { type = orc_constantinople			color = {	54	 } priority = 	54	 }
+text_55	= { type = orc_constantinople			color = {	55	 } priority = 	55	 }

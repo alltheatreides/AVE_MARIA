@@ -1,0 +1,139 @@
+trans_saharan_trade_route = {
+	wealth = 30			# Total base wealth of trade route
+	trade_post_display_trigger = {
+		trans_saharan_trade_post_trigger = yes
+	}
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.03
+		city_tax_modifier = 0.03
+		temple_tax_modifier = 0.03
+		tribal_tax_modifier = 0.15
+		trade_route_value = 5.3
+		local_movement_speed = 0.1
+		tech_growth_modifier = 0.10
+		icon = 284
+	}
+
+	start = {				# Start provinces of trade route
+		926		# Bambuk
+		1486	# Volta basin
+		1384	# Bure
+	}
+
+	### Inland route - Bure
+	path = {
+		1229 1230
+	}
+	path = {
+		807 803 802
+	}
+	path = {
+		1405 807
+	}
+	path = {
+		1227 1400 1405
+	}
+	path = {
+		1227 1329
+	}
+	path = {
+		1225 1227
+	}
+	path = {
+		1323 1321 1225
+	}
+	path = {
+		1229 1485 880 1490
+	}
+	path = {
+		1329 1478 1480 1229
+	}
+	path = {
+		1323 1328 1474 1476 1329
+	}	
+	path = {
+		911 914
+	}
+	path = {
+		914 927 1319 1322 1323
+	}
+	path = {
+		1226 1404 1405
+	}
+	path = {
+		815 817
+	}
+	path = {
+		815 1353 814
+	}
+	path = {
+		1226 1223 1351 814
+	}
+	path = {
+		1403 1402 1226
+	}
+	path = {
+		1394 1403
+	}
+	path = {
+		1225 1401 1403
+	}
+	path = {
+		914 922 1394
+	}
+	path = {
+		1396 1397 1392 1356 1352 815
+	}
+	path = {
+		1394 1395 1396
+	}
+	path = {
+		814 1349 811 1398 1399 807
+	}
+	path = {
+		840 841 839
+	}
+	path = {
+		913 912 920 921 1364
+	}
+	path = {
+		1364 1363 847 845 843 840
+	}
+	path = {
+		1364 918
+	}
+	path = {
+		918 840
+	}
+	path = {
+		918 834 833 831
+	}
+	path = {
+		918 1396
+	}
+	path = {
+		911 917 916
+	}
+	path = {
+		913 919 1366 916
+	}
+	path = {
+		916 918
+	}
+	path = {
+		926 1374 913
+	}
+	path = {
+		1486 928 915 911
+	}
+	path = {
+		1384 925 1387 1375
+	}
+	path = {
+		1375 913
+	}
+	path = {
+		1375 1377 911
+	}
+}

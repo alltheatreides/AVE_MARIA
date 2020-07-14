@@ -7,10 +7,7 @@ character_event = {
 	ai = no
 	
 	trigger = {
-		OR = {
-			has_game_rule = { name = moon_phases value = yes }
-			has_game_rule = { name = seasons value = yes }
-		}
+		
 	}
 	
 	immediate = {
@@ -133,21 +130,14 @@ character_event = {
 			set_global_flag = winter
 		}
 		
-		IF = {
-			limit = { has_game_rule = { name = moon_phases value = yes } }
-			repeat_event = { id = mp&s_events.101 }
-			repeat_event = { id = mp&s_events.102 }
-			repeat_event = { id = mp&s_events.103 }
-			repeat_event = { id = mp&s_events.104 }
-		}
-		IF = {
-			limit = { has_game_rule = { name = seasons value = yes } }
-			repeat_event = { id = mp&s_events.105 }
-			repeat_event = { id = mp&s_events.106 }
-			repeat_event = { id = mp&s_events.107 }
-			repeat_event = { id = mp&s_events.108 }
-		}
-		
+		repeat_event = { id = mp&s_events.101 }
+		repeat_event = { id = mp&s_events.102 }
+		repeat_event = { id = mp&s_events.103 }
+		repeat_event = { id = mp&s_events.104 }
+		repeat_event = { id = mp&s_events.105 }
+		repeat_event = { id = mp&s_events.106 }
+		repeat_event = { id = mp&s_events.107 }
+		repeat_event = { id = mp&s_events.108 }
 		repeat_event = { id = mp&s_events.100 days = 1 }
 	}
 }
@@ -159,7 +149,6 @@ character_event = {															# New Moons
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = moon_phases value = yes }
 		new_moon_trigger = yes
 	}
 	
@@ -180,7 +169,6 @@ character_event = {															# First Quarter Moons
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = moon_phases value = yes }
 		first_quarter_trigger = yes
 	}
 	
@@ -201,7 +189,6 @@ character_event = {															# Full Moons
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = moon_phases value = yes }
 		full_moon_trigger = yes
 	}
 	
@@ -222,7 +209,6 @@ character_event = {															# Last Quarter Moons
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = moon_phases value = yes }
 		last_quarter_trigger = yes
 	}
 	
@@ -243,7 +229,6 @@ character_event = {															# Vernal Equinoxes
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = seasons value = yes }
 		vernal_equinox_trigger = yes
 	}
 	
@@ -266,7 +251,6 @@ character_event = {															# Estival Solstices
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = seasons value = yes }
 		estival_solstice_trigger = yes
 	}
 	
@@ -289,7 +273,6 @@ character_event = {															# Autumnal Equinoxes
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = seasons value = yes }
 		autumnal_equinox_trigger = yes
 	}
 	
@@ -312,7 +295,6 @@ character_event = {															# Hibernal Solstices
 	is_triggered_only = yes
 	
 	trigger = {
-		has_game_rule = { name = seasons value = yes }
 		hibernal_solstice_trigger = yes
 	}
 	
@@ -336,7 +318,7 @@ character_event = {
 	trigger = {
 		OR = {
 			AND = {
-				has_game_rule = { name = moon_phases value = yes }
+				
 				OR = {
 					has_global_flag = new_moon
 					has_global_flag = first_quarter
@@ -345,8 +327,7 @@ character_event = {
 				}
 			}
 			AND = {
-				has_game_rule = { name = seasons value = yes }
-				OR = {
+						OR = {
 					has_global_flag = vernal_equinox
 					has_global_flag = estival_solstice
 					has_global_flag = autumnal_equinox

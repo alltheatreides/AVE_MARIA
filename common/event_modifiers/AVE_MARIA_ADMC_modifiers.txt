@@ -51,7 +51,7 @@ administrative_capacity_limited = {
 
 ## Physical Distance
 administrative_capacity_distance_one_horse_day_travel_from_capital = {
-	# icon = 31
+	# icon = 277
 	# levy_size = -0.2
 	# garrison_size = -0.5
 	# levy_reinforce_rate = -0.90
@@ -59,7 +59,7 @@ administrative_capacity_distance_one_horse_day_travel_from_capital = {
 }
 
 administrative_capacity_distance_two_horse_day_travel_from_capital = {
-	icon = 31
+	icon = 278
 	levy_size = -0.25
 	# garrison_size = -0.5
 	levy_reinforce_rate = -0.25
@@ -67,7 +67,7 @@ administrative_capacity_distance_two_horse_day_travel_from_capital = {
 }
 
 administrative_capacity_distance_three_horse_day_travel_from_capital = {
-	icon = 31
+	icon = 279
 	levy_size = -0.3
 	# garrison_size = -0.5
 	levy_reinforce_rate = -0.45
@@ -75,7 +75,7 @@ administrative_capacity_distance_three_horse_day_travel_from_capital = {
 }
 
 administrative_capacity_distance_four_horse_day_travel_from_capital = {
-	icon = 31
+	icon = 280
 	levy_size = -0.45
 	# garrison_size = -0.5
 	levy_reinforce_rate = -0.65
@@ -83,7 +83,7 @@ administrative_capacity_distance_four_horse_day_travel_from_capital = {
 }
 
 administrative_capacity_distance_more_than_four_day_horse_day_travel_from_capital = {
-	icon = 31
+	icon = 281
 	levy_size = -0.99
 	# garrison_size = -0.25
 	levy_reinforce_rate = -0.85

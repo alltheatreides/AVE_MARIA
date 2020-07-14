@@ -1,0 +1,99 @@
+central_europe_trade_route = { # Central Europe
+
+	wealth = 35.0		
+	
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 262	# Lubeck
+			province_id = 258	# Bardowick
+			province_id = 366	# Stettin
+			province_id = 1074	# Magdeburg
+			province_id = 978	# Landsberg
+			province_id = 437	# Praha
+			province_id = 1248	# Linz
+			province_id = 434	# Wroclaw
+			province_id = 1966	# Regensburg
+			province_id = 955	# Augsburg
+			province_id = 952	# Frankfurt
+			province_id = 261	# Hamburg
+			province_id = 119	# Cologne
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.07
+		city_tax_modifier = 0.06
+		temple_tax_modifier = 0.05
+		tribal_tax_modifier = 0.25
+		trade_route_value = 9.55
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.05
+		icon = 285
+	}
+
+	start = {	
+		261 306 527	952
+	}
+
+	### Inland route
+	path = { # Rostock - Bardowick
+		306 260 262 1098 258
+	}
+	path = { # Hamburg - Bardowick
+		261 258
+	}
+	path = { # Bardowick - Bremen
+		258 848
+	}
+	path = { # Bardowick - Wittenberg
+		258 257 1074 1075
+	}
+	path = { # Wittenberg - Landsberg
+		1075 1077 978
+	}
+	path = { # Wittenberg - Gdansk
+		1075 365 366 308 1313 367 368
+	}
+	path = { # Landsberg - Ziegenhain
+		978 256 255 1961 1960
+	}
+	path = { 	# Ziegenhain - Cologne
+		1960 1063 119 
+	}
+	path = { # Frankfurt - Ziegenhain
+		952 948 1960 
+	}
+	path = { # Frankfurt - Augsburg
+		952 124 125 250 1037 244 242 248 249 955
+	}
+	path = { # Hanau - Nurnberg
+		952 254 313 314 
+	}
+	path = { # Nurnberg - Landsberg
+		314 998 954 978 
+	}
+	path = { # Augsburg - Nurnberg
+		955 252 1965 314 
+	}
+	path = { 	# Augsburg - Traungau
+		955 360 1966 1408 1248 1380 
+	}
+	path = { 	# Traungau - Gemer
+		1380 449 524 
+	}
+	path = { # Traungau - Praha
+		1380 362 437 
+	}
+	path = { # Praha - Olomouc
+		437 438 441 440 
+	}
+	path = { # Krakow - Landsberg
+		527 433 434 999 364 312 978 
+	}
+	path = { 	# Praha - Meissen
+		437 363 312
+	}
+}
+
+
+

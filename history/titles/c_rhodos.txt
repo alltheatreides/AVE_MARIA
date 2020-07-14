@@ -113,6 +113,10 @@
 				name = orc_small_island
 				duration = -1
 			}
+			add_province_modifier = {
+				name = orc_harbour
+				duration = -1
+			}
 		}
 	}
 }

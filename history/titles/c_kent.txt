@@ -117,3 +117,17 @@
 1331.10.5 = {
 	holder = 454513 # John of Kent, 3rd Earl of Kent
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_grass_flat
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_harbour
+				duration = -1
+			}
+		}
+	}
+}

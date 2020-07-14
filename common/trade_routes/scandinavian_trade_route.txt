@@ -1,0 +1,63 @@
+scandinavian_trade_route = { # Scandinavia
+
+	wealth = 30.0		
+	
+	trade_post_display_trigger = {
+		OR = {		
+		province_id = 301	# Gotland
+		province_id	= 290	# Uppland
+		province_id = 289	# Vastmanland
+		province_id = 382	# Finland
+		province_id = 303	# Skane
+		province_id = 266	# Sjaeland
+		province_id = 950	# South Jylland
+		province_id = 264	# Slesvig
+		province_id = 274	# Bergenshus
+		province_id = 269	# Rogaland
+		province_id = 272	# Akershus
+		province_id = 304	# Rugen
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.04
+		city_tax_modifier = 0.07
+		temple_tax_modifier = 0.03
+		tribal_tax_modifier = 0.50
+		trade_route_value = 6.35
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.04
+		icon = 285
+	}
+
+	start = {	
+		1258 382
+	}
+
+	### Inland route
+	path = { # Finland - Uppland - Vastmanland
+		382 291 1073 290 1072 289
+	}
+	path = { # Vastmanland - East Skane
+		289 292 293 931 6 1144
+	}
+	path = { # East Skane - Hamburg
+		1144 303 266 1027 265 950 264 263 261
+	}
+	
+	### Coastal/Inland route
+	path = { # Iceland - Bergenshus - East Skane
+		1258 1791 1733 33 1763 34 1762 1759 274 269 268 270 271 272 296 297 302 1144
+	}
+	
+	### Coastal route - Baltic Sea
+	path = { # Hano - Gotland
+		1776 301
+	}
+	path = { # Vestmanland - Hano
+		289 1732 1778 1776
+	}
+	path = { # Hano - Rugen
+		1776 1775 304
+	}
+}

@@ -102,3 +102,17 @@
 1322.3.22 = {
 	holder = 454525 # Henry
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_woods_hill
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_estuary
+				duration = -1
+			}
+		}
+	}
+}

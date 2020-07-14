@@ -123,8 +123,14 @@ spriteTypes = {
 		name = GFX_province_terrain_orc_small_island
 		texturefile = gfx\\interface\\terrain\\province_terrain_orc_small_island.dds
 	}	
-
-	
+	spriteType = {	
+		name = GFX_province_terrain_orc_constantinople
+		texturefile = gfx\\interface\\terrain\\province_terrain_orc_constantinople.dds
+	}
+	spriteType = {	
+		name = GFX_province_terrain_orc_baghdad
+		texturefile = gfx\\interface\\terrain\\province_terrain_orc_baghdad.dds
+	}
 
 
 }

@@ -1,0 +1,81 @@
+iberian_trade_route = { # Iberian Peninsula
+	
+	wealth = 35.0		
+	
+	trade_post_display_trigger = {
+		OR = {		
+			province_id = 157	# Santiago
+			province_id	= 152	# Navarra
+			province_id = 1207	# Huesca
+			province_id = 173	# Tarragona
+			province_id = 202	# Zaragoza
+			province_id = 199	# Burgos
+			province_id = 1199	# Segovia
+			province_id = 197	# Toledo
+			province_id = 171	# Valencia
+			province_id = 827	# Palma
+			province_id = 168	# Almeria
+			province_id	= 180	# Granada
+			province_id = 167	# Malaga
+			province_id = 181	# Cordoba
+			province_id = 182	# Sevilla
+			province_id = 160	# Lisboa
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.07
+		temple_tax_modifier = 0.06
+		tribal_tax_modifier = 0.10
+		trade_route_value = 6.65
+		local_movement_speed = 0.07
+		tech_growth_modifier = 0.05
+		icon = 285
+	}
+
+	start = {	
+		160 168 827 1360
+	}
+
+
+	### Inland route
+	path = { # Lisboa - Toledo
+		160 1200 186 193 194 197
+	}
+	path = { # Nakur - Algeciras
+		1360 839 166
+	}
+	path = { # Algeciras - Granada
+		166 167 180
+	}
+	path = { # Almeria - Granada 
+		168 180 
+	}
+	path = { # Granada - Cordoba
+		180 181
+	}
+	path = { # Algeciras - Cordoba
+		166 182 165 181
+	}
+	path = { # Cordoba - Segovia
+		181 1192 196 197 1201 1199
+	}
+	path = { # Segovia - Navarra
+		1199 199 1202 152
+	}
+	path = { # Segovia - Navarra
+		1199 198 1193 191 1191 157 1190 155 154 153 1203 152
+	}
+	path = { # Zaragoza - Narbonne
+		202 1207 203 173 204 1210 205 211 212
+	}
+	path = { # Navarra - Zaragoza
+		152 1204 202
+	}
+		
+	###Coastal/Inland route
+	path = { # Palma - Zaragoza
+		827 1800 1799 171 1208 202
+	}
+}

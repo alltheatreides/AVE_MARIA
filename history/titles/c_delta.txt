@@ -126,3 +126,17 @@
 1309.11.1 = {
 	holder = 485000
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_marsh
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_estuary
+				duration = -1
+			}
+		}
+	}
+}

@@ -73,3 +73,17 @@
 1322.9.17 = {
 	holder = 455710 # Louis I
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_grass_flat
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_harbour
+				duration = -1
+			}
+		}
+	}
+}

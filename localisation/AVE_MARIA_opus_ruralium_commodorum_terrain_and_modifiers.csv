@@ -62,6 +62,8 @@ orc_floodplains_desc;Floodplain terrain represents an area of land adjacent to a
 orc_marsh;Marsh;;;;;;;;;;;;;x
 orc_marsh_desc;Marsh terrain represents tracts of wetland dominated by grasses or low-growing shrubs.  Marshes have always been difficult to traverse until raised roads are lifted above the water.\n\nMarshy terrain takes 6 * province size amount of days to travel across, and is considered §Rrugged§! terrain.\n\nEach level of road network decreases travel time across this province by a factor depending also on the province size.\nMovement cost compared to Grass Flats : §R+150%§!\n;;;;;;;;;;;;;x
 orc_arctic_desc;Arctic terrain represents the snow and ice covered areas close to the North Pole.  Such terrain has always been very difficult and dangerous to cross, and remains so today.\n\nArctic terrain increases CE distance by 1, this cannot be reduced.\nMovement cost compared to Grass Flats : §R+100%§!\n;;;;;;;;;;;;;x
+orc_constantinople;Constantinople;;;;;;;;;;;;;x
+orc_baghdad;Baghdad;;;;;;;;;;;;;x
 orc_great_estuary;[This.GetName]'s Estuary ;;;;;;;;;;;;;x
 orc_estuary;Estuary;;;;;;;;;;;;;x
 orc_delta;Delta;;;;;;;;;;;;;x
@@ -169,7 +171,16 @@ orc_holding_population_395;[This.GetName] has around 395k Population;;;;;;;;;;;;
 orc_holding_population_400;[This.GetName] has around 400k Population;;;;;;;;;;;;;x
 ############# GOODS;;;;;;;;;;;;;;
 orc_urban_good_metal_work;Metalworks;;;;;;;;;;;;;x
-############# OWNERSHIP;;;;;;;;;;;;;;x
+############# OWNERSHIP;;;;;;;;;;;;;;
 orc_ownership_military_aristocracy;Military Aristocracy Ownership;;;;;;;;;;;;;x
 orc_ownership_clergy;Clergy Ownership;;;;;;;;;;;;;x
 orc_ownership_city_charter;City Charter;;;;;;;;;;;;;x
+############# TRADE ROUTES;;;;;;;;;;;;;;x
+great_britain_trade_route;Trade Route;;;;;;;;;;;;;x
+central_europe_trade_route;Trade Route;;;;;;;;;;;;;x
+eastern_europe_trade_route;Trade Route;;;;;;;;;;;;;x
+asia_minor_trade_route;Trade Route;;;;;;;;;;;;;x
+western_europe_trade_route;Trade Route;;;;;;;;;;;;;x
+scandinavian_trade_route;Trade Route;;;;;;;;;;;;;x
+italian_trade_route;Trade Route;;;;;;;;;;;;;x
+iberian_trade_route;Trade Route;;;;;;;;;;;;;x

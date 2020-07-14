@@ -122,3 +122,17 @@
 1291.6.18 = {
 	holder = 461500
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_shrub_hill
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_harbour
+				duration = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+castle = {
+	trigger = {
+	}
+}
+
+city = {
+	trigger = {
+	}
+}
+
+temple = {
+	trigger = {
+	}
+}
+
+trade_post = {
+	trigger = {
+		conditional_tooltip = {
+			trigger = {
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			OR = {
+				eastern_europe_trade_route_post_trigger = yes
+				asia_minor_trade_route_post_trigger = yes
+				scandinavian_trade_route_post_trigger = yes
+				iberian_trade_route_post_trigger = yes
+				italian_trade_route_post_trigger = yes
+				great_britain_trade_route_post_trigger = yes
+				western_europe_trade_route_post_trigger = yes
+				central_europe_trade_route_post_trigger = yes
+				trans_saharan_trade_post_trigger = yes				
+				silk_road_trade_post_trigger = yes
+			}
+			
+		}
+		conditional_tooltip = {
+			trigger = {
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			OR = {
+				eastern_europe_trade_route_post_trigger = yes
+				asia_minor_trade_route_post_trigger = yes
+				scandinavian_trade_route_post_trigger = yes
+				iberian_trade_route_post_trigger = yes
+				italian_trade_route_post_trigger = yes
+				great_britain_trade_route_post_trigger = yes
+				western_europe_trade_route_post_trigger = yes
+				central_europe_trade_route_post_trigger = yes
+				trans_saharan_trade_post_trigger = yes
+				silk_road_trade_post_trigger = yes
+			}
+		}
+	}
+}
+
+family_palace = {
+	trigger = {
+	}
+}
+
+tribal = {
+	trigger = {
+		FROM = { NOT = { government = order_government } }
+	}
+}
+
+nomad = {
+	trigger = {
+	}
+}
+
+fort = {
+	trigger = {
+	}
+}
+
+hospital = {
+	trigger = {
+	}
+}

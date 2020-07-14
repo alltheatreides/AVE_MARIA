@@ -1,0 +1,223 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA																			   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Scripted Triggers																	   #
+#                               													   #
+########################################################################################
+
+## Written by Atreides
+
+#############################################
+# TRADE ROUTE								#
+#############################################
+
+eastern_europe_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = eastern_europe_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {		
+				province_id = 610	# Bolghar
+				province_id = 584	# Nizhny Novgorod
+				province_id = 570	# Tver
+				province_id = 567	# Novgorod Seversky
+				province_id = 378	# Reval
+				province_id = 1068	# Toreida
+				province_id	= 371	# Sambia
+				province_id = 368	# Danzig
+				province_id = 527	# Krakowskie
+				province_id = 452	# Pecs
+				province_id = 456	# Carinthia
+				province_id	= 356	# Venice
+				province_id = 580	# Ryazan
+				province_id = 555	# Pereyaslavl
+				province_id = 547	# Kiev
+				province_id = 557	# Tokmak
+				province_id = 414	# Novgorod
+				province_id = 417	# Vitebsk
+				province_id = 594	# Sarkel
+				province_id = 611	# Qazan
+				province_id = 614	# Ashli
+				province_id = 531	# Sandomierz
+				province_id = 440	# Olomouc
+				province_id = 395	# Northern Dvina
+				province_id = 402	# Veliky Ustyug
+				province_id = 572	# Yaroslavl
+				province_id = 582	# Vladimir
+				province_id = 583	# Suzdal
+				province_id = 568	# Smolensk
+				province_id = 550	# Minsk
+				province_id = 524	# Gemer
+				province_id = 420	# Lithuania
+				province_id = 536	# Halych
+			}
+		}
+	}
+}
+
+asia_minor_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = asia_minor_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {			
+				province_id = 1347	# Tzamondos
+				province_id = 753	# Ankara
+				province_id = 741	# Nikomedia
+				province_id = 496	# Constantinople
+				province_id = 939	# Polybotos
+				province_id = 746	# Ephesos
+				province_id = 484	# Naxos
+				province_id = 755	# Antalya
+				province_id = 757	# Famagusta
+				province_id = 483	# Rhodos
+				province_id = 477	# Methone
+				province_id = 510	# Constantia
+				province_id = 1015	# Skopje
+				province_id = 470	# Dyrrachion
+				province_id = 468	# Ragusa
+				province_id = 467	# Split
+				province_id = 490	# Thessalonika
+				province_id = 482	# Athens
+				province_id = 499	# Tarnovo
+				province_id = 1000	# Syrmia
+			}
+		}
+	}
+}
+
+scandinavian_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = scandinavian_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {				
+				province_id = 301	# Gotland
+				province_id	= 290	# Uppland
+				province_id = 289	# Vastmanland
+				province_id = 382	# Finland
+				province_id = 303	# Skane
+				province_id = 266	# Sjaeland
+				province_id = 950	# South Jylland
+				province_id = 264	# Slesvig
+				province_id = 274	# Bergenshus
+				province_id = 269	# Rogaland
+				province_id = 272	# Akershus				
+			}
+		}
+	}
+}
+
+iberian_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = iberian_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {				
+				province_id = 157	# Santiago
+				province_id	= 152	# Navarra
+				province_id = 1207	# Huesca
+				province_id = 173	# Tarragona
+				province_id = 202	# Zaragoza
+				province_id = 199	# Burgos
+				province_id = 1199	# Segovia
+				province_id = 197	# Toledo
+				province_id = 171	# Valencia
+				province_id = 827	# Palma
+				province_id = 168	# Almeria
+				province_id	= 180	# Granada
+				province_id = 167	# Malaga
+				province_id = 181	# Cordoba
+				province_id = 182	# Sevilla
+				province_id = 160	# Lisboa				
+			}
+		}
+	}
+}
+
+italian_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = italian_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {				
+				province_id = 326	# Cagliari
+				province_id = 340	# Palermo
+				province_id = 343	# Siracusa
+				province_id = 1105	# Gaeta
+				province_id = 333	# Roma
+				province_id = 328	# Florence
+				province_id = 1111	# Andria
+				province_id = 350	# Ancona
+				province_id = 352	# Bologna
+				province_id = 316	# Tirol
+				province_id = 235	# Lombardia
+			}
+		}
+	}
+}
+
+great_britain_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = great_britain_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {
+				province_id = 11	# Dublin
+				province_id = 1430	# Cork
+				province_id = 1423	# Aberdeen
+				province_id = 32	# Middlesex
+				province_id = 61	# Lincoln
+				province_id = 57	# York
+				province_id = 52	# Northumberland
+				province_id = 48	# Lothian
+				province_id = 43	# Gowrie
+				province_id = 26	# Winchester
+				province_id = 67	# Warwick
+			}
+		}
+	}
+}
+
+western_europe_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = western_europe_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {
+				province_id = 151	# Bayonne
+				province_id = 149	# Bordeaux
+				province_id = 138	# Orleans
+				province_id = 112	# Paris
+				province_id = 77	# Artois
+				province_id = 78	# Bruges
+				province_id = 1019	# Brussels
+				province_id = 81	# Utrecht
+				province_id = 1059	# Deventer
+				province_id = 130	# Troyes
+				province_id = 1165	# Langres/Bar sur Aube
+				province_id = 227	# Lyon
+				province_id = 1047	# Marseille
+			}
+		}
+	}
+}
+
+central_europe_trade_route_post_trigger = {
+	custom_tooltip = {
+		text = central_europe_trade_route_province_desc
+		hidden_tooltip = {
+			OR = {
+				province_id = 262	# Lubeck
+				province_id = 258	# Bardowick
+				province_id = 366	# Stettin
+				province_id = 1074	# Magdeburg
+				province_id = 978	# Landsberg
+				province_id = 437	# Praha
+				province_id = 1248	# Linz
+				province_id = 434	# Wroclaw
+				province_id = 1966	# Regensburg
+				province_id = 955	# Augsburg
+				province_id = 952	# Frankfurt
+				province_id = 261	# Hamburg
+				province_id = 119	# Cologne				
+			}
+		}
+	}
+}
+

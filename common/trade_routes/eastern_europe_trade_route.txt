@@ -1,0 +1,137 @@
+eastern_europe_trade_route = { # Rus - Poland - Hungary - Venice
+	
+	wealth = 40.0		
+	
+	trade_post_display_trigger = {
+		OR = {		
+			province_id = 610	# Bolghar
+			province_id = 584	# Nizhny Novgorod
+			province_id = 570	# Tver
+			province_id = 567	# Novgorod Seversky
+			province_id = 378	# Reval
+			province_id = 1068	# Toreida
+			province_id	= 371	# Sambia
+			province_id = 368	# Danzig
+			province_id = 527	# Krakowskie
+			province_id = 452	# Pecs
+			province_id = 456	# Carinthia
+			province_id	= 356	# Venice
+			province_id = 580	# Ryazan
+			province_id = 555	# Pereyaslavl
+			province_id = 547	# Kiev
+			province_id = 557	# Tokmak
+			province_id = 414	# Novgorod
+			province_id = 417	# Vitebsk
+			province_id = 536	# Halych
+			province_id = 594	# Sarkel
+			province_id = 611	# Qazan
+			province_id = 614	# Ashli
+			province_id = 531	# Sandomierz
+			province_id = 440	# Olomouc
+			province_id = 395	# Northern Dvina
+			province_id = 402	# Veliky Ustyug
+			province_id = 572	# Yaroslavl
+			province_id = 582	# Vladimir
+			province_id = 583	# Suzdal
+			province_id = 568	# Smolensk
+			province_id = 550	# Minsk
+			province_id = 524	# Gemer
+			province_id = 420	# Lithuania
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.08
+		temple_tax_modifier = 0.04
+		tribal_tax_modifier = 0.50
+		trade_route_value = 11.2
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.04
+		icon = 285
+	}
+
+	start = {	
+		892 395	417
+	}
+
+	### Inland route
+	path = { # Mansia/Pelym - Ashli
+		892 889 615 613 610 611 614 
+	}
+	path = { 	# Ashli - Nizhny Novgorod
+		614 590 584
+	}
+	path = { # Ashli - Azov
+		614 592 593 594 566 597
+	}
+	path = { # Dvina - Yaroslavl
+		395 405 402 406 572
+	}
+	path = { # Yaroslavl - Rostov
+		572 574
+	}
+	path = { # Yaroslavl - Novgorod
+		572 1287 408 404 409 414
+	}
+	path = { # Nizhny Novgorod - Rostov
+		584 583 574
+	}
+	path = { # Rostov - Vitebsk
+		574 582 573 570 569 568 417
+	}
+	path = { # Nizhny Novgorod - Pereyaslavl
+		584 581 580 577 1275 1277 567 554 555
+	}
+	path = { # Pereyaslavl - Halych
+		555 547 1279 546 536
+	}
+	path = { # Halych - Krakowskie
+		536 534 996 527
+	}
+	path = { # Halych - Constantia
+		536 545 1147 513 510
+	}
+	path = { # Pereyaslavl - Cherson
+		555 1288 558 557 559 1699 560
+	}
+	path = { # Vitebsk - Novgorod
+		417 415 1269 414
+	}
+	path = { # Novgorod - Toreida
+		414 1268 380 378 987 377 986 1068
+	}
+	path = { # Toreida - Nadruvia
+		1068 374 421 422 1300
+	}
+	path = { # Nadruvia - Krakowskie
+		1300 371 370 1298 1297 368 369 1055 429 528 527
+	}
+	path = { # Vitebsk - Minsk Turov
+		417 994 550
+	}
+	path = { # Minsk - Turov
+		550 552
+	}
+	path = { # Minsk - Nadruvia
+		550 1306 1305 420 989 423 1300
+	}
+	path = { # Turov - Pereyaslavl
+		552 553 555
+	}
+	path = { # Turov - Krakowskie
+		552 548 549 531 527
+	}
+	path = { # Vitebsk - Toreida
+		417 419 962 985 1068
+	}
+	path = { # Krakowskie - Pecs
+		527 526 440 445 524 451 452
+	}
+	path = { # Pecs - Venice
+		452 537 454 1317 456 358 356
+	}
+	path = { # Pecs - Syrmia
+		452 518 1000     
+	}
+}

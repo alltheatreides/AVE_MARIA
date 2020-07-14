@@ -156,3 +156,17 @@
 1328.12.31 = {
 	holder = 463600 # Francesco Dandalo
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_marsh
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_harbour
+				duration = -1
+			}
+		}
+	}
+}

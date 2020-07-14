@@ -1,0 +1,77 @@
+italian_trade_route = { # Italian Peninsula
+	
+	wealth = 40.0		
+	
+	trade_post_display_trigger = {
+		OR = {		
+			province_id = 326	# Cagliari
+			province_id = 340	# Palermo
+			province_id = 1126	# Modica
+			province_id = 1105	# Gaeta
+			province_id = 333	# Roma
+			province_id = 328	# Florence
+			province_id = 1111	# Andria
+			province_id = 350	# Ancona
+			province_id = 352	# Bologna
+			province_id = 316	# Tirol
+			province_id = 235	# Lombardia
+			province_id = 319	# Verona
+		}
+	}
+
+	modifier = {	
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.07
+		temple_tax_modifier = 0.06
+		tribal_tax_modifier = 0.05
+		trade_route_value = 9.75
+		local_movement_speed = 0.08
+		tech_growth_modifier = 0.05
+		icon = 285
+	}
+
+	start = {	
+		340 345	327	237
+	}
+
+	### Inland route
+	path = { # Palermo - Florence
+		340 342 1126 343 338 1136 337 937 336 935 851 1105 1128 333 243 1135 330 328
+	}
+	path = { # Pisa - Florence
+		327 1137 328
+	}
+	path = { # Florence - Bologna
+		328 1107 352
+	}
+	path = { # Lecce - Bologna
+		345 346 1111 348 1108 1113 929 350 329 1133 1123 352
+	}
+	path = { # Bologna - Verona
+		352 353 319
+	}
+	path = { # Verona - Venezia
+		319 1131 355 356
+	}
+	path = { # Verona - Augsburg
+		319 317 316 955
+	}
+	path = { # Bologna - Pavia
+		352 322 321 1124 234
+	}
+	path = { # Pavia - Thurgau
+		234 235 1142 247 248
+	}
+	path = { # Pavia - Genoa
+		234 1140 233
+	}
+	path = { # Pavia - Savoy
+		237 236 232 234
+	}	
+	
+	### Coastal route
+	path = { # Palermo - Cagliari
+		340 1809 1807 1808 326
+	}
+}
+

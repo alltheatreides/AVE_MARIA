@@ -99,3 +99,21 @@
 1332.1.1 = {
 	holder = 455502 # Jean III
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_grass_flat
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_harbour
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_estuary
+				duration = -1
+			}
+		}
+	}
+}

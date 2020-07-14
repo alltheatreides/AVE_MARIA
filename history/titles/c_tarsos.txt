@@ -167,3 +167,17 @@
 1320.7.20 = {
 	holder = 461800 # Levon IV
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_shrub_highlands
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_harbour
+				duration = -1
+			}
+		}
+	}
+}
