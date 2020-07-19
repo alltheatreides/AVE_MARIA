@@ -70,3 +70,21 @@
 1337.6.7 = {
 	holder = 487011 # Willem IV
 }
+400.1.1 = {
+	effect = {
+		location = {
+			add_province_modifier = {
+				name = orc_marsh
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_great_harbour
+				duration = -1
+			}
+			add_province_modifier = {
+				name = orc_estuary
+				duration = -1
+			}
+		}
+	}
+}

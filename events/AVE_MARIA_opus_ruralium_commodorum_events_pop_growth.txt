@@ -1,0 +1,124 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_opus_ruralium_commodorum.1 - AVE_MARIA_opus_ruralium_commodorum.499	   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_opus_ruralium_commodorum_pop_growth
+
+##NOTES:
+##
+## Start up Food assignment
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_pop_growth.1
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		any_title = {
+			limit = {
+				tier = baron
+			}
+			location = {
+				trigger_switch = {
+					on_trigger = terrain
+					orc_forest_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_forest_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_forest_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_forest_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_woods_flat = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_woods_hill = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_woods_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_woods_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_shrub_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_shrub_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_shrub_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_shrub_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_grass_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_grass_hill = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_grass_mountains = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_grass_highlands = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_desert_flat = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_desert_hill = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_desert_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_desert_highlands = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_jungle_flat = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_jungle_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_floodplains = { PREV = { change_variable = { which = orc_food value = 15 } } }
+					orc_alpine_tundra = { PREV = { change_variable = { which = orc_food value = 9 } } }
+					orc_marsh = { PREV = { change_variable = { which = orc_food value = 13 } } }
+					orc_taiga = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_tundra = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_small_island = { PREV = { change_variable = { which = orc_food value = 11 } } }
+				}
+			}
+		}
+	}
+}
+
+## Yearly food calculation
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_pop_growth.2
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		any_title = {
+			limit = {
+				tier = baron
+			}
+			subtract_variable = { which = orc_food which = orc_holding_total_pop }
+		}
+	}
+}
+
+character_event = {
+	id = AVE_MARIA_opus_ruralium_commodorum_pop_growth.3
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+		is_multiplayer_host_character = yes
+	}
+	
+	immediate = {
+		any_title = {
+			limit = {
+				tier = baron
+			}
+			if = {
+				limit = {
+					check_variable = { which = orc_food >= 1 }
+				}
+				if = {
+					limit = {
+						location = { religion_group = christian }
+					}
+					change_variable = { which = orc_rural_peasant_pop_christian }
+				}
+			}
+		}
+	}
+}
