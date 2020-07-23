@@ -9,23 +9,412 @@
 
 # Written by Atreides
 
-namespace = AVE_MARIA_de_re_militari_siege_events
+namespace = AVE_MARIA_de_re_militari_battle_events
 
 ##NOTES:
 ## More narrative based siege events and less EU4 tick down system 
 ## Attacker decision on how to approach the siege:negotiate, wait and starve, assault immediatly, prepare siege equipment for an assault, mine the walls
 ## Defender reacts to attacker decision: accept negotiations, refuse negotiations, sortie to harass, sortie to destroy siege equipment, counter mining, do nothing
 
+
+### From on_actions, at the start of the combat and in pulse, assign defender/attacker flags to characters leading flanks
+### Another event for the combat leader to decide what to do
+### Maintenance event for commander joining the fight when conduct of action has already been decided but they replace the previous commander
+### Event to plug in replacing leader into the event chain
+
+### Change the early operational stuff to affect early morale. Then regular charge tactic etcc are determined later depending on previous conditions
+### Most casualties should occur during the pursuit phase
+
+### Handing out flags
 character_event = {
-	id = AVE_MARIA_de_re_militari_siege_events.1
+	id = AVE_MARIA_de_re_militari_battle_events.1
 	hide_window = yes
 	is_triggered_only = yes
 	
 	trigger = {
+		in_battle = yes
+		NOR = {
+			has_character_flag = de_re_militari_started_battle 
+			has_character_flag = de_re_militari_attacker
+			has_character_flag = de_re_militari_defender
+			has_character_flag = de_re_militari_field_commander_attacker
+			has_character_flag = de_re_militari_field_commander_defender
+		}
+	}
+	
+	immediate = {
+		set_character_flag = de_re_militari_started_battle
+		combat = {
+			if = {
+				limit = {
+					is_attacker = yes
+				}
+				ROOT = {
+					set_character_flag = de_re_militari_attacker 
+					save_event_target_as = de_re_militari_attacker 
+					# if = {
+						# limit = {
+							# de_re_militari_field_commander = yes
+						# }
+						# set_character_flag = de_re_militari_field_commander_attacker
+						# save_event_target_as = de_re_militari_field_commander_attacker
+					# }
+					location = {
+						if = {
+							limit = {
+								NOT = { has_province_flag = de_re_militari_field_commander_attacker_selected }
+							}
+							set_province_flag = de_re_militari_field_commander_attacker_selected
+							random_character = { ### Replace the random_character with a random_list with some chances and an any_character with some weighing ?
+								limit = {
+									in_battle = yes
+									has_character_flag = de_re_militari_attacker
+									at_location = PREV
+								}
+								set_character_flag = de_re_militari_field_commander_attacker
+								save_event_target_as = de_re_militari_field_commander_attacker
+								# character_event = { id = AVE_MARIA_de_re_militari_battle_events.4 }
+							}
+						}					
+					}
+				}
+				
+			}
+			if = {
+				limit = {
+					is_attacker = no
+				}
+				ROOT = { 
+					set_character_flag = de_re_militari_defender 
+					save_event_target_as = de_re_militari_defender
+					# if = {
+						# limit = {
+							# de_re_militari_field_commander = yes
+						# }
+						# set_character_flag = de_re_militari_field_commander_defender
+						# save_event_target_as = de_re_militari_field_commander_defender
+					# }
+					location = {
+						if = {
+							limit = {
+								NOT = { has_province_flag = de_re_militari_field_commander_defender_selected }
+							}
+							set_province_flag = de_re_militari_field_commander_defender_selected
+							random_character = {
+								limit = {
+									in_battle = yes
+									has_character_flag = de_re_militari_defender
+									at_location = PREV
+								}
+								set_character_flag = de_re_militari_field_commander_defender
+								save_event_target_as = de_re_militari_field_commander_defender
+							}
+						}					
+					}
+				}
+				
+			}
+		}
+		# event_target:de_re_militari_field_commander_attacker = {
+			# character_event = {
+				# id = AVE_MARIA_de_re_militari_battle_events.2
+			# }
+		# }
+	}
+	
+	## tag the ennemy of the central_flank_leader and the center_flank_leader with an event target
+	## tag the units/ leader with an event target for first arrived
+}
+
+### WIP - here needs to select a commander after some time, preferably the one with higher martial taking control
+character_event = {
+	id = AVE_MARIA_de_re_militari_battle_events.2
+	is_triggered_only = yes
+	
+	trigger = {
+		in_battle = yes
+		has_character_flag = de_re_militari_started_battle 
+		has_character_flag = de_re_militari_attacker
+		has_character_flag = de_re_militari_field_commander_attacker
+		combat = {
+			flank_has_tactic = de_re_militari_scouting
+		}
+	}
+	
+	immediate = {
+		set_character_flag = de_re_militari_field_commander
+	}
+	
+	# option = { ## code to make everyone follow the same tactic
+		# name = "Charge"
+		# combat = {
+			# set_flank_tactic = de_re_militari_regular_melee
+			# enemy = {
+				# set_flank_tactic = de_re_militari_regular_melee
+			# }
+		# }
+		# location = {
+			# any_character = {
+				# limit = {
+					# has_character_flag = de_re_militari_attacker
+				# }
+				# combat = {
+					# set_flank_tactic = de_re_militari_regular_melee
+					# enemy = {
+						# set_flank_tactic = de_re_militari_regular_melee
+					# }
+				# }
+			# }
+		# }
+		# after = {
+			# clear_flags_with_prefix = de_re_militari_
+		# }
 		
+	# }
+	
+	option = {
+		name = "Charge even more"
+		# trigger = {
+			# center_flank_leader = {
+				# mercenary = no
+			# }
+		# }
+		# combat = {
+			# set_flank_tactic = de_re_militari_regular_melee
+			# enemy = {
+				# set_flank_tactic = de_re_militari_regular_melee
+			# }
+		# }
+		
+	}
+	
+	
+}
+
+## Event to clr the flags at battle won/lost
+character_event = {
+	id = AVE_MARIA_de_re_militari_battle_events.3
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		clear_flags_with_prefix = de_re_militari_
+		location = { 
+			clear_flags_with_prefix = de_re_militari_
+			clr_flag = de_re_militari_field_commander_attacker_selected
+			clr_flag = de_re_militari_field_commander_defender_selected
+		}
+	}
+}
+
+
+## Initial event for commander to decide what to do
+## Decide to shadow the ennemy and not engage
+## Decide to directly engage - Higher chance to get an uncoordinated charge and bad odds
+## Gather more information: create a variable that gives more information and allows to gain better odds
+character_event = {
+	id = AVE_MARIA_de_re_militari_battle_events.4
+	is_triggered_only = yes
+	
+	trigger = {
+		in_battle = yes
+		has_character_flag = de_re_militari_started_battle 
+		has_character_flag = de_re_militari_attacker
+		has_character_flag = de_re_militari_field_commander_attacker
+		combat = {
+			# flank_has_tactic = de_re_militari_scouting
+			phase = skirmish
+		}
+		location = {
+			has_flag = de_re_militari_field_commander_attacker_selected
+		}
 	}
 	
 	immediate = {
 		
 	}
+	
+	option = { ## Shadow the ennemy
+		name = OPT_A_AVE_MARIA_de_re_militari_battle_events.4
+		ai_chance = {
+			factor = 20
+		}
+		character_event = {
+			id = AVE_MARIA_de_re_militari_battle_events.4
+			days = 5
+		}
+	}
+	option = { ## Directly Engage
+		name = OPT_B_AVE_MARIA_de_re_militari_battle_events.4
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 10
+				trait = aggressive_leader
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 10
+						martial < 10
+					}
+					modifier = {
+						factor = 10
+						NOT = { trait = organizer }
+					}
+					modifier = {
+						factor = 10
+						trait = aggressive_leader
+					}
+					modifier = {
+						factor = 10
+						has_negative_conscientiousness_trait = yes
+					}
+					combat = {
+						set_flank_tactic = de_re_militari_rushed_attack
+						enemy = {
+							character_event = { id = AVE_MARIA_de_re_militari_battle_events.5 }
+						}
+					}
+					location = {
+						any_character = {
+							limit = {
+								has_character_flag = de_re_militari_attacker
+							}
+							combat = {
+								set_flank_tactic = de_re_militari_rushed_attack
+							}
+						}
+					}
+				}
+				50 = {
+					modifier = {
+						factor = 10
+						martial > 10
+					}
+					modifier = {
+						factor = 10
+						trait = organizer
+					}
+					modifier = {
+						factor = 50
+						combat = {
+							OR = {
+								troops = {
+									who = light_cavalry
+									value >= 0.5
+									enemy = no
+								}
+								troops = {
+									who = knights
+									value >= 0.5
+									enemy = no
+								}
+								troops = {
+									who = horse_archers
+									value >= 0.5
+									enemy = no
+								}
+							}						
+						}
+					}
+					combat = {
+						set_flank_tactic = de_re_militari_surprise_attack
+					}
+					location = {
+						any_character = {
+							limit = {
+								has_character_flag = de_re_militari_attacker
+							}
+							combat = {
+								set_flank_tactic = de_re_militari_surprise_attack
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	option = { ## Gather more information
+		name = OPT_C_AVE_MARIA_de_re_militari_battle_events.4
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = { ## Disengage
+		name = OPT_D_AVE_MARIA_de_re_militari_battle_events.4
+		ai_chance = {
+			factor = 20
+		}
+		combat = {
+			set_flank_tactic = de_re_militari_early_retreat
+		}
+	}
 }
+
+## Rushed Attack Enemy response
+character_event = {
+	id = AVE_MARIA_de_re_militari_battle_events.5
+	is_triggered_only = yes
+	
+	option = {
+		name = OPT_A_AVE_MARIA_de_re_militari_battle_events.5
+		random_list = {
+			50 = {
+				combat = {
+					set_flank_tactic = de_re_militari_effective_defense
+				}
+			}
+			50 = {
+				combat = {
+					set_flank_tactic = de_re_militari_disorganized_defense
+				}
+			}
+		}
+		
+	}
+	option = {
+		name = OPT_B_AVE_MARIA_de_re_militari_battle_events.5
+		random_list = {
+			50 = {
+				combat = {
+					set_flank_tactic = de_re_militari_effective_retreat
+				}
+			}
+			50 = {
+				combat = {
+					set_flank_tactic = de_re_militari_disorganized_retreat
+				}
+			}
+		}
+	}
+}
+
+## Shadow the enemy - Enemy Response
+## Send Scouts to gather more information
+## March for Counter Attack - Higher chance of successful counter attack and enemy surprise if good recon and fast moving troops
+## Set up in a defensive position
+
+## Shadow the enemy - Enemy Counter attack - Friendly response
+## Quickly stand and fight - can lead to uncoordinated defense depending on various factors
+## Flee - Higher chance if fast moving troops
+
+## Directly Engage - Enemy Response
+## Quickly stand and fight - can lead to uncoordinated defense depending on various factors
+## Flee - Higher chance if fast moving troops
+
+## Gather more information - Enemy Response
+## Send Scouts to gather more information
+## Find a suitable defensive position - higher chance as you have more time
+## Flee - Higher chance if fast moving troops
+
+## Gather more information - Enemy Response is finding a defensive position
+## Attack despite enemy favourable odds
+## Harass his defensive positions if the ennemy has favourable odds
+
+## Gather more information - Enemy Response is finding a defensive position - Harass Position - Enemy Response
+## Sally out from successful harassement
+## Leave defensive position and retreat

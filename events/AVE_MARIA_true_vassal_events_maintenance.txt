@@ -393,6 +393,23 @@ character_event = {
     hide_window = yes
     is_triggered_only = yes
 	
+	trigger = {
+		NOR = {
+			government = roman_imperial_government
+			government = roman_administration_military_government
+			government = roman_administration_civilian_government
+			government = roman_administration_family_government
+		}
+		liege = {
+			NOR = {
+				government = roman_imperial_government
+				government = roman_administration_military_government
+				government = roman_administration_civilian_government
+				government = roman_administration_family_government
+			}
+		}
+	}
+	
 	immediate = {
 		if = {
 			limit = {

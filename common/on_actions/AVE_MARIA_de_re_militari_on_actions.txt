@@ -1,0 +1,58 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# On Actions OPUS RURALIUM COMMODORUM												   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_startup = {
+
+	events = {
+		AVE_MARIA_opus_ruralium_commodorum_maintenance.2
+		AVE_MARIA_opus_ruralium_commodorum_starting_pop.1
+		AVE_MARIA_opus_ruralium_commodorum_starting_building.1
+	}
+}
+
+
+on_yearly_pulse = {
+	events = {
+		# AVE_MARIA_ADMC_maintenance.1
+	}
+}
+
+on_new_holder = {
+	events = {
+		AVE_MARIA_opus_ruralium_commodorum_maintenance.1
+	}
+}
+
+### on combat starting
+#FROM is the character who is the commander of the opposing side
+#FROMFROM is the character who is the LIEGE of the commander of the opposing side
+on_combat_starting = {
+	events = {
+		# AVE_MARIA_de_re_militari_battle_events.1
+	}
+}
+
+### on combat pulse
+#FROM is the character who is the commander of the opposing side
+#FROMFROM is the character who is the LIEGE of the commander of the opposing side
+on_combat_pulse = {
+	events = {
+		AVE_MARIA_de_re_militari_battle_events.1
+		AVE_MARIA_de_re_militari_battle_events.4
+		# AVE_MARIA_de_re_militari_battle_events.2
+	}
+}
+
+on_battle_won = {
+	events = {
+		AVE_MARIA_de_re_militari_battle_events.3
+	}
+}

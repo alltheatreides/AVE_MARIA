@@ -196,6 +196,7 @@ title_commander = {
 			primary_title = { temporary = yes } 
 		}
 		liege = { character = FROM }
+		higher_tier_than = baron
 		OR = {
 			AND = {
 				OR = {

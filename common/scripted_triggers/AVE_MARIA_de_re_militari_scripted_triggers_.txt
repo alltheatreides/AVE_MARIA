@@ -46,3 +46,11 @@ has_all_armor_equipped = {
 	has_helmet_equipped_trigger = yes
 	has_armor_equipped_trigger = yes
 }
+
+de_re_militari_field_commander = {
+	OR = {
+		has_character_flag = de_re_militari_field_commander
+		has_minor_title = de_re_militari_title_field_commander
+	}
+	# martial > 10
+}
