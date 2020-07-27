@@ -199,6 +199,27 @@ title_commander = {
 		higher_tier_than = baron
 		OR = {
 			AND = {
+				FROM = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+				ROOT = {
+					primary_title = {
+						roman_administration_tagma_title_held_trigger = yes
+					}
+				}
+			}
+			FROM = {
+				NOT = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+			}
+		}
+		OR = {
+			AND = {
 				OR = {
 					male_can_hold_minor_title_trigger = yes
 					female_can_hold_minor_commander_title_trigger = yes

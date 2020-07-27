@@ -1,0 +1,36 @@
+##Muslim Imperial Government ##To move to proper file
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_muslim_imperial_government"
+		texturefile = "gfx\\interface\\government_icon_muslim_imperial.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_islamic_administration_military_government"
+		texturefile = "gfx\\interface\\government_icon_islamic_administration_military_government.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_islamic_administration_civilian_government"
+		texturefile = "gfx\\interface\\government_icon_islamic_administration_civilian_government.dds"
+	}
+}
+
+##EVENTS
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ave_maria_islamic_government_sultan_audience"
+		texturefile = "gfx\\event_pictures\ave_maria_islamic_government_sultan_audience.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ave_maria_islamic_government_mamluk_fight"
+		texturefile = "gfx\\event_pictures\ave_maria_islamic_government_mamluk_fight.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_ave_maria_islamic_government_court_life"
+		texturefile = "gfx\\event_pictures\ave_maria_islamic_government_court_life.dds"
+		allwaystransparent = yes
+	}
+}
+

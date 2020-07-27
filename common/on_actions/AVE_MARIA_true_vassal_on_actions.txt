@@ -46,6 +46,8 @@ on_create_title = {
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder ={
 	events = {
+		# Cleaning of Vanilla Vassals
+		AVE_MARIA_true_vassal_maintenance.1
 		# Making sure you are not a vassal of someone lower_tier
 		AVE_MARIA_true_vassal_maintenance.3
 

@@ -85,90 +85,91 @@ orc_confluence_desc;[This.GetName] is located at the confluence of several river
 orc_road_paved_desc;Paved Road allow greater speed of movement for armies and facilitate trade.;;;;;;;;;;;;;x
 orc_road_desc;Roads allow greater speed of movement for armies and facilitate trade.;;;;;;;;;;;;;x
 orc_population_display;[This.GetName] Province Population;;;;;;;;;;;;;x
+orc_population_display_desc;[This.GetName] has around [This.orc_province_total_pop.GetValue],000 inhabitants.;;;;;;;;;;;;;x
 orc_rural_province_population;[This.GetName] Rural Population;;;;;;;;;;;;;x
 orc_urban_province_population;[This.GetName] Urban Population;;;;;;;;;;;;;x
 ############# POP DISPLAY;;;;;;;;;;;;;;
-orc_holding_population_1;[This.GetName] has around 1k Population;;;;;;;;;;;;;x
-orc_holding_population_5;[This.GetName] has around 5k Population;;;;;;;;;;;;;x
-orc_holding_population_10;[This.GetName] has around 10k Population;;;;;;;;;;;;;x
-orc_holding_population_15;[This.GetName] has around 15k Population;;;;;;;;;;;;;x
-orc_holding_population_20;[This.GetName] has around 20k Population;;;;;;;;;;;;;x
-orc_holding_population_25;[This.GetName] has around 25k Population;;;;;;;;;;;;;x
-orc_holding_population_30;[This.GetName] has around 30k Population;;;;;;;;;;;;;x
-orc_holding_population_35;[This.GetName] has around 35k Population;;;;;;;;;;;;;x
-orc_holding_population_40;[This.GetName] has around 40k Population;;;;;;;;;;;;;x
-orc_holding_population_45;[This.GetName] has around 45k Population;;;;;;;;;;;;;x
-orc_holding_population_50;[This.GetName] has around 50k Population;;;;;;;;;;;;;x
-orc_holding_population_55;[This.GetName] has around 55k Population;;;;;;;;;;;;;x
-orc_holding_population_60;[This.GetName] has around 60k Population;;;;;;;;;;;;;x
-orc_holding_population_65;[This.GetName] has around 65k Population;;;;;;;;;;;;;x
-orc_holding_population_70;[This.GetName] has around 70k Population;;;;;;;;;;;;;x
-orc_holding_population_75;[This.GetName] has around 75k Population;;;;;;;;;;;;;x
-orc_holding_population_80;[This.GetName] has around 80k Population;;;;;;;;;;;;;x
-orc_holding_population_85;[This.GetName] has around 85k Population;;;;;;;;;;;;;x
-orc_holding_population_90;[This.GetName] has around 90k Population;;;;;;;;;;;;;x
-orc_holding_population_95;[This.GetName] has around 95k Population;;;;;;;;;;;;;x
-orc_holding_population_100;[This.GetName] has around 100k Population;;;;;;;;;;;;;x
-orc_holding_population_105;[This.GetName] has around 105k Population;;;;;;;;;;;;;x
-orc_holding_population_110;[This.GetName] has around 110k Population;;;;;;;;;;;;;x
-orc_holding_population_115;[This.GetName] has around 115k Population;;;;;;;;;;;;;x
-orc_holding_population_120;[This.GetName] has around 120k Population;;;;;;;;;;;;;x
-orc_holding_population_125;[This.GetName] has around 125k Population;;;;;;;;;;;;;x
-orc_holding_population_130;[This.GetName] has around 130k Population;;;;;;;;;;;;;x
-orc_holding_population_135;[This.GetName] has around 135k Population;;;;;;;;;;;;;x
-orc_holding_population_140;[This.GetName] has around 140k Population;;;;;;;;;;;;;x
-orc_holding_population_145;[This.GetName] has around 145k Population;;;;;;;;;;;;;x
-orc_holding_population_150;[This.GetName] has around 150k Population;;;;;;;;;;;;;x
-orc_holding_population_155;[This.GetName] has around 155k Population;;;;;;;;;;;;;x
-orc_holding_population_160;[This.GetName] has around 160k Population;;;;;;;;;;;;;x
-orc_holding_population_165;[This.GetName] has around 165k Population;;;;;;;;;;;;;x
-orc_holding_population_170;[This.GetName] has around 170k Population;;;;;;;;;;;;;x
-orc_holding_population_175;[This.GetName] has around 175k Population;;;;;;;;;;;;;x
-orc_holding_population_180;[This.GetName] has around 180k Population;;;;;;;;;;;;;x
-orc_holding_population_185;[This.GetName] has around 185k Population;;;;;;;;;;;;;x
-orc_holding_population_190;[This.GetName] has around 190k Population;;;;;;;;;;;;;x
-orc_holding_population_195;[This.GetName] has around 195k Population;;;;;;;;;;;;;x
-orc_holding_population_200;[This.GetName] has around 200k Population;;;;;;;;;;;;;x
-orc_holding_population_205;[This.GetName] has around 205k Population;;;;;;;;;;;;;x
-orc_holding_population_210;[This.GetName] has around 210k Population;;;;;;;;;;;;;x
-orc_holding_population_215;[This.GetName] has around 215k Population;;;;;;;;;;;;;x
-orc_holding_population_220;[This.GetName] has around 220k Population;;;;;;;;;;;;;x
-orc_holding_population_225;[This.GetName] has around 225k Population;;;;;;;;;;;;;x
-orc_holding_population_230;[This.GetName] has around 230k Population;;;;;;;;;;;;;x
-orc_holding_population_235;[This.GetName] has around 235k Population;;;;;;;;;;;;;x
-orc_holding_population_240;[This.GetName] has around 240k Population;;;;;;;;;;;;;x
-orc_holding_population_245;[This.GetName] has around 245k Population;;;;;;;;;;;;;x
-orc_holding_population_250;[This.GetName] has around 250k Population;;;;;;;;;;;;;x
-orc_holding_population_255;[This.GetName] has around 255k Population;;;;;;;;;;;;;x
-orc_holding_population_260;[This.GetName] has around 260k Population;;;;;;;;;;;;;x
-orc_holding_population_265;[This.GetName] has around 265k Population;;;;;;;;;;;;;x
-orc_holding_population_270;[This.GetName] has around 270k Population;;;;;;;;;;;;;x
-orc_holding_population_275;[This.GetName] has around 275k Population;;;;;;;;;;;;;x
-orc_holding_population_280;[This.GetName] has around 280k Population;;;;;;;;;;;;;x
-orc_holding_population_285;[This.GetName] has around 285k Population;;;;;;;;;;;;;x
-orc_holding_population_290;[This.GetName] has around 290k Population;;;;;;;;;;;;;x
-orc_holding_population_295;[This.GetName] has around 295k Population;;;;;;;;;;;;;x
-orc_holding_population_300;[This.GetName] has around 300k Population;;;;;;;;;;;;;x
-orc_holding_population_305;[This.GetName] has around 305k Population;;;;;;;;;;;;;x
-orc_holding_population_310;[This.GetName] has around 310k Population;;;;;;;;;;;;;x
-orc_holding_population_315;[This.GetName] has around 315k Population;;;;;;;;;;;;;x
-orc_holding_population_320;[This.GetName] has around 320k Population;;;;;;;;;;;;;x
-orc_holding_population_325;[This.GetName] has around 325k Population;;;;;;;;;;;;;x
-orc_holding_population_330;[This.GetName] has around 330k Population;;;;;;;;;;;;;x
-orc_holding_population_335;[This.GetName] has around 335k Population;;;;;;;;;;;;;x
-orc_holding_population_340;[This.GetName] has around 340k Population;;;;;;;;;;;;;x
-orc_holding_population_345;[This.GetName] has around 345k Population;;;;;;;;;;;;;x
-orc_holding_population_350;[This.GetName] has around 350k Population;;;;;;;;;;;;;x
-orc_holding_population_355;[This.GetName] has around 355k Population;;;;;;;;;;;;;x
-orc_holding_population_360;[This.GetName] has around 360k Population;;;;;;;;;;;;;x
-orc_holding_population_365;[This.GetName] has around 365k Population;;;;;;;;;;;;;x
-orc_holding_population_370;[This.GetName] has around 370k Population;;;;;;;;;;;;;x
-orc_holding_population_375;[This.GetName] has around 375k Population;;;;;;;;;;;;;x
-orc_holding_population_380;[This.GetName] has around 380k Population;;;;;;;;;;;;;x
-orc_holding_population_385;[This.GetName] has around 385k Population;;;;;;;;;;;;;x
-orc_holding_population_390;[This.GetName] has around 390k Population;;;;;;;;;;;;;x
-orc_holding_population_395;[This.GetName] has around 395k Population;;;;;;;;;;;;;x
-orc_holding_population_400;[This.GetName] has around 400k Population;;;;;;;;;;;;;x
+orc_holding_population_1;This Settlement has around 1,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_5;This Settlement has around 5,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_10;This Settlement has around 10,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_15;This Settlement has around 15,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_20;This Settlement has around 20,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_25;This Settlement has around 25,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_30;This Settlement has around 30,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_35;This Settlement has around 35,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_40;This Settlement has around 40,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_45;This Settlement has around 45,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_50;This Settlement has around 50,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_55;This Settlement has around 55,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_60;This Settlement has around 60,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_65;This Settlement has around 65,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_70;This Settlement has around 70,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_75;This Settlement has around 75,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_80;This Settlement has around 80,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_85;This Settlement has around 85,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_90;This Settlement has around 90,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_95;This Settlement has around 95,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_100;This Settlement has around 100,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_105;This Settlement has around 105,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_110;This Settlement has around 110,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_115;This Settlement has around 115,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_120;This Settlement has around 120,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_125;This Settlement has around 125,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_130;This Settlement has around 130,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_135;This Settlement has around 135,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_140;This Settlement has around 140,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_145;This Settlement has around 145,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_150;This Settlement has around 150,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_155;This Settlement has around 155,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_160;This Settlement has around 160,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_165;This Settlement has around 165,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_170;This Settlement has around 170,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_175;This Settlement has around 175,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_180;This Settlement has around 180,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_185;This Settlement has around 185,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_190;This Settlement has around 190,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_195;This Settlement has around 195,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_200;This Settlement has around 200,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_205;This Settlement has around 205,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_210;This Settlement has around 210,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_215;This Settlement has around 215,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_220;This Settlement has around 220,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_225;This Settlement has around 225,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_230;This Settlement has around 230,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_235;This Settlement has around 235,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_240;This Settlement has around 240,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_245;This Settlement has around 245,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_250;This Settlement has around 250,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_255;This Settlement has around 255,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_260;This Settlement has around 260,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_265;This Settlement has around 265,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_270;This Settlement has around 270,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_275;This Settlement has around 275,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_280;This Settlement has around 280,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_285;This Settlement has around 285,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_290;This Settlement has around 290,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_295;This Settlement has around 295,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_300;This Settlement has around 300,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_305;This Settlement has around 305,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_310;This Settlement has around 310,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_315;This Settlement has around 315,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_320;This Settlement has around 320,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_325;This Settlement has around 325,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_330;This Settlement has around 330,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_335;This Settlement has around 335,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_340;This Settlement has around 340,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_345;This Settlement has around 345,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_350;This Settlement has around 350,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_355;This Settlement has around 355,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_360;This Settlement has around 360,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_365;This Settlement has around 365,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_370;This Settlement has around 370,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_375;This Settlement has around 375,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_380;This Settlement has around 380,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_385;This Settlement has around 385,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_390;This Settlement has around 390,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_395;This Settlement has around 395,000 Inhabitants;;;;;;;;;;;;;x
+orc_holding_population_400;This Settlement has around 400,000 Inhabitants;;;;;;;;;;;;;x
 ############# GOODS;;;;;;;;;;;;;;
 orc_urban_good_metal_work;Metalworks;;;;;;;;;;;;;x
 ############# OWNERSHIP;;;;;;;;;;;;;;

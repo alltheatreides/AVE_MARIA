@@ -1660,15 +1660,15 @@ d_mamluks = { # Mamluks
 	capital = 796 # Cairo
 	# Parent Religion
 	religion = ismaili
-	mercenary = yes
+	# mercenary = yes
 	title = CAPTAIN
 	foa = CAPTAIN_FOA
 	# Always exists
 	landless = yes
 	# Cannot be held as a secondary title
 	primary = yes
-	strength_growth_per_century = 1.0
-	mercenary_type = mamluks_composition
+	# strength_growth_per_century = 1.0
+	# mercenary_type = mamluks_composition
 	# Hire Trigger
 	allow = {
 		conditional_tooltip = {

@@ -1,0 +1,29 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA 																		   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration On Actions													   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+on_startup = {
+	events = {
+		AVE_MARIA_islamic_government_maintenance.1
+	}
+}
+
+on_new_holder = {
+	events = {
+		
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		
+	}
+}
+

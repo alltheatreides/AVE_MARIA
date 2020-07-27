@@ -18,12 +18,97 @@
 # Pop Modifer effects						#
 #############################################
 
+orc_remove_holding_pop_modifier_display = {	
+	remove_holding_modifier = orc_holding_population_1
+	remove_holding_modifier = orc_holding_population_5
+	remove_holding_modifier = orc_holding_population_10
+	remove_holding_modifier = orc_holding_population_15
+	remove_holding_modifier = orc_holding_population_20
+	remove_holding_modifier = orc_holding_population_25
+	remove_holding_modifier = orc_holding_population_30
+	remove_holding_modifier = orc_holding_population_35
+	remove_holding_modifier = orc_holding_population_40
+	remove_holding_modifier = orc_holding_population_45
+	remove_holding_modifier = orc_holding_population_50
+	remove_holding_modifier = orc_holding_population_55
+	remove_holding_modifier = orc_holding_population_60
+	remove_holding_modifier = orc_holding_population_65
+	remove_holding_modifier = orc_holding_population_70
+	remove_holding_modifier = orc_holding_population_75
+	remove_holding_modifier = orc_holding_population_80
+	remove_holding_modifier = orc_holding_population_85
+	remove_holding_modifier = orc_holding_population_90
+	remove_holding_modifier = orc_holding_population_95
+	remove_holding_modifier = orc_holding_population_100
+	remove_holding_modifier = orc_holding_population_105
+	remove_holding_modifier = orc_holding_population_110
+	remove_holding_modifier = orc_holding_population_115
+	remove_holding_modifier = orc_holding_population_120
+	remove_holding_modifier = orc_holding_population_125
+	remove_holding_modifier = orc_holding_population_130
+	remove_holding_modifier = orc_holding_population_135
+	remove_holding_modifier = orc_holding_population_140
+	remove_holding_modifier = orc_holding_population_145
+	remove_holding_modifier = orc_holding_population_150
+	remove_holding_modifier = orc_holding_population_155
+	remove_holding_modifier = orc_holding_population_160
+	remove_holding_modifier = orc_holding_population_165
+	remove_holding_modifier = orc_holding_population_170
+	remove_holding_modifier = orc_holding_population_175
+	remove_holding_modifier = orc_holding_population_180
+	remove_holding_modifier = orc_holding_population_185
+	remove_holding_modifier = orc_holding_population_190
+	remove_holding_modifier = orc_holding_population_195
+	remove_holding_modifier = orc_holding_population_200
+	remove_holding_modifier = orc_holding_population_205
+	remove_holding_modifier = orc_holding_population_210
+	remove_holding_modifier = orc_holding_population_215
+	remove_holding_modifier = orc_holding_population_220
+	remove_holding_modifier = orc_holding_population_225
+	remove_holding_modifier = orc_holding_population_230
+	remove_holding_modifier = orc_holding_population_235
+	remove_holding_modifier = orc_holding_population_240
+	remove_holding_modifier = orc_holding_population_245
+	remove_holding_modifier = orc_holding_population_250
+	remove_holding_modifier = orc_holding_population_255
+	remove_holding_modifier = orc_holding_population_260
+	remove_holding_modifier = orc_holding_population_265
+	remove_holding_modifier = orc_holding_population_270
+	remove_holding_modifier = orc_holding_population_275
+	remove_holding_modifier = orc_holding_population_280
+	remove_holding_modifier = orc_holding_population_285
+	remove_holding_modifier = orc_holding_population_290
+	remove_holding_modifier = orc_holding_population_295
+	remove_holding_modifier = orc_holding_population_300
+	remove_holding_modifier = orc_holding_population_305
+	remove_holding_modifier = orc_holding_population_310
+	remove_holding_modifier = orc_holding_population_315
+	remove_holding_modifier = orc_holding_population_320
+	remove_holding_modifier = orc_holding_population_325
+	remove_holding_modifier = orc_holding_population_330
+	remove_holding_modifier = orc_holding_population_335
+	remove_holding_modifier = orc_holding_population_340
+	remove_holding_modifier = orc_holding_population_345
+	remove_holding_modifier = orc_holding_population_350
+	remove_holding_modifier = orc_holding_population_355
+	remove_holding_modifier = orc_holding_population_360
+	remove_holding_modifier = orc_holding_population_365
+	remove_holding_modifier = orc_holding_population_370
+	remove_holding_modifier = orc_holding_population_375
+	remove_holding_modifier = orc_holding_population_380
+	remove_holding_modifier = orc_holding_population_385
+	remove_holding_modifier = orc_holding_population_390
+	remove_holding_modifier = orc_holding_population_395
+	remove_holding_modifier = orc_holding_population_400
+}	
+
 orc_set_pop_modifier = {
 	if = {			
 		limit = {		
 			check_variable = { which = orc_holding_total_pop value >= 1 }	
 			check_variable = { which = orc_holding_total_pop value < 5 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_1	
 			years = -1	
@@ -34,6 +119,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 5 }	
 			check_variable = { which = orc_holding_total_pop value < 10 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_5	
 			years = -1	
@@ -44,6 +130,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 10 }	
 			check_variable = { which = orc_holding_total_pop value < 15 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_10	
 			years = -1	
@@ -54,6 +141,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 15 }	
 			check_variable = { which = orc_holding_total_pop value < 20 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_15	
 			years = -1	
@@ -64,6 +152,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 20 }	
 			check_variable = { which = orc_holding_total_pop value < 25 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_20	
 			years = -1	
@@ -74,6 +163,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 25 }	
 			check_variable = { which = orc_holding_total_pop value < 30 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_25	
 			years = -1	
@@ -84,6 +174,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 30 }	
 			check_variable = { which = orc_holding_total_pop value < 35 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_30	
 			years = -1	
@@ -94,6 +185,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 35 }	
 			check_variable = { which = orc_holding_total_pop value < 40 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_35	
 			years = -1	
@@ -104,6 +196,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 40 }	
 			check_variable = { which = orc_holding_total_pop value < 45 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_40	
 			years = -1	
@@ -114,6 +207,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 45 }	
 			check_variable = { which = orc_holding_total_pop value < 50 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_45	
 			years = -1	
@@ -124,6 +218,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 50 }	
 			check_variable = { which = orc_holding_total_pop value < 55 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_50	
 			years = -1	
@@ -134,6 +229,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 55 }	
 			check_variable = { which = orc_holding_total_pop value < 60 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_55	
 			years = -1	
@@ -144,6 +240,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 60 }	
 			check_variable = { which = orc_holding_total_pop value < 65 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_60	
 			years = -1	
@@ -154,6 +251,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 65 }	
 			check_variable = { which = orc_holding_total_pop value < 70 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_65	
 			years = -1	
@@ -164,6 +262,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 70 }	
 			check_variable = { which = orc_holding_total_pop value < 75 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_70	
 			years = -1	
@@ -174,6 +273,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 75 }	
 			check_variable = { which = orc_holding_total_pop value < 80 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_75	
 			years = -1	
@@ -184,6 +284,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 80 }	
 			check_variable = { which = orc_holding_total_pop value < 85 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_80	
 			years = -1	
@@ -194,6 +295,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 85 }	
 			check_variable = { which = orc_holding_total_pop value < 90 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_85	
 			years = -1	
@@ -204,6 +306,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 90 }	
 			check_variable = { which = orc_holding_total_pop value < 95 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_90	
 			years = -1	
@@ -214,6 +317,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 95 }	
 			check_variable = { which = orc_holding_total_pop value < 100 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_95	
 			years = -1	
@@ -224,6 +328,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 100 }	
 			check_variable = { which = orc_holding_total_pop value < 105 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_100	
 			years = -1	
@@ -234,6 +339,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 105 }	
 			check_variable = { which = orc_holding_total_pop value < 110 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_105	
 			years = -1	
@@ -244,6 +350,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 110 }	
 			check_variable = { which = orc_holding_total_pop value < 115 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_110	
 			years = -1	
@@ -254,6 +361,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 115 }	
 			check_variable = { which = orc_holding_total_pop value < 120 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_115	
 			years = -1	
@@ -264,6 +372,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 120 }	
 			check_variable = { which = orc_holding_total_pop value < 125 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_120	
 			years = -1	
@@ -274,6 +383,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 125 }	
 			check_variable = { which = orc_holding_total_pop value < 130 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_125	
 			years = -1	
@@ -284,6 +394,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 130 }	
 			check_variable = { which = orc_holding_total_pop value < 135 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_130	
 			years = -1	
@@ -294,6 +405,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 135 }	
 			check_variable = { which = orc_holding_total_pop value < 140 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_135	
 			years = -1	
@@ -304,6 +416,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 140 }	
 			check_variable = { which = orc_holding_total_pop value < 145 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_140	
 			years = -1	
@@ -314,6 +427,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 145 }	
 			check_variable = { which = orc_holding_total_pop value < 150 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_145	
 			years = -1	
@@ -324,6 +438,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 150 }	
 			check_variable = { which = orc_holding_total_pop value < 155 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_150	
 			years = -1	
@@ -334,6 +449,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 155 }	
 			check_variable = { which = orc_holding_total_pop value < 160 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_155	
 			years = -1	
@@ -344,6 +460,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 160 }	
 			check_variable = { which = orc_holding_total_pop value < 165 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_160	
 			years = -1	
@@ -354,6 +471,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 165 }	
 			check_variable = { which = orc_holding_total_pop value < 170 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_165	
 			years = -1	
@@ -364,6 +482,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 170 }	
 			check_variable = { which = orc_holding_total_pop value < 175 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_170	
 			years = -1	
@@ -374,6 +493,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 175 }	
 			check_variable = { which = orc_holding_total_pop value < 180 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_175	
 			years = -1	
@@ -384,6 +504,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 180 }	
 			check_variable = { which = orc_holding_total_pop value < 185 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_180	
 			years = -1	
@@ -394,6 +515,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 185 }	
 			check_variable = { which = orc_holding_total_pop value < 190 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_185	
 			years = -1	
@@ -404,6 +526,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 190 }	
 			check_variable = { which = orc_holding_total_pop value < 195 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_190	
 			years = -1	
@@ -414,6 +537,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 195 }	
 			check_variable = { which = orc_holding_total_pop value < 200 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_195	
 			years = -1	
@@ -424,6 +548,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 200 }	
 			check_variable = { which = orc_holding_total_pop value < 205 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_200	
 			years = -1	
@@ -434,6 +559,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 205 }	
 			check_variable = { which = orc_holding_total_pop value < 210 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_205	
 			years = -1	
@@ -444,6 +570,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 210 }	
 			check_variable = { which = orc_holding_total_pop value < 215 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_210	
 			years = -1	
@@ -454,6 +581,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 215 }	
 			check_variable = { which = orc_holding_total_pop value < 220 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_215	
 			years = -1	
@@ -464,6 +592,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 220 }	
 			check_variable = { which = orc_holding_total_pop value < 225 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_220	
 			years = -1	
@@ -474,6 +603,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 225 }	
 			check_variable = { which = orc_holding_total_pop value < 230 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_225	
 			years = -1	
@@ -484,6 +614,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 230 }	
 			check_variable = { which = orc_holding_total_pop value < 235 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_230	
 			years = -1	
@@ -494,6 +625,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 235 }	
 			check_variable = { which = orc_holding_total_pop value < 240 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_235	
 			years = -1	
@@ -504,6 +636,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 240 }	
 			check_variable = { which = orc_holding_total_pop value < 245 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_240	
 			years = -1	
@@ -514,6 +647,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 245 }	
 			check_variable = { which = orc_holding_total_pop value < 250 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_245	
 			years = -1	
@@ -524,6 +658,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 250 }	
 			check_variable = { which = orc_holding_total_pop value < 255 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_250	
 			years = -1	
@@ -534,6 +669,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 255 }	
 			check_variable = { which = orc_holding_total_pop value < 260 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_255	
 			years = -1	
@@ -544,6 +680,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 260 }	
 			check_variable = { which = orc_holding_total_pop value < 265 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_260	
 			years = -1	
@@ -554,6 +691,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 265 }	
 			check_variable = { which = orc_holding_total_pop value < 270 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_265	
 			years = -1	
@@ -564,6 +702,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 270 }	
 			check_variable = { which = orc_holding_total_pop value < 275 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_270	
 			years = -1	
@@ -574,6 +713,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 275 }	
 			check_variable = { which = orc_holding_total_pop value < 280 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_275	
 			years = -1	
@@ -584,6 +724,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 280 }	
 			check_variable = { which = orc_holding_total_pop value < 285 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_280	
 			years = -1	
@@ -594,6 +735,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 285 }	
 			check_variable = { which = orc_holding_total_pop value < 290 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_285	
 			years = -1	
@@ -604,6 +746,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 290 }	
 			check_variable = { which = orc_holding_total_pop value < 295 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_290	
 			years = -1	
@@ -614,6 +757,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 295 }	
 			check_variable = { which = orc_holding_total_pop value < 300 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_295	
 			years = -1	
@@ -624,6 +768,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 300 }	
 			check_variable = { which = orc_holding_total_pop value < 305 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_300	
 			years = -1	
@@ -634,6 +779,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 305 }	
 			check_variable = { which = orc_holding_total_pop value < 310 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_305	
 			years = -1	
@@ -644,6 +790,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 310 }	
 			check_variable = { which = orc_holding_total_pop value < 315 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_310	
 			years = -1	
@@ -654,6 +801,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 315 }	
 			check_variable = { which = orc_holding_total_pop value < 320 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_315	
 			years = -1	
@@ -664,6 +812,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 320 }	
 			check_variable = { which = orc_holding_total_pop value < 325 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_320	
 			years = -1	
@@ -674,6 +823,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 325 }	
 			check_variable = { which = orc_holding_total_pop value < 330 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_325	
 			years = -1	
@@ -684,6 +834,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 330 }	
 			check_variable = { which = orc_holding_total_pop value < 335 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_330	
 			years = -1	
@@ -694,6 +845,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 335 }	
 			check_variable = { which = orc_holding_total_pop value < 340 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_335	
 			years = -1	
@@ -704,6 +856,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 340 }	
 			check_variable = { which = orc_holding_total_pop value < 345 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_340	
 			years = -1	
@@ -714,6 +867,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 345 }	
 			check_variable = { which = orc_holding_total_pop value < 350 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_345	
 			years = -1	
@@ -724,6 +878,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 350 }	
 			check_variable = { which = orc_holding_total_pop value < 355 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_350	
 			years = -1	
@@ -734,6 +889,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 355 }	
 			check_variable = { which = orc_holding_total_pop value < 360 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_355	
 			years = -1	
@@ -744,6 +900,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 360 }	
 			check_variable = { which = orc_holding_total_pop value < 365 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_360	
 			years = -1	
@@ -754,6 +911,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 365 }	
 			check_variable = { which = orc_holding_total_pop value < 370 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_365	
 			years = -1	
@@ -764,6 +922,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 370 }	
 			check_variable = { which = orc_holding_total_pop value < 375 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_370	
 			years = -1	
@@ -774,6 +933,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 375 }	
 			check_variable = { which = orc_holding_total_pop value < 380 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_375	
 			years = -1	
@@ -784,6 +944,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 380 }	
 			check_variable = { which = orc_holding_total_pop value < 385 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_380	
 			years = -1	
@@ -794,6 +955,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 385 }	
 			check_variable = { which = orc_holding_total_pop value < 390 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_385	
 			years = -1	
@@ -804,6 +966,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 390 }	
 			check_variable = { which = orc_holding_total_pop value < 395 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_390	
 			years = -1	
@@ -814,6 +977,7 @@ orc_set_pop_modifier = {
 			check_variable = { which = orc_holding_total_pop value >= 395 }	
 			check_variable = { which = orc_holding_total_pop value < 400 }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_395	
 			years = -1	
@@ -822,14 +986,973 @@ orc_set_pop_modifier = {
 	if = {			
 		limit = {		
 			check_variable = { which = orc_holding_total_pop value >= 400 }	
-			# check_variable = { which = orc_holding_total_pop value <  }	
 		}		
+		orc_remove_holding_pop_modifier_display = yes		
 		add_holding_modifier = {		
 			modifier = orc_holding_population_400	
 			years = -1	
 		}		
 	}			
+	
 
+}
+
+orc_starting_population_set_up = {
+	trigger_switch = {
+		on_trigger = religion
+		catholic = { PREV = { set_variable = { which = orc_rural_peasant_pop_catholic value = 7 } } }
+		cathar = { PREV = { set_variable = { which = orc_rural_peasant_pop_cathar value = 7 } } }
+		fraticelli = { PREV = { set_variable = { which = orc_rural_peasant_pop_fraticelli value = 7 } } }
+		waldensian = { PREV = { set_variable = { which = orc_rural_peasant_pop_waldensian value = 7 } } }
+		lollard = { PREV = { set_variable = { which = orc_rural_peasant_pop_lollard value = 7 } } }
+		adoptionist = { PREV = { set_variable = { which = orc_rural_peasant_pop_adoptionist value = 7 } } }
+		arian = { PREV = { set_variable = { which = orc_rural_peasant_pop_arian value = 7 } } }
+		orthodox = { PREV = { set_variable = { which = orc_rural_peasant_pop_orthodox value = 7 } } }
+		bogomilist = { PREV = { set_variable = { which = orc_rural_peasant_pop_bogomilist value = 7 } } }
+		monothelite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monothelite value = 7 } } }
+		iconoclast = { PREV = { set_variable = { which = orc_rural_peasant_pop_iconoclast value = 7 } } }
+		syriac = { PREV = { set_variable = { which = orc_rural_peasant_pop_syriac value = 7 } } }
+		maronite = { PREV = { set_variable = { which = orc_rural_peasant_pop_maronite value = 7 } } }
+		miaphysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_miaphysite value = 7 } } }
+		monophysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monophysite value = 7 } } }
+		apostolic = { PREV = { set_variable = { which = orc_rural_peasant_pop_apostolic value = 7 } } }
+		paulician = { PREV = { set_variable = { which = orc_rural_peasant_pop_paulician value = 7 } } }
+		tondrakian = { PREV = { set_variable = { which = orc_rural_peasant_pop_tondrakian value = 7 } } }
+		nestorian = { PREV = { set_variable = { which = orc_rural_peasant_pop_nestorian value = 7 } } }
+		messalian = { PREV = { set_variable = { which = orc_rural_peasant_pop_messalian value = 7 } } }
+		sunni = { PREV = { set_variable = { which = orc_rural_peasant_pop_sunni value = 7 } } }
+		zikri = { PREV = { set_variable = { which = orc_rural_peasant_pop_zikri value = 7 } } }
+		mahdiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_mahdiyya value = 7 } } }
+		nabawiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_nabawiyya value = 7 } } }
+		ibadi = { PREV = { set_variable = { which = orc_rural_peasant_pop_ibadi value = 7 } } }
+		kharijite = { PREV = { set_variable = { which = orc_rural_peasant_pop_kharijite value = 7 } } }
+		haruri = { PREV = { set_variable = { which = orc_rural_peasant_pop_haruri value = 7 } } }
+		shiite = { PREV = { set_variable = { which = orc_rural_peasant_pop_shiite value = 7 } } }
+		waqifi = { PREV = { set_variable = { which = orc_rural_peasant_pop_waqifi value = 7 } } }
+		zaydi = { PREV = { set_variable = { which = orc_rural_peasant_pop_zaydi value = 7 } } }
+		hurufi = { PREV = { set_variable = { which = orc_rural_peasant_pop_hurufi value = 7 } } }
+		ismaili = { PREV = { set_variable = { which = orc_rural_peasant_pop_ismaili value = 7 } } }
+		druze = { PREV = { set_variable = { which = orc_rural_peasant_pop_druze value = 7 } } }
+		qarmatian = { PREV = { set_variable = { which = orc_rural_peasant_pop_qarmatian value = 7 } } }
+		pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_pagan value = 7 } } }
+		norse_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan_reformed value = 7 } } }
+		norse_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan value = 7 } } }
+		tengri_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan_reformed value = 7 } } }
+		tengri_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan value = 7 } } }
+		baltic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan_reformed value = 7 } } }
+		baltic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan value = 7 } } }
+		finnish_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan_reformed value = 7 } } }
+		finnish_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan value = 7 } } }
+		aztec_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec_reformed value = 7 } } }
+		aztec = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec value = 7 } } }
+		slavic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan_reformed value = 7 } } }
+		slavic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan value = 7 } } }
+		west_african_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan_reformed value = 7 } } }
+		west_african_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan value = 7 } } }
+		zun_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan_reformed value = 7 } } }
+		zun_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan value = 7 } } }
+		hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan_reformed value = 7 } } }
+		hellenic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan value = 7 } } }
+		bon_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon_reformed value = 7 } } }
+		bon = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon value = 7 } } }
+		zoroastrian = { PREV = { set_variable = { which = orc_rural_peasant_pop_zoroastrian value = 7 } } }
+		mazdaki = { PREV = { set_variable = { which = orc_rural_peasant_pop_mazdaki value = 7 } } }
+		zurvanist = { PREV = { set_variable = { which = orc_rural_peasant_pop_zurvanist value = 7 } } }
+		manichean = { PREV = { set_variable = { which = orc_rural_peasant_pop_manichean value = 7 } } }
+		mandaean = { PREV = { set_variable = { which = orc_rural_peasant_pop_mandaean value = 7 } } }
+		yazidi = { PREV = { set_variable = { which = orc_rural_peasant_pop_yazidi value = 7 } } }
+		khurmazta = { PREV = { set_variable = { which = orc_rural_peasant_pop_khurmazta value = 7 } } }
+		jewish = { PREV = { set_variable = { which = orc_rural_peasant_pop_jewish value = 7 } } }
+		samaritan = { PREV = { set_variable = { which = orc_rural_peasant_pop_samaritan value = 7 } } }
+		karaite = { PREV = { set_variable = { which = orc_rural_peasant_pop_karaite value = 7 } } }
+		hindu = { PREV = { set_variable = { which = orc_rural_peasant_pop_hindu value = 7 } } }
+		buddhist = { PREV = { set_variable = { which = orc_rural_peasant_pop_buddhist value = 7 } } }
+		jain = { PREV = { set_variable = { which = orc_rural_peasant_pop_jain value = 7 } } }
+	}
+	trigger_switch = {	
+		on_trigger = religion
+		catholic = { PREV = { set_variable = { which = orc_urban_lower_class_pop_catholic value = 1 } } }
+		cathar = { PREV = { set_variable = { which = orc_urban_lower_class_pop_cathar value = 1 } } }
+		fraticelli = { PREV = { set_variable = { which = orc_urban_lower_class_pop_fraticelli value = 1 } } }
+		waldensian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_waldensian value = 1 } } }
+		lollard = { PREV = { set_variable = { which = orc_urban_lower_class_pop_lollard value = 1 } } }
+		adoptionist = { PREV = { set_variable = { which = orc_urban_lower_class_pop_adoptionist value = 1 } } }
+		arian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_arian value = 1 } } }
+		orthodox = { PREV = { set_variable = { which = orc_urban_lower_class_pop_orthodox value = 1 } } }
+		bogomilist = { PREV = { set_variable = { which = orc_urban_lower_class_pop_bogomilist value = 1 } } }
+		monothelite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_monothelite value = 1 } } }
+		iconoclast = { PREV = { set_variable = { which = orc_urban_lower_class_pop_iconoclast value = 1 } } }
+		syriac = { PREV = { set_variable = { which = orc_urban_lower_class_pop_syriac value = 1 } } }
+		maronite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_maronite value = 1 } } }
+		miaphysite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_miaphysite value = 1 } } }
+		monophysite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_monophysite value = 1 } } }
+		apostolic = { PREV = { set_variable = { which = orc_urban_lower_class_pop_apostolic value = 1 } } }
+		paulician = { PREV = { set_variable = { which = orc_urban_lower_class_pop_paulician value = 1 } } }
+		tondrakian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_tondrakian value = 1 } } }
+		nestorian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_nestorian value = 1 } } }
+		messalian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_messalian value = 1 } } }
+		sunni = { PREV = { set_variable = { which = orc_urban_lower_class_pop_sunni value = 1 } } }
+		zikri = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zikri value = 1 } } }
+		mahdiyya = { PREV = { set_variable = { which = orc_urban_lower_class_pop_mahdiyya value = 1 } } }
+		nabawiyya = { PREV = { set_variable = { which = orc_urban_lower_class_pop_nabawiyya value = 1 } } }
+		ibadi = { PREV = { set_variable = { which = orc_urban_lower_class_pop_ibadi value = 1 } } }
+		kharijite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_kharijite value = 1 } } }
+		haruri = { PREV = { set_variable = { which = orc_urban_lower_class_pop_haruri value = 1 } } }
+		shiite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_shiite value = 1 } } }
+		waqifi = { PREV = { set_variable = { which = orc_urban_lower_class_pop_waqifi value = 1 } } }
+		zaydi = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zaydi value = 1 } } }
+		hurufi = { PREV = { set_variable = { which = orc_urban_lower_class_pop_hurufi value = 1 } } }
+		ismaili = { PREV = { set_variable = { which = orc_urban_lower_class_pop_ismaili value = 1 } } }
+		druze = { PREV = { set_variable = { which = orc_urban_lower_class_pop_druze value = 1 } } }
+		qarmatian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_qarmatian value = 1 } } }
+		pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_pagan value = 1 } } }
+		norse_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_norse_pagan_reformed value = 1 } } }
+		norse_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_norse_pagan value = 1 } } }
+		tengri_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_tengri_pagan_reformed value = 1 } } }
+		tengri_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_tengri_pagan value = 1 } } }
+		baltic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_baltic_pagan_reformed value = 1 } } }
+		baltic_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_baltic_pagan value = 1 } } }
+		finnish_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_finnish_pagan_reformed value = 1 } } }
+		finnish_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_finnish_pagan value = 1 } } }
+		aztec_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_aztec_reformed value = 1 } } }
+		aztec = { PREV = { set_variable = { which = orc_urban_lower_class_pop_aztec value = 1 } } }
+		slavic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_slavic_pagan_reformed value = 1 } } }
+		slavic_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_slavic_pagan value = 1 } } }
+		west_african_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_west_african_pagan_reformed value = 1 } } }
+		west_african_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_west_african_pagan value = 1 } } }
+		zun_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zun_pagan_reformed value = 1 } } }
+		zun_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zun_pagan value = 1 } } }
+		hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_hellenic_pagan_reformed value = 1 } } }
+		hellenic_pagan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_hellenic_pagan value = 1 } } }
+		bon_reformed = { PREV = { set_variable = { which = orc_urban_lower_class_pop_bon_reformed value = 1 } } }
+		bon = { PREV = { set_variable = { which = orc_urban_lower_class_pop_bon value = 1 } } }
+		zoroastrian = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zoroastrian value = 1 } } }
+		mazdaki = { PREV = { set_variable = { which = orc_urban_lower_class_pop_mazdaki value = 1 } } }
+		zurvanist = { PREV = { set_variable = { which = orc_urban_lower_class_pop_zurvanist value = 1 } } }
+		manichean = { PREV = { set_variable = { which = orc_urban_lower_class_pop_manichean value = 1 } } }
+		mandaean = { PREV = { set_variable = { which = orc_urban_lower_class_pop_mandaean value = 1 } } }
+		yazidi = { PREV = { set_variable = { which = orc_urban_lower_class_pop_yazidi value = 1 } } }
+		khurmazta = { PREV = { set_variable = { which = orc_urban_lower_class_pop_khurmazta value = 1 } } }
+		jewish = { PREV = { set_variable = { which = orc_urban_lower_class_pop_jewish value = 1 } } }
+		samaritan = { PREV = { set_variable = { which = orc_urban_lower_class_pop_samaritan value = 1 } } }
+		karaite = { PREV = { set_variable = { which = orc_urban_lower_class_pop_karaite value = 1 } } }
+		hindu = { PREV = { set_variable = { which = orc_urban_lower_class_pop_hindu value = 1 } } }
+		buddhist = { PREV = { set_variable = { which = orc_urban_lower_class_pop_buddhist value = 1 } } }
+		jain = { PREV = { set_variable = { which = orc_urban_lower_class_pop_jain value = 1 } } }
+	}
+	trigger_switch = {
+		on_trigger = religion
+		catholic = { PREV = { set_variable = { which = orc_rural_elite_pop_catholic value = 1 } } }
+		cathar = { PREV = { set_variable = { which = orc_rural_elite_pop_cathar value = 1 } } }
+		fraticelli = { PREV = { set_variable = { which = orc_rural_elite_pop_fraticelli value = 1 } } }
+		waldensian = { PREV = { set_variable = { which = orc_rural_elite_pop_waldensian value = 1 } } }
+		lollard = { PREV = { set_variable = { which = orc_rural_elite_pop_lollard value = 1 } } }
+		adoptionist = { PREV = { set_variable = { which = orc_rural_elite_pop_adoptionist value = 1 } } }
+		arian = { PREV = { set_variable = { which = orc_rural_elite_pop_arian value = 1 } } }
+		orthodox = { PREV = { set_variable = { which = orc_rural_elite_pop_orthodox value = 1 } } }
+		bogomilist = { PREV = { set_variable = { which = orc_rural_elite_pop_bogomilist value = 1 } } }
+		monothelite = { PREV = { set_variable = { which = orc_rural_elite_pop_monothelite value = 1 } } }
+		iconoclast = { PREV = { set_variable = { which = orc_rural_elite_pop_iconoclast value = 1 } } }
+		syriac = { PREV = { set_variable = { which = orc_rural_elite_pop_syriac value = 1 } } }
+		maronite = { PREV = { set_variable = { which = orc_rural_elite_pop_maronite value = 1 } } }
+		miaphysite = { PREV = { set_variable = { which = orc_rural_elite_pop_miaphysite value = 1 } } }
+		monophysite = { PREV = { set_variable = { which = orc_rural_elite_pop_monophysite value = 1 } } }
+		apostolic = { PREV = { set_variable = { which = orc_rural_elite_pop_apostolic value = 1 } } }
+		paulician = { PREV = { set_variable = { which = orc_rural_elite_pop_paulician value = 1 } } }
+		tondrakian = { PREV = { set_variable = { which = orc_rural_elite_pop_tondrakian value = 1 } } }
+		nestorian = { PREV = { set_variable = { which = orc_rural_elite_pop_nestorian value = 1 } } }
+		messalian = { PREV = { set_variable = { which = orc_rural_elite_pop_messalian value = 1 } } }
+		sunni = { PREV = { set_variable = { which = orc_rural_elite_pop_sunni value = 1 } } }
+		zikri = { PREV = { set_variable = { which = orc_rural_elite_pop_zikri value = 1 } } }
+		mahdiyya = { PREV = { set_variable = { which = orc_rural_elite_pop_mahdiyya value = 1 } } }
+		nabawiyya = { PREV = { set_variable = { which = orc_rural_elite_pop_nabawiyya value = 1 } } }
+		ibadi = { PREV = { set_variable = { which = orc_rural_elite_pop_ibadi value = 1 } } }
+		kharijite = { PREV = { set_variable = { which = orc_rural_elite_pop_kharijite value = 1 } } }
+		haruri = { PREV = { set_variable = { which = orc_rural_elite_pop_haruri value = 1 } } }
+		shiite = { PREV = { set_variable = { which = orc_rural_elite_pop_shiite value = 1 } } }
+		waqifi = { PREV = { set_variable = { which = orc_rural_elite_pop_waqifi value = 1 } } }
+		zaydi = { PREV = { set_variable = { which = orc_rural_elite_pop_zaydi value = 1 } } }
+		hurufi = { PREV = { set_variable = { which = orc_rural_elite_pop_hurufi value = 1 } } }
+		ismaili = { PREV = { set_variable = { which = orc_rural_elite_pop_ismaili value = 1 } } }
+		druze = { PREV = { set_variable = { which = orc_rural_elite_pop_druze value = 1 } } }
+		qarmatian = { PREV = { set_variable = { which = orc_rural_elite_pop_qarmatian value = 1 } } }
+		pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_pagan value = 1 } } }
+		norse_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_norse_pagan_reformed value = 1 } } }
+		norse_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_norse_pagan value = 1 } } }
+		tengri_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_tengri_pagan_reformed value = 1 } } }
+		tengri_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_tengri_pagan value = 1 } } }
+		baltic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_baltic_pagan_reformed value = 1 } } }
+		baltic_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_baltic_pagan value = 1 } } }
+		finnish_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_finnish_pagan_reformed value = 1 } } }
+		finnish_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_finnish_pagan value = 1 } } }
+		aztec_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_aztec_reformed value = 1 } } }
+		aztec = { PREV = { set_variable = { which = orc_rural_elite_pop_aztec value = 1 } } }
+		slavic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_slavic_pagan_reformed value = 1 } } }
+		slavic_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_slavic_pagan value = 1 } } }
+		west_african_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_west_african_pagan_reformed value = 1 } } }
+		west_african_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_west_african_pagan value = 1 } } }
+		zun_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_zun_pagan_reformed value = 1 } } }
+		zun_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_zun_pagan value = 1 } } }
+		hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_hellenic_pagan_reformed value = 1 } } }
+		hellenic_pagan = { PREV = { set_variable = { which = orc_rural_elite_pop_hellenic_pagan value = 1 } } }
+		bon_reformed = { PREV = { set_variable = { which = orc_rural_elite_pop_bon_reformed value = 1 } } }
+		bon = { PREV = { set_variable = { which = orc_rural_elite_pop_bon value = 1 } } }
+		zoroastrian = { PREV = { set_variable = { which = orc_rural_elite_pop_zoroastrian value = 1 } } }
+		mazdaki = { PREV = { set_variable = { which = orc_rural_elite_pop_mazdaki value = 1 } } }
+		zurvanist = { PREV = { set_variable = { which = orc_rural_elite_pop_zurvanist value = 1 } } }
+		manichean = { PREV = { set_variable = { which = orc_rural_elite_pop_manichean value = 1 } } }
+		mandaean = { PREV = { set_variable = { which = orc_rural_elite_pop_mandaean value = 1 } } }
+		yazidi = { PREV = { set_variable = { which = orc_rural_elite_pop_yazidi value = 1 } } }
+		khurmazta = { PREV = { set_variable = { which = orc_rural_elite_pop_khurmazta value = 1 } } }
+		jewish = { PREV = { set_variable = { which = orc_rural_elite_pop_jewish value = 1 } } }
+		samaritan = { PREV = { set_variable = { which = orc_rural_elite_pop_samaritan value = 1 } } }
+		karaite = { PREV = { set_variable = { which = orc_rural_elite_pop_karaite value = 1 } } }
+		hindu = { PREV = { set_variable = { which = orc_rural_elite_pop_hindu value = 1 } } }
+		buddhist = { PREV = { set_variable = { which = orc_rural_elite_pop_buddhist value = 1 } } }
+		jain = { PREV = { set_variable = { which = orc_rural_elite_pop_jain value = 1 } } }
+	}
+	trigger_switch = {
+		on_trigger = religion
+		catholic = { PREV = { set_variable = { which = orc_urban_elite_pop_catholic value = 1 } } }
+		cathar = { PREV = { set_variable = { which = orc_urban_elite_pop_cathar value = 1 } } }
+		fraticelli = { PREV = { set_variable = { which = orc_urban_elite_pop_fraticelli value = 1 } } }
+		waldensian = { PREV = { set_variable = { which = orc_urban_elite_pop_waldensian value = 1 } } }
+		lollard = { PREV = { set_variable = { which = orc_urban_elite_pop_lollard value = 1 } } }
+		adoptionist = { PREV = { set_variable = { which = orc_urban_elite_pop_adoptionist value = 1 } } }
+		arian = { PREV = { set_variable = { which = orc_urban_elite_pop_arian value = 1 } } }
+		orthodox = { PREV = { set_variable = { which = orc_urban_elite_pop_orthodox value = 1 } } }
+		bogomilist = { PREV = { set_variable = { which = orc_urban_elite_pop_bogomilist value = 1 } } }
+		monothelite = { PREV = { set_variable = { which = orc_urban_elite_pop_monothelite value = 1 } } }
+		iconoclast = { PREV = { set_variable = { which = orc_urban_elite_pop_iconoclast value = 1 } } }
+		syriac = { PREV = { set_variable = { which = orc_urban_elite_pop_syriac value = 1 } } }
+		maronite = { PREV = { set_variable = { which = orc_urban_elite_pop_maronite value = 1 } } }
+		miaphysite = { PREV = { set_variable = { which = orc_urban_elite_pop_miaphysite value = 1 } } }
+		monophysite = { PREV = { set_variable = { which = orc_urban_elite_pop_monophysite value = 1 } } }
+		apostolic = { PREV = { set_variable = { which = orc_urban_elite_pop_apostolic value = 1 } } }
+		paulician = { PREV = { set_variable = { which = orc_urban_elite_pop_paulician value = 1 } } }
+		tondrakian = { PREV = { set_variable = { which = orc_urban_elite_pop_tondrakian value = 1 } } }
+		nestorian = { PREV = { set_variable = { which = orc_urban_elite_pop_nestorian value = 1 } } }
+		messalian = { PREV = { set_variable = { which = orc_urban_elite_pop_messalian value = 1 } } }
+		sunni = { PREV = { set_variable = { which = orc_urban_elite_pop_sunni value = 1 } } }
+		zikri = { PREV = { set_variable = { which = orc_urban_elite_pop_zikri value = 1 } } }
+		mahdiyya = { PREV = { set_variable = { which = orc_urban_elite_pop_mahdiyya value = 1 } } }
+		nabawiyya = { PREV = { set_variable = { which = orc_urban_elite_pop_nabawiyya value = 1 } } }
+		ibadi = { PREV = { set_variable = { which = orc_urban_elite_pop_ibadi value = 1 } } }
+		kharijite = { PREV = { set_variable = { which = orc_urban_elite_pop_kharijite value = 1 } } }
+		haruri = { PREV = { set_variable = { which = orc_urban_elite_pop_haruri value = 1 } } }
+		shiite = { PREV = { set_variable = { which = orc_urban_elite_pop_shiite value = 1 } } }
+		waqifi = { PREV = { set_variable = { which = orc_urban_elite_pop_waqifi value = 1 } } }
+		zaydi = { PREV = { set_variable = { which = orc_urban_elite_pop_zaydi value = 1 } } }
+		hurufi = { PREV = { set_variable = { which = orc_urban_elite_pop_hurufi value = 1 } } }
+		ismaili = { PREV = { set_variable = { which = orc_urban_elite_pop_ismaili value = 1 } } }
+		druze = { PREV = { set_variable = { which = orc_urban_elite_pop_druze value = 1 } } }
+		qarmatian = { PREV = { set_variable = { which = orc_urban_elite_pop_qarmatian value = 1 } } }
+		pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_pagan value = 1 } } }
+		norse_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_norse_pagan_reformed value = 1 } } }
+		norse_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_norse_pagan value = 1 } } }
+		tengri_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_tengri_pagan_reformed value = 1 } } }
+		tengri_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_tengri_pagan value = 1 } } }
+		baltic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_baltic_pagan_reformed value = 1 } } }
+		baltic_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_baltic_pagan value = 1 } } }
+		finnish_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_finnish_pagan_reformed value = 1 } } }
+		finnish_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_finnish_pagan value = 1 } } }
+		aztec_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_aztec_reformed value = 1 } } }
+		aztec = { PREV = { set_variable = { which = orc_urban_elite_pop_aztec value = 1 } } }
+		slavic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_slavic_pagan_reformed value = 1 } } }
+		slavic_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_slavic_pagan value = 1 } } }
+		west_african_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_west_african_pagan_reformed value = 1 } } }
+		west_african_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_west_african_pagan value = 1 } } }
+		zun_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_zun_pagan_reformed value = 1 } } }
+		zun_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_zun_pagan value = 1 } } }
+		hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_hellenic_pagan_reformed value = 1 } } }
+		hellenic_pagan = { PREV = { set_variable = { which = orc_urban_elite_pop_hellenic_pagan value = 1 } } }
+		bon_reformed = { PREV = { set_variable = { which = orc_urban_elite_pop_bon_reformed value = 1 } } }
+		bon = { PREV = { set_variable = { which = orc_urban_elite_pop_bon value = 1 } } }
+		zoroastrian = { PREV = { set_variable = { which = orc_urban_elite_pop_zoroastrian value = 1 } } }
+		mazdaki = { PREV = { set_variable = { which = orc_urban_elite_pop_mazdaki value = 1 } } }
+		zurvanist = { PREV = { set_variable = { which = orc_urban_elite_pop_zurvanist value = 1 } } }
+		manichean = { PREV = { set_variable = { which = orc_urban_elite_pop_manichean value = 1 } } }
+		mandaean = { PREV = { set_variable = { which = orc_urban_elite_pop_mandaean value = 1 } } }
+		yazidi = { PREV = { set_variable = { which = orc_urban_elite_pop_yazidi value = 1 } } }
+		khurmazta = { PREV = { set_variable = { which = orc_urban_elite_pop_khurmazta value = 1 } } }
+		jewish = { PREV = { set_variable = { which = orc_urban_elite_pop_jewish value = 1 } } }
+		samaritan = { PREV = { set_variable = { which = orc_urban_elite_pop_samaritan value = 1 } } }
+		karaite = { PREV = { set_variable = { which = orc_urban_elite_pop_karaite value = 1 } } }
+		hindu = { PREV = { set_variable = { which = orc_urban_elite_pop_hindu value = 1 } } }
+		buddhist = { PREV = { set_variable = { which = orc_urban_elite_pop_buddhist value = 1 } } }
+		jain = { PREV = { set_variable = { which = orc_urban_elite_pop_jain value = 1 } } }
+	}
+	PREV = {
+		set_variable = { which = orc_holding_total_elite_pop value = 0 }
+		set_variable = { which = orc_holding_total_lower_pop value = 0 }
+		set_variable = { which = orc_holding_total_pop value = 0 }
+		
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_catholic }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_cathar }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_fraticelli }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_waldensian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_lollard }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_adoptionist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_arian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_orthodox }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bogomilist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_monothelite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_iconoclast }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_syriac }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_maronite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_miaphysite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_monophysite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_apostolic }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_paulician }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tondrakian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_nestorian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_messalian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_sunni }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zikri }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mahdiyya }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_nabawiyya }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_ibadi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_kharijite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_haruri }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_shiite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_waqifi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zaydi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hurufi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_ismaili }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_druze }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_qarmatian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_norse_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_norse_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tengri_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tengri_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_baltic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_baltic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_finnish_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_finnish_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_aztec_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_aztec }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_slavic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_slavic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_west_african_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_west_african_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zun_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zun_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hellenic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hellenic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bon_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bon }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zoroastrian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mazdaki }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zurvanist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_manichean }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mandaean }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_yazidi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_khurmazta }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_jewish }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_samaritan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_karaite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hindu }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_buddhist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_jain }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_taoist }
+		
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_catholic }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_cathar }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_fraticelli }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_waldensian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_lollard }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_adoptionist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_arian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_orthodox }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bogomilist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_monothelite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_iconoclast }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_syriac }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_maronite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_miaphysite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_monophysite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_apostolic }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_paulician }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tondrakian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_nestorian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_messalian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_sunni }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zikri }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mahdiyya }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_nabawiyya }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_ibadi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_kharijite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_haruri }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_shiite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_waqifi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zaydi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hurufi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_ismaili }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_druze }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_qarmatian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_norse_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_norse_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tengri_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tengri_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_baltic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_baltic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_finnish_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_finnish_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_aztec_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_aztec }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_slavic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_slavic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_west_african_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_west_african_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zun_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zun_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hellenic_pagan_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hellenic_pagan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bon_reformed }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bon }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zoroastrian }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mazdaki }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zurvanist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_manichean }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mandaean }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_yazidi }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_khurmazta }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_jewish }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_samaritan }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_karaite }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hindu }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_buddhist }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_jain }
+		change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_taoist }
+
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_catholic }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_cathar }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_fraticelli }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_waldensian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_lollard }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_adoptionist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_arian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_orthodox }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bogomilist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_monothelite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_iconoclast }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_syriac }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_maronite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_miaphysite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_monophysite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_apostolic }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_paulician }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tondrakian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_nestorian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_messalian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_sunni }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zikri }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mahdiyya }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_nabawiyya }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_ibadi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_kharijite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_haruri }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_shiite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_waqifi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zaydi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hurufi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_ismaili }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_druze }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_qarmatian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_norse_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_norse_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tengri_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tengri_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_baltic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_baltic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_finnish_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_finnish_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_aztec_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_aztec }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_slavic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_slavic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_west_african_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_west_african_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zun_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zun_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hellenic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hellenic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bon_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bon }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zoroastrian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mazdaki }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zurvanist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_manichean }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mandaean }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_yazidi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_khurmazta }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_jewish }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_samaritan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_karaite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hindu }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_buddhist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_jain }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_taoist }
+
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_catholic }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_cathar }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_fraticelli }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_waldensian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_lollard }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_adoptionist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_arian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_orthodox }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bogomilist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_monothelite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_iconoclast }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_syriac }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_maronite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_miaphysite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_monophysite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_apostolic }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_paulician }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tondrakian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_nestorian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_messalian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_sunni }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zikri }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mahdiyya }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_nabawiyya }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_ibadi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_kharijite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_haruri }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_shiite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_waqifi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zaydi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hurufi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_ismaili }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_druze }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_qarmatian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_norse_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_norse_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tengri_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tengri_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_baltic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_baltic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_finnish_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_finnish_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_aztec_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_aztec }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_slavic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_slavic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_west_african_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_west_african_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zun_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zun_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hellenic_pagan_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hellenic_pagan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bon_reformed }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bon }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zoroastrian }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mazdaki }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zurvanist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_manichean }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mandaean }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_yazidi }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_khurmazta }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_jewish }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_samaritan }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_karaite }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hindu }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_buddhist }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_jain }
+		change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_taoist }
+		
+		change_variable = { which = orc_holding_total_pop which = orc_holding_total_lower_pop }
+		change_variable = { which = orc_holding_total_pop which = orc_holding_total_elite_pop }
+		
+		location = {
+			change_variable = { 
+				which = orc_province_total_pop 
+				which = orc_holding_total_pop 
+				which = PREV 
+			}
+			add_province_modifier = {
+				name = orc_population_display
+				duration = -1
+			}
+		}
+		
+		orc_set_pop_modifier = yes
+		
+		
+		
+	}
+
+}
+
+orc_apply_pop_growth_effect = {
+	if = {
+		limit = {
+			location = {
+				chech_variable = { which = orc_province_natural_pop_ceiling which > orc_province_total_pop which = PREV }
+			}
+		}
+		multiply_variable = {
+			which = 
+			value = 1.1
+		}
+	}
+}
+
+#############################################
+# Pop Display effects						#
+#############################################
+
+orc_holding_ownership_display = {
+	any_province_holding = {
+		if = {
+			limit = {
+				holder_scope = {
+					is_theocracy = yes
+				}						
+			}
+			remove_holding_modifier = orc_ownership_city_charter
+			remove_holding_modifier = orc_ownership_military_aristocracy
+			add_holding_modifier = {
+				modifier = orc_ownership_clergy
+				years = -1
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = {
+					is_republic = yes
+				}
+			}
+			remove_holding_modifier = orc_ownership_clergy
+			remove_holding_modifier = orc_ownership_military_aristocracy
+			add_holding_modifier = {
+				modifier = orc_ownership_city_charter
+				years = -1
+			}
+		}
+		if = {
+			limit = {
+				holder_scope = {
+					is_republic = no
+					is_theocracy = no
+				}
+			}
+			remove_holding_modifier = orc_ownership_clergy
+			remove_holding_modifier = orc_ownership_city_charter
+			add_holding_modifier = {
+				modifier = orc_ownership_military_aristocracy
+				years = -1
+			}
+		}
+	}
+}
+
+orc_holding_total_pop_update = {
+	set_variable = { which = orc_holding_total_elite_pop value = 0 }
+	set_variable = { which = orc_holding_total_lower_pop value = 0 }
+	set_variable = { which = orc_holding_total_pop value = 0 }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_catholic }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_cathar }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_fraticelli }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_waldensian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_lollard }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_adoptionist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_arian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_orthodox }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bogomilist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_monothelite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_iconoclast }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_syriac }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_maronite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_miaphysite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_monophysite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_apostolic }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_paulician }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tondrakian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_nestorian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_messalian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_sunni }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zikri }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mahdiyya }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_nabawiyya }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_ibadi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_kharijite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_haruri }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_shiite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_waqifi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zaydi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hurufi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_ismaili }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_druze }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_qarmatian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_norse_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_norse_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tengri_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_tengri_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_baltic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_baltic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_finnish_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_finnish_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_aztec_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_aztec }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_slavic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_slavic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_west_african_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_west_african_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zun_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zun_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hellenic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hellenic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bon_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_bon }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zoroastrian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mazdaki }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_zurvanist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_manichean }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_mandaean }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_yazidi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_khurmazta }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_jewish }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_samaritan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_karaite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_hindu }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_buddhist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_jain }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_taoist }
+	
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_catholic }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_cathar }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_fraticelli }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_waldensian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_lollard }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_adoptionist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_arian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_orthodox }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bogomilist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_monothelite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_iconoclast }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_syriac }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_maronite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_miaphysite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_monophysite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_apostolic }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_paulician }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tondrakian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_nestorian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_messalian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_sunni }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zikri }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mahdiyya }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_nabawiyya }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_ibadi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_kharijite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_haruri }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_shiite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_waqifi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zaydi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hurufi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_ismaili }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_druze }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_qarmatian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_norse_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_norse_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tengri_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_tengri_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_baltic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_baltic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_finnish_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_finnish_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_aztec_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_aztec }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_slavic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_slavic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_west_african_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_west_african_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zun_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zun_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hellenic_pagan_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hellenic_pagan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bon_reformed }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_bon }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zoroastrian }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mazdaki }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_zurvanist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_manichean }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_mandaean }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_yazidi }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_khurmazta }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_jewish }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_samaritan }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_karaite }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_hindu }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_buddhist }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_jain }
+	change_variable = { which = orc_holding_total_elite_pop which = orc_urban_elite_pop_taoist }
+
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_catholic }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_cathar }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_fraticelli }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_waldensian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_lollard }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_adoptionist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_arian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_orthodox }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bogomilist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_monothelite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_iconoclast }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_syriac }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_maronite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_miaphysite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_monophysite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_apostolic }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_paulician }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tondrakian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_nestorian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_messalian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_sunni }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zikri }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mahdiyya }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_nabawiyya }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_ibadi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_kharijite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_haruri }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_shiite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_waqifi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zaydi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hurufi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_ismaili }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_druze }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_qarmatian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_norse_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_norse_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tengri_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_tengri_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_baltic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_baltic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_finnish_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_finnish_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_aztec_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_aztec }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_slavic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_slavic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_west_african_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_west_african_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zun_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zun_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hellenic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hellenic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bon_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_bon }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zoroastrian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mazdaki }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_zurvanist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_manichean }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_mandaean }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_yazidi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_khurmazta }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_jewish }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_samaritan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_karaite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_hindu }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_buddhist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_jain }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_rural_peasant_pop_taoist }
+
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_catholic }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_cathar }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_fraticelli }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_waldensian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_lollard }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_adoptionist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_arian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_orthodox }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bogomilist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_monothelite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_iconoclast }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_syriac }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_maronite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_miaphysite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_monophysite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_apostolic }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_paulician }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tondrakian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_nestorian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_messalian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_sunni }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zikri }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mahdiyya }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_nabawiyya }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_ibadi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_kharijite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_haruri }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_shiite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_waqifi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zaydi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hurufi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_ismaili }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_druze }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_qarmatian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_norse_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_norse_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tengri_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_tengri_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_baltic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_baltic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_finnish_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_finnish_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_aztec_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_aztec }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_slavic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_slavic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_west_african_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_west_african_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zun_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zun_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hellenic_pagan_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hellenic_pagan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bon_reformed }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_bon }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zoroastrian }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mazdaki }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_zurvanist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_manichean }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_mandaean }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_yazidi }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_khurmazta }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_jewish }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_samaritan }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_karaite }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_hindu }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_buddhist }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_jain }
+	change_variable = { which = orc_holding_total_lower_pop which = orc_urban_lower_class_pop_taoist }
+	
+	change_variable = { which = orc_holding_total_pop which = orc_holding_total_lower_pop }
+	change_variable = { which = orc_holding_total_pop which = orc_holding_total_elite_pop }
+	
+	location = {
+		change_variable = { 
+			which = orc_province_total_pop 
+			which = orc_holding_total_pop 
+			which = PREV 
+		}
+		add_province_modifier = {
+			name = orc_population_display
+			duration = -1
+		}
+	}
+	
+	orc_set_pop_modifier = yes
 }
 
 #############################################

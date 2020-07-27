@@ -10,3 +10,55 @@
 # Written by Atreides
 
 
+true_vassal_clear_vanilla_vassal_relationship = {
+	any_vassal = {
+		limit = {
+			NOR = {
+				AND = {
+					is_republic = yes
+					is_theocracy = yes
+					NOT = { tier = baron }
+				}
+				any_liege = {
+					OR = {
+						AND = {
+							AND = {
+								primary_title = { 
+									OR = { 
+										title = e_byzantium
+										title = e_roman_empire
+									}
+									has_law = succ_byzantine_elective
+								}
+							}
+							has_law = succ_byzantine_elective
+						}
+						primary_title = {
+							OR = {
+								roman_administration_tagma_title_held_trigger = yes
+								roman_administration_theme_title_trigger = yes
+								roman_administration_strategos_title_trigger = yes
+							}
+							
+						}
+						primary_title = {
+							OR = {
+								title =	e_egypt
+								title = e_persia
+							}
+						}
+					}                           
+				}
+				tier = baron
+				government = nomadic_government
+				has_landed_title = d_mamluks
+				has_landed_title = d_papal_guards
+				mercenary = yes
+			}
+		}
+		liege = {
+			make_tributary = { who = PREV tributary_type = true_vassal }
+		}
+		set_defacto_liege = THIS
+	}	
+}

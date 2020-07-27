@@ -23,6 +23,50 @@ job_chancellor = {
 	
 	allow = {
 		can_be_chancellor_trigger = yes
+		OR = {
+			### Conditions for Roman Empire
+			AND = {
+				FROM = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+				ROOT = {
+					primary_title = {
+						NOT = { roman_administration_tagma_title_held_trigger = yes }
+						NOT = { roman_administration_strategos_title_trigger = yes }
+					}
+				}
+			}
+			### Conditions for Islamic Empire
+			AND = {
+				FROM = {
+					primary_title = { 
+						OR = {
+							title = e_egypt
+							title = e_persia
+						}
+						
+					}
+				}
+				ROOT = {
+					primary_title = {
+						has_title_flag = created_wazir_title
+					}
+				}
+			}
+			FROM = {
+				NOT = {
+					primary_title = {
+						OR = {
+							title = e_byzantium
+							title = e_egypt
+							title = e_persia
+						}						
+					}
+				}
+			}
+		}
 	}
 	dismiss_trigger = {
 		FROM = {
@@ -113,6 +157,27 @@ job_marshal = {
 	
 	allow = {
 		can_be_marshal_trigger = yes
+		OR = {
+			AND = {
+				FROM = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+				ROOT = {
+					primary_title = {
+						roman_administration_tagma_title_held_trigger = yes
+					}
+				}
+			}
+			FROM = {
+				NOT = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+			}
+		}
 	}
 	dismiss_trigger = {
 		FROM = {
@@ -365,6 +430,28 @@ job_spymaster = {
 	
 	allow = {
 		can_be_spymaster_trigger = yes
+		OR = {
+			AND = {
+				FROM = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+				ROOT = {
+					primary_title = {
+						NOT = { roman_administration_tagma_title_held_trigger = yes }
+						NOT = { roman_administration_strategos_title_trigger = yes }
+					}
+				}
+			}
+			FROM = {
+				NOT = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+			}
+		}
 	}
 	dismiss_trigger = {
 		FROM = {
@@ -457,6 +544,27 @@ job_spiritual = {
 	
 	allow = {
 		can_be_spiritual_trigger = yes
+		OR = {
+			AND = {
+				FROM = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+				ROOT = {
+					primary_title = {
+						title = k_orthodox
+					}
+				}
+			}
+			FROM = {
+				NOT = {
+					primary_title = { 
+						title = e_byzantium
+					}
+				}
+			}
+		}
 	}
 	dismiss_trigger = {
 		FROM = {

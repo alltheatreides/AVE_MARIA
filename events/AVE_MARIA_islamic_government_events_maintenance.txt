@@ -1,0 +1,194 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA events																	   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# ID AVE_MARIA_roman_administration.1 - AVE_MARIA_roman_administration.499			   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+namespace = AVE_MARIA_islamic_government_maintenance
+
+## Create the ghulam armies and high offices titles
+character_event = {
+	id = AVE_MARIA_islamic_government_maintenance.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+		
+	trigger = {
+		is_save_game = no
+		primary_title = {
+			title =	e_egypt
+		}
+	}
+	
+	immediate = {
+		### Give mamluk_troops
+		d_mamluks = {
+			set_title_flag = islamic_government_ghulam_title
+			holder_scope = {
+				add_hexaco_education_traits = yes
+				save_event_target_as = target_ghulam_commander
+				spawn_great_commander_effect = yes
+				spawn_great_commander_effect = yes
+				spawn_great_commander_effect = yes
+				capital_scope = {
+					event_target:target_ghulam_commander = {
+						spawn_unit = {
+							owner = event_target:target_ghulam_commander
+							province = PREV
+							home = PREV
+							troops = {
+								knights = { 500 500 }
+							}
+							attrition = 1
+							maintenance_multiplier = 1
+							reinforces = yes
+							reinforce_rate_multiplier = 0.5
+							earmark = mamluk_troops
+							can_toggle_looting = yes # Wether they can loot or not
+							cannot_inherit = no # Troops disappear if the owner die
+							disband_on_peace = no # Troops disappear when the owner is no longer at war
+							merge = yes
+						}
+						spawn_unit = {
+							owner = event_target:target_ghulam_commander
+							province = PREV
+							home = PREV
+							troops = {
+								knights = { 500 500 }
+							}
+							attrition = 1
+							maintenance_multiplier = 1
+							reinforces = yes
+							reinforce_rate_multiplier = 0.5
+							earmark = mamluk_troops
+							can_toggle_looting = yes # Wether they can loot or not
+							cannot_inherit = no # Troops disappear if the owner die
+							disband_on_peace = no # Troops disappear when the owner is no longer at war
+							merge = yes
+						}
+						spawn_unit = {
+							owner = event_target:target_ghulam_commander
+							province = PREV
+							home = PREV
+							troops = {
+								knights = { 500 500 }
+							}
+							attrition = 1
+							maintenance_multiplier = 1
+							reinforces = yes
+							reinforce_rate_multiplier = 0.5
+							earmark = mamluk_troops
+							can_toggle_looting = yes # Wether they can loot or not
+							cannot_inherit = no # Troops disappear if the owner die
+							disband_on_peace = no # Troops disappear when the owner is no longer at war
+							merge = yes
+						}
+					}
+					
+				}
+			}
+		}		
+		
+		create_random_diplomat = {
+			random_traits = yes
+			dynasty = actually_culture
+			female = no
+			attributes = {
+				diplomacy = 12
+				learning = 4
+				stewardship = 4
+				intrigue = 4
+				martial = 4
+			}
+		}
+		new_character = {
+			add_hexaco_trait = yes
+			add_hexaco_education_traits = yes
+			remove_trait = etiquette_1
+			remove_trait = etiquette_2
+			remove_trait = etiquette_3
+			remove_trait = etiquette_4
+			add_trait = etiquette_5
+			save_event_target_as = target_wazir
+			set_character_flag = test
+		}
+		### Create high office - Wazir
+		create_title = { # Wazir Titular title - Create Wazir titular king title	
+			tier = KING
+			landless = yes
+			temporary = no
+			rebel = no
+			capital = 796
+			culture = egyptian_arabic
+			name = WAZIR_TITLE_ROOT
+			holder = event_target:target_wazir
+			custom_created = yes
+			mercenary = no
+			adventurer = no
+			ruler = "Wazir"
+			ruler_female = "Wazir"
+			foa = "My Wazir"
+		}
+		new_title = {
+			save_event_target_as = target_wazir_title
+			set_title_flag = created_wazir_title
+			add_law = {		
+				law = agnatic_succession	
+				cooldown = no 	
+				opinion_effect = no	
+			}
+			de_jure_liege = e_egypt
+		}
+		create_title = {
+			tier = DUKE
+			landless = yes
+			capital = 796
+			temporary = no
+			rebel = no
+			culture = egyptian_arabic
+			name = FAMILY_DUKE_TITLE
+			holder = event_target:target_wazir
+			custom_created = yes
+			mercenary = no
+			adventurer = no
+			ruler = "Eugeneios"
+			ruler_female = "Eugeneia"
+			foa = "My Eugeneios"
+		}
+		new_title = {
+			set_title_flag = created_family_duke_title
+			save_event_target_as = target_duke_family_title
+			add_law = {		
+				law = succ_roman_family_elective	
+				cooldown = no 	
+				opinion_effect = no	
+			}		
+			add_law = {		
+				law = agnatic_succession	
+				cooldown = no 	
+				opinion_effect = no	
+			}
+			de_jure_liege = event_target:target_wazir_title
+		}
+		event_target:target_wazir = {
+			set_defacto_liege = e_egypt
+			any_demesne_title = {
+				limit = {
+					has_title_flag = created_family_duke_title
+				}
+				activate_title = {
+					title = THIS
+					status = no
+				}
+				destroy_landed_title = THIS
+			}
+		}
+		
+		
+	}
+}

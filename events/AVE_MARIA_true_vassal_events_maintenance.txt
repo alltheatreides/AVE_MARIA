@@ -42,16 +42,34 @@ character_event = {
 							NOT = { tier = baron }
 						}
                         any_liege = {
-                            AND = {
-                                primary_title = { 
-                                    OR = { 
-                                        title = e_byzantium
-                                        title = e_roman_empire
-                                    }
-                                    has_law = succ_byzantine_elective
-                                }
-                            }
-                            has_law = succ_byzantine_elective
+							OR = {
+								AND = {
+									AND = {
+										primary_title = { 
+											OR = { 
+												title = e_byzantium
+												title = e_roman_empire
+											}
+											has_law = succ_byzantine_elective
+										}
+									}
+									has_law = succ_byzantine_elective
+								}
+								primary_title = {
+									OR = {
+										roman_administration_tagma_title_held_trigger = yes
+										roman_administration_theme_title_trigger = yes
+										roman_administration_strategos_title_trigger = yes
+									}
+									
+								}
+								primary_title = {
+									OR = {
+										title =	e_egypt
+										title = e_persia
+									}
+								}
+							}                           
                         }
                         tier = baron
                         government = nomadic_government
@@ -108,17 +126,35 @@ character_event = {
 						NOT = { tier = baron }
 					}
                     any_liege = {
-                        AND = { 
-                            primary_title = { 
-                                OR = { 
-                                    title = e_byzantium
-                                    title = e_roman_empire
-                                }
-                                has_law = succ_byzantine_elective
-                            }
-                        }
-                        has_law = succ_byzantine_elective
-                    }
+						OR = {
+							AND = {
+								AND = {
+									primary_title = { 
+										OR = { 
+											title = e_byzantium
+											title = e_roman_empire
+										}
+										has_law = succ_byzantine_elective
+									}
+								}
+								has_law = succ_byzantine_elective
+							}
+							primary_title = {
+								OR = {
+									roman_administration_tagma_title_held_trigger = yes
+									roman_administration_theme_title_trigger = yes
+									roman_administration_strategos_title_trigger = yes
+								}
+								
+							}
+							primary_title = {
+								OR = {
+									title =	e_egypt
+									title = e_persia
+								}
+							}
+						}                           
+					}
                     tier = baron
                     government = nomadic_government
                     has_landed_title = d_mamluks

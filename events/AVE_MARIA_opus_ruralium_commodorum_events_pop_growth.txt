@@ -13,7 +13,7 @@ namespace = AVE_MARIA_opus_ruralium_commodorum_pop_growth
 
 ##NOTES:
 ##
-## Start up Food assignment
+## Start Up province pop ceiling
 character_event = {
 	id = AVE_MARIA_opus_ruralium_commodorum_pop_growth.1
 
@@ -24,6 +24,7 @@ character_event = {
 	trigger = {
 		ai = no
 		is_multiplayer_host_character = yes
+		is_save_game = no
 	}
 	
 	immediate = {
@@ -31,37 +32,37 @@ character_event = {
 			limit = {
 				tier = baron
 			}
-			location = {
-				trigger_switch = {
+			location = { ### Province pop natural ceiling
+				trigger_switch = {	
 					on_trigger = terrain
-					orc_forest_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_forest_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_forest_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_forest_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_woods_flat = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_woods_hill = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_woods_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_woods_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_shrub_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_shrub_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_shrub_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_shrub_highlands = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_grass_flat = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_grass_hill = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_grass_mountains = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_grass_highlands = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_desert_flat = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_desert_hill = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_desert_mountains = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_desert_highlands = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_jungle_flat = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_jungle_hill = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_floodplains = { PREV = { change_variable = { which = orc_food value = 15 } } }
-					orc_alpine_tundra = { PREV = { change_variable = { which = orc_food value = 9 } } }
-					orc_marsh = { PREV = { change_variable = { which = orc_food value = 13 } } }
-					orc_taiga = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_tundra = { PREV = { change_variable = { which = orc_food value = 11 } } }
-					orc_small_island = { PREV = { change_variable = { which = orc_food value = 11 } } }
+					orc_forest_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_forest_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_forest_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_forest_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_woods_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_woods_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_woods_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_woods_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_shrub_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_shrub_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_shrub_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_shrub_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_grass_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_grass_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_grass_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_grass_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_desert_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_desert_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_desert_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_desert_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_jungle_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_jungle_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_floodplains = { change_variable = { which = orc_province_natural_pop_ceiling value = 100 } }
+					orc_alpine_tundra = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
+					orc_marsh = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
+					orc_taiga = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_tundra = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
+					orc_small_island = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
 				}
 			}
 		}
@@ -86,8 +87,17 @@ character_event = {
 			limit = {
 				tier = baron
 			}
+			if = {
+				limit = {
+					check_variable = { which = orc_food_surplus value > 1 }
+				}
+				orc_apply_pop_growth_effect = yes
+			}
 			subtract_variable = { which = orc_food which = orc_holding_total_pop }
 		}
+		##Is there a food excedent: trigger on food excedent
+		## How much is the food excedent: what is going to be the growth, compare it to the max pop ceiling, if below, apply normal growth%, if above, do not apply %
+		
 	}
 }
 

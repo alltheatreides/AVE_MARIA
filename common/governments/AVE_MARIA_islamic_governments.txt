@@ -1,0 +1,237 @@
+feudal_governments = {
+	
+	islamic_administration_military_government = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		vassal_call_to_arms = {
+			nomadic_government
+			tribal_government
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			muslim_imperial_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			muslim_government
+		}
+		potential = {
+			# tier = DUKE
+			NOT = { is_government_potential = islamic_administration_civilian_government }
+			primary_title = {
+				OR = {
+					title = d_mamluks
+				}				
+			}			
+			liege = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+			NOT = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+		}
+		frame_suffix = "_islamic_administration_military_government"
+		
+		color = { 143 12 125 }
+		
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		
+		can_usurp_kingdoms_and_empires = no
+		can_imprison_without_reason = no
+		can_create_kingdoms = no
+		can_create_empires = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		free_retract_vassalage = yes
+		can_grant_kingdoms_and_empires_to_other_government = no
+		
+		unit_modifier = {
+			
+		}
+		
+	}
+		
+	islamic_administration_civilian_government = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		vassal_call_to_arms = {
+			nomadic_government
+			tribal_government
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			muslim_imperial_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			muslim_government
+		}
+		potential = {
+			# tier = DUKE
+			NOT = {
+				primary_title = {
+					title = d_mamluks			
+				}
+			}
+			OR = {
+				# any_demesne_title = {
+					# roman_administration_theme_title_trigger = yes
+				# }
+				liege = {
+					government = muslim_imperial_government
+				}
+			}
+			NOT = {
+				primary_title = {
+					roman_administration_family_title_trigger = yes
+				}
+			}
+			NOT = {
+				primary_title = { title = d_apostolic }
+			}
+			top_liege = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+			NOT = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+		}
+		frame_suffix = "_islamic_administration_civilian_government"
+		
+		color = { 143 12 125 }
+		
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		
+		can_usurp_kingdoms_and_empires = no
+		can_imprison_without_reason = no
+		can_create_kingdoms = no
+		can_create_empires = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		free_retract_vassalage = yes
+		can_grant_kingdoms_and_empires_to_other_government = no
+		
+		unit_modifier = {
+			levy_size = -2
+		}
+		
+	}
+	
+	islamic_administration_family_government = {
+		preferred_holdings = { CASTLE CITY }
+		allowed_holdings = { 
+			CASTLE 
+			CITY
+			FORT
+			HOSPITAL
+		}
+		vassal_call_to_arms = {
+			nomadic_government
+			tribal_government
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+			CITY
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			roman_imperial_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+			muslim_government
+		}
+		potential = {
+			# tier = DUKE
+			primary_title = {
+				islamic_administration_family_title_trigger = yes
+			}			
+			liege = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+			NOT = {
+				primary_title = { 
+					OR = { 
+						title =	e_egypt
+						title = e_persia
+					}
+				}
+			}
+		}
+		frame_suffix = "_roman_administration_family_government"
+		
+		color = { 143 12 125 }
+		
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+		
+		can_usurp_kingdoms_and_empires = no
+		can_imprison_without_reason = no
+		can_create_kingdoms = no
+		can_create_empires = no
+		vassal_government_opinion_penalties = no
+		can_grant_kingdoms_and_empires_to_other_government_group = no
+		can_be_granted_kingdoms_and_empires_by_other_government = no
+		free_retract_vassalage = yes
+		can_grant_kingdoms_and_empires_to_other_government = no
+		
+		unit_modifier = {
+			
+		}
+		
+	}
+	
+}

@@ -1,0 +1,41 @@
+########################################################################################
+#                                         											   #
+# AVE MARIA Government Flavor														   #
+# A Very Extensive Modification for Appropriate Realism and Improved Authenticity	   #
+#                                         											   #
+# Roman Administration Government Flavor		                       				   #
+#                               													   #
+########################################################################################
+
+# Written by Atreides
+
+government_flavor = {
+	name = gov_muslim_imperial_government
+	graphics = GFX_evt_ave_maria_islamic_government_sultan_audience
+	priority = 1
+	trigger = {
+		government = muslim_imperial_government
+		# has_law = succ_my_test_law
+	}
+}
+
+government_flavor = {
+	name = gov_islamic_administration_military_government
+	graphics = GFX_evt_ave_maria_islamic_government_mamluk_fight
+	priority = 1
+	trigger = {
+		government = islamic_administration_military_government
+		# has_law = succ_my_test_law
+	}
+}
+
+government_flavor = {
+	name = gov_islamic_administration_civilian_government
+	graphics = GFX_evt_ave_maria_islamic_government_court_life
+	priority = 1
+	trigger = {
+		government = islamic_administration_civilian_government
+		# has_law = succ_roman_family_elective
+	}
+}
+
