@@ -210,8 +210,8 @@ title_commander = {
 					}
 				}
 			}
-			FROM = {
-				NOT = {
+			NOT = {
+				FROM = {
 					primary_title = { 
 						title = e_byzantium
 					}
