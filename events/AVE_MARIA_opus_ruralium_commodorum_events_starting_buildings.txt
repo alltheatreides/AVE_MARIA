@@ -45,7 +45,6 @@ character_event = {
 				any_province_holding = {
 					add_manorial_buildings_stone_quality = yes
 					add_building = c_manor
-					add_building = c_local_noble_1
 				}
 				
 			}
@@ -60,8 +59,13 @@ character_event = {
 				any_province_holding = {
 					add_bishop_buildings_stone_quality = yes
 					add_building = t_manor
-					add_building = t_local_noble_1
 				}				
+			}
+			
+			### Farmlands buildings
+			trigger_switch = {
+				on_trigger = terrain
+				
 			}
 		}
 	}

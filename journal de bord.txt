@@ -616,3 +616,22 @@ So one way this might work is through the implementation of an expanded economy 
 
 28/07/20
 - Alright, pop distrib by start up event takes forever, need to move that to history files
+
+29/07/20
+- nvm cleaned my code and do only one instance of any_title sweep instead of 60
+- Tiers: de 10 à 20 par richesse de province, pas assez riche, de 20 à 30, normal, de 30 à plus, augmenter les quantités de chevaliers
+
+30/07/20
+- Trop de building tue le building. Pas plus de 10 building par type d'unité sinon c'est la cata. ou alors j'sais pas de 100 à 
+- bon c'est bon merci les modifiers
+- A faire: Les tooltips pour le modifier de pop qui donne le pop breakdown
+
+text_file = open("test.txt", "r+")
+for i in range(77116):
+    line = textfile.readline()
+    if line[:2] == "e_":
+        print(line)
+
+text_file.close()
+
+31/07/20 

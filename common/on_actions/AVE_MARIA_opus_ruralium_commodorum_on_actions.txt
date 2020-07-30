@@ -31,3 +31,10 @@ on_new_holder = {
 	}
 }
 
+# ROOT = Builder, FROM = The Holding Title
+on_holding_building_start = {
+	events = {
+		## if the building in question is tax generating , fires some time later to update the troops numbers
+	}
+}
+
