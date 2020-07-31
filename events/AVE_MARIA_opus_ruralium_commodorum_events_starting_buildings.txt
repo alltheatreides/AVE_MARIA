@@ -33,6 +33,15 @@ character_event = {
 				add_manorial_buildings_stone_quality = yes
 			}
 		}
+		b_melun = {
+			add_building = c_magnificent_manor
+			add_building = c_manor_stone_tower
+			add_building = c_large_urban_center
+			add_building = c_monastery_3
+			add_building = c_watermill
+			add_building = c_commercial_port
+			add_building = c_almhouse_3
+		}
 		any_province = {
 			if = {
 				limit = {
@@ -63,10 +72,10 @@ character_event = {
 			}
 			
 			### Farmlands buildings
-			trigger_switch = {
-				on_trigger = terrain
+			# trigger_switch = {
+				# on_trigger = terrain
 				
-			}
+			# }
 		}
 	}
 }

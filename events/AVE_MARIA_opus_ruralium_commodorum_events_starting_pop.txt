@@ -35,14 +35,95 @@ character_event = {
 			}
 			set_variable = { which = orc_province_total_pop value = 0 }
 			orc_holding_ownership_display = yes
+			
+			set_variable = { which = orc_province_farmable_land_size value = 0 }
+			set_variable = { which = orc_province_soil_quality value = 0 }
+			# set_variable = { which = which = orc_province_soil_quality value = 0 }
+			## Province Fertility and Farmable Size Distribution
+			trigger_switch = { ## Farmable land size
+				on_trigger = terrain
+				orc_forest_flat = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_forest_hill = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_forest_mountains = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_forest_highlands = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_woods_flat = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_woods_hill = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_woods_mountains = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_woods_highlands = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_shrub_flat = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_shrub_hill = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_shrub_mountains = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_shrub_highlands = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_grass_flat = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_grass_hill = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_grass_mountains = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_grass_highlands = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_desert_flat = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_desert_hill = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_desert_mountains = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_desert_highlands = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_jungle_flat = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_jungle_hill = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_floodplains = { change_variable = { which = orc_province_farmable_land_size value = 100 } }
+				orc_alpine_tundra = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+				orc_marsh = { change_variable = { which = orc_province_farmable_land_size value = 80 } }
+				orc_taiga = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_tundra = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
+				orc_small_island = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
+			}
+			trigger_switch = { ## Per region fertility distribution
+				on_trigger = region
+				world_asia_minor = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				custom_greece_region = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				custom_greater_bulgaria_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_hungary_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_england_and_wales_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_poland_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				world_europe_west_iberia = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				world_africa_east = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_bohemia_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_danish = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_swedish = { change_variable = { which = orc_province_soil_quality value = 6 } }
+				custom_norwegian = { change_variable = { which = orc_province_soil_quality value = 5 } }
+				custom_scotland = { change_variable = { which = orc_province_soil_quality value = 5 } }
+				custom_ireland_region = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				custom_russia = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_iraq_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_egypt_region = { change_variable = { which = orc_province_soil_quality value = 15 } }
+				custom_algeria_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_tunisia_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_libya_region = { change_variable = { which = orc_province_soil_quality value = 6 } }
+				world_middle_east_jerusalem = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				custom_sicily_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_mainland_italy_region = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				world_europe_west_germania = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				world_europe_west_francia = { change_variable = { which = orc_province_soil_quality value = 10 } }
+				custom_cyprus_region = { change_variable = { which = orc_province_soil_quality value = 8 } }
+				world_persia = { change_variable = { which = orc_province_soil_quality value = 8 } }
+			}
+			trigger_switch = { ## Terrain Type Tweak
+				on_trigger = terrain
+				orc_desert_flat = { set_variable = { which = orc_province_soil_quality value = 0 } }
+				orc_desert_hill = { set_variable = { which = orc_province_soil_quality value = 0 } }
+				orc_desert_mountains = { set_variable = { which = orc_province_soil_quality value = 0 } }
+				orc_desert_highlands = { set_variable = { which = orc_province_soil_quality value = 0 } }
+
+			}
+
+			orc_province_farm_revenue_effect = yes
+
 		}
 		
-		### Regional Population Distribution	
+		### Various Holding effects : Regional Population Distribution - 
 		any_title = {
 			limit = {
 				has_holder = yes
 				tier = baron
 			}
+			
+			
+			
+			## Population Distribution
 			location = { ## Population Distribution
 				## world_asia_minor 7079000 to distribute			
 				if = {			
@@ -3124,7 +3205,7 @@ character_event = {
 						jain = { PREV = { set_variable = { which = orc_urban_lower_class_pop_jain value = 	1 } } }
 					}		
 				}			
-				## custom_russia 5400000 to distribute			
+				## custom_russia 5400000/2 to distribute			
 				if = {			
 					limit = {		
 						has_owner = yes	
@@ -3132,74 +3213,74 @@ character_event = {
 					}		
 					trigger_switch = {		
 						on_trigger = religion	
-						catholic = { PREV = { set_variable = { which = orc_rural_peasant_pop_catholic value = 	10 } } }
-						cathar = { PREV = { set_variable = { which = orc_rural_peasant_pop_cathar value = 	10 } } }
-						fraticelli = { PREV = { set_variable = { which = orc_rural_peasant_pop_fraticelli value = 	10 } } }
-						waldensian = { PREV = { set_variable = { which = orc_rural_peasant_pop_waldensian value = 	10 } } }
-						lollard = { PREV = { set_variable = { which = orc_rural_peasant_pop_lollard value = 	10 } } }
-						adoptionist = { PREV = { set_variable = { which = orc_rural_peasant_pop_adoptionist value = 	10 } } }
-						arian = { PREV = { set_variable = { which = orc_rural_peasant_pop_arian value = 	10 } } }
-						orthodox = { PREV = { set_variable = { which = orc_rural_peasant_pop_orthodox value = 	10 } } }
-						bogomilist = { PREV = { set_variable = { which = orc_rural_peasant_pop_bogomilist value = 	10 } } }
-						monothelite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monothelite value = 	10 } } }
-						iconoclast = { PREV = { set_variable = { which = orc_rural_peasant_pop_iconoclast value = 	10 } } }
-						syriac = { PREV = { set_variable = { which = orc_rural_peasant_pop_syriac value = 	10 } } }
-						maronite = { PREV = { set_variable = { which = orc_rural_peasant_pop_maronite value = 	10 } } }
-						miaphysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_miaphysite value = 	10 } } }
-						monophysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monophysite value = 	10 } } }
-						apostolic = { PREV = { set_variable = { which = orc_rural_peasant_pop_apostolic value = 	10 } } }
-						paulician = { PREV = { set_variable = { which = orc_rural_peasant_pop_paulician value = 	10 } } }
-						tondrakian = { PREV = { set_variable = { which = orc_rural_peasant_pop_tondrakian value = 	10 } } }
-						nestorian = { PREV = { set_variable = { which = orc_rural_peasant_pop_nestorian value = 	10 } } }
-						messalian = { PREV = { set_variable = { which = orc_rural_peasant_pop_messalian value = 	10 } } }
-						sunni = { PREV = { set_variable = { which = orc_rural_peasant_pop_sunni value = 	10 } } }
-						zikri = { PREV = { set_variable = { which = orc_rural_peasant_pop_zikri value = 	10 } } }
-						mahdiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_mahdiyya value = 	10 } } }
-						nabawiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_nabawiyya value = 	10 } } }
-						ibadi = { PREV = { set_variable = { which = orc_rural_peasant_pop_ibadi value = 	10 } } }
-						kharijite = { PREV = { set_variable = { which = orc_rural_peasant_pop_kharijite value = 	10 } } }
-						haruri = { PREV = { set_variable = { which = orc_rural_peasant_pop_haruri value = 	10 } } }
-						shiite = { PREV = { set_variable = { which = orc_rural_peasant_pop_shiite value = 	10 } } }
-						waqifi = { PREV = { set_variable = { which = orc_rural_peasant_pop_waqifi value = 	10 } } }
-						zaydi = { PREV = { set_variable = { which = orc_rural_peasant_pop_zaydi value = 	10 } } }
-						hurufi = { PREV = { set_variable = { which = orc_rural_peasant_pop_hurufi value = 	10 } } }
-						ismaili = { PREV = { set_variable = { which = orc_rural_peasant_pop_ismaili value = 	10 } } }
-						druze = { PREV = { set_variable = { which = orc_rural_peasant_pop_druze value = 	10 } } }
-						qarmatian = { PREV = { set_variable = { which = orc_rural_peasant_pop_qarmatian value = 	10 } } }
-						pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_pagan value = 	10 } } }
-						norse_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan_reformed value = 	10 } } }
-						norse_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan value = 	10 } } }
-						tengri_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan_reformed value = 	10 } } }
-						tengri_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan value = 	10 } } }
-						baltic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan_reformed value = 	10 } } }
-						baltic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan value = 	10 } } }
-						finnish_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan_reformed value = 	10 } } }
-						finnish_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan value = 	10 } } }
-						aztec_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec_reformed value = 	10 } } }
-						aztec = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec value = 	10 } } }
-						slavic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan_reformed value = 	10 } } }
-						slavic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan value = 	10 } } }
-						west_african_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan_reformed value = 	10 } } }
-						west_african_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan value = 	10 } } }
-						zun_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan_reformed value = 	10 } } }
-						zun_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan value = 	10 } } }
-						hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan_reformed value = 	10 } } }
-						hellenic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan value = 	10 } } }
-						bon_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon_reformed value = 	10 } } }
-						bon = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon value = 	10 } } }
-						zoroastrian = { PREV = { set_variable = { which = orc_rural_peasant_pop_zoroastrian value = 	10 } } }
-						mazdaki = { PREV = { set_variable = { which = orc_rural_peasant_pop_mazdaki value = 	10 } } }
-						zurvanist = { PREV = { set_variable = { which = orc_rural_peasant_pop_zurvanist value = 	10 } } }
-						manichean = { PREV = { set_variable = { which = orc_rural_peasant_pop_manichean value = 	10 } } }
-						mandaean = { PREV = { set_variable = { which = orc_rural_peasant_pop_mandaean value = 	10 } } }
-						yazidi = { PREV = { set_variable = { which = orc_rural_peasant_pop_yazidi value = 	10 } } }
-						khurmazta = { PREV = { set_variable = { which = orc_rural_peasant_pop_khurmazta value = 	10 } } }
-						jewish = { PREV = { set_variable = { which = orc_rural_peasant_pop_jewish value = 	10 } } }
-						samaritan = { PREV = { set_variable = { which = orc_rural_peasant_pop_samaritan value = 	10 } } }
-						karaite = { PREV = { set_variable = { which = orc_rural_peasant_pop_karaite value = 	10 } } }
-						hindu = { PREV = { set_variable = { which = orc_rural_peasant_pop_hindu value = 	10 } } }
-						buddhist = { PREV = { set_variable = { which = orc_rural_peasant_pop_buddhist value = 	10 } } }
-						jain = { PREV = { set_variable = { which = orc_rural_peasant_pop_jain value = 	10 } } }
+						catholic = { PREV = { set_variable = { which = orc_rural_peasant_pop_catholic value = 	5 } } }
+						cathar = { PREV = { set_variable = { which = orc_rural_peasant_pop_cathar value = 	5 } } }
+						fraticelli = { PREV = { set_variable = { which = orc_rural_peasant_pop_fraticelli value = 	5 } } }
+						waldensian = { PREV = { set_variable = { which = orc_rural_peasant_pop_waldensian value = 	5 } } }
+						lollard = { PREV = { set_variable = { which = orc_rural_peasant_pop_lollard value = 	5 } } }
+						adoptionist = { PREV = { set_variable = { which = orc_rural_peasant_pop_adoptionist value = 	5 } } }
+						arian = { PREV = { set_variable = { which = orc_rural_peasant_pop_arian value = 	5 } } }
+						orthodox = { PREV = { set_variable = { which = orc_rural_peasant_pop_orthodox value = 	5 } } }
+						bogomilist = { PREV = { set_variable = { which = orc_rural_peasant_pop_bogomilist value = 	5 } } }
+						monothelite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monothelite value = 	5 } } }
+						iconoclast = { PREV = { set_variable = { which = orc_rural_peasant_pop_iconoclast value = 	5 } } }
+						syriac = { PREV = { set_variable = { which = orc_rural_peasant_pop_syriac value = 	5 } } }
+						maronite = { PREV = { set_variable = { which = orc_rural_peasant_pop_maronite value = 	5 } } }
+						miaphysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_miaphysite value = 	5 } } }
+						monophysite = { PREV = { set_variable = { which = orc_rural_peasant_pop_monophysite value = 	5 } } }
+						apostolic = { PREV = { set_variable = { which = orc_rural_peasant_pop_apostolic value = 	5 } } }
+						paulician = { PREV = { set_variable = { which = orc_rural_peasant_pop_paulician value = 	5 } } }
+						tondrakian = { PREV = { set_variable = { which = orc_rural_peasant_pop_tondrakian value = 	5 } } }
+						nestorian = { PREV = { set_variable = { which = orc_rural_peasant_pop_nestorian value = 	5 } } }
+						messalian = { PREV = { set_variable = { which = orc_rural_peasant_pop_messalian value = 	5 } } }
+						sunni = { PREV = { set_variable = { which = orc_rural_peasant_pop_sunni value = 	5 } } }
+						zikri = { PREV = { set_variable = { which = orc_rural_peasant_pop_zikri value = 	5 } } }
+						mahdiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_mahdiyya value = 	5 } } }
+						nabawiyya = { PREV = { set_variable = { which = orc_rural_peasant_pop_nabawiyya value = 	5 } } }
+						ibadi = { PREV = { set_variable = { which = orc_rural_peasant_pop_ibadi value = 	5 } } }
+						kharijite = { PREV = { set_variable = { which = orc_rural_peasant_pop_kharijite value = 	5 } } }
+						haruri = { PREV = { set_variable = { which = orc_rural_peasant_pop_haruri value = 	5 } } }
+						shiite = { PREV = { set_variable = { which = orc_rural_peasant_pop_shiite value = 	5 } } }
+						waqifi = { PREV = { set_variable = { which = orc_rural_peasant_pop_waqifi value = 	5 } } }
+						zaydi = { PREV = { set_variable = { which = orc_rural_peasant_pop_zaydi value = 	5 } } }
+						hurufi = { PREV = { set_variable = { which = orc_rural_peasant_pop_hurufi value = 	5 } } }
+						ismaili = { PREV = { set_variable = { which = orc_rural_peasant_pop_ismaili value = 	5 } } }
+						druze = { PREV = { set_variable = { which = orc_rural_peasant_pop_druze value = 	5 } } }
+						qarmatian = { PREV = { set_variable = { which = orc_rural_peasant_pop_qarmatian value = 	5 } } }
+						pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_pagan value = 	5 } } }
+						norse_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan_reformed value = 	5 } } }
+						norse_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_norse_pagan value = 	5 } } }
+						tengri_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan_reformed value = 	5 } } }
+						tengri_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_tengri_pagan value = 	5 } } }
+						baltic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan_reformed value = 	5 } } }
+						baltic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_baltic_pagan value = 	5 } } }
+						finnish_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan_reformed value = 	5 } } }
+						finnish_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_finnish_pagan value = 	5 } } }
+						aztec_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec_reformed value = 	5 } } }
+						aztec = { PREV = { set_variable = { which = orc_rural_peasant_pop_aztec value = 	5 } } }
+						slavic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan_reformed value = 	5 } } }
+						slavic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_slavic_pagan value = 	5 } } }
+						west_african_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan_reformed value = 	5 } } }
+						west_african_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_west_african_pagan value = 	5 } } }
+						zun_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan_reformed value = 	5 } } }
+						zun_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_zun_pagan value = 	5 } } }
+						hellenic_pagan_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan_reformed value = 	5 } } }
+						hellenic_pagan = { PREV = { set_variable = { which = orc_rural_peasant_pop_hellenic_pagan value = 	5 } } }
+						bon_reformed = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon_reformed value = 	5 } } }
+						bon = { PREV = { set_variable = { which = orc_rural_peasant_pop_bon value = 	5 } } }
+						zoroastrian = { PREV = { set_variable = { which = orc_rural_peasant_pop_zoroastrian value = 	5 } } }
+						mazdaki = { PREV = { set_variable = { which = orc_rural_peasant_pop_mazdaki value = 	5 } } }
+						zurvanist = { PREV = { set_variable = { which = orc_rural_peasant_pop_zurvanist value = 	5 } } }
+						manichean = { PREV = { set_variable = { which = orc_rural_peasant_pop_manichean value = 	5 } } }
+						mandaean = { PREV = { set_variable = { which = orc_rural_peasant_pop_mandaean value = 	5 } } }
+						yazidi = { PREV = { set_variable = { which = orc_rural_peasant_pop_yazidi value = 	5 } } }
+						khurmazta = { PREV = { set_variable = { which = orc_rural_peasant_pop_khurmazta value = 	5 } } }
+						jewish = { PREV = { set_variable = { which = orc_rural_peasant_pop_jewish value = 	5 } } }
+						samaritan = { PREV = { set_variable = { which = orc_rural_peasant_pop_samaritan value = 	5 } } }
+						karaite = { PREV = { set_variable = { which = orc_rural_peasant_pop_karaite value = 	5 } } }
+						hindu = { PREV = { set_variable = { which = orc_rural_peasant_pop_hindu value = 	5 } } }
+						buddhist = { PREV = { set_variable = { which = orc_rural_peasant_pop_buddhist value = 	5 } } }
+						jain = { PREV = { set_variable = { which = orc_rural_peasant_pop_jain value = 	5 } } }
 					}		
 					trigger_switch = {		
 						on_trigger = religion	
@@ -5988,10 +6069,12 @@ character_event = {
 			}	
 			orc_holding_total_pop_update = yes # Update the modifier pop visual and recalculate the total pop
 			
-			## To ease "any_title" scope - holding wealth variable for troops composition
+			## Military Units Composition - To ease "any_title" scope - holding wealth variable for troops composition
 			set_variable = { which = orc_holding_wealth value = 0 } 
 			export_to_variable = { which = orc_holding_wealth value = holding_tax_value }
 			orc_holding_elite_pop_military_update = yes
+			
+			## 
 		}
 		
 		### Regional Population Tweak - Byzantine Empire

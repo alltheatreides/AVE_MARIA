@@ -634,4 +634,23 @@ for i in range(77116):
 
 text_file.close()
 
+second part:
+text_file = open("test.txt", "r+")
+titles = []
+for i in range(77116):
+    line = textfile.readline()
+    if line[:2] == "e":
+        titles.append(line.split(" ",1)[0])
+text_file.close()
+print(titles)
+
+- Faire du soil quality variable en fonction des régions pour le gros du boulot
+
 31/07/20 
+- Pour afficher les religions correctement en localisation: faire un flag minorité religieuse et un scripted trigger qui quand le flag est là crée une variable basé sur la religion en question,
+- ^ genre (à répéter pour chaque religion) orc_jewish_minority_calculation = { if or check_variable orc_lower_class_pop_jewish > 0 check_variable orc_upper_class_pop_jewish > 0 set_variable = { which = orc_total_jewish_pop which = orc_lower_class_pop_jewish et additioner les autres pop locales }
+- trigger switch = { on_trigger = religion { catholic = { check toutes les autres variables non catho}
+
+- Pour transférer les points d'admin du roi précédent: on_death > current_heir> copy paste the variables
+
+- Faire en sorte que seuls certaisn batimens qui donnent de la tax income soient présent dans les estuaires etcc

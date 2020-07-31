@@ -21,7 +21,7 @@ orc_road = {
 	icon = 144
 }
 
-### PROVINCE TERRAIN TYPE MODIFIERS LOCALIZED UNDER ARABLE LAND
+### PROVINCE TERRAIN TYPE MODIFIERS
 ##	forest_flat
 orc_forest_flat = {	
 	icon = 153
@@ -12494,6 +12494,109 @@ orc_holding_population_395 = { #POP DISPLAY FOR HOLDINGS
 orc_holding_population_400 = { #POP DISPLAY FOR HOLDINGS	
 	icon = 271
 }	
+
+## FARM REVENUES
+orc_province_farm_revenue_1 = { icon = 1 tax_income = 1 }
+orc_province_farm_revenue_2 = { icon = 1 tax_income = 2 }
+orc_province_farm_revenue_3 = { icon = 1 tax_income = 3 }
+orc_province_farm_revenue_4 = { icon = 1 tax_income = 4 }
+orc_province_farm_revenue_5 = { icon = 1 tax_income = 5 }
+orc_province_farm_revenue_6 = { icon = 1 tax_income = 6 }
+orc_province_farm_revenue_7 = { icon = 1 tax_income = 7 }
+orc_province_farm_revenue_8 = { icon = 1 tax_income = 8 }
+orc_province_farm_revenue_9 = { icon = 1 tax_income = 9 }
+orc_province_farm_revenue_10 = { icon = 1 tax_income = 10 }
+orc_province_farm_revenue_11 = { icon = 1 tax_income = 11 }
+orc_province_farm_revenue_12 = { icon = 1 tax_income = 12 }
+orc_province_farm_revenue_13 = { icon = 1 tax_income = 13 }
+orc_province_farm_revenue_14 = { icon = 1 tax_income = 14 }
+orc_province_farm_revenue_15 = { icon = 1 tax_income = 15 }
+orc_province_farm_revenue_16 = { icon = 1 tax_income = 16 }
+orc_province_farm_revenue_17 = { icon = 1 tax_income = 17 }
+orc_province_farm_revenue_18 = { icon = 1 tax_income = 18 }
+orc_province_farm_revenue_19 = { icon = 1 tax_income = 19 }
+orc_province_farm_revenue_20 = { icon = 1 tax_income = 20 }
+orc_province_farm_revenue_21 = { icon = 1 tax_income = 21 }
+orc_province_farm_revenue_22 = { icon = 1 tax_income = 22 }
+orc_province_farm_revenue_23 = { icon = 1 tax_income = 23 }
+orc_province_farm_revenue_24 = { icon = 1 tax_income = 24 }
+orc_province_farm_revenue_25 = { icon = 1 tax_income = 25 }
+orc_province_farm_revenue_26 = { icon = 1 tax_income = 26 }
+orc_province_farm_revenue_27 = { icon = 1 tax_income = 27 }
+orc_province_farm_revenue_28 = { icon = 1 tax_income = 28 }
+orc_province_farm_revenue_29 = { icon = 1 tax_income = 29 }
+orc_province_farm_revenue_30 = { icon = 1 tax_income = 30 }
+orc_province_farm_revenue_31 = { icon = 1 tax_income = 31 }
+orc_province_farm_revenue_32 = { icon = 1 tax_income = 32 }
+orc_province_farm_revenue_33 = { icon = 1 tax_income = 33 }
+orc_province_farm_revenue_34 = { icon = 1 tax_income = 34 }
+orc_province_farm_revenue_35 = { icon = 1 tax_income = 35 }
+orc_province_farm_revenue_36 = { icon = 1 tax_income = 36 }
+orc_province_farm_revenue_37 = { icon = 1 tax_income = 37 }
+orc_province_farm_revenue_38 = { icon = 1 tax_income = 38 }
+orc_province_farm_revenue_39 = { icon = 1 tax_income = 39 }
+orc_province_farm_revenue_40 = { icon = 1 tax_income = 40 }
+orc_province_farm_revenue_41 = { icon = 1 tax_income = 41 }
+orc_province_farm_revenue_42 = { icon = 1 tax_income = 42 }
+orc_province_farm_revenue_43 = { icon = 1 tax_income = 43 }
+orc_province_farm_revenue_44 = { icon = 1 tax_income = 44 }
+orc_province_farm_revenue_45 = { icon = 1 tax_income = 45 }
+orc_province_farm_revenue_46 = { icon = 1 tax_income = 46 }
+orc_province_farm_revenue_47 = { icon = 1 tax_income = 47 }
+orc_province_farm_revenue_48 = { icon = 1 tax_income = 48 }
+orc_province_farm_revenue_49 = { icon = 1 tax_income = 49 }
+orc_province_farm_revenue_50 = { icon = 1 tax_income = 50 }
+orc_province_farm_revenue_51 = { icon = 1 tax_income = 51 }
+orc_province_farm_revenue_52 = { icon = 1 tax_income = 52 }
+orc_province_farm_revenue_53 = { icon = 1 tax_income = 53 }
+orc_province_farm_revenue_54 = { icon = 1 tax_income = 54 }
+orc_province_farm_revenue_55 = { icon = 1 tax_income = 55 }
+orc_province_farm_revenue_56 = { icon = 1 tax_income = 56 }
+orc_province_farm_revenue_57 = { icon = 1 tax_income = 57 }
+orc_province_farm_revenue_58 = { icon = 1 tax_income = 58 }
+orc_province_farm_revenue_59 = { icon = 1 tax_income = 59 }
+orc_province_farm_revenue_60 = { icon = 1 tax_income = 60 }
+orc_province_farm_revenue_61 = { icon = 1 tax_income = 61 }
+orc_province_farm_revenue_62 = { icon = 1 tax_income = 62 }
+orc_province_farm_revenue_63 = { icon = 1 tax_income = 63 }
+orc_province_farm_revenue_64 = { icon = 1 tax_income = 64 }
+orc_province_farm_revenue_65 = { icon = 1 tax_income = 65 }
+orc_province_farm_revenue_66 = { icon = 1 tax_income = 66 }
+orc_province_farm_revenue_67 = { icon = 1 tax_income = 67 }
+orc_province_farm_revenue_68 = { icon = 1 tax_income = 68 }
+orc_province_farm_revenue_69 = { icon = 1 tax_income = 69 }
+orc_province_farm_revenue_70 = { icon = 1 tax_income = 70 }
+orc_province_farm_revenue_71 = { icon = 1 tax_income = 71 }
+orc_province_farm_revenue_72 = { icon = 1 tax_income = 72 }
+orc_province_farm_revenue_73 = { icon = 1 tax_income = 73 }
+orc_province_farm_revenue_74 = { icon = 1 tax_income = 74 }
+orc_province_farm_revenue_75 = { icon = 1 tax_income = 75 }
+orc_province_farm_revenue_76 = { icon = 1 tax_income = 76 }
+orc_province_farm_revenue_77 = { icon = 1 tax_income = 77 }
+orc_province_farm_revenue_78 = { icon = 1 tax_income = 78 }
+orc_province_farm_revenue_79 = { icon = 1 tax_income = 79 }
+orc_province_farm_revenue_80 = { icon = 1 tax_income = 80 }
+orc_province_farm_revenue_81 = { icon = 1 tax_income = 81 }
+orc_province_farm_revenue_82 = { icon = 1 tax_income = 82 }
+orc_province_farm_revenue_83 = { icon = 1 tax_income = 83 }
+orc_province_farm_revenue_84 = { icon = 1 tax_income = 84 }
+orc_province_farm_revenue_85 = { icon = 1 tax_income = 85 }
+orc_province_farm_revenue_86 = { icon = 1 tax_income = 86 }
+orc_province_farm_revenue_87 = { icon = 1 tax_income = 87 }
+orc_province_farm_revenue_88 = { icon = 1 tax_income = 88 }
+orc_province_farm_revenue_89 = { icon = 1 tax_income = 89 }
+orc_province_farm_revenue_90 = { icon = 1 tax_income = 90 }
+orc_province_farm_revenue_91 = { icon = 1 tax_income = 91 }
+orc_province_farm_revenue_92 = { icon = 1 tax_income = 92 }
+orc_province_farm_revenue_93 = { icon = 1 tax_income = 93 }
+orc_province_farm_revenue_94 = { icon = 1 tax_income = 94 }
+orc_province_farm_revenue_95 = { icon = 1 tax_income = 95 }
+orc_province_farm_revenue_96 = { icon = 1 tax_income = 96 }
+orc_province_farm_revenue_97 = { icon = 1 tax_income = 97 }
+orc_province_farm_revenue_98 = { icon = 1 tax_income = 98 }
+orc_province_farm_revenue_99 = { icon = 1 tax_income = 99 }
+orc_province_farm_revenue_100 = { icon = 1 tax_income = 100 }
+
 
 ## GOODS
 orc_urban_good_metal_work = {

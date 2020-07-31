@@ -28,29 +28,6 @@
 
 ## SHARED BUILDINGS ##
 castle = {
-	## Agricultural Land
-	c_rich_agricultural_land = {
-		desc = rich_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 10
-	}
-	c_average_agricultural_land = {
-		desc = average_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 5
-	}
-	c_marginal_agricultural_land = {
-		desc = marginal_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 3
-	}
-		
 	## Manorial Buildings ##
 	c_manor = {
 		desc = c_manor_desc	
@@ -376,29 +353,6 @@ castle = {
 }
 
 temple = {
-	## Agricultural Land
-	t_rich_agricultural_land = {
-		desc = rich_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 10
-	}
-	t_average_agricultural_land = {
-		desc = average_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 5
-	}
-	t_marginal_agricultural_land = {
-		desc = marginal_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 3
-	}
-		
 	## Manorial Buildings ##
 	t_manor = {
 		desc = c_manor_desc	
@@ -715,28 +669,6 @@ temple = {
 }
 
 city = {
-	ct_rich_agricultural_land = {
-		desc = rich_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 10
-	}
-	ct_average_agricultural_land = {
-		desc = average_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 5
-	}
-	ct_marginal_agricultural_land = {
-		desc = marginal_agricultural_land_desc
-		trigger = { always = no }
-		gold_cost = 50
-		build_time = 50
-		tax_income = 3
-	}
-		
 	## Manorial Buildings ##
 	ct_manor = {
 		desc = c_manor_desc	
