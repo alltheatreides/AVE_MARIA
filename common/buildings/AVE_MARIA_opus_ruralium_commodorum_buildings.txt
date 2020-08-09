@@ -983,3 +983,321 @@ city = {
 	}	
 
 }
+
+tribal = {
+	## Manorial Buildings ##
+	t_manor = {
+		desc = c_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 150	
+		build_time = 180	
+		monthly_character_prestige = 0.05
+	}		
+	t_stone_manor = {		
+		desc = c_stone_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 300	
+		build_time = 50	
+		prerequisites = { t_manor }
+		upgrades_from = t_manor	
+		monthly_character_prestige = 0.075
+	}		
+	t_fortified_manor = {		
+		desc = c_fortified_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_stone_manor }
+		upgrades_from = t_stone_manor		
+		monthly_character_prestige = 0.075
+	}		
+	t_magnificent_manor = {		
+		desc = c_magnificent_manor_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_fortified_manor }
+		monthly_character_prestige = 0.1
+	}
+	## Manorial Defensive Structures 
+	t_manor_motte = {
+		desc = c_manor_motte_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { t_manor }
+	}	
+	t_manor_moat = {
+		desc = c_manor_moat_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { t_manor }
+	}
+	t_manor_water_moat = {
+		desc = c_manor_water_moat_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 60
+		prerequisites = { t_manor_moat }
+		upgrades_from = t_manor_moat
+	}
+	t_manor_wooden_gatehouse = {
+		desc = c_wooden_gatehouse_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_manor }
+	}	
+	t_manor_stone_gatehouse = {
+		desc = c_stone_gatehouse_desc
+		gold_cost = 300
+		build_time = 730
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_wooden_gatehouse }
+		upgrades_from = t_wooden_gatehouse
+	}
+	t_manor_wooden_walls = {
+		desc = c_wooden_walls_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_manor }
+	}	
+	t_manor_stone_walls = {
+		desc = c_stone_walls_desc
+		gold_cost = 300
+		build_time = 730
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_wooden_walls }
+		upgrades_from = t_wooden_walls
+	}
+	t_manor_wooden_tower = {
+		desc = c_wooden_tower_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_manor }
+		monthly_character_prestige = 0.025
+	}	
+	t_manor_stone_tower = {
+		desc = c_stone_tower_desc
+		gold_cost = 300
+		build_time = 730
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_wooden_tower }
+		upgrades_from = t_wooden_tower
+		monthly_character_prestige = 0.05
+	}
+
+	## RELIGIOUS BUILDINGS ##
+	t_priory_church = {		
+		desc = c_priory_church_desc	
+		potential = { FROM = { religion_group = christian } }
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}
+	
+	## Bishop Palace ##
+	t_bishop_palace = {
+		desc = c_bishop_palace_desc	
+		potential = { FROM = { religion_group = christian } }
+		trigger = { always = no }	
+		gold_cost = 150	
+		build_time = 180	
+		monthly_character_prestige = 0.05
+		liege_piety = 0.05
+	}		
+	t_stone_bishop_palace = {		
+		desc = c_stone_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 300	
+		build_time = 50	
+		prerequisites = { t_bishop_palace }
+		upgrades_from = t_bishop_palace	
+		monthly_character_prestige = 0.075
+		liege_piety = 0.05
+	}		
+	t_fortified_bishop_palace = {		
+		desc = c_fortified_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_stone_bishop_palace }
+		upgrades_from = t_stone_bishop_palace		
+		monthly_character_prestige = 0.075
+		liege_piety = 0.05
+	}		
+	t_magnificent_bishop_palace = {		
+		desc = c_magnificent_bishop_palace_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_fortified_bishop_palace }
+		upgrades_from = t_fortified_bishop_palace	
+		monthly_character_prestige = 0.1
+		liege_piety = 0.05
+	}
+	t_bishop_palace_wooden_walls = {
+		desc = c_wooden_walls_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_bishop_palace }
+	}	
+	t_bishop_palace_stone_walls = {
+		desc = c_stone_walls_desc
+		gold_cost = 300
+		build_time = 730
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_wooden_walls }
+		upgrades_from = t_wooden_walls
+	}
+	t_bishop_palace_wooden_tower = {
+		desc = c_wooden_tower_desc
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_bishop_palace }
+		monthly_character_prestige = 0.025
+	}	
+	t_bishop_palace_stone_tower = {
+		desc = c_stone_tower_desc
+		gold_cost = 300
+		build_time = 730
+		fort_level = 0.4
+		ai_creation_factor = 60
+		prerequisites = { t_wooden_tower }
+		upgrades_from = t_wooden_tower
+		monthly_character_prestige = 0.05
+	}
+	
+	t_coastal_village = {		
+		desc = c_coastal_village_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	
+	## URBAN BUILDINGS ##
+	t_urban_center = {		
+		desc = c_urban_center_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 3	
+	}
+	t_large_urban_center = {		
+		desc = c_large_urban_center_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 5	
+	}	
+	
+	
+	t_wooden_bridges = {		
+		desc = c_wooden_bridges_desc	
+		trigger = { borders_major_river	= yes }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	t_stone_bridges = {		
+		desc = c_stone_bridges_desc	
+		trigger = { borders_major_river	= yes }	
+		gold_cost = 50	
+		build_time = 50	
+			
+	}		
+	t_monastery_1 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	t_monastery_2 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	t_monastery_3 = {		
+		desc = c_monastery_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = -3	
+	}	
+	t_townhall = {		
+		desc = c_townhall_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		# prerequisites = { c_wooden_castle }	
+	}		
+	t_almhouse_1 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_monastery }
+		tax_income = -3
+	}
+	t_almhouse_2 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_monastery }
+		tax_income = -3
+	}
+	t_almhouse_3 = {		
+		desc = c_almhouse_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_monastery }
+		tax_income = -3
+	}
+	t_fair = {		
+		desc = c_fair_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		prerequisites = { t_urban_center }
+		tax_income = 5
+	}		
+	t_windmill = {		
+		desc = c_windmill_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 3	
+	}		
+	t_watermill = {		
+		desc = c_watermill_desc	
+		trigger = { always = no }	
+		gold_cost = 50	
+		build_time = 50	
+		tax_income = 5	
+	}	
+
+}

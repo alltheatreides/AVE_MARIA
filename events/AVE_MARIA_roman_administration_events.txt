@@ -3218,66 +3218,24 @@ character_event = {
 	}
 	
 	immediate = {
-		# add_character_modifier = {
-			# name = roman_administration_estates_1
-			# days = -1
-		# }
-		# set_variable = { which = bob_saget value = 0 }
-		# export_to_variable = {
-			# which = bob_saget
-			# value = num_of_emperor_titles
-		# }
-		# set_variable = { which = global_bob_saget value = 0 }
-		# any_vassal = {
-			# limit = {
-				# primary_title = {
-					# roman_administration_tagma_title_held_trigger = yes
+		# any_tributary = {
+			# add_alliance = {
+				# who = ROOT
+				# years = 999
+			# }
+			# THIS = {
+				# add_alliance = {
+					# who = ROOT
+					# years = 999
 				# }
 			# }
-			# export_to_variable = {
-				# which = bob_saget
-				# value = num_of_king_titles
-			# }
-			# change_variable = { which = global_bob_saget which = bob_saget }
-				
 		# }
-		# treasury = global_bob_saget
 		
-		set_variable = { which = true_vassal_troop_count value = 0 }
-		set_variable = { which = test_test_test value = 0 }
-		set_variable = { which = test_test_test_2 value = 0 }
-		
-		grant_title_no_opinion = b_compiegne
-		
-		any_demesne_province = {
-			add_province_modifier = {
-				name = orc_urban_good_metal_work
-				days = -1
-			}
+		capital_scope = {
 			any_province_holding = {
-				limit = {
-					holder = ROOT
-				}
-
-				save_event_target_as = target_test_test
-				ROOT = {
-					export_to_variable = { which = holding_true_vassal_troop_count value = holding_raisable_levy who = event_target:target_test_test }
-					change_variable = { which = true_vassal_troop_count which = holding_true_vassal_troop_count }
-					
-					export_to_variable = { which = test_test value = holding_tax_value who = event_target:target_test_test }
-					change_variable = { which = test_test_test which = test_test }
-					
-					
-				}
+				orc_holding_food_calculation = yes
 			}
 		}
-		
-		capital_holding = {
-			# convert_to = city
-			change_variable = { which = orc_rural_elite_pop_christian value = 4 }
-			change_variable = { which = orc_holding_total_elite_pop which = orc_rural_elite_pop_christian }
-		}
-		
 		
 		# create_title = { # Family Titular title - Create Family titular county title	
 			# tier = KING

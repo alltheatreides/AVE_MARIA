@@ -433,7 +433,7 @@ narrative_event = {
             }
             prestige = 25
         }
-         if = {
+        if = {
             limit = {
                 ROOT = {
                     tier = DUKE
@@ -441,7 +441,7 @@ narrative_event = {
             }
             prestige = 50
         }
-         if = {
+        if = {
             limit = {
                 ROOT = {
                     tier = KING

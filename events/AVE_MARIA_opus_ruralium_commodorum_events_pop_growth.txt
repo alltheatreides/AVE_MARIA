@@ -28,44 +28,7 @@ character_event = {
 	}
 	
 	immediate = {
-		any_title = {
-			limit = {
-				tier = baron
-			}
-			location = { ### Province pop natural ceiling
-				trigger_switch = {	
-					on_trigger = terrain
-					orc_forest_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_forest_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_forest_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_forest_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_woods_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_woods_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_woods_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_woods_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_shrub_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_shrub_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_shrub_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_shrub_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_grass_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_grass_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_grass_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_grass_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_desert_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_desert_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_desert_mountains = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_desert_highlands = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_jungle_flat = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_jungle_hill = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_floodplains = { change_variable = { which = orc_province_natural_pop_ceiling value = 100 } }
-					orc_alpine_tundra = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-					orc_marsh = { change_variable = { which = orc_province_natural_pop_ceiling value = 80 } }
-					orc_taiga = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_tundra = { change_variable = { which = orc_province_natural_pop_ceiling value = 60 } }
-					orc_small_island = { change_variable = { which = orc_province_natural_pop_ceiling value = 40 } }
-				}
-			}
-		}
+		
 	}
 }
 

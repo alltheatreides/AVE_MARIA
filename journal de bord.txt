@@ -626,16 +626,16 @@ So one way this might work is through the implementation of an expanded economy 
 - bon c'est bon merci les modifiers
 - A faire: Les tooltips pour le modifier de pop qui donne le pop breakdown
 
-text_file = open("test.txt", "r+")
+text_file = open("D:\\Project MAGNUS\\Pythin\\test.txt", "r+")
 for i in range(77116):
-    line = textfile.readline()
+    line = text_file.readline()
     if line[:2] == "e_":
         print(line)
 
 text_file.close()
 
 second part:
-text_file = open("test.txt", "r+")
+text_file = open("D:\\Project MAGNUS\\Pythin\\output.txt", "r+")
 titles = []
 for i in range(77116):
     line = textfile.readline()
@@ -648,9 +648,32 @@ print(titles)
 
 31/07/20 
 - Pour afficher les religions correctement en localisation: faire un flag minorité religieuse et un scripted trigger qui quand le flag est là crée une variable basé sur la religion en question,
-- ^ genre (à répéter pour chaque religion) orc_jewish_minority_calculation = { if or check_variable orc_lower_class_pop_jewish > 0 check_variable orc_upper_class_pop_jewish > 0 set_variable = { which = orc_total_jewish_pop which = orc_lower_class_pop_jewish et additioner les autres pop locales }
-- trigger switch = { on_trigger = religion { catholic = { check toutes les autres variables non catho}
+- ^ genre (à répéter pour chaque religion) orc_jewish_minority_calculation = { if or check_variable orc_lower_class_pop_jewish > 0 check_variable orc_upper_class_pop_jewish > 0 set_variable = { which = orc_total_jewish_pop which = orc_lower_class_pop_jewish et additioner les autres pop locales } }
+- trigger switch = { on_trigger = religion { catholic = { check toutes les autres variables non catho} } }
 
 - Pour transférer les points d'admin du roi précédent: on_death > current_heir> copy paste the variables
 
 - Faire en sorte que seuls certaisn batimens qui donnent de la tax income soient présent dans les estuaires etcc
+
+01/07/
+- Tout revoir pour les buildings, refair ele fichier d database au propre
+- Rajouter un flag pour les évéches et archevechés et les buildings d'eveque
+
+02/08/20
+- Infrastructure rurale à rajouter: La food produite est donc fonction de : pop rurale*farmland size*soil fertility*rural infra
+- Comment faire l'export de bouffe sans trop niquer la performance ? Le mieux serait d'utiliser le system suivant: a une certaine distance de pixels
+il est possible d'exporter la nourriture, (ou si de manière cotière à toutes les provinces cotières dans un plus grand rayon)
+Donc un si excedent de bouffe: alors à toutes les provinces à telle distance donner un flag/variable potentiel de bouffe, si jamais la province
+a aussi un flag demandeur de bouffe alors transaction
+
+09/08/20
+- Rajouter les vassals de l'angleterre à la guerre de 1066
+- Faire des revenus agricoles une fonction des récoltes
+- Refonte du systeme economique: Chaque province a des variables nommés infrastructure: Farmlands, Fisheries, Forestries, Mines (Rural), Industrial, Academic et Commercial (urban)
+- Ces Infra/variables ont un maximum et une taille
+- Les Infra Farmlands et Fisheries donnent de la bouffe, la bouffe des farmlands est exportable, mais pas celle des fisheries
+- Les infra sont possédés par les personnages
+- Start up, chaque province selon le type de terrain, est assigné une variable de chaque type d'infra.
+Tweak selon la cote, l'historique un peu etcc. 
+- Production de l'infra rurale: résultat de la population multipliée par 0.15 (ou autre), la size de l'infrastructure et la productivité de la terre
+- que faire de la bouffe excedentaire ? Trade, flag la province, flag la province qui en a besoin et qui est adjacente, 

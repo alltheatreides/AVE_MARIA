@@ -28,17 +28,26 @@ character_event = {
 	}
 	
 	immediate = {
-		### Ownership Display
+		### Various province effects
 		any_province = {
 			limit = {
 				has_owner = yes
 			}
+			## Setting up initial display province pop variable
 			set_variable = { which = orc_province_total_pop value = 0 }
+			
+			## Ownership Fighting elite / Clergy / Communal holding modifier display
 			orc_holding_ownership_display = yes
 			
+			## Setting up the population province ceiling variable and assigning it depending on terrain
+			orc_province_set_up_pop_ceiling = yes
+			
+			## Setting up province farmable land size variable
 			set_variable = { which = orc_province_farmable_land_size value = 0 }
+			
+			## Setting up province farmable soil quality
 			set_variable = { which = orc_province_soil_quality value = 0 }
-			# set_variable = { which = which = orc_province_soil_quality value = 0 }
+			
 			## Province Fertility and Farmable Size Distribution
 			trigger_switch = { ## Farmable land size
 				on_trigger = terrain
@@ -71,6 +80,7 @@ character_event = {
 				orc_tundra = { change_variable = { which = orc_province_farmable_land_size value = 60 } }
 				orc_small_island = { change_variable = { which = orc_province_farmable_land_size value = 40 } }
 			}
+			## Province Fertility and Farmable Size Distribution
 			trigger_switch = { ## Per region fertility distribution
 				on_trigger = region
 				world_asia_minor = { change_variable = { which = orc_province_soil_quality value = 8 } }
@@ -101,6 +111,7 @@ character_event = {
 				custom_cyprus_region = { change_variable = { which = orc_province_soil_quality value = 8 } }
 				world_persia = { change_variable = { which = orc_province_soil_quality value = 8 } }
 			}
+			## Province Fertility and Farmable Size Distribution
 			trigger_switch = { ## Terrain Type Tweak
 				on_trigger = terrain
 				orc_desert_flat = { set_variable = { which = orc_province_soil_quality value = 0 } }
@@ -109,7 +120,8 @@ character_event = {
 				orc_desert_highlands = { set_variable = { which = orc_province_soil_quality value = 0 } }
 
 			}
-
+			
+			## Province Farm Revenue Assignement from overall previous variables
 			orc_province_farm_revenue_effect = yes
 
 		}
@@ -119,9 +131,7 @@ character_event = {
 			limit = {
 				has_holder = yes
 				tier = baron
-			}
-			
-			
+			}			
 			
 			## Population Distribution
 			location = { ## Population Distribution
@@ -6073,16 +6083,14 @@ character_event = {
 			set_variable = { which = orc_holding_wealth value = 0 } 
 			export_to_variable = { which = orc_holding_wealth value = holding_tax_value }
 			orc_holding_elite_pop_military_update = yes
+			orc_holding_lower_pop_military_update = yes
 			
-			## 
+			## Holding Infrastructure
+			set_variable = { which = orc_holding_total_rural_infrastructure value = 1 }
 		}
 		
 		### Regional Population Tweak - Byzantine Empire
-		any_province = { #Constantinople should have 300 000 people
-			limit = {
-				has_owner = yes
-				province = 496
-			}
+		496 = { #Constantinople should have 300 000 people
 			capital_holding = {
 				change_variable = { which = orc_rural_peasant_pop_orthodox value = 25 }
 				change_variable = { which = orc_urban_lower_class_pop_orthodox value = 271 }
@@ -6092,13 +6100,7 @@ character_event = {
 			}
 		}
 		### Regional Population Tweak - Baghdad
-		any_province = { #Constantinople should have 1 000 000 people
-			limit = {
-				has_owner = yes
-				province = 693
-				province = 729
-				province = 690
-			}
+		693 = { #Baghdad should have 1 000 000 people
 			capital_holding = {
 				change_variable = { which = orc_rural_peasant_pop_sunni value = 4 }
 				change_variable = { which = orc_urban_lower_class_pop_sunni value = 15 }
@@ -6107,9 +6109,28 @@ character_event = {
 				orc_holding_total_pop_update = yes
 			}
 		}
+		
+		356 = {
+			any_province_holding = {
+				change_variable = { which = orc_rural_peasant_pop_catholic value = 3 }
+				change_variable = { which = orc_urban_lower_class_pop_catholic value = 1 }
+				change_variable = { which = orc_urban_elite_pop_catholic value = 1 }
+				change_variable = { which = orc_rural_elite_pop_catholic value = 0 }
+				orc_holding_total_pop_update = yes
+			}
+			capital_holding = {
+				change_variable = { which = orc_rural_peasant_pop_catholic value = 1 }
+				change_variable = { which = orc_urban_lower_class_pop_catholic value = 11 }
+				change_variable = { which = orc_urban_elite_pop_catholic value = 0 }
+				change_variable = { which = orc_rural_elite_pop_catholic value = 0 }
+				orc_holding_total_pop_update = yes
+			}
+		}
+	
 	}
 }
 
+## Test event
 character_event = {
 	id = AVE_MARIA_opus_ruralium_commodorum_starting_pop.2
 	hide_window = yes

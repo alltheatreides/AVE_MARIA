@@ -1,0 +1,322 @@
+### At the moment we have a pretty basic icon system for combat tactics showing
+### the uniticon which has the biggest bonus value in the tactic.
+### This is the sprite number for each unit:
+### 1=LI 2=HI 3=PIKE 4=LC 5=KNIGHTS 6=ARCHERS 7=HORSE ARCH.
+
+# Must be first in file. This tactic will be set if anything goes wrong
+no_tactic = {
+	days = 1 # tactic lasts one day
+	sprite = 1 # index of icon
+
+	trigger = {
+		always = no # never use unless set explicitly by code
+	}
+}
+
+de_re_militari_scouting = {
+	days = 999
+	sprite = 4
+	group = skirmish
+	
+	trigger = {
+		phase = skirmish
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	knights_offensive = -1
+	light_cavalry_offensive = -1
+	camel_cavalry_offensive = -1
+	horse_archers_offensive = -1
+	heavy_infantry_offensive = -1
+	light_infantry_offensive = -1
+	archers_offensive = -1
+	pikemen_offensive = -1
+	war_elephants_offensive = -1
+
+}
+
+de_re_militari_regular_melee = {
+	days = 999
+	sprite = 4
+	group = melee
+	
+	trigger = {
+		phase = melee
+	}
+	
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	change_phase_to = melee
+	
+}
+
+de_re_militari_rushed_attack = {
+	days = 999
+	sprite = 4
+	group = melee
+	
+	trigger = {
+		phase = melee
+		is_attacker = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	change_phase_to = melee
+	
+	knights_offensive = 0.25
+	light_cavalry_offensive = 0.25
+	camel_cavalry_offensive = 0.25
+	horse_archers_offensive = 0.25
+	heavy_infantry_offensive = 0.25
+	light_infantry_offensive = 0.25
+	archers_offensive = 0.25
+	pikemen_offensive = 0.25
+	war_elephants_offensive = 0.25
+}
+
+de_re_militari_surprise_attack = {
+	days = 999
+	sprite = 4
+	group = melee
+	
+	trigger = {
+		phase = melee
+		is_attacker = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	change_phase_to = melee
+	
+	knights_offensive = 0.5
+	light_cavalry_offensive = 0.5
+	camel_cavalry_offensive = 0.5
+	horse_archers_offensive = 0.5
+	heavy_infantry_offensive = 0.5
+	light_infantry_offensive = 0.5
+	archers_offensive = 0.5
+	pikemen_offensive = 0.5
+	war_elephants_offensive = 0.5
+}
+
+de_re_militari_effective_defense = {
+	days = 999
+	sprite = 4
+	group = melee
+	
+	trigger = {
+		phase = melee
+		is_attacker = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	knights_defensive = 0.25
+	light_cavalry_defensive = 0.25
+	camel_cavalry_defensive = 0.25
+	horse_archers_defensive = 0.25
+	heavy_infantry_defensive = 0.25
+	light_infantry_defensive = 0.25
+	archers_defensive = 0.25
+	pikemen_defensive = 0.25
+	war_elephants_defensive = 0.25
+}
+
+de_re_militari_disorganized_defense = {
+	days = 999
+	sprite = 4
+	group = melee
+	
+	trigger = {
+		phase = melee
+		is_attacker = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	knights_defensive = -0.25
+	light_cavalry_defensive = -0.25
+	camel_cavalry_defensive = -0.25
+	horse_archers_defensive = -0.25
+	heavy_infantry_defensive = -0.25
+	light_infantry_defensive = -0.25
+	archers_defensive = -0.25
+	pikemen_defensive = -0.25
+	war_elephants_defensive = -0.25
+}
+
+de_re_militari_regular_pursuit = {
+	days = 999
+	sprite = 4
+	group = charge
+	
+	trigger = {
+		phase = pursue
+		is_attacker = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+}
+
+de_re_militari_effective_retreat = {
+	days = 999
+	sprite = 4
+	group = charge
+	
+	trigger = {
+		phase = pursue
+		is_attacker = no
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+}
+
+de_re_militari_early_retreat = {
+	days = 999
+	sprite = 4
+	group = charge
+	
+	trigger = {
+		phase = pursue
+		is_attacker = yes
+	}
+
+	mean_time_to_happen = {
+		days = 9999
+	}
+	
+	knights_defensive = 0.25
+	light_cavalry_defensive = 0.25
+	camel_cavalry_defensive = 0.25
+	horse_archers_defensive = 0.25
+	heavy_infantry_defensive = 0.25
+	light_infantry_defensive = 0.25
+	archers_defensive = 0.25
+	pikemen_defensive = 0.25
+	war_elephants_defensive = 0.25
+	
+	change_phase_to = pursue
+}
+
+de_re_militari_disorganized_retreat = {
+	days = 999
+	sprite = 4
+	group = charge
+	
+	trigger = {
+		phase = pursue
+		is_attacker = no
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	knights_defensive = -0.5
+	light_cavalry_defensive = -0.5
+	camel_cavalry_defensive = -0.5
+	horse_archers_defensive = -0.5
+	heavy_infantry_defensive = -0.5
+	light_infantry_defensive = -0.5
+	archers_defensive = -0.5
+	pikemen_defensive = -0.5
+	war_elephants_defensive = -0.5
+}
+##########################################################################
+# Siege offensive tactics
+##########################################################################
+# Must be first "siege = attacker"
+no_siege_offense_tactic = {
+	days = 1 # tactic lasts one day
+	sprite = 1 # index of icon
+	
+	siege = attacker	
+	
+	trigger = {
+		always = no # never use unless set explicitly by code
+	}
+}
+
+default_siege_offense_tactic = {
+	days = 5
+	sprite = 1
+
+	siege = attacker	
+
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+}
+
+
+##########################################################################
+# Siege defensive tactics
+##########################################################################
+
+# Must be first "siege = defender"
+no_siege_defense_tactic = {
+	days = 1 # tactic lasts one day
+	sprite = 1 # index of icon
+	siege = defender	
+	trigger = {
+		always = no # never use unless set explicitly by code
+	}
+}
+
+default_siege_defense_tactic = {
+	days = 5
+	sprite = 1
+
+	siege = defender
+	
+	trigger = {
+		always = yes
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+}
+
+
+##########################################################################
+# Combat MTTH definitions(do not remove)
+##########################################################################
+
+flank_retreat_odds =
+{
+	# MTTH range is 0-100, if flank morale is below MTTH, flank will retreat
+	mean_time_to_happen = {
+		days = 20
+	}
+}
+
+flank_pursue_odds =
+{
+	# MTTH range is 0-100, chance (in %) of pursuing a fleeing flank
+	mean_time_to_happen = {
+		days = 25
+	}
+}
