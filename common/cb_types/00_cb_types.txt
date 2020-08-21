@@ -6386,7 +6386,6 @@ religious = {
 	
 	can_use_gui = {
 		ROOT = {
-			trait = zealous
 			piety = 500
 			OR = {
 				NOT = { religion = buddhist }
