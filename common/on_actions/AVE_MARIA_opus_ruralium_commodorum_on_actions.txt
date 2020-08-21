@@ -12,9 +12,9 @@
 on_startup = {
 
 	events = {
-		AVE_MARIA_opus_ruralium_commodorum_maintenance.2
+		# AVE_MARIA_opus_ruralium_commodorum_maintenance.2
 		AVE_MARIA_opus_ruralium_commodorum_starting_pop.1
-		AVE_MARIA_opus_ruralium_commodorum_starting_building.1
+		# AVE_MARIA_opus_ruralium_commodorum_starting_building.1
 	}
 }
 
@@ -28,7 +28,7 @@ on_yearly_pulse = {
 
 on_new_holder = {
 	events = {
-		AVE_MARIA_opus_ruralium_commodorum_maintenance.1
+		# AVE_MARIA_opus_ruralium_commodorum_maintenance.1
 	}
 }
 

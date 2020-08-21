@@ -23,6 +23,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		ai = no
 		is_save_game = no
 		is_multiplayer_host_character = yes
 	}
@@ -47,6 +48,39 @@ character_event = {
 			
 			## Setting up province farmable soil quality
 			set_variable = { which = orc_province_soil_quality value = 0 }
+			
+			## Assigning Modifiers
+			trigger_switch = {		
+				on_trigger = terrain	
+				orc_forest_flat = { add_province_modifier = { name = orc_forest_flat duration = -1 } }	
+				orc_forest_hill = { add_province_modifier = { name = orc_forest_hill duration = -1 } }	
+				orc_forest_mountains = { add_province_modifier = { name = orc_forest_mountains duration = -1 } }	
+				orc_forest_highlands = { add_province_modifier = { name = orc_forest_highlands duration = -1 } }	
+				orc_woods_flat = { add_province_modifier = { name = orc_woods_flat duration = -1 } }	
+				orc_woods_hill = { add_province_modifier = { name = orc_woods_hill duration = -1 } }	
+				orc_woods_mountains = { add_province_modifier = { name = orc_woods_mountains duration = -1 } }	
+				orc_woods_highlands = { add_province_modifier = { name = orc_woods_highlands duration = -1 } }	
+				orc_shrub_flat = { add_province_modifier = { name = orc_shrub_flat duration = -1 } }	
+				orc_shrub_hill = { add_province_modifier = { name = orc_shrub_hill duration = -1 } }	
+				orc_shrub_mountains = { add_province_modifier = { name = orc_shrub_mountains duration = -1 } }	
+				orc_shrub_highlands = { add_province_modifier = { name = orc_shrub_highlands duration = -1 } }	
+				orc_grass_flat = { add_province_modifier = { name = orc_grass_flat duration = -1 } }	
+				orc_grass_hill = { add_province_modifier = { name = orc_grass_hill duration = -1 } }	
+				orc_grass_mountains = { add_province_modifier = { name = orc_grass_mountains duration = -1 } }	
+				orc_grass_highlands = { add_province_modifier = { name = orc_grass_highlands duration = -1 } }	
+				orc_desert_flat = { add_province_modifier = { name = orc_desert_flat duration = -1 } }	
+				orc_desert_hill = { add_province_modifier = { name = orc_desert_hill duration = -1 } }	
+				orc_desert_mountains = { add_province_modifier = { name = orc_desert_mountains duration = -1 } }	
+				orc_desert_highlands = { add_province_modifier = { name = orc_desert_highlands duration = -1 } }	
+				orc_jungle_flat = { add_province_modifier = { name = orc_jungle_flat duration = -1 } }	
+				orc_jungle_hill = { add_province_modifier = { name = orc_jungle_hill duration = -1 } }	
+				orc_floodplains = { add_province_modifier = { name = orc_floodplains duration = -1 } }	
+				orc_alpine_tundra = { add_province_modifier = { name = orc_alpine_tundra duration = -1 } }	
+				orc_marsh = { add_province_modifier = { name = orc_marsh duration = -1 } }	
+				orc_taiga = { add_province_modifier = { name = orc_taiga duration = -1 } }	
+				orc_tundra = { add_province_modifier = { name = orc_tundra duration = -1 } }	
+				orc_small_island = { add_province_modifier = { name = orc_small_island duration = -1 } }	
+			}
 			
 			## Province Fertility and Farmable Size Distribution
 			trigger_switch = { ## Farmable land size
@@ -132,6 +166,9 @@ character_event = {
 				has_holder = yes
 				tier = baron
 			}			
+			
+			## Ownership Display
+			orc_holding_ownership_display = yes
 			
 			## Population Distribution
 			location = { ## Population Distribution
@@ -6087,6 +6124,30 @@ character_event = {
 			
 			## Holding Infrastructure
 			set_variable = { which = orc_holding_total_rural_infrastructure value = 1 }
+			
+			## Computation ease
+			if = {
+				limit = {
+					holder_scope = {
+						religion_group = christian
+						is_theocracy = no
+						culture_check_for_frankish_style_feudalism = yes
+					}					
+				}
+				add_building = c_manor
+				add_manorial_buildings_stone_quality = yes				
+			}
+			if = {
+				limit = {
+					holder_scope = {
+						religion_group = christian
+						is_theocracy = yes
+						culture_check_for_frankish_style_feudalism = yes
+					}					
+				}
+				add_building = t_manor	
+				add_bishop_buildings_stone_quality = yes
+			}
 		}
 		
 		### Regional Population Tweak - Byzantine Empire
