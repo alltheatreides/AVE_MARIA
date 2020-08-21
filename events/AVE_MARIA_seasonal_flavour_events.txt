@@ -112,7 +112,7 @@ character_event = {
 			religion = hellenic_pagan
 			religion = hellenic_pagan_reformed
 		}
-		AND {	
+		AND = {	
 			check_variable = {
 				which = hexaco_personality_value_agreeableness 
 				value = -15

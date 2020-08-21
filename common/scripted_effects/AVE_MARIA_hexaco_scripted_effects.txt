@@ -2768,7 +2768,7 @@ hexaco_personality_lvl_up = {
 	# 	Emotionality brave			
 	if = {				
 		limit = {			
-			is_variable_equal = { which = hexaco_personality_value_emotionality value => 15 }		
+			is_variable_equal = { which = hexaco_personality_value_emotionality value >= 15 }		
 			NOT = {		
 				trait = brave	
 			}		

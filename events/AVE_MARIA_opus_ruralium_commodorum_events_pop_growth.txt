@@ -83,7 +83,7 @@ character_event = {
 			}
 			if = {
 				limit = {
-					check_variable = { which = orc_food >= 1 }
+					check_variable = { which = orc_food value >= 1 }
 				}
 				if = {
 					limit = {
