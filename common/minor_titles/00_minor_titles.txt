@@ -196,28 +196,6 @@ title_commander = {
 			primary_title = { temporary = yes } 
 		}
 		liege = { character = FROM }
-		higher_tier_than = baron
-		OR = {
-			AND = {
-				FROM = {
-					primary_title = { 
-						title = e_byzantium
-					}
-				}
-				ROOT = {
-					primary_title = {
-						roman_administration_tagma_title_held_trigger = yes
-					}
-				}
-			}
-			NOT = {
-				FROM = {
-					primary_title = { 
-						title = e_byzantium
-					}
-				}
-			}
-		}
 		OR = {
 			AND = {
 				OR = {

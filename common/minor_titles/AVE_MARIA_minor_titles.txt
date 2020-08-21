@@ -21,43 +21,43 @@
 #	The other fields are all character modifiers.
 
 
-de_re_militari_title_field_commander = {
-	is_high_prio = yes
-	realm_in_name = yes
-	dignity = 0.9
-	grant_limit = 10
-	# opinion_effect = 10
-	revoke_allowed = yes
-	attribute = martial
-	monthly_prestige = 0.75
+# de_re_militari_title_field_commander = {
+	# is_high_prio = yes
+	# realm_in_name = yes
+	# dignity = 0.9
+	# grant_limit = 10
+	opinion_effect = 10
+	# revoke_allowed = yes
+	# attribute = martial
+	# monthly_prestige = 0.75
 	
-	allowed_to_hold = {
-		liege = { character = FROM }
-		is_adult = yes
-		is_female = no
-		is_inaccessible_or_incapable_trigger = no
-		NOR = {
-			is_ascetic_trigger = yes
-		}
-		martial >= 10
-	}
+	# allowed_to_hold = {
+		# liege = { character = FROM }
+		# is_adult = yes
+		# is_female = no
+		# is_inaccessible_or_incapable_trigger = no
+		# NOR = {
+			# is_ascetic_trigger = yes
+		# }
+		# martial >= 10
+	# }
 	
-	allowed_to_grant = {
+	# allowed_to_grant = {
 		
-	}
-	revoke_trigger = {
+	# }
+	# revoke_trigger = {
 		
-	}
+	# }
 
-	gain_effect = {
+	# gain_effect = {
 		
-	}
+	# }
 
-	lose_effect = {
-	}
-	message = yes
+	# lose_effect = {
+	# }
+	# message = yes
 	
-}
+# }
 
 # title_strategos_salary = {
 	# is_high_prio = yes
